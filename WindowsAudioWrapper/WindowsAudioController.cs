@@ -393,25 +393,50 @@ public sealed class WindowsAudioController : IWindowsAudioController
             return;
         }
 
-        if (playback.IsDefaultPlaybackDeviceEnabled)
+        AudioEndpointInfo? device = null;
+        AudioEndpointInfo? communicationsDevice = null;
+
+        if (playback.IsDefaultPlaybackDeviceEnabled || playback.IsVolumeEnabled || playback.IsMuteEnabled || playback.IsFormatEnabled || playback.IsSpatialSoundEnabled || playback.IsAudioEnhancementsEnabled)
         {
-            ValidateEndpoint(playback.Device, AudioFlow.Render, nameof(playback.Device), result);
+            device = ValidateEndpoint(playback.Device, AudioFlow.Render, nameof(playback.Device), result);
         }
 
         if (playback.IsDefaultCommunicationsPlaybackDeviceEnabled)
         {
-            ValidateEndpoint(playback.CommunicationsDevice, AudioFlow.Render, nameof(playback.CommunicationsDevice), result);
-        }
-
-        if ((playback.IsVolumeEnabled || playback.IsMuteEnabled || playback.IsFormatEnabled || playback.IsSpatialSoundEnabled || playback.IsAudioEnhancementsEnabled)
-            && !playback.Device.IsEndpointEnabled)
-        {
-            result.Messages.Add(AudioOperationMessage.Error(
-                AudioMessageCode.DeviceMissing,
-                "Playback device must be selected when playback device settings are enabled."));
+            communicationsDevice = ValidateEndpoint(playback.CommunicationsDevice, AudioFlow.Render, nameof(playback.CommunicationsDevice), result);
         }
 
         ValidateVolume(playback.IsVolumeEnabled, playback.VolumePercent, result);
+
+        if (device is not null)
+        {
+            if (playback.IsVolumeEnabled && !device.Capabilities.IsVolumeSupported)
+            {
+                AddUnsupported(result, "Playback volume is not supported by the selected playback device.");
+            }
+
+            if (playback.IsMuteEnabled && !device.Capabilities.IsMuteSupported)
+            {
+                AddUnsupported(result, "Playback mute is not supported by the selected playback device.");
+            }
+
+            if (playback.IsFormatEnabled && !device.Capabilities.IsFormatSetSupported)
+            {
+                AddUnsupported(result, "Playback format setting is not supported by this version of WindowsAudioWrapper.");
+            }
+
+            if (playback.IsSpatialSoundEnabled && !device.Capabilities.IsSpatialSoundSetSupported)
+            {
+                AddUnsupported(result, "Spatial sound setting is not supported by this version of WindowsAudioWrapper.");
+            }
+
+            if (playback.IsAudioEnhancementsEnabled && !device.Capabilities.IsAudioEnhancementsSetSupported)
+            {
+                AddUnsupported(result, "Playback audio enhancement setting is not supported by this version of WindowsAudioWrapper.");
+            }
+        }
+
+        _ = communicationsDevice;
     }
 
     private void ValidateRecordingProfile(RecordingAudioProfile recording, AudioProfileValidationResult result)
@@ -421,32 +446,62 @@ public sealed class WindowsAudioController : IWindowsAudioController
             return;
         }
 
-        if (recording.IsDefaultRecordingDeviceEnabled)
+        AudioEndpointInfo? device = null;
+        AudioEndpointInfo? communicationsDevice = null;
+
+        if (recording.IsDefaultRecordingDeviceEnabled || recording.IsVolumeEnabled || recording.IsMuteEnabled || recording.IsFormatEnabled || recording.IsAudioEnhancementsEnabled || recording.IsVoiceProcessingEnabled)
         {
-            ValidateEndpoint(recording.Device, AudioFlow.Capture, nameof(recording.Device), result);
+            device = ValidateEndpoint(recording.Device, AudioFlow.Capture, nameof(recording.Device), result);
         }
 
         if (recording.IsDefaultCommunicationsRecordingDeviceEnabled)
         {
-            ValidateEndpoint(recording.CommunicationsDevice, AudioFlow.Capture, nameof(recording.CommunicationsDevice), result);
-        }
-
-        if ((recording.IsVolumeEnabled || recording.IsMuteEnabled || recording.IsFormatEnabled || recording.IsAudioEnhancementsEnabled || recording.IsVoiceProcessingEnabled)
-            && !recording.Device.IsEndpointEnabled)
-        {
-            result.Messages.Add(AudioOperationMessage.Error(
-                AudioMessageCode.DeviceMissing,
-                "Recording device must be selected when recording device settings are enabled."));
+            communicationsDevice = ValidateEndpoint(recording.CommunicationsDevice, AudioFlow.Capture, nameof(recording.CommunicationsDevice), result);
         }
 
         ValidateVolume(recording.IsVolumeEnabled, recording.VolumePercent, result);
+
+        if (device is not null)
+        {
+            if (recording.IsVolumeEnabled && !device.Capabilities.IsVolumeSupported)
+            {
+                AddUnsupported(result, "Recording volume is not supported by the selected recording device.");
+            }
+
+            if (recording.IsMuteEnabled && !device.Capabilities.IsMuteSupported)
+            {
+                AddUnsupported(result, "Recording mute is not supported by the selected recording device.");
+            }
+
+            if (recording.IsFormatEnabled && !device.Capabilities.IsFormatSetSupported)
+            {
+                AddUnsupported(result, "Recording format setting is not supported by this version of WindowsAudioWrapper.");
+            }
+
+            if (recording.IsAudioEnhancementsEnabled && !device.Capabilities.IsAudioEnhancementsSetSupported)
+            {
+                AddUnsupported(result, "Recording audio enhancement setting is not supported by this version of WindowsAudioWrapper.");
+            }
+
+            if (recording.IsVoiceProcessingEnabled && !device.Capabilities.IsVoiceProcessingSetSupported)
+            {
+                AddUnsupported(result, "Voice processing setting is not supported by this version of WindowsAudioWrapper.");
+            }
+        }
+
+        _ = communicationsDevice;
     }
 
-    private static void ValidateSystemAudioProfile(SystemAudioProfile system, AudioProfileValidationResult result)
+    private void ValidateSystemAudioProfile(SystemAudioProfile system, AudioProfileValidationResult result)
     {
         if (!system.IsSystemAudioEnabled)
         {
             return;
+        }
+
+        if (system.IsMonoAudioEnabled && !_systemAudioProvider.IsMonoAudioSetSupported)
+        {
+            AddUnsupported(result, "Mono audio setting is not supported by this version of WindowsAudioWrapper.");
         }
 
         if (!system.IsMonoAudioEnabled)
@@ -457,14 +512,14 @@ public sealed class WindowsAudioController : IWindowsAudioController
         }
     }
 
-    private static void ValidateEndpoint(AudioEndpointReference endpoint, AudioFlow expectedFlow, string propertyName, AudioProfileValidationResult result)
+    private AudioEndpointInfo? ValidateEndpoint(AudioEndpointReference endpoint, AudioFlow expectedFlow, string propertyName, AudioProfileValidationResult result)
     {
         if (!endpoint.IsEndpointEnabled)
         {
             result.Messages.Add(AudioOperationMessage.Error(
                 AudioMessageCode.DeviceMissing,
                 $"{propertyName} does not contain a device reference."));
-            return;
+            return null;
         }
 
         if (endpoint.Flow != AudioFlow.Unknown && endpoint.Flow != expectedFlow)
@@ -472,7 +527,26 @@ public sealed class WindowsAudioController : IWindowsAudioController
             result.Messages.Add(AudioOperationMessage.Error(
                 AudioMessageCode.InvalidAudioFlow,
                 $"{propertyName} has flow {endpoint.Flow}, but expected {expectedFlow}."));
+            return null;
         }
+
+        AudioEndpointInfo resolved = _deviceProvider.ResolveEndpoint(endpoint, expectedFlow);
+        if (string.IsNullOrWhiteSpace(resolved.DeviceId))
+        {
+            result.Messages.Add(AudioOperationMessage.Error(
+                AudioMessageCode.DeviceNotFound,
+                $"{propertyName} could not be found."));
+            return null;
+        }
+
+        if (resolved.State.HasFlag(AudioDeviceState.Disabled) || resolved.State.HasFlag(AudioDeviceState.NotPresent))
+        {
+            result.Messages.Add(AudioOperationMessage.Error(
+                AudioMessageCode.DeviceUnavailable,
+                $"{propertyName} is not currently available. Device state: {resolved.State}."));
+        }
+
+        return resolved;
     }
 
     private static void ValidateVolume(bool isVolumeEnabled, decimal volumePercent, AudioProfileValidationResult result)
@@ -488,6 +562,13 @@ public sealed class WindowsAudioController : IWindowsAudioController
                 AudioMessageCode.InvalidVolume,
                 "VolumePercent must be between 0 and 100."));
         }
+    }
+
+    private static void AddUnsupported(AudioProfileValidationResult result, string message)
+    {
+        result.Messages.Add(AudioOperationMessage.Error(
+            AudioMessageCode.UnsupportedSetting,
+            message));
     }
 
     private void ThrowIfDisposed()

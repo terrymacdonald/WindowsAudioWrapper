@@ -10,6 +10,7 @@ D:\visual-studio-projects\WindowsAudioWrapper\WindowsAudioWrapper.SampleApp\obj\
 D:\visual-studio-projects\WindowsAudioWrapper\WindowsAudioWrapper.SampleApp\obj\Debug\net10.0\WindowsAudioWrapper.SampleApp.AssemblyInfoInputs.cache
 D:\visual-studio-projects\WindowsAudioWrapper\WindowsAudioWrapper.SampleApp\obj\Debug\net10.0\WindowsAudioWrapper.SampleApp.AssemblyInfo.cs
 D:\visual-studio-projects\WindowsAudioWrapper\WindowsAudioWrapper.SampleApp\obj\Debug\net10.0\WindowsAudioWrapper.SampleApp.csproj.CoreCompileInputs.cache
+D:\visual-studio-projects\WindowsAudioWrapper\WindowsAudioWrapper.SampleApp\obj\Debug\net10.0\WindowsAudioWrapper.SampleApp.sourcelink.json
 D:\visual-studio-projects\WindowsAudioWrapper\WindowsAudioWrapper.SampleApp\obj\Debug\net10.0\WindowsA.5A982E8E.Up2Date
 D:\visual-studio-projects\WindowsAudioWrapper\WindowsAudioWrapper.SampleApp\obj\Debug\net10.0\WindowsAudioWrapper.SampleApp.dll
 D:\visual-studio-projects\WindowsAudioWrapper\WindowsAudioWrapper.SampleApp\obj\Debug\net10.0\refint\WindowsAudioWrapper.SampleApp.dll

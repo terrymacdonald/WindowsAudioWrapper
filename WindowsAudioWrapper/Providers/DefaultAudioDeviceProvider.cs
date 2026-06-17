@@ -1,54 +1,117 @@
 namespace WindowsAudioWrapper.Providers;
 
+using System.Runtime.InteropServices;
+using WindowsAudioWrapper.Internal.CoreAudio;
+using WindowsAudioWrapper.Internal.PolicyConfig;
 using WindowsAudioWrapper.Models;
 
-/// <summary>
-/// Placeholder provider for reading and setting default audio endpoints.
-/// Setting default endpoints will likely use PolicyConfig interop internally.
-/// </summary>
 internal sealed class DefaultAudioDeviceProvider : IDefaultAudioDeviceProvider
 {
     public AudioEndpointInfo GetDefaultPlaybackDevice()
     {
-        throw new NotImplementedException("Default playback device read has not been implemented yet.");
+        return GetDefaultDevice(AudioFlow.Render, CoreAudioInterop.ERole.eMultimedia);
     }
 
     public AudioEndpointInfo GetDefaultRecordingDevice()
     {
-        throw new NotImplementedException("Default recording device read has not been implemented yet.");
+        return GetDefaultDevice(AudioFlow.Capture, CoreAudioInterop.ERole.eMultimedia);
     }
 
     public AudioEndpointInfo GetDefaultCommunicationsPlaybackDevice()
     {
-        throw new NotImplementedException("Default communications playback device read has not been implemented yet.");
+        return GetDefaultDevice(AudioFlow.Render, CoreAudioInterop.ERole.eCommunications);
     }
 
     public AudioEndpointInfo GetDefaultCommunicationsRecordingDevice()
     {
-        throw new NotImplementedException("Default communications recording device read has not been implemented yet.");
+        return GetDefaultDevice(AudioFlow.Capture, CoreAudioInterop.ERole.eCommunications);
     }
 
     public void SetDefaultPlaybackDevice(AudioEndpointReference endpoint)
     {
-        ArgumentNullException.ThrowIfNull(endpoint);
-        throw new NotImplementedException("Default playback device set has not been implemented yet.");
+        SetDefaultDevice(endpoint, CoreAudioInterop.ERole.eConsole, CoreAudioInterop.ERole.eMultimedia);
     }
 
     public void SetDefaultRecordingDevice(AudioEndpointReference endpoint)
     {
-        ArgumentNullException.ThrowIfNull(endpoint);
-        throw new NotImplementedException("Default recording device set has not been implemented yet.");
+        SetDefaultDevice(endpoint, CoreAudioInterop.ERole.eConsole, CoreAudioInterop.ERole.eMultimedia);
     }
 
     public void SetDefaultCommunicationsPlaybackDevice(AudioEndpointReference endpoint)
     {
-        ArgumentNullException.ThrowIfNull(endpoint);
-        throw new NotImplementedException("Default communications playback device set has not been implemented yet.");
+        SetDefaultDevice(endpoint, CoreAudioInterop.ERole.eCommunications);
     }
 
     public void SetDefaultCommunicationsRecordingDevice(AudioEndpointReference endpoint)
     {
+        SetDefaultDevice(endpoint, CoreAudioInterop.ERole.eCommunications);
+    }
+
+    private static AudioEndpointInfo GetDefaultDevice(AudioFlow flow, CoreAudioInterop.ERole role)
+    {
+        try
+        {
+            CoreAudioInterop.IMMDeviceEnumerator enumerator = CoreAudioUtilities.CreateEnumerator();
+            enumerator.GetDefaultAudioEndpoint(CoreAudioUtilities.ToNativeFlow(flow), role, out CoreAudioInterop.IMMDevice device);
+            device.GetId(out string defaultId);
+            AudioEndpointInfo endpoint = AudioDeviceProvider.CreateEndpointInfo(device, flow, defaultId, role == CoreAudioInterop.ERole.eCommunications ? defaultId : string.Empty);
+            if (role == CoreAudioInterop.ERole.eCommunications)
+            {
+                endpoint.IsDefaultCommunicationsDevice = true;
+            }
+            else
+            {
+                endpoint.IsDefaultDevice = true;
+            }
+
+            return endpoint;
+        }
+        catch (COMException ex)
+        {
+            return new AudioEndpointInfo
+            {
+                Flow = flow,
+                State = AudioDeviceState.NotPresent,
+                Capabilities = new AudioEndpointCapabilities
+                {
+                    IsDefaultDeviceSupported = false,
+                    IsDefaultCommunicationsDeviceSupported = false,
+                    IsVolumeSupported = false,
+                    IsMuteSupported = false
+                },
+                FullName = $"No default {flow} device ({ex.HResult:X8})"
+            };
+        }
+    }
+
+    private static void SetDefaultDevice(AudioEndpointReference endpoint, params CoreAudioInterop.ERole[] roles)
+    {
         ArgumentNullException.ThrowIfNull(endpoint);
-        throw new NotImplementedException("Default communications recording device set has not been implemented yet.");
+
+        if (string.IsNullOrWhiteSpace(endpoint.DeviceId))
+        {
+            throw new ArgumentException("Endpoint DeviceId is required to set a default audio device.", nameof(endpoint));
+        }
+
+        Type? policyConfigType = Type.GetTypeFromCLSID(PolicyConfigInterop.CLSID_PolicyConfigClient);
+        if (policyConfigType is null)
+        {
+            throw new COMException("Unable to resolve the PolicyConfigClient COM class.");
+        }
+
+        object? policyConfigObject = Activator.CreateInstance(policyConfigType);
+        if (policyConfigObject is not PolicyConfigInterop.IPolicyConfig policyConfig)
+        {
+            throw new COMException("Unable to create the PolicyConfigClient COM object.");
+        }
+
+        foreach (CoreAudioInterop.ERole role in roles)
+        {
+            int hr = policyConfig.SetDefaultEndpoint(endpoint.DeviceId, (int)role);
+            if (hr < 0)
+            {
+                Marshal.ThrowExceptionForHR(hr);
+            }
+        }
     }
 }

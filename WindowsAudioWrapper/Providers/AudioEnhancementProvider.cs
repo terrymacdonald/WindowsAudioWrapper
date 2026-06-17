@@ -2,9 +2,6 @@ namespace WindowsAudioWrapper.Providers;
 
 using WindowsAudioWrapper.Models;
 
-/// <summary>
-/// Placeholder provider for audio enhancements and capture voice processing features.
-/// </summary>
 internal sealed class AudioEnhancementProvider : IAudioEnhancementProvider
 {
     public AudioEnhancementProfile GetAudioEnhancements(string deviceId)
@@ -14,7 +11,7 @@ internal sealed class AudioEnhancementProvider : IAudioEnhancementProvider
             throw new ArgumentException("DeviceId is required.", nameof(deviceId));
         }
 
-        throw new NotImplementedException("Audio enhancement read has not been implemented yet.");
+        return new AudioEnhancementProfile();
     }
 
     public void SetAudioEnhancements(AudioEndpointReference endpoint, AudioEnhancementProfile audioEnhancements)
@@ -22,7 +19,7 @@ internal sealed class AudioEnhancementProvider : IAudioEnhancementProvider
         ArgumentNullException.ThrowIfNull(endpoint);
         ArgumentNullException.ThrowIfNull(audioEnhancements);
         audioEnhancements.EnsureDefaults();
-        throw new NotImplementedException("Audio enhancement set has not been implemented yet.");
+        throw new NotSupportedException("Audio enhancement setting is not supported by this version of WindowsAudioWrapper.");
     }
 
     public VoiceProcessingProfile GetVoiceProcessing(string deviceId)
@@ -32,13 +29,13 @@ internal sealed class AudioEnhancementProvider : IAudioEnhancementProvider
             throw new ArgumentException("DeviceId is required.", nameof(deviceId));
         }
 
-        throw new NotImplementedException("Voice processing read has not been implemented yet.");
+        return new VoiceProcessingProfile();
     }
 
     public void SetVoiceProcessing(AudioEndpointReference endpoint, VoiceProcessingProfile voiceProcessing)
     {
         ArgumentNullException.ThrowIfNull(endpoint);
         ArgumentNullException.ThrowIfNull(voiceProcessing);
-        throw new NotImplementedException("Voice processing set has not been implemented yet.");
+        throw new NotSupportedException("Voice processing setting is not supported by this version of WindowsAudioWrapper.");
     }
 }

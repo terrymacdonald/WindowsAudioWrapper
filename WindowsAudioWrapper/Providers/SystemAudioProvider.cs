@@ -1,8 +1,5 @@
 namespace WindowsAudioWrapper.Providers;
 
-/// <summary>
-/// Placeholder provider for system-wide audio accessibility settings such as mono audio.
-/// </summary>
 internal sealed class SystemAudioProvider : ISystemAudioProvider
 {
     public bool IsMonoAudioReadSupported => false;
@@ -11,11 +8,11 @@ internal sealed class SystemAudioProvider : ISystemAudioProvider
 
     public bool GetMonoAudio()
     {
-        throw new NotImplementedException("Mono audio read has not been implemented yet.");
+        return false;
     }
 
     public void SetMonoAudio(bool enabled)
     {
-        throw new NotImplementedException("Mono audio set has not been implemented yet.");
+        throw new NotSupportedException("Mono audio setting is not supported by this version of WindowsAudioWrapper.");
     }
 }

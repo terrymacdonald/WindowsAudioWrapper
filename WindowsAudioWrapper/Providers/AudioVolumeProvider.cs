@@ -1,16 +1,18 @@
 namespace WindowsAudioWrapper.Providers;
 
+using WindowsAudioWrapper.Internal.CoreAudio;
 using WindowsAudioWrapper.Models;
 
-/// <summary>
-/// Placeholder provider for IAudioEndpointVolume operations.
-/// </summary>
 internal sealed class AudioVolumeProvider : IAudioVolumeProvider
 {
     public decimal GetVolumePercent(AudioEndpointReference endpoint)
     {
         ArgumentNullException.ThrowIfNull(endpoint);
-        throw new NotImplementedException("Endpoint volume read has not been implemented yet.");
+        ValidateDeviceId(endpoint);
+
+        CoreAudioInterop.IAudioEndpointVolume volume = CoreAudioUtilities.ActivateEndpointVolume(endpoint.DeviceId);
+        volume.GetMasterVolumeLevelScalar(out float scalar);
+        return Math.Round((decimal)scalar * 100m, 2);
     }
 
     public void SetVolumePercent(AudioEndpointReference endpoint, decimal volumePercent)
@@ -18,18 +20,39 @@ internal sealed class AudioVolumeProvider : IAudioVolumeProvider
         ArgumentNullException.ThrowIfNull(endpoint);
         ArgumentOutOfRangeException.ThrowIfLessThan(volumePercent, 0);
         ArgumentOutOfRangeException.ThrowIfGreaterThan(volumePercent, 100);
-        throw new NotImplementedException("Endpoint volume set has not been implemented yet.");
+        ValidateDeviceId(endpoint);
+
+        CoreAudioInterop.IAudioEndpointVolume volume = CoreAudioUtilities.ActivateEndpointVolume(endpoint.DeviceId);
+        float scalar = (float)(volumePercent / 100m);
+        Guid eventContext = Guid.Empty;
+        volume.SetMasterVolumeLevelScalar(scalar, ref eventContext);
     }
 
     public bool GetMute(AudioEndpointReference endpoint)
     {
         ArgumentNullException.ThrowIfNull(endpoint);
-        throw new NotImplementedException("Endpoint mute read has not been implemented yet.");
+        ValidateDeviceId(endpoint);
+
+        CoreAudioInterop.IAudioEndpointVolume volume = CoreAudioUtilities.ActivateEndpointVolume(endpoint.DeviceId);
+        volume.GetMute(out bool muted);
+        return muted;
     }
 
     public void SetMute(AudioEndpointReference endpoint, bool muted)
     {
         ArgumentNullException.ThrowIfNull(endpoint);
-        throw new NotImplementedException("Endpoint mute set has not been implemented yet.");
+        ValidateDeviceId(endpoint);
+
+        CoreAudioInterop.IAudioEndpointVolume volume = CoreAudioUtilities.ActivateEndpointVolume(endpoint.DeviceId);
+        Guid eventContext = Guid.Empty;
+        volume.SetMute(muted, ref eventContext);
+    }
+
+    private static void ValidateDeviceId(AudioEndpointReference endpoint)
+    {
+        if (string.IsNullOrWhiteSpace(endpoint.DeviceId))
+        {
+            throw new ArgumentException("Endpoint DeviceId is required for volume or mute operations.", nameof(endpoint));
+        }
     }
 }
