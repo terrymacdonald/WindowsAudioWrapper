@@ -1,0 +1,11 @@
+D:\visual-studio-projects\WindowsAudioWrapper\WindowsAudioWrapper\bin\Debug\net10.0\WindowsAudioWrapper.deps.json
+D:\visual-studio-projects\WindowsAudioWrapper\WindowsAudioWrapper\bin\Debug\net10.0\WindowsAudioWrapper.dll
+D:\visual-studio-projects\WindowsAudioWrapper\WindowsAudioWrapper\bin\Debug\net10.0\WindowsAudioWrapper.pdb
+D:\visual-studio-projects\WindowsAudioWrapper\WindowsAudioWrapper\obj\Debug\net10.0\WindowsAudioWrapper.GeneratedMSBuildEditorConfig.editorconfig
+D:\visual-studio-projects\WindowsAudioWrapper\WindowsAudioWrapper\obj\Debug\net10.0\WindowsAudioWrapper.AssemblyInfoInputs.cache
+D:\visual-studio-projects\WindowsAudioWrapper\WindowsAudioWrapper\obj\Debug\net10.0\WindowsAudioWrapper.AssemblyInfo.cs
+D:\visual-studio-projects\WindowsAudioWrapper\WindowsAudioWrapper\obj\Debug\net10.0\WindowsAudioWrapper.csproj.CoreCompileInputs.cache
+D:\visual-studio-projects\WindowsAudioWrapper\WindowsAudioWrapper\obj\Debug\net10.0\WindowsAudioWrapper.dll
+D:\visual-studio-projects\WindowsAudioWrapper\WindowsAudioWrapper\obj\Debug\net10.0\refint\WindowsAudioWrapper.dll
+D:\visual-studio-projects\WindowsAudioWrapper\WindowsAudioWrapper\obj\Debug\net10.0\WindowsAudioWrapper.pdb
+D:\visual-studio-projects\WindowsAudioWrapper\WindowsAudioWrapper\obj\Debug\net10.0\ref\WindowsAudioWrapper.dll

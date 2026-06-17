@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="WindowsAudioWrapper.SampleApp/WindowsAudioWrapper.SampleApp.csproj" />
+  <Project Path="WindowsAudioWrapper.Tests/WindowsAudioWrapper.Tests.csproj" />
+  <Project Path="WindowsAudioWrapper/WindowsAudioWrapper.csproj" />
+</Solution>

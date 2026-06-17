@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "WindowsAudioWrapper.SampleApp/1.0.0": {
+        "dependencies": {
+          "WindowsAudioWrapper": "1.0.0"
+        },
+        "runtime": {
+          "WindowsAudioWrapper.SampleApp.dll": {}
+        }
+      },
+      "WindowsAudioWrapper/1.0.0": {
+        "runtime": {
+          "WindowsAudioWrapper.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WindowsAudioWrapper.SampleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WindowsAudioWrapper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
