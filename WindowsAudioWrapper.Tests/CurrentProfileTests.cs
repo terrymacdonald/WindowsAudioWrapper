@@ -30,7 +30,6 @@ public sealed class CurrentProfileTests
                 profile.Playback.IsVolumeEnabled ||
                 profile.Playback.IsMuteEnabled ||
                 profile.Playback.IsFormatEnabled ||
-                profile.Playback.IsSpatialSoundEnabled ||
                 profile.Playback.IsAudioEnhancementsEnabled,
                 "Playback was enabled but no playback settings were captured.");
         }
@@ -43,8 +42,7 @@ public sealed class CurrentProfileTests
                 profile.Recording.IsVolumeEnabled ||
                 profile.Recording.IsMuteEnabled ||
                 profile.Recording.IsFormatEnabled ||
-                profile.Recording.IsAudioEnhancementsEnabled ||
-                profile.Recording.IsVoiceProcessingEnabled,
+                profile.Recording.IsAudioEnhancementsEnabled,
                 "Recording was enabled but no recording settings were captured.");
         }
     }
