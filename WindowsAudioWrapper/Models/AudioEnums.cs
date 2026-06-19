@@ -1,8 +1,5 @@
 namespace WindowsAudioWrapper.Models;
 
-/// <summary>
-/// Represents the current state of a Windows audio device.
-/// </summary>
 [Flags]
 public enum AudioDeviceState
 {
@@ -14,9 +11,6 @@ public enum AudioDeviceState
     All = Active | Disabled | NotPresent | Unplugged
 }
 
-/// <summary>
-/// Represents the data flow direction of an audio endpoint.
-/// </summary>
 public enum AudioFlow
 {
     Unknown = 0,
@@ -24,9 +18,6 @@ public enum AudioFlow
     Capture = 2
 }
 
-/// <summary>
-/// Represents the underlying sample format of the audio stream.
-/// </summary>
 public enum AudioSampleFormat
 {
     Unknown = 0,
@@ -34,9 +25,6 @@ public enum AudioSampleFormat
     IeeeFloat = 2
 }
 
-/// <summary>
-/// Represents how the audio stream interacts with the Windows audio engine.
-/// </summary>
 public enum AudioFormatMode
 {
     Unknown = 0,
@@ -44,22 +32,6 @@ public enum AudioFormatMode
     Exclusive = 2
 }
 
-/// <summary>
-/// Represents the spatial sound format applied to a device.
-/// </summary>
-public enum SpatialSoundMode
-{
-    Unknown = 0,
-    Off = 1,
-    WindowsSonic = 2,
-    DolbyAtmos = 3,
-    Dts = 4,
-    Other = 99
-}
-
-/// <summary>
-/// Defines the severity of an audio operation message.
-/// </summary>
 public enum AudioMessageSeverity
 {
     Info = 0,
@@ -67,9 +39,6 @@ public enum AudioMessageSeverity
     Error = 2
 }
 
-/// <summary>
-/// Defines the severity of an audio profile validation result.
-/// </summary>
 public enum AudioValidationSeverity
 {
     Valid = 0,
@@ -77,9 +46,6 @@ public enum AudioValidationSeverity
     Error = 2
 }
 
-/// <summary>
-/// Defines specific codes for audio operation results.
-/// </summary>
 public enum AudioMessageCode
 {
     None = 0,

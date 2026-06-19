@@ -158,12 +158,8 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
                 IsMuteSupported = state.HasFlag(AudioDeviceState.Active),
                 IsFormatReadSupported = false,
                 IsFormatSetSupported = false,
-                IsSpatialSoundReadSupported = false,
-                IsSpatialSoundSetSupported = false,
                 IsAudioEnhancementsReadSupported = false,
-                IsAudioEnhancementsSetSupported = false,
-                IsVoiceProcessingReadSupported = false,
-                IsVoiceProcessingSetSupported = false
+                IsAudioEnhancementsSetSupported = false
             }
         };
 
