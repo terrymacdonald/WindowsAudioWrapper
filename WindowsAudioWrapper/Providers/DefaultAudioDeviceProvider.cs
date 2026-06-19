@@ -1,15 +1,12 @@
 namespace WindowsAudioWrapper.Providers;
 
 using System.Runtime.InteropServices;
-using System.Runtime.InteropServices.Marshalling;
 using WindowsAudioWrapper.Internal.CoreAudio;
 using WindowsAudioWrapper.Internal.PolicyConfig;
 using WindowsAudioWrapper.Models;
 
 internal sealed class DefaultAudioDeviceProvider : IDefaultAudioDeviceProvider
 {
-    private static readonly StrategyBasedComWrappers _comWrappers = new();
-
     public AudioEndpointInfo GetDefaultPlaybackDevice()
     {
         return GetDefaultDevice(AudioFlow.Render, ERole.eMultimedia);
@@ -55,34 +52,32 @@ internal sealed class DefaultAudioDeviceProvider : IDefaultAudioDeviceProvider
         try
         {
             IMMDeviceEnumerator enumerator = CoreAudioUtilities.CreateEnumerator();
-            int hr = enumerator.GetDefaultAudioEndpoint(CoreAudioUtilities.ToNativeFlow(flow), role, out IntPtr devicePtr);
+            int hr = enumerator.GetDefaultAudioEndpoint(CoreAudioUtilities.ToNativeFlow(flow), role, out IMMDevice device);
             
-            if (hr < 0 || devicePtr == IntPtr.Zero)
+            if (hr < 0 || device == null)
             {
                 Marshal.ThrowExceptionForHR(hr);
             }
 
-            try
+            // Explicitly guard against null to eliminate warning CS8602
+            if (device == null)
             {
-                var device = (IMMDevice)_comWrappers.GetOrCreateObjectForComInstance(devicePtr, CreateObjectFlags.None);
-                device.GetId(out string defaultId);
-                AudioEndpointInfo endpoint = AudioDeviceProvider.CreateEndpointInfo(device, flow, defaultId, role == ERole.eCommunications ? defaultId : string.Empty);
-                
-                if (role == ERole.eCommunications)
-                {
-                    endpoint.IsDefaultCommunicationsDevice = true;
-                }
-                else
-                {
-                    endpoint.IsDefaultDevice = true;
-                }
+                throw new COMException("The returned default audio device object instance was null.");
+            }
 
-                return endpoint;
-            }
-            finally
+            device.GetId(out string defaultId);
+            AudioEndpointInfo endpoint = AudioDeviceProvider.CreateEndpointInfo(device, flow, defaultId, role == ERole.eCommunications ? defaultId : string.Empty);
+            
+            if (role == ERole.eCommunications)
             {
-                Marshal.Release(devicePtr);
+                endpoint.IsDefaultCommunicationsDevice = true;
             }
+            else
+            {
+                endpoint.IsDefaultDevice = true;
+            }
+
+            return endpoint;
         }
         catch (Exception ex)
         {

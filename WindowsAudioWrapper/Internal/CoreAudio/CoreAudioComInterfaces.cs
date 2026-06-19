@@ -108,13 +108,13 @@ internal struct WAVEFORMATEXTENSIBLE
 internal partial interface IMMDeviceEnumerator
 {
     [PreserveSig]
-    int EnumAudioEndpoints(EDataFlow dataFlow, int dwStateMask, out IntPtr ppDevices);
+    int EnumAudioEndpoints(EDataFlow dataFlow, int dwStateMask, out IMMDeviceCollection ppDevices);
 
     [PreserveSig]
-    int GetDefaultAudioEndpoint(EDataFlow dataFlow, ERole role, out IntPtr ppEndpoint);
+    int GetDefaultAudioEndpoint(EDataFlow dataFlow, ERole role, out IMMDevice ppEndpoint);
 
     [PreserveSig]
-    int GetDevice(string pwstrId, out IntPtr ppDevice);
+    int GetDevice(string pwstrId, out IMMDevice ppDevice);
 
     [PreserveSig]
     int RegisterEndpointNotificationCallback(IntPtr pClient);
@@ -132,7 +132,7 @@ internal partial interface IMMDeviceCollection
     int GetCount(out uint pcDevices);
 
     [PreserveSig]
-    int Item(uint nDevice, out IntPtr ppDevice);
+    int Item(uint nDevice, out IMMDevice ppDevice);
 }
 
 [GeneratedComInterface(StringMarshalling = StringMarshalling.Utf16)]

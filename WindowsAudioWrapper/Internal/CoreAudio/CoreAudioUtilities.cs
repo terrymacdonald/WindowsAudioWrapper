@@ -6,6 +6,20 @@ using WindowsAudioWrapper.Models;
 
 internal static class CoreAudioUtilities
 {
+    static CoreAudioUtilities()
+    {
+        try
+        {
+            // Register StrategyBasedComWrappers globally so the modern .NET runtime
+            // automatically knows how to resolve and cast our source-generated COM interfaces.
+            ComWrappers.RegisterForMarshalling(new StrategyBasedComWrappers());
+        }
+        catch (InvalidOperationException)
+        {
+            // Already registered by another component or a previous test run; safe to ignore.
+        }
+    }
+
     public static IMMDeviceEnumerator CreateEnumerator()
     {
         int hr = CoreAudioConstants.CoCreateInstance(
@@ -110,14 +124,13 @@ internal static class CoreAudioUtilities
 
         IMMDeviceEnumerator enumerator = CreateEnumerator();
         
-        int hr = enumerator.GetDevice(deviceId, out IntPtr devicePtr);
-        if (hr < 0 || devicePtr == IntPtr.Zero)
+        int hr = enumerator.GetDevice(deviceId, out IMMDevice device);
+        if (hr < 0 || device == null)
         {
             Marshal.ThrowExceptionForHR(hr);
         }
 
-        var strategy = new StrategyBasedComWrappers();
-        return (IMMDevice)strategy.GetOrCreateObjectForComInstance(devicePtr, CreateObjectFlags.None);
+        return device ?? throw new COMException("Failed to wrap native IMMDevice instance.");
     }
 
     public static IAudioEndpointVolume ActivateEndpointVolume(string deviceId)
