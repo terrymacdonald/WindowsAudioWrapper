@@ -47,6 +47,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
         _systemAudioProvider = systemAudioProvider ?? throw new ArgumentNullException(nameof(systemAudioProvider));
     }
 
+    /// <inheritdoc />
     public IReadOnlyList<AudioEndpointInfo> GetPlaybackDevices(
         AudioDeviceState states = AudioDeviceState.Active | AudioDeviceState.Unplugged)
     {
@@ -54,6 +55,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
         return _deviceProvider.GetPlaybackDevices(states);
     }
 
+    /// <inheritdoc />
     public IReadOnlyList<AudioEndpointInfo> GetRecordingDevices(
         AudioDeviceState states = AudioDeviceState.Active | AudioDeviceState.Unplugged)
     {
@@ -61,30 +63,35 @@ public sealed class WindowsAudioController : IWindowsAudioController
         return _deviceProvider.GetRecordingDevices(states);
     }
 
+    /// <inheritdoc />
     public AudioEndpointInfo GetDefaultPlaybackDevice()
     {
         ThrowIfDisposed();
         return _defaultDeviceProvider.GetDefaultPlaybackDevice();
     }
 
+    /// <inheritdoc />
     public AudioEndpointInfo GetDefaultRecordingDevice()
     {
         ThrowIfDisposed();
         return _defaultDeviceProvider.GetDefaultRecordingDevice();
     }
 
+    /// <inheritdoc />
     public AudioEndpointInfo GetDefaultCommunicationsPlaybackDevice()
     {
         ThrowIfDisposed();
         return _defaultDeviceProvider.GetDefaultCommunicationsPlaybackDevice();
     }
 
+    /// <inheritdoc />
     public AudioEndpointInfo GetDefaultCommunicationsRecordingDevice()
     {
         ThrowIfDisposed();
         return _defaultDeviceProvider.GetDefaultCommunicationsRecordingDevice();
     }
 
+    /// <inheritdoc />
     public AudioProfile GetCurrentProfile()
     {
         ThrowIfDisposed();
@@ -96,6 +103,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
         return profile;
     }
 
+    /// <inheritdoc />
     public AudioProfileValidationResult ValidateProfile(AudioProfile profile)
     {
         ThrowIfDisposed();
@@ -112,6 +120,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
         return result;
     }
 
+    /// <inheritdoc />
     public AudioProfileApplyResult ApplyProfile(AudioProfile profile)
     {
         ThrowIfDisposed();
@@ -161,6 +170,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
         return result;
     }
 
+    /// <inheritdoc />
     public void Dispose()
     {
         if (_disposed)

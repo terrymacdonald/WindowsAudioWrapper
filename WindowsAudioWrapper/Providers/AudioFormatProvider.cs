@@ -16,13 +16,18 @@ internal sealed class AudioFormatProvider : IAudioFormatProvider
             throw new ArgumentException("DeviceId is required.", nameof(deviceId));
         }
 
-        CoreAudioInterop.IAudioClient audioClient = CoreAudioUtilities.ActivateAudioClient(deviceId);
+        IAudioClient audioClient = CoreAudioUtilities.ActivateAudioClient(deviceId);
         IntPtr formatPointer = IntPtr.Zero;
 
         try
         {
-            audioClient.GetMixFormat(out formatPointer);
-            CoreAudioInterop.WAVEFORMATEX waveFormat = Marshal.PtrToStructure<CoreAudioInterop.WAVEFORMATEX>(formatPointer);
+            int hr = audioClient.GetMixFormat(out formatPointer);
+            if (hr < 0 || formatPointer == IntPtr.Zero)
+            {
+                return new AudioFormatProfile(); // Default to fallback properties if unreadable
+            }
+
+            WAVEFORMATEX waveFormat = Marshal.PtrToStructure<WAVEFORMATEX>(formatPointer);
 
             AudioSampleFormat sampleFormat = waveFormat.wFormatTag switch
             {
@@ -35,7 +40,7 @@ internal sealed class AudioFormatProvider : IAudioFormatProvider
             int bitsPerSample = waveFormat.wBitsPerSample;
             if (waveFormat.wFormatTag == 0xFFFE)
             {
-                CoreAudioInterop.WAVEFORMATEXTENSIBLE extensible = Marshal.PtrToStructure<CoreAudioInterop.WAVEFORMATEXTENSIBLE>(formatPointer);
+                WAVEFORMATEXTENSIBLE extensible = Marshal.PtrToStructure<WAVEFORMATEXTENSIBLE>(formatPointer);
                 bitsPerSample = extensible.wValidBitsPerSample > 0 ? extensible.wValidBitsPerSample : waveFormat.wBitsPerSample;
             }
 
@@ -66,7 +71,7 @@ internal sealed class AudioFormatProvider : IAudioFormatProvider
 
     private static AudioSampleFormat GetExtensibleSampleFormat(IntPtr formatPointer)
     {
-        CoreAudioInterop.WAVEFORMATEXTENSIBLE extensible = Marshal.PtrToStructure<CoreAudioInterop.WAVEFORMATEXTENSIBLE>(formatPointer);
+        WAVEFORMATEXTENSIBLE extensible = Marshal.PtrToStructure<WAVEFORMATEXTENSIBLE>(formatPointer);
 
         if (extensible.SubFormat == PcmSubFormat)
         {

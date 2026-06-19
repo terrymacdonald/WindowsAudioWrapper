@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WindowsAudioWrapper.SampleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce04f72c6d0c3c4881db09fe02493dde9affe2b3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48343d55495f91e93a18bf77860bbd8a6df4c60c")]
 [assembly: System.Reflection.AssemblyProductAttribute("WindowsAudioWrapper.SampleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WindowsAudioWrapper.SampleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

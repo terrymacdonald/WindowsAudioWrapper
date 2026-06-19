@@ -10,7 +10,7 @@ internal sealed class AudioVolumeProvider : IAudioVolumeProvider
         ArgumentNullException.ThrowIfNull(endpoint);
         ValidateDeviceId(endpoint);
 
-        CoreAudioInterop.IAudioEndpointVolume volume = CoreAudioUtilities.ActivateEndpointVolume(endpoint.DeviceId);
+        IAudioEndpointVolume volume = CoreAudioUtilities.ActivateEndpointVolume(endpoint.DeviceId);
         volume.GetMasterVolumeLevelScalar(out float scalar);
         return Math.Round((decimal)scalar * 100m, 2);
     }
@@ -22,10 +22,10 @@ internal sealed class AudioVolumeProvider : IAudioVolumeProvider
         ArgumentOutOfRangeException.ThrowIfGreaterThan(volumePercent, 100);
         ValidateDeviceId(endpoint);
 
-        CoreAudioInterop.IAudioEndpointVolume volume = CoreAudioUtilities.ActivateEndpointVolume(endpoint.DeviceId);
+        IAudioEndpointVolume volume = CoreAudioUtilities.ActivateEndpointVolume(endpoint.DeviceId);
         float scalar = (float)(volumePercent / 100m);
         Guid eventContext = Guid.Empty;
-        volume.SetMasterVolumeLevelScalar(scalar, ref eventContext);
+        volume.SetMasterVolumeLevelScalar(scalar, in eventContext);
     }
 
     public bool GetMute(AudioEndpointReference endpoint)
@@ -33,7 +33,7 @@ internal sealed class AudioVolumeProvider : IAudioVolumeProvider
         ArgumentNullException.ThrowIfNull(endpoint);
         ValidateDeviceId(endpoint);
 
-        CoreAudioInterop.IAudioEndpointVolume volume = CoreAudioUtilities.ActivateEndpointVolume(endpoint.DeviceId);
+        IAudioEndpointVolume volume = CoreAudioUtilities.ActivateEndpointVolume(endpoint.DeviceId);
         volume.GetMute(out bool muted);
         return muted;
     }
@@ -43,9 +43,9 @@ internal sealed class AudioVolumeProvider : IAudioVolumeProvider
         ArgumentNullException.ThrowIfNull(endpoint);
         ValidateDeviceId(endpoint);
 
-        CoreAudioInterop.IAudioEndpointVolume volume = CoreAudioUtilities.ActivateEndpointVolume(endpoint.DeviceId);
+        IAudioEndpointVolume volume = CoreAudioUtilities.ActivateEndpointVolume(endpoint.DeviceId);
         Guid eventContext = Guid.Empty;
-        volume.SetMute(muted, ref eventContext);
+        volume.SetMute(muted, in eventContext);
     }
 
     private static void ValidateDeviceId(AudioEndpointReference endpoint)

@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net10.0-windows"
+          "net10.0-windows10.0.22000.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,9 +30,9 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net10.0-windows": {
-            "framework": "net10.0-windows7.0",
-            "targetAlias": "net10.0-windows",
+          "net10.0-windows10.0.22000.0": {
+            "framework": "net10.0-windows10.0.22000",
+            "targetAlias": "net10.0-windows10.0.22000.0",
             "projectReferences": {
               "D:\\visual-studio-projects\\WindowsAudioWrapper\\WindowsAudioWrapper\\WindowsAudioWrapper.csproj": {
                 "projectPath": "D:\\visual-studio-projects\\WindowsAudioWrapper\\WindowsAudioWrapper\\WindowsAudioWrapper.csproj"
@@ -53,9 +53,9 @@
         "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
-        "net10.0-windows": {
-          "framework": "net10.0-windows7.0",
-          "targetAlias": "net10.0-windows",
+        "net10.0-windows10.0.22000.0": {
+          "framework": "net10.0-windows10.0.22000",
+          "targetAlias": "net10.0-windows10.0.22000.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -93,8 +93,17 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.22000.57, 10.0.22000.57]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref.Windows": {
               "privateAssets": "all"
             }
           },
@@ -394,7 +403,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net10.0-windows"
+          "net10.0-windows10.0.22000.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -402,9 +411,9 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net10.0-windows": {
-            "framework": "net10.0-windows7.0",
-            "targetAlias": "net10.0-windows",
+          "net10.0-windows10.0.22000.0": {
+            "framework": "net10.0-windows10.0.22000",
+            "targetAlias": "net10.0-windows10.0.22000.0",
             "projectReferences": {}
           }
         },
@@ -421,9 +430,9 @@
         "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
-        "net10.0-windows": {
-          "framework": "net10.0-windows7.0",
-          "targetAlias": "net10.0-windows",
+        "net10.0-windows10.0.22000.0": {
+          "framework": "net10.0-windows10.0.22000",
+          "targetAlias": "net10.0-windows10.0.22000.0",
           "imports": [
             "net461",
             "net462",
@@ -435,8 +444,17 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.22000.57, 10.0.22000.57]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref.Windows": {
               "privateAssets": "all"
             }
           },

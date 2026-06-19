@@ -42,10 +42,10 @@ internal static class PolicyConfigInterop
         int SetShareMode([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, IntPtr mode);
 
         [PreserveSig]
-        int GetPropertyValue([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, ref WindowsAudioWrapper.Internal.CoreAudio.CoreAudioInterop.PROPERTYKEY key, IntPtr pv);
+        int GetPropertyValue([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, ref WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY key, IntPtr pv);
 
         [PreserveSig]
-        int SetPropertyValue([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, ref WindowsAudioWrapper.Internal.CoreAudio.CoreAudioInterop.PROPERTYKEY key, IntPtr pv);
+        int SetPropertyValue([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, ref WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY key, IntPtr pv);
 
         [PreserveSig]
         int SetDefaultEndpoint([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, int role);

@@ -1,11 +1,14 @@
 namespace WindowsAudioWrapper.Providers;
 
 using System.Runtime.InteropServices;
+using System.Runtime.InteropServices.Marshalling;
 using WindowsAudioWrapper.Internal.CoreAudio;
 using WindowsAudioWrapper.Models;
 
 internal sealed class AudioDeviceProvider : IAudioDeviceProvider
 {
+    private static readonly StrategyBasedComWrappers _comWrappers = new();
+
     public IReadOnlyList<AudioEndpointInfo> GetPlaybackDevices(AudioDeviceState states)
     {
         return EnumerateDevices(AudioFlow.Render, states);
@@ -68,26 +71,50 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
     private static IReadOnlyList<AudioEndpointInfo> EnumerateDevices(AudioFlow flow, AudioDeviceState states)
     {
         List<AudioEndpointInfo> devices = new();
-        CoreAudioInterop.IMMDeviceEnumerator enumerator = CoreAudioUtilities.CreateEnumerator();
-        CoreAudioInterop.EDataFlow nativeFlow = CoreAudioUtilities.ToNativeFlow(flow);
+        IMMDeviceEnumerator enumerator = CoreAudioUtilities.CreateEnumerator();
+        EDataFlow nativeFlow = CoreAudioUtilities.ToNativeFlow(flow);
         int nativeStates = CoreAudioUtilities.ToNativeDeviceState(states);
 
-        string defaultDeviceId = GetDefaultDeviceIdOrEmpty(enumerator, nativeFlow, CoreAudioInterop.ERole.eMultimedia);
-        string defaultCommunicationsDeviceId = GetDefaultDeviceIdOrEmpty(enumerator, nativeFlow, CoreAudioInterop.ERole.eCommunications);
+        string defaultDeviceId = GetDefaultDeviceIdOrEmpty(enumerator, nativeFlow, ERole.eMultimedia);
+        string defaultCommunicationsDeviceId = GetDefaultDeviceIdOrEmpty(enumerator, nativeFlow, ERole.eCommunications);
 
-        enumerator.EnumAudioEndpoints(nativeFlow, nativeStates, out CoreAudioInterop.IMMDeviceCollection collection);
-        collection.GetCount(out uint count);
-
-        for (uint index = 0; index < count; index++)
+        int hr = enumerator.EnumAudioEndpoints(nativeFlow, nativeStates, out IntPtr collectionPtr);
+        if (hr < 0 || collectionPtr == IntPtr.Zero)
         {
-            collection.Item(index, out CoreAudioInterop.IMMDevice device);
-            devices.Add(CreateEndpointInfo(device, flow, defaultDeviceId, defaultCommunicationsDeviceId));
+            return devices;
+        }
+
+        try
+        {
+            var collection = (IMMDeviceCollection)_comWrappers.GetOrCreateObjectForComInstance(collectionPtr, CreateObjectFlags.None);
+            collection.GetCount(out uint count);
+
+            for (uint index = 0; index < count; index++)
+            {
+                hr = collection.Item(index, out IntPtr devicePtr);
+                if (hr >= 0 && devicePtr != IntPtr.Zero)
+                {
+                    try
+                    {
+                        var device = (IMMDevice)_comWrappers.GetOrCreateObjectForComInstance(devicePtr, CreateObjectFlags.None);
+                        devices.Add(CreateEndpointInfo(device, flow, defaultDeviceId, defaultCommunicationsDeviceId));
+                    }
+                    finally
+                    {
+                        Marshal.Release(devicePtr);
+                    }
+                }
+            }
+        }
+        finally
+        {
+            Marshal.Release(collectionPtr);
         }
 
         return devices;
     }
 
-    internal static AudioEndpointInfo CreateEndpointInfo(CoreAudioInterop.IMMDevice device, AudioFlow flow, string defaultDeviceId = "", string defaultCommunicationsDeviceId = "")
+    internal static AudioEndpointInfo CreateEndpointInfo(IMMDevice device, AudioFlow flow, string defaultDeviceId = "", string defaultCommunicationsDeviceId = "")
     {
         device.GetId(out string deviceId);
         device.GetState(out int nativeState);
@@ -96,16 +123,20 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
         string interfaceFriendlyName = string.Empty;
         string containerId = string.Empty;
 
-        try
+        int hr = device.OpenPropertyStore(CoreAudioConstants.STGM_READ, out IntPtr storePtr);
+        if (hr >= 0 && storePtr != IntPtr.Zero)
         {
-            device.OpenPropertyStore(CoreAudioInterop.STGM_READ, out CoreAudioInterop.IPropertyStore store);
-            friendlyName = CoreAudioUtilities.ReadStringProperty(store, CoreAudioInterop.PKEY_Device_FriendlyName);
-            interfaceFriendlyName = CoreAudioUtilities.ReadStringProperty(store, CoreAudioInterop.PKEY_DeviceInterface_FriendlyName);
-            containerId = CoreAudioUtilities.ReadGuidPropertyAsString(store, CoreAudioInterop.PKEY_Device_ContainerId);
-        }
-        catch (COMException)
-        {
-            // Keep endpoint identity even if metadata cannot be read.
+            try
+            {
+                var store = (IPropertyStore)_comWrappers.GetOrCreateObjectForComInstance(storePtr, CreateObjectFlags.None);
+                friendlyName = CoreAudioUtilities.ReadStringProperty(store, CoreAudioConstants.PKEY_Device_FriendlyName);
+                interfaceFriendlyName = CoreAudioUtilities.ReadStringProperty(store, CoreAudioConstants.PKEY_DeviceInterface_FriendlyName);
+                containerId = CoreAudioUtilities.ReadGuidPropertyAsString(store, CoreAudioConstants.PKEY_Device_ContainerId);
+            }
+            finally
+            {
+                Marshal.Release(storePtr);
+            }
         }
 
         AudioDeviceState state = CoreAudioUtilities.FromNativeDeviceState(nativeState);
@@ -148,7 +179,7 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
     {
         try
         {
-            CoreAudioInterop.IAudioEndpointVolume volume = CoreAudioUtilities.ActivateEndpointVolume(endpoint.DeviceId);
+            IAudioEndpointVolume volume = CoreAudioUtilities.ActivateEndpointVolume(endpoint.DeviceId);
             volume.GetMasterVolumeLevelScalar(out float scalar);
             volume.GetMute(out bool muted);
             endpoint.VolumePercent = Math.Round((decimal)scalar * 100m, 2);
@@ -161,15 +192,28 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
         }
     }
 
-    private static string GetDefaultDeviceIdOrEmpty(CoreAudioInterop.IMMDeviceEnumerator enumerator, CoreAudioInterop.EDataFlow flow, CoreAudioInterop.ERole role)
+    private static string GetDefaultDeviceIdOrEmpty(IMMDeviceEnumerator enumerator, EDataFlow flow, ERole role)
     {
         try
         {
-            enumerator.GetDefaultAudioEndpoint(flow, role, out CoreAudioInterop.IMMDevice device);
-            device.GetId(out string id);
-            return id;
+            int hr = enumerator.GetDefaultAudioEndpoint(flow, role, out IntPtr devicePtr);
+            if (hr < 0 || devicePtr == IntPtr.Zero)
+            {
+                return string.Empty;
+            }
+
+            try
+            {
+                var device = (IMMDevice)_comWrappers.GetOrCreateObjectForComInstance(devicePtr, CreateObjectFlags.None);
+                device.GetId(out string id);
+                return id;
+            }
+            finally
+            {
+                Marshal.Release(devicePtr);
+            }
         }
-        catch (COMException)
+        catch (Exception)
         {
             return string.Empty;
         }

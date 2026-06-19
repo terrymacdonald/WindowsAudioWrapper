@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AHY0ytWAojE=",
+  "dgSpecHash": "PGV8qxvW61M=",
   "success": true,
   "projectFilePath": "D:\\visual-studio-projects\\WindowsAudioWrapper\\WindowsAudioWrapper.Tests\\WindowsAudioWrapper.Tests.csproj",
   "expectedPackageFiles": [
@@ -19,7 +19,8 @@
     "C:\\Users\\TerryMacDonald\\.nuget\\packages\\xunit.extensibility.core\\2.9.3\\xunit.extensibility.core.2.9.3.nupkg.sha512",
     "C:\\Users\\TerryMacDonald\\.nuget\\packages\\xunit.extensibility.execution\\2.9.3\\xunit.extensibility.execution.2.9.3.nupkg.sha512",
     "C:\\Users\\TerryMacDonald\\.nuget\\packages\\xunit.runner.visualstudio\\3.1.4\\xunit.runner.visualstudio.3.1.4.nupkg.sha512",
-    "C:\\Users\\TerryMacDonald\\.nuget\\packages\\xunit.skippablefact\\1.4.13\\xunit.skippablefact.1.4.13.nupkg.sha512"
+    "C:\\Users\\TerryMacDonald\\.nuget\\packages\\xunit.skippablefact\\1.4.13\\xunit.skippablefact.1.4.13.nupkg.sha512",
+    "C:\\Users\\TerryMacDonald\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22000.57\\microsoft.windows.sdk.net.ref.10.0.22000.57.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "paRMX06dPXI=",
+  "dgSpecHash": "QoERk45WNPw=",
   "success": true,
   "projectFilePath": "D:\\visual-studio-projects\\WindowsAudioWrapper\\WindowsAudioWrapper\\WindowsAudioWrapper.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\TerryMacDonald\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22000.57\\microsoft.windows.sdk.net.ref.10.0.22000.57.nupkg.sha512"
+  ],
   "logs": []
 }

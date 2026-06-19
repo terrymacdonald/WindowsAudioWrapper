@@ -1,72 +1,90 @@
 namespace WindowsAudioWrapper.Providers;
 
 using System.Runtime.InteropServices;
+using System.Runtime.InteropServices.Marshalling;
 using WindowsAudioWrapper.Internal.CoreAudio;
 using WindowsAudioWrapper.Internal.PolicyConfig;
 using WindowsAudioWrapper.Models;
 
 internal sealed class DefaultAudioDeviceProvider : IDefaultAudioDeviceProvider
 {
+    private static readonly StrategyBasedComWrappers _comWrappers = new();
+
     public AudioEndpointInfo GetDefaultPlaybackDevice()
     {
-        return GetDefaultDevice(AudioFlow.Render, CoreAudioInterop.ERole.eMultimedia);
+        return GetDefaultDevice(AudioFlow.Render, ERole.eMultimedia);
     }
 
     public AudioEndpointInfo GetDefaultRecordingDevice()
     {
-        return GetDefaultDevice(AudioFlow.Capture, CoreAudioInterop.ERole.eMultimedia);
+        return GetDefaultDevice(AudioFlow.Capture, ERole.eMultimedia);
     }
 
     public AudioEndpointInfo GetDefaultCommunicationsPlaybackDevice()
     {
-        return GetDefaultDevice(AudioFlow.Render, CoreAudioInterop.ERole.eCommunications);
+        return GetDefaultDevice(AudioFlow.Render, ERole.eCommunications);
     }
 
     public AudioEndpointInfo GetDefaultCommunicationsRecordingDevice()
     {
-        return GetDefaultDevice(AudioFlow.Capture, CoreAudioInterop.ERole.eCommunications);
+        return GetDefaultDevice(AudioFlow.Capture, ERole.eCommunications);
     }
 
     public void SetDefaultPlaybackDevice(AudioEndpointReference endpoint)
     {
-        SetDefaultDevice(endpoint, CoreAudioInterop.ERole.eConsole, CoreAudioInterop.ERole.eMultimedia);
+        SetDefaultDevice(endpoint, ERole.eConsole, ERole.eMultimedia);
     }
 
     public void SetDefaultRecordingDevice(AudioEndpointReference endpoint)
     {
-        SetDefaultDevice(endpoint, CoreAudioInterop.ERole.eConsole, CoreAudioInterop.ERole.eMultimedia);
+        SetDefaultDevice(endpoint, ERole.eConsole, ERole.eMultimedia);
     }
 
     public void SetDefaultCommunicationsPlaybackDevice(AudioEndpointReference endpoint)
     {
-        SetDefaultDevice(endpoint, CoreAudioInterop.ERole.eCommunications);
+        SetDefaultDevice(endpoint, ERole.eCommunications);
     }
 
     public void SetDefaultCommunicationsRecordingDevice(AudioEndpointReference endpoint)
     {
-        SetDefaultDevice(endpoint, CoreAudioInterop.ERole.eCommunications);
+        SetDefaultDevice(endpoint, ERole.eCommunications);
     }
 
-    private static AudioEndpointInfo GetDefaultDevice(AudioFlow flow, CoreAudioInterop.ERole role)
+    private static AudioEndpointInfo GetDefaultDevice(AudioFlow flow, ERole role)
     {
         try
         {
-            CoreAudioInterop.IMMDeviceEnumerator enumerator = CoreAudioUtilities.CreateEnumerator();
-            enumerator.GetDefaultAudioEndpoint(CoreAudioUtilities.ToNativeFlow(flow), role, out CoreAudioInterop.IMMDevice device);
-            device.GetId(out string defaultId);
-            AudioEndpointInfo endpoint = AudioDeviceProvider.CreateEndpointInfo(device, flow, defaultId, role == CoreAudioInterop.ERole.eCommunications ? defaultId : string.Empty);
-            if (role == CoreAudioInterop.ERole.eCommunications)
+            IMMDeviceEnumerator enumerator = CoreAudioUtilities.CreateEnumerator();
+            int hr = enumerator.GetDefaultAudioEndpoint(CoreAudioUtilities.ToNativeFlow(flow), role, out IntPtr devicePtr);
+            
+            if (hr < 0 || devicePtr == IntPtr.Zero)
             {
-                endpoint.IsDefaultCommunicationsDevice = true;
-            }
-            else
-            {
-                endpoint.IsDefaultDevice = true;
+                Marshal.ThrowExceptionForHR(hr);
             }
 
-            return endpoint;
+            try
+            {
+                var device = (IMMDevice)_comWrappers.GetOrCreateObjectForComInstance(devicePtr, CreateObjectFlags.None);
+                device.GetId(out string defaultId);
+                AudioEndpointInfo endpoint = AudioDeviceProvider.CreateEndpointInfo(device, flow, defaultId, role == ERole.eCommunications ? defaultId : string.Empty);
+                
+                if (role == ERole.eCommunications)
+                {
+                    endpoint.IsDefaultCommunicationsDevice = true;
+                }
+                else
+                {
+                    endpoint.IsDefaultDevice = true;
+                }
+
+                return endpoint;
+            }
+            finally
+            {
+                Marshal.Release(devicePtr);
+            }
         }
-        catch (COMException ex)
+        catch (Exception ex)
         {
             return new AudioEndpointInfo
             {
@@ -79,12 +97,12 @@ internal sealed class DefaultAudioDeviceProvider : IDefaultAudioDeviceProvider
                     IsVolumeSupported = false,
                     IsMuteSupported = false
                 },
-                FullName = $"No default {flow} device ({ex.HResult:X8})"
+                FullName = $"No default {flow} device ({ex.Message})"
             };
         }
     }
 
-    private static void SetDefaultDevice(AudioEndpointReference endpoint, params CoreAudioInterop.ERole[] roles)
+    private static void SetDefaultDevice(AudioEndpointReference endpoint, params ERole[] roles)
     {
         ArgumentNullException.ThrowIfNull(endpoint);
 
@@ -105,7 +123,7 @@ internal sealed class DefaultAudioDeviceProvider : IDefaultAudioDeviceProvider
             throw new COMException("Unable to create the PolicyConfigClient COM object.");
         }
 
-        foreach (CoreAudioInterop.ERole role in roles)
+        foreach (ERole role in roles)
         {
             int hr = policyConfig.SetDefaultEndpoint(endpoint.DeviceId, (int)role);
             if (hr < 0)
