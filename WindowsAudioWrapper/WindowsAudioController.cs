@@ -1,8 +1,13 @@
 namespace WindowsAudioWrapper;
 
+using System;
+using System.Collections.Generic;
 using WindowsAudioWrapper.Models;
 using WindowsAudioWrapper.Providers;
 
+/// <summary>
+/// Provides the public facade managing and coordinating core Windows audio configurations.
+/// </summary>
 public sealed class WindowsAudioController : IWindowsAudioController
 {
     private readonly IAudioDeviceProvider _deviceProvider;
@@ -13,6 +18,9 @@ public sealed class WindowsAudioController : IWindowsAudioController
     private readonly ISystemAudioProvider _systemAudioProvider;
     private bool _disposed;
 
+    /// <summary>
+    /// Initializes a new instance of the <see cref="WindowsAudioController"/> class using target concrete engines.
+    /// </summary>
     public WindowsAudioController()
         : this(
             new AudioDeviceProvider(),
@@ -40,23 +48,33 @@ public sealed class WindowsAudioController : IWindowsAudioController
         _systemAudioProvider = systemAudioProvider ?? throw new ArgumentNullException(nameof(systemAudioProvider));
     }
 
+    /// <inheritdoc/>
     public IReadOnlyList<AudioEndpointInfo> GetPlaybackDevices(AudioDeviceState states = AudioDeviceState.Active | AudioDeviceState.Unplugged)
     {
         ThrowIfDisposed();
         return _deviceProvider.GetPlaybackDevices(states);
     }
 
+    /// <inheritdoc/>
     public IReadOnlyList<AudioEndpointInfo> GetRecordingDevices(AudioDeviceState states = AudioDeviceState.Active | AudioDeviceState.Unplugged)
     {
         ThrowIfDisposed();
         return _deviceProvider.GetRecordingDevices(states);
     }
 
+    /// <inheritdoc/>
     public AudioEndpointInfo GetDefaultPlaybackDevice() { ThrowIfDisposed(); return _defaultDeviceProvider.GetDefaultPlaybackDevice(); }
+    
+    /// <inheritdoc/>
     public AudioEndpointInfo GetDefaultRecordingDevice() { ThrowIfDisposed(); return _defaultDeviceProvider.GetDefaultRecordingDevice(); }
+    
+    /// <inheritdoc/>
     public AudioEndpointInfo GetDefaultCommunicationsPlaybackDevice() { ThrowIfDisposed(); return _defaultDeviceProvider.GetDefaultCommunicationsPlaybackDevice(); }
+    
+    /// <inheritdoc/>
     public AudioEndpointInfo GetDefaultCommunicationsRecordingDevice() { ThrowIfDisposed(); return _defaultDeviceProvider.GetDefaultCommunicationsRecordingDevice(); }
 
+    /// <inheritdoc/>
     public AudioProfile GetCurrentProfile()
     {
         ThrowIfDisposed();
@@ -67,6 +85,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
         return profile;
     }
 
+    /// <inheritdoc/>
     public AudioProfileValidationResult ValidateProfile(AudioProfile profile)
     {
         ThrowIfDisposed();
@@ -82,6 +101,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
         return result;
     }
 
+    /// <inheritdoc/>
     public AudioProfileApplyResult ApplyProfile(AudioProfile profile)
     {
         ThrowIfDisposed();
@@ -114,6 +134,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
         return result;
     }
 
+    /// <inheritdoc/>
     public void Dispose()
     {
         if (_disposed) return;
@@ -136,7 +157,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
         if (defaultDevice.IsAvailable)
         {
             playback.IsDefaultPlaybackDeviceEnabled = true;
-            playback.Device = AudioEndpointReference.FromEndpointInfo(defaultDevice);
+            playback.TargetDevice = AudioEndpointReference.FromEndpointInfo(defaultDevice);
 
             playback.IsVolumeEnabled = defaultDevice.Capabilities.IsVolumeSupported;
             if (playback.IsVolumeEnabled) playback.VolumePercent = defaultDevice.VolumePercent;
@@ -144,9 +165,9 @@ public sealed class WindowsAudioController : IWindowsAudioController
             playback.IsMuteEnabled = defaultDevice.Capabilities.IsMuteSupported;
             if (playback.IsMuteEnabled) playback.IsMuted = defaultDevice.IsMuted;
 
-            defaultDevice.Capabilities.IsFormatReadSupported = true; // Hardcoded true now that we implemented it
+            defaultDevice.Capabilities.IsFormatReadSupported = true; 
             playback.IsFormatEnabled = true;
-            playback.Format = _formatProvider.GetFormat(defaultDevice.DeviceId);
+            playback.StreamFormat = _formatProvider.GetFormat(defaultDevice.DeviceId);
 
             defaultDevice.Capabilities.IsAudioEnhancementsReadSupported = true;
             playback.IsAudioEnhancementsEnabled = true;
@@ -170,7 +191,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
         if (defaultDevice.IsAvailable)
         {
             recording.IsDefaultRecordingDeviceEnabled = true;
-            recording.Device = AudioEndpointReference.FromEndpointInfo(defaultDevice);
+            recording.TargetDevice = AudioEndpointReference.FromEndpointInfo(defaultDevice);
 
             recording.IsVolumeEnabled = defaultDevice.Capabilities.IsVolumeSupported;
             if (recording.IsVolumeEnabled) recording.VolumePercent = defaultDevice.VolumePercent;
@@ -180,7 +201,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
 
             defaultDevice.Capabilities.IsFormatReadSupported = true;
             recording.IsFormatEnabled = true;
-            recording.Format = _formatProvider.GetFormat(defaultDevice.DeviceId);
+            recording.StreamFormat = _formatProvider.GetFormat(defaultDevice.DeviceId);
 
             defaultDevice.Capabilities.IsAudioEnhancementsReadSupported = true;
             recording.IsAudioEnhancementsEnabled = true;
@@ -203,24 +224,24 @@ public sealed class WindowsAudioController : IWindowsAudioController
 
     private void ApplyPlaybackProfile(PlaybackAudioProfile playback, AudioProfileApplyResult result)
     {
-        if (playback.IsDefaultPlaybackDeviceEnabled) _defaultDeviceProvider.SetDefaultPlaybackDevice(playback.Device);
+        if (playback.IsDefaultPlaybackDeviceEnabled) _defaultDeviceProvider.SetDefaultPlaybackDevice(playback.TargetDevice);
         if (playback.IsDefaultCommunicationsPlaybackDeviceEnabled) _defaultDeviceProvider.SetDefaultCommunicationsPlaybackDevice(playback.CommunicationsDevice);
-        if (playback.IsVolumeEnabled) _volumeProvider.SetVolumePercent(playback.Device, playback.VolumePercent);
-        if (playback.IsMuteEnabled) _volumeProvider.SetMute(playback.Device, playback.IsMuted);
-        if (playback.IsFormatEnabled) _formatProvider.SetFormat(playback.Device, playback.Format);
-        if (playback.IsAudioEnhancementsEnabled) _audioEnhancementProvider.SetAudioEnhancements(playback.Device, playback.AudioEnhancements);
+        if (playback.IsVolumeEnabled) _volumeProvider.SetVolumePercent(playback.TargetDevice, playback.VolumePercent);
+        if (playback.IsMuteEnabled) _volumeProvider.SetMute(playback.TargetDevice, playback.IsMuted);
+        if (playback.IsFormatEnabled) _formatProvider.SetFormat(playback.TargetDevice, playback.StreamFormat);
+        if (playback.IsAudioEnhancementsEnabled) _audioEnhancementProvider.SetAudioEnhancements(playback.TargetDevice, playback.AudioEnhancements);
 
         result.Messages.Add(AudioOperationMessage.Info(AudioMessageCode.ProfileApplied, "Playback audio profile applied."));
     }
 
     private void ApplyRecordingProfile(RecordingAudioProfile recording, AudioProfileApplyResult result)
     {
-        if (recording.IsDefaultRecordingDeviceEnabled) _defaultDeviceProvider.SetDefaultRecordingDevice(recording.Device);
+        if (recording.IsDefaultRecordingDeviceEnabled) _defaultDeviceProvider.SetDefaultRecordingDevice(recording.TargetDevice);
         if (recording.IsDefaultCommunicationsRecordingDeviceEnabled) _defaultDeviceProvider.SetDefaultCommunicationsRecordingDevice(recording.CommunicationsDevice);
-        if (recording.IsVolumeEnabled) _volumeProvider.SetVolumePercent(recording.Device, recording.VolumePercent);
-        if (recording.IsMuteEnabled) _volumeProvider.SetMute(recording.Device, recording.IsMuted);
-        if (recording.IsFormatEnabled) _formatProvider.SetFormat(recording.Device, recording.Format);
-        if (recording.IsAudioEnhancementsEnabled) _audioEnhancementProvider.SetAudioEnhancements(recording.Device, recording.AudioEnhancements);
+        if (recording.IsVolumeEnabled) _volumeProvider.SetVolumePercent(recording.TargetDevice, recording.VolumePercent);
+        if (recording.IsMuteEnabled) _volumeProvider.SetMute(recording.TargetDevice, recording.IsMuted);
+        if (recording.IsFormatEnabled) _formatProvider.SetFormat(recording.TargetDevice, recording.StreamFormat);
+        if (recording.IsAudioEnhancementsEnabled) _audioEnhancementProvider.SetAudioEnhancements(recording.TargetDevice, recording.AudioEnhancements);
 
         result.Messages.Add(AudioOperationMessage.Info(AudioMessageCode.ProfileApplied, "Recording audio profile applied."));
     }
@@ -235,10 +256,10 @@ public sealed class WindowsAudioController : IWindowsAudioController
     {
         if (!playback.IsPlaybackEnabled) return;
 
-        AudioEndpointInfo? device = null;
+        WindowsAudioWrapper.Models.AudioEndpointInfo? device = null;
         if (playback.IsDefaultPlaybackDeviceEnabled || playback.IsVolumeEnabled || playback.IsMuteEnabled || playback.IsFormatEnabled || playback.IsAudioEnhancementsEnabled)
         {
-            device = ValidateEndpoint(playback.Device, AudioFlow.Render, nameof(playback.Device), result);
+            device = ValidateEndpoint(playback.TargetDevice, AudioFlow.Render, nameof(playback.TargetDevice), result);
         }
 
         if (playback.IsDefaultCommunicationsPlaybackDeviceEnabled) ValidateEndpoint(playback.CommunicationsDevice, AudioFlow.Render, nameof(playback.CommunicationsDevice), result);
@@ -255,10 +276,10 @@ public sealed class WindowsAudioController : IWindowsAudioController
     {
         if (!recording.IsRecordingEnabled) return;
 
-        AudioEndpointInfo? device = null;
+        WindowsAudioWrapper.Models.AudioEndpointInfo? device = null;
         if (recording.IsDefaultRecordingDeviceEnabled || recording.IsVolumeEnabled || recording.IsMuteEnabled || recording.IsFormatEnabled || recording.IsAudioEnhancementsEnabled)
         {
-            device = ValidateEndpoint(recording.Device, AudioFlow.Capture, nameof(recording.Device), result);
+            device = ValidateEndpoint(recording.TargetDevice, AudioFlow.Capture, nameof(recording.TargetDevice), result);
         }
 
         if (recording.IsDefaultCommunicationsRecordingDeviceEnabled) ValidateEndpoint(recording.CommunicationsDevice, AudioFlow.Capture, nameof(recording.CommunicationsDevice), result);
@@ -277,7 +298,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
         if (!system.IsMonoAudioEnabled) result.Messages.Add(AudioOperationMessage.Warning(AudioMessageCode.NoEnabledSettings, "System audio profile is enabled, but no settings are enabled."));
     }
 
-    private AudioEndpointInfo? ValidateEndpoint(AudioEndpointReference endpoint, AudioFlow expectedFlow, string propertyName, AudioProfileValidationResult result)
+    private Models.AudioEndpointInfo? ValidateEndpoint(AudioEndpointReference endpoint, AudioFlow expectedFlow, string propertyName, AudioProfileValidationResult result)
     {
         if (!endpoint.IsEndpointEnabled)
         {
@@ -291,7 +312,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
             return null;
         }
 
-        AudioEndpointInfo resolved = _deviceProvider.ResolveEndpoint(endpoint, expectedFlow);
+        Models.AudioEndpointInfo resolved = _deviceProvider.ResolveEndpoint(endpoint, expectedFlow);
         if (string.IsNullOrWhiteSpace(resolved.DeviceId))
         {
             result.Messages.Add(AudioOperationMessage.Error(AudioMessageCode.DeviceNotFound, $"{propertyName} could not be found."));
