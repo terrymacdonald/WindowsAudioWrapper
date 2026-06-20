@@ -14,7 +14,7 @@ internal sealed class AudioEnhancementProvider : IAudioEnhancementProvider
         if (string.IsNullOrWhiteSpace(deviceId))
             throw new ArgumentException("DeviceId is required.", nameof(deviceId));
 
-        bool disableSysFx = false;
+        var profile = new AudioEnhancementProfile();
         IMMDevice device = CoreAudioUtilities.GetDeviceById(deviceId);
         
         int hr = device.OpenPropertyStore(CoreAudioConstants.STGM_READ, out IPropertyStore store);
@@ -25,49 +25,44 @@ internal sealed class AudioEnhancementProvider : IAudioEnhancementProvider
             {
                 if (value.vt == VT_BOOL)
                 {
-                    disableSysFx = value.p != IntPtr.Zero;
+                    profile.AreEnhancementsSupported = true;
+                    profile.DisableAllEnhancements = value.p != IntPtr.Zero; 
                 }
                 CoreAudioConstants.PropVariantClear(ref value);
             }
         }
 
-        return new AudioEnhancementProfile
-        {
-            IsDeviceDefaultEffectsEnabled = !disableSysFx 
-        };
+        return profile;
     }
 
     public void SetAudioEnhancements(AudioEndpointReference endpoint, AudioEnhancementProfile audioEnhancements)
     {
         ArgumentNullException.ThrowIfNull(endpoint);
         ArgumentNullException.ThrowIfNull(audioEnhancements);
-
         if (string.IsNullOrWhiteSpace(endpoint.DeviceId))
             throw new ArgumentException("DeviceId is required.", nameof(endpoint));
 
         IMMDevice device = CoreAudioUtilities.GetDeviceById(endpoint.DeviceId);
-        
         int hr = device.OpenPropertyStore(STGM_READWRITE, out IPropertyStore store);
-        if (hr < 0 || store == null)
-            Marshal.ThrowExceptionForHR(hr);
+        if (hr < 0 || store == null) 
+        {
+            throw new COMException("Failed to open the unmanaged device property store context.", hr);
+        }
 
-        PROPVARIANT propVar = new PROPVARIANT
+        PROPVARIANT propVar = new()
         {
             vt = VT_BOOL,
-            p = audioEnhancements.IsDeviceDefaultEffectsEnabled ? IntPtr.Zero : (IntPtr)(-1)
+            p = audioEnhancements.DisableAllEnhancements ? (IntPtr)(-1) : IntPtr.Zero
         };
 
-        if (store != null)
+        hr = store.SetValue(in CoreAudioConstants.PKEY_AudioEndpoint_Disable_SysFx, in propVar);
+        if (hr >= 0)
         {
-            hr = store.SetValue(in CoreAudioConstants.PKEY_AudioEndpoint_Disable_SysFx, in propVar);
-            if (hr >= 0)
-            {
-                store.Commit();
-            }
-            else
-            {
-                Marshal.ThrowExceptionForHR(hr);
-            }
+            store.Commit();
+        }
+        else
+        {
+            Marshal.ThrowExceptionForHR(hr);
         }
     }
 }

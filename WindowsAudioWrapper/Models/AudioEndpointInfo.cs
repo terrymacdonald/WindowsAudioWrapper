@@ -38,6 +38,9 @@ public sealed class AudioEndpointInfo
     /// <summary>Gets or sets the capabilities supported by this specific endpoint.</summary>
     public AudioEndpointCapabilities Capabilities { get; set; } = new();
 
+    public HardwareDetails HardwareDetails { get; set; } = new();
+    public AudioEnhancementProfile AudioEnhancements { get; set; } = new();
+
     /// <summary>Gets a value indicating whether the device is present and active.</summary>
     public bool IsAvailable =>
         !string.IsNullOrWhiteSpace(DeviceId) &&

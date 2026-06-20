@@ -177,13 +177,24 @@ internal static class HardwareTestHelpers
 
     private static AudioEndpointReference CloneEndpoint(AudioEndpointReference endpoint)
     {
+        if (endpoint == null) return new AudioEndpointReference();
+
         return new AudioEndpointReference
         {
             DeviceId = endpoint.DeviceId,
             ContainerId = endpoint.ContainerId,
             FriendlyName = endpoint.FriendlyName,
             FullName = endpoint.FullName,
-            Flow = endpoint.Flow
+            Flow = endpoint.Flow,
+            IsEndpointEnabled = endpoint.IsEndpointEnabled,
+            // FIX: Deep clone hardware descriptors so resolution engines can find anchors safely
+            HardwareDetails = new HardwareDetails
+            {
+                DeviceDescription = endpoint.HardwareDetails?.DeviceDescription ?? string.Empty,
+                HardwareId = endpoint.HardwareDetails?.HardwareId ?? string.Empty,
+                DriverVersion = endpoint.HardwareDetails?.DriverVersion ?? string.Empty,
+                EndpointAssociationGuid = endpoint.HardwareDetails?.EndpointAssociationGuid ?? string.Empty
+            }
         };
     }
 

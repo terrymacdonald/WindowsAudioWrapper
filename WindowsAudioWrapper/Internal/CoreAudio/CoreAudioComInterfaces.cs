@@ -15,10 +15,20 @@ internal static partial class CoreAudioConstants
     internal static readonly Guid IID_IAudioEndpointVolume = new("5CDF2C82-841E-4546-9722-0CF74078229A");
     internal static readonly Guid IID_IAudioClient = new("1CB9AD4C-DBFA-4c32-B178-C2F568A703B2");
 
-    internal static readonly PROPERTYKEY PKEY_Device_FriendlyName = new(new Guid("A45C254E-DF1C-4EFD-8020-67D146A850E0"), 14);
+    internal static readonly Guid GUID_PnPDeviceProperties = new("A45C254E-DF1C-4EFD-8020-67D146A850E0");
+    internal static readonly Guid GUID_AudioEndpointProperties = new("1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E");
+    internal static readonly Guid GUID_DriverProperties = new("A85B04C5-C7B4-4A6B-984F-46F5F3AE43C7");
+
+    internal static readonly PROPERTYKEY PKEY_Device_FriendlyName = new(GUID_PnPDeviceProperties, 14);
     internal static readonly PROPERTYKEY PKEY_DeviceInterface_FriendlyName = new(new Guid("026E516E-B814-414B-83CD-856D6FEF4822"), 2);
     internal static readonly PROPERTYKEY PKEY_Device_ContainerId = new(new Guid("8C7ED206-3F8A-4827-B3AB-AE9E1FAEFC6C"), 2);
-    internal static readonly PROPERTYKEY PKEY_AudioEndpoint_Disable_SysFx = new(new Guid("1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E"), 5);
+    
+    // Windows Native PnP Property lookups
+    internal static readonly PROPERTYKEY PKEY_Device_DeviceDesc = new(GUID_PnPDeviceProperties, 2);
+    internal static readonly PROPERTYKEY PKEY_Device_HardwareIds = new(GUID_PnPDeviceProperties, 3);
+    internal static readonly PROPERTYKEY PKEY_Device_DriverVersion = new(GUID_DriverProperties, 3);
+    internal static readonly PROPERTYKEY PKEY_AudioEndpoint_Association = new(GUID_AudioEndpointProperties, 2);
+    internal static readonly PROPERTYKEY PKEY_AudioEndpoint_Disable_SysFx = new(GUID_AudioEndpointProperties, 5);
 
     [LibraryImport("ole32.dll")]
     internal static partial int PropVariantClear(ref PROPVARIANT pvar);
