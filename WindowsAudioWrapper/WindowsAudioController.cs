@@ -19,7 +19,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
     private readonly ISystemAudioProvider _systemAudioProvider;
     private bool _disposed;
 
-    // --- Embedded Secure Internal COM Definitions to bypass reference faults ---
+    // --- Embedded Secure Internal COM Definitions sourced from AudioDeviceCmdlets production builds ---
     [ComImport]
     [Guid("5CDF2C82-841E-4546-9722-0CF74078229A")]
     [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
@@ -39,14 +39,22 @@ public sealed class WindowsAudioController : IWindowsAudioController
     }
 
     [ComImport]
-    [Guid("f8679f50-850a-41cf-9c72-430f1902d9c6")]
+    [Guid("f8679f50-850a-41cf-9c72-430f290290c8")]
     [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
     private interface IPolicyConfigInternal
     {
-        // Precisely 10 dummy methods to map ComInterfaceType.InterfaceIsIUnknown slot structures
-        void Null1(); void Null2(); void Null3(); void Null4(); void Null5();
-        void Null6(); void Null7(); void Null8(); void Null9(); void Null10();
-        int SetEndpointVisibility([MarshalAs(UnmanagedType.LPWStr)] string deviceId, int visible);
+        [PreserveSig] int GetMixFormat([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, IntPtr ppFormat);
+        [PreserveSig] int GetDeviceFormat([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, bool bDefault, IntPtr ppFormat);
+        [PreserveSig] int ResetDeviceFormat([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName);
+        [PreserveSig] int SetDeviceFormat([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, IntPtr pEndpointFormat, IntPtr mixFormat);
+        [PreserveSig] int GetProcessingPeriod([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, bool bDefault, IntPtr pPeriod, IntPtr pMinimumPeriod);
+        [PreserveSig] int SetProcessingPeriod([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, IntPtr pPeriod);
+        [PreserveSig] int GetShareMode([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, IntPtr pMode);
+        [PreserveSig] int SetShareMode([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, IntPtr pMode);
+        [PreserveSig] int GetPropertyValue([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, IntPtr pKey, IntPtr pValue);
+        [PreserveSig] int SetPropertyValue([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, IntPtr pKey, IntPtr pValue);
+        [PreserveSig] int SetDefaultEndpoint([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, uint role);
+        [PreserveSig] int SetEndpointVisibility([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, bool bVisible);
     }
 
     /// <summary>
@@ -199,11 +207,11 @@ public sealed class WindowsAudioController : IWindowsAudioController
         if (string.IsNullOrWhiteSpace(deviceId)) return;
         try
         {
-            var policyType = Type.GetTypeFromCLSID(new Guid("87B94D71-86B0-462E-B71C-06309ECE412A"));
+            var policyType = Type.GetTypeFromCLSID(new Guid("870AF99C-171D-4F9E-AF0D-E63DF40C2BC9"));
             if (policyType != null)
             {
                 var policyConfig = (IPolicyConfigInternal)Activator.CreateInstance(policyType)!;
-                policyConfig.SetEndpointVisibility(deviceId, disabled ? 0 : 1);
+                policyConfig.SetEndpointVisibility(deviceId, !disabled); // visible = true when disabled is false
             }
         }
         catch {}
