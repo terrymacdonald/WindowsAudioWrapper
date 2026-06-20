@@ -264,7 +264,14 @@ internal static class HardwareTestHelpers
                 DeviceDescription = endpoint.HardwareDetails?.DeviceDescription ?? string.Empty,
                 HardwareId = endpoint.HardwareDetails?.HardwareId ?? string.Empty,
                 DriverVersion = endpoint.HardwareDetails?.DriverVersion ?? string.Empty,
-                EndpointAssociationGuid = endpoint.HardwareDetails?.EndpointAssociationGuid ?? string.Empty
+                EndpointAssociationGuid = endpoint.HardwareDetails?.EndpointAssociationGuid ?? string.Empty,
+                FormFactorCode = endpoint.HardwareDetails?.FormFactorCode ?? 0,
+                
+                // Mirror the new properties for testing telemetry continuity
+                SupportsEventDrivenMode = endpoint.HardwareDetails?.SupportsEventDrivenMode ?? false,
+                JackSubType = endpoint.HardwareDetails?.JackSubType ?? string.Empty,
+                SpatialAudioFormat = endpoint.HardwareDetails?.SpatialAudioFormat ?? string.Empty,
+                DeviceInstanceId = endpoint.HardwareDetails?.DeviceInstanceId ?? string.Empty
             }
         };
     }

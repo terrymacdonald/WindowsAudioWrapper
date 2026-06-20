@@ -30,6 +30,13 @@ internal static partial class CoreAudioConstants
     internal static readonly PROPERTYKEY PKEY_AudioEndpoint_Association = new(GUID_AudioEndpointProperties, 2);
     internal static readonly PROPERTYKEY PKEY_AudioEndpoint_Disable_SysFx = new(GUID_AudioEndpointProperties, 5);
 
+    // Native IPropertyStore keys for advanced hardware capability tracking
+    internal static readonly PROPERTYKEY PKEY_AudioEndpoint_Supports_EventDriven_Mode = new(GUID_AudioEndpointProperties, 3);
+    internal static readonly PROPERTYKEY PKEY_AudioEndpoint_JackSubType = new(new Guid("2A91DE60-C901-4A35-8C5E-3466378D570F"), 1);
+    internal static readonly PROPERTYKEY PKEY_AudioEndpoint_Spatial = new(GUID_AudioEndpointProperties, 4);
+    internal static readonly PROPERTYKEY PKEY_Device_InstanceId = new(new Guid("786505C7-3BEA-415F-862D-8B1826946917"), 2);
+    internal static readonly PROPERTYKEY PKEY_Device_FormFactor = new(GUID_PnPDeviceProperties, 11);
+
     [LibraryImport("ole32.dll")]
     internal static partial int PropVariantClear(ref PROPVARIANT pvar);
 }

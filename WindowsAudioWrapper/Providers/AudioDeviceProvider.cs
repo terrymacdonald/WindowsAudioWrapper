@@ -125,13 +125,41 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
             endpoint.FullName = CoreAudioUtilities.ChooseDisplayName(friendlyName, interfaceName);
             endpoint.ContainerId = TrySafeReadGuid(store, CoreAudioConstants.PKEY_Device_ContainerId);
 
+            // Extract and map all unmanaged property records securely
             endpoint.HardwareDetails = new HardwareDetails
             {
                 DeviceDescription = TrySafeReadString(store, CoreAudioConstants.PKEY_Device_DeviceDesc),
                 HardwareId = TrySafeReadString(store, CoreAudioConstants.PKEY_Device_HardwareIds),
                 DriverVersion = TrySafeReadString(store, CoreAudioConstants.PKEY_Device_DriverVersion),
-                EndpointAssociationGuid = TrySafeReadGuid(store, CoreAudioConstants.PKEY_AudioEndpoint_Association)
+                EndpointAssociationGuid = TrySafeReadGuid(store, CoreAudioConstants.PKEY_AudioEndpoint_Association),
+                
+                // Read new high-fidelity string variables seamlessly via user space
+                JackSubType = TrySafeReadString(store, CoreAudioConstants.PKEY_AudioEndpoint_JackSubType),
+                SpatialAudioFormat = TrySafeReadString(store, CoreAudioConstants.PKEY_AudioEndpoint_Spatial),
+                DeviceInstanceId = TrySafeReadString(store, CoreAudioConstants.PKEY_Device_InstanceId)
             };
+
+            // Read the low-latency WASAPI event-driven capability flag (VT_BOOL)
+            PROPVARIANT eventDrivenVar = default;
+            if (store.GetValue(in CoreAudioConstants.PKEY_AudioEndpoint_Supports_EventDriven_Mode, out eventDrivenVar) >= 0)
+            {
+                if (eventDrivenVar.vt == 11) // VT_BOOL
+                {
+                    endpoint.HardwareDetails.SupportsEventDrivenMode = eventDrivenVar.p != IntPtr.Zero;
+                }
+                CoreAudioConstants.PropVariantClear(ref eventDrivenVar);
+            }
+
+            // Read the physical Form Factor category code (VT_UI4)
+            PROPVARIANT formFactorVar = default;
+            if (store.GetValue(in CoreAudioConstants.PKEY_Device_FormFactor, out formFactorVar) >= 0)
+            {
+                if (formFactorVar.vt == 19) // VT_UI4
+                {
+                    endpoint.HardwareDetails.FormFactorCode = (int)formFactorVar.p.ToInt64();
+                }
+                CoreAudioConstants.PropVariantClear(ref formFactorVar);
+            }
 
             PROPVARIANT propVar = default;
             if (store.GetValue(in CoreAudioConstants.PKEY_AudioEndpoint_Disable_SysFx, out propVar) >= 0)
