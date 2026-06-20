@@ -14,12 +14,7 @@ internal static class CoreAudioUtilities
         }
 
         object? enumerator = Activator.CreateInstance(enumeratorType);
-        if (enumerator is not IMMDeviceEnumerator deviceEnumerator)
-        {
-            throw new COMException("Unable to create the MMDeviceEnumerator COM object.");
-        }
-
-        return deviceEnumerator;
+        return (IMMDeviceEnumerator)(enumerator ?? throw new COMException("Failed to instantiate MMDeviceEnumerator."));
     }
 
     public static int ToNativeDeviceState(AudioDeviceState states)
@@ -54,16 +49,6 @@ internal static class CoreAudioUtilities
             AudioFlow.Render => EDataFlow.eRender,
             AudioFlow.Capture => EDataFlow.eCapture,
             _ => throw new ArgumentOutOfRangeException(nameof(flow), flow, "Expected Render or Capture.")
-        };
-    }
-
-    public static AudioFlow FromNativeFlow(EDataFlow flow)
-    {
-        return flow switch
-        {
-            EDataFlow.eRender => AudioFlow.Render,
-            EDataFlow.eCapture => AudioFlow.Capture,
-            _ => AudioFlow.Unknown
         };
     }
 
@@ -107,61 +92,37 @@ internal static class CoreAudioUtilities
         }
 
         IMMDeviceEnumerator enumerator = CreateEnumerator();
-        
-        int hr = enumerator.GetDevice(deviceId, out IntPtr devicePtr);
-        if (hr < 0 || devicePtr == IntPtr.Zero)
+        int hr = enumerator.GetDevice(deviceId, out IMMDevice device);
+        if (hr < 0 || device == null)
         {
             Marshal.ThrowExceptionForHR(hr);
         }
 
-        try
-        {
-            return (IMMDevice)Marshal.GetObjectForIUnknown(devicePtr);
-        }
-        finally
-        {
-            Marshal.Release(devicePtr);
-        }
+        return device ?? throw new COMException("The returned IMMDevice instance was null.");
     }
 
     public static IAudioEndpointVolume ActivateEndpointVolume(string deviceId)
     {
         IMMDevice device = GetDeviceById(deviceId);
-        
-        int hr = device.Activate(CoreAudioConstants.IID_IAudioEndpointVolume, CoreAudioConstants.CLSCTX_ALL, IntPtr.Zero, out IntPtr endpointVolumePtr);
-        if (hr < 0 || endpointVolumePtr == IntPtr.Zero)
+        int hr = device.Activate(CoreAudioConstants.IID_IAudioEndpointVolume, CoreAudioConstants.CLSCTX_ALL, IntPtr.Zero, out object endpointVolumeObj);
+        if (hr < 0 || endpointVolumeObj == null)
         {
             Marshal.ThrowExceptionForHR(hr);
         }
 
-        try
-        {
-            return (IAudioEndpointVolume)Marshal.GetObjectForIUnknown(endpointVolumePtr);
-        }
-        finally
-        {
-            Marshal.Release(endpointVolumePtr);
-        }
+        return (IAudioEndpointVolume)(endpointVolumeObj ?? throw new COMException("Activated IAudioEndpointVolume object was null."));
     }
 
     public static IAudioClient ActivateAudioClient(string deviceId)
     {
         IMMDevice device = GetDeviceById(deviceId);
-        
-        int hr = device.Activate(CoreAudioConstants.IID_IAudioClient, CoreAudioConstants.CLSCTX_ALL, IntPtr.Zero, out IntPtr audioClientPtr);
-        if (hr < 0 || audioClientPtr == IntPtr.Zero)
+        int hr = device.Activate(CoreAudioConstants.IID_IAudioClient, CoreAudioConstants.CLSCTX_ALL, IntPtr.Zero, out object audioClientObj);
+        if (hr < 0 || audioClientObj == null)
         {
             Marshal.ThrowExceptionForHR(hr);
         }
 
-        try
-        {
-            return (IAudioClient)Marshal.GetObjectForIUnknown(audioClientPtr);
-        }
-        finally
-        {
-            Marshal.Release(audioClientPtr);
-        }
+        return (IAudioClient)(audioClientObj ?? throw new COMException("Activated IAudioClient object was null."));
     }
 
     public static string ChooseDisplayName(string friendlyName, string interfaceName)

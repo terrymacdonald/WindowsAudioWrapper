@@ -75,37 +75,20 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
         string defaultDeviceId = GetDefaultDeviceIdOrEmpty(enumerator, nativeFlow, ERole.eMultimedia);
         string defaultCommunicationsDeviceId = GetDefaultDeviceIdOrEmpty(enumerator, nativeFlow, ERole.eCommunications);
 
-        int hr = enumerator.EnumAudioEndpoints(nativeFlow, nativeStates, out IntPtr collectionPtr);
-        if (hr < 0 || collectionPtr == IntPtr.Zero)
+        int hr = enumerator.EnumAudioEndpoints(nativeFlow, nativeStates, out IMMDeviceCollection collection);
+        if (hr < 0 || collection == null)
         {
             return devices;
         }
 
-        try
+        collection.GetCount(out uint count);
+        for (uint index = 0; index < count; index++)
         {
-            var collection = (IMMDeviceCollection)Marshal.GetObjectForIUnknown(collectionPtr);
-            collection.GetCount(out uint count);
-
-            for (uint index = 0; index < count; index++)
+            hr = collection.Item(index, out IMMDevice device);
+            if (hr >= 0 && device != null)
             {
-                hr = collection.Item(index, out IntPtr devicePtr);
-                if (hr >= 0 && devicePtr != IntPtr.Zero)
-                {
-                    try
-                    {
-                        var device = (IMMDevice)Marshal.GetObjectForIUnknown(devicePtr);
-                        devices.Add(CreateEndpointInfo(device, flow, defaultDeviceId, defaultCommunicationsDeviceId));
-                    }
-                    finally
-                    {
-                        Marshal.Release(devicePtr);
-                    }
-                }
+                devices.Add(CreateEndpointInfo(device, flow, defaultDeviceId, defaultCommunicationsDeviceId));
             }
-        }
-        finally
-        {
-            Marshal.Release(collectionPtr);
         }
 
         return devices;
@@ -120,20 +103,12 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
         string interfaceFriendlyName = string.Empty;
         string containerId = string.Empty;
 
-        int hr = device.OpenPropertyStore(CoreAudioConstants.STGM_READ, out IntPtr storePtr);
-        if (hr >= 0 && storePtr != IntPtr.Zero)
+        int hr = device.OpenPropertyStore(CoreAudioConstants.STGM_READ, out IPropertyStore store);
+        if (hr >= 0 && store != null)
         {
-            try
-            {
-                var store = (IPropertyStore)Marshal.GetObjectForIUnknown(storePtr);
-                friendlyName = CoreAudioUtilities.ReadStringProperty(store, CoreAudioConstants.PKEY_Device_FriendlyName);
-                interfaceFriendlyName = CoreAudioUtilities.ReadStringProperty(store, CoreAudioConstants.PKEY_DeviceInterface_FriendlyName);
-                containerId = CoreAudioUtilities.ReadGuidPropertyAsString(store, CoreAudioConstants.PKEY_Device_ContainerId);
-            }
-            finally
-            {
-                Marshal.Release(storePtr);
-            }
+            friendlyName = CoreAudioUtilities.ReadStringProperty(store, CoreAudioConstants.PKEY_Device_FriendlyName);
+            interfaceFriendlyName = CoreAudioUtilities.ReadStringProperty(store, CoreAudioConstants.PKEY_DeviceInterface_FriendlyName);
+            containerId = CoreAudioUtilities.ReadGuidPropertyAsString(store, CoreAudioConstants.PKEY_Device_ContainerId);
         }
 
         AudioDeviceState state = CoreAudioUtilities.FromNativeDeviceState(nativeState);
@@ -189,22 +164,14 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
     {
         try
         {
-            int hr = enumerator.GetDefaultAudioEndpoint(flow, role, out IntPtr devicePtr);
-            if (hr < 0 || devicePtr == IntPtr.Zero)
+            int hr = enumerator.GetDefaultAudioEndpoint(flow, role, out IMMDevice device);
+            if (hr < 0 || device == null)
             {
                 return string.Empty;
             }
 
-            try
-            {
-                var device = (IMMDevice)Marshal.GetObjectForIUnknown(devicePtr);
-                device.GetId(out string id);
-                return id;
-            }
-            finally
-            {
-                Marshal.Release(devicePtr);
-            }
+            device.GetId(out string id);
+            return id;
         }
         catch (Exception)
         {

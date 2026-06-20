@@ -52,34 +52,31 @@ internal sealed class DefaultAudioDeviceProvider : IDefaultAudioDeviceProvider
         try
         {
             IMMDeviceEnumerator enumerator = CoreAudioUtilities.CreateEnumerator();
-            int hr = enumerator.GetDefaultAudioEndpoint(CoreAudioUtilities.ToNativeFlow(flow), role, out IntPtr devicePtr);
+            int hr = enumerator.GetDefaultAudioEndpoint(CoreAudioUtilities.ToNativeFlow(flow), role, out IMMDevice device);
             
-            if (hr < 0 || devicePtr == IntPtr.Zero)
+            if (hr < 0 || device == null)
             {
                 Marshal.ThrowExceptionForHR(hr);
             }
 
-            try
+            if (device == null)
             {
-                var device = (IMMDevice)Marshal.GetObjectForIUnknown(devicePtr);
-                device.GetId(out string defaultId);
-                AudioEndpointInfo endpoint = AudioDeviceProvider.CreateEndpointInfo(device, flow, defaultId, role == ERole.eCommunications ? defaultId : string.Empty);
-                
-                if (role == ERole.eCommunications)
-                {
-                    endpoint.IsDefaultCommunicationsDevice = true;
-                }
-                else
-                {
-                    endpoint.IsDefaultDevice = true;
-                }
+                throw new COMException("The returned default audio device instance was null.");
+            }
 
-                return endpoint;
-            }
-            finally
+            device.GetId(out string defaultId);
+            AudioEndpointInfo endpoint = AudioDeviceProvider.CreateEndpointInfo(device, flow, defaultId, role == ERole.eCommunications ? defaultId : string.Empty);
+            
+            if (role == ERole.eCommunications)
             {
-                Marshal.Release(devicePtr);
+                endpoint.IsDefaultCommunicationsDevice = true;
             }
+            else
+            {
+                endpoint.IsDefaultDevice = true;
+            }
+
+            return endpoint;
         }
         catch (Exception ex)
         {

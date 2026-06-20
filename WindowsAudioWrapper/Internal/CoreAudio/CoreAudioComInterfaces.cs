@@ -24,14 +24,14 @@ internal static partial class CoreAudioConstants
     internal static partial int PropVariantClear(ref PROPVARIANT pvar);
 }
 
-internal enum EDataFlow
+public enum EDataFlow
 {
     eRender = 0,
     eCapture = 1,
     eAll = 2
 }
 
-internal enum ERole
+public enum ERole
 {
     eConsole = 0,
     eMultimedia = 1,
@@ -39,7 +39,7 @@ internal enum ERole
 }
 
 [StructLayout(LayoutKind.Sequential, Pack = 4)]
-internal struct PROPERTYKEY
+public struct PROPERTYKEY
 {
     public Guid fmtid;
     public uint pid;
@@ -52,7 +52,7 @@ internal struct PROPERTYKEY
 }
 
 [StructLayout(LayoutKind.Sequential)]
-internal struct PROPVARIANT
+public struct PROPVARIANT
 {
     public ushort vt;
     private ushort wReserved1;
@@ -77,7 +77,7 @@ internal struct PROPVARIANT
 }
 
 [StructLayout(LayoutKind.Sequential, Pack = 2)]
-internal struct WAVEFORMATEX
+public struct WAVEFORMATEX
 {
     public ushort wFormatTag;
     public ushort nChannels;
@@ -89,7 +89,7 @@ internal struct WAVEFORMATEX
 }
 
 [StructLayout(LayoutKind.Sequential, Pack = 2)]
-internal struct WAVEFORMATEXTENSIBLE
+public struct WAVEFORMATEXTENSIBLE
 {
     public WAVEFORMATEX Format;
     public ushort wValidBitsPerSample;
@@ -100,16 +100,16 @@ internal struct WAVEFORMATEXTENSIBLE
 [ComImport]
 [Guid("A95664D2-9614-4F35-A746-DE8DB63617E6")]
 [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-internal interface IMMDeviceEnumerator
+public interface IMMDeviceEnumerator
 {
     [PreserveSig]
-    int EnumAudioEndpoints(EDataFlow dataFlow, int dwStateMask, out IntPtr ppDevices);
+    int EnumAudioEndpoints(EDataFlow dataFlow, int dwStateMask, out IMMDeviceCollection ppDevices);
 
     [PreserveSig]
-    int GetDefaultAudioEndpoint(EDataFlow dataFlow, ERole role, out IntPtr ppEndpoint);
+    int GetDefaultAudioEndpoint(EDataFlow dataFlow, ERole role, out IMMDevice ppEndpoint);
 
     [PreserveSig]
-    int GetDevice([MarshalAs(UnmanagedType.LPWStr)] string pwstrId, out IntPtr ppDevice);
+    int GetDevice([MarshalAs(UnmanagedType.LPWStr)] string pwstrId, out IMMDevice ppDevice);
 
     [PreserveSig]
     int RegisterEndpointNotificationCallback(IntPtr pClient);
@@ -119,27 +119,27 @@ internal interface IMMDeviceEnumerator
 }
 
 [ComImport]
-[Guid("0BD7A1BE-7A1A-44DB-8397-C0A9F7F2A0B8")]
+[Guid("0BD7A1BE-7A1A-44DB-8397-CC5392387B5E")]
 [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-internal interface IMMDeviceCollection
+public interface IMMDeviceCollection
 {
     [PreserveSig]
     int GetCount(out uint pcDevices);
 
     [PreserveSig]
-    int Item(uint nDevice, out IntPtr ppDevice);
+    int Item(uint nDevice, out IMMDevice ppDevice);
 }
 
 [ComImport]
 [Guid("D666063F-1587-4E43-81F1-B948E807363F")]
 [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-internal interface IMMDevice
+public interface IMMDevice
 {
     [PreserveSig]
-    int Activate(in Guid iid, int dwClsCtx, IntPtr pActivationParams, out IntPtr ppInterface);
+    int Activate(in Guid iid, int dwClsCtx, IntPtr pActivationParams, [MarshalAs(UnmanagedType.Interface)] out object ppInterface);
 
     [PreserveSig]
-    int OpenPropertyStore(int stgmAccess, out IntPtr ppProperties);
+    int OpenPropertyStore(int stgmAccess, out IPropertyStore ppProperties);
 
     [PreserveSig]
     int GetId([MarshalAs(UnmanagedType.LPWStr)] out string ppstrId);
@@ -151,7 +151,7 @@ internal interface IMMDevice
 [ComImport]
 [Guid("886D8EEB-8CF2-4446-8D02-CDBA1DBDCF99")]
 [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-internal interface IPropertyStore
+public interface IPropertyStore
 {
     [PreserveSig]
     int GetCount(out uint cProps);
@@ -172,7 +172,7 @@ internal interface IPropertyStore
 [ComImport]
 [Guid("5CDF2C82-841E-4546-9722-0CF74078229A")]
 [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-internal interface IAudioEndpointVolume
+public interface IAudioEndpointVolume
 {
     [PreserveSig]
     int RegisterControlChangeNotify(IntPtr pNotify);
@@ -232,7 +232,7 @@ internal interface IAudioEndpointVolume
 [ComImport]
 [Guid("1CB9AD4C-DBFA-4c32-B178-C2F568A703B2")]
 [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-internal interface IAudioClient
+public interface IAudioClient
 {
     [PreserveSig]
     int Initialize(int shareMode, uint streamFlags, long hnsBufferDuration, long hnsPeriodicity, IntPtr pFormat, in Guid audioSessionGuid);
@@ -268,5 +268,5 @@ internal interface IAudioClient
     int SetEventHandle(IntPtr eventHandle);
 
     [PreserveSig]
-    int GetService(in Guid riid, out IntPtr ppv);
+    int GetService(in Guid riid, [MarshalAs(UnmanagedType.Interface)] out object ppv);
 }

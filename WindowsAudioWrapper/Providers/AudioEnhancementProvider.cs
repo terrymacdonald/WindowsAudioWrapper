@@ -17,25 +17,17 @@ internal sealed class AudioEnhancementProvider : IAudioEnhancementProvider
         bool disableSysFx = false;
         IMMDevice device = CoreAudioUtilities.GetDeviceById(deviceId);
         
-        int hr = device.OpenPropertyStore(CoreAudioConstants.STGM_READ, out IntPtr storePtr);
-        if (hr >= 0 && storePtr != IntPtr.Zero)
+        int hr = device.OpenPropertyStore(CoreAudioConstants.STGM_READ, out IPropertyStore store);
+        if (hr >= 0 && store != null)
         {
-            try
+            PROPVARIANT value = default;
+            if (store.GetValue(in CoreAudioConstants.PKEY_AudioEndpoint_Disable_SysFx, out value) >= 0)
             {
-                var store = (IPropertyStore)Marshal.GetObjectForIUnknown(storePtr);
-                PROPVARIANT value = default;
-                if (store.GetValue(in CoreAudioConstants.PKEY_AudioEndpoint_Disable_SysFx, out value) >= 0)
+                if (value.vt == VT_BOOL)
                 {
-                    if (value.vt == VT_BOOL)
-                    {
-                        disableSysFx = value.p != IntPtr.Zero;
-                    }
-                    CoreAudioConstants.PropVariantClear(ref value);
+                    disableSysFx = value.p != IntPtr.Zero;
                 }
-            }
-            finally
-            {
-                Marshal.Release(storePtr);
+                CoreAudioConstants.PropVariantClear(ref value);
             }
         }
 
@@ -55,19 +47,18 @@ internal sealed class AudioEnhancementProvider : IAudioEnhancementProvider
 
         IMMDevice device = CoreAudioUtilities.GetDeviceById(endpoint.DeviceId);
         
-        int hr = device.OpenPropertyStore(STGM_READWRITE, out IntPtr storePtr);
-        if (hr < 0 || storePtr == IntPtr.Zero)
+        int hr = device.OpenPropertyStore(STGM_READWRITE, out IPropertyStore store);
+        if (hr < 0 || store == null)
             Marshal.ThrowExceptionForHR(hr);
 
-        try
+        PROPVARIANT propVar = new PROPVARIANT
         {
-            var store = (IPropertyStore)Marshal.GetObjectForIUnknown(storePtr);
-            PROPVARIANT propVar = new PROPVARIANT
-            {
-                vt = VT_BOOL,
-                p = audioEnhancements.IsDeviceDefaultEffectsEnabled ? IntPtr.Zero : (IntPtr)(-1)
-            };
+            vt = VT_BOOL,
+            p = audioEnhancements.IsDeviceDefaultEffectsEnabled ? IntPtr.Zero : (IntPtr)(-1)
+        };
 
+        if (store != null)
+        {
             hr = store.SetValue(in CoreAudioConstants.PKEY_AudioEndpoint_Disable_SysFx, in propVar);
             if (hr >= 0)
             {
@@ -77,10 +68,6 @@ internal sealed class AudioEnhancementProvider : IAudioEnhancementProvider
             {
                 Marshal.ThrowExceptionForHR(hr);
             }
-        }
-        finally
-        {
-            Marshal.Release(storePtr);
         }
     }
 }
