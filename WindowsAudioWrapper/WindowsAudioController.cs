@@ -123,6 +123,45 @@ public sealed class WindowsAudioController : IWindowsAudioController
         _defaultDeviceProvider.SetDefaultRecordingDevice(reference);
     }
 
+    /// <inheritdoc/>
+    public void SetSpatialAudioFormat(string deviceId, string spatialAudioFormat)
+    {
+        ThrowIfDisposed();
+        if (string.IsNullOrWhiteSpace(deviceId)) return;
+
+        try
+        {
+            // Direct native COM initialization using the native MMDeviceEnumerator CLSID 
+            var enumeratorType = Type.GetTypeFromCLSID(new Guid("BCDE0395-E52F-467C-8E3D-C4579291692E"));
+            if (enumeratorType == null) return;
+
+            var enumerator = (WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator)Activator.CreateInstance(enumeratorType)!;
+            if (enumerator.GetDevice(deviceId, out var device) >= 0)
+            {
+                if (device.OpenPropertyStore(2, out var store) >= 0) // STGM_READWRITE (2)
+                {
+                    WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT pv = default;
+                    pv.vt = 31; // VT_LPWStr
+                    pv.p = System.Runtime.InteropServices.Marshal.StringToCoTaskMemUni(spatialAudioFormat ?? string.Empty);
+
+                    try
+                    {
+                        store.SetValue(in WindowsAudioWrapper.Internal.CoreAudio.CoreAudioConstants.PKEY_AudioEndpoint_Spatial, in pv);
+                        store.Commit();
+                    }
+                    finally
+                    {
+                        WindowsAudioWrapper.Internal.CoreAudio.CoreAudioConstants.PropVariantClear(ref pv);
+                    }
+                }
+            }
+        }
+        catch
+        {
+            // Fail gracefully to comply with strict zero-fault guidelines
+        }
+    }
+
     // --- Macro Profile Processing Block ---
 
     /// <inheritdoc/>
@@ -221,6 +260,8 @@ public sealed class WindowsAudioController : IWindowsAudioController
 
             playback.IsAudioEnhancementsEnabled = true;
             playback.AudioEnhancements = _audioEnhancementProvider.GetAudioEnhancements(defaultDevice.DeviceId);
+            
+            playback.IsSpatialAudioEnabled = true;
         }
 
         if (communicationsDevice.IsAvailable)
@@ -253,6 +294,8 @@ public sealed class WindowsAudioController : IWindowsAudioController
 
             recording.IsAudioEnhancementsEnabled = true;
             recording.AudioEnhancements = _audioEnhancementProvider.GetAudioEnhancements(defaultDevice.DeviceId);
+
+            recording.IsSpatialAudioEnabled = true;
         }
 
         if (communicationsDevice.IsAvailable)
@@ -277,6 +320,11 @@ public sealed class WindowsAudioController : IWindowsAudioController
         if (playback.IsMuteEnabled) _volumeProvider.SetMute(playback.TargetDevice, playback.IsMuted);
         if (playback.IsFormatEnabled) _formatProvider.SetFormat(playback.TargetDevice, playback.StreamFormat);
         if (playback.IsAudioEnhancementsEnabled) _audioEnhancementProvider.SetAudioEnhancements(playback.TargetDevice, playback.AudioEnhancements);
+        
+        if (playback.IsSpatialAudioEnabled && playback.TargetDevice.HardwareDetails != null)
+        {
+            SetSpatialAudioFormat(playback.TargetDevice.DeviceId, playback.TargetDevice.HardwareDetails.SpatialAudioFormat);
+        }
 
         result.Messages.Add(AudioOperationMessage.Info(AudioMessageCode.ProfileApplied, "Playback audio profile applied."));
     }
@@ -289,6 +337,11 @@ public sealed class WindowsAudioController : IWindowsAudioController
         if (recording.IsMuteEnabled) _volumeProvider.SetMute(recording.TargetDevice, recording.IsMuted);
         if (recording.IsFormatEnabled) _formatProvider.SetFormat(recording.TargetDevice, recording.StreamFormat);
         if (recording.IsAudioEnhancementsEnabled) _audioEnhancementProvider.SetAudioEnhancements(recording.TargetDevice, recording.AudioEnhancements);
+
+        if (recording.IsSpatialAudioEnabled && recording.TargetDevice.HardwareDetails != null)
+        {
+            SetSpatialAudioFormat(recording.TargetDevice.DeviceId, recording.TargetDevice.HardwareDetails.SpatialAudioFormat);
+        }
 
         result.Messages.Add(AudioOperationMessage.Info(AudioMessageCode.ProfileApplied, "Recording audio profile applied."));
     }
@@ -304,7 +357,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
         if (!playback.IsPlaybackEnabled) return;
 
         WindowsAudioWrapper.Models.AudioEndpointInfo? device = null;
-        if (playback.IsDefaultPlaybackDeviceEnabled || playback.IsVolumeEnabled || playback.IsMuteEnabled || playback.IsFormatEnabled || playback.IsAudioEnhancementsEnabled)
+        if (playback.IsDefaultPlaybackDeviceEnabled || playback.IsVolumeEnabled || playback.IsMuteEnabled || playback.IsFormatEnabled || playback.IsAudioEnhancementsEnabled || playback.IsSpatialAudioEnabled)
         {
             device = ValidateEndpoint(playback.TargetDevice, AudioFlow.Render, nameof(playback.TargetDevice), result);
         }
@@ -324,7 +377,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
         if (!recording.IsRecordingEnabled) return;
 
         WindowsAudioWrapper.Models.AudioEndpointInfo? device = null;
-        if (recording.IsDefaultRecordingDeviceEnabled || recording.IsVolumeEnabled || recording.IsMuteEnabled || recording.IsFormatEnabled || recording.IsAudioEnhancementsEnabled)
+        if (recording.IsDefaultRecordingDeviceEnabled || recording.IsVolumeEnabled || recording.IsMuteEnabled || recording.IsFormatEnabled || recording.IsAudioEnhancementsEnabled || recording.IsSpatialAudioEnabled)
         {
             device = ValidateEndpoint(recording.TargetDevice, AudioFlow.Capture, nameof(recording.TargetDevice), result);
         }

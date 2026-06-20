@@ -15,7 +15,7 @@ public sealed class AudioProfile
     public bool IsActive { get; set; } = true;
 
     /// <summary>Gets or sets the schema version of the profile, useful for backwards compatibility.</summary>
-    public int SchemaVersion { get; set; } = 1; // Removed [JsonIgnore] to output in JSON
+    public int SchemaVersion { get; set; } = 1;
 
     /// <summary>Gets or sets the settings associated with playback (Render) devices.</summary>
     public PlaybackAudioProfile Playback { get; set; } = new();
@@ -61,6 +61,7 @@ public sealed class AudioProfile
         Playback.IsMuteEnabled = true;
         Playback.IsFormatEnabled = Playback.StreamFormat.SampleRate > 0;
         Playback.IsAudioEnhancementsEnabled = true;
+        Playback.IsSpatialAudioEnabled = true;
 
         Recording.IsRecordingEnabled = true;
         Recording.IsDefaultRecordingDeviceEnabled = !string.IsNullOrWhiteSpace(Recording.TargetDevice.DeviceId);
@@ -69,6 +70,7 @@ public sealed class AudioProfile
         Recording.IsMuteEnabled = true;
         Recording.IsFormatEnabled = Recording.StreamFormat.SampleRate > 0;
         Recording.IsAudioEnhancementsEnabled = true;
+        Recording.IsSpatialAudioEnabled = true;
 
         System.IsSystemAudioEnabled = true;
         System.IsMonoAudioEnabled = true;

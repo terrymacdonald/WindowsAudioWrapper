@@ -54,4 +54,7 @@ public interface IWindowsAudioController : IDisposable
 
     /// <summary>Directly assigns the default multimedia recording device routing of the host machine.</summary>
     void SetDefaultRecordingDevice(string deviceId);
+
+    /// <summary>Directly configures the spatial audio provider format GUID token string for a targeted hardware endpoint.</summary>
+    void SetSpatialAudioFormat(string deviceId, string spatialAudioFormat);
 }

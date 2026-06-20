@@ -11,7 +11,7 @@ public sealed class RecordingAudioProfile
     public AudioEndpointReference TargetDevice { get; set; } = new();
 
     /// <summary>Gets or sets the target default communications recording voice reference block.</summary>
-    public AudioEndpointReference CommunicationsDevice { get; set; } = new(); // Removed [JsonIgnore] to output in JSON
+    public AudioEndpointReference CommunicationsDevice { get; set; } = new();
 
     /// <summary>Gets or sets the input volume percentage level.</summary>
     public decimal VolumePercent { get; set; }
@@ -53,6 +53,10 @@ public sealed class RecordingAudioProfile
     [JsonIgnore]
     public bool IsAudioEnhancementsEnabled { get; set; }
 
+    /// <summary>Gets or sets a telemetry flag stating if spatial audio changes are active. Ignored in JSON.</summary>
+    [JsonIgnore]
+    public bool IsSpatialAudioEnabled { get; set; }
+
     /// <summary>Ensures sub-elements avoid object ref fault allocations post serialization.</summary>
     public void EnsureDefaults()
     {
@@ -60,6 +64,15 @@ public sealed class RecordingAudioProfile
         CommunicationsDevice ??= new AudioEndpointReference();
         StreamFormat ??= new AudioFormatProfile();
         AudioEnhancements ??= new AudioEnhancementProfile();
+
+        if (TargetDevice.HardwareDetails == null)
+        {
+            TargetDevice.HardwareDetails = new HardwareDetails();
+        }
+        if (CommunicationsDevice.HardwareDetails == null)
+        {
+            CommunicationsDevice.HardwareDetails = new HardwareDetails();
+        }
 
         // Auto-hydrate default recording flags
         if (!string.IsNullOrWhiteSpace(TargetDevice.DeviceId))
@@ -71,6 +84,7 @@ public sealed class RecordingAudioProfile
             IsFormatEnabled = StreamFormat.SampleRate > 0;
             IsAudioEnhancementsEnabled = AudioEnhancements.AreEnhancementsSupported;
             TargetDevice.IsEndpointEnabled = true;
+            IsSpatialAudioEnabled = !string.IsNullOrWhiteSpace(TargetDevice.HardwareDetails.SpatialAudioFormat);
         }
 
         // Auto-hydrate communications recording flags
