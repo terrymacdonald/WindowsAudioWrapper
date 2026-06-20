@@ -29,24 +29,29 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
 
         AudioEndpointInfo? match = null;
 
+        // 1. Try exact DeviceId match first (Standard path)
         if (!string.IsNullOrWhiteSpace(endpoint.DeviceId))
         {
             match = devices.FirstOrDefault(device =>
                 device.DeviceId.Equals(endpoint.DeviceId, StringComparison.OrdinalIgnoreCase));
         }
 
-        if (match is null && !string.IsNullOrWhiteSpace(endpoint.FullName))
+        // 2. Fallback: Match via physical ContainerId + Flow (Handles USB port/hub swaps!)
+        if (match is null && !string.IsNullOrWhiteSpace(endpoint.ContainerId))
         {
             match = devices.FirstOrDefault(device =>
-                device.FullName.Equals(endpoint.FullName, StringComparison.OrdinalIgnoreCase));
+                device.ContainerId.Equals(endpoint.ContainerId, StringComparison.OrdinalIgnoreCase) 
+                && device.Flow == expectedFlow);
         }
 
+        // 3. Last resort Fallback: Match via text FriendlyName
         if (match is null && !string.IsNullOrWhiteSpace(endpoint.FriendlyName))
         {
             match = devices.FirstOrDefault(device =>
                 device.FriendlyName.Equals(endpoint.FriendlyName, StringComparison.OrdinalIgnoreCase));
         }
 
+        // Return the matched device or create a placeholder marked as NotPresent
         return match ?? new AudioEndpointInfo
         {
             DeviceId = endpoint.DeviceId,
@@ -63,8 +68,7 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
                 IsMuteSupported = false
             }
         };
-    }
-
+    }   
     private static IReadOnlyList<AudioEndpointInfo> EnumerateDevices(AudioFlow flow, AudioDeviceState states)
     {
         List<AudioEndpointInfo> devices = new();
