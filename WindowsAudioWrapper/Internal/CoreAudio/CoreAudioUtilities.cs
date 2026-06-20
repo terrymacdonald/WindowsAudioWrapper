@@ -1,41 +1,25 @@
 namespace WindowsAudioWrapper.Internal.CoreAudio;
 
 using System.Runtime.InteropServices;
-using System.Runtime.InteropServices.Marshalling;
 using WindowsAudioWrapper.Models;
 
 internal static class CoreAudioUtilities
 {
-    static CoreAudioUtilities()
-    {
-        try
-        {
-            // Register StrategyBasedComWrappers globally so the modern .NET runtime
-            // automatically knows how to resolve and cast our source-generated COM interfaces.
-            ComWrappers.RegisterForMarshalling(new StrategyBasedComWrappers());
-        }
-        catch (InvalidOperationException)
-        {
-            // Already registered by another component or a previous test run; safe to ignore.
-        }
-    }
-
     public static IMMDeviceEnumerator CreateEnumerator()
     {
-        int hr = CoreAudioConstants.CoCreateInstance(
-            in CoreAudioConstants.CLSID_MMDeviceEnumerator,
-            IntPtr.Zero,
-            CoreAudioConstants.CLSCTX_ALL,
-            in CoreAudioConstants.IID_IMMDeviceEnumerator,
-            out IntPtr enumeratorPtr);
-
-        if (hr < 0 || enumeratorPtr == IntPtr.Zero)
+        Type? enumeratorType = Type.GetTypeFromCLSID(CoreAudioConstants.CLSID_MMDeviceEnumerator);
+        if (enumeratorType is null)
         {
-            Marshal.ThrowExceptionForHR(hr);
+            throw new COMException("Unable to resolve the MMDeviceEnumerator COM class.");
         }
 
-        var strategy = new StrategyBasedComWrappers();
-        return (IMMDeviceEnumerator)strategy.GetOrCreateObjectForComInstance(enumeratorPtr, CreateObjectFlags.None);
+        object? enumerator = Activator.CreateInstance(enumeratorType);
+        if (enumerator is not IMMDeviceEnumerator deviceEnumerator)
+        {
+            throw new COMException("Unable to create the MMDeviceEnumerator COM object.");
+        }
+
+        return deviceEnumerator;
     }
 
     public static int ToNativeDeviceState(AudioDeviceState states)
@@ -124,13 +108,20 @@ internal static class CoreAudioUtilities
 
         IMMDeviceEnumerator enumerator = CreateEnumerator();
         
-        int hr = enumerator.GetDevice(deviceId, out IMMDevice device);
-        if (hr < 0 || device == null)
+        int hr = enumerator.GetDevice(deviceId, out IntPtr devicePtr);
+        if (hr < 0 || devicePtr == IntPtr.Zero)
         {
             Marshal.ThrowExceptionForHR(hr);
         }
 
-        return device ?? throw new COMException("Failed to wrap native IMMDevice instance.");
+        try
+        {
+            return (IMMDevice)Marshal.GetObjectForIUnknown(devicePtr);
+        }
+        finally
+        {
+            Marshal.Release(devicePtr);
+        }
     }
 
     public static IAudioEndpointVolume ActivateEndpointVolume(string deviceId)
@@ -143,8 +134,14 @@ internal static class CoreAudioUtilities
             Marshal.ThrowExceptionForHR(hr);
         }
 
-        var strategy = new StrategyBasedComWrappers();
-        return (IAudioEndpointVolume)strategy.GetOrCreateObjectForComInstance(endpointVolumePtr, CreateObjectFlags.None);
+        try
+        {
+            return (IAudioEndpointVolume)Marshal.GetObjectForIUnknown(endpointVolumePtr);
+        }
+        finally
+        {
+            Marshal.Release(endpointVolumePtr);
+        }
     }
 
     public static IAudioClient ActivateAudioClient(string deviceId)
@@ -157,8 +154,14 @@ internal static class CoreAudioUtilities
             Marshal.ThrowExceptionForHR(hr);
         }
 
-        var strategy = new StrategyBasedComWrappers();
-        return (IAudioClient)strategy.GetOrCreateObjectForComInstance(audioClientPtr, CreateObjectFlags.None);
+        try
+        {
+            return (IAudioClient)Marshal.GetObjectForIUnknown(audioClientPtr);
+        }
+        finally
+        {
+            Marshal.Release(audioClientPtr);
+        }
     }
 
     public static string ChooseDisplayName(string friendlyName, string interfaceName)

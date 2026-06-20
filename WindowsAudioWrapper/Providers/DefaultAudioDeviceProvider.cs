@@ -52,32 +52,34 @@ internal sealed class DefaultAudioDeviceProvider : IDefaultAudioDeviceProvider
         try
         {
             IMMDeviceEnumerator enumerator = CoreAudioUtilities.CreateEnumerator();
-            int hr = enumerator.GetDefaultAudioEndpoint(CoreAudioUtilities.ToNativeFlow(flow), role, out IMMDevice device);
+            int hr = enumerator.GetDefaultAudioEndpoint(CoreAudioUtilities.ToNativeFlow(flow), role, out IntPtr devicePtr);
             
-            if (hr < 0 || device == null)
+            if (hr < 0 || devicePtr == IntPtr.Zero)
             {
                 Marshal.ThrowExceptionForHR(hr);
             }
 
-            // Explicitly guard against null to eliminate warning CS8602
-            if (device == null)
+            try
             {
-                throw new COMException("The returned default audio device object instance was null.");
-            }
+                var device = (IMMDevice)Marshal.GetObjectForIUnknown(devicePtr);
+                device.GetId(out string defaultId);
+                AudioEndpointInfo endpoint = AudioDeviceProvider.CreateEndpointInfo(device, flow, defaultId, role == ERole.eCommunications ? defaultId : string.Empty);
+                
+                if (role == ERole.eCommunications)
+                {
+                    endpoint.IsDefaultCommunicationsDevice = true;
+                }
+                else
+                {
+                    endpoint.IsDefaultDevice = true;
+                }
 
-            device.GetId(out string defaultId);
-            AudioEndpointInfo endpoint = AudioDeviceProvider.CreateEndpointInfo(device, flow, defaultId, role == ERole.eCommunications ? defaultId : string.Empty);
-            
-            if (role == ERole.eCommunications)
-            {
-                endpoint.IsDefaultCommunicationsDevice = true;
+                return endpoint;
             }
-            else
+            finally
             {
-                endpoint.IsDefaultDevice = true;
+                Marshal.Release(devicePtr);
             }
-
-            return endpoint;
         }
         catch (Exception ex)
         {

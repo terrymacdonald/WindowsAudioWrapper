@@ -1,7 +1,6 @@
 namespace WindowsAudioWrapper.Internal.CoreAudio;
 
 using System.Runtime.InteropServices;
-using System.Runtime.InteropServices.Marshalling;
 
 internal static partial class CoreAudioConstants
 {
@@ -13,7 +12,6 @@ internal static partial class CoreAudioConstants
     internal const int DEVICE_STATE_UNPLUGGED = 0x00000008;
 
     internal static readonly Guid CLSID_MMDeviceEnumerator = new("BCDE0395-E52F-467C-8E3D-C4579291692E");
-    internal static readonly Guid IID_IMMDeviceEnumerator = new("A95664D2-9614-4F35-A746-DE8DB63617E6");
     internal static readonly Guid IID_IAudioEndpointVolume = new("5CDF2C82-841E-4546-9722-0CF74078229A");
     internal static readonly Guid IID_IAudioClient = new("1CB9AD4C-DBFA-4c32-B178-C2F568A703B2");
 
@@ -24,9 +22,6 @@ internal static partial class CoreAudioConstants
 
     [LibraryImport("ole32.dll")]
     internal static partial int PropVariantClear(ref PROPVARIANT pvar);
-
-    [LibraryImport("ole32.dll")]
-    internal static partial int CoCreateInstance(in Guid rclsid, IntPtr pUnkOuter, int dwClsContext, in Guid riid, out IntPtr ppv);
 }
 
 internal enum EDataFlow
@@ -102,19 +97,19 @@ internal struct WAVEFORMATEXTENSIBLE
     public Guid SubFormat;
 }
 
-[GeneratedComInterface(StringMarshalling = StringMarshalling.Utf16)]
+[ComImport]
 [Guid("A95664D2-9614-4F35-A746-DE8DB63617E6")]
 [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-internal partial interface IMMDeviceEnumerator
+internal interface IMMDeviceEnumerator
 {
     [PreserveSig]
-    int EnumAudioEndpoints(EDataFlow dataFlow, int dwStateMask, out IMMDeviceCollection ppDevices);
+    int EnumAudioEndpoints(EDataFlow dataFlow, int dwStateMask, out IntPtr ppDevices);
 
     [PreserveSig]
-    int GetDefaultAudioEndpoint(EDataFlow dataFlow, ERole role, out IMMDevice ppEndpoint);
+    int GetDefaultAudioEndpoint(EDataFlow dataFlow, ERole role, out IntPtr ppEndpoint);
 
     [PreserveSig]
-    int GetDevice(string pwstrId, out IMMDevice ppDevice);
+    int GetDevice([MarshalAs(UnmanagedType.LPWStr)] string pwstrId, out IntPtr ppDevice);
 
     [PreserveSig]
     int RegisterEndpointNotificationCallback(IntPtr pClient);
@@ -123,22 +118,22 @@ internal partial interface IMMDeviceEnumerator
     int UnregisterEndpointNotificationCallback(IntPtr pClient);
 }
 
-[GeneratedComInterface]
+[ComImport]
 [Guid("0BD7A1BE-7A1A-44DB-8397-C0A9F7F2A0B8")]
 [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-internal partial interface IMMDeviceCollection
+internal interface IMMDeviceCollection
 {
     [PreserveSig]
     int GetCount(out uint pcDevices);
 
     [PreserveSig]
-    int Item(uint nDevice, out IMMDevice ppDevice);
+    int Item(uint nDevice, out IntPtr ppDevice);
 }
 
-[GeneratedComInterface(StringMarshalling = StringMarshalling.Utf16)]
+[ComImport]
 [Guid("D666063F-1587-4E43-81F1-B948E807363F")]
 [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-internal partial interface IMMDevice
+internal interface IMMDevice
 {
     [PreserveSig]
     int Activate(in Guid iid, int dwClsCtx, IntPtr pActivationParams, out IntPtr ppInterface);
@@ -153,10 +148,10 @@ internal partial interface IMMDevice
     int GetState(out int pdwState);
 }
 
-[GeneratedComInterface]
+[ComImport]
 [Guid("886D8EEB-8CF2-4446-8D02-CDBA1DBDCF99")]
 [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-internal partial interface IPropertyStore
+internal interface IPropertyStore
 {
     [PreserveSig]
     int GetCount(out uint cProps);
@@ -174,10 +169,10 @@ internal partial interface IPropertyStore
     int Commit();
 }
 
-[GeneratedComInterface]
+[ComImport]
 [Guid("5CDF2C82-841E-4546-9722-0CF74078229A")]
 [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-internal partial interface IAudioEndpointVolume
+internal interface IAudioEndpointVolume
 {
     [PreserveSig]
     int RegisterControlChangeNotify(IntPtr pNotify);
@@ -234,10 +229,10 @@ internal partial interface IAudioEndpointVolume
     int GetVolumeRange(out float pflVolumeMindB, out float pflVolumeMaxdB, out float pflVolumeIncrementdB);
 }
 
-[GeneratedComInterface]
+[ComImport]
 [Guid("1CB9AD4C-DBFA-4c32-B178-C2F568A703B2")]
 [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-internal partial interface IAudioClient
+internal interface IAudioClient
 {
     [PreserveSig]
     int Initialize(int shareMode, uint streamFlags, long hnsBufferDuration, long hnsPeriodicity, IntPtr pFormat, in Guid audioSessionGuid);

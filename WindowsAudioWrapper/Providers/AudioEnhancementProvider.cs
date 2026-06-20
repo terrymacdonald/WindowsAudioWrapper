@@ -1,7 +1,6 @@
 namespace WindowsAudioWrapper.Providers;
 
 using System.Runtime.InteropServices;
-using System.Runtime.InteropServices.Marshalling;
 using WindowsAudioWrapper.Internal.CoreAudio;
 using WindowsAudioWrapper.Models;
 
@@ -23,15 +22,12 @@ internal sealed class AudioEnhancementProvider : IAudioEnhancementProvider
         {
             try
             {
-                var strategy = new StrategyBasedComWrappers();
-                var store = (IPropertyStore)strategy.GetOrCreateObjectForComInstance(storePtr, CreateObjectFlags.None);
-                
+                var store = (IPropertyStore)Marshal.GetObjectForIUnknown(storePtr);
                 PROPVARIANT value = default;
                 if (store.GetValue(in CoreAudioConstants.PKEY_AudioEndpoint_Disable_SysFx, out value) >= 0)
                 {
                     if (value.vt == VT_BOOL)
                     {
-                        // VARIANT_TRUE is -1, VARIANT_FALSE is 0
                         disableSysFx = value.p != IntPtr.Zero;
                     }
                     CoreAudioConstants.PropVariantClear(ref value);
@@ -45,7 +41,6 @@ internal sealed class AudioEnhancementProvider : IAudioEnhancementProvider
 
         return new AudioEnhancementProfile
         {
-            // If Disable_SysFx is false, enhancements are ENABLED.
             IsDeviceDefaultEffectsEnabled = !disableSysFx 
         };
     }
@@ -66,14 +61,11 @@ internal sealed class AudioEnhancementProvider : IAudioEnhancementProvider
 
         try
         {
-            var strategy = new StrategyBasedComWrappers();
-            var store = (IPropertyStore)strategy.GetOrCreateObjectForComInstance(storePtr, CreateObjectFlags.None);
-
+            var store = (IPropertyStore)Marshal.GetObjectForIUnknown(storePtr);
             PROPVARIANT propVar = new PROPVARIANT
             {
                 vt = VT_BOOL,
-                // Invert the logic: if we want effects ENABLED, we set Disable_SysFx to FALSE (0).
-                p = (IntPtr)(audioEnhancements.IsDeviceDefaultEffectsEnabled ? 0 : -1)
+                p = audioEnhancements.IsDeviceDefaultEffectsEnabled ? IntPtr.Zero : (IntPtr)(-1)
             };
 
             hr = store.SetValue(in CoreAudioConstants.PKEY_AudioEndpoint_Disable_SysFx, in propVar);

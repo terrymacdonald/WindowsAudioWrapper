@@ -1,7 +1,6 @@
 namespace WindowsAudioWrapper.Providers;
 
 using System.Runtime.InteropServices;
-using System.Runtime.InteropServices.Marshalling;
 using WindowsAudioWrapper.Internal.CoreAudio;
 using WindowsAudioWrapper.Models;
 
@@ -76,20 +75,37 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
         string defaultDeviceId = GetDefaultDeviceIdOrEmpty(enumerator, nativeFlow, ERole.eMultimedia);
         string defaultCommunicationsDeviceId = GetDefaultDeviceIdOrEmpty(enumerator, nativeFlow, ERole.eCommunications);
 
-        int hr = enumerator.EnumAudioEndpoints(nativeFlow, nativeStates, out IMMDeviceCollection collection);
-        if (hr < 0 || collection == null)
+        int hr = enumerator.EnumAudioEndpoints(nativeFlow, nativeStates, out IntPtr collectionPtr);
+        if (hr < 0 || collectionPtr == IntPtr.Zero)
         {
             return devices;
         }
 
-        collection.GetCount(out uint count);
-        for (uint index = 0; index < count; index++)
+        try
         {
-            hr = collection.Item(index, out IMMDevice device);
-            if (hr >= 0 && device != null)
+            var collection = (IMMDeviceCollection)Marshal.GetObjectForIUnknown(collectionPtr);
+            collection.GetCount(out uint count);
+
+            for (uint index = 0; index < count; index++)
             {
-                devices.Add(CreateEndpointInfo(device, flow, defaultDeviceId, defaultCommunicationsDeviceId));
+                hr = collection.Item(index, out IntPtr devicePtr);
+                if (hr >= 0 && devicePtr != IntPtr.Zero)
+                {
+                    try
+                    {
+                        var device = (IMMDevice)Marshal.GetObjectForIUnknown(devicePtr);
+                        devices.Add(CreateEndpointInfo(device, flow, defaultDeviceId, defaultCommunicationsDeviceId));
+                    }
+                    finally
+                    {
+                        Marshal.Release(devicePtr);
+                    }
+                }
             }
+        }
+        finally
+        {
+            Marshal.Release(collectionPtr);
         }
 
         return devices;
@@ -109,8 +125,7 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
         {
             try
             {
-                var strategy = new StrategyBasedComWrappers();
-                var store = (IPropertyStore)strategy.GetOrCreateObjectForComInstance(storePtr, CreateObjectFlags.None);
+                var store = (IPropertyStore)Marshal.GetObjectForIUnknown(storePtr);
                 friendlyName = CoreAudioUtilities.ReadStringProperty(store, CoreAudioConstants.PKEY_Device_FriendlyName);
                 interfaceFriendlyName = CoreAudioUtilities.ReadStringProperty(store, CoreAudioConstants.PKEY_DeviceInterface_FriendlyName);
                 containerId = CoreAudioUtilities.ReadGuidPropertyAsString(store, CoreAudioConstants.PKEY_Device_ContainerId);
@@ -163,7 +178,7 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
             endpoint.VolumePercent = Math.Round((decimal)scalar * 100m, 2);
             endpoint.IsMuted = muted;
         }
-        catch (Exception) when (IsRecoverableAudioException())
+        catch (Exception)
         {
             endpoint.Capabilities.IsVolumeSupported = false;
             endpoint.Capabilities.IsMuteSupported = false;
@@ -174,23 +189,26 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
     {
         try
         {
-            int hr = enumerator.GetDefaultAudioEndpoint(flow, role, out IMMDevice device);
-            if (hr < 0 || device == null)
+            int hr = enumerator.GetDefaultAudioEndpoint(flow, role, out IntPtr devicePtr);
+            if (hr < 0 || devicePtr == IntPtr.Zero)
             {
                 return string.Empty;
             }
 
-            device.GetId(out string id);
-            return id;
+            try
+            {
+                var device = (IMMDevice)Marshal.GetObjectForIUnknown(devicePtr);
+                device.GetId(out string id);
+                return id;
+            }
+            finally
+            {
+                Marshal.Release(devicePtr);
+            }
         }
         catch (Exception)
         {
             return string.Empty;
         }
-    }
-
-    private static bool IsRecoverableAudioException()
-    {
-        return true;
     }
 }
