@@ -19,6 +19,13 @@ public sealed class DirectApiHardwareTests
     public void EnableAllFeatures_ShouldFlipAllHiddenTelemetryFlagsToTrue()
     {
         AudioProfile profile = new();
+        
+        // SEED: Provide mock device IDs so the conditional engine logic fires true
+        profile.Playback.TargetDevice.DeviceId = "{mock-playback-id}";
+        profile.Playback.CommunicationsDevice.DeviceId = "{mock-comms-playback-id}";
+        profile.Recording.TargetDevice.DeviceId = "{mock-recording-id}";
+        profile.Recording.CommunicationsDevice.DeviceId = "{mock-comms-recording-id}";
+        
         profile.Playback.StreamFormat.SampleRate = 48000;
         profile.Recording.StreamFormat.SampleRate = 48000;
 

@@ -15,8 +15,7 @@ public sealed class AudioProfile
     public bool IsActive { get; set; } = true;
 
     /// <summary>Gets or sets the schema version of the profile, useful for backwards compatibility.</summary>
-    [JsonIgnore]
-    public int SchemaVersion { get; set; } = 1;
+    public int SchemaVersion { get; set; } = 1; // Removed [JsonIgnore] to output in JSON
 
     /// <summary>Gets or sets the settings associated with playback (Render) devices.</summary>
     public PlaybackAudioProfile Playback { get; set; } = new();
@@ -56,16 +55,16 @@ public sealed class AudioProfile
         EnsureDefaults();
 
         Playback.IsPlaybackEnabled = true;
-        Playback.IsDefaultPlaybackDeviceEnabled = true;
-        Playback.IsDefaultCommunicationsPlaybackDeviceEnabled = true;
+        Playback.IsDefaultPlaybackDeviceEnabled = !string.IsNullOrWhiteSpace(Playback.TargetDevice.DeviceId);
+        Playback.IsDefaultCommunicationsPlaybackDeviceEnabled = !string.IsNullOrWhiteSpace(Playback.CommunicationsDevice.DeviceId);
         Playback.IsVolumeEnabled = true;
         Playback.IsMuteEnabled = true;
         Playback.IsFormatEnabled = Playback.StreamFormat.SampleRate > 0;
         Playback.IsAudioEnhancementsEnabled = true;
 
         Recording.IsRecordingEnabled = true;
-        Recording.IsDefaultRecordingDeviceEnabled = true;
-        Recording.IsDefaultCommunicationsRecordingDeviceEnabled = true;
+        Recording.IsDefaultRecordingDeviceEnabled = !string.IsNullOrWhiteSpace(Recording.TargetDevice.DeviceId);
+        Recording.IsDefaultCommunicationsRecordingDeviceEnabled = !string.IsNullOrWhiteSpace(Recording.CommunicationsDevice.DeviceId);
         Recording.IsVolumeEnabled = true;
         Recording.IsMuteEnabled = true;
         Recording.IsFormatEnabled = Recording.StreamFormat.SampleRate > 0;

@@ -3,12 +3,15 @@ using System.Text.Json.Serialization;
 namespace WindowsAudioWrapper.Models;
 
 /// <summary>
-/// Holds configuration targets and unmanaged telemetry fields for system audio playback devices.
+/// Holds configuration targets and settings for system audio playback devices.
 /// </summary>
 public sealed class PlaybackAudioProfile
 {
-    /// <summary>Gets or sets the target playback device reference block.</summary>
+    /// <summary>Gets or sets the target default multimedia playback device reference block.</summary>
     public AudioEndpointReference TargetDevice { get; set; } = new();
+
+    /// <summary>Gets or sets the target default communications voice routing reference block.</summary>
+    public AudioEndpointReference CommunicationsDevice { get; set; } = new(); // Removed [JsonIgnore] to output in JSON
 
     /// <summary>Gets or sets the output volume percentage level.</summary>
     public decimal VolumePercent { get; set; }
@@ -22,19 +25,15 @@ public sealed class PlaybackAudioProfile
     /// <summary>Gets or sets APO system enhancement profiles.</summary>
     public AudioEnhancementProfile AudioEnhancements { get; set; } = new();
 
-    /// <summary>Gets or sets a tracking token stating if communications hardware routing is active. Ignored in JSON.</summary>
-    [JsonIgnore]
-    public AudioEndpointReference CommunicationsDevice { get; set; } = new();
-
     /// <summary>Gets or sets a telemetry flag stating if playback features are active. Ignored in JSON.</summary>
     [JsonIgnore]
     public bool IsPlaybackEnabled { get; set; }
 
-    /// <summary>Gets or sets a telemetry flag stating if default routing switches are active. Ignored in JSON.</summary>
+    /// <summary>Gets or sets a telemetry flag stating if default multimedia routing switches are active. Ignored in JSON.</summary>
     [JsonIgnore]
     public bool IsDefaultPlaybackDeviceEnabled { get; set; }
 
-    /// <summary>Gets or sets a telemetry flag stating if voice routing switches are active. Ignored in JSON.</summary>
+    /// <summary>Gets or sets a telemetry flag stating if voice communications routing switches are active. Ignored in JSON.</summary>
     [JsonIgnore]
     public bool IsDefaultCommunicationsPlaybackDeviceEnabled { get; set; }
 
@@ -58,11 +57,11 @@ public sealed class PlaybackAudioProfile
     public void EnsureDefaults()
     {
         TargetDevice ??= new AudioEndpointReference();
+        CommunicationsDevice ??= new AudioEndpointReference();
         StreamFormat ??= new AudioFormatProfile();
         AudioEnhancements ??= new AudioEnhancementProfile();
-        CommunicationsDevice ??= new AudioEndpointReference();
 
-        // Automatically hydrate hidden validation/apply flags when loading from clean JSON configurations
+        // Auto-hydrate default multimedia flags
         if (!string.IsNullOrWhiteSpace(TargetDevice.DeviceId))
         {
             IsPlaybackEnabled = true;
@@ -71,13 +70,13 @@ public sealed class PlaybackAudioProfile
             IsMuteEnabled = true;
             IsFormatEnabled = StreamFormat.SampleRate > 0;
             IsAudioEnhancementsEnabled = AudioEnhancements.AreEnhancementsSupported;
-            
-            // Fixes the JSON cloning validation drop issue
             TargetDevice.IsEndpointEnabled = true;
         }
 
+        // Auto-hydrate communications routing flags
         if (!string.IsNullOrWhiteSpace(CommunicationsDevice.DeviceId))
         {
+            IsPlaybackEnabled = true;
             IsDefaultCommunicationsPlaybackDeviceEnabled = true;
             CommunicationsDevice.IsEndpointEnabled = true;
         }
