@@ -48,7 +48,24 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
             match = devices.FirstOrDefault(d => d.FriendlyName.Equals(endpoint.FriendlyName, StringComparison.OrdinalIgnoreCase));
         }
 
-        return match ?? new AudioEndpointInfo { State = AudioDeviceState.NotPresent, Flow = expectedFlow };
+        return match ?? new AudioEndpointInfo 
+        { 
+            DeviceId = endpoint.DeviceId ?? string.Empty,
+            ContainerId = endpoint.ContainerId ?? string.Empty,
+            FriendlyName = endpoint.FriendlyName ?? string.Empty,
+            FullName = endpoint.FullName ?? string.Empty,
+            Flow = expectedFlow,
+            State = AudioDeviceState.NotPresent,
+            Capabilities = new AudioEndpointCapabilities
+            {
+                IsDefaultDeviceSupported = false,
+                IsDefaultCommunicationsDeviceSupported = false,
+                IsVolumeSupported = false,
+                IsMuteSupported = false,
+                IsAudioEnhancementsReadSupported = false,
+                IsAudioEnhancementsSetSupported = false
+            }
+        };
     }
 
     private static IReadOnlyList<AudioEndpointInfo> EnumerateDevices(AudioFlow flow, AudioDeviceState states)
@@ -101,19 +118,19 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
         int hr = device.OpenPropertyStore(CoreAudioConstants.STGM_READ, out IPropertyStore store);
         if (hr >= 0 && store != null)
         {
-            string friendlyName = CoreAudioUtilities.ReadStringProperty(store, CoreAudioConstants.PKEY_Device_FriendlyName);
-            string interfaceName = CoreAudioUtilities.ReadStringProperty(store, CoreAudioConstants.PKEY_DeviceInterface_FriendlyName);
+            string friendlyName = TrySafeReadString(store, CoreAudioConstants.PKEY_Device_FriendlyName);
+            string interfaceName = TrySafeReadString(store, CoreAudioConstants.PKEY_DeviceInterface_FriendlyName);
             
             endpoint.FriendlyName = friendlyName;
             endpoint.FullName = CoreAudioUtilities.ChooseDisplayName(friendlyName, interfaceName);
-            endpoint.ContainerId = CoreAudioUtilities.ReadGuidPropertyAsString(store, CoreAudioConstants.PKEY_Device_ContainerId);
+            endpoint.ContainerId = TrySafeReadGuid(store, CoreAudioConstants.PKEY_Device_ContainerId);
 
             endpoint.HardwareDetails = new HardwareDetails
             {
-                DeviceDescription = CoreAudioUtilities.ReadStringProperty(store, CoreAudioConstants.PKEY_Device_DeviceDesc),
-                HardwareId = CoreAudioUtilities.ReadStringProperty(store, CoreAudioConstants.PKEY_Device_HardwareIds),
-                DriverVersion = CoreAudioUtilities.ReadStringProperty(store, CoreAudioConstants.PKEY_Device_DriverVersion),
-                EndpointAssociationGuid = CoreAudioUtilities.ReadGuidPropertyAsString(store, CoreAudioConstants.PKEY_AudioEndpoint_Association)
+                DeviceDescription = TrySafeReadString(store, CoreAudioConstants.PKEY_Device_DeviceDesc),
+                HardwareId = TrySafeReadString(store, CoreAudioConstants.PKEY_Device_HardwareIds),
+                DriverVersion = TrySafeReadString(store, CoreAudioConstants.PKEY_Device_DriverVersion),
+                EndpointAssociationGuid = TrySafeReadGuid(store, CoreAudioConstants.PKEY_AudioEndpoint_Association)
             };
 
             PROPVARIANT propVar = default;
@@ -123,6 +140,8 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
                 {
                     endpoint.AudioEnhancements.AreEnhancementsSupported = true;
                     endpoint.AudioEnhancements.DisableAllEnhancements = propVar.p != IntPtr.Zero; 
+                    endpoint.Capabilities.IsAudioEnhancementsReadSupported = true;
+                    endpoint.Capabilities.IsAudioEnhancementsSetSupported = true;
                 }
                 CoreAudioConstants.PropVariantClear(ref propVar);
             }
@@ -136,6 +155,30 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
         return endpoint;
     }
 
+    private static string TrySafeReadString(IPropertyStore store, PROPERTYKEY key)
+    {
+        try
+        {
+            return CoreAudioUtilities.ReadStringProperty(store, key);
+        }
+        catch
+        {
+            return string.Empty; // Fail-open baseline for software/virtual drivers lacking this key
+        }
+    }
+
+    private static string TrySafeReadGuid(IPropertyStore store, PROPERTYKEY key)
+    {
+        try
+        {
+            return CoreAudioUtilities.ReadGuidPropertyAsString(store, key);
+        }
+        catch
+        {
+            return string.Empty; // Fail-open baseline for virtual drivers lacking static associations
+        }
+    }
+
     private static void TryPopulateVolumeAndMute(AudioEndpointInfo endpoint)
     {
         try
@@ -145,6 +188,8 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
             volume.GetMute(out bool muted);
             endpoint.VolumePercent = Math.Round((decimal)scalar * 100m, 2);
             endpoint.IsMuted = muted;
+            endpoint.Capabilities.IsVolumeSupported = true;
+            endpoint.Capabilities.IsMuteSupported = true;
         }
         catch
         {
