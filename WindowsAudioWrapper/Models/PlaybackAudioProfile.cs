@@ -61,5 +61,25 @@ public sealed class PlaybackAudioProfile
         StreamFormat ??= new AudioFormatProfile();
         AudioEnhancements ??= new AudioEnhancementProfile();
         CommunicationsDevice ??= new AudioEndpointReference();
+
+        // Automatically hydrate hidden validation/apply flags when loading from clean JSON configurations
+        if (!string.IsNullOrWhiteSpace(TargetDevice.DeviceId))
+        {
+            IsPlaybackEnabled = true;
+            IsDefaultPlaybackDeviceEnabled = true;
+            IsVolumeEnabled = true;
+            IsMuteEnabled = true;
+            IsFormatEnabled = StreamFormat.SampleRate > 0;
+            IsAudioEnhancementsEnabled = AudioEnhancements.AreEnhancementsSupported;
+            
+            // Fixes the JSON cloning validation drop issue
+            TargetDevice.IsEndpointEnabled = true;
+        }
+
+        if (!string.IsNullOrWhiteSpace(CommunicationsDevice.DeviceId))
+        {
+            IsDefaultCommunicationsPlaybackDeviceEnabled = true;
+            CommunicationsDevice.IsEndpointEnabled = true;
+        }
     }
 }

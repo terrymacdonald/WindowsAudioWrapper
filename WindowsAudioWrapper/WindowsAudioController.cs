@@ -64,15 +64,66 @@ public sealed class WindowsAudioController : IWindowsAudioController
 
     /// <inheritdoc/>
     public AudioEndpointInfo GetDefaultPlaybackDevice() { ThrowIfDisposed(); return _defaultDeviceProvider.GetDefaultPlaybackDevice(); }
-    
     /// <inheritdoc/>
     public AudioEndpointInfo GetDefaultRecordingDevice() { ThrowIfDisposed(); return _defaultDeviceProvider.GetDefaultRecordingDevice(); }
-    
     /// <inheritdoc/>
     public AudioEndpointInfo GetDefaultCommunicationsPlaybackDevice() { ThrowIfDisposed(); return _defaultDeviceProvider.GetDefaultCommunicationsPlaybackDevice(); }
-    
     /// <inheritdoc/>
     public AudioEndpointInfo GetDefaultCommunicationsRecordingDevice() { ThrowIfDisposed(); return _defaultDeviceProvider.GetDefaultCommunicationsRecordingDevice(); }
+
+    // --- Direct Per-Feature Methods Implementation Block ---
+
+    /// <inheritdoc/>
+    public void SetVolumePercent(string deviceId, decimal volumePercent)
+    {
+        ThrowIfDisposed();
+        var reference = new AudioEndpointReference { DeviceId = deviceId ?? string.Empty };
+        _volumeProvider.SetVolumePercent(reference, volumePercent);
+    }
+
+    /// <inheritdoc/>
+    public void SetMute(string deviceId, bool muted)
+    {
+        ThrowIfDisposed();
+        var reference = new AudioEndpointReference { DeviceId = deviceId ?? string.Empty };
+        _volumeProvider.SetMute(reference, muted);
+    }
+
+    /// <inheritdoc/>
+    public void SetFormat(string deviceId, AudioFormatProfile format)
+    {
+        ThrowIfDisposed();
+        ArgumentNullException.ThrowIfNull(format);
+        var reference = new AudioEndpointReference { DeviceId = deviceId ?? string.Empty };
+        _formatProvider.SetFormat(reference, format);
+    }
+
+    /// <inheritdoc/>
+    public void SetAudioEnhancements(string deviceId, AudioEnhancementProfile enhancements)
+    {
+        ThrowIfDisposed();
+        ArgumentNullException.ThrowIfNull(enhancements);
+        var reference = new AudioEndpointReference { DeviceId = deviceId ?? string.Empty };
+        _audioEnhancementProvider.SetAudioEnhancements(reference, enhancements);
+    }
+
+    /// <inheritdoc/>
+    public void SetDefaultPlaybackDevice(string deviceId)
+    {
+        ThrowIfDisposed();
+        var reference = new AudioEndpointReference { DeviceId = deviceId ?? string.Empty };
+        _defaultDeviceProvider.SetDefaultPlaybackDevice(reference);
+    }
+
+    /// <inheritdoc/>
+    public void SetDefaultRecordingDevice(string deviceId)
+    {
+        ThrowIfDisposed();
+        var reference = new AudioEndpointReference { DeviceId = deviceId ?? string.Empty };
+        _defaultDeviceProvider.SetDefaultRecordingDevice(reference);
+    }
+
+    // --- Macro Profile Processing Block ---
 
     /// <inheritdoc/>
     public AudioProfile GetCurrentProfile()
@@ -165,11 +216,9 @@ public sealed class WindowsAudioController : IWindowsAudioController
             playback.IsMuteEnabled = defaultDevice.Capabilities.IsMuteSupported;
             if (playback.IsMuteEnabled) playback.IsMuted = defaultDevice.IsMuted;
 
-            defaultDevice.Capabilities.IsFormatReadSupported = true; 
             playback.IsFormatEnabled = true;
             playback.StreamFormat = _formatProvider.GetFormat(defaultDevice.DeviceId);
 
-            defaultDevice.Capabilities.IsAudioEnhancementsReadSupported = true;
             playback.IsAudioEnhancementsEnabled = true;
             playback.AudioEnhancements = _audioEnhancementProvider.GetAudioEnhancements(defaultDevice.DeviceId);
         }
@@ -199,11 +248,9 @@ public sealed class WindowsAudioController : IWindowsAudioController
             recording.IsMuteEnabled = defaultDevice.Capabilities.IsMuteSupported;
             if (recording.IsMuteEnabled) recording.IsMuted = defaultDevice.IsMuted;
 
-            defaultDevice.Capabilities.IsFormatReadSupported = true;
             recording.IsFormatEnabled = true;
             recording.StreamFormat = _formatProvider.GetFormat(defaultDevice.DeviceId);
 
-            defaultDevice.Capabilities.IsAudioEnhancementsReadSupported = true;
             recording.IsAudioEnhancementsEnabled = true;
             recording.AudioEnhancements = _audioEnhancementProvider.GetAudioEnhancements(defaultDevice.DeviceId);
         }
