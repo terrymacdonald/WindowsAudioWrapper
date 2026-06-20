@@ -1,354 +1,215 @@
 # WindowsAudioWrapper
 
-WindowsAudioWrapper is a Windows-only .NET wrapper library for reading and applying Windows audio settings using a simple profile-based API.
+A high-performance, robust, production-grade .NET 10 library wrapper around Windows Core Audio (WASAPI), `PolicyConfig`, and native Windows registry subsystems. `WindowsAudioWrapper` allows developers to programmatically capture, validate, modify, and apply multimedia audio configurations across endpoints seamlessly.
 
-It is designed to provide a reusable audio control layer for applications such as DisplayMagician, while remaining general-purpose enough for other Windows projects.
+This library is designed for enterprise integration scenarios—such as **DisplayMagician**—featuring a strict **zero-null architecture constraint** while producing clean, high-fidelity JSON profile serializations.
 
-The core design principle is simple:
+---
 
-```csharp
-AudioProfile currentProfile = audioController.GetCurrentProfile();
-audioController.ApplyProfile(profileToUse);
+## 💎 Core Architecture
+
+A high-performance framework coordinating core Windows audio configurations, this library is built using a decoupled provider model that bridges unmanaged COM surfaces with a safe, developer-friendly C# public contract. It provides two distinct pathways for system configuration:
+
+1. **Direct Per-Feature Control (Programmatic Path):** Instantly adjust single settings (volume, mute, default routing) directly on hardware endpoints without initializing or managing profile state objects.
+2. **Macro Profile-Based Control (State Path):** Capture the entire system audio state, serialize it to a pristine JSON file, or apply tailored configuration files down to the hardware on demand.
+
+### Zero-Null DTO Constraint
+To remain compliant with rigid consumer constraints, all Data Transfer Objects (DTOs) use non-nullable primitives. Granular profile control is managed implicitly through hidden automation control flags marked with `[JsonIgnore]`. Features can be toggled individually, or hydrated globally on deserialization using the built-in `.EnableAllFeatures()` hook.
+
+---
+
+## 🛠️ Feature Matrix
+
+* **Endpoint Enumeration:** Deep traversal of active, disabled, unplugged, or missing Render (Playback) and Capture (Recording) IMMDevice endpoints.
+* **Default Routing Engine:** Direct programmatic assignment of default Multimedia and Communications voice devices via native `IPolicyConfig` injection.
+* **Hardware Volume & Mute:** Accurate volume scalar manipulation mapping between 0.00% and 100.00% with delta-tolerance rounding guards.
+* **Audio Stream Formats:** Extract and update shared-mode stream specifications (Sample Rate, Channels, and Bit Depth) via `WAVEFORMATEX` binary marshalling.
+* **Audio Processing Objects (APOs):** Programmatic toggling of system audio enhancement checkboxes without throwing unmanaged index faults.
+* **System-Wide Accessibility:** Registry-level manipulation of global accessibility mixed-mono configuration switches (`AccessibilityMonoMixState`).
+
+---
+
+## 📂 Expected JSON Profile Schema
+
+When profiles are captured or serialized, the schema output is perfectly clean and optimized. Internal framework monitoring variables are completely stripped out at the serialization boundary.
+
+```json
+{
+  "ProfileName": "Ultra-Fidelity Studio Monitor",
+  "IsActive": true,
+  "Playback": {
+    "TargetDevice": {
+      "DeviceId": "{0.0.0.00000000}.{a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d}",
+      "ContainerId": "b4c5d6e7-f8a9-0b1c-2d3e-4f5a6b7c8d9e",
+      "FriendlyName": "Scarlett 2i2 Out",
+      "HardwareDetails": {
+        "DeviceDescription": "Focusrite USB Audio",
+        "HardwareId": "USB\\VID_1235&PID_8212",
+        "DriverVersion": "4.119.13.0",
+        "EndpointAssociationGuid": "38be3000-76f5-11d0-a292-00a0c9223196"
+      }
+    },
+    "VolumePercent": 70.00,
+    "IsMuted": false,
+    "StreamFormat": {
+      "SampleRate": 192000,
+      "BitDepth": 24,
+      "Channels": 2
+    },
+    "AudioEnhancements": {
+      "AreEnhancementsSupported": true,
+      "DisableAllEnhancements": false,
+      "ActiveEffectsGuidsList": []
+    }
+  },
+  "Recording": {
+    "TargetDevice": {
+      "DeviceId": "{0.0.10000000}.{capture-guid-here}",
+      "ContainerId": "container-guid-here",
+      "FriendlyName": "Scarlett 2i2 In",
+      "HardwareDetails": {
+        "DeviceDescription": "Focusrite USB Audio",
+        "HardwareId": "USB\\VID_1235&PID_8212",
+        "DriverVersion": "4.119.13.0",
+        "EndpointAssociationGuid": "20889842-76f5-11d0-a292-00a0c9223196"
+      }
+    },
+    "VolumePercent": 50.00,
+    "IsMuted": false,
+    "StreamFormat": {
+      "SampleRate": 48000,
+      "BitDepth": 24,
+      "Channels": 2
+    },
+    "AudioEnhancements": {
+      "AreEnhancementsSupported": false,
+      "DisableAllEnhancements": false,
+      "ActiveEffectsGuidsList": []
+    }
+  }
+}
 ```
 
-An `AudioProfile` is the only state object. It can represent a user-created profile, the current Windows audio state, a temporary profile used for rollback, or a profile loaded from JSON.
+---
 
-## Project goals
+## 💻 API Usage Examples
 
-WindowsAudioWrapper aims to:
-
-- provide a modern replacement for older .NET Framework audio libraries;
-- support .NET 10 Windows applications;
-- expose simple, JSON-friendly DTOs;
-- avoid nullable child DTOs;
-- use explicit `Is*Enabled` properties to control what settings are applied;
-- keep Windows audio interop details out of consuming applications;
-- support DisplayMagician-style apply/revert workflows without building DisplayMagician-specific concepts into the library.
-
-## Target framework
-
-The library is intended to target Windows only:
-
-```xml
-<TargetFramework>net10.0-windows</TargetFramework>
-<Nullable>enable</Nullable>
-<ImplicitUsings>enable</ImplicitUsings>
-```
-
-The sample application and xUnit test project should also target `net10.0-windows`.
-
-## Recommended solution layout
-
-```text
-WindowsAudioWrapper/
-├── WindowsAudioWrapper.slnx
-├── WindowsAudioWrapper/
-│   ├── WindowsAudioWrapper.csproj
-│   ├── WindowsAudioController.cs
-│   ├── IWindowsAudioController.cs
-│   ├── Models/
-│   ├── Providers/
-│   └── Internal/
-├── WindowsAudioWrapper.Tests/
-│   ├── WindowsAudioWrapper.Tests.csproj
-│   └── ...
-└── WindowsAudioWrapper.SampleApp/
-    ├── WindowsAudioWrapper.SampleApp.csproj
-    └── Program.cs
-```
-
-The repository intentionally does not use `src`, `tests`, or `samples` folders. The sample app is kept at the solution root because there is only one sample application.
-
-## Basic usage
+### 1. Direct Per-Feature Pathway (No Profile Required)
+For isolated hardware interactions where initializing state profiles is unnecessary, use the direct methods exposed on the controller facade.
 
 ```csharp
 using WindowsAudioWrapper;
 using WindowsAudioWrapper.Models;
 
-using WindowsAudioController audioController = new();
+// Initialize the root controller facade
+using IWindowsAudioController controller = new WindowsAudioController();
 
-AudioProfile currentProfile = audioController.GetCurrentProfile();
+string targetDeviceId = "{0.0.0.00000000}.{a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d}";
 
-AudioProfile gameProfile = new()
+// 1. Adjust master hardware volume scalar directly
+controller.SetVolumePercent(targetDeviceId, 75.5m);
+
+// 2. Toggle hard mute line directly
+controller.SetMute(targetDeviceId, false);
+
+// 3. Update routing to establish device as system default multimedia renderer
+controller.SetDefaultPlaybackDevice(targetDeviceId);
+
+// 4. Configure stream specifications programmatically
+var targetFormat = new AudioFormatProfile
 {
-    Playback =
+    SampleRate = 96000,
+    BitsPerSample = 24,
+    Channels = 2
+};
+controller.SetFormat(targetDeviceId, targetFormat);
+```
+
+### 2. Full Macro Profile Pathway (JSON Interaction)
+To capture the entire live audio environment, export it to disk, or apply configuration macros from external setup states.
+
+```csharp
+using System.IO;
+using System.Text.Json;
+using WindowsAudioWrapper;
+using WindowsAudioWrapper.Models;
+
+using IWindowsAudioController controller = new WindowsAudioController();
+
+// --- Path A: Capture and Export ---
+// Grabs full live environment variables natively
+AudioProfile liveProfile = controller.GetCurrentProfile();
+
+// Serialize cleanly to a JSON file format (Hides internal telemetry booleans)
+string jsonOutput = JsonSerializer.Serialize(liveProfile, new JsonSerializerOptions { WriteIndented = true });
+File.WriteAllText("StudioMonitorProfile.json", jsonOutput);
+
+
+// --- Path B: Import and Macro Apply ---
+// Read clean JSON structure from disk
+string jsonInput = File.ReadAllText("StudioMonitorProfile.json");
+AudioProfile loadedProfile = JsonSerializer.Deserialize<AudioProfile>(jsonInput);
+
+// CRITICAL: Hydrate the hidden control flags to true for full execution pass
+loadedProfile.EnableAllFeatures();
+
+// Execute business validation loops before executing hardware changes
+AudioProfileValidationResult validation = controller.ValidateProfile(loadedProfile);
+if (validation.Successful)
+{
+    // Apply macro configurations safely down onto unmanaged property stores
+    AudioProfileApplyResult applyResult = controller.ApplyProfile(loadedProfile);
+    if (applyResult.Successful)
     {
-        IsPlaybackEnabled = true,
-        IsDefaultPlaybackDeviceEnabled = true,
-        IsDefaultCommunicationsPlaybackDeviceEnabled = true,
-        IsVolumeEnabled = true,
-        VolumePercent = 80,
-        Device =
-        {
-            DeviceId = "{playback-device-id}",
-            FriendlyName = "LG TV"
-        },
-        CommunicationsDevice =
-        {
-            DeviceId = "{playback-device-id}",
-            FriendlyName = "LG TV"
-        }
-    },
-    Recording =
-    {
-        IsRecordingEnabled = true,
-        IsDefaultRecordingDeviceEnabled = true,
-        IsVolumeEnabled = true,
-        VolumePercent = 90,
-        Device =
-        {
-            DeviceId = "{recording-device-id}",
-            FriendlyName = "USB Microphone"
-        }
+        System.Console.WriteLine("Audio Profile macro deployed successfully!");
     }
-};
-
-AudioProfileValidationResult validationResult = audioController.ValidateProfile(gameProfile);
-
-if (validationResult.Successful)
-{
-    AudioProfileApplyResult applyResult = audioController.ApplyProfile(gameProfile);
-
-    if (!applyResult.Successful)
-    {
-        foreach (AudioOperationMessage message in applyResult.Messages)
-        {
-            Console.WriteLine($"{message.Severity}: {message.Message}");
-        }
-    }
-}
-
-// Later, if the application wants to revert audio settings:
-audioController.ApplyProfile(currentProfile);
-```
-
-## Profiles-only design
-
-WindowsAudioWrapper deliberately does not expose separate snapshot or restore objects.
-
-Instead, the library uses `AudioProfile` for everything:
-
-- a profile created by a user;
-- the current Windows audio state;
-- a temporary profile used by an application to revert changes;
-- a profile stored in JSON;
-- a profile created by a test or sample app.
-
-The public API is therefore intentionally small:
-
-```csharp
-AudioProfile GetCurrentProfile();
-AudioProfileValidationResult ValidateProfile(AudioProfile profile);
-AudioProfileApplyResult ApplyProfile(AudioProfile profile);
-```
-
-`GetCurrentProfile()` captures every setting that WindowsAudioWrapper can read at the time it is called. Settings that cannot be read are left disabled in the returned profile.
-
-`ApplyProfile()` applies every setting whose corresponding `Is*Enabled` flag is enabled.
-
-## DTO design
-
-DTOs are designed to be JSON-friendly and stable.
-
-Child DTO properties should always return non-null objects. The library uses explicit `Is*Enabled` fields to determine whether a setting should be applied.
-
-For example:
-
-```csharp
-public sealed class AudioProfile
-{
-    public int SchemaVersion { get; set; } = 1;
-
-    public PlaybackAudioProfile Playback { get; set; } = new();
-    public RecordingAudioProfile Recording { get; set; } = new();
-    public SystemAudioProfile System { get; set; } = new();
 }
 ```
 
-A disabled setting should be represented like this:
+### 3. Selective/Granular Profile Pathway (Zero Nulls)
+To programmatically apply *only specific features* via a profile object without violating zero-null restrictions, turn on individual hidden control flags manually.
 
 ```csharp
-profile.Playback.IsVolumeEnabled = false;
+using WindowsAudioWrapper;
+using WindowsAudioWrapper.Models;
+
+using IWindowsAudioController controller = new WindowsAudioController();
+
+// Initialize a fresh profile containing primitive zeros (No nulls used)
+var selectiveProfile = new AudioProfile();
+
+// 1. Isolate the target hardware by providing its anchor reference coordinates
+selectiveProfile.Playback.TargetDevice.DeviceId = "{0.0.0.00000000}.{a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d}";
+selectiveProfile.Playback.TargetDevice.IsEndpointEnabled = true;
+
+// 2. Explicitly toggle the single feature block you wish to evaluate
+selectiveProfile.Playback.IsPlaybackEnabled = true;
+selectiveProfile.Playback.IsVolumeEnabled = true; // Flips volume modification on
+selectiveProfile.Playback.VolumePercent = 65.00m;
+
+// All other features (Mute, StreamFormat, APOs) remain flagged false.
+// The engine will gracefully skip them, leaving current hardware defaults intact!
+controller.ApplyProfile(selectiveProfile);
 ```
 
-not like this:
+---
 
-```csharp
-profile.Playback = null;
-```
+## 🚀 Building & Integration Testing
 
-This makes profiles safer to serialize, deserialize, copy, edit, and store in application configuration files.
+### Requirements
+* **Operating System:** Windows 10 (Build 17763 / Version 1809) or higher.
+* **SDK:** .NET 10.0 SDK or higher.
 
-## Playback profile
+### Command Line Tools
+The workspace includes automation scripts to coordinate restorations, cleans, structural compilations, and sequential testing.
 
-A playback profile can describe default playback, communications playback, volume, mute, format, spatial sound, and audio enhancements.
+* **Build the Solution:**
+  ```powershell
+  .\\build_windowsaudio.ps1
+  ```
+* **Execute the Hardware Integration Test Suite:**
+  ```powershell
+  .\\test_windowsaudio.ps1
+  ```
 
-```csharp
-PlaybackAudioProfile playback = new()
-{
-    IsPlaybackEnabled = true,
-
-    IsDefaultPlaybackDeviceEnabled = true,
-    Device =
-    {
-        DeviceId = "{default-playback-device-id}",
-        FriendlyName = "Speakers"
-    },
-
-    IsDefaultCommunicationsPlaybackDeviceEnabled = true,
-    CommunicationsDevice =
-    {
-        DeviceId = "{communications-playback-device-id}",
-        FriendlyName = "Headset"
-    },
-
-    IsVolumeEnabled = true,
-    VolumePercent = 50,
-
-    IsMuteEnabled = true,
-    IsMuted = false
-};
-```
-
-`Device` and `CommunicationsDevice` are separate because Windows can use different endpoints for default audio and default communications audio.
-
-## Recording profile
-
-A recording profile mirrors playback, but for capture devices such as microphones.
-
-```csharp
-RecordingAudioProfile recording = new()
-{
-    IsRecordingEnabled = true,
-
-    IsDefaultRecordingDeviceEnabled = true,
-    Device =
-    {
-        DeviceId = "{default-recording-device-id}",
-        FriendlyName = "USB Microphone"
-    },
-
-    IsDefaultCommunicationsRecordingDeviceEnabled = true,
-    CommunicationsDevice =
-    {
-        DeviceId = "{communications-recording-device-id}",
-        FriendlyName = "Webcam Microphone"
-    },
-
-    IsVolumeEnabled = true,
-    VolumePercent = 75,
-
-    IsMuteEnabled = true,
-    IsMuted = false
-};
-```
-
-## System audio profile
-
-System audio settings are represented separately from playback and recording endpoints.
-
-For example, mono audio is a system/accessibility setting rather than a device-specific endpoint setting.
-
-```csharp
-profile.System.IsSystemAudioEnabled = true;
-profile.System.IsMonoAudioEnabled = true;
-profile.System.MonoAudio = false;
-```
-
-## Device identity
-
-Profiles should prefer Windows endpoint device IDs for reliable matching.
-
-Friendly names are still useful for display and fallback behaviour, but they should not be treated as the primary identifier.
-
-```csharp
-public sealed class AudioEndpointReference
-{
-    public string DeviceId { get; set; } = "";
-    public string ContainerId { get; set; } = "";
-    public string FriendlyName { get; set; } = "";
-    public string FullName { get; set; } = "";
-    public AudioFlow Flow { get; set; } = AudioFlow.Unknown;
-}
-```
-
-## DisplayMagician-style workflow
-
-Applications that need temporary audio changes can capture the current profile, apply another profile, and then apply the captured profile later.
-
-```csharp
-AudioProfile originalAudioProfile = audioController.GetCurrentProfile();
-
-AudioProfileApplyResult applyResult = audioController.ApplyProfile(shortcut.AudioSettings.Profile);
-
-if (!applyResult.Successful)
-{
-    // Show or log errors.
-}
-
-// Run the game, application, or executable.
-
-if (shortcut.AudioSettings.ShouldRevertAudio)
-{
-    audioController.ApplyProfile(originalAudioProfile);
-}
-```
-
-The rollback concept belongs to the consuming application, not to WindowsAudioWrapper. WindowsAudioWrapper only knows how to get and apply profiles.
-
-## Validation and results
-
-Normal audio problems should be returned as structured result messages rather than thrown as exceptions.
-
-Examples include:
-
-- selected endpoint not found;
-- selected endpoint disabled;
-- selected endpoint unplugged;
-- setting unsupported by the current provider;
-- audio format unsupported;
-- spatial sound not supported;
-- audio enhancements not readable or not settable.
-
-Exceptions should be reserved for programmer errors or unexpected failures.
-
-## Current implementation status
-
-This initial library skeleton contains the public API, DTOs, result types, provider interfaces, and placeholder provider implementations.
-
-The low-level Windows Core Audio and PolicyConfig interop still needs to be implemented.
-
-Recommended first implementation milestone:
-
-- enumerate playback endpoints;
-- enumerate recording endpoints;
-- read default playback endpoint;
-- read default recording endpoint;
-- read default communications playback endpoint;
-- read default communications recording endpoint;
-- set default playback endpoint;
-- set default recording endpoint;
-- set default communications playback endpoint;
-- set default communications recording endpoint;
-- read and set endpoint volume;
-- read and set endpoint mute;
-- populate `GetCurrentProfile()` with all supported v1 settings.
-
-Recommended later milestones:
-
-- read/test audio format;
-- set audio format if reliable;
-- read/apply spatial sound if reliable;
-- read/apply audio enhancements if reliable;
-- read/apply mono audio if reliable;
-- read/apply microphone voice processing if supported.
-
-## Notes on Windows APIs
-
-WindowsAudioWrapper is expected to use Windows Core Audio APIs internally. Some Windows audio operations, such as reading endpoint volume, are available through documented APIs. Other operations, such as changing the system default audio endpoint, commonly require Windows policy configuration COM interfaces that are not part of the same stable public API surface.
-
-The wrapper should report capabilities and failures clearly so consuming applications can decide what to show in their UI.
-
-## License
-
-Add the appropriate license for your project here.
+*Note: Real hardware integration tests modify system configurations sequentially and are explicitly configured with `DisableTestParallelization = true` across the test collection boundary to guarantee state-isolation and prevent race conditions.*
