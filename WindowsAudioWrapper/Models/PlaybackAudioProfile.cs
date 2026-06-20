@@ -25,6 +25,15 @@ public sealed class PlaybackAudioProfile
     /// <summary>Gets or sets APO system enhancement profiles.</summary>
     public AudioEnhancementProfile AudioEnhancements { get; set; } = new();
 
+    /// <summary>Gets or sets a value indicating whether the target device should be completely disabled/hidden in the OS.</summary>
+    public bool IsDeviceDisabled { get; set; } = false;
+
+    /// <summary>Gets or sets the discrete Left channel volume level percentage (0-100).</summary>
+    public decimal VolumeLeft { get; set; } = 0.0m;
+
+    /// <summary>Gets or sets the discrete Right channel volume level percentage (0-100).</summary>
+    public decimal VolumeRight { get; set; } = 0.0m;
+
     /// <summary>Gets or sets a telemetry flag stating if playback features are active. Ignored in JSON.</summary>
     [JsonIgnore]
     public bool IsPlaybackEnabled { get; set; }
@@ -57,6 +66,14 @@ public sealed class PlaybackAudioProfile
     [JsonIgnore]
     public bool IsSpatialAudioEnabled { get; set; }
 
+    /// <summary>Gets or sets a telemetry flag stating if endpoint visibility management is enabled. Ignored in JSON.</summary>
+    [JsonIgnore]
+    public bool IsDeviceDisabledTrackingEnabled { get; set; }
+
+    /// <summary>Gets or sets a telemetry flag stating if multi-channel balance changes are active. Ignored in JSON.</summary>
+    [JsonIgnore]
+    public bool IsChannelVolumeEnabled { get; set; }
+
     /// <summary>Ensures sub-elements avoid object ref fault allocations post serialization.</summary>
     public void EnsureDefaults()
     {
@@ -85,6 +102,9 @@ public sealed class PlaybackAudioProfile
             IsAudioEnhancementsEnabled = AudioEnhancements.AreEnhancementsSupported;
             TargetDevice.IsEndpointEnabled = true;
             IsSpatialAudioEnabled = !string.IsNullOrWhiteSpace(TargetDevice.HardwareDetails.SpatialAudioFormat);
+            
+            IsDeviceDisabledTrackingEnabled = true;
+            IsChannelVolumeEnabled = VolumeLeft > 0.0m || VolumeRight > 0.0m;
         }
 
         // Auto-hydrate communications routing flags

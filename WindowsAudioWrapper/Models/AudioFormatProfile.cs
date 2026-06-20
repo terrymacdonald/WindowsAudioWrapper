@@ -17,6 +17,9 @@ public sealed class AudioFormatProfile
     /// <summary>Gets or sets the number of audio channels (e.g., 2 for stereo).</summary>
     public int Channels { get; set; } = 2;
 
+    /// <summary>Gets or sets the physical speaker destination matrix bitmask layout (e.g., 0x3F for standard 5.1 surround routing).</summary>
+    public uint ChannelMask { get; set; } = 0;
+
     /// <summary>Gets or sets the underlying data format (e.g., PCM, IEEE Float). Safely ignored in JSON layout.</summary>
     [JsonIgnore]
     public AudioSampleFormat SampleFormat { get; set; } = AudioSampleFormat.Pcm;

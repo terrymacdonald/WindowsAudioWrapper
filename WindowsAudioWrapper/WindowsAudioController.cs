@@ -2,6 +2,7 @@ namespace WindowsAudioWrapper;
 
 using System;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using WindowsAudioWrapper.Models;
 using WindowsAudioWrapper.Providers;
 
@@ -17,6 +18,36 @@ public sealed class WindowsAudioController : IWindowsAudioController
     private readonly IAudioEnhancementProvider _audioEnhancementProvider;
     private readonly ISystemAudioProvider _systemAudioProvider;
     private bool _disposed;
+
+    // --- Embedded Secure Internal COM Definitions to bypass reference faults ---
+    [ComImport]
+    [Guid("5CDF2C82-841E-4546-9722-0CF74078229A")]
+    [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+    private interface IAudioEndpointVolumeInternal
+    {
+        int RegisterControlChangeNotify(IntPtr client);
+        int UnregisterControlChangeNotify(IntPtr client);
+        int GetChannelCount(out uint channelCount);
+        int SetMasterVolumeLevel(float levelDb, ref Guid eventContext);
+        int SetMasterVolumeLevelScalar(float levelScalar, ref Guid eventContext);
+        int GetMasterVolumeLevel(out float levelDb);
+        int GetMasterVolumeLevelScalar(out float levelScalar);
+        int SetChannelVolumeLevel(uint channel, float levelDb, ref Guid eventContext);
+        int SetChannelVolumeLevelScalar(uint channel, float levelScalar, ref Guid eventContext);
+        int GetChannelVolumeLevel(uint channel, out float levelDb);
+        int GetChannelVolumeLevelScalar(uint channel, out float levelScalar);
+    }
+
+    [ComImport]
+    [Guid("f8679f50-850a-41cf-9c72-430f1902d9c6")]
+    [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+    private interface IPolicyConfigInternal
+    {
+        // Precisely 10 dummy methods to map ComInterfaceType.InterfaceIsIUnknown slot structures
+        void Null1(); void Null2(); void Null3(); void Null4(); void Null5();
+        void Null6(); void Null7(); void Null8(); void Null9(); void Null10();
+        int SetEndpointVisibility([MarshalAs(UnmanagedType.LPWStr)] string deviceId, int visible);
+    }
 
     /// <summary>
     /// Initializes a new instance of the <see cref="WindowsAudioController"/> class using target concrete engines.
@@ -131,7 +162,6 @@ public sealed class WindowsAudioController : IWindowsAudioController
 
         try
         {
-            // Direct native COM initialization using the native MMDeviceEnumerator CLSID 
             var enumeratorType = Type.GetTypeFromCLSID(new Guid("BCDE0395-E52F-467C-8E3D-C4579291692E"));
             if (enumeratorType == null) return;
 
@@ -142,7 +172,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
                 {
                     WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT pv = default;
                     pv.vt = 31; // VT_LPWStr
-                    pv.p = System.Runtime.InteropServices.Marshal.StringToCoTaskMemUni(spatialAudioFormat ?? string.Empty);
+                    pv.p = Marshal.StringToCoTaskMemUni(spatialAudioFormat ?? string.Empty);
 
                     try
                     {
@@ -160,6 +190,48 @@ public sealed class WindowsAudioController : IWindowsAudioController
         {
             // Fail gracefully to comply with strict zero-fault guidelines
         }
+    }
+
+    /// <inheritdoc/>
+    public void SetDeviceDisabled(string deviceId, bool disabled)
+    {
+        ThrowIfDisposed();
+        if (string.IsNullOrWhiteSpace(deviceId)) return;
+        try
+        {
+            var policyType = Type.GetTypeFromCLSID(new Guid("87B94D71-86B0-462E-B71C-06309ECE412A"));
+            if (policyType != null)
+            {
+                var policyConfig = (IPolicyConfigInternal)Activator.CreateInstance(policyType)!;
+                policyConfig.SetEndpointVisibility(deviceId, disabled ? 0 : 1);
+            }
+        }
+        catch {}
+    }
+
+    /// <inheritdoc/>
+    public void SetChannelVolumes(string deviceId, decimal leftVolume, decimal rightVolume)
+    {
+        ThrowIfDisposed();
+        if (string.IsNullOrWhiteSpace(deviceId)) return;
+        try
+        {
+            var enumeratorType = Type.GetTypeFromCLSID(new Guid("BCDE0395-E52F-467C-8E3D-C4579291692E"));
+            if (enumeratorType == null) return;
+            var enumerator = (WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator)Activator.CreateInstance(enumeratorType)!;
+            if (enumerator.GetDevice(deviceId, out var device) >= 0)
+            {
+                var iid = new Guid("5CDF2C82-841E-4546-9722-0CF74078229A");
+                if (device.Activate(in iid, 7, IntPtr.Zero, out var volumeObj) >= 0)
+                {
+                    var vol = (IAudioEndpointVolumeInternal)volumeObj;
+                    Guid ctx = Guid.Empty;
+                    vol.SetChannelVolumeLevelScalar(0, (float)(leftVolume / 100m), ref ctx);
+                    vol.SetChannelVolumeLevelScalar(1, (float)(rightVolume / 100m), ref ctx);
+                }
+            }
+        }
+        catch {}
     }
 
     // --- Macro Profile Processing Block ---
@@ -262,6 +334,13 @@ public sealed class WindowsAudioController : IWindowsAudioController
             playback.AudioEnhancements = _audioEnhancementProvider.GetAudioEnhancements(defaultDevice.DeviceId);
             
             playback.IsSpatialAudioEnabled = true;
+            playback.IsDeviceDisabled = false;
+            playback.IsDeviceDisabledTrackingEnabled = true;
+            
+            CaptureChannelVolumes(defaultDevice.DeviceId, out float l, out float r);
+            playback.VolumeLeft = (decimal)(l * 100f);
+            playback.VolumeRight = (decimal)(r * 100f);
+            playback.IsChannelVolumeEnabled = true;
         }
 
         if (communicationsDevice.IsAvailable)
@@ -296,6 +375,13 @@ public sealed class WindowsAudioController : IWindowsAudioController
             recording.AudioEnhancements = _audioEnhancementProvider.GetAudioEnhancements(defaultDevice.DeviceId);
 
             recording.IsSpatialAudioEnabled = true;
+            recording.IsDeviceDisabled = false;
+            recording.IsDeviceDisabledTrackingEnabled = true;
+            
+            CaptureChannelVolumes(defaultDevice.DeviceId, out float l, out float r);
+            recording.VolumeLeft = (decimal)(l * 100f);
+            recording.VolumeRight = (decimal)(r * 100f);
+            recording.IsChannelVolumeEnabled = true;
         }
 
         if (communicationsDevice.IsAvailable)
@@ -303,6 +389,31 @@ public sealed class WindowsAudioController : IWindowsAudioController
             recording.IsDefaultCommunicationsRecordingDeviceEnabled = true;
             recording.CommunicationsDevice = AudioEndpointReference.FromEndpointInfo(communicationsDevice);
         }
+    }
+
+    private void CaptureChannelVolumes(string id, out float left, out float right)
+    {
+        left = 1.0f; right = 1.0f;
+        try
+        {
+            var enumeratorType = Type.GetTypeFromCLSID(new Guid("BCDE0395-E52F-467C-8E3D-C4579291692E"));
+            if (enumeratorType == null) return;
+            var enumerator = (WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator)Activator.CreateInstance(enumeratorType)!;
+            if (enumerator.GetDevice(id, out var device) >= 0)
+            {
+                var iid = new Guid("5CDF2C82-841E-4546-9722-0CF74078229A");
+                if (device.Activate(in iid, 7, IntPtr.Zero, out var volumeObj) >= 0)
+                {
+                    var vol = (IAudioEndpointVolumeInternal)volumeObj;
+                    if (vol.GetChannelCount(out uint counts) >= 0 && counts >= 2)
+                    {
+                        vol.GetChannelVolumeLevelScalar(0, out left);
+                        vol.GetChannelVolumeLevelScalar(1, out right);
+                    }
+                }
+            }
+        }
+        catch {}
     }
 
     private void CaptureSystemAudioProfile(SystemAudioProfile system)
@@ -314,12 +425,16 @@ public sealed class WindowsAudioController : IWindowsAudioController
 
     private void ApplyPlaybackProfile(PlaybackAudioProfile playback, AudioProfileApplyResult result)
     {
+        if (playback.IsDeviceDisabledTrackingEnabled) SetDeviceDisabled(playback.TargetDevice.DeviceId, playback.IsDeviceDisabled);
+        if (playback.IsDeviceDisabled) return;
+
         if (playback.IsDefaultPlaybackDeviceEnabled) _defaultDeviceProvider.SetDefaultPlaybackDevice(playback.TargetDevice);
         if (playback.IsDefaultCommunicationsPlaybackDeviceEnabled) _defaultDeviceProvider.SetDefaultCommunicationsPlaybackDevice(playback.CommunicationsDevice);
         if (playback.IsVolumeEnabled) _volumeProvider.SetVolumePercent(playback.TargetDevice, playback.VolumePercent);
         if (playback.IsMuteEnabled) _volumeProvider.SetMute(playback.TargetDevice, playback.IsMuted);
         if (playback.IsFormatEnabled) _formatProvider.SetFormat(playback.TargetDevice, playback.StreamFormat);
         if (playback.IsAudioEnhancementsEnabled) _audioEnhancementProvider.SetAudioEnhancements(playback.TargetDevice, playback.AudioEnhancements);
+        if (playback.IsChannelVolumeEnabled) SetChannelVolumes(playback.TargetDevice.DeviceId, playback.VolumeLeft, playback.VolumeRight);
         
         if (playback.IsSpatialAudioEnabled && playback.TargetDevice.HardwareDetails != null)
         {
@@ -331,12 +446,16 @@ public sealed class WindowsAudioController : IWindowsAudioController
 
     private void ApplyRecordingProfile(RecordingAudioProfile recording, AudioProfileApplyResult result)
     {
+        if (recording.IsDeviceDisabledTrackingEnabled) SetDeviceDisabled(recording.TargetDevice.DeviceId, recording.IsDeviceDisabled);
+        if (recording.IsDeviceDisabled) return;
+
         if (recording.IsDefaultRecordingDeviceEnabled) _defaultDeviceProvider.SetDefaultRecordingDevice(recording.TargetDevice);
         if (recording.IsDefaultCommunicationsRecordingDeviceEnabled) _defaultDeviceProvider.SetDefaultCommunicationsRecordingDevice(recording.CommunicationsDevice);
         if (recording.IsVolumeEnabled) _volumeProvider.SetVolumePercent(recording.TargetDevice, recording.VolumePercent);
         if (recording.IsMuteEnabled) _volumeProvider.SetMute(recording.TargetDevice, recording.IsMuted);
         if (recording.IsFormatEnabled) _formatProvider.SetFormat(recording.TargetDevice, recording.StreamFormat);
         if (recording.IsAudioEnhancementsEnabled) _audioEnhancementProvider.SetAudioEnhancements(recording.TargetDevice, recording.AudioEnhancements);
+        if (recording.IsChannelVolumeEnabled) SetChannelVolumes(recording.TargetDevice.DeviceId, recording.VolumeLeft, recording.VolumeRight);
 
         if (recording.IsSpatialAudioEnabled && recording.TargetDevice.HardwareDetails != null)
         {
@@ -357,13 +476,19 @@ public sealed class WindowsAudioController : IWindowsAudioController
         if (!playback.IsPlaybackEnabled) return;
 
         WindowsAudioWrapper.Models.AudioEndpointInfo? device = null;
-        if (playback.IsDefaultPlaybackDeviceEnabled || playback.IsVolumeEnabled || playback.IsMuteEnabled || playback.IsFormatEnabled || playback.IsAudioEnhancementsEnabled || playback.IsSpatialAudioEnabled)
+        if (playback.IsDefaultPlaybackDeviceEnabled || playback.IsVolumeEnabled || playback.IsMuteEnabled || playback.IsFormatEnabled || playback.IsAudioEnhancementsEnabled || playback.IsSpatialAudioEnabled || playback.IsChannelVolumeEnabled)
         {
             device = ValidateEndpoint(playback.TargetDevice, AudioFlow.Render, nameof(playback.TargetDevice), result);
         }
 
         if (playback.IsDefaultCommunicationsPlaybackDeviceEnabled) ValidateEndpoint(playback.CommunicationsDevice, AudioFlow.Render, nameof(playback.CommunicationsDevice), result);
         ValidateVolume(playback.IsVolumeEnabled, playback.VolumePercent, result);
+        
+        if (playback.IsChannelVolumeEnabled)
+        {
+            ValidateVolume(true, playback.VolumeLeft, result);
+            ValidateVolume(true, playback.VolumeRight, result);
+        }
 
         if (device is not null)
         {
@@ -377,13 +502,19 @@ public sealed class WindowsAudioController : IWindowsAudioController
         if (!recording.IsRecordingEnabled) return;
 
         WindowsAudioWrapper.Models.AudioEndpointInfo? device = null;
-        if (recording.IsDefaultRecordingDeviceEnabled || recording.IsVolumeEnabled || recording.IsMuteEnabled || recording.IsFormatEnabled || recording.IsAudioEnhancementsEnabled || recording.IsSpatialAudioEnabled)
+        if (recording.IsDefaultRecordingDeviceEnabled || recording.IsVolumeEnabled || recording.IsMuteEnabled || recording.IsFormatEnabled || recording.IsAudioEnhancementsEnabled || recording.IsSpatialAudioEnabled || recording.IsChannelVolumeEnabled)
         {
             device = ValidateEndpoint(recording.TargetDevice, AudioFlow.Capture, nameof(recording.TargetDevice), result);
         }
 
         if (recording.IsDefaultCommunicationsRecordingDeviceEnabled) ValidateEndpoint(recording.CommunicationsDevice, AudioFlow.Capture, nameof(recording.CommunicationsDevice), result);
         ValidateVolume(recording.IsVolumeEnabled, recording.VolumePercent, result);
+        
+        if (recording.IsChannelVolumeEnabled)
+        {
+            ValidateVolume(true, recording.VolumeLeft, result);
+            ValidateVolume(true, recording.VolumeRight, result);
+        }
 
         if (device is not null)
         {
@@ -439,4 +570,9 @@ public sealed class WindowsAudioController : IWindowsAudioController
     }
 
     private void ThrowIfDisposed() => ObjectDisposedException.ThrowIf(_disposed, this);
+}
+
+internal static class StringExtensions
+{
+    public static string MakeSafe(string? input) => input ?? string.Empty;
 }

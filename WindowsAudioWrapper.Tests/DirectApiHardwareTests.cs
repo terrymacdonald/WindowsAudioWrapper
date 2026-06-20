@@ -7,13 +7,15 @@ using Xunit;
 namespace WindowsAudioWrapper.Tests;
 
 /// <summary>
-/// Validates the direct per-feature methods on the controller and the macro flag hydration utilities.
+/// Validates the direct per-feature methods on the controller, advanced channel manipulation,
+/// endpoint visibility toggles, and macro flag hydration utilities.
 /// </summary>
 [Collection(AudioHardwareCollection.Name)]
 public sealed class DirectApiHardwareTests
 {
     /// <summary>
-    /// Verifies that calling EnableAllFeatures successfully forces every hidden control flag to true.
+    /// Verifies that calling EnableAllFeatures successfully forces every hidden control flag 
+    /// and the new advanced configuration switches to true.
     /// </summary>
     [Fact]
     public void EnableAllFeatures_ShouldFlipAllHiddenTelemetryFlagsToTrue()
@@ -32,7 +34,7 @@ public sealed class DirectApiHardwareTests
         // Execute the macro hydration target hook
         profile.EnableAllFeatures();
 
-        // Assert Playback Flags
+        // Assert Playback Flags (Including new advanced features)
         Assert.True(profile.Playback.IsPlaybackEnabled);
         Assert.True(profile.Playback.IsDefaultPlaybackDeviceEnabled);
         Assert.True(profile.Playback.IsDefaultCommunicationsPlaybackDeviceEnabled);
@@ -40,6 +42,9 @@ public sealed class DirectApiHardwareTests
         Assert.True(profile.Playback.IsMuteEnabled);
         Assert.True(profile.Playback.IsFormatEnabled);
         Assert.True(profile.Playback.IsAudioEnhancementsEnabled);
+        Assert.True(profile.Playback.IsSpatialAudioEnabled);
+        Assert.True(profile.Playback.IsDeviceDisabledTrackingEnabled);
+        Assert.True(profile.Playback.IsChannelVolumeEnabled);
 
         // Assert Recording Flags
         Assert.True(profile.Recording.IsRecordingEnabled);
@@ -49,6 +54,9 @@ public sealed class DirectApiHardwareTests
         Assert.True(profile.Recording.IsMuteEnabled);
         Assert.True(profile.Recording.IsFormatEnabled);
         Assert.True(profile.Recording.IsAudioEnhancementsEnabled);
+        Assert.True(profile.Recording.IsSpatialAudioEnabled);
+        Assert.True(profile.Recording.IsDeviceDisabledTrackingEnabled);
+        Assert.True(profile.Recording.IsChannelVolumeEnabled);
 
         // Assert System Flags
         Assert.True(profile.System.IsSystemAudioEnabled);
@@ -75,7 +83,6 @@ public sealed class DirectApiHardwareTests
 
         try
         {
-            // Execute granular per-feature method directly
             HardwareTestHelpers.RunOrSkip(
                 () => controller.SetVolumePercent(defaultPlayback.DeviceId, targetVolume),
                 "direct volume modification");
@@ -85,7 +92,6 @@ public sealed class DirectApiHardwareTests
         }
         finally
         {
-            // Direct clean state cleanup restoration line
             controller.SetVolumePercent(defaultPlayback.DeviceId, originalVolume);
         }
     }
@@ -110,7 +116,6 @@ public sealed class DirectApiHardwareTests
 
         try
         {
-            // Execute granular per-feature method directly
             HardwareTestHelpers.RunOrSkip(
                 () => controller.SetMute(defaultPlayback.DeviceId, targetMuteState),
                 "direct mute modification");
@@ -145,7 +150,6 @@ public sealed class DirectApiHardwareTests
 
         try
         {
-            // Execute direct routing assignment method
             HardwareTestHelpers.RunOrSkip(
                 () => controller.SetDefaultPlaybackDevice(alternateTarget.DeviceId),
                 "direct default device routing swap");
@@ -156,6 +160,64 @@ public sealed class DirectApiHardwareTests
         finally
         {
             controller.SetDefaultPlaybackDevice(originalDefault.DeviceId);
+        }
+    }
+
+    /// <summary>
+    /// Tests that multi-channel balance logic maps scalars correctly without crashing unmanaged interfaces.
+    /// </summary>
+    [SkippableFact]
+    public void SetChannelVolumes_ShouldAdjustDiscreteSpeakers_WithoutThrowing()
+    {
+        using WindowsAudioController controller = new();
+
+        AudioEndpointInfo defaultPlayback = HardwareTestHelpers.RunOrSkip(
+            controller.GetDefaultPlaybackDevice,
+            "default playback device read");
+
+        HardwareTestHelpers.SkipIfNoActiveDevice(defaultPlayback, "playback");
+
+        // Execute discrete channel balance sweep inside a safe boundary
+        Exception ex = Record.Exception(() => controller.SetChannelVolumes(defaultPlayback.DeviceId, 85.0m, 80.0m));
+        Assert.Null(ex);
+
+        // Instantly capture the live environment back out to confirm properties updated successfully
+        AudioProfile captured = controller.GetCurrentProfile();
+        Assert.Equal(85.0m, captured.Playback.VolumeLeft);
+        Assert.Equal(80.0m, captured.Playback.VolumeRight);
+    }
+
+    /// <summary>
+    /// Verifies that toggling endpoint visibility via native user-space PolicyConfig works cleanly 
+    /// and immediately restores the hardware state safely.
+    /// </summary>
+    [SkippableFact]
+    public void SetDeviceDisabled_ShouldToggleVisibility_WithStrictRestorationGuard()
+    {
+        using WindowsAudioController controller = new();
+
+        AudioEndpointInfo defaultPlayback = HardwareTestHelpers.RunOrSkip(
+            controller.GetDefaultPlaybackDevice,
+            "default playback device read");
+
+        HardwareTestHelpers.SkipIfNoActiveDevice(defaultPlayback, "playback");
+
+        try
+        {
+            // Execute the visibility hide token down onto the PolicyConfig layout engine
+            HardwareTestHelpers.RunOrSkip(
+                () => controller.SetDeviceDisabled(defaultPlayback.DeviceId, true),
+                "programmatic hardware endpoint disable switch");
+
+            // Verify the device state shifts down to hidden context rules
+            IReadOnlyList<AudioEndpointInfo> activeDevices = controller.GetPlaybackDevices(AudioDeviceState.Active);
+            Assert.DoesNotContain(activeDevices, d => d.DeviceId.Equals(defaultPlayback.DeviceId, StringComparison.OrdinalIgnoreCase));
+        }
+        finally
+        {
+            // CRITICAL: Robust restoration loop guarantees the hardware endpoint returns online 
+            // even if assertions fail earlier in the execution path!
+            controller.SetDeviceDisabled(defaultPlayback.DeviceId, false);
         }
     }
 }

@@ -57,4 +57,10 @@ public interface IWindowsAudioController : IDisposable
 
     /// <summary>Directly configures the spatial audio provider format GUID token string for a targeted hardware endpoint.</summary>
     void SetSpatialAudioFormat(string deviceId, string spatialAudioFormat);
+
+    /// <summary>Directly alters the OS visibility state of an endpoint without requiring administrator rights.</summary>
+    void SetDeviceDisabled(string deviceId, bool disabled);
+
+    /// <summary>Directly configures discrete Left and Right channel gain volume scalars on an endpoint.</summary>
+    void SetChannelVolumes(string deviceId, decimal leftVolume, decimal rightVolume);
 }
