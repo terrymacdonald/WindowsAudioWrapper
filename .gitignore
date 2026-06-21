@@ -27,6 +27,7 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
+obj/
 
 # Generated source files from source generators or incremental builds
 Generated\ Files/

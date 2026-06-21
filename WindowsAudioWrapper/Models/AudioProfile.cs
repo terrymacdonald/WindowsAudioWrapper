@@ -64,6 +64,7 @@ public sealed class AudioProfile
         Playback.IsSpatialAudioEnabled = true;
         Playback.IsDeviceDisabledTrackingEnabled = true;
         Playback.IsChannelVolumeEnabled = true;
+        Playback.IsApoSlidersEnabled = true;
 
         Recording.IsRecordingEnabled = true;
         Recording.IsDefaultRecordingDeviceEnabled = !string.IsNullOrWhiteSpace(Recording.TargetDevice.DeviceId);
@@ -75,6 +76,7 @@ public sealed class AudioProfile
         Recording.IsSpatialAudioEnabled = true;
         Recording.IsDeviceDisabledTrackingEnabled = true;
         Recording.IsChannelVolumeEnabled = true;
+        Recording.IsApoSlidersEnabled = true;
 
         System.IsSystemAudioEnabled = true;
         System.IsMonoAudioEnabled = true;

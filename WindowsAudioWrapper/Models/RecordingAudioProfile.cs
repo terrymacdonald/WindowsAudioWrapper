@@ -34,6 +34,9 @@ public sealed class RecordingAudioProfile
     /// <summary>Gets or sets the discrete Right channel volume level percentage (0-100).</summary>
     public decimal VolumeRight { get; set; } = 0.0m;
 
+    /// <summary>Gets or sets the fine-grained custom effect slider configuration key-value mappings.</summary>
+    public Dictionary<string, string> ApoSliders { get; set; } = new();
+
     /// <summary>Gets or sets a telemetry flag stating if recording features are active. Ignored in JSON.</summary>
     [JsonIgnore]
     public bool IsRecordingEnabled { get; set; }
@@ -74,6 +77,9 @@ public sealed class RecordingAudioProfile
     [JsonIgnore]
     public bool IsChannelVolumeEnabled { get; set; }
 
+    /// <summary>Gets or sets a tracking switch stating if custom slider configurations should be applied. Ignored in JSON.</summary>
+    [JsonIgnore] public bool IsApoSlidersEnabled { get; set; }
+
     /// <summary>Ensures sub-elements avoid object ref fault allocations post serialization.</summary>
     public void EnsureDefaults()
     {
@@ -81,6 +87,7 @@ public sealed class RecordingAudioProfile
         CommunicationsDevice ??= new AudioEndpointReference();
         StreamFormat ??= new AudioFormatProfile();
         AudioEnhancements ??= new AudioEnhancementProfile();
+        ApoSliders ??= new Dictionary<string, string>();
 
         if (TargetDevice.HardwareDetails == null)
         {
@@ -105,6 +112,7 @@ public sealed class RecordingAudioProfile
 
             IsDeviceDisabledTrackingEnabled = true;
             IsChannelVolumeEnabled = VolumeLeft > 0.0m || VolumeRight > 0.0m;
+            IsApoSlidersEnabled = ApoSliders.Count > 0;
         }
 
         // Auto-hydrate communications recording flags

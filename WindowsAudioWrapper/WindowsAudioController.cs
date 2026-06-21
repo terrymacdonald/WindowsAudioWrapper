@@ -3,8 +3,11 @@ namespace WindowsAudioWrapper;
 using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
+using Microsoft.Win32;
 using WindowsAudioWrapper.Models;
 using WindowsAudioWrapper.Providers;
+using WindowsAudioWrapper.Internal.CoreAudio;
+using WindowsAudioWrapper.Internal.PolicyConfig;
 
 /// <summary>
 /// Provides the public facade managing and coordinating core Windows audio configurations.
@@ -18,44 +21,6 @@ public sealed class WindowsAudioController : IWindowsAudioController
     private readonly IAudioEnhancementProvider _audioEnhancementProvider;
     private readonly ISystemAudioProvider _systemAudioProvider;
     private bool _disposed;
-
-    // --- Embedded Secure Internal COM Definitions sourced from AudioDeviceCmdlets production builds ---
-    [ComImport]
-    [Guid("5CDF2C82-841E-4546-9722-0CF74078229A")]
-    [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-    private interface IAudioEndpointVolumeInternal
-    {
-        int RegisterControlChangeNotify(IntPtr client);
-        int UnregisterControlChangeNotify(IntPtr client);
-        int GetChannelCount(out uint channelCount);
-        int SetMasterVolumeLevel(float levelDb, ref Guid eventContext);
-        int SetMasterVolumeLevelScalar(float levelScalar, ref Guid eventContext);
-        int GetMasterVolumeLevel(out float levelDb);
-        int GetMasterVolumeLevelScalar(out float levelScalar);
-        int SetChannelVolumeLevel(uint channel, float levelDb, ref Guid eventContext);
-        int SetChannelVolumeLevelScalar(uint channel, float levelScalar, ref Guid eventContext);
-        int GetChannelVolumeLevel(uint channel, out float levelDb);
-        int GetChannelVolumeLevelScalar(uint channel, out float levelScalar);
-    }
-
-    [ComImport]
-    [Guid("f8679f50-850a-41cf-9c72-430f290290c8")]
-    [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-    private interface IPolicyConfigInternal
-    {
-        [PreserveSig] int GetMixFormat([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, IntPtr ppFormat);
-        [PreserveSig] int GetDeviceFormat([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, bool bDefault, IntPtr ppFormat);
-        [PreserveSig] int ResetDeviceFormat([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName);
-        [PreserveSig] int SetDeviceFormat([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, IntPtr pEndpointFormat, IntPtr mixFormat);
-        [PreserveSig] int GetProcessingPeriod([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, bool bDefault, IntPtr pPeriod, IntPtr pMinimumPeriod);
-        [PreserveSig] int SetProcessingPeriod([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, IntPtr pPeriod);
-        [PreserveSig] int GetShareMode([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, IntPtr pMode);
-        [PreserveSig] int SetShareMode([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, IntPtr pMode);
-        [PreserveSig] int GetPropertyValue([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, IntPtr pKey, IntPtr pValue);
-        [PreserveSig] int SetPropertyValue([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, IntPtr pKey, IntPtr pValue);
-        [PreserveSig] int SetDefaultEndpoint([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, uint role);
-        [PreserveSig] int SetEndpointVisibility([MarshalAs(UnmanagedType.LPWStr)] string pszDeviceName, bool bVisible);
-    }
 
     /// <summary>
     /// Initializes a new instance of the <see cref="WindowsAudioController"/> class using target concrete engines.
@@ -170,27 +135,21 @@ public sealed class WindowsAudioController : IWindowsAudioController
 
         try
         {
-            var enumeratorType = Type.GetTypeFromCLSID(new Guid("BCDE0395-E52F-467C-8E3D-C4579291692E"));
-            if (enumeratorType == null) return;
-
-            var enumerator = (WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator)Activator.CreateInstance(enumeratorType)!;
-            if (enumerator.GetDevice(deviceId, out var device) >= 0)
+            var device = CoreAudioUtilities.GetDeviceById(deviceId);
+            if (device.OpenPropertyStore(2, out var store) >= 0) // STGM_READWRITE (2)
             {
-                if (device.OpenPropertyStore(2, out var store) >= 0) // STGM_READWRITE (2)
-                {
-                    WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT pv = default;
-                    pv.vt = 31; // VT_LPWStr
-                    pv.p = Marshal.StringToCoTaskMemUni(spatialAudioFormat ?? string.Empty);
+                PROPVARIANT pv = default;
+                pv.vt = 31; // VT_LPWStr
+                pv.p = Marshal.StringToCoTaskMemUni(spatialAudioFormat ?? string.Empty);
 
-                    try
-                    {
-                        store.SetValue(in WindowsAudioWrapper.Internal.CoreAudio.CoreAudioConstants.PKEY_AudioEndpoint_Spatial, in pv);
-                        store.Commit();
-                    }
-                    finally
-                    {
-                        WindowsAudioWrapper.Internal.CoreAudio.CoreAudioConstants.PropVariantClear(ref pv);
-                    }
+                try
+                {
+                    store.SetValue(in CoreAudioConstants.PKEY_AudioEndpoint_Spatial, in pv);
+                    store.Commit();
+                }
+                finally
+                {
+                    CoreAudioConstants.PropVariantClear(ref pv);
                 }
             }
         }
@@ -207,10 +166,10 @@ public sealed class WindowsAudioController : IWindowsAudioController
         if (string.IsNullOrWhiteSpace(deviceId)) return;
         try
         {
-            var policyType = Type.GetTypeFromCLSID(new Guid("870AF99C-171D-4F9E-AF0D-E63DF40C2BC9"));
+            var policyType = Type.GetTypeFromCLSID(PolicyConfigInterop.CLSID_PolicyConfigClient);
             if (policyType != null)
             {
-                var policyConfig = (IPolicyConfigInternal)Activator.CreateInstance(policyType)!;
+                var policyConfig = (PolicyConfigInterop.IPolicyConfig)Activator.CreateInstance(policyType)!;
                 policyConfig.SetEndpointVisibility(deviceId, !disabled); // visible = true when disabled is false
             }
         }
@@ -224,20 +183,10 @@ public sealed class WindowsAudioController : IWindowsAudioController
         if (string.IsNullOrWhiteSpace(deviceId)) return;
         try
         {
-            var enumeratorType = Type.GetTypeFromCLSID(new Guid("BCDE0395-E52F-467C-8E3D-C4579291692E"));
-            if (enumeratorType == null) return;
-            var enumerator = (WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator)Activator.CreateInstance(enumeratorType)!;
-            if (enumerator.GetDevice(deviceId, out var device) >= 0)
-            {
-                var iid = new Guid("5CDF2C82-841E-4546-9722-0CF74078229A");
-                if (device.Activate(in iid, 7, IntPtr.Zero, out var volumeObj) >= 0)
-                {
-                    var vol = (IAudioEndpointVolumeInternal)volumeObj;
-                    Guid ctx = Guid.Empty;
-                    vol.SetChannelVolumeLevelScalar(0, (float)(leftVolume / 100m), ref ctx);
-                    vol.SetChannelVolumeLevelScalar(1, (float)(rightVolume / 100m), ref ctx);
-                }
-            }
+            var vol = CoreAudioUtilities.ActivateEndpointVolume(deviceId);
+            Guid ctx = Guid.Empty;
+            vol.SetChannelVolumeLevelScalar(0, (float)(leftVolume / 100m), in ctx);
+            vol.SetChannelVolumeLevelScalar(1, (float)(rightVolume / 100m), in ctx);
         }
         catch {}
     }
@@ -338,6 +287,9 @@ public sealed class WindowsAudioController : IWindowsAudioController
             playback.IsFormatEnabled = true;
             playback.StreamFormat = _formatProvider.GetFormat(defaultDevice.DeviceId);
 
+            // Capture Speaker Layout Configuration Mask via registry extraction
+            playback.StreamFormat.ChannelMask = ReadRegistryPropertyUint(defaultDevice.DeviceId, true, "{14242002-0320-4de4-9555-a7d82b73c286},3");
+
             playback.IsAudioEnhancementsEnabled = true;
             playback.AudioEnhancements = _audioEnhancementProvider.GetAudioEnhancements(defaultDevice.DeviceId);
             
@@ -349,6 +301,10 @@ public sealed class WindowsAudioController : IWindowsAudioController
             playback.VolumeLeft = (decimal)(l * 100f);
             playback.VolumeRight = (decimal)(r * 100f);
             playback.IsChannelVolumeEnabled = true;
+
+            // Capture Fine-Grained Slider Percentages from FxProperties
+            CaptureRegistrySliders(defaultDevice.DeviceId, true, playback.ApoSliders);
+            playback.IsApoSlidersEnabled = playback.ApoSliders.Count > 0;
         }
 
         if (communicationsDevice.IsAvailable)
@@ -379,6 +335,9 @@ public sealed class WindowsAudioController : IWindowsAudioController
             recording.IsFormatEnabled = true;
             recording.StreamFormat = _formatProvider.GetFormat(defaultDevice.DeviceId);
 
+            // Capture Recording Layout Configuration Mask via registry extraction
+            recording.StreamFormat.ChannelMask = ReadRegistryPropertyUint(defaultDevice.DeviceId, false, "{14242002-0320-4de4-9555-a7d82b73c286},3");
+
             recording.IsAudioEnhancementsEnabled = true;
             recording.AudioEnhancements = _audioEnhancementProvider.GetAudioEnhancements(defaultDevice.DeviceId);
 
@@ -390,6 +349,10 @@ public sealed class WindowsAudioController : IWindowsAudioController
             recording.VolumeLeft = (decimal)(l * 100f);
             recording.VolumeRight = (decimal)(r * 100f);
             recording.IsChannelVolumeEnabled = true;
+
+            // Capture Fine-Grained Slider Percentages from FxProperties
+            CaptureRegistrySliders(defaultDevice.DeviceId, false, recording.ApoSliders);
+            recording.IsApoSlidersEnabled = recording.ApoSliders.Count > 0;
         }
 
         if (communicationsDevice.IsAvailable)
@@ -404,21 +367,11 @@ public sealed class WindowsAudioController : IWindowsAudioController
         left = 1.0f; right = 1.0f;
         try
         {
-            var enumeratorType = Type.GetTypeFromCLSID(new Guid("BCDE0395-E52F-467C-8E3D-C4579291692E"));
-            if (enumeratorType == null) return;
-            var enumerator = (WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator)Activator.CreateInstance(enumeratorType)!;
-            if (enumerator.GetDevice(id, out var device) >= 0)
+            var vol = CoreAudioUtilities.ActivateEndpointVolume(id);
+            if (vol.GetChannelCount(out uint counts) >= 0 && counts >= 2)
             {
-                var iid = new Guid("5CDF2C82-841E-4546-9722-0CF74078229A");
-                if (device.Activate(in iid, 7, IntPtr.Zero, out var volumeObj) >= 0)
-                {
-                    var vol = (IAudioEndpointVolumeInternal)volumeObj;
-                    if (vol.GetChannelCount(out uint counts) >= 0 && counts >= 2)
-                    {
-                        vol.GetChannelVolumeLevelScalar(0, out left);
-                        vol.GetChannelVolumeLevelScalar(1, out right);
-                    }
-                }
+                vol.GetChannelVolumeLevelScalar(0, out left);
+                vol.GetChannelVolumeLevelScalar(1, out right);
             }
         }
         catch {}
@@ -444,6 +397,17 @@ public sealed class WindowsAudioController : IWindowsAudioController
         if (playback.IsAudioEnhancementsEnabled) _audioEnhancementProvider.SetAudioEnhancements(playback.TargetDevice, playback.AudioEnhancements);
         if (playback.IsChannelVolumeEnabled) SetChannelVolumes(playback.TargetDevice.DeviceId, playback.VolumeLeft, playback.VolumeRight);
         
+        // Restore Channel Layout Configuration Masks and Driver Slider Percentages securely via Property Store
+        if (playback.IsFormatEnabled && playback.StreamFormat.ChannelMask > 0)
+        {
+            var maskDict = new Dictionary<string, string> { { "{14242002-0320-4de4-9555-a7d82b73c286},3", $"int:{playback.StreamFormat.ChannelMask}" } };
+            ApplyPropertiesViaPropertyStore(playback.TargetDevice.DeviceId, maskDict);
+        }
+        if (playback.IsApoSlidersEnabled)
+        {
+            ApplyPropertiesViaPropertyStore(playback.TargetDevice.DeviceId, playback.ApoSliders);
+        }
+
         if (playback.IsSpatialAudioEnabled && playback.TargetDevice.HardwareDetails != null)
         {
             SetSpatialAudioFormat(playback.TargetDevice.DeviceId, playback.TargetDevice.HardwareDetails.SpatialAudioFormat);
@@ -464,6 +428,17 @@ public sealed class WindowsAudioController : IWindowsAudioController
         if (recording.IsFormatEnabled) _formatProvider.SetFormat(recording.TargetDevice, recording.StreamFormat);
         if (recording.IsAudioEnhancementsEnabled) _audioEnhancementProvider.SetAudioEnhancements(recording.TargetDevice, recording.AudioEnhancements);
         if (recording.IsChannelVolumeEnabled) SetChannelVolumes(recording.TargetDevice.DeviceId, recording.VolumeLeft, recording.VolumeRight);
+
+        // Restore Channel Layout Configuration Masks and Driver Slider Percentages securely via Property Store
+        if (recording.IsFormatEnabled && recording.StreamFormat.ChannelMask > 0)
+        {
+            var maskDict = new Dictionary<string, string> { { "{14242002-0320-4de4-9555-a7d82b73c286},3", $"int:{recording.StreamFormat.ChannelMask}" } };
+            ApplyPropertiesViaPropertyStore(recording.TargetDevice.DeviceId, maskDict);
+        }
+        if (recording.IsApoSlidersEnabled)
+        {
+            ApplyPropertiesViaPropertyStore(recording.TargetDevice.DeviceId, recording.ApoSliders);
+        }
 
         if (recording.IsSpatialAudioEnabled && recording.TargetDevice.HardwareDetails != null)
         {
@@ -575,6 +550,109 @@ public sealed class WindowsAudioController : IWindowsAudioController
     private static void AddUnsupported(AudioProfileValidationResult result, string message)
     {
         result.Messages.Add(AudioOperationMessage.Error(AudioMessageCode.UnsupportedSetting, message));
+    }
+
+    private static uint ReadRegistryPropertyUint(string deviceId, bool isRender, string keyName)
+    {
+        try
+        {
+            string dir = isRender ? "Render" : "Capture";
+            using var key = Registry.LocalMachine.OpenSubKey($"SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\{dir}\\{deviceId}\\Properties");
+            if (key?.GetValue(keyName) is byte[] bytes && bytes.Length >= 12)
+            {
+                return BitConverter.ToUInt32(bytes, 8); // Skip the unmanaged type descriptor prefix bytes
+            }
+        }
+        catch {}
+        return 0;
+    }
+
+    private static void CaptureRegistrySliders(string deviceId, bool isRender, Dictionary<string, string> targetDict)
+    {
+        try
+        {
+            string dir = isRender ? "Render" : "Capture";
+            using var fxKey = Registry.LocalMachine.OpenSubKey($"SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\{dir}\\{deviceId}\\FxProperties");
+            if (fxKey != null)
+            {
+                foreach (string name in fxKey.GetValueNames())
+                {
+                    object? value = fxKey.GetValue(name);
+                    if (value is int intVal)
+                    {
+                        targetDict[name] = $"int:{intVal}";
+                    }
+                    else if (value is byte[] bytes)
+                    {
+                        targetDict[name] = $"hex:{BitConverter.ToString(bytes).Replace("-", "")}";
+                    }
+                }
+            }
+        }
+        catch {}
+    }
+
+    private void ApplyPropertiesViaPropertyStore(string deviceId, Dictionary<string, string> sliderDict)
+    {
+        if (sliderDict == null || sliderDict.Count == 0) return;
+        try
+        {
+            var device = CoreAudioUtilities.GetDeviceById(deviceId);
+            if (device.OpenPropertyStore(2, out IPropertyStore store) >= 0) // STGM_READWRITE (2)
+            {
+                foreach (var kvp in sliderDict)
+                {
+                    try
+                    {
+                        string cleanKey = kvp.Key.Replace("{", "").Replace("}", "");
+                        string[] parts = cleanKey.Split(',');
+                        if (parts.Length < 2) continue;
+
+                        Guid fmtid = new Guid(parts[0]);
+                        uint pid = uint.Parse(parts[1]);
+
+                        PROPERTYKEY propKey = new PROPERTYKEY(fmtid, pid);
+                        PROPVARIANT pv = default;
+
+                        if (kvp.Value.StartsWith("int:"))
+                        {
+                            pv.vt = 19; // VT_UI4
+                            pv.p = (IntPtr)uint.Parse(kvp.Value.Substring(4));
+                            store.SetValue(in propKey, in pv);
+                        }
+                        else if (kvp.Value.StartsWith("hex:"))
+                        {
+                            pv.vt = 65; // VT_BLOB
+                            byte[] raw = ConvertHexToBytes(kvp.Value.Substring(4));
+                            IntPtr blobStruct = Marshal.AllocCoTaskMem(IntPtr.Size * 2);
+                            Marshal.WriteInt32(blobStruct, 0, raw.Length);
+                            IntPtr dataPtr = Marshal.AllocCoTaskMem(raw.Length);
+                            Marshal.Copy(raw, 0, dataPtr, raw.Length);
+                            Marshal.WriteIntPtr(blobStruct, IntPtr.Size == 8 ? 8 : 4, dataPtr);
+                            pv.p = blobStruct;
+
+                            store.SetValue(in propKey, in pv);
+
+                            Marshal.FreeCoTaskMem(dataPtr);
+                            Marshal.FreeCoTaskMem(blobStruct);
+                        }
+                    }
+                    catch {}
+                }
+                store.Commit(); // Instantly deploy variables out to active Windows Audio graph lines
+            }
+        }
+        catch {}
+    }
+
+    private static byte[] ConvertHexToBytes(string hex)
+    {
+        byte[] bytes = new byte[hex.Length / 2];
+        for (int i = 0; i < bytes.Length; i++)
+        {
+            bytes[i] = Convert.ToByte(hex.Substring(i * 2, 2), 16);
+        }
+        return bytes;
     }
 
     private void ThrowIfDisposed() => ObjectDisposedException.ThrowIf(_disposed, this);
