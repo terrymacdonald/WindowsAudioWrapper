@@ -66,7 +66,7 @@ internal static class Program
         if (args.Length < 2)
         {
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("Error: Missing file path parameter. Usage: save <filepath>");
+            Console.WriteLine("Error: Missing file path parameter. Usage: save <filepath> [optional_profile_name]");
             Console.ResetColor();
             return;
         }
@@ -75,12 +75,22 @@ internal static class Program
         Console.WriteLine("Capturing current system audio profile...");
         
         AudioProfile currentProfile = controller.GetCurrentProfile();
+
+        // Dynamically check if the user supplied a 3rd parameter for the ProfileName
+        if (args.Length >= 3)
+        {
+            currentProfile.ProfileName = args[2];
+        }
+        else
+        {
+            currentProfile.ProfileName = Path.GetFileNameWithoutExtension(filePath);
+        }
+
         string json = JsonSerializer.Serialize(currentProfile, JsonOptions);
-        
         File.WriteAllText(filePath, json);
         
         Console.ForegroundColor = ConsoleColor.Green;
-        Console.WriteLine($"Success: Audio profile successfully saved to '{filePath}'.");
+        Console.WriteLine($"Success: Audio profile '{currentProfile.ProfileName}' successfully saved to '{filePath}'.");
         Console.ResetColor();
     }
 
