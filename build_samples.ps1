@@ -1,5 +1,5 @@
 #!/usr/bin/env pwsh
-# build_samples.ps1 - Builds all sample apps in Samples/Samples.sln
+# build_samples.ps1 - Builds the WindowsAudioWrapper Sample Application
 
 # Determine script root
 $scriptRoot = $PSScriptRoot
@@ -12,7 +12,7 @@ Write-Host "Working directory: $scriptRoot" -ForegroundColor Cyan
 Write-Host ""
 
 Write-Host "============================================================================" -ForegroundColor Cyan
-Write-Host "NVAPIWrapper Samples Build" -ForegroundColor Cyan
+Write-Host "WindowsAudioWrapper SampleApp Build" -ForegroundColor Cyan
 Write-Host "============================================================================" -ForegroundColor Cyan
 Write-Host ""
 
@@ -53,30 +53,21 @@ try {
     exit 1
 }
 
-# Ensure NVAPI SDK is present (samples depend on the wrapper and SDK)
-$nvapiHeaderPath = "drivers.gpu.control-library\include\nvapi_api.h"
-if (-not (Test-Path $nvapiHeaderPath)) {
-    Write-Host "ERROR: NVAPI SDK headers not found at $nvapiHeaderPath" -ForegroundColor Red
-    Write-Host "Run ./prepare_nvapi.ps1 first." -ForegroundColor Yellow
+# -----------------------------------------------------------------------------
+# Restore and build Sample Project
+# -----------------------------------------------------------------------------
+$sampleProject = Join-Path $scriptRoot "WindowsAudioWrapper.SampleApp\WindowsAudioWrapper.SampleApp.csproj"
+if (-not (Test-Path $sampleProject)) {
+    Write-Host "ERROR: Sample application project not found at $sampleProject" -ForegroundColor Red
     Read-Host "Press Enter to exit"
     exit 1
 }
 
-# -----------------------------------------------------------------------------
-# Restore and build Samples solution
-# -----------------------------------------------------------------------------
-$samplesSolution = Join-Path $scriptRoot "Samples\Samples.sln"
-if (-not (Test-Path $samplesSolution)) {
-    Write-Host "ERROR: Samples solution not found at $samplesSolution" -ForegroundColor Red
-    Read-Host "Press Enter to exit"
-    exit 1
-}
-
-Write-Host "Restoring NuGet packages for samples..." -ForegroundColor Cyan
+Write-Host "Restoring NuGet packages for Sample Application..." -ForegroundColor Cyan
 try {
-    dotnet restore $samplesSolution
+    dotnet restore $sampleProject
     if ($LASTEXITCODE -ne 0) { throw "Restore failed with exit code $LASTEXITCODE" }
-    Write-Host "Restore completed." -ForegroundColor Green
+    Write-Host "Restore completed successfully." -ForegroundColor Green
     Write-Host ""
 } catch {
     Write-Host "ERROR: Restore failed. $_" -ForegroundColor Red
@@ -84,20 +75,22 @@ try {
     exit 1
 }
 
-Write-Host "Building samples..." -ForegroundColor Cyan
+Write-Host "Building Sample Application..." -ForegroundColor Cyan
 try {
-    dotnet build $samplesSolution --configuration Debug --no-restore
+    dotnet build $sampleProject --configuration Debug --no-restore
     if ($LASTEXITCODE -ne 0) { throw "Build failed with exit code $LASTEXITCODE" }
+    
     Write-Host ""
     Write-Host "============================================================================" -ForegroundColor Green
-    Write-Host "*** SAMPLES BUILD SUCCESSFUL! ***" -ForegroundColor Green
+    Write-Host "*** SAMPLE APP BUILD SUCCESSFUL! ***" -ForegroundColor Green
     Write-Host "============================================================================" -ForegroundColor Green
     Write-Host ""
-    Write-Host "Artifacts:" -ForegroundColor Cyan
-    Write-Host "  - Samples/**/bin/Debug/net10.0" -ForegroundColor Gray
+    Write-Host "Executable Binary Location:" -ForegroundColor Cyan
+    Write-Host "  - WindowsAudioWrapper.SampleApp/bin/Debug/net10.0-windows10.0.22000.0/WindowsAudioWrapper.SampleApp.exe" -ForegroundColor Gray
+    Write-Host ""
 } catch {
     Write-Host ""
-    Write-Host "ERROR: Samples build failed. $_" -ForegroundColor Red
+    Write-Host "ERROR: Sample application build failed. $_" -ForegroundColor Red
     Read-Host "Press Enter to exit"
     exit 1
 }
