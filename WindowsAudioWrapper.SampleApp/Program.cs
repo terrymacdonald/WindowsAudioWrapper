@@ -207,11 +207,8 @@ internal static class Program
             Console.WriteLine($"Comparing stored file [{file1}] against stored file [{file2}]...");
         }
 
-        // Deep-comparison strategy via JSON normalization
-        string normalizedA = JsonSerializer.Serialize(profileA, JsonOptions);
-        string normalizedB = JsonSerializer.Serialize(profileB, JsonOptions);
-
-        if (string.Equals(normalizedA, normalizedB, StringComparison.Ordinal))
+        // Now you can cleanly compare the two objects natively using the overloaded operator!
+        if (profileA == profileB)
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("EQUAL");
@@ -223,6 +220,7 @@ internal static class Program
             Console.WriteLine("NOT EQUAL");
             Console.ResetColor();
         }
+
     }
 
     private static void HandlePrint(IWindowsAudioController controller, string[] args)
