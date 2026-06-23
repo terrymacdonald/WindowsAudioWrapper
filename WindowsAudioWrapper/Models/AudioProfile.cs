@@ -6,17 +6,8 @@ namespace WindowsAudioWrapper.Models;
 /// The only profile/state object used by WindowsAudioWrapper.
 /// A profile may be created by a user, saved in JSON, or captured from the current Windows audio state.
 /// </summary>
-public sealed class AudioProfile: IEquatable<AudioProfile>
+public sealed class AudioProfile
 {
-    /// <summary>Gets or sets the user-friendly name of the audio profile.</summary>
-    public string ProfileName { get; set; } = "Current Windows Audio Profile";
-
-    /// <summary>Gets or sets a value indicating whether this audio profile is currently applied and active.</summary>
-    public bool IsActive { get; set; } = true;
-
-    /// <summary>Gets or sets the schema version of the profile, useful for backwards compatibility.</summary>
-    public int SchemaVersion { get; set; } = 1;
-
     /// <summary>Gets or sets the settings associated with playback (Render) devices.</summary>
     public PlaybackAudioProfile Playback { get; set; } = new();
 
@@ -82,31 +73,5 @@ public sealed class AudioProfile: IEquatable<AudioProfile>
         System.IsMonoAudioEnabled = true;
     }
 
-    /// <inheritdoc/>
-    public bool Equals(AudioProfile? other)
-    {
-        if (other is null) return false;
-        if (ReferenceEquals(this, other)) return true;
-
-        // Custom Semantic Equality Check: ProfileName is intentionally skipped
-        return IsActive == other.IsActive &&
-               SchemaVersion == other.SchemaVersion &&
-               EqualityComparer<PlaybackAudioProfile>.Default.Equals(Playback, other.Playback) &&
-               EqualityComparer<RecordingAudioProfile>.Default.Equals(Recording, other.Recording);
-    }
-
-    /// <inheritdoc/>
-    public override bool Equals(object? obj) => Equals(obj as AudioProfile);
-
-    /// <inheritdoc/>
-    public override int GetHashCode()
-    {
-        return HashCode.Combine(IsActive, SchemaVersion, Playback, Recording);
-    }
-
-    /// <summary>Compares two AudioProfile objects for equality.</summary>
-    public static bool operator ==(AudioProfile? left, AudioProfile? right) => Equals(left, right);
-
-    /// <summary>Compares two AudioProfile objects for inequality.</summary>
-    public static bool operator !=(AudioProfile? left, AudioProfile? right) => !Equals(left, right);
+    
 }

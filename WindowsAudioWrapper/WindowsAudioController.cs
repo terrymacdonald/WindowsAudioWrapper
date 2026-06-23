@@ -2,7 +2,10 @@ namespace WindowsAudioWrapper;
 
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Runtime.InteropServices;
+using System.Threading;
+using System.Threading.Tasks;
 using Microsoft.Win32;
 using WindowsAudioWrapper.Models;
 using WindowsAudioWrapper.Providers;
@@ -21,6 +24,24 @@ public sealed class WindowsAudioController : IWindowsAudioController
     private readonly IAudioEnhancementProvider _audioEnhancementProvider;
     private readonly ISystemAudioProvider _systemAudioProvider;
     private bool _disposed;
+
+    private readonly AudioNotificationRouter _notificationRouter;
+    private readonly IMMDeviceEnumerator? _comEnumerator;
+    private readonly List<AudioEndpointReference> _targetedDevices;
+    private readonly object _targetedDevicesLock;
+    private readonly IntPtr _comCallbackPointer;
+
+    private static readonly System.Runtime.InteropServices.Marshalling.StrategyBasedComWrappers ComWrappers = new();
+
+    /// <summary>
+    /// Fires when a specifically registered or targeted audio device connects and becomes active.
+    /// </summary>
+    public event EventHandler<AudioDeviceEventArgs>? AudioDeviceConnected;
+
+    /// <summary>
+    /// Fires globally whenever any audio endpoint is plugged in, discovered, or becomes active in the system.
+    /// </summary>
+    public event EventHandler<AudioDeviceEventArgs>? AnyAudioDeviceConnected;
 
     /// <summary>
     /// Initializes a new instance of the <see cref="WindowsAudioController"/> class using target concrete engines.
@@ -50,6 +71,22 @@ public sealed class WindowsAudioController : IWindowsAudioController
         _formatProvider = formatProvider ?? throw new ArgumentNullException(nameof(formatProvider));
         _audioEnhancementProvider = audioEnhancementProvider ?? throw new ArgumentNullException(nameof(audioEnhancementProvider));
         _systemAudioProvider = systemAudioProvider ?? throw new ArgumentNullException(nameof(systemAudioProvider));
+
+        _targetedDevices = new List<AudioEndpointReference>();
+        _targetedDevicesLock = new object();
+        _notificationRouter = new AudioNotificationRouter();
+        _notificationRouter.DeviceNotificationReceived += OnDeviceNotificationReceived;
+
+        try
+        {
+            _comEnumerator = CoreAudioUtilities.CreateEnumerator();
+            _comCallbackPointer = ComWrappers.GetOrCreateComInterfaceForObject(_notificationRouter, CreateComInterfaceFlags.None);
+            _comEnumerator.RegisterEndpointNotificationCallback(_comCallbackPointer);
+        }
+        catch
+        {
+            // Robustness guard: Prevent initialization faults if native audio service configurations are transiently down.
+        }
     }
 
     /// <inheritdoc/>
@@ -191,6 +228,133 @@ public sealed class WindowsAudioController : IWindowsAudioController
         catch {}
     }
 
+    /// <inheritdoc/>
+    public bool WaitForAudioDeviceToAppear(AudioEndpointReference device, int timeoutMilliseconds)
+    {
+        ThrowIfDisposed();
+        ArgumentNullException.ThrowIfNull(device);
+
+        if (CheckIfDeviceAlreadyActive(device))
+        {
+            return true;
+        }
+
+        if (timeoutMilliseconds <= 0)
+        {
+            return false;
+        }
+
+        using var resetEvent = new ManualResetEventSlim(false);
+        bool matched = false;
+
+        EventHandler<AudioDeviceEventArgs> handler = (sender, args) =>
+        {
+            if (IsDeviceMatch(device, args))
+            {
+                matched = true;
+                resetEvent.Set();
+            }
+        };
+
+        AnyAudioDeviceConnected += handler;
+
+        try
+        {
+            if (CheckIfDeviceAlreadyActive(device))
+            {
+                return true;
+            }
+
+            resetEvent.Wait(timeoutMilliseconds);
+            return matched;
+        }
+        finally
+        {
+            AnyAudioDeviceConnected -= handler;
+        }
+    }
+
+    /// <inheritdoc/>
+    public async Task<bool> WaitForAudioDeviceToAppearAsync(AudioEndpointReference device, int timeoutMilliseconds, CancellationToken cancellationToken = default)
+    {
+        ThrowIfDisposed();
+        ArgumentNullException.ThrowIfNull(device);
+
+        if (CheckIfDeviceAlreadyActive(device))
+        {
+            return true;
+        }
+
+        if (timeoutMilliseconds <= 0 || cancellationToken.IsCancellationRequested)
+        {
+            return false;
+        }
+
+        var tcs = new TaskCompletionSource<bool>(TaskCreationOptions.RunContinuationsAsynchronously);
+
+        EventHandler<AudioDeviceEventArgs> handler = (sender, args) =>
+        {
+            if (IsDeviceMatch(device, args))
+            {
+                tcs.TrySetResult(true);
+            }
+        };
+
+        AnyAudioDeviceConnected += handler;
+
+        using var cts = CancellationTokenSource.CreateLinkedTokenSource(cancellationToken);
+        if (timeoutMilliseconds > 0 && timeoutMilliseconds != Timeout.Infinite)
+        {
+            cts.CancelAfter(timeoutMilliseconds);
+        }
+
+        using var registration = cts.Token.Register(() => tcs.TrySetResult(false));
+
+        try
+        {
+            if (CheckIfDeviceAlreadyActive(device))
+            {
+                return true;
+            }
+
+            return await tcs.Task.ConfigureAwait(false);
+        }
+        finally
+        {
+            AnyAudioDeviceConnected -= handler;
+        }
+    }
+
+    /// <inheritdoc/>
+    public void RegisterTargetDevice(AudioEndpointReference device)
+    {
+        ThrowIfDisposed();
+        ArgumentNullException.ThrowIfNull(device);
+
+        lock (_targetedDevicesLock)
+        {
+            if (!_targetedDevices.Any(d => d.DeviceId.Equals(device.DeviceId, StringComparison.OrdinalIgnoreCase) && !string.IsNullOrEmpty(device.DeviceId)))
+            {
+                _targetedDevices.Add(device);
+            }
+        }
+    }
+
+    /// <inheritdoc/>
+    public void UnregisterTargetDevice(AudioEndpointReference device)
+    {
+        ThrowIfDisposed();
+        ArgumentNullException.ThrowIfNull(device);
+
+        lock (_targetedDevicesLock)
+        {
+            _targetedDevices.RemoveAll(d => 
+                (string.IsNullOrEmpty(device.DeviceId) || d.DeviceId.Equals(device.DeviceId, StringComparison.OrdinalIgnoreCase)) &&
+                (string.IsNullOrEmpty(device.ContainerId) || d.ContainerId.Equals(device.ContainerId, StringComparison.OrdinalIgnoreCase)) &&
+                (string.IsNullOrEmpty(device.FriendlyName) || d.FriendlyName.Equals(device.FriendlyName, StringComparison.OrdinalIgnoreCase)));
+        }
+    }
+
     // --- Macro Profile Processing Block ---
 
     /// <inheritdoc/>
@@ -257,6 +421,24 @@ public sealed class WindowsAudioController : IWindowsAudioController
     public void Dispose()
     {
         if (_disposed) return;
+
+        if (_comEnumerator is not null && _comCallbackPointer != IntPtr.Zero)
+        {
+            try
+            {
+                _comEnumerator.UnregisterEndpointNotificationCallback(_comCallbackPointer);
+            }
+            catch
+            {
+                // Robustness safety guard
+            }
+        }
+
+        if (_notificationRouter is not null)
+        {
+            _notificationRouter.DeviceNotificationReceived -= OnDeviceNotificationReceived;
+        }
+
         (_deviceProvider as IDisposable)?.Dispose();
         (_defaultDeviceProvider as IDisposable)?.Dispose();
         (_volumeProvider as IDisposable)?.Dispose();
@@ -264,6 +446,105 @@ public sealed class WindowsAudioController : IWindowsAudioController
         (_audioEnhancementProvider as IDisposable)?.Dispose();
         (_systemAudioProvider as IDisposable)?.Dispose();
         _disposed = true;
+    }
+
+    private void OnDeviceNotificationReceived(string deviceId)
+    {
+        AudioEndpointInfo? found = GetPlaybackDevices(AudioDeviceState.All)
+            .FirstOrDefault(d => d.DeviceId.Equals(deviceId, StringComparison.OrdinalIgnoreCase));
+
+        if (found is null)
+        {
+            found = GetRecordingDevices(AudioDeviceState.All)
+                .FirstOrDefault(d => d.DeviceId.Equals(deviceId, StringComparison.OrdinalIgnoreCase));
+        }
+
+        if (found is not null && found.IsAvailable)
+        {
+            var args = new AudioDeviceEventArgs
+            {
+                DeviceId = found.DeviceId,
+                ContainerId = found.ContainerId,
+                FriendlyName = found.FriendlyName,
+                FullName = found.FullName,
+                Flow = found.Flow
+            };
+
+            AnyAudioDeviceConnected?.Invoke(this, args);
+
+            lock (_targetedDevicesLock)
+            {
+                if (_targetedDevices.Any(target => IsDeviceMatch(target, args)))
+                {
+                    AudioDeviceConnected?.Invoke(this, args);
+                }
+            }
+        }
+    }
+
+    private bool CheckIfDeviceAlreadyActive(AudioEndpointReference target)
+    {
+        IEnumerable<AudioEndpointInfo> currentDevices;
+        if (target.Flow == AudioFlow.Capture)
+        {
+            currentDevices = GetRecordingDevices(AudioDeviceState.Active);
+        }
+        else if (target.Flow == AudioFlow.Render)
+        {
+            currentDevices = GetPlaybackDevices(AudioDeviceState.Active);
+        }
+        else
+        {
+            currentDevices = GetPlaybackDevices(AudioDeviceState.Active).Concat(GetRecordingDevices(AudioDeviceState.Active));
+        }
+
+        foreach (var existing in currentDevices)
+        {
+            var incomingDummy = new AudioDeviceEventArgs
+            {
+                DeviceId = existing.DeviceId,
+                ContainerId = existing.ContainerId,
+                FriendlyName = existing.FriendlyName,
+                FullName = existing.FullName,
+                Flow = existing.Flow
+            };
+
+            if (IsDeviceMatch(target, incomingDummy))
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    private static bool IsDeviceMatch(AudioEndpointReference target, AudioDeviceEventArgs incoming)
+    {
+        if (!string.IsNullOrWhiteSpace(target.DeviceId) &&
+            target.DeviceId.Equals(incoming.DeviceId, StringComparison.OrdinalIgnoreCase))
+        {
+            return true;
+        }
+
+        if (!string.IsNullOrWhiteSpace(target.ContainerId) &&
+            target.ContainerId.Equals(incoming.ContainerId, StringComparison.OrdinalIgnoreCase))
+        {
+            return true;
+        }
+
+        if (!string.IsNullOrWhiteSpace(target.FullName) &&
+            target.FullName.Equals(incoming.FullName, StringComparison.OrdinalIgnoreCase))
+        {
+            return true;
+        }
+
+        if (!string.IsNullOrWhiteSpace(target.FriendlyName) &&
+            target.FriendlyName.Equals(incoming.FriendlyName, StringComparison.OrdinalIgnoreCase))
+        {
+            return true;
+        }
+
+        return false;
     }
 
     private void CapturePlaybackProfile(PlaybackAudioProfile playback)

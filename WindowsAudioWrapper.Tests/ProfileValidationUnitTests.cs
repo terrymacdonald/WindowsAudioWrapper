@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using WindowsAudioWrapper.Models;
 using Xunit;
 
@@ -11,18 +12,11 @@ namespace WindowsAudioWrapper.Tests;
 /// </summary>
 public sealed class ProfileValidationUnitTests
 {
-    /// <summary>
-    /// Confirms that a clean baseline profile passes validation with an optimal validation state.
-    /// </summary>
     [Fact]
     public void ValidateProfile_ShouldPass_WhenProfileIsEmptyButValid()
     {
         using WindowsAudioController controller = new();
-        AudioProfile profile = new()
-        {
-            ProfileName = "Empty Valid Profile",
-            IsActive = true
-        };
+        AudioProfile profile = new();
 
         AudioProfileValidationResult result = controller.ValidateProfile(profile);
 
@@ -31,9 +25,6 @@ public sealed class ProfileValidationUnitTests
         Assert.Empty(result.Messages);
     }
 
-    /// <summary>
-    /// Verifies that playback volumes crossing outside the 0-100 threshold generate explicit validation errors.
-    /// </summary>
     [Theory]
     [InlineData(-1)]
     [InlineData(100.01)]
@@ -44,8 +35,8 @@ public sealed class ProfileValidationUnitTests
         AudioProfile profile = new();
         profile.Playback.IsPlaybackEnabled = true;
         profile.Playback.IsVolumeEnabled = true;
-        profile.Playback.TargetDevice.IsEndpointEnabled = true;
-        profile.Playback.TargetDevice.DeviceId = "{mock-playback-device}";
+        profile.Playback.Device.IsEndpointEnabled = true;
+        profile.Playback.Device.DeviceId = "{mock-playback-device}";
         profile.Playback.VolumePercent = invalidVolume;
 
         AudioProfileValidationResult result = controller.ValidateProfile(profile);
@@ -55,9 +46,6 @@ public sealed class ProfileValidationUnitTests
         Assert.Contains(result.Messages, m => m.Code == AudioMessageCode.InvalidVolume && m.Severity == AudioMessageSeverity.Error);
     }
 
-    /// <summary>
-    /// Verifies that recording volumes crossing outside the 0-100 threshold generate explicit validation errors.
-    /// </summary>
     [Theory]
     [InlineData(-5)]
     [InlineData(105)]
@@ -67,8 +55,8 @@ public sealed class ProfileValidationUnitTests
         AudioProfile profile = new();
         profile.Recording.IsRecordingEnabled = true;
         profile.Recording.IsVolumeEnabled = true;
-        profile.Recording.TargetDevice.IsEndpointEnabled = true;
-        profile.Recording.TargetDevice.DeviceId = "{mock-recording-device}";
+        profile.Recording.Device.IsEndpointEnabled = true;
+        profile.Recording.Device.DeviceId = "{mock-recording-device}";
         profile.Recording.VolumePercent = invalidVolume;
 
         AudioProfileValidationResult result = controller.ValidateProfile(profile);
@@ -78,9 +66,6 @@ public sealed class ProfileValidationUnitTests
         Assert.Contains(result.Messages, m => m.Code == AudioMessageCode.InvalidVolume && m.Severity == AudioMessageSeverity.Error);
     }
 
-    /// <summary>
-    /// Ensures that enabling a target block without attaching an endpoint reference triggers a missing reference error.
-    /// </summary>
     [Fact]
     public void ValidateProfile_ShouldReturnError_WhenDeviceIsEnabledButReferenceIsMissing()
     {
@@ -88,7 +73,7 @@ public sealed class ProfileValidationUnitTests
         AudioProfile profile = new();
         profile.Playback.IsPlaybackEnabled = true;
         profile.Playback.IsVolumeEnabled = true;
-        profile.Playback.TargetDevice.IsEndpointEnabled = false;
+        profile.Playback.Device.IsEndpointEnabled = false;
 
         AudioProfileValidationResult result = controller.ValidateProfile(profile);
 
@@ -97,18 +82,15 @@ public sealed class ProfileValidationUnitTests
         Assert.Contains(result.Messages, m => m.Code == AudioMessageCode.DeviceMissing && m.Severity == AudioMessageSeverity.Error);
     }
 
-    /// <summary>
-    /// Ensures that attaching a device with a mismatched streaming flow metadata property generates a validation fault.
-    /// </summary>
     [Fact]
     public void ValidateProfile_ShouldReturnError_WhenPlaybackDeviceHasRecordingFlowMismatched()
     {
         using WindowsAudioController controller = new();
         AudioProfile profile = new();
         profile.Playback.IsPlaybackEnabled = true;
-        profile.Playback.TargetDevice.IsEndpointEnabled = true;
-        profile.Playback.TargetDevice.DeviceId = "{mock-playback-device}";
-        profile.Playback.TargetDevice.Flow = AudioFlow.Capture; // Intentionally inverted flow context
+        profile.Playback.Device.IsEndpointEnabled = true;
+        profile.Playback.Device.DeviceId = "{mock-playback-device}";
+        profile.Playback.Device.Flow = AudioFlow.Capture;
 
         AudioProfileValidationResult result = controller.ValidateProfile(profile);
 

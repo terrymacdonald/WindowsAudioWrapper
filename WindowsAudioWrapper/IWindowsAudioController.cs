@@ -1,66 +1,78 @@
-using WindowsAudioWrapper.Models;
-
 namespace WindowsAudioWrapper;
 
+using System;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
+using WindowsAudioWrapper.Models;
+
 /// <summary>
-/// Public entry point for reading, validating, and applying Windows audio profiles and endpoints.
-/// Supports both full macro-profile assignment and direct, granular per-feature execution commands.
+/// Public entry point for reading and applying Windows audio profiles.
 /// </summary>
 public interface IWindowsAudioController : IDisposable
 {
-    /// <summary>Gets a list of available playback devices (render endpoints).</summary>
-    IReadOnlyList<AudioEndpointInfo> GetPlaybackDevices(AudioDeviceState states = AudioDeviceState.Active | AudioDeviceState.Unplugged);
+    IReadOnlyList<AudioEndpointInfo> GetPlaybackDevices(
+        AudioDeviceState states = AudioDeviceState.Active | AudioDeviceState.Unplugged);
 
-    /// <summary>Gets a list of available recording devices (capture endpoints).</summary>
-    IReadOnlyList<AudioEndpointInfo> GetRecordingDevices(AudioDeviceState states = AudioDeviceState.Active | AudioDeviceState.Unplugged);
+    IReadOnlyList<AudioEndpointInfo> GetRecordingDevices(
+        AudioDeviceState states = AudioDeviceState.Active | AudioDeviceState.Unplugged);
 
-    /// <summary>Gets the current default multimedia playback device.</summary>
     AudioEndpointInfo GetDefaultPlaybackDevice();
 
-    /// <summary>Gets the current default multimedia recording device.</summary>
     AudioEndpointInfo GetDefaultRecordingDevice();
 
-    /// <summary>Gets the current default communications playback device.</summary>
     AudioEndpointInfo GetDefaultCommunicationsPlaybackDevice();
 
-    /// <summary>Gets the current default communications recording device.</summary>
     AudioEndpointInfo GetDefaultCommunicationsRecordingDevice();
 
-    /// <summary>Captures every setting WindowsAudioWrapper can currently read into a normal AudioProfile.</summary>
+    /// <summary>
+    /// Captures every setting WindowsAudioWrapper can currently read into a normal AudioProfile.
+    /// The returned profile can be saved, edited, or applied later.
+    /// </summary>
     AudioProfile GetCurrentProfile();
 
-    /// <summary>Validates an AudioProfile to ensure the devices exist, are active, and support the requested settings.</summary>
     AudioProfileValidationResult ValidateProfile(AudioProfile profile);
 
-    /// <summary>Safely applies the enabled settings within an AudioProfile to the Windows environment.</summary>
     AudioProfileApplyResult ApplyProfile(AudioProfile profile);
 
-    // --- Direct Per-Feature Control Endpoints ---
+    /// <summary>
+    /// Synchronously blocks execution until a matching audio endpoint becomes visible and active to the OS,
+    /// or the specified timeout duration is reached.
+    /// </summary>
+    /// <param name="device">The search criteria target containing target identifiers (DeviceId, ContainerId, etc.).</param>
+    /// <param name="timeoutMilliseconds">The maximum block window length in milliseconds.</param>
+    /// <returns>True if the matching hardware device arrives before the timeout expires; otherwise, false.</returns>
+    bool WaitForAudioDeviceToAppear(AudioEndpointReference device, int timeoutMilliseconds);
 
-    /// <summary>Directly alters the master volume percentage level of a targeted audio hardware endpoint.</summary>
-    void SetVolumePercent(string deviceId, decimal volumePercent);
+    /// <summary>
+    /// Asynchronously monitors system hardware notifications until a matching audio endpoint becomes visible and active.
+    /// </summary>
+    /// <param name="device">The search criteria target containing target identifiers (DeviceId, ContainerId, etc.).</param>
+    /// <param name="timeoutMilliseconds">The maximum wait duration length in milliseconds.</param>
+    /// <param name="cancellationToken">An optional token to cooperatively cancel the asynchronous monitoring task.</param>
+    /// <returns>A task containing true if the hardware becomes active before the timeout; otherwise, false.</returns>
+    Task<bool> WaitForAudioDeviceToAppearAsync(AudioEndpointReference device, int timeoutMilliseconds, CancellationToken cancellationToken = default);
 
-    /// <summary>Directly toggles the mute state of a targeted audio hardware endpoint.</summary>
-    void SetMute(string deviceId, bool muted);
+    /// <summary>
+    /// Registers a targeted device reference to explicitly monitor for custom connection arrivals.
+    /// When matched, the <see cref="AudioDeviceConnected"/> event fires.
+    /// </summary>
+    /// <param name="device">The reference criteria mapping the target hardware to track.</param>
+    void RegisterTargetDevice(AudioEndpointReference device);
 
-    /// <summary>Directly configures the stream sample rate and channel layout parameters of an endpoint.</summary>
-    void SetFormat(string deviceId, AudioFormatProfile format);
+    /// <summary>
+    /// Unregisters a previously tracked device reference from arrival notification callback monitoring.
+    /// </summary>
+    /// <param name="device">The reference criteria mapping the target hardware to remove.</param>
+    void UnregisterTargetDevice(AudioEndpointReference device);
 
-    /// <summary>Directly toggles system enhancements (APOs) on a targeted audio hardware endpoint.</summary>
-    void SetAudioEnhancements(string deviceId, AudioEnhancementProfile enhancements);
+    /// <summary>
+    /// Fires when a specifically registered or targeted audio device connects and becomes active.
+    /// </summary>
+    event EventHandler<AudioDeviceEventArgs>? AudioDeviceConnected;
 
-    /// <summary>Directly assigns the default multimedia playback device routing of the host machine.</summary>
-    void SetDefaultPlaybackDevice(string deviceId);
-
-    /// <summary>Directly assigns the default multimedia recording device routing of the host machine.</summary>
-    void SetDefaultRecordingDevice(string deviceId);
-
-    /// <summary>Directly configures the spatial audio provider format GUID token string for a targeted hardware endpoint.</summary>
-    void SetSpatialAudioFormat(string deviceId, string spatialAudioFormat);
-
-    /// <summary>Directly alters the OS visibility state of an endpoint without requiring administrator rights.</summary>
-    void SetDeviceDisabled(string deviceId, bool disabled);
-
-    /// <summary>Directly configures discrete Left and Right channel gain volume scalars on an endpoint.</summary>
-    void SetChannelVolumes(string deviceId, decimal leftVolume, decimal rightVolume);
+    /// <summary>
+    /// Fires globally whenever any audio endpoint is plugged in, discovered, or becomes active in the system configuration.
+    /// </summary>
+    event EventHandler<AudioDeviceEventArgs>? AnyAudioDeviceConnected;
 }
