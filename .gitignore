@@ -115,3 +115,9 @@ Desktop.ini
 *.vssscc
 UpgradeLog.htm
 _UpgradeReport_Files/
+WindowsAudioWrapper.Tests/obj/project.assets.json
+WindowsAudioWrapper.Tests/obj/project.nuget.cache
+WindowsAudioWrapper.Tests/obj/WindowsAudioWrapper.Tests.csproj.nuget.dgspec.json
+WindowsAudioWrapper/obj/project.assets.json
+WindowsAudioWrapper/obj/project.nuget.cache
+WindowsAudioWrapper/obj/WindowsAudioWrapper.csproj.nuget.dgspec.json
