@@ -133,6 +133,31 @@ internal static class CoreAudioUtilities
         }
     }
 
+    public static string ReadBlobSummaryProperty(IPropertyStore store, PROPERTYKEY key)
+    {
+        PROPVARIANT value = default;
+        try
+        {
+            int hr = store.GetValue(in key, out value);
+            if (hr < 0 || value.vt != 65 || value.blobSize == 0 || value.blobData == IntPtr.Zero)
+            {
+                return string.Empty;
+            }
+
+            if (value.blobSize >= Marshal.SizeOf<WAVEFORMATEX>())
+            {
+                var waveFormat = Marshal.PtrToStructure<WAVEFORMATEX>(value.blobData);
+                return $"FormatTag={waveFormat.wFormatTag};Channels={waveFormat.nChannels};SampleRate={waveFormat.nSamplesPerSec};BitsPerSample={waveFormat.wBitsPerSample};BlockAlign={waveFormat.nBlockAlign};AvgBytesPerSec={waveFormat.nAvgBytesPerSec}";
+            }
+
+            return $"BlobSize={value.blobSize}";
+        }
+        finally
+        {
+            CoreAudioConstants.PropVariantClear(ref value);
+        }
+    }
+
     public static IMMDevice GetDeviceById(string deviceId)
     {
         if (string.IsNullOrWhiteSpace(deviceId))

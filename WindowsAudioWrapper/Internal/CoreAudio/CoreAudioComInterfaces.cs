@@ -30,13 +30,13 @@ internal static partial class CoreAudioConstants
     
     // Windows Native PnP Property lookups
     internal static readonly PROPERTYKEY PKEY_Device_DeviceDesc = new(GUID_PnPDeviceProperties, 2);
-    internal static readonly PROPERTYKEY PKEY_Device_HardwareIds = new(GUID_PnPDeviceProperties, 3);
-    internal static readonly PROPERTYKEY PKEY_Device_DriverVersion = new(GUID_DriverProperties, 3);
     internal static readonly PROPERTYKEY PKEY_Device_InstanceId = new(new Guid("78C34FC8-104A-4ACA-9EA4-524D52996E57"), 256);
     internal static readonly PROPERTYKEY PKEY_AudioEndpoint_FormFactor = new(GUID_AudioEndpointProperties, 0);
-    internal static readonly PROPERTYKEY PKEY_AudioEndpoint_Association = new(GUID_AudioEndpointProperties, 2);
+    internal static readonly PROPERTYKEY PKEY_AudioEndpoint_PhysicalSpeakers = new(GUID_AudioEndpointProperties, 3);
     internal static readonly PROPERTYKEY PKEY_AudioEndpoint_GUID = new(GUID_AudioEndpointProperties, 4);
     internal static readonly PROPERTYKEY PKEY_AudioEndpoint_Disable_SysFx = new(GUID_AudioEndpointProperties, 5);
+    internal static readonly PROPERTYKEY PKEY_AudioEndpoint_FullRangeSpeakers = new(GUID_AudioEndpointProperties, 6);
+    internal static readonly PROPERTYKEY PKEY_AudioEngine_DeviceFormat = new(new Guid("F19F064D-082C-4E27-BC73-6882A1BB8E4C"), 0);
 
     // Native IPropertyStore keys for advanced hardware capability tracking
     internal static readonly PROPERTYKEY PKEY_AudioEndpoint_Supports_EventDriven_Mode = new(GUID_AudioEndpointProperties, 7);

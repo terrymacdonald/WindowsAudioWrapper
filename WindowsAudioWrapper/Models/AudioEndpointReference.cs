@@ -52,10 +52,11 @@ public class AudioEndpointReference
             HardwareDetails = new HardwareDetails
             {
                 DeviceDescription = info.HardwareDetails?.DeviceDescription ?? string.Empty,
-                HardwareId = info.HardwareDetails?.HardwareId ?? string.Empty,
-                DriverVersion = info.HardwareDetails?.DriverVersion ?? string.Empty,
-                EndpointAssociationGuid = info.HardwareDetails?.EndpointAssociationGuid ?? string.Empty,
                 FormFactorCode = info.HardwareDetails?.FormFactorCode ?? 0,
+                PhysicalSpeakersMask = info.HardwareDetails?.PhysicalSpeakersMask ?? 0,
+                FullRangeSpeakersMask = info.HardwareDetails?.FullRangeSpeakersMask ?? 0,
+                EndpointGuid = info.HardwareDetails?.EndpointGuid ?? string.Empty,
+                DeviceFormatSummary = info.HardwareDetails?.DeviceFormatSummary ?? string.Empty,
                 SupportsEventDrivenMode = info.HardwareDetails?.SupportsEventDrivenMode ?? false,
                 JackSubType = info.HardwareDetails?.JackSubType ?? string.Empty,
                 SpatialAudioFormat = info.HardwareDetails?.SpatialAudioFormat ?? string.Empty,

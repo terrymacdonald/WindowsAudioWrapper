@@ -7,11 +7,14 @@ namespace WindowsAudioWrapper.Tests;
 [Collection(AudioHardwareCollection.Name)]
 public sealed class HardwareDetailsTests
 {
-    private static readonly PROPERTYKEY SdkPkeyDeviceHardwareIds = new(new Guid("A45C254E-DF1C-4EFD-8020-67D146A850E0"), 3);
     private static readonly PROPERTYKEY SdkPkeyDeviceInstanceId = new(new Guid("78C34FC8-104A-4ACA-9EA4-524D52996E57"), 256);
     private static readonly PROPERTYKEY SdkPkeyAudioEndpointFormFactor = new(new Guid("1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E"), 0);
+    private static readonly PROPERTYKEY SdkPkeyAudioEndpointPhysicalSpeakers = new(new Guid("1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E"), 3);
+    private static readonly PROPERTYKEY SdkPkeyAudioEndpointGuid = new(new Guid("1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E"), 4);
+    private static readonly PROPERTYKEY SdkPkeyAudioEndpointFullRangeSpeakers = new(new Guid("1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E"), 6);
     private static readonly PROPERTYKEY SdkPkeyAudioEndpointSupportsEventDrivenMode = new(new Guid("1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E"), 7);
     private static readonly PROPERTYKEY SdkPkeyAudioEndpointJackSubType = new(new Guid("1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E"), 8);
+    private static readonly PROPERTYKEY SdkPkeyAudioEngineDeviceFormat = new(new Guid("F19F064D-082C-4E27-BC73-6882A1BB8E4C"), 0);
 
     [Fact]
     public void AudioEndpointReferenceFromEndpointInfo_ShouldPreserveAllHardwareDetails()
@@ -23,10 +26,11 @@ public sealed class HardwareDetailsTests
             HardwareDetails = new HardwareDetails
             {
                 DeviceDescription = "Test device",
-                HardwareId = "HDAUDIO\\FUNC_01",
-                DriverVersion = "1.2.3.4",
-                EndpointAssociationGuid = Guid.NewGuid().ToString("D"),
                 FormFactorCode = 3,
+                PhysicalSpeakersMask = 3,
+                FullRangeSpeakersMask = 1,
+                EndpointGuid = Guid.NewGuid().ToString("D"),
+                DeviceFormatSummary = "FormatTag=65534;Channels=2;SampleRate=48000;BitsPerSample=24;BlockAlign=6;AvgBytesPerSec=288000",
                 SupportsEventDrivenMode = true,
                 JackSubType = Guid.NewGuid().ToString("D"),
                 SpatialAudioFormat = Guid.NewGuid().ToString("D"),
@@ -37,10 +41,11 @@ public sealed class HardwareDetailsTests
         AudioEndpointReference reference = AudioEndpointReference.FromEndpointInfo(endpoint);
 
         Assert.Equal(endpoint.HardwareDetails.DeviceDescription, reference.HardwareDetails.DeviceDescription);
-        Assert.Equal(endpoint.HardwareDetails.HardwareId, reference.HardwareDetails.HardwareId);
-        Assert.Equal(endpoint.HardwareDetails.DriverVersion, reference.HardwareDetails.DriverVersion);
-        Assert.Equal(endpoint.HardwareDetails.EndpointAssociationGuid, reference.HardwareDetails.EndpointAssociationGuid);
         Assert.Equal(endpoint.HardwareDetails.FormFactorCode, reference.HardwareDetails.FormFactorCode);
+        Assert.Equal(endpoint.HardwareDetails.PhysicalSpeakersMask, reference.HardwareDetails.PhysicalSpeakersMask);
+        Assert.Equal(endpoint.HardwareDetails.FullRangeSpeakersMask, reference.HardwareDetails.FullRangeSpeakersMask);
+        Assert.Equal(endpoint.HardwareDetails.EndpointGuid, reference.HardwareDetails.EndpointGuid);
+        Assert.Equal(endpoint.HardwareDetails.DeviceFormatSummary, reference.HardwareDetails.DeviceFormatSummary);
         Assert.Equal(endpoint.HardwareDetails.SupportsEventDrivenMode, reference.HardwareDetails.SupportsEventDrivenMode);
         Assert.Equal(endpoint.HardwareDetails.JackSubType, reference.HardwareDetails.JackSubType);
         Assert.Equal(endpoint.HardwareDetails.SpatialAudioFormat, reference.HardwareDetails.SpatialAudioFormat);
@@ -60,18 +65,6 @@ public sealed class HardwareDetailsTests
     }
 
     [SkippableFact]
-    public void GetDefaultPlaybackDevice_ShouldCaptureHardwareIdsStringListFromSdkProperty()
-    {
-        using WindowsAudioController controller = new();
-        AudioEndpointInfo endpoint = GetActiveDefaultPlaybackDevice(controller);
-        IPropertyStore store = OpenReadOnlyPropertyStore(endpoint);
-
-        string expected = ReadStringOrSkip(store, SdkPkeyDeviceHardwareIds, "HardwareIds");
-
-        Assert.Equal(expected, endpoint.HardwareDetails.HardwareId);
-    }
-
-    [SkippableFact]
     public void GetDefaultPlaybackDevice_ShouldCaptureFormFactorFromSdkProperty()
     {
         using WindowsAudioController controller = new();
@@ -81,6 +74,42 @@ public sealed class HardwareDetailsTests
         uint expected = ReadUInt32OrSkip(store, SdkPkeyAudioEndpointFormFactor, "AudioEndpoint FormFactor");
 
         Assert.Equal((int)expected, endpoint.HardwareDetails.FormFactorCode);
+    }
+
+    [SkippableFact]
+    public void GetDefaultPlaybackDevice_ShouldCapturePhysicalSpeakersFromSdkProperty()
+    {
+        using WindowsAudioController controller = new();
+        AudioEndpointInfo endpoint = GetActiveDefaultPlaybackDevice(controller);
+        IPropertyStore store = OpenReadOnlyPropertyStore(endpoint);
+
+        uint expected = ReadUInt32OrSkip(store, SdkPkeyAudioEndpointPhysicalSpeakers, "AudioEndpoint PhysicalSpeakers");
+
+        Assert.Equal(expected, endpoint.HardwareDetails.PhysicalSpeakersMask);
+    }
+
+    [SkippableFact]
+    public void GetDefaultPlaybackDevice_ShouldCaptureFullRangeSpeakersFromSdkProperty()
+    {
+        using WindowsAudioController controller = new();
+        AudioEndpointInfo endpoint = GetActiveDefaultPlaybackDevice(controller);
+        IPropertyStore store = OpenReadOnlyPropertyStore(endpoint);
+
+        uint expected = ReadUInt32OrSkip(store, SdkPkeyAudioEndpointFullRangeSpeakers, "AudioEndpoint FullRangeSpeakers");
+
+        Assert.Equal(expected, endpoint.HardwareDetails.FullRangeSpeakersMask);
+    }
+
+    [SkippableFact]
+    public void GetDefaultPlaybackDevice_ShouldCaptureEndpointGuidFromSdkProperty()
+    {
+        using WindowsAudioController controller = new();
+        AudioEndpointInfo endpoint = GetActiveDefaultPlaybackDevice(controller);
+        IPropertyStore store = OpenReadOnlyPropertyStore(endpoint);
+
+        string expected = ReadStringOrGuidOrSkip(store, SdkPkeyAudioEndpointGuid, "AudioEndpoint GUID");
+
+        Assert.Equal(expected, endpoint.HardwareDetails.EndpointGuid);
     }
 
     [SkippableFact]
@@ -108,6 +137,18 @@ public sealed class HardwareDetailsTests
     }
 
     [SkippableFact]
+    public void GetDefaultPlaybackDevice_ShouldCaptureDeviceFormatSummaryFromSdkProperty()
+    {
+        using WindowsAudioController controller = new();
+        AudioEndpointInfo endpoint = GetActiveDefaultPlaybackDevice(controller);
+        IPropertyStore store = OpenReadOnlyPropertyStore(endpoint);
+
+        string expected = ReadBlobSummaryOrSkip(store, SdkPkeyAudioEngineDeviceFormat, "AudioEngine DeviceFormat");
+
+        Assert.Equal(expected, endpoint.HardwareDetails.DeviceFormatSummary);
+    }
+
+    [SkippableFact]
     public void GetCurrentProfile_ShouldCarryPlaybackHardwareDetailsIntoTargetDevice()
     {
         using WindowsAudioController controller = new();
@@ -122,6 +163,10 @@ public sealed class HardwareDetailsTests
 
         Assert.Equal(defaultPlayback.HardwareDetails.DeviceInstanceId, profile.Playback.TargetDevice.HardwareDetails.DeviceInstanceId);
         Assert.Equal(defaultPlayback.HardwareDetails.FormFactorCode, profile.Playback.TargetDevice.HardwareDetails.FormFactorCode);
+        Assert.Equal(defaultPlayback.HardwareDetails.PhysicalSpeakersMask, profile.Playback.TargetDevice.HardwareDetails.PhysicalSpeakersMask);
+        Assert.Equal(defaultPlayback.HardwareDetails.FullRangeSpeakersMask, profile.Playback.TargetDevice.HardwareDetails.FullRangeSpeakersMask);
+        Assert.Equal(defaultPlayback.HardwareDetails.EndpointGuid, profile.Playback.TargetDevice.HardwareDetails.EndpointGuid);
+        Assert.Equal(defaultPlayback.HardwareDetails.DeviceFormatSummary, profile.Playback.TargetDevice.HardwareDetails.DeviceFormatSummary);
         Assert.Equal(defaultPlayback.HardwareDetails.JackSubType, profile.Playback.TargetDevice.HardwareDetails.JackSubType);
     }
 
@@ -208,5 +253,12 @@ public sealed class HardwareDetailsTests
         {
             CoreAudioConstants.PropVariantClear(ref value);
         }
+    }
+
+    private static string ReadBlobSummaryOrSkip(IPropertyStore store, PROPERTYKEY key, string featureName)
+    {
+        string result = CoreAudioUtilities.ReadBlobSummaryProperty(store, key);
+        Skip.If(string.IsNullOrWhiteSpace(result), $"Skipping because {featureName} is not exposed by this endpoint.");
+        return result;
     }
 }

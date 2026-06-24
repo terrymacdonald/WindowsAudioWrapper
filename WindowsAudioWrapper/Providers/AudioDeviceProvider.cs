@@ -34,15 +34,7 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
             match = devices.FirstOrDefault(d => d.ContainerId.Equals(endpoint.ContainerId, StringComparison.OrdinalIgnoreCase) && d.Flow == expectedFlow);
         }
 
-        // Tier 3: HardwareId + Association GUID Match (Driver Resilience)
-        if (match is null && endpoint.HardwareDetails != null && !string.IsNullOrWhiteSpace(endpoint.HardwareDetails.HardwareId))
-        {
-            match = devices.FirstOrDefault(d => 
-                d.HardwareDetails.HardwareId.Equals(endpoint.HardwareDetails.HardwareId, StringComparison.OrdinalIgnoreCase) &&
-                d.HardwareDetails.EndpointAssociationGuid.Equals(endpoint.HardwareDetails.EndpointAssociationGuid, StringComparison.OrdinalIgnoreCase));
-        }
-
-        // Tier 4: Text-based Friendly Name
+        // Tier 3: Text-based Friendly Name
         if (match is null && !string.IsNullOrWhiteSpace(endpoint.FriendlyName))
         {
             match = devices.FirstOrDefault(d => d.FriendlyName.Equals(endpoint.FriendlyName, StringComparison.OrdinalIgnoreCase));
@@ -129,11 +121,10 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
             endpoint.HardwareDetails = new HardwareDetails
             {
                 DeviceDescription = TrySafeReadString(store, CoreAudioConstants.PKEY_Device_DeviceDesc),
-                HardwareId = TrySafeReadString(store, CoreAudioConstants.PKEY_Device_HardwareIds),
-                DriverVersion = TrySafeReadString(store, CoreAudioConstants.PKEY_Device_DriverVersion),
-                EndpointAssociationGuid = TrySafeReadGuid(store, CoreAudioConstants.PKEY_AudioEndpoint_Association),
-                
-                // Read new high-fidelity string variables seamlessly via user space
+                PhysicalSpeakersMask = TrySafeReadUInt32(store, CoreAudioConstants.PKEY_AudioEndpoint_PhysicalSpeakers),
+                FullRangeSpeakersMask = TrySafeReadUInt32(store, CoreAudioConstants.PKEY_AudioEndpoint_FullRangeSpeakers),
+                EndpointGuid = TrySafeReadStringOrGuid(store, CoreAudioConstants.PKEY_AudioEndpoint_GUID),
+                DeviceFormatSummary = TrySafeReadBlobSummary(store, CoreAudioConstants.PKEY_AudioEngine_DeviceFormat),
                 JackSubType = TrySafeReadStringOrGuid(store, CoreAudioConstants.PKEY_AudioEndpoint_JackSubType),
                 SpatialAudioFormat = string.Empty,
                 DeviceInstanceId = TrySafeReadString(store, CoreAudioConstants.PKEY_Device_InstanceId),
@@ -220,6 +211,18 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
         catch
         {
             return false;
+        }
+    }
+
+    private static string TrySafeReadBlobSummary(IPropertyStore store, PROPERTYKEY key)
+    {
+        try
+        {
+            return CoreAudioUtilities.ReadBlobSummaryProperty(store, key);
+        }
+        catch
+        {
+            return string.Empty;
         }
     }
 

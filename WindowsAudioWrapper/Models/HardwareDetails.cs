@@ -7,10 +7,11 @@ namespace WindowsAudioWrapper.Models;
 public class HardwareDetails
 {
     public string DeviceDescription { get; set; } = string.Empty;
-    public string HardwareId { get; set; } = string.Empty;
-    public string DriverVersion { get; set; } = string.Empty;
-    public string EndpointAssociationGuid { get; set; } = string.Empty;
     public int FormFactorCode { get; set; } = 0;
+    public uint PhysicalSpeakersMask { get; set; } = 0;
+    public uint FullRangeSpeakersMask { get; set; } = 0;
+    public string EndpointGuid { get; set; } = string.Empty;
+    public string DeviceFormatSummary { get; set; } = string.Empty;
 
     /// <summary>Gets or sets a value indicating whether the endpoint supports WASAPI low-latency event-driven buffer loops.</summary>
     public bool SupportsEventDrivenMode { get; set; } = false;

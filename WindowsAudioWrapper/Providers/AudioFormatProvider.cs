@@ -12,9 +12,6 @@ internal sealed class AudioFormatProvider : IAudioFormatProvider
     private const ushort WAVE_FORMAT_IEEE_FLOAT = 3;
     private const ushort WAVE_FORMAT_EXTENSIBLE = 0xFFFE;
 
-    // Explicit fallback definition of the mix format engine key to ensure zero build errors
-    private static readonly PROPERTYKEY LocalPKEY_AudioEngine_DeviceFormat = 
-        new(new Guid("E1A69C60-EECA-4A23-AC26-5B084C15F174"), 0);
     private static readonly Guid KSDATAFORMAT_SUBTYPE_PCM = new("00000001-0000-0010-8000-00aa00389b71");
     private static readonly Guid KSDATAFORMAT_SUBTYPE_IEEE_FLOAT = new("00000003-0000-0010-8000-00aa00389b71");
 
@@ -32,7 +29,7 @@ internal sealed class AudioFormatProvider : IAudioFormatProvider
             if (hr >= 0 && store != null)
             {
                 PROPVARIANT value = default;
-                hr = store.GetValue(in LocalPKEY_AudioEngine_DeviceFormat, out value);
+                hr = store.GetValue(in CoreAudioConstants.PKEY_AudioEngine_DeviceFormat, out value);
                 
                 if (hr >= 0 && value.vt == 65) // VT_BLOB
                 {
@@ -94,7 +91,7 @@ internal sealed class AudioFormatProvider : IAudioFormatProvider
 
             // Defensive lookup guard to ensure the key is present before executing updates
             PROPVARIANT checkValue = default;
-            hr = store.GetValue(in LocalPKEY_AudioEngine_DeviceFormat, out checkValue);
+            hr = store.GetValue(in CoreAudioConstants.PKEY_AudioEngine_DeviceFormat, out checkValue);
             if (hr < 0 || checkValue.vt == 0) // VT_EMPTY
             {
                 CoreAudioConstants.PropVariantClear(ref checkValue);
@@ -145,7 +142,7 @@ internal sealed class AudioFormatProvider : IAudioFormatProvider
                     blobData = allocatedBuffer
                 };
 
-                hr = store.SetValue(in LocalPKEY_AudioEngine_DeviceFormat, in propVar);
+                hr = store.SetValue(in CoreAudioConstants.PKEY_AudioEngine_DeviceFormat, in propVar);
                 if (hr >= 0)
                 {
                     store.Commit();
