@@ -54,7 +54,12 @@ public class AudioEndpointReference
                 DeviceDescription = info.HardwareDetails?.DeviceDescription ?? string.Empty,
                 HardwareId = info.HardwareDetails?.HardwareId ?? string.Empty,
                 DriverVersion = info.HardwareDetails?.DriverVersion ?? string.Empty,
-                EndpointAssociationGuid = info.HardwareDetails?.EndpointAssociationGuid ?? string.Empty
+                EndpointAssociationGuid = info.HardwareDetails?.EndpointAssociationGuid ?? string.Empty,
+                FormFactorCode = info.HardwareDetails?.FormFactorCode ?? 0,
+                SupportsEventDrivenMode = info.HardwareDetails?.SupportsEventDrivenMode ?? false,
+                JackSubType = info.HardwareDetails?.JackSubType ?? string.Empty,
+                SpatialAudioFormat = info.HardwareDetails?.SpatialAudioFormat ?? string.Empty,
+                DeviceInstanceId = info.HardwareDetails?.DeviceInstanceId ?? string.Empty
             }
         };
     }

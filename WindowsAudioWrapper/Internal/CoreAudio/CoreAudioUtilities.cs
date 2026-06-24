@@ -59,7 +59,7 @@ internal static class CoreAudioUtilities
         {
             int hr = store.GetValue(in key, out value);
             if (hr < 0) return string.Empty;
-            return value.GetString();
+            return value.GetStringOrStringList();
         }
         finally
         {
@@ -75,8 +75,57 @@ internal static class CoreAudioUtilities
             int hr = store.GetValue(in key, out value);
             if (hr < 0) return string.Empty;
             
-            Guid guid = value.GetGuid();
-            return guid == Guid.Empty ? string.Empty : guid.ToString("D");
+            return value.GetGuidString();
+        }
+        finally
+        {
+            CoreAudioConstants.PropVariantClear(ref value);
+        }
+    }
+
+    public static string ReadStringOrGuidProperty(IPropertyStore store, PROPERTYKEY key)
+    {
+        PROPVARIANT value = default;
+        try
+        {
+            int hr = store.GetValue(in key, out value);
+            if (hr < 0) return string.Empty;
+
+            return value.vt switch
+            {
+                CoreAudioConstants.VT_CLSID => value.GetGuidString(),
+                _ => value.GetStringOrStringList()
+            };
+        }
+        finally
+        {
+            CoreAudioConstants.PropVariantClear(ref value);
+        }
+    }
+
+    public static uint ReadUInt32Property(IPropertyStore store, PROPERTYKEY key)
+    {
+        PROPVARIANT value = default;
+        try
+        {
+            int hr = store.GetValue(in key, out value);
+            if (hr < 0) return 0;
+            return value.GetUInt32();
+        }
+        finally
+        {
+            CoreAudioConstants.PropVariantClear(ref value);
+        }
+    }
+
+    public static bool ReadBooleanProperty(IPropertyStore store, PROPERTYKEY key)
+    {
+        PROPVARIANT value = default;
+        try
+        {
+            int hr = store.GetValue(in key, out value);
+            if (hr < 0) return false;
+            return value.GetBoolean();
         }
         finally
         {

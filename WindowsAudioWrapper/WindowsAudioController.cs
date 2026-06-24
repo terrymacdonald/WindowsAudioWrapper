@@ -183,32 +183,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
     public void SetSpatialAudioFormat(string deviceId, string spatialAudioFormat)
     {
         ThrowIfDisposed();
-        if (string.IsNullOrWhiteSpace(deviceId)) return;
-
-        try
-        {
-            var device = CoreAudioUtilities.GetDeviceById(deviceId);
-            if (device.OpenPropertyStore(2, out var store) >= 0) // STGM_READWRITE (2)
-            {
-                PROPVARIANT pv = default;
-                pv.vt = 31; // VT_LPWStr
-                pv.p = Marshal.StringToCoTaskMemUni(spatialAudioFormat ?? string.Empty);
-
-                try
-                {
-                    store.SetValue(in CoreAudioConstants.PKEY_AudioEndpoint_Spatial, in pv);
-                    store.Commit();
-                }
-                finally
-                {
-                    CoreAudioConstants.PropVariantClear(ref pv);
-                }
-            }
-        }
-        catch
-        {
-            // Fail gracefully to comply with strict zero-fault guidelines
-        }
+        return;
     }
 
     /// <inheritdoc/>

@@ -134,32 +134,12 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
                 EndpointAssociationGuid = TrySafeReadGuid(store, CoreAudioConstants.PKEY_AudioEndpoint_Association),
                 
                 // Read new high-fidelity string variables seamlessly via user space
-                JackSubType = TrySafeReadString(store, CoreAudioConstants.PKEY_AudioEndpoint_JackSubType),
-                SpatialAudioFormat = TrySafeReadString(store, CoreAudioConstants.PKEY_AudioEndpoint_Spatial),
-                DeviceInstanceId = TrySafeReadString(store, CoreAudioConstants.PKEY_Device_InstanceId)
+                JackSubType = TrySafeReadStringOrGuid(store, CoreAudioConstants.PKEY_AudioEndpoint_JackSubType),
+                SpatialAudioFormat = string.Empty,
+                DeviceInstanceId = TrySafeReadString(store, CoreAudioConstants.PKEY_Device_InstanceId),
+                SupportsEventDrivenMode = TrySafeReadBoolean(store, CoreAudioConstants.PKEY_AudioEndpoint_Supports_EventDriven_Mode),
+                FormFactorCode = (int)TrySafeReadUInt32(store, CoreAudioConstants.PKEY_AudioEndpoint_FormFactor)
             };
-
-            // Read the low-latency WASAPI event-driven capability flag (VT_BOOL)
-            PROPVARIANT eventDrivenVar = default;
-            if (store.GetValue(in CoreAudioConstants.PKEY_AudioEndpoint_Supports_EventDriven_Mode, out eventDrivenVar) >= 0)
-            {
-                if (eventDrivenVar.vt == 11) // VT_BOOL
-                {
-                    endpoint.HardwareDetails.SupportsEventDrivenMode = eventDrivenVar.p != IntPtr.Zero;
-                }
-                CoreAudioConstants.PropVariantClear(ref eventDrivenVar);
-            }
-
-            // Read the physical Form Factor category code (VT_UI4)
-            PROPVARIANT formFactorVar = default;
-            if (store.GetValue(in CoreAudioConstants.PKEY_Device_FormFactor, out formFactorVar) >= 0)
-            {
-                if (formFactorVar.vt == 19) // VT_UI4
-                {
-                    endpoint.HardwareDetails.FormFactorCode = (int)formFactorVar.p.ToInt64();
-                }
-                CoreAudioConstants.PropVariantClear(ref formFactorVar);
-            }
 
             PROPVARIANT propVar = default;
             if (store.GetValue(in CoreAudioConstants.PKEY_AudioEndpoint_Disable_SysFx, out propVar) >= 0)
@@ -204,6 +184,42 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
         catch
         {
             return string.Empty; // Fail-open baseline for virtual drivers lacking static associations
+        }
+    }
+
+    private static string TrySafeReadStringOrGuid(IPropertyStore store, PROPERTYKEY key)
+    {
+        try
+        {
+            return CoreAudioUtilities.ReadStringOrGuidProperty(store, key);
+        }
+        catch
+        {
+            return string.Empty;
+        }
+    }
+
+    private static uint TrySafeReadUInt32(IPropertyStore store, PROPERTYKEY key)
+    {
+        try
+        {
+            return CoreAudioUtilities.ReadUInt32Property(store, key);
+        }
+        catch
+        {
+            return 0;
+        }
+    }
+
+    private static bool TrySafeReadBoolean(IPropertyStore store, PROPERTYKEY key)
+    {
+        try
+        {
+            return CoreAudioUtilities.ReadBooleanProperty(store, key);
+        }
+        catch
+        {
+            return false;
         }
     }
 

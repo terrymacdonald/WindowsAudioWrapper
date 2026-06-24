@@ -10,6 +10,11 @@ internal static partial class CoreAudioConstants
     internal const int DEVICE_STATE_DISABLED = 0x00000002;
     internal const int DEVICE_STATE_NOTPRESENT = 0x00000004;
     internal const int DEVICE_STATE_UNPLUGGED = 0x00000008;
+    internal const ushort VT_BOOL = 11;
+    internal const ushort VT_UI4 = 19;
+    internal const ushort VT_LPWSTR = 31;
+    internal const ushort VT_CLSID = 72;
+    internal const ushort VT_VECTOR = 0x1000;
 
     internal static readonly Guid CLSID_MMDeviceEnumerator = new("BCDE0395-E52F-467C-8E3D-C4579291692E");
     internal static readonly Guid IID_IAudioEndpointVolume = new("5CDF2C82-841E-4546-9722-0CF74078229A");
@@ -27,15 +32,15 @@ internal static partial class CoreAudioConstants
     internal static readonly PROPERTYKEY PKEY_Device_DeviceDesc = new(GUID_PnPDeviceProperties, 2);
     internal static readonly PROPERTYKEY PKEY_Device_HardwareIds = new(GUID_PnPDeviceProperties, 3);
     internal static readonly PROPERTYKEY PKEY_Device_DriverVersion = new(GUID_DriverProperties, 3);
+    internal static readonly PROPERTYKEY PKEY_Device_InstanceId = new(new Guid("78C34FC8-104A-4ACA-9EA4-524D52996E57"), 256);
+    internal static readonly PROPERTYKEY PKEY_AudioEndpoint_FormFactor = new(GUID_AudioEndpointProperties, 0);
     internal static readonly PROPERTYKEY PKEY_AudioEndpoint_Association = new(GUID_AudioEndpointProperties, 2);
+    internal static readonly PROPERTYKEY PKEY_AudioEndpoint_GUID = new(GUID_AudioEndpointProperties, 4);
     internal static readonly PROPERTYKEY PKEY_AudioEndpoint_Disable_SysFx = new(GUID_AudioEndpointProperties, 5);
 
     // Native IPropertyStore keys for advanced hardware capability tracking
-    internal static readonly PROPERTYKEY PKEY_AudioEndpoint_Supports_EventDriven_Mode = new(GUID_AudioEndpointProperties, 3);
-    internal static readonly PROPERTYKEY PKEY_AudioEndpoint_JackSubType = new(new Guid("2A91DE60-C901-4A35-8C5E-3466378D570F"), 1);
-    internal static readonly PROPERTYKEY PKEY_AudioEndpoint_Spatial = new(GUID_AudioEndpointProperties, 4);
-    internal static readonly PROPERTYKEY PKEY_Device_InstanceId = new(new Guid("786505C7-3BEA-415F-862D-8B1826946917"), 2);
-    internal static readonly PROPERTYKEY PKEY_Device_FormFactor = new(GUID_PnPDeviceProperties, 11);
+    internal static readonly PROPERTYKEY PKEY_AudioEndpoint_Supports_EventDriven_Mode = new(GUID_AudioEndpointProperties, 7);
+    internal static readonly PROPERTYKEY PKEY_AudioEndpoint_JackSubType = new(GUID_AudioEndpointProperties, 8);
 
     [LibraryImport("ole32.dll")]
     internal static partial int PropVariantClear(ref PROPVARIANT pvar);
@@ -85,12 +90,48 @@ public struct PROPVARIANT
     public uint blobSize;
     [FieldOffset(16)]
     public IntPtr blobData;
+    [FieldOffset(8)]
+    public uint uintValue;
+    [FieldOffset(8)]
+    public short boolValue;
 
+    /// <summary>Returns a string value from a string PROPVARIANT.</summary>
     public readonly string GetString()
     {
         return vt == 31 && p != IntPtr.Zero ? Marshal.PtrToStringUni(p) ?? string.Empty : string.Empty;
     }
 
+    /// <summary>Returns a semicolon-separated string from a string or string-list PROPVARIANT.</summary>
+    public readonly string GetStringOrStringList()
+    {
+        if (vt == CoreAudioConstants.VT_LPWSTR)
+        {
+            return GetString();
+        }
+
+        if (vt == (CoreAudioConstants.VT_VECTOR | CoreAudioConstants.VT_LPWSTR) && blobData != IntPtr.Zero)
+        {
+            var values = new List<string>();
+            for (uint index = 0; index < blobSize; index++)
+            {
+                IntPtr stringPointer = Marshal.ReadIntPtr(blobData, checked((int)(index * (uint)IntPtr.Size)));
+                if (stringPointer != IntPtr.Zero)
+                {
+                    string? value = Marshal.PtrToStringUni(stringPointer);
+                    if (!string.IsNullOrWhiteSpace(value))
+                    {
+                        values.Add(value);
+                    }
+                }
+            }
+
+            return string.Join(";", values);
+        }
+
+        return string.Empty;
+    }
+
+    /// <summary>Returns a GUID value from a CLSID PROPVARIANT.</summary>
     public readonly Guid GetGuid()
     {
         if (vt == 72 && p != IntPtr.Zero)
@@ -98,6 +139,30 @@ public struct PROPVARIANT
             return Marshal.PtrToStructure<Guid>(p);
         }
         return Guid.Empty;
+    }
+
+    /// <summary>Returns a display-safe GUID string from a CLSID PROPVARIANT.</summary>
+    public readonly string GetGuidString()
+    {
+        Guid guid = GetGuid();
+        return guid == Guid.Empty ? string.Empty : guid.ToString("D");
+    }
+
+    /// <summary>Returns a uint value from a UI4 PROPVARIANT.</summary>
+    public readonly uint GetUInt32()
+    {
+        return vt == CoreAudioConstants.VT_UI4 ? uintValue : 0;
+    }
+
+    /// <summary>Returns a bool value from a BOOL or UI4 PROPVARIANT.</summary>
+    public readonly bool GetBoolean()
+    {
+        return vt switch
+        {
+            CoreAudioConstants.VT_BOOL => boolValue != 0,
+            CoreAudioConstants.VT_UI4 => uintValue != 0,
+            _ => false
+        };
     }
 }
 
