@@ -26,22 +26,47 @@ public sealed class WindowsAudioController : IWindowsAudioController
     private bool _disposed;
 
     private readonly AudioNotificationRouter _notificationRouter;
-    private readonly IMMDeviceEnumerator? _comEnumerator;
+    private IMMDeviceEnumerator? _comEnumerator;
     private readonly List<AudioEndpointReference> _targetedDevices;
     private readonly object _targetedDevicesLock;
-    private readonly IntPtr _comCallbackPointer;
+    private readonly object _notificationRegistrationLock;
+    private IntPtr _comCallbackPointer;
+    private EventHandler<AudioDeviceEventArgs>? _audioDeviceConnected;
+    private EventHandler<AudioDeviceEventArgs>? _anyAudioDeviceConnected;
 
     private static readonly System.Runtime.InteropServices.Marshalling.StrategyBasedComWrappers ComWrappers = new();
 
     /// <summary>
     /// Fires when a specifically registered or targeted audio device connects and becomes active.
     /// </summary>
-    public event EventHandler<AudioDeviceEventArgs>? AudioDeviceConnected;
+    public event EventHandler<AudioDeviceEventArgs>? AudioDeviceConnected
+    {
+        add
+        {
+            EnsureNotificationRegistration();
+            _audioDeviceConnected += value;
+        }
+        remove
+        {
+            _audioDeviceConnected -= value;
+        }
+    }
 
     /// <summary>
     /// Fires globally whenever any audio endpoint is plugged in, discovered, or becomes active in the system.
     /// </summary>
-    public event EventHandler<AudioDeviceEventArgs>? AnyAudioDeviceConnected;
+    public event EventHandler<AudioDeviceEventArgs>? AnyAudioDeviceConnected
+    {
+        add
+        {
+            EnsureNotificationRegistration();
+            _anyAudioDeviceConnected += value;
+        }
+        remove
+        {
+            _anyAudioDeviceConnected -= value;
+        }
+    }
 
     /// <summary>
     /// Initializes a new instance of the <see cref="WindowsAudioController"/> class using target concrete engines.
@@ -74,19 +99,9 @@ public sealed class WindowsAudioController : IWindowsAudioController
 
         _targetedDevices = new List<AudioEndpointReference>();
         _targetedDevicesLock = new object();
+        _notificationRegistrationLock = new object();
         _notificationRouter = new AudioNotificationRouter();
         _notificationRouter.DeviceNotificationReceived += OnDeviceNotificationReceived;
-
-        try
-        {
-            _comEnumerator = CoreAudioUtilities.CreateEnumerator();
-            _comCallbackPointer = ComWrappers.GetOrCreateComInterfaceForObject(_notificationRouter, CreateComInterfaceFlags.None);
-            _comEnumerator.RegisterEndpointNotificationCallback(_comCallbackPointer);
-        }
-        catch
-        {
-            // Robustness guard: Prevent initialization faults if native audio service configurations are transiently down.
-        }
     }
 
     /// <inheritdoc/>
@@ -330,6 +345,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
     {
         ThrowIfDisposed();
         ArgumentNullException.ThrowIfNull(device);
+        EnsureNotificationRegistration();
 
         lock (_targetedDevicesLock)
         {
@@ -450,34 +466,75 @@ public sealed class WindowsAudioController : IWindowsAudioController
 
     private void OnDeviceNotificationReceived(string deviceId)
     {
-        AudioEndpointInfo? found = GetPlaybackDevices(AudioDeviceState.All)
-            .FirstOrDefault(d => d.DeviceId.Equals(deviceId, StringComparison.OrdinalIgnoreCase));
-
-        if (found is null)
+        // Safe asynchronous offload to prevent MMDevice API deadlock/re-entrancy process crashes
+        Task.Run(() =>
         {
-            found = GetRecordingDevices(AudioDeviceState.All)
-                .FirstOrDefault(d => d.DeviceId.Equals(deviceId, StringComparison.OrdinalIgnoreCase));
+            try
+            {
+                AudioEndpointInfo? found = GetPlaybackDevices(AudioDeviceState.All)
+                    .FirstOrDefault(d => d.DeviceId.Equals(deviceId, StringComparison.OrdinalIgnoreCase));
+
+                if (found is null)
+                {
+                    found = GetRecordingDevices(AudioDeviceState.All)
+                        .FirstOrDefault(d => d.DeviceId.Equals(deviceId, StringComparison.OrdinalIgnoreCase));
+                }
+
+                if (found is not null && found.IsAvailable)
+                {
+                    var args = new AudioDeviceEventArgs
+                    {
+                        DeviceId = found.DeviceId,
+                        ContainerId = found.ContainerId,
+                        FriendlyName = found.FriendlyName,
+                        FullName = found.FullName,
+                        Flow = found.Flow
+                    };
+
+                    _anyAudioDeviceConnected?.Invoke(this, args);
+
+                    lock (_targetedDevicesLock)
+                    {
+                        if (_targetedDevices.Any(target => IsDeviceMatch(target, args)))
+                        {
+                            _audioDeviceConnected?.Invoke(this, args);
+                        }
+                    }
+                }
+            }
+            catch
+            {
+                // Deaden background thread errors to honor stability guidelines
+            }
+        });
+    }
+
+    private void EnsureNotificationRegistration()
+    {
+        ThrowIfDisposed();
+
+        if (_comCallbackPointer != IntPtr.Zero)
+        {
+            return;
         }
 
-        if (found is not null && found.IsAvailable)
+        lock (_notificationRegistrationLock)
         {
-            var args = new AudioDeviceEventArgs
+            if (_comCallbackPointer != IntPtr.Zero)
             {
-                DeviceId = found.DeviceId,
-                ContainerId = found.ContainerId,
-                FriendlyName = found.FriendlyName,
-                FullName = found.FullName,
-                Flow = found.Flow
-            };
+                return;
+            }
 
-            AnyAudioDeviceConnected?.Invoke(this, args);
-
-            lock (_targetedDevicesLock)
+            try
             {
-                if (_targetedDevices.Any(target => IsDeviceMatch(target, args)))
-                {
-                    AudioDeviceConnected?.Invoke(this, args);
-                }
+                _comEnumerator = CoreAudioUtilities.CreateEnumerator();
+                _comCallbackPointer = ComWrappers.GetOrCreateComInterfaceForObject(_notificationRouter, CreateComInterfaceFlags.None);
+                _comEnumerator.RegisterEndpointNotificationCallback(_comCallbackPointer);
+            }
+            catch
+            {
+                _comEnumerator = null;
+                _comCallbackPointer = IntPtr.Zero;
             }
         }
     }
@@ -667,11 +724,11 @@ public sealed class WindowsAudioController : IWindowsAudioController
 
     private void ApplyPlaybackProfile(PlaybackAudioProfile playback, AudioProfileApplyResult result)
     {
-        if (playback.IsDeviceDisabledTrackingEnabled) SetDeviceDisabled(playback.TargetDevice.DeviceId, playback.IsDeviceDisabled);
+        if (playback.IsDeviceDisabledTrackingEnabled && playback.IsDeviceDisabled) SetDeviceDisabled(playback.TargetDevice.DeviceId, true);
         if (playback.IsDeviceDisabled) return;
 
-        if (playback.IsDefaultPlaybackDeviceEnabled) _defaultDeviceProvider.SetDefaultPlaybackDevice(playback.TargetDevice);
-        if (playback.IsDefaultCommunicationsPlaybackDeviceEnabled) _defaultDeviceProvider.SetDefaultCommunicationsPlaybackDevice(playback.CommunicationsDevice);
+        if (playback.IsDefaultPlaybackDeviceEnabled && !IsCurrentDefaultPlaybackDevice(playback.TargetDevice)) _defaultDeviceProvider.SetDefaultPlaybackDevice(playback.TargetDevice);
+        if (playback.IsDefaultCommunicationsPlaybackDeviceEnabled && !IsCurrentDefaultCommunicationsPlaybackDevice(playback.CommunicationsDevice)) _defaultDeviceProvider.SetDefaultCommunicationsPlaybackDevice(playback.CommunicationsDevice);
         if (playback.IsVolumeEnabled) _volumeProvider.SetVolumePercent(playback.TargetDevice, playback.VolumePercent);
         if (playback.IsMuteEnabled) _volumeProvider.SetMute(playback.TargetDevice, playback.IsMuted);
         if (playback.IsFormatEnabled) _formatProvider.SetFormat(playback.TargetDevice, playback.StreamFormat);
@@ -699,11 +756,11 @@ public sealed class WindowsAudioController : IWindowsAudioController
 
     private void ApplyRecordingProfile(RecordingAudioProfile recording, AudioProfileApplyResult result)
     {
-        if (recording.IsDeviceDisabledTrackingEnabled) SetDeviceDisabled(recording.TargetDevice.DeviceId, recording.IsDeviceDisabled);
+        if (recording.IsDeviceDisabledTrackingEnabled && recording.IsDeviceDisabled) SetDeviceDisabled(recording.TargetDevice.DeviceId, true);
         if (recording.IsDeviceDisabled) return;
 
-        if (recording.IsDefaultRecordingDeviceEnabled) _defaultDeviceProvider.SetDefaultRecordingDevice(recording.TargetDevice);
-        if (recording.IsDefaultCommunicationsRecordingDeviceEnabled) _defaultDeviceProvider.SetDefaultCommunicationsRecordingDevice(recording.CommunicationsDevice);
+        if (recording.IsDefaultRecordingDeviceEnabled && !IsCurrentDefaultRecordingDevice(recording.TargetDevice)) _defaultDeviceProvider.SetDefaultRecordingDevice(recording.TargetDevice);
+        if (recording.IsDefaultCommunicationsRecordingDeviceEnabled && !IsCurrentDefaultCommunicationsRecordingDevice(recording.CommunicationsDevice)) _defaultDeviceProvider.SetDefaultCommunicationsRecordingDevice(recording.CommunicationsDevice);
         if (recording.IsVolumeEnabled) _volumeProvider.SetVolumePercent(recording.TargetDevice, recording.VolumePercent);
         if (recording.IsMuteEnabled) _volumeProvider.SetMute(recording.TargetDevice, recording.IsMuted);
         if (recording.IsFormatEnabled) _formatProvider.SetFormat(recording.TargetDevice, recording.StreamFormat);
@@ -733,6 +790,32 @@ public sealed class WindowsAudioController : IWindowsAudioController
     {
         if (system.IsMonoAudioEnabled) _systemAudioProvider.SetMonoAudio(system.MonoAudio);
         result.Messages.Add(AudioOperationMessage.Info(AudioMessageCode.ProfileApplied, "System audio profile applied."));
+    }
+
+    private bool IsCurrentDefaultPlaybackDevice(AudioEndpointReference endpoint)
+    {
+        return IsSameDevice(endpoint, _defaultDeviceProvider.GetDefaultPlaybackDevice());
+    }
+
+    private bool IsCurrentDefaultRecordingDevice(AudioEndpointReference endpoint)
+    {
+        return IsSameDevice(endpoint, _defaultDeviceProvider.GetDefaultRecordingDevice());
+    }
+
+    private bool IsCurrentDefaultCommunicationsPlaybackDevice(AudioEndpointReference endpoint)
+    {
+        return IsSameDevice(endpoint, _defaultDeviceProvider.GetDefaultCommunicationsPlaybackDevice());
+    }
+
+    private bool IsCurrentDefaultCommunicationsRecordingDevice(AudioEndpointReference endpoint)
+    {
+        return IsSameDevice(endpoint, _defaultDeviceProvider.GetDefaultCommunicationsRecordingDevice());
+    }
+
+    private static bool IsSameDevice(AudioEndpointReference endpoint, AudioEndpointInfo current)
+    {
+        return !string.IsNullOrWhiteSpace(endpoint.DeviceId) &&
+            endpoint.DeviceId.Equals(current.DeviceId, StringComparison.OrdinalIgnoreCase);
     }
 
     private void ValidatePlaybackProfile(PlaybackAudioProfile playback, AudioProfileValidationResult result)
@@ -905,17 +988,20 @@ public sealed class WindowsAudioController : IWindowsAudioController
                         {
                             pv.vt = 65; // VT_BLOB
                             byte[] raw = ConvertHexToBytes(kvp.Value.Substring(4));
-                            IntPtr blobStruct = Marshal.AllocCoTaskMem(IntPtr.Size * 2);
-                            Marshal.WriteInt32(blobStruct, 0, raw.Length);
                             IntPtr dataPtr = Marshal.AllocCoTaskMem(raw.Length);
-                            Marshal.Copy(raw, 0, dataPtr, raw.Length);
-                            Marshal.WriteIntPtr(blobStruct, IntPtr.Size == 8 ? 8 : 4, dataPtr);
-                            pv.p = blobStruct;
 
-                            store.SetValue(in propKey, in pv);
+                            try
+                            {
+                                Marshal.Copy(raw, 0, dataPtr, raw.Length);
+                                pv.blobSize = (uint)raw.Length;
+                                pv.blobData = dataPtr;
 
-                            Marshal.FreeCoTaskMem(dataPtr);
-                            Marshal.FreeCoTaskMem(blobStruct);
+                                store.SetValue(in propKey, in pv);
+                            }
+                            finally
+                            {
+                                Marshal.FreeCoTaskMem(dataPtr);
+                            }
                         }
                     }
                     catch {}

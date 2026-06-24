@@ -68,15 +68,23 @@ public struct PROPERTYKEY
     }
 }
 
-[StructLayout(LayoutKind.Sequential)]
+[StructLayout(LayoutKind.Explicit, Size = 24)]
 public struct PROPVARIANT
 {
+    [FieldOffset(0)]
     public ushort vt;
+    [FieldOffset(2)]
     private ushort wReserved1;
+    [FieldOffset(4)]
     private ushort wReserved2;
+    [FieldOffset(6)]
     private ushort wReserved3;
+    [FieldOffset(8)]
     public IntPtr p;
-    private int p2;
+    [FieldOffset(8)]
+    public uint blobSize;
+    [FieldOffset(16)]
+    public IntPtr blobData;
 
     public readonly string GetString()
     {

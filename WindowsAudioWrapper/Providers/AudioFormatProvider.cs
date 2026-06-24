@@ -8,10 +8,15 @@ using WindowsAudioWrapper.Models;
 internal sealed class AudioFormatProvider : IAudioFormatProvider
 {
     private const int STGM_READWRITE = 2;
+    private const ushort WAVE_FORMAT_PCM = 1;
+    private const ushort WAVE_FORMAT_IEEE_FLOAT = 3;
+    private const ushort WAVE_FORMAT_EXTENSIBLE = 0xFFFE;
 
     // Explicit fallback definition of the mix format engine key to ensure zero build errors
     private static readonly PROPERTYKEY LocalPKEY_AudioEngine_DeviceFormat = 
         new(new Guid("E1A69C60-EECA-4A23-AC26-5B084C15F174"), 0);
+    private static readonly Guid KSDATAFORMAT_SUBTYPE_PCM = new("00000001-0000-0010-8000-00aa00389b71");
+    private static readonly Guid KSDATAFORMAT_SUBTYPE_IEEE_FLOAT = new("00000003-0000-0010-8000-00aa00389b71");
 
     public AudioFormatProfile GetFormat(string deviceId)
     {
@@ -31,17 +36,34 @@ internal sealed class AudioFormatProvider : IAudioFormatProvider
                 
                 if (hr >= 0 && value.vt == 65) // VT_BLOB
                 {
-                    IntPtr blobPtr = value.p;
-                    if (blobPtr != IntPtr.Zero)
+                    int blobSize = checked((int)value.blobSize);
+                    IntPtr dataPtr = value.blobData;
+                    if (blobSize >= Marshal.SizeOf<WAVEFORMATEX>() && dataPtr != IntPtr.Zero)
                     {
-                        int blobSize = Marshal.ReadInt32(blobPtr);
-                        IntPtr dataDataPtr = blobPtr + 4;
-
-                        if (blobSize >= Marshal.SizeOf<WAVEFORMATEX>())
+                        var waveFormat = Marshal.PtrToStructure<WAVEFORMATEX>(dataPtr);
+                        profile.SampleRate = (int)waveFormat.nSamplesPerSec;
+                        profile.Channels = (int)waveFormat.nChannels;
+                        profile.BitsPerSample = waveFormat.wBitsPerSample;
+                        profile.SampleFormat = waveFormat.wFormatTag switch
                         {
-                            var waveFormat = Marshal.PtrToStructure<WAVEFORMATEX>(dataDataPtr);
-                            profile.SampleRate = (int)waveFormat.nSamplesPerSec;
-                            profile.Channels = (int)waveFormat.nChannels;
+                            WAVE_FORMAT_IEEE_FLOAT => AudioSampleFormat.IeeeFloat,
+                            WAVE_FORMAT_PCM => AudioSampleFormat.Pcm,
+                            _ => AudioSampleFormat.Unknown
+                        };
+
+                        if (waveFormat.wFormatTag == WAVE_FORMAT_EXTENSIBLE &&
+                            blobSize >= Marshal.SizeOf<WAVEFORMATEXTENSIBLE>())
+                        {
+                            var extensibleFormat = Marshal.PtrToStructure<WAVEFORMATEXTENSIBLE>(dataPtr);
+                            profile.BitsPerSample = extensibleFormat.wValidBitsPerSample > 0
+                                ? extensibleFormat.wValidBitsPerSample
+                                : waveFormat.wBitsPerSample;
+                            profile.ChannelMask = extensibleFormat.dwChannelMask;
+                            profile.SampleFormat = extensibleFormat.SubFormat == KSDATAFORMAT_SUBTYPE_IEEE_FLOAT
+                                ? AudioSampleFormat.IeeeFloat
+                                : extensibleFormat.SubFormat == KSDATAFORMAT_SUBTYPE_PCM
+                                    ? AudioSampleFormat.Pcm
+                                    : AudioSampleFormat.Unknown;
                         }
                     }
                 }
@@ -80,33 +102,47 @@ internal sealed class AudioFormatProvider : IAudioFormatProvider
             }
             CoreAudioConstants.PropVariantClear(ref checkValue);
 
-            // Create a standard extensible PCM audio structure header block
-            ushort standardBitDepth = 32; // Default to float/high-res baseline matching your schema specs
+            ushort bitDepth = formatProfile.BitsPerSample > 0 ? (ushort)formatProfile.BitsPerSample : (ushort)24;
+            ushort formatTag = formatProfile.SampleFormat == AudioSampleFormat.IeeeFloat
+                ? WAVE_FORMAT_IEEE_FLOAT
+                : WAVE_FORMAT_PCM;
+
             WAVEFORMATEX nativeFormat = new()
             {
-                wFormatTag = 3, // WAVE_FORMAT_IEEE_FLOAT
+                wFormatTag = formatProfile.ChannelMask > 0 ? WAVE_FORMAT_EXTENSIBLE : formatTag,
                 nChannels = (ushort)formatProfile.Channels,
                 nSamplesPerSec = (uint)formatProfile.SampleRate,
-                wBitsPerSample = standardBitDepth,
-                cbSize = 0
+                wBitsPerSample = bitDepth,
+                cbSize = formatProfile.ChannelMask > 0 ? (ushort)22 : (ushort)0
             };
 
             nativeFormat.nBlockAlign = (ushort)((nativeFormat.wBitsPerSample / 8) * nativeFormat.nChannels);
             nativeFormat.nAvgBytesPerSec = nativeFormat.nSamplesPerSec * nativeFormat.nBlockAlign;
 
-            int structSize = Marshal.SizeOf(nativeFormat);
-            int totalBlobSize = structSize + 4;
-            IntPtr allocatedBuffer = Marshal.AllocCoTaskMem(totalBlobSize);
+            object nativeFormatObject = formatProfile.ChannelMask > 0
+                ? new WAVEFORMATEXTENSIBLE
+                {
+                    Format = nativeFormat,
+                    wValidBitsPerSample = bitDepth,
+                    dwChannelMask = formatProfile.ChannelMask,
+                    SubFormat = formatProfile.SampleFormat == AudioSampleFormat.IeeeFloat
+                        ? KSDATAFORMAT_SUBTYPE_IEEE_FLOAT
+                        : KSDATAFORMAT_SUBTYPE_PCM
+                }
+                : nativeFormat;
+
+            int structSize = Marshal.SizeOf(nativeFormatObject);
+            IntPtr allocatedBuffer = Marshal.AllocCoTaskMem(structSize);
 
             try
             {
-                Marshal.WriteInt32(allocatedBuffer, structSize);
-                Marshal.StructureToPtr(nativeFormat, allocatedBuffer + 4, false);
+                Marshal.StructureToPtr(nativeFormatObject, allocatedBuffer, false);
 
                 PROPVARIANT propVar = new()
                 {
                     vt = 65, // VT_BLOB
-                    p = allocatedBuffer
+                    blobSize = (uint)structSize,
+                    blobData = allocatedBuffer
                 };
 
                 hr = store.SetValue(in LocalPKEY_AudioEngine_DeviceFormat, in propVar);
