@@ -15,10 +15,14 @@ internal static partial class CoreAudioConstants
     internal const ushort VT_LPWSTR = 31;
     internal const ushort VT_CLSID = 72;
     internal const ushort VT_VECTOR = 0x1000;
+    internal const int AUDCLNT_SHAREMODE_SHARED = 0;
+    internal static readonly int AUDCLNT_E_EFFECT_NOT_AVAILABLE = unchecked((int)0x88890041);
+    internal static readonly int AUDCLNT_E_EFFECT_STATE_READ_ONLY = unchecked((int)0x88890042);
 
     internal static readonly Guid CLSID_MMDeviceEnumerator = new("BCDE0395-E52F-467C-8E3D-C4579291692E");
     internal static readonly Guid IID_IAudioEndpointVolume = new("5CDF2C82-841E-4546-9722-0CF74078229A");
     internal static readonly Guid IID_IAudioClient = new("1CB9AD4C-DBFA-4c32-B178-C2F568A703B2");
+    internal static readonly Guid IID_IAudioEffectsManager = new("4460B3AE-4B44-4527-8676-7548A8ACD260");
 
     internal static readonly Guid GUID_PnPDeviceProperties = new("A45C254E-DF1C-4EFD-8020-67D146A850E0");
     internal static readonly Guid GUID_AudioEndpointProperties = new("1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E");
@@ -57,6 +61,15 @@ public enum ERole
     eConsole = 0,
     eMultimedia = 1,
     eCommunications = 2
+}
+
+/// <summary>
+/// Describes whether a Windows audio effect is currently off or on.
+/// </summary>
+public enum AudioEffectState
+{
+    Off = 0,
+    On = 1
 }
 
 [StructLayout(LayoutKind.Sequential, Pack = 4)]
@@ -184,6 +197,18 @@ public struct WAVEFORMATEXTENSIBLE
     public ushort wValidBitsPerSample;
     public uint dwChannelMask;
     public Guid SubFormat;
+}
+
+/// <summary>
+/// Describes a Windows audio effect and its current mutable state.
+/// </summary>
+[StructLayout(LayoutKind.Sequential)]
+public struct AUDIO_EFFECT
+{
+    public Guid id;
+    [MarshalAs(UnmanagedType.Bool)]
+    public bool canSetState;
+    public AudioEffectState state;
 }
 
 [ComImport]
@@ -358,4 +383,26 @@ public interface IAudioClient
 
     [PreserveSig]
     int GetService(in Guid riid, [MarshalAs(UnmanagedType.Interface)] out object ppv);
+}
+
+[ComImport]
+[Guid("4460B3AE-4B44-4527-8676-7548A8ACD260")]
+[InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+public interface IAudioEffectsManager
+{
+    /// <summary>Registers a notification callback for audio effect list or state changes.</summary>
+    [PreserveSig]
+    int RegisterAudioEffectsChangedNotificationCallback(IntPtr client);
+
+    /// <summary>Unregisters a notification callback for audio effect list or state changes.</summary>
+    [PreserveSig]
+    int UnregisterAudioEffectsChangedNotificationCallback(IntPtr client);
+
+    /// <summary>Gets the current list of audio effects for the associated audio stream.</summary>
+    [PreserveSig]
+    int GetAudioEffects(out IntPtr effects, out uint numEffects);
+
+    /// <summary>Sets the state of a mutable audio effect.</summary>
+    [PreserveSig]
+    int SetAudioEffectState(Guid effectId, AudioEffectState state);
 }

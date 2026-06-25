@@ -199,6 +199,128 @@ internal static class CoreAudioUtilities
         return (IAudioClient)(audioClientObj ?? throw new COMException("Activated IAudioClient object was null."));
     }
 
+    /// <summary>
+    /// Attempts to activate the Windows audio effects manager for an endpoint.
+    /// </summary>
+    public static bool TryActivateAudioEffectsManager(string deviceId, out IAudioClient? audioClient, out IAudioEffectsManager? audioEffectsManager)
+    {
+        audioClient = null;
+        audioEffectsManager = null;
+
+        try
+        {
+            audioClient = ActivateAudioClient(deviceId);
+            if (TryGetAudioEffectsManager(audioClient, out audioEffectsManager))
+            {
+                return true;
+            }
+
+            if (!TryInitializeAudioClient(audioClient))
+            {
+                return false;
+            }
+
+            return TryGetAudioEffectsManager(audioClient, out audioEffectsManager);
+        }
+        catch
+        {
+            audioClient = null;
+            audioEffectsManager = null;
+            return false;
+        }
+    }
+
+    /// <summary>
+    /// Gets the current Windows audio effects reported for an endpoint.
+    /// </summary>
+    public static IReadOnlyList<AUDIO_EFFECT> GetAudioEffects(string deviceId)
+    {
+        if (!TryActivateAudioEffectsManager(deviceId, out IAudioClient? audioClient, out IAudioEffectsManager? audioEffectsManager) ||
+            audioClient == null ||
+            audioEffectsManager == null)
+        {
+            return Array.Empty<AUDIO_EFFECT>();
+        }
+
+        IntPtr effectsPointer = IntPtr.Zero;
+        try
+        {
+            int hr = audioEffectsManager.GetAudioEffects(out effectsPointer, out uint effectCount);
+            if (hr < 0 || effectsPointer == IntPtr.Zero || effectCount == 0)
+            {
+                return Array.Empty<AUDIO_EFFECT>();
+            }
+
+            var effects = new List<AUDIO_EFFECT>(checked((int)effectCount));
+            int effectSize = Marshal.SizeOf<AUDIO_EFFECT>();
+            for (uint index = 0; index < effectCount; index++)
+            {
+                IntPtr effectPointer = IntPtr.Add(effectsPointer, checked((int)(index * (uint)effectSize)));
+                effects.Add(Marshal.PtrToStructure<AUDIO_EFFECT>(effectPointer));
+            }
+
+            GC.KeepAlive(audioClient);
+            return effects;
+        }
+        finally
+        {
+            if (effectsPointer != IntPtr.Zero)
+            {
+                Marshal.FreeCoTaskMem(effectsPointer);
+            }
+        }
+    }
+
+    private static bool TryGetAudioEffectsManager(IAudioClient audioClient, out IAudioEffectsManager? audioEffectsManager)
+    {
+        audioEffectsManager = null;
+        int hr = audioClient.GetService(CoreAudioConstants.IID_IAudioEffectsManager, out object managerObject);
+        if (hr < 0 || managerObject == null)
+        {
+            return false;
+        }
+
+        audioEffectsManager = (IAudioEffectsManager)managerObject;
+        return true;
+    }
+
+    private static bool TryInitializeAudioClient(IAudioClient audioClient)
+    {
+        IntPtr mixFormat = IntPtr.Zero;
+        try
+        {
+            int hr = audioClient.GetMixFormat(out mixFormat);
+            if (hr < 0 || mixFormat == IntPtr.Zero)
+            {
+                return false;
+            }
+
+            long bufferDuration = 0;
+            if (audioClient.GetDevicePeriod(out long defaultDevicePeriod, out _) >= 0)
+            {
+                bufferDuration = defaultDevicePeriod;
+            }
+
+            Guid audioSessionGuid = Guid.Empty;
+            hr = audioClient.Initialize(
+                CoreAudioConstants.AUDCLNT_SHAREMODE_SHARED,
+                0,
+                bufferDuration,
+                0,
+                mixFormat,
+                in audioSessionGuid);
+
+            return hr >= 0;
+        }
+        finally
+        {
+            if (mixFormat != IntPtr.Zero)
+            {
+                Marshal.FreeCoTaskMem(mixFormat);
+            }
+        }
+    }
+
     public static string ChooseDisplayName(string friendlyName, string interfaceName)
     {
         if (!string.IsNullOrWhiteSpace(friendlyName) && !string.IsNullOrWhiteSpace(interfaceName) &&
