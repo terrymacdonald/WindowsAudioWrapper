@@ -52,7 +52,6 @@ public sealed class AudioProfile
         Playback.IsMuteEnabled = true;
         Playback.IsFormatEnabled = Playback.StreamFormat.SampleRate > 0;
         Playback.IsAudioEnhancementsEnabled = true;
-        Playback.IsSpatialAudioEnabled = true;
         Playback.IsDeviceDisabledTrackingEnabled = true;
         Playback.IsChannelVolumeEnabled = true;
         Playback.IsApoSlidersEnabled = true;
@@ -64,7 +63,6 @@ public sealed class AudioProfile
         Recording.IsMuteEnabled = true;
         Recording.IsFormatEnabled = Recording.StreamFormat.SampleRate > 0;
         Recording.IsAudioEnhancementsEnabled = true;
-        Recording.IsSpatialAudioEnabled = true;
         Recording.IsDeviceDisabledTrackingEnabled = true;
         Recording.IsChannelVolumeEnabled = true;
         Recording.IsApoSlidersEnabled = true;

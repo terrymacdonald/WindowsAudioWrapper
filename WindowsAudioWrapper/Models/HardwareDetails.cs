@@ -19,6 +19,4 @@ public class HardwareDetails
     /// <summary>Gets or sets the string representation of the connection type (e.g., Analog35mm, HDMI, Bluetooth).</summary>
     public string JackSubType { get; set; } = string.Empty;
 
-    /// <summary>Gets or sets the current Spatial Audio provider engine GUID format token.</summary>
-    public string SpatialAudioFormat { get; set; } = string.Empty;
 }

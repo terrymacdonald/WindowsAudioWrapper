@@ -65,10 +65,6 @@ public sealed class RecordingAudioProfile
     [JsonIgnore]
     public bool IsAudioEnhancementsEnabled { get; set; }
 
-    /// <summary>Gets or sets a telemetry flag stating if spatial audio changes are active. Ignored in JSON.</summary>
-    [JsonIgnore]
-    public bool IsSpatialAudioEnabled { get; set; }
-
     /// <summary>Gets or sets a telemetry flag stating if endpoint visibility management is enabled. Ignored in JSON.</summary>
     [JsonIgnore]
     public bool IsDeviceDisabledTrackingEnabled { get; set; }
@@ -108,7 +104,6 @@ public sealed class RecordingAudioProfile
             IsFormatEnabled = StreamFormat.SampleRate > 0;
             IsAudioEnhancementsEnabled = AudioEnhancements.AreEnhancementsSupported;
             TargetDevice.IsEndpointEnabled = true;
-            IsSpatialAudioEnabled = !string.IsNullOrWhiteSpace(TargetDevice.HardwareDetails.SpatialAudioFormat);
 
             IsDeviceDisabledTrackingEnabled = true;
             IsChannelVolumeEnabled = VolumeLeft > 0.0m || VolumeRight > 0.0m;

@@ -180,13 +180,6 @@ public sealed class WindowsAudioController : IWindowsAudioController
     }
 
     /// <inheritdoc/>
-    public void SetSpatialAudioFormat(string deviceId, string spatialAudioFormat)
-    {
-        ThrowIfDisposed();
-        return;
-    }
-
-    /// <inheritdoc/>
     public void SetDeviceDisabled(string deviceId, bool disabled)
     {
         ThrowIfDisposed();
@@ -619,7 +612,6 @@ public sealed class WindowsAudioController : IWindowsAudioController
             playback.IsAudioEnhancementsEnabled = true;
             playback.AudioEnhancements = _audioEnhancementProvider.GetAudioEnhancements(defaultDevice.DeviceId);
             
-            playback.IsSpatialAudioEnabled = true;
             playback.IsDeviceDisabled = false;
             playback.IsDeviceDisabledTrackingEnabled = true;
             
@@ -667,7 +659,6 @@ public sealed class WindowsAudioController : IWindowsAudioController
             recording.IsAudioEnhancementsEnabled = true;
             recording.AudioEnhancements = _audioEnhancementProvider.GetAudioEnhancements(defaultDevice.DeviceId);
 
-            recording.IsSpatialAudioEnabled = true;
             recording.IsDeviceDisabled = false;
             recording.IsDeviceDisabledTrackingEnabled = true;
             
@@ -749,11 +740,6 @@ public sealed class WindowsAudioController : IWindowsAudioController
             ApplyPropertiesViaPropertyStore(playback.TargetDevice.DeviceId, playback.ApoSliders);
         }
 
-        if (playback.IsSpatialAudioEnabled && playback.TargetDevice.HardwareDetails != null)
-        {
-            SetSpatialAudioFormat(playback.TargetDevice.DeviceId, playback.TargetDevice.HardwareDetails.SpatialAudioFormat);
-        }
-
         result.Messages.Add(AudioOperationMessage.Info(AudioMessageCode.ProfileApplied, "Playback audio profile applied."));
     }
 
@@ -779,11 +765,6 @@ public sealed class WindowsAudioController : IWindowsAudioController
         if (recording.IsApoSlidersEnabled)
         {
             ApplyPropertiesViaPropertyStore(recording.TargetDevice.DeviceId, recording.ApoSliders);
-        }
-
-        if (recording.IsSpatialAudioEnabled && recording.TargetDevice.HardwareDetails != null)
-        {
-            SetSpatialAudioFormat(recording.TargetDevice.DeviceId, recording.TargetDevice.HardwareDetails.SpatialAudioFormat);
         }
 
         result.Messages.Add(AudioOperationMessage.Info(AudioMessageCode.ProfileApplied, "Recording audio profile applied."));
@@ -826,7 +807,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
         if (!playback.IsPlaybackEnabled) return;
 
         WindowsAudioWrapper.Models.AudioEndpointInfo? device = null;
-        if (playback.IsDefaultPlaybackDeviceEnabled || playback.IsVolumeEnabled || playback.IsMuteEnabled || playback.IsFormatEnabled || playback.IsAudioEnhancementsEnabled || playback.IsSpatialAudioEnabled || playback.IsChannelVolumeEnabled)
+        if (playback.IsDefaultPlaybackDeviceEnabled || playback.IsVolumeEnabled || playback.IsMuteEnabled || playback.IsFormatEnabled || playback.IsAudioEnhancementsEnabled || playback.IsChannelVolumeEnabled)
         {
             device = ValidateEndpoint(playback.TargetDevice, AudioFlow.Render, nameof(playback.TargetDevice), result);
         }
@@ -852,7 +833,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
         if (!recording.IsRecordingEnabled) return;
 
         WindowsAudioWrapper.Models.AudioEndpointInfo? device = null;
-        if (recording.IsDefaultRecordingDeviceEnabled || recording.IsVolumeEnabled || recording.IsMuteEnabled || recording.IsFormatEnabled || recording.IsAudioEnhancementsEnabled || recording.IsSpatialAudioEnabled || recording.IsChannelVolumeEnabled)
+        if (recording.IsDefaultRecordingDeviceEnabled || recording.IsVolumeEnabled || recording.IsMuteEnabled || recording.IsFormatEnabled || recording.IsAudioEnhancementsEnabled || recording.IsChannelVolumeEnabled)
         {
             device = ValidateEndpoint(recording.TargetDevice, AudioFlow.Capture, nameof(recording.TargetDevice), result);
         }

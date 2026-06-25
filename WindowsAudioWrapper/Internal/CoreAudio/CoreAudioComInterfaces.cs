@@ -19,8 +19,6 @@ internal static partial class CoreAudioConstants
     internal static readonly Guid CLSID_MMDeviceEnumerator = new("BCDE0395-E52F-467C-8E3D-C4579291692E");
     internal static readonly Guid IID_IAudioEndpointVolume = new("5CDF2C82-841E-4546-9722-0CF74078229A");
     internal static readonly Guid IID_IAudioClient = new("1CB9AD4C-DBFA-4c32-B178-C2F568A703B2");
-    internal static readonly Guid IID_ISpatialAudioClient = new("BBF8E066-AAAA-49BE-9A4D-FD2A858EA27F");
-    internal static readonly Guid IID_ISpatialAudioObjectRenderStream = new("BAB5F473-B423-477B-85F5-B5A332A04153");
 
     internal static readonly Guid GUID_PnPDeviceProperties = new("A45C254E-DF1C-4EFD-8020-67D146A850E0");
     internal static readonly Guid GUID_AudioEndpointProperties = new("1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E");
@@ -59,35 +57,6 @@ public enum ERole
     eConsole = 0,
     eMultimedia = 1,
     eCommunications = 2
-}
-
-/// <summary>
-/// Specifies the static or dynamic spatial audio object types exposed by the Windows spatial audio client.
-/// </summary>
-[Flags]
-public enum AudioObjectType : uint
-{
-    None = 0,
-    Dynamic = 1 << 0,
-    FrontLeft = 1 << 1,
-    FrontRight = 1 << 2,
-    FrontCenter = 1 << 3,
-    LowFrequency = 1 << 4,
-    SideLeft = 1 << 5,
-    SideRight = 1 << 6,
-    BackLeft = 1 << 7,
-    BackRight = 1 << 8,
-    TopFrontLeft = 1 << 9,
-    TopFrontRight = 1 << 10,
-    TopBackLeft = 1 << 11,
-    TopBackRight = 1 << 12,
-    BottomFrontLeft = 1 << 13,
-    BottomFrontRight = 1 << 14,
-    BottomBackLeft = 1 << 15,
-    BottomBackRight = 1 << 16,
-    BackCenter = 1 << 17,
-    StereoLeft = 1 << 18,
-    StereoRight = 1 << 19
 }
 
 [StructLayout(LayoutKind.Sequential, Pack = 4)]
@@ -389,56 +358,4 @@ public interface IAudioClient
 
     [PreserveSig]
     int GetService(in Guid riid, [MarshalAs(UnmanagedType.Interface)] out object ppv);
-}
-
-[ComImport]
-[Guid("DCDAA858-895A-4A22-A5EB-67BDA506096D")]
-[InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-public interface IAudioFormatEnumerator
-{
-    /// <summary>Gets the number of supported spatial audio object formats exposed by the endpoint.</summary>
-    [PreserveSig]
-    int GetCount(out uint count);
-
-    /// <summary>Gets a supported spatial audio object format by index.</summary>
-    [PreserveSig]
-    int GetFormat(uint index, out IntPtr format);
-}
-
-[ComImport]
-[Guid("BBF8E066-AAAA-49BE-9A4D-FD2A858EA27F")]
-[InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-public interface ISpatialAudioClient
-{
-    /// <summary>Gets the 3D position for a static spatial audio object type.</summary>
-    [PreserveSig]
-    int GetStaticObjectPosition(AudioObjectType type, out float x, out float y, out float z);
-
-    /// <summary>Gets the native static object type mask supported by the active spatial rendering engine.</summary>
-    [PreserveSig]
-    int GetNativeStaticObjectTypeMask(out AudioObjectType mask);
-
-    /// <summary>Gets the maximum number of dynamic spatial audio objects supported by the active rendering engine.</summary>
-    [PreserveSig]
-    int GetMaxDynamicObjectCount(out uint value);
-
-    /// <summary>Gets the supported spatial audio object format enumerator.</summary>
-    [PreserveSig]
-    int GetSupportedAudioObjectFormatEnumerator(out IAudioFormatEnumerator enumerator);
-
-    /// <summary>Gets the maximum frame count for a supplied spatial audio object format.</summary>
-    [PreserveSig]
-    int GetMaxFrameCount(IntPtr objectFormat, out uint frameCountPerBuffer);
-
-    /// <summary>Checks whether the supplied spatial audio object format is supported.</summary>
-    [PreserveSig]
-    int IsAudioObjectFormatSupported(IntPtr objectFormat);
-
-    /// <summary>Checks whether a spatial audio stream interface is available for the active rendering engine.</summary>
-    [PreserveSig]
-    int IsSpatialAudioStreamAvailable(in Guid streamUuid, IntPtr auxiliaryInfo);
-
-    /// <summary>Activates a spatial audio stream instance for the requested stream interface.</summary>
-    [PreserveSig]
-    int ActivateSpatialAudioStream(IntPtr activationParams, in Guid riid, out IntPtr stream);
 }

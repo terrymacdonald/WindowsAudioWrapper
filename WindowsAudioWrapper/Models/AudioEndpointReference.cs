@@ -58,8 +58,7 @@ public class AudioEndpointReference
                 EndpointGuid = info.HardwareDetails?.EndpointGuid ?? string.Empty,
                 DeviceFormatSummary = info.HardwareDetails?.DeviceFormatSummary ?? string.Empty,
                 SupportsEventDrivenMode = info.HardwareDetails?.SupportsEventDrivenMode ?? false,
-                JackSubType = info.HardwareDetails?.JackSubType ?? string.Empty,
-                SpatialAudioFormat = info.HardwareDetails?.SpatialAudioFormat ?? string.Empty
+                JackSubType = info.HardwareDetails?.JackSubType ?? string.Empty
             }
         };
     }
