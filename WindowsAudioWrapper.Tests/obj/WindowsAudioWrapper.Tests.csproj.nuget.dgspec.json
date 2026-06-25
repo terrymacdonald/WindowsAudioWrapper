@@ -5,7 +5,7 @@
   },
   "projects": {
     "D:\\visual-studio-projects\\WindowsAudioWrapper\\WindowsAudioWrapper.Tests\\WindowsAudioWrapper.Tests.csproj": {
-      "version": "1.0.31",
+      "version": "1.0.0",
       "restore": {
         "projectUniqueName": "D:\\visual-studio-projects\\WindowsAudioWrapper\\WindowsAudioWrapper.Tests\\WindowsAudioWrapper.Tests.csproj",
         "projectName": "WindowsAudioWrapper.Tests",
@@ -60,6 +60,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.14.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Xunit.SkippableFact": {
               "target": "Package",
@@ -386,7 +390,7 @@
       }
     },
     "D:\\visual-studio-projects\\WindowsAudioWrapper\\WindowsAudioWrapper\\WindowsAudioWrapper.csproj": {
-      "version": "1.0.31",
+      "version": "1.0.0",
       "restore": {
         "projectUniqueName": "D:\\visual-studio-projects\\WindowsAudioWrapper\\WindowsAudioWrapper\\WindowsAudioWrapper.csproj",
         "projectName": "WindowsAudioWrapper",
@@ -433,6 +437,12 @@
         "net10.0-windows10.0.22000.0": {
           "framework": "net10.0-windows10.0.22000",
           "targetAlias": "net10.0-windows10.0.22000.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -21,7 +21,4 @@ public class HardwareDetails
 
     /// <summary>Gets or sets the current Spatial Audio provider engine GUID format token.</summary>
     public string SpatialAudioFormat { get; set; } = string.Empty;
-
-    /// <summary>Gets or sets the absolute system controller PnP instance registry node path token.</summary>
-    public string DeviceInstanceId { get; set; } = string.Empty;
 }

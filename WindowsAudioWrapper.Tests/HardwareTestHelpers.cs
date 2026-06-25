@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text.Json;
+using Newtonsoft.Json;
 using WindowsAudioWrapper.Models;
 using Xunit;
 
@@ -83,8 +83,8 @@ internal static class HardwareTestHelpers
     public static AudioProfile CloneProfile(AudioProfile profile)
     {
         profile.EnsureDefaults();
-        string json = JsonSerializer.Serialize(profile);
-        AudioProfile? clone = JsonSerializer.Deserialize<AudioProfile>(json);
+        string json = JsonConvert.SerializeObject(profile);
+        AudioProfile? clone = JsonConvert.DeserializeObject<AudioProfile>(json);
         Assert.NotNull(clone);
         clone.EnsureDefaults();
         return clone;

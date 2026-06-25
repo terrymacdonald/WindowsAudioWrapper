@@ -1,3 +1,4 @@
+using Newtonsoft.Json;
 using WindowsAudioWrapper.Internal.CoreAudio;
 using WindowsAudioWrapper.Models;
 using Xunit;
@@ -7,7 +8,6 @@ namespace WindowsAudioWrapper.Tests;
 [Collection(AudioHardwareCollection.Name)]
 public sealed class HardwareDetailsTests
 {
-    private static readonly PROPERTYKEY SdkPkeyDeviceInstanceId = new(new Guid("78C34FC8-104A-4ACA-9EA4-524D52996E57"), 256);
     private static readonly PROPERTYKEY SdkPkeyAudioEndpointFormFactor = new(new Guid("1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E"), 0);
     private static readonly PROPERTYKEY SdkPkeyAudioEndpointPhysicalSpeakers = new(new Guid("1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E"), 3);
     private static readonly PROPERTYKEY SdkPkeyAudioEndpointGuid = new(new Guid("1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E"), 4);
@@ -33,8 +33,7 @@ public sealed class HardwareDetailsTests
                 DeviceFormatSummary = "FormatTag=65534;Channels=2;SampleRate=48000;BitsPerSample=24;BlockAlign=6;AvgBytesPerSec=288000",
                 SupportsEventDrivenMode = true,
                 JackSubType = Guid.NewGuid().ToString("D"),
-                SpatialAudioFormat = Guid.NewGuid().ToString("D"),
-                DeviceInstanceId = "SWD\\MMDEVAPI\\{test-device}"
+                SpatialAudioFormat = Guid.NewGuid().ToString("D")
             }
         };
 
@@ -49,19 +48,18 @@ public sealed class HardwareDetailsTests
         Assert.Equal(endpoint.HardwareDetails.SupportsEventDrivenMode, reference.HardwareDetails.SupportsEventDrivenMode);
         Assert.Equal(endpoint.HardwareDetails.JackSubType, reference.HardwareDetails.JackSubType);
         Assert.Equal(endpoint.HardwareDetails.SpatialAudioFormat, reference.HardwareDetails.SpatialAudioFormat);
-        Assert.Equal(endpoint.HardwareDetails.DeviceInstanceId, reference.HardwareDetails.DeviceInstanceId);
     }
 
-    [SkippableFact]
-    public void GetDefaultPlaybackDevice_ShouldCaptureDeviceInstanceIdFromSdkProperty()
+    [Fact]
+    public void HardwareDetailsJson_ShouldAlwaysContainSpeakerMaskFields()
     {
-        using WindowsAudioController controller = new();
-        AudioEndpointInfo endpoint = GetActiveDefaultPlaybackDevice(controller);
-        IPropertyStore store = OpenReadOnlyPropertyStore(endpoint);
+        HardwareDetails details = new();
 
-        string expected = ReadStringOrSkip(store, SdkPkeyDeviceInstanceId, "DeviceInstanceId");
+        string json = JsonConvert.SerializeObject(details);
 
-        Assert.Equal(expected, endpoint.HardwareDetails.DeviceInstanceId);
+        Assert.Contains("\"PhysicalSpeakersMask\":0", json);
+        Assert.Contains("\"FullRangeSpeakersMask\":0", json);
+        Assert.DoesNotContain("DeviceInstanceId", json);
     }
 
     [SkippableFact]
@@ -161,7 +159,6 @@ public sealed class HardwareDetailsTests
         HardwareTestHelpers.SkipIfNoActiveDevice(defaultPlayback, "playback");
         Skip.If(!profile.Playback.TargetDevice.IsEndpointEnabled, "Skipping because the playback target device was not captured.");
 
-        Assert.Equal(defaultPlayback.HardwareDetails.DeviceInstanceId, profile.Playback.TargetDevice.HardwareDetails.DeviceInstanceId);
         Assert.Equal(defaultPlayback.HardwareDetails.FormFactorCode, profile.Playback.TargetDevice.HardwareDetails.FormFactorCode);
         Assert.Equal(defaultPlayback.HardwareDetails.PhysicalSpeakersMask, profile.Playback.TargetDevice.HardwareDetails.PhysicalSpeakersMask);
         Assert.Equal(defaultPlayback.HardwareDetails.FullRangeSpeakersMask, profile.Playback.TargetDevice.HardwareDetails.FullRangeSpeakersMask);

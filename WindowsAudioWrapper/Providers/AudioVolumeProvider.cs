@@ -1,5 +1,6 @@
 namespace WindowsAudioWrapper.Providers;
 
+using System.Runtime.InteropServices;
 using WindowsAudioWrapper.Internal.CoreAudio;
 using WindowsAudioWrapper.Models;
 
@@ -11,7 +12,8 @@ internal sealed class AudioVolumeProvider : IAudioVolumeProvider
         ValidateDeviceId(endpoint);
 
         IAudioEndpointVolume volume = CoreAudioUtilities.ActivateEndpointVolume(endpoint.DeviceId);
-        volume.GetMasterVolumeLevelScalar(out float scalar);
+        int hr = volume.GetMasterVolumeLevelScalar(out float scalar);
+        Marshal.ThrowExceptionForHR(hr);
         return Math.Round((decimal)scalar * 100m, 2);
     }
 
@@ -25,7 +27,8 @@ internal sealed class AudioVolumeProvider : IAudioVolumeProvider
         IAudioEndpointVolume volume = CoreAudioUtilities.ActivateEndpointVolume(endpoint.DeviceId);
         float scalar = (float)(volumePercent / 100m);
         Guid eventContext = Guid.Empty;
-        volume.SetMasterVolumeLevelScalar(scalar, in eventContext);
+        int hr = volume.SetMasterVolumeLevelScalar(scalar, in eventContext);
+        Marshal.ThrowExceptionForHR(hr);
     }
 
     public bool GetMute(AudioEndpointReference endpoint)
@@ -34,7 +37,8 @@ internal sealed class AudioVolumeProvider : IAudioVolumeProvider
         ValidateDeviceId(endpoint);
 
         IAudioEndpointVolume volume = CoreAudioUtilities.ActivateEndpointVolume(endpoint.DeviceId);
-        volume.GetMute(out bool muted);
+        int hr = volume.GetMute(out bool muted);
+        Marshal.ThrowExceptionForHR(hr);
         return muted;
     }
 
@@ -45,7 +49,8 @@ internal sealed class AudioVolumeProvider : IAudioVolumeProvider
 
         IAudioEndpointVolume volume = CoreAudioUtilities.ActivateEndpointVolume(endpoint.DeviceId);
         Guid eventContext = Guid.Empty;
-        volume.SetMute(muted, in eventContext);
+        int hr = volume.SetMute(muted, in eventContext);
+        Marshal.ThrowExceptionForHR(hr);
     }
 
     private static void ValidateDeviceId(AudioEndpointReference endpoint)

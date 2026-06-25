@@ -30,7 +30,6 @@ internal static partial class CoreAudioConstants
     
     // Windows Native PnP Property lookups
     internal static readonly PROPERTYKEY PKEY_Device_DeviceDesc = new(GUID_PnPDeviceProperties, 2);
-    internal static readonly PROPERTYKEY PKEY_Device_InstanceId = new(new Guid("78C34FC8-104A-4ACA-9EA4-524D52996E57"), 256);
     internal static readonly PROPERTYKEY PKEY_AudioEndpoint_FormFactor = new(GUID_AudioEndpointProperties, 0);
     internal static readonly PROPERTYKEY PKEY_AudioEndpoint_PhysicalSpeakers = new(GUID_AudioEndpointProperties, 3);
     internal static readonly PROPERTYKEY PKEY_AudioEndpoint_GUID = new(GUID_AudioEndpointProperties, 4);

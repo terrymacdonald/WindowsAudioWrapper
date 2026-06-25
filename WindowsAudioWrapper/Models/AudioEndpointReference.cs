@@ -1,4 +1,4 @@
-using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
 namespace WindowsAudioWrapper.Models;
 
@@ -59,8 +59,7 @@ public class AudioEndpointReference
                 DeviceFormatSummary = info.HardwareDetails?.DeviceFormatSummary ?? string.Empty,
                 SupportsEventDrivenMode = info.HardwareDetails?.SupportsEventDrivenMode ?? false,
                 JackSubType = info.HardwareDetails?.JackSubType ?? string.Empty,
-                SpatialAudioFormat = info.HardwareDetails?.SpatialAudioFormat ?? string.Empty,
-                DeviceInstanceId = info.HardwareDetails?.DeviceInstanceId ?? string.Empty
+                SpatialAudioFormat = info.HardwareDetails?.SpatialAudioFormat ?? string.Empty
             }
         };
     }

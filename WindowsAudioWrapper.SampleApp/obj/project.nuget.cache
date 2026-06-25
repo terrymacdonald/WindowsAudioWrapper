@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nC0vLnGnFVE=",
+  "dgSpecHash": "FkcNdSA8ixA=",
   "success": true,
   "projectFilePath": "D:\\visual-studio-projects\\WindowsAudioWrapper\\WindowsAudioWrapper.SampleApp\\WindowsAudioWrapper.SampleApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\TerryMacDonald\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\TerryMacDonald\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22000.57\\microsoft.windows.sdk.net.ref.10.0.22000.57.nupkg.sha512"
   ],
   "logs": []

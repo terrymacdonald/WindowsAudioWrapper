@@ -1,6 +1,6 @@
 ﻿using System;
 using System.IO;
-using System.Text.Json;
+using Newtonsoft.Json;
 using WindowsAudioWrapper;
 using WindowsAudioWrapper.Models;
 
@@ -8,9 +8,9 @@ namespace WindowsAudioWrapper.SampleApp;
 
 internal static class Program
 {
-    private static readonly JsonSerializerOptions JsonOptions = new()
+    private static readonly JsonSerializerSettings JsonSettings = new()
     {
-        WriteIndented = true
+        Formatting = Formatting.Indented
     };
 
     public static void Main(string[] args)
@@ -76,7 +76,7 @@ internal static class Program
         
         AudioProfile currentProfile = controller.GetCurrentProfile();
 
-        string json = JsonSerializer.Serialize(currentProfile, JsonOptions);
+        string json = JsonConvert.SerializeObject(currentProfile, JsonSettings);
         File.WriteAllText(filePath, json);
         
         Console.ForegroundColor = ConsoleColor.Green;
@@ -105,7 +105,7 @@ internal static class Program
 
         Console.WriteLine($"Loading audio profile from '{filePath}'...");
         string json = File.ReadAllText(filePath);
-        AudioProfile? profile = JsonSerializer.Deserialize<AudioProfile>(json);
+        AudioProfile? profile = JsonConvert.DeserializeObject<AudioProfile>(json);
 
         if (profile == null)
         {
@@ -165,7 +165,7 @@ internal static class Program
             profileA = controller.GetCurrentProfile();
             
             string jsonContent = File.ReadAllText(filePath);
-            var loadedProfile = JsonSerializer.Deserialize<AudioProfile>(jsonContent) ?? new AudioProfile();
+            var loadedProfile = JsonConvert.DeserializeObject<AudioProfile>(jsonContent) ?? new AudioProfile();
             loadedProfile.EnsureDefaults(); // Normalize zero-null states for an accurate structural match
             profileB = loadedProfile;
 
@@ -185,8 +185,8 @@ internal static class Program
                 return;
             }
 
-            var p1 = JsonSerializer.Deserialize<AudioProfile>(File.ReadAllText(file1)) ?? new AudioProfile();
-            var p2 = JsonSerializer.Deserialize<AudioProfile>(File.ReadAllText(file2)) ?? new AudioProfile();
+            var p1 = JsonConvert.DeserializeObject<AudioProfile>(File.ReadAllText(file1)) ?? new AudioProfile();
+            var p2 = JsonConvert.DeserializeObject<AudioProfile>(File.ReadAllText(file2)) ?? new AudioProfile();
             
             p1.EnsureDefaults();
             p2.EnsureDefaults();
@@ -236,11 +236,11 @@ internal static class Program
             }
 
             Console.WriteLine($"=== Stored Audio Profile Configuration: {filePath} ===");
-            profile = JsonSerializer.Deserialize<AudioProfile>(File.ReadAllText(filePath)) ?? new AudioProfile();
+            profile = JsonConvert.DeserializeObject<AudioProfile>(File.ReadAllText(filePath)) ?? new AudioProfile();
             profile.EnsureDefaults();
         }
 
-        string displayJson = JsonSerializer.Serialize(profile, JsonOptions);
+        string displayJson = JsonConvert.SerializeObject(profile, JsonSettings);
         Console.WriteLine(displayJson);
         Console.WriteLine("======================================================");
     }

@@ -212,8 +212,21 @@ public sealed class WindowsAudioController : IWindowsAudioController
         {
             var vol = CoreAudioUtilities.ActivateEndpointVolume(deviceId);
             Guid ctx = Guid.Empty;
-            vol.SetChannelVolumeLevelScalar(0, (float)(leftVolume / 100m), in ctx);
-            vol.SetChannelVolumeLevelScalar(1, (float)(rightVolume / 100m), in ctx);
+            if (vol.GetChannelCount(out uint counts) < 0)
+            {
+                return;
+            }
+
+            if (counts >= 2)
+            {
+                vol.SetChannelVolumeLevelScalar(0, (float)(leftVolume / 100m), in ctx);
+                vol.SetChannelVolumeLevelScalar(1, (float)(rightVolume / 100m), in ctx);
+            }
+            else if (counts == 1)
+            {
+                decimal averageVolume = (leftVolume + rightVolume) / 2m;
+                vol.SetMasterVolumeLevelScalar((float)(averageVolume / 100m), in ctx);
+            }
         }
         catch {}
     }
@@ -681,10 +694,25 @@ public sealed class WindowsAudioController : IWindowsAudioController
         try
         {
             var vol = CoreAudioUtilities.ActivateEndpointVolume(id);
-            if (vol.GetChannelCount(out uint counts) >= 0 && counts >= 2)
+            if (vol.GetChannelCount(out uint counts) < 0)
             {
-                vol.GetChannelVolumeLevelScalar(0, out left);
-                vol.GetChannelVolumeLevelScalar(1, out right);
+                return;
+            }
+
+            if (counts >= 2)
+            {
+                int leftHr = vol.GetChannelVolumeLevelScalar(0, out float capturedLeft);
+                int rightHr = vol.GetChannelVolumeLevelScalar(1, out float capturedRight);
+                if (leftHr >= 0 && rightHr >= 0)
+                {
+                    left = capturedLeft;
+                    right = capturedRight;
+                }
+            }
+            else if (counts == 1 && vol.GetMasterVolumeLevelScalar(out float masterVolume) >= 0)
+            {
+                left = masterVolume;
+                right = masterVolume;
             }
         }
         catch {}

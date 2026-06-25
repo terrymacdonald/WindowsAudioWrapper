@@ -1,4 +1,4 @@
-using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
 namespace WindowsAudioWrapper.Models;
 
@@ -11,7 +11,7 @@ public sealed class AudioFormatProfile
     public int SampleRate { get; set; } = 48000;
 
     /// <summary>Gets or sets the bit depth per sample (e.g., 16, 24, 32).</summary>
-    [JsonPropertyName("BitDepth")]
+    [JsonProperty("BitDepth")]
     public int BitsPerSample { get; set; } = 24;
 
     /// <summary>Gets or sets the number of audio channels (e.g., 2 for stereo).</summary>

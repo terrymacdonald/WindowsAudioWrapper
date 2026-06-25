@@ -127,7 +127,6 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
                 DeviceFormatSummary = TrySafeReadBlobSummary(store, CoreAudioConstants.PKEY_AudioEngine_DeviceFormat),
                 JackSubType = TrySafeReadStringOrGuid(store, CoreAudioConstants.PKEY_AudioEndpoint_JackSubType),
                 SpatialAudioFormat = string.Empty,
-                DeviceInstanceId = TrySafeReadString(store, CoreAudioConstants.PKEY_Device_InstanceId),
                 SupportsEventDrivenMode = TrySafeReadBoolean(store, CoreAudioConstants.PKEY_AudioEndpoint_Supports_EventDriven_Mode),
                 FormFactorCode = (int)TrySafeReadUInt32(store, CoreAudioConstants.PKEY_AudioEndpoint_FormFactor)
             };
@@ -231,12 +230,19 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
         try
         {
             IAudioEndpointVolume volume = CoreAudioUtilities.ActivateEndpointVolume(endpoint.DeviceId);
-            volume.GetMasterVolumeLevelScalar(out float scalar);
-            volume.GetMute(out bool muted);
-            endpoint.VolumePercent = Math.Round((decimal)scalar * 100m, 2);
-            endpoint.IsMuted = muted;
-            endpoint.Capabilities.IsVolumeSupported = true;
-            endpoint.Capabilities.IsMuteSupported = true;
+            int volumeHr = volume.GetMasterVolumeLevelScalar(out float scalar);
+            if (volumeHr >= 0)
+            {
+                endpoint.VolumePercent = Math.Round((decimal)scalar * 100m, 2);
+                endpoint.Capabilities.IsVolumeSupported = true;
+            }
+
+            int muteHr = volume.GetMute(out bool muted);
+            if (muteHr >= 0)
+            {
+                endpoint.IsMuted = muted;
+                endpoint.Capabilities.IsMuteSupported = true;
+            }
         }
         catch
         {
