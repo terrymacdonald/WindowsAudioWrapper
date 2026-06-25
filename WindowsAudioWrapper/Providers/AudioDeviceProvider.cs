@@ -126,7 +126,7 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
                 EndpointGuid = TrySafeReadStringOrGuid(store, CoreAudioConstants.PKEY_AudioEndpoint_GUID),
                 DeviceFormatSummary = TrySafeReadBlobSummary(store, CoreAudioConstants.PKEY_AudioEngine_DeviceFormat),
                 JackSubType = TrySafeReadStringOrGuid(store, CoreAudioConstants.PKEY_AudioEndpoint_JackSubType),
-                SpatialAudioFormat = string.Empty,
+                SpatialAudioFormat = flow == AudioFlow.Render ? TrySafeReadSpatialAudioSummary(deviceId) : string.Empty,
                 SupportsEventDrivenMode = TrySafeReadBoolean(store, CoreAudioConstants.PKEY_AudioEndpoint_Supports_EventDriven_Mode),
                 FormFactorCode = (int)TrySafeReadUInt32(store, CoreAudioConstants.PKEY_AudioEndpoint_FormFactor)
             };
@@ -218,6 +218,18 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
         try
         {
             return CoreAudioUtilities.ReadBlobSummaryProperty(store, key);
+        }
+        catch
+        {
+            return string.Empty;
+        }
+    }
+
+    private static string TrySafeReadSpatialAudioSummary(string deviceId)
+    {
+        try
+        {
+            return CoreAudioUtilities.ReadSpatialAudioFormatSummary(deviceId);
         }
         catch
         {

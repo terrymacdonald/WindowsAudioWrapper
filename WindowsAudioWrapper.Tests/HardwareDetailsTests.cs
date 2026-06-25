@@ -147,6 +147,18 @@ public sealed class HardwareDetailsTests
     }
 
     [SkippableFact]
+    public void GetDefaultPlaybackDevice_ShouldCaptureSpatialAudioFormatSummary_WhenSpatialAudioClientIsAvailable()
+    {
+        using WindowsAudioController controller = new();
+        AudioEndpointInfo endpoint = GetActiveDefaultPlaybackDevice(controller);
+
+        string expected = CoreAudioUtilities.ReadSpatialAudioFormatSummary(endpoint.DeviceId);
+
+        Skip.If(string.IsNullOrWhiteSpace(expected), "Skipping because ISpatialAudioClient is not available for this endpoint.");
+        Assert.Equal(expected, endpoint.HardwareDetails.SpatialAudioFormat);
+    }
+
+    [SkippableFact]
     public void GetCurrentProfile_ShouldCarryPlaybackHardwareDetailsIntoTargetDevice()
     {
         using WindowsAudioController controller = new();
@@ -165,6 +177,7 @@ public sealed class HardwareDetailsTests
         Assert.Equal(defaultPlayback.HardwareDetails.EndpointGuid, profile.Playback.TargetDevice.HardwareDetails.EndpointGuid);
         Assert.Equal(defaultPlayback.HardwareDetails.DeviceFormatSummary, profile.Playback.TargetDevice.HardwareDetails.DeviceFormatSummary);
         Assert.Equal(defaultPlayback.HardwareDetails.JackSubType, profile.Playback.TargetDevice.HardwareDetails.JackSubType);
+        Assert.Equal(defaultPlayback.HardwareDetails.SpatialAudioFormat, profile.Playback.TargetDevice.HardwareDetails.SpatialAudioFormat);
     }
 
     private static AudioEndpointInfo GetActiveDefaultPlaybackDevice(WindowsAudioController controller)

@@ -424,7 +424,7 @@
           }
         }
       },
-      "WindowsAudioWrapper/1.0.0": {
+      "WindowsAudioWrapper/1.0.33": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
@@ -997,7 +997,7 @@
         "xunit.skippablefact.nuspec"
       ]
     },
-    "WindowsAudioWrapper/1.0.0": {
+    "WindowsAudioWrapper/1.0.33": {
       "type": "project",
       "path": "../WindowsAudioWrapper/WindowsAudioWrapper.csproj",
       "msbuildProject": "../WindowsAudioWrapper/WindowsAudioWrapper.csproj"
@@ -1007,7 +1007,7 @@
     "net10.0-windows10.0.22000.0": [
       "Microsoft.NET.Test.Sdk >= 17.14.1",
       "Newtonsoft.Json >= 13.0.3",
-      "WindowsAudioWrapper >= 1.0.0",
+      "WindowsAudioWrapper >= 1.0.33",
       "Xunit.SkippableFact >= 1.4.13",
       "coverlet.collector >= 6.0.4",
       "xunit >= 2.9.3",
@@ -1019,7 +1019,7 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.33",
     "restore": {
       "projectUniqueName": "D:\\visual-studio-projects\\WindowsAudioWrapper\\WindowsAudioWrapper.Tests\\WindowsAudioWrapper.Tests.csproj",
       "projectName": "WindowsAudioWrapper.Tests",

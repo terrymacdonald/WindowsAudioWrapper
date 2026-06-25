@@ -158,6 +158,84 @@ internal static class CoreAudioUtilities
         }
     }
 
+    /// <summary>
+    /// Builds a compact serializable summary string from a native WAVEFORMATEX pointer.
+    /// </summary>
+    public static string BuildWaveFormatSummary(IntPtr formatPointer)
+    {
+        if (formatPointer == IntPtr.Zero)
+        {
+            return string.Empty;
+        }
+
+        var waveFormat = Marshal.PtrToStructure<WAVEFORMATEX>(formatPointer);
+        string summary = $"FormatTag={waveFormat.wFormatTag};Channels={waveFormat.nChannels};SampleRate={waveFormat.nSamplesPerSec};BitsPerSample={waveFormat.wBitsPerSample};BlockAlign={waveFormat.nBlockAlign};AvgBytesPerSec={waveFormat.nAvgBytesPerSec}";
+
+        if (waveFormat.wFormatTag == 65534 && waveFormat.cbSize >= 22)
+        {
+            var extensibleFormat = Marshal.PtrToStructure<WAVEFORMATEXTENSIBLE>(formatPointer);
+            summary += $";ChannelMask={extensibleFormat.dwChannelMask};SubFormat={extensibleFormat.SubFormat:D}";
+        }
+
+        return summary;
+    }
+
+    /// <summary>
+    /// Reads a compact serializable spatial audio capability summary for a render endpoint.
+    /// </summary>
+    public static string ReadSpatialAudioFormatSummary(string deviceId)
+    {
+        if (string.IsNullOrWhiteSpace(deviceId))
+        {
+            return string.Empty;
+        }
+
+        try
+        {
+            ISpatialAudioClient spatialClient = ActivateSpatialAudioClient(deviceId);
+
+            bool streamAvailable = spatialClient.IsSpatialAudioStreamAvailable(
+                CoreAudioConstants.IID_ISpatialAudioObjectRenderStream,
+                IntPtr.Zero) >= 0;
+
+            uint maxDynamicObjectCount = 0;
+            if (spatialClient.GetMaxDynamicObjectCount(out uint dynamicObjectCount) >= 0)
+            {
+                maxDynamicObjectCount = dynamicObjectCount;
+            }
+
+            AudioObjectType nativeStaticObjectTypeMask = AudioObjectType.None;
+            if (spatialClient.GetNativeStaticObjectTypeMask(out AudioObjectType staticMask) >= 0)
+            {
+                nativeStaticObjectTypeMask = staticMask;
+            }
+
+            uint supportedFormatCount = 0;
+            string preferredFormat = string.Empty;
+            uint preferredFrameCount = 0;
+
+            if (spatialClient.GetSupportedAudioObjectFormatEnumerator(out IAudioFormatEnumerator enumerator) >= 0 &&
+                enumerator != null &&
+                enumerator.GetCount(out supportedFormatCount) >= 0 &&
+                supportedFormatCount > 0 &&
+                enumerator.GetFormat(0, out IntPtr formatPointer) >= 0 &&
+                formatPointer != IntPtr.Zero)
+            {
+                preferredFormat = BuildWaveFormatSummary(formatPointer);
+                if (spatialClient.GetMaxFrameCount(formatPointer, out uint frameCount) >= 0)
+                {
+                    preferredFrameCount = frameCount;
+                }
+            }
+
+            return $"SpatialAudioClientAvailable=true;StreamAvailable={streamAvailable.ToString().ToLowerInvariant()};MaxDynamicObjectCount={maxDynamicObjectCount};NativeStaticObjectTypeMask={(uint)nativeStaticObjectTypeMask};SupportedFormatCount={supportedFormatCount};PreferredFrameCount={preferredFrameCount};PreferredFormat={preferredFormat}";
+        }
+        catch
+        {
+            return string.Empty;
+        }
+    }
+
     public static IMMDevice GetDeviceById(string deviceId)
     {
         if (string.IsNullOrWhiteSpace(deviceId))
@@ -197,6 +275,21 @@ internal static class CoreAudioUtilities
         }
 
         return (IAudioClient)(audioClientObj ?? throw new COMException("Activated IAudioClient object was null."));
+    }
+
+    /// <summary>
+    /// Activates the Windows spatial audio client for an endpoint device id.
+    /// </summary>
+    public static ISpatialAudioClient ActivateSpatialAudioClient(string deviceId)
+    {
+        IMMDevice device = GetDeviceById(deviceId);
+        int hr = device.Activate(CoreAudioConstants.IID_ISpatialAudioClient, CoreAudioConstants.CLSCTX_ALL, IntPtr.Zero, out object spatialAudioClientObj);
+        if (hr < 0 || spatialAudioClientObj == null)
+        {
+            Marshal.ThrowExceptionForHR(hr);
+        }
+
+        return (ISpatialAudioClient)(spatialAudioClientObj ?? throw new COMException("Activated ISpatialAudioClient object was null."));
     }
 
     public static string ChooseDisplayName(string friendlyName, string interfaceName)
