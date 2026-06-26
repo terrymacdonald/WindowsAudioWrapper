@@ -1,5 +1,5 @@
 #
-# NVAPIWrapper DocFX Refresh Script (PowerShell)
+# WindowsAudioWWrapper DocFX Refresh Script (PowerShell)
 # Regenerates API documentation and launches the DocFX dev server on port 8000
 #
 
@@ -16,7 +16,7 @@ Write-Host "Working directory: $scriptRoot" -ForegroundColor Cyan
 Write-Host ""
 
 Write-Host "============================================================================" -ForegroundColor Cyan
-Write-Host "NVAPIWrapper API Docs Refresh (DocFX)" -ForegroundColor Cyan
+Write-Host "WindowsAudioWrapper API Docs Refresh (DocFX)" -ForegroundColor Cyan
 Write-Host "============================================================================" -ForegroundColor Cyan
 Write-Host ""
 

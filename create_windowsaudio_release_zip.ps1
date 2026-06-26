@@ -11,14 +11,8 @@ if (-not $scriptRoot) {
 
 Set-Location $scriptRoot
 
-$NVIDIAHeader = Join-Path $scriptRoot "nvapi/nvapi.h"
-if (-not (Test-Path $NVIDIAHeader)) {
-    Write-Host "NVIDIA SDK headers not found. Run ./prepare_nvapi.ps1 first." -ForegroundColor Red
-    exit 1
-}
-
 # ---------------------------------------------------------------------------
-# Versioning (match build_nvidia.ps1: MAJOR/MINOR from VERSION, PATCH = git rev-list --count HEAD)
+# Versioning (match build_windowsaudio.ps1: MAJOR/MINOR from VERSION, PATCH = git rev-list --count HEAD)
 # ---------------------------------------------------------------------------
 $versionFile = Join-Path $scriptRoot "VERSION"
 $major = 1
@@ -41,16 +35,16 @@ try {
 } catch {}
 $version = "$major.$minor.$patch"
 
-$projectPath = Join-Path $scriptRoot "NVAPIWrapper/NVAPIWrapper.csproj"
-Write-Host "Building NVAPIWrapper ($Configuration) version $version..." -ForegroundColor Cyan
+$projectPath = Join-Path $scriptRoot "WindowsAudioWrapper/WindowsAudioWrapper.csproj"
+Write-Host "Building WindowsAudioWrapper ($Configuration) version $version..." -ForegroundColor Cyan
 dotnet build $projectPath -c $Configuration /p:Version=$version /p:AssemblyVersion=$version /p:FileVersion=$version
 if ($LASTEXITCODE -ne 0) {
     Write-Host "Build failed; aborting packaging." -ForegroundColor Red
     exit $LASTEXITCODE
 }
 
-$buildOutput = Join-Path $scriptRoot "NVAPIWrapper/bin/$Configuration/net10.0"
-$assemblyPath = Join-Path $buildOutput "NVAPIWrapper.dll"
+$buildOutput = Join-Path $scriptRoot "WindowsAudioWrapper/bin/$Configuration/net10.0-windows10.0.22000.0"
+$assemblyPath = Join-Path $buildOutput "WindowsAudioWrapper.dll"
 if (-not (Test-Path $assemblyPath)) {
     Write-Host "Build output not found at $assemblyPath" -ForegroundColor Red
     exit 1
@@ -58,24 +52,22 @@ if (-not (Test-Path $assemblyPath)) {
 
 $artifactsDir = Join-Path $scriptRoot "release-zip"
 New-Item -ItemType Directory -Force -Path $artifactsDir | Out-Null
-$zipPath = Join-Path $artifactsDir "NVAPIWrapper-$version-$Configuration.zip"
+$zipPath = Join-Path $artifactsDir "WindowsAudioWrapper-$version-$Configuration.zip"
 if (Test-Path $zipPath) { Remove-Item $zipPath }
 
 $pathsToPack = @()
 $pathsToPack += $assemblyPath
-$pathsToPack += Join-Path $buildOutput "NVAPIWrapper.pdb"
-$pathsToPack += Join-Path $buildOutput "NVAPIWrapper.deps.json"
-$pathsToPack += Join-Path $buildOutput "NVAPIWrapper.xml"
+$pathsToPack += Join-Path $buildOutput "WindowsAudioWrapper.pdb"
+$pathsToPack += Join-Path $buildOutput "WindowsAudioWrapper.deps.json"
+$pathsToPack += Join-Path $buildOutput "WindowsAudioWrapper.xml"
 $pathsToPack += Join-Path $scriptRoot "LICENSE"
 $pathsToPack += Join-Path $scriptRoot "README.md"
-$pathsToPack += Join-Path $scriptRoot "NVAPIWrapper/README.md"
 $pathsToPack = $pathsToPack | Where-Object { Test-Path $_ }
 
 if ($IncludeSources) {
-    $pathsToPack += (Join-Path $scriptRoot "NVAPIWrapper/cs_generated")
-    $sourceFiles = Get-ChildItem -Path (Join-Path $scriptRoot "NVAPIWrapper") -Filter *.cs -File
+    $sourceFiles = Get-ChildItem -Path (Join-Path $scriptRoot "WindowsAudioWrapper") -Filter *.cs -File
     $pathsToPack += $sourceFiles.FullName
-    $pathsToPack += (Join-Path $scriptRoot "NVAPIWrapper/NVAPIWrapper.csproj")
+    $pathsToPack += (Join-Path $scriptRoot "WindowsAudioWrapper/WindowsAudioWrapper.csproj")
 }
 
 $pathsToPack = $pathsToPack | Select-Object -Unique
