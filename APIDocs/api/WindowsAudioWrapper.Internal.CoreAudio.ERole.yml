@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: WindowsAudioWrapper.Internal.CoreAudio.ERole
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.ERole
+  id: ERole
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  children:
+  - WindowsAudioWrapper.Internal.CoreAudio.ERole.eCommunications
+  - WindowsAudioWrapper.Internal.CoreAudio.ERole.eConsole
+  - WindowsAudioWrapper.Internal.CoreAudio.ERole.eMultimedia
+  langs:
+  - csharp
+  - vb
+  name: ERole
+  nameWithType: ERole
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.ERole
+  type: Enum
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: ERole
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 58
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: public enum ERole
+    content.vb: Public Enum ERole
+- uid: WindowsAudioWrapper.Internal.CoreAudio.ERole.eConsole
+  commentId: F:WindowsAudioWrapper.Internal.CoreAudio.ERole.eConsole
+  id: eConsole
+  parent: WindowsAudioWrapper.Internal.CoreAudio.ERole
+  langs:
+  - csharp
+  - vb
+  name: eConsole
+  nameWithType: ERole.eConsole
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.ERole.eConsole
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: eConsole
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 60
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: eConsole = 0
+    return:
+      type: WindowsAudioWrapper.Internal.CoreAudio.ERole
+- uid: WindowsAudioWrapper.Internal.CoreAudio.ERole.eMultimedia
+  commentId: F:WindowsAudioWrapper.Internal.CoreAudio.ERole.eMultimedia
+  id: eMultimedia
+  parent: WindowsAudioWrapper.Internal.CoreAudio.ERole
+  langs:
+  - csharp
+  - vb
+  name: eMultimedia
+  nameWithType: ERole.eMultimedia
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.ERole.eMultimedia
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: eMultimedia
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 61
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: eMultimedia = 1
+    return:
+      type: WindowsAudioWrapper.Internal.CoreAudio.ERole
+- uid: WindowsAudioWrapper.Internal.CoreAudio.ERole.eCommunications
+  commentId: F:WindowsAudioWrapper.Internal.CoreAudio.ERole.eCommunications
+  id: eCommunications
+  parent: WindowsAudioWrapper.Internal.CoreAudio.ERole
+  langs:
+  - csharp
+  - vb
+  name: eCommunications
+  nameWithType: ERole.eCommunications
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.ERole.eCommunications
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: eCommunications
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 62
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: eCommunications = 2
+    return:
+      type: WindowsAudioWrapper.Internal.CoreAudio.ERole
+references:
+- uid: WindowsAudioWrapper.Internal.CoreAudio
+  commentId: N:WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.html
+  name: WindowsAudioWrapper.Internal.CoreAudio
+  nameWithType: WindowsAudioWrapper.Internal.CoreAudio
+  fullName: WindowsAudioWrapper.Internal.CoreAudio
+  spec.csharp:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal
+    name: Internal
+    href: WindowsAudioWrapper.Internal.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal.CoreAudio
+    name: CoreAudio
+    href: WindowsAudioWrapper.Internal.CoreAudio.html
+  spec.vb:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal
+    name: Internal
+    href: WindowsAudioWrapper.Internal.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal.CoreAudio
+    name: CoreAudio
+    href: WindowsAudioWrapper.Internal.CoreAudio.html
+- uid: WindowsAudioWrapper.Internal.CoreAudio.ERole
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.ERole
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.Internal.CoreAudio.ERole.html
+  name: ERole
+  nameWithType: ERole
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.ERole

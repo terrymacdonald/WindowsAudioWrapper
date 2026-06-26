@@ -1,0 +1,363 @@
+### YamlMime:ManagedReference
+items:
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator
+  id: IMMDeviceEnumerator
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  children:
+  - WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.EnumAudioEndpoints(WindowsAudioWrapper.Internal.CoreAudio.EDataFlow,System.Int32,WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceCollection@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.GetDefaultAudioEndpoint(WindowsAudioWrapper.Internal.CoreAudio.EDataFlow,WindowsAudioWrapper.Internal.CoreAudio.ERole,WindowsAudioWrapper.Internal.CoreAudio.IMMDevice@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.GetDevice(System.String,WindowsAudioWrapper.Internal.CoreAudio.IMMDevice@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.RegisterEndpointNotificationCallback(System.IntPtr)
+  - WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.UnregisterEndpointNotificationCallback(System.IntPtr)
+  langs:
+  - csharp
+  - vb
+  name: IMMDeviceEnumerator
+  nameWithType: IMMDeviceEnumerator
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator
+  type: Interface
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IMMDeviceEnumerator
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 213
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: >-
+      [Guid("A95664D2-9614-4F35-A746-DE8DB63617E6")]
+
+      [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+
+      public interface IMMDeviceEnumerator
+    content.vb: >-
+      <Guid("A95664D2-9614-4F35-A746-DE8DB63617E6")>
+
+      <InterfaceType(ComInterfaceType.InterfaceIsIUnknown)>
+
+      Public Interface IMMDeviceEnumerator
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: A95664D2-9614-4F35-A746-DE8DB63617E6
+  - type: System.Runtime.InteropServices.InterfaceTypeAttribute
+    ctor: System.Runtime.InteropServices.InterfaceTypeAttribute.#ctor(System.Runtime.InteropServices.ComInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ComInterfaceType
+      value: 1
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.EnumAudioEndpoints(WindowsAudioWrapper.Internal.CoreAudio.EDataFlow,System.Int32,WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceCollection@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.EnumAudioEndpoints(WindowsAudioWrapper.Internal.CoreAudio.EDataFlow,System.Int32,WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceCollection@)
+  id: EnumAudioEndpoints(WindowsAudioWrapper.Internal.CoreAudio.EDataFlow,System.Int32,WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceCollection@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator
+  langs:
+  - csharp
+  - vb
+  name: EnumAudioEndpoints(EDataFlow, int, out IMMDeviceCollection)
+  nameWithType: IMMDeviceEnumerator.EnumAudioEndpoints(EDataFlow, int, out IMMDeviceCollection)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.EnumAudioEndpoints(WindowsAudioWrapper.Internal.CoreAudio.EDataFlow, int, out WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceCollection)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: EnumAudioEndpoints
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 218
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int EnumAudioEndpoints(EDataFlow dataFlow, int dwStateMask, out IMMDeviceCollection ppDevices)
+    parameters:
+    - id: dataFlow
+      type: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow
+    - id: dwStateMask
+      type: System.Int32
+    - id: ppDevices
+      type: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceCollection
+    return:
+      type: System.Int32
+    content.vb: Function EnumAudioEndpoints(dataFlow As EDataFlow, dwStateMask As Integer, ppDevices As IMMDeviceCollection) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.EnumAudioEndpoints*
+  nameWithType.vb: IMMDeviceEnumerator.EnumAudioEndpoints(EDataFlow, Integer, IMMDeviceCollection)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.EnumAudioEndpoints(WindowsAudioWrapper.Internal.CoreAudio.EDataFlow, Integer, WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceCollection)
+  name.vb: EnumAudioEndpoints(EDataFlow, Integer, IMMDeviceCollection)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.GetDefaultAudioEndpoint(WindowsAudioWrapper.Internal.CoreAudio.EDataFlow,WindowsAudioWrapper.Internal.CoreAudio.ERole,WindowsAudioWrapper.Internal.CoreAudio.IMMDevice@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.GetDefaultAudioEndpoint(WindowsAudioWrapper.Internal.CoreAudio.EDataFlow,WindowsAudioWrapper.Internal.CoreAudio.ERole,WindowsAudioWrapper.Internal.CoreAudio.IMMDevice@)
+  id: GetDefaultAudioEndpoint(WindowsAudioWrapper.Internal.CoreAudio.EDataFlow,WindowsAudioWrapper.Internal.CoreAudio.ERole,WindowsAudioWrapper.Internal.CoreAudio.IMMDevice@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultAudioEndpoint(EDataFlow, ERole, out IMMDevice)
+  nameWithType: IMMDeviceEnumerator.GetDefaultAudioEndpoint(EDataFlow, ERole, out IMMDevice)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.GetDefaultAudioEndpoint(WindowsAudioWrapper.Internal.CoreAudio.EDataFlow, WindowsAudioWrapper.Internal.CoreAudio.ERole, out WindowsAudioWrapper.Internal.CoreAudio.IMMDevice)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetDefaultAudioEndpoint
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 221
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int GetDefaultAudioEndpoint(EDataFlow dataFlow, ERole role, out IMMDevice ppEndpoint)
+    parameters:
+    - id: dataFlow
+      type: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow
+    - id: role
+      type: WindowsAudioWrapper.Internal.CoreAudio.ERole
+    - id: ppEndpoint
+      type: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice
+    return:
+      type: System.Int32
+    content.vb: Function GetDefaultAudioEndpoint(dataFlow As EDataFlow, role As ERole, ppEndpoint As IMMDevice) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.GetDefaultAudioEndpoint*
+  nameWithType.vb: IMMDeviceEnumerator.GetDefaultAudioEndpoint(EDataFlow, ERole, IMMDevice)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.GetDefaultAudioEndpoint(WindowsAudioWrapper.Internal.CoreAudio.EDataFlow, WindowsAudioWrapper.Internal.CoreAudio.ERole, WindowsAudioWrapper.Internal.CoreAudio.IMMDevice)
+  name.vb: GetDefaultAudioEndpoint(EDataFlow, ERole, IMMDevice)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.GetDevice(System.String,WindowsAudioWrapper.Internal.CoreAudio.IMMDevice@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.GetDevice(System.String,WindowsAudioWrapper.Internal.CoreAudio.IMMDevice@)
+  id: GetDevice(System.String,WindowsAudioWrapper.Internal.CoreAudio.IMMDevice@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator
+  langs:
+  - csharp
+  - vb
+  name: GetDevice(string, out IMMDevice)
+  nameWithType: IMMDeviceEnumerator.GetDevice(string, out IMMDevice)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.GetDevice(string, out WindowsAudioWrapper.Internal.CoreAudio.IMMDevice)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetDevice
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 224
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int GetDevice(string pwstrId, out IMMDevice ppDevice)
+    parameters:
+    - id: pwstrId
+      type: System.String
+    - id: ppDevice
+      type: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice
+    return:
+      type: System.Int32
+    content.vb: Function GetDevice(pwstrId As String, ppDevice As IMMDevice) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.GetDevice*
+  nameWithType.vb: IMMDeviceEnumerator.GetDevice(String, IMMDevice)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.GetDevice(String, WindowsAudioWrapper.Internal.CoreAudio.IMMDevice)
+  name.vb: GetDevice(String, IMMDevice)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.RegisterEndpointNotificationCallback(System.IntPtr)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.RegisterEndpointNotificationCallback(System.IntPtr)
+  id: RegisterEndpointNotificationCallback(System.IntPtr)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator
+  langs:
+  - csharp
+  - vb
+  name: RegisterEndpointNotificationCallback(nint)
+  nameWithType: IMMDeviceEnumerator.RegisterEndpointNotificationCallback(nint)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.RegisterEndpointNotificationCallback(nint)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: RegisterEndpointNotificationCallback
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 227
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int RegisterEndpointNotificationCallback(nint pClient)
+    parameters:
+    - id: pClient
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Function RegisterEndpointNotificationCallback(pClient As IntPtr) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.RegisterEndpointNotificationCallback*
+  nameWithType.vb: IMMDeviceEnumerator.RegisterEndpointNotificationCallback(IntPtr)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.RegisterEndpointNotificationCallback(System.IntPtr)
+  name.vb: RegisterEndpointNotificationCallback(IntPtr)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.UnregisterEndpointNotificationCallback(System.IntPtr)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.UnregisterEndpointNotificationCallback(System.IntPtr)
+  id: UnregisterEndpointNotificationCallback(System.IntPtr)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator
+  langs:
+  - csharp
+  - vb
+  name: UnregisterEndpointNotificationCallback(nint)
+  nameWithType: IMMDeviceEnumerator.UnregisterEndpointNotificationCallback(nint)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.UnregisterEndpointNotificationCallback(nint)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: UnregisterEndpointNotificationCallback
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 230
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int UnregisterEndpointNotificationCallback(nint pClient)
+    parameters:
+    - id: pClient
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Function UnregisterEndpointNotificationCallback(pClient As IntPtr) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.UnregisterEndpointNotificationCallback*
+  nameWithType.vb: IMMDeviceEnumerator.UnregisterEndpointNotificationCallback(IntPtr)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.UnregisterEndpointNotificationCallback(System.IntPtr)
+  name.vb: UnregisterEndpointNotificationCallback(IntPtr)
+references:
+- uid: WindowsAudioWrapper.Internal.CoreAudio
+  commentId: N:WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.html
+  name: WindowsAudioWrapper.Internal.CoreAudio
+  nameWithType: WindowsAudioWrapper.Internal.CoreAudio
+  fullName: WindowsAudioWrapper.Internal.CoreAudio
+  spec.csharp:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal
+    name: Internal
+    href: WindowsAudioWrapper.Internal.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal.CoreAudio
+    name: CoreAudio
+    href: WindowsAudioWrapper.Internal.CoreAudio.html
+  spec.vb:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal
+    name: Internal
+    href: WindowsAudioWrapper.Internal.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal.CoreAudio
+    name: CoreAudio
+    href: WindowsAudioWrapper.Internal.CoreAudio.html
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.EnumAudioEndpoints*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.EnumAudioEndpoints
+  href: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.html#WindowsAudioWrapper_Internal_CoreAudio_IMMDeviceEnumerator_EnumAudioEndpoints_WindowsAudioWrapper_Internal_CoreAudio_EDataFlow_System_Int32_WindowsAudioWrapper_Internal_CoreAudio_IMMDeviceCollection__
+  name: EnumAudioEndpoints
+  nameWithType: IMMDeviceEnumerator.EnumAudioEndpoints
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.EnumAudioEndpoints
+- uid: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.EDataFlow
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow.html
+  name: EDataFlow
+  nameWithType: EDataFlow
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceCollection
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceCollection
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceCollection.html
+  name: IMMDeviceCollection
+  nameWithType: IMMDeviceCollection
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceCollection
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.GetDefaultAudioEndpoint*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.GetDefaultAudioEndpoint
+  href: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.html#WindowsAudioWrapper_Internal_CoreAudio_IMMDeviceEnumerator_GetDefaultAudioEndpoint_WindowsAudioWrapper_Internal_CoreAudio_EDataFlow_WindowsAudioWrapper_Internal_CoreAudio_ERole_WindowsAudioWrapper_Internal_CoreAudio_IMMDevice__
+  name: GetDefaultAudioEndpoint
+  nameWithType: IMMDeviceEnumerator.GetDefaultAudioEndpoint
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.GetDefaultAudioEndpoint
+- uid: WindowsAudioWrapper.Internal.CoreAudio.ERole
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.ERole
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.Internal.CoreAudio.ERole.html
+  name: ERole
+  nameWithType: ERole
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.ERole
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.IMMDevice
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.html
+  name: IMMDevice
+  nameWithType: IMMDevice
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.GetDevice*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.GetDevice
+  href: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.html#WindowsAudioWrapper_Internal_CoreAudio_IMMDeviceEnumerator_GetDevice_System_String_WindowsAudioWrapper_Internal_CoreAudio_IMMDevice__
+  name: GetDevice
+  nameWithType: IMMDeviceEnumerator.GetDevice
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.GetDevice
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.RegisterEndpointNotificationCallback*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.RegisterEndpointNotificationCallback
+  href: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.html#WindowsAudioWrapper_Internal_CoreAudio_IMMDeviceEnumerator_RegisterEndpointNotificationCallback_System_IntPtr_
+  name: RegisterEndpointNotificationCallback
+  nameWithType: IMMDeviceEnumerator.RegisterEndpointNotificationCallback
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.RegisterEndpointNotificationCallback
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.UnregisterEndpointNotificationCallback*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.UnregisterEndpointNotificationCallback
+  href: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.html#WindowsAudioWrapper_Internal_CoreAudio_IMMDeviceEnumerator_UnregisterEndpointNotificationCallback_System_IntPtr_
+  name: UnregisterEndpointNotificationCallback
+  nameWithType: IMMDeviceEnumerator.UnregisterEndpointNotificationCallback
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.UnregisterEndpointNotificationCallback

@@ -1,0 +1,1117 @@
+### YamlMime:ManagedReference
+items:
+- uid: WindowsAudioWrapper.IWindowsAudioController
+  commentId: T:WindowsAudioWrapper.IWindowsAudioController
+  id: IWindowsAudioController
+  parent: WindowsAudioWrapper
+  children:
+  - WindowsAudioWrapper.IWindowsAudioController.AnyAudioDeviceConnected
+  - WindowsAudioWrapper.IWindowsAudioController.ApplyProfile(WindowsAudioWrapper.Models.AudioProfile)
+  - WindowsAudioWrapper.IWindowsAudioController.AudioDeviceConnected
+  - WindowsAudioWrapper.IWindowsAudioController.GetCurrentProfile
+  - WindowsAudioWrapper.IWindowsAudioController.GetDefaultCommunicationsPlaybackDevice
+  - WindowsAudioWrapper.IWindowsAudioController.GetDefaultCommunicationsRecordingDevice
+  - WindowsAudioWrapper.IWindowsAudioController.GetDefaultConsolePlaybackDevice
+  - WindowsAudioWrapper.IWindowsAudioController.GetDefaultConsoleRecordingDevice
+  - WindowsAudioWrapper.IWindowsAudioController.GetDefaultPlaybackDevice
+  - WindowsAudioWrapper.IWindowsAudioController.GetDefaultRecordingDevice
+  - WindowsAudioWrapper.IWindowsAudioController.GetPlaybackDevices(WindowsAudioWrapper.Models.AudioDeviceState)
+  - WindowsAudioWrapper.IWindowsAudioController.GetRecordingDevices(WindowsAudioWrapper.Models.AudioDeviceState)
+  - WindowsAudioWrapper.IWindowsAudioController.RegisterTargetDevice(WindowsAudioWrapper.Models.AudioEndpointReference)
+  - WindowsAudioWrapper.IWindowsAudioController.UnregisterTargetDevice(WindowsAudioWrapper.Models.AudioEndpointReference)
+  - WindowsAudioWrapper.IWindowsAudioController.ValidateProfile(WindowsAudioWrapper.Models.AudioProfile)
+  - WindowsAudioWrapper.IWindowsAudioController.WaitForAudioDeviceToAppear(WindowsAudioWrapper.Models.AudioEndpointReference,System.Int32)
+  - WindowsAudioWrapper.IWindowsAudioController.WaitForAudioDeviceToAppearAsync(WindowsAudioWrapper.Models.AudioEndpointReference,System.Int32,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: IWindowsAudioController
+  nameWithType: IWindowsAudioController
+  fullName: WindowsAudioWrapper.IWindowsAudioController
+  type: Interface
+  source:
+    remote:
+      path: WindowsAudioWrapper/IWindowsAudioController.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IWindowsAudioController
+    path: ../WindowsAudioWrapper/IWindowsAudioController.cs
+    startLine: 11
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper
+  summary: Public entry point for reading and applying Windows audio profiles.
+  example: []
+  syntax:
+    content: 'public interface IWindowsAudioController : IDisposable'
+    content.vb: Public Interface IWindowsAudioController Inherits IDisposable
+  derivedClasses:
+  - WindowsAudioWrapper.WindowsAudioController
+  inheritedMembers:
+  - System.IDisposable.Dispose
+- uid: WindowsAudioWrapper.IWindowsAudioController.GetPlaybackDevices(WindowsAudioWrapper.Models.AudioDeviceState)
+  commentId: M:WindowsAudioWrapper.IWindowsAudioController.GetPlaybackDevices(WindowsAudioWrapper.Models.AudioDeviceState)
+  id: GetPlaybackDevices(WindowsAudioWrapper.Models.AudioDeviceState)
+  parent: WindowsAudioWrapper.IWindowsAudioController
+  langs:
+  - csharp
+  - vb
+  name: GetPlaybackDevices(AudioDeviceState)
+  nameWithType: IWindowsAudioController.GetPlaybackDevices(AudioDeviceState)
+  fullName: WindowsAudioWrapper.IWindowsAudioController.GetPlaybackDevices(WindowsAudioWrapper.Models.AudioDeviceState)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/IWindowsAudioController.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetPlaybackDevices
+    path: ../WindowsAudioWrapper/IWindowsAudioController.cs
+    startLine: 13
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper
+  syntax:
+    content: IReadOnlyList<AudioEndpointInfo> GetPlaybackDevices(AudioDeviceState states = AudioDeviceState.Active | AudioDeviceState.Unplugged)
+    parameters:
+    - id: states
+      type: WindowsAudioWrapper.Models.AudioDeviceState
+    return:
+      type: System.Collections.Generic.IReadOnlyList{WindowsAudioWrapper.Models.AudioEndpointInfo}
+    content.vb: Function GetPlaybackDevices(states As AudioDeviceState = AudioDeviceState.Active Or AudioDeviceState.Unplugged) As IReadOnlyList(Of AudioEndpointInfo)
+  overload: WindowsAudioWrapper.IWindowsAudioController.GetPlaybackDevices*
+- uid: WindowsAudioWrapper.IWindowsAudioController.GetRecordingDevices(WindowsAudioWrapper.Models.AudioDeviceState)
+  commentId: M:WindowsAudioWrapper.IWindowsAudioController.GetRecordingDevices(WindowsAudioWrapper.Models.AudioDeviceState)
+  id: GetRecordingDevices(WindowsAudioWrapper.Models.AudioDeviceState)
+  parent: WindowsAudioWrapper.IWindowsAudioController
+  langs:
+  - csharp
+  - vb
+  name: GetRecordingDevices(AudioDeviceState)
+  nameWithType: IWindowsAudioController.GetRecordingDevices(AudioDeviceState)
+  fullName: WindowsAudioWrapper.IWindowsAudioController.GetRecordingDevices(WindowsAudioWrapper.Models.AudioDeviceState)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/IWindowsAudioController.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetRecordingDevices
+    path: ../WindowsAudioWrapper/IWindowsAudioController.cs
+    startLine: 16
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper
+  syntax:
+    content: IReadOnlyList<AudioEndpointInfo> GetRecordingDevices(AudioDeviceState states = AudioDeviceState.Active | AudioDeviceState.Unplugged)
+    parameters:
+    - id: states
+      type: WindowsAudioWrapper.Models.AudioDeviceState
+    return:
+      type: System.Collections.Generic.IReadOnlyList{WindowsAudioWrapper.Models.AudioEndpointInfo}
+    content.vb: Function GetRecordingDevices(states As AudioDeviceState = AudioDeviceState.Active Or AudioDeviceState.Unplugged) As IReadOnlyList(Of AudioEndpointInfo)
+  overload: WindowsAudioWrapper.IWindowsAudioController.GetRecordingDevices*
+- uid: WindowsAudioWrapper.IWindowsAudioController.GetDefaultPlaybackDevice
+  commentId: M:WindowsAudioWrapper.IWindowsAudioController.GetDefaultPlaybackDevice
+  id: GetDefaultPlaybackDevice
+  parent: WindowsAudioWrapper.IWindowsAudioController
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultPlaybackDevice()
+  nameWithType: IWindowsAudioController.GetDefaultPlaybackDevice()
+  fullName: WindowsAudioWrapper.IWindowsAudioController.GetDefaultPlaybackDevice()
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/IWindowsAudioController.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetDefaultPlaybackDevice
+    path: ../WindowsAudioWrapper/IWindowsAudioController.cs
+    startLine: 19
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper
+  syntax:
+    content: AudioEndpointInfo GetDefaultPlaybackDevice()
+    return:
+      type: WindowsAudioWrapper.Models.AudioEndpointInfo
+    content.vb: Function GetDefaultPlaybackDevice() As AudioEndpointInfo
+  overload: WindowsAudioWrapper.IWindowsAudioController.GetDefaultPlaybackDevice*
+- uid: WindowsAudioWrapper.IWindowsAudioController.GetDefaultConsolePlaybackDevice
+  commentId: M:WindowsAudioWrapper.IWindowsAudioController.GetDefaultConsolePlaybackDevice
+  id: GetDefaultConsolePlaybackDevice
+  parent: WindowsAudioWrapper.IWindowsAudioController
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultConsolePlaybackDevice()
+  nameWithType: IWindowsAudioController.GetDefaultConsolePlaybackDevice()
+  fullName: WindowsAudioWrapper.IWindowsAudioController.GetDefaultConsolePlaybackDevice()
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/IWindowsAudioController.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetDefaultConsolePlaybackDevice
+    path: ../WindowsAudioWrapper/IWindowsAudioController.cs
+    startLine: 21
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper
+  syntax:
+    content: AudioEndpointInfo GetDefaultConsolePlaybackDevice()
+    return:
+      type: WindowsAudioWrapper.Models.AudioEndpointInfo
+    content.vb: Function GetDefaultConsolePlaybackDevice() As AudioEndpointInfo
+  overload: WindowsAudioWrapper.IWindowsAudioController.GetDefaultConsolePlaybackDevice*
+- uid: WindowsAudioWrapper.IWindowsAudioController.GetDefaultRecordingDevice
+  commentId: M:WindowsAudioWrapper.IWindowsAudioController.GetDefaultRecordingDevice
+  id: GetDefaultRecordingDevice
+  parent: WindowsAudioWrapper.IWindowsAudioController
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultRecordingDevice()
+  nameWithType: IWindowsAudioController.GetDefaultRecordingDevice()
+  fullName: WindowsAudioWrapper.IWindowsAudioController.GetDefaultRecordingDevice()
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/IWindowsAudioController.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetDefaultRecordingDevice
+    path: ../WindowsAudioWrapper/IWindowsAudioController.cs
+    startLine: 23
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper
+  syntax:
+    content: AudioEndpointInfo GetDefaultRecordingDevice()
+    return:
+      type: WindowsAudioWrapper.Models.AudioEndpointInfo
+    content.vb: Function GetDefaultRecordingDevice() As AudioEndpointInfo
+  overload: WindowsAudioWrapper.IWindowsAudioController.GetDefaultRecordingDevice*
+- uid: WindowsAudioWrapper.IWindowsAudioController.GetDefaultConsoleRecordingDevice
+  commentId: M:WindowsAudioWrapper.IWindowsAudioController.GetDefaultConsoleRecordingDevice
+  id: GetDefaultConsoleRecordingDevice
+  parent: WindowsAudioWrapper.IWindowsAudioController
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultConsoleRecordingDevice()
+  nameWithType: IWindowsAudioController.GetDefaultConsoleRecordingDevice()
+  fullName: WindowsAudioWrapper.IWindowsAudioController.GetDefaultConsoleRecordingDevice()
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/IWindowsAudioController.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetDefaultConsoleRecordingDevice
+    path: ../WindowsAudioWrapper/IWindowsAudioController.cs
+    startLine: 25
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper
+  syntax:
+    content: AudioEndpointInfo GetDefaultConsoleRecordingDevice()
+    return:
+      type: WindowsAudioWrapper.Models.AudioEndpointInfo
+    content.vb: Function GetDefaultConsoleRecordingDevice() As AudioEndpointInfo
+  overload: WindowsAudioWrapper.IWindowsAudioController.GetDefaultConsoleRecordingDevice*
+- uid: WindowsAudioWrapper.IWindowsAudioController.GetDefaultCommunicationsPlaybackDevice
+  commentId: M:WindowsAudioWrapper.IWindowsAudioController.GetDefaultCommunicationsPlaybackDevice
+  id: GetDefaultCommunicationsPlaybackDevice
+  parent: WindowsAudioWrapper.IWindowsAudioController
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultCommunicationsPlaybackDevice()
+  nameWithType: IWindowsAudioController.GetDefaultCommunicationsPlaybackDevice()
+  fullName: WindowsAudioWrapper.IWindowsAudioController.GetDefaultCommunicationsPlaybackDevice()
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/IWindowsAudioController.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetDefaultCommunicationsPlaybackDevice
+    path: ../WindowsAudioWrapper/IWindowsAudioController.cs
+    startLine: 27
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper
+  syntax:
+    content: AudioEndpointInfo GetDefaultCommunicationsPlaybackDevice()
+    return:
+      type: WindowsAudioWrapper.Models.AudioEndpointInfo
+    content.vb: Function GetDefaultCommunicationsPlaybackDevice() As AudioEndpointInfo
+  overload: WindowsAudioWrapper.IWindowsAudioController.GetDefaultCommunicationsPlaybackDevice*
+- uid: WindowsAudioWrapper.IWindowsAudioController.GetDefaultCommunicationsRecordingDevice
+  commentId: M:WindowsAudioWrapper.IWindowsAudioController.GetDefaultCommunicationsRecordingDevice
+  id: GetDefaultCommunicationsRecordingDevice
+  parent: WindowsAudioWrapper.IWindowsAudioController
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultCommunicationsRecordingDevice()
+  nameWithType: IWindowsAudioController.GetDefaultCommunicationsRecordingDevice()
+  fullName: WindowsAudioWrapper.IWindowsAudioController.GetDefaultCommunicationsRecordingDevice()
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/IWindowsAudioController.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetDefaultCommunicationsRecordingDevice
+    path: ../WindowsAudioWrapper/IWindowsAudioController.cs
+    startLine: 29
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper
+  syntax:
+    content: AudioEndpointInfo GetDefaultCommunicationsRecordingDevice()
+    return:
+      type: WindowsAudioWrapper.Models.AudioEndpointInfo
+    content.vb: Function GetDefaultCommunicationsRecordingDevice() As AudioEndpointInfo
+  overload: WindowsAudioWrapper.IWindowsAudioController.GetDefaultCommunicationsRecordingDevice*
+- uid: WindowsAudioWrapper.IWindowsAudioController.GetCurrentProfile
+  commentId: M:WindowsAudioWrapper.IWindowsAudioController.GetCurrentProfile
+  id: GetCurrentProfile
+  parent: WindowsAudioWrapper.IWindowsAudioController
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentProfile()
+  nameWithType: IWindowsAudioController.GetCurrentProfile()
+  fullName: WindowsAudioWrapper.IWindowsAudioController.GetCurrentProfile()
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/IWindowsAudioController.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetCurrentProfile
+    path: ../WindowsAudioWrapper/IWindowsAudioController.cs
+    startLine: 35
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper
+  summary: >-
+    Captures every setting WindowsAudioWrapper can currently read into a normal AudioProfile.
+
+    The returned profile can be saved, edited, or applied later.
+  example: []
+  syntax:
+    content: AudioProfile GetCurrentProfile()
+    return:
+      type: WindowsAudioWrapper.Models.AudioProfile
+    content.vb: Function GetCurrentProfile() As AudioProfile
+  overload: WindowsAudioWrapper.IWindowsAudioController.GetCurrentProfile*
+- uid: WindowsAudioWrapper.IWindowsAudioController.ValidateProfile(WindowsAudioWrapper.Models.AudioProfile)
+  commentId: M:WindowsAudioWrapper.IWindowsAudioController.ValidateProfile(WindowsAudioWrapper.Models.AudioProfile)
+  id: ValidateProfile(WindowsAudioWrapper.Models.AudioProfile)
+  parent: WindowsAudioWrapper.IWindowsAudioController
+  langs:
+  - csharp
+  - vb
+  name: ValidateProfile(AudioProfile)
+  nameWithType: IWindowsAudioController.ValidateProfile(AudioProfile)
+  fullName: WindowsAudioWrapper.IWindowsAudioController.ValidateProfile(WindowsAudioWrapper.Models.AudioProfile)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/IWindowsAudioController.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: ValidateProfile
+    path: ../WindowsAudioWrapper/IWindowsAudioController.cs
+    startLine: 37
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper
+  syntax:
+    content: AudioProfileValidationResult ValidateProfile(AudioProfile profile)
+    parameters:
+    - id: profile
+      type: WindowsAudioWrapper.Models.AudioProfile
+    return:
+      type: WindowsAudioWrapper.Models.AudioProfileValidationResult
+    content.vb: Function ValidateProfile(profile As AudioProfile) As AudioProfileValidationResult
+  overload: WindowsAudioWrapper.IWindowsAudioController.ValidateProfile*
+- uid: WindowsAudioWrapper.IWindowsAudioController.ApplyProfile(WindowsAudioWrapper.Models.AudioProfile)
+  commentId: M:WindowsAudioWrapper.IWindowsAudioController.ApplyProfile(WindowsAudioWrapper.Models.AudioProfile)
+  id: ApplyProfile(WindowsAudioWrapper.Models.AudioProfile)
+  parent: WindowsAudioWrapper.IWindowsAudioController
+  langs:
+  - csharp
+  - vb
+  name: ApplyProfile(AudioProfile)
+  nameWithType: IWindowsAudioController.ApplyProfile(AudioProfile)
+  fullName: WindowsAudioWrapper.IWindowsAudioController.ApplyProfile(WindowsAudioWrapper.Models.AudioProfile)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/IWindowsAudioController.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: ApplyProfile
+    path: ../WindowsAudioWrapper/IWindowsAudioController.cs
+    startLine: 39
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper
+  syntax:
+    content: AudioProfileApplyResult ApplyProfile(AudioProfile profile)
+    parameters:
+    - id: profile
+      type: WindowsAudioWrapper.Models.AudioProfile
+    return:
+      type: WindowsAudioWrapper.Models.AudioProfileApplyResult
+    content.vb: Function ApplyProfile(profile As AudioProfile) As AudioProfileApplyResult
+  overload: WindowsAudioWrapper.IWindowsAudioController.ApplyProfile*
+- uid: WindowsAudioWrapper.IWindowsAudioController.WaitForAudioDeviceToAppear(WindowsAudioWrapper.Models.AudioEndpointReference,System.Int32)
+  commentId: M:WindowsAudioWrapper.IWindowsAudioController.WaitForAudioDeviceToAppear(WindowsAudioWrapper.Models.AudioEndpointReference,System.Int32)
+  id: WaitForAudioDeviceToAppear(WindowsAudioWrapper.Models.AudioEndpointReference,System.Int32)
+  parent: WindowsAudioWrapper.IWindowsAudioController
+  langs:
+  - csharp
+  - vb
+  name: WaitForAudioDeviceToAppear(AudioEndpointReference, int)
+  nameWithType: IWindowsAudioController.WaitForAudioDeviceToAppear(AudioEndpointReference, int)
+  fullName: WindowsAudioWrapper.IWindowsAudioController.WaitForAudioDeviceToAppear(WindowsAudioWrapper.Models.AudioEndpointReference, int)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/IWindowsAudioController.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: WaitForAudioDeviceToAppear
+    path: ../WindowsAudioWrapper/IWindowsAudioController.cs
+    startLine: 48
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper
+  summary: >-
+    Synchronously blocks execution until a matching audio endpoint becomes visible and active to the OS,
+
+    or the specified timeout duration is reached.
+  example: []
+  syntax:
+    content: bool WaitForAudioDeviceToAppear(AudioEndpointReference device, int timeoutMilliseconds)
+    parameters:
+    - id: device
+      type: WindowsAudioWrapper.Models.AudioEndpointReference
+      description: The search criteria target containing target identifiers (DeviceId, ContainerId, etc.).
+    - id: timeoutMilliseconds
+      type: System.Int32
+      description: The maximum block window length in milliseconds.
+    return:
+      type: System.Boolean
+      description: True if the matching hardware device arrives before the timeout expires; otherwise, false.
+    content.vb: Function WaitForAudioDeviceToAppear(device As AudioEndpointReference, timeoutMilliseconds As Integer) As Boolean
+  overload: WindowsAudioWrapper.IWindowsAudioController.WaitForAudioDeviceToAppear*
+  nameWithType.vb: IWindowsAudioController.WaitForAudioDeviceToAppear(AudioEndpointReference, Integer)
+  fullName.vb: WindowsAudioWrapper.IWindowsAudioController.WaitForAudioDeviceToAppear(WindowsAudioWrapper.Models.AudioEndpointReference, Integer)
+  name.vb: WaitForAudioDeviceToAppear(AudioEndpointReference, Integer)
+- uid: WindowsAudioWrapper.IWindowsAudioController.WaitForAudioDeviceToAppearAsync(WindowsAudioWrapper.Models.AudioEndpointReference,System.Int32,System.Threading.CancellationToken)
+  commentId: M:WindowsAudioWrapper.IWindowsAudioController.WaitForAudioDeviceToAppearAsync(WindowsAudioWrapper.Models.AudioEndpointReference,System.Int32,System.Threading.CancellationToken)
+  id: WaitForAudioDeviceToAppearAsync(WindowsAudioWrapper.Models.AudioEndpointReference,System.Int32,System.Threading.CancellationToken)
+  parent: WindowsAudioWrapper.IWindowsAudioController
+  langs:
+  - csharp
+  - vb
+  name: WaitForAudioDeviceToAppearAsync(AudioEndpointReference, int, CancellationToken)
+  nameWithType: IWindowsAudioController.WaitForAudioDeviceToAppearAsync(AudioEndpointReference, int, CancellationToken)
+  fullName: WindowsAudioWrapper.IWindowsAudioController.WaitForAudioDeviceToAppearAsync(WindowsAudioWrapper.Models.AudioEndpointReference, int, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/IWindowsAudioController.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: WaitForAudioDeviceToAppearAsync
+    path: ../WindowsAudioWrapper/IWindowsAudioController.cs
+    startLine: 57
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper
+  summary: Asynchronously monitors system hardware notifications until a matching audio endpoint becomes visible and active.
+  example: []
+  syntax:
+    content: Task<bool> WaitForAudioDeviceToAppearAsync(AudioEndpointReference device, int timeoutMilliseconds, CancellationToken cancellationToken = default)
+    parameters:
+    - id: device
+      type: WindowsAudioWrapper.Models.AudioEndpointReference
+      description: The search criteria target containing target identifiers (DeviceId, ContainerId, etc.).
+    - id: timeoutMilliseconds
+      type: System.Int32
+      description: The maximum wait duration length in milliseconds.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: An optional token to cooperatively cancel the asynchronous monitoring task.
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: A task containing true if the hardware becomes active before the timeout; otherwise, false.
+    content.vb: Function WaitForAudioDeviceToAppearAsync(device As AudioEndpointReference, timeoutMilliseconds As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: WindowsAudioWrapper.IWindowsAudioController.WaitForAudioDeviceToAppearAsync*
+  nameWithType.vb: IWindowsAudioController.WaitForAudioDeviceToAppearAsync(AudioEndpointReference, Integer, CancellationToken)
+  fullName.vb: WindowsAudioWrapper.IWindowsAudioController.WaitForAudioDeviceToAppearAsync(WindowsAudioWrapper.Models.AudioEndpointReference, Integer, System.Threading.CancellationToken)
+  name.vb: WaitForAudioDeviceToAppearAsync(AudioEndpointReference, Integer, CancellationToken)
+- uid: WindowsAudioWrapper.IWindowsAudioController.RegisterTargetDevice(WindowsAudioWrapper.Models.AudioEndpointReference)
+  commentId: M:WindowsAudioWrapper.IWindowsAudioController.RegisterTargetDevice(WindowsAudioWrapper.Models.AudioEndpointReference)
+  id: RegisterTargetDevice(WindowsAudioWrapper.Models.AudioEndpointReference)
+  parent: WindowsAudioWrapper.IWindowsAudioController
+  langs:
+  - csharp
+  - vb
+  name: RegisterTargetDevice(AudioEndpointReference)
+  nameWithType: IWindowsAudioController.RegisterTargetDevice(AudioEndpointReference)
+  fullName: WindowsAudioWrapper.IWindowsAudioController.RegisterTargetDevice(WindowsAudioWrapper.Models.AudioEndpointReference)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/IWindowsAudioController.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: RegisterTargetDevice
+    path: ../WindowsAudioWrapper/IWindowsAudioController.cs
+    startLine: 64
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper
+  summary: >-
+    Registers a targeted device reference to explicitly monitor for custom connection arrivals.
+
+    When matched, the <xref href="WindowsAudioWrapper.IWindowsAudioController.AudioDeviceConnected" data-throw-if-not-resolved="false"></xref> event fires.
+  example: []
+  syntax:
+    content: void RegisterTargetDevice(AudioEndpointReference device)
+    parameters:
+    - id: device
+      type: WindowsAudioWrapper.Models.AudioEndpointReference
+      description: The reference criteria mapping the target hardware to track.
+    content.vb: Sub RegisterTargetDevice(device As AudioEndpointReference)
+  overload: WindowsAudioWrapper.IWindowsAudioController.RegisterTargetDevice*
+- uid: WindowsAudioWrapper.IWindowsAudioController.UnregisterTargetDevice(WindowsAudioWrapper.Models.AudioEndpointReference)
+  commentId: M:WindowsAudioWrapper.IWindowsAudioController.UnregisterTargetDevice(WindowsAudioWrapper.Models.AudioEndpointReference)
+  id: UnregisterTargetDevice(WindowsAudioWrapper.Models.AudioEndpointReference)
+  parent: WindowsAudioWrapper.IWindowsAudioController
+  langs:
+  - csharp
+  - vb
+  name: UnregisterTargetDevice(AudioEndpointReference)
+  nameWithType: IWindowsAudioController.UnregisterTargetDevice(AudioEndpointReference)
+  fullName: WindowsAudioWrapper.IWindowsAudioController.UnregisterTargetDevice(WindowsAudioWrapper.Models.AudioEndpointReference)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/IWindowsAudioController.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: UnregisterTargetDevice
+    path: ../WindowsAudioWrapper/IWindowsAudioController.cs
+    startLine: 70
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper
+  summary: Unregisters a previously tracked device reference from arrival notification callback monitoring.
+  example: []
+  syntax:
+    content: void UnregisterTargetDevice(AudioEndpointReference device)
+    parameters:
+    - id: device
+      type: WindowsAudioWrapper.Models.AudioEndpointReference
+      description: The reference criteria mapping the target hardware to remove.
+    content.vb: Sub UnregisterTargetDevice(device As AudioEndpointReference)
+  overload: WindowsAudioWrapper.IWindowsAudioController.UnregisterTargetDevice*
+- uid: WindowsAudioWrapper.IWindowsAudioController.AudioDeviceConnected
+  commentId: E:WindowsAudioWrapper.IWindowsAudioController.AudioDeviceConnected
+  id: AudioDeviceConnected
+  parent: WindowsAudioWrapper.IWindowsAudioController
+  langs:
+  - csharp
+  - vb
+  name: AudioDeviceConnected
+  nameWithType: IWindowsAudioController.AudioDeviceConnected
+  fullName: WindowsAudioWrapper.IWindowsAudioController.AudioDeviceConnected
+  type: Event
+  source:
+    remote:
+      path: WindowsAudioWrapper/IWindowsAudioController.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: AudioDeviceConnected
+    path: ../WindowsAudioWrapper/IWindowsAudioController.cs
+    startLine: 75
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper
+  summary: Fires when a specifically registered or targeted audio device connects and becomes active.
+  example: []
+  syntax:
+    content: event EventHandler<AudioDeviceEventArgs>? AudioDeviceConnected
+    return:
+      type: System.EventHandler{WindowsAudioWrapper.Models.AudioDeviceEventArgs}
+    content.vb: Event AudioDeviceConnected As EventHandler(Of AudioDeviceEventArgs)
+- uid: WindowsAudioWrapper.IWindowsAudioController.AnyAudioDeviceConnected
+  commentId: E:WindowsAudioWrapper.IWindowsAudioController.AnyAudioDeviceConnected
+  id: AnyAudioDeviceConnected
+  parent: WindowsAudioWrapper.IWindowsAudioController
+  langs:
+  - csharp
+  - vb
+  name: AnyAudioDeviceConnected
+  nameWithType: IWindowsAudioController.AnyAudioDeviceConnected
+  fullName: WindowsAudioWrapper.IWindowsAudioController.AnyAudioDeviceConnected
+  type: Event
+  source:
+    remote:
+      path: WindowsAudioWrapper/IWindowsAudioController.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: AnyAudioDeviceConnected
+    path: ../WindowsAudioWrapper/IWindowsAudioController.cs
+    startLine: 80
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper
+  summary: Fires globally whenever any audio endpoint is plugged in, discovered, or becomes active in the system configuration.
+  example: []
+  syntax:
+    content: event EventHandler<AudioDeviceEventArgs>? AnyAudioDeviceConnected
+    return:
+      type: System.EventHandler{WindowsAudioWrapper.Models.AudioDeviceEventArgs}
+    content.vb: Event AnyAudioDeviceConnected As EventHandler(Of AudioDeviceEventArgs)
+references:
+- uid: WindowsAudioWrapper
+  commentId: N:WindowsAudioWrapper
+  href: WindowsAudioWrapper.html
+  name: WindowsAudioWrapper
+  nameWithType: WindowsAudioWrapper
+  fullName: WindowsAudioWrapper
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WindowsAudioWrapper.IWindowsAudioController.GetPlaybackDevices*
+  commentId: Overload:WindowsAudioWrapper.IWindowsAudioController.GetPlaybackDevices
+  href: WindowsAudioWrapper.IWindowsAudioController.html#WindowsAudioWrapper_IWindowsAudioController_GetPlaybackDevices_WindowsAudioWrapper_Models_AudioDeviceState_
+  name: GetPlaybackDevices
+  nameWithType: IWindowsAudioController.GetPlaybackDevices
+  fullName: WindowsAudioWrapper.IWindowsAudioController.GetPlaybackDevices
+- uid: WindowsAudioWrapper.Models.AudioDeviceState
+  commentId: T:WindowsAudioWrapper.Models.AudioDeviceState
+  parent: WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.Models.AudioDeviceState.html
+  name: AudioDeviceState
+  nameWithType: AudioDeviceState
+  fullName: WindowsAudioWrapper.Models.AudioDeviceState
+- uid: System.Collections.Generic.IReadOnlyList{WindowsAudioWrapper.Models.AudioEndpointInfo}
+  commentId: T:System.Collections.Generic.IReadOnlyList{WindowsAudioWrapper.Models.AudioEndpointInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<AudioEndpointInfo>
+  nameWithType: IReadOnlyList<AudioEndpointInfo>
+  fullName: System.Collections.Generic.IReadOnlyList<WindowsAudioWrapper.Models.AudioEndpointInfo>
+  nameWithType.vb: IReadOnlyList(Of AudioEndpointInfo)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of WindowsAudioWrapper.Models.AudioEndpointInfo)
+  name.vb: IReadOnlyList(Of AudioEndpointInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - uid: WindowsAudioWrapper.Models.AudioEndpointInfo
+    name: AudioEndpointInfo
+    href: WindowsAudioWrapper.Models.AudioEndpointInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WindowsAudioWrapper.Models.AudioEndpointInfo
+    name: AudioEndpointInfo
+    href: WindowsAudioWrapper.Models.AudioEndpointInfo.html
+  - name: )
+- uid: WindowsAudioWrapper.Models
+  commentId: N:WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.html
+  name: WindowsAudioWrapper.Models
+  nameWithType: WindowsAudioWrapper.Models
+  fullName: WindowsAudioWrapper.Models
+  spec.csharp:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Models
+    name: Models
+    href: WindowsAudioWrapper.Models.html
+  spec.vb:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Models
+    name: Models
+    href: WindowsAudioWrapper.Models.html
+- uid: System.Collections.Generic.IReadOnlyList`1
+  commentId: T:System.Collections.Generic.IReadOnlyList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<T>
+  nameWithType: IReadOnlyList<T>
+  fullName: System.Collections.Generic.IReadOnlyList<T>
+  nameWithType.vb: IReadOnlyList(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of T)
+  name.vb: IReadOnlyList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: WindowsAudioWrapper.IWindowsAudioController.GetRecordingDevices*
+  commentId: Overload:WindowsAudioWrapper.IWindowsAudioController.GetRecordingDevices
+  href: WindowsAudioWrapper.IWindowsAudioController.html#WindowsAudioWrapper_IWindowsAudioController_GetRecordingDevices_WindowsAudioWrapper_Models_AudioDeviceState_
+  name: GetRecordingDevices
+  nameWithType: IWindowsAudioController.GetRecordingDevices
+  fullName: WindowsAudioWrapper.IWindowsAudioController.GetRecordingDevices
+- uid: WindowsAudioWrapper.IWindowsAudioController.GetDefaultPlaybackDevice*
+  commentId: Overload:WindowsAudioWrapper.IWindowsAudioController.GetDefaultPlaybackDevice
+  href: WindowsAudioWrapper.IWindowsAudioController.html#WindowsAudioWrapper_IWindowsAudioController_GetDefaultPlaybackDevice
+  name: GetDefaultPlaybackDevice
+  nameWithType: IWindowsAudioController.GetDefaultPlaybackDevice
+  fullName: WindowsAudioWrapper.IWindowsAudioController.GetDefaultPlaybackDevice
+- uid: WindowsAudioWrapper.Models.AudioEndpointInfo
+  commentId: T:WindowsAudioWrapper.Models.AudioEndpointInfo
+  parent: WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.Models.AudioEndpointInfo.html
+  name: AudioEndpointInfo
+  nameWithType: AudioEndpointInfo
+  fullName: WindowsAudioWrapper.Models.AudioEndpointInfo
+- uid: WindowsAudioWrapper.IWindowsAudioController.GetDefaultConsolePlaybackDevice*
+  commentId: Overload:WindowsAudioWrapper.IWindowsAudioController.GetDefaultConsolePlaybackDevice
+  href: WindowsAudioWrapper.IWindowsAudioController.html#WindowsAudioWrapper_IWindowsAudioController_GetDefaultConsolePlaybackDevice
+  name: GetDefaultConsolePlaybackDevice
+  nameWithType: IWindowsAudioController.GetDefaultConsolePlaybackDevice
+  fullName: WindowsAudioWrapper.IWindowsAudioController.GetDefaultConsolePlaybackDevice
+- uid: WindowsAudioWrapper.IWindowsAudioController.GetDefaultRecordingDevice*
+  commentId: Overload:WindowsAudioWrapper.IWindowsAudioController.GetDefaultRecordingDevice
+  href: WindowsAudioWrapper.IWindowsAudioController.html#WindowsAudioWrapper_IWindowsAudioController_GetDefaultRecordingDevice
+  name: GetDefaultRecordingDevice
+  nameWithType: IWindowsAudioController.GetDefaultRecordingDevice
+  fullName: WindowsAudioWrapper.IWindowsAudioController.GetDefaultRecordingDevice
+- uid: WindowsAudioWrapper.IWindowsAudioController.GetDefaultConsoleRecordingDevice*
+  commentId: Overload:WindowsAudioWrapper.IWindowsAudioController.GetDefaultConsoleRecordingDevice
+  href: WindowsAudioWrapper.IWindowsAudioController.html#WindowsAudioWrapper_IWindowsAudioController_GetDefaultConsoleRecordingDevice
+  name: GetDefaultConsoleRecordingDevice
+  nameWithType: IWindowsAudioController.GetDefaultConsoleRecordingDevice
+  fullName: WindowsAudioWrapper.IWindowsAudioController.GetDefaultConsoleRecordingDevice
+- uid: WindowsAudioWrapper.IWindowsAudioController.GetDefaultCommunicationsPlaybackDevice*
+  commentId: Overload:WindowsAudioWrapper.IWindowsAudioController.GetDefaultCommunicationsPlaybackDevice
+  href: WindowsAudioWrapper.IWindowsAudioController.html#WindowsAudioWrapper_IWindowsAudioController_GetDefaultCommunicationsPlaybackDevice
+  name: GetDefaultCommunicationsPlaybackDevice
+  nameWithType: IWindowsAudioController.GetDefaultCommunicationsPlaybackDevice
+  fullName: WindowsAudioWrapper.IWindowsAudioController.GetDefaultCommunicationsPlaybackDevice
+- uid: WindowsAudioWrapper.IWindowsAudioController.GetDefaultCommunicationsRecordingDevice*
+  commentId: Overload:WindowsAudioWrapper.IWindowsAudioController.GetDefaultCommunicationsRecordingDevice
+  href: WindowsAudioWrapper.IWindowsAudioController.html#WindowsAudioWrapper_IWindowsAudioController_GetDefaultCommunicationsRecordingDevice
+  name: GetDefaultCommunicationsRecordingDevice
+  nameWithType: IWindowsAudioController.GetDefaultCommunicationsRecordingDevice
+  fullName: WindowsAudioWrapper.IWindowsAudioController.GetDefaultCommunicationsRecordingDevice
+- uid: WindowsAudioWrapper.IWindowsAudioController.GetCurrentProfile*
+  commentId: Overload:WindowsAudioWrapper.IWindowsAudioController.GetCurrentProfile
+  href: WindowsAudioWrapper.IWindowsAudioController.html#WindowsAudioWrapper_IWindowsAudioController_GetCurrentProfile
+  name: GetCurrentProfile
+  nameWithType: IWindowsAudioController.GetCurrentProfile
+  fullName: WindowsAudioWrapper.IWindowsAudioController.GetCurrentProfile
+- uid: WindowsAudioWrapper.Models.AudioProfile
+  commentId: T:WindowsAudioWrapper.Models.AudioProfile
+  parent: WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.Models.AudioProfile.html
+  name: AudioProfile
+  nameWithType: AudioProfile
+  fullName: WindowsAudioWrapper.Models.AudioProfile
+- uid: WindowsAudioWrapper.IWindowsAudioController.ValidateProfile*
+  commentId: Overload:WindowsAudioWrapper.IWindowsAudioController.ValidateProfile
+  href: WindowsAudioWrapper.IWindowsAudioController.html#WindowsAudioWrapper_IWindowsAudioController_ValidateProfile_WindowsAudioWrapper_Models_AudioProfile_
+  name: ValidateProfile
+  nameWithType: IWindowsAudioController.ValidateProfile
+  fullName: WindowsAudioWrapper.IWindowsAudioController.ValidateProfile
+- uid: WindowsAudioWrapper.Models.AudioProfileValidationResult
+  commentId: T:WindowsAudioWrapper.Models.AudioProfileValidationResult
+  parent: WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.Models.AudioProfileValidationResult.html
+  name: AudioProfileValidationResult
+  nameWithType: AudioProfileValidationResult
+  fullName: WindowsAudioWrapper.Models.AudioProfileValidationResult
+- uid: WindowsAudioWrapper.IWindowsAudioController.ApplyProfile*
+  commentId: Overload:WindowsAudioWrapper.IWindowsAudioController.ApplyProfile
+  href: WindowsAudioWrapper.IWindowsAudioController.html#WindowsAudioWrapper_IWindowsAudioController_ApplyProfile_WindowsAudioWrapper_Models_AudioProfile_
+  name: ApplyProfile
+  nameWithType: IWindowsAudioController.ApplyProfile
+  fullName: WindowsAudioWrapper.IWindowsAudioController.ApplyProfile
+- uid: WindowsAudioWrapper.Models.AudioProfileApplyResult
+  commentId: T:WindowsAudioWrapper.Models.AudioProfileApplyResult
+  parent: WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.Models.AudioProfileApplyResult.html
+  name: AudioProfileApplyResult
+  nameWithType: AudioProfileApplyResult
+  fullName: WindowsAudioWrapper.Models.AudioProfileApplyResult
+- uid: WindowsAudioWrapper.IWindowsAudioController.WaitForAudioDeviceToAppear*
+  commentId: Overload:WindowsAudioWrapper.IWindowsAudioController.WaitForAudioDeviceToAppear
+  href: WindowsAudioWrapper.IWindowsAudioController.html#WindowsAudioWrapper_IWindowsAudioController_WaitForAudioDeviceToAppear_WindowsAudioWrapper_Models_AudioEndpointReference_System_Int32_
+  name: WaitForAudioDeviceToAppear
+  nameWithType: IWindowsAudioController.WaitForAudioDeviceToAppear
+  fullName: WindowsAudioWrapper.IWindowsAudioController.WaitForAudioDeviceToAppear
+- uid: WindowsAudioWrapper.Models.AudioEndpointReference
+  commentId: T:WindowsAudioWrapper.Models.AudioEndpointReference
+  parent: WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.Models.AudioEndpointReference.html
+  name: AudioEndpointReference
+  nameWithType: AudioEndpointReference
+  fullName: WindowsAudioWrapper.Models.AudioEndpointReference
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: WindowsAudioWrapper.IWindowsAudioController.WaitForAudioDeviceToAppearAsync*
+  commentId: Overload:WindowsAudioWrapper.IWindowsAudioController.WaitForAudioDeviceToAppearAsync
+  href: WindowsAudioWrapper.IWindowsAudioController.html#WindowsAudioWrapper_IWindowsAudioController_WaitForAudioDeviceToAppearAsync_WindowsAudioWrapper_Models_AudioEndpointReference_System_Int32_System_Threading_CancellationToken_
+  name: WaitForAudioDeviceToAppearAsync
+  nameWithType: IWindowsAudioController.WaitForAudioDeviceToAppearAsync
+  fullName: WindowsAudioWrapper.IWindowsAudioController.WaitForAudioDeviceToAppearAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: WindowsAudioWrapper.IWindowsAudioController.AudioDeviceConnected
+  commentId: E:WindowsAudioWrapper.IWindowsAudioController.AudioDeviceConnected
+  parent: WindowsAudioWrapper.IWindowsAudioController
+  href: WindowsAudioWrapper.IWindowsAudioController.html#WindowsAudioWrapper_IWindowsAudioController_AudioDeviceConnected
+  name: AudioDeviceConnected
+  nameWithType: IWindowsAudioController.AudioDeviceConnected
+  fullName: WindowsAudioWrapper.IWindowsAudioController.AudioDeviceConnected
+- uid: WindowsAudioWrapper.IWindowsAudioController.RegisterTargetDevice*
+  commentId: Overload:WindowsAudioWrapper.IWindowsAudioController.RegisterTargetDevice
+  href: WindowsAudioWrapper.IWindowsAudioController.html#WindowsAudioWrapper_IWindowsAudioController_RegisterTargetDevice_WindowsAudioWrapper_Models_AudioEndpointReference_
+  name: RegisterTargetDevice
+  nameWithType: IWindowsAudioController.RegisterTargetDevice
+  fullName: WindowsAudioWrapper.IWindowsAudioController.RegisterTargetDevice
+- uid: WindowsAudioWrapper.IWindowsAudioController
+  commentId: T:WindowsAudioWrapper.IWindowsAudioController
+  parent: WindowsAudioWrapper
+  href: WindowsAudioWrapper.IWindowsAudioController.html
+  name: IWindowsAudioController
+  nameWithType: IWindowsAudioController
+  fullName: WindowsAudioWrapper.IWindowsAudioController
+- uid: WindowsAudioWrapper.IWindowsAudioController.UnregisterTargetDevice*
+  commentId: Overload:WindowsAudioWrapper.IWindowsAudioController.UnregisterTargetDevice
+  href: WindowsAudioWrapper.IWindowsAudioController.html#WindowsAudioWrapper_IWindowsAudioController_UnregisterTargetDevice_WindowsAudioWrapper_Models_AudioEndpointReference_
+  name: UnregisterTargetDevice
+  nameWithType: IWindowsAudioController.UnregisterTargetDevice
+  fullName: WindowsAudioWrapper.IWindowsAudioController.UnregisterTargetDevice
+- uid: System.EventHandler{WindowsAudioWrapper.Models.AudioDeviceEventArgs}
+  commentId: T:System.EventHandler{WindowsAudioWrapper.Models.AudioDeviceEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<AudioDeviceEventArgs>
+  nameWithType: EventHandler<AudioDeviceEventArgs>
+  fullName: System.EventHandler<WindowsAudioWrapper.Models.AudioDeviceEventArgs>
+  nameWithType.vb: EventHandler(Of AudioDeviceEventArgs)
+  fullName.vb: System.EventHandler(Of WindowsAudioWrapper.Models.AudioDeviceEventArgs)
+  name.vb: EventHandler(Of AudioDeviceEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - uid: WindowsAudioWrapper.Models.AudioDeviceEventArgs
+    name: AudioDeviceEventArgs
+    href: WindowsAudioWrapper.Models.AudioDeviceEventArgs.html
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: WindowsAudioWrapper.Models.AudioDeviceEventArgs
+    name: AudioDeviceEventArgs
+    href: WindowsAudioWrapper.Models.AudioDeviceEventArgs.html
+  - name: )
+- uid: System.EventHandler`1
+  commentId: T:System.EventHandler`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<TEventArgs>
+  nameWithType: EventHandler<TEventArgs>
+  fullName: System.EventHandler<TEventArgs>
+  nameWithType.vb: EventHandler(Of TEventArgs)
+  fullName.vb: System.EventHandler(Of TEventArgs)
+  name.vb: EventHandler(Of TEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - name: TEventArgs
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEventArgs
+  - name: )

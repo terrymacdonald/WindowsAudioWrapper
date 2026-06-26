@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: WindowsAudioWrapper.Models.AudioValidationSeverity
+  commentId: T:WindowsAudioWrapper.Models.AudioValidationSeverity
+  id: AudioValidationSeverity
+  parent: WindowsAudioWrapper.Models
+  children:
+  - WindowsAudioWrapper.Models.AudioValidationSeverity.Error
+  - WindowsAudioWrapper.Models.AudioValidationSeverity.Valid
+  - WindowsAudioWrapper.Models.AudioValidationSeverity.Warning
+  langs:
+  - csharp
+  - vb
+  name: AudioValidationSeverity
+  nameWithType: AudioValidationSeverity
+  fullName: WindowsAudioWrapper.Models.AudioValidationSeverity
+  type: Enum
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEnums.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: AudioValidationSeverity
+    path: ../WindowsAudioWrapper/Models/AudioEnums.cs
+    startLine: 40
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: public enum AudioValidationSeverity
+    content.vb: Public Enum AudioValidationSeverity
+- uid: WindowsAudioWrapper.Models.AudioValidationSeverity.Valid
+  commentId: F:WindowsAudioWrapper.Models.AudioValidationSeverity.Valid
+  id: Valid
+  parent: WindowsAudioWrapper.Models.AudioValidationSeverity
+  langs:
+  - csharp
+  - vb
+  name: Valid
+  nameWithType: AudioValidationSeverity.Valid
+  fullName: WindowsAudioWrapper.Models.AudioValidationSeverity.Valid
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEnums.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: Valid
+    path: ../WindowsAudioWrapper/Models/AudioEnums.cs
+    startLine: 42
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: Valid = 0
+    return:
+      type: WindowsAudioWrapper.Models.AudioValidationSeverity
+- uid: WindowsAudioWrapper.Models.AudioValidationSeverity.Warning
+  commentId: F:WindowsAudioWrapper.Models.AudioValidationSeverity.Warning
+  id: Warning
+  parent: WindowsAudioWrapper.Models.AudioValidationSeverity
+  langs:
+  - csharp
+  - vb
+  name: Warning
+  nameWithType: AudioValidationSeverity.Warning
+  fullName: WindowsAudioWrapper.Models.AudioValidationSeverity.Warning
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEnums.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: Warning
+    path: ../WindowsAudioWrapper/Models/AudioEnums.cs
+    startLine: 43
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: Warning = 1
+    return:
+      type: WindowsAudioWrapper.Models.AudioValidationSeverity
+- uid: WindowsAudioWrapper.Models.AudioValidationSeverity.Error
+  commentId: F:WindowsAudioWrapper.Models.AudioValidationSeverity.Error
+  id: Error
+  parent: WindowsAudioWrapper.Models.AudioValidationSeverity
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: AudioValidationSeverity.Error
+  fullName: WindowsAudioWrapper.Models.AudioValidationSeverity.Error
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEnums.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: Error
+    path: ../WindowsAudioWrapper/Models/AudioEnums.cs
+    startLine: 44
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: Error = 2
+    return:
+      type: WindowsAudioWrapper.Models.AudioValidationSeverity
+references:
+- uid: WindowsAudioWrapper.Models
+  commentId: N:WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.html
+  name: WindowsAudioWrapper.Models
+  nameWithType: WindowsAudioWrapper.Models
+  fullName: WindowsAudioWrapper.Models
+  spec.csharp:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Models
+    name: Models
+    href: WindowsAudioWrapper.Models.html
+  spec.vb:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Models
+    name: Models
+    href: WindowsAudioWrapper.Models.html
+- uid: WindowsAudioWrapper.Models.AudioValidationSeverity
+  commentId: T:WindowsAudioWrapper.Models.AudioValidationSeverity
+  parent: WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.Models.AudioValidationSeverity.html
+  name: AudioValidationSeverity
+  nameWithType: AudioValidationSeverity
+  fullName: WindowsAudioWrapper.Models.AudioValidationSeverity

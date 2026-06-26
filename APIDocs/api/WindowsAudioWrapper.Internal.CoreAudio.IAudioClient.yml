@@ -1,0 +1,642 @@
+### YamlMime:ManagedReference
+items:
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient
+  id: IAudioClient
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  children:
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetBufferSize(System.UInt32@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetCurrentPadding(System.UInt32@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetDevicePeriod(System.Int64@,System.Int64@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetMixFormat(System.IntPtr@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetService(System.Guid@,System.Object@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetStreamLatency(System.Int64@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Initialize(System.Int32,System.UInt32,System.Int64,System.Int64,System.IntPtr,System.Guid@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.IsFormatSupported(System.Int32,System.IntPtr,System.IntPtr@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Reset
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.SetEventHandle(System.IntPtr)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Start
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Stop
+  langs:
+  - csharp
+  - vb
+  name: IAudioClient
+  nameWithType: IAudioClient
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient
+  type: Interface
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IAudioClient
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 345
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: >-
+      [Guid("1CB9AD4C-DBFA-4c32-B178-C2F568A703B2")]
+
+      [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+
+      public interface IAudioClient
+    content.vb: >-
+      <Guid("1CB9AD4C-DBFA-4c32-B178-C2F568A703B2")>
+
+      <InterfaceType(ComInterfaceType.InterfaceIsIUnknown)>
+
+      Public Interface IAudioClient
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 1CB9AD4C-DBFA-4c32-B178-C2F568A703B2
+  - type: System.Runtime.InteropServices.InterfaceTypeAttribute
+    ctor: System.Runtime.InteropServices.InterfaceTypeAttribute.#ctor(System.Runtime.InteropServices.ComInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ComInterfaceType
+      value: 1
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Initialize(System.Int32,System.UInt32,System.Int64,System.Int64,System.IntPtr,System.Guid@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Initialize(System.Int32,System.UInt32,System.Int64,System.Int64,System.IntPtr,System.Guid@)
+  id: Initialize(System.Int32,System.UInt32,System.Int64,System.Int64,System.IntPtr,System.Guid@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient
+  langs:
+  - csharp
+  - vb
+  name: Initialize(int, uint, long, long, nint, in Guid)
+  nameWithType: IAudioClient.Initialize(int, uint, long, long, nint, in Guid)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Initialize(int, uint, long, long, nint, in System.Guid)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: Initialize
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 350
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int Initialize(int shareMode, uint streamFlags, long hnsBufferDuration, long hnsPeriodicity, nint pFormat, in Guid audioSessionGuid)
+    parameters:
+    - id: shareMode
+      type: System.Int32
+    - id: streamFlags
+      type: System.UInt32
+    - id: hnsBufferDuration
+      type: System.Int64
+    - id: hnsPeriodicity
+      type: System.Int64
+    - id: pFormat
+      type: System.IntPtr
+    - id: audioSessionGuid
+      type: System.Guid
+    return:
+      type: System.Int32
+    content.vb: Function Initialize(shareMode As Integer, streamFlags As UInteger, hnsBufferDuration As Long, hnsPeriodicity As Long, pFormat As IntPtr, audioSessionGuid As Guid) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Initialize*
+  nameWithType.vb: IAudioClient.Initialize(Integer, UInteger, Long, Long, IntPtr, Guid)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Initialize(Integer, UInteger, Long, Long, System.IntPtr, System.Guid)
+  name.vb: Initialize(Integer, UInteger, Long, Long, IntPtr, Guid)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetBufferSize(System.UInt32@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetBufferSize(System.UInt32@)
+  id: GetBufferSize(System.UInt32@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient
+  langs:
+  - csharp
+  - vb
+  name: GetBufferSize(out uint)
+  nameWithType: IAudioClient.GetBufferSize(out uint)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetBufferSize(out uint)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetBufferSize
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 353
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int GetBufferSize(out uint pNumBufferFrames)
+    parameters:
+    - id: pNumBufferFrames
+      type: System.UInt32
+    return:
+      type: System.Int32
+    content.vb: Function GetBufferSize(pNumBufferFrames As UInteger) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetBufferSize*
+  nameWithType.vb: IAudioClient.GetBufferSize(UInteger)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetBufferSize(UInteger)
+  name.vb: GetBufferSize(UInteger)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetStreamLatency(System.Int64@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetStreamLatency(System.Int64@)
+  id: GetStreamLatency(System.Int64@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient
+  langs:
+  - csharp
+  - vb
+  name: GetStreamLatency(out long)
+  nameWithType: IAudioClient.GetStreamLatency(out long)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetStreamLatency(out long)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetStreamLatency
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 356
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int GetStreamLatency(out long phnsLatency)
+    parameters:
+    - id: phnsLatency
+      type: System.Int64
+    return:
+      type: System.Int32
+    content.vb: Function GetStreamLatency(phnsLatency As Long) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetStreamLatency*
+  nameWithType.vb: IAudioClient.GetStreamLatency(Long)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetStreamLatency(Long)
+  name.vb: GetStreamLatency(Long)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetCurrentPadding(System.UInt32@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetCurrentPadding(System.UInt32@)
+  id: GetCurrentPadding(System.UInt32@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentPadding(out uint)
+  nameWithType: IAudioClient.GetCurrentPadding(out uint)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetCurrentPadding(out uint)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetCurrentPadding
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 359
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int GetCurrentPadding(out uint pNumPaddingFrames)
+    parameters:
+    - id: pNumPaddingFrames
+      type: System.UInt32
+    return:
+      type: System.Int32
+    content.vb: Function GetCurrentPadding(pNumPaddingFrames As UInteger) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetCurrentPadding*
+  nameWithType.vb: IAudioClient.GetCurrentPadding(UInteger)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetCurrentPadding(UInteger)
+  name.vb: GetCurrentPadding(UInteger)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.IsFormatSupported(System.Int32,System.IntPtr,System.IntPtr@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.IsFormatSupported(System.Int32,System.IntPtr,System.IntPtr@)
+  id: IsFormatSupported(System.Int32,System.IntPtr,System.IntPtr@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient
+  langs:
+  - csharp
+  - vb
+  name: IsFormatSupported(int, nint, out nint)
+  nameWithType: IAudioClient.IsFormatSupported(int, nint, out nint)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.IsFormatSupported(int, nint, out nint)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IsFormatSupported
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 362
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int IsFormatSupported(int shareMode, nint pFormat, out nint ppClosestMatch)
+    parameters:
+    - id: shareMode
+      type: System.Int32
+    - id: pFormat
+      type: System.IntPtr
+    - id: ppClosestMatch
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Function IsFormatSupported(shareMode As Integer, pFormat As IntPtr, ppClosestMatch As IntPtr) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.IsFormatSupported*
+  nameWithType.vb: IAudioClient.IsFormatSupported(Integer, IntPtr, IntPtr)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.IsFormatSupported(Integer, System.IntPtr, System.IntPtr)
+  name.vb: IsFormatSupported(Integer, IntPtr, IntPtr)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetMixFormat(System.IntPtr@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetMixFormat(System.IntPtr@)
+  id: GetMixFormat(System.IntPtr@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient
+  langs:
+  - csharp
+  - vb
+  name: GetMixFormat(out nint)
+  nameWithType: IAudioClient.GetMixFormat(out nint)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetMixFormat(out nint)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetMixFormat
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 365
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int GetMixFormat(out nint ppDeviceFormat)
+    parameters:
+    - id: ppDeviceFormat
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Function GetMixFormat(ppDeviceFormat As IntPtr) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetMixFormat*
+  nameWithType.vb: IAudioClient.GetMixFormat(IntPtr)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetMixFormat(System.IntPtr)
+  name.vb: GetMixFormat(IntPtr)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetDevicePeriod(System.Int64@,System.Int64@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetDevicePeriod(System.Int64@,System.Int64@)
+  id: GetDevicePeriod(System.Int64@,System.Int64@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient
+  langs:
+  - csharp
+  - vb
+  name: GetDevicePeriod(out long, out long)
+  nameWithType: IAudioClient.GetDevicePeriod(out long, out long)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetDevicePeriod(out long, out long)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetDevicePeriod
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 368
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int GetDevicePeriod(out long phnsDefaultDevicePeriod, out long phnsMinimumDevicePeriod)
+    parameters:
+    - id: phnsDefaultDevicePeriod
+      type: System.Int64
+    - id: phnsMinimumDevicePeriod
+      type: System.Int64
+    return:
+      type: System.Int32
+    content.vb: Function GetDevicePeriod(phnsDefaultDevicePeriod As Long, phnsMinimumDevicePeriod As Long) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetDevicePeriod*
+  nameWithType.vb: IAudioClient.GetDevicePeriod(Long, Long)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetDevicePeriod(Long, Long)
+  name.vb: GetDevicePeriod(Long, Long)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Start
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Start
+  id: Start
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: IAudioClient.Start()
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Start()
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: Start
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 371
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int Start()
+    return:
+      type: System.Int32
+    content.vb: Function Start() As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Start*
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Stop
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Stop
+  id: Stop
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: IAudioClient.Stop()
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Stop()
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: Stop
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 374
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int Stop()
+    return:
+      type: System.Int32
+    content.vb: Function [Stop]() As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Stop*
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Reset
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Reset
+  id: Reset
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: IAudioClient.Reset()
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Reset()
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: Reset
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 377
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int Reset()
+    return:
+      type: System.Int32
+    content.vb: Function Reset() As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Reset*
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.SetEventHandle(System.IntPtr)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.SetEventHandle(System.IntPtr)
+  id: SetEventHandle(System.IntPtr)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient
+  langs:
+  - csharp
+  - vb
+  name: SetEventHandle(nint)
+  nameWithType: IAudioClient.SetEventHandle(nint)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.SetEventHandle(nint)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: SetEventHandle
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 380
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int SetEventHandle(nint eventHandle)
+    parameters:
+    - id: eventHandle
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Function SetEventHandle(eventHandle As IntPtr) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.SetEventHandle*
+  nameWithType.vb: IAudioClient.SetEventHandle(IntPtr)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.SetEventHandle(System.IntPtr)
+  name.vb: SetEventHandle(IntPtr)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetService(System.Guid@,System.Object@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetService(System.Guid@,System.Object@)
+  id: GetService(System.Guid@,System.Object@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient
+  langs:
+  - csharp
+  - vb
+  name: GetService(in Guid, out object)
+  nameWithType: IAudioClient.GetService(in Guid, out object)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetService(in System.Guid, out object)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetService
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 383
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int GetService(in Guid riid, out object ppv)
+    parameters:
+    - id: riid
+      type: System.Guid
+    - id: ppv
+      type: System.Object
+    return:
+      type: System.Int32
+    content.vb: Function GetService(riid As Guid, ppv As Object) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetService*
+  nameWithType.vb: IAudioClient.GetService(Guid, Object)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetService(System.Guid, Object)
+  name.vb: GetService(Guid, Object)
+references:
+- uid: WindowsAudioWrapper.Internal.CoreAudio
+  commentId: N:WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.html
+  name: WindowsAudioWrapper.Internal.CoreAudio
+  nameWithType: WindowsAudioWrapper.Internal.CoreAudio
+  fullName: WindowsAudioWrapper.Internal.CoreAudio
+  spec.csharp:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal
+    name: Internal
+    href: WindowsAudioWrapper.Internal.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal.CoreAudio
+    name: CoreAudio
+    href: WindowsAudioWrapper.Internal.CoreAudio.html
+  spec.vb:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal
+    name: Internal
+    href: WindowsAudioWrapper.Internal.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal.CoreAudio
+    name: CoreAudio
+    href: WindowsAudioWrapper.Internal.CoreAudio.html
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Initialize*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Initialize
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioClient_Initialize_System_Int32_System_UInt32_System_Int64_System_Int64_System_IntPtr_System_Guid__
+  name: Initialize
+  nameWithType: IAudioClient.Initialize
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Initialize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetBufferSize*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetBufferSize
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioClient_GetBufferSize_System_UInt32__
+  name: GetBufferSize
+  nameWithType: IAudioClient.GetBufferSize
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetBufferSize
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetStreamLatency*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetStreamLatency
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioClient_GetStreamLatency_System_Int64__
+  name: GetStreamLatency
+  nameWithType: IAudioClient.GetStreamLatency
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetStreamLatency
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetCurrentPadding*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetCurrentPadding
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioClient_GetCurrentPadding_System_UInt32__
+  name: GetCurrentPadding
+  nameWithType: IAudioClient.GetCurrentPadding
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetCurrentPadding
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.IsFormatSupported*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.IsFormatSupported
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioClient_IsFormatSupported_System_Int32_System_IntPtr_System_IntPtr__
+  name: IsFormatSupported
+  nameWithType: IAudioClient.IsFormatSupported
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.IsFormatSupported
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetMixFormat*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetMixFormat
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioClient_GetMixFormat_System_IntPtr__
+  name: GetMixFormat
+  nameWithType: IAudioClient.GetMixFormat
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetMixFormat
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetDevicePeriod*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetDevicePeriod
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioClient_GetDevicePeriod_System_Int64__System_Int64__
+  name: GetDevicePeriod
+  nameWithType: IAudioClient.GetDevicePeriod
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetDevicePeriod
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Start*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Start
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioClient_Start
+  name: Start
+  nameWithType: IAudioClient.Start
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Start
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Stop*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Stop
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioClient_Stop
+  name: Stop
+  nameWithType: IAudioClient.Stop
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Stop
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Reset*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Reset
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioClient_Reset
+  name: Reset
+  nameWithType: IAudioClient.Reset
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.Reset
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.SetEventHandle*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.SetEventHandle
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioClient_SetEventHandle_System_IntPtr_
+  name: SetEventHandle
+  nameWithType: IAudioClient.SetEventHandle
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.SetEventHandle
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetService*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetService
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioClient_GetService_System_Guid__System_Object__
+  name: GetService
+  nameWithType: IAudioClient.GetService
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.GetService
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object

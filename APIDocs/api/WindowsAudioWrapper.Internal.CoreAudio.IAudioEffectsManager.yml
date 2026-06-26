@@ -1,0 +1,308 @@
+### YamlMime:ManagedReference
+items:
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager
+  id: IAudioEffectsManager
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  children:
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.GetAudioEffects(System.IntPtr@,System.UInt32@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.RegisterAudioEffectsChangedNotificationCallback(System.IntPtr)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.SetAudioEffectState(System.Guid,WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.UnregisterAudioEffectsChangedNotificationCallback(System.IntPtr)
+  langs:
+  - csharp
+  - vb
+  name: IAudioEffectsManager
+  nameWithType: IAudioEffectsManager
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager
+  type: Interface
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IAudioEffectsManager
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 387
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: >-
+      [Guid("4460B3AE-4B44-4527-8676-7548A8ACD260")]
+
+      [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+
+      public interface IAudioEffectsManager
+    content.vb: >-
+      <Guid("4460B3AE-4B44-4527-8676-7548A8ACD260")>
+
+      <InterfaceType(ComInterfaceType.InterfaceIsIUnknown)>
+
+      Public Interface IAudioEffectsManager
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 4460B3AE-4B44-4527-8676-7548A8ACD260
+  - type: System.Runtime.InteropServices.InterfaceTypeAttribute
+    ctor: System.Runtime.InteropServices.InterfaceTypeAttribute.#ctor(System.Runtime.InteropServices.ComInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ComInterfaceType
+      value: 1
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.RegisterAudioEffectsChangedNotificationCallback(System.IntPtr)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.RegisterAudioEffectsChangedNotificationCallback(System.IntPtr)
+  id: RegisterAudioEffectsChangedNotificationCallback(System.IntPtr)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager
+  langs:
+  - csharp
+  - vb
+  name: RegisterAudioEffectsChangedNotificationCallback(nint)
+  nameWithType: IAudioEffectsManager.RegisterAudioEffectsChangedNotificationCallback(nint)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.RegisterAudioEffectsChangedNotificationCallback(nint)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: RegisterAudioEffectsChangedNotificationCallback
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 393
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: Registers a notification callback for audio effect list or state changes.
+  example: []
+  syntax:
+    content: int RegisterAudioEffectsChangedNotificationCallback(nint client)
+    parameters:
+    - id: client
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Function RegisterAudioEffectsChangedNotificationCallback(client As IntPtr) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.RegisterAudioEffectsChangedNotificationCallback*
+  nameWithType.vb: IAudioEffectsManager.RegisterAudioEffectsChangedNotificationCallback(IntPtr)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.RegisterAudioEffectsChangedNotificationCallback(System.IntPtr)
+  name.vb: RegisterAudioEffectsChangedNotificationCallback(IntPtr)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.UnregisterAudioEffectsChangedNotificationCallback(System.IntPtr)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.UnregisterAudioEffectsChangedNotificationCallback(System.IntPtr)
+  id: UnregisterAudioEffectsChangedNotificationCallback(System.IntPtr)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager
+  langs:
+  - csharp
+  - vb
+  name: UnregisterAudioEffectsChangedNotificationCallback(nint)
+  nameWithType: IAudioEffectsManager.UnregisterAudioEffectsChangedNotificationCallback(nint)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.UnregisterAudioEffectsChangedNotificationCallback(nint)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: UnregisterAudioEffectsChangedNotificationCallback
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 397
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: Unregisters a notification callback for audio effect list or state changes.
+  example: []
+  syntax:
+    content: int UnregisterAudioEffectsChangedNotificationCallback(nint client)
+    parameters:
+    - id: client
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Function UnregisterAudioEffectsChangedNotificationCallback(client As IntPtr) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.UnregisterAudioEffectsChangedNotificationCallback*
+  nameWithType.vb: IAudioEffectsManager.UnregisterAudioEffectsChangedNotificationCallback(IntPtr)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.UnregisterAudioEffectsChangedNotificationCallback(System.IntPtr)
+  name.vb: UnregisterAudioEffectsChangedNotificationCallback(IntPtr)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.GetAudioEffects(System.IntPtr@,System.UInt32@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.GetAudioEffects(System.IntPtr@,System.UInt32@)
+  id: GetAudioEffects(System.IntPtr@,System.UInt32@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager
+  langs:
+  - csharp
+  - vb
+  name: GetAudioEffects(out nint, out uint)
+  nameWithType: IAudioEffectsManager.GetAudioEffects(out nint, out uint)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.GetAudioEffects(out nint, out uint)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetAudioEffects
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 401
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: Gets the current list of audio effects for the associated audio stream.
+  example: []
+  syntax:
+    content: int GetAudioEffects(out nint effects, out uint numEffects)
+    parameters:
+    - id: effects
+      type: System.IntPtr
+    - id: numEffects
+      type: System.UInt32
+    return:
+      type: System.Int32
+    content.vb: Function GetAudioEffects(effects As IntPtr, numEffects As UInteger) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.GetAudioEffects*
+  nameWithType.vb: IAudioEffectsManager.GetAudioEffects(IntPtr, UInteger)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.GetAudioEffects(System.IntPtr, UInteger)
+  name.vb: GetAudioEffects(IntPtr, UInteger)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.SetAudioEffectState(System.Guid,WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.SetAudioEffectState(System.Guid,WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState)
+  id: SetAudioEffectState(System.Guid,WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager
+  langs:
+  - csharp
+  - vb
+  name: SetAudioEffectState(Guid, AudioEffectState)
+  nameWithType: IAudioEffectsManager.SetAudioEffectState(Guid, AudioEffectState)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.SetAudioEffectState(System.Guid, WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: SetAudioEffectState
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 405
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: Sets the state of a mutable audio effect.
+  example: []
+  syntax:
+    content: int SetAudioEffectState(Guid effectId, AudioEffectState state)
+    parameters:
+    - id: effectId
+      type: System.Guid
+    - id: state
+      type: WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState
+    return:
+      type: System.Int32
+    content.vb: Function SetAudioEffectState(effectId As Guid, state As AudioEffectState) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.SetAudioEffectState*
+references:
+- uid: WindowsAudioWrapper.Internal.CoreAudio
+  commentId: N:WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.html
+  name: WindowsAudioWrapper.Internal.CoreAudio
+  nameWithType: WindowsAudioWrapper.Internal.CoreAudio
+  fullName: WindowsAudioWrapper.Internal.CoreAudio
+  spec.csharp:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal
+    name: Internal
+    href: WindowsAudioWrapper.Internal.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal.CoreAudio
+    name: CoreAudio
+    href: WindowsAudioWrapper.Internal.CoreAudio.html
+  spec.vb:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal
+    name: Internal
+    href: WindowsAudioWrapper.Internal.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal.CoreAudio
+    name: CoreAudio
+    href: WindowsAudioWrapper.Internal.CoreAudio.html
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.RegisterAudioEffectsChangedNotificationCallback*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.RegisterAudioEffectsChangedNotificationCallback
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioEffectsManager_RegisterAudioEffectsChangedNotificationCallback_System_IntPtr_
+  name: RegisterAudioEffectsChangedNotificationCallback
+  nameWithType: IAudioEffectsManager.RegisterAudioEffectsChangedNotificationCallback
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.RegisterAudioEffectsChangedNotificationCallback
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.UnregisterAudioEffectsChangedNotificationCallback*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.UnregisterAudioEffectsChangedNotificationCallback
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioEffectsManager_UnregisterAudioEffectsChangedNotificationCallback_System_IntPtr_
+  name: UnregisterAudioEffectsChangedNotificationCallback
+  nameWithType: IAudioEffectsManager.UnregisterAudioEffectsChangedNotificationCallback
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.UnregisterAudioEffectsChangedNotificationCallback
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.GetAudioEffects*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.GetAudioEffects
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioEffectsManager_GetAudioEffects_System_IntPtr__System_UInt32__
+  name: GetAudioEffects
+  nameWithType: IAudioEffectsManager.GetAudioEffects
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.GetAudioEffects
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.SetAudioEffectState*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.SetAudioEffectState
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioEffectsManager_SetAudioEffectState_System_Guid_WindowsAudioWrapper_Internal_CoreAudio_AudioEffectState_
+  name: SetAudioEffectState
+  nameWithType: IAudioEffectsManager.SetAudioEffectState
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.SetAudioEffectState
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState.html
+  name: AudioEffectState
+  nameWithType: AudioEffectState
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState

@@ -1,0 +1,572 @@
+### YamlMime:ManagedReference
+items:
+- uid: WindowsAudioWrapper.Models.AudioEndpointCapabilities
+  commentId: T:WindowsAudioWrapper.Models.AudioEndpointCapabilities
+  id: AudioEndpointCapabilities
+  parent: WindowsAudioWrapper.Models
+  children:
+  - WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsAudioEnhancementsReadSupported
+  - WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsAudioEnhancementsSetSupported
+  - WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsDefaultCommunicationsDeviceSupported
+  - WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsDefaultDeviceSupported
+  - WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsFormatReadSupported
+  - WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsFormatSetSupported
+  - WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsMuteSupported
+  - WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsVolumeSupported
+  langs:
+  - csharp
+  - vb
+  name: AudioEndpointCapabilities
+  nameWithType: AudioEndpointCapabilities
+  fullName: WindowsAudioWrapper.Models.AudioEndpointCapabilities
+  type: Class
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: AudioEndpointCapabilities
+    path: ../WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
+    startLine: 2
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: public sealed class AudioEndpointCapabilities
+    content.vb: Public NotInheritable Class AudioEndpointCapabilities
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsDefaultDeviceSupported
+  commentId: P:WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsDefaultDeviceSupported
+  id: IsDefaultDeviceSupported
+  parent: WindowsAudioWrapper.Models.AudioEndpointCapabilities
+  langs:
+  - csharp
+  - vb
+  name: IsDefaultDeviceSupported
+  nameWithType: AudioEndpointCapabilities.IsDefaultDeviceSupported
+  fullName: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsDefaultDeviceSupported
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IsDefaultDeviceSupported
+    path: ../WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
+    startLine: 4
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: public bool IsDefaultDeviceSupported { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsDefaultDeviceSupported As Boolean
+  overload: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsDefaultDeviceSupported*
+- uid: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsDefaultCommunicationsDeviceSupported
+  commentId: P:WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsDefaultCommunicationsDeviceSupported
+  id: IsDefaultCommunicationsDeviceSupported
+  parent: WindowsAudioWrapper.Models.AudioEndpointCapabilities
+  langs:
+  - csharp
+  - vb
+  name: IsDefaultCommunicationsDeviceSupported
+  nameWithType: AudioEndpointCapabilities.IsDefaultCommunicationsDeviceSupported
+  fullName: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsDefaultCommunicationsDeviceSupported
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IsDefaultCommunicationsDeviceSupported
+    path: ../WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
+    startLine: 5
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: public bool IsDefaultCommunicationsDeviceSupported { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsDefaultCommunicationsDeviceSupported As Boolean
+  overload: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsDefaultCommunicationsDeviceSupported*
+- uid: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsVolumeSupported
+  commentId: P:WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsVolumeSupported
+  id: IsVolumeSupported
+  parent: WindowsAudioWrapper.Models.AudioEndpointCapabilities
+  langs:
+  - csharp
+  - vb
+  name: IsVolumeSupported
+  nameWithType: AudioEndpointCapabilities.IsVolumeSupported
+  fullName: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsVolumeSupported
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IsVolumeSupported
+    path: ../WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
+    startLine: 6
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: public bool IsVolumeSupported { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsVolumeSupported As Boolean
+  overload: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsVolumeSupported*
+- uid: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsMuteSupported
+  commentId: P:WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsMuteSupported
+  id: IsMuteSupported
+  parent: WindowsAudioWrapper.Models.AudioEndpointCapabilities
+  langs:
+  - csharp
+  - vb
+  name: IsMuteSupported
+  nameWithType: AudioEndpointCapabilities.IsMuteSupported
+  fullName: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsMuteSupported
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IsMuteSupported
+    path: ../WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
+    startLine: 7
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: public bool IsMuteSupported { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsMuteSupported As Boolean
+  overload: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsMuteSupported*
+- uid: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsFormatReadSupported
+  commentId: P:WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsFormatReadSupported
+  id: IsFormatReadSupported
+  parent: WindowsAudioWrapper.Models.AudioEndpointCapabilities
+  langs:
+  - csharp
+  - vb
+  name: IsFormatReadSupported
+  nameWithType: AudioEndpointCapabilities.IsFormatReadSupported
+  fullName: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsFormatReadSupported
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IsFormatReadSupported
+    path: ../WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
+    startLine: 8
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: public bool IsFormatReadSupported { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsFormatReadSupported As Boolean
+  overload: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsFormatReadSupported*
+- uid: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsFormatSetSupported
+  commentId: P:WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsFormatSetSupported
+  id: IsFormatSetSupported
+  parent: WindowsAudioWrapper.Models.AudioEndpointCapabilities
+  langs:
+  - csharp
+  - vb
+  name: IsFormatSetSupported
+  nameWithType: AudioEndpointCapabilities.IsFormatSetSupported
+  fullName: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsFormatSetSupported
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IsFormatSetSupported
+    path: ../WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
+    startLine: 9
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: public bool IsFormatSetSupported { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsFormatSetSupported As Boolean
+  overload: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsFormatSetSupported*
+- uid: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsAudioEnhancementsReadSupported
+  commentId: P:WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsAudioEnhancementsReadSupported
+  id: IsAudioEnhancementsReadSupported
+  parent: WindowsAudioWrapper.Models.AudioEndpointCapabilities
+  langs:
+  - csharp
+  - vb
+  name: IsAudioEnhancementsReadSupported
+  nameWithType: AudioEndpointCapabilities.IsAudioEnhancementsReadSupported
+  fullName: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsAudioEnhancementsReadSupported
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IsAudioEnhancementsReadSupported
+    path: ../WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
+    startLine: 10
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: public bool IsAudioEnhancementsReadSupported { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsAudioEnhancementsReadSupported As Boolean
+  overload: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsAudioEnhancementsReadSupported*
+- uid: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsAudioEnhancementsSetSupported
+  commentId: P:WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsAudioEnhancementsSetSupported
+  id: IsAudioEnhancementsSetSupported
+  parent: WindowsAudioWrapper.Models.AudioEndpointCapabilities
+  langs:
+  - csharp
+  - vb
+  name: IsAudioEnhancementsSetSupported
+  nameWithType: AudioEndpointCapabilities.IsAudioEnhancementsSetSupported
+  fullName: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsAudioEnhancementsSetSupported
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IsAudioEnhancementsSetSupported
+    path: ../WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
+    startLine: 11
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: public bool IsAudioEnhancementsSetSupported { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsAudioEnhancementsSetSupported As Boolean
+  overload: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsAudioEnhancementsSetSupported*
+references:
+- uid: WindowsAudioWrapper.Models
+  commentId: N:WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.html
+  name: WindowsAudioWrapper.Models
+  nameWithType: WindowsAudioWrapper.Models
+  fullName: WindowsAudioWrapper.Models
+  spec.csharp:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Models
+    name: Models
+    href: WindowsAudioWrapper.Models.html
+  spec.vb:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Models
+    name: Models
+    href: WindowsAudioWrapper.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsDefaultDeviceSupported*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsDefaultDeviceSupported
+  href: WindowsAudioWrapper.Models.AudioEndpointCapabilities.html#WindowsAudioWrapper_Models_AudioEndpointCapabilities_IsDefaultDeviceSupported
+  name: IsDefaultDeviceSupported
+  nameWithType: AudioEndpointCapabilities.IsDefaultDeviceSupported
+  fullName: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsDefaultDeviceSupported
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsDefaultCommunicationsDeviceSupported*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsDefaultCommunicationsDeviceSupported
+  href: WindowsAudioWrapper.Models.AudioEndpointCapabilities.html#WindowsAudioWrapper_Models_AudioEndpointCapabilities_IsDefaultCommunicationsDeviceSupported
+  name: IsDefaultCommunicationsDeviceSupported
+  nameWithType: AudioEndpointCapabilities.IsDefaultCommunicationsDeviceSupported
+  fullName: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsDefaultCommunicationsDeviceSupported
+- uid: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsVolumeSupported*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsVolumeSupported
+  href: WindowsAudioWrapper.Models.AudioEndpointCapabilities.html#WindowsAudioWrapper_Models_AudioEndpointCapabilities_IsVolumeSupported
+  name: IsVolumeSupported
+  nameWithType: AudioEndpointCapabilities.IsVolumeSupported
+  fullName: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsVolumeSupported
+- uid: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsMuteSupported*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsMuteSupported
+  href: WindowsAudioWrapper.Models.AudioEndpointCapabilities.html#WindowsAudioWrapper_Models_AudioEndpointCapabilities_IsMuteSupported
+  name: IsMuteSupported
+  nameWithType: AudioEndpointCapabilities.IsMuteSupported
+  fullName: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsMuteSupported
+- uid: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsFormatReadSupported*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsFormatReadSupported
+  href: WindowsAudioWrapper.Models.AudioEndpointCapabilities.html#WindowsAudioWrapper_Models_AudioEndpointCapabilities_IsFormatReadSupported
+  name: IsFormatReadSupported
+  nameWithType: AudioEndpointCapabilities.IsFormatReadSupported
+  fullName: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsFormatReadSupported
+- uid: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsFormatSetSupported*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsFormatSetSupported
+  href: WindowsAudioWrapper.Models.AudioEndpointCapabilities.html#WindowsAudioWrapper_Models_AudioEndpointCapabilities_IsFormatSetSupported
+  name: IsFormatSetSupported
+  nameWithType: AudioEndpointCapabilities.IsFormatSetSupported
+  fullName: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsFormatSetSupported
+- uid: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsAudioEnhancementsReadSupported*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsAudioEnhancementsReadSupported
+  href: WindowsAudioWrapper.Models.AudioEndpointCapabilities.html#WindowsAudioWrapper_Models_AudioEndpointCapabilities_IsAudioEnhancementsReadSupported
+  name: IsAudioEnhancementsReadSupported
+  nameWithType: AudioEndpointCapabilities.IsAudioEnhancementsReadSupported
+  fullName: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsAudioEnhancementsReadSupported
+- uid: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsAudioEnhancementsSetSupported*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsAudioEnhancementsSetSupported
+  href: WindowsAudioWrapper.Models.AudioEndpointCapabilities.html#WindowsAudioWrapper_Models_AudioEndpointCapabilities_IsAudioEnhancementsSetSupported
+  name: IsAudioEnhancementsSetSupported
+  nameWithType: AudioEndpointCapabilities.IsAudioEnhancementsSetSupported
+  fullName: WindowsAudioWrapper.Models.AudioEndpointCapabilities.IsAudioEnhancementsSetSupported

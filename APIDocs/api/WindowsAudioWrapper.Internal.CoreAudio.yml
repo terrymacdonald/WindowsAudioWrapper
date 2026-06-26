@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: WindowsAudioWrapper.Internal.CoreAudio
+  commentId: N:WindowsAudioWrapper.Internal.CoreAudio
+  id: WindowsAudioWrapper.Internal.CoreAudio
+  children:
+  - WindowsAudioWrapper.Internal.CoreAudio.AUDIO_EFFECT
+  - WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState
+  - WindowsAudioWrapper.Internal.CoreAudio.EDataFlow
+  - WindowsAudioWrapper.Internal.CoreAudio.ERole
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioClient
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+  - WindowsAudioWrapper.Internal.CoreAudio.IMMDevice
+  - WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceCollection
+  - WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator
+  - WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore
+  - WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY
+  - WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT
+  - WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX
+  - WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEXTENSIBLE
+  langs:
+  - csharp
+  - vb
+  name: WindowsAudioWrapper.Internal.CoreAudio
+  nameWithType: WindowsAudioWrapper.Internal.CoreAudio
+  fullName: WindowsAudioWrapper.Internal.CoreAudio
+  type: Namespace
+  assemblies:
+  - WindowsAudioWrapper
+references:
+- uid: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.EDataFlow
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow.html
+  name: EDataFlow
+  nameWithType: EDataFlow
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow
+- uid: WindowsAudioWrapper.Internal.CoreAudio.ERole
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.ERole
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.Internal.CoreAudio.ERole.html
+  name: ERole
+  nameWithType: ERole
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.ERole
+- uid: WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState.html
+  name: AudioEffectState
+  nameWithType: AudioEffectState
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState
+- uid: WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY.html
+  name: PROPERTYKEY
+  nameWithType: PROPERTYKEY
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY
+- uid: WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT.html
+  name: PROPVARIANT
+  nameWithType: PROPVARIANT
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT
+- uid: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.html
+  name: WAVEFORMATEX
+  nameWithType: WAVEFORMATEX
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX
+- uid: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEXTENSIBLE
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEXTENSIBLE
+  href: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEXTENSIBLE.html
+  name: WAVEFORMATEXTENSIBLE
+  nameWithType: WAVEFORMATEXTENSIBLE
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEXTENSIBLE
+- uid: WindowsAudioWrapper.Internal.CoreAudio.AUDIO_EFFECT
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.AUDIO_EFFECT
+  href: WindowsAudioWrapper.Internal.CoreAudio.AUDIO_EFFECT.html
+  name: AUDIO_EFFECT
+  nameWithType: AUDIO_EFFECT
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.AUDIO_EFFECT
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator
+  href: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.html
+  name: IMMDeviceEnumerator
+  nameWithType: IMMDeviceEnumerator
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceCollection
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceCollection
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceCollection.html
+  name: IMMDeviceCollection
+  nameWithType: IMMDeviceCollection
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceCollection
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.IMMDevice
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.html
+  name: IMMDevice
+  nameWithType: IMMDevice
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.html
+  name: IPropertyStore
+  nameWithType: IPropertyStore
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.html
+  name: IAudioEndpointVolume
+  nameWithType: IAudioEndpointVolume
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.IAudioClient
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.html
+  name: IAudioClient
+  nameWithType: IAudioClient
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioClient
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.html
+  name: IAudioEffectsManager
+  nameWithType: IAudioEffectsManager
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager
+- uid: WindowsAudioWrapper.Internal.CoreAudio
+  commentId: N:WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.html
+  name: WindowsAudioWrapper.Internal.CoreAudio
+  nameWithType: WindowsAudioWrapper.Internal.CoreAudio
+  fullName: WindowsAudioWrapper.Internal.CoreAudio
+  spec.csharp:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal
+    name: Internal
+    href: WindowsAudioWrapper.Internal.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal.CoreAudio
+    name: CoreAudio
+    href: WindowsAudioWrapper.Internal.CoreAudio.html
+  spec.vb:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal
+    name: Internal
+    href: WindowsAudioWrapper.Internal.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal.CoreAudio
+    name: CoreAudio
+    href: WindowsAudioWrapper.Internal.CoreAudio.html

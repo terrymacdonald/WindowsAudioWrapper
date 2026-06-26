@@ -1,0 +1,842 @@
+### YamlMime:ManagedReference
+items:
+- uid: WindowsAudioWrapper.Models.AudioEndpointReference
+  commentId: T:WindowsAudioWrapper.Models.AudioEndpointReference
+  id: AudioEndpointReference
+  parent: WindowsAudioWrapper.Models
+  children:
+  - WindowsAudioWrapper.Models.AudioEndpointReference.ApoFxProperties
+  - WindowsAudioWrapper.Models.AudioEndpointReference.ContainerId
+  - WindowsAudioWrapper.Models.AudioEndpointReference.DeviceId
+  - WindowsAudioWrapper.Models.AudioEndpointReference.Flow
+  - WindowsAudioWrapper.Models.AudioEndpointReference.FriendlyName
+  - WindowsAudioWrapper.Models.AudioEndpointReference.FromEndpointInfo(WindowsAudioWrapper.Models.AudioEndpointInfo)
+  - WindowsAudioWrapper.Models.AudioEndpointReference.FullName
+  - WindowsAudioWrapper.Models.AudioEndpointReference.HardwareDetails
+  - WindowsAudioWrapper.Models.AudioEndpointReference.IsEndpointEnabled
+  langs:
+  - csharp
+  - vb
+  name: AudioEndpointReference
+  nameWithType: AudioEndpointReference
+  fullName: WindowsAudioWrapper.Models.AudioEndpointReference
+  type: Class
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEndpointReference.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: AudioEndpointReference
+    path: ../WindowsAudioWrapper/Models/AudioEndpointReference.cs
+    startLine: 7
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Acts as a data-contract wrapper tracking hardware location properties used to resolve targets.
+  example: []
+  syntax:
+    content: public class AudioEndpointReference
+    content.vb: Public Class AudioEndpointReference
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: WindowsAudioWrapper.Models.AudioEndpointReference.DeviceId
+  commentId: P:WindowsAudioWrapper.Models.AudioEndpointReference.DeviceId
+  id: DeviceId
+  parent: WindowsAudioWrapper.Models.AudioEndpointReference
+  langs:
+  - csharp
+  - vb
+  name: DeviceId
+  nameWithType: AudioEndpointReference.DeviceId
+  fullName: WindowsAudioWrapper.Models.AudioEndpointReference.DeviceId
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEndpointReference.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: DeviceId
+    path: ../WindowsAudioWrapper/Models/AudioEndpointReference.cs
+    startLine: 10
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the absolute internal IMMDevice endpoint identifier token.
+  example: []
+  syntax:
+    content: public string DeviceId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DeviceId As String
+  overload: WindowsAudioWrapper.Models.AudioEndpointReference.DeviceId*
+- uid: WindowsAudioWrapper.Models.AudioEndpointReference.ContainerId
+  commentId: P:WindowsAudioWrapper.Models.AudioEndpointReference.ContainerId
+  id: ContainerId
+  parent: WindowsAudioWrapper.Models.AudioEndpointReference
+  langs:
+  - csharp
+  - vb
+  name: ContainerId
+  nameWithType: AudioEndpointReference.ContainerId
+  fullName: WindowsAudioWrapper.Models.AudioEndpointReference.ContainerId
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEndpointReference.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: ContainerId
+    path: ../WindowsAudioWrapper/Models/AudioEndpointReference.cs
+    startLine: 13
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the Plug-and-Play physical container association identifier.
+  example: []
+  syntax:
+    content: public string ContainerId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ContainerId As String
+  overload: WindowsAudioWrapper.Models.AudioEndpointReference.ContainerId*
+- uid: WindowsAudioWrapper.Models.AudioEndpointReference.FriendlyName
+  commentId: P:WindowsAudioWrapper.Models.AudioEndpointReference.FriendlyName
+  id: FriendlyName
+  parent: WindowsAudioWrapper.Models.AudioEndpointReference
+  langs:
+  - csharp
+  - vb
+  name: FriendlyName
+  nameWithType: AudioEndpointReference.FriendlyName
+  fullName: WindowsAudioWrapper.Models.AudioEndpointReference.FriendlyName
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEndpointReference.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: FriendlyName
+    path: ../WindowsAudioWrapper/Models/AudioEndpointReference.cs
+    startLine: 16
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the localized friendly presentation display name of the hardware endpoint.
+  example: []
+  syntax:
+    content: public string FriendlyName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FriendlyName As String
+  overload: WindowsAudioWrapper.Models.AudioEndpointReference.FriendlyName*
+- uid: WindowsAudioWrapper.Models.AudioEndpointReference.FullName
+  commentId: P:WindowsAudioWrapper.Models.AudioEndpointReference.FullName
+  id: FullName
+  parent: WindowsAudioWrapper.Models.AudioEndpointReference
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: AudioEndpointReference.FullName
+  fullName: WindowsAudioWrapper.Models.AudioEndpointReference.FullName
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEndpointReference.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: FullName
+    path: ../WindowsAudioWrapper/Models/AudioEndpointReference.cs
+    startLine: 19
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the native infrastructure data logs. Safely ignored in JSON layout.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public string FullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property FullName As String
+  overload: WindowsAudioWrapper.Models.AudioEndpointReference.FullName*
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+- uid: WindowsAudioWrapper.Models.AudioEndpointReference.Flow
+  commentId: P:WindowsAudioWrapper.Models.AudioEndpointReference.Flow
+  id: Flow
+  parent: WindowsAudioWrapper.Models.AudioEndpointReference
+  langs:
+  - csharp
+  - vb
+  name: Flow
+  nameWithType: AudioEndpointReference.Flow
+  fullName: WindowsAudioWrapper.Models.AudioEndpointReference.Flow
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEndpointReference.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: Flow
+    path: ../WindowsAudioWrapper/Models/AudioEndpointReference.cs
+    startLine: 23
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the underlying system audio flow context mapping. Safely ignored in JSON layout.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public AudioFlow Flow { get; set; }
+    parameters: []
+    return:
+      type: WindowsAudioWrapper.Models.AudioFlow
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property Flow As AudioFlow
+  overload: WindowsAudioWrapper.Models.AudioEndpointReference.Flow*
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+- uid: WindowsAudioWrapper.Models.AudioEndpointReference.IsEndpointEnabled
+  commentId: P:WindowsAudioWrapper.Models.AudioEndpointReference.IsEndpointEnabled
+  id: IsEndpointEnabled
+  parent: WindowsAudioWrapper.Models.AudioEndpointReference
+  langs:
+  - csharp
+  - vb
+  name: IsEndpointEnabled
+  nameWithType: AudioEndpointReference.IsEndpointEnabled
+  fullName: WindowsAudioWrapper.Models.AudioEndpointReference.IsEndpointEnabled
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEndpointReference.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IsEndpointEnabled
+    path: ../WindowsAudioWrapper/Models/AudioEndpointReference.cs
+    startLine: 27
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets a tracking flag stating if the endpoint reference is active. Safely ignored in JSON layout.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public bool IsEndpointEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property IsEndpointEnabled As Boolean
+  overload: WindowsAudioWrapper.Models.AudioEndpointReference.IsEndpointEnabled*
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+- uid: WindowsAudioWrapper.Models.AudioEndpointReference.HardwareDetails
+  commentId: P:WindowsAudioWrapper.Models.AudioEndpointReference.HardwareDetails
+  id: HardwareDetails
+  parent: WindowsAudioWrapper.Models.AudioEndpointReference
+  langs:
+  - csharp
+  - vb
+  name: HardwareDetails
+  nameWithType: AudioEndpointReference.HardwareDetails
+  fullName: WindowsAudioWrapper.Models.AudioEndpointReference.HardwareDetails
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEndpointReference.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: HardwareDetails
+    path: ../WindowsAudioWrapper/Models/AudioEndpointReference.cs
+    startLine: 31
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the multi-tier driver descriptor block entries.
+  example: []
+  syntax:
+    content: public HardwareDetails HardwareDetails { get; set; }
+    parameters: []
+    return:
+      type: WindowsAudioWrapper.Models.HardwareDetails
+    content.vb: Public Property HardwareDetails As HardwareDetails
+  overload: WindowsAudioWrapper.Models.AudioEndpointReference.HardwareDetails*
+- uid: WindowsAudioWrapper.Models.AudioEndpointReference.ApoFxProperties
+  commentId: P:WindowsAudioWrapper.Models.AudioEndpointReference.ApoFxProperties
+  id: ApoFxProperties
+  parent: WindowsAudioWrapper.Models.AudioEndpointReference
+  langs:
+  - csharp
+  - vb
+  name: ApoFxProperties
+  nameWithType: AudioEndpointReference.ApoFxProperties
+  fullName: WindowsAudioWrapper.Models.AudioEndpointReference.ApoFxProperties
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEndpointReference.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: ApoFxProperties
+    path: ../WindowsAudioWrapper/Models/AudioEndpointReference.cs
+    startLine: 34
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets opaque APO/driver effect properties captured for this endpoint.
+  example: []
+  syntax:
+    content: public Dictionary<string, string> ApoFxProperties { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public Property ApoFxProperties As Dictionary(Of String, String)
+  overload: WindowsAudioWrapper.Models.AudioEndpointReference.ApoFxProperties*
+- uid: WindowsAudioWrapper.Models.AudioEndpointReference.FromEndpointInfo(WindowsAudioWrapper.Models.AudioEndpointInfo)
+  commentId: M:WindowsAudioWrapper.Models.AudioEndpointReference.FromEndpointInfo(WindowsAudioWrapper.Models.AudioEndpointInfo)
+  id: FromEndpointInfo(WindowsAudioWrapper.Models.AudioEndpointInfo)
+  parent: WindowsAudioWrapper.Models.AudioEndpointReference
+  langs:
+  - csharp
+  - vb
+  name: FromEndpointInfo(AudioEndpointInfo)
+  nameWithType: AudioEndpointReference.FromEndpointInfo(AudioEndpointInfo)
+  fullName: WindowsAudioWrapper.Models.AudioEndpointReference.FromEndpointInfo(WindowsAudioWrapper.Models.AudioEndpointInfo)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEndpointReference.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: FromEndpointInfo
+    path: ../WindowsAudioWrapper/Models/AudioEndpointReference.cs
+    startLine: 39
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Translates unmanaged live endpoint structures cleanly down to serializable contract configurations.
+  example: []
+  syntax:
+    content: public static AudioEndpointReference FromEndpointInfo(AudioEndpointInfo info)
+    parameters:
+    - id: info
+      type: WindowsAudioWrapper.Models.AudioEndpointInfo
+    return:
+      type: WindowsAudioWrapper.Models.AudioEndpointReference
+    content.vb: Public Shared Function FromEndpointInfo(info As AudioEndpointInfo) As AudioEndpointReference
+  overload: WindowsAudioWrapper.Models.AudioEndpointReference.FromEndpointInfo*
+references:
+- uid: WindowsAudioWrapper.Models
+  commentId: N:WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.html
+  name: WindowsAudioWrapper.Models
+  nameWithType: WindowsAudioWrapper.Models
+  fullName: WindowsAudioWrapper.Models
+  spec.csharp:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Models
+    name: Models
+    href: WindowsAudioWrapper.Models.html
+  spec.vb:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Models
+    name: Models
+    href: WindowsAudioWrapper.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WindowsAudioWrapper.Models.AudioEndpointReference.DeviceId*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioEndpointReference.DeviceId
+  href: WindowsAudioWrapper.Models.AudioEndpointReference.html#WindowsAudioWrapper_Models_AudioEndpointReference_DeviceId
+  name: DeviceId
+  nameWithType: AudioEndpointReference.DeviceId
+  fullName: WindowsAudioWrapper.Models.AudioEndpointReference.DeviceId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: WindowsAudioWrapper.Models.AudioEndpointReference.ContainerId*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioEndpointReference.ContainerId
+  href: WindowsAudioWrapper.Models.AudioEndpointReference.html#WindowsAudioWrapper_Models_AudioEndpointReference_ContainerId
+  name: ContainerId
+  nameWithType: AudioEndpointReference.ContainerId
+  fullName: WindowsAudioWrapper.Models.AudioEndpointReference.ContainerId
+- uid: WindowsAudioWrapper.Models.AudioEndpointReference.FriendlyName*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioEndpointReference.FriendlyName
+  href: WindowsAudioWrapper.Models.AudioEndpointReference.html#WindowsAudioWrapper_Models_AudioEndpointReference_FriendlyName
+  name: FriendlyName
+  nameWithType: AudioEndpointReference.FriendlyName
+  fullName: WindowsAudioWrapper.Models.AudioEndpointReference.FriendlyName
+- uid: WindowsAudioWrapper.Models.AudioEndpointReference.FullName*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioEndpointReference.FullName
+  href: WindowsAudioWrapper.Models.AudioEndpointReference.html#WindowsAudioWrapper_Models_AudioEndpointReference_FullName
+  name: FullName
+  nameWithType: AudioEndpointReference.FullName
+  fullName: WindowsAudioWrapper.Models.AudioEndpointReference.FullName
+- uid: WindowsAudioWrapper.Models.AudioEndpointReference.Flow*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioEndpointReference.Flow
+  href: WindowsAudioWrapper.Models.AudioEndpointReference.html#WindowsAudioWrapper_Models_AudioEndpointReference_Flow
+  name: Flow
+  nameWithType: AudioEndpointReference.Flow
+  fullName: WindowsAudioWrapper.Models.AudioEndpointReference.Flow
+- uid: WindowsAudioWrapper.Models.AudioFlow
+  commentId: T:WindowsAudioWrapper.Models.AudioFlow
+  parent: WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.Models.AudioFlow.html
+  name: AudioFlow
+  nameWithType: AudioFlow
+  fullName: WindowsAudioWrapper.Models.AudioFlow
+- uid: WindowsAudioWrapper.Models.AudioEndpointReference.IsEndpointEnabled*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioEndpointReference.IsEndpointEnabled
+  href: WindowsAudioWrapper.Models.AudioEndpointReference.html#WindowsAudioWrapper_Models_AudioEndpointReference_IsEndpointEnabled
+  name: IsEndpointEnabled
+  nameWithType: AudioEndpointReference.IsEndpointEnabled
+  fullName: WindowsAudioWrapper.Models.AudioEndpointReference.IsEndpointEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: WindowsAudioWrapper.Models.AudioEndpointReference.HardwareDetails*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioEndpointReference.HardwareDetails
+  href: WindowsAudioWrapper.Models.AudioEndpointReference.html#WindowsAudioWrapper_Models_AudioEndpointReference_HardwareDetails
+  name: HardwareDetails
+  nameWithType: AudioEndpointReference.HardwareDetails
+  fullName: WindowsAudioWrapper.Models.AudioEndpointReference.HardwareDetails
+- uid: WindowsAudioWrapper.Models.HardwareDetails
+  commentId: T:WindowsAudioWrapper.Models.HardwareDetails
+  parent: WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.Models.HardwareDetails.html
+  name: HardwareDetails
+  nameWithType: HardwareDetails
+  fullName: WindowsAudioWrapper.Models.HardwareDetails
+- uid: WindowsAudioWrapper.Models.AudioEndpointReference.ApoFxProperties*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioEndpointReference.ApoFxProperties
+  href: WindowsAudioWrapper.Models.AudioEndpointReference.html#WindowsAudioWrapper_Models_AudioEndpointReference_ApoFxProperties
+  name: ApoFxProperties
+  nameWithType: AudioEndpointReference.ApoFxProperties
+  fullName: WindowsAudioWrapper.Models.AudioEndpointReference.ApoFxProperties
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, string>
+  nameWithType: Dictionary<string, string>
+  fullName: System.Collections.Generic.Dictionary<string, string>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: WindowsAudioWrapper.Models.AudioEndpointReference.FromEndpointInfo*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioEndpointReference.FromEndpointInfo
+  href: WindowsAudioWrapper.Models.AudioEndpointReference.html#WindowsAudioWrapper_Models_AudioEndpointReference_FromEndpointInfo_WindowsAudioWrapper_Models_AudioEndpointInfo_
+  name: FromEndpointInfo
+  nameWithType: AudioEndpointReference.FromEndpointInfo
+  fullName: WindowsAudioWrapper.Models.AudioEndpointReference.FromEndpointInfo
+- uid: WindowsAudioWrapper.Models.AudioEndpointInfo
+  commentId: T:WindowsAudioWrapper.Models.AudioEndpointInfo
+  parent: WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.Models.AudioEndpointInfo.html
+  name: AudioEndpointInfo
+  nameWithType: AudioEndpointInfo
+  fullName: WindowsAudioWrapper.Models.AudioEndpointInfo
+- uid: WindowsAudioWrapper.Models.AudioEndpointReference
+  commentId: T:WindowsAudioWrapper.Models.AudioEndpointReference
+  parent: WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.Models.AudioEndpointReference.html
+  name: AudioEndpointReference
+  nameWithType: AudioEndpointReference
+  fullName: WindowsAudioWrapper.Models.AudioEndpointReference

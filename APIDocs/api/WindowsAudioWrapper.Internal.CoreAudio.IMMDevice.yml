@@ -1,0 +1,318 @@
+### YamlMime:ManagedReference
+items:
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.IMMDevice
+  id: IMMDevice
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  children:
+  - WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.Activate(System.Guid@,System.Int32,System.IntPtr,System.Object@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.GetId(System.String@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.GetState(System.Int32@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.OpenPropertyStore(System.Int32,WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore@)
+  langs:
+  - csharp
+  - vb
+  name: IMMDevice
+  nameWithType: IMMDevice
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice
+  type: Interface
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IMMDevice
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 246
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: >-
+      [Guid("D666063F-1587-4E43-81F1-B948E807363F")]
+
+      [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+
+      public interface IMMDevice
+    content.vb: >-
+      <Guid("D666063F-1587-4E43-81F1-B948E807363F")>
+
+      <InterfaceType(ComInterfaceType.InterfaceIsIUnknown)>
+
+      Public Interface IMMDevice
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: D666063F-1587-4E43-81F1-B948E807363F
+  - type: System.Runtime.InteropServices.InterfaceTypeAttribute
+    ctor: System.Runtime.InteropServices.InterfaceTypeAttribute.#ctor(System.Runtime.InteropServices.ComInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ComInterfaceType
+      value: 1
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.Activate(System.Guid@,System.Int32,System.IntPtr,System.Object@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.Activate(System.Guid@,System.Int32,System.IntPtr,System.Object@)
+  id: Activate(System.Guid@,System.Int32,System.IntPtr,System.Object@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice
+  langs:
+  - csharp
+  - vb
+  name: Activate(in Guid, int, nint, out object)
+  nameWithType: IMMDevice.Activate(in Guid, int, nint, out object)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.Activate(in System.Guid, int, nint, out object)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: Activate
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 251
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int Activate(in Guid iid, int dwClsCtx, nint pActivationParams, out object ppInterface)
+    parameters:
+    - id: iid
+      type: System.Guid
+    - id: dwClsCtx
+      type: System.Int32
+    - id: pActivationParams
+      type: System.IntPtr
+    - id: ppInterface
+      type: System.Object
+    return:
+      type: System.Int32
+    content.vb: Function Activate(iid As Guid, dwClsCtx As Integer, pActivationParams As IntPtr, ppInterface As Object) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.Activate*
+  nameWithType.vb: IMMDevice.Activate(Guid, Integer, IntPtr, Object)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.Activate(System.Guid, Integer, System.IntPtr, Object)
+  name.vb: Activate(Guid, Integer, IntPtr, Object)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.OpenPropertyStore(System.Int32,WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.OpenPropertyStore(System.Int32,WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore@)
+  id: OpenPropertyStore(System.Int32,WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice
+  langs:
+  - csharp
+  - vb
+  name: OpenPropertyStore(int, out IPropertyStore)
+  nameWithType: IMMDevice.OpenPropertyStore(int, out IPropertyStore)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.OpenPropertyStore(int, out WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: OpenPropertyStore
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 254
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int OpenPropertyStore(int stgmAccess, out IPropertyStore ppProperties)
+    parameters:
+    - id: stgmAccess
+      type: System.Int32
+    - id: ppProperties
+      type: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore
+    return:
+      type: System.Int32
+    content.vb: Function OpenPropertyStore(stgmAccess As Integer, ppProperties As IPropertyStore) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.OpenPropertyStore*
+  nameWithType.vb: IMMDevice.OpenPropertyStore(Integer, IPropertyStore)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.OpenPropertyStore(Integer, WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore)
+  name.vb: OpenPropertyStore(Integer, IPropertyStore)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.GetId(System.String@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.GetId(System.String@)
+  id: GetId(System.String@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice
+  langs:
+  - csharp
+  - vb
+  name: GetId(out string)
+  nameWithType: IMMDevice.GetId(out string)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.GetId(out string)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetId
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 257
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int GetId(out string ppstrId)
+    parameters:
+    - id: ppstrId
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Function GetId(ppstrId As String) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.GetId*
+  nameWithType.vb: IMMDevice.GetId(String)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.GetId(String)
+  name.vb: GetId(String)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.GetState(System.Int32@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.GetState(System.Int32@)
+  id: GetState(System.Int32@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice
+  langs:
+  - csharp
+  - vb
+  name: GetState(out int)
+  nameWithType: IMMDevice.GetState(out int)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.GetState(out int)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetState
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 260
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int GetState(out int pdwState)
+    parameters:
+    - id: pdwState
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Function GetState(pdwState As Integer) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.GetState*
+  nameWithType.vb: IMMDevice.GetState(Integer)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.GetState(Integer)
+  name.vb: GetState(Integer)
+references:
+- uid: WindowsAudioWrapper.Internal.CoreAudio
+  commentId: N:WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.html
+  name: WindowsAudioWrapper.Internal.CoreAudio
+  nameWithType: WindowsAudioWrapper.Internal.CoreAudio
+  fullName: WindowsAudioWrapper.Internal.CoreAudio
+  spec.csharp:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal
+    name: Internal
+    href: WindowsAudioWrapper.Internal.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal.CoreAudio
+    name: CoreAudio
+    href: WindowsAudioWrapper.Internal.CoreAudio.html
+  spec.vb:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal
+    name: Internal
+    href: WindowsAudioWrapper.Internal.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal.CoreAudio
+    name: CoreAudio
+    href: WindowsAudioWrapper.Internal.CoreAudio.html
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.Activate*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.Activate
+  href: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.html#WindowsAudioWrapper_Internal_CoreAudio_IMMDevice_Activate_System_Guid__System_Int32_System_IntPtr_System_Object__
+  name: Activate
+  nameWithType: IMMDevice.Activate
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.Activate
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.OpenPropertyStore*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.OpenPropertyStore
+  href: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.html#WindowsAudioWrapper_Internal_CoreAudio_IMMDevice_OpenPropertyStore_System_Int32_WindowsAudioWrapper_Internal_CoreAudio_IPropertyStore__
+  name: OpenPropertyStore
+  nameWithType: IMMDevice.OpenPropertyStore
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.OpenPropertyStore
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.html
+  name: IPropertyStore
+  nameWithType: IPropertyStore
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.GetId*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.GetId
+  href: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.html#WindowsAudioWrapper_Internal_CoreAudio_IMMDevice_GetId_System_String__
+  name: GetId
+  nameWithType: IMMDevice.GetId
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.GetId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.GetState*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.GetState
+  href: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.html#WindowsAudioWrapper_Internal_CoreAudio_IMMDevice_GetState_System_Int32__
+  name: GetState
+  nameWithType: IMMDevice.GetState
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.GetState

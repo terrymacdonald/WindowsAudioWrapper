@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.EDataFlow
+  id: EDataFlow
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  children:
+  - WindowsAudioWrapper.Internal.CoreAudio.EDataFlow.eAll
+  - WindowsAudioWrapper.Internal.CoreAudio.EDataFlow.eCapture
+  - WindowsAudioWrapper.Internal.CoreAudio.EDataFlow.eRender
+  langs:
+  - csharp
+  - vb
+  name: EDataFlow
+  nameWithType: EDataFlow
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow
+  type: Enum
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: EDataFlow
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 51
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: public enum EDataFlow
+    content.vb: Public Enum EDataFlow
+- uid: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow.eRender
+  commentId: F:WindowsAudioWrapper.Internal.CoreAudio.EDataFlow.eRender
+  id: eRender
+  parent: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow
+  langs:
+  - csharp
+  - vb
+  name: eRender
+  nameWithType: EDataFlow.eRender
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow.eRender
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: eRender
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 53
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: eRender = 0
+    return:
+      type: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow
+- uid: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow.eCapture
+  commentId: F:WindowsAudioWrapper.Internal.CoreAudio.EDataFlow.eCapture
+  id: eCapture
+  parent: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow
+  langs:
+  - csharp
+  - vb
+  name: eCapture
+  nameWithType: EDataFlow.eCapture
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow.eCapture
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: eCapture
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 54
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: eCapture = 1
+    return:
+      type: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow
+- uid: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow.eAll
+  commentId: F:WindowsAudioWrapper.Internal.CoreAudio.EDataFlow.eAll
+  id: eAll
+  parent: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow
+  langs:
+  - csharp
+  - vb
+  name: eAll
+  nameWithType: EDataFlow.eAll
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow.eAll
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: eAll
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 55
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: eAll = 2
+    return:
+      type: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow
+references:
+- uid: WindowsAudioWrapper.Internal.CoreAudio
+  commentId: N:WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.html
+  name: WindowsAudioWrapper.Internal.CoreAudio
+  nameWithType: WindowsAudioWrapper.Internal.CoreAudio
+  fullName: WindowsAudioWrapper.Internal.CoreAudio
+  spec.csharp:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal
+    name: Internal
+    href: WindowsAudioWrapper.Internal.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal.CoreAudio
+    name: CoreAudio
+    href: WindowsAudioWrapper.Internal.CoreAudio.html
+  spec.vb:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal
+    name: Internal
+    href: WindowsAudioWrapper.Internal.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal.CoreAudio
+    name: CoreAudio
+    href: WindowsAudioWrapper.Internal.CoreAudio.html
+- uid: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.EDataFlow
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow.html
+  name: EDataFlow
+  nameWithType: EDataFlow
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.EDataFlow

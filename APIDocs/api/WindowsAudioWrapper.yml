@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: WindowsAudioWrapper
+  commentId: N:WindowsAudioWrapper
+  id: WindowsAudioWrapper
+  children:
+  - WindowsAudioWrapper.IWindowsAudioController
+  - WindowsAudioWrapper.WindowsAudioController
+  - WindowsAudioWrapper.WindowsAudioWrapperException
+  langs:
+  - csharp
+  - vb
+  name: WindowsAudioWrapper
+  nameWithType: WindowsAudioWrapper
+  fullName: WindowsAudioWrapper
+  type: Namespace
+  assemblies:
+  - WindowsAudioWrapper
+references:
+- uid: WindowsAudioWrapper.IWindowsAudioController
+  commentId: T:WindowsAudioWrapper.IWindowsAudioController
+  parent: WindowsAudioWrapper
+  href: WindowsAudioWrapper.IWindowsAudioController.html
+  name: IWindowsAudioController
+  nameWithType: IWindowsAudioController
+  fullName: WindowsAudioWrapper.IWindowsAudioController
+- uid: WindowsAudioWrapper.WindowsAudioController
+  commentId: T:WindowsAudioWrapper.WindowsAudioController
+  href: WindowsAudioWrapper.WindowsAudioController.html
+  name: WindowsAudioController
+  nameWithType: WindowsAudioController
+  fullName: WindowsAudioWrapper.WindowsAudioController
+- uid: WindowsAudioWrapper.WindowsAudioWrapperException
+  commentId: T:WindowsAudioWrapper.WindowsAudioWrapperException
+  href: WindowsAudioWrapper.WindowsAudioWrapperException.html
+  name: WindowsAudioWrapperException
+  nameWithType: WindowsAudioWrapperException
+  fullName: WindowsAudioWrapper.WindowsAudioWrapperException
+- uid: WindowsAudioWrapper
+  commentId: N:WindowsAudioWrapper
+  href: WindowsAudioWrapper.html
+  name: WindowsAudioWrapper
+  nameWithType: WindowsAudioWrapper
+  fullName: WindowsAudioWrapper

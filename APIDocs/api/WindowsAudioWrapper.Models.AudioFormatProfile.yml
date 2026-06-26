@@ -1,0 +1,561 @@
+### YamlMime:ManagedReference
+items:
+- uid: WindowsAudioWrapper.Models.AudioFormatProfile
+  commentId: T:WindowsAudioWrapper.Models.AudioFormatProfile
+  id: AudioFormatProfile
+  parent: WindowsAudioWrapper.Models
+  children:
+  - WindowsAudioWrapper.Models.AudioFormatProfile.BitsPerSample
+  - WindowsAudioWrapper.Models.AudioFormatProfile.ChannelMask
+  - WindowsAudioWrapper.Models.AudioFormatProfile.Channels
+  - WindowsAudioWrapper.Models.AudioFormatProfile.Mode
+  - WindowsAudioWrapper.Models.AudioFormatProfile.SampleFormat
+  - WindowsAudioWrapper.Models.AudioFormatProfile.SampleRate
+  langs:
+  - csharp
+  - vb
+  name: AudioFormatProfile
+  nameWithType: AudioFormatProfile
+  fullName: WindowsAudioWrapper.Models.AudioFormatProfile
+  type: Class
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioFormatProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: AudioFormatProfile
+    path: ../WindowsAudioWrapper/Models/AudioFormatProfile.cs
+    startLine: 7
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Represents the default format of the audio stream for a given endpoint.
+  example: []
+  syntax:
+    content: public sealed class AudioFormatProfile
+    content.vb: Public NotInheritable Class AudioFormatProfile
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: WindowsAudioWrapper.Models.AudioFormatProfile.SampleRate
+  commentId: P:WindowsAudioWrapper.Models.AudioFormatProfile.SampleRate
+  id: SampleRate
+  parent: WindowsAudioWrapper.Models.AudioFormatProfile
+  langs:
+  - csharp
+  - vb
+  name: SampleRate
+  nameWithType: AudioFormatProfile.SampleRate
+  fullName: WindowsAudioWrapper.Models.AudioFormatProfile.SampleRate
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioFormatProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: SampleRate
+    path: ../WindowsAudioWrapper/Models/AudioFormatProfile.cs
+    startLine: 10
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the sample rate in Hertz (e.g., 48000).
+  example: []
+  syntax:
+    content: public int SampleRate { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SampleRate As Integer
+  overload: WindowsAudioWrapper.Models.AudioFormatProfile.SampleRate*
+- uid: WindowsAudioWrapper.Models.AudioFormatProfile.BitsPerSample
+  commentId: P:WindowsAudioWrapper.Models.AudioFormatProfile.BitsPerSample
+  id: BitsPerSample
+  parent: WindowsAudioWrapper.Models.AudioFormatProfile
+  langs:
+  - csharp
+  - vb
+  name: BitsPerSample
+  nameWithType: AudioFormatProfile.BitsPerSample
+  fullName: WindowsAudioWrapper.Models.AudioFormatProfile.BitsPerSample
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioFormatProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: BitsPerSample
+    path: ../WindowsAudioWrapper/Models/AudioFormatProfile.cs
+    startLine: 13
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the bit depth per sample (e.g., 16, 24, 32).
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("BitDepth")]
+
+      public int BitsPerSample { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <JsonProperty("BitDepth")>
+
+      Public Property BitsPerSample As Integer
+  overload: WindowsAudioWrapper.Models.AudioFormatProfile.BitsPerSample*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: BitDepth
+- uid: WindowsAudioWrapper.Models.AudioFormatProfile.Channels
+  commentId: P:WindowsAudioWrapper.Models.AudioFormatProfile.Channels
+  id: Channels
+  parent: WindowsAudioWrapper.Models.AudioFormatProfile
+  langs:
+  - csharp
+  - vb
+  name: Channels
+  nameWithType: AudioFormatProfile.Channels
+  fullName: WindowsAudioWrapper.Models.AudioFormatProfile.Channels
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioFormatProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: Channels
+    path: ../WindowsAudioWrapper/Models/AudioFormatProfile.cs
+    startLine: 17
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the number of audio channels (e.g., 2 for stereo).
+  example: []
+  syntax:
+    content: public int Channels { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Channels As Integer
+  overload: WindowsAudioWrapper.Models.AudioFormatProfile.Channels*
+- uid: WindowsAudioWrapper.Models.AudioFormatProfile.ChannelMask
+  commentId: P:WindowsAudioWrapper.Models.AudioFormatProfile.ChannelMask
+  id: ChannelMask
+  parent: WindowsAudioWrapper.Models.AudioFormatProfile
+  langs:
+  - csharp
+  - vb
+  name: ChannelMask
+  nameWithType: AudioFormatProfile.ChannelMask
+  fullName: WindowsAudioWrapper.Models.AudioFormatProfile.ChannelMask
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioFormatProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: ChannelMask
+    path: ../WindowsAudioWrapper/Models/AudioFormatProfile.cs
+    startLine: 20
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the physical speaker destination matrix bitmask layout (e.g., 0x3F for standard 5.1 surround routing).
+  example: []
+  syntax:
+    content: public uint ChannelMask { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property ChannelMask As UInteger
+  overload: WindowsAudioWrapper.Models.AudioFormatProfile.ChannelMask*
+- uid: WindowsAudioWrapper.Models.AudioFormatProfile.SampleFormat
+  commentId: P:WindowsAudioWrapper.Models.AudioFormatProfile.SampleFormat
+  id: SampleFormat
+  parent: WindowsAudioWrapper.Models.AudioFormatProfile
+  langs:
+  - csharp
+  - vb
+  name: SampleFormat
+  nameWithType: AudioFormatProfile.SampleFormat
+  fullName: WindowsAudioWrapper.Models.AudioFormatProfile.SampleFormat
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioFormatProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: SampleFormat
+    path: ../WindowsAudioWrapper/Models/AudioFormatProfile.cs
+    startLine: 23
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the underlying data format (e.g., PCM, IEEE Float).
+  example: []
+  syntax:
+    content: public AudioSampleFormat SampleFormat { get; set; }
+    parameters: []
+    return:
+      type: WindowsAudioWrapper.Models.AudioSampleFormat
+    content.vb: Public Property SampleFormat As AudioSampleFormat
+  overload: WindowsAudioWrapper.Models.AudioFormatProfile.SampleFormat*
+- uid: WindowsAudioWrapper.Models.AudioFormatProfile.Mode
+  commentId: P:WindowsAudioWrapper.Models.AudioFormatProfile.Mode
+  id: Mode
+  parent: WindowsAudioWrapper.Models.AudioFormatProfile
+  langs:
+  - csharp
+  - vb
+  name: Mode
+  nameWithType: AudioFormatProfile.Mode
+  fullName: WindowsAudioWrapper.Models.AudioFormatProfile.Mode
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioFormatProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: Mode
+    path: ../WindowsAudioWrapper/Models/AudioFormatProfile.cs
+    startLine: 26
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the mode of the format (Shared or Exclusive). Safely ignored in JSON layout.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public AudioFormatMode Mode { get; set; }
+    parameters: []
+    return:
+      type: WindowsAudioWrapper.Models.AudioFormatMode
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property Mode As AudioFormatMode
+  overload: WindowsAudioWrapper.Models.AudioFormatProfile.Mode*
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+references:
+- uid: WindowsAudioWrapper.Models
+  commentId: N:WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.html
+  name: WindowsAudioWrapper.Models
+  nameWithType: WindowsAudioWrapper.Models
+  fullName: WindowsAudioWrapper.Models
+  spec.csharp:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Models
+    name: Models
+    href: WindowsAudioWrapper.Models.html
+  spec.vb:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Models
+    name: Models
+    href: WindowsAudioWrapper.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WindowsAudioWrapper.Models.AudioFormatProfile.SampleRate*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioFormatProfile.SampleRate
+  href: WindowsAudioWrapper.Models.AudioFormatProfile.html#WindowsAudioWrapper_Models_AudioFormatProfile_SampleRate
+  name: SampleRate
+  nameWithType: AudioFormatProfile.SampleRate
+  fullName: WindowsAudioWrapper.Models.AudioFormatProfile.SampleRate
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: WindowsAudioWrapper.Models.AudioFormatProfile.BitsPerSample*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioFormatProfile.BitsPerSample
+  href: WindowsAudioWrapper.Models.AudioFormatProfile.html#WindowsAudioWrapper_Models_AudioFormatProfile_BitsPerSample
+  name: BitsPerSample
+  nameWithType: AudioFormatProfile.BitsPerSample
+  fullName: WindowsAudioWrapper.Models.AudioFormatProfile.BitsPerSample
+- uid: WindowsAudioWrapper.Models.AudioFormatProfile.Channels*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioFormatProfile.Channels
+  href: WindowsAudioWrapper.Models.AudioFormatProfile.html#WindowsAudioWrapper_Models_AudioFormatProfile_Channels
+  name: Channels
+  nameWithType: AudioFormatProfile.Channels
+  fullName: WindowsAudioWrapper.Models.AudioFormatProfile.Channels
+- uid: WindowsAudioWrapper.Models.AudioFormatProfile.ChannelMask*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioFormatProfile.ChannelMask
+  href: WindowsAudioWrapper.Models.AudioFormatProfile.html#WindowsAudioWrapper_Models_AudioFormatProfile_ChannelMask
+  name: ChannelMask
+  nameWithType: AudioFormatProfile.ChannelMask
+  fullName: WindowsAudioWrapper.Models.AudioFormatProfile.ChannelMask
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: WindowsAudioWrapper.Models.AudioFormatProfile.SampleFormat*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioFormatProfile.SampleFormat
+  href: WindowsAudioWrapper.Models.AudioFormatProfile.html#WindowsAudioWrapper_Models_AudioFormatProfile_SampleFormat
+  name: SampleFormat
+  nameWithType: AudioFormatProfile.SampleFormat
+  fullName: WindowsAudioWrapper.Models.AudioFormatProfile.SampleFormat
+- uid: WindowsAudioWrapper.Models.AudioSampleFormat
+  commentId: T:WindowsAudioWrapper.Models.AudioSampleFormat
+  parent: WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.Models.AudioSampleFormat.html
+  name: AudioSampleFormat
+  nameWithType: AudioSampleFormat
+  fullName: WindowsAudioWrapper.Models.AudioSampleFormat
+- uid: WindowsAudioWrapper.Models.AudioFormatProfile.Mode*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioFormatProfile.Mode
+  href: WindowsAudioWrapper.Models.AudioFormatProfile.html#WindowsAudioWrapper_Models_AudioFormatProfile_Mode
+  name: Mode
+  nameWithType: AudioFormatProfile.Mode
+  fullName: WindowsAudioWrapper.Models.AudioFormatProfile.Mode
+- uid: WindowsAudioWrapper.Models.AudioFormatMode
+  commentId: T:WindowsAudioWrapper.Models.AudioFormatMode
+  parent: WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.Models.AudioFormatMode.html
+  name: AudioFormatMode
+  nameWithType: AudioFormatMode
+  fullName: WindowsAudioWrapper.Models.AudioFormatMode

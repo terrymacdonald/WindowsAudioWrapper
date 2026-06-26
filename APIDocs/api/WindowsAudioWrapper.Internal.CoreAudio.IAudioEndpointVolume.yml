@@ -1,0 +1,912 @@
+### YamlMime:ManagedReference
+items:
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+  id: IAudioEndpointVolume
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  children:
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelCount(System.UInt32@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelVolumeLevel(System.UInt32,System.Single@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelVolumeLevelScalar(System.UInt32,System.Single@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMasterVolumeLevel(System.Single@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMasterVolumeLevelScalar(System.Single@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMute(System.Boolean@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetVolumeRange(System.Single@,System.Single@,System.Single@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetVolumeStepInfo(System.UInt32@,System.UInt32@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.QueryHardwareSupport(System.UInt32@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.RegisterControlChangeNotify(System.IntPtr)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetChannelVolumeLevel(System.UInt32,System.Single,System.Guid@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetChannelVolumeLevelScalar(System.UInt32,System.Single,System.Guid@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMasterVolumeLevel(System.Single,System.Guid@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMasterVolumeLevelScalar(System.Single,System.Guid@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMute(System.Boolean,System.Guid@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.UnregisterControlChangeNotify(System.IntPtr)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.VolumeStepDown(System.Guid@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.VolumeStepUp(System.Guid@)
+  langs:
+  - csharp
+  - vb
+  name: IAudioEndpointVolume
+  nameWithType: IAudioEndpointVolume
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+  type: Interface
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IAudioEndpointVolume
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 285
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: >-
+      [Guid("5CDF2C82-841E-4546-9722-0CF74078229A")]
+
+      [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+
+      public interface IAudioEndpointVolume
+    content.vb: >-
+      <Guid("5CDF2C82-841E-4546-9722-0CF74078229A")>
+
+      <InterfaceType(ComInterfaceType.InterfaceIsIUnknown)>
+
+      Public Interface IAudioEndpointVolume
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 5CDF2C82-841E-4546-9722-0CF74078229A
+  - type: System.Runtime.InteropServices.InterfaceTypeAttribute
+    ctor: System.Runtime.InteropServices.InterfaceTypeAttribute.#ctor(System.Runtime.InteropServices.ComInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ComInterfaceType
+      value: 1
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.RegisterControlChangeNotify(System.IntPtr)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.RegisterControlChangeNotify(System.IntPtr)
+  id: RegisterControlChangeNotify(System.IntPtr)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: RegisterControlChangeNotify(nint)
+  nameWithType: IAudioEndpointVolume.RegisterControlChangeNotify(nint)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.RegisterControlChangeNotify(nint)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: RegisterControlChangeNotify
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 290
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int RegisterControlChangeNotify(nint pNotify)
+    parameters:
+    - id: pNotify
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Function RegisterControlChangeNotify(pNotify As IntPtr) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.RegisterControlChangeNotify*
+  nameWithType.vb: IAudioEndpointVolume.RegisterControlChangeNotify(IntPtr)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.RegisterControlChangeNotify(System.IntPtr)
+  name.vb: RegisterControlChangeNotify(IntPtr)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.UnregisterControlChangeNotify(System.IntPtr)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.UnregisterControlChangeNotify(System.IntPtr)
+  id: UnregisterControlChangeNotify(System.IntPtr)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: UnregisterControlChangeNotify(nint)
+  nameWithType: IAudioEndpointVolume.UnregisterControlChangeNotify(nint)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.UnregisterControlChangeNotify(nint)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: UnregisterControlChangeNotify
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 293
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int UnregisterControlChangeNotify(nint pNotify)
+    parameters:
+    - id: pNotify
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Function UnregisterControlChangeNotify(pNotify As IntPtr) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.UnregisterControlChangeNotify*
+  nameWithType.vb: IAudioEndpointVolume.UnregisterControlChangeNotify(IntPtr)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.UnregisterControlChangeNotify(System.IntPtr)
+  name.vb: UnregisterControlChangeNotify(IntPtr)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelCount(System.UInt32@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelCount(System.UInt32@)
+  id: GetChannelCount(System.UInt32@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: GetChannelCount(out uint)
+  nameWithType: IAudioEndpointVolume.GetChannelCount(out uint)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelCount(out uint)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetChannelCount
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 296
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int GetChannelCount(out uint pnChannelCount)
+    parameters:
+    - id: pnChannelCount
+      type: System.UInt32
+    return:
+      type: System.Int32
+    content.vb: Function GetChannelCount(pnChannelCount As UInteger) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelCount*
+  nameWithType.vb: IAudioEndpointVolume.GetChannelCount(UInteger)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelCount(UInteger)
+  name.vb: GetChannelCount(UInteger)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMasterVolumeLevel(System.Single,System.Guid@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMasterVolumeLevel(System.Single,System.Guid@)
+  id: SetMasterVolumeLevel(System.Single,System.Guid@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: SetMasterVolumeLevel(float, in Guid)
+  nameWithType: IAudioEndpointVolume.SetMasterVolumeLevel(float, in Guid)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMasterVolumeLevel(float, in System.Guid)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: SetMasterVolumeLevel
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 299
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int SetMasterVolumeLevel(float fLevelDB, in Guid pguidEventContext)
+    parameters:
+    - id: fLevelDB
+      type: System.Single
+    - id: pguidEventContext
+      type: System.Guid
+    return:
+      type: System.Int32
+    content.vb: Function SetMasterVolumeLevel(fLevelDB As Single, pguidEventContext As Guid) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMasterVolumeLevel*
+  nameWithType.vb: IAudioEndpointVolume.SetMasterVolumeLevel(Single, Guid)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMasterVolumeLevel(Single, System.Guid)
+  name.vb: SetMasterVolumeLevel(Single, Guid)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMasterVolumeLevelScalar(System.Single,System.Guid@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMasterVolumeLevelScalar(System.Single,System.Guid@)
+  id: SetMasterVolumeLevelScalar(System.Single,System.Guid@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: SetMasterVolumeLevelScalar(float, in Guid)
+  nameWithType: IAudioEndpointVolume.SetMasterVolumeLevelScalar(float, in Guid)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMasterVolumeLevelScalar(float, in System.Guid)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: SetMasterVolumeLevelScalar
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 302
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int SetMasterVolumeLevelScalar(float fLevel, in Guid pguidEventContext)
+    parameters:
+    - id: fLevel
+      type: System.Single
+    - id: pguidEventContext
+      type: System.Guid
+    return:
+      type: System.Int32
+    content.vb: Function SetMasterVolumeLevelScalar(fLevel As Single, pguidEventContext As Guid) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMasterVolumeLevelScalar*
+  nameWithType.vb: IAudioEndpointVolume.SetMasterVolumeLevelScalar(Single, Guid)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMasterVolumeLevelScalar(Single, System.Guid)
+  name.vb: SetMasterVolumeLevelScalar(Single, Guid)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMasterVolumeLevel(System.Single@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMasterVolumeLevel(System.Single@)
+  id: GetMasterVolumeLevel(System.Single@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: GetMasterVolumeLevel(out float)
+  nameWithType: IAudioEndpointVolume.GetMasterVolumeLevel(out float)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMasterVolumeLevel(out float)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetMasterVolumeLevel
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 305
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int GetMasterVolumeLevel(out float pfLevelDB)
+    parameters:
+    - id: pfLevelDB
+      type: System.Single
+    return:
+      type: System.Int32
+    content.vb: Function GetMasterVolumeLevel(pfLevelDB As Single) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMasterVolumeLevel*
+  nameWithType.vb: IAudioEndpointVolume.GetMasterVolumeLevel(Single)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMasterVolumeLevel(Single)
+  name.vb: GetMasterVolumeLevel(Single)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMasterVolumeLevelScalar(System.Single@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMasterVolumeLevelScalar(System.Single@)
+  id: GetMasterVolumeLevelScalar(System.Single@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: GetMasterVolumeLevelScalar(out float)
+  nameWithType: IAudioEndpointVolume.GetMasterVolumeLevelScalar(out float)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMasterVolumeLevelScalar(out float)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetMasterVolumeLevelScalar
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 308
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int GetMasterVolumeLevelScalar(out float pfLevel)
+    parameters:
+    - id: pfLevel
+      type: System.Single
+    return:
+      type: System.Int32
+    content.vb: Function GetMasterVolumeLevelScalar(pfLevel As Single) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMasterVolumeLevelScalar*
+  nameWithType.vb: IAudioEndpointVolume.GetMasterVolumeLevelScalar(Single)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMasterVolumeLevelScalar(Single)
+  name.vb: GetMasterVolumeLevelScalar(Single)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetChannelVolumeLevel(System.UInt32,System.Single,System.Guid@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetChannelVolumeLevel(System.UInt32,System.Single,System.Guid@)
+  id: SetChannelVolumeLevel(System.UInt32,System.Single,System.Guid@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: SetChannelVolumeLevel(uint, float, in Guid)
+  nameWithType: IAudioEndpointVolume.SetChannelVolumeLevel(uint, float, in Guid)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetChannelVolumeLevel(uint, float, in System.Guid)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: SetChannelVolumeLevel
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 311
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int SetChannelVolumeLevel(uint nChannel, float fLevelDB, in Guid pguidEventContext)
+    parameters:
+    - id: nChannel
+      type: System.UInt32
+    - id: fLevelDB
+      type: System.Single
+    - id: pguidEventContext
+      type: System.Guid
+    return:
+      type: System.Int32
+    content.vb: Function SetChannelVolumeLevel(nChannel As UInteger, fLevelDB As Single, pguidEventContext As Guid) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetChannelVolumeLevel*
+  nameWithType.vb: IAudioEndpointVolume.SetChannelVolumeLevel(UInteger, Single, Guid)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetChannelVolumeLevel(UInteger, Single, System.Guid)
+  name.vb: SetChannelVolumeLevel(UInteger, Single, Guid)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetChannelVolumeLevelScalar(System.UInt32,System.Single,System.Guid@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetChannelVolumeLevelScalar(System.UInt32,System.Single,System.Guid@)
+  id: SetChannelVolumeLevelScalar(System.UInt32,System.Single,System.Guid@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: SetChannelVolumeLevelScalar(uint, float, in Guid)
+  nameWithType: IAudioEndpointVolume.SetChannelVolumeLevelScalar(uint, float, in Guid)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetChannelVolumeLevelScalar(uint, float, in System.Guid)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: SetChannelVolumeLevelScalar
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 314
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int SetChannelVolumeLevelScalar(uint nChannel, float fLevel, in Guid pguidEventContext)
+    parameters:
+    - id: nChannel
+      type: System.UInt32
+    - id: fLevel
+      type: System.Single
+    - id: pguidEventContext
+      type: System.Guid
+    return:
+      type: System.Int32
+    content.vb: Function SetChannelVolumeLevelScalar(nChannel As UInteger, fLevel As Single, pguidEventContext As Guid) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetChannelVolumeLevelScalar*
+  nameWithType.vb: IAudioEndpointVolume.SetChannelVolumeLevelScalar(UInteger, Single, Guid)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetChannelVolumeLevelScalar(UInteger, Single, System.Guid)
+  name.vb: SetChannelVolumeLevelScalar(UInteger, Single, Guid)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelVolumeLevel(System.UInt32,System.Single@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelVolumeLevel(System.UInt32,System.Single@)
+  id: GetChannelVolumeLevel(System.UInt32,System.Single@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: GetChannelVolumeLevel(uint, out float)
+  nameWithType: IAudioEndpointVolume.GetChannelVolumeLevel(uint, out float)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelVolumeLevel(uint, out float)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetChannelVolumeLevel
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 317
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int GetChannelVolumeLevel(uint nChannel, out float pfLevelDB)
+    parameters:
+    - id: nChannel
+      type: System.UInt32
+    - id: pfLevelDB
+      type: System.Single
+    return:
+      type: System.Int32
+    content.vb: Function GetChannelVolumeLevel(nChannel As UInteger, pfLevelDB As Single) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelVolumeLevel*
+  nameWithType.vb: IAudioEndpointVolume.GetChannelVolumeLevel(UInteger, Single)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelVolumeLevel(UInteger, Single)
+  name.vb: GetChannelVolumeLevel(UInteger, Single)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelVolumeLevelScalar(System.UInt32,System.Single@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelVolumeLevelScalar(System.UInt32,System.Single@)
+  id: GetChannelVolumeLevelScalar(System.UInt32,System.Single@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: GetChannelVolumeLevelScalar(uint, out float)
+  nameWithType: IAudioEndpointVolume.GetChannelVolumeLevelScalar(uint, out float)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelVolumeLevelScalar(uint, out float)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetChannelVolumeLevelScalar
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 320
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int GetChannelVolumeLevelScalar(uint nChannel, out float pfLevel)
+    parameters:
+    - id: nChannel
+      type: System.UInt32
+    - id: pfLevel
+      type: System.Single
+    return:
+      type: System.Int32
+    content.vb: Function GetChannelVolumeLevelScalar(nChannel As UInteger, pfLevel As Single) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelVolumeLevelScalar*
+  nameWithType.vb: IAudioEndpointVolume.GetChannelVolumeLevelScalar(UInteger, Single)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelVolumeLevelScalar(UInteger, Single)
+  name.vb: GetChannelVolumeLevelScalar(UInteger, Single)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMute(System.Boolean,System.Guid@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMute(System.Boolean,System.Guid@)
+  id: SetMute(System.Boolean,System.Guid@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: SetMute(bool, in Guid)
+  nameWithType: IAudioEndpointVolume.SetMute(bool, in Guid)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMute(bool, in System.Guid)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: SetMute
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 323
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int SetMute(bool bMute, in Guid pguidEventContext)
+    parameters:
+    - id: bMute
+      type: System.Boolean
+    - id: pguidEventContext
+      type: System.Guid
+    return:
+      type: System.Int32
+    content.vb: Function SetMute(bMute As Boolean, pguidEventContext As Guid) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMute*
+  nameWithType.vb: IAudioEndpointVolume.SetMute(Boolean, Guid)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMute(Boolean, System.Guid)
+  name.vb: SetMute(Boolean, Guid)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMute(System.Boolean@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMute(System.Boolean@)
+  id: GetMute(System.Boolean@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: GetMute(out bool)
+  nameWithType: IAudioEndpointVolume.GetMute(out bool)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMute(out bool)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetMute
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 326
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int GetMute(out bool pbMute)
+    parameters:
+    - id: pbMute
+      type: System.Boolean
+    return:
+      type: System.Int32
+    content.vb: Function GetMute(pbMute As Boolean) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMute*
+  nameWithType.vb: IAudioEndpointVolume.GetMute(Boolean)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMute(Boolean)
+  name.vb: GetMute(Boolean)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetVolumeStepInfo(System.UInt32@,System.UInt32@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetVolumeStepInfo(System.UInt32@,System.UInt32@)
+  id: GetVolumeStepInfo(System.UInt32@,System.UInt32@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: GetVolumeStepInfo(out uint, out uint)
+  nameWithType: IAudioEndpointVolume.GetVolumeStepInfo(out uint, out uint)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetVolumeStepInfo(out uint, out uint)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetVolumeStepInfo
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 329
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int GetVolumeStepInfo(out uint pnStep, out uint pnStepCount)
+    parameters:
+    - id: pnStep
+      type: System.UInt32
+    - id: pnStepCount
+      type: System.UInt32
+    return:
+      type: System.Int32
+    content.vb: Function GetVolumeStepInfo(pnStep As UInteger, pnStepCount As UInteger) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetVolumeStepInfo*
+  nameWithType.vb: IAudioEndpointVolume.GetVolumeStepInfo(UInteger, UInteger)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetVolumeStepInfo(UInteger, UInteger)
+  name.vb: GetVolumeStepInfo(UInteger, UInteger)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.VolumeStepUp(System.Guid@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.VolumeStepUp(System.Guid@)
+  id: VolumeStepUp(System.Guid@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: VolumeStepUp(in Guid)
+  nameWithType: IAudioEndpointVolume.VolumeStepUp(in Guid)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.VolumeStepUp(in System.Guid)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: VolumeStepUp
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 332
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int VolumeStepUp(in Guid pguidEventContext)
+    parameters:
+    - id: pguidEventContext
+      type: System.Guid
+    return:
+      type: System.Int32
+    content.vb: Function VolumeStepUp(pguidEventContext As Guid) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.VolumeStepUp*
+  nameWithType.vb: IAudioEndpointVolume.VolumeStepUp(Guid)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.VolumeStepUp(System.Guid)
+  name.vb: VolumeStepUp(Guid)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.VolumeStepDown(System.Guid@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.VolumeStepDown(System.Guid@)
+  id: VolumeStepDown(System.Guid@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: VolumeStepDown(in Guid)
+  nameWithType: IAudioEndpointVolume.VolumeStepDown(in Guid)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.VolumeStepDown(in System.Guid)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: VolumeStepDown
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 335
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int VolumeStepDown(in Guid pguidEventContext)
+    parameters:
+    - id: pguidEventContext
+      type: System.Guid
+    return:
+      type: System.Int32
+    content.vb: Function VolumeStepDown(pguidEventContext As Guid) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.VolumeStepDown*
+  nameWithType.vb: IAudioEndpointVolume.VolumeStepDown(Guid)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.VolumeStepDown(System.Guid)
+  name.vb: VolumeStepDown(Guid)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.QueryHardwareSupport(System.UInt32@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.QueryHardwareSupport(System.UInt32@)
+  id: QueryHardwareSupport(System.UInt32@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: QueryHardwareSupport(out uint)
+  nameWithType: IAudioEndpointVolume.QueryHardwareSupport(out uint)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.QueryHardwareSupport(out uint)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: QueryHardwareSupport
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 338
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int QueryHardwareSupport(out uint pdwHardwareSupportMask)
+    parameters:
+    - id: pdwHardwareSupportMask
+      type: System.UInt32
+    return:
+      type: System.Int32
+    content.vb: Function QueryHardwareSupport(pdwHardwareSupportMask As UInteger) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.QueryHardwareSupport*
+  nameWithType.vb: IAudioEndpointVolume.QueryHardwareSupport(UInteger)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.QueryHardwareSupport(UInteger)
+  name.vb: QueryHardwareSupport(UInteger)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetVolumeRange(System.Single@,System.Single@,System.Single@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetVolumeRange(System.Single@,System.Single@,System.Single@)
+  id: GetVolumeRange(System.Single@,System.Single@,System.Single@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: GetVolumeRange(out float, out float, out float)
+  nameWithType: IAudioEndpointVolume.GetVolumeRange(out float, out float, out float)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetVolumeRange(out float, out float, out float)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetVolumeRange
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 341
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int GetVolumeRange(out float pflVolumeMindB, out float pflVolumeMaxdB, out float pflVolumeIncrementdB)
+    parameters:
+    - id: pflVolumeMindB
+      type: System.Single
+    - id: pflVolumeMaxdB
+      type: System.Single
+    - id: pflVolumeIncrementdB
+      type: System.Single
+    return:
+      type: System.Int32
+    content.vb: Function GetVolumeRange(pflVolumeMindB As Single, pflVolumeMaxdB As Single, pflVolumeIncrementdB As Single) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetVolumeRange*
+  nameWithType.vb: IAudioEndpointVolume.GetVolumeRange(Single, Single, Single)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetVolumeRange(Single, Single, Single)
+  name.vb: GetVolumeRange(Single, Single, Single)
+references:
+- uid: WindowsAudioWrapper.Internal.CoreAudio
+  commentId: N:WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.html
+  name: WindowsAudioWrapper.Internal.CoreAudio
+  nameWithType: WindowsAudioWrapper.Internal.CoreAudio
+  fullName: WindowsAudioWrapper.Internal.CoreAudio
+  spec.csharp:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal
+    name: Internal
+    href: WindowsAudioWrapper.Internal.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal.CoreAudio
+    name: CoreAudio
+    href: WindowsAudioWrapper.Internal.CoreAudio.html
+  spec.vb:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal
+    name: Internal
+    href: WindowsAudioWrapper.Internal.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal.CoreAudio
+    name: CoreAudio
+    href: WindowsAudioWrapper.Internal.CoreAudio.html
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.RegisterControlChangeNotify*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.RegisterControlChangeNotify
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioEndpointVolume_RegisterControlChangeNotify_System_IntPtr_
+  name: RegisterControlChangeNotify
+  nameWithType: IAudioEndpointVolume.RegisterControlChangeNotify
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.RegisterControlChangeNotify
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.UnregisterControlChangeNotify*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.UnregisterControlChangeNotify
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioEndpointVolume_UnregisterControlChangeNotify_System_IntPtr_
+  name: UnregisterControlChangeNotify
+  nameWithType: IAudioEndpointVolume.UnregisterControlChangeNotify
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.UnregisterControlChangeNotify
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelCount*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelCount
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioEndpointVolume_GetChannelCount_System_UInt32__
+  name: GetChannelCount
+  nameWithType: IAudioEndpointVolume.GetChannelCount
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelCount
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMasterVolumeLevel*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMasterVolumeLevel
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioEndpointVolume_SetMasterVolumeLevel_System_Single_System_Guid__
+  name: SetMasterVolumeLevel
+  nameWithType: IAudioEndpointVolume.SetMasterVolumeLevel
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMasterVolumeLevel
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMasterVolumeLevelScalar*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMasterVolumeLevelScalar
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioEndpointVolume_SetMasterVolumeLevelScalar_System_Single_System_Guid__
+  name: SetMasterVolumeLevelScalar
+  nameWithType: IAudioEndpointVolume.SetMasterVolumeLevelScalar
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMasterVolumeLevelScalar
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMasterVolumeLevel*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMasterVolumeLevel
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioEndpointVolume_GetMasterVolumeLevel_System_Single__
+  name: GetMasterVolumeLevel
+  nameWithType: IAudioEndpointVolume.GetMasterVolumeLevel
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMasterVolumeLevel
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMasterVolumeLevelScalar*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMasterVolumeLevelScalar
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioEndpointVolume_GetMasterVolumeLevelScalar_System_Single__
+  name: GetMasterVolumeLevelScalar
+  nameWithType: IAudioEndpointVolume.GetMasterVolumeLevelScalar
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMasterVolumeLevelScalar
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetChannelVolumeLevel*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetChannelVolumeLevel
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioEndpointVolume_SetChannelVolumeLevel_System_UInt32_System_Single_System_Guid__
+  name: SetChannelVolumeLevel
+  nameWithType: IAudioEndpointVolume.SetChannelVolumeLevel
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetChannelVolumeLevel
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetChannelVolumeLevelScalar*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetChannelVolumeLevelScalar
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioEndpointVolume_SetChannelVolumeLevelScalar_System_UInt32_System_Single_System_Guid__
+  name: SetChannelVolumeLevelScalar
+  nameWithType: IAudioEndpointVolume.SetChannelVolumeLevelScalar
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetChannelVolumeLevelScalar
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelVolumeLevel*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelVolumeLevel
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioEndpointVolume_GetChannelVolumeLevel_System_UInt32_System_Single__
+  name: GetChannelVolumeLevel
+  nameWithType: IAudioEndpointVolume.GetChannelVolumeLevel
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelVolumeLevel
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelVolumeLevelScalar*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelVolumeLevelScalar
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioEndpointVolume_GetChannelVolumeLevelScalar_System_UInt32_System_Single__
+  name: GetChannelVolumeLevelScalar
+  nameWithType: IAudioEndpointVolume.GetChannelVolumeLevelScalar
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetChannelVolumeLevelScalar
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMute*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMute
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioEndpointVolume_SetMute_System_Boolean_System_Guid__
+  name: SetMute
+  nameWithType: IAudioEndpointVolume.SetMute
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.SetMute
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMute*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMute
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioEndpointVolume_GetMute_System_Boolean__
+  name: GetMute
+  nameWithType: IAudioEndpointVolume.GetMute
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetMute
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetVolumeStepInfo*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetVolumeStepInfo
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioEndpointVolume_GetVolumeStepInfo_System_UInt32__System_UInt32__
+  name: GetVolumeStepInfo
+  nameWithType: IAudioEndpointVolume.GetVolumeStepInfo
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetVolumeStepInfo
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.VolumeStepUp*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.VolumeStepUp
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioEndpointVolume_VolumeStepUp_System_Guid__
+  name: VolumeStepUp
+  nameWithType: IAudioEndpointVolume.VolumeStepUp
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.VolumeStepUp
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.VolumeStepDown*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.VolumeStepDown
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioEndpointVolume_VolumeStepDown_System_Guid__
+  name: VolumeStepDown
+  nameWithType: IAudioEndpointVolume.VolumeStepDown
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.VolumeStepDown
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.QueryHardwareSupport*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.QueryHardwareSupport
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioEndpointVolume_QueryHardwareSupport_System_UInt32__
+  name: QueryHardwareSupport
+  nameWithType: IAudioEndpointVolume.QueryHardwareSupport
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.QueryHardwareSupport
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetVolumeRange*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetVolumeRange
+  href: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.html#WindowsAudioWrapper_Internal_CoreAudio_IAudioEndpointVolume_GetVolumeRange_System_Single__System_Single__System_Single__
+  name: GetVolumeRange
+  nameWithType: IAudioEndpointVolume.GetVolumeRange
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.GetVolumeRange

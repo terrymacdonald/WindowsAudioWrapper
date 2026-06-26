@@ -1,0 +1,626 @@
+### YamlMime:ManagedReference
+items:
+- uid: WindowsAudioWrapper.Models.AudioOperationMessage
+  commentId: T:WindowsAudioWrapper.Models.AudioOperationMessage
+  id: AudioOperationMessage
+  parent: WindowsAudioWrapper.Models
+  children:
+  - WindowsAudioWrapper.Models.AudioOperationMessage.Code
+  - WindowsAudioWrapper.Models.AudioOperationMessage.DeviceId
+  - WindowsAudioWrapper.Models.AudioOperationMessage.DeviceName
+  - WindowsAudioWrapper.Models.AudioOperationMessage.Error(WindowsAudioWrapper.Models.AudioMessageCode,System.String)
+  - WindowsAudioWrapper.Models.AudioOperationMessage.Info(WindowsAudioWrapper.Models.AudioMessageCode,System.String)
+  - WindowsAudioWrapper.Models.AudioOperationMessage.Message
+  - WindowsAudioWrapper.Models.AudioOperationMessage.Severity
+  - WindowsAudioWrapper.Models.AudioOperationMessage.Warning(WindowsAudioWrapper.Models.AudioMessageCode,System.String)
+  langs:
+  - csharp
+  - vb
+  name: AudioOperationMessage
+  nameWithType: AudioOperationMessage
+  fullName: WindowsAudioWrapper.Models.AudioOperationMessage
+  type: Class
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioOperationMessage.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: AudioOperationMessage
+    path: ../WindowsAudioWrapper/Models/AudioOperationMessage.cs
+    startLine: 5
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Represents a message generated during validation or application of an audio profile.
+  example: []
+  syntax:
+    content: public sealed class AudioOperationMessage
+    content.vb: Public NotInheritable Class AudioOperationMessage
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: WindowsAudioWrapper.Models.AudioOperationMessage.Severity
+  commentId: P:WindowsAudioWrapper.Models.AudioOperationMessage.Severity
+  id: Severity
+  parent: WindowsAudioWrapper.Models.AudioOperationMessage
+  langs:
+  - csharp
+  - vb
+  name: Severity
+  nameWithType: AudioOperationMessage.Severity
+  fullName: WindowsAudioWrapper.Models.AudioOperationMessage.Severity
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioOperationMessage.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: Severity
+    path: ../WindowsAudioWrapper/Models/AudioOperationMessage.cs
+    startLine: 8
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the severity of the message.
+  example: []
+  syntax:
+    content: public AudioMessageSeverity Severity { get; set; }
+    parameters: []
+    return:
+      type: WindowsAudioWrapper.Models.AudioMessageSeverity
+    content.vb: Public Property Severity As AudioMessageSeverity
+  overload: WindowsAudioWrapper.Models.AudioOperationMessage.Severity*
+- uid: WindowsAudioWrapper.Models.AudioOperationMessage.Code
+  commentId: P:WindowsAudioWrapper.Models.AudioOperationMessage.Code
+  id: Code
+  parent: WindowsAudioWrapper.Models.AudioOperationMessage
+  langs:
+  - csharp
+  - vb
+  name: Code
+  nameWithType: AudioOperationMessage.Code
+  fullName: WindowsAudioWrapper.Models.AudioOperationMessage.Code
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioOperationMessage.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: Code
+    path: ../WindowsAudioWrapper/Models/AudioOperationMessage.cs
+    startLine: 11
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the specific code associated with the message.
+  example: []
+  syntax:
+    content: public AudioMessageCode Code { get; set; }
+    parameters: []
+    return:
+      type: WindowsAudioWrapper.Models.AudioMessageCode
+    content.vb: Public Property Code As AudioMessageCode
+  overload: WindowsAudioWrapper.Models.AudioOperationMessage.Code*
+- uid: WindowsAudioWrapper.Models.AudioOperationMessage.Message
+  commentId: P:WindowsAudioWrapper.Models.AudioOperationMessage.Message
+  id: Message
+  parent: WindowsAudioWrapper.Models.AudioOperationMessage
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: AudioOperationMessage.Message
+  fullName: WindowsAudioWrapper.Models.AudioOperationMessage.Message
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioOperationMessage.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: Message
+    path: ../WindowsAudioWrapper/Models/AudioOperationMessage.cs
+    startLine: 14
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the human-readable message text.
+  example: []
+  syntax:
+    content: public string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Message As String
+  overload: WindowsAudioWrapper.Models.AudioOperationMessage.Message*
+- uid: WindowsAudioWrapper.Models.AudioOperationMessage.DeviceId
+  commentId: P:WindowsAudioWrapper.Models.AudioOperationMessage.DeviceId
+  id: DeviceId
+  parent: WindowsAudioWrapper.Models.AudioOperationMessage
+  langs:
+  - csharp
+  - vb
+  name: DeviceId
+  nameWithType: AudioOperationMessage.DeviceId
+  fullName: WindowsAudioWrapper.Models.AudioOperationMessage.DeviceId
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioOperationMessage.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: DeviceId
+    path: ../WindowsAudioWrapper/Models/AudioOperationMessage.cs
+    startLine: 17
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the ID of the device associated with this message, if applicable.
+  example: []
+  syntax:
+    content: public string DeviceId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DeviceId As String
+  overload: WindowsAudioWrapper.Models.AudioOperationMessage.DeviceId*
+- uid: WindowsAudioWrapper.Models.AudioOperationMessage.DeviceName
+  commentId: P:WindowsAudioWrapper.Models.AudioOperationMessage.DeviceName
+  id: DeviceName
+  parent: WindowsAudioWrapper.Models.AudioOperationMessage
+  langs:
+  - csharp
+  - vb
+  name: DeviceName
+  nameWithType: AudioOperationMessage.DeviceName
+  fullName: WindowsAudioWrapper.Models.AudioOperationMessage.DeviceName
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioOperationMessage.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: DeviceName
+    path: ../WindowsAudioWrapper/Models/AudioOperationMessage.cs
+    startLine: 20
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the name of the device associated with this message, if applicable.
+  example: []
+  syntax:
+    content: public string DeviceName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DeviceName As String
+  overload: WindowsAudioWrapper.Models.AudioOperationMessage.DeviceName*
+- uid: WindowsAudioWrapper.Models.AudioOperationMessage.Info(WindowsAudioWrapper.Models.AudioMessageCode,System.String)
+  commentId: M:WindowsAudioWrapper.Models.AudioOperationMessage.Info(WindowsAudioWrapper.Models.AudioMessageCode,System.String)
+  id: Info(WindowsAudioWrapper.Models.AudioMessageCode,System.String)
+  parent: WindowsAudioWrapper.Models.AudioOperationMessage
+  langs:
+  - csharp
+  - vb
+  name: Info(AudioMessageCode, string)
+  nameWithType: AudioOperationMessage.Info(AudioMessageCode, string)
+  fullName: WindowsAudioWrapper.Models.AudioOperationMessage.Info(WindowsAudioWrapper.Models.AudioMessageCode, string)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioOperationMessage.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: Info
+    path: ../WindowsAudioWrapper/Models/AudioOperationMessage.cs
+    startLine: 22
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: public static AudioOperationMessage Info(AudioMessageCode code, string message)
+    parameters:
+    - id: code
+      type: WindowsAudioWrapper.Models.AudioMessageCode
+    - id: message
+      type: System.String
+    return:
+      type: WindowsAudioWrapper.Models.AudioOperationMessage
+    content.vb: Public Shared Function Info(code As AudioMessageCode, message As String) As AudioOperationMessage
+  overload: WindowsAudioWrapper.Models.AudioOperationMessage.Info*
+  nameWithType.vb: AudioOperationMessage.Info(AudioMessageCode, String)
+  fullName.vb: WindowsAudioWrapper.Models.AudioOperationMessage.Info(WindowsAudioWrapper.Models.AudioMessageCode, String)
+  name.vb: Info(AudioMessageCode, String)
+- uid: WindowsAudioWrapper.Models.AudioOperationMessage.Warning(WindowsAudioWrapper.Models.AudioMessageCode,System.String)
+  commentId: M:WindowsAudioWrapper.Models.AudioOperationMessage.Warning(WindowsAudioWrapper.Models.AudioMessageCode,System.String)
+  id: Warning(WindowsAudioWrapper.Models.AudioMessageCode,System.String)
+  parent: WindowsAudioWrapper.Models.AudioOperationMessage
+  langs:
+  - csharp
+  - vb
+  name: Warning(AudioMessageCode, string)
+  nameWithType: AudioOperationMessage.Warning(AudioMessageCode, string)
+  fullName: WindowsAudioWrapper.Models.AudioOperationMessage.Warning(WindowsAudioWrapper.Models.AudioMessageCode, string)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioOperationMessage.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: Warning
+    path: ../WindowsAudioWrapper/Models/AudioOperationMessage.cs
+    startLine: 29
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: public static AudioOperationMessage Warning(AudioMessageCode code, string message)
+    parameters:
+    - id: code
+      type: WindowsAudioWrapper.Models.AudioMessageCode
+    - id: message
+      type: System.String
+    return:
+      type: WindowsAudioWrapper.Models.AudioOperationMessage
+    content.vb: Public Shared Function Warning(code As AudioMessageCode, message As String) As AudioOperationMessage
+  overload: WindowsAudioWrapper.Models.AudioOperationMessage.Warning*
+  nameWithType.vb: AudioOperationMessage.Warning(AudioMessageCode, String)
+  fullName.vb: WindowsAudioWrapper.Models.AudioOperationMessage.Warning(WindowsAudioWrapper.Models.AudioMessageCode, String)
+  name.vb: Warning(AudioMessageCode, String)
+- uid: WindowsAudioWrapper.Models.AudioOperationMessage.Error(WindowsAudioWrapper.Models.AudioMessageCode,System.String)
+  commentId: M:WindowsAudioWrapper.Models.AudioOperationMessage.Error(WindowsAudioWrapper.Models.AudioMessageCode,System.String)
+  id: Error(WindowsAudioWrapper.Models.AudioMessageCode,System.String)
+  parent: WindowsAudioWrapper.Models.AudioOperationMessage
+  langs:
+  - csharp
+  - vb
+  name: Error(AudioMessageCode, string)
+  nameWithType: AudioOperationMessage.Error(AudioMessageCode, string)
+  fullName: WindowsAudioWrapper.Models.AudioOperationMessage.Error(WindowsAudioWrapper.Models.AudioMessageCode, string)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioOperationMessage.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: Error
+    path: ../WindowsAudioWrapper/Models/AudioOperationMessage.cs
+    startLine: 36
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: public static AudioOperationMessage Error(AudioMessageCode code, string message)
+    parameters:
+    - id: code
+      type: WindowsAudioWrapper.Models.AudioMessageCode
+    - id: message
+      type: System.String
+    return:
+      type: WindowsAudioWrapper.Models.AudioOperationMessage
+    content.vb: Public Shared Function [Error](code As AudioMessageCode, message As String) As AudioOperationMessage
+  overload: WindowsAudioWrapper.Models.AudioOperationMessage.Error*
+  nameWithType.vb: AudioOperationMessage.Error(AudioMessageCode, String)
+  fullName.vb: WindowsAudioWrapper.Models.AudioOperationMessage.Error(WindowsAudioWrapper.Models.AudioMessageCode, String)
+  name.vb: Error(AudioMessageCode, String)
+references:
+- uid: WindowsAudioWrapper.Models
+  commentId: N:WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.html
+  name: WindowsAudioWrapper.Models
+  nameWithType: WindowsAudioWrapper.Models
+  fullName: WindowsAudioWrapper.Models
+  spec.csharp:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Models
+    name: Models
+    href: WindowsAudioWrapper.Models.html
+  spec.vb:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Models
+    name: Models
+    href: WindowsAudioWrapper.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WindowsAudioWrapper.Models.AudioOperationMessage.Severity*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioOperationMessage.Severity
+  href: WindowsAudioWrapper.Models.AudioOperationMessage.html#WindowsAudioWrapper_Models_AudioOperationMessage_Severity
+  name: Severity
+  nameWithType: AudioOperationMessage.Severity
+  fullName: WindowsAudioWrapper.Models.AudioOperationMessage.Severity
+- uid: WindowsAudioWrapper.Models.AudioMessageSeverity
+  commentId: T:WindowsAudioWrapper.Models.AudioMessageSeverity
+  parent: WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.Models.AudioMessageSeverity.html
+  name: AudioMessageSeverity
+  nameWithType: AudioMessageSeverity
+  fullName: WindowsAudioWrapper.Models.AudioMessageSeverity
+- uid: WindowsAudioWrapper.Models.AudioOperationMessage.Code*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioOperationMessage.Code
+  href: WindowsAudioWrapper.Models.AudioOperationMessage.html#WindowsAudioWrapper_Models_AudioOperationMessage_Code
+  name: Code
+  nameWithType: AudioOperationMessage.Code
+  fullName: WindowsAudioWrapper.Models.AudioOperationMessage.Code
+- uid: WindowsAudioWrapper.Models.AudioMessageCode
+  commentId: T:WindowsAudioWrapper.Models.AudioMessageCode
+  parent: WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.Models.AudioMessageCode.html
+  name: AudioMessageCode
+  nameWithType: AudioMessageCode
+  fullName: WindowsAudioWrapper.Models.AudioMessageCode
+- uid: WindowsAudioWrapper.Models.AudioOperationMessage.Message*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioOperationMessage.Message
+  href: WindowsAudioWrapper.Models.AudioOperationMessage.html#WindowsAudioWrapper_Models_AudioOperationMessage_Message
+  name: Message
+  nameWithType: AudioOperationMessage.Message
+  fullName: WindowsAudioWrapper.Models.AudioOperationMessage.Message
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: WindowsAudioWrapper.Models.AudioOperationMessage.DeviceId*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioOperationMessage.DeviceId
+  href: WindowsAudioWrapper.Models.AudioOperationMessage.html#WindowsAudioWrapper_Models_AudioOperationMessage_DeviceId
+  name: DeviceId
+  nameWithType: AudioOperationMessage.DeviceId
+  fullName: WindowsAudioWrapper.Models.AudioOperationMessage.DeviceId
+- uid: WindowsAudioWrapper.Models.AudioOperationMessage.DeviceName*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioOperationMessage.DeviceName
+  href: WindowsAudioWrapper.Models.AudioOperationMessage.html#WindowsAudioWrapper_Models_AudioOperationMessage_DeviceName
+  name: DeviceName
+  nameWithType: AudioOperationMessage.DeviceName
+  fullName: WindowsAudioWrapper.Models.AudioOperationMessage.DeviceName
+- uid: WindowsAudioWrapper.Models.AudioOperationMessage.Info*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioOperationMessage.Info
+  href: WindowsAudioWrapper.Models.AudioOperationMessage.html#WindowsAudioWrapper_Models_AudioOperationMessage_Info_WindowsAudioWrapper_Models_AudioMessageCode_System_String_
+  name: Info
+  nameWithType: AudioOperationMessage.Info
+  fullName: WindowsAudioWrapper.Models.AudioOperationMessage.Info
+- uid: WindowsAudioWrapper.Models.AudioOperationMessage
+  commentId: T:WindowsAudioWrapper.Models.AudioOperationMessage
+  parent: WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.Models.AudioOperationMessage.html
+  name: AudioOperationMessage
+  nameWithType: AudioOperationMessage
+  fullName: WindowsAudioWrapper.Models.AudioOperationMessage
+- uid: WindowsAudioWrapper.Models.AudioOperationMessage.Warning*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioOperationMessage.Warning
+  href: WindowsAudioWrapper.Models.AudioOperationMessage.html#WindowsAudioWrapper_Models_AudioOperationMessage_Warning_WindowsAudioWrapper_Models_AudioMessageCode_System_String_
+  name: Warning
+  nameWithType: AudioOperationMessage.Warning
+  fullName: WindowsAudioWrapper.Models.AudioOperationMessage.Warning
+- uid: WindowsAudioWrapper.Models.AudioOperationMessage.Error*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioOperationMessage.Error
+  href: WindowsAudioWrapper.Models.AudioOperationMessage.html#WindowsAudioWrapper_Models_AudioOperationMessage_Error_WindowsAudioWrapper_Models_AudioMessageCode_System_String_
+  name: Error
+  nameWithType: AudioOperationMessage.Error
+  fullName: WindowsAudioWrapper.Models.AudioOperationMessage.Error

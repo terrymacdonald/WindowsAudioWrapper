@@ -1,5 +1,5 @@
 {
-  "source_base_path": "D:/visual-studio-projects/NVAPIWrapper/APIDocs",
+  "source_base_path": "D:/visual-studio-projects/WindowsAudioWrapper/APIDocs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -19272,6 +19272,608 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "NVAPIWrapper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.IWindowsAudioController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.IWindowsAudioController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.IWindowsAudioController",
+      "Summary": "<p sourcefile=\"api/WindowsAudioWrapper.IWindowsAudioController.yml\" sourcestartlinenumber=\"1\">Public entry point for reading and applying Windows audio profiles.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.AUDIO_EFFECT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.AUDIO_EFFECT.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Internal.CoreAudio.AUDIO_EFFECT",
+      "Summary": "<p sourcefile=\"api/WindowsAudioWrapper.Internal.CoreAudio.AUDIO_EFFECT.yml\" sourcestartlinenumber=\"1\">Describes a Windows audio effect and its current mutable state.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState",
+      "Summary": "<p sourcefile=\"api/WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState.yml\" sourcestartlinenumber=\"1\">Describes whether a Windows audio effect is currently off or on.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.EDataFlow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.EDataFlow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Internal.CoreAudio.EDataFlow",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.ERole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.ERole.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Internal.CoreAudio.ERole",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.IAudioClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Internal.CoreAudio.IAudioClient",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Internal.CoreAudio.IAudioEffectsManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Internal.CoreAudio.IAudioEndpointVolume",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.IMMDevice.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Internal.CoreAudio.IMMDevice",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceCollection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceCollection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Internal.CoreAudio.IMMDeviceEnumerator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEXTENSIBLE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEXTENSIBLE.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEXTENSIBLE",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Internal.CoreAudio.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Internal.CoreAudio",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Models.AudioDeviceEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Models.AudioDeviceEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Models.AudioDeviceEventArgs",
+      "Summary": "<p sourcefile=\"api/WindowsAudioWrapper.Models.AudioDeviceEventArgs.yml\" sourcestartlinenumber=\"1\">Provides event data for Windows audio endpoint connection arrivals and hardware state changes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Models.AudioDeviceState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Models.AudioDeviceState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Models.AudioDeviceState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Models.AudioEndpointCapabilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Models.AudioEndpointCapabilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Models.AudioEndpointCapabilities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Models.AudioEndpointInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Models.AudioEndpointInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Models.AudioEndpointInfo",
+      "Summary": "<p sourcefile=\"api/WindowsAudioWrapper.Models.AudioEndpointInfo.yml\" sourcestartlinenumber=\"1\">Contains detailed information and current state for a specific Windows audio endpoint.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Models.AudioEndpointReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Models.AudioEndpointReference.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Models.AudioEndpointReference",
+      "Summary": "<p sourcefile=\"api/WindowsAudioWrapper.Models.AudioEndpointReference.yml\" sourcestartlinenumber=\"1\">Acts as a data-contract wrapper tracking hardware location properties used to resolve targets.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Models.AudioEndpointVisibility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Models.AudioEndpointVisibility.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Models.AudioEndpointVisibility",
+      "Summary": "<p sourcefile=\"api/WindowsAudioWrapper.Models.AudioEndpointVisibility.yml\" sourcestartlinenumber=\"1\">Captures the persisted visibility state for a Windows audio endpoint.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Models.AudioEnhancementProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Models.AudioEnhancementProfile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Models.AudioEnhancementProfile",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Models.AudioFlow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Models.AudioFlow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Models.AudioFlow",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Models.AudioFormatMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Models.AudioFormatMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Models.AudioFormatMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Models.AudioFormatProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Models.AudioFormatProfile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Models.AudioFormatProfile",
+      "Summary": "<p sourcefile=\"api/WindowsAudioWrapper.Models.AudioFormatProfile.yml\" sourcestartlinenumber=\"1\">Represents the default format of the audio stream for a given endpoint.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Models.AudioMessageCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Models.AudioMessageCode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Models.AudioMessageCode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Models.AudioMessageSeverity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Models.AudioMessageSeverity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Models.AudioMessageSeverity",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Models.AudioOperationMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Models.AudioOperationMessage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Models.AudioOperationMessage",
+      "Summary": "<p sourcefile=\"api/WindowsAudioWrapper.Models.AudioOperationMessage.yml\" sourcestartlinenumber=\"1\">Represents a message generated during validation or application of an audio profile.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Models.AudioProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Models.AudioProfile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Models.AudioProfile",
+      "Summary": "<p sourcefile=\"api/WindowsAudioWrapper.Models.AudioProfile.yml\" sourcestartlinenumber=\"1\">The only profile/state object used by WindowsAudioWrapper.\nA profile may be created by a user, saved in JSON, or captured from the current Windows audio state.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Models.AudioProfileApplyResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Models.AudioProfileApplyResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Models.AudioProfileApplyResult",
+      "Summary": "<p sourcefile=\"api/WindowsAudioWrapper.Models.AudioProfileApplyResult.yml\" sourcestartlinenumber=\"1\">Represents the result of an attempt to apply an audio profile to the system.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Models.AudioProfileValidationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Models.AudioProfileValidationResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Models.AudioProfileValidationResult",
+      "Summary": "<p sourcefile=\"api/WindowsAudioWrapper.Models.AudioProfileValidationResult.yml\" sourcestartlinenumber=\"1\">Represents the result of validating an AudioProfile before application.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Models.AudioSampleFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Models.AudioSampleFormat.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Models.AudioSampleFormat",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Models.AudioValidationSeverity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Models.AudioValidationSeverity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Models.AudioValidationSeverity",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Models.HardwareDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Models.HardwareDetails.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Models.HardwareDetails",
+      "Summary": "<p sourcefile=\"api/WindowsAudioWrapper.Models.HardwareDetails.yml\" sourcestartlinenumber=\"1\">Contains extended, low-level unmanaged property telemetry mapping for hardware endpoints.\nStrictly respects zero-null constraints for integration stability.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Models.PlaybackAudioProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Models.PlaybackAudioProfile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Models.PlaybackAudioProfile",
+      "Summary": "<p sourcefile=\"api/WindowsAudioWrapper.Models.PlaybackAudioProfile.yml\" sourcestartlinenumber=\"1\">Holds configuration targets and settings for system audio playback devices.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Models.RecordingAudioProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Models.RecordingAudioProfile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Models.RecordingAudioProfile",
+      "Summary": "<p sourcefile=\"api/WindowsAudioWrapper.Models.RecordingAudioProfile.yml\" sourcestartlinenumber=\"1\">Holds configuration targets and settings for system audio recording devices.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Models.SystemAudioProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Models.SystemAudioProfile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Models.SystemAudioProfile",
+      "Summary": "<p sourcefile=\"api/WindowsAudioWrapper.Models.SystemAudioProfile.yml\" sourcestartlinenumber=\"1\">Represents global system audio settings that apply across all devices.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.WindowsAudioController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.WindowsAudioController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.WindowsAudioController",
+      "Summary": "<p sourcefile=\"api/WindowsAudioWrapper.WindowsAudioController.yml\" sourcestartlinenumber=\"1\">Provides the public facade managing and coordinating core Windows audio configurations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.WindowsAudioWrapperException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.WindowsAudioWrapperException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper.WindowsAudioWrapperException",
+      "Summary": "<p sourcefile=\"api/WindowsAudioWrapper.WindowsAudioWrapperException.yml\" sourcestartlinenumber=\"1\">Base exception type for unexpected WindowsAudioWrapper failures.\nNormal validation and capability problems should be returned in result objects instead.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WindowsAudioWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WindowsAudioWrapper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WindowsAudioWrapper",
       "Summary": null
     },
     {

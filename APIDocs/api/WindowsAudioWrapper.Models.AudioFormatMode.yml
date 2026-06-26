@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: WindowsAudioWrapper.Models.AudioFormatMode
+  commentId: T:WindowsAudioWrapper.Models.AudioFormatMode
+  id: AudioFormatMode
+  parent: WindowsAudioWrapper.Models
+  children:
+  - WindowsAudioWrapper.Models.AudioFormatMode.Shared
+  - WindowsAudioWrapper.Models.AudioFormatMode.Unknown
+  langs:
+  - csharp
+  - vb
+  name: AudioFormatMode
+  nameWithType: AudioFormatMode
+  fullName: WindowsAudioWrapper.Models.AudioFormatMode
+  type: Enum
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEnums.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: AudioFormatMode
+    path: ../WindowsAudioWrapper/Models/AudioEnums.cs
+    startLine: 27
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: public enum AudioFormatMode
+    content.vb: Public Enum AudioFormatMode
+- uid: WindowsAudioWrapper.Models.AudioFormatMode.Unknown
+  commentId: F:WindowsAudioWrapper.Models.AudioFormatMode.Unknown
+  id: Unknown
+  parent: WindowsAudioWrapper.Models.AudioFormatMode
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: AudioFormatMode.Unknown
+  fullName: WindowsAudioWrapper.Models.AudioFormatMode.Unknown
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEnums.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: Unknown
+    path: ../WindowsAudioWrapper/Models/AudioEnums.cs
+    startLine: 29
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: Unknown = 0
+    return:
+      type: WindowsAudioWrapper.Models.AudioFormatMode
+- uid: WindowsAudioWrapper.Models.AudioFormatMode.Shared
+  commentId: F:WindowsAudioWrapper.Models.AudioFormatMode.Shared
+  id: Shared
+  parent: WindowsAudioWrapper.Models.AudioFormatMode
+  langs:
+  - csharp
+  - vb
+  name: Shared
+  nameWithType: AudioFormatMode.Shared
+  fullName: WindowsAudioWrapper.Models.AudioFormatMode.Shared
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEnums.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: Shared
+    path: ../WindowsAudioWrapper/Models/AudioEnums.cs
+    startLine: 30
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: Shared = 1
+    return:
+      type: WindowsAudioWrapper.Models.AudioFormatMode
+references:
+- uid: WindowsAudioWrapper.Models
+  commentId: N:WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.html
+  name: WindowsAudioWrapper.Models
+  nameWithType: WindowsAudioWrapper.Models
+  fullName: WindowsAudioWrapper.Models
+  spec.csharp:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Models
+    name: Models
+    href: WindowsAudioWrapper.Models.html
+  spec.vb:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Models
+    name: Models
+    href: WindowsAudioWrapper.Models.html
+- uid: WindowsAudioWrapper.Models.AudioFormatMode
+  commentId: T:WindowsAudioWrapper.Models.AudioFormatMode
+  parent: WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.Models.AudioFormatMode.html
+  name: AudioFormatMode
+  nameWithType: AudioFormatMode
+  fullName: WindowsAudioWrapper.Models.AudioFormatMode

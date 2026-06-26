@@ -1,0 +1,1127 @@
+### YamlMime:ManagedReference
+items:
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile
+  commentId: T:WindowsAudioWrapper.Models.RecordingAudioProfile
+  id: RecordingAudioProfile
+  parent: WindowsAudioWrapper.Models
+  children:
+  - WindowsAudioWrapper.Models.RecordingAudioProfile.AudioEnhancements
+  - WindowsAudioWrapper.Models.RecordingAudioProfile.CommunicationsDevice
+  - WindowsAudioWrapper.Models.RecordingAudioProfile.ConsoleDevice
+  - WindowsAudioWrapper.Models.RecordingAudioProfile.EnsureDefaults
+  - WindowsAudioWrapper.Models.RecordingAudioProfile.IsAudioEnhancementsEnabled
+  - WindowsAudioWrapper.Models.RecordingAudioProfile.IsChannelVolumeEnabled
+  - WindowsAudioWrapper.Models.RecordingAudioProfile.IsDefaultCommunicationsRecordingDeviceEnabled
+  - WindowsAudioWrapper.Models.RecordingAudioProfile.IsDefaultConsoleRecordingDeviceEnabled
+  - WindowsAudioWrapper.Models.RecordingAudioProfile.IsDefaultRecordingDeviceEnabled
+  - WindowsAudioWrapper.Models.RecordingAudioProfile.IsFormatEnabled
+  - WindowsAudioWrapper.Models.RecordingAudioProfile.IsMuteEnabled
+  - WindowsAudioWrapper.Models.RecordingAudioProfile.IsMuted
+  - WindowsAudioWrapper.Models.RecordingAudioProfile.IsRecordingEnabled
+  - WindowsAudioWrapper.Models.RecordingAudioProfile.IsVolumeEnabled
+  - WindowsAudioWrapper.Models.RecordingAudioProfile.MultimediaDevice
+  - WindowsAudioWrapper.Models.RecordingAudioProfile.StreamFormat
+  - WindowsAudioWrapper.Models.RecordingAudioProfile.VolumeLeft
+  - WindowsAudioWrapper.Models.RecordingAudioProfile.VolumePercent
+  - WindowsAudioWrapper.Models.RecordingAudioProfile.VolumeRight
+  langs:
+  - csharp
+  - vb
+  name: RecordingAudioProfile
+  nameWithType: RecordingAudioProfile
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile
+  type: Class
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: RecordingAudioProfile
+    path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+    startLine: 7
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Holds configuration targets and settings for system audio recording devices.
+  example: []
+  syntax:
+    content: public sealed class RecordingAudioProfile
+    content.vb: Public NotInheritable Class RecordingAudioProfile
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.MultimediaDevice
+  commentId: P:WindowsAudioWrapper.Models.RecordingAudioProfile.MultimediaDevice
+  id: MultimediaDevice
+  parent: WindowsAudioWrapper.Models.RecordingAudioProfile
+  langs:
+  - csharp
+  - vb
+  name: MultimediaDevice
+  nameWithType: RecordingAudioProfile.MultimediaDevice
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.MultimediaDevice
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: MultimediaDevice
+    path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+    startLine: 10
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the target default multimedia recording device reference block.
+  example: []
+  syntax:
+    content: public AudioEndpointReference MultimediaDevice { get; set; }
+    parameters: []
+    return:
+      type: WindowsAudioWrapper.Models.AudioEndpointReference
+    content.vb: Public Property MultimediaDevice As AudioEndpointReference
+  overload: WindowsAudioWrapper.Models.RecordingAudioProfile.MultimediaDevice*
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.ConsoleDevice
+  commentId: P:WindowsAudioWrapper.Models.RecordingAudioProfile.ConsoleDevice
+  id: ConsoleDevice
+  parent: WindowsAudioWrapper.Models.RecordingAudioProfile
+  langs:
+  - csharp
+  - vb
+  name: ConsoleDevice
+  nameWithType: RecordingAudioProfile.ConsoleDevice
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.ConsoleDevice
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: ConsoleDevice
+    path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+    startLine: 13
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the target default console recording device reference block.
+  example: []
+  syntax:
+    content: public AudioEndpointReference ConsoleDevice { get; set; }
+    parameters: []
+    return:
+      type: WindowsAudioWrapper.Models.AudioEndpointReference
+    content.vb: Public Property ConsoleDevice As AudioEndpointReference
+  overload: WindowsAudioWrapper.Models.RecordingAudioProfile.ConsoleDevice*
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.CommunicationsDevice
+  commentId: P:WindowsAudioWrapper.Models.RecordingAudioProfile.CommunicationsDevice
+  id: CommunicationsDevice
+  parent: WindowsAudioWrapper.Models.RecordingAudioProfile
+  langs:
+  - csharp
+  - vb
+  name: CommunicationsDevice
+  nameWithType: RecordingAudioProfile.CommunicationsDevice
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.CommunicationsDevice
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: CommunicationsDevice
+    path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+    startLine: 16
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the target default communications recording voice reference block.
+  example: []
+  syntax:
+    content: public AudioEndpointReference CommunicationsDevice { get; set; }
+    parameters: []
+    return:
+      type: WindowsAudioWrapper.Models.AudioEndpointReference
+    content.vb: Public Property CommunicationsDevice As AudioEndpointReference
+  overload: WindowsAudioWrapper.Models.RecordingAudioProfile.CommunicationsDevice*
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.VolumePercent
+  commentId: P:WindowsAudioWrapper.Models.RecordingAudioProfile.VolumePercent
+  id: VolumePercent
+  parent: WindowsAudioWrapper.Models.RecordingAudioProfile
+  langs:
+  - csharp
+  - vb
+  name: VolumePercent
+  nameWithType: RecordingAudioProfile.VolumePercent
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.VolumePercent
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: VolumePercent
+    path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+    startLine: 19
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the input volume percentage level.
+  example: []
+  syntax:
+    content: public decimal VolumePercent { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property VolumePercent As Decimal
+  overload: WindowsAudioWrapper.Models.RecordingAudioProfile.VolumePercent*
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.IsMuted
+  commentId: P:WindowsAudioWrapper.Models.RecordingAudioProfile.IsMuted
+  id: IsMuted
+  parent: WindowsAudioWrapper.Models.RecordingAudioProfile
+  langs:
+  - csharp
+  - vb
+  name: IsMuted
+  nameWithType: RecordingAudioProfile.IsMuted
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.IsMuted
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IsMuted
+    path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+    startLine: 22
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets a value indicating whether input channels are muted.
+  example: []
+  syntax:
+    content: public bool IsMuted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsMuted As Boolean
+  overload: WindowsAudioWrapper.Models.RecordingAudioProfile.IsMuted*
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.StreamFormat
+  commentId: P:WindowsAudioWrapper.Models.RecordingAudioProfile.StreamFormat
+  id: StreamFormat
+  parent: WindowsAudioWrapper.Models.RecordingAudioProfile
+  langs:
+  - csharp
+  - vb
+  name: StreamFormat
+  nameWithType: RecordingAudioProfile.StreamFormat
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.StreamFormat
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: StreamFormat
+    path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+    startLine: 25
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the stream layout sample frequencies and layouts.
+  example: []
+  syntax:
+    content: public AudioFormatProfile StreamFormat { get; set; }
+    parameters: []
+    return:
+      type: WindowsAudioWrapper.Models.AudioFormatProfile
+    content.vb: Public Property StreamFormat As AudioFormatProfile
+  overload: WindowsAudioWrapper.Models.RecordingAudioProfile.StreamFormat*
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.AudioEnhancements
+  commentId: P:WindowsAudioWrapper.Models.RecordingAudioProfile.AudioEnhancements
+  id: AudioEnhancements
+  parent: WindowsAudioWrapper.Models.RecordingAudioProfile
+  langs:
+  - csharp
+  - vb
+  name: AudioEnhancements
+  nameWithType: RecordingAudioProfile.AudioEnhancements
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.AudioEnhancements
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: AudioEnhancements
+    path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+    startLine: 28
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets APO system enhancement profiles.
+  example: []
+  syntax:
+    content: public AudioEnhancementProfile AudioEnhancements { get; set; }
+    parameters: []
+    return:
+      type: WindowsAudioWrapper.Models.AudioEnhancementProfile
+    content.vb: Public Property AudioEnhancements As AudioEnhancementProfile
+  overload: WindowsAudioWrapper.Models.RecordingAudioProfile.AudioEnhancements*
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.VolumeLeft
+  commentId: P:WindowsAudioWrapper.Models.RecordingAudioProfile.VolumeLeft
+  id: VolumeLeft
+  parent: WindowsAudioWrapper.Models.RecordingAudioProfile
+  langs:
+  - csharp
+  - vb
+  name: VolumeLeft
+  nameWithType: RecordingAudioProfile.VolumeLeft
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.VolumeLeft
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: VolumeLeft
+    path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+    startLine: 31
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the discrete Left channel volume level percentage (0-100).
+  example: []
+  syntax:
+    content: public decimal VolumeLeft { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property VolumeLeft As Decimal
+  overload: WindowsAudioWrapper.Models.RecordingAudioProfile.VolumeLeft*
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.VolumeRight
+  commentId: P:WindowsAudioWrapper.Models.RecordingAudioProfile.VolumeRight
+  id: VolumeRight
+  parent: WindowsAudioWrapper.Models.RecordingAudioProfile
+  langs:
+  - csharp
+  - vb
+  name: VolumeRight
+  nameWithType: RecordingAudioProfile.VolumeRight
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.VolumeRight
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: VolumeRight
+    path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+    startLine: 34
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the discrete Right channel volume level percentage (0-100).
+  example: []
+  syntax:
+    content: public decimal VolumeRight { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property VolumeRight As Decimal
+  overload: WindowsAudioWrapper.Models.RecordingAudioProfile.VolumeRight*
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.IsRecordingEnabled
+  commentId: P:WindowsAudioWrapper.Models.RecordingAudioProfile.IsRecordingEnabled
+  id: IsRecordingEnabled
+  parent: WindowsAudioWrapper.Models.RecordingAudioProfile
+  langs:
+  - csharp
+  - vb
+  name: IsRecordingEnabled
+  nameWithType: RecordingAudioProfile.IsRecordingEnabled
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.IsRecordingEnabled
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IsRecordingEnabled
+    path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+    startLine: 37
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets a telemetry flag stating if recording features are active. Ignored in JSON.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public bool IsRecordingEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property IsRecordingEnabled As Boolean
+  overload: WindowsAudioWrapper.Models.RecordingAudioProfile.IsRecordingEnabled*
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.IsDefaultRecordingDeviceEnabled
+  commentId: P:WindowsAudioWrapper.Models.RecordingAudioProfile.IsDefaultRecordingDeviceEnabled
+  id: IsDefaultRecordingDeviceEnabled
+  parent: WindowsAudioWrapper.Models.RecordingAudioProfile
+  langs:
+  - csharp
+  - vb
+  name: IsDefaultRecordingDeviceEnabled
+  nameWithType: RecordingAudioProfile.IsDefaultRecordingDeviceEnabled
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.IsDefaultRecordingDeviceEnabled
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IsDefaultRecordingDeviceEnabled
+    path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+    startLine: 41
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets a telemetry flag stating if default multimedia routing switches are active. Ignored in JSON.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public bool IsDefaultRecordingDeviceEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property IsDefaultRecordingDeviceEnabled As Boolean
+  overload: WindowsAudioWrapper.Models.RecordingAudioProfile.IsDefaultRecordingDeviceEnabled*
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.IsDefaultConsoleRecordingDeviceEnabled
+  commentId: P:WindowsAudioWrapper.Models.RecordingAudioProfile.IsDefaultConsoleRecordingDeviceEnabled
+  id: IsDefaultConsoleRecordingDeviceEnabled
+  parent: WindowsAudioWrapper.Models.RecordingAudioProfile
+  langs:
+  - csharp
+  - vb
+  name: IsDefaultConsoleRecordingDeviceEnabled
+  nameWithType: RecordingAudioProfile.IsDefaultConsoleRecordingDeviceEnabled
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.IsDefaultConsoleRecordingDeviceEnabled
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IsDefaultConsoleRecordingDeviceEnabled
+    path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+    startLine: 45
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets a telemetry flag stating if default console routing switches are active. Ignored in JSON.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public bool IsDefaultConsoleRecordingDeviceEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property IsDefaultConsoleRecordingDeviceEnabled As Boolean
+  overload: WindowsAudioWrapper.Models.RecordingAudioProfile.IsDefaultConsoleRecordingDeviceEnabled*
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.IsDefaultCommunicationsRecordingDeviceEnabled
+  commentId: P:WindowsAudioWrapper.Models.RecordingAudioProfile.IsDefaultCommunicationsRecordingDeviceEnabled
+  id: IsDefaultCommunicationsRecordingDeviceEnabled
+  parent: WindowsAudioWrapper.Models.RecordingAudioProfile
+  langs:
+  - csharp
+  - vb
+  name: IsDefaultCommunicationsRecordingDeviceEnabled
+  nameWithType: RecordingAudioProfile.IsDefaultCommunicationsRecordingDeviceEnabled
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.IsDefaultCommunicationsRecordingDeviceEnabled
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IsDefaultCommunicationsRecordingDeviceEnabled
+    path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+    startLine: 49
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets a telemetry flag stating if voice communications routing switches are active. Ignored in JSON.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public bool IsDefaultCommunicationsRecordingDeviceEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property IsDefaultCommunicationsRecordingDeviceEnabled As Boolean
+  overload: WindowsAudioWrapper.Models.RecordingAudioProfile.IsDefaultCommunicationsRecordingDeviceEnabled*
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.IsVolumeEnabled
+  commentId: P:WindowsAudioWrapper.Models.RecordingAudioProfile.IsVolumeEnabled
+  id: IsVolumeEnabled
+  parent: WindowsAudioWrapper.Models.RecordingAudioProfile
+  langs:
+  - csharp
+  - vb
+  name: IsVolumeEnabled
+  nameWithType: RecordingAudioProfile.IsVolumeEnabled
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.IsVolumeEnabled
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IsVolumeEnabled
+    path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+    startLine: 53
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets a telemetry flag stating if hardware volume lines are readable. Ignored in JSON.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public bool IsVolumeEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property IsVolumeEnabled As Boolean
+  overload: WindowsAudioWrapper.Models.RecordingAudioProfile.IsVolumeEnabled*
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.IsMuteEnabled
+  commentId: P:WindowsAudioWrapper.Models.RecordingAudioProfile.IsMuteEnabled
+  id: IsMuteEnabled
+  parent: WindowsAudioWrapper.Models.RecordingAudioProfile
+  langs:
+  - csharp
+  - vb
+  name: IsMuteEnabled
+  nameWithType: RecordingAudioProfile.IsMuteEnabled
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.IsMuteEnabled
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IsMuteEnabled
+    path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+    startLine: 57
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets a telemetry flag stating if hardware mute lines are readable. Ignored in JSON.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public bool IsMuteEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property IsMuteEnabled As Boolean
+  overload: WindowsAudioWrapper.Models.RecordingAudioProfile.IsMuteEnabled*
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.IsFormatEnabled
+  commentId: P:WindowsAudioWrapper.Models.RecordingAudioProfile.IsFormatEnabled
+  id: IsFormatEnabled
+  parent: WindowsAudioWrapper.Models.RecordingAudioProfile
+  langs:
+  - csharp
+  - vb
+  name: IsFormatEnabled
+  nameWithType: RecordingAudioProfile.IsFormatEnabled
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.IsFormatEnabled
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IsFormatEnabled
+    path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+    startLine: 61
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets a telemetry flag stating if device format arrays are readable. Ignored in JSON.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public bool IsFormatEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property IsFormatEnabled As Boolean
+  overload: WindowsAudioWrapper.Models.RecordingAudioProfile.IsFormatEnabled*
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.IsAudioEnhancementsEnabled
+  commentId: P:WindowsAudioWrapper.Models.RecordingAudioProfile.IsAudioEnhancementsEnabled
+  id: IsAudioEnhancementsEnabled
+  parent: WindowsAudioWrapper.Models.RecordingAudioProfile
+  langs:
+  - csharp
+  - vb
+  name: IsAudioEnhancementsEnabled
+  nameWithType: RecordingAudioProfile.IsAudioEnhancementsEnabled
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.IsAudioEnhancementsEnabled
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IsAudioEnhancementsEnabled
+    path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+    startLine: 65
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets a telemetry flag stating if device APO switches are active. Ignored in JSON.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public bool IsAudioEnhancementsEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property IsAudioEnhancementsEnabled As Boolean
+  overload: WindowsAudioWrapper.Models.RecordingAudioProfile.IsAudioEnhancementsEnabled*
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.IsChannelVolumeEnabled
+  commentId: P:WindowsAudioWrapper.Models.RecordingAudioProfile.IsChannelVolumeEnabled
+  id: IsChannelVolumeEnabled
+  parent: WindowsAudioWrapper.Models.RecordingAudioProfile
+  langs:
+  - csharp
+  - vb
+  name: IsChannelVolumeEnabled
+  nameWithType: RecordingAudioProfile.IsChannelVolumeEnabled
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.IsChannelVolumeEnabled
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IsChannelVolumeEnabled
+    path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+    startLine: 69
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets a telemetry flag stating if multi-channel balance changes are active. Ignored in JSON.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public bool IsChannelVolumeEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property IsChannelVolumeEnabled As Boolean
+  overload: WindowsAudioWrapper.Models.RecordingAudioProfile.IsChannelVolumeEnabled*
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.EnsureDefaults
+  commentId: M:WindowsAudioWrapper.Models.RecordingAudioProfile.EnsureDefaults
+  id: EnsureDefaults
+  parent: WindowsAudioWrapper.Models.RecordingAudioProfile
+  langs:
+  - csharp
+  - vb
+  name: EnsureDefaults()
+  nameWithType: RecordingAudioProfile.EnsureDefaults()
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.EnsureDefaults()
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: EnsureDefaults
+    path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
+    startLine: 73
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Ensures sub-elements avoid object ref fault allocations post serialization.
+  example: []
+  syntax:
+    content: public void EnsureDefaults()
+    content.vb: Public Sub EnsureDefaults()
+  overload: WindowsAudioWrapper.Models.RecordingAudioProfile.EnsureDefaults*
+references:
+- uid: WindowsAudioWrapper.Models
+  commentId: N:WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.html
+  name: WindowsAudioWrapper.Models
+  nameWithType: WindowsAudioWrapper.Models
+  fullName: WindowsAudioWrapper.Models
+  spec.csharp:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Models
+    name: Models
+    href: WindowsAudioWrapper.Models.html
+  spec.vb:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Models
+    name: Models
+    href: WindowsAudioWrapper.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.MultimediaDevice*
+  commentId: Overload:WindowsAudioWrapper.Models.RecordingAudioProfile.MultimediaDevice
+  href: WindowsAudioWrapper.Models.RecordingAudioProfile.html#WindowsAudioWrapper_Models_RecordingAudioProfile_MultimediaDevice
+  name: MultimediaDevice
+  nameWithType: RecordingAudioProfile.MultimediaDevice
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.MultimediaDevice
+- uid: WindowsAudioWrapper.Models.AudioEndpointReference
+  commentId: T:WindowsAudioWrapper.Models.AudioEndpointReference
+  parent: WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.Models.AudioEndpointReference.html
+  name: AudioEndpointReference
+  nameWithType: AudioEndpointReference
+  fullName: WindowsAudioWrapper.Models.AudioEndpointReference
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.ConsoleDevice*
+  commentId: Overload:WindowsAudioWrapper.Models.RecordingAudioProfile.ConsoleDevice
+  href: WindowsAudioWrapper.Models.RecordingAudioProfile.html#WindowsAudioWrapper_Models_RecordingAudioProfile_ConsoleDevice
+  name: ConsoleDevice
+  nameWithType: RecordingAudioProfile.ConsoleDevice
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.ConsoleDevice
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.CommunicationsDevice*
+  commentId: Overload:WindowsAudioWrapper.Models.RecordingAudioProfile.CommunicationsDevice
+  href: WindowsAudioWrapper.Models.RecordingAudioProfile.html#WindowsAudioWrapper_Models_RecordingAudioProfile_CommunicationsDevice
+  name: CommunicationsDevice
+  nameWithType: RecordingAudioProfile.CommunicationsDevice
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.CommunicationsDevice
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.VolumePercent*
+  commentId: Overload:WindowsAudioWrapper.Models.RecordingAudioProfile.VolumePercent
+  href: WindowsAudioWrapper.Models.RecordingAudioProfile.html#WindowsAudioWrapper_Models_RecordingAudioProfile_VolumePercent
+  name: VolumePercent
+  nameWithType: RecordingAudioProfile.VolumePercent
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.VolumePercent
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.decimal
+  name: decimal
+  nameWithType: decimal
+  fullName: decimal
+  nameWithType.vb: Decimal
+  fullName.vb: Decimal
+  name.vb: Decimal
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.IsMuted*
+  commentId: Overload:WindowsAudioWrapper.Models.RecordingAudioProfile.IsMuted
+  href: WindowsAudioWrapper.Models.RecordingAudioProfile.html#WindowsAudioWrapper_Models_RecordingAudioProfile_IsMuted
+  name: IsMuted
+  nameWithType: RecordingAudioProfile.IsMuted
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.IsMuted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.StreamFormat*
+  commentId: Overload:WindowsAudioWrapper.Models.RecordingAudioProfile.StreamFormat
+  href: WindowsAudioWrapper.Models.RecordingAudioProfile.html#WindowsAudioWrapper_Models_RecordingAudioProfile_StreamFormat
+  name: StreamFormat
+  nameWithType: RecordingAudioProfile.StreamFormat
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.StreamFormat
+- uid: WindowsAudioWrapper.Models.AudioFormatProfile
+  commentId: T:WindowsAudioWrapper.Models.AudioFormatProfile
+  parent: WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.Models.AudioFormatProfile.html
+  name: AudioFormatProfile
+  nameWithType: AudioFormatProfile
+  fullName: WindowsAudioWrapper.Models.AudioFormatProfile
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.AudioEnhancements*
+  commentId: Overload:WindowsAudioWrapper.Models.RecordingAudioProfile.AudioEnhancements
+  href: WindowsAudioWrapper.Models.RecordingAudioProfile.html#WindowsAudioWrapper_Models_RecordingAudioProfile_AudioEnhancements
+  name: AudioEnhancements
+  nameWithType: RecordingAudioProfile.AudioEnhancements
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.AudioEnhancements
+- uid: WindowsAudioWrapper.Models.AudioEnhancementProfile
+  commentId: T:WindowsAudioWrapper.Models.AudioEnhancementProfile
+  parent: WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.Models.AudioEnhancementProfile.html
+  name: AudioEnhancementProfile
+  nameWithType: AudioEnhancementProfile
+  fullName: WindowsAudioWrapper.Models.AudioEnhancementProfile
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.VolumeLeft*
+  commentId: Overload:WindowsAudioWrapper.Models.RecordingAudioProfile.VolumeLeft
+  href: WindowsAudioWrapper.Models.RecordingAudioProfile.html#WindowsAudioWrapper_Models_RecordingAudioProfile_VolumeLeft
+  name: VolumeLeft
+  nameWithType: RecordingAudioProfile.VolumeLeft
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.VolumeLeft
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.VolumeRight*
+  commentId: Overload:WindowsAudioWrapper.Models.RecordingAudioProfile.VolumeRight
+  href: WindowsAudioWrapper.Models.RecordingAudioProfile.html#WindowsAudioWrapper_Models_RecordingAudioProfile_VolumeRight
+  name: VolumeRight
+  nameWithType: RecordingAudioProfile.VolumeRight
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.VolumeRight
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.IsRecordingEnabled*
+  commentId: Overload:WindowsAudioWrapper.Models.RecordingAudioProfile.IsRecordingEnabled
+  href: WindowsAudioWrapper.Models.RecordingAudioProfile.html#WindowsAudioWrapper_Models_RecordingAudioProfile_IsRecordingEnabled
+  name: IsRecordingEnabled
+  nameWithType: RecordingAudioProfile.IsRecordingEnabled
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.IsRecordingEnabled
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.IsDefaultRecordingDeviceEnabled*
+  commentId: Overload:WindowsAudioWrapper.Models.RecordingAudioProfile.IsDefaultRecordingDeviceEnabled
+  href: WindowsAudioWrapper.Models.RecordingAudioProfile.html#WindowsAudioWrapper_Models_RecordingAudioProfile_IsDefaultRecordingDeviceEnabled
+  name: IsDefaultRecordingDeviceEnabled
+  nameWithType: RecordingAudioProfile.IsDefaultRecordingDeviceEnabled
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.IsDefaultRecordingDeviceEnabled
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.IsDefaultConsoleRecordingDeviceEnabled*
+  commentId: Overload:WindowsAudioWrapper.Models.RecordingAudioProfile.IsDefaultConsoleRecordingDeviceEnabled
+  href: WindowsAudioWrapper.Models.RecordingAudioProfile.html#WindowsAudioWrapper_Models_RecordingAudioProfile_IsDefaultConsoleRecordingDeviceEnabled
+  name: IsDefaultConsoleRecordingDeviceEnabled
+  nameWithType: RecordingAudioProfile.IsDefaultConsoleRecordingDeviceEnabled
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.IsDefaultConsoleRecordingDeviceEnabled
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.IsDefaultCommunicationsRecordingDeviceEnabled*
+  commentId: Overload:WindowsAudioWrapper.Models.RecordingAudioProfile.IsDefaultCommunicationsRecordingDeviceEnabled
+  href: WindowsAudioWrapper.Models.RecordingAudioProfile.html#WindowsAudioWrapper_Models_RecordingAudioProfile_IsDefaultCommunicationsRecordingDeviceEnabled
+  name: IsDefaultCommunicationsRecordingDeviceEnabled
+  nameWithType: RecordingAudioProfile.IsDefaultCommunicationsRecordingDeviceEnabled
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.IsDefaultCommunicationsRecordingDeviceEnabled
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.IsVolumeEnabled*
+  commentId: Overload:WindowsAudioWrapper.Models.RecordingAudioProfile.IsVolumeEnabled
+  href: WindowsAudioWrapper.Models.RecordingAudioProfile.html#WindowsAudioWrapper_Models_RecordingAudioProfile_IsVolumeEnabled
+  name: IsVolumeEnabled
+  nameWithType: RecordingAudioProfile.IsVolumeEnabled
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.IsVolumeEnabled
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.IsMuteEnabled*
+  commentId: Overload:WindowsAudioWrapper.Models.RecordingAudioProfile.IsMuteEnabled
+  href: WindowsAudioWrapper.Models.RecordingAudioProfile.html#WindowsAudioWrapper_Models_RecordingAudioProfile_IsMuteEnabled
+  name: IsMuteEnabled
+  nameWithType: RecordingAudioProfile.IsMuteEnabled
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.IsMuteEnabled
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.IsFormatEnabled*
+  commentId: Overload:WindowsAudioWrapper.Models.RecordingAudioProfile.IsFormatEnabled
+  href: WindowsAudioWrapper.Models.RecordingAudioProfile.html#WindowsAudioWrapper_Models_RecordingAudioProfile_IsFormatEnabled
+  name: IsFormatEnabled
+  nameWithType: RecordingAudioProfile.IsFormatEnabled
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.IsFormatEnabled
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.IsAudioEnhancementsEnabled*
+  commentId: Overload:WindowsAudioWrapper.Models.RecordingAudioProfile.IsAudioEnhancementsEnabled
+  href: WindowsAudioWrapper.Models.RecordingAudioProfile.html#WindowsAudioWrapper_Models_RecordingAudioProfile_IsAudioEnhancementsEnabled
+  name: IsAudioEnhancementsEnabled
+  nameWithType: RecordingAudioProfile.IsAudioEnhancementsEnabled
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.IsAudioEnhancementsEnabled
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.IsChannelVolumeEnabled*
+  commentId: Overload:WindowsAudioWrapper.Models.RecordingAudioProfile.IsChannelVolumeEnabled
+  href: WindowsAudioWrapper.Models.RecordingAudioProfile.html#WindowsAudioWrapper_Models_RecordingAudioProfile_IsChannelVolumeEnabled
+  name: IsChannelVolumeEnabled
+  nameWithType: RecordingAudioProfile.IsChannelVolumeEnabled
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.IsChannelVolumeEnabled
+- uid: WindowsAudioWrapper.Models.RecordingAudioProfile.EnsureDefaults*
+  commentId: Overload:WindowsAudioWrapper.Models.RecordingAudioProfile.EnsureDefaults
+  href: WindowsAudioWrapper.Models.RecordingAudioProfile.html#WindowsAudioWrapper_Models_RecordingAudioProfile_EnsureDefaults
+  name: EnsureDefaults
+  nameWithType: RecordingAudioProfile.EnsureDefaults
+  fullName: WindowsAudioWrapper.Models.RecordingAudioProfile.EnsureDefaults

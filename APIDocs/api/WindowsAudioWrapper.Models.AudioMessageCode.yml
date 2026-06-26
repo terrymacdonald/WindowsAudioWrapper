@@ -1,0 +1,328 @@
+### YamlMime:ManagedReference
+items:
+- uid: WindowsAudioWrapper.Models.AudioMessageCode
+  commentId: T:WindowsAudioWrapper.Models.AudioMessageCode
+  id: AudioMessageCode
+  parent: WindowsAudioWrapper.Models
+  children:
+  - WindowsAudioWrapper.Models.AudioMessageCode.DeviceMissing
+  - WindowsAudioWrapper.Models.AudioMessageCode.DeviceNotFound
+  - WindowsAudioWrapper.Models.AudioMessageCode.DeviceUnavailable
+  - WindowsAudioWrapper.Models.AudioMessageCode.InvalidAudioFlow
+  - WindowsAudioWrapper.Models.AudioMessageCode.InvalidVolume
+  - WindowsAudioWrapper.Models.AudioMessageCode.NoEnabledSettings
+  - WindowsAudioWrapper.Models.AudioMessageCode.None
+  - WindowsAudioWrapper.Models.AudioMessageCode.ProfileApplied
+  - WindowsAudioWrapper.Models.AudioMessageCode.UnexpectedError
+  - WindowsAudioWrapper.Models.AudioMessageCode.UnsupportedSetting
+  langs:
+  - csharp
+  - vb
+  name: AudioMessageCode
+  nameWithType: AudioMessageCode
+  fullName: WindowsAudioWrapper.Models.AudioMessageCode
+  type: Enum
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEnums.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: AudioMessageCode
+    path: ../WindowsAudioWrapper/Models/AudioEnums.cs
+    startLine: 47
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: public enum AudioMessageCode
+    content.vb: Public Enum AudioMessageCode
+- uid: WindowsAudioWrapper.Models.AudioMessageCode.None
+  commentId: F:WindowsAudioWrapper.Models.AudioMessageCode.None
+  id: None
+  parent: WindowsAudioWrapper.Models.AudioMessageCode
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: AudioMessageCode.None
+  fullName: WindowsAudioWrapper.Models.AudioMessageCode.None
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEnums.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: None
+    path: ../WindowsAudioWrapper/Models/AudioEnums.cs
+    startLine: 49
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: None = 0
+    return:
+      type: WindowsAudioWrapper.Models.AudioMessageCode
+- uid: WindowsAudioWrapper.Models.AudioMessageCode.ProfileApplied
+  commentId: F:WindowsAudioWrapper.Models.AudioMessageCode.ProfileApplied
+  id: ProfileApplied
+  parent: WindowsAudioWrapper.Models.AudioMessageCode
+  langs:
+  - csharp
+  - vb
+  name: ProfileApplied
+  nameWithType: AudioMessageCode.ProfileApplied
+  fullName: WindowsAudioWrapper.Models.AudioMessageCode.ProfileApplied
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEnums.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: ProfileApplied
+    path: ../WindowsAudioWrapper/Models/AudioEnums.cs
+    startLine: 50
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: ProfileApplied = 1
+    return:
+      type: WindowsAudioWrapper.Models.AudioMessageCode
+- uid: WindowsAudioWrapper.Models.AudioMessageCode.DeviceMissing
+  commentId: F:WindowsAudioWrapper.Models.AudioMessageCode.DeviceMissing
+  id: DeviceMissing
+  parent: WindowsAudioWrapper.Models.AudioMessageCode
+  langs:
+  - csharp
+  - vb
+  name: DeviceMissing
+  nameWithType: AudioMessageCode.DeviceMissing
+  fullName: WindowsAudioWrapper.Models.AudioMessageCode.DeviceMissing
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEnums.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: DeviceMissing
+    path: ../WindowsAudioWrapper/Models/AudioEnums.cs
+    startLine: 51
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: DeviceMissing = 2
+    return:
+      type: WindowsAudioWrapper.Models.AudioMessageCode
+- uid: WindowsAudioWrapper.Models.AudioMessageCode.DeviceNotFound
+  commentId: F:WindowsAudioWrapper.Models.AudioMessageCode.DeviceNotFound
+  id: DeviceNotFound
+  parent: WindowsAudioWrapper.Models.AudioMessageCode
+  langs:
+  - csharp
+  - vb
+  name: DeviceNotFound
+  nameWithType: AudioMessageCode.DeviceNotFound
+  fullName: WindowsAudioWrapper.Models.AudioMessageCode.DeviceNotFound
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEnums.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: DeviceNotFound
+    path: ../WindowsAudioWrapper/Models/AudioEnums.cs
+    startLine: 52
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: DeviceNotFound = 3
+    return:
+      type: WindowsAudioWrapper.Models.AudioMessageCode
+- uid: WindowsAudioWrapper.Models.AudioMessageCode.DeviceUnavailable
+  commentId: F:WindowsAudioWrapper.Models.AudioMessageCode.DeviceUnavailable
+  id: DeviceUnavailable
+  parent: WindowsAudioWrapper.Models.AudioMessageCode
+  langs:
+  - csharp
+  - vb
+  name: DeviceUnavailable
+  nameWithType: AudioMessageCode.DeviceUnavailable
+  fullName: WindowsAudioWrapper.Models.AudioMessageCode.DeviceUnavailable
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEnums.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: DeviceUnavailable
+    path: ../WindowsAudioWrapper/Models/AudioEnums.cs
+    startLine: 53
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: DeviceUnavailable = 4
+    return:
+      type: WindowsAudioWrapper.Models.AudioMessageCode
+- uid: WindowsAudioWrapper.Models.AudioMessageCode.InvalidAudioFlow
+  commentId: F:WindowsAudioWrapper.Models.AudioMessageCode.InvalidAudioFlow
+  id: InvalidAudioFlow
+  parent: WindowsAudioWrapper.Models.AudioMessageCode
+  langs:
+  - csharp
+  - vb
+  name: InvalidAudioFlow
+  nameWithType: AudioMessageCode.InvalidAudioFlow
+  fullName: WindowsAudioWrapper.Models.AudioMessageCode.InvalidAudioFlow
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEnums.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: InvalidAudioFlow
+    path: ../WindowsAudioWrapper/Models/AudioEnums.cs
+    startLine: 54
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: InvalidAudioFlow = 5
+    return:
+      type: WindowsAudioWrapper.Models.AudioMessageCode
+- uid: WindowsAudioWrapper.Models.AudioMessageCode.InvalidVolume
+  commentId: F:WindowsAudioWrapper.Models.AudioMessageCode.InvalidVolume
+  id: InvalidVolume
+  parent: WindowsAudioWrapper.Models.AudioMessageCode
+  langs:
+  - csharp
+  - vb
+  name: InvalidVolume
+  nameWithType: AudioMessageCode.InvalidVolume
+  fullName: WindowsAudioWrapper.Models.AudioMessageCode.InvalidVolume
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEnums.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: InvalidVolume
+    path: ../WindowsAudioWrapper/Models/AudioEnums.cs
+    startLine: 55
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: InvalidVolume = 6
+    return:
+      type: WindowsAudioWrapper.Models.AudioMessageCode
+- uid: WindowsAudioWrapper.Models.AudioMessageCode.UnsupportedSetting
+  commentId: F:WindowsAudioWrapper.Models.AudioMessageCode.UnsupportedSetting
+  id: UnsupportedSetting
+  parent: WindowsAudioWrapper.Models.AudioMessageCode
+  langs:
+  - csharp
+  - vb
+  name: UnsupportedSetting
+  nameWithType: AudioMessageCode.UnsupportedSetting
+  fullName: WindowsAudioWrapper.Models.AudioMessageCode.UnsupportedSetting
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEnums.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: UnsupportedSetting
+    path: ../WindowsAudioWrapper/Models/AudioEnums.cs
+    startLine: 56
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: UnsupportedSetting = 7
+    return:
+      type: WindowsAudioWrapper.Models.AudioMessageCode
+- uid: WindowsAudioWrapper.Models.AudioMessageCode.NoEnabledSettings
+  commentId: F:WindowsAudioWrapper.Models.AudioMessageCode.NoEnabledSettings
+  id: NoEnabledSettings
+  parent: WindowsAudioWrapper.Models.AudioMessageCode
+  langs:
+  - csharp
+  - vb
+  name: NoEnabledSettings
+  nameWithType: AudioMessageCode.NoEnabledSettings
+  fullName: WindowsAudioWrapper.Models.AudioMessageCode.NoEnabledSettings
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEnums.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: NoEnabledSettings
+    path: ../WindowsAudioWrapper/Models/AudioEnums.cs
+    startLine: 57
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: NoEnabledSettings = 8
+    return:
+      type: WindowsAudioWrapper.Models.AudioMessageCode
+- uid: WindowsAudioWrapper.Models.AudioMessageCode.UnexpectedError
+  commentId: F:WindowsAudioWrapper.Models.AudioMessageCode.UnexpectedError
+  id: UnexpectedError
+  parent: WindowsAudioWrapper.Models.AudioMessageCode
+  langs:
+  - csharp
+  - vb
+  name: UnexpectedError
+  nameWithType: AudioMessageCode.UnexpectedError
+  fullName: WindowsAudioWrapper.Models.AudioMessageCode.UnexpectedError
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEnums.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: UnexpectedError
+    path: ../WindowsAudioWrapper/Models/AudioEnums.cs
+    startLine: 58
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: UnexpectedError = 99
+    return:
+      type: WindowsAudioWrapper.Models.AudioMessageCode
+references:
+- uid: WindowsAudioWrapper.Models
+  commentId: N:WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.html
+  name: WindowsAudioWrapper.Models
+  nameWithType: WindowsAudioWrapper.Models
+  fullName: WindowsAudioWrapper.Models
+  spec.csharp:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Models
+    name: Models
+    href: WindowsAudioWrapper.Models.html
+  spec.vb:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Models
+    name: Models
+    href: WindowsAudioWrapper.Models.html
+- uid: WindowsAudioWrapper.Models.AudioMessageCode
+  commentId: T:WindowsAudioWrapper.Models.AudioMessageCode
+  parent: WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.Models.AudioMessageCode.html
+  name: AudioMessageCode
+  nameWithType: AudioMessageCode
+  fullName: WindowsAudioWrapper.Models.AudioMessageCode

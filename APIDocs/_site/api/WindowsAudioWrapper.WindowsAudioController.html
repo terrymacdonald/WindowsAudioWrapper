@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class WindowsAudioController | WindowsAudioWrapper </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class WindowsAudioController | WindowsAudioWrapper ">
+      
+      <meta name="description" content="Provides the public facade managing and coordinating core Windows audio configurations.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/terrymacdonald/WindowsAudioWrapper/new/develop/apiSpec/new?filename=WindowsAudioWrapper_WindowsAudioController.md&amp;value=---%0Auid%3A%20WindowsAudioWrapper.WindowsAudioController%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="WindowsAudioWrapper">
+            WindowsAudioWrapper
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="WindowsAudioWrapper.WindowsAudioController">
+
+
+
+  <h1 id="WindowsAudioWrapper_WindowsAudioController" data-uid="WindowsAudioWrapper.WindowsAudioController" class="text-break">
+Class WindowsAudioController  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="WindowsAudioWrapper.html">WindowsAudioWrapper</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>WindowsAudioWrapper.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Provides the public facade managing and coordinating core Windows audio configurations.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class WindowsAudioController : IWindowsAudioController, IDisposable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">WindowsAudioController</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="WindowsAudioWrapper.IWindowsAudioController.html">IWindowsAudioController</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController__ctor_" data-uid="WindowsAudioWrapper.WindowsAudioController.#ctor*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController__ctor" data-uid="WindowsAudioWrapper.WindowsAudioController.#ctor">
+  WindowsAudioController()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="WindowsAudioWrapper.WindowsAudioController.html">WindowsAudioController</a> class using target concrete engines.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WindowsAudioController()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_ApplyProfile_" data-uid="WindowsAudioWrapper.WindowsAudioController.ApplyProfile*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_ApplyProfile_WindowsAudioWrapper_Models_AudioProfile_" data-uid="WindowsAudioWrapper.WindowsAudioController.ApplyProfile(WindowsAudioWrapper.Models.AudioProfile)">
+  ApplyProfile(AudioProfile)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L410"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioProfileApplyResult ApplyProfile(AudioProfile profile)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>profile</code> <a class="xref" href="WindowsAudioWrapper.Models.AudioProfile.html">AudioProfile</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WindowsAudioWrapper.Models.AudioProfileApplyResult.html">AudioProfileApplyResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_Dispose_" data-uid="WindowsAudioWrapper.WindowsAudioController.Dispose*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_Dispose" data-uid="WindowsAudioWrapper.WindowsAudioController.Dispose">
+  Dispose()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L428"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_GetCurrentProfile_" data-uid="WindowsAudioWrapper.WindowsAudioController.GetCurrentProfile*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_GetCurrentProfile" data-uid="WindowsAudioWrapper.WindowsAudioController.GetCurrentProfile">
+  GetCurrentProfile()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L382"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Captures every setting WindowsAudioWrapper can currently read into a normal AudioProfile.
+The returned profile can be saved, edited, or applied later.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioProfile GetCurrentProfile()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WindowsAudioWrapper.Models.AudioProfile.html">AudioProfile</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_GetDefaultCommunicationsPlaybackDevice_" data-uid="WindowsAudioWrapper.WindowsAudioController.GetDefaultCommunicationsPlaybackDevice*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_GetDefaultCommunicationsPlaybackDevice" data-uid="WindowsAudioWrapper.WindowsAudioController.GetDefaultCommunicationsPlaybackDevice">
+  GetDefaultCommunicationsPlaybackDevice()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioEndpointInfo GetDefaultCommunicationsPlaybackDevice()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WindowsAudioWrapper.Models.AudioEndpointInfo.html">AudioEndpointInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_GetDefaultCommunicationsRecordingDevice_" data-uid="WindowsAudioWrapper.WindowsAudioController.GetDefaultCommunicationsRecordingDevice*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_GetDefaultCommunicationsRecordingDevice" data-uid="WindowsAudioWrapper.WindowsAudioController.GetDefaultCommunicationsRecordingDevice">
+  GetDefaultCommunicationsRecordingDevice()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioEndpointInfo GetDefaultCommunicationsRecordingDevice()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WindowsAudioWrapper.Models.AudioEndpointInfo.html">AudioEndpointInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_GetDefaultConsolePlaybackDevice_" data-uid="WindowsAudioWrapper.WindowsAudioController.GetDefaultConsolePlaybackDevice*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_GetDefaultConsolePlaybackDevice" data-uid="WindowsAudioWrapper.WindowsAudioController.GetDefaultConsolePlaybackDevice">
+  GetDefaultConsolePlaybackDevice()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioEndpointInfo GetDefaultConsolePlaybackDevice()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WindowsAudioWrapper.Models.AudioEndpointInfo.html">AudioEndpointInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_GetDefaultConsoleRecordingDevice_" data-uid="WindowsAudioWrapper.WindowsAudioController.GetDefaultConsoleRecordingDevice*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_GetDefaultConsoleRecordingDevice" data-uid="WindowsAudioWrapper.WindowsAudioController.GetDefaultConsoleRecordingDevice">
+  GetDefaultConsoleRecordingDevice()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioEndpointInfo GetDefaultConsoleRecordingDevice()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WindowsAudioWrapper.Models.AudioEndpointInfo.html">AudioEndpointInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_GetDefaultPlaybackDevice_" data-uid="WindowsAudioWrapper.WindowsAudioController.GetDefaultPlaybackDevice*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_GetDefaultPlaybackDevice" data-uid="WindowsAudioWrapper.WindowsAudioController.GetDefaultPlaybackDevice">
+  GetDefaultPlaybackDevice()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioEndpointInfo GetDefaultPlaybackDevice()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WindowsAudioWrapper.Models.AudioEndpointInfo.html">AudioEndpointInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_GetDefaultRecordingDevice_" data-uid="WindowsAudioWrapper.WindowsAudioController.GetDefaultRecordingDevice*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_GetDefaultRecordingDevice" data-uid="WindowsAudioWrapper.WindowsAudioController.GetDefaultRecordingDevice">
+  GetDefaultRecordingDevice()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioEndpointInfo GetDefaultRecordingDevice()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WindowsAudioWrapper.Models.AudioEndpointInfo.html">AudioEndpointInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_GetPlaybackDevices_" data-uid="WindowsAudioWrapper.WindowsAudioController.GetPlaybackDevices*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_GetPlaybackDevices_WindowsAudioWrapper_Models_AudioDeviceState_" data-uid="WindowsAudioWrapper.WindowsAudioController.GetPlaybackDevices(WindowsAudioWrapper.Models.AudioDeviceState)">
+  GetPlaybackDevices(AudioDeviceState)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;AudioEndpointInfo&gt; GetPlaybackDevices(AudioDeviceState states = AudioDeviceState.Active | AudioDeviceState.Unplugged)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>states</code> <a class="xref" href="WindowsAudioWrapper.Models.AudioDeviceState.html">AudioDeviceState</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="WindowsAudioWrapper.Models.AudioEndpointInfo.html">AudioEndpointInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_GetRecordingDevices_" data-uid="WindowsAudioWrapper.WindowsAudioController.GetRecordingDevices*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_GetRecordingDevices_WindowsAudioWrapper_Models_AudioDeviceState_" data-uid="WindowsAudioWrapper.WindowsAudioController.GetRecordingDevices(WindowsAudioWrapper.Models.AudioDeviceState)">
+  GetRecordingDevices(AudioDeviceState)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;AudioEndpointInfo&gt; GetRecordingDevices(AudioDeviceState states = AudioDeviceState.Active | AudioDeviceState.Unplugged)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>states</code> <a class="xref" href="WindowsAudioWrapper.Models.AudioDeviceState.html">AudioDeviceState</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="WindowsAudioWrapper.Models.AudioEndpointInfo.html">AudioEndpointInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_RegisterTargetDevice_" data-uid="WindowsAudioWrapper.WindowsAudioController.RegisterTargetDevice*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_RegisterTargetDevice_WindowsAudioWrapper_Models_AudioEndpointReference_" data-uid="WindowsAudioWrapper.WindowsAudioController.RegisterTargetDevice(WindowsAudioWrapper.Models.AudioEndpointReference)">
+  RegisterTargetDevice(AudioEndpointReference)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L349"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Registers a targeted device reference to explicitly monitor for custom connection arrivals.
+When matched, the <a class="xref" href="WindowsAudioWrapper.IWindowsAudioController.html#WindowsAudioWrapper_IWindowsAudioController_AudioDeviceConnected">AudioDeviceConnected</a> event fires.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterTargetDevice(AudioEndpointReference device)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>device</code> <a class="xref" href="WindowsAudioWrapper.Models.AudioEndpointReference.html">AudioEndpointReference</a></dt>
+    <dd><p>The reference criteria mapping the target hardware to track.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_SetAudioEnhancements_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetAudioEnhancements*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_SetAudioEnhancements_System_String_WindowsAudioWrapper_Models_AudioEnhancementProfile_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetAudioEnhancements(System.String,WindowsAudioWrapper.Models.AudioEnhancementProfile)">
+  SetAudioEnhancements(string, AudioEnhancementProfile)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAudioEnhancements(string deviceId, AudioEnhancementProfile enhancements)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>enhancements</code> <a class="xref" href="WindowsAudioWrapper.Models.AudioEnhancementProfile.html">AudioEnhancementProfile</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_SetChannelVolumes_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetChannelVolumes*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_SetChannelVolumes_System_String_System_Decimal_System_Decimal_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetChannelVolumes(System.String,System.Decimal,System.Decimal)">
+  SetChannelVolumes(string, decimal, decimal)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L224"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetChannelVolumes(string deviceId, decimal leftVolume, decimal rightVolume)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>leftVolume</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+    <dt><code>rightVolume</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_SetDefaultConsolePlaybackDevice_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetDefaultConsolePlaybackDevice*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_SetDefaultConsolePlaybackDevice_System_String_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetDefaultConsolePlaybackDevice(System.String)">
+  SetDefaultConsolePlaybackDevice(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the default console playback device.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDefaultConsolePlaybackDevice(string deviceId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_SetDefaultConsoleRecordingDevice_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetDefaultConsoleRecordingDevice*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_SetDefaultConsoleRecordingDevice_System_String_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetDefaultConsoleRecordingDevice(System.String)">
+  SetDefaultConsoleRecordingDevice(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L199"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the default console recording device.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDefaultConsoleRecordingDevice(string deviceId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_SetDefaultPlaybackDevice_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetDefaultPlaybackDevice*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_SetDefaultPlaybackDevice_System_String_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetDefaultPlaybackDevice(System.String)">
+  SetDefaultPlaybackDevice(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDefaultPlaybackDevice(string deviceId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_SetDefaultRecordingDevice_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetDefaultRecordingDevice*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_SetDefaultRecordingDevice_System_String_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetDefaultRecordingDevice(System.String)">
+  SetDefaultRecordingDevice(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L189"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDefaultRecordingDevice(string deviceId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_SetDeviceDisabled_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetDeviceDisabled*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_SetDeviceDisabled_System_String_System_Boolean_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetDeviceDisabled(System.String,System.Boolean)">
+  SetDeviceDisabled(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDeviceDisabled(string deviceId, bool disabled)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>disabled</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_SetFormat_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetFormat*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_SetFormat_System_String_WindowsAudioWrapper_Models_AudioFormatProfile_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetFormat(System.String,WindowsAudioWrapper.Models.AudioFormatProfile)">
+  SetFormat(string, AudioFormatProfile)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetFormat(string deviceId, AudioFormatProfile format)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>format</code> <a class="xref" href="WindowsAudioWrapper.Models.AudioFormatProfile.html">AudioFormatProfile</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_SetMute_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetMute*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_SetMute_System_String_System_Boolean_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetMute(System.String,System.Boolean)">
+  SetMute(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetMute(string deviceId, bool muted)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>muted</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_SetVolumePercent_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetVolumePercent*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_SetVolumePercent_System_String_System_Decimal_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetVolumePercent(System.String,System.Decimal)">
+  SetVolumePercent(string, decimal)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetVolumePercent(string deviceId, decimal volumePercent)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>volumePercent</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_UnregisterTargetDevice_" data-uid="WindowsAudioWrapper.WindowsAudioController.UnregisterTargetDevice*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_UnregisterTargetDevice_WindowsAudioWrapper_Models_AudioEndpointReference_" data-uid="WindowsAudioWrapper.WindowsAudioController.UnregisterTargetDevice(WindowsAudioWrapper.Models.AudioEndpointReference)">
+  UnregisterTargetDevice(AudioEndpointReference)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L365"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Unregisters a previously tracked device reference from arrival notification callback monitoring.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnregisterTargetDevice(AudioEndpointReference device)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>device</code> <a class="xref" href="WindowsAudioWrapper.Models.AudioEndpointReference.html">AudioEndpointReference</a></dt>
+    <dd><p>The reference criteria mapping the target hardware to remove.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_ValidateProfile_" data-uid="WindowsAudioWrapper.WindowsAudioController.ValidateProfile*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_ValidateProfile_WindowsAudioWrapper_Models_AudioProfile_" data-uid="WindowsAudioWrapper.WindowsAudioController.ValidateProfile(WindowsAudioWrapper.Models.AudioProfile)">
+  ValidateProfile(AudioProfile)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L394"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioProfileValidationResult ValidateProfile(AudioProfile profile)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>profile</code> <a class="xref" href="WindowsAudioWrapper.Models.AudioProfile.html">AudioProfile</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WindowsAudioWrapper.Models.AudioProfileValidationResult.html">AudioProfileValidationResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_WaitForAudioDeviceToAppear_" data-uid="WindowsAudioWrapper.WindowsAudioController.WaitForAudioDeviceToAppear*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_WaitForAudioDeviceToAppear_WindowsAudioWrapper_Models_AudioEndpointReference_System_Int32_" data-uid="WindowsAudioWrapper.WindowsAudioController.WaitForAudioDeviceToAppear(WindowsAudioWrapper.Models.AudioEndpointReference,System.Int32)">
+  WaitForAudioDeviceToAppear(AudioEndpointReference, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L252"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Synchronously blocks execution until a matching audio endpoint becomes visible and active to the OS,
+or the specified timeout duration is reached.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool WaitForAudioDeviceToAppear(AudioEndpointReference device, int timeoutMilliseconds)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>device</code> <a class="xref" href="WindowsAudioWrapper.Models.AudioEndpointReference.html">AudioEndpointReference</a></dt>
+    <dd><p>The search criteria target containing target identifiers (DeviceId, ContainerId, etc.).</p>
+</dd>
+    <dt><code>timeoutMilliseconds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The maximum block window length in milliseconds.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the matching hardware device arrives before the timeout expires; otherwise, false.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowsAudioWrapper_WindowsAudioController_WaitForAudioDeviceToAppearAsync_" data-uid="WindowsAudioWrapper.WindowsAudioController.WaitForAudioDeviceToAppearAsync*"></a>
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_WaitForAudioDeviceToAppearAsync_WindowsAudioWrapper_Models_AudioEndpointReference_System_Int32_System_Threading_CancellationToken_" data-uid="WindowsAudioWrapper.WindowsAudioController.WaitForAudioDeviceToAppearAsync(WindowsAudioWrapper.Models.AudioEndpointReference,System.Int32,System.Threading.CancellationToken)">
+  WaitForAudioDeviceToAppearAsync(AudioEndpointReference, int, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L298"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Asynchronously monitors system hardware notifications until a matching audio endpoint becomes visible and active.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; WaitForAudioDeviceToAppearAsync(AudioEndpointReference device, int timeoutMilliseconds, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>device</code> <a class="xref" href="WindowsAudioWrapper.Models.AudioEndpointReference.html">AudioEndpointReference</a></dt>
+    <dd><p>The search criteria target containing target identifiers (DeviceId, ContainerId, etc.).</p>
+</dd>
+    <dt><code>timeoutMilliseconds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The maximum wait duration length in milliseconds.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>An optional token to cooperatively cancel the asynchronous monitoring task.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>A task containing true if the hardware becomes active before the timeout; otherwise, false.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_AnyAudioDeviceConnected" data-uid="WindowsAudioWrapper.WindowsAudioController.AnyAudioDeviceConnected">
+  AnyAudioDeviceConnected
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Fires globally whenever any audio endpoint is plugged in, discovered, or becomes active in the system.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;AudioDeviceEventArgs&gt;? AnyAudioDeviceConnected</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="WindowsAudioWrapper.Models.AudioDeviceEventArgs.html">AudioDeviceEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="WindowsAudioWrapper_WindowsAudioController_AudioDeviceConnected" data-uid="WindowsAudioWrapper.WindowsAudioController.AudioDeviceConnected">
+  AudioDeviceConnected
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Fires when a specifically registered or targeted audio device connects and becomes active.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;AudioDeviceEventArgs&gt;? AudioDeviceConnected</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="WindowsAudioWrapper.Models.AudioDeviceEventArgs.html">AudioDeviceEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L18" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

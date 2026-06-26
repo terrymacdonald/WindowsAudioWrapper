@@ -1,0 +1,328 @@
+### YamlMime:ManagedReference
+items:
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore
+  id: IPropertyStore
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  children:
+  - WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.Commit
+  - WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetAt(System.UInt32,WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetCount(System.UInt32@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetValue(WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY@,WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT@)
+  - WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.SetValue(WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY@,WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT@)
+  langs:
+  - csharp
+  - vb
+  name: IPropertyStore
+  nameWithType: IPropertyStore
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore
+  type: Interface
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IPropertyStore
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 264
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: >-
+      [Guid("886D8EEB-8CF2-4446-8D02-CDBA1DBDCF99")]
+
+      [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+
+      public interface IPropertyStore
+    content.vb: >-
+      <Guid("886D8EEB-8CF2-4446-8D02-CDBA1DBDCF99")>
+
+      <InterfaceType(ComInterfaceType.InterfaceIsIUnknown)>
+
+      Public Interface IPropertyStore
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 886D8EEB-8CF2-4446-8D02-CDBA1DBDCF99
+  - type: System.Runtime.InteropServices.InterfaceTypeAttribute
+    ctor: System.Runtime.InteropServices.InterfaceTypeAttribute.#ctor(System.Runtime.InteropServices.ComInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ComInterfaceType
+      value: 1
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetCount(System.UInt32@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetCount(System.UInt32@)
+  id: GetCount(System.UInt32@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore
+  langs:
+  - csharp
+  - vb
+  name: GetCount(out uint)
+  nameWithType: IPropertyStore.GetCount(out uint)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetCount(out uint)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetCount
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 269
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int GetCount(out uint cProps)
+    parameters:
+    - id: cProps
+      type: System.UInt32
+    return:
+      type: System.Int32
+    content.vb: Function GetCount(cProps As UInteger) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetCount*
+  nameWithType.vb: IPropertyStore.GetCount(UInteger)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetCount(UInteger)
+  name.vb: GetCount(UInteger)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetAt(System.UInt32,WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetAt(System.UInt32,WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY@)
+  id: GetAt(System.UInt32,WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore
+  langs:
+  - csharp
+  - vb
+  name: GetAt(uint, out PROPERTYKEY)
+  nameWithType: IPropertyStore.GetAt(uint, out PROPERTYKEY)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetAt(uint, out WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetAt
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 272
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int GetAt(uint iProp, out PROPERTYKEY pkey)
+    parameters:
+    - id: iProp
+      type: System.UInt32
+    - id: pkey
+      type: WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY
+    return:
+      type: System.Int32
+    content.vb: Function GetAt(iProp As UInteger, pkey As PROPERTYKEY) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetAt*
+  nameWithType.vb: IPropertyStore.GetAt(UInteger, PROPERTYKEY)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetAt(UInteger, WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY)
+  name.vb: GetAt(UInteger, PROPERTYKEY)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetValue(WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY@,WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetValue(WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY@,WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT@)
+  id: GetValue(WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY@,WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore
+  langs:
+  - csharp
+  - vb
+  name: GetValue(in PROPERTYKEY, out PROPVARIANT)
+  nameWithType: IPropertyStore.GetValue(in PROPERTYKEY, out PROPVARIANT)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetValue(in WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY, out WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: GetValue
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 275
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int GetValue(in PROPERTYKEY key, out PROPVARIANT pv)
+    parameters:
+    - id: key
+      type: WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY
+    - id: pv
+      type: WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT
+    return:
+      type: System.Int32
+    content.vb: Function GetValue(key As PROPERTYKEY, pv As PROPVARIANT) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetValue*
+  nameWithType.vb: IPropertyStore.GetValue(PROPERTYKEY, PROPVARIANT)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetValue(WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY, WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT)
+  name.vb: GetValue(PROPERTYKEY, PROPVARIANT)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.SetValue(WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY@,WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT@)
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.SetValue(WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY@,WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT@)
+  id: SetValue(WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY@,WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT@)
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore
+  langs:
+  - csharp
+  - vb
+  name: SetValue(in PROPERTYKEY, in PROPVARIANT)
+  nameWithType: IPropertyStore.SetValue(in PROPERTYKEY, in PROPVARIANT)
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.SetValue(in WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY, in WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT)
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: SetValue
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 278
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int SetValue(in PROPERTYKEY key, in PROPVARIANT propvar)
+    parameters:
+    - id: key
+      type: WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY
+    - id: propvar
+      type: WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT
+    return:
+      type: System.Int32
+    content.vb: Function SetValue(key As PROPERTYKEY, propvar As PROPVARIANT) As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.SetValue*
+  nameWithType.vb: IPropertyStore.SetValue(PROPERTYKEY, PROPVARIANT)
+  fullName.vb: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.SetValue(WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY, WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT)
+  name.vb: SetValue(PROPERTYKEY, PROPVARIANT)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.Commit
+  commentId: M:WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.Commit
+  id: Commit
+  parent: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore
+  langs:
+  - csharp
+  - vb
+  name: Commit()
+  nameWithType: IPropertyStore.Commit()
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.Commit()
+  type: Method
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: Commit
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 281
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: int Commit()
+    return:
+      type: System.Int32
+    content.vb: Function Commit() As Integer
+  overload: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.Commit*
+references:
+- uid: WindowsAudioWrapper.Internal.CoreAudio
+  commentId: N:WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.html
+  name: WindowsAudioWrapper.Internal.CoreAudio
+  nameWithType: WindowsAudioWrapper.Internal.CoreAudio
+  fullName: WindowsAudioWrapper.Internal.CoreAudio
+  spec.csharp:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal
+    name: Internal
+    href: WindowsAudioWrapper.Internal.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal.CoreAudio
+    name: CoreAudio
+    href: WindowsAudioWrapper.Internal.CoreAudio.html
+  spec.vb:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal
+    name: Internal
+    href: WindowsAudioWrapper.Internal.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal.CoreAudio
+    name: CoreAudio
+    href: WindowsAudioWrapper.Internal.CoreAudio.html
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetCount*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetCount
+  href: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.html#WindowsAudioWrapper_Internal_CoreAudio_IPropertyStore_GetCount_System_UInt32__
+  name: GetCount
+  nameWithType: IPropertyStore.GetCount
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetCount
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetAt*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetAt
+  href: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.html#WindowsAudioWrapper_Internal_CoreAudio_IPropertyStore_GetAt_System_UInt32_WindowsAudioWrapper_Internal_CoreAudio_PROPERTYKEY__
+  name: GetAt
+  nameWithType: IPropertyStore.GetAt
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetAt
+- uid: WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY.html
+  name: PROPERTYKEY
+  nameWithType: PROPERTYKEY
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetValue*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetValue
+  href: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.html#WindowsAudioWrapper_Internal_CoreAudio_IPropertyStore_GetValue_WindowsAudioWrapper_Internal_CoreAudio_PROPERTYKEY__WindowsAudioWrapper_Internal_CoreAudio_PROPVARIANT__
+  name: GetValue
+  nameWithType: IPropertyStore.GetValue
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.GetValue
+- uid: WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT.html
+  name: PROPVARIANT
+  nameWithType: PROPVARIANT
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.PROPVARIANT
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.SetValue*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.SetValue
+  href: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.html#WindowsAudioWrapper_Internal_CoreAudio_IPropertyStore_SetValue_WindowsAudioWrapper_Internal_CoreAudio_PROPERTYKEY__WindowsAudioWrapper_Internal_CoreAudio_PROPVARIANT__
+  name: SetValue
+  nameWithType: IPropertyStore.SetValue
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.SetValue
+- uid: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.Commit*
+  commentId: Overload:WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.Commit
+  href: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.html#WindowsAudioWrapper_Internal_CoreAudio_IPropertyStore_Commit
+  name: Commit
+  nameWithType: IPropertyStore.Commit
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.IPropertyStore.Commit

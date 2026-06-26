@@ -1,0 +1,639 @@
+### YamlMime:ManagedReference
+items:
+- uid: WindowsAudioWrapper.Models.HardwareDetails
+  commentId: T:WindowsAudioWrapper.Models.HardwareDetails
+  id: HardwareDetails
+  parent: WindowsAudioWrapper.Models
+  children:
+  - WindowsAudioWrapper.Models.HardwareDetails.DeviceDescription
+  - WindowsAudioWrapper.Models.HardwareDetails.DeviceFormatSummary
+  - WindowsAudioWrapper.Models.HardwareDetails.EndpointGuid
+  - WindowsAudioWrapper.Models.HardwareDetails.FormFactorCode
+  - WindowsAudioWrapper.Models.HardwareDetails.FullRangeSpeakersMask
+  - WindowsAudioWrapper.Models.HardwareDetails.JackSubType
+  - WindowsAudioWrapper.Models.HardwareDetails.PhysicalSpeakersMask
+  - WindowsAudioWrapper.Models.HardwareDetails.SupportsEventDrivenMode
+  langs:
+  - csharp
+  - vb
+  name: HardwareDetails
+  nameWithType: HardwareDetails
+  fullName: WindowsAudioWrapper.Models.HardwareDetails
+  type: Class
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/HardwareDetails.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: HardwareDetails
+    path: ../WindowsAudioWrapper/Models/HardwareDetails.cs
+    startLine: 6
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: >-
+    Contains extended, low-level unmanaged property telemetry mapping for hardware endpoints.
+
+    Strictly respects zero-null constraints for integration stability.
+  example: []
+  syntax:
+    content: public class HardwareDetails
+    content.vb: Public Class HardwareDetails
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: WindowsAudioWrapper.Models.HardwareDetails.DeviceDescription
+  commentId: P:WindowsAudioWrapper.Models.HardwareDetails.DeviceDescription
+  id: DeviceDescription
+  parent: WindowsAudioWrapper.Models.HardwareDetails
+  langs:
+  - csharp
+  - vb
+  name: DeviceDescription
+  nameWithType: HardwareDetails.DeviceDescription
+  fullName: WindowsAudioWrapper.Models.HardwareDetails.DeviceDescription
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/HardwareDetails.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: DeviceDescription
+    path: ../WindowsAudioWrapper/Models/HardwareDetails.cs
+    startLine: 8
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: public string DeviceDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DeviceDescription As String
+  overload: WindowsAudioWrapper.Models.HardwareDetails.DeviceDescription*
+- uid: WindowsAudioWrapper.Models.HardwareDetails.FormFactorCode
+  commentId: P:WindowsAudioWrapper.Models.HardwareDetails.FormFactorCode
+  id: FormFactorCode
+  parent: WindowsAudioWrapper.Models.HardwareDetails
+  langs:
+  - csharp
+  - vb
+  name: FormFactorCode
+  nameWithType: HardwareDetails.FormFactorCode
+  fullName: WindowsAudioWrapper.Models.HardwareDetails.FormFactorCode
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/HardwareDetails.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: FormFactorCode
+    path: ../WindowsAudioWrapper/Models/HardwareDetails.cs
+    startLine: 9
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: public int FormFactorCode { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FormFactorCode As Integer
+  overload: WindowsAudioWrapper.Models.HardwareDetails.FormFactorCode*
+- uid: WindowsAudioWrapper.Models.HardwareDetails.PhysicalSpeakersMask
+  commentId: P:WindowsAudioWrapper.Models.HardwareDetails.PhysicalSpeakersMask
+  id: PhysicalSpeakersMask
+  parent: WindowsAudioWrapper.Models.HardwareDetails
+  langs:
+  - csharp
+  - vb
+  name: PhysicalSpeakersMask
+  nameWithType: HardwareDetails.PhysicalSpeakersMask
+  fullName: WindowsAudioWrapper.Models.HardwareDetails.PhysicalSpeakersMask
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/HardwareDetails.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: PhysicalSpeakersMask
+    path: ../WindowsAudioWrapper/Models/HardwareDetails.cs
+    startLine: 10
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: public uint PhysicalSpeakersMask { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property PhysicalSpeakersMask As UInteger
+  overload: WindowsAudioWrapper.Models.HardwareDetails.PhysicalSpeakersMask*
+- uid: WindowsAudioWrapper.Models.HardwareDetails.FullRangeSpeakersMask
+  commentId: P:WindowsAudioWrapper.Models.HardwareDetails.FullRangeSpeakersMask
+  id: FullRangeSpeakersMask
+  parent: WindowsAudioWrapper.Models.HardwareDetails
+  langs:
+  - csharp
+  - vb
+  name: FullRangeSpeakersMask
+  nameWithType: HardwareDetails.FullRangeSpeakersMask
+  fullName: WindowsAudioWrapper.Models.HardwareDetails.FullRangeSpeakersMask
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/HardwareDetails.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: FullRangeSpeakersMask
+    path: ../WindowsAudioWrapper/Models/HardwareDetails.cs
+    startLine: 11
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: public uint FullRangeSpeakersMask { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property FullRangeSpeakersMask As UInteger
+  overload: WindowsAudioWrapper.Models.HardwareDetails.FullRangeSpeakersMask*
+- uid: WindowsAudioWrapper.Models.HardwareDetails.EndpointGuid
+  commentId: P:WindowsAudioWrapper.Models.HardwareDetails.EndpointGuid
+  id: EndpointGuid
+  parent: WindowsAudioWrapper.Models.HardwareDetails
+  langs:
+  - csharp
+  - vb
+  name: EndpointGuid
+  nameWithType: HardwareDetails.EndpointGuid
+  fullName: WindowsAudioWrapper.Models.HardwareDetails.EndpointGuid
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/HardwareDetails.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: EndpointGuid
+    path: ../WindowsAudioWrapper/Models/HardwareDetails.cs
+    startLine: 12
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: public string EndpointGuid { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EndpointGuid As String
+  overload: WindowsAudioWrapper.Models.HardwareDetails.EndpointGuid*
+- uid: WindowsAudioWrapper.Models.HardwareDetails.DeviceFormatSummary
+  commentId: P:WindowsAudioWrapper.Models.HardwareDetails.DeviceFormatSummary
+  id: DeviceFormatSummary
+  parent: WindowsAudioWrapper.Models.HardwareDetails
+  langs:
+  - csharp
+  - vb
+  name: DeviceFormatSummary
+  nameWithType: HardwareDetails.DeviceFormatSummary
+  fullName: WindowsAudioWrapper.Models.HardwareDetails.DeviceFormatSummary
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/HardwareDetails.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: DeviceFormatSummary
+    path: ../WindowsAudioWrapper/Models/HardwareDetails.cs
+    startLine: 13
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: public string DeviceFormatSummary { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DeviceFormatSummary As String
+  overload: WindowsAudioWrapper.Models.HardwareDetails.DeviceFormatSummary*
+- uid: WindowsAudioWrapper.Models.HardwareDetails.SupportsEventDrivenMode
+  commentId: P:WindowsAudioWrapper.Models.HardwareDetails.SupportsEventDrivenMode
+  id: SupportsEventDrivenMode
+  parent: WindowsAudioWrapper.Models.HardwareDetails
+  langs:
+  - csharp
+  - vb
+  name: SupportsEventDrivenMode
+  nameWithType: HardwareDetails.SupportsEventDrivenMode
+  fullName: WindowsAudioWrapper.Models.HardwareDetails.SupportsEventDrivenMode
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/HardwareDetails.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: SupportsEventDrivenMode
+    path: ../WindowsAudioWrapper/Models/HardwareDetails.cs
+    startLine: 16
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets a value indicating whether the endpoint supports WASAPI low-latency event-driven buffer loops.
+  example: []
+  syntax:
+    content: public bool SupportsEventDrivenMode { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SupportsEventDrivenMode As Boolean
+  overload: WindowsAudioWrapper.Models.HardwareDetails.SupportsEventDrivenMode*
+- uid: WindowsAudioWrapper.Models.HardwareDetails.JackSubType
+  commentId: P:WindowsAudioWrapper.Models.HardwareDetails.JackSubType
+  id: JackSubType
+  parent: WindowsAudioWrapper.Models.HardwareDetails
+  langs:
+  - csharp
+  - vb
+  name: JackSubType
+  nameWithType: HardwareDetails.JackSubType
+  fullName: WindowsAudioWrapper.Models.HardwareDetails.JackSubType
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/HardwareDetails.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: JackSubType
+    path: ../WindowsAudioWrapper/Models/HardwareDetails.cs
+    startLine: 19
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the string representation of the connection type (e.g., Analog35mm, HDMI, Bluetooth).
+  example: []
+  syntax:
+    content: public string JackSubType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property JackSubType As String
+  overload: WindowsAudioWrapper.Models.HardwareDetails.JackSubType*
+references:
+- uid: WindowsAudioWrapper.Models
+  commentId: N:WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.html
+  name: WindowsAudioWrapper.Models
+  nameWithType: WindowsAudioWrapper.Models
+  fullName: WindowsAudioWrapper.Models
+  spec.csharp:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Models
+    name: Models
+    href: WindowsAudioWrapper.Models.html
+  spec.vb:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Models
+    name: Models
+    href: WindowsAudioWrapper.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WindowsAudioWrapper.Models.HardwareDetails.DeviceDescription*
+  commentId: Overload:WindowsAudioWrapper.Models.HardwareDetails.DeviceDescription
+  href: WindowsAudioWrapper.Models.HardwareDetails.html#WindowsAudioWrapper_Models_HardwareDetails_DeviceDescription
+  name: DeviceDescription
+  nameWithType: HardwareDetails.DeviceDescription
+  fullName: WindowsAudioWrapper.Models.HardwareDetails.DeviceDescription
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: WindowsAudioWrapper.Models.HardwareDetails.FormFactorCode*
+  commentId: Overload:WindowsAudioWrapper.Models.HardwareDetails.FormFactorCode
+  href: WindowsAudioWrapper.Models.HardwareDetails.html#WindowsAudioWrapper_Models_HardwareDetails_FormFactorCode
+  name: FormFactorCode
+  nameWithType: HardwareDetails.FormFactorCode
+  fullName: WindowsAudioWrapper.Models.HardwareDetails.FormFactorCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: WindowsAudioWrapper.Models.HardwareDetails.PhysicalSpeakersMask*
+  commentId: Overload:WindowsAudioWrapper.Models.HardwareDetails.PhysicalSpeakersMask
+  href: WindowsAudioWrapper.Models.HardwareDetails.html#WindowsAudioWrapper_Models_HardwareDetails_PhysicalSpeakersMask
+  name: PhysicalSpeakersMask
+  nameWithType: HardwareDetails.PhysicalSpeakersMask
+  fullName: WindowsAudioWrapper.Models.HardwareDetails.PhysicalSpeakersMask
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: WindowsAudioWrapper.Models.HardwareDetails.FullRangeSpeakersMask*
+  commentId: Overload:WindowsAudioWrapper.Models.HardwareDetails.FullRangeSpeakersMask
+  href: WindowsAudioWrapper.Models.HardwareDetails.html#WindowsAudioWrapper_Models_HardwareDetails_FullRangeSpeakersMask
+  name: FullRangeSpeakersMask
+  nameWithType: HardwareDetails.FullRangeSpeakersMask
+  fullName: WindowsAudioWrapper.Models.HardwareDetails.FullRangeSpeakersMask
+- uid: WindowsAudioWrapper.Models.HardwareDetails.EndpointGuid*
+  commentId: Overload:WindowsAudioWrapper.Models.HardwareDetails.EndpointGuid
+  href: WindowsAudioWrapper.Models.HardwareDetails.html#WindowsAudioWrapper_Models_HardwareDetails_EndpointGuid
+  name: EndpointGuid
+  nameWithType: HardwareDetails.EndpointGuid
+  fullName: WindowsAudioWrapper.Models.HardwareDetails.EndpointGuid
+- uid: WindowsAudioWrapper.Models.HardwareDetails.DeviceFormatSummary*
+  commentId: Overload:WindowsAudioWrapper.Models.HardwareDetails.DeviceFormatSummary
+  href: WindowsAudioWrapper.Models.HardwareDetails.html#WindowsAudioWrapper_Models_HardwareDetails_DeviceFormatSummary
+  name: DeviceFormatSummary
+  nameWithType: HardwareDetails.DeviceFormatSummary
+  fullName: WindowsAudioWrapper.Models.HardwareDetails.DeviceFormatSummary
+- uid: WindowsAudioWrapper.Models.HardwareDetails.SupportsEventDrivenMode*
+  commentId: Overload:WindowsAudioWrapper.Models.HardwareDetails.SupportsEventDrivenMode
+  href: WindowsAudioWrapper.Models.HardwareDetails.html#WindowsAudioWrapper_Models_HardwareDetails_SupportsEventDrivenMode
+  name: SupportsEventDrivenMode
+  nameWithType: HardwareDetails.SupportsEventDrivenMode
+  fullName: WindowsAudioWrapper.Models.HardwareDetails.SupportsEventDrivenMode
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: WindowsAudioWrapper.Models.HardwareDetails.JackSubType*
+  commentId: Overload:WindowsAudioWrapper.Models.HardwareDetails.JackSubType
+  href: WindowsAudioWrapper.Models.HardwareDetails.html#WindowsAudioWrapper_Models_HardwareDetails_JackSubType
+  name: JackSubType
+  nameWithType: HardwareDetails.JackSubType
+  fullName: WindowsAudioWrapper.Models.HardwareDetails.JackSubType

@@ -1,0 +1,501 @@
+### YamlMime:ManagedReference
+items:
+- uid: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX
+  id: WAVEFORMATEX
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  children:
+  - WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.cbSize
+  - WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.nAvgBytesPerSec
+  - WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.nBlockAlign
+  - WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.nChannels
+  - WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.nSamplesPerSec
+  - WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.wBitsPerSample
+  - WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.wFormatTag
+  langs:
+  - csharp
+  - vb
+  name: WAVEFORMATEX
+  nameWithType: WAVEFORMATEX
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX
+  type: Struct
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: WAVEFORMATEX
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 180
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: public struct WAVEFORMATEX
+    content.vb: Public Structure WAVEFORMATEX
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.wFormatTag
+  commentId: F:WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.wFormatTag
+  id: wFormatTag
+  parent: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX
+  langs:
+  - csharp
+  - vb
+  name: wFormatTag
+  nameWithType: WAVEFORMATEX.wFormatTag
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.wFormatTag
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: wFormatTag
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 183
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: public ushort wFormatTag
+    return:
+      type: System.UInt16
+    content.vb: Public wFormatTag As UShort
+- uid: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.nChannels
+  commentId: F:WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.nChannels
+  id: nChannels
+  parent: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX
+  langs:
+  - csharp
+  - vb
+  name: nChannels
+  nameWithType: WAVEFORMATEX.nChannels
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.nChannels
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: nChannels
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 184
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: public ushort nChannels
+    return:
+      type: System.UInt16
+    content.vb: Public nChannels As UShort
+- uid: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.nSamplesPerSec
+  commentId: F:WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.nSamplesPerSec
+  id: nSamplesPerSec
+  parent: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX
+  langs:
+  - csharp
+  - vb
+  name: nSamplesPerSec
+  nameWithType: WAVEFORMATEX.nSamplesPerSec
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.nSamplesPerSec
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: nSamplesPerSec
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 185
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: public uint nSamplesPerSec
+    return:
+      type: System.UInt32
+    content.vb: Public nSamplesPerSec As UInteger
+- uid: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.nAvgBytesPerSec
+  commentId: F:WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.nAvgBytesPerSec
+  id: nAvgBytesPerSec
+  parent: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX
+  langs:
+  - csharp
+  - vb
+  name: nAvgBytesPerSec
+  nameWithType: WAVEFORMATEX.nAvgBytesPerSec
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.nAvgBytesPerSec
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: nAvgBytesPerSec
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 186
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: public uint nAvgBytesPerSec
+    return:
+      type: System.UInt32
+    content.vb: Public nAvgBytesPerSec As UInteger
+- uid: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.nBlockAlign
+  commentId: F:WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.nBlockAlign
+  id: nBlockAlign
+  parent: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX
+  langs:
+  - csharp
+  - vb
+  name: nBlockAlign
+  nameWithType: WAVEFORMATEX.nBlockAlign
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.nBlockAlign
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: nBlockAlign
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 187
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: public ushort nBlockAlign
+    return:
+      type: System.UInt16
+    content.vb: Public nBlockAlign As UShort
+- uid: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.wBitsPerSample
+  commentId: F:WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.wBitsPerSample
+  id: wBitsPerSample
+  parent: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX
+  langs:
+  - csharp
+  - vb
+  name: wBitsPerSample
+  nameWithType: WAVEFORMATEX.wBitsPerSample
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.wBitsPerSample
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: wBitsPerSample
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 188
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: public ushort wBitsPerSample
+    return:
+      type: System.UInt16
+    content.vb: Public wBitsPerSample As UShort
+- uid: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.cbSize
+  commentId: F:WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.cbSize
+  id: cbSize
+  parent: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX
+  langs:
+  - csharp
+  - vb
+  name: cbSize
+  nameWithType: WAVEFORMATEX.cbSize
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.WAVEFORMATEX.cbSize
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: cbSize
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 189
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: public ushort cbSize
+    return:
+      type: System.UInt16
+    content.vb: Public cbSize As UShort
+references:
+- uid: WindowsAudioWrapper.Internal.CoreAudio
+  commentId: N:WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.html
+  name: WindowsAudioWrapper.Internal.CoreAudio
+  nameWithType: WindowsAudioWrapper.Internal.CoreAudio
+  fullName: WindowsAudioWrapper.Internal.CoreAudio
+  spec.csharp:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal
+    name: Internal
+    href: WindowsAudioWrapper.Internal.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal.CoreAudio
+    name: CoreAudio
+    href: WindowsAudioWrapper.Internal.CoreAudio.html
+  spec.vb:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal
+    name: Internal
+    href: WindowsAudioWrapper.Internal.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal.CoreAudio
+    name: CoreAudio
+    href: WindowsAudioWrapper.Internal.CoreAudio.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint16
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger

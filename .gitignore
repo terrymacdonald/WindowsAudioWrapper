@@ -118,3 +118,5 @@ _UpgradeReport_Files/
 WindowsAudioWrapper.Tests/obj/
 WindowsAudioWrapper/obj/
 WindowsAudioWrapper.SampleApp/obj/
+release-zip/
+obj/

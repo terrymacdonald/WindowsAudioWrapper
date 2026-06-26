@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState
+  id: AudioEffectState
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  children:
+  - WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState.Off
+  - WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState.On
+  langs:
+  - csharp
+  - vb
+  name: AudioEffectState
+  nameWithType: AudioEffectState
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState
+  type: Enum
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: AudioEffectState
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 68
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: Describes whether a Windows audio effect is currently off or on.
+  example: []
+  syntax:
+    content: public enum AudioEffectState
+    content.vb: Public Enum AudioEffectState
+- uid: WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState.Off
+  commentId: F:WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState.Off
+  id: Off
+  parent: WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState
+  langs:
+  - csharp
+  - vb
+  name: Off
+  nameWithType: AudioEffectState.Off
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState.Off
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: Off
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 70
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: Off = 0
+    return:
+      type: WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState
+- uid: WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState.On
+  commentId: F:WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState.On
+  id: On
+  parent: WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState
+  langs:
+  - csharp
+  - vb
+  name: On
+  nameWithType: AudioEffectState.On
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState.On
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: On
+    path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
+    startLine: 71
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Internal.CoreAudio
+  syntax:
+    content: On = 1
+    return:
+      type: WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState
+references:
+- uid: WindowsAudioWrapper.Internal.CoreAudio
+  commentId: N:WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.html
+  name: WindowsAudioWrapper.Internal.CoreAudio
+  nameWithType: WindowsAudioWrapper.Internal.CoreAudio
+  fullName: WindowsAudioWrapper.Internal.CoreAudio
+  spec.csharp:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal
+    name: Internal
+    href: WindowsAudioWrapper.Internal.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal.CoreAudio
+    name: CoreAudio
+    href: WindowsAudioWrapper.Internal.CoreAudio.html
+  spec.vb:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal
+    name: Internal
+    href: WindowsAudioWrapper.Internal.html
+  - name: .
+  - uid: WindowsAudioWrapper.Internal.CoreAudio
+    name: CoreAudio
+    href: WindowsAudioWrapper.Internal.CoreAudio.html
+- uid: WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState
+  commentId: T:WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState
+  parent: WindowsAudioWrapper.Internal.CoreAudio
+  href: WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState.html
+  name: AudioEffectState
+  nameWithType: AudioEffectState
+  fullName: WindowsAudioWrapper.Internal.CoreAudio.AudioEffectState

@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: WindowsAudioWrapper.Models.AudioMessageSeverity
+  commentId: T:WindowsAudioWrapper.Models.AudioMessageSeverity
+  id: AudioMessageSeverity
+  parent: WindowsAudioWrapper.Models
+  children:
+  - WindowsAudioWrapper.Models.AudioMessageSeverity.Error
+  - WindowsAudioWrapper.Models.AudioMessageSeverity.Info
+  - WindowsAudioWrapper.Models.AudioMessageSeverity.Warning
+  langs:
+  - csharp
+  - vb
+  name: AudioMessageSeverity
+  nameWithType: AudioMessageSeverity
+  fullName: WindowsAudioWrapper.Models.AudioMessageSeverity
+  type: Enum
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEnums.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: AudioMessageSeverity
+    path: ../WindowsAudioWrapper/Models/AudioEnums.cs
+    startLine: 33
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: public enum AudioMessageSeverity
+    content.vb: Public Enum AudioMessageSeverity
+- uid: WindowsAudioWrapper.Models.AudioMessageSeverity.Info
+  commentId: F:WindowsAudioWrapper.Models.AudioMessageSeverity.Info
+  id: Info
+  parent: WindowsAudioWrapper.Models.AudioMessageSeverity
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: AudioMessageSeverity.Info
+  fullName: WindowsAudioWrapper.Models.AudioMessageSeverity.Info
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEnums.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: Info
+    path: ../WindowsAudioWrapper/Models/AudioEnums.cs
+    startLine: 35
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: Info = 0
+    return:
+      type: WindowsAudioWrapper.Models.AudioMessageSeverity
+- uid: WindowsAudioWrapper.Models.AudioMessageSeverity.Warning
+  commentId: F:WindowsAudioWrapper.Models.AudioMessageSeverity.Warning
+  id: Warning
+  parent: WindowsAudioWrapper.Models.AudioMessageSeverity
+  langs:
+  - csharp
+  - vb
+  name: Warning
+  nameWithType: AudioMessageSeverity.Warning
+  fullName: WindowsAudioWrapper.Models.AudioMessageSeverity.Warning
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEnums.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: Warning
+    path: ../WindowsAudioWrapper/Models/AudioEnums.cs
+    startLine: 36
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: Warning = 1
+    return:
+      type: WindowsAudioWrapper.Models.AudioMessageSeverity
+- uid: WindowsAudioWrapper.Models.AudioMessageSeverity.Error
+  commentId: F:WindowsAudioWrapper.Models.AudioMessageSeverity.Error
+  id: Error
+  parent: WindowsAudioWrapper.Models.AudioMessageSeverity
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: AudioMessageSeverity.Error
+  fullName: WindowsAudioWrapper.Models.AudioMessageSeverity.Error
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEnums.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: Error
+    path: ../WindowsAudioWrapper/Models/AudioEnums.cs
+    startLine: 37
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  syntax:
+    content: Error = 2
+    return:
+      type: WindowsAudioWrapper.Models.AudioMessageSeverity
+references:
+- uid: WindowsAudioWrapper.Models
+  commentId: N:WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.html
+  name: WindowsAudioWrapper.Models
+  nameWithType: WindowsAudioWrapper.Models
+  fullName: WindowsAudioWrapper.Models
+  spec.csharp:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Models
+    name: Models
+    href: WindowsAudioWrapper.Models.html
+  spec.vb:
+  - uid: WindowsAudioWrapper
+    name: WindowsAudioWrapper
+    href: WindowsAudioWrapper.html
+  - name: .
+  - uid: WindowsAudioWrapper.Models
+    name: Models
+    href: WindowsAudioWrapper.Models.html
+- uid: WindowsAudioWrapper.Models.AudioMessageSeverity
+  commentId: T:WindowsAudioWrapper.Models.AudioMessageSeverity
+  parent: WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.Models.AudioMessageSeverity.html
+  name: AudioMessageSeverity
+  nameWithType: AudioMessageSeverity
+  fullName: WindowsAudioWrapper.Models.AudioMessageSeverity
