@@ -1,0 +1,446 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVVIOINPUTCONFIG
+  commentId: T:NVAPIWrapper._NVVIOINPUTCONFIG
+  id: _NVVIOINPUTCONFIG
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVVIOINPUTCONFIG.bTestMode
+  - NVAPIWrapper._NVVIOINPUTCONFIG.numRawCaptureImages
+  - NVAPIWrapper._NVVIOINPUTCONFIG.numStreams
+  - NVAPIWrapper._NVVIOINPUTCONFIG.signalFormat
+  - NVAPIWrapper._NVVIOINPUTCONFIG.streams
+  langs:
+  - csharp
+  - vb
+  name: _NVVIOINPUTCONFIG
+  nameWithType: _NVVIOINPUTCONFIG
+  fullName: NVAPIWrapper._NVVIOINPUTCONFIG
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOINPUTCONFIG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVVIOINPUTCONFIG
+    path: ../NVAPIWrapper/cs_generated/_NVVIOINPUTCONFIG.cs
+    startLine: 5
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NVVIOINPUTCONFIG
+    content.vb: Public Structure _NVVIOINPUTCONFIG
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NVVIOINPUTCONFIG.numRawCaptureImages
+  commentId: F:NVAPIWrapper._NVVIOINPUTCONFIG.numRawCaptureImages
+  id: numRawCaptureImages
+  parent: NVAPIWrapper._NVVIOINPUTCONFIG
+  langs:
+  - csharp
+  - vb
+  name: numRawCaptureImages
+  nameWithType: _NVVIOINPUTCONFIG.numRawCaptureImages
+  fullName: NVAPIWrapper._NVVIOINPUTCONFIG.numRawCaptureImages
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOINPUTCONFIG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: numRawCaptureImages
+    path: ../NVAPIWrapper/cs_generated/_NVVIOINPUTCONFIG.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint numRawCaptureImages
+    return:
+      type: System.UInt32
+    content.vb: Public numRawCaptureImages As UInteger
+- uid: NVAPIWrapper._NVVIOINPUTCONFIG.signalFormat
+  commentId: F:NVAPIWrapper._NVVIOINPUTCONFIG.signalFormat
+  id: signalFormat
+  parent: NVAPIWrapper._NVVIOINPUTCONFIG
+  langs:
+  - csharp
+  - vb
+  name: signalFormat
+  nameWithType: _NVVIOINPUTCONFIG.signalFormat
+  fullName: NVAPIWrapper._NVVIOINPUTCONFIG.signalFormat
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOINPUTCONFIG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: signalFormat
+    path: ../NVAPIWrapper/cs_generated/_NVVIOINPUTCONFIG.cs
+    startLine: 13
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVVIOSIGNALFORMAT signalFormat
+    return:
+      type: NVAPIWrapper._NVVIOSIGNALFORMAT
+    content.vb: Public signalFormat As _NVVIOSIGNALFORMAT
+- uid: NVAPIWrapper._NVVIOINPUTCONFIG.numStreams
+  commentId: F:NVAPIWrapper._NVVIOINPUTCONFIG.numStreams
+  id: numStreams
+  parent: NVAPIWrapper._NVVIOINPUTCONFIG
+  langs:
+  - csharp
+  - vb
+  name: numStreams
+  nameWithType: _NVVIOINPUTCONFIG.numStreams
+  fullName: NVAPIWrapper._NVVIOINPUTCONFIG.numStreams
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOINPUTCONFIG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: numStreams
+    path: ../NVAPIWrapper/cs_generated/_NVVIOINPUTCONFIG.cs
+    startLine: 17
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint numStreams
+    return:
+      type: System.UInt32
+    content.vb: Public numStreams As UInteger
+- uid: NVAPIWrapper._NVVIOINPUTCONFIG.streams
+  commentId: F:NVAPIWrapper._NVVIOINPUTCONFIG.streams
+  id: streams
+  parent: NVAPIWrapper._NVVIOINPUTCONFIG
+  langs:
+  - csharp
+  - vb
+  name: streams
+  nameWithType: _NVVIOINPUTCONFIG.streams
+  fullName: NVAPIWrapper._NVVIOINPUTCONFIG.streams
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOINPUTCONFIG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: streams
+    path: ../NVAPIWrapper/cs_generated/_NVVIOINPUTCONFIG.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVVIOINPUTCONFIG._streams_e__FixedBuffer streams
+    return:
+      type: NVAPIWrapper._NVVIOINPUTCONFIG._streams_e__FixedBuffer
+    content.vb: Public streams As _NVVIOINPUTCONFIG._streams_e__FixedBuffer
+- uid: NVAPIWrapper._NVVIOINPUTCONFIG.bTestMode
+  commentId: F:NVAPIWrapper._NVVIOINPUTCONFIG.bTestMode
+  id: bTestMode
+  parent: NVAPIWrapper._NVVIOINPUTCONFIG
+  langs:
+  - csharp
+  - vb
+  name: bTestMode
+  nameWithType: _NVVIOINPUTCONFIG.bTestMode
+  fullName: NVAPIWrapper._NVVIOINPUTCONFIG.bTestMode
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOINPUTCONFIG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bTestMode
+    path: ../NVAPIWrapper/cs_generated/_NVVIOINPUTCONFIG.cs
+    startLine: 25
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bTestMode
+    return:
+      type: System.UInt32
+    content.vb: Public bTestMode As UInteger
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper._NVVIOSIGNALFORMAT
+  commentId: T:NVAPIWrapper._NVVIOSIGNALFORMAT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOSIGNALFORMAT.html
+  name: _NVVIOSIGNALFORMAT
+  nameWithType: _NVVIOSIGNALFORMAT
+  fullName: NVAPIWrapper._NVVIOSIGNALFORMAT
+- uid: NVAPIWrapper._NVVIOINPUTCONFIG._streams_e__FixedBuffer
+  commentId: T:NVAPIWrapper._NVVIOINPUTCONFIG._streams_e__FixedBuffer
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOINPUTCONFIG.html
+  name: _NVVIOINPUTCONFIG._streams_e__FixedBuffer
+  nameWithType: _NVVIOINPUTCONFIG._streams_e__FixedBuffer
+  fullName: NVAPIWrapper._NVVIOINPUTCONFIG._streams_e__FixedBuffer
+  spec.csharp:
+  - uid: NVAPIWrapper._NVVIOINPUTCONFIG
+    name: _NVVIOINPUTCONFIG
+    href: NVAPIWrapper._NVVIOINPUTCONFIG.html
+  - name: .
+  - uid: NVAPIWrapper._NVVIOINPUTCONFIG._streams_e__FixedBuffer
+    name: _streams_e__FixedBuffer
+    href: NVAPIWrapper._NVVIOINPUTCONFIG._streams_e__FixedBuffer.html
+  spec.vb:
+  - uid: NVAPIWrapper._NVVIOINPUTCONFIG
+    name: _NVVIOINPUTCONFIG
+    href: NVAPIWrapper._NVVIOINPUTCONFIG.html
+  - name: .
+  - uid: NVAPIWrapper._NVVIOINPUTCONFIG._streams_e__FixedBuffer
+    name: _streams_e__FixedBuffer
+    href: NVAPIWrapper._NVVIOINPUTCONFIG._streams_e__FixedBuffer.html

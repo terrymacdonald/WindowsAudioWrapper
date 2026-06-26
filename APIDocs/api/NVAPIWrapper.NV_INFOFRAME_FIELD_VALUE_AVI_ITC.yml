@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC
+  commentId: T:NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC
+  id: NV_INFOFRAME_FIELD_VALUE_AVI_ITC
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC.NV_INFOFRAME_FIELD_VALUE_AVI_ITC_AUTO
+  - NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC.NV_INFOFRAME_FIELD_VALUE_AVI_ITC_ITCONTENT
+  - NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC.NV_INFOFRAME_FIELD_VALUE_AVI_ITC_VIDEO_CONTENT
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_FIELD_VALUE_AVI_ITC
+  nameWithType: NV_INFOFRAME_FIELD_VALUE_AVI_ITC
+  fullName: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_FIELD_VALUE_AVI_ITC.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_FIELD_VALUE_AVI_ITC
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_FIELD_VALUE_AVI_ITC.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_INFOFRAME_FIELD_VALUE_AVI_ITC
+    content.vb: Public Enum NV_INFOFRAME_FIELD_VALUE_AVI_ITC
+- uid: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC.NV_INFOFRAME_FIELD_VALUE_AVI_ITC_VIDEO_CONTENT
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC.NV_INFOFRAME_FIELD_VALUE_AVI_ITC_VIDEO_CONTENT
+  id: NV_INFOFRAME_FIELD_VALUE_AVI_ITC_VIDEO_CONTENT
+  parent: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_FIELD_VALUE_AVI_ITC_VIDEO_CONTENT
+  nameWithType: NV_INFOFRAME_FIELD_VALUE_AVI_ITC.NV_INFOFRAME_FIELD_VALUE_AVI_ITC_VIDEO_CONTENT
+  fullName: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC.NV_INFOFRAME_FIELD_VALUE_AVI_ITC_VIDEO_CONTENT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_FIELD_VALUE_AVI_ITC.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_FIELD_VALUE_AVI_ITC_VIDEO_CONTENT
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_FIELD_VALUE_AVI_ITC.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_INFOFRAME_FIELD_VALUE_AVI_ITC_VIDEO_CONTENT = 0
+    return:
+      type: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC
+- uid: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC.NV_INFOFRAME_FIELD_VALUE_AVI_ITC_ITCONTENT
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC.NV_INFOFRAME_FIELD_VALUE_AVI_ITC_ITCONTENT
+  id: NV_INFOFRAME_FIELD_VALUE_AVI_ITC_ITCONTENT
+  parent: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_FIELD_VALUE_AVI_ITC_ITCONTENT
+  nameWithType: NV_INFOFRAME_FIELD_VALUE_AVI_ITC.NV_INFOFRAME_FIELD_VALUE_AVI_ITC_ITCONTENT
+  fullName: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC.NV_INFOFRAME_FIELD_VALUE_AVI_ITC_ITCONTENT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_FIELD_VALUE_AVI_ITC.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_FIELD_VALUE_AVI_ITC_ITCONTENT
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_FIELD_VALUE_AVI_ITC.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_INFOFRAME_FIELD_VALUE_AVI_ITC_ITCONTENT = 1
+    return:
+      type: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC
+- uid: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC.NV_INFOFRAME_FIELD_VALUE_AVI_ITC_AUTO
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC.NV_INFOFRAME_FIELD_VALUE_AVI_ITC_AUTO
+  id: NV_INFOFRAME_FIELD_VALUE_AVI_ITC_AUTO
+  parent: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_FIELD_VALUE_AVI_ITC_AUTO
+  nameWithType: NV_INFOFRAME_FIELD_VALUE_AVI_ITC.NV_INFOFRAME_FIELD_VALUE_AVI_ITC_AUTO
+  fullName: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC.NV_INFOFRAME_FIELD_VALUE_AVI_ITC_AUTO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_FIELD_VALUE_AVI_ITC.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_FIELD_VALUE_AVI_ITC_AUTO
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_FIELD_VALUE_AVI_ITC.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_INFOFRAME_FIELD_VALUE_AVI_ITC_AUTO = 3
+    return:
+      type: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC
+  commentId: T:NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC.html
+  name: NV_INFOFRAME_FIELD_VALUE_AVI_ITC
+  nameWithType: NV_INFOFRAME_FIELD_VALUE_AVI_ITC
+  fullName: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_ITC

@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_INFOFRAME_PROPERTY_BLACKLIST
+  commentId: T:NVAPIWrapper.NV_INFOFRAME_PROPERTY_BLACKLIST
+  id: NV_INFOFRAME_PROPERTY_BLACKLIST
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_INFOFRAME_PROPERTY_BLACKLIST.NV_INFOFRAME_PROPERTY_BLACKLIST_FALSE
+  - NVAPIWrapper.NV_INFOFRAME_PROPERTY_BLACKLIST.NV_INFOFRAME_PROPERTY_BLACKLIST_TRUE
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_PROPERTY_BLACKLIST
+  nameWithType: NV_INFOFRAME_PROPERTY_BLACKLIST
+  fullName: NVAPIWrapper.NV_INFOFRAME_PROPERTY_BLACKLIST
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_PROPERTY_BLACKLIST.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_PROPERTY_BLACKLIST
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_PROPERTY_BLACKLIST.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_INFOFRAME_PROPERTY_BLACKLIST
+    content.vb: Public Enum NV_INFOFRAME_PROPERTY_BLACKLIST
+- uid: NVAPIWrapper.NV_INFOFRAME_PROPERTY_BLACKLIST.NV_INFOFRAME_PROPERTY_BLACKLIST_FALSE
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_PROPERTY_BLACKLIST.NV_INFOFRAME_PROPERTY_BLACKLIST_FALSE
+  id: NV_INFOFRAME_PROPERTY_BLACKLIST_FALSE
+  parent: NVAPIWrapper.NV_INFOFRAME_PROPERTY_BLACKLIST
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_PROPERTY_BLACKLIST_FALSE
+  nameWithType: NV_INFOFRAME_PROPERTY_BLACKLIST.NV_INFOFRAME_PROPERTY_BLACKLIST_FALSE
+  fullName: NVAPIWrapper.NV_INFOFRAME_PROPERTY_BLACKLIST.NV_INFOFRAME_PROPERTY_BLACKLIST_FALSE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_PROPERTY_BLACKLIST.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_PROPERTY_BLACKLIST_FALSE
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_PROPERTY_BLACKLIST.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_INFOFRAME_PROPERTY_BLACKLIST_FALSE = 0
+    return:
+      type: NVAPIWrapper.NV_INFOFRAME_PROPERTY_BLACKLIST
+- uid: NVAPIWrapper.NV_INFOFRAME_PROPERTY_BLACKLIST.NV_INFOFRAME_PROPERTY_BLACKLIST_TRUE
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_PROPERTY_BLACKLIST.NV_INFOFRAME_PROPERTY_BLACKLIST_TRUE
+  id: NV_INFOFRAME_PROPERTY_BLACKLIST_TRUE
+  parent: NVAPIWrapper.NV_INFOFRAME_PROPERTY_BLACKLIST
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_PROPERTY_BLACKLIST_TRUE
+  nameWithType: NV_INFOFRAME_PROPERTY_BLACKLIST.NV_INFOFRAME_PROPERTY_BLACKLIST_TRUE
+  fullName: NVAPIWrapper.NV_INFOFRAME_PROPERTY_BLACKLIST.NV_INFOFRAME_PROPERTY_BLACKLIST_TRUE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_PROPERTY_BLACKLIST.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_PROPERTY_BLACKLIST_TRUE
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_PROPERTY_BLACKLIST.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_INFOFRAME_PROPERTY_BLACKLIST_TRUE = 1
+    return:
+      type: NVAPIWrapper.NV_INFOFRAME_PROPERTY_BLACKLIST
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_INFOFRAME_PROPERTY_BLACKLIST
+  commentId: T:NVAPIWrapper.NV_INFOFRAME_PROPERTY_BLACKLIST
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_INFOFRAME_PROPERTY_BLACKLIST.html
+  name: NV_INFOFRAME_PROPERTY_BLACKLIST
+  nameWithType: NV_INFOFRAME_PROPERTY_BLACKLIST
+  fullName: NVAPIWrapper.NV_INFOFRAME_PROPERTY_BLACKLIST

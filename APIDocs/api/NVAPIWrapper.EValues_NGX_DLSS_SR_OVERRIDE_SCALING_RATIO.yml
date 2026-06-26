@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO
+  commentId: T:NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO
+  id: EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_DEFAULT
+  - NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_MAX
+  - NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_MIN
+  - NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO
+  nameWithType: EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO
+    content.vb: Public Enum EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO
+- uid: NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_MIN
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_MIN
+  id: NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_MIN
+  parent: NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_MIN
+  nameWithType: EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_MIN
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_MIN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_MIN
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_MIN = 33
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO
+- uid: NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_MAX
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_MAX
+  id: NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_MAX
+  parent: NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_MAX
+  nameWithType: EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_MAX
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_MAX
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_MAX
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_MAX = 100
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO
+- uid: NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_DEFAULT
+  id: NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_DEFAULT
+  parent: NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_DEFAULT
+  nameWithType: EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_DEFAULT
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO
+- uid: NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_NUM_VALUES
+  id: NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_NUM_VALUES
+  parent: NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_NUM_VALUES
+  nameWithType: EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_NUM_VALUES = 3
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO
+  commentId: T:NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO.html
+  name: EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO
+  nameWithType: EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_SR_OVERRIDE_SCALING_RATIO

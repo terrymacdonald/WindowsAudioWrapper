@@ -1,0 +1,533 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+  commentId: T:NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+  id: NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._bitfield
+  - NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.bIsEditable
+  - NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.data
+  - NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.domainId
+  - NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.freqDelta_kHz
+  - NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.reserved
+  - NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.typeId
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+  nameWithType: NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+  fullName: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+    startLine: 5
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+    content.vb: Public Structure NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.domainId
+  commentId: F:NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.domainId
+  id: domainId
+  parent: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+  langs:
+  - csharp
+  - vb
+  name: domainId
+  nameWithType: NV_GPU_PSTATE20_CLOCK_ENTRY_V1.domainId
+  fullName: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.domainId
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: domainId
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_GPU_PUBLIC_CLOCK_ID domainId
+    return:
+      type: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID
+    content.vb: Public domainId As _NV_GPU_PUBLIC_CLOCK_ID
+- uid: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.typeId
+  commentId: F:NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.typeId
+  id: typeId
+  parent: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+  langs:
+  - csharp
+  - vb
+  name: typeId
+  nameWithType: NV_GPU_PSTATE20_CLOCK_ENTRY_V1.typeId
+  fullName: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.typeId
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: typeId
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID typeId
+    return:
+      type: NVAPIWrapper.NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID
+    content.vb: Public typeId As NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID
+- uid: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._bitfield
+  commentId: F:NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._bitfield
+  id: _bitfield
+  parent: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+  langs:
+  - csharp
+  - vb
+  name: _bitfield
+  nameWithType: NV_GPU_PSTATE20_CLOCK_ENTRY_V1._bitfield
+  fullName: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._bitfield
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+    startLine: 14
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield As UInteger
+- uid: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.bIsEditable
+  commentId: P:NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.bIsEditable
+  id: bIsEditable
+  parent: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+  langs:
+  - csharp
+  - vb
+  name: bIsEditable
+  nameWithType: NV_GPU_PSTATE20_CLOCK_ENTRY_V1.bIsEditable
+  fullName: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.bIsEditable
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bIsEditable
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+    startLine: 17
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bIsEditable { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property bIsEditable As UInteger
+  overload: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.bIsEditable*
+- uid: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.reserved
+  commentId: P:NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.reserved
+  id: reserved
+  parent: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+  langs:
+  - csharp
+  - vb
+  name: reserved
+  nameWithType: NV_GPU_PSTATE20_CLOCK_ENTRY_V1.reserved
+  fullName: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.reserved
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+    startLine: 32
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved As UInteger
+  overload: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.reserved*
+- uid: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.freqDelta_kHz
+  commentId: F:NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.freqDelta_kHz
+  id: freqDelta_kHz
+  parent: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+  langs:
+  - csharp
+  - vb
+  name: freqDelta_kHz
+  nameWithType: NV_GPU_PSTATE20_CLOCK_ENTRY_V1.freqDelta_kHz
+  fullName: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.freqDelta_kHz
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: freqDelta_kHz
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+    startLine: 47
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public NV_GPU_PERF_PSTATES20_PARAM_DELTA freqDelta_kHz
+    return:
+      type: NVAPIWrapper.NV_GPU_PERF_PSTATES20_PARAM_DELTA
+    content.vb: Public freqDelta_kHz As NV_GPU_PERF_PSTATES20_PARAM_DELTA
+- uid: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.data
+  commentId: F:NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.data
+  id: data
+  parent: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+  langs:
+  - csharp
+  - vb
+  name: data
+  nameWithType: NV_GPU_PSTATE20_CLOCK_ENTRY_V1.data
+  fullName: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.data
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: data
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+    startLine: 51
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union data
+    return:
+      type: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union
+    content.vb: Public data As NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID
+  commentId: T:NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID.html
+  name: _NV_GPU_PUBLIC_CLOCK_ID
+  nameWithType: _NV_GPU_PUBLIC_CLOCK_ID
+  fullName: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID
+- uid: NVAPIWrapper.NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID
+  commentId: T:NVAPIWrapper.NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID.html
+  name: NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID
+  nameWithType: NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID
+  fullName: NVAPIWrapper.NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.bIsEditable*
+  commentId: Overload:NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.bIsEditable
+  href: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.html#NVAPIWrapper_NV_GPU_PSTATE20_CLOCK_ENTRY_V1_bIsEditable
+  name: bIsEditable
+  nameWithType: NV_GPU_PSTATE20_CLOCK_ENTRY_V1.bIsEditable
+  fullName: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.bIsEditable
+- uid: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.reserved*
+  commentId: Overload:NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.reserved
+  href: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.html#NVAPIWrapper_NV_GPU_PSTATE20_CLOCK_ENTRY_V1_reserved
+  name: reserved
+  nameWithType: NV_GPU_PSTATE20_CLOCK_ENTRY_V1.reserved
+  fullName: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.reserved
+- uid: NVAPIWrapper.NV_GPU_PERF_PSTATES20_PARAM_DELTA
+  commentId: T:NVAPIWrapper.NV_GPU_PERF_PSTATES20_PARAM_DELTA
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_GPU_PERF_PSTATES20_PARAM_DELTA.html
+  name: NV_GPU_PERF_PSTATES20_PARAM_DELTA
+  nameWithType: NV_GPU_PERF_PSTATES20_PARAM_DELTA
+  fullName: NVAPIWrapper.NV_GPU_PERF_PSTATES20_PARAM_DELTA
+- uid: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union
+  commentId: T:NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.html
+  name: NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union
+  nameWithType: NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union
+  fullName: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union
+  spec.csharp:
+  - uid: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+    name: NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+    href: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.html
+  - name: .
+  - uid: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union
+    name: _data_e__Union
+    href: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union.html
+  spec.vb:
+  - uid: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+    name: NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+    href: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.html
+  - name: .
+  - uid: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union
+    name: _data_e__Union
+    href: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union.html

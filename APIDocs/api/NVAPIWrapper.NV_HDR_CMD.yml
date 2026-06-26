@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_HDR_CMD
+  commentId: T:NVAPIWrapper.NV_HDR_CMD
+  id: NV_HDR_CMD
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_HDR_CMD.NV_HDR_CMD_GET
+  - NVAPIWrapper.NV_HDR_CMD.NV_HDR_CMD_SET
+  langs:
+  - csharp
+  - vb
+  name: NV_HDR_CMD
+  nameWithType: NV_HDR_CMD
+  fullName: NVAPIWrapper.NV_HDR_CMD
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_HDR_CMD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_HDR_CMD
+    path: ../NVAPIWrapper/cs_generated/NV_HDR_CMD.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_HDR_CMD
+    content.vb: Public Enum NV_HDR_CMD
+- uid: NVAPIWrapper.NV_HDR_CMD.NV_HDR_CMD_GET
+  commentId: F:NVAPIWrapper.NV_HDR_CMD.NV_HDR_CMD_GET
+  id: NV_HDR_CMD_GET
+  parent: NVAPIWrapper.NV_HDR_CMD
+  langs:
+  - csharp
+  - vb
+  name: NV_HDR_CMD_GET
+  nameWithType: NV_HDR_CMD.NV_HDR_CMD_GET
+  fullName: NVAPIWrapper.NV_HDR_CMD.NV_HDR_CMD_GET
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_HDR_CMD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_HDR_CMD_GET
+    path: ../NVAPIWrapper/cs_generated/NV_HDR_CMD.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_HDR_CMD_GET = 0
+    return:
+      type: NVAPIWrapper.NV_HDR_CMD
+- uid: NVAPIWrapper.NV_HDR_CMD.NV_HDR_CMD_SET
+  commentId: F:NVAPIWrapper.NV_HDR_CMD.NV_HDR_CMD_SET
+  id: NV_HDR_CMD_SET
+  parent: NVAPIWrapper.NV_HDR_CMD
+  langs:
+  - csharp
+  - vb
+  name: NV_HDR_CMD_SET
+  nameWithType: NV_HDR_CMD.NV_HDR_CMD_SET
+  fullName: NVAPIWrapper.NV_HDR_CMD.NV_HDR_CMD_SET
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_HDR_CMD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_HDR_CMD_SET
+    path: ../NVAPIWrapper/cs_generated/NV_HDR_CMD.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_HDR_CMD_SET = 1
+    return:
+      type: NVAPIWrapper.NV_HDR_CMD
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_HDR_CMD
+  commentId: T:NVAPIWrapper.NV_HDR_CMD
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_HDR_CMD.html
+  name: NV_HDR_CMD
+  nameWithType: NV_HDR_CMD
+  fullName: NVAPIWrapper.NV_HDR_CMD

@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_BPC
+  commentId: T:NVAPIWrapper._NV_BPC
+  id: _NV_BPC
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_BPC.NV_BPC_10
+  - NVAPIWrapper._NV_BPC.NV_BPC_12
+  - NVAPIWrapper._NV_BPC.NV_BPC_16
+  - NVAPIWrapper._NV_BPC.NV_BPC_6
+  - NVAPIWrapper._NV_BPC.NV_BPC_8
+  - NVAPIWrapper._NV_BPC.NV_BPC_DEFAULT
+  langs:
+  - csharp
+  - vb
+  name: _NV_BPC
+  nameWithType: _NV_BPC
+  fullName: NVAPIWrapper._NV_BPC
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_BPC.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_BPC
+    path: ../NVAPIWrapper/cs_generated/_NV_BPC.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_BPC
+    content.vb: Public Enum _NV_BPC
+- uid: NVAPIWrapper._NV_BPC.NV_BPC_DEFAULT
+  commentId: F:NVAPIWrapper._NV_BPC.NV_BPC_DEFAULT
+  id: NV_BPC_DEFAULT
+  parent: NVAPIWrapper._NV_BPC
+  langs:
+  - csharp
+  - vb
+  name: NV_BPC_DEFAULT
+  nameWithType: _NV_BPC.NV_BPC_DEFAULT
+  fullName: NVAPIWrapper._NV_BPC.NV_BPC_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_BPC.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_BPC_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/_NV_BPC.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_BPC_DEFAULT = 0
+    return:
+      type: NVAPIWrapper._NV_BPC
+- uid: NVAPIWrapper._NV_BPC.NV_BPC_6
+  commentId: F:NVAPIWrapper._NV_BPC.NV_BPC_6
+  id: NV_BPC_6
+  parent: NVAPIWrapper._NV_BPC
+  langs:
+  - csharp
+  - vb
+  name: NV_BPC_6
+  nameWithType: _NV_BPC.NV_BPC_6
+  fullName: NVAPIWrapper._NV_BPC.NV_BPC_6
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_BPC.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_BPC_6
+    path: ../NVAPIWrapper/cs_generated/_NV_BPC.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_BPC_6 = 1
+    return:
+      type: NVAPIWrapper._NV_BPC
+- uid: NVAPIWrapper._NV_BPC.NV_BPC_8
+  commentId: F:NVAPIWrapper._NV_BPC.NV_BPC_8
+  id: NV_BPC_8
+  parent: NVAPIWrapper._NV_BPC
+  langs:
+  - csharp
+  - vb
+  name: NV_BPC_8
+  nameWithType: _NV_BPC.NV_BPC_8
+  fullName: NVAPIWrapper._NV_BPC.NV_BPC_8
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_BPC.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_BPC_8
+    path: ../NVAPIWrapper/cs_generated/_NV_BPC.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_BPC_8 = 2
+    return:
+      type: NVAPIWrapper._NV_BPC
+- uid: NVAPIWrapper._NV_BPC.NV_BPC_10
+  commentId: F:NVAPIWrapper._NV_BPC.NV_BPC_10
+  id: NV_BPC_10
+  parent: NVAPIWrapper._NV_BPC
+  langs:
+  - csharp
+  - vb
+  name: NV_BPC_10
+  nameWithType: _NV_BPC.NV_BPC_10
+  fullName: NVAPIWrapper._NV_BPC.NV_BPC_10
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_BPC.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_BPC_10
+    path: ../NVAPIWrapper/cs_generated/_NV_BPC.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_BPC_10 = 3
+    return:
+      type: NVAPIWrapper._NV_BPC
+- uid: NVAPIWrapper._NV_BPC.NV_BPC_12
+  commentId: F:NVAPIWrapper._NV_BPC.NV_BPC_12
+  id: NV_BPC_12
+  parent: NVAPIWrapper._NV_BPC
+  langs:
+  - csharp
+  - vb
+  name: NV_BPC_12
+  nameWithType: _NV_BPC.NV_BPC_12
+  fullName: NVAPIWrapper._NV_BPC.NV_BPC_12
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_BPC.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_BPC_12
+    path: ../NVAPIWrapper/cs_generated/_NV_BPC.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_BPC_12 = 4
+    return:
+      type: NVAPIWrapper._NV_BPC
+- uid: NVAPIWrapper._NV_BPC.NV_BPC_16
+  commentId: F:NVAPIWrapper._NV_BPC.NV_BPC_16
+  id: NV_BPC_16
+  parent: NVAPIWrapper._NV_BPC
+  langs:
+  - csharp
+  - vb
+  name: NV_BPC_16
+  nameWithType: _NV_BPC.NV_BPC_16
+  fullName: NVAPIWrapper._NV_BPC.NV_BPC_16
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_BPC.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_BPC_16
+    path: ../NVAPIWrapper/cs_generated/_NV_BPC.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_BPC_16 = 5
+    return:
+      type: NVAPIWrapper._NV_BPC
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_BPC
+  commentId: T:NVAPIWrapper._NV_BPC
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_BPC.html
+  name: _NV_BPC
+  nameWithType: _NV_BPC
+  fullName: NVAPIWrapper._NV_BPC

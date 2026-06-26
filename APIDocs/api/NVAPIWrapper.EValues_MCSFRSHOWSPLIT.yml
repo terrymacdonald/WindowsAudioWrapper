@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_MCSFRSHOWSPLIT
+  commentId: T:NVAPIWrapper.EValues_MCSFRSHOWSPLIT
+  id: EValues_MCSFRSHOWSPLIT
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_MCSFRSHOWSPLIT.MCSFRSHOWSPLIT_DEFAULT
+  - NVAPIWrapper.EValues_MCSFRSHOWSPLIT.MCSFRSHOWSPLIT_DISABLED
+  - NVAPIWrapper.EValues_MCSFRSHOWSPLIT.MCSFRSHOWSPLIT_ENABLED
+  - NVAPIWrapper.EValues_MCSFRSHOWSPLIT.MCSFRSHOWSPLIT_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_MCSFRSHOWSPLIT
+  nameWithType: EValues_MCSFRSHOWSPLIT
+  fullName: NVAPIWrapper.EValues_MCSFRSHOWSPLIT
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_MCSFRSHOWSPLIT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_MCSFRSHOWSPLIT
+    path: ../NVAPIWrapper/cs_generated/EValues_MCSFRSHOWSPLIT.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_MCSFRSHOWSPLIT
+    content.vb: Public Enum EValues_MCSFRSHOWSPLIT
+- uid: NVAPIWrapper.EValues_MCSFRSHOWSPLIT.MCSFRSHOWSPLIT_DISABLED
+  commentId: F:NVAPIWrapper.EValues_MCSFRSHOWSPLIT.MCSFRSHOWSPLIT_DISABLED
+  id: MCSFRSHOWSPLIT_DISABLED
+  parent: NVAPIWrapper.EValues_MCSFRSHOWSPLIT
+  langs:
+  - csharp
+  - vb
+  name: MCSFRSHOWSPLIT_DISABLED
+  nameWithType: EValues_MCSFRSHOWSPLIT.MCSFRSHOWSPLIT_DISABLED
+  fullName: NVAPIWrapper.EValues_MCSFRSHOWSPLIT.MCSFRSHOWSPLIT_DISABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_MCSFRSHOWSPLIT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: MCSFRSHOWSPLIT_DISABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_MCSFRSHOWSPLIT.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: MCSFRSHOWSPLIT_DISABLED = 877871204
+    return:
+      type: NVAPIWrapper.EValues_MCSFRSHOWSPLIT
+- uid: NVAPIWrapper.EValues_MCSFRSHOWSPLIT.MCSFRSHOWSPLIT_ENABLED
+  commentId: F:NVAPIWrapper.EValues_MCSFRSHOWSPLIT.MCSFRSHOWSPLIT_ENABLED
+  id: MCSFRSHOWSPLIT_ENABLED
+  parent: NVAPIWrapper.EValues_MCSFRSHOWSPLIT
+  langs:
+  - csharp
+  - vb
+  name: MCSFRSHOWSPLIT_ENABLED
+  nameWithType: EValues_MCSFRSHOWSPLIT.MCSFRSHOWSPLIT_ENABLED
+  fullName: NVAPIWrapper.EValues_MCSFRSHOWSPLIT.MCSFRSHOWSPLIT_ENABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_MCSFRSHOWSPLIT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: MCSFRSHOWSPLIT_ENABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_MCSFRSHOWSPLIT.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: MCSFRSHOWSPLIT_ENABLED = 609506690
+    return:
+      type: NVAPIWrapper.EValues_MCSFRSHOWSPLIT
+- uid: NVAPIWrapper.EValues_MCSFRSHOWSPLIT.MCSFRSHOWSPLIT_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_MCSFRSHOWSPLIT.MCSFRSHOWSPLIT_NUM_VALUES
+  id: MCSFRSHOWSPLIT_NUM_VALUES
+  parent: NVAPIWrapper.EValues_MCSFRSHOWSPLIT
+  langs:
+  - csharp
+  - vb
+  name: MCSFRSHOWSPLIT_NUM_VALUES
+  nameWithType: EValues_MCSFRSHOWSPLIT.MCSFRSHOWSPLIT_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_MCSFRSHOWSPLIT.MCSFRSHOWSPLIT_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_MCSFRSHOWSPLIT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: MCSFRSHOWSPLIT_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_MCSFRSHOWSPLIT.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: MCSFRSHOWSPLIT_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_MCSFRSHOWSPLIT
+- uid: NVAPIWrapper.EValues_MCSFRSHOWSPLIT.MCSFRSHOWSPLIT_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_MCSFRSHOWSPLIT.MCSFRSHOWSPLIT_DEFAULT
+  id: MCSFRSHOWSPLIT_DEFAULT
+  parent: NVAPIWrapper.EValues_MCSFRSHOWSPLIT
+  langs:
+  - csharp
+  - vb
+  name: MCSFRSHOWSPLIT_DEFAULT
+  nameWithType: EValues_MCSFRSHOWSPLIT.MCSFRSHOWSPLIT_DEFAULT
+  fullName: NVAPIWrapper.EValues_MCSFRSHOWSPLIT.MCSFRSHOWSPLIT_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_MCSFRSHOWSPLIT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: MCSFRSHOWSPLIT_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_MCSFRSHOWSPLIT.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: MCSFRSHOWSPLIT_DEFAULT = 877871204
+    return:
+      type: NVAPIWrapper.EValues_MCSFRSHOWSPLIT
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_MCSFRSHOWSPLIT
+  commentId: T:NVAPIWrapper.EValues_MCSFRSHOWSPLIT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_MCSFRSHOWSPLIT.html
+  name: EValues_MCSFRSHOWSPLIT
+  nameWithType: EValues_MCSFRSHOWSPLIT
+  fullName: NVAPIWrapper.EValues_MCSFRSHOWSPLIT

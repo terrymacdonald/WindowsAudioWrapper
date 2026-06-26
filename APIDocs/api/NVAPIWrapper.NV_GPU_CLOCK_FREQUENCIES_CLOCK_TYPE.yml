@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+  commentId: T:NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+  id: NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.NV_GPU_CLOCK_FREQUENCIES_BASE_CLOCK
+  - NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.NV_GPU_CLOCK_FREQUENCIES_BOOST_CLOCK
+  - NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE_NUM
+  - NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.NV_GPU_CLOCK_FREQUENCIES_CURRENT_FREQ
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+  nameWithType: NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+  fullName: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+    content.vb: Public Enum NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+- uid: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.NV_GPU_CLOCK_FREQUENCIES_CURRENT_FREQ
+  commentId: F:NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.NV_GPU_CLOCK_FREQUENCIES_CURRENT_FREQ
+  id: NV_GPU_CLOCK_FREQUENCIES_CURRENT_FREQ
+  parent: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLOCK_FREQUENCIES_CURRENT_FREQ
+  nameWithType: NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.NV_GPU_CLOCK_FREQUENCIES_CURRENT_FREQ
+  fullName: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.NV_GPU_CLOCK_FREQUENCIES_CURRENT_FREQ
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLOCK_FREQUENCIES_CURRENT_FREQ
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CLOCK_FREQUENCIES_CURRENT_FREQ = 0
+    return:
+      type: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+- uid: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.NV_GPU_CLOCK_FREQUENCIES_BASE_CLOCK
+  commentId: F:NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.NV_GPU_CLOCK_FREQUENCIES_BASE_CLOCK
+  id: NV_GPU_CLOCK_FREQUENCIES_BASE_CLOCK
+  parent: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLOCK_FREQUENCIES_BASE_CLOCK
+  nameWithType: NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.NV_GPU_CLOCK_FREQUENCIES_BASE_CLOCK
+  fullName: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.NV_GPU_CLOCK_FREQUENCIES_BASE_CLOCK
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLOCK_FREQUENCIES_BASE_CLOCK
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CLOCK_FREQUENCIES_BASE_CLOCK = 1
+    return:
+      type: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+- uid: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.NV_GPU_CLOCK_FREQUENCIES_BOOST_CLOCK
+  commentId: F:NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.NV_GPU_CLOCK_FREQUENCIES_BOOST_CLOCK
+  id: NV_GPU_CLOCK_FREQUENCIES_BOOST_CLOCK
+  parent: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLOCK_FREQUENCIES_BOOST_CLOCK
+  nameWithType: NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.NV_GPU_CLOCK_FREQUENCIES_BOOST_CLOCK
+  fullName: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.NV_GPU_CLOCK_FREQUENCIES_BOOST_CLOCK
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLOCK_FREQUENCIES_BOOST_CLOCK
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CLOCK_FREQUENCIES_BOOST_CLOCK = 2
+    return:
+      type: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+- uid: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE_NUM
+  commentId: F:NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE_NUM
+  id: NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE_NUM
+  parent: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE_NUM
+  nameWithType: NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE_NUM
+  fullName: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE_NUM
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE_NUM
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE_NUM = 3
+    return:
+      type: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+  commentId: T:NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.html
+  name: NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+  nameWithType: NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+  fullName: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE

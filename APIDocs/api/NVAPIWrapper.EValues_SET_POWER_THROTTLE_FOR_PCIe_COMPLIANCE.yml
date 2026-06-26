@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE
+  commentId: T:NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE
+  id: EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_DEFAULT
+  - NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_NUM_VALUES
+  - NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_OFF
+  - NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_ON
+  langs:
+  - csharp
+  - vb
+  name: EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE
+  nameWithType: EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE
+  fullName: NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE
+    path: ../NVAPIWrapper/cs_generated/EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE
+    content.vb: Public Enum EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE
+- uid: NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_OFF
+  commentId: F:NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_OFF
+  id: SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_OFF
+  parent: NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE
+  langs:
+  - csharp
+  - vb
+  name: SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_OFF
+  nameWithType: EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_OFF
+  fullName: NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_OFF = 0
+    return:
+      type: NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE
+- uid: NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_ON
+  commentId: F:NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_ON
+  id: SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_ON
+  parent: NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE
+  langs:
+  - csharp
+  - vb
+  name: SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_ON
+  nameWithType: EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_ON
+  fullName: NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_ON
+    path: ../NVAPIWrapper/cs_generated/EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_ON = 1
+    return:
+      type: NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE
+- uid: NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_NUM_VALUES
+  id: SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE
+  langs:
+  - csharp
+  - vb
+  name: SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_NUM_VALUES
+  nameWithType: EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE
+- uid: NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_DEFAULT
+  id: SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_DEFAULT
+  parent: NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE
+  langs:
+  - csharp
+  - vb
+  name: SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_DEFAULT
+  nameWithType: EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_DEFAULT
+  fullName: NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE
+  commentId: T:NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE.html
+  name: EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE
+  nameWithType: EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE
+  fullName: NVAPIWrapper.EValues_SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE

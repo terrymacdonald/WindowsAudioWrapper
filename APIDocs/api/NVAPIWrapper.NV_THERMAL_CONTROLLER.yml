@@ -1,0 +1,407 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_THERMAL_CONTROLLER
+  commentId: T:NVAPIWrapper.NV_THERMAL_CONTROLLER
+  id: NV_THERMAL_CONTROLLER
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_ADM1032
+  - NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_ADT7473
+  - NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_GPU_INTERNAL
+  - NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_LM64
+  - NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_LM89
+  - NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_LM99
+  - NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_MAX1617
+  - NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_MAX6649
+  - NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_NONE
+  - NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_OS
+  - NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_SBMAX6649
+  - NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_UNKNOWN
+  - NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_VBIOSEVT
+  langs:
+  - csharp
+  - vb
+  name: NV_THERMAL_CONTROLLER
+  nameWithType: NV_THERMAL_CONTROLLER
+  fullName: NVAPIWrapper.NV_THERMAL_CONTROLLER
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_THERMAL_CONTROLLER
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_THERMAL_CONTROLLER
+    content.vb: Public Enum NV_THERMAL_CONTROLLER
+- uid: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_NONE
+  commentId: F:NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_NONE
+  id: NVAPI_THERMAL_CONTROLLER_NONE
+  parent: NVAPIWrapper.NV_THERMAL_CONTROLLER
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_THERMAL_CONTROLLER_NONE
+  nameWithType: NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_NONE
+  fullName: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_NONE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_THERMAL_CONTROLLER_NONE
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_THERMAL_CONTROLLER_NONE = 0
+    return:
+      type: NVAPIWrapper.NV_THERMAL_CONTROLLER
+- uid: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_GPU_INTERNAL
+  commentId: F:NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_GPU_INTERNAL
+  id: NVAPI_THERMAL_CONTROLLER_GPU_INTERNAL
+  parent: NVAPIWrapper.NV_THERMAL_CONTROLLER
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_THERMAL_CONTROLLER_GPU_INTERNAL
+  nameWithType: NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_GPU_INTERNAL
+  fullName: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_GPU_INTERNAL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_THERMAL_CONTROLLER_GPU_INTERNAL
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_THERMAL_CONTROLLER_GPU_INTERNAL = 1
+    return:
+      type: NVAPIWrapper.NV_THERMAL_CONTROLLER
+- uid: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_ADM1032
+  commentId: F:NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_ADM1032
+  id: NVAPI_THERMAL_CONTROLLER_ADM1032
+  parent: NVAPIWrapper.NV_THERMAL_CONTROLLER
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_THERMAL_CONTROLLER_ADM1032
+  nameWithType: NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_ADM1032
+  fullName: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_ADM1032
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_THERMAL_CONTROLLER_ADM1032
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_THERMAL_CONTROLLER_ADM1032 = 2
+    return:
+      type: NVAPIWrapper.NV_THERMAL_CONTROLLER
+- uid: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_MAX6649
+  commentId: F:NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_MAX6649
+  id: NVAPI_THERMAL_CONTROLLER_MAX6649
+  parent: NVAPIWrapper.NV_THERMAL_CONTROLLER
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_THERMAL_CONTROLLER_MAX6649
+  nameWithType: NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_MAX6649
+  fullName: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_MAX6649
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_THERMAL_CONTROLLER_MAX6649
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_THERMAL_CONTROLLER_MAX6649 = 3
+    return:
+      type: NVAPIWrapper.NV_THERMAL_CONTROLLER
+- uid: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_MAX1617
+  commentId: F:NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_MAX1617
+  id: NVAPI_THERMAL_CONTROLLER_MAX1617
+  parent: NVAPIWrapper.NV_THERMAL_CONTROLLER
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_THERMAL_CONTROLLER_MAX1617
+  nameWithType: NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_MAX1617
+  fullName: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_MAX1617
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_THERMAL_CONTROLLER_MAX1617
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_THERMAL_CONTROLLER_MAX1617 = 4
+    return:
+      type: NVAPIWrapper.NV_THERMAL_CONTROLLER
+- uid: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_LM99
+  commentId: F:NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_LM99
+  id: NVAPI_THERMAL_CONTROLLER_LM99
+  parent: NVAPIWrapper.NV_THERMAL_CONTROLLER
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_THERMAL_CONTROLLER_LM99
+  nameWithType: NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_LM99
+  fullName: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_LM99
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_THERMAL_CONTROLLER_LM99
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_THERMAL_CONTROLLER_LM99 = 5
+    return:
+      type: NVAPIWrapper.NV_THERMAL_CONTROLLER
+- uid: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_LM89
+  commentId: F:NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_LM89
+  id: NVAPI_THERMAL_CONTROLLER_LM89
+  parent: NVAPIWrapper.NV_THERMAL_CONTROLLER
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_THERMAL_CONTROLLER_LM89
+  nameWithType: NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_LM89
+  fullName: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_LM89
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_THERMAL_CONTROLLER_LM89
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_THERMAL_CONTROLLER_LM89 = 6
+    return:
+      type: NVAPIWrapper.NV_THERMAL_CONTROLLER
+- uid: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_LM64
+  commentId: F:NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_LM64
+  id: NVAPI_THERMAL_CONTROLLER_LM64
+  parent: NVAPIWrapper.NV_THERMAL_CONTROLLER
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_THERMAL_CONTROLLER_LM64
+  nameWithType: NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_LM64
+  fullName: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_LM64
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_THERMAL_CONTROLLER_LM64
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_THERMAL_CONTROLLER_LM64 = 7
+    return:
+      type: NVAPIWrapper.NV_THERMAL_CONTROLLER
+- uid: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_ADT7473
+  commentId: F:NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_ADT7473
+  id: NVAPI_THERMAL_CONTROLLER_ADT7473
+  parent: NVAPIWrapper.NV_THERMAL_CONTROLLER
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_THERMAL_CONTROLLER_ADT7473
+  nameWithType: NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_ADT7473
+  fullName: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_ADT7473
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_THERMAL_CONTROLLER_ADT7473
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_THERMAL_CONTROLLER_ADT7473 = 8
+    return:
+      type: NVAPIWrapper.NV_THERMAL_CONTROLLER
+- uid: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_SBMAX6649
+  commentId: F:NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_SBMAX6649
+  id: NVAPI_THERMAL_CONTROLLER_SBMAX6649
+  parent: NVAPIWrapper.NV_THERMAL_CONTROLLER
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_THERMAL_CONTROLLER_SBMAX6649
+  nameWithType: NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_SBMAX6649
+  fullName: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_SBMAX6649
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_THERMAL_CONTROLLER_SBMAX6649
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_THERMAL_CONTROLLER_SBMAX6649 = 9
+    return:
+      type: NVAPIWrapper.NV_THERMAL_CONTROLLER
+- uid: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_VBIOSEVT
+  commentId: F:NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_VBIOSEVT
+  id: NVAPI_THERMAL_CONTROLLER_VBIOSEVT
+  parent: NVAPIWrapper.NV_THERMAL_CONTROLLER
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_THERMAL_CONTROLLER_VBIOSEVT
+  nameWithType: NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_VBIOSEVT
+  fullName: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_VBIOSEVT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_THERMAL_CONTROLLER_VBIOSEVT
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_THERMAL_CONTROLLER_VBIOSEVT = 10
+    return:
+      type: NVAPIWrapper.NV_THERMAL_CONTROLLER
+- uid: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_OS
+  commentId: F:NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_OS
+  id: NVAPI_THERMAL_CONTROLLER_OS
+  parent: NVAPIWrapper.NV_THERMAL_CONTROLLER
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_THERMAL_CONTROLLER_OS
+  nameWithType: NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_OS
+  fullName: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_OS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_THERMAL_CONTROLLER_OS
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+    startLine: 39
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_THERMAL_CONTROLLER_OS = 11
+    return:
+      type: NVAPIWrapper.NV_THERMAL_CONTROLLER
+- uid: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_UNKNOWN
+  commentId: F:NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_UNKNOWN
+  id: NVAPI_THERMAL_CONTROLLER_UNKNOWN
+  parent: NVAPIWrapper.NV_THERMAL_CONTROLLER
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_THERMAL_CONTROLLER_UNKNOWN
+  nameWithType: NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_UNKNOWN
+  fullName: NVAPIWrapper.NV_THERMAL_CONTROLLER.NVAPI_THERMAL_CONTROLLER_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_THERMAL_CONTROLLER_UNKNOWN
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_CONTROLLER.cs
+    startLine: 42
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_THERMAL_CONTROLLER_UNKNOWN = -1
+    return:
+      type: NVAPIWrapper.NV_THERMAL_CONTROLLER
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_THERMAL_CONTROLLER
+  commentId: T:NVAPIWrapper.NV_THERMAL_CONTROLLER
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_THERMAL_CONTROLLER.html
+  name: NV_THERMAL_CONTROLLER
+  nameWithType: NV_THERMAL_CONTROLLER
+  fullName: NVAPIWrapper.NV_THERMAL_CONTROLLER

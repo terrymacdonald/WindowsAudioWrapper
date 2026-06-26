@@ -1,0 +1,812 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1
+  commentId: T:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1
+  id: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1._bitfield
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.connector
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.disableVirtualModeSupport
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.interlaced
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.isPreferredUnscaledTarget
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.primary
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.refreshRate1K
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.reserved
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.reservedBit1
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.rotation
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.scaling
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.timing
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.timingOverride
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.tvFormat
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.version
+  langs:
+  - csharp
+  - vb
+  name: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1
+  nameWithType: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1
+    path: ../NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+    startLine: 5
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Advanced target settings for display configuration paths.
+  example: []
+  syntax:
+    content: public struct _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1
+    content.vb: Public Structure _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.version
+  commentId: F:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.version
+  id: version
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.version
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.version
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: version
+    path: ../NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+    startLine: 10
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Structure version.
+  example: []
+  syntax:
+    content: public uint version
+    return:
+      type: System.UInt32
+    content.vb: Public version As UInteger
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.rotation
+  commentId: F:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.rotation
+  id: rotation
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: rotation
+  nameWithType: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.rotation
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.rotation
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: rotation
+    path: ../NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+    startLine: 14
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Rotation setting.
+  example: []
+  syntax:
+    content: public _NV_ROTATE rotation
+    return:
+      type: NVAPIWrapper._NV_ROTATE
+    content.vb: Public rotation As _NV_ROTATE
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.scaling
+  commentId: F:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.scaling
+  id: scaling
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: scaling
+  nameWithType: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.scaling
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.scaling
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: scaling
+    path: ../NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Scaling setting.
+  example: []
+  syntax:
+    content: public _NV_SCALING scaling
+    return:
+      type: NVAPIWrapper._NV_SCALING
+    content.vb: Public scaling As _NV_SCALING
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.refreshRate1K
+  commentId: F:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.refreshRate1K
+  id: refreshRate1K
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: refreshRate1K
+  nameWithType: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.refreshRate1K
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.refreshRate1K
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: refreshRate1K
+    path: ../NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+    startLine: 26
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Non-interlaced refresh rate multiplied by 1000; 0 means ignored.
+  example: []
+  syntax:
+    content: public uint refreshRate1K
+    return:
+      type: System.UInt32
+    content.vb: Public refreshRate1K As UInteger
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1._bitfield
+  commentId: F:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1._bitfield
+  id: _bitfield
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: _bitfield
+  nameWithType: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1._bitfield
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1._bitfield
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield
+    path: ../NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+    startLine: 29
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Bitfield storage for flags.
+  example: []
+  syntax:
+    content: public uint _bitfield
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield As UInteger
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.interlaced
+  commentId: P:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.interlaced
+  id: interlaced
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: interlaced
+  nameWithType: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.interlaced
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.interlaced
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: interlaced
+    path: ../NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+    startLine: 32
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Interlaced mode flag.
+  example: []
+  syntax:
+    content: public uint interlaced { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property interlaced As UInteger
+  overload: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.interlaced*
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.primary
+  commentId: P:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.primary
+  id: primary
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: primary
+  nameWithType: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.primary
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.primary
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: primary
+    path: ../NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+    startLine: 40
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Primary display flag.
+  example: []
+  syntax:
+    content: public uint primary { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property primary As UInteger
+  overload: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.primary*
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.reservedBit1
+  commentId: P:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.reservedBit1
+  id: reservedBit1
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: reservedBit1
+  nameWithType: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.reservedBit1
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.reservedBit1
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reservedBit1
+    path: ../NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+    startLine: 48
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Reserved bit.
+  example: []
+  syntax:
+    content: public uint reservedBit1 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reservedBit1 As UInteger
+  overload: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.reservedBit1*
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.disableVirtualModeSupport
+  commentId: P:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.disableVirtualModeSupport
+  id: disableVirtualModeSupport
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: disableVirtualModeSupport
+  nameWithType: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.disableVirtualModeSupport
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.disableVirtualModeSupport
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: disableVirtualModeSupport
+    path: ../NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+    startLine: 56
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Disable virtual mode support flag.
+  example: []
+  syntax:
+    content: public uint disableVirtualModeSupport { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property disableVirtualModeSupport As UInteger
+  overload: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.disableVirtualModeSupport*
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.isPreferredUnscaledTarget
+  commentId: P:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.isPreferredUnscaledTarget
+  id: isPreferredUnscaledTarget
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isPreferredUnscaledTarget
+  nameWithType: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.isPreferredUnscaledTarget
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.isPreferredUnscaledTarget
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isPreferredUnscaledTarget
+    path: ../NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+    startLine: 64
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Preferred unscaled target flag.
+  example: []
+  syntax:
+    content: public uint isPreferredUnscaledTarget { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isPreferredUnscaledTarget As UInteger
+  overload: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.isPreferredUnscaledTarget*
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.reserved
+  commentId: P:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.reserved
+  id: reserved
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: reserved
+  nameWithType: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.reserved
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.reserved
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved
+    path: ../NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+    startLine: 72
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Reserved flags.
+  example: []
+  syntax:
+    content: public uint reserved { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved As UInteger
+  overload: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.reserved*
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.connector
+  commentId: F:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.connector
+  id: connector
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: connector
+  nameWithType: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.connector
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.connector
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: connector
+    path: ../NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+    startLine: 81
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Connector type for TV outputs.
+  example: []
+  syntax:
+    content: public _NV_GPU_CONNECTOR_TYPE connector
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+    content.vb: Public connector As _NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.tvFormat
+  commentId: F:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.tvFormat
+  id: tvFormat
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: tvFormat
+  nameWithType: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.tvFormat
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.tvFormat
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: tvFormat
+    path: ../NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+    startLine: 85
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: TV format.
+  example: []
+  syntax:
+    content: public _NV_DISPLAY_TV_FORMAT tvFormat
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public tvFormat As _NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.timingOverride
+  commentId: F:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.timingOverride
+  id: timingOverride
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: timingOverride
+  nameWithType: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.timingOverride
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.timingOverride
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: timingOverride
+    path: ../NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+    startLine: 89
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Timing override mode.
+  example: []
+  syntax:
+    content: public _NV_TIMING_OVERRIDE timingOverride
+    return:
+      type: NVAPIWrapper._NV_TIMING_OVERRIDE
+    content.vb: Public timingOverride As _NV_TIMING_OVERRIDE
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.timing
+  commentId: F:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.timing
+  id: timing
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: timing
+  nameWithType: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.timing
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.timing
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: timing
+    path: ../NVAPIWrapper/NVAPIDisplayConfigTypes.cs
+    startLine: 93
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Scan out timing for custom timing overrides.
+  example: []
+  syntax:
+    content: public _NV_TIMING timing
+    return:
+      type: NVAPIWrapper._NV_TIMING
+    content.vb: Public timing As _NV_TIMING
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper._NV_ROTATE
+  commentId: T:NVAPIWrapper._NV_ROTATE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_ROTATE.html
+  name: _NV_ROTATE
+  nameWithType: _NV_ROTATE
+  fullName: NVAPIWrapper._NV_ROTATE
+- uid: NVAPIWrapper._NV_SCALING
+  commentId: T:NVAPIWrapper._NV_SCALING
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_SCALING.html
+  name: _NV_SCALING
+  nameWithType: _NV_SCALING
+  fullName: NVAPIWrapper._NV_SCALING
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.interlaced*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.interlaced
+  href: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.html#NVAPIWrapper__NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1_interlaced
+  name: interlaced
+  nameWithType: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.interlaced
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.interlaced
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.primary*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.primary
+  href: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.html#NVAPIWrapper__NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1_primary
+  name: primary
+  nameWithType: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.primary
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.primary
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.reservedBit1*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.reservedBit1
+  href: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.html#NVAPIWrapper__NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1_reservedBit1
+  name: reservedBit1
+  nameWithType: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.reservedBit1
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.reservedBit1
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.disableVirtualModeSupport*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.disableVirtualModeSupport
+  href: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.html#NVAPIWrapper__NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1_disableVirtualModeSupport
+  name: disableVirtualModeSupport
+  nameWithType: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.disableVirtualModeSupport
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.disableVirtualModeSupport
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.isPreferredUnscaledTarget*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.isPreferredUnscaledTarget
+  href: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.html#NVAPIWrapper__NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1_isPreferredUnscaledTarget
+  name: isPreferredUnscaledTarget
+  nameWithType: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.isPreferredUnscaledTarget
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.isPreferredUnscaledTarget
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.reserved*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.reserved
+  href: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.html#NVAPIWrapper__NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1_reserved
+  name: reserved
+  nameWithType: _NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.reserved
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_ADVANCED_TARGET_INFO_V1.reserved
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  commentId: T:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.html
+  name: _NV_GPU_CONNECTOR_TYPE
+  nameWithType: _NV_GPU_CONNECTOR_TYPE
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  commentId: T:NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.html
+  name: _NV_DISPLAY_TV_FORMAT
+  nameWithType: _NV_DISPLAY_TV_FORMAT
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_TIMING_OVERRIDE
+  commentId: T:NVAPIWrapper._NV_TIMING_OVERRIDE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_TIMING_OVERRIDE.html
+  name: _NV_TIMING_OVERRIDE
+  nameWithType: _NV_TIMING_OVERRIDE
+  fullName: NVAPIWrapper._NV_TIMING_OVERRIDE
+- uid: NVAPIWrapper._NV_TIMING
+  commentId: T:NVAPIWrapper._NV_TIMING
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_TIMING.html
+  name: _NV_TIMING
+  nameWithType: _NV_TIMING
+  fullName: NVAPIWrapper._NV_TIMING

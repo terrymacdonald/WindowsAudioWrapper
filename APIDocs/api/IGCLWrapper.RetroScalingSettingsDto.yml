@@ -1,0 +1,788 @@
+### YamlMime:ManagedReference
+items:
+- uid: IGCLWrapper.RetroScalingSettingsDto
+  commentId: T:IGCLWrapper.RetroScalingSettingsDto
+  id: RetroScalingSettingsDto
+  parent: IGCLWrapper
+  children:
+  - IGCLWrapper.RetroScalingSettingsDto.Enable
+  - IGCLWrapper.RetroScalingSettingsDto.Equals(IGCLWrapper.RetroScalingSettingsDto)
+  - IGCLWrapper.RetroScalingSettingsDto.Equals(System.Object)
+  - IGCLWrapper.RetroScalingSettingsDto.FromNative(IGCLWrapper.ctl_retro_scaling_settings_t)
+  - IGCLWrapper.RetroScalingSettingsDto.Get
+  - IGCLWrapper.RetroScalingSettingsDto.GetHashCode
+  - IGCLWrapper.RetroScalingSettingsDto.RetroScalingType
+  - IGCLWrapper.RetroScalingSettingsDto.Size
+  - IGCLWrapper.RetroScalingSettingsDto.ToNative
+  - IGCLWrapper.RetroScalingSettingsDto.Version
+  langs:
+  - csharp
+  - vb
+  name: RetroScalingSettingsDto
+  nameWithType: RetroScalingSettingsDto
+  fullName: IGCLWrapper.RetroScalingSettingsDto
+  type: Struct
+  source:
+    remote:
+      path: IGCLWrapper/IGCLDisplayHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: RetroScalingSettingsDto
+    path: ../IGCLWrapper/IGCLDisplayHelper.cs
+    startLine: 3113
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: DTO for retro scaling settings.
+  example: []
+  syntax:
+    content: 'public struct RetroScalingSettingsDto : IEquatable<RetroScalingSettingsDto>'
+    content.vb: Public Structure RetroScalingSettingsDto Implements IEquatable(Of RetroScalingSettingsDto)
+  implements:
+  - System.IEquatable{IGCLWrapper.RetroScalingSettingsDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: IGCLWrapper.RetroScalingSettingsDto.Size
+  commentId: F:IGCLWrapper.RetroScalingSettingsDto.Size
+  id: Size
+  parent: IGCLWrapper.RetroScalingSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: RetroScalingSettingsDto.Size
+  fullName: IGCLWrapper.RetroScalingSettingsDto.Size
+  type: Field
+  source:
+    remote:
+      path: IGCLWrapper/IGCLDisplayHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: Size
+    path: ../IGCLWrapper/IGCLDisplayHelper.cs
+    startLine: 3118
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Size of the native struct.
+  example: []
+  syntax:
+    content: public uint Size
+    return:
+      type: System.UInt32
+    content.vb: Public Size As UInteger
+- uid: IGCLWrapper.RetroScalingSettingsDto.Version
+  commentId: F:IGCLWrapper.RetroScalingSettingsDto.Version
+  id: Version
+  parent: IGCLWrapper.RetroScalingSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: RetroScalingSettingsDto.Version
+  fullName: IGCLWrapper.RetroScalingSettingsDto.Version
+  type: Field
+  source:
+    remote:
+      path: IGCLWrapper/IGCLDisplayHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: Version
+    path: ../IGCLWrapper/IGCLDisplayHelper.cs
+    startLine: 3122
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Version of the native struct.
+  example: []
+  syntax:
+    content: public byte Version
+    return:
+      type: System.Byte
+    content.vb: Public Version As Byte
+- uid: IGCLWrapper.RetroScalingSettingsDto.Get
+  commentId: F:IGCLWrapper.RetroScalingSettingsDto.Get
+  id: Get
+  parent: IGCLWrapper.RetroScalingSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: Get
+  nameWithType: RetroScalingSettingsDto.Get
+  fullName: IGCLWrapper.RetroScalingSettingsDto.Get
+  type: Field
+  source:
+    remote:
+      path: IGCLWrapper/IGCLDisplayHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: Get
+    path: ../IGCLWrapper/IGCLDisplayHelper.cs
+    startLine: 3126
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: True to get settings, false to set.
+  example: []
+  syntax:
+    content: public bool Get
+    return:
+      type: System.Boolean
+    content.vb: Public [Get] As Boolean
+- uid: IGCLWrapper.RetroScalingSettingsDto.Enable
+  commentId: F:IGCLWrapper.RetroScalingSettingsDto.Enable
+  id: Enable
+  parent: IGCLWrapper.RetroScalingSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: Enable
+  nameWithType: RetroScalingSettingsDto.Enable
+  fullName: IGCLWrapper.RetroScalingSettingsDto.Enable
+  type: Field
+  source:
+    remote:
+      path: IGCLWrapper/IGCLDisplayHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: Enable
+    path: ../IGCLWrapper/IGCLDisplayHelper.cs
+    startLine: 3130
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Enable flag.
+  example: []
+  syntax:
+    content: public bool Enable
+    return:
+      type: System.Boolean
+    content.vb: Public Enable As Boolean
+- uid: IGCLWrapper.RetroScalingSettingsDto.RetroScalingType
+  commentId: F:IGCLWrapper.RetroScalingSettingsDto.RetroScalingType
+  id: RetroScalingType
+  parent: IGCLWrapper.RetroScalingSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: RetroScalingType
+  nameWithType: RetroScalingSettingsDto.RetroScalingType
+  fullName: IGCLWrapper.RetroScalingSettingsDto.RetroScalingType
+  type: Field
+  source:
+    remote:
+      path: IGCLWrapper/IGCLDisplayHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: RetroScalingType
+    path: ../IGCLWrapper/IGCLDisplayHelper.cs
+    startLine: 3134
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Retro scaling type.
+  example: []
+  syntax:
+    content: public uint RetroScalingType
+    return:
+      type: System.UInt32
+    content.vb: Public RetroScalingType As UInteger
+- uid: IGCLWrapper.RetroScalingSettingsDto.Equals(IGCLWrapper.RetroScalingSettingsDto)
+  commentId: M:IGCLWrapper.RetroScalingSettingsDto.Equals(IGCLWrapper.RetroScalingSettingsDto)
+  id: Equals(IGCLWrapper.RetroScalingSettingsDto)
+  parent: IGCLWrapper.RetroScalingSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(RetroScalingSettingsDto)
+  nameWithType: RetroScalingSettingsDto.Equals(RetroScalingSettingsDto)
+  fullName: IGCLWrapper.RetroScalingSettingsDto.Equals(IGCLWrapper.RetroScalingSettingsDto)
+  type: Method
+  source:
+    remote:
+      path: IGCLWrapper/IGCLDisplayHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: Equals
+    path: ../IGCLWrapper/IGCLDisplayHelper.cs
+    startLine: 3141
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Compare retro scaling settings.
+  example: []
+  syntax:
+    content: public bool Equals(RetroScalingSettingsDto other)
+    parameters:
+    - id: other
+      type: IGCLWrapper.RetroScalingSettingsDto
+      description: Other settings instance.
+    return:
+      type: System.Boolean
+      description: True when equal; otherwise, false.
+    content.vb: Public Function Equals(other As RetroScalingSettingsDto) As Boolean
+  overload: IGCLWrapper.RetroScalingSettingsDto.Equals*
+  implements:
+  - System.IEquatable{IGCLWrapper.RetroScalingSettingsDto}.Equals(IGCLWrapper.RetroScalingSettingsDto)
+- uid: IGCLWrapper.RetroScalingSettingsDto.Equals(System.Object)
+  commentId: M:IGCLWrapper.RetroScalingSettingsDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: IGCLWrapper.RetroScalingSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: RetroScalingSettingsDto.Equals(object?)
+  fullName: IGCLWrapper.RetroScalingSettingsDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: IGCLWrapper/IGCLDisplayHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: Equals
+    path: ../IGCLWrapper/IGCLDisplayHelper.cs
+    startLine: 3155
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Compare to another object.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: Object to compare.
+    return:
+      type: System.Boolean
+      description: True when equal; otherwise, false.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: IGCLWrapper.RetroScalingSettingsDto.Equals*
+  nameWithType.vb: RetroScalingSettingsDto.Equals(Object)
+  fullName.vb: IGCLWrapper.RetroScalingSettingsDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: IGCLWrapper.RetroScalingSettingsDto.GetHashCode
+  commentId: M:IGCLWrapper.RetroScalingSettingsDto.GetHashCode
+  id: GetHashCode
+  parent: IGCLWrapper.RetroScalingSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: RetroScalingSettingsDto.GetHashCode()
+  fullName: IGCLWrapper.RetroScalingSettingsDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: IGCLWrapper/IGCLDisplayHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: GetHashCode
+    path: ../IGCLWrapper/IGCLDisplayHelper.cs
+    startLine: 3161
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Get a hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: Hash code value.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: IGCLWrapper.RetroScalingSettingsDto.GetHashCode*
+- uid: IGCLWrapper.RetroScalingSettingsDto.FromNative(IGCLWrapper.ctl_retro_scaling_settings_t)
+  commentId: M:IGCLWrapper.RetroScalingSettingsDto.FromNative(IGCLWrapper.ctl_retro_scaling_settings_t)
+  id: FromNative(IGCLWrapper.ctl_retro_scaling_settings_t)
+  parent: IGCLWrapper.RetroScalingSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(ctl_retro_scaling_settings_t)
+  nameWithType: RetroScalingSettingsDto.FromNative(ctl_retro_scaling_settings_t)
+  fullName: IGCLWrapper.RetroScalingSettingsDto.FromNative(IGCLWrapper.ctl_retro_scaling_settings_t)
+  type: Method
+  source:
+    remote:
+      path: IGCLWrapper/IGCLDisplayHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: FromNative
+    path: ../IGCLWrapper/IGCLDisplayHelper.cs
+    startLine: 3177
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Create a DTO from a native struct.
+  example: []
+  syntax:
+    content: public static RetroScalingSettingsDto FromNative(ctl_retro_scaling_settings_t native)
+    parameters:
+    - id: native
+      type: IGCLWrapper.ctl_retro_scaling_settings_t
+      description: Native struct.
+    return:
+      type: IGCLWrapper.RetroScalingSettingsDto
+      description: Retro scaling settings DTO.
+    content.vb: Public Shared Function FromNative(native As ctl_retro_scaling_settings_t) As RetroScalingSettingsDto
+  overload: IGCLWrapper.RetroScalingSettingsDto.FromNative*
+- uid: IGCLWrapper.RetroScalingSettingsDto.ToNative
+  commentId: M:IGCLWrapper.RetroScalingSettingsDto.ToNative
+  id: ToNative
+  parent: IGCLWrapper.RetroScalingSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: RetroScalingSettingsDto.ToNative()
+  fullName: IGCLWrapper.RetroScalingSettingsDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: IGCLWrapper/IGCLDisplayHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: ToNative
+    path: ../IGCLWrapper/IGCLDisplayHelper.cs
+    startLine: 3193
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Convert this DTO to a native struct.
+  example: []
+  syntax:
+    content: public ctl_retro_scaling_settings_t ToNative()
+    return:
+      type: IGCLWrapper.ctl_retro_scaling_settings_t
+      description: Retro scaling settings struct.
+    content.vb: Public Function ToNative() As ctl_retro_scaling_settings_t
+  overload: IGCLWrapper.RetroScalingSettingsDto.ToNative*
+references:
+- uid: IGCLWrapper
+  commentId: N:IGCLWrapper
+  href: IGCLWrapper.html
+  name: IGCLWrapper
+  nameWithType: IGCLWrapper
+  fullName: IGCLWrapper
+- uid: System.IEquatable{IGCLWrapper.RetroScalingSettingsDto}
+  commentId: T:System.IEquatable{IGCLWrapper.RetroScalingSettingsDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<RetroScalingSettingsDto>
+  nameWithType: IEquatable<RetroScalingSettingsDto>
+  fullName: System.IEquatable<IGCLWrapper.RetroScalingSettingsDto>
+  nameWithType.vb: IEquatable(Of RetroScalingSettingsDto)
+  fullName.vb: System.IEquatable(Of IGCLWrapper.RetroScalingSettingsDto)
+  name.vb: IEquatable(Of RetroScalingSettingsDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: IGCLWrapper.RetroScalingSettingsDto
+    name: RetroScalingSettingsDto
+    href: IGCLWrapper.RetroScalingSettingsDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: IGCLWrapper.RetroScalingSettingsDto
+    name: RetroScalingSettingsDto
+    href: IGCLWrapper.RetroScalingSettingsDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: IGCLWrapper.RetroScalingSettingsDto.Equals*
+  commentId: Overload:IGCLWrapper.RetroScalingSettingsDto.Equals
+  href: IGCLWrapper.RetroScalingSettingsDto.html#IGCLWrapper_RetroScalingSettingsDto_Equals_IGCLWrapper_RetroScalingSettingsDto_
+  name: Equals
+  nameWithType: RetroScalingSettingsDto.Equals
+  fullName: IGCLWrapper.RetroScalingSettingsDto.Equals
+- uid: System.IEquatable{IGCLWrapper.RetroScalingSettingsDto}.Equals(IGCLWrapper.RetroScalingSettingsDto)
+  commentId: M:System.IEquatable{IGCLWrapper.RetroScalingSettingsDto}.Equals(IGCLWrapper.RetroScalingSettingsDto)
+  parent: System.IEquatable{IGCLWrapper.RetroScalingSettingsDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(RetroScalingSettingsDto)
+  nameWithType: IEquatable<RetroScalingSettingsDto>.Equals(RetroScalingSettingsDto)
+  fullName: System.IEquatable<IGCLWrapper.RetroScalingSettingsDto>.Equals(IGCLWrapper.RetroScalingSettingsDto)
+  nameWithType.vb: IEquatable(Of RetroScalingSettingsDto).Equals(RetroScalingSettingsDto)
+  fullName.vb: System.IEquatable(Of IGCLWrapper.RetroScalingSettingsDto).Equals(IGCLWrapper.RetroScalingSettingsDto)
+  spec.csharp:
+  - uid: System.IEquatable{IGCLWrapper.RetroScalingSettingsDto}.Equals(IGCLWrapper.RetroScalingSettingsDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: IGCLWrapper.RetroScalingSettingsDto
+    name: RetroScalingSettingsDto
+    href: IGCLWrapper.RetroScalingSettingsDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{IGCLWrapper.RetroScalingSettingsDto}.Equals(IGCLWrapper.RetroScalingSettingsDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: IGCLWrapper.RetroScalingSettingsDto
+    name: RetroScalingSettingsDto
+    href: IGCLWrapper.RetroScalingSettingsDto.html
+  - name: )
+- uid: IGCLWrapper.RetroScalingSettingsDto
+  commentId: T:IGCLWrapper.RetroScalingSettingsDto
+  parent: IGCLWrapper
+  href: IGCLWrapper.RetroScalingSettingsDto.html
+  name: RetroScalingSettingsDto
+  nameWithType: RetroScalingSettingsDto
+  fullName: IGCLWrapper.RetroScalingSettingsDto
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: IGCLWrapper.RetroScalingSettingsDto.GetHashCode*
+  commentId: Overload:IGCLWrapper.RetroScalingSettingsDto.GetHashCode
+  href: IGCLWrapper.RetroScalingSettingsDto.html#IGCLWrapper_RetroScalingSettingsDto_GetHashCode
+  name: GetHashCode
+  nameWithType: RetroScalingSettingsDto.GetHashCode
+  fullName: IGCLWrapper.RetroScalingSettingsDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: IGCLWrapper.RetroScalingSettingsDto.FromNative*
+  commentId: Overload:IGCLWrapper.RetroScalingSettingsDto.FromNative
+  href: IGCLWrapper.RetroScalingSettingsDto.html#IGCLWrapper_RetroScalingSettingsDto_FromNative_IGCLWrapper_ctl_retro_scaling_settings_t_
+  name: FromNative
+  nameWithType: RetroScalingSettingsDto.FromNative
+  fullName: IGCLWrapper.RetroScalingSettingsDto.FromNative
+- uid: IGCLWrapper.ctl_retro_scaling_settings_t
+  commentId: T:IGCLWrapper.ctl_retro_scaling_settings_t
+  parent: IGCLWrapper
+  href: IGCLWrapper.ctl_retro_scaling_settings_t.html
+  name: ctl_retro_scaling_settings_t
+  nameWithType: ctl_retro_scaling_settings_t
+  fullName: IGCLWrapper.ctl_retro_scaling_settings_t
+- uid: IGCLWrapper.RetroScalingSettingsDto.ToNative*
+  commentId: Overload:IGCLWrapper.RetroScalingSettingsDto.ToNative
+  href: IGCLWrapper.RetroScalingSettingsDto.html#IGCLWrapper_RetroScalingSettingsDto_ToNative
+  name: ToNative
+  nameWithType: RetroScalingSettingsDto.ToNative
+  fullName: IGCLWrapper.RetroScalingSettingsDto.ToNative

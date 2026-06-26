@@ -1,0 +1,1078 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto
+  commentId: T:NVAPIWrapper.NVAPINGXOverrideStateDto
+  id: NVAPINGXOverrideStateDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPINGXOverrideStateDto.#ctor(System.UInt32,System.UInt64,System.UInt64,System.UInt64,System.Single,System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  - NVAPIWrapper.NVAPINGXOverrideStateDto.Equals(NVAPIWrapper.NVAPINGXOverrideStateDto)
+  - NVAPIWrapper.NVAPINGXOverrideStateDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPINGXOverrideStateDto.FeedbackMaskFg
+  - NVAPIWrapper.NVAPINGXOverrideStateDto.FeedbackMaskRr
+  - NVAPIWrapper.NVAPINGXOverrideStateDto.FeedbackMaskSr
+  - NVAPIWrapper.NVAPINGXOverrideStateDto.FrameGenerationCount
+  - NVAPIWrapper.NVAPINGXOverrideStateDto.FrameGenerationPreset
+  - NVAPIWrapper.NVAPINGXOverrideStateDto.GetHashCode
+  - NVAPIWrapper.NVAPINGXOverrideStateDto.PerformanceMode
+  - NVAPIWrapper.NVAPINGXOverrideStateDto.ProcessId
+  - NVAPIWrapper.NVAPINGXOverrideStateDto.RenderPreset
+  - NVAPIWrapper.NVAPINGXOverrideStateDto.ScalingRatio
+  - NVAPIWrapper.NVAPINGXOverrideStateDto.op_Equality(NVAPIWrapper.NVAPINGXOverrideStateDto,NVAPIWrapper.NVAPINGXOverrideStateDto)
+  - NVAPIWrapper.NVAPINGXOverrideStateDto.op_Inequality(NVAPIWrapper.NVAPINGXOverrideStateDto,NVAPIWrapper.NVAPINGXOverrideStateDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPINGXOverrideStateDto
+  nameWithType: NVAPINGXOverrideStateDto
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPINGXOverrideStateDto
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1041
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: NGX override state DTO.
+  example: []
+  syntax:
+    content: 'public struct NVAPINGXOverrideStateDto : IEquatable<NVAPINGXOverrideStateDto>'
+    content.vb: Public Structure NVAPINGXOverrideStateDto Implements IEquatable(Of NVAPINGXOverrideStateDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPINGXOverrideStateDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.#ctor(System.UInt32,System.UInt64,System.UInt64,System.UInt64,System.Single,System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  commentId: M:NVAPIWrapper.NVAPINGXOverrideStateDto.#ctor(System.UInt32,System.UInt64,System.UInt64,System.UInt64,System.Single,System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  id: '#ctor(System.UInt32,System.UInt64,System.UInt64,System.UInt64,System.Single,System.UInt32,System.UInt32,System.UInt32,System.UInt32)'
+  parent: NVAPIWrapper.NVAPINGXOverrideStateDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPINGXOverrideStateDto(uint, ulong, ulong, ulong, float, uint, uint, uint, uint)
+  nameWithType: NVAPINGXOverrideStateDto.NVAPINGXOverrideStateDto(uint, ulong, ulong, ulong, float, uint, uint, uint, uint)
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.NVAPINGXOverrideStateDto(uint, ulong, ulong, ulong, float, uint, uint, uint, uint)
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1046
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Initializes a new instance of the <xref href="NVAPIWrapper.NVAPINGXOverrideStateDto" data-throw-if-not-resolved="false"></xref> struct.
+  example: []
+  syntax:
+    content: public NVAPINGXOverrideStateDto(uint processId, ulong feedbackMaskSr, ulong feedbackMaskRr, ulong feedbackMaskFg, float scalingRatio, uint performanceMode, uint renderPreset, uint frameGenerationCount, uint frameGenerationPreset)
+    parameters:
+    - id: processId
+      type: System.UInt32
+    - id: feedbackMaskSr
+      type: System.UInt64
+    - id: feedbackMaskRr
+      type: System.UInt64
+    - id: feedbackMaskFg
+      type: System.UInt64
+    - id: scalingRatio
+      type: System.Single
+    - id: performanceMode
+      type: System.UInt32
+    - id: renderPreset
+      type: System.UInt32
+    - id: frameGenerationCount
+      type: System.UInt32
+    - id: frameGenerationPreset
+      type: System.UInt32
+    content.vb: Public Sub New(processId As UInteger, feedbackMaskSr As ULong, feedbackMaskRr As ULong, feedbackMaskFg As ULong, scalingRatio As Single, performanceMode As UInteger, renderPreset As UInteger, frameGenerationCount As UInteger, frameGenerationPreset As UInteger)
+  overload: NVAPIWrapper.NVAPINGXOverrideStateDto.#ctor*
+  nameWithType.vb: NVAPINGXOverrideStateDto.New(UInteger, ULong, ULong, ULong, Single, UInteger, UInteger, UInteger, UInteger)
+  fullName.vb: NVAPIWrapper.NVAPINGXOverrideStateDto.New(UInteger, ULong, ULong, ULong, Single, UInteger, UInteger, UInteger, UInteger)
+  name.vb: New(UInteger, ULong, ULong, ULong, Single, UInteger, UInteger, UInteger, UInteger)
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.ProcessId
+  commentId: P:NVAPIWrapper.NVAPINGXOverrideStateDto.ProcessId
+  id: ProcessId
+  parent: NVAPIWrapper.NVAPINGXOverrideStateDto
+  langs:
+  - csharp
+  - vb
+  name: ProcessId
+  nameWithType: NVAPINGXOverrideStateDto.ProcessId
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.ProcessId
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ProcessId
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1071
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Process identifier.
+  example: []
+  syntax:
+    content: public uint ProcessId { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property ProcessId As UInteger
+  overload: NVAPIWrapper.NVAPINGXOverrideStateDto.ProcessId*
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.FeedbackMaskSr
+  commentId: P:NVAPIWrapper.NVAPINGXOverrideStateDto.FeedbackMaskSr
+  id: FeedbackMaskSr
+  parent: NVAPIWrapper.NVAPINGXOverrideStateDto
+  langs:
+  - csharp
+  - vb
+  name: FeedbackMaskSr
+  nameWithType: NVAPINGXOverrideStateDto.FeedbackMaskSr
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.FeedbackMaskSr
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FeedbackMaskSr
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1076
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: DLSS SR feedback mask.
+  example: []
+  syntax:
+    content: public ulong FeedbackMaskSr { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property FeedbackMaskSr As ULong
+  overload: NVAPIWrapper.NVAPINGXOverrideStateDto.FeedbackMaskSr*
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.FeedbackMaskRr
+  commentId: P:NVAPIWrapper.NVAPINGXOverrideStateDto.FeedbackMaskRr
+  id: FeedbackMaskRr
+  parent: NVAPIWrapper.NVAPINGXOverrideStateDto
+  langs:
+  - csharp
+  - vb
+  name: FeedbackMaskRr
+  nameWithType: NVAPINGXOverrideStateDto.FeedbackMaskRr
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.FeedbackMaskRr
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FeedbackMaskRr
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1081
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: DLSS RR feedback mask.
+  example: []
+  syntax:
+    content: public ulong FeedbackMaskRr { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property FeedbackMaskRr As ULong
+  overload: NVAPIWrapper.NVAPINGXOverrideStateDto.FeedbackMaskRr*
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.FeedbackMaskFg
+  commentId: P:NVAPIWrapper.NVAPINGXOverrideStateDto.FeedbackMaskFg
+  id: FeedbackMaskFg
+  parent: NVAPIWrapper.NVAPINGXOverrideStateDto
+  langs:
+  - csharp
+  - vb
+  name: FeedbackMaskFg
+  nameWithType: NVAPINGXOverrideStateDto.FeedbackMaskFg
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.FeedbackMaskFg
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FeedbackMaskFg
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1086
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: DLSS FG feedback mask.
+  example: []
+  syntax:
+    content: public ulong FeedbackMaskFg { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property FeedbackMaskFg As ULong
+  overload: NVAPIWrapper.NVAPINGXOverrideStateDto.FeedbackMaskFg*
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.ScalingRatio
+  commentId: P:NVAPIWrapper.NVAPINGXOverrideStateDto.ScalingRatio
+  id: ScalingRatio
+  parent: NVAPIWrapper.NVAPINGXOverrideStateDto
+  langs:
+  - csharp
+  - vb
+  name: ScalingRatio
+  nameWithType: NVAPINGXOverrideStateDto.ScalingRatio
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.ScalingRatio
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ScalingRatio
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1091
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: DLSS scaling ratio.
+  example: []
+  syntax:
+    content: public float ScalingRatio { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ScalingRatio As Single
+  overload: NVAPIWrapper.NVAPINGXOverrideStateDto.ScalingRatio*
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.PerformanceMode
+  commentId: P:NVAPIWrapper.NVAPINGXOverrideStateDto.PerformanceMode
+  id: PerformanceMode
+  parent: NVAPIWrapper.NVAPINGXOverrideStateDto
+  langs:
+  - csharp
+  - vb
+  name: PerformanceMode
+  nameWithType: NVAPINGXOverrideStateDto.PerformanceMode
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.PerformanceMode
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PerformanceMode
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1096
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: DLSS performance mode.
+  example: []
+  syntax:
+    content: public uint PerformanceMode { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property PerformanceMode As UInteger
+  overload: NVAPIWrapper.NVAPINGXOverrideStateDto.PerformanceMode*
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.RenderPreset
+  commentId: P:NVAPIWrapper.NVAPINGXOverrideStateDto.RenderPreset
+  id: RenderPreset
+  parent: NVAPIWrapper.NVAPINGXOverrideStateDto
+  langs:
+  - csharp
+  - vb
+  name: RenderPreset
+  nameWithType: NVAPINGXOverrideStateDto.RenderPreset
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.RenderPreset
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: RenderPreset
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1101
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: DLSS render preset.
+  example: []
+  syntax:
+    content: public uint RenderPreset { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property RenderPreset As UInteger
+  overload: NVAPIWrapper.NVAPINGXOverrideStateDto.RenderPreset*
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.FrameGenerationCount
+  commentId: P:NVAPIWrapper.NVAPINGXOverrideStateDto.FrameGenerationCount
+  id: FrameGenerationCount
+  parent: NVAPIWrapper.NVAPINGXOverrideStateDto
+  langs:
+  - csharp
+  - vb
+  name: FrameGenerationCount
+  nameWithType: NVAPINGXOverrideStateDto.FrameGenerationCount
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.FrameGenerationCount
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FrameGenerationCount
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1106
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: DLSS frame generation count target.
+  example: []
+  syntax:
+    content: public uint FrameGenerationCount { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property FrameGenerationCount As UInteger
+  overload: NVAPIWrapper.NVAPINGXOverrideStateDto.FrameGenerationCount*
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.FrameGenerationPreset
+  commentId: P:NVAPIWrapper.NVAPINGXOverrideStateDto.FrameGenerationPreset
+  id: FrameGenerationPreset
+  parent: NVAPIWrapper.NVAPINGXOverrideStateDto
+  langs:
+  - csharp
+  - vb
+  name: FrameGenerationPreset
+  nameWithType: NVAPINGXOverrideStateDto.FrameGenerationPreset
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.FrameGenerationPreset
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FrameGenerationPreset
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1111
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: DLSS frame generation preset.
+  example: []
+  syntax:
+    content: public uint FrameGenerationPreset { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property FrameGenerationPreset As UInteger
+  overload: NVAPIWrapper.NVAPINGXOverrideStateDto.FrameGenerationPreset*
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.Equals(NVAPIWrapper.NVAPINGXOverrideStateDto)
+  commentId: M:NVAPIWrapper.NVAPINGXOverrideStateDto.Equals(NVAPIWrapper.NVAPINGXOverrideStateDto)
+  id: Equals(NVAPIWrapper.NVAPINGXOverrideStateDto)
+  parent: NVAPIWrapper.NVAPINGXOverrideStateDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPINGXOverrideStateDto)
+  nameWithType: NVAPINGXOverrideStateDto.Equals(NVAPINGXOverrideStateDto)
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.Equals(NVAPIWrapper.NVAPINGXOverrideStateDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1132
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether this instance and another NGX override state instance are equal.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPINGXOverrideStateDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPINGXOverrideStateDto
+      description: The other NGX override state instance.
+    return:
+      type: System.Boolean
+      description: True if the instances are equal; otherwise, false.
+    content.vb: Public Function Equals(other As NVAPINGXOverrideStateDto) As Boolean
+  overload: NVAPIWrapper.NVAPINGXOverrideStateDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPINGXOverrideStateDto}.Equals(NVAPIWrapper.NVAPINGXOverrideStateDto)
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPINGXOverrideStateDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPINGXOverrideStateDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPINGXOverrideStateDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1150
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare.
+    return:
+      type: System.Boolean
+      description: True if equal; otherwise, false.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPINGXOverrideStateDto.Equals*
+  nameWithType.vb: NVAPINGXOverrideStateDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPINGXOverrideStateDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPINGXOverrideStateDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPINGXOverrideStateDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPINGXOverrideStateDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1156
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get a hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPINGXOverrideStateDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.op_Equality(NVAPIWrapper.NVAPINGXOverrideStateDto,NVAPIWrapper.NVAPINGXOverrideStateDto)
+  commentId: M:NVAPIWrapper.NVAPINGXOverrideStateDto.op_Equality(NVAPIWrapper.NVAPINGXOverrideStateDto,NVAPIWrapper.NVAPINGXOverrideStateDto)
+  id: op_Equality(NVAPIWrapper.NVAPINGXOverrideStateDto,NVAPIWrapper.NVAPINGXOverrideStateDto)
+  parent: NVAPIWrapper.NVAPINGXOverrideStateDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPINGXOverrideStateDto, NVAPINGXOverrideStateDto)
+  nameWithType: NVAPINGXOverrideStateDto.operator ==(NVAPINGXOverrideStateDto, NVAPINGXOverrideStateDto)
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.operator ==(NVAPIWrapper.NVAPINGXOverrideStateDto, NVAPIWrapper.NVAPINGXOverrideStateDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1177
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether two NGX override state instances are equal.
+  example: []
+  syntax:
+    content: public static bool operator ==(NVAPINGXOverrideStateDto left, NVAPINGXOverrideStateDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPINGXOverrideStateDto
+      description: The left instance.
+    - id: right
+      type: NVAPIWrapper.NVAPINGXOverrideStateDto
+      description: The right instance.
+    return:
+      type: System.Boolean
+      description: True if the instances are equal; otherwise, false.
+    content.vb: Public Shared Operator =(left As NVAPINGXOverrideStateDto, right As NVAPINGXOverrideStateDto) As Boolean
+  overload: NVAPIWrapper.NVAPINGXOverrideStateDto.op_Equality*
+  nameWithType.vb: NVAPINGXOverrideStateDto.=(NVAPINGXOverrideStateDto, NVAPINGXOverrideStateDto)
+  fullName.vb: NVAPIWrapper.NVAPINGXOverrideStateDto.=(NVAPIWrapper.NVAPINGXOverrideStateDto, NVAPIWrapper.NVAPINGXOverrideStateDto)
+  name.vb: =(NVAPINGXOverrideStateDto, NVAPINGXOverrideStateDto)
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.op_Inequality(NVAPIWrapper.NVAPINGXOverrideStateDto,NVAPIWrapper.NVAPINGXOverrideStateDto)
+  commentId: M:NVAPIWrapper.NVAPINGXOverrideStateDto.op_Inequality(NVAPIWrapper.NVAPINGXOverrideStateDto,NVAPIWrapper.NVAPINGXOverrideStateDto)
+  id: op_Inequality(NVAPIWrapper.NVAPINGXOverrideStateDto,NVAPIWrapper.NVAPINGXOverrideStateDto)
+  parent: NVAPIWrapper.NVAPINGXOverrideStateDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPINGXOverrideStateDto, NVAPINGXOverrideStateDto)
+  nameWithType: NVAPINGXOverrideStateDto.operator !=(NVAPINGXOverrideStateDto, NVAPINGXOverrideStateDto)
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.operator !=(NVAPIWrapper.NVAPINGXOverrideStateDto, NVAPIWrapper.NVAPINGXOverrideStateDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1185
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether two NGX override state instances are not equal.
+  example: []
+  syntax:
+    content: public static bool operator !=(NVAPINGXOverrideStateDto left, NVAPINGXOverrideStateDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPINGXOverrideStateDto
+      description: The left instance.
+    - id: right
+      type: NVAPIWrapper.NVAPINGXOverrideStateDto
+      description: The right instance.
+    return:
+      type: System.Boolean
+      description: True if the instances are not equal; otherwise, false.
+    content.vb: Public Shared Operator <>(left As NVAPINGXOverrideStateDto, right As NVAPINGXOverrideStateDto) As Boolean
+  overload: NVAPIWrapper.NVAPINGXOverrideStateDto.op_Inequality*
+  nameWithType.vb: NVAPINGXOverrideStateDto.<>(NVAPINGXOverrideStateDto, NVAPINGXOverrideStateDto)
+  fullName.vb: NVAPIWrapper.NVAPINGXOverrideStateDto.<>(NVAPIWrapper.NVAPINGXOverrideStateDto, NVAPIWrapper.NVAPINGXOverrideStateDto)
+  name.vb: <>(NVAPINGXOverrideStateDto, NVAPINGXOverrideStateDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPINGXOverrideStateDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPINGXOverrideStateDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPINGXOverrideStateDto>
+  nameWithType: IEquatable<NVAPINGXOverrideStateDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPINGXOverrideStateDto>
+  nameWithType.vb: IEquatable(Of NVAPINGXOverrideStateDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPINGXOverrideStateDto)
+  name.vb: IEquatable(Of NVAPINGXOverrideStateDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPINGXOverrideStateDto
+    name: NVAPINGXOverrideStateDto
+    href: NVAPIWrapper.NVAPINGXOverrideStateDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPINGXOverrideStateDto
+    name: NVAPINGXOverrideStateDto
+    href: NVAPIWrapper.NVAPINGXOverrideStateDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto
+  commentId: T:NVAPIWrapper.NVAPINGXOverrideStateDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPINGXOverrideStateDto.html
+  name: NVAPINGXOverrideStateDto
+  nameWithType: NVAPINGXOverrideStateDto
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPINGXOverrideStateDto.#ctor
+  href: NVAPIWrapper.NVAPINGXOverrideStateDto.html#NVAPIWrapper_NVAPINGXOverrideStateDto__ctor_System_UInt32_System_UInt64_System_UInt64_System_UInt64_System_Single_System_UInt32_System_UInt32_System_UInt32_System_UInt32_
+  name: NVAPINGXOverrideStateDto
+  nameWithType: NVAPINGXOverrideStateDto.NVAPINGXOverrideStateDto
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.NVAPINGXOverrideStateDto
+  nameWithType.vb: NVAPINGXOverrideStateDto.New
+  fullName.vb: NVAPIWrapper.NVAPINGXOverrideStateDto.New
+  name.vb: New
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.ProcessId*
+  commentId: Overload:NVAPIWrapper.NVAPINGXOverrideStateDto.ProcessId
+  href: NVAPIWrapper.NVAPINGXOverrideStateDto.html#NVAPIWrapper_NVAPINGXOverrideStateDto_ProcessId
+  name: ProcessId
+  nameWithType: NVAPINGXOverrideStateDto.ProcessId
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.ProcessId
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.FeedbackMaskSr*
+  commentId: Overload:NVAPIWrapper.NVAPINGXOverrideStateDto.FeedbackMaskSr
+  href: NVAPIWrapper.NVAPINGXOverrideStateDto.html#NVAPIWrapper_NVAPINGXOverrideStateDto_FeedbackMaskSr
+  name: FeedbackMaskSr
+  nameWithType: NVAPINGXOverrideStateDto.FeedbackMaskSr
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.FeedbackMaskSr
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.FeedbackMaskRr*
+  commentId: Overload:NVAPIWrapper.NVAPINGXOverrideStateDto.FeedbackMaskRr
+  href: NVAPIWrapper.NVAPINGXOverrideStateDto.html#NVAPIWrapper_NVAPINGXOverrideStateDto_FeedbackMaskRr
+  name: FeedbackMaskRr
+  nameWithType: NVAPINGXOverrideStateDto.FeedbackMaskRr
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.FeedbackMaskRr
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.FeedbackMaskFg*
+  commentId: Overload:NVAPIWrapper.NVAPINGXOverrideStateDto.FeedbackMaskFg
+  href: NVAPIWrapper.NVAPINGXOverrideStateDto.html#NVAPIWrapper_NVAPINGXOverrideStateDto_FeedbackMaskFg
+  name: FeedbackMaskFg
+  nameWithType: NVAPINGXOverrideStateDto.FeedbackMaskFg
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.FeedbackMaskFg
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.ScalingRatio*
+  commentId: Overload:NVAPIWrapper.NVAPINGXOverrideStateDto.ScalingRatio
+  href: NVAPIWrapper.NVAPINGXOverrideStateDto.html#NVAPIWrapper_NVAPINGXOverrideStateDto_ScalingRatio
+  name: ScalingRatio
+  nameWithType: NVAPINGXOverrideStateDto.ScalingRatio
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.ScalingRatio
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.PerformanceMode*
+  commentId: Overload:NVAPIWrapper.NVAPINGXOverrideStateDto.PerformanceMode
+  href: NVAPIWrapper.NVAPINGXOverrideStateDto.html#NVAPIWrapper_NVAPINGXOverrideStateDto_PerformanceMode
+  name: PerformanceMode
+  nameWithType: NVAPINGXOverrideStateDto.PerformanceMode
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.PerformanceMode
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.RenderPreset*
+  commentId: Overload:NVAPIWrapper.NVAPINGXOverrideStateDto.RenderPreset
+  href: NVAPIWrapper.NVAPINGXOverrideStateDto.html#NVAPIWrapper_NVAPINGXOverrideStateDto_RenderPreset
+  name: RenderPreset
+  nameWithType: NVAPINGXOverrideStateDto.RenderPreset
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.RenderPreset
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.FrameGenerationCount*
+  commentId: Overload:NVAPIWrapper.NVAPINGXOverrideStateDto.FrameGenerationCount
+  href: NVAPIWrapper.NVAPINGXOverrideStateDto.html#NVAPIWrapper_NVAPINGXOverrideStateDto_FrameGenerationCount
+  name: FrameGenerationCount
+  nameWithType: NVAPINGXOverrideStateDto.FrameGenerationCount
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.FrameGenerationCount
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.FrameGenerationPreset*
+  commentId: Overload:NVAPIWrapper.NVAPINGXOverrideStateDto.FrameGenerationPreset
+  href: NVAPIWrapper.NVAPINGXOverrideStateDto.html#NVAPIWrapper_NVAPINGXOverrideStateDto_FrameGenerationPreset
+  name: FrameGenerationPreset
+  nameWithType: NVAPINGXOverrideStateDto.FrameGenerationPreset
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.FrameGenerationPreset
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPINGXOverrideStateDto.Equals
+  href: NVAPIWrapper.NVAPINGXOverrideStateDto.html#NVAPIWrapper_NVAPINGXOverrideStateDto_Equals_NVAPIWrapper_NVAPINGXOverrideStateDto_
+  name: Equals
+  nameWithType: NVAPINGXOverrideStateDto.Equals
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPINGXOverrideStateDto}.Equals(NVAPIWrapper.NVAPINGXOverrideStateDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPINGXOverrideStateDto}.Equals(NVAPIWrapper.NVAPINGXOverrideStateDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPINGXOverrideStateDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPINGXOverrideStateDto)
+  nameWithType: IEquatable<NVAPINGXOverrideStateDto>.Equals(NVAPINGXOverrideStateDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPINGXOverrideStateDto>.Equals(NVAPIWrapper.NVAPINGXOverrideStateDto)
+  nameWithType.vb: IEquatable(Of NVAPINGXOverrideStateDto).Equals(NVAPINGXOverrideStateDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPINGXOverrideStateDto).Equals(NVAPIWrapper.NVAPINGXOverrideStateDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPINGXOverrideStateDto}.Equals(NVAPIWrapper.NVAPINGXOverrideStateDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPINGXOverrideStateDto
+    name: NVAPINGXOverrideStateDto
+    href: NVAPIWrapper.NVAPINGXOverrideStateDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPINGXOverrideStateDto}.Equals(NVAPIWrapper.NVAPINGXOverrideStateDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPINGXOverrideStateDto
+    name: NVAPINGXOverrideStateDto
+    href: NVAPIWrapper.NVAPINGXOverrideStateDto.html
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPINGXOverrideStateDto.GetHashCode
+  href: NVAPIWrapper.NVAPINGXOverrideStateDto.html#NVAPIWrapper_NVAPINGXOverrideStateDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPINGXOverrideStateDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPINGXOverrideStateDto.op_Equality
+  href: NVAPIWrapper.NVAPINGXOverrideStateDto.html#NVAPIWrapper_NVAPINGXOverrideStateDto_op_Equality_NVAPIWrapper_NVAPINGXOverrideStateDto_NVAPIWrapper_NVAPINGXOverrideStateDto_
+  name: operator ==
+  nameWithType: NVAPINGXOverrideStateDto.operator ==
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.operator ==
+  nameWithType.vb: NVAPINGXOverrideStateDto.=
+  fullName.vb: NVAPIWrapper.NVAPINGXOverrideStateDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPINGXOverrideStateDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPINGXOverrideStateDto.html#NVAPIWrapper_NVAPINGXOverrideStateDto_op_Equality_NVAPIWrapper_NVAPINGXOverrideStateDto_NVAPIWrapper_NVAPINGXOverrideStateDto_
+- uid: NVAPIWrapper.NVAPINGXOverrideStateDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPINGXOverrideStateDto.op_Inequality
+  href: NVAPIWrapper.NVAPINGXOverrideStateDto.html#NVAPIWrapper_NVAPINGXOverrideStateDto_op_Inequality_NVAPIWrapper_NVAPINGXOverrideStateDto_NVAPIWrapper_NVAPINGXOverrideStateDto_
+  name: operator !=
+  nameWithType: NVAPINGXOverrideStateDto.operator !=
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto.operator !=
+  nameWithType.vb: NVAPINGXOverrideStateDto.<>
+  fullName.vb: NVAPIWrapper.NVAPINGXOverrideStateDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPINGXOverrideStateDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPINGXOverrideStateDto.html#NVAPIWrapper_NVAPINGXOverrideStateDto_op_Inequality_NVAPIWrapper_NVAPINGXOverrideStateDto_NVAPIWrapper_NVAPINGXOverrideStateDto_

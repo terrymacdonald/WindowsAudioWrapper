@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE
+  commentId: T:NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE
+  id: EValues_WKS_STEREO_SWAP_MODE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_APPLICATION_CONTROL
+  - NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_DEFAULT
+  - NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_LEGACY_BEHAVIOR
+  - NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_NUM_VALUES
+  - NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_PER_EYE
+  - NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_PER_EYE_FOR_SWAP_GROUP
+  - NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_PER_EYE_PAIR
+  langs:
+  - csharp
+  - vb
+  name: EValues_WKS_STEREO_SWAP_MODE
+  nameWithType: EValues_WKS_STEREO_SWAP_MODE
+  fullName: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_STEREO_SWAP_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_WKS_STEREO_SWAP_MODE
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_STEREO_SWAP_MODE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_WKS_STEREO_SWAP_MODE
+    content.vb: Public Enum EValues_WKS_STEREO_SWAP_MODE
+- uid: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_APPLICATION_CONTROL
+  commentId: F:NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_APPLICATION_CONTROL
+  id: WKS_STEREO_SWAP_MODE_APPLICATION_CONTROL
+  parent: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_STEREO_SWAP_MODE_APPLICATION_CONTROL
+  nameWithType: EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_APPLICATION_CONTROL
+  fullName: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_APPLICATION_CONTROL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_STEREO_SWAP_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_STEREO_SWAP_MODE_APPLICATION_CONTROL
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_STEREO_SWAP_MODE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_STEREO_SWAP_MODE_APPLICATION_CONTROL = 0
+    return:
+      type: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE
+- uid: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_PER_EYE
+  commentId: F:NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_PER_EYE
+  id: WKS_STEREO_SWAP_MODE_PER_EYE
+  parent: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_STEREO_SWAP_MODE_PER_EYE
+  nameWithType: EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_PER_EYE
+  fullName: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_PER_EYE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_STEREO_SWAP_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_STEREO_SWAP_MODE_PER_EYE
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_STEREO_SWAP_MODE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_STEREO_SWAP_MODE_PER_EYE = 1
+    return:
+      type: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE
+- uid: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_PER_EYE_PAIR
+  commentId: F:NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_PER_EYE_PAIR
+  id: WKS_STEREO_SWAP_MODE_PER_EYE_PAIR
+  parent: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_STEREO_SWAP_MODE_PER_EYE_PAIR
+  nameWithType: EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_PER_EYE_PAIR
+  fullName: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_PER_EYE_PAIR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_STEREO_SWAP_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_STEREO_SWAP_MODE_PER_EYE_PAIR
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_STEREO_SWAP_MODE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_STEREO_SWAP_MODE_PER_EYE_PAIR = 2
+    return:
+      type: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE
+- uid: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_LEGACY_BEHAVIOR
+  commentId: F:NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_LEGACY_BEHAVIOR
+  id: WKS_STEREO_SWAP_MODE_LEGACY_BEHAVIOR
+  parent: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_STEREO_SWAP_MODE_LEGACY_BEHAVIOR
+  nameWithType: EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_LEGACY_BEHAVIOR
+  fullName: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_LEGACY_BEHAVIOR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_STEREO_SWAP_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_STEREO_SWAP_MODE_LEGACY_BEHAVIOR
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_STEREO_SWAP_MODE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_STEREO_SWAP_MODE_LEGACY_BEHAVIOR = 3
+    return:
+      type: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE
+- uid: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_PER_EYE_FOR_SWAP_GROUP
+  commentId: F:NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_PER_EYE_FOR_SWAP_GROUP
+  id: WKS_STEREO_SWAP_MODE_PER_EYE_FOR_SWAP_GROUP
+  parent: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_STEREO_SWAP_MODE_PER_EYE_FOR_SWAP_GROUP
+  nameWithType: EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_PER_EYE_FOR_SWAP_GROUP
+  fullName: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_PER_EYE_FOR_SWAP_GROUP
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_STEREO_SWAP_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_STEREO_SWAP_MODE_PER_EYE_FOR_SWAP_GROUP
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_STEREO_SWAP_MODE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_STEREO_SWAP_MODE_PER_EYE_FOR_SWAP_GROUP = 4
+    return:
+      type: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE
+- uid: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_NUM_VALUES
+  id: WKS_STEREO_SWAP_MODE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_STEREO_SWAP_MODE_NUM_VALUES
+  nameWithType: EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_STEREO_SWAP_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_STEREO_SWAP_MODE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_STEREO_SWAP_MODE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_STEREO_SWAP_MODE_NUM_VALUES = 5
+    return:
+      type: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE
+- uid: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_DEFAULT
+  id: WKS_STEREO_SWAP_MODE_DEFAULT
+  parent: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_STEREO_SWAP_MODE_DEFAULT
+  nameWithType: EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_DEFAULT
+  fullName: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.WKS_STEREO_SWAP_MODE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_STEREO_SWAP_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_STEREO_SWAP_MODE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_STEREO_SWAP_MODE.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_STEREO_SWAP_MODE_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE
+  commentId: T:NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE.html
+  name: EValues_WKS_STEREO_SWAP_MODE
+  nameWithType: EValues_WKS_STEREO_SWAP_MODE
+  fullName: NVAPIWrapper.EValues_WKS_STEREO_SWAP_MODE

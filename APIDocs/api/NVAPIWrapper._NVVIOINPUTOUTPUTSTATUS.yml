@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS
+  commentId: T:NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS
+  id: _NVVIOINPUTOUTPUTSTATUS
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS.NVINPUTOUTPUTSTATUS_ERROR
+  - NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS.NVINPUTOUTPUTSTATUS_OFF
+  - NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS.NVINPUTOUTPUTSTATUS_SDI_HD
+  - NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS.NVINPUTOUTPUTSTATUS_SDI_SD
+  langs:
+  - csharp
+  - vb
+  name: _NVVIOINPUTOUTPUTSTATUS
+  nameWithType: _NVVIOINPUTOUTPUTSTATUS
+  fullName: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOINPUTOUTPUTSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVVIOINPUTOUTPUTSTATUS
+    path: ../NVAPIWrapper/cs_generated/_NVVIOINPUTOUTPUTSTATUS.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVVIOINPUTOUTPUTSTATUS
+    content.vb: Public Enum _NVVIOINPUTOUTPUTSTATUS
+- uid: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS.NVINPUTOUTPUTSTATUS_OFF
+  commentId: F:NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS.NVINPUTOUTPUTSTATUS_OFF
+  id: NVINPUTOUTPUTSTATUS_OFF
+  parent: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS
+  langs:
+  - csharp
+  - vb
+  name: NVINPUTOUTPUTSTATUS_OFF
+  nameWithType: _NVVIOINPUTOUTPUTSTATUS.NVINPUTOUTPUTSTATUS_OFF
+  fullName: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS.NVINPUTOUTPUTSTATUS_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOINPUTOUTPUTSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVINPUTOUTPUTSTATUS_OFF
+    path: ../NVAPIWrapper/cs_generated/_NVVIOINPUTOUTPUTSTATUS.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVINPUTOUTPUTSTATUS_OFF = 0
+    return:
+      type: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS
+- uid: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS.NVINPUTOUTPUTSTATUS_ERROR
+  commentId: F:NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS.NVINPUTOUTPUTSTATUS_ERROR
+  id: NVINPUTOUTPUTSTATUS_ERROR
+  parent: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS
+  langs:
+  - csharp
+  - vb
+  name: NVINPUTOUTPUTSTATUS_ERROR
+  nameWithType: _NVVIOINPUTOUTPUTSTATUS.NVINPUTOUTPUTSTATUS_ERROR
+  fullName: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS.NVINPUTOUTPUTSTATUS_ERROR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOINPUTOUTPUTSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVINPUTOUTPUTSTATUS_ERROR
+    path: ../NVAPIWrapper/cs_generated/_NVVIOINPUTOUTPUTSTATUS.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVINPUTOUTPUTSTATUS_ERROR = 1
+    return:
+      type: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS
+- uid: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS.NVINPUTOUTPUTSTATUS_SDI_SD
+  commentId: F:NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS.NVINPUTOUTPUTSTATUS_SDI_SD
+  id: NVINPUTOUTPUTSTATUS_SDI_SD
+  parent: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS
+  langs:
+  - csharp
+  - vb
+  name: NVINPUTOUTPUTSTATUS_SDI_SD
+  nameWithType: _NVVIOINPUTOUTPUTSTATUS.NVINPUTOUTPUTSTATUS_SDI_SD
+  fullName: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS.NVINPUTOUTPUTSTATUS_SDI_SD
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOINPUTOUTPUTSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVINPUTOUTPUTSTATUS_SDI_SD
+    path: ../NVAPIWrapper/cs_generated/_NVVIOINPUTOUTPUTSTATUS.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVINPUTOUTPUTSTATUS_SDI_SD = 2
+    return:
+      type: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS
+- uid: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS.NVINPUTOUTPUTSTATUS_SDI_HD
+  commentId: F:NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS.NVINPUTOUTPUTSTATUS_SDI_HD
+  id: NVINPUTOUTPUTSTATUS_SDI_HD
+  parent: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS
+  langs:
+  - csharp
+  - vb
+  name: NVINPUTOUTPUTSTATUS_SDI_HD
+  nameWithType: _NVVIOINPUTOUTPUTSTATUS.NVINPUTOUTPUTSTATUS_SDI_HD
+  fullName: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS.NVINPUTOUTPUTSTATUS_SDI_HD
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOINPUTOUTPUTSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVINPUTOUTPUTSTATUS_SDI_HD
+    path: ../NVAPIWrapper/cs_generated/_NVVIOINPUTOUTPUTSTATUS.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVINPUTOUTPUTSTATUS_SDI_HD = 3
+    return:
+      type: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS
+  commentId: T:NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS.html
+  name: _NVVIOINPUTOUTPUTSTATUS
+  nameWithType: _NVVIOINPUTOUTPUTSTATUS
+  fullName: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS

@@ -1,0 +1,982 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIDisplayEdidDataDto
+  commentId: T:NVAPIWrapper.NVAPIDisplayEdidDataDto
+  id: NVAPIDisplayEdidDataDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIDisplayEdidDataDto.#ctor(System.Byte[],NVAPIWrapper.NV_EDID_FLAG,System.UInt32)
+  - NVAPIWrapper.NVAPIDisplayEdidDataDto.Data
+  - NVAPIWrapper.NVAPIDisplayEdidDataDto.Equals(NVAPIWrapper.NVAPIDisplayEdidDataDto)
+  - NVAPIWrapper.NVAPIDisplayEdidDataDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIDisplayEdidDataDto.Flags
+  - NVAPIWrapper.NVAPIDisplayEdidDataDto.FromNative(NVAPIWrapper._NV_EDID_DATA_V2,NVAPIWrapper.NV_EDID_FLAG)
+  - NVAPIWrapper.NVAPIDisplayEdidDataDto.GetHashCode
+  - NVAPIWrapper.NVAPIDisplayEdidDataDto.SizeOfEdid
+  - NVAPIWrapper.NVAPIDisplayEdidDataDto.ToNative(System.Runtime.InteropServices.GCHandle@)
+  - NVAPIWrapper.NVAPIDisplayEdidDataDto.op_Equality(NVAPIWrapper.NVAPIDisplayEdidDataDto,NVAPIWrapper.NVAPIDisplayEdidDataDto)
+  - NVAPIWrapper.NVAPIDisplayEdidDataDto.op_Inequality(NVAPIWrapper.NVAPIDisplayEdidDataDto,NVAPIWrapper.NVAPIDisplayEdidDataDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIDisplayEdidDataDto
+  nameWithType: NVAPIDisplayEdidDataDto
+  fullName: NVAPIWrapper.NVAPIDisplayEdidDataDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIDisplayEdidDataDto
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 4070
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: DTO for EDID data and flags.
+  example: []
+  syntax:
+    content: 'public struct NVAPIDisplayEdidDataDto : IEquatable<NVAPIDisplayEdidDataDto>'
+    content.vb: Public Structure NVAPIDisplayEdidDataDto Implements IEquatable(Of NVAPIDisplayEdidDataDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIDisplayEdidDataDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIDisplayEdidDataDto.Data
+  commentId: P:NVAPIWrapper.NVAPIDisplayEdidDataDto.Data
+  id: Data
+  parent: NVAPIWrapper.NVAPIDisplayEdidDataDto
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: NVAPIDisplayEdidDataDto.Data
+  fullName: NVAPIWrapper.NVAPIDisplayEdidDataDto.Data
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Data
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 4073
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: EDID data bytes.
+  example: []
+  syntax:
+    content: public byte[] Data { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Data As Byte()
+  overload: NVAPIWrapper.NVAPIDisplayEdidDataDto.Data*
+- uid: NVAPIWrapper.NVAPIDisplayEdidDataDto.Flags
+  commentId: P:NVAPIWrapper.NVAPIDisplayEdidDataDto.Flags
+  id: Flags
+  parent: NVAPIWrapper.NVAPIDisplayEdidDataDto
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: NVAPIDisplayEdidDataDto.Flags
+  fullName: NVAPIWrapper.NVAPIDisplayEdidDataDto.Flags
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Flags
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 4076
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: EDID flags used when retrieving the data.
+  example: []
+  syntax:
+    content: public NV_EDID_FLAG Flags { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper.NV_EDID_FLAG
+    content.vb: Public Property Flags As NV_EDID_FLAG
+  overload: NVAPIWrapper.NVAPIDisplayEdidDataDto.Flags*
+- uid: NVAPIWrapper.NVAPIDisplayEdidDataDto.SizeOfEdid
+  commentId: P:NVAPIWrapper.NVAPIDisplayEdidDataDto.SizeOfEdid
+  id: SizeOfEdid
+  parent: NVAPIWrapper.NVAPIDisplayEdidDataDto
+  langs:
+  - csharp
+  - vb
+  name: SizeOfEdid
+  nameWithType: NVAPIDisplayEdidDataDto.SizeOfEdid
+  fullName: NVAPIWrapper.NVAPIDisplayEdidDataDto.SizeOfEdid
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SizeOfEdid
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 4079
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Reported EDID size.
+  example: []
+  syntax:
+    content: public uint SizeOfEdid { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property SizeOfEdid As UInteger
+  overload: NVAPIWrapper.NVAPIDisplayEdidDataDto.SizeOfEdid*
+- uid: NVAPIWrapper.NVAPIDisplayEdidDataDto.#ctor(System.Byte[],NVAPIWrapper.NV_EDID_FLAG,System.UInt32)
+  commentId: M:NVAPIWrapper.NVAPIDisplayEdidDataDto.#ctor(System.Byte[],NVAPIWrapper.NV_EDID_FLAG,System.UInt32)
+  id: '#ctor(System.Byte[],NVAPIWrapper.NV_EDID_FLAG,System.UInt32)'
+  parent: NVAPIWrapper.NVAPIDisplayEdidDataDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIDisplayEdidDataDto(byte[], NV_EDID_FLAG, uint)
+  nameWithType: NVAPIDisplayEdidDataDto.NVAPIDisplayEdidDataDto(byte[], NV_EDID_FLAG, uint)
+  fullName: NVAPIWrapper.NVAPIDisplayEdidDataDto.NVAPIDisplayEdidDataDto(byte[], NVAPIWrapper.NV_EDID_FLAG, uint)
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 4082
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create an EDID data DTO.
+  example: []
+  syntax:
+    content: public NVAPIDisplayEdidDataDto(byte[] data, NV_EDID_FLAG flags, uint sizeOfEdid)
+    parameters:
+    - id: data
+      type: System.Byte[]
+    - id: flags
+      type: NVAPIWrapper.NV_EDID_FLAG
+    - id: sizeOfEdid
+      type: System.UInt32
+    content.vb: Public Sub New(data As Byte(), flags As NV_EDID_FLAG, sizeOfEdid As UInteger)
+  overload: NVAPIWrapper.NVAPIDisplayEdidDataDto.#ctor*
+  nameWithType.vb: NVAPIDisplayEdidDataDto.New(Byte(), NV_EDID_FLAG, UInteger)
+  fullName.vb: NVAPIWrapper.NVAPIDisplayEdidDataDto.New(Byte(), NVAPIWrapper.NV_EDID_FLAG, UInteger)
+  name.vb: New(Byte(), NV_EDID_FLAG, UInteger)
+- uid: NVAPIWrapper.NVAPIDisplayEdidDataDto.FromNative(NVAPIWrapper._NV_EDID_DATA_V2,NVAPIWrapper.NV_EDID_FLAG)
+  commentId: M:NVAPIWrapper.NVAPIDisplayEdidDataDto.FromNative(NVAPIWrapper._NV_EDID_DATA_V2,NVAPIWrapper.NV_EDID_FLAG)
+  id: FromNative(NVAPIWrapper._NV_EDID_DATA_V2,NVAPIWrapper.NV_EDID_FLAG)
+  parent: NVAPIWrapper.NVAPIDisplayEdidDataDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(_NV_EDID_DATA_V2, NV_EDID_FLAG)
+  nameWithType: NVAPIDisplayEdidDataDto.FromNative(_NV_EDID_DATA_V2, NV_EDID_FLAG)
+  fullName: NVAPIWrapper.NVAPIDisplayEdidDataDto.FromNative(NVAPIWrapper._NV_EDID_DATA_V2, NVAPIWrapper.NV_EDID_FLAG)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 4095
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a DTO from a native EDID struct.
+  example: []
+  syntax:
+    content: public static NVAPIDisplayEdidDataDto FromNative(_NV_EDID_DATA_V2 native, NV_EDID_FLAG flags)
+    parameters:
+    - id: native
+      type: NVAPIWrapper._NV_EDID_DATA_V2
+      description: Native EDID data.
+    - id: flags
+      type: NVAPIWrapper.NV_EDID_FLAG
+      description: EDID flags used.
+    return:
+      type: NVAPIWrapper.NVAPIDisplayEdidDataDto
+      description: EDID data DTO.
+    content.vb: Public Shared Function FromNative(native As _NV_EDID_DATA_V2, flags As NV_EDID_FLAG) As NVAPIDisplayEdidDataDto
+  overload: NVAPIWrapper.NVAPIDisplayEdidDataDto.FromNative*
+- uid: NVAPIWrapper.NVAPIDisplayEdidDataDto.ToNative(System.Runtime.InteropServices.GCHandle@)
+  commentId: M:NVAPIWrapper.NVAPIDisplayEdidDataDto.ToNative(System.Runtime.InteropServices.GCHandle@)
+  id: ToNative(System.Runtime.InteropServices.GCHandle@)
+  parent: NVAPIWrapper.NVAPIDisplayEdidDataDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative(out GCHandle)
+  nameWithType: NVAPIDisplayEdidDataDto.ToNative(out GCHandle)
+  fullName: NVAPIWrapper.NVAPIDisplayEdidDataDto.ToNative(out System.Runtime.InteropServices.GCHandle)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 4111
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Convert this DTO to a native EDID struct.
+  example: []
+  syntax:
+    content: public _NV_EDID_DATA_V2 ToNative(out GCHandle handle)
+    parameters:
+    - id: handle
+      type: System.Runtime.InteropServices.GCHandle
+      description: Pinned handle for the EDID buffer (caller must free).
+    return:
+      type: NVAPIWrapper._NV_EDID_DATA_V2
+      description: Native EDID data.
+    content.vb: Public Function ToNative(handle As GCHandle) As _NV_EDID_DATA_V2
+  overload: NVAPIWrapper.NVAPIDisplayEdidDataDto.ToNative*
+  nameWithType.vb: NVAPIDisplayEdidDataDto.ToNative(GCHandle)
+  fullName.vb: NVAPIWrapper.NVAPIDisplayEdidDataDto.ToNative(System.Runtime.InteropServices.GCHandle)
+  name.vb: ToNative(GCHandle)
+- uid: NVAPIWrapper.NVAPIDisplayEdidDataDto.Equals(NVAPIWrapper.NVAPIDisplayEdidDataDto)
+  commentId: M:NVAPIWrapper.NVAPIDisplayEdidDataDto.Equals(NVAPIWrapper.NVAPIDisplayEdidDataDto)
+  id: Equals(NVAPIWrapper.NVAPIDisplayEdidDataDto)
+  parent: NVAPIWrapper.NVAPIDisplayEdidDataDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIDisplayEdidDataDto)
+  nameWithType: NVAPIDisplayEdidDataDto.Equals(NVAPIDisplayEdidDataDto)
+  fullName: NVAPIWrapper.NVAPIDisplayEdidDataDto.Equals(NVAPIWrapper.NVAPIDisplayEdidDataDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 4134
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIDisplayEdidDataDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIDisplayEdidDataDto
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As NVAPIDisplayEdidDataDto) As Boolean
+  overload: NVAPIWrapper.NVAPIDisplayEdidDataDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIDisplayEdidDataDto}.Equals(NVAPIWrapper.NVAPIDisplayEdidDataDto)
+- uid: NVAPIWrapper.NVAPIDisplayEdidDataDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIDisplayEdidDataDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIDisplayEdidDataDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIDisplayEdidDataDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIDisplayEdidDataDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 4142
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIDisplayEdidDataDto.Equals*
+  nameWithType.vb: NVAPIDisplayEdidDataDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIDisplayEdidDataDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIDisplayEdidDataDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIDisplayEdidDataDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIDisplayEdidDataDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIDisplayEdidDataDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIDisplayEdidDataDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 4148
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIDisplayEdidDataDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIDisplayEdidDataDto.op_Equality(NVAPIWrapper.NVAPIDisplayEdidDataDto,NVAPIWrapper.NVAPIDisplayEdidDataDto)
+  commentId: M:NVAPIWrapper.NVAPIDisplayEdidDataDto.op_Equality(NVAPIWrapper.NVAPIDisplayEdidDataDto,NVAPIWrapper.NVAPIDisplayEdidDataDto)
+  id: op_Equality(NVAPIWrapper.NVAPIDisplayEdidDataDto,NVAPIWrapper.NVAPIDisplayEdidDataDto)
+  parent: NVAPIWrapper.NVAPIDisplayEdidDataDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIDisplayEdidDataDto, NVAPIDisplayEdidDataDto)
+  nameWithType: NVAPIDisplayEdidDataDto.operator ==(NVAPIDisplayEdidDataDto, NVAPIDisplayEdidDataDto)
+  fullName: NVAPIWrapper.NVAPIDisplayEdidDataDto.operator ==(NVAPIWrapper.NVAPIDisplayEdidDataDto, NVAPIWrapper.NVAPIDisplayEdidDataDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 4161
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Compare EDID data DTOs.
+  example: []
+  syntax:
+    content: public static bool operator ==(NVAPIDisplayEdidDataDto left, NVAPIDisplayEdidDataDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIDisplayEdidDataDto
+    - id: right
+      type: NVAPIWrapper.NVAPIDisplayEdidDataDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As NVAPIDisplayEdidDataDto, right As NVAPIDisplayEdidDataDto) As Boolean
+  overload: NVAPIWrapper.NVAPIDisplayEdidDataDto.op_Equality*
+  nameWithType.vb: NVAPIDisplayEdidDataDto.=(NVAPIDisplayEdidDataDto, NVAPIDisplayEdidDataDto)
+  fullName.vb: NVAPIWrapper.NVAPIDisplayEdidDataDto.=(NVAPIWrapper.NVAPIDisplayEdidDataDto, NVAPIWrapper.NVAPIDisplayEdidDataDto)
+  name.vb: =(NVAPIDisplayEdidDataDto, NVAPIDisplayEdidDataDto)
+- uid: NVAPIWrapper.NVAPIDisplayEdidDataDto.op_Inequality(NVAPIWrapper.NVAPIDisplayEdidDataDto,NVAPIWrapper.NVAPIDisplayEdidDataDto)
+  commentId: M:NVAPIWrapper.NVAPIDisplayEdidDataDto.op_Inequality(NVAPIWrapper.NVAPIDisplayEdidDataDto,NVAPIWrapper.NVAPIDisplayEdidDataDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIDisplayEdidDataDto,NVAPIWrapper.NVAPIDisplayEdidDataDto)
+  parent: NVAPIWrapper.NVAPIDisplayEdidDataDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIDisplayEdidDataDto, NVAPIDisplayEdidDataDto)
+  nameWithType: NVAPIDisplayEdidDataDto.operator !=(NVAPIDisplayEdidDataDto, NVAPIDisplayEdidDataDto)
+  fullName: NVAPIWrapper.NVAPIDisplayEdidDataDto.operator !=(NVAPIWrapper.NVAPIDisplayEdidDataDto, NVAPIWrapper.NVAPIDisplayEdidDataDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 4164
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Compare EDID data DTOs.
+  example: []
+  syntax:
+    content: public static bool operator !=(NVAPIDisplayEdidDataDto left, NVAPIDisplayEdidDataDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIDisplayEdidDataDto
+    - id: right
+      type: NVAPIWrapper.NVAPIDisplayEdidDataDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As NVAPIDisplayEdidDataDto, right As NVAPIDisplayEdidDataDto) As Boolean
+  overload: NVAPIWrapper.NVAPIDisplayEdidDataDto.op_Inequality*
+  nameWithType.vb: NVAPIDisplayEdidDataDto.<>(NVAPIDisplayEdidDataDto, NVAPIDisplayEdidDataDto)
+  fullName.vb: NVAPIWrapper.NVAPIDisplayEdidDataDto.<>(NVAPIWrapper.NVAPIDisplayEdidDataDto, NVAPIWrapper.NVAPIDisplayEdidDataDto)
+  name.vb: <>(NVAPIDisplayEdidDataDto, NVAPIDisplayEdidDataDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIDisplayEdidDataDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIDisplayEdidDataDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIDisplayEdidDataDto>
+  nameWithType: IEquatable<NVAPIDisplayEdidDataDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIDisplayEdidDataDto>
+  nameWithType.vb: IEquatable(Of NVAPIDisplayEdidDataDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIDisplayEdidDataDto)
+  name.vb: IEquatable(Of NVAPIDisplayEdidDataDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIDisplayEdidDataDto
+    name: NVAPIDisplayEdidDataDto
+    href: NVAPIWrapper.NVAPIDisplayEdidDataDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIDisplayEdidDataDto
+    name: NVAPIDisplayEdidDataDto
+    href: NVAPIWrapper.NVAPIDisplayEdidDataDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIDisplayEdidDataDto.Data*
+  commentId: Overload:NVAPIWrapper.NVAPIDisplayEdidDataDto.Data
+  href: NVAPIWrapper.NVAPIDisplayEdidDataDto.html#NVAPIWrapper_NVAPIDisplayEdidDataDto_Data
+  name: Data
+  nameWithType: NVAPIDisplayEdidDataDto.Data
+  fullName: NVAPIWrapper.NVAPIDisplayEdidDataDto.Data
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIDisplayEdidDataDto.Flags*
+  commentId: Overload:NVAPIWrapper.NVAPIDisplayEdidDataDto.Flags
+  href: NVAPIWrapper.NVAPIDisplayEdidDataDto.html#NVAPIWrapper_NVAPIDisplayEdidDataDto_Flags
+  name: Flags
+  nameWithType: NVAPIDisplayEdidDataDto.Flags
+  fullName: NVAPIWrapper.NVAPIDisplayEdidDataDto.Flags
+- uid: NVAPIWrapper.NV_EDID_FLAG
+  commentId: T:NVAPIWrapper.NV_EDID_FLAG
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_EDID_FLAG.html
+  name: NV_EDID_FLAG
+  nameWithType: NV_EDID_FLAG
+  fullName: NVAPIWrapper.NV_EDID_FLAG
+- uid: NVAPIWrapper.NVAPIDisplayEdidDataDto.SizeOfEdid*
+  commentId: Overload:NVAPIWrapper.NVAPIDisplayEdidDataDto.SizeOfEdid
+  href: NVAPIWrapper.NVAPIDisplayEdidDataDto.html#NVAPIWrapper_NVAPIDisplayEdidDataDto_SizeOfEdid
+  name: SizeOfEdid
+  nameWithType: NVAPIDisplayEdidDataDto.SizeOfEdid
+  fullName: NVAPIWrapper.NVAPIDisplayEdidDataDto.SizeOfEdid
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NVAPIDisplayEdidDataDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIDisplayEdidDataDto.#ctor
+  href: NVAPIWrapper.NVAPIDisplayEdidDataDto.html#NVAPIWrapper_NVAPIDisplayEdidDataDto__ctor_System_Byte___NVAPIWrapper_NV_EDID_FLAG_System_UInt32_
+  name: NVAPIDisplayEdidDataDto
+  nameWithType: NVAPIDisplayEdidDataDto.NVAPIDisplayEdidDataDto
+  fullName: NVAPIWrapper.NVAPIDisplayEdidDataDto.NVAPIDisplayEdidDataDto
+  nameWithType.vb: NVAPIDisplayEdidDataDto.New
+  fullName.vb: NVAPIWrapper.NVAPIDisplayEdidDataDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPIDisplayEdidDataDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPIDisplayEdidDataDto.FromNative
+  href: NVAPIWrapper.NVAPIDisplayEdidDataDto.html#NVAPIWrapper_NVAPIDisplayEdidDataDto_FromNative_NVAPIWrapper__NV_EDID_DATA_V2_NVAPIWrapper_NV_EDID_FLAG_
+  name: FromNative
+  nameWithType: NVAPIDisplayEdidDataDto.FromNative
+  fullName: NVAPIWrapper.NVAPIDisplayEdidDataDto.FromNative
+- uid: NVAPIWrapper._NV_EDID_DATA_V2
+  commentId: T:NVAPIWrapper._NV_EDID_DATA_V2
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_EDID_DATA_V2.html
+  name: _NV_EDID_DATA_V2
+  nameWithType: _NV_EDID_DATA_V2
+  fullName: NVAPIWrapper._NV_EDID_DATA_V2
+- uid: NVAPIWrapper.NVAPIDisplayEdidDataDto
+  commentId: T:NVAPIWrapper.NVAPIDisplayEdidDataDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIDisplayEdidDataDto.html
+  name: NVAPIDisplayEdidDataDto
+  nameWithType: NVAPIDisplayEdidDataDto
+  fullName: NVAPIWrapper.NVAPIDisplayEdidDataDto
+- uid: NVAPIWrapper.NVAPIDisplayEdidDataDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPIDisplayEdidDataDto.ToNative
+  href: NVAPIWrapper.NVAPIDisplayEdidDataDto.html#NVAPIWrapper_NVAPIDisplayEdidDataDto_ToNative_System_Runtime_InteropServices_GCHandle__
+  name: ToNative
+  nameWithType: NVAPIDisplayEdidDataDto.ToNative
+  fullName: NVAPIWrapper.NVAPIDisplayEdidDataDto.ToNative
+- uid: System.Runtime.InteropServices.GCHandle
+  commentId: T:System.Runtime.InteropServices.GCHandle
+  parent: System.Runtime.InteropServices
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.gchandle
+  name: GCHandle
+  nameWithType: GCHandle
+  fullName: System.Runtime.InteropServices.GCHandle
+- uid: System.Runtime.InteropServices
+  commentId: N:System.Runtime.InteropServices
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Runtime.InteropServices
+  nameWithType: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices
+- uid: NVAPIWrapper.NVAPIDisplayEdidDataDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIDisplayEdidDataDto.Equals
+  href: NVAPIWrapper.NVAPIDisplayEdidDataDto.html#NVAPIWrapper_NVAPIDisplayEdidDataDto_Equals_NVAPIWrapper_NVAPIDisplayEdidDataDto_
+  name: Equals
+  nameWithType: NVAPIDisplayEdidDataDto.Equals
+  fullName: NVAPIWrapper.NVAPIDisplayEdidDataDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIDisplayEdidDataDto}.Equals(NVAPIWrapper.NVAPIDisplayEdidDataDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIDisplayEdidDataDto}.Equals(NVAPIWrapper.NVAPIDisplayEdidDataDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIDisplayEdidDataDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIDisplayEdidDataDto)
+  nameWithType: IEquatable<NVAPIDisplayEdidDataDto>.Equals(NVAPIDisplayEdidDataDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIDisplayEdidDataDto>.Equals(NVAPIWrapper.NVAPIDisplayEdidDataDto)
+  nameWithType.vb: IEquatable(Of NVAPIDisplayEdidDataDto).Equals(NVAPIDisplayEdidDataDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIDisplayEdidDataDto).Equals(NVAPIWrapper.NVAPIDisplayEdidDataDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIDisplayEdidDataDto}.Equals(NVAPIWrapper.NVAPIDisplayEdidDataDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIDisplayEdidDataDto
+    name: NVAPIDisplayEdidDataDto
+    href: NVAPIWrapper.NVAPIDisplayEdidDataDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIDisplayEdidDataDto}.Equals(NVAPIWrapper.NVAPIDisplayEdidDataDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIDisplayEdidDataDto
+    name: NVAPIDisplayEdidDataDto
+    href: NVAPIWrapper.NVAPIDisplayEdidDataDto.html
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIDisplayEdidDataDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIDisplayEdidDataDto.GetHashCode
+  href: NVAPIWrapper.NVAPIDisplayEdidDataDto.html#NVAPIWrapper_NVAPIDisplayEdidDataDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIDisplayEdidDataDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIDisplayEdidDataDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIDisplayEdidDataDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIDisplayEdidDataDto.op_Equality
+  href: NVAPIWrapper.NVAPIDisplayEdidDataDto.html#NVAPIWrapper_NVAPIDisplayEdidDataDto_op_Equality_NVAPIWrapper_NVAPIDisplayEdidDataDto_NVAPIWrapper_NVAPIDisplayEdidDataDto_
+  name: operator ==
+  nameWithType: NVAPIDisplayEdidDataDto.operator ==
+  fullName: NVAPIWrapper.NVAPIDisplayEdidDataDto.operator ==
+  nameWithType.vb: NVAPIDisplayEdidDataDto.=
+  fullName.vb: NVAPIWrapper.NVAPIDisplayEdidDataDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIDisplayEdidDataDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIDisplayEdidDataDto.html#NVAPIWrapper_NVAPIDisplayEdidDataDto_op_Equality_NVAPIWrapper_NVAPIDisplayEdidDataDto_NVAPIWrapper_NVAPIDisplayEdidDataDto_
+- uid: NVAPIWrapper.NVAPIDisplayEdidDataDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIDisplayEdidDataDto.op_Inequality
+  href: NVAPIWrapper.NVAPIDisplayEdidDataDto.html#NVAPIWrapper_NVAPIDisplayEdidDataDto_op_Inequality_NVAPIWrapper_NVAPIDisplayEdidDataDto_NVAPIWrapper_NVAPIDisplayEdidDataDto_
+  name: operator !=
+  nameWithType: NVAPIDisplayEdidDataDto.operator !=
+  fullName: NVAPIWrapper.NVAPIDisplayEdidDataDto.operator !=
+  nameWithType.vb: NVAPIDisplayEdidDataDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIDisplayEdidDataDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIDisplayEdidDataDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIDisplayEdidDataDto.html#NVAPIWrapper_NVAPIDisplayEdidDataDto_op_Inequality_NVAPIWrapper_NVAPIDisplayEdidDataDto_NVAPIWrapper_NVAPIDisplayEdidDataDto_

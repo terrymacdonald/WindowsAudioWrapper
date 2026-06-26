@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_VRRREQUESTSTATE
+  commentId: T:NVAPIWrapper.EValues_VRRREQUESTSTATE
+  id: EValues_VRRREQUESTSTATE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_DEFAULT
+  - NVAPIWrapper.EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_DISABLED
+  - NVAPIWrapper.EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_FULLSCREEN_AND_WINDOWED
+  - NVAPIWrapper.EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_FULLSCREEN_ONLY
+  - NVAPIWrapper.EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_VRRREQUESTSTATE
+  nameWithType: EValues_VRRREQUESTSTATE
+  fullName: NVAPIWrapper.EValues_VRRREQUESTSTATE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRRREQUESTSTATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_VRRREQUESTSTATE
+    path: ../NVAPIWrapper/cs_generated/EValues_VRRREQUESTSTATE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_VRRREQUESTSTATE
+    content.vb: Public Enum EValues_VRRREQUESTSTATE
+- uid: NVAPIWrapper.EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_DISABLED
+  commentId: F:NVAPIWrapper.EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_DISABLED
+  id: VRRREQUESTSTATE_DISABLED
+  parent: NVAPIWrapper.EValues_VRRREQUESTSTATE
+  langs:
+  - csharp
+  - vb
+  name: VRRREQUESTSTATE_DISABLED
+  nameWithType: EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_DISABLED
+  fullName: NVAPIWrapper.EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_DISABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRRREQUESTSTATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRRREQUESTSTATE_DISABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_VRRREQUESTSTATE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRRREQUESTSTATE_DISABLED = 0
+    return:
+      type: NVAPIWrapper.EValues_VRRREQUESTSTATE
+- uid: NVAPIWrapper.EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_FULLSCREEN_ONLY
+  commentId: F:NVAPIWrapper.EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_FULLSCREEN_ONLY
+  id: VRRREQUESTSTATE_FULLSCREEN_ONLY
+  parent: NVAPIWrapper.EValues_VRRREQUESTSTATE
+  langs:
+  - csharp
+  - vb
+  name: VRRREQUESTSTATE_FULLSCREEN_ONLY
+  nameWithType: EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_FULLSCREEN_ONLY
+  fullName: NVAPIWrapper.EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_FULLSCREEN_ONLY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRRREQUESTSTATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRRREQUESTSTATE_FULLSCREEN_ONLY
+    path: ../NVAPIWrapper/cs_generated/EValues_VRRREQUESTSTATE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRRREQUESTSTATE_FULLSCREEN_ONLY = 1
+    return:
+      type: NVAPIWrapper.EValues_VRRREQUESTSTATE
+- uid: NVAPIWrapper.EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_FULLSCREEN_AND_WINDOWED
+  commentId: F:NVAPIWrapper.EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_FULLSCREEN_AND_WINDOWED
+  id: VRRREQUESTSTATE_FULLSCREEN_AND_WINDOWED
+  parent: NVAPIWrapper.EValues_VRRREQUESTSTATE
+  langs:
+  - csharp
+  - vb
+  name: VRRREQUESTSTATE_FULLSCREEN_AND_WINDOWED
+  nameWithType: EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_FULLSCREEN_AND_WINDOWED
+  fullName: NVAPIWrapper.EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_FULLSCREEN_AND_WINDOWED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRRREQUESTSTATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRRREQUESTSTATE_FULLSCREEN_AND_WINDOWED
+    path: ../NVAPIWrapper/cs_generated/EValues_VRRREQUESTSTATE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRRREQUESTSTATE_FULLSCREEN_AND_WINDOWED = 2
+    return:
+      type: NVAPIWrapper.EValues_VRRREQUESTSTATE
+- uid: NVAPIWrapper.EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_NUM_VALUES
+  id: VRRREQUESTSTATE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_VRRREQUESTSTATE
+  langs:
+  - csharp
+  - vb
+  name: VRRREQUESTSTATE_NUM_VALUES
+  nameWithType: EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRRREQUESTSTATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRRREQUESTSTATE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_VRRREQUESTSTATE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRRREQUESTSTATE_NUM_VALUES = 3
+    return:
+      type: NVAPIWrapper.EValues_VRRREQUESTSTATE
+- uid: NVAPIWrapper.EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_DEFAULT
+  id: VRRREQUESTSTATE_DEFAULT
+  parent: NVAPIWrapper.EValues_VRRREQUESTSTATE
+  langs:
+  - csharp
+  - vb
+  name: VRRREQUESTSTATE_DEFAULT
+  nameWithType: EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_DEFAULT
+  fullName: NVAPIWrapper.EValues_VRRREQUESTSTATE.VRRREQUESTSTATE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRRREQUESTSTATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRRREQUESTSTATE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_VRRREQUESTSTATE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRRREQUESTSTATE_DEFAULT = 1
+    return:
+      type: NVAPIWrapper.EValues_VRRREQUESTSTATE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_VRRREQUESTSTATE
+  commentId: T:NVAPIWrapper.EValues_VRRREQUESTSTATE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_VRRREQUESTSTATE.html
+  name: EValues_VRRREQUESTSTATE
+  nameWithType: EValues_VRRREQUESTSTATE
+  fullName: NVAPIWrapper.EValues_VRRREQUESTSTATE

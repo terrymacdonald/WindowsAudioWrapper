@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_StereoSwapChainMode
+  commentId: T:NVAPIWrapper._NV_StereoSwapChainMode
+  id: _NV_StereoSwapChainMode
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_StereoSwapChainMode.NVAPI_STEREO_SWAPCHAIN_DEFAULT
+  - NVAPIWrapper._NV_StereoSwapChainMode.NVAPI_STEREO_SWAPCHAIN_MONO
+  - NVAPIWrapper._NV_StereoSwapChainMode.NVAPI_STEREO_SWAPCHAIN_STEREO
+  langs:
+  - csharp
+  - vb
+  name: _NV_StereoSwapChainMode
+  nameWithType: _NV_StereoSwapChainMode
+  fullName: NVAPIWrapper._NV_StereoSwapChainMode
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_StereoSwapChainMode.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_StereoSwapChainMode
+    path: ../NVAPIWrapper/cs_generated/_NV_StereoSwapChainMode.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_StereoSwapChainMode
+    content.vb: Public Enum _NV_StereoSwapChainMode
+- uid: NVAPIWrapper._NV_StereoSwapChainMode.NVAPI_STEREO_SWAPCHAIN_DEFAULT
+  commentId: F:NVAPIWrapper._NV_StereoSwapChainMode.NVAPI_STEREO_SWAPCHAIN_DEFAULT
+  id: NVAPI_STEREO_SWAPCHAIN_DEFAULT
+  parent: NVAPIWrapper._NV_StereoSwapChainMode
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_SWAPCHAIN_DEFAULT
+  nameWithType: _NV_StereoSwapChainMode.NVAPI_STEREO_SWAPCHAIN_DEFAULT
+  fullName: NVAPIWrapper._NV_StereoSwapChainMode.NVAPI_STEREO_SWAPCHAIN_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_StereoSwapChainMode.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_SWAPCHAIN_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/_NV_StereoSwapChainMode.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_SWAPCHAIN_DEFAULT = 0
+    return:
+      type: NVAPIWrapper._NV_StereoSwapChainMode
+- uid: NVAPIWrapper._NV_StereoSwapChainMode.NVAPI_STEREO_SWAPCHAIN_STEREO
+  commentId: F:NVAPIWrapper._NV_StereoSwapChainMode.NVAPI_STEREO_SWAPCHAIN_STEREO
+  id: NVAPI_STEREO_SWAPCHAIN_STEREO
+  parent: NVAPIWrapper._NV_StereoSwapChainMode
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_SWAPCHAIN_STEREO
+  nameWithType: _NV_StereoSwapChainMode.NVAPI_STEREO_SWAPCHAIN_STEREO
+  fullName: NVAPIWrapper._NV_StereoSwapChainMode.NVAPI_STEREO_SWAPCHAIN_STEREO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_StereoSwapChainMode.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_SWAPCHAIN_STEREO
+    path: ../NVAPIWrapper/cs_generated/_NV_StereoSwapChainMode.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_SWAPCHAIN_STEREO = 1
+    return:
+      type: NVAPIWrapper._NV_StereoSwapChainMode
+- uid: NVAPIWrapper._NV_StereoSwapChainMode.NVAPI_STEREO_SWAPCHAIN_MONO
+  commentId: F:NVAPIWrapper._NV_StereoSwapChainMode.NVAPI_STEREO_SWAPCHAIN_MONO
+  id: NVAPI_STEREO_SWAPCHAIN_MONO
+  parent: NVAPIWrapper._NV_StereoSwapChainMode
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_SWAPCHAIN_MONO
+  nameWithType: _NV_StereoSwapChainMode.NVAPI_STEREO_SWAPCHAIN_MONO
+  fullName: NVAPIWrapper._NV_StereoSwapChainMode.NVAPI_STEREO_SWAPCHAIN_MONO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_StereoSwapChainMode.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_SWAPCHAIN_MONO
+    path: ../NVAPIWrapper/cs_generated/_NV_StereoSwapChainMode.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_SWAPCHAIN_MONO = 2
+    return:
+      type: NVAPIWrapper._NV_StereoSwapChainMode
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_StereoSwapChainMode
+  commentId: T:NVAPIWrapper._NV_StereoSwapChainMode
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_StereoSwapChainMode.html
+  name: _NV_StereoSwapChainMode
+  nameWithType: _NV_StereoSwapChainMode
+  fullName: NVAPIWrapper._NV_StereoSwapChainMode

@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID
+  commentId: T:NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID
+  id: _NV_GPU_CLIENT_UTIL_DOMAIN_ID
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID.NV_GPU_CLIENT_UTIL_DOMAIN_FRAME_BUFFER
+  - NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID.NV_GPU_CLIENT_UTIL_DOMAIN_GRAPHICS
+  - NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID.NV_GPU_CLIENT_UTIL_DOMAIN_RSVD
+  - NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID.NV_GPU_CLIENT_UTIL_DOMAIN_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: _NV_GPU_CLIENT_UTIL_DOMAIN_ID
+  nameWithType: _NV_GPU_CLIENT_UTIL_DOMAIN_ID
+  fullName: NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CLIENT_UTIL_DOMAIN_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_GPU_CLIENT_UTIL_DOMAIN_ID
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CLIENT_UTIL_DOMAIN_ID.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_GPU_CLIENT_UTIL_DOMAIN_ID
+    content.vb: Public Enum _NV_GPU_CLIENT_UTIL_DOMAIN_ID
+- uid: NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID.NV_GPU_CLIENT_UTIL_DOMAIN_GRAPHICS
+  commentId: F:NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID.NV_GPU_CLIENT_UTIL_DOMAIN_GRAPHICS
+  id: NV_GPU_CLIENT_UTIL_DOMAIN_GRAPHICS
+  parent: NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLIENT_UTIL_DOMAIN_GRAPHICS
+  nameWithType: _NV_GPU_CLIENT_UTIL_DOMAIN_ID.NV_GPU_CLIENT_UTIL_DOMAIN_GRAPHICS
+  fullName: NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID.NV_GPU_CLIENT_UTIL_DOMAIN_GRAPHICS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CLIENT_UTIL_DOMAIN_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLIENT_UTIL_DOMAIN_GRAPHICS
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CLIENT_UTIL_DOMAIN_ID.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CLIENT_UTIL_DOMAIN_GRAPHICS = 0
+    return:
+      type: NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID
+- uid: NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID.NV_GPU_CLIENT_UTIL_DOMAIN_FRAME_BUFFER
+  commentId: F:NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID.NV_GPU_CLIENT_UTIL_DOMAIN_FRAME_BUFFER
+  id: NV_GPU_CLIENT_UTIL_DOMAIN_FRAME_BUFFER
+  parent: NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLIENT_UTIL_DOMAIN_FRAME_BUFFER
+  nameWithType: _NV_GPU_CLIENT_UTIL_DOMAIN_ID.NV_GPU_CLIENT_UTIL_DOMAIN_FRAME_BUFFER
+  fullName: NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID.NV_GPU_CLIENT_UTIL_DOMAIN_FRAME_BUFFER
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CLIENT_UTIL_DOMAIN_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLIENT_UTIL_DOMAIN_FRAME_BUFFER
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CLIENT_UTIL_DOMAIN_ID.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CLIENT_UTIL_DOMAIN_FRAME_BUFFER = 1
+    return:
+      type: NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID
+- uid: NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID.NV_GPU_CLIENT_UTIL_DOMAIN_VIDEO
+  commentId: F:NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID.NV_GPU_CLIENT_UTIL_DOMAIN_VIDEO
+  id: NV_GPU_CLIENT_UTIL_DOMAIN_VIDEO
+  parent: NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLIENT_UTIL_DOMAIN_VIDEO
+  nameWithType: _NV_GPU_CLIENT_UTIL_DOMAIN_ID.NV_GPU_CLIENT_UTIL_DOMAIN_VIDEO
+  fullName: NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID.NV_GPU_CLIENT_UTIL_DOMAIN_VIDEO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CLIENT_UTIL_DOMAIN_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLIENT_UTIL_DOMAIN_VIDEO
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CLIENT_UTIL_DOMAIN_ID.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CLIENT_UTIL_DOMAIN_VIDEO = 2
+    return:
+      type: NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID
+- uid: NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID.NV_GPU_CLIENT_UTIL_DOMAIN_RSVD
+  commentId: F:NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID.NV_GPU_CLIENT_UTIL_DOMAIN_RSVD
+  id: NV_GPU_CLIENT_UTIL_DOMAIN_RSVD
+  parent: NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLIENT_UTIL_DOMAIN_RSVD
+  nameWithType: _NV_GPU_CLIENT_UTIL_DOMAIN_ID.NV_GPU_CLIENT_UTIL_DOMAIN_RSVD
+  fullName: NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID.NV_GPU_CLIENT_UTIL_DOMAIN_RSVD
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CLIENT_UTIL_DOMAIN_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLIENT_UTIL_DOMAIN_RSVD
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CLIENT_UTIL_DOMAIN_ID.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CLIENT_UTIL_DOMAIN_RSVD = 3
+    return:
+      type: NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID
+  commentId: T:NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID.html
+  name: _NV_GPU_CLIENT_UTIL_DOMAIN_ID
+  nameWithType: _NV_GPU_CLIENT_UTIL_DOMAIN_ID
+  fullName: NVAPIWrapper._NV_GPU_CLIENT_UTIL_DOMAIN_ID

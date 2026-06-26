@@ -1,0 +1,1034 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+  commentId: T:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+  id: NVAPIDisplayConfigSourceModeDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.#ctor(NVAPIWrapper._NV_RESOLUTION,NVAPIWrapper._NV_FORMAT,NVAPIWrapper._NV_POSITION,NVAPIWrapper._NV_DISPLAYCONFIG_SPANNING_ORIENTATION,System.Boolean,System.Boolean)
+  - NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.ColorFormat
+  - NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Equals(NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+  - NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.FromNative(NVAPIWrapper._NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1)
+  - NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.GetHashCode
+  - NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.IsGdiPrimary
+  - NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.IsSliFocus
+  - NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Position
+  - NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Resolution
+  - NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.SpanningOrientation
+  - NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.ToNative
+  - NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.op_Equality(NVAPIWrapper.NVAPIDisplayConfigSourceModeDto,NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+  - NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.op_Inequality(NVAPIWrapper.NVAPIDisplayConfigSourceModeDto,NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIDisplayConfigSourceModeDto
+  nameWithType: NVAPIDisplayConfigSourceModeDto
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIDisplayConfigSourceModeDto
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3351
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Managed representation of NVAPI display source mode info.
+  example: []
+  syntax:
+    content: 'public struct NVAPIDisplayConfigSourceModeDto : IEquatable<NVAPIDisplayConfigSourceModeDto>'
+    content.vb: Public Structure NVAPIDisplayConfigSourceModeDto Implements IEquatable(Of NVAPIDisplayConfigSourceModeDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIDisplayConfigSourceModeDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Resolution
+  commentId: P:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Resolution
+  id: Resolution
+  parent: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+  langs:
+  - csharp
+  - vb
+  name: Resolution
+  nameWithType: NVAPIDisplayConfigSourceModeDto.Resolution
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Resolution
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Resolution
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3354
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Display resolution.
+  example: []
+  syntax:
+    content: public _NV_RESOLUTION Resolution { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper._NV_RESOLUTION
+    content.vb: Public Property Resolution As _NV_RESOLUTION
+  overload: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Resolution*
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.ColorFormat
+  commentId: P:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.ColorFormat
+  id: ColorFormat
+  parent: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+  langs:
+  - csharp
+  - vb
+  name: ColorFormat
+  nameWithType: NVAPIDisplayConfigSourceModeDto.ColorFormat
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.ColorFormat
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ColorFormat
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3357
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Color format.
+  example: []
+  syntax:
+    content: public _NV_FORMAT ColorFormat { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper._NV_FORMAT
+    content.vb: Public Property ColorFormat As _NV_FORMAT
+  overload: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.ColorFormat*
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Position
+  commentId: P:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Position
+  id: Position
+  parent: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: NVAPIDisplayConfigSourceModeDto.Position
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Position
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Position
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3360
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Position for the display.
+  example: []
+  syntax:
+    content: public _NV_POSITION Position { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper._NV_POSITION
+    content.vb: Public Property Position As _NV_POSITION
+  overload: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Position*
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.SpanningOrientation
+  commentId: P:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.SpanningOrientation
+  id: SpanningOrientation
+  parent: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+  langs:
+  - csharp
+  - vb
+  name: SpanningOrientation
+  nameWithType: NVAPIDisplayConfigSourceModeDto.SpanningOrientation
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.SpanningOrientation
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SpanningOrientation
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3363
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Spanning orientation.
+  example: []
+  syntax:
+    content: public _NV_DISPLAYCONFIG_SPANNING_ORIENTATION SpanningOrientation { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper._NV_DISPLAYCONFIG_SPANNING_ORIENTATION
+    content.vb: Public Property SpanningOrientation As _NV_DISPLAYCONFIG_SPANNING_ORIENTATION
+  overload: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.SpanningOrientation*
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.IsGdiPrimary
+  commentId: P:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.IsGdiPrimary
+  id: IsGdiPrimary
+  parent: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+  langs:
+  - csharp
+  - vb
+  name: IsGdiPrimary
+  nameWithType: NVAPIDisplayConfigSourceModeDto.IsGdiPrimary
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.IsGdiPrimary
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: IsGdiPrimary
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3366
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: True if this is the GDI primary display.
+  example: []
+  syntax:
+    content: public bool IsGdiPrimary { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsGdiPrimary As Boolean
+  overload: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.IsGdiPrimary*
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.IsSliFocus
+  commentId: P:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.IsSliFocus
+  id: IsSliFocus
+  parent: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+  langs:
+  - csharp
+  - vb
+  name: IsSliFocus
+  nameWithType: NVAPIDisplayConfigSourceModeDto.IsSliFocus
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.IsSliFocus
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: IsSliFocus
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3369
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: True if this is the SLI focus display.
+  example: []
+  syntax:
+    content: public bool IsSliFocus { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsSliFocus As Boolean
+  overload: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.IsSliFocus*
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.#ctor(NVAPIWrapper._NV_RESOLUTION,NVAPIWrapper._NV_FORMAT,NVAPIWrapper._NV_POSITION,NVAPIWrapper._NV_DISPLAYCONFIG_SPANNING_ORIENTATION,System.Boolean,System.Boolean)
+  commentId: M:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.#ctor(NVAPIWrapper._NV_RESOLUTION,NVAPIWrapper._NV_FORMAT,NVAPIWrapper._NV_POSITION,NVAPIWrapper._NV_DISPLAYCONFIG_SPANNING_ORIENTATION,System.Boolean,System.Boolean)
+  id: '#ctor(NVAPIWrapper._NV_RESOLUTION,NVAPIWrapper._NV_FORMAT,NVAPIWrapper._NV_POSITION,NVAPIWrapper._NV_DISPLAYCONFIG_SPANNING_ORIENTATION,System.Boolean,System.Boolean)'
+  parent: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIDisplayConfigSourceModeDto(_NV_RESOLUTION, _NV_FORMAT, _NV_POSITION, _NV_DISPLAYCONFIG_SPANNING_ORIENTATION, bool, bool)
+  nameWithType: NVAPIDisplayConfigSourceModeDto.NVAPIDisplayConfigSourceModeDto(_NV_RESOLUTION, _NV_FORMAT, _NV_POSITION, _NV_DISPLAYCONFIG_SPANNING_ORIENTATION, bool, bool)
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.NVAPIDisplayConfigSourceModeDto(NVAPIWrapper._NV_RESOLUTION, NVAPIWrapper._NV_FORMAT, NVAPIWrapper._NV_POSITION, NVAPIWrapper._NV_DISPLAYCONFIG_SPANNING_ORIENTATION, bool, bool)
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3372
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create source mode info.
+  example: []
+  syntax:
+    content: public NVAPIDisplayConfigSourceModeDto(_NV_RESOLUTION resolution, _NV_FORMAT colorFormat, _NV_POSITION position, _NV_DISPLAYCONFIG_SPANNING_ORIENTATION spanningOrientation, bool isGdiPrimary, bool isSliFocus)
+    parameters:
+    - id: resolution
+      type: NVAPIWrapper._NV_RESOLUTION
+    - id: colorFormat
+      type: NVAPIWrapper._NV_FORMAT
+    - id: position
+      type: NVAPIWrapper._NV_POSITION
+    - id: spanningOrientation
+      type: NVAPIWrapper._NV_DISPLAYCONFIG_SPANNING_ORIENTATION
+    - id: isGdiPrimary
+      type: System.Boolean
+    - id: isSliFocus
+      type: System.Boolean
+    content.vb: Public Sub New(resolution As _NV_RESOLUTION, colorFormat As _NV_FORMAT, position As _NV_POSITION, spanningOrientation As _NV_DISPLAYCONFIG_SPANNING_ORIENTATION, isGdiPrimary As Boolean, isSliFocus As Boolean)
+  overload: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.#ctor*
+  nameWithType.vb: NVAPIDisplayConfigSourceModeDto.New(_NV_RESOLUTION, _NV_FORMAT, _NV_POSITION, _NV_DISPLAYCONFIG_SPANNING_ORIENTATION, Boolean, Boolean)
+  fullName.vb: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.New(NVAPIWrapper._NV_RESOLUTION, NVAPIWrapper._NV_FORMAT, NVAPIWrapper._NV_POSITION, NVAPIWrapper._NV_DISPLAYCONFIG_SPANNING_ORIENTATION, Boolean, Boolean)
+  name.vb: New(_NV_RESOLUTION, _NV_FORMAT, _NV_POSITION, _NV_DISPLAYCONFIG_SPANNING_ORIENTATION, Boolean, Boolean)
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.FromNative(NVAPIWrapper._NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1)
+  commentId: M:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.FromNative(NVAPIWrapper._NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1)
+  id: FromNative(NVAPIWrapper._NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1)
+  parent: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(_NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1)
+  nameWithType: NVAPIDisplayConfigSourceModeDto.FromNative(_NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1)
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.FromNative(NVAPIWrapper._NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3393
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a DTO from a native source mode info struct.
+  example: []
+  syntax:
+    content: public static NVAPIDisplayConfigSourceModeDto FromNative(_NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1 native)
+    parameters:
+    - id: native
+      type: NVAPIWrapper._NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1
+      description: Native source mode info.
+    return:
+      type: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+      description: Source mode DTO.
+    content.vb: Public Shared Function FromNative(native As _NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1) As NVAPIDisplayConfigSourceModeDto
+  overload: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.FromNative*
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.ToNative
+  commentId: M:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.ToNative
+  id: ToNative
+  parent: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: NVAPIDisplayConfigSourceModeDto.ToNative()
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3408
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Convert this DTO to a native source mode info struct.
+  example: []
+  syntax:
+    content: public _NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1 ToNative()
+    return:
+      type: NVAPIWrapper._NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1
+      description: Native source mode info.
+    content.vb: Public Function ToNative() As _NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1
+  overload: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.ToNative*
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Equals(NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+  commentId: M:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Equals(NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+  id: Equals(NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+  parent: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIDisplayConfigSourceModeDto)
+  nameWithType: NVAPIDisplayConfigSourceModeDto.Equals(NVAPIDisplayConfigSourceModeDto)
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Equals(NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3424
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIDisplayConfigSourceModeDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As NVAPIDisplayConfigSourceModeDto) As Boolean
+  overload: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIDisplayConfigSourceModeDto}.Equals(NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIDisplayConfigSourceModeDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3435
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Equals*
+  nameWithType.vb: NVAPIDisplayConfigSourceModeDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIDisplayConfigSourceModeDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3441
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.op_Equality(NVAPIWrapper.NVAPIDisplayConfigSourceModeDto,NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+  commentId: M:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.op_Equality(NVAPIWrapper.NVAPIDisplayConfigSourceModeDto,NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+  id: op_Equality(NVAPIWrapper.NVAPIDisplayConfigSourceModeDto,NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+  parent: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIDisplayConfigSourceModeDto, NVAPIDisplayConfigSourceModeDto)
+  nameWithType: NVAPIDisplayConfigSourceModeDto.operator ==(NVAPIDisplayConfigSourceModeDto, NVAPIDisplayConfigSourceModeDto)
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.operator ==(NVAPIWrapper.NVAPIDisplayConfigSourceModeDto, NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3459
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Compare source mode info values.
+  example: []
+  syntax:
+    content: public static bool operator ==(NVAPIDisplayConfigSourceModeDto left, NVAPIDisplayConfigSourceModeDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+    - id: right
+      type: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As NVAPIDisplayConfigSourceModeDto, right As NVAPIDisplayConfigSourceModeDto) As Boolean
+  overload: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.op_Equality*
+  nameWithType.vb: NVAPIDisplayConfigSourceModeDto.=(NVAPIDisplayConfigSourceModeDto, NVAPIDisplayConfigSourceModeDto)
+  fullName.vb: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.=(NVAPIWrapper.NVAPIDisplayConfigSourceModeDto, NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+  name.vb: =(NVAPIDisplayConfigSourceModeDto, NVAPIDisplayConfigSourceModeDto)
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.op_Inequality(NVAPIWrapper.NVAPIDisplayConfigSourceModeDto,NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+  commentId: M:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.op_Inequality(NVAPIWrapper.NVAPIDisplayConfigSourceModeDto,NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIDisplayConfigSourceModeDto,NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+  parent: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIDisplayConfigSourceModeDto, NVAPIDisplayConfigSourceModeDto)
+  nameWithType: NVAPIDisplayConfigSourceModeDto.operator !=(NVAPIDisplayConfigSourceModeDto, NVAPIDisplayConfigSourceModeDto)
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.operator !=(NVAPIWrapper.NVAPIDisplayConfigSourceModeDto, NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3467
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Compare source mode info values.
+  example: []
+  syntax:
+    content: public static bool operator !=(NVAPIDisplayConfigSourceModeDto left, NVAPIDisplayConfigSourceModeDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+    - id: right
+      type: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As NVAPIDisplayConfigSourceModeDto, right As NVAPIDisplayConfigSourceModeDto) As Boolean
+  overload: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.op_Inequality*
+  nameWithType.vb: NVAPIDisplayConfigSourceModeDto.<>(NVAPIDisplayConfigSourceModeDto, NVAPIDisplayConfigSourceModeDto)
+  fullName.vb: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.<>(NVAPIWrapper.NVAPIDisplayConfigSourceModeDto, NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+  name.vb: <>(NVAPIDisplayConfigSourceModeDto, NVAPIDisplayConfigSourceModeDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIDisplayConfigSourceModeDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIDisplayConfigSourceModeDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIDisplayConfigSourceModeDto>
+  nameWithType: IEquatable<NVAPIDisplayConfigSourceModeDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIDisplayConfigSourceModeDto>
+  nameWithType.vb: IEquatable(Of NVAPIDisplayConfigSourceModeDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+  name.vb: IEquatable(Of NVAPIDisplayConfigSourceModeDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+    name: NVAPIDisplayConfigSourceModeDto
+    href: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+    name: NVAPIDisplayConfigSourceModeDto
+    href: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Resolution*
+  commentId: Overload:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Resolution
+  href: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.html#NVAPIWrapper_NVAPIDisplayConfigSourceModeDto_Resolution
+  name: Resolution
+  nameWithType: NVAPIDisplayConfigSourceModeDto.Resolution
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Resolution
+- uid: NVAPIWrapper._NV_RESOLUTION
+  commentId: T:NVAPIWrapper._NV_RESOLUTION
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_RESOLUTION.html
+  name: _NV_RESOLUTION
+  nameWithType: _NV_RESOLUTION
+  fullName: NVAPIWrapper._NV_RESOLUTION
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.ColorFormat*
+  commentId: Overload:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.ColorFormat
+  href: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.html#NVAPIWrapper_NVAPIDisplayConfigSourceModeDto_ColorFormat
+  name: ColorFormat
+  nameWithType: NVAPIDisplayConfigSourceModeDto.ColorFormat
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.ColorFormat
+- uid: NVAPIWrapper._NV_FORMAT
+  commentId: T:NVAPIWrapper._NV_FORMAT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_FORMAT.html
+  name: _NV_FORMAT
+  nameWithType: _NV_FORMAT
+  fullName: NVAPIWrapper._NV_FORMAT
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Position*
+  commentId: Overload:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Position
+  href: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.html#NVAPIWrapper_NVAPIDisplayConfigSourceModeDto_Position
+  name: Position
+  nameWithType: NVAPIDisplayConfigSourceModeDto.Position
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Position
+- uid: NVAPIWrapper._NV_POSITION
+  commentId: T:NVAPIWrapper._NV_POSITION
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_POSITION.html
+  name: _NV_POSITION
+  nameWithType: _NV_POSITION
+  fullName: NVAPIWrapper._NV_POSITION
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.SpanningOrientation*
+  commentId: Overload:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.SpanningOrientation
+  href: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.html#NVAPIWrapper_NVAPIDisplayConfigSourceModeDto_SpanningOrientation
+  name: SpanningOrientation
+  nameWithType: NVAPIDisplayConfigSourceModeDto.SpanningOrientation
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.SpanningOrientation
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_SPANNING_ORIENTATION
+  commentId: T:NVAPIWrapper._NV_DISPLAYCONFIG_SPANNING_ORIENTATION
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DISPLAYCONFIG_SPANNING_ORIENTATION.html
+  name: _NV_DISPLAYCONFIG_SPANNING_ORIENTATION
+  nameWithType: _NV_DISPLAYCONFIG_SPANNING_ORIENTATION
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_SPANNING_ORIENTATION
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.IsGdiPrimary*
+  commentId: Overload:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.IsGdiPrimary
+  href: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.html#NVAPIWrapper_NVAPIDisplayConfigSourceModeDto_IsGdiPrimary
+  name: IsGdiPrimary
+  nameWithType: NVAPIDisplayConfigSourceModeDto.IsGdiPrimary
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.IsGdiPrimary
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.IsSliFocus*
+  commentId: Overload:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.IsSliFocus
+  href: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.html#NVAPIWrapper_NVAPIDisplayConfigSourceModeDto_IsSliFocus
+  name: IsSliFocus
+  nameWithType: NVAPIDisplayConfigSourceModeDto.IsSliFocus
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.IsSliFocus
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.#ctor
+  href: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.html#NVAPIWrapper_NVAPIDisplayConfigSourceModeDto__ctor_NVAPIWrapper__NV_RESOLUTION_NVAPIWrapper__NV_FORMAT_NVAPIWrapper__NV_POSITION_NVAPIWrapper__NV_DISPLAYCONFIG_SPANNING_ORIENTATION_System_Boolean_System_Boolean_
+  name: NVAPIDisplayConfigSourceModeDto
+  nameWithType: NVAPIDisplayConfigSourceModeDto.NVAPIDisplayConfigSourceModeDto
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.NVAPIDisplayConfigSourceModeDto
+  nameWithType.vb: NVAPIDisplayConfigSourceModeDto.New
+  fullName.vb: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.FromNative
+  href: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.html#NVAPIWrapper_NVAPIDisplayConfigSourceModeDto_FromNative_NVAPIWrapper__NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1_
+  name: FromNative
+  nameWithType: NVAPIDisplayConfigSourceModeDto.FromNative
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.FromNative
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1
+  commentId: T:NVAPIWrapper._NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1.html
+  name: _NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1
+  nameWithType: _NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+  commentId: T:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.html
+  name: NVAPIDisplayConfigSourceModeDto
+  nameWithType: NVAPIDisplayConfigSourceModeDto
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.ToNative
+  href: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.html#NVAPIWrapper_NVAPIDisplayConfigSourceModeDto_ToNative
+  name: ToNative
+  nameWithType: NVAPIDisplayConfigSourceModeDto.ToNative
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.ToNative
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Equals
+  href: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.html#NVAPIWrapper_NVAPIDisplayConfigSourceModeDto_Equals_NVAPIWrapper_NVAPIDisplayConfigSourceModeDto_
+  name: Equals
+  nameWithType: NVAPIDisplayConfigSourceModeDto.Equals
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIDisplayConfigSourceModeDto}.Equals(NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIDisplayConfigSourceModeDto}.Equals(NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIDisplayConfigSourceModeDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIDisplayConfigSourceModeDto)
+  nameWithType: IEquatable<NVAPIDisplayConfigSourceModeDto>.Equals(NVAPIDisplayConfigSourceModeDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIDisplayConfigSourceModeDto>.Equals(NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+  nameWithType.vb: IEquatable(Of NVAPIDisplayConfigSourceModeDto).Equals(NVAPIDisplayConfigSourceModeDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIDisplayConfigSourceModeDto).Equals(NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIDisplayConfigSourceModeDto}.Equals(NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+    name: NVAPIDisplayConfigSourceModeDto
+    href: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIDisplayConfigSourceModeDto}.Equals(NVAPIWrapper.NVAPIDisplayConfigSourceModeDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto
+    name: NVAPIDisplayConfigSourceModeDto
+    href: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.GetHashCode
+  href: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.html#NVAPIWrapper_NVAPIDisplayConfigSourceModeDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIDisplayConfigSourceModeDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.op_Equality
+  href: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.html#NVAPIWrapper_NVAPIDisplayConfigSourceModeDto_op_Equality_NVAPIWrapper_NVAPIDisplayConfigSourceModeDto_NVAPIWrapper_NVAPIDisplayConfigSourceModeDto_
+  name: operator ==
+  nameWithType: NVAPIDisplayConfigSourceModeDto.operator ==
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.operator ==
+  nameWithType.vb: NVAPIDisplayConfigSourceModeDto.=
+  fullName.vb: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.html#NVAPIWrapper_NVAPIDisplayConfigSourceModeDto_op_Equality_NVAPIWrapper_NVAPIDisplayConfigSourceModeDto_NVAPIWrapper_NVAPIDisplayConfigSourceModeDto_
+- uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.op_Inequality
+  href: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.html#NVAPIWrapper_NVAPIDisplayConfigSourceModeDto_op_Inequality_NVAPIWrapper_NVAPIDisplayConfigSourceModeDto_NVAPIWrapper_NVAPIDisplayConfigSourceModeDto_
+  name: operator !=
+  nameWithType: NVAPIDisplayConfigSourceModeDto.operator !=
+  fullName: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.operator !=
+  nameWithType.vb: NVAPIDisplayConfigSourceModeDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIDisplayConfigSourceModeDto.html#NVAPIWrapper_NVAPIDisplayConfigSourceModeDto_op_Inequality_NVAPIWrapper_NVAPIDisplayConfigSourceModeDto_NVAPIWrapper_NVAPIDisplayConfigSourceModeDto_

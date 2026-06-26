@@ -1,0 +1,659 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  commentId: T:NVAPIWrapper.EValues_AA_MODE_REPLAY
+  id: EValues_AA_MODE_REPLAY
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_DEFAULT
+  - NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_DISALLOW_TRAA
+  - NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MASK
+  - NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_ALL
+  - NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_ALPHA_TEST
+  - NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_DYN_BRANCH
+  - NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_MASK
+  - NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_MAX
+  - NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_OFF
+  - NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_OPTIMAL
+  - NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_PIXEL_KILL
+  - NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_NUM_VALUES
+  - NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_EIGHT
+  - NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_FOUR
+  - NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_MASK
+  - NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_MAX
+  - NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_ONE
+  - NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_TWO
+  - NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_TRANSPARENCY
+  - NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_TRANSPARENCY_DEFAULT
+  - NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_TRANSPARENCY_DEFAULT_FERMI
+  - NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_TRANSPARENCY_DEFAULT_TESLA
+  langs:
+  - csharp
+  - vb
+  name: EValues_AA_MODE_REPLAY
+  nameWithType: EValues_AA_MODE_REPLAY
+  fullName: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_AA_MODE_REPLAY
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_AA_MODE_REPLAY
+    content.vb: Public Enum EValues_AA_MODE_REPLAY
+- uid: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_MASK
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_MASK
+  id: AA_MODE_REPLAY_SAMPLES_MASK
+  parent: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_REPLAY_SAMPLES_MASK
+  nameWithType: EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_MASK
+  fullName: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_MASK
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_REPLAY_SAMPLES_MASK
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_REPLAY_SAMPLES_MASK = 112
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_REPLAY
+- uid: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_ONE
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_ONE
+  id: AA_MODE_REPLAY_SAMPLES_ONE
+  parent: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_REPLAY_SAMPLES_ONE
+  nameWithType: EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_ONE
+  fullName: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_ONE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_REPLAY_SAMPLES_ONE
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_REPLAY_SAMPLES_ONE = 0
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_REPLAY
+- uid: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_TWO
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_TWO
+  id: AA_MODE_REPLAY_SAMPLES_TWO
+  parent: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_REPLAY_SAMPLES_TWO
+  nameWithType: EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_TWO
+  fullName: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_TWO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_REPLAY_SAMPLES_TWO
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_REPLAY_SAMPLES_TWO = 16
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_REPLAY
+- uid: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_FOUR
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_FOUR
+  id: AA_MODE_REPLAY_SAMPLES_FOUR
+  parent: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_REPLAY_SAMPLES_FOUR
+  nameWithType: EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_FOUR
+  fullName: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_FOUR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_REPLAY_SAMPLES_FOUR
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_REPLAY_SAMPLES_FOUR = 32
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_REPLAY
+- uid: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_EIGHT
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_EIGHT
+  id: AA_MODE_REPLAY_SAMPLES_EIGHT
+  parent: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_REPLAY_SAMPLES_EIGHT
+  nameWithType: EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_EIGHT
+  fullName: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_EIGHT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_REPLAY_SAMPLES_EIGHT
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_REPLAY_SAMPLES_EIGHT = 48
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_REPLAY
+- uid: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_MAX
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_MAX
+  id: AA_MODE_REPLAY_SAMPLES_MAX
+  parent: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_REPLAY_SAMPLES_MAX
+  nameWithType: EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_MAX
+  fullName: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_SAMPLES_MAX
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_REPLAY_SAMPLES_MAX
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_REPLAY_SAMPLES_MAX = 48
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_REPLAY
+- uid: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_MASK
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_MASK
+  id: AA_MODE_REPLAY_MODE_MASK
+  parent: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_REPLAY_MODE_MASK
+  nameWithType: EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_MASK
+  fullName: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_MASK
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_REPLAY_MODE_MASK
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_REPLAY_MODE_MASK = 15
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_REPLAY
+- uid: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_OFF
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_OFF
+  id: AA_MODE_REPLAY_MODE_OFF
+  parent: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_REPLAY_MODE_OFF
+  nameWithType: EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_OFF
+  fullName: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_REPLAY_MODE_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_REPLAY_MODE_OFF = 0
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_REPLAY
+- uid: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_ALPHA_TEST
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_ALPHA_TEST
+  id: AA_MODE_REPLAY_MODE_ALPHA_TEST
+  parent: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_REPLAY_MODE_ALPHA_TEST
+  nameWithType: EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_ALPHA_TEST
+  fullName: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_ALPHA_TEST
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_REPLAY_MODE_ALPHA_TEST
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_REPLAY_MODE_ALPHA_TEST = 1
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_REPLAY
+- uid: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_PIXEL_KILL
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_PIXEL_KILL
+  id: AA_MODE_REPLAY_MODE_PIXEL_KILL
+  parent: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_REPLAY_MODE_PIXEL_KILL
+  nameWithType: EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_PIXEL_KILL
+  fullName: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_PIXEL_KILL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_REPLAY_MODE_PIXEL_KILL
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_REPLAY_MODE_PIXEL_KILL = 2
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_REPLAY
+- uid: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_DYN_BRANCH
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_DYN_BRANCH
+  id: AA_MODE_REPLAY_MODE_DYN_BRANCH
+  parent: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_REPLAY_MODE_DYN_BRANCH
+  nameWithType: EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_DYN_BRANCH
+  fullName: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_DYN_BRANCH
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_REPLAY_MODE_DYN_BRANCH
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_REPLAY_MODE_DYN_BRANCH = 4
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_REPLAY
+- uid: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_OPTIMAL
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_OPTIMAL
+  id: AA_MODE_REPLAY_MODE_OPTIMAL
+  parent: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_REPLAY_MODE_OPTIMAL
+  nameWithType: EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_OPTIMAL
+  fullName: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_OPTIMAL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_REPLAY_MODE_OPTIMAL
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+    startLine: 39
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_REPLAY_MODE_OPTIMAL = 4
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_REPLAY
+- uid: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_ALL
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_ALL
+  id: AA_MODE_REPLAY_MODE_ALL
+  parent: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_REPLAY_MODE_ALL
+  nameWithType: EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_ALL
+  fullName: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_ALL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_REPLAY_MODE_ALL
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+    startLine: 42
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_REPLAY_MODE_ALL = 8
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_REPLAY
+- uid: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_MAX
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_MAX
+  id: AA_MODE_REPLAY_MODE_MAX
+  parent: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_REPLAY_MODE_MAX
+  nameWithType: EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_MAX
+  fullName: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MODE_MAX
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_REPLAY_MODE_MAX
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+    startLine: 45
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_REPLAY_MODE_MAX = 15
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_REPLAY
+- uid: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_TRANSPARENCY
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_TRANSPARENCY
+  id: AA_MODE_REPLAY_TRANSPARENCY
+  parent: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_REPLAY_TRANSPARENCY
+  nameWithType: EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_TRANSPARENCY
+  fullName: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_TRANSPARENCY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_REPLAY_TRANSPARENCY
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+    startLine: 48
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_REPLAY_TRANSPARENCY = 35
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_REPLAY
+- uid: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_DISALLOW_TRAA
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_DISALLOW_TRAA
+  id: AA_MODE_REPLAY_DISALLOW_TRAA
+  parent: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_REPLAY_DISALLOW_TRAA
+  nameWithType: EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_DISALLOW_TRAA
+  fullName: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_DISALLOW_TRAA
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_REPLAY_DISALLOW_TRAA
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+    startLine: 51
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_REPLAY_DISALLOW_TRAA = 256
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_REPLAY
+- uid: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_TRANSPARENCY_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_TRANSPARENCY_DEFAULT
+  id: AA_MODE_REPLAY_TRANSPARENCY_DEFAULT
+  parent: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_REPLAY_TRANSPARENCY_DEFAULT
+  nameWithType: EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_TRANSPARENCY_DEFAULT
+  fullName: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_TRANSPARENCY_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_REPLAY_TRANSPARENCY_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+    startLine: 54
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_REPLAY_TRANSPARENCY_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_REPLAY
+- uid: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_TRANSPARENCY_DEFAULT_TESLA
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_TRANSPARENCY_DEFAULT_TESLA
+  id: AA_MODE_REPLAY_TRANSPARENCY_DEFAULT_TESLA
+  parent: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_REPLAY_TRANSPARENCY_DEFAULT_TESLA
+  nameWithType: EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_TRANSPARENCY_DEFAULT_TESLA
+  fullName: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_TRANSPARENCY_DEFAULT_TESLA
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_REPLAY_TRANSPARENCY_DEFAULT_TESLA
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+    startLine: 57
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_REPLAY_TRANSPARENCY_DEFAULT_TESLA = 0
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_REPLAY
+- uid: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_TRANSPARENCY_DEFAULT_FERMI
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_TRANSPARENCY_DEFAULT_FERMI
+  id: AA_MODE_REPLAY_TRANSPARENCY_DEFAULT_FERMI
+  parent: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_REPLAY_TRANSPARENCY_DEFAULT_FERMI
+  nameWithType: EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_TRANSPARENCY_DEFAULT_FERMI
+  fullName: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_TRANSPARENCY_DEFAULT_FERMI
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_REPLAY_TRANSPARENCY_DEFAULT_FERMI
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+    startLine: 60
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_REPLAY_TRANSPARENCY_DEFAULT_FERMI = 0
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_REPLAY
+- uid: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MASK
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MASK
+  id: AA_MODE_REPLAY_MASK
+  parent: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_REPLAY_MASK
+  nameWithType: EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MASK
+  fullName: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_MASK
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_REPLAY_MASK
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+    startLine: 63
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_REPLAY_MASK = 383
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_REPLAY
+- uid: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_NUM_VALUES
+  id: AA_MODE_REPLAY_NUM_VALUES
+  parent: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_REPLAY_NUM_VALUES
+  nameWithType: EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_REPLAY_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+    startLine: 66
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_REPLAY_NUM_VALUES = 20
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_REPLAY
+- uid: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_DEFAULT
+  id: AA_MODE_REPLAY_DEFAULT
+  parent: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_REPLAY_DEFAULT
+  nameWithType: EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_DEFAULT
+  fullName: NVAPIWrapper.EValues_AA_MODE_REPLAY.AA_MODE_REPLAY_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_REPLAY_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_REPLAY.cs
+    startLine: 69
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_REPLAY_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_REPLAY
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_AA_MODE_REPLAY
+  commentId: T:NVAPIWrapper.EValues_AA_MODE_REPLAY
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_AA_MODE_REPLAY.html
+  name: EValues_AA_MODE_REPLAY
+  nameWithType: EValues_AA_MODE_REPLAY
+  fullName: NVAPIWrapper.EValues_AA_MODE_REPLAY

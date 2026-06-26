@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY
+  commentId: T:NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY
+  id: EValues_EXPORT_PERF_COUNTERS_DX9_ONLY
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.EXPORT_PERF_COUNTERS_DX9_ONLY_DEFAULT
+  - NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.EXPORT_PERF_COUNTERS_DX9_ONLY_NUM_VALUES
+  - NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.EXPORT_PERF_COUNTERS_DX9_ONLY_OFF
+  - NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.EXPORT_PERF_COUNTERS_DX9_ONLY_ON
+  langs:
+  - csharp
+  - vb
+  name: EValues_EXPORT_PERF_COUNTERS_DX9_ONLY
+  nameWithType: EValues_EXPORT_PERF_COUNTERS_DX9_ONLY
+  fullName: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_EXPORT_PERF_COUNTERS_DX9_ONLY
+    path: ../NVAPIWrapper/cs_generated/EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_EXPORT_PERF_COUNTERS_DX9_ONLY
+    content.vb: Public Enum EValues_EXPORT_PERF_COUNTERS_DX9_ONLY
+- uid: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.EXPORT_PERF_COUNTERS_DX9_ONLY_OFF
+  commentId: F:NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.EXPORT_PERF_COUNTERS_DX9_ONLY_OFF
+  id: EXPORT_PERF_COUNTERS_DX9_ONLY_OFF
+  parent: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY
+  langs:
+  - csharp
+  - vb
+  name: EXPORT_PERF_COUNTERS_DX9_ONLY_OFF
+  nameWithType: EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.EXPORT_PERF_COUNTERS_DX9_ONLY_OFF
+  fullName: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.EXPORT_PERF_COUNTERS_DX9_ONLY_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EXPORT_PERF_COUNTERS_DX9_ONLY_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: EXPORT_PERF_COUNTERS_DX9_ONLY_OFF = 0
+    return:
+      type: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY
+- uid: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.EXPORT_PERF_COUNTERS_DX9_ONLY_ON
+  commentId: F:NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.EXPORT_PERF_COUNTERS_DX9_ONLY_ON
+  id: EXPORT_PERF_COUNTERS_DX9_ONLY_ON
+  parent: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY
+  langs:
+  - csharp
+  - vb
+  name: EXPORT_PERF_COUNTERS_DX9_ONLY_ON
+  nameWithType: EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.EXPORT_PERF_COUNTERS_DX9_ONLY_ON
+  fullName: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.EXPORT_PERF_COUNTERS_DX9_ONLY_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EXPORT_PERF_COUNTERS_DX9_ONLY_ON
+    path: ../NVAPIWrapper/cs_generated/EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: EXPORT_PERF_COUNTERS_DX9_ONLY_ON = 1
+    return:
+      type: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY
+- uid: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.EXPORT_PERF_COUNTERS_DX9_ONLY_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.EXPORT_PERF_COUNTERS_DX9_ONLY_NUM_VALUES
+  id: EXPORT_PERF_COUNTERS_DX9_ONLY_NUM_VALUES
+  parent: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY
+  langs:
+  - csharp
+  - vb
+  name: EXPORT_PERF_COUNTERS_DX9_ONLY_NUM_VALUES
+  nameWithType: EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.EXPORT_PERF_COUNTERS_DX9_ONLY_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.EXPORT_PERF_COUNTERS_DX9_ONLY_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EXPORT_PERF_COUNTERS_DX9_ONLY_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: EXPORT_PERF_COUNTERS_DX9_ONLY_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY
+- uid: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.EXPORT_PERF_COUNTERS_DX9_ONLY_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.EXPORT_PERF_COUNTERS_DX9_ONLY_DEFAULT
+  id: EXPORT_PERF_COUNTERS_DX9_ONLY_DEFAULT
+  parent: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY
+  langs:
+  - csharp
+  - vb
+  name: EXPORT_PERF_COUNTERS_DX9_ONLY_DEFAULT
+  nameWithType: EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.EXPORT_PERF_COUNTERS_DX9_ONLY_DEFAULT
+  fullName: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.EXPORT_PERF_COUNTERS_DX9_ONLY_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EXPORT_PERF_COUNTERS_DX9_ONLY_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: EXPORT_PERF_COUNTERS_DX9_ONLY_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY
+  commentId: T:NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY.html
+  name: EValues_EXPORT_PERF_COUNTERS_DX9_ONLY
+  nameWithType: EValues_EXPORT_PERF_COUNTERS_DX9_ONLY
+  fullName: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS_DX9_ONLY

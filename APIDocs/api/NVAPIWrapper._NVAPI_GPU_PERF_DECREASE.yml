@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE
+  commentId: T:NVAPIWrapper._NVAPI_GPU_PERF_DECREASE
+  id: _NVAPI_GPU_PERF_DECREASE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_NONE
+  - NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_AC_BATT
+  - NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_API_TRIGGERED
+  - NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_INSUFFICIENT_POWER
+  - NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_POWER_CONTROL
+  - NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_THERMAL_PROTECTION
+  - NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_UNKNOWN
+  langs:
+  - csharp
+  - vb
+  name: _NVAPI_GPU_PERF_DECREASE
+  nameWithType: _NVAPI_GPU_PERF_DECREASE
+  fullName: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GPU_PERF_DECREASE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVAPI_GPU_PERF_DECREASE
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GPU_PERF_DECREASE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVAPI_GPU_PERF_DECREASE
+    content.vb: Public Enum _NVAPI_GPU_PERF_DECREASE
+- uid: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_NONE
+  commentId: F:NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_NONE
+  id: NV_GPU_PERF_DECREASE_NONE
+  parent: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_PERF_DECREASE_NONE
+  nameWithType: _NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_NONE
+  fullName: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_NONE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GPU_PERF_DECREASE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_PERF_DECREASE_NONE
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GPU_PERF_DECREASE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_PERF_DECREASE_NONE = 0
+    return:
+      type: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE
+- uid: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_THERMAL_PROTECTION
+  commentId: F:NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_THERMAL_PROTECTION
+  id: NV_GPU_PERF_DECREASE_REASON_THERMAL_PROTECTION
+  parent: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_PERF_DECREASE_REASON_THERMAL_PROTECTION
+  nameWithType: _NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_THERMAL_PROTECTION
+  fullName: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_THERMAL_PROTECTION
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GPU_PERF_DECREASE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_PERF_DECREASE_REASON_THERMAL_PROTECTION
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GPU_PERF_DECREASE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_PERF_DECREASE_REASON_THERMAL_PROTECTION = 1
+    return:
+      type: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE
+- uid: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_POWER_CONTROL
+  commentId: F:NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_POWER_CONTROL
+  id: NV_GPU_PERF_DECREASE_REASON_POWER_CONTROL
+  parent: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_PERF_DECREASE_REASON_POWER_CONTROL
+  nameWithType: _NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_POWER_CONTROL
+  fullName: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_POWER_CONTROL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GPU_PERF_DECREASE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_PERF_DECREASE_REASON_POWER_CONTROL
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GPU_PERF_DECREASE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_PERF_DECREASE_REASON_POWER_CONTROL = 2
+    return:
+      type: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE
+- uid: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_AC_BATT
+  commentId: F:NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_AC_BATT
+  id: NV_GPU_PERF_DECREASE_REASON_AC_BATT
+  parent: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_PERF_DECREASE_REASON_AC_BATT
+  nameWithType: _NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_AC_BATT
+  fullName: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_AC_BATT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GPU_PERF_DECREASE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_PERF_DECREASE_REASON_AC_BATT
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GPU_PERF_DECREASE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_PERF_DECREASE_REASON_AC_BATT = 4
+    return:
+      type: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE
+- uid: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_API_TRIGGERED
+  commentId: F:NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_API_TRIGGERED
+  id: NV_GPU_PERF_DECREASE_REASON_API_TRIGGERED
+  parent: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_PERF_DECREASE_REASON_API_TRIGGERED
+  nameWithType: _NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_API_TRIGGERED
+  fullName: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_API_TRIGGERED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GPU_PERF_DECREASE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_PERF_DECREASE_REASON_API_TRIGGERED
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GPU_PERF_DECREASE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_PERF_DECREASE_REASON_API_TRIGGERED = 8
+    return:
+      type: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE
+- uid: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_INSUFFICIENT_POWER
+  commentId: F:NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_INSUFFICIENT_POWER
+  id: NV_GPU_PERF_DECREASE_REASON_INSUFFICIENT_POWER
+  parent: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_PERF_DECREASE_REASON_INSUFFICIENT_POWER
+  nameWithType: _NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_INSUFFICIENT_POWER
+  fullName: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_INSUFFICIENT_POWER
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GPU_PERF_DECREASE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_PERF_DECREASE_REASON_INSUFFICIENT_POWER
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GPU_PERF_DECREASE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_PERF_DECREASE_REASON_INSUFFICIENT_POWER = 16
+    return:
+      type: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE
+- uid: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_UNKNOWN
+  commentId: F:NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_UNKNOWN
+  id: NV_GPU_PERF_DECREASE_REASON_UNKNOWN
+  parent: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_PERF_DECREASE_REASON_UNKNOWN
+  nameWithType: _NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_UNKNOWN
+  fullName: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.NV_GPU_PERF_DECREASE_REASON_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GPU_PERF_DECREASE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_PERF_DECREASE_REASON_UNKNOWN
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GPU_PERF_DECREASE.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_PERF_DECREASE_REASON_UNKNOWN = -2147483648
+    return:
+      type: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE
+  commentId: T:NVAPIWrapper._NVAPI_GPU_PERF_DECREASE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE.html
+  name: _NVAPI_GPU_PERF_DECREASE
+  nameWithType: _NVAPI_GPU_PERF_DECREASE
+  fullName: NVAPIWrapper._NVAPI_GPU_PERF_DECREASE

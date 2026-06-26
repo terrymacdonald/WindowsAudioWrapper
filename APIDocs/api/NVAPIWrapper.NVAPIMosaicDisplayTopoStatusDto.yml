@@ -1,0 +1,883 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+  commentId: T:NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+  id: NVAPIMosaicDisplayTopoStatusDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.#ctor(System.UInt32,System.UInt32,NVAPIWrapper.NVAPIMosaicDisplayStatusEntryDto[])
+  - NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.Displays
+  - NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.Equals(NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+  - NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.ErrorFlags
+  - NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.FromNative(NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS)
+  - NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.GetHashCode
+  - NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.WarningFlags
+  - NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.op_Equality(NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto,NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+  - NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.op_Inequality(NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto,NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIMosaicDisplayTopoStatusDto
+  nameWithType: NVAPIMosaicDisplayTopoStatusDto
+  fullName: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIMosaicDisplayTopoStatusDto
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 1927
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Mosaic display topology status DTO.
+  example: []
+  syntax:
+    content: 'public struct NVAPIMosaicDisplayTopoStatusDto : IEquatable<NVAPIMosaicDisplayTopoStatusDto>'
+    content.vb: Public Structure NVAPIMosaicDisplayTopoStatusDto Implements IEquatable(Of NVAPIMosaicDisplayTopoStatusDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.ErrorFlags
+  commentId: P:NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.ErrorFlags
+  id: ErrorFlags
+  parent: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+  langs:
+  - csharp
+  - vb
+  name: ErrorFlags
+  nameWithType: NVAPIMosaicDisplayTopoStatusDto.ErrorFlags
+  fullName: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.ErrorFlags
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ErrorFlags
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 1929
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint ErrorFlags { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property ErrorFlags As UInteger
+  overload: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.ErrorFlags*
+- uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.WarningFlags
+  commentId: P:NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.WarningFlags
+  id: WarningFlags
+  parent: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+  langs:
+  - csharp
+  - vb
+  name: WarningFlags
+  nameWithType: NVAPIMosaicDisplayTopoStatusDto.WarningFlags
+  fullName: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.WarningFlags
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WarningFlags
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 1930
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint WarningFlags { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property WarningFlags As UInteger
+  overload: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.WarningFlags*
+- uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.Displays
+  commentId: P:NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.Displays
+  id: Displays
+  parent: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+  langs:
+  - csharp
+  - vb
+  name: Displays
+  nameWithType: NVAPIMosaicDisplayTopoStatusDto.Displays
+  fullName: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.Displays
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Displays
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 1931
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NVAPIMosaicDisplayStatusEntryDto[] Displays { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper.NVAPIMosaicDisplayStatusEntryDto[]
+    content.vb: Public Property Displays As NVAPIMosaicDisplayStatusEntryDto()
+  overload: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.Displays*
+- uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.#ctor(System.UInt32,System.UInt32,NVAPIWrapper.NVAPIMosaicDisplayStatusEntryDto[])
+  commentId: M:NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.#ctor(System.UInt32,System.UInt32,NVAPIWrapper.NVAPIMosaicDisplayStatusEntryDto[])
+  id: '#ctor(System.UInt32,System.UInt32,NVAPIWrapper.NVAPIMosaicDisplayStatusEntryDto[])'
+  parent: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIMosaicDisplayTopoStatusDto(uint, uint, NVAPIMosaicDisplayStatusEntryDto[])
+  nameWithType: NVAPIMosaicDisplayTopoStatusDto.NVAPIMosaicDisplayTopoStatusDto(uint, uint, NVAPIMosaicDisplayStatusEntryDto[])
+  fullName: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.NVAPIMosaicDisplayTopoStatusDto(uint, uint, NVAPIWrapper.NVAPIMosaicDisplayStatusEntryDto[])
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 1939
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a Mosaic display topology status DTO.
+  example: []
+  syntax:
+    content: public NVAPIMosaicDisplayTopoStatusDto(uint errorFlags, uint warningFlags, NVAPIMosaicDisplayStatusEntryDto[] displays)
+    parameters:
+    - id: errorFlags
+      type: System.UInt32
+      description: Error flags.
+    - id: warningFlags
+      type: System.UInt32
+      description: Warning flags.
+    - id: displays
+      type: NVAPIWrapper.NVAPIMosaicDisplayStatusEntryDto[]
+      description: Display status entries.
+    content.vb: Public Sub New(errorFlags As UInteger, warningFlags As UInteger, displays As NVAPIMosaicDisplayStatusEntryDto())
+  overload: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.#ctor*
+  nameWithType.vb: NVAPIMosaicDisplayTopoStatusDto.New(UInteger, UInteger, NVAPIMosaicDisplayStatusEntryDto())
+  fullName.vb: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.New(UInteger, UInteger, NVAPIWrapper.NVAPIMosaicDisplayStatusEntryDto())
+  name.vb: New(UInteger, UInteger, NVAPIMosaicDisplayStatusEntryDto())
+- uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.FromNative(NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS)
+  commentId: M:NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.FromNative(NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS)
+  id: FromNative(NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS)
+  parent: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(NV_MOSAIC_DISPLAY_TOPO_STATUS)
+  nameWithType: NVAPIMosaicDisplayTopoStatusDto.FromNative(NV_MOSAIC_DISPLAY_TOPO_STATUS)
+  fullName: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.FromNative(NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 1951
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a Mosaic display topology status DTO from native data.
+  example: []
+  syntax:
+    content: public static NVAPIMosaicDisplayTopoStatusDto FromNative(NV_MOSAIC_DISPLAY_TOPO_STATUS native)
+    parameters:
+    - id: native
+      type: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS
+      description: Native display topology status data.
+    return:
+      type: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+      description: Mosaic display topology status DTO.
+    content.vb: Public Shared Function FromNative(native As NV_MOSAIC_DISPLAY_TOPO_STATUS) As NVAPIMosaicDisplayTopoStatusDto
+  overload: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.FromNative*
+- uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.Equals(NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+  commentId: M:NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.Equals(NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+  id: Equals(NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+  parent: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIMosaicDisplayTopoStatusDto)
+  nameWithType: NVAPIMosaicDisplayTopoStatusDto.Equals(NVAPIMosaicDisplayTopoStatusDto)
+  fullName: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.Equals(NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 1969
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether this instance equals another Mosaic display topology status DTO.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIMosaicDisplayTopoStatusDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+      description: The other DTO to compare.
+    return:
+      type: System.Boolean
+      description: True if the DTOs are equal; otherwise false.
+    content.vb: Public Function Equals(other As NVAPIMosaicDisplayTopoStatusDto) As Boolean
+  overload: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto}.Equals(NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+- uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIMosaicDisplayTopoStatusDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 1981
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether this instance equals another object.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare.
+    return:
+      type: System.Boolean
+      description: True if the object is an equivalent DTO; otherwise false.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.Equals*
+  nameWithType.vb: NVAPIMosaicDisplayTopoStatusDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIMosaicDisplayTopoStatusDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 1987
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get a hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: Hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.op_Equality(NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto,NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+  commentId: M:NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.op_Equality(NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto,NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+  id: op_Equality(NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto,NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+  parent: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIMosaicDisplayTopoStatusDto, NVAPIMosaicDisplayTopoStatusDto)
+  nameWithType: NVAPIMosaicDisplayTopoStatusDto.operator ==(NVAPIMosaicDisplayTopoStatusDto, NVAPIMosaicDisplayTopoStatusDto)
+  fullName: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.operator ==(NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto, NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 2004
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether two Mosaic display topology status DTOs are equal.
+  example: []
+  syntax:
+    content: public static bool operator ==(NVAPIMosaicDisplayTopoStatusDto left, NVAPIMosaicDisplayTopoStatusDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+      description: Left DTO.
+    - id: right
+      type: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+      description: Right DTO.
+    return:
+      type: System.Boolean
+      description: True if the DTOs are equal; otherwise false.
+    content.vb: Public Shared Operator =(left As NVAPIMosaicDisplayTopoStatusDto, right As NVAPIMosaicDisplayTopoStatusDto) As Boolean
+  overload: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.op_Equality*
+  nameWithType.vb: NVAPIMosaicDisplayTopoStatusDto.=(NVAPIMosaicDisplayTopoStatusDto, NVAPIMosaicDisplayTopoStatusDto)
+  fullName.vb: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.=(NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto, NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+  name.vb: =(NVAPIMosaicDisplayTopoStatusDto, NVAPIMosaicDisplayTopoStatusDto)
+- uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.op_Inequality(NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto,NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+  commentId: M:NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.op_Inequality(NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto,NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto,NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+  parent: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIMosaicDisplayTopoStatusDto, NVAPIMosaicDisplayTopoStatusDto)
+  nameWithType: NVAPIMosaicDisplayTopoStatusDto.operator !=(NVAPIMosaicDisplayTopoStatusDto, NVAPIMosaicDisplayTopoStatusDto)
+  fullName: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.operator !=(NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto, NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 2012
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether two Mosaic display topology status DTOs are not equal.
+  example: []
+  syntax:
+    content: public static bool operator !=(NVAPIMosaicDisplayTopoStatusDto left, NVAPIMosaicDisplayTopoStatusDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+      description: Left DTO.
+    - id: right
+      type: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+      description: Right DTO.
+    return:
+      type: System.Boolean
+      description: True if the DTOs are not equal; otherwise false.
+    content.vb: Public Shared Operator <>(left As NVAPIMosaicDisplayTopoStatusDto, right As NVAPIMosaicDisplayTopoStatusDto) As Boolean
+  overload: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.op_Inequality*
+  nameWithType.vb: NVAPIMosaicDisplayTopoStatusDto.<>(NVAPIMosaicDisplayTopoStatusDto, NVAPIMosaicDisplayTopoStatusDto)
+  fullName.vb: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.<>(NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto, NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+  name.vb: <>(NVAPIMosaicDisplayTopoStatusDto, NVAPIMosaicDisplayTopoStatusDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIMosaicDisplayTopoStatusDto>
+  nameWithType: IEquatable<NVAPIMosaicDisplayTopoStatusDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto>
+  nameWithType.vb: IEquatable(Of NVAPIMosaicDisplayTopoStatusDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+  name.vb: IEquatable(Of NVAPIMosaicDisplayTopoStatusDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+    name: NVAPIMosaicDisplayTopoStatusDto
+    href: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+    name: NVAPIMosaicDisplayTopoStatusDto
+    href: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.ErrorFlags*
+  commentId: Overload:NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.ErrorFlags
+  href: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.html#NVAPIWrapper_NVAPIMosaicDisplayTopoStatusDto_ErrorFlags
+  name: ErrorFlags
+  nameWithType: NVAPIMosaicDisplayTopoStatusDto.ErrorFlags
+  fullName: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.ErrorFlags
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.WarningFlags*
+  commentId: Overload:NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.WarningFlags
+  href: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.html#NVAPIWrapper_NVAPIMosaicDisplayTopoStatusDto_WarningFlags
+  name: WarningFlags
+  nameWithType: NVAPIMosaicDisplayTopoStatusDto.WarningFlags
+  fullName: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.WarningFlags
+- uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.Displays*
+  commentId: Overload:NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.Displays
+  href: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.html#NVAPIWrapper_NVAPIMosaicDisplayTopoStatusDto_Displays
+  name: Displays
+  nameWithType: NVAPIMosaicDisplayTopoStatusDto.Displays
+  fullName: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.Displays
+- uid: NVAPIWrapper.NVAPIMosaicDisplayStatusEntryDto[]
+  isExternal: true
+  href: NVAPIWrapper.NVAPIMosaicDisplayStatusEntryDto.html
+  name: NVAPIMosaicDisplayStatusEntryDto[]
+  nameWithType: NVAPIMosaicDisplayStatusEntryDto[]
+  fullName: NVAPIWrapper.NVAPIMosaicDisplayStatusEntryDto[]
+  nameWithType.vb: NVAPIMosaicDisplayStatusEntryDto()
+  fullName.vb: NVAPIWrapper.NVAPIMosaicDisplayStatusEntryDto()
+  name.vb: NVAPIMosaicDisplayStatusEntryDto()
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIMosaicDisplayStatusEntryDto
+    name: NVAPIMosaicDisplayStatusEntryDto
+    href: NVAPIWrapper.NVAPIMosaicDisplayStatusEntryDto.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIMosaicDisplayStatusEntryDto
+    name: NVAPIMosaicDisplayStatusEntryDto
+    href: NVAPIWrapper.NVAPIMosaicDisplayStatusEntryDto.html
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.#ctor
+  href: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.html#NVAPIWrapper_NVAPIMosaicDisplayTopoStatusDto__ctor_System_UInt32_System_UInt32_NVAPIWrapper_NVAPIMosaicDisplayStatusEntryDto___
+  name: NVAPIMosaicDisplayTopoStatusDto
+  nameWithType: NVAPIMosaicDisplayTopoStatusDto.NVAPIMosaicDisplayTopoStatusDto
+  fullName: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.NVAPIMosaicDisplayTopoStatusDto
+  nameWithType.vb: NVAPIMosaicDisplayTopoStatusDto.New
+  fullName.vb: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.FromNative
+  href: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.html#NVAPIWrapper_NVAPIMosaicDisplayTopoStatusDto_FromNative_NVAPIWrapper_NV_MOSAIC_DISPLAY_TOPO_STATUS_
+  name: FromNative
+  nameWithType: NVAPIMosaicDisplayTopoStatusDto.FromNative
+  fullName: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.FromNative
+- uid: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS
+  commentId: T:NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS.html
+  name: NV_MOSAIC_DISPLAY_TOPO_STATUS
+  nameWithType: NV_MOSAIC_DISPLAY_TOPO_STATUS
+  fullName: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS
+- uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+  commentId: T:NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.html
+  name: NVAPIMosaicDisplayTopoStatusDto
+  nameWithType: NVAPIMosaicDisplayTopoStatusDto
+  fullName: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+- uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.Equals
+  href: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.html#NVAPIWrapper_NVAPIMosaicDisplayTopoStatusDto_Equals_NVAPIWrapper_NVAPIMosaicDisplayTopoStatusDto_
+  name: Equals
+  nameWithType: NVAPIMosaicDisplayTopoStatusDto.Equals
+  fullName: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto}.Equals(NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto}.Equals(NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIMosaicDisplayTopoStatusDto)
+  nameWithType: IEquatable<NVAPIMosaicDisplayTopoStatusDto>.Equals(NVAPIMosaicDisplayTopoStatusDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto>.Equals(NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+  nameWithType.vb: IEquatable(Of NVAPIMosaicDisplayTopoStatusDto).Equals(NVAPIMosaicDisplayTopoStatusDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto).Equals(NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto}.Equals(NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+    name: NVAPIMosaicDisplayTopoStatusDto
+    href: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto}.Equals(NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto
+    name: NVAPIMosaicDisplayTopoStatusDto
+    href: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.html
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.GetHashCode
+  href: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.html#NVAPIWrapper_NVAPIMosaicDisplayTopoStatusDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIMosaicDisplayTopoStatusDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.op_Equality
+  href: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.html#NVAPIWrapper_NVAPIMosaicDisplayTopoStatusDto_op_Equality_NVAPIWrapper_NVAPIMosaicDisplayTopoStatusDto_NVAPIWrapper_NVAPIMosaicDisplayTopoStatusDto_
+  name: operator ==
+  nameWithType: NVAPIMosaicDisplayTopoStatusDto.operator ==
+  fullName: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.operator ==
+  nameWithType.vb: NVAPIMosaicDisplayTopoStatusDto.=
+  fullName.vb: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.html#NVAPIWrapper_NVAPIMosaicDisplayTopoStatusDto_op_Equality_NVAPIWrapper_NVAPIMosaicDisplayTopoStatusDto_NVAPIWrapper_NVAPIMosaicDisplayTopoStatusDto_
+- uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.op_Inequality
+  href: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.html#NVAPIWrapper_NVAPIMosaicDisplayTopoStatusDto_op_Inequality_NVAPIWrapper_NVAPIMosaicDisplayTopoStatusDto_NVAPIWrapper_NVAPIMosaicDisplayTopoStatusDto_
+  name: operator !=
+  nameWithType: NVAPIMosaicDisplayTopoStatusDto.operator !=
+  fullName: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.operator !=
+  nameWithType.vb: NVAPIMosaicDisplayTopoStatusDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIMosaicDisplayTopoStatusDto.html#NVAPIWrapper_NVAPIMosaicDisplayTopoStatusDto_op_Inequality_NVAPIWrapper_NVAPIMosaicDisplayTopoStatusDto_NVAPIWrapper_NVAPIMosaicDisplayTopoStatusDto_

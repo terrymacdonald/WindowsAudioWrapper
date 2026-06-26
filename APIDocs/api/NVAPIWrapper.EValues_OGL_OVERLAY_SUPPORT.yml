@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT
+  commentId: T:NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT
+  id: EValues_OGL_OVERLAY_SUPPORT
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_DEFAULT
+  - NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_FORCE_SW
+  - NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_NUM_VALUES
+  - NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_OFF
+  - NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_ON
+  langs:
+  - csharp
+  - vb
+  name: EValues_OGL_OVERLAY_SUPPORT
+  nameWithType: EValues_OGL_OVERLAY_SUPPORT
+  fullName: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_OGL_OVERLAY_SUPPORT
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_SUPPORT.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_OGL_OVERLAY_SUPPORT
+    content.vb: Public Enum EValues_OGL_OVERLAY_SUPPORT
+- uid: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_OFF
+  commentId: F:NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_OFF
+  id: OGL_OVERLAY_SUPPORT_OFF
+  parent: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: OGL_OVERLAY_SUPPORT_OFF
+  nameWithType: EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_OFF
+  fullName: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_OVERLAY_SUPPORT_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_SUPPORT.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_OVERLAY_SUPPORT_OFF = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT
+- uid: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_ON
+  commentId: F:NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_ON
+  id: OGL_OVERLAY_SUPPORT_ON
+  parent: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: OGL_OVERLAY_SUPPORT_ON
+  nameWithType: EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_ON
+  fullName: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_OVERLAY_SUPPORT_ON
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_SUPPORT.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_OVERLAY_SUPPORT_ON = 1
+    return:
+      type: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT
+- uid: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_FORCE_SW
+  commentId: F:NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_FORCE_SW
+  id: OGL_OVERLAY_SUPPORT_FORCE_SW
+  parent: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: OGL_OVERLAY_SUPPORT_FORCE_SW
+  nameWithType: EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_FORCE_SW
+  fullName: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_FORCE_SW
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_OVERLAY_SUPPORT_FORCE_SW
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_SUPPORT.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_OVERLAY_SUPPORT_FORCE_SW = 2
+    return:
+      type: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT
+- uid: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_NUM_VALUES
+  id: OGL_OVERLAY_SUPPORT_NUM_VALUES
+  parent: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: OGL_OVERLAY_SUPPORT_NUM_VALUES
+  nameWithType: EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_OVERLAY_SUPPORT_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_SUPPORT.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_OVERLAY_SUPPORT_NUM_VALUES = 3
+    return:
+      type: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT
+- uid: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_DEFAULT
+  id: OGL_OVERLAY_SUPPORT_DEFAULT
+  parent: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: OGL_OVERLAY_SUPPORT_DEFAULT
+  nameWithType: EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_DEFAULT
+  fullName: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT.OGL_OVERLAY_SUPPORT_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_OVERLAY_SUPPORT_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_SUPPORT.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_OVERLAY_SUPPORT_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT
+  commentId: T:NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT.html
+  name: EValues_OGL_OVERLAY_SUPPORT
+  nameWithType: EValues_OGL_OVERLAY_SUPPORT
+  fullName: NVAPIWrapper.EValues_OGL_OVERLAY_SUPPORT

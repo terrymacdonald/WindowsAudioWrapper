@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE
+  commentId: T:NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE
+  id: EValues_OGL_OVERLAY_PIXEL_TYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_CI
+  - NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_CI_AND_RGBA
+  - NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_DEFAULT
+  - NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_NONE
+  - NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_NUM_VALUES
+  - NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_RGBA
+  langs:
+  - csharp
+  - vb
+  name: EValues_OGL_OVERLAY_PIXEL_TYPE
+  nameWithType: EValues_OGL_OVERLAY_PIXEL_TYPE
+  fullName: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_PIXEL_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_OGL_OVERLAY_PIXEL_TYPE
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_PIXEL_TYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_OGL_OVERLAY_PIXEL_TYPE
+    content.vb: Public Enum EValues_OGL_OVERLAY_PIXEL_TYPE
+- uid: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_NONE
+  commentId: F:NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_NONE
+  id: OGL_OVERLAY_PIXEL_TYPE_NONE
+  parent: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE
+  langs:
+  - csharp
+  - vb
+  name: OGL_OVERLAY_PIXEL_TYPE_NONE
+  nameWithType: EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_NONE
+  fullName: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_NONE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_PIXEL_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_OVERLAY_PIXEL_TYPE_NONE
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_PIXEL_TYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_OVERLAY_PIXEL_TYPE_NONE = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE
+- uid: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_CI
+  commentId: F:NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_CI
+  id: OGL_OVERLAY_PIXEL_TYPE_CI
+  parent: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE
+  langs:
+  - csharp
+  - vb
+  name: OGL_OVERLAY_PIXEL_TYPE_CI
+  nameWithType: EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_CI
+  fullName: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_CI
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_PIXEL_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_OVERLAY_PIXEL_TYPE_CI
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_PIXEL_TYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_OVERLAY_PIXEL_TYPE_CI = 1
+    return:
+      type: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE
+- uid: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_RGBA
+  commentId: F:NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_RGBA
+  id: OGL_OVERLAY_PIXEL_TYPE_RGBA
+  parent: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE
+  langs:
+  - csharp
+  - vb
+  name: OGL_OVERLAY_PIXEL_TYPE_RGBA
+  nameWithType: EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_RGBA
+  fullName: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_RGBA
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_PIXEL_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_OVERLAY_PIXEL_TYPE_RGBA
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_PIXEL_TYPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_OVERLAY_PIXEL_TYPE_RGBA = 2
+    return:
+      type: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE
+- uid: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_CI_AND_RGBA
+  commentId: F:NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_CI_AND_RGBA
+  id: OGL_OVERLAY_PIXEL_TYPE_CI_AND_RGBA
+  parent: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE
+  langs:
+  - csharp
+  - vb
+  name: OGL_OVERLAY_PIXEL_TYPE_CI_AND_RGBA
+  nameWithType: EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_CI_AND_RGBA
+  fullName: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_CI_AND_RGBA
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_PIXEL_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_OVERLAY_PIXEL_TYPE_CI_AND_RGBA
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_PIXEL_TYPE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_OVERLAY_PIXEL_TYPE_CI_AND_RGBA = 3
+    return:
+      type: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE
+- uid: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_NUM_VALUES
+  id: OGL_OVERLAY_PIXEL_TYPE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE
+  langs:
+  - csharp
+  - vb
+  name: OGL_OVERLAY_PIXEL_TYPE_NUM_VALUES
+  nameWithType: EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_PIXEL_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_OVERLAY_PIXEL_TYPE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_PIXEL_TYPE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_OVERLAY_PIXEL_TYPE_NUM_VALUES = 4
+    return:
+      type: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE
+- uid: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_DEFAULT
+  id: OGL_OVERLAY_PIXEL_TYPE_DEFAULT
+  parent: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE
+  langs:
+  - csharp
+  - vb
+  name: OGL_OVERLAY_PIXEL_TYPE_DEFAULT
+  nameWithType: EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_DEFAULT
+  fullName: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.OGL_OVERLAY_PIXEL_TYPE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_PIXEL_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_OVERLAY_PIXEL_TYPE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_OVERLAY_PIXEL_TYPE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_OVERLAY_PIXEL_TYPE_DEFAULT = 1
+    return:
+      type: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE
+  commentId: T:NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE.html
+  name: EValues_OGL_OVERLAY_PIXEL_TYPE
+  nameWithType: EValues_OGL_OVERLAY_PIXEL_TYPE
+  fullName: NVAPIWrapper.EValues_OGL_OVERLAY_PIXEL_TYPE

@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_OGL_THREAD_CONTROL
+  commentId: T:NVAPIWrapper.EValues_OGL_THREAD_CONTROL
+  id: EValues_OGL_THREAD_CONTROL
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_OGL_THREAD_CONTROL.OGL_THREAD_CONTROL_DEFAULT
+  - NVAPIWrapper.EValues_OGL_THREAD_CONTROL.OGL_THREAD_CONTROL_DISABLE
+  - NVAPIWrapper.EValues_OGL_THREAD_CONTROL.OGL_THREAD_CONTROL_ENABLE
+  - NVAPIWrapper.EValues_OGL_THREAD_CONTROL.OGL_THREAD_CONTROL_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_OGL_THREAD_CONTROL
+  nameWithType: EValues_OGL_THREAD_CONTROL
+  fullName: NVAPIWrapper.EValues_OGL_THREAD_CONTROL
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_THREAD_CONTROL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_OGL_THREAD_CONTROL
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_THREAD_CONTROL.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: 'public enum EValues_OGL_THREAD_CONTROL : uint'
+    content.vb: Public Enum EValues_OGL_THREAD_CONTROL As UInteger
+- uid: NVAPIWrapper.EValues_OGL_THREAD_CONTROL.OGL_THREAD_CONTROL_ENABLE
+  commentId: F:NVAPIWrapper.EValues_OGL_THREAD_CONTROL.OGL_THREAD_CONTROL_ENABLE
+  id: OGL_THREAD_CONTROL_ENABLE
+  parent: NVAPIWrapper.EValues_OGL_THREAD_CONTROL
+  langs:
+  - csharp
+  - vb
+  name: OGL_THREAD_CONTROL_ENABLE
+  nameWithType: EValues_OGL_THREAD_CONTROL.OGL_THREAD_CONTROL_ENABLE
+  fullName: NVAPIWrapper.EValues_OGL_THREAD_CONTROL.OGL_THREAD_CONTROL_ENABLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_THREAD_CONTROL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_THREAD_CONTROL_ENABLE
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_THREAD_CONTROL.cs
+    startLine: 7
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_THREAD_CONTROL_ENABLE = 1
+    return:
+      type: NVAPIWrapper.EValues_OGL_THREAD_CONTROL
+- uid: NVAPIWrapper.EValues_OGL_THREAD_CONTROL.OGL_THREAD_CONTROL_DISABLE
+  commentId: F:NVAPIWrapper.EValues_OGL_THREAD_CONTROL.OGL_THREAD_CONTROL_DISABLE
+  id: OGL_THREAD_CONTROL_DISABLE
+  parent: NVAPIWrapper.EValues_OGL_THREAD_CONTROL
+  langs:
+  - csharp
+  - vb
+  name: OGL_THREAD_CONTROL_DISABLE
+  nameWithType: EValues_OGL_THREAD_CONTROL.OGL_THREAD_CONTROL_DISABLE
+  fullName: NVAPIWrapper.EValues_OGL_THREAD_CONTROL.OGL_THREAD_CONTROL_DISABLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_THREAD_CONTROL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_THREAD_CONTROL_DISABLE
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_THREAD_CONTROL.cs
+    startLine: 10
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_THREAD_CONTROL_DISABLE = 2
+    return:
+      type: NVAPIWrapper.EValues_OGL_THREAD_CONTROL
+- uid: NVAPIWrapper.EValues_OGL_THREAD_CONTROL.OGL_THREAD_CONTROL_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_OGL_THREAD_CONTROL.OGL_THREAD_CONTROL_NUM_VALUES
+  id: OGL_THREAD_CONTROL_NUM_VALUES
+  parent: NVAPIWrapper.EValues_OGL_THREAD_CONTROL
+  langs:
+  - csharp
+  - vb
+  name: OGL_THREAD_CONTROL_NUM_VALUES
+  nameWithType: EValues_OGL_THREAD_CONTROL.OGL_THREAD_CONTROL_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_OGL_THREAD_CONTROL.OGL_THREAD_CONTROL_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_THREAD_CONTROL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_THREAD_CONTROL_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_THREAD_CONTROL.cs
+    startLine: 13
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_THREAD_CONTROL_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_OGL_THREAD_CONTROL
+- uid: NVAPIWrapper.EValues_OGL_THREAD_CONTROL.OGL_THREAD_CONTROL_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_OGL_THREAD_CONTROL.OGL_THREAD_CONTROL_DEFAULT
+  id: OGL_THREAD_CONTROL_DEFAULT
+  parent: NVAPIWrapper.EValues_OGL_THREAD_CONTROL
+  langs:
+  - csharp
+  - vb
+  name: OGL_THREAD_CONTROL_DEFAULT
+  nameWithType: EValues_OGL_THREAD_CONTROL.OGL_THREAD_CONTROL_DEFAULT
+  fullName: NVAPIWrapper.EValues_OGL_THREAD_CONTROL.OGL_THREAD_CONTROL_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_THREAD_CONTROL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_THREAD_CONTROL_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_THREAD_CONTROL.cs
+    startLine: 16
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_THREAD_CONTROL_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_THREAD_CONTROL
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_OGL_THREAD_CONTROL
+  commentId: T:NVAPIWrapper.EValues_OGL_THREAD_CONTROL
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_OGL_THREAD_CONTROL.html
+  name: EValues_OGL_THREAD_CONTROL
+  nameWithType: EValues_OGL_THREAD_CONTROL
+  fullName: NVAPIWrapper.EValues_OGL_THREAD_CONTROL

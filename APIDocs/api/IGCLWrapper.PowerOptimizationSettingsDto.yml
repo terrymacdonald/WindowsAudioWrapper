@@ -1,0 +1,869 @@
+### YamlMime:ManagedReference
+items:
+- uid: IGCLWrapper.PowerOptimizationSettingsDto
+  commentId: T:IGCLWrapper.PowerOptimizationSettingsDto
+  id: PowerOptimizationSettingsDto
+  parent: IGCLWrapper
+  children:
+  - IGCLWrapper.PowerOptimizationSettingsDto.Enable
+  - IGCLWrapper.PowerOptimizationSettingsDto.Equals(IGCLWrapper.PowerOptimizationSettingsDto)
+  - IGCLWrapper.PowerOptimizationSettingsDto.Equals(System.Object)
+  - IGCLWrapper.PowerOptimizationSettingsDto.FeatureSpecificData
+  - IGCLWrapper.PowerOptimizationSettingsDto.FromNative(IGCLWrapper.ctl_power_optimization_settings_t)
+  - IGCLWrapper.PowerOptimizationSettingsDto.GetHashCode
+  - IGCLWrapper.PowerOptimizationSettingsDto.PowerOptimizationFeature
+  - IGCLWrapper.PowerOptimizationSettingsDto.PowerOptimizationPlan
+  - IGCLWrapper.PowerOptimizationSettingsDto.PowerSource
+  - IGCLWrapper.PowerOptimizationSettingsDto.Size
+  - IGCLWrapper.PowerOptimizationSettingsDto.ToNative
+  - IGCLWrapper.PowerOptimizationSettingsDto.Version
+  langs:
+  - csharp
+  - vb
+  name: PowerOptimizationSettingsDto
+  nameWithType: PowerOptimizationSettingsDto
+  fullName: IGCLWrapper.PowerOptimizationSettingsDto
+  type: Struct
+  source:
+    remote:
+      path: IGCLWrapper/IGCLDisplayHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: PowerOptimizationSettingsDto
+    path: ../IGCLWrapper/IGCLDisplayHelper.cs
+    startLine: 3537
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: DTO for power optimization settings.
+  example: []
+  syntax:
+    content: 'public struct PowerOptimizationSettingsDto : IEquatable<PowerOptimizationSettingsDto>'
+    content.vb: Public Structure PowerOptimizationSettingsDto Implements IEquatable(Of PowerOptimizationSettingsDto)
+  implements:
+  - System.IEquatable{IGCLWrapper.PowerOptimizationSettingsDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: IGCLWrapper.PowerOptimizationSettingsDto.Size
+  commentId: F:IGCLWrapper.PowerOptimizationSettingsDto.Size
+  id: Size
+  parent: IGCLWrapper.PowerOptimizationSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: PowerOptimizationSettingsDto.Size
+  fullName: IGCLWrapper.PowerOptimizationSettingsDto.Size
+  type: Field
+  source:
+    remote:
+      path: IGCLWrapper/IGCLDisplayHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: Size
+    path: ../IGCLWrapper/IGCLDisplayHelper.cs
+    startLine: 3542
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Size of the native struct.
+  example: []
+  syntax:
+    content: public uint Size
+    return:
+      type: System.UInt32
+    content.vb: Public Size As UInteger
+- uid: IGCLWrapper.PowerOptimizationSettingsDto.Version
+  commentId: F:IGCLWrapper.PowerOptimizationSettingsDto.Version
+  id: Version
+  parent: IGCLWrapper.PowerOptimizationSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: PowerOptimizationSettingsDto.Version
+  fullName: IGCLWrapper.PowerOptimizationSettingsDto.Version
+  type: Field
+  source:
+    remote:
+      path: IGCLWrapper/IGCLDisplayHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: Version
+    path: ../IGCLWrapper/IGCLDisplayHelper.cs
+    startLine: 3546
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Version of the native struct.
+  example: []
+  syntax:
+    content: public byte Version
+    return:
+      type: System.Byte
+    content.vb: Public Version As Byte
+- uid: IGCLWrapper.PowerOptimizationSettingsDto.PowerOptimizationPlan
+  commentId: F:IGCLWrapper.PowerOptimizationSettingsDto.PowerOptimizationPlan
+  id: PowerOptimizationPlan
+  parent: IGCLWrapper.PowerOptimizationSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: PowerOptimizationPlan
+  nameWithType: PowerOptimizationSettingsDto.PowerOptimizationPlan
+  fullName: IGCLWrapper.PowerOptimizationSettingsDto.PowerOptimizationPlan
+  type: Field
+  source:
+    remote:
+      path: IGCLWrapper/IGCLDisplayHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: PowerOptimizationPlan
+    path: ../IGCLWrapper/IGCLDisplayHelper.cs
+    startLine: 3550
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Power optimization plan.
+  example: []
+  syntax:
+    content: public ctl_power_optimization_plan_t PowerOptimizationPlan
+    return:
+      type: IGCLWrapper.ctl_power_optimization_plan_t
+    content.vb: Public PowerOptimizationPlan As ctl_power_optimization_plan_t
+- uid: IGCLWrapper.PowerOptimizationSettingsDto.PowerOptimizationFeature
+  commentId: F:IGCLWrapper.PowerOptimizationSettingsDto.PowerOptimizationFeature
+  id: PowerOptimizationFeature
+  parent: IGCLWrapper.PowerOptimizationSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: PowerOptimizationFeature
+  nameWithType: PowerOptimizationSettingsDto.PowerOptimizationFeature
+  fullName: IGCLWrapper.PowerOptimizationSettingsDto.PowerOptimizationFeature
+  type: Field
+  source:
+    remote:
+      path: IGCLWrapper/IGCLDisplayHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: PowerOptimizationFeature
+    path: ../IGCLWrapper/IGCLDisplayHelper.cs
+    startLine: 3554
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Power optimization feature flags.
+  example: []
+  syntax:
+    content: public uint PowerOptimizationFeature
+    return:
+      type: System.UInt32
+    content.vb: Public PowerOptimizationFeature As UInteger
+- uid: IGCLWrapper.PowerOptimizationSettingsDto.Enable
+  commentId: F:IGCLWrapper.PowerOptimizationSettingsDto.Enable
+  id: Enable
+  parent: IGCLWrapper.PowerOptimizationSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: Enable
+  nameWithType: PowerOptimizationSettingsDto.Enable
+  fullName: IGCLWrapper.PowerOptimizationSettingsDto.Enable
+  type: Field
+  source:
+    remote:
+      path: IGCLWrapper/IGCLDisplayHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: Enable
+    path: ../IGCLWrapper/IGCLDisplayHelper.cs
+    startLine: 3558
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Enable flag.
+  example: []
+  syntax:
+    content: public bool Enable
+    return:
+      type: System.Boolean
+    content.vb: Public Enable As Boolean
+- uid: IGCLWrapper.PowerOptimizationSettingsDto.FeatureSpecificData
+  commentId: F:IGCLWrapper.PowerOptimizationSettingsDto.FeatureSpecificData
+  id: FeatureSpecificData
+  parent: IGCLWrapper.PowerOptimizationSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: FeatureSpecificData
+  nameWithType: PowerOptimizationSettingsDto.FeatureSpecificData
+  fullName: IGCLWrapper.PowerOptimizationSettingsDto.FeatureSpecificData
+  type: Field
+  source:
+    remote:
+      path: IGCLWrapper/IGCLDisplayHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: FeatureSpecificData
+    path: ../IGCLWrapper/IGCLDisplayHelper.cs
+    startLine: 3562
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Feature-specific data.
+  example: []
+  syntax:
+    content: public ctl_power_optimization_feature_specific_info_t FeatureSpecificData
+    return:
+      type: IGCLWrapper.ctl_power_optimization_feature_specific_info_t
+    content.vb: Public FeatureSpecificData As ctl_power_optimization_feature_specific_info_t
+- uid: IGCLWrapper.PowerOptimizationSettingsDto.PowerSource
+  commentId: F:IGCLWrapper.PowerOptimizationSettingsDto.PowerSource
+  id: PowerSource
+  parent: IGCLWrapper.PowerOptimizationSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: PowerSource
+  nameWithType: PowerOptimizationSettingsDto.PowerSource
+  fullName: IGCLWrapper.PowerOptimizationSettingsDto.PowerSource
+  type: Field
+  source:
+    remote:
+      path: IGCLWrapper/IGCLDisplayHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: PowerSource
+    path: ../IGCLWrapper/IGCLDisplayHelper.cs
+    startLine: 3566
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Power source.
+  example: []
+  syntax:
+    content: public ctl_power_source_t PowerSource
+    return:
+      type: IGCLWrapper.ctl_power_source_t
+    content.vb: Public PowerSource As ctl_power_source_t
+- uid: IGCLWrapper.PowerOptimizationSettingsDto.Equals(IGCLWrapper.PowerOptimizationSettingsDto)
+  commentId: M:IGCLWrapper.PowerOptimizationSettingsDto.Equals(IGCLWrapper.PowerOptimizationSettingsDto)
+  id: Equals(IGCLWrapper.PowerOptimizationSettingsDto)
+  parent: IGCLWrapper.PowerOptimizationSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(PowerOptimizationSettingsDto)
+  nameWithType: PowerOptimizationSettingsDto.Equals(PowerOptimizationSettingsDto)
+  fullName: IGCLWrapper.PowerOptimizationSettingsDto.Equals(IGCLWrapper.PowerOptimizationSettingsDto)
+  type: Method
+  source:
+    remote:
+      path: IGCLWrapper/IGCLDisplayHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: Equals
+    path: ../IGCLWrapper/IGCLDisplayHelper.cs
+    startLine: 3573
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Compare power optimization settings.
+  example: []
+  syntax:
+    content: public bool Equals(PowerOptimizationSettingsDto other)
+    parameters:
+    - id: other
+      type: IGCLWrapper.PowerOptimizationSettingsDto
+      description: Other settings instance.
+    return:
+      type: System.Boolean
+      description: True when equal; otherwise, false.
+    content.vb: Public Function Equals(other As PowerOptimizationSettingsDto) As Boolean
+  overload: IGCLWrapper.PowerOptimizationSettingsDto.Equals*
+  implements:
+  - System.IEquatable{IGCLWrapper.PowerOptimizationSettingsDto}.Equals(IGCLWrapper.PowerOptimizationSettingsDto)
+- uid: IGCLWrapper.PowerOptimizationSettingsDto.Equals(System.Object)
+  commentId: M:IGCLWrapper.PowerOptimizationSettingsDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: IGCLWrapper.PowerOptimizationSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: PowerOptimizationSettingsDto.Equals(object?)
+  fullName: IGCLWrapper.PowerOptimizationSettingsDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: IGCLWrapper/IGCLDisplayHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: Equals
+    path: ../IGCLWrapper/IGCLDisplayHelper.cs
+    startLine: 3589
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Compare to another object.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: Object to compare.
+    return:
+      type: System.Boolean
+      description: True when equal; otherwise, false.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: IGCLWrapper.PowerOptimizationSettingsDto.Equals*
+  nameWithType.vb: PowerOptimizationSettingsDto.Equals(Object)
+  fullName.vb: IGCLWrapper.PowerOptimizationSettingsDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: IGCLWrapper.PowerOptimizationSettingsDto.GetHashCode
+  commentId: M:IGCLWrapper.PowerOptimizationSettingsDto.GetHashCode
+  id: GetHashCode
+  parent: IGCLWrapper.PowerOptimizationSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: PowerOptimizationSettingsDto.GetHashCode()
+  fullName: IGCLWrapper.PowerOptimizationSettingsDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: IGCLWrapper/IGCLDisplayHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: GetHashCode
+    path: ../IGCLWrapper/IGCLDisplayHelper.cs
+    startLine: 3595
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Get a hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: Hash code value.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: IGCLWrapper.PowerOptimizationSettingsDto.GetHashCode*
+- uid: IGCLWrapper.PowerOptimizationSettingsDto.FromNative(IGCLWrapper.ctl_power_optimization_settings_t)
+  commentId: M:IGCLWrapper.PowerOptimizationSettingsDto.FromNative(IGCLWrapper.ctl_power_optimization_settings_t)
+  id: FromNative(IGCLWrapper.ctl_power_optimization_settings_t)
+  parent: IGCLWrapper.PowerOptimizationSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(ctl_power_optimization_settings_t)
+  nameWithType: PowerOptimizationSettingsDto.FromNative(ctl_power_optimization_settings_t)
+  fullName: IGCLWrapper.PowerOptimizationSettingsDto.FromNative(IGCLWrapper.ctl_power_optimization_settings_t)
+  type: Method
+  source:
+    remote:
+      path: IGCLWrapper/IGCLDisplayHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: FromNative
+    path: ../IGCLWrapper/IGCLDisplayHelper.cs
+    startLine: 3613
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Create a DTO from a native struct.
+  example: []
+  syntax:
+    content: public static PowerOptimizationSettingsDto FromNative(ctl_power_optimization_settings_t native)
+    parameters:
+    - id: native
+      type: IGCLWrapper.ctl_power_optimization_settings_t
+      description: Native struct.
+    return:
+      type: IGCLWrapper.PowerOptimizationSettingsDto
+      description: Power optimization settings DTO.
+    content.vb: Public Shared Function FromNative(native As ctl_power_optimization_settings_t) As PowerOptimizationSettingsDto
+  overload: IGCLWrapper.PowerOptimizationSettingsDto.FromNative*
+- uid: IGCLWrapper.PowerOptimizationSettingsDto.ToNative
+  commentId: M:IGCLWrapper.PowerOptimizationSettingsDto.ToNative
+  id: ToNative
+  parent: IGCLWrapper.PowerOptimizationSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: PowerOptimizationSettingsDto.ToNative()
+  fullName: IGCLWrapper.PowerOptimizationSettingsDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: IGCLWrapper/IGCLDisplayHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: ToNative
+    path: ../IGCLWrapper/IGCLDisplayHelper.cs
+    startLine: 3631
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Convert this DTO to a native struct.
+  example: []
+  syntax:
+    content: public ctl_power_optimization_settings_t ToNative()
+    return:
+      type: IGCLWrapper.ctl_power_optimization_settings_t
+      description: Power optimization settings struct.
+    content.vb: Public Function ToNative() As ctl_power_optimization_settings_t
+  overload: IGCLWrapper.PowerOptimizationSettingsDto.ToNative*
+references:
+- uid: IGCLWrapper
+  commentId: N:IGCLWrapper
+  href: IGCLWrapper.html
+  name: IGCLWrapper
+  nameWithType: IGCLWrapper
+  fullName: IGCLWrapper
+- uid: System.IEquatable{IGCLWrapper.PowerOptimizationSettingsDto}
+  commentId: T:System.IEquatable{IGCLWrapper.PowerOptimizationSettingsDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<PowerOptimizationSettingsDto>
+  nameWithType: IEquatable<PowerOptimizationSettingsDto>
+  fullName: System.IEquatable<IGCLWrapper.PowerOptimizationSettingsDto>
+  nameWithType.vb: IEquatable(Of PowerOptimizationSettingsDto)
+  fullName.vb: System.IEquatable(Of IGCLWrapper.PowerOptimizationSettingsDto)
+  name.vb: IEquatable(Of PowerOptimizationSettingsDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: IGCLWrapper.PowerOptimizationSettingsDto
+    name: PowerOptimizationSettingsDto
+    href: IGCLWrapper.PowerOptimizationSettingsDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: IGCLWrapper.PowerOptimizationSettingsDto
+    name: PowerOptimizationSettingsDto
+    href: IGCLWrapper.PowerOptimizationSettingsDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: IGCLWrapper.ctl_power_optimization_plan_t
+  commentId: T:IGCLWrapper.ctl_power_optimization_plan_t
+  parent: IGCLWrapper
+  href: IGCLWrapper.ctl_power_optimization_plan_t.html
+  name: ctl_power_optimization_plan_t
+  nameWithType: ctl_power_optimization_plan_t
+  fullName: IGCLWrapper.ctl_power_optimization_plan_t
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: IGCLWrapper.ctl_power_optimization_feature_specific_info_t
+  commentId: T:IGCLWrapper.ctl_power_optimization_feature_specific_info_t
+  parent: IGCLWrapper
+  href: IGCLWrapper.ctl_power_optimization_feature_specific_info_t.html
+  name: ctl_power_optimization_feature_specific_info_t
+  nameWithType: ctl_power_optimization_feature_specific_info_t
+  fullName: IGCLWrapper.ctl_power_optimization_feature_specific_info_t
+- uid: IGCLWrapper.ctl_power_source_t
+  commentId: T:IGCLWrapper.ctl_power_source_t
+  parent: IGCLWrapper
+  href: IGCLWrapper.ctl_power_source_t.html
+  name: ctl_power_source_t
+  nameWithType: ctl_power_source_t
+  fullName: IGCLWrapper.ctl_power_source_t
+- uid: IGCLWrapper.PowerOptimizationSettingsDto.Equals*
+  commentId: Overload:IGCLWrapper.PowerOptimizationSettingsDto.Equals
+  href: IGCLWrapper.PowerOptimizationSettingsDto.html#IGCLWrapper_PowerOptimizationSettingsDto_Equals_IGCLWrapper_PowerOptimizationSettingsDto_
+  name: Equals
+  nameWithType: PowerOptimizationSettingsDto.Equals
+  fullName: IGCLWrapper.PowerOptimizationSettingsDto.Equals
+- uid: System.IEquatable{IGCLWrapper.PowerOptimizationSettingsDto}.Equals(IGCLWrapper.PowerOptimizationSettingsDto)
+  commentId: M:System.IEquatable{IGCLWrapper.PowerOptimizationSettingsDto}.Equals(IGCLWrapper.PowerOptimizationSettingsDto)
+  parent: System.IEquatable{IGCLWrapper.PowerOptimizationSettingsDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(PowerOptimizationSettingsDto)
+  nameWithType: IEquatable<PowerOptimizationSettingsDto>.Equals(PowerOptimizationSettingsDto)
+  fullName: System.IEquatable<IGCLWrapper.PowerOptimizationSettingsDto>.Equals(IGCLWrapper.PowerOptimizationSettingsDto)
+  nameWithType.vb: IEquatable(Of PowerOptimizationSettingsDto).Equals(PowerOptimizationSettingsDto)
+  fullName.vb: System.IEquatable(Of IGCLWrapper.PowerOptimizationSettingsDto).Equals(IGCLWrapper.PowerOptimizationSettingsDto)
+  spec.csharp:
+  - uid: System.IEquatable{IGCLWrapper.PowerOptimizationSettingsDto}.Equals(IGCLWrapper.PowerOptimizationSettingsDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: IGCLWrapper.PowerOptimizationSettingsDto
+    name: PowerOptimizationSettingsDto
+    href: IGCLWrapper.PowerOptimizationSettingsDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{IGCLWrapper.PowerOptimizationSettingsDto}.Equals(IGCLWrapper.PowerOptimizationSettingsDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: IGCLWrapper.PowerOptimizationSettingsDto
+    name: PowerOptimizationSettingsDto
+    href: IGCLWrapper.PowerOptimizationSettingsDto.html
+  - name: )
+- uid: IGCLWrapper.PowerOptimizationSettingsDto
+  commentId: T:IGCLWrapper.PowerOptimizationSettingsDto
+  parent: IGCLWrapper
+  href: IGCLWrapper.PowerOptimizationSettingsDto.html
+  name: PowerOptimizationSettingsDto
+  nameWithType: PowerOptimizationSettingsDto
+  fullName: IGCLWrapper.PowerOptimizationSettingsDto
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: IGCLWrapper.PowerOptimizationSettingsDto.GetHashCode*
+  commentId: Overload:IGCLWrapper.PowerOptimizationSettingsDto.GetHashCode
+  href: IGCLWrapper.PowerOptimizationSettingsDto.html#IGCLWrapper_PowerOptimizationSettingsDto_GetHashCode
+  name: GetHashCode
+  nameWithType: PowerOptimizationSettingsDto.GetHashCode
+  fullName: IGCLWrapper.PowerOptimizationSettingsDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: IGCLWrapper.PowerOptimizationSettingsDto.FromNative*
+  commentId: Overload:IGCLWrapper.PowerOptimizationSettingsDto.FromNative
+  href: IGCLWrapper.PowerOptimizationSettingsDto.html#IGCLWrapper_PowerOptimizationSettingsDto_FromNative_IGCLWrapper_ctl_power_optimization_settings_t_
+  name: FromNative
+  nameWithType: PowerOptimizationSettingsDto.FromNative
+  fullName: IGCLWrapper.PowerOptimizationSettingsDto.FromNative
+- uid: IGCLWrapper.ctl_power_optimization_settings_t
+  commentId: T:IGCLWrapper.ctl_power_optimization_settings_t
+  parent: IGCLWrapper
+  href: IGCLWrapper.ctl_power_optimization_settings_t.html
+  name: ctl_power_optimization_settings_t
+  nameWithType: ctl_power_optimization_settings_t
+  fullName: IGCLWrapper.ctl_power_optimization_settings_t
+- uid: IGCLWrapper.PowerOptimizationSettingsDto.ToNative*
+  commentId: Overload:IGCLWrapper.PowerOptimizationSettingsDto.ToNative
+  href: IGCLWrapper.PowerOptimizationSettingsDto.html#IGCLWrapper_PowerOptimizationSettingsDto_ToNative
+  name: ToNative
+  nameWithType: PowerOptimizationSettingsDto.ToNative
+  fullName: IGCLWrapper.PowerOptimizationSettingsDto.ToNative

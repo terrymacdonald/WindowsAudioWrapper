@@ -1,0 +1,659 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1
+  commentId: T:NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1
+  id: _NV_DISPLAY_COLORIMETRY_V1
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.blue_primary_x
+  - NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.blue_primary_y
+  - NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.green_primary_x
+  - NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.green_primary_y
+  - NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.hdrBrightnessLuminanceScalingFactor
+  - NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.max_full_frame_luminance
+  - NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.max_luminance
+  - NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.min_luminance
+  - NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.red_primary_x
+  - NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.red_primary_y
+  - NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.version
+  - NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.white_point_x
+  - NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.white_point_y
+  langs:
+  - csharp
+  - vb
+  name: _NV_DISPLAY_COLORIMETRY_V1
+  nameWithType: _NV_DISPLAY_COLORIMETRY_V1
+  fullName: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_DISPLAY_COLORIMETRY_V1
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NV_DISPLAY_COLORIMETRY_V1
+    content.vb: Public Structure _NV_DISPLAY_COLORIMETRY_V1
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.version
+  commentId: F:NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.version
+  id: version
+  parent: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: _NV_DISPLAY_COLORIMETRY_V1.version
+  fullName: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.version
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: version
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+    startLine: 7
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint version
+    return:
+      type: System.UInt32
+    content.vb: Public version As UInteger
+- uid: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.min_luminance
+  commentId: F:NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.min_luminance
+  id: min_luminance
+  parent: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1
+  langs:
+  - csharp
+  - vb
+  name: min_luminance
+  nameWithType: _NV_DISPLAY_COLORIMETRY_V1.min_luminance
+  fullName: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.min_luminance
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: min_luminance
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+    startLine: 10
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public float min_luminance
+    return:
+      type: System.Single
+    content.vb: Public min_luminance As Single
+- uid: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.max_full_frame_luminance
+  commentId: F:NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.max_full_frame_luminance
+  id: max_full_frame_luminance
+  parent: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1
+  langs:
+  - csharp
+  - vb
+  name: max_full_frame_luminance
+  nameWithType: _NV_DISPLAY_COLORIMETRY_V1.max_full_frame_luminance
+  fullName: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.max_full_frame_luminance
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: max_full_frame_luminance
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+    startLine: 13
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public float max_full_frame_luminance
+    return:
+      type: System.Single
+    content.vb: Public max_full_frame_luminance As Single
+- uid: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.max_luminance
+  commentId: F:NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.max_luminance
+  id: max_luminance
+  parent: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1
+  langs:
+  - csharp
+  - vb
+  name: max_luminance
+  nameWithType: _NV_DISPLAY_COLORIMETRY_V1.max_luminance
+  fullName: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.max_luminance
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: max_luminance
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+    startLine: 16
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public float max_luminance
+    return:
+      type: System.Single
+    content.vb: Public max_luminance As Single
+- uid: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.hdrBrightnessLuminanceScalingFactor
+  commentId: F:NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.hdrBrightnessLuminanceScalingFactor
+  id: hdrBrightnessLuminanceScalingFactor
+  parent: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1
+  langs:
+  - csharp
+  - vb
+  name: hdrBrightnessLuminanceScalingFactor
+  nameWithType: _NV_DISPLAY_COLORIMETRY_V1.hdrBrightnessLuminanceScalingFactor
+  fullName: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.hdrBrightnessLuminanceScalingFactor
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: hdrBrightnessLuminanceScalingFactor
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+    startLine: 19
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public float hdrBrightnessLuminanceScalingFactor
+    return:
+      type: System.Single
+    content.vb: Public hdrBrightnessLuminanceScalingFactor As Single
+- uid: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.red_primary_x
+  commentId: F:NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.red_primary_x
+  id: red_primary_x
+  parent: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1
+  langs:
+  - csharp
+  - vb
+  name: red_primary_x
+  nameWithType: _NV_DISPLAY_COLORIMETRY_V1.red_primary_x
+  fullName: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.red_primary_x
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: red_primary_x
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+    startLine: 22
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public float red_primary_x
+    return:
+      type: System.Single
+    content.vb: Public red_primary_x As Single
+- uid: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.red_primary_y
+  commentId: F:NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.red_primary_y
+  id: red_primary_y
+  parent: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1
+  langs:
+  - csharp
+  - vb
+  name: red_primary_y
+  nameWithType: _NV_DISPLAY_COLORIMETRY_V1.red_primary_y
+  fullName: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.red_primary_y
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: red_primary_y
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+    startLine: 25
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public float red_primary_y
+    return:
+      type: System.Single
+    content.vb: Public red_primary_y As Single
+- uid: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.green_primary_x
+  commentId: F:NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.green_primary_x
+  id: green_primary_x
+  parent: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1
+  langs:
+  - csharp
+  - vb
+  name: green_primary_x
+  nameWithType: _NV_DISPLAY_COLORIMETRY_V1.green_primary_x
+  fullName: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.green_primary_x
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: green_primary_x
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+    startLine: 28
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public float green_primary_x
+    return:
+      type: System.Single
+    content.vb: Public green_primary_x As Single
+- uid: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.green_primary_y
+  commentId: F:NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.green_primary_y
+  id: green_primary_y
+  parent: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1
+  langs:
+  - csharp
+  - vb
+  name: green_primary_y
+  nameWithType: _NV_DISPLAY_COLORIMETRY_V1.green_primary_y
+  fullName: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.green_primary_y
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: green_primary_y
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+    startLine: 31
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public float green_primary_y
+    return:
+      type: System.Single
+    content.vb: Public green_primary_y As Single
+- uid: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.blue_primary_x
+  commentId: F:NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.blue_primary_x
+  id: blue_primary_x
+  parent: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1
+  langs:
+  - csharp
+  - vb
+  name: blue_primary_x
+  nameWithType: _NV_DISPLAY_COLORIMETRY_V1.blue_primary_x
+  fullName: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.blue_primary_x
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: blue_primary_x
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+    startLine: 34
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public float blue_primary_x
+    return:
+      type: System.Single
+    content.vb: Public blue_primary_x As Single
+- uid: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.blue_primary_y
+  commentId: F:NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.blue_primary_y
+  id: blue_primary_y
+  parent: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1
+  langs:
+  - csharp
+  - vb
+  name: blue_primary_y
+  nameWithType: _NV_DISPLAY_COLORIMETRY_V1.blue_primary_y
+  fullName: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.blue_primary_y
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: blue_primary_y
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+    startLine: 37
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public float blue_primary_y
+    return:
+      type: System.Single
+    content.vb: Public blue_primary_y As Single
+- uid: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.white_point_x
+  commentId: F:NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.white_point_x
+  id: white_point_x
+  parent: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1
+  langs:
+  - csharp
+  - vb
+  name: white_point_x
+  nameWithType: _NV_DISPLAY_COLORIMETRY_V1.white_point_x
+  fullName: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.white_point_x
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: white_point_x
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+    startLine: 40
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public float white_point_x
+    return:
+      type: System.Single
+    content.vb: Public white_point_x As Single
+- uid: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.white_point_y
+  commentId: F:NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.white_point_y
+  id: white_point_y
+  parent: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1
+  langs:
+  - csharp
+  - vb
+  name: white_point_y
+  nameWithType: _NV_DISPLAY_COLORIMETRY_V1.white_point_y
+  fullName: NVAPIWrapper._NV_DISPLAY_COLORIMETRY_V1.white_point_y
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: white_point_y
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_COLORIMETRY_V1.cs
+    startLine: 43
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public float white_point_y
+    return:
+      type: System.Single
+    content.vb: Public white_point_y As Single
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single

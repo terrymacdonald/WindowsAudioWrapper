@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_PS_SHADERDISKCACHE
+  commentId: T:NVAPIWrapper.EValues_PS_SHADERDISKCACHE
+  id: EValues_PS_SHADERDISKCACHE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_PS_SHADERDISKCACHE.PS_SHADERDISKCACHE_DEFAULT
+  - NVAPIWrapper.EValues_PS_SHADERDISKCACHE.PS_SHADERDISKCACHE_NUM_VALUES
+  - NVAPIWrapper.EValues_PS_SHADERDISKCACHE.PS_SHADERDISKCACHE_OFF
+  - NVAPIWrapper.EValues_PS_SHADERDISKCACHE.PS_SHADERDISKCACHE_ON
+  langs:
+  - csharp
+  - vb
+  name: EValues_PS_SHADERDISKCACHE
+  nameWithType: EValues_PS_SHADERDISKCACHE
+  fullName: NVAPIWrapper.EValues_PS_SHADERDISKCACHE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PS_SHADERDISKCACHE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_PS_SHADERDISKCACHE
+    path: ../NVAPIWrapper/cs_generated/EValues_PS_SHADERDISKCACHE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_PS_SHADERDISKCACHE
+    content.vb: Public Enum EValues_PS_SHADERDISKCACHE
+- uid: NVAPIWrapper.EValues_PS_SHADERDISKCACHE.PS_SHADERDISKCACHE_OFF
+  commentId: F:NVAPIWrapper.EValues_PS_SHADERDISKCACHE.PS_SHADERDISKCACHE_OFF
+  id: PS_SHADERDISKCACHE_OFF
+  parent: NVAPIWrapper.EValues_PS_SHADERDISKCACHE
+  langs:
+  - csharp
+  - vb
+  name: PS_SHADERDISKCACHE_OFF
+  nameWithType: EValues_PS_SHADERDISKCACHE.PS_SHADERDISKCACHE_OFF
+  fullName: NVAPIWrapper.EValues_PS_SHADERDISKCACHE.PS_SHADERDISKCACHE_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PS_SHADERDISKCACHE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PS_SHADERDISKCACHE_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_PS_SHADERDISKCACHE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PS_SHADERDISKCACHE_OFF = 0
+    return:
+      type: NVAPIWrapper.EValues_PS_SHADERDISKCACHE
+- uid: NVAPIWrapper.EValues_PS_SHADERDISKCACHE.PS_SHADERDISKCACHE_ON
+  commentId: F:NVAPIWrapper.EValues_PS_SHADERDISKCACHE.PS_SHADERDISKCACHE_ON
+  id: PS_SHADERDISKCACHE_ON
+  parent: NVAPIWrapper.EValues_PS_SHADERDISKCACHE
+  langs:
+  - csharp
+  - vb
+  name: PS_SHADERDISKCACHE_ON
+  nameWithType: EValues_PS_SHADERDISKCACHE.PS_SHADERDISKCACHE_ON
+  fullName: NVAPIWrapper.EValues_PS_SHADERDISKCACHE.PS_SHADERDISKCACHE_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PS_SHADERDISKCACHE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PS_SHADERDISKCACHE_ON
+    path: ../NVAPIWrapper/cs_generated/EValues_PS_SHADERDISKCACHE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PS_SHADERDISKCACHE_ON = 1
+    return:
+      type: NVAPIWrapper.EValues_PS_SHADERDISKCACHE
+- uid: NVAPIWrapper.EValues_PS_SHADERDISKCACHE.PS_SHADERDISKCACHE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_PS_SHADERDISKCACHE.PS_SHADERDISKCACHE_NUM_VALUES
+  id: PS_SHADERDISKCACHE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_PS_SHADERDISKCACHE
+  langs:
+  - csharp
+  - vb
+  name: PS_SHADERDISKCACHE_NUM_VALUES
+  nameWithType: EValues_PS_SHADERDISKCACHE.PS_SHADERDISKCACHE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_PS_SHADERDISKCACHE.PS_SHADERDISKCACHE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PS_SHADERDISKCACHE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PS_SHADERDISKCACHE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_PS_SHADERDISKCACHE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PS_SHADERDISKCACHE_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_PS_SHADERDISKCACHE
+- uid: NVAPIWrapper.EValues_PS_SHADERDISKCACHE.PS_SHADERDISKCACHE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_PS_SHADERDISKCACHE.PS_SHADERDISKCACHE_DEFAULT
+  id: PS_SHADERDISKCACHE_DEFAULT
+  parent: NVAPIWrapper.EValues_PS_SHADERDISKCACHE
+  langs:
+  - csharp
+  - vb
+  name: PS_SHADERDISKCACHE_DEFAULT
+  nameWithType: EValues_PS_SHADERDISKCACHE.PS_SHADERDISKCACHE_DEFAULT
+  fullName: NVAPIWrapper.EValues_PS_SHADERDISKCACHE.PS_SHADERDISKCACHE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PS_SHADERDISKCACHE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PS_SHADERDISKCACHE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_PS_SHADERDISKCACHE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PS_SHADERDISKCACHE_DEFAULT = 1
+    return:
+      type: NVAPIWrapper.EValues_PS_SHADERDISKCACHE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_PS_SHADERDISKCACHE
+  commentId: T:NVAPIWrapper.EValues_PS_SHADERDISKCACHE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_PS_SHADERDISKCACHE.html
+  name: EValues_PS_SHADERDISKCACHE
+  nameWithType: EValues_PS_SHADERDISKCACHE
+  fullName: NVAPIWrapper.EValues_PS_SHADERDISKCACHE

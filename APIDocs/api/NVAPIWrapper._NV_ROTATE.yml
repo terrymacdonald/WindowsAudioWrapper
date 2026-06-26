@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_ROTATE
+  commentId: T:NVAPIWrapper._NV_ROTATE
+  id: _NV_ROTATE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_ROTATE.NV_ROTATE_0
+  - NVAPIWrapper._NV_ROTATE.NV_ROTATE_180
+  - NVAPIWrapper._NV_ROTATE.NV_ROTATE_270
+  - NVAPIWrapper._NV_ROTATE.NV_ROTATE_90
+  - NVAPIWrapper._NV_ROTATE.NV_ROTATE_IGNORED
+  langs:
+  - csharp
+  - vb
+  name: _NV_ROTATE
+  nameWithType: _NV_ROTATE
+  fullName: NVAPIWrapper._NV_ROTATE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_ROTATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_ROTATE
+    path: ../NVAPIWrapper/cs_generated/_NV_ROTATE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: 'public enum _NV_ROTATE : byte'
+    content.vb: Public Enum _NV_ROTATE As Byte
+- uid: NVAPIWrapper._NV_ROTATE.NV_ROTATE_0
+  commentId: F:NVAPIWrapper._NV_ROTATE.NV_ROTATE_0
+  id: NV_ROTATE_0
+  parent: NVAPIWrapper._NV_ROTATE
+  langs:
+  - csharp
+  - vb
+  name: NV_ROTATE_0
+  nameWithType: _NV_ROTATE.NV_ROTATE_0
+  fullName: NVAPIWrapper._NV_ROTATE.NV_ROTATE_0
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_ROTATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_ROTATE_0
+    path: ../NVAPIWrapper/cs_generated/_NV_ROTATE.cs
+    startLine: 7
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_ROTATE_0 = 0
+    return:
+      type: NVAPIWrapper._NV_ROTATE
+- uid: NVAPIWrapper._NV_ROTATE.NV_ROTATE_90
+  commentId: F:NVAPIWrapper._NV_ROTATE.NV_ROTATE_90
+  id: NV_ROTATE_90
+  parent: NVAPIWrapper._NV_ROTATE
+  langs:
+  - csharp
+  - vb
+  name: NV_ROTATE_90
+  nameWithType: _NV_ROTATE.NV_ROTATE_90
+  fullName: NVAPIWrapper._NV_ROTATE.NV_ROTATE_90
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_ROTATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_ROTATE_90
+    path: ../NVAPIWrapper/cs_generated/_NV_ROTATE.cs
+    startLine: 10
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_ROTATE_90 = 1
+    return:
+      type: NVAPIWrapper._NV_ROTATE
+- uid: NVAPIWrapper._NV_ROTATE.NV_ROTATE_180
+  commentId: F:NVAPIWrapper._NV_ROTATE.NV_ROTATE_180
+  id: NV_ROTATE_180
+  parent: NVAPIWrapper._NV_ROTATE
+  langs:
+  - csharp
+  - vb
+  name: NV_ROTATE_180
+  nameWithType: _NV_ROTATE.NV_ROTATE_180
+  fullName: NVAPIWrapper._NV_ROTATE.NV_ROTATE_180
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_ROTATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_ROTATE_180
+    path: ../NVAPIWrapper/cs_generated/_NV_ROTATE.cs
+    startLine: 13
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_ROTATE_180 = 2
+    return:
+      type: NVAPIWrapper._NV_ROTATE
+- uid: NVAPIWrapper._NV_ROTATE.NV_ROTATE_270
+  commentId: F:NVAPIWrapper._NV_ROTATE.NV_ROTATE_270
+  id: NV_ROTATE_270
+  parent: NVAPIWrapper._NV_ROTATE
+  langs:
+  - csharp
+  - vb
+  name: NV_ROTATE_270
+  nameWithType: _NV_ROTATE.NV_ROTATE_270
+  fullName: NVAPIWrapper._NV_ROTATE.NV_ROTATE_270
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_ROTATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_ROTATE_270
+    path: ../NVAPIWrapper/cs_generated/_NV_ROTATE.cs
+    startLine: 16
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_ROTATE_270 = 3
+    return:
+      type: NVAPIWrapper._NV_ROTATE
+- uid: NVAPIWrapper._NV_ROTATE.NV_ROTATE_IGNORED
+  commentId: F:NVAPIWrapper._NV_ROTATE.NV_ROTATE_IGNORED
+  id: NV_ROTATE_IGNORED
+  parent: NVAPIWrapper._NV_ROTATE
+  langs:
+  - csharp
+  - vb
+  name: NV_ROTATE_IGNORED
+  nameWithType: _NV_ROTATE.NV_ROTATE_IGNORED
+  fullName: NVAPIWrapper._NV_ROTATE.NV_ROTATE_IGNORED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_ROTATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_ROTATE_IGNORED
+    path: ../NVAPIWrapper/cs_generated/_NV_ROTATE.cs
+    startLine: 19
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_ROTATE_IGNORED = 4
+    return:
+      type: NVAPIWrapper._NV_ROTATE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_ROTATE
+  commentId: T:NVAPIWrapper._NV_ROTATE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_ROTATE.html
+  name: _NV_ROTATE
+  nameWithType: _NV_ROTATE
+  fullName: NVAPIWrapper._NV_ROTATE

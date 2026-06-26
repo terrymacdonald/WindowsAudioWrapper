@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE
+  commentId: T:NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE
+  id: EValues_PREVENT_UI_AF_OVERRIDE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE.PREVENT_UI_AF_OVERRIDE_DEFAULT
+  - NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE.PREVENT_UI_AF_OVERRIDE_NUM_VALUES
+  - NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE.PREVENT_UI_AF_OVERRIDE_OFF
+  - NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE.PREVENT_UI_AF_OVERRIDE_ON
+  langs:
+  - csharp
+  - vb
+  name: EValues_PREVENT_UI_AF_OVERRIDE
+  nameWithType: EValues_PREVENT_UI_AF_OVERRIDE
+  fullName: NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PREVENT_UI_AF_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_PREVENT_UI_AF_OVERRIDE
+    path: ../NVAPIWrapper/cs_generated/EValues_PREVENT_UI_AF_OVERRIDE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_PREVENT_UI_AF_OVERRIDE
+    content.vb: Public Enum EValues_PREVENT_UI_AF_OVERRIDE
+- uid: NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE.PREVENT_UI_AF_OVERRIDE_OFF
+  commentId: F:NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE.PREVENT_UI_AF_OVERRIDE_OFF
+  id: PREVENT_UI_AF_OVERRIDE_OFF
+  parent: NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: PREVENT_UI_AF_OVERRIDE_OFF
+  nameWithType: EValues_PREVENT_UI_AF_OVERRIDE.PREVENT_UI_AF_OVERRIDE_OFF
+  fullName: NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE.PREVENT_UI_AF_OVERRIDE_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PREVENT_UI_AF_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PREVENT_UI_AF_OVERRIDE_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_PREVENT_UI_AF_OVERRIDE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PREVENT_UI_AF_OVERRIDE_OFF = 0
+    return:
+      type: NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE
+- uid: NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE.PREVENT_UI_AF_OVERRIDE_ON
+  commentId: F:NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE.PREVENT_UI_AF_OVERRIDE_ON
+  id: PREVENT_UI_AF_OVERRIDE_ON
+  parent: NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: PREVENT_UI_AF_OVERRIDE_ON
+  nameWithType: EValues_PREVENT_UI_AF_OVERRIDE.PREVENT_UI_AF_OVERRIDE_ON
+  fullName: NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE.PREVENT_UI_AF_OVERRIDE_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PREVENT_UI_AF_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PREVENT_UI_AF_OVERRIDE_ON
+    path: ../NVAPIWrapper/cs_generated/EValues_PREVENT_UI_AF_OVERRIDE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PREVENT_UI_AF_OVERRIDE_ON = 1
+    return:
+      type: NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE
+- uid: NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE.PREVENT_UI_AF_OVERRIDE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE.PREVENT_UI_AF_OVERRIDE_NUM_VALUES
+  id: PREVENT_UI_AF_OVERRIDE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: PREVENT_UI_AF_OVERRIDE_NUM_VALUES
+  nameWithType: EValues_PREVENT_UI_AF_OVERRIDE.PREVENT_UI_AF_OVERRIDE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE.PREVENT_UI_AF_OVERRIDE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PREVENT_UI_AF_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PREVENT_UI_AF_OVERRIDE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_PREVENT_UI_AF_OVERRIDE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PREVENT_UI_AF_OVERRIDE_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE
+- uid: NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE.PREVENT_UI_AF_OVERRIDE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE.PREVENT_UI_AF_OVERRIDE_DEFAULT
+  id: PREVENT_UI_AF_OVERRIDE_DEFAULT
+  parent: NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: PREVENT_UI_AF_OVERRIDE_DEFAULT
+  nameWithType: EValues_PREVENT_UI_AF_OVERRIDE.PREVENT_UI_AF_OVERRIDE_DEFAULT
+  fullName: NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE.PREVENT_UI_AF_OVERRIDE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PREVENT_UI_AF_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PREVENT_UI_AF_OVERRIDE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_PREVENT_UI_AF_OVERRIDE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PREVENT_UI_AF_OVERRIDE_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE
+  commentId: T:NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE.html
+  name: EValues_PREVENT_UI_AF_OVERRIDE
+  nameWithType: EValues_PREVENT_UI_AF_OVERRIDE
+  fullName: NVAPIWrapper.EValues_PREVENT_UI_AF_OVERRIDE

@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_COLORSPACE_TYPE
+  commentId: T:NVAPIWrapper._NV_COLORSPACE_TYPE
+  id: _NV_COLORSPACE_TYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_COLORSPACE_TYPE.NV_COLORSPACE_REC2100
+  - NVAPIWrapper._NV_COLORSPACE_TYPE.NV_COLORSPACE_sRGB
+  - NVAPIWrapper._NV_COLORSPACE_TYPE.NV_COLORSPACE_xRGB
+  langs:
+  - csharp
+  - vb
+  name: _NV_COLORSPACE_TYPE
+  nameWithType: _NV_COLORSPACE_TYPE
+  fullName: NVAPIWrapper._NV_COLORSPACE_TYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_COLORSPACE_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_COLORSPACE_TYPE
+    path: ../NVAPIWrapper/cs_generated/_NV_COLORSPACE_TYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_COLORSPACE_TYPE
+    content.vb: Public Enum _NV_COLORSPACE_TYPE
+- uid: NVAPIWrapper._NV_COLORSPACE_TYPE.NV_COLORSPACE_sRGB
+  commentId: F:NVAPIWrapper._NV_COLORSPACE_TYPE.NV_COLORSPACE_sRGB
+  id: NV_COLORSPACE_sRGB
+  parent: NVAPIWrapper._NV_COLORSPACE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_COLORSPACE_sRGB
+  nameWithType: _NV_COLORSPACE_TYPE.NV_COLORSPACE_sRGB
+  fullName: NVAPIWrapper._NV_COLORSPACE_TYPE.NV_COLORSPACE_sRGB
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_COLORSPACE_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLORSPACE_sRGB
+    path: ../NVAPIWrapper/cs_generated/_NV_COLORSPACE_TYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLORSPACE_sRGB = 0
+    return:
+      type: NVAPIWrapper._NV_COLORSPACE_TYPE
+- uid: NVAPIWrapper._NV_COLORSPACE_TYPE.NV_COLORSPACE_xRGB
+  commentId: F:NVAPIWrapper._NV_COLORSPACE_TYPE.NV_COLORSPACE_xRGB
+  id: NV_COLORSPACE_xRGB
+  parent: NVAPIWrapper._NV_COLORSPACE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_COLORSPACE_xRGB
+  nameWithType: _NV_COLORSPACE_TYPE.NV_COLORSPACE_xRGB
+  fullName: NVAPIWrapper._NV_COLORSPACE_TYPE.NV_COLORSPACE_xRGB
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_COLORSPACE_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLORSPACE_xRGB
+    path: ../NVAPIWrapper/cs_generated/_NV_COLORSPACE_TYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLORSPACE_xRGB = 1
+    return:
+      type: NVAPIWrapper._NV_COLORSPACE_TYPE
+- uid: NVAPIWrapper._NV_COLORSPACE_TYPE.NV_COLORSPACE_REC2100
+  commentId: F:NVAPIWrapper._NV_COLORSPACE_TYPE.NV_COLORSPACE_REC2100
+  id: NV_COLORSPACE_REC2100
+  parent: NVAPIWrapper._NV_COLORSPACE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_COLORSPACE_REC2100
+  nameWithType: _NV_COLORSPACE_TYPE.NV_COLORSPACE_REC2100
+  fullName: NVAPIWrapper._NV_COLORSPACE_TYPE.NV_COLORSPACE_REC2100
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_COLORSPACE_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLORSPACE_REC2100
+    path: ../NVAPIWrapper/cs_generated/_NV_COLORSPACE_TYPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLORSPACE_REC2100 = 12
+    return:
+      type: NVAPIWrapper._NV_COLORSPACE_TYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_COLORSPACE_TYPE
+  commentId: T:NVAPIWrapper._NV_COLORSPACE_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_COLORSPACE_TYPE.html
+  name: _NV_COLORSPACE_TYPE
+  nameWithType: _NV_COLORSPACE_TYPE
+  fullName: NVAPIWrapper._NV_COLORSPACE_TYPE

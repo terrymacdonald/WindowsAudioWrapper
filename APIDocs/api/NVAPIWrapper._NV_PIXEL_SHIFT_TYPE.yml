@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE
+  commentId: T:NVAPIWrapper._NV_PIXEL_SHIFT_TYPE
+  id: _NV_PIXEL_SHIFT_TYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_2x2_BOTTOM_LEFT_PIXELS
+  - NVAPIWrapper._NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_2x2_BOTTOM_RIGHT_PIXELS
+  - NVAPIWrapper._NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_2x2_TOP_LEFT_PIXELS
+  - NVAPIWrapper._NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_2x2_TOP_RIGHT_PIXELS
+  - NVAPIWrapper._NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_NO_PIXEL_SHIFT
+  langs:
+  - csharp
+  - vb
+  name: _NV_PIXEL_SHIFT_TYPE
+  nameWithType: _NV_PIXEL_SHIFT_TYPE
+  fullName: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_PIXEL_SHIFT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_PIXEL_SHIFT_TYPE
+    path: ../NVAPIWrapper/cs_generated/_NV_PIXEL_SHIFT_TYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_PIXEL_SHIFT_TYPE
+    content.vb: Public Enum _NV_PIXEL_SHIFT_TYPE
+- uid: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_NO_PIXEL_SHIFT
+  commentId: F:NVAPIWrapper._NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_NO_PIXEL_SHIFT
+  id: NV_PIXEL_SHIFT_TYPE_NO_PIXEL_SHIFT
+  parent: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_PIXEL_SHIFT_TYPE_NO_PIXEL_SHIFT
+  nameWithType: _NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_NO_PIXEL_SHIFT
+  fullName: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_NO_PIXEL_SHIFT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_PIXEL_SHIFT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_PIXEL_SHIFT_TYPE_NO_PIXEL_SHIFT
+    path: ../NVAPIWrapper/cs_generated/_NV_PIXEL_SHIFT_TYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_PIXEL_SHIFT_TYPE_NO_PIXEL_SHIFT = 0
+    return:
+      type: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE
+- uid: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_2x2_TOP_LEFT_PIXELS
+  commentId: F:NVAPIWrapper._NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_2x2_TOP_LEFT_PIXELS
+  id: NV_PIXEL_SHIFT_TYPE_2x2_TOP_LEFT_PIXELS
+  parent: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_PIXEL_SHIFT_TYPE_2x2_TOP_LEFT_PIXELS
+  nameWithType: _NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_2x2_TOP_LEFT_PIXELS
+  fullName: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_2x2_TOP_LEFT_PIXELS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_PIXEL_SHIFT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_PIXEL_SHIFT_TYPE_2x2_TOP_LEFT_PIXELS
+    path: ../NVAPIWrapper/cs_generated/_NV_PIXEL_SHIFT_TYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_PIXEL_SHIFT_TYPE_2x2_TOP_LEFT_PIXELS = 1
+    return:
+      type: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE
+- uid: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_2x2_BOTTOM_RIGHT_PIXELS
+  commentId: F:NVAPIWrapper._NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_2x2_BOTTOM_RIGHT_PIXELS
+  id: NV_PIXEL_SHIFT_TYPE_2x2_BOTTOM_RIGHT_PIXELS
+  parent: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_PIXEL_SHIFT_TYPE_2x2_BOTTOM_RIGHT_PIXELS
+  nameWithType: _NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_2x2_BOTTOM_RIGHT_PIXELS
+  fullName: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_2x2_BOTTOM_RIGHT_PIXELS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_PIXEL_SHIFT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_PIXEL_SHIFT_TYPE_2x2_BOTTOM_RIGHT_PIXELS
+    path: ../NVAPIWrapper/cs_generated/_NV_PIXEL_SHIFT_TYPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_PIXEL_SHIFT_TYPE_2x2_BOTTOM_RIGHT_PIXELS = 2
+    return:
+      type: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE
+- uid: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_2x2_TOP_RIGHT_PIXELS
+  commentId: F:NVAPIWrapper._NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_2x2_TOP_RIGHT_PIXELS
+  id: NV_PIXEL_SHIFT_TYPE_2x2_TOP_RIGHT_PIXELS
+  parent: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_PIXEL_SHIFT_TYPE_2x2_TOP_RIGHT_PIXELS
+  nameWithType: _NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_2x2_TOP_RIGHT_PIXELS
+  fullName: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_2x2_TOP_RIGHT_PIXELS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_PIXEL_SHIFT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_PIXEL_SHIFT_TYPE_2x2_TOP_RIGHT_PIXELS
+    path: ../NVAPIWrapper/cs_generated/_NV_PIXEL_SHIFT_TYPE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_PIXEL_SHIFT_TYPE_2x2_TOP_RIGHT_PIXELS = 4
+    return:
+      type: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE
+- uid: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_2x2_BOTTOM_LEFT_PIXELS
+  commentId: F:NVAPIWrapper._NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_2x2_BOTTOM_LEFT_PIXELS
+  id: NV_PIXEL_SHIFT_TYPE_2x2_BOTTOM_LEFT_PIXELS
+  parent: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_PIXEL_SHIFT_TYPE_2x2_BOTTOM_LEFT_PIXELS
+  nameWithType: _NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_2x2_BOTTOM_LEFT_PIXELS
+  fullName: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE.NV_PIXEL_SHIFT_TYPE_2x2_BOTTOM_LEFT_PIXELS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_PIXEL_SHIFT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_PIXEL_SHIFT_TYPE_2x2_BOTTOM_LEFT_PIXELS
+    path: ../NVAPIWrapper/cs_generated/_NV_PIXEL_SHIFT_TYPE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_PIXEL_SHIFT_TYPE_2x2_BOTTOM_LEFT_PIXELS = 8
+    return:
+      type: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE
+  commentId: T:NVAPIWrapper._NV_PIXEL_SHIFT_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE.html
+  name: _NV_PIXEL_SHIFT_TYPE
+  nameWithType: _NV_PIXEL_SHIFT_TYPE
+  fullName: NVAPIWrapper._NV_PIXEL_SHIFT_TYPE

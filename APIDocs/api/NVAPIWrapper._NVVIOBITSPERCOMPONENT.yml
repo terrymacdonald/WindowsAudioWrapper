@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVVIOBITSPERCOMPONENT
+  commentId: T:NVAPIWrapper._NVVIOBITSPERCOMPONENT
+  id: _NVVIOBITSPERCOMPONENT
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVVIOBITSPERCOMPONENT.NVVIOBITSPERCOMPONENT_10
+  - NVAPIWrapper._NVVIOBITSPERCOMPONENT.NVVIOBITSPERCOMPONENT_12
+  - NVAPIWrapper._NVVIOBITSPERCOMPONENT.NVVIOBITSPERCOMPONENT_8
+  - NVAPIWrapper._NVVIOBITSPERCOMPONENT.NVVIOBITSPERCOMPONENT_UNKNOWN
+  langs:
+  - csharp
+  - vb
+  name: _NVVIOBITSPERCOMPONENT
+  nameWithType: _NVVIOBITSPERCOMPONENT
+  fullName: NVAPIWrapper._NVVIOBITSPERCOMPONENT
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOBITSPERCOMPONENT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVVIOBITSPERCOMPONENT
+    path: ../NVAPIWrapper/cs_generated/_NVVIOBITSPERCOMPONENT.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVVIOBITSPERCOMPONENT
+    content.vb: Public Enum _NVVIOBITSPERCOMPONENT
+- uid: NVAPIWrapper._NVVIOBITSPERCOMPONENT.NVVIOBITSPERCOMPONENT_UNKNOWN
+  commentId: F:NVAPIWrapper._NVVIOBITSPERCOMPONENT.NVVIOBITSPERCOMPONENT_UNKNOWN
+  id: NVVIOBITSPERCOMPONENT_UNKNOWN
+  parent: NVAPIWrapper._NVVIOBITSPERCOMPONENT
+  langs:
+  - csharp
+  - vb
+  name: NVVIOBITSPERCOMPONENT_UNKNOWN
+  nameWithType: _NVVIOBITSPERCOMPONENT.NVVIOBITSPERCOMPONENT_UNKNOWN
+  fullName: NVAPIWrapper._NVVIOBITSPERCOMPONENT.NVVIOBITSPERCOMPONENT_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOBITSPERCOMPONENT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOBITSPERCOMPONENT_UNKNOWN
+    path: ../NVAPIWrapper/cs_generated/_NVVIOBITSPERCOMPONENT.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOBITSPERCOMPONENT_UNKNOWN = 0
+    return:
+      type: NVAPIWrapper._NVVIOBITSPERCOMPONENT
+- uid: NVAPIWrapper._NVVIOBITSPERCOMPONENT.NVVIOBITSPERCOMPONENT_8
+  commentId: F:NVAPIWrapper._NVVIOBITSPERCOMPONENT.NVVIOBITSPERCOMPONENT_8
+  id: NVVIOBITSPERCOMPONENT_8
+  parent: NVAPIWrapper._NVVIOBITSPERCOMPONENT
+  langs:
+  - csharp
+  - vb
+  name: NVVIOBITSPERCOMPONENT_8
+  nameWithType: _NVVIOBITSPERCOMPONENT.NVVIOBITSPERCOMPONENT_8
+  fullName: NVAPIWrapper._NVVIOBITSPERCOMPONENT.NVVIOBITSPERCOMPONENT_8
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOBITSPERCOMPONENT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOBITSPERCOMPONENT_8
+    path: ../NVAPIWrapper/cs_generated/_NVVIOBITSPERCOMPONENT.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOBITSPERCOMPONENT_8 = 1
+    return:
+      type: NVAPIWrapper._NVVIOBITSPERCOMPONENT
+- uid: NVAPIWrapper._NVVIOBITSPERCOMPONENT.NVVIOBITSPERCOMPONENT_10
+  commentId: F:NVAPIWrapper._NVVIOBITSPERCOMPONENT.NVVIOBITSPERCOMPONENT_10
+  id: NVVIOBITSPERCOMPONENT_10
+  parent: NVAPIWrapper._NVVIOBITSPERCOMPONENT
+  langs:
+  - csharp
+  - vb
+  name: NVVIOBITSPERCOMPONENT_10
+  nameWithType: _NVVIOBITSPERCOMPONENT.NVVIOBITSPERCOMPONENT_10
+  fullName: NVAPIWrapper._NVVIOBITSPERCOMPONENT.NVVIOBITSPERCOMPONENT_10
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOBITSPERCOMPONENT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOBITSPERCOMPONENT_10
+    path: ../NVAPIWrapper/cs_generated/_NVVIOBITSPERCOMPONENT.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOBITSPERCOMPONENT_10 = 2
+    return:
+      type: NVAPIWrapper._NVVIOBITSPERCOMPONENT
+- uid: NVAPIWrapper._NVVIOBITSPERCOMPONENT.NVVIOBITSPERCOMPONENT_12
+  commentId: F:NVAPIWrapper._NVVIOBITSPERCOMPONENT.NVVIOBITSPERCOMPONENT_12
+  id: NVVIOBITSPERCOMPONENT_12
+  parent: NVAPIWrapper._NVVIOBITSPERCOMPONENT
+  langs:
+  - csharp
+  - vb
+  name: NVVIOBITSPERCOMPONENT_12
+  nameWithType: _NVVIOBITSPERCOMPONENT.NVVIOBITSPERCOMPONENT_12
+  fullName: NVAPIWrapper._NVVIOBITSPERCOMPONENT.NVVIOBITSPERCOMPONENT_12
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOBITSPERCOMPONENT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOBITSPERCOMPONENT_12
+    path: ../NVAPIWrapper/cs_generated/_NVVIOBITSPERCOMPONENT.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOBITSPERCOMPONENT_12 = 3
+    return:
+      type: NVAPIWrapper._NVVIOBITSPERCOMPONENT
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVVIOBITSPERCOMPONENT
+  commentId: T:NVAPIWrapper._NVVIOBITSPERCOMPONENT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOBITSPERCOMPONENT.html
+  name: _NVVIOBITSPERCOMPONENT
+  nameWithType: _NVVIOBITSPERCOMPONENT
+  fullName: NVAPIWrapper._NVVIOBITSPERCOMPONENT

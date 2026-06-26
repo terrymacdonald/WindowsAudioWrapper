@@ -1,0 +1,1106 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+  commentId: T:NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+  id: NVAPIGpuMemoryInfoExDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIGpuMemoryInfoExDto.#ctor(System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64)
+  - NVAPIWrapper.NVAPIGpuMemoryInfoExDto.AvailableDedicatedVideoMemoryBytes
+  - NVAPIWrapper.NVAPIGpuMemoryInfoExDto.CurrentAvailableDedicatedVideoMemoryBytes
+  - NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryBytes
+  - NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryEvictionCount
+  - NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryEvictionsSizeBytes
+  - NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryPromotionCount
+  - NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryPromotionsSizeBytes
+  - NVAPIWrapper.NVAPIGpuMemoryInfoExDto.Equals(NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+  - NVAPIWrapper.NVAPIGpuMemoryInfoExDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIGpuMemoryInfoExDto.FromNative(NVAPIWrapper.NV_GPU_MEMORY_INFO_EX_V1)
+  - NVAPIWrapper.NVAPIGpuMemoryInfoExDto.GetHashCode
+  - NVAPIWrapper.NVAPIGpuMemoryInfoExDto.SharedSystemMemoryBytes
+  - NVAPIWrapper.NVAPIGpuMemoryInfoExDto.SystemVideoMemoryBytes
+  - NVAPIWrapper.NVAPIGpuMemoryInfoExDto.ToNative
+  - NVAPIWrapper.NVAPIGpuMemoryInfoExDto.op_Equality(NVAPIWrapper.NVAPIGpuMemoryInfoExDto,NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+  - NVAPIWrapper.NVAPIGpuMemoryInfoExDto.op_Inequality(NVAPIWrapper.NVAPIGpuMemoryInfoExDto,NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGpuMemoryInfoExDto
+  nameWithType: NVAPIGpuMemoryInfoExDto
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIGpuMemoryInfoExDto
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2673
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Extended GPU memory info DTO.
+  example: []
+  syntax:
+    content: 'public struct NVAPIGpuMemoryInfoExDto : IEquatable<NVAPIGpuMemoryInfoExDto>'
+    content.vb: Public Structure NVAPIGpuMemoryInfoExDto Implements IEquatable(Of NVAPIGpuMemoryInfoExDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGpuMemoryInfoExDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryBytes
+  commentId: P:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryBytes
+  id: DedicatedVideoMemoryBytes
+  parent: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+  langs:
+  - csharp
+  - vb
+  name: DedicatedVideoMemoryBytes
+  nameWithType: NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryBytes
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryBytes
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: DedicatedVideoMemoryBytes
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2675
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public ulong DedicatedVideoMemoryBytes { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property DedicatedVideoMemoryBytes As ULong
+  overload: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryBytes*
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.AvailableDedicatedVideoMemoryBytes
+  commentId: P:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.AvailableDedicatedVideoMemoryBytes
+  id: AvailableDedicatedVideoMemoryBytes
+  parent: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+  langs:
+  - csharp
+  - vb
+  name: AvailableDedicatedVideoMemoryBytes
+  nameWithType: NVAPIGpuMemoryInfoExDto.AvailableDedicatedVideoMemoryBytes
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.AvailableDedicatedVideoMemoryBytes
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AvailableDedicatedVideoMemoryBytes
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2676
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public ulong AvailableDedicatedVideoMemoryBytes { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property AvailableDedicatedVideoMemoryBytes As ULong
+  overload: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.AvailableDedicatedVideoMemoryBytes*
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.SystemVideoMemoryBytes
+  commentId: P:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.SystemVideoMemoryBytes
+  id: SystemVideoMemoryBytes
+  parent: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+  langs:
+  - csharp
+  - vb
+  name: SystemVideoMemoryBytes
+  nameWithType: NVAPIGpuMemoryInfoExDto.SystemVideoMemoryBytes
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.SystemVideoMemoryBytes
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SystemVideoMemoryBytes
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2677
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public ulong SystemVideoMemoryBytes { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property SystemVideoMemoryBytes As ULong
+  overload: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.SystemVideoMemoryBytes*
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.SharedSystemMemoryBytes
+  commentId: P:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.SharedSystemMemoryBytes
+  id: SharedSystemMemoryBytes
+  parent: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+  langs:
+  - csharp
+  - vb
+  name: SharedSystemMemoryBytes
+  nameWithType: NVAPIGpuMemoryInfoExDto.SharedSystemMemoryBytes
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.SharedSystemMemoryBytes
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SharedSystemMemoryBytes
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2678
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public ulong SharedSystemMemoryBytes { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property SharedSystemMemoryBytes As ULong
+  overload: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.SharedSystemMemoryBytes*
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.CurrentAvailableDedicatedVideoMemoryBytes
+  commentId: P:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.CurrentAvailableDedicatedVideoMemoryBytes
+  id: CurrentAvailableDedicatedVideoMemoryBytes
+  parent: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+  langs:
+  - csharp
+  - vb
+  name: CurrentAvailableDedicatedVideoMemoryBytes
+  nameWithType: NVAPIGpuMemoryInfoExDto.CurrentAvailableDedicatedVideoMemoryBytes
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.CurrentAvailableDedicatedVideoMemoryBytes
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CurrentAvailableDedicatedVideoMemoryBytes
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2679
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public ulong CurrentAvailableDedicatedVideoMemoryBytes { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property CurrentAvailableDedicatedVideoMemoryBytes As ULong
+  overload: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.CurrentAvailableDedicatedVideoMemoryBytes*
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryEvictionsSizeBytes
+  commentId: P:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryEvictionsSizeBytes
+  id: DedicatedVideoMemoryEvictionsSizeBytes
+  parent: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+  langs:
+  - csharp
+  - vb
+  name: DedicatedVideoMemoryEvictionsSizeBytes
+  nameWithType: NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryEvictionsSizeBytes
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryEvictionsSizeBytes
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: DedicatedVideoMemoryEvictionsSizeBytes
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2680
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public ulong DedicatedVideoMemoryEvictionsSizeBytes { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property DedicatedVideoMemoryEvictionsSizeBytes As ULong
+  overload: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryEvictionsSizeBytes*
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryEvictionCount
+  commentId: P:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryEvictionCount
+  id: DedicatedVideoMemoryEvictionCount
+  parent: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+  langs:
+  - csharp
+  - vb
+  name: DedicatedVideoMemoryEvictionCount
+  nameWithType: NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryEvictionCount
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryEvictionCount
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: DedicatedVideoMemoryEvictionCount
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2681
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public ulong DedicatedVideoMemoryEvictionCount { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property DedicatedVideoMemoryEvictionCount As ULong
+  overload: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryEvictionCount*
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryPromotionsSizeBytes
+  commentId: P:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryPromotionsSizeBytes
+  id: DedicatedVideoMemoryPromotionsSizeBytes
+  parent: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+  langs:
+  - csharp
+  - vb
+  name: DedicatedVideoMemoryPromotionsSizeBytes
+  nameWithType: NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryPromotionsSizeBytes
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryPromotionsSizeBytes
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: DedicatedVideoMemoryPromotionsSizeBytes
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2682
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public ulong DedicatedVideoMemoryPromotionsSizeBytes { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property DedicatedVideoMemoryPromotionsSizeBytes As ULong
+  overload: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryPromotionsSizeBytes*
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryPromotionCount
+  commentId: P:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryPromotionCount
+  id: DedicatedVideoMemoryPromotionCount
+  parent: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+  langs:
+  - csharp
+  - vb
+  name: DedicatedVideoMemoryPromotionCount
+  nameWithType: NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryPromotionCount
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryPromotionCount
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: DedicatedVideoMemoryPromotionCount
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2683
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public ulong DedicatedVideoMemoryPromotionCount { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property DedicatedVideoMemoryPromotionCount As ULong
+  overload: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryPromotionCount*
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.#ctor(System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64)
+  commentId: M:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.#ctor(System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64)
+  id: '#ctor(System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64)'
+  parent: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGpuMemoryInfoExDto(ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong)
+  nameWithType: NVAPIGpuMemoryInfoExDto.NVAPIGpuMemoryInfoExDto(ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong)
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.NVAPIGpuMemoryInfoExDto(ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong)
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2685
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NVAPIGpuMemoryInfoExDto(ulong dedicatedVideoMemoryBytes, ulong availableDedicatedVideoMemoryBytes, ulong systemVideoMemoryBytes, ulong sharedSystemMemoryBytes, ulong currentAvailableDedicatedVideoMemoryBytes, ulong dedicatedVideoMemoryEvictionsSizeBytes, ulong dedicatedVideoMemoryEvictionCount, ulong dedicatedVideoMemoryPromotionsSizeBytes, ulong dedicatedVideoMemoryPromotionCount)
+    parameters:
+    - id: dedicatedVideoMemoryBytes
+      type: System.UInt64
+    - id: availableDedicatedVideoMemoryBytes
+      type: System.UInt64
+    - id: systemVideoMemoryBytes
+      type: System.UInt64
+    - id: sharedSystemMemoryBytes
+      type: System.UInt64
+    - id: currentAvailableDedicatedVideoMemoryBytes
+      type: System.UInt64
+    - id: dedicatedVideoMemoryEvictionsSizeBytes
+      type: System.UInt64
+    - id: dedicatedVideoMemoryEvictionCount
+      type: System.UInt64
+    - id: dedicatedVideoMemoryPromotionsSizeBytes
+      type: System.UInt64
+    - id: dedicatedVideoMemoryPromotionCount
+      type: System.UInt64
+    content.vb: Public Sub New(dedicatedVideoMemoryBytes As ULong, availableDedicatedVideoMemoryBytes As ULong, systemVideoMemoryBytes As ULong, sharedSystemMemoryBytes As ULong, currentAvailableDedicatedVideoMemoryBytes As ULong, dedicatedVideoMemoryEvictionsSizeBytes As ULong, dedicatedVideoMemoryEvictionCount As ULong, dedicatedVideoMemoryPromotionsSizeBytes As ULong, dedicatedVideoMemoryPromotionCount As ULong)
+  overload: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.#ctor*
+  nameWithType.vb: NVAPIGpuMemoryInfoExDto.New(ULong, ULong, ULong, ULong, ULong, ULong, ULong, ULong, ULong)
+  fullName.vb: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.New(ULong, ULong, ULong, ULong, ULong, ULong, ULong, ULong, ULong)
+  name.vb: New(ULong, ULong, ULong, ULong, ULong, ULong, ULong, ULong, ULong)
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.FromNative(NVAPIWrapper.NV_GPU_MEMORY_INFO_EX_V1)
+  commentId: M:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.FromNative(NVAPIWrapper.NV_GPU_MEMORY_INFO_EX_V1)
+  id: FromNative(NVAPIWrapper.NV_GPU_MEMORY_INFO_EX_V1)
+  parent: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(NV_GPU_MEMORY_INFO_EX_V1)
+  nameWithType: NVAPIGpuMemoryInfoExDto.FromNative(NV_GPU_MEMORY_INFO_EX_V1)
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.FromNative(NVAPIWrapper.NV_GPU_MEMORY_INFO_EX_V1)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2707
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static NVAPIGpuMemoryInfoExDto FromNative(NV_GPU_MEMORY_INFO_EX_V1 native)
+    parameters:
+    - id: native
+      type: NVAPIWrapper.NV_GPU_MEMORY_INFO_EX_V1
+    return:
+      type: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+    content.vb: Public Shared Function FromNative(native As NV_GPU_MEMORY_INFO_EX_V1) As NVAPIGpuMemoryInfoExDto
+  overload: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.FromNative*
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.ToNative
+  commentId: M:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.ToNative
+  id: ToNative
+  parent: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: NVAPIGpuMemoryInfoExDto.ToNative()
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2721
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NV_GPU_MEMORY_INFO_EX_V1 ToNative()
+    return:
+      type: NVAPIWrapper.NV_GPU_MEMORY_INFO_EX_V1
+    content.vb: Public Function ToNative() As NV_GPU_MEMORY_INFO_EX_V1
+  overload: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.ToNative*
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.Equals(NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.Equals(NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+  id: Equals(NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+  parent: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIGpuMemoryInfoExDto)
+  nameWithType: NVAPIGpuMemoryInfoExDto.Equals(NVAPIGpuMemoryInfoExDto)
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.Equals(NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2738
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIGpuMemoryInfoExDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As NVAPIGpuMemoryInfoExDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGpuMemoryInfoExDto}.Equals(NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIGpuMemoryInfoExDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2751
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.Equals*
+  nameWithType.vb: NVAPIGpuMemoryInfoExDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIGpuMemoryInfoExDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2753
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.op_Equality(NVAPIWrapper.NVAPIGpuMemoryInfoExDto,NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.op_Equality(NVAPIWrapper.NVAPIGpuMemoryInfoExDto,NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+  id: op_Equality(NVAPIWrapper.NVAPIGpuMemoryInfoExDto,NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+  parent: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIGpuMemoryInfoExDto, NVAPIGpuMemoryInfoExDto)
+  nameWithType: NVAPIGpuMemoryInfoExDto.operator ==(NVAPIGpuMemoryInfoExDto, NVAPIGpuMemoryInfoExDto)
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.operator ==(NVAPIWrapper.NVAPIGpuMemoryInfoExDto, NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2770
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static bool operator ==(NVAPIGpuMemoryInfoExDto left, NVAPIGpuMemoryInfoExDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+    - id: right
+      type: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As NVAPIGpuMemoryInfoExDto, right As NVAPIGpuMemoryInfoExDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.op_Equality*
+  nameWithType.vb: NVAPIGpuMemoryInfoExDto.=(NVAPIGpuMemoryInfoExDto, NVAPIGpuMemoryInfoExDto)
+  fullName.vb: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.=(NVAPIWrapper.NVAPIGpuMemoryInfoExDto, NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+  name.vb: =(NVAPIGpuMemoryInfoExDto, NVAPIGpuMemoryInfoExDto)
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.op_Inequality(NVAPIWrapper.NVAPIGpuMemoryInfoExDto,NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.op_Inequality(NVAPIWrapper.NVAPIGpuMemoryInfoExDto,NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIGpuMemoryInfoExDto,NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+  parent: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIGpuMemoryInfoExDto, NVAPIGpuMemoryInfoExDto)
+  nameWithType: NVAPIGpuMemoryInfoExDto.operator !=(NVAPIGpuMemoryInfoExDto, NVAPIGpuMemoryInfoExDto)
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.operator !=(NVAPIWrapper.NVAPIGpuMemoryInfoExDto, NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2771
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static bool operator !=(NVAPIGpuMemoryInfoExDto left, NVAPIGpuMemoryInfoExDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+    - id: right
+      type: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As NVAPIGpuMemoryInfoExDto, right As NVAPIGpuMemoryInfoExDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.op_Inequality*
+  nameWithType.vb: NVAPIGpuMemoryInfoExDto.<>(NVAPIGpuMemoryInfoExDto, NVAPIGpuMemoryInfoExDto)
+  fullName.vb: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.<>(NVAPIWrapper.NVAPIGpuMemoryInfoExDto, NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+  name.vb: <>(NVAPIGpuMemoryInfoExDto, NVAPIGpuMemoryInfoExDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGpuMemoryInfoExDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIGpuMemoryInfoExDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIGpuMemoryInfoExDto>
+  nameWithType: IEquatable<NVAPIGpuMemoryInfoExDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGpuMemoryInfoExDto>
+  nameWithType.vb: IEquatable(Of NVAPIGpuMemoryInfoExDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+  name.vb: IEquatable(Of NVAPIGpuMemoryInfoExDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+    name: NVAPIGpuMemoryInfoExDto
+    href: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+    name: NVAPIGpuMemoryInfoExDto
+    href: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryBytes*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryBytes
+  href: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.html#NVAPIWrapper_NVAPIGpuMemoryInfoExDto_DedicatedVideoMemoryBytes
+  name: DedicatedVideoMemoryBytes
+  nameWithType: NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryBytes
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryBytes
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.AvailableDedicatedVideoMemoryBytes*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.AvailableDedicatedVideoMemoryBytes
+  href: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.html#NVAPIWrapper_NVAPIGpuMemoryInfoExDto_AvailableDedicatedVideoMemoryBytes
+  name: AvailableDedicatedVideoMemoryBytes
+  nameWithType: NVAPIGpuMemoryInfoExDto.AvailableDedicatedVideoMemoryBytes
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.AvailableDedicatedVideoMemoryBytes
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.SystemVideoMemoryBytes*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.SystemVideoMemoryBytes
+  href: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.html#NVAPIWrapper_NVAPIGpuMemoryInfoExDto_SystemVideoMemoryBytes
+  name: SystemVideoMemoryBytes
+  nameWithType: NVAPIGpuMemoryInfoExDto.SystemVideoMemoryBytes
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.SystemVideoMemoryBytes
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.SharedSystemMemoryBytes*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.SharedSystemMemoryBytes
+  href: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.html#NVAPIWrapper_NVAPIGpuMemoryInfoExDto_SharedSystemMemoryBytes
+  name: SharedSystemMemoryBytes
+  nameWithType: NVAPIGpuMemoryInfoExDto.SharedSystemMemoryBytes
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.SharedSystemMemoryBytes
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.CurrentAvailableDedicatedVideoMemoryBytes*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.CurrentAvailableDedicatedVideoMemoryBytes
+  href: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.html#NVAPIWrapper_NVAPIGpuMemoryInfoExDto_CurrentAvailableDedicatedVideoMemoryBytes
+  name: CurrentAvailableDedicatedVideoMemoryBytes
+  nameWithType: NVAPIGpuMemoryInfoExDto.CurrentAvailableDedicatedVideoMemoryBytes
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.CurrentAvailableDedicatedVideoMemoryBytes
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryEvictionsSizeBytes*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryEvictionsSizeBytes
+  href: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.html#NVAPIWrapper_NVAPIGpuMemoryInfoExDto_DedicatedVideoMemoryEvictionsSizeBytes
+  name: DedicatedVideoMemoryEvictionsSizeBytes
+  nameWithType: NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryEvictionsSizeBytes
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryEvictionsSizeBytes
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryEvictionCount*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryEvictionCount
+  href: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.html#NVAPIWrapper_NVAPIGpuMemoryInfoExDto_DedicatedVideoMemoryEvictionCount
+  name: DedicatedVideoMemoryEvictionCount
+  nameWithType: NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryEvictionCount
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryEvictionCount
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryPromotionsSizeBytes*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryPromotionsSizeBytes
+  href: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.html#NVAPIWrapper_NVAPIGpuMemoryInfoExDto_DedicatedVideoMemoryPromotionsSizeBytes
+  name: DedicatedVideoMemoryPromotionsSizeBytes
+  nameWithType: NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryPromotionsSizeBytes
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryPromotionsSizeBytes
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryPromotionCount*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryPromotionCount
+  href: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.html#NVAPIWrapper_NVAPIGpuMemoryInfoExDto_DedicatedVideoMemoryPromotionCount
+  name: DedicatedVideoMemoryPromotionCount
+  nameWithType: NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryPromotionCount
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.DedicatedVideoMemoryPromotionCount
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.#ctor
+  href: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.html#NVAPIWrapper_NVAPIGpuMemoryInfoExDto__ctor_System_UInt64_System_UInt64_System_UInt64_System_UInt64_System_UInt64_System_UInt64_System_UInt64_System_UInt64_System_UInt64_
+  name: NVAPIGpuMemoryInfoExDto
+  nameWithType: NVAPIGpuMemoryInfoExDto.NVAPIGpuMemoryInfoExDto
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.NVAPIGpuMemoryInfoExDto
+  nameWithType.vb: NVAPIGpuMemoryInfoExDto.New
+  fullName.vb: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.FromNative
+  href: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.html#NVAPIWrapper_NVAPIGpuMemoryInfoExDto_FromNative_NVAPIWrapper_NV_GPU_MEMORY_INFO_EX_V1_
+  name: FromNative
+  nameWithType: NVAPIGpuMemoryInfoExDto.FromNative
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.FromNative
+- uid: NVAPIWrapper.NV_GPU_MEMORY_INFO_EX_V1
+  commentId: T:NVAPIWrapper.NV_GPU_MEMORY_INFO_EX_V1
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_GPU_MEMORY_INFO_EX_V1.html
+  name: NV_GPU_MEMORY_INFO_EX_V1
+  nameWithType: NV_GPU_MEMORY_INFO_EX_V1
+  fullName: NVAPIWrapper.NV_GPU_MEMORY_INFO_EX_V1
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+  commentId: T:NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.html
+  name: NVAPIGpuMemoryInfoExDto
+  nameWithType: NVAPIGpuMemoryInfoExDto
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.ToNative
+  href: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.html#NVAPIWrapper_NVAPIGpuMemoryInfoExDto_ToNative
+  name: ToNative
+  nameWithType: NVAPIGpuMemoryInfoExDto.ToNative
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.ToNative
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.Equals
+  href: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.html#NVAPIWrapper_NVAPIGpuMemoryInfoExDto_Equals_NVAPIWrapper_NVAPIGpuMemoryInfoExDto_
+  name: Equals
+  nameWithType: NVAPIGpuMemoryInfoExDto.Equals
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGpuMemoryInfoExDto}.Equals(NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIGpuMemoryInfoExDto}.Equals(NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIGpuMemoryInfoExDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIGpuMemoryInfoExDto)
+  nameWithType: IEquatable<NVAPIGpuMemoryInfoExDto>.Equals(NVAPIGpuMemoryInfoExDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGpuMemoryInfoExDto>.Equals(NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+  nameWithType.vb: IEquatable(Of NVAPIGpuMemoryInfoExDto).Equals(NVAPIGpuMemoryInfoExDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGpuMemoryInfoExDto).Equals(NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGpuMemoryInfoExDto}.Equals(NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+    name: NVAPIGpuMemoryInfoExDto
+    href: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGpuMemoryInfoExDto}.Equals(NVAPIWrapper.NVAPIGpuMemoryInfoExDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto
+    name: NVAPIGpuMemoryInfoExDto
+    href: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.html
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.GetHashCode
+  href: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.html#NVAPIWrapper_NVAPIGpuMemoryInfoExDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIGpuMemoryInfoExDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.op_Equality
+  href: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.html#NVAPIWrapper_NVAPIGpuMemoryInfoExDto_op_Equality_NVAPIWrapper_NVAPIGpuMemoryInfoExDto_NVAPIWrapper_NVAPIGpuMemoryInfoExDto_
+  name: operator ==
+  nameWithType: NVAPIGpuMemoryInfoExDto.operator ==
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.operator ==
+  nameWithType.vb: NVAPIGpuMemoryInfoExDto.=
+  fullName.vb: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.html#NVAPIWrapper_NVAPIGpuMemoryInfoExDto_op_Equality_NVAPIWrapper_NVAPIGpuMemoryInfoExDto_NVAPIWrapper_NVAPIGpuMemoryInfoExDto_
+- uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuMemoryInfoExDto.op_Inequality
+  href: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.html#NVAPIWrapper_NVAPIGpuMemoryInfoExDto_op_Inequality_NVAPIWrapper_NVAPIGpuMemoryInfoExDto_NVAPIWrapper_NVAPIGpuMemoryInfoExDto_
+  name: operator !=
+  nameWithType: NVAPIGpuMemoryInfoExDto.operator !=
+  fullName: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.operator !=
+  nameWithType.vb: NVAPIGpuMemoryInfoExDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIGpuMemoryInfoExDto.html#NVAPIWrapper_NVAPIGpuMemoryInfoExDto_op_Inequality_NVAPIWrapper_NVAPIGpuMemoryInfoExDto_NVAPIWrapper_NVAPIGpuMemoryInfoExDto_

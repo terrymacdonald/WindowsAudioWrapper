@@ -1,0 +1,323 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_RISE_CONTENT_TYPE
+  commentId: T:NVAPIWrapper._NV_RISE_CONTENT_TYPE
+  id: _NV_RISE_CONTENT_TYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_CUSTOM_BEHAVIOR
+  - NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_CUSTOM_BEHAVIOR_RESULT
+  - NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_DOWNLOAD_REQUEST
+  - NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_GRAPH
+  - NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_INSTALLING
+  - NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_INVALID
+  - NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_PROGRESS_UPDATE
+  - NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_READY
+  - NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_TEXT
+  - NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_UPDATE_INFO
+  langs:
+  - csharp
+  - vb
+  name: _NV_RISE_CONTENT_TYPE
+  nameWithType: _NV_RISE_CONTENT_TYPE
+  fullName: NVAPIWrapper._NV_RISE_CONTENT_TYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_RISE_CONTENT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_RISE_CONTENT_TYPE
+    path: ../NVAPIWrapper/cs_generated/_NV_RISE_CONTENT_TYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_RISE_CONTENT_TYPE
+    content.vb: Public Enum _NV_RISE_CONTENT_TYPE
+- uid: NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_INVALID
+  commentId: F:NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_INVALID
+  id: NV_RISE_CONTENT_TYPE_INVALID
+  parent: NVAPIWrapper._NV_RISE_CONTENT_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_RISE_CONTENT_TYPE_INVALID
+  nameWithType: _NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_INVALID
+  fullName: NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_INVALID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_RISE_CONTENT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_RISE_CONTENT_TYPE_INVALID
+    path: ../NVAPIWrapper/cs_generated/_NV_RISE_CONTENT_TYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_RISE_CONTENT_TYPE_INVALID = 0
+    return:
+      type: NVAPIWrapper._NV_RISE_CONTENT_TYPE
+- uid: NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_TEXT
+  commentId: F:NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_TEXT
+  id: NV_RISE_CONTENT_TYPE_TEXT
+  parent: NVAPIWrapper._NV_RISE_CONTENT_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_RISE_CONTENT_TYPE_TEXT
+  nameWithType: _NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_TEXT
+  fullName: NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_TEXT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_RISE_CONTENT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_RISE_CONTENT_TYPE_TEXT
+    path: ../NVAPIWrapper/cs_generated/_NV_RISE_CONTENT_TYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_RISE_CONTENT_TYPE_TEXT = 1
+    return:
+      type: NVAPIWrapper._NV_RISE_CONTENT_TYPE
+- uid: NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_GRAPH
+  commentId: F:NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_GRAPH
+  id: NV_RISE_CONTENT_TYPE_GRAPH
+  parent: NVAPIWrapper._NV_RISE_CONTENT_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_RISE_CONTENT_TYPE_GRAPH
+  nameWithType: _NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_GRAPH
+  fullName: NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_GRAPH
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_RISE_CONTENT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_RISE_CONTENT_TYPE_GRAPH
+    path: ../NVAPIWrapper/cs_generated/_NV_RISE_CONTENT_TYPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_RISE_CONTENT_TYPE_GRAPH = 2
+    return:
+      type: NVAPIWrapper._NV_RISE_CONTENT_TYPE
+- uid: NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_CUSTOM_BEHAVIOR
+  commentId: F:NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_CUSTOM_BEHAVIOR
+  id: NV_RISE_CONTENT_TYPE_CUSTOM_BEHAVIOR
+  parent: NVAPIWrapper._NV_RISE_CONTENT_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_RISE_CONTENT_TYPE_CUSTOM_BEHAVIOR
+  nameWithType: _NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_CUSTOM_BEHAVIOR
+  fullName: NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_CUSTOM_BEHAVIOR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_RISE_CONTENT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_RISE_CONTENT_TYPE_CUSTOM_BEHAVIOR
+    path: ../NVAPIWrapper/cs_generated/_NV_RISE_CONTENT_TYPE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_RISE_CONTENT_TYPE_CUSTOM_BEHAVIOR = 3
+    return:
+      type: NVAPIWrapper._NV_RISE_CONTENT_TYPE
+- uid: NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_CUSTOM_BEHAVIOR_RESULT
+  commentId: F:NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_CUSTOM_BEHAVIOR_RESULT
+  id: NV_RISE_CONTENT_TYPE_CUSTOM_BEHAVIOR_RESULT
+  parent: NVAPIWrapper._NV_RISE_CONTENT_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_RISE_CONTENT_TYPE_CUSTOM_BEHAVIOR_RESULT
+  nameWithType: _NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_CUSTOM_BEHAVIOR_RESULT
+  fullName: NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_CUSTOM_BEHAVIOR_RESULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_RISE_CONTENT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_RISE_CONTENT_TYPE_CUSTOM_BEHAVIOR_RESULT
+    path: ../NVAPIWrapper/cs_generated/_NV_RISE_CONTENT_TYPE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_RISE_CONTENT_TYPE_CUSTOM_BEHAVIOR_RESULT = 4
+    return:
+      type: NVAPIWrapper._NV_RISE_CONTENT_TYPE
+- uid: NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_INSTALLING
+  commentId: F:NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_INSTALLING
+  id: NV_RISE_CONTENT_TYPE_INSTALLING
+  parent: NVAPIWrapper._NV_RISE_CONTENT_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_RISE_CONTENT_TYPE_INSTALLING
+  nameWithType: _NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_INSTALLING
+  fullName: NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_INSTALLING
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_RISE_CONTENT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_RISE_CONTENT_TYPE_INSTALLING
+    path: ../NVAPIWrapper/cs_generated/_NV_RISE_CONTENT_TYPE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_RISE_CONTENT_TYPE_INSTALLING = 5
+    return:
+      type: NVAPIWrapper._NV_RISE_CONTENT_TYPE
+- uid: NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_PROGRESS_UPDATE
+  commentId: F:NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_PROGRESS_UPDATE
+  id: NV_RISE_CONTENT_TYPE_PROGRESS_UPDATE
+  parent: NVAPIWrapper._NV_RISE_CONTENT_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_RISE_CONTENT_TYPE_PROGRESS_UPDATE
+  nameWithType: _NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_PROGRESS_UPDATE
+  fullName: NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_PROGRESS_UPDATE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_RISE_CONTENT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_RISE_CONTENT_TYPE_PROGRESS_UPDATE
+    path: ../NVAPIWrapper/cs_generated/_NV_RISE_CONTENT_TYPE.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_RISE_CONTENT_TYPE_PROGRESS_UPDATE = 6
+    return:
+      type: NVAPIWrapper._NV_RISE_CONTENT_TYPE
+- uid: NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_READY
+  commentId: F:NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_READY
+  id: NV_RISE_CONTENT_TYPE_READY
+  parent: NVAPIWrapper._NV_RISE_CONTENT_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_RISE_CONTENT_TYPE_READY
+  nameWithType: _NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_READY
+  fullName: NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_READY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_RISE_CONTENT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_RISE_CONTENT_TYPE_READY
+    path: ../NVAPIWrapper/cs_generated/_NV_RISE_CONTENT_TYPE.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_RISE_CONTENT_TYPE_READY = 7
+    return:
+      type: NVAPIWrapper._NV_RISE_CONTENT_TYPE
+- uid: NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_DOWNLOAD_REQUEST
+  commentId: F:NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_DOWNLOAD_REQUEST
+  id: NV_RISE_CONTENT_TYPE_DOWNLOAD_REQUEST
+  parent: NVAPIWrapper._NV_RISE_CONTENT_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_RISE_CONTENT_TYPE_DOWNLOAD_REQUEST
+  nameWithType: _NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_DOWNLOAD_REQUEST
+  fullName: NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_DOWNLOAD_REQUEST
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_RISE_CONTENT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_RISE_CONTENT_TYPE_DOWNLOAD_REQUEST
+    path: ../NVAPIWrapper/cs_generated/_NV_RISE_CONTENT_TYPE.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_RISE_CONTENT_TYPE_DOWNLOAD_REQUEST = 8
+    return:
+      type: NVAPIWrapper._NV_RISE_CONTENT_TYPE
+- uid: NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_UPDATE_INFO
+  commentId: F:NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_UPDATE_INFO
+  id: NV_RISE_CONTENT_TYPE_UPDATE_INFO
+  parent: NVAPIWrapper._NV_RISE_CONTENT_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_RISE_CONTENT_TYPE_UPDATE_INFO
+  nameWithType: _NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_UPDATE_INFO
+  fullName: NVAPIWrapper._NV_RISE_CONTENT_TYPE.NV_RISE_CONTENT_TYPE_UPDATE_INFO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_RISE_CONTENT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_RISE_CONTENT_TYPE_UPDATE_INFO
+    path: ../NVAPIWrapper/cs_generated/_NV_RISE_CONTENT_TYPE.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_RISE_CONTENT_TYPE_UPDATE_INFO = 9
+    return:
+      type: NVAPIWrapper._NV_RISE_CONTENT_TYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_RISE_CONTENT_TYPE
+  commentId: T:NVAPIWrapper._NV_RISE_CONTENT_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_RISE_CONTENT_TYPE.html
+  name: _NV_RISE_CONTENT_TYPE
+  nameWithType: _NV_RISE_CONTENT_TYPE
+  fullName: NVAPIWrapper._NV_RISE_CONTENT_TYPE

@@ -1,0 +1,295 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_VSYNCMODE
+  commentId: T:NVAPIWrapper.EValues_VSYNCMODE
+  id: EValues_VSYNCMODE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_DEFAULT
+  - NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_FLIPINTERVAL2
+  - NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_FLIPINTERVAL3
+  - NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_FLIPINTERVAL4
+  - NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_FORCEOFF
+  - NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_FORCEON
+  - NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_NUM_VALUES
+  - NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_PASSIVE
+  - NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_VIRTUAL
+  langs:
+  - csharp
+  - vb
+  name: EValues_VSYNCMODE
+  nameWithType: EValues_VSYNCMODE
+  fullName: NVAPIWrapper.EValues_VSYNCMODE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCMODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_VSYNCMODE
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCMODE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_VSYNCMODE
+    content.vb: Public Enum EValues_VSYNCMODE
+- uid: NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_PASSIVE
+  commentId: F:NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_PASSIVE
+  id: VSYNCMODE_PASSIVE
+  parent: NVAPIWrapper.EValues_VSYNCMODE
+  langs:
+  - csharp
+  - vb
+  name: VSYNCMODE_PASSIVE
+  nameWithType: EValues_VSYNCMODE.VSYNCMODE_PASSIVE
+  fullName: NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_PASSIVE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCMODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCMODE_PASSIVE
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCMODE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCMODE_PASSIVE = 1620202130
+    return:
+      type: NVAPIWrapper.EValues_VSYNCMODE
+- uid: NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_FORCEOFF
+  commentId: F:NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_FORCEOFF
+  id: VSYNCMODE_FORCEOFF
+  parent: NVAPIWrapper.EValues_VSYNCMODE
+  langs:
+  - csharp
+  - vb
+  name: VSYNCMODE_FORCEOFF
+  nameWithType: EValues_VSYNCMODE.VSYNCMODE_FORCEOFF
+  fullName: NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_FORCEOFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCMODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCMODE_FORCEOFF
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCMODE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCMODE_FORCEOFF = 138504007
+    return:
+      type: NVAPIWrapper.EValues_VSYNCMODE
+- uid: NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_FORCEON
+  commentId: F:NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_FORCEON
+  id: VSYNCMODE_FORCEON
+  parent: NVAPIWrapper.EValues_VSYNCMODE
+  langs:
+  - csharp
+  - vb
+  name: VSYNCMODE_FORCEON
+  nameWithType: EValues_VSYNCMODE.VSYNCMODE_FORCEON
+  fullName: NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_FORCEON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCMODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCMODE_FORCEON
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCMODE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCMODE_FORCEON = 1199655232
+    return:
+      type: NVAPIWrapper.EValues_VSYNCMODE
+- uid: NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_FLIPINTERVAL2
+  commentId: F:NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_FLIPINTERVAL2
+  id: VSYNCMODE_FLIPINTERVAL2
+  parent: NVAPIWrapper.EValues_VSYNCMODE
+  langs:
+  - csharp
+  - vb
+  name: VSYNCMODE_FLIPINTERVAL2
+  nameWithType: EValues_VSYNCMODE.VSYNCMODE_FLIPINTERVAL2
+  fullName: NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_FLIPINTERVAL2
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCMODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCMODE_FLIPINTERVAL2
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCMODE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCMODE_FLIPINTERVAL2 = 845218372
+    return:
+      type: NVAPIWrapper.EValues_VSYNCMODE
+- uid: NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_FLIPINTERVAL3
+  commentId: F:NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_FLIPINTERVAL3
+  id: VSYNCMODE_FLIPINTERVAL3
+  parent: NVAPIWrapper.EValues_VSYNCMODE
+  langs:
+  - csharp
+  - vb
+  name: VSYNCMODE_FLIPINTERVAL3
+  nameWithType: EValues_VSYNCMODE.VSYNCMODE_FLIPINTERVAL3
+  fullName: NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_FLIPINTERVAL3
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCMODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCMODE_FLIPINTERVAL3
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCMODE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCMODE_FLIPINTERVAL3 = 1898385441
+    return:
+      type: NVAPIWrapper.EValues_VSYNCMODE
+- uid: NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_FLIPINTERVAL4
+  commentId: F:NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_FLIPINTERVAL4
+  id: VSYNCMODE_FLIPINTERVAL4
+  parent: NVAPIWrapper.EValues_VSYNCMODE
+  langs:
+  - csharp
+  - vb
+  name: VSYNCMODE_FLIPINTERVAL4
+  nameWithType: EValues_VSYNCMODE.VSYNCMODE_FLIPINTERVAL4
+  fullName: NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_FLIPINTERVAL4
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCMODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCMODE_FLIPINTERVAL4
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCMODE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCMODE_FLIPINTERVAL4 = 321147478
+    return:
+      type: NVAPIWrapper.EValues_VSYNCMODE
+- uid: NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_VIRTUAL
+  commentId: F:NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_VIRTUAL
+  id: VSYNCMODE_VIRTUAL
+  parent: NVAPIWrapper.EValues_VSYNCMODE
+  langs:
+  - csharp
+  - vb
+  name: VSYNCMODE_VIRTUAL
+  nameWithType: EValues_VSYNCMODE.VSYNCMODE_VIRTUAL
+  fullName: NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_VIRTUAL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCMODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCMODE_VIRTUAL
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCMODE.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCMODE_VIRTUAL = 411601032
+    return:
+      type: NVAPIWrapper.EValues_VSYNCMODE
+- uid: NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_NUM_VALUES
+  id: VSYNCMODE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_VSYNCMODE
+  langs:
+  - csharp
+  - vb
+  name: VSYNCMODE_NUM_VALUES
+  nameWithType: EValues_VSYNCMODE.VSYNCMODE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCMODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCMODE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCMODE.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCMODE_NUM_VALUES = 7
+    return:
+      type: NVAPIWrapper.EValues_VSYNCMODE
+- uid: NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_DEFAULT
+  id: VSYNCMODE_DEFAULT
+  parent: NVAPIWrapper.EValues_VSYNCMODE
+  langs:
+  - csharp
+  - vb
+  name: VSYNCMODE_DEFAULT
+  nameWithType: EValues_VSYNCMODE.VSYNCMODE_DEFAULT
+  fullName: NVAPIWrapper.EValues_VSYNCMODE.VSYNCMODE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCMODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCMODE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCMODE.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCMODE_DEFAULT = 1620202130
+    return:
+      type: NVAPIWrapper.EValues_VSYNCMODE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_VSYNCMODE
+  commentId: T:NVAPIWrapper.EValues_VSYNCMODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_VSYNCMODE.html
+  name: EValues_VSYNCMODE
+  nameWithType: EValues_VSYNCMODE
+  fullName: NVAPIWrapper.EValues_VSYNCMODE

@@ -1,0 +1,690 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1
+  commentId: T:NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1
+  id: _NV_HDMI_SUPPORT_INFO_V1
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.EDID861ExtRev
+  - NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1._bitfield
+  - NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isGpuHDMICapable
+  - NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonBasicAudioCapable
+  - NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonHDMI
+  - NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonUnderscanCapable
+  - NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonYCbCr422Capable
+  - NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonYCbCr444Capable
+  - NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonxvYCC601Capable
+  - NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonxvYCC709Capable
+  - NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.reserved
+  - NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.version
+  langs:
+  - csharp
+  - vb
+  name: _NV_HDMI_SUPPORT_INFO_V1
+  nameWithType: _NV_HDMI_SUPPORT_INFO_V1
+  fullName: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_HDMI_SUPPORT_INFO_V1
+    path: ../NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NV_HDMI_SUPPORT_INFO_V1
+    content.vb: Public Structure _NV_HDMI_SUPPORT_INFO_V1
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.version
+  commentId: F:NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.version
+  id: version
+  parent: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: _NV_HDMI_SUPPORT_INFO_V1.version
+  fullName: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.version
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: version
+    path: ../NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+    startLine: 7
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint version
+    return:
+      type: System.UInt32
+    content.vb: Public version As UInteger
+- uid: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1._bitfield
+  commentId: F:NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1._bitfield
+  id: _bitfield
+  parent: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: _bitfield
+  nameWithType: _NV_HDMI_SUPPORT_INFO_V1._bitfield
+  fullName: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1._bitfield
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield
+    path: ../NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield As UInteger
+- uid: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isGpuHDMICapable
+  commentId: P:NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isGpuHDMICapable
+  id: isGpuHDMICapable
+  parent: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isGpuHDMICapable
+  nameWithType: _NV_HDMI_SUPPORT_INFO_V1.isGpuHDMICapable
+  fullName: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isGpuHDMICapable
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isGpuHDMICapable
+    path: ../NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isGpuHDMICapable { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isGpuHDMICapable As UInteger
+  overload: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isGpuHDMICapable*
+- uid: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonUnderscanCapable
+  commentId: P:NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonUnderscanCapable
+  id: isMonUnderscanCapable
+  parent: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isMonUnderscanCapable
+  nameWithType: _NV_HDMI_SUPPORT_INFO_V1.isMonUnderscanCapable
+  fullName: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonUnderscanCapable
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isMonUnderscanCapable
+    path: ../NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isMonUnderscanCapable { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isMonUnderscanCapable As UInteger
+  overload: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonUnderscanCapable*
+- uid: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonBasicAudioCapable
+  commentId: P:NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonBasicAudioCapable
+  id: isMonBasicAudioCapable
+  parent: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isMonBasicAudioCapable
+  nameWithType: _NV_HDMI_SUPPORT_INFO_V1.isMonBasicAudioCapable
+  fullName: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonBasicAudioCapable
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isMonBasicAudioCapable
+    path: ../NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+    startLine: 42
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isMonBasicAudioCapable { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isMonBasicAudioCapable As UInteger
+  overload: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonBasicAudioCapable*
+- uid: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonYCbCr444Capable
+  commentId: P:NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonYCbCr444Capable
+  id: isMonYCbCr444Capable
+  parent: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isMonYCbCr444Capable
+  nameWithType: _NV_HDMI_SUPPORT_INFO_V1.isMonYCbCr444Capable
+  fullName: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonYCbCr444Capable
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isMonYCbCr444Capable
+    path: ../NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+    startLine: 57
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isMonYCbCr444Capable { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isMonYCbCr444Capable As UInteger
+  overload: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonYCbCr444Capable*
+- uid: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonYCbCr422Capable
+  commentId: P:NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonYCbCr422Capable
+  id: isMonYCbCr422Capable
+  parent: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isMonYCbCr422Capable
+  nameWithType: _NV_HDMI_SUPPORT_INFO_V1.isMonYCbCr422Capable
+  fullName: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonYCbCr422Capable
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isMonYCbCr422Capable
+    path: ../NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+    startLine: 72
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isMonYCbCr422Capable { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isMonYCbCr422Capable As UInteger
+  overload: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonYCbCr422Capable*
+- uid: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonxvYCC601Capable
+  commentId: P:NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonxvYCC601Capable
+  id: isMonxvYCC601Capable
+  parent: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isMonxvYCC601Capable
+  nameWithType: _NV_HDMI_SUPPORT_INFO_V1.isMonxvYCC601Capable
+  fullName: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonxvYCC601Capable
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isMonxvYCC601Capable
+    path: ../NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+    startLine: 87
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isMonxvYCC601Capable { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isMonxvYCC601Capable As UInteger
+  overload: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonxvYCC601Capable*
+- uid: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonxvYCC709Capable
+  commentId: P:NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonxvYCC709Capable
+  id: isMonxvYCC709Capable
+  parent: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isMonxvYCC709Capable
+  nameWithType: _NV_HDMI_SUPPORT_INFO_V1.isMonxvYCC709Capable
+  fullName: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonxvYCC709Capable
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isMonxvYCC709Capable
+    path: ../NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+    startLine: 102
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isMonxvYCC709Capable { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isMonxvYCC709Capable As UInteger
+  overload: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonxvYCC709Capable*
+- uid: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonHDMI
+  commentId: P:NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonHDMI
+  id: isMonHDMI
+  parent: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isMonHDMI
+  nameWithType: _NV_HDMI_SUPPORT_INFO_V1.isMonHDMI
+  fullName: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonHDMI
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isMonHDMI
+    path: ../NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+    startLine: 117
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isMonHDMI { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isMonHDMI As UInteger
+  overload: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonHDMI*
+- uid: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.reserved
+  commentId: P:NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.reserved
+  id: reserved
+  parent: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: reserved
+  nameWithType: _NV_HDMI_SUPPORT_INFO_V1.reserved
+  fullName: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.reserved
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved
+    path: ../NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+    startLine: 132
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved As UInteger
+  overload: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.reserved*
+- uid: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.EDID861ExtRev
+  commentId: F:NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.EDID861ExtRev
+  id: EDID861ExtRev
+  parent: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: EDID861ExtRev
+  nameWithType: _NV_HDMI_SUPPORT_INFO_V1.EDID861ExtRev
+  fullName: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.EDID861ExtRev
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EDID861ExtRev
+    path: ../NVAPIWrapper/cs_generated/_NV_HDMI_SUPPORT_INFO_V1.cs
+    startLine: 148
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint EDID861ExtRev
+    return:
+      type: System.UInt32
+    content.vb: Public EDID861ExtRev As UInteger
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isGpuHDMICapable*
+  commentId: Overload:NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isGpuHDMICapable
+  href: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.html#NVAPIWrapper__NV_HDMI_SUPPORT_INFO_V1_isGpuHDMICapable
+  name: isGpuHDMICapable
+  nameWithType: _NV_HDMI_SUPPORT_INFO_V1.isGpuHDMICapable
+  fullName: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isGpuHDMICapable
+- uid: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonUnderscanCapable*
+  commentId: Overload:NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonUnderscanCapable
+  href: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.html#NVAPIWrapper__NV_HDMI_SUPPORT_INFO_V1_isMonUnderscanCapable
+  name: isMonUnderscanCapable
+  nameWithType: _NV_HDMI_SUPPORT_INFO_V1.isMonUnderscanCapable
+  fullName: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonUnderscanCapable
+- uid: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonBasicAudioCapable*
+  commentId: Overload:NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonBasicAudioCapable
+  href: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.html#NVAPIWrapper__NV_HDMI_SUPPORT_INFO_V1_isMonBasicAudioCapable
+  name: isMonBasicAudioCapable
+  nameWithType: _NV_HDMI_SUPPORT_INFO_V1.isMonBasicAudioCapable
+  fullName: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonBasicAudioCapable
+- uid: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonYCbCr444Capable*
+  commentId: Overload:NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonYCbCr444Capable
+  href: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.html#NVAPIWrapper__NV_HDMI_SUPPORT_INFO_V1_isMonYCbCr444Capable
+  name: isMonYCbCr444Capable
+  nameWithType: _NV_HDMI_SUPPORT_INFO_V1.isMonYCbCr444Capable
+  fullName: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonYCbCr444Capable
+- uid: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonYCbCr422Capable*
+  commentId: Overload:NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonYCbCr422Capable
+  href: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.html#NVAPIWrapper__NV_HDMI_SUPPORT_INFO_V1_isMonYCbCr422Capable
+  name: isMonYCbCr422Capable
+  nameWithType: _NV_HDMI_SUPPORT_INFO_V1.isMonYCbCr422Capable
+  fullName: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonYCbCr422Capable
+- uid: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonxvYCC601Capable*
+  commentId: Overload:NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonxvYCC601Capable
+  href: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.html#NVAPIWrapper__NV_HDMI_SUPPORT_INFO_V1_isMonxvYCC601Capable
+  name: isMonxvYCC601Capable
+  nameWithType: _NV_HDMI_SUPPORT_INFO_V1.isMonxvYCC601Capable
+  fullName: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonxvYCC601Capable
+- uid: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonxvYCC709Capable*
+  commentId: Overload:NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonxvYCC709Capable
+  href: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.html#NVAPIWrapper__NV_HDMI_SUPPORT_INFO_V1_isMonxvYCC709Capable
+  name: isMonxvYCC709Capable
+  nameWithType: _NV_HDMI_SUPPORT_INFO_V1.isMonxvYCC709Capable
+  fullName: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonxvYCC709Capable
+- uid: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonHDMI*
+  commentId: Overload:NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonHDMI
+  href: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.html#NVAPIWrapper__NV_HDMI_SUPPORT_INFO_V1_isMonHDMI
+  name: isMonHDMI
+  nameWithType: _NV_HDMI_SUPPORT_INFO_V1.isMonHDMI
+  fullName: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.isMonHDMI
+- uid: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.reserved*
+  commentId: Overload:NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.reserved
+  href: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.html#NVAPIWrapper__NV_HDMI_SUPPORT_INFO_V1_reserved
+  name: reserved
+  nameWithType: _NV_HDMI_SUPPORT_INFO_V1.reserved
+  fullName: NVAPIWrapper._NV_HDMI_SUPPORT_INFO_V1.reserved

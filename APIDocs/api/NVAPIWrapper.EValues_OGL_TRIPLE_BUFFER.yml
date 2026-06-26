@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER
+  commentId: T:NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER
+  id: EValues_OGL_TRIPLE_BUFFER
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER.OGL_TRIPLE_BUFFER_DEFAULT
+  - NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER.OGL_TRIPLE_BUFFER_DISABLED
+  - NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER.OGL_TRIPLE_BUFFER_ENABLED
+  - NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER.OGL_TRIPLE_BUFFER_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_OGL_TRIPLE_BUFFER
+  nameWithType: EValues_OGL_TRIPLE_BUFFER
+  fullName: NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_TRIPLE_BUFFER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_OGL_TRIPLE_BUFFER
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_TRIPLE_BUFFER.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_OGL_TRIPLE_BUFFER
+    content.vb: Public Enum EValues_OGL_TRIPLE_BUFFER
+- uid: NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER.OGL_TRIPLE_BUFFER_DISABLED
+  commentId: F:NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER.OGL_TRIPLE_BUFFER_DISABLED
+  id: OGL_TRIPLE_BUFFER_DISABLED
+  parent: NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER
+  langs:
+  - csharp
+  - vb
+  name: OGL_TRIPLE_BUFFER_DISABLED
+  nameWithType: EValues_OGL_TRIPLE_BUFFER.OGL_TRIPLE_BUFFER_DISABLED
+  fullName: NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER.OGL_TRIPLE_BUFFER_DISABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_TRIPLE_BUFFER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_TRIPLE_BUFFER_DISABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_TRIPLE_BUFFER.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_TRIPLE_BUFFER_DISABLED = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER
+- uid: NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER.OGL_TRIPLE_BUFFER_ENABLED
+  commentId: F:NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER.OGL_TRIPLE_BUFFER_ENABLED
+  id: OGL_TRIPLE_BUFFER_ENABLED
+  parent: NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER
+  langs:
+  - csharp
+  - vb
+  name: OGL_TRIPLE_BUFFER_ENABLED
+  nameWithType: EValues_OGL_TRIPLE_BUFFER.OGL_TRIPLE_BUFFER_ENABLED
+  fullName: NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER.OGL_TRIPLE_BUFFER_ENABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_TRIPLE_BUFFER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_TRIPLE_BUFFER_ENABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_TRIPLE_BUFFER.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_TRIPLE_BUFFER_ENABLED = 1
+    return:
+      type: NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER
+- uid: NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER.OGL_TRIPLE_BUFFER_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER.OGL_TRIPLE_BUFFER_NUM_VALUES
+  id: OGL_TRIPLE_BUFFER_NUM_VALUES
+  parent: NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER
+  langs:
+  - csharp
+  - vb
+  name: OGL_TRIPLE_BUFFER_NUM_VALUES
+  nameWithType: EValues_OGL_TRIPLE_BUFFER.OGL_TRIPLE_BUFFER_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER.OGL_TRIPLE_BUFFER_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_TRIPLE_BUFFER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_TRIPLE_BUFFER_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_TRIPLE_BUFFER.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_TRIPLE_BUFFER_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER
+- uid: NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER.OGL_TRIPLE_BUFFER_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER.OGL_TRIPLE_BUFFER_DEFAULT
+  id: OGL_TRIPLE_BUFFER_DEFAULT
+  parent: NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER
+  langs:
+  - csharp
+  - vb
+  name: OGL_TRIPLE_BUFFER_DEFAULT
+  nameWithType: EValues_OGL_TRIPLE_BUFFER.OGL_TRIPLE_BUFFER_DEFAULT
+  fullName: NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER.OGL_TRIPLE_BUFFER_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_TRIPLE_BUFFER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_TRIPLE_BUFFER_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_TRIPLE_BUFFER.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_TRIPLE_BUFFER_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER
+  commentId: T:NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER.html
+  name: EValues_OGL_TRIPLE_BUFFER
+  nameWithType: EValues_OGL_TRIPLE_BUFFER
+  fullName: NVAPIWrapper.EValues_OGL_TRIPLE_BUFFER

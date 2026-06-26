@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVAPI_GSYNC_POLARITY
+  commentId: T:NVAPIWrapper._NVAPI_GSYNC_POLARITY
+  id: _NVAPI_GSYNC_POLARITY
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVAPI_GSYNC_POLARITY.NVAPI_GSYNC_POLARITY_BOTH_EDGES
+  - NVAPIWrapper._NVAPI_GSYNC_POLARITY.NVAPI_GSYNC_POLARITY_FALLING_EDGE
+  - NVAPIWrapper._NVAPI_GSYNC_POLARITY.NVAPI_GSYNC_POLARITY_RISING_EDGE
+  langs:
+  - csharp
+  - vb
+  name: _NVAPI_GSYNC_POLARITY
+  nameWithType: _NVAPI_GSYNC_POLARITY
+  fullName: NVAPIWrapper._NVAPI_GSYNC_POLARITY
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_POLARITY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVAPI_GSYNC_POLARITY
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_POLARITY.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVAPI_GSYNC_POLARITY
+    content.vb: Public Enum _NVAPI_GSYNC_POLARITY
+- uid: NVAPIWrapper._NVAPI_GSYNC_POLARITY.NVAPI_GSYNC_POLARITY_RISING_EDGE
+  commentId: F:NVAPIWrapper._NVAPI_GSYNC_POLARITY.NVAPI_GSYNC_POLARITY_RISING_EDGE
+  id: NVAPI_GSYNC_POLARITY_RISING_EDGE
+  parent: NVAPIWrapper._NVAPI_GSYNC_POLARITY
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GSYNC_POLARITY_RISING_EDGE
+  nameWithType: _NVAPI_GSYNC_POLARITY.NVAPI_GSYNC_POLARITY_RISING_EDGE
+  fullName: NVAPIWrapper._NVAPI_GSYNC_POLARITY.NVAPI_GSYNC_POLARITY_RISING_EDGE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_POLARITY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GSYNC_POLARITY_RISING_EDGE
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_POLARITY.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GSYNC_POLARITY_RISING_EDGE = 0
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_POLARITY
+- uid: NVAPIWrapper._NVAPI_GSYNC_POLARITY.NVAPI_GSYNC_POLARITY_FALLING_EDGE
+  commentId: F:NVAPIWrapper._NVAPI_GSYNC_POLARITY.NVAPI_GSYNC_POLARITY_FALLING_EDGE
+  id: NVAPI_GSYNC_POLARITY_FALLING_EDGE
+  parent: NVAPIWrapper._NVAPI_GSYNC_POLARITY
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GSYNC_POLARITY_FALLING_EDGE
+  nameWithType: _NVAPI_GSYNC_POLARITY.NVAPI_GSYNC_POLARITY_FALLING_EDGE
+  fullName: NVAPIWrapper._NVAPI_GSYNC_POLARITY.NVAPI_GSYNC_POLARITY_FALLING_EDGE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_POLARITY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GSYNC_POLARITY_FALLING_EDGE
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_POLARITY.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GSYNC_POLARITY_FALLING_EDGE = 1
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_POLARITY
+- uid: NVAPIWrapper._NVAPI_GSYNC_POLARITY.NVAPI_GSYNC_POLARITY_BOTH_EDGES
+  commentId: F:NVAPIWrapper._NVAPI_GSYNC_POLARITY.NVAPI_GSYNC_POLARITY_BOTH_EDGES
+  id: NVAPI_GSYNC_POLARITY_BOTH_EDGES
+  parent: NVAPIWrapper._NVAPI_GSYNC_POLARITY
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GSYNC_POLARITY_BOTH_EDGES
+  nameWithType: _NVAPI_GSYNC_POLARITY.NVAPI_GSYNC_POLARITY_BOTH_EDGES
+  fullName: NVAPIWrapper._NVAPI_GSYNC_POLARITY.NVAPI_GSYNC_POLARITY_BOTH_EDGES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_POLARITY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GSYNC_POLARITY_BOTH_EDGES
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_POLARITY.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GSYNC_POLARITY_BOTH_EDGES = 2
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_POLARITY
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVAPI_GSYNC_POLARITY
+  commentId: T:NVAPIWrapper._NVAPI_GSYNC_POLARITY
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVAPI_GSYNC_POLARITY.html
+  name: _NVAPI_GSYNC_POLARITY
+  nameWithType: _NVAPI_GSYNC_POLARITY
+  fullName: NVAPIWrapper._NVAPI_GSYNC_POLARITY

@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_StereoRegistryID
+  commentId: T:NVAPIWrapper._NV_StereoRegistryID
+  id: _NV_StereoRegistryID
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_StereoRegistryID.NVAPI_CONVERGENCE_ID
+  - NVAPIWrapper._NV_StereoRegistryID.NVAPI_FRUSTUM_ADJUST_MODE_ID
+  langs:
+  - csharp
+  - vb
+  name: _NV_StereoRegistryID
+  nameWithType: _NV_StereoRegistryID
+  fullName: NVAPIWrapper._NV_StereoRegistryID
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_StereoRegistryID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_StereoRegistryID
+    path: ../NVAPIWrapper/cs_generated/_NV_StereoRegistryID.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_StereoRegistryID
+    content.vb: Public Enum _NV_StereoRegistryID
+- uid: NVAPIWrapper._NV_StereoRegistryID.NVAPI_CONVERGENCE_ID
+  commentId: F:NVAPIWrapper._NV_StereoRegistryID.NVAPI_CONVERGENCE_ID
+  id: NVAPI_CONVERGENCE_ID
+  parent: NVAPIWrapper._NV_StereoRegistryID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_CONVERGENCE_ID
+  nameWithType: _NV_StereoRegistryID.NVAPI_CONVERGENCE_ID
+  fullName: NVAPIWrapper._NV_StereoRegistryID.NVAPI_CONVERGENCE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_StereoRegistryID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_CONVERGENCE_ID
+    path: ../NVAPIWrapper/cs_generated/_NV_StereoRegistryID.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_CONVERGENCE_ID = 0
+    return:
+      type: NVAPIWrapper._NV_StereoRegistryID
+- uid: NVAPIWrapper._NV_StereoRegistryID.NVAPI_FRUSTUM_ADJUST_MODE_ID
+  commentId: F:NVAPIWrapper._NV_StereoRegistryID.NVAPI_FRUSTUM_ADJUST_MODE_ID
+  id: NVAPI_FRUSTUM_ADJUST_MODE_ID
+  parent: NVAPIWrapper._NV_StereoRegistryID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_FRUSTUM_ADJUST_MODE_ID
+  nameWithType: _NV_StereoRegistryID.NVAPI_FRUSTUM_ADJUST_MODE_ID
+  fullName: NVAPIWrapper._NV_StereoRegistryID.NVAPI_FRUSTUM_ADJUST_MODE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_StereoRegistryID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_FRUSTUM_ADJUST_MODE_ID
+    path: ../NVAPIWrapper/cs_generated/_NV_StereoRegistryID.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_FRUSTUM_ADJUST_MODE_ID = 1
+    return:
+      type: NVAPIWrapper._NV_StereoRegistryID
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_StereoRegistryID
+  commentId: T:NVAPIWrapper._NV_StereoRegistryID
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_StereoRegistryID.html
+  name: _NV_StereoRegistryID
+  nameWithType: _NV_StereoRegistryID
+  fullName: NVAPIWrapper._NV_StereoRegistryID

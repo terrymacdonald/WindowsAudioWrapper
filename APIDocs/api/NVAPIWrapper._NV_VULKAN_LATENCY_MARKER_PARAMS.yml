@@ -1,0 +1,428 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS
+  commentId: T:NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS
+  id: _NV_VULKAN_LATENCY_MARKER_PARAMS
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS.frameID
+  - NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS.markerType
+  - NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS.rsvd
+  - NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS.version
+  langs:
+  - csharp
+  - vb
+  name: _NV_VULKAN_LATENCY_MARKER_PARAMS
+  nameWithType: _NV_VULKAN_LATENCY_MARKER_PARAMS
+  fullName: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_MARKER_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_VULKAN_LATENCY_MARKER_PARAMS
+    path: ../NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_MARKER_PARAMS.cs
+    startLine: 5
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NV_VULKAN_LATENCY_MARKER_PARAMS
+    content.vb: Public Structure _NV_VULKAN_LATENCY_MARKER_PARAMS
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS.version
+  commentId: F:NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS.version
+  id: version
+  parent: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: _NV_VULKAN_LATENCY_MARKER_PARAMS.version
+  fullName: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS.version
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_MARKER_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: version
+    path: ../NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_MARKER_PARAMS.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint version
+    return:
+      type: System.UInt32
+    content.vb: Public version As UInteger
+- uid: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS.frameID
+  commentId: F:NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS.frameID
+  id: frameID
+  parent: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS
+  langs:
+  - csharp
+  - vb
+  name: frameID
+  nameWithType: _NV_VULKAN_LATENCY_MARKER_PARAMS.frameID
+  fullName: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS.frameID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_MARKER_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: frameID
+    path: ../NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_MARKER_PARAMS.cs
+    startLine: 13
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ulong frameID
+    return:
+      type: System.UInt64
+    content.vb: Public frameID As ULong
+- uid: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS.markerType
+  commentId: F:NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS.markerType
+  id: markerType
+  parent: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS
+  langs:
+  - csharp
+  - vb
+  name: markerType
+  nameWithType: _NV_VULKAN_LATENCY_MARKER_PARAMS.markerType
+  fullName: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS.markerType
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_MARKER_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: markerType
+    path: ../NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_MARKER_PARAMS.cs
+    startLine: 16
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public NV_VULKAN_LATENCY_MARKER_TYPE markerType
+    return:
+      type: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+    content.vb: Public markerType As NV_VULKAN_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS.rsvd
+  commentId: F:NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS.rsvd
+  id: rsvd
+  parent: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS
+  langs:
+  - csharp
+  - vb
+  name: rsvd
+  nameWithType: _NV_VULKAN_LATENCY_MARKER_PARAMS.rsvd
+  fullName: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS.rsvd
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_MARKER_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: rsvd
+    path: ../NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_MARKER_PARAMS.cs
+    startLine: 20
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_VULKAN_LATENCY_MARKER_PARAMS._rsvd_e__FixedBuffer rsvd
+    return:
+      type: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS._rsvd_e__FixedBuffer
+    content.vb: Public rsvd As _NV_VULKAN_LATENCY_MARKER_PARAMS._rsvd_e__FixedBuffer
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+  commentId: T:NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.html
+  name: NV_VULKAN_LATENCY_MARKER_TYPE
+  nameWithType: NV_VULKAN_LATENCY_MARKER_TYPE
+  fullName: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS._rsvd_e__FixedBuffer
+  commentId: T:NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS._rsvd_e__FixedBuffer
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS.html
+  name: _NV_VULKAN_LATENCY_MARKER_PARAMS._rsvd_e__FixedBuffer
+  nameWithType: _NV_VULKAN_LATENCY_MARKER_PARAMS._rsvd_e__FixedBuffer
+  fullName: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS._rsvd_e__FixedBuffer
+  spec.csharp:
+  - uid: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS
+    name: _NV_VULKAN_LATENCY_MARKER_PARAMS
+    href: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS.html
+  - name: .
+  - uid: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS._rsvd_e__FixedBuffer
+    name: _rsvd_e__FixedBuffer
+    href: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS._rsvd_e__FixedBuffer.html
+  spec.vb:
+  - uid: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS
+    name: _NV_VULKAN_LATENCY_MARKER_PARAMS
+    href: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS.html
+  - name: .
+  - uid: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS._rsvd_e__FixedBuffer
+    name: _rsvd_e__FixedBuffer
+    href: NVAPIWrapper._NV_VULKAN_LATENCY_MARKER_PARAMS._rsvd_e__FixedBuffer.html

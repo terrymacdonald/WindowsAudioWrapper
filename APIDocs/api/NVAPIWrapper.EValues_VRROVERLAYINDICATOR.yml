@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_VRROVERLAYINDICATOR
+  commentId: T:NVAPIWrapper.EValues_VRROVERLAYINDICATOR
+  id: EValues_VRROVERLAYINDICATOR
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_VRROVERLAYINDICATOR.VRROVERLAYINDICATOR_DEFAULT
+  - NVAPIWrapper.EValues_VRROVERLAYINDICATOR.VRROVERLAYINDICATOR_DISABLED
+  - NVAPIWrapper.EValues_VRROVERLAYINDICATOR.VRROVERLAYINDICATOR_ENABLED
+  - NVAPIWrapper.EValues_VRROVERLAYINDICATOR.VRROVERLAYINDICATOR_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_VRROVERLAYINDICATOR
+  nameWithType: EValues_VRROVERLAYINDICATOR
+  fullName: NVAPIWrapper.EValues_VRROVERLAYINDICATOR
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRROVERLAYINDICATOR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_VRROVERLAYINDICATOR
+    path: ../NVAPIWrapper/cs_generated/EValues_VRROVERLAYINDICATOR.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_VRROVERLAYINDICATOR
+    content.vb: Public Enum EValues_VRROVERLAYINDICATOR
+- uid: NVAPIWrapper.EValues_VRROVERLAYINDICATOR.VRROVERLAYINDICATOR_DISABLED
+  commentId: F:NVAPIWrapper.EValues_VRROVERLAYINDICATOR.VRROVERLAYINDICATOR_DISABLED
+  id: VRROVERLAYINDICATOR_DISABLED
+  parent: NVAPIWrapper.EValues_VRROVERLAYINDICATOR
+  langs:
+  - csharp
+  - vb
+  name: VRROVERLAYINDICATOR_DISABLED
+  nameWithType: EValues_VRROVERLAYINDICATOR.VRROVERLAYINDICATOR_DISABLED
+  fullName: NVAPIWrapper.EValues_VRROVERLAYINDICATOR.VRROVERLAYINDICATOR_DISABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRROVERLAYINDICATOR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRROVERLAYINDICATOR_DISABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_VRROVERLAYINDICATOR.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRROVERLAYINDICATOR_DISABLED = 0
+    return:
+      type: NVAPIWrapper.EValues_VRROVERLAYINDICATOR
+- uid: NVAPIWrapper.EValues_VRROVERLAYINDICATOR.VRROVERLAYINDICATOR_ENABLED
+  commentId: F:NVAPIWrapper.EValues_VRROVERLAYINDICATOR.VRROVERLAYINDICATOR_ENABLED
+  id: VRROVERLAYINDICATOR_ENABLED
+  parent: NVAPIWrapper.EValues_VRROVERLAYINDICATOR
+  langs:
+  - csharp
+  - vb
+  name: VRROVERLAYINDICATOR_ENABLED
+  nameWithType: EValues_VRROVERLAYINDICATOR.VRROVERLAYINDICATOR_ENABLED
+  fullName: NVAPIWrapper.EValues_VRROVERLAYINDICATOR.VRROVERLAYINDICATOR_ENABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRROVERLAYINDICATOR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRROVERLAYINDICATOR_ENABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_VRROVERLAYINDICATOR.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRROVERLAYINDICATOR_ENABLED = 1
+    return:
+      type: NVAPIWrapper.EValues_VRROVERLAYINDICATOR
+- uid: NVAPIWrapper.EValues_VRROVERLAYINDICATOR.VRROVERLAYINDICATOR_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_VRROVERLAYINDICATOR.VRROVERLAYINDICATOR_NUM_VALUES
+  id: VRROVERLAYINDICATOR_NUM_VALUES
+  parent: NVAPIWrapper.EValues_VRROVERLAYINDICATOR
+  langs:
+  - csharp
+  - vb
+  name: VRROVERLAYINDICATOR_NUM_VALUES
+  nameWithType: EValues_VRROVERLAYINDICATOR.VRROVERLAYINDICATOR_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_VRROVERLAYINDICATOR.VRROVERLAYINDICATOR_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRROVERLAYINDICATOR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRROVERLAYINDICATOR_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_VRROVERLAYINDICATOR.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRROVERLAYINDICATOR_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_VRROVERLAYINDICATOR
+- uid: NVAPIWrapper.EValues_VRROVERLAYINDICATOR.VRROVERLAYINDICATOR_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_VRROVERLAYINDICATOR.VRROVERLAYINDICATOR_DEFAULT
+  id: VRROVERLAYINDICATOR_DEFAULT
+  parent: NVAPIWrapper.EValues_VRROVERLAYINDICATOR
+  langs:
+  - csharp
+  - vb
+  name: VRROVERLAYINDICATOR_DEFAULT
+  nameWithType: EValues_VRROVERLAYINDICATOR.VRROVERLAYINDICATOR_DEFAULT
+  fullName: NVAPIWrapper.EValues_VRROVERLAYINDICATOR.VRROVERLAYINDICATOR_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRROVERLAYINDICATOR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRROVERLAYINDICATOR_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_VRROVERLAYINDICATOR.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRROVERLAYINDICATOR_DEFAULT = 1
+    return:
+      type: NVAPIWrapper.EValues_VRROVERLAYINDICATOR
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_VRROVERLAYINDICATOR
+  commentId: T:NVAPIWrapper.EValues_VRROVERLAYINDICATOR
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_VRROVERLAYINDICATOR.html
+  name: EValues_VRROVERLAYINDICATOR
+  nameWithType: EValues_VRROVERLAYINDICATOR
+  fullName: NVAPIWrapper.EValues_VRROVERLAYINDICATOR

@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE
+  commentId: T:NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE
+  id: _NV_DISPLAY_OUTPUT_MODE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE.NV_DISPLAY_OUTPUT_MODE_HDR10
+  - NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE.NV_DISPLAY_OUTPUT_MODE_HDR10PLUS_GAMING
+  - NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE.NV_DISPLAY_OUTPUT_MODE_SDR
+  langs:
+  - csharp
+  - vb
+  name: _NV_DISPLAY_OUTPUT_MODE
+  nameWithType: _NV_DISPLAY_OUTPUT_MODE
+  fullName: NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_OUTPUT_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_DISPLAY_OUTPUT_MODE
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_OUTPUT_MODE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_DISPLAY_OUTPUT_MODE
+    content.vb: Public Enum _NV_DISPLAY_OUTPUT_MODE
+- uid: NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE.NV_DISPLAY_OUTPUT_MODE_SDR
+  commentId: F:NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE.NV_DISPLAY_OUTPUT_MODE_SDR
+  id: NV_DISPLAY_OUTPUT_MODE_SDR
+  parent: NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_OUTPUT_MODE_SDR
+  nameWithType: _NV_DISPLAY_OUTPUT_MODE.NV_DISPLAY_OUTPUT_MODE_SDR
+  fullName: NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE.NV_DISPLAY_OUTPUT_MODE_SDR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_OUTPUT_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_OUTPUT_MODE_SDR
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_OUTPUT_MODE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_OUTPUT_MODE_SDR = 0
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE
+- uid: NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE.NV_DISPLAY_OUTPUT_MODE_HDR10
+  commentId: F:NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE.NV_DISPLAY_OUTPUT_MODE_HDR10
+  id: NV_DISPLAY_OUTPUT_MODE_HDR10
+  parent: NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_OUTPUT_MODE_HDR10
+  nameWithType: _NV_DISPLAY_OUTPUT_MODE.NV_DISPLAY_OUTPUT_MODE_HDR10
+  fullName: NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE.NV_DISPLAY_OUTPUT_MODE_HDR10
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_OUTPUT_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_OUTPUT_MODE_HDR10
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_OUTPUT_MODE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_OUTPUT_MODE_HDR10 = 1
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE
+- uid: NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE.NV_DISPLAY_OUTPUT_MODE_HDR10PLUS_GAMING
+  commentId: F:NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE.NV_DISPLAY_OUTPUT_MODE_HDR10PLUS_GAMING
+  id: NV_DISPLAY_OUTPUT_MODE_HDR10PLUS_GAMING
+  parent: NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_OUTPUT_MODE_HDR10PLUS_GAMING
+  nameWithType: _NV_DISPLAY_OUTPUT_MODE.NV_DISPLAY_OUTPUT_MODE_HDR10PLUS_GAMING
+  fullName: NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE.NV_DISPLAY_OUTPUT_MODE_HDR10PLUS_GAMING
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_OUTPUT_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_OUTPUT_MODE_HDR10PLUS_GAMING
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_OUTPUT_MODE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_OUTPUT_MODE_HDR10PLUS_GAMING = 2
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE
+  commentId: T:NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE.html
+  name: _NV_DISPLAY_OUTPUT_MODE
+  nameWithType: _NV_DISPLAY_OUTPUT_MODE
+  fullName: NVAPIWrapper._NV_DISPLAY_OUTPUT_MODE

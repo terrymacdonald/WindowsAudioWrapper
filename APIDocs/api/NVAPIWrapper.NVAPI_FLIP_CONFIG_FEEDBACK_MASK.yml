@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK
+  commentId: T:NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK
+  id: NVAPI_FLIP_CONFIG_FEEDBACK_MASK
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK.NVAPI_FLIP_CONFIG_FEEDBACK_MIRRORING_DETECTED
+  - NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK.NVAPI_FLIP_CONFIG_FEEDBACK_NO_IFLIP
+  - NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK.NVAPI_FLIP_CONFIG_FEEDBACK_OK
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_FLIP_CONFIG_FEEDBACK_MASK
+  nameWithType: NVAPI_FLIP_CONFIG_FEEDBACK_MASK
+  fullName: NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVAPI_FLIP_CONFIG_FEEDBACK_MASK.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_FLIP_CONFIG_FEEDBACK_MASK
+    path: ../NVAPIWrapper/cs_generated/NVAPI_FLIP_CONFIG_FEEDBACK_MASK.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NVAPI_FLIP_CONFIG_FEEDBACK_MASK
+    content.vb: Public Enum NVAPI_FLIP_CONFIG_FEEDBACK_MASK
+- uid: NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK.NVAPI_FLIP_CONFIG_FEEDBACK_OK
+  commentId: F:NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK.NVAPI_FLIP_CONFIG_FEEDBACK_OK
+  id: NVAPI_FLIP_CONFIG_FEEDBACK_OK
+  parent: NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_FLIP_CONFIG_FEEDBACK_OK
+  nameWithType: NVAPI_FLIP_CONFIG_FEEDBACK_MASK.NVAPI_FLIP_CONFIG_FEEDBACK_OK
+  fullName: NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK.NVAPI_FLIP_CONFIG_FEEDBACK_OK
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVAPI_FLIP_CONFIG_FEEDBACK_MASK.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_FLIP_CONFIG_FEEDBACK_OK
+    path: ../NVAPIWrapper/cs_generated/NVAPI_FLIP_CONFIG_FEEDBACK_MASK.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_FLIP_CONFIG_FEEDBACK_OK = 0
+    return:
+      type: NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK
+- uid: NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK.NVAPI_FLIP_CONFIG_FEEDBACK_NO_IFLIP
+  commentId: F:NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK.NVAPI_FLIP_CONFIG_FEEDBACK_NO_IFLIP
+  id: NVAPI_FLIP_CONFIG_FEEDBACK_NO_IFLIP
+  parent: NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_FLIP_CONFIG_FEEDBACK_NO_IFLIP
+  nameWithType: NVAPI_FLIP_CONFIG_FEEDBACK_MASK.NVAPI_FLIP_CONFIG_FEEDBACK_NO_IFLIP
+  fullName: NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK.NVAPI_FLIP_CONFIG_FEEDBACK_NO_IFLIP
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVAPI_FLIP_CONFIG_FEEDBACK_MASK.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_FLIP_CONFIG_FEEDBACK_NO_IFLIP
+    path: ../NVAPIWrapper/cs_generated/NVAPI_FLIP_CONFIG_FEEDBACK_MASK.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_FLIP_CONFIG_FEEDBACK_NO_IFLIP = 1
+    return:
+      type: NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK
+- uid: NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK.NVAPI_FLIP_CONFIG_FEEDBACK_MIRRORING_DETECTED
+  commentId: F:NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK.NVAPI_FLIP_CONFIG_FEEDBACK_MIRRORING_DETECTED
+  id: NVAPI_FLIP_CONFIG_FEEDBACK_MIRRORING_DETECTED
+  parent: NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_FLIP_CONFIG_FEEDBACK_MIRRORING_DETECTED
+  nameWithType: NVAPI_FLIP_CONFIG_FEEDBACK_MASK.NVAPI_FLIP_CONFIG_FEEDBACK_MIRRORING_DETECTED
+  fullName: NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK.NVAPI_FLIP_CONFIG_FEEDBACK_MIRRORING_DETECTED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVAPI_FLIP_CONFIG_FEEDBACK_MASK.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_FLIP_CONFIG_FEEDBACK_MIRRORING_DETECTED
+    path: ../NVAPIWrapper/cs_generated/NVAPI_FLIP_CONFIG_FEEDBACK_MASK.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_FLIP_CONFIG_FEEDBACK_MIRRORING_DETECTED = 2
+    return:
+      type: NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK
+  commentId: T:NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK.html
+  name: NVAPI_FLIP_CONFIG_FEEDBACK_MASK
+  nameWithType: NVAPI_FLIP_CONFIG_FEEDBACK_MASK
+  fullName: NVAPIWrapper.NVAPI_FLIP_CONFIG_FEEDBACK_MASK

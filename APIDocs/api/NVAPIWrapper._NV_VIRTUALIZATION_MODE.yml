@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_VIRTUALIZATION_MODE
+  commentId: T:NVAPIWrapper._NV_VIRTUALIZATION_MODE
+  id: _NV_VIRTUALIZATION_MODE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_VIRTUALIZATION_MODE.NV_VIRTUALIZATION_MODE_HOST_VGPU
+  - NVAPIWrapper._NV_VIRTUALIZATION_MODE.NV_VIRTUALIZATION_MODE_NMOS
+  - NVAPIWrapper._NV_VIRTUALIZATION_MODE.NV_VIRTUALIZATION_MODE_NONE
+  - NVAPIWrapper._NV_VIRTUALIZATION_MODE.NV_VIRTUALIZATION_MODE_VGX
+  langs:
+  - csharp
+  - vb
+  name: _NV_VIRTUALIZATION_MODE
+  nameWithType: _NV_VIRTUALIZATION_MODE
+  fullName: NVAPIWrapper._NV_VIRTUALIZATION_MODE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VIRTUALIZATION_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_VIRTUALIZATION_MODE
+    path: ../NVAPIWrapper/cs_generated/_NV_VIRTUALIZATION_MODE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_VIRTUALIZATION_MODE
+    content.vb: Public Enum _NV_VIRTUALIZATION_MODE
+- uid: NVAPIWrapper._NV_VIRTUALIZATION_MODE.NV_VIRTUALIZATION_MODE_NONE
+  commentId: F:NVAPIWrapper._NV_VIRTUALIZATION_MODE.NV_VIRTUALIZATION_MODE_NONE
+  id: NV_VIRTUALIZATION_MODE_NONE
+  parent: NVAPIWrapper._NV_VIRTUALIZATION_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_VIRTUALIZATION_MODE_NONE
+  nameWithType: _NV_VIRTUALIZATION_MODE.NV_VIRTUALIZATION_MODE_NONE
+  fullName: NVAPIWrapper._NV_VIRTUALIZATION_MODE.NV_VIRTUALIZATION_MODE_NONE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VIRTUALIZATION_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_VIRTUALIZATION_MODE_NONE
+    path: ../NVAPIWrapper/cs_generated/_NV_VIRTUALIZATION_MODE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_VIRTUALIZATION_MODE_NONE = 0
+    return:
+      type: NVAPIWrapper._NV_VIRTUALIZATION_MODE
+- uid: NVAPIWrapper._NV_VIRTUALIZATION_MODE.NV_VIRTUALIZATION_MODE_NMOS
+  commentId: F:NVAPIWrapper._NV_VIRTUALIZATION_MODE.NV_VIRTUALIZATION_MODE_NMOS
+  id: NV_VIRTUALIZATION_MODE_NMOS
+  parent: NVAPIWrapper._NV_VIRTUALIZATION_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_VIRTUALIZATION_MODE_NMOS
+  nameWithType: _NV_VIRTUALIZATION_MODE.NV_VIRTUALIZATION_MODE_NMOS
+  fullName: NVAPIWrapper._NV_VIRTUALIZATION_MODE.NV_VIRTUALIZATION_MODE_NMOS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VIRTUALIZATION_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_VIRTUALIZATION_MODE_NMOS
+    path: ../NVAPIWrapper/cs_generated/_NV_VIRTUALIZATION_MODE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_VIRTUALIZATION_MODE_NMOS = 1
+    return:
+      type: NVAPIWrapper._NV_VIRTUALIZATION_MODE
+- uid: NVAPIWrapper._NV_VIRTUALIZATION_MODE.NV_VIRTUALIZATION_MODE_VGX
+  commentId: F:NVAPIWrapper._NV_VIRTUALIZATION_MODE.NV_VIRTUALIZATION_MODE_VGX
+  id: NV_VIRTUALIZATION_MODE_VGX
+  parent: NVAPIWrapper._NV_VIRTUALIZATION_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_VIRTUALIZATION_MODE_VGX
+  nameWithType: _NV_VIRTUALIZATION_MODE.NV_VIRTUALIZATION_MODE_VGX
+  fullName: NVAPIWrapper._NV_VIRTUALIZATION_MODE.NV_VIRTUALIZATION_MODE_VGX
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VIRTUALIZATION_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_VIRTUALIZATION_MODE_VGX
+    path: ../NVAPIWrapper/cs_generated/_NV_VIRTUALIZATION_MODE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_VIRTUALIZATION_MODE_VGX = 2
+    return:
+      type: NVAPIWrapper._NV_VIRTUALIZATION_MODE
+- uid: NVAPIWrapper._NV_VIRTUALIZATION_MODE.NV_VIRTUALIZATION_MODE_HOST_VGPU
+  commentId: F:NVAPIWrapper._NV_VIRTUALIZATION_MODE.NV_VIRTUALIZATION_MODE_HOST_VGPU
+  id: NV_VIRTUALIZATION_MODE_HOST_VGPU
+  parent: NVAPIWrapper._NV_VIRTUALIZATION_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_VIRTUALIZATION_MODE_HOST_VGPU
+  nameWithType: _NV_VIRTUALIZATION_MODE.NV_VIRTUALIZATION_MODE_HOST_VGPU
+  fullName: NVAPIWrapper._NV_VIRTUALIZATION_MODE.NV_VIRTUALIZATION_MODE_HOST_VGPU
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VIRTUALIZATION_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_VIRTUALIZATION_MODE_HOST_VGPU
+    path: ../NVAPIWrapper/cs_generated/_NV_VIRTUALIZATION_MODE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_VIRTUALIZATION_MODE_HOST_VGPU = 3
+    return:
+      type: NVAPIWrapper._NV_VIRTUALIZATION_MODE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_VIRTUALIZATION_MODE
+  commentId: T:NVAPIWrapper._NV_VIRTUALIZATION_MODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_VIRTUALIZATION_MODE.html
+  name: _NV_VIRTUALIZATION_MODE
+  nameWithType: _NV_VIRTUALIZATION_MODE
+  fullName: NVAPIWrapper._NV_VIRTUALIZATION_MODE

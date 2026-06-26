@@ -1,0 +1,548 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVLINK_DEVICE_INFO_V1
+  commentId: T:NVAPIWrapper.NVLINK_DEVICE_INFO_V1
+  id: NVLINK_DEVICE_INFO_V1
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVLINK_DEVICE_INFO_V1.bus
+  - NVAPIWrapper.NVLINK_DEVICE_INFO_V1.device
+  - NVAPIWrapper.NVLINK_DEVICE_INFO_V1.deviceIdFlags
+  - NVAPIWrapper.NVLINK_DEVICE_INFO_V1.deviceType
+  - NVAPIWrapper.NVLINK_DEVICE_INFO_V1.deviceUUID
+  - NVAPIWrapper.NVLINK_DEVICE_INFO_V1.domain
+  - NVAPIWrapper.NVLINK_DEVICE_INFO_V1.function
+  - NVAPIWrapper.NVLINK_DEVICE_INFO_V1.pciDeviceId
+  langs:
+  - csharp
+  - vb
+  name: NVLINK_DEVICE_INFO_V1
+  nameWithType: NVLINK_DEVICE_INFO_V1
+  fullName: NVAPIWrapper.NVLINK_DEVICE_INFO_V1
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_DEVICE_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVLINK_DEVICE_INFO_V1
+    path: ../NVAPIWrapper/cs_generated/NVLINK_DEVICE_INFO_V1.cs
+    startLine: 5
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct NVLINK_DEVICE_INFO_V1
+    content.vb: Public Structure NVLINK_DEVICE_INFO_V1
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVLINK_DEVICE_INFO_V1.deviceIdFlags
+  commentId: F:NVAPIWrapper.NVLINK_DEVICE_INFO_V1.deviceIdFlags
+  id: deviceIdFlags
+  parent: NVAPIWrapper.NVLINK_DEVICE_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: deviceIdFlags
+  nameWithType: NVLINK_DEVICE_INFO_V1.deviceIdFlags
+  fullName: NVAPIWrapper.NVLINK_DEVICE_INFO_V1.deviceIdFlags
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_DEVICE_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: deviceIdFlags
+    path: ../NVAPIWrapper/cs_generated/NVLINK_DEVICE_INFO_V1.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint deviceIdFlags
+    return:
+      type: System.UInt32
+    content.vb: Public deviceIdFlags As UInteger
+- uid: NVAPIWrapper.NVLINK_DEVICE_INFO_V1.domain
+  commentId: F:NVAPIWrapper.NVLINK_DEVICE_INFO_V1.domain
+  id: domain
+  parent: NVAPIWrapper.NVLINK_DEVICE_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: domain
+  nameWithType: NVLINK_DEVICE_INFO_V1.domain
+  fullName: NVAPIWrapper.NVLINK_DEVICE_INFO_V1.domain
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_DEVICE_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: domain
+    path: ../NVAPIWrapper/cs_generated/NVLINK_DEVICE_INFO_V1.cs
+    startLine: 13
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort domain
+    return:
+      type: System.UInt16
+    content.vb: Public domain As UShort
+- uid: NVAPIWrapper.NVLINK_DEVICE_INFO_V1.bus
+  commentId: F:NVAPIWrapper.NVLINK_DEVICE_INFO_V1.bus
+  id: bus
+  parent: NVAPIWrapper.NVLINK_DEVICE_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: bus
+  nameWithType: NVLINK_DEVICE_INFO_V1.bus
+  fullName: NVAPIWrapper.NVLINK_DEVICE_INFO_V1.bus
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_DEVICE_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bus
+    path: ../NVAPIWrapper/cs_generated/NVLINK_DEVICE_INFO_V1.cs
+    startLine: 17
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort bus
+    return:
+      type: System.UInt16
+    content.vb: Public bus As UShort
+- uid: NVAPIWrapper.NVLINK_DEVICE_INFO_V1.device
+  commentId: F:NVAPIWrapper.NVLINK_DEVICE_INFO_V1.device
+  id: device
+  parent: NVAPIWrapper.NVLINK_DEVICE_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: device
+  nameWithType: NVLINK_DEVICE_INFO_V1.device
+  fullName: NVAPIWrapper.NVLINK_DEVICE_INFO_V1.device
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_DEVICE_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: device
+    path: ../NVAPIWrapper/cs_generated/NVLINK_DEVICE_INFO_V1.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort device
+    return:
+      type: System.UInt16
+    content.vb: Public device As UShort
+- uid: NVAPIWrapper.NVLINK_DEVICE_INFO_V1.function
+  commentId: F:NVAPIWrapper.NVLINK_DEVICE_INFO_V1.function
+  id: function
+  parent: NVAPIWrapper.NVLINK_DEVICE_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: function
+  nameWithType: NVLINK_DEVICE_INFO_V1.function
+  fullName: NVAPIWrapper.NVLINK_DEVICE_INFO_V1.function
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_DEVICE_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: function
+    path: ../NVAPIWrapper/cs_generated/NVLINK_DEVICE_INFO_V1.cs
+    startLine: 25
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort function
+    return:
+      type: System.UInt16
+    content.vb: Public [function] As UShort
+- uid: NVAPIWrapper.NVLINK_DEVICE_INFO_V1.pciDeviceId
+  commentId: F:NVAPIWrapper.NVLINK_DEVICE_INFO_V1.pciDeviceId
+  id: pciDeviceId
+  parent: NVAPIWrapper.NVLINK_DEVICE_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: pciDeviceId
+  nameWithType: NVLINK_DEVICE_INFO_V1.pciDeviceId
+  fullName: NVAPIWrapper.NVLINK_DEVICE_INFO_V1.pciDeviceId
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_DEVICE_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: pciDeviceId
+    path: ../NVAPIWrapper/cs_generated/NVLINK_DEVICE_INFO_V1.cs
+    startLine: 29
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint pciDeviceId
+    return:
+      type: System.UInt32
+    content.vb: Public pciDeviceId As UInteger
+- uid: NVAPIWrapper.NVLINK_DEVICE_INFO_V1.deviceType
+  commentId: F:NVAPIWrapper.NVLINK_DEVICE_INFO_V1.deviceType
+  id: deviceType
+  parent: NVAPIWrapper.NVLINK_DEVICE_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: deviceType
+  nameWithType: NVLINK_DEVICE_INFO_V1.deviceType
+  fullName: NVAPIWrapper.NVLINK_DEVICE_INFO_V1.deviceType
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_DEVICE_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: deviceType
+    path: ../NVAPIWrapper/cs_generated/NVLINK_DEVICE_INFO_V1.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ulong deviceType
+    return:
+      type: System.UInt64
+    content.vb: Public deviceType As ULong
+- uid: NVAPIWrapper.NVLINK_DEVICE_INFO_V1.deviceUUID
+  commentId: F:NVAPIWrapper.NVLINK_DEVICE_INFO_V1.deviceUUID
+  id: deviceUUID
+  parent: NVAPIWrapper.NVLINK_DEVICE_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: deviceUUID
+  nameWithType: NVLINK_DEVICE_INFO_V1.deviceUUID
+  fullName: NVAPIWrapper.NVLINK_DEVICE_INFO_V1.deviceUUID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_DEVICE_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: deviceUUID
+    path: ../NVAPIWrapper/cs_generated/NVLINK_DEVICE_INFO_V1.cs
+    startLine: 37
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public NVLINK_DEVICE_INFO_V1._deviceUUID_e__FixedBuffer deviceUUID
+    return:
+      type: NVAPIWrapper.NVLINK_DEVICE_INFO_V1._deviceUUID_e__FixedBuffer
+    content.vb: Public deviceUUID As NVLINK_DEVICE_INFO_V1._deviceUUID_e__FixedBuffer
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint16
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: NVAPIWrapper.NVLINK_DEVICE_INFO_V1._deviceUUID_e__FixedBuffer
+  commentId: T:NVAPIWrapper.NVLINK_DEVICE_INFO_V1._deviceUUID_e__FixedBuffer
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVLINK_DEVICE_INFO_V1.html
+  name: NVLINK_DEVICE_INFO_V1._deviceUUID_e__FixedBuffer
+  nameWithType: NVLINK_DEVICE_INFO_V1._deviceUUID_e__FixedBuffer
+  fullName: NVAPIWrapper.NVLINK_DEVICE_INFO_V1._deviceUUID_e__FixedBuffer
+  spec.csharp:
+  - uid: NVAPIWrapper.NVLINK_DEVICE_INFO_V1
+    name: NVLINK_DEVICE_INFO_V1
+    href: NVAPIWrapper.NVLINK_DEVICE_INFO_V1.html
+  - name: .
+  - uid: NVAPIWrapper.NVLINK_DEVICE_INFO_V1._deviceUUID_e__FixedBuffer
+    name: _deviceUUID_e__FixedBuffer
+    href: NVAPIWrapper.NVLINK_DEVICE_INFO_V1._deviceUUID_e__FixedBuffer.html
+  spec.vb:
+  - uid: NVAPIWrapper.NVLINK_DEVICE_INFO_V1
+    name: NVLINK_DEVICE_INFO_V1
+    href: NVAPIWrapper.NVLINK_DEVICE_INFO_V1.html
+  - name: .
+  - uid: NVAPIWrapper.NVLINK_DEVICE_INFO_V1._deviceUUID_e__FixedBuffer
+    name: _deviceUUID_e__FixedBuffer
+    href: NVAPIWrapper.NVLINK_DEVICE_INFO_V1._deviceUUID_e__FixedBuffer.html

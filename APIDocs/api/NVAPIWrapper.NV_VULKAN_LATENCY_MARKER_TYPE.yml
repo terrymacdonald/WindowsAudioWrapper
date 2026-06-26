@@ -1,0 +1,407 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+  commentId: T:NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+  id: NV_VULKAN_LATENCY_MARKER_TYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_INPUT_SAMPLE
+  - NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_OUT_OF_BAND_PRESENT_END
+  - NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_OUT_OF_BAND_PRESENT_START
+  - NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_OUT_OF_BAND_RENDERSUBMIT_END
+  - NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_OUT_OF_BAND_RENDERSUBMIT_START
+  - NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_PC_LATENCY_PING
+  - NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_PRESENT_END
+  - NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_PRESENT_START
+  - NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_RENDERSUBMIT_END
+  - NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_RENDERSUBMIT_START
+  - NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_SIMULATION_END
+  - NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_SIMULATION_START
+  - NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_TRIGGER_FLASH
+  langs:
+  - csharp
+  - vb
+  name: NV_VULKAN_LATENCY_MARKER_TYPE
+  nameWithType: NV_VULKAN_LATENCY_MARKER_TYPE
+  fullName: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_VULKAN_LATENCY_MARKER_TYPE
+    path: ../NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_VULKAN_LATENCY_MARKER_TYPE
+    content.vb: Public Enum NV_VULKAN_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_SIMULATION_START
+  commentId: F:NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_SIMULATION_START
+  id: VULKAN_SIMULATION_START
+  parent: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: VULKAN_SIMULATION_START
+  nameWithType: NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_SIMULATION_START
+  fullName: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_SIMULATION_START
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VULKAN_SIMULATION_START
+    path: ../NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VULKAN_SIMULATION_START = 0
+    return:
+      type: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_SIMULATION_END
+  commentId: F:NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_SIMULATION_END
+  id: VULKAN_SIMULATION_END
+  parent: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: VULKAN_SIMULATION_END
+  nameWithType: NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_SIMULATION_END
+  fullName: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_SIMULATION_END
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VULKAN_SIMULATION_END
+    path: ../NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VULKAN_SIMULATION_END = 1
+    return:
+      type: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_RENDERSUBMIT_START
+  commentId: F:NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_RENDERSUBMIT_START
+  id: VULKAN_RENDERSUBMIT_START
+  parent: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: VULKAN_RENDERSUBMIT_START
+  nameWithType: NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_RENDERSUBMIT_START
+  fullName: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_RENDERSUBMIT_START
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VULKAN_RENDERSUBMIT_START
+    path: ../NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VULKAN_RENDERSUBMIT_START = 2
+    return:
+      type: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_RENDERSUBMIT_END
+  commentId: F:NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_RENDERSUBMIT_END
+  id: VULKAN_RENDERSUBMIT_END
+  parent: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: VULKAN_RENDERSUBMIT_END
+  nameWithType: NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_RENDERSUBMIT_END
+  fullName: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_RENDERSUBMIT_END
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VULKAN_RENDERSUBMIT_END
+    path: ../NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VULKAN_RENDERSUBMIT_END = 3
+    return:
+      type: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_PRESENT_START
+  commentId: F:NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_PRESENT_START
+  id: VULKAN_PRESENT_START
+  parent: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: VULKAN_PRESENT_START
+  nameWithType: NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_PRESENT_START
+  fullName: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_PRESENT_START
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VULKAN_PRESENT_START
+    path: ../NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VULKAN_PRESENT_START = 4
+    return:
+      type: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_PRESENT_END
+  commentId: F:NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_PRESENT_END
+  id: VULKAN_PRESENT_END
+  parent: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: VULKAN_PRESENT_END
+  nameWithType: NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_PRESENT_END
+  fullName: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_PRESENT_END
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VULKAN_PRESENT_END
+    path: ../NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VULKAN_PRESENT_END = 5
+    return:
+      type: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_INPUT_SAMPLE
+  commentId: F:NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_INPUT_SAMPLE
+  id: VULKAN_INPUT_SAMPLE
+  parent: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: VULKAN_INPUT_SAMPLE
+  nameWithType: NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_INPUT_SAMPLE
+  fullName: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_INPUT_SAMPLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VULKAN_INPUT_SAMPLE
+    path: ../NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VULKAN_INPUT_SAMPLE = 6
+    return:
+      type: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_TRIGGER_FLASH
+  commentId: F:NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_TRIGGER_FLASH
+  id: VULKAN_TRIGGER_FLASH
+  parent: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: VULKAN_TRIGGER_FLASH
+  nameWithType: NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_TRIGGER_FLASH
+  fullName: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_TRIGGER_FLASH
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VULKAN_TRIGGER_FLASH
+    path: ../NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VULKAN_TRIGGER_FLASH = 7
+    return:
+      type: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_PC_LATENCY_PING
+  commentId: F:NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_PC_LATENCY_PING
+  id: VULKAN_PC_LATENCY_PING
+  parent: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: VULKAN_PC_LATENCY_PING
+  nameWithType: NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_PC_LATENCY_PING
+  fullName: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_PC_LATENCY_PING
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VULKAN_PC_LATENCY_PING
+    path: ../NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VULKAN_PC_LATENCY_PING = 8
+    return:
+      type: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_OUT_OF_BAND_RENDERSUBMIT_START
+  commentId: F:NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_OUT_OF_BAND_RENDERSUBMIT_START
+  id: VULKAN_OUT_OF_BAND_RENDERSUBMIT_START
+  parent: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: VULKAN_OUT_OF_BAND_RENDERSUBMIT_START
+  nameWithType: NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_OUT_OF_BAND_RENDERSUBMIT_START
+  fullName: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_OUT_OF_BAND_RENDERSUBMIT_START
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VULKAN_OUT_OF_BAND_RENDERSUBMIT_START
+    path: ../NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VULKAN_OUT_OF_BAND_RENDERSUBMIT_START = 9
+    return:
+      type: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_OUT_OF_BAND_RENDERSUBMIT_END
+  commentId: F:NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_OUT_OF_BAND_RENDERSUBMIT_END
+  id: VULKAN_OUT_OF_BAND_RENDERSUBMIT_END
+  parent: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: VULKAN_OUT_OF_BAND_RENDERSUBMIT_END
+  nameWithType: NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_OUT_OF_BAND_RENDERSUBMIT_END
+  fullName: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_OUT_OF_BAND_RENDERSUBMIT_END
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VULKAN_OUT_OF_BAND_RENDERSUBMIT_END
+    path: ../NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VULKAN_OUT_OF_BAND_RENDERSUBMIT_END = 10
+    return:
+      type: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_OUT_OF_BAND_PRESENT_START
+  commentId: F:NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_OUT_OF_BAND_PRESENT_START
+  id: VULKAN_OUT_OF_BAND_PRESENT_START
+  parent: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: VULKAN_OUT_OF_BAND_PRESENT_START
+  nameWithType: NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_OUT_OF_BAND_PRESENT_START
+  fullName: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_OUT_OF_BAND_PRESENT_START
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VULKAN_OUT_OF_BAND_PRESENT_START
+    path: ../NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+    startLine: 39
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VULKAN_OUT_OF_BAND_PRESENT_START = 11
+    return:
+      type: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_OUT_OF_BAND_PRESENT_END
+  commentId: F:NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_OUT_OF_BAND_PRESENT_END
+  id: VULKAN_OUT_OF_BAND_PRESENT_END
+  parent: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: VULKAN_OUT_OF_BAND_PRESENT_END
+  nameWithType: NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_OUT_OF_BAND_PRESENT_END
+  fullName: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.VULKAN_OUT_OF_BAND_PRESENT_END
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VULKAN_OUT_OF_BAND_PRESENT_END
+    path: ../NVAPIWrapper/cs_generated/NV_VULKAN_LATENCY_MARKER_TYPE.cs
+    startLine: 42
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VULKAN_OUT_OF_BAND_PRESENT_END = 12
+    return:
+      type: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+  commentId: T:NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE.html
+  name: NV_VULKAN_LATENCY_MARKER_TYPE
+  nameWithType: NV_VULKAN_LATENCY_MARKER_TYPE
+  fullName: NVAPIWrapper.NV_VULKAN_LATENCY_MARKER_TYPE

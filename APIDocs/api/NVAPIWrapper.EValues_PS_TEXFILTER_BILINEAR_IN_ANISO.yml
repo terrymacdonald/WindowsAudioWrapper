@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO
+  commentId: T:NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO
+  id: EValues_PS_TEXFILTER_BILINEAR_IN_ANISO
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.PS_TEXFILTER_BILINEAR_IN_ANISO_DEFAULT
+  - NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.PS_TEXFILTER_BILINEAR_IN_ANISO_NUM_VALUES
+  - NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.PS_TEXFILTER_BILINEAR_IN_ANISO_OFF
+  - NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.PS_TEXFILTER_BILINEAR_IN_ANISO_ON
+  langs:
+  - csharp
+  - vb
+  name: EValues_PS_TEXFILTER_BILINEAR_IN_ANISO
+  nameWithType: EValues_PS_TEXFILTER_BILINEAR_IN_ANISO
+  fullName: NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_PS_TEXFILTER_BILINEAR_IN_ANISO
+    path: ../NVAPIWrapper/cs_generated/EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_PS_TEXFILTER_BILINEAR_IN_ANISO
+    content.vb: Public Enum EValues_PS_TEXFILTER_BILINEAR_IN_ANISO
+- uid: NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.PS_TEXFILTER_BILINEAR_IN_ANISO_OFF
+  commentId: F:NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.PS_TEXFILTER_BILINEAR_IN_ANISO_OFF
+  id: PS_TEXFILTER_BILINEAR_IN_ANISO_OFF
+  parent: NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO
+  langs:
+  - csharp
+  - vb
+  name: PS_TEXFILTER_BILINEAR_IN_ANISO_OFF
+  nameWithType: EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.PS_TEXFILTER_BILINEAR_IN_ANISO_OFF
+  fullName: NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.PS_TEXFILTER_BILINEAR_IN_ANISO_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PS_TEXFILTER_BILINEAR_IN_ANISO_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PS_TEXFILTER_BILINEAR_IN_ANISO_OFF = 0
+    return:
+      type: NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO
+- uid: NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.PS_TEXFILTER_BILINEAR_IN_ANISO_ON
+  commentId: F:NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.PS_TEXFILTER_BILINEAR_IN_ANISO_ON
+  id: PS_TEXFILTER_BILINEAR_IN_ANISO_ON
+  parent: NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO
+  langs:
+  - csharp
+  - vb
+  name: PS_TEXFILTER_BILINEAR_IN_ANISO_ON
+  nameWithType: EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.PS_TEXFILTER_BILINEAR_IN_ANISO_ON
+  fullName: NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.PS_TEXFILTER_BILINEAR_IN_ANISO_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PS_TEXFILTER_BILINEAR_IN_ANISO_ON
+    path: ../NVAPIWrapper/cs_generated/EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PS_TEXFILTER_BILINEAR_IN_ANISO_ON = 1
+    return:
+      type: NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO
+- uid: NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.PS_TEXFILTER_BILINEAR_IN_ANISO_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.PS_TEXFILTER_BILINEAR_IN_ANISO_NUM_VALUES
+  id: PS_TEXFILTER_BILINEAR_IN_ANISO_NUM_VALUES
+  parent: NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO
+  langs:
+  - csharp
+  - vb
+  name: PS_TEXFILTER_BILINEAR_IN_ANISO_NUM_VALUES
+  nameWithType: EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.PS_TEXFILTER_BILINEAR_IN_ANISO_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.PS_TEXFILTER_BILINEAR_IN_ANISO_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PS_TEXFILTER_BILINEAR_IN_ANISO_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PS_TEXFILTER_BILINEAR_IN_ANISO_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO
+- uid: NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.PS_TEXFILTER_BILINEAR_IN_ANISO_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.PS_TEXFILTER_BILINEAR_IN_ANISO_DEFAULT
+  id: PS_TEXFILTER_BILINEAR_IN_ANISO_DEFAULT
+  parent: NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO
+  langs:
+  - csharp
+  - vb
+  name: PS_TEXFILTER_BILINEAR_IN_ANISO_DEFAULT
+  nameWithType: EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.PS_TEXFILTER_BILINEAR_IN_ANISO_DEFAULT
+  fullName: NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.PS_TEXFILTER_BILINEAR_IN_ANISO_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PS_TEXFILTER_BILINEAR_IN_ANISO_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PS_TEXFILTER_BILINEAR_IN_ANISO_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO
+  commentId: T:NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO.html
+  name: EValues_PS_TEXFILTER_BILINEAR_IN_ANISO
+  nameWithType: EValues_PS_TEXFILTER_BILINEAR_IN_ANISO
+  fullName: NVAPIWrapper.EValues_PS_TEXFILTER_BILINEAR_IN_ANISO

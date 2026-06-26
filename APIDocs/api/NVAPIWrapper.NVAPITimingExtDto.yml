@@ -1,0 +1,1079 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPITimingExtDto
+  commentId: T:NVAPIWrapper.NVAPITimingExtDto
+  id: NVAPITimingExtDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPITimingExtDto.#ctor(System.UInt32,System.UInt16,System.UInt32,System.UInt32,System.UInt16,System.UInt32,System.String)
+  - NVAPIWrapper.NVAPITimingExtDto.Aspect
+  - NVAPIWrapper.NVAPITimingExtDto.Equals(NVAPIWrapper.NVAPITimingExtDto)
+  - NVAPIWrapper.NVAPITimingExtDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPITimingExtDto.Flag
+  - NVAPIWrapper.NVAPITimingExtDto.FromNative(NVAPIWrapper.tagNV_TIMINGEXT)
+  - NVAPIWrapper.NVAPITimingExtDto.GetHashCode
+  - NVAPIWrapper.NVAPITimingExtDto.Name
+  - NVAPIWrapper.NVAPITimingExtDto.Rep
+  - NVAPIWrapper.NVAPITimingExtDto.Rr
+  - NVAPIWrapper.NVAPITimingExtDto.Rrx1k
+  - NVAPIWrapper.NVAPITimingExtDto.Status
+  - NVAPIWrapper.NVAPITimingExtDto.ToNative
+  - NVAPIWrapper.NVAPITimingExtDto.op_Equality(NVAPIWrapper.NVAPITimingExtDto,NVAPIWrapper.NVAPITimingExtDto)
+  - NVAPIWrapper.NVAPITimingExtDto.op_Inequality(NVAPIWrapper.NVAPITimingExtDto,NVAPIWrapper.NVAPITimingExtDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPITimingExtDto
+  nameWithType: NVAPITimingExtDto
+  fullName: NVAPIWrapper.NVAPITimingExtDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPITimingExtDto
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3588
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Managed representation of the NV_TIMINGEXT extended timing information.
+  example: []
+  syntax:
+    content: 'public struct NVAPITimingExtDto : IEquatable<NVAPITimingExtDto>'
+    content.vb: Public Structure NVAPITimingExtDto Implements IEquatable(Of NVAPITimingExtDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPITimingExtDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPITimingExtDto.Flag
+  commentId: P:NVAPIWrapper.NVAPITimingExtDto.Flag
+  id: Flag
+  parent: NVAPIWrapper.NVAPITimingExtDto
+  langs:
+  - csharp
+  - vb
+  name: Flag
+  nameWithType: NVAPITimingExtDto.Flag
+  fullName: NVAPIWrapper.NVAPITimingExtDto.Flag
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Flag
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3591
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Timing flags.
+  example: []
+  syntax:
+    content: public uint Flag { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Flag As UInteger
+  overload: NVAPIWrapper.NVAPITimingExtDto.Flag*
+- uid: NVAPIWrapper.NVAPITimingExtDto.Rr
+  commentId: P:NVAPIWrapper.NVAPITimingExtDto.Rr
+  id: Rr
+  parent: NVAPIWrapper.NVAPITimingExtDto
+  langs:
+  - csharp
+  - vb
+  name: Rr
+  nameWithType: NVAPITimingExtDto.Rr
+  fullName: NVAPIWrapper.NVAPITimingExtDto.Rr
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Rr
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3594
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Refresh rate in Hz.
+  example: []
+  syntax:
+    content: public ushort Rr { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt16
+    content.vb: Public Property Rr As UShort
+  overload: NVAPIWrapper.NVAPITimingExtDto.Rr*
+- uid: NVAPIWrapper.NVAPITimingExtDto.Rrx1k
+  commentId: P:NVAPIWrapper.NVAPITimingExtDto.Rrx1k
+  id: Rrx1k
+  parent: NVAPIWrapper.NVAPITimingExtDto
+  langs:
+  - csharp
+  - vb
+  name: Rrx1k
+  nameWithType: NVAPITimingExtDto.Rrx1k
+  fullName: NVAPIWrapper.NVAPITimingExtDto.Rrx1k
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Rrx1k
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3597
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Refresh rate in 1/1000 Hz.
+  example: []
+  syntax:
+    content: public uint Rrx1k { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Rrx1k As UInteger
+  overload: NVAPIWrapper.NVAPITimingExtDto.Rrx1k*
+- uid: NVAPIWrapper.NVAPITimingExtDto.Aspect
+  commentId: P:NVAPIWrapper.NVAPITimingExtDto.Aspect
+  id: Aspect
+  parent: NVAPIWrapper.NVAPITimingExtDto
+  langs:
+  - csharp
+  - vb
+  name: Aspect
+  nameWithType: NVAPITimingExtDto.Aspect
+  fullName: NVAPIWrapper.NVAPITimingExtDto.Aspect
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Aspect
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3600
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Aspect ratio.
+  example: []
+  syntax:
+    content: public uint Aspect { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Aspect As UInteger
+  overload: NVAPIWrapper.NVAPITimingExtDto.Aspect*
+- uid: NVAPIWrapper.NVAPITimingExtDto.Rep
+  commentId: P:NVAPIWrapper.NVAPITimingExtDto.Rep
+  id: Rep
+  parent: NVAPIWrapper.NVAPITimingExtDto
+  langs:
+  - csharp
+  - vb
+  name: Rep
+  nameWithType: NVAPITimingExtDto.Rep
+  fullName: NVAPIWrapper.NVAPITimingExtDto.Rep
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Rep
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3603
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Repetition factor.
+  example: []
+  syntax:
+    content: public ushort Rep { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt16
+    content.vb: Public Property Rep As UShort
+  overload: NVAPIWrapper.NVAPITimingExtDto.Rep*
+- uid: NVAPIWrapper.NVAPITimingExtDto.Status
+  commentId: P:NVAPIWrapper.NVAPITimingExtDto.Status
+  id: Status
+  parent: NVAPIWrapper.NVAPITimingExtDto
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: NVAPITimingExtDto.Status
+  fullName: NVAPIWrapper.NVAPITimingExtDto.Status
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Status
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3606
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Timing status.
+  example: []
+  syntax:
+    content: public uint Status { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Status As UInteger
+  overload: NVAPIWrapper.NVAPITimingExtDto.Status*
+- uid: NVAPIWrapper.NVAPITimingExtDto.Name
+  commentId: P:NVAPIWrapper.NVAPITimingExtDto.Name
+  id: Name
+  parent: NVAPIWrapper.NVAPITimingExtDto
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: NVAPITimingExtDto.Name
+  fullName: NVAPIWrapper.NVAPITimingExtDto.Name
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Name
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3610
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Timing name (null-terminated ASCII, up to 40 bytes). Empty string when no name is present.
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: NVAPIWrapper.NVAPITimingExtDto.Name*
+- uid: NVAPIWrapper.NVAPITimingExtDto.#ctor(System.UInt32,System.UInt16,System.UInt32,System.UInt32,System.UInt16,System.UInt32,System.String)
+  commentId: M:NVAPIWrapper.NVAPITimingExtDto.#ctor(System.UInt32,System.UInt16,System.UInt32,System.UInt32,System.UInt16,System.UInt32,System.String)
+  id: '#ctor(System.UInt32,System.UInt16,System.UInt32,System.UInt32,System.UInt16,System.UInt32,System.String)'
+  parent: NVAPIWrapper.NVAPITimingExtDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPITimingExtDto(uint, ushort, uint, uint, ushort, uint, string?)
+  nameWithType: NVAPITimingExtDto.NVAPITimingExtDto(uint, ushort, uint, uint, ushort, uint, string?)
+  fullName: NVAPIWrapper.NVAPITimingExtDto.NVAPITimingExtDto(uint, ushort, uint, uint, ushort, uint, string?)
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3613
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create timing ext info.
+  example: []
+  syntax:
+    content: public NVAPITimingExtDto(uint flag, ushort rr, uint rrx1k, uint aspect, ushort rep, uint status, string? name)
+    parameters:
+    - id: flag
+      type: System.UInt32
+    - id: rr
+      type: System.UInt16
+    - id: rrx1k
+      type: System.UInt32
+    - id: aspect
+      type: System.UInt32
+    - id: rep
+      type: System.UInt16
+    - id: status
+      type: System.UInt32
+    - id: name
+      type: System.String
+    content.vb: Public Sub New(flag As UInteger, rr As UShort, rrx1k As UInteger, aspect As UInteger, rep As UShort, status As UInteger, name As String)
+  overload: NVAPIWrapper.NVAPITimingExtDto.#ctor*
+  nameWithType.vb: NVAPITimingExtDto.New(UInteger, UShort, UInteger, UInteger, UShort, UInteger, String)
+  fullName.vb: NVAPIWrapper.NVAPITimingExtDto.New(UInteger, UShort, UInteger, UInteger, UShort, UInteger, String)
+  name.vb: New(UInteger, UShort, UInteger, UInteger, UShort, UInteger, String)
+- uid: NVAPIWrapper.NVAPITimingExtDto.FromNative(NVAPIWrapper.tagNV_TIMINGEXT)
+  commentId: M:NVAPIWrapper.NVAPITimingExtDto.FromNative(NVAPIWrapper.tagNV_TIMINGEXT)
+  id: FromNative(NVAPIWrapper.tagNV_TIMINGEXT)
+  parent: NVAPIWrapper.NVAPITimingExtDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(tagNV_TIMINGEXT)
+  nameWithType: NVAPITimingExtDto.FromNative(tagNV_TIMINGEXT)
+  fullName: NVAPIWrapper.NVAPITimingExtDto.FromNative(NVAPIWrapper.tagNV_TIMINGEXT)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3629
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a DTO from a native timing ext struct.
+  example: []
+  syntax:
+    content: public static NVAPITimingExtDto FromNative(tagNV_TIMINGEXT native)
+    parameters:
+    - id: native
+      type: NVAPIWrapper.tagNV_TIMINGEXT
+      description: Native timing ext struct.
+    return:
+      type: NVAPIWrapper.NVAPITimingExtDto
+      description: Timing ext DTO.
+    content.vb: Public Shared Function FromNative(native As tagNV_TIMINGEXT) As NVAPITimingExtDto
+  overload: NVAPIWrapper.NVAPITimingExtDto.FromNative*
+- uid: NVAPIWrapper.NVAPITimingExtDto.ToNative
+  commentId: M:NVAPIWrapper.NVAPITimingExtDto.ToNative
+  id: ToNative
+  parent: NVAPIWrapper.NVAPITimingExtDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: NVAPITimingExtDto.ToNative()
+  fullName: NVAPIWrapper.NVAPITimingExtDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3648
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Convert this DTO to a native timing ext struct.
+  example: []
+  syntax:
+    content: public tagNV_TIMINGEXT ToNative()
+    return:
+      type: NVAPIWrapper.tagNV_TIMINGEXT
+      description: Native timing ext struct.
+    content.vb: Public Function ToNative() As tagNV_TIMINGEXT
+  overload: NVAPIWrapper.NVAPITimingExtDto.ToNative*
+- uid: NVAPIWrapper.NVAPITimingExtDto.Equals(NVAPIWrapper.NVAPITimingExtDto)
+  commentId: M:NVAPIWrapper.NVAPITimingExtDto.Equals(NVAPIWrapper.NVAPITimingExtDto)
+  id: Equals(NVAPIWrapper.NVAPITimingExtDto)
+  parent: NVAPIWrapper.NVAPITimingExtDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPITimingExtDto)
+  nameWithType: NVAPITimingExtDto.Equals(NVAPITimingExtDto)
+  fullName: NVAPIWrapper.NVAPITimingExtDto.Equals(NVAPIWrapper.NVAPITimingExtDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3672
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPITimingExtDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPITimingExtDto
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As NVAPITimingExtDto) As Boolean
+  overload: NVAPIWrapper.NVAPITimingExtDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPITimingExtDto}.Equals(NVAPIWrapper.NVAPITimingExtDto)
+- uid: NVAPIWrapper.NVAPITimingExtDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPITimingExtDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPITimingExtDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPITimingExtDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPITimingExtDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3684
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPITimingExtDto.Equals*
+  nameWithType.vb: NVAPITimingExtDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPITimingExtDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPITimingExtDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPITimingExtDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPITimingExtDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPITimingExtDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPITimingExtDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3690
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPITimingExtDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPITimingExtDto.op_Equality(NVAPIWrapper.NVAPITimingExtDto,NVAPIWrapper.NVAPITimingExtDto)
+  commentId: M:NVAPIWrapper.NVAPITimingExtDto.op_Equality(NVAPIWrapper.NVAPITimingExtDto,NVAPIWrapper.NVAPITimingExtDto)
+  id: op_Equality(NVAPIWrapper.NVAPITimingExtDto,NVAPIWrapper.NVAPITimingExtDto)
+  parent: NVAPIWrapper.NVAPITimingExtDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPITimingExtDto, NVAPITimingExtDto)
+  nameWithType: NVAPITimingExtDto.operator ==(NVAPITimingExtDto, NVAPITimingExtDto)
+  fullName: NVAPIWrapper.NVAPITimingExtDto.operator ==(NVAPIWrapper.NVAPITimingExtDto, NVAPIWrapper.NVAPITimingExtDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3707
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Compare timing ext values.
+  example: []
+  syntax:
+    content: public static bool operator ==(NVAPITimingExtDto left, NVAPITimingExtDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPITimingExtDto
+    - id: right
+      type: NVAPIWrapper.NVAPITimingExtDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As NVAPITimingExtDto, right As NVAPITimingExtDto) As Boolean
+  overload: NVAPIWrapper.NVAPITimingExtDto.op_Equality*
+  nameWithType.vb: NVAPITimingExtDto.=(NVAPITimingExtDto, NVAPITimingExtDto)
+  fullName.vb: NVAPIWrapper.NVAPITimingExtDto.=(NVAPIWrapper.NVAPITimingExtDto, NVAPIWrapper.NVAPITimingExtDto)
+  name.vb: =(NVAPITimingExtDto, NVAPITimingExtDto)
+- uid: NVAPIWrapper.NVAPITimingExtDto.op_Inequality(NVAPIWrapper.NVAPITimingExtDto,NVAPIWrapper.NVAPITimingExtDto)
+  commentId: M:NVAPIWrapper.NVAPITimingExtDto.op_Inequality(NVAPIWrapper.NVAPITimingExtDto,NVAPIWrapper.NVAPITimingExtDto)
+  id: op_Inequality(NVAPIWrapper.NVAPITimingExtDto,NVAPIWrapper.NVAPITimingExtDto)
+  parent: NVAPIWrapper.NVAPITimingExtDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPITimingExtDto, NVAPITimingExtDto)
+  nameWithType: NVAPITimingExtDto.operator !=(NVAPITimingExtDto, NVAPITimingExtDto)
+  fullName: NVAPIWrapper.NVAPITimingExtDto.operator !=(NVAPIWrapper.NVAPITimingExtDto, NVAPIWrapper.NVAPITimingExtDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3710
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Compare timing ext values.
+  example: []
+  syntax:
+    content: public static bool operator !=(NVAPITimingExtDto left, NVAPITimingExtDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPITimingExtDto
+    - id: right
+      type: NVAPIWrapper.NVAPITimingExtDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As NVAPITimingExtDto, right As NVAPITimingExtDto) As Boolean
+  overload: NVAPIWrapper.NVAPITimingExtDto.op_Inequality*
+  nameWithType.vb: NVAPITimingExtDto.<>(NVAPITimingExtDto, NVAPITimingExtDto)
+  fullName.vb: NVAPIWrapper.NVAPITimingExtDto.<>(NVAPIWrapper.NVAPITimingExtDto, NVAPIWrapper.NVAPITimingExtDto)
+  name.vb: <>(NVAPITimingExtDto, NVAPITimingExtDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPITimingExtDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPITimingExtDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPITimingExtDto>
+  nameWithType: IEquatable<NVAPITimingExtDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPITimingExtDto>
+  nameWithType.vb: IEquatable(Of NVAPITimingExtDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPITimingExtDto)
+  name.vb: IEquatable(Of NVAPITimingExtDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPITimingExtDto
+    name: NVAPITimingExtDto
+    href: NVAPIWrapper.NVAPITimingExtDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPITimingExtDto
+    name: NVAPITimingExtDto
+    href: NVAPIWrapper.NVAPITimingExtDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPITimingExtDto.Flag*
+  commentId: Overload:NVAPIWrapper.NVAPITimingExtDto.Flag
+  href: NVAPIWrapper.NVAPITimingExtDto.html#NVAPIWrapper_NVAPITimingExtDto_Flag
+  name: Flag
+  nameWithType: NVAPITimingExtDto.Flag
+  fullName: NVAPIWrapper.NVAPITimingExtDto.Flag
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NVAPITimingExtDto.Rr*
+  commentId: Overload:NVAPIWrapper.NVAPITimingExtDto.Rr
+  href: NVAPIWrapper.NVAPITimingExtDto.html#NVAPIWrapper_NVAPITimingExtDto_Rr
+  name: Rr
+  nameWithType: NVAPITimingExtDto.Rr
+  fullName: NVAPIWrapper.NVAPITimingExtDto.Rr
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint16
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: NVAPIWrapper.NVAPITimingExtDto.Rrx1k*
+  commentId: Overload:NVAPIWrapper.NVAPITimingExtDto.Rrx1k
+  href: NVAPIWrapper.NVAPITimingExtDto.html#NVAPIWrapper_NVAPITimingExtDto_Rrx1k
+  name: Rrx1k
+  nameWithType: NVAPITimingExtDto.Rrx1k
+  fullName: NVAPIWrapper.NVAPITimingExtDto.Rrx1k
+- uid: NVAPIWrapper.NVAPITimingExtDto.Aspect*
+  commentId: Overload:NVAPIWrapper.NVAPITimingExtDto.Aspect
+  href: NVAPIWrapper.NVAPITimingExtDto.html#NVAPIWrapper_NVAPITimingExtDto_Aspect
+  name: Aspect
+  nameWithType: NVAPITimingExtDto.Aspect
+  fullName: NVAPIWrapper.NVAPITimingExtDto.Aspect
+- uid: NVAPIWrapper.NVAPITimingExtDto.Rep*
+  commentId: Overload:NVAPIWrapper.NVAPITimingExtDto.Rep
+  href: NVAPIWrapper.NVAPITimingExtDto.html#NVAPIWrapper_NVAPITimingExtDto_Rep
+  name: Rep
+  nameWithType: NVAPITimingExtDto.Rep
+  fullName: NVAPIWrapper.NVAPITimingExtDto.Rep
+- uid: NVAPIWrapper.NVAPITimingExtDto.Status*
+  commentId: Overload:NVAPIWrapper.NVAPITimingExtDto.Status
+  href: NVAPIWrapper.NVAPITimingExtDto.html#NVAPIWrapper_NVAPITimingExtDto_Status
+  name: Status
+  nameWithType: NVAPITimingExtDto.Status
+  fullName: NVAPIWrapper.NVAPITimingExtDto.Status
+- uid: NVAPIWrapper.NVAPITimingExtDto.Name*
+  commentId: Overload:NVAPIWrapper.NVAPITimingExtDto.Name
+  href: NVAPIWrapper.NVAPITimingExtDto.html#NVAPIWrapper_NVAPITimingExtDto_Name
+  name: Name
+  nameWithType: NVAPITimingExtDto.Name
+  fullName: NVAPIWrapper.NVAPITimingExtDto.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NVAPIWrapper.NVAPITimingExtDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPITimingExtDto.#ctor
+  href: NVAPIWrapper.NVAPITimingExtDto.html#NVAPIWrapper_NVAPITimingExtDto__ctor_System_UInt32_System_UInt16_System_UInt32_System_UInt32_System_UInt16_System_UInt32_System_String_
+  name: NVAPITimingExtDto
+  nameWithType: NVAPITimingExtDto.NVAPITimingExtDto
+  fullName: NVAPIWrapper.NVAPITimingExtDto.NVAPITimingExtDto
+  nameWithType.vb: NVAPITimingExtDto.New
+  fullName.vb: NVAPIWrapper.NVAPITimingExtDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPITimingExtDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPITimingExtDto.FromNative
+  href: NVAPIWrapper.NVAPITimingExtDto.html#NVAPIWrapper_NVAPITimingExtDto_FromNative_NVAPIWrapper_tagNV_TIMINGEXT_
+  name: FromNative
+  nameWithType: NVAPITimingExtDto.FromNative
+  fullName: NVAPIWrapper.NVAPITimingExtDto.FromNative
+- uid: NVAPIWrapper.tagNV_TIMINGEXT
+  commentId: T:NVAPIWrapper.tagNV_TIMINGEXT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.tagNV_TIMINGEXT.html
+  name: tagNV_TIMINGEXT
+  nameWithType: tagNV_TIMINGEXT
+  fullName: NVAPIWrapper.tagNV_TIMINGEXT
+- uid: NVAPIWrapper.NVAPITimingExtDto
+  commentId: T:NVAPIWrapper.NVAPITimingExtDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPITimingExtDto.html
+  name: NVAPITimingExtDto
+  nameWithType: NVAPITimingExtDto
+  fullName: NVAPIWrapper.NVAPITimingExtDto
+- uid: NVAPIWrapper.NVAPITimingExtDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPITimingExtDto.ToNative
+  href: NVAPIWrapper.NVAPITimingExtDto.html#NVAPIWrapper_NVAPITimingExtDto_ToNative
+  name: ToNative
+  nameWithType: NVAPITimingExtDto.ToNative
+  fullName: NVAPIWrapper.NVAPITimingExtDto.ToNative
+- uid: NVAPIWrapper.NVAPITimingExtDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPITimingExtDto.Equals
+  href: NVAPIWrapper.NVAPITimingExtDto.html#NVAPIWrapper_NVAPITimingExtDto_Equals_NVAPIWrapper_NVAPITimingExtDto_
+  name: Equals
+  nameWithType: NVAPITimingExtDto.Equals
+  fullName: NVAPIWrapper.NVAPITimingExtDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPITimingExtDto}.Equals(NVAPIWrapper.NVAPITimingExtDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPITimingExtDto}.Equals(NVAPIWrapper.NVAPITimingExtDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPITimingExtDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPITimingExtDto)
+  nameWithType: IEquatable<NVAPITimingExtDto>.Equals(NVAPITimingExtDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPITimingExtDto>.Equals(NVAPIWrapper.NVAPITimingExtDto)
+  nameWithType.vb: IEquatable(Of NVAPITimingExtDto).Equals(NVAPITimingExtDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPITimingExtDto).Equals(NVAPIWrapper.NVAPITimingExtDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPITimingExtDto}.Equals(NVAPIWrapper.NVAPITimingExtDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPITimingExtDto
+    name: NVAPITimingExtDto
+    href: NVAPIWrapper.NVAPITimingExtDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPITimingExtDto}.Equals(NVAPIWrapper.NVAPITimingExtDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPITimingExtDto
+    name: NVAPITimingExtDto
+    href: NVAPIWrapper.NVAPITimingExtDto.html
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPITimingExtDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPITimingExtDto.GetHashCode
+  href: NVAPIWrapper.NVAPITimingExtDto.html#NVAPIWrapper_NVAPITimingExtDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPITimingExtDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPITimingExtDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPITimingExtDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPITimingExtDto.op_Equality
+  href: NVAPIWrapper.NVAPITimingExtDto.html#NVAPIWrapper_NVAPITimingExtDto_op_Equality_NVAPIWrapper_NVAPITimingExtDto_NVAPIWrapper_NVAPITimingExtDto_
+  name: operator ==
+  nameWithType: NVAPITimingExtDto.operator ==
+  fullName: NVAPIWrapper.NVAPITimingExtDto.operator ==
+  nameWithType.vb: NVAPITimingExtDto.=
+  fullName.vb: NVAPIWrapper.NVAPITimingExtDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPITimingExtDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPITimingExtDto.html#NVAPIWrapper_NVAPITimingExtDto_op_Equality_NVAPIWrapper_NVAPITimingExtDto_NVAPIWrapper_NVAPITimingExtDto_
+- uid: NVAPIWrapper.NVAPITimingExtDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPITimingExtDto.op_Inequality
+  href: NVAPIWrapper.NVAPITimingExtDto.html#NVAPIWrapper_NVAPITimingExtDto_op_Inequality_NVAPIWrapper_NVAPITimingExtDto_NVAPIWrapper_NVAPITimingExtDto_
+  name: operator !=
+  nameWithType: NVAPITimingExtDto.operator !=
+  fullName: NVAPIWrapper.NVAPITimingExtDto.operator !=
+  nameWithType.vb: NVAPITimingExtDto.<>
+  fullName.vb: NVAPIWrapper.NVAPITimingExtDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPITimingExtDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPITimingExtDto.html#NVAPIWrapper_NVAPITimingExtDto_op_Inequality_NVAPIWrapper_NVAPITimingExtDto_NVAPIWrapper_NVAPITimingExtDto_

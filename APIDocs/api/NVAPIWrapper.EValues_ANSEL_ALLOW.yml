@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_ANSEL_ALLOW
+  commentId: T:NVAPIWrapper.EValues_ANSEL_ALLOW
+  id: EValues_ANSEL_ALLOW
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_ANSEL_ALLOW.ANSEL_ALLOW_ALLOWED
+  - NVAPIWrapper.EValues_ANSEL_ALLOW.ANSEL_ALLOW_DEFAULT
+  - NVAPIWrapper.EValues_ANSEL_ALLOW.ANSEL_ALLOW_DISALLOWED
+  - NVAPIWrapper.EValues_ANSEL_ALLOW.ANSEL_ALLOW_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_ANSEL_ALLOW
+  nameWithType: EValues_ANSEL_ALLOW
+  fullName: NVAPIWrapper.EValues_ANSEL_ALLOW
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_ANSEL_ALLOW.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_ANSEL_ALLOW
+    path: ../NVAPIWrapper/cs_generated/EValues_ANSEL_ALLOW.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_ANSEL_ALLOW
+    content.vb: Public Enum EValues_ANSEL_ALLOW
+- uid: NVAPIWrapper.EValues_ANSEL_ALLOW.ANSEL_ALLOW_DISALLOWED
+  commentId: F:NVAPIWrapper.EValues_ANSEL_ALLOW.ANSEL_ALLOW_DISALLOWED
+  id: ANSEL_ALLOW_DISALLOWED
+  parent: NVAPIWrapper.EValues_ANSEL_ALLOW
+  langs:
+  - csharp
+  - vb
+  name: ANSEL_ALLOW_DISALLOWED
+  nameWithType: EValues_ANSEL_ALLOW.ANSEL_ALLOW_DISALLOWED
+  fullName: NVAPIWrapper.EValues_ANSEL_ALLOW.ANSEL_ALLOW_DISALLOWED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_ANSEL_ALLOW.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ANSEL_ALLOW_DISALLOWED
+    path: ../NVAPIWrapper/cs_generated/EValues_ANSEL_ALLOW.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: ANSEL_ALLOW_DISALLOWED = 0
+    return:
+      type: NVAPIWrapper.EValues_ANSEL_ALLOW
+- uid: NVAPIWrapper.EValues_ANSEL_ALLOW.ANSEL_ALLOW_ALLOWED
+  commentId: F:NVAPIWrapper.EValues_ANSEL_ALLOW.ANSEL_ALLOW_ALLOWED
+  id: ANSEL_ALLOW_ALLOWED
+  parent: NVAPIWrapper.EValues_ANSEL_ALLOW
+  langs:
+  - csharp
+  - vb
+  name: ANSEL_ALLOW_ALLOWED
+  nameWithType: EValues_ANSEL_ALLOW.ANSEL_ALLOW_ALLOWED
+  fullName: NVAPIWrapper.EValues_ANSEL_ALLOW.ANSEL_ALLOW_ALLOWED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_ANSEL_ALLOW.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ANSEL_ALLOW_ALLOWED
+    path: ../NVAPIWrapper/cs_generated/EValues_ANSEL_ALLOW.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: ANSEL_ALLOW_ALLOWED = 1
+    return:
+      type: NVAPIWrapper.EValues_ANSEL_ALLOW
+- uid: NVAPIWrapper.EValues_ANSEL_ALLOW.ANSEL_ALLOW_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_ANSEL_ALLOW.ANSEL_ALLOW_NUM_VALUES
+  id: ANSEL_ALLOW_NUM_VALUES
+  parent: NVAPIWrapper.EValues_ANSEL_ALLOW
+  langs:
+  - csharp
+  - vb
+  name: ANSEL_ALLOW_NUM_VALUES
+  nameWithType: EValues_ANSEL_ALLOW.ANSEL_ALLOW_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_ANSEL_ALLOW.ANSEL_ALLOW_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_ANSEL_ALLOW.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ANSEL_ALLOW_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_ANSEL_ALLOW.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: ANSEL_ALLOW_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_ANSEL_ALLOW
+- uid: NVAPIWrapper.EValues_ANSEL_ALLOW.ANSEL_ALLOW_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_ANSEL_ALLOW.ANSEL_ALLOW_DEFAULT
+  id: ANSEL_ALLOW_DEFAULT
+  parent: NVAPIWrapper.EValues_ANSEL_ALLOW
+  langs:
+  - csharp
+  - vb
+  name: ANSEL_ALLOW_DEFAULT
+  nameWithType: EValues_ANSEL_ALLOW.ANSEL_ALLOW_DEFAULT
+  fullName: NVAPIWrapper.EValues_ANSEL_ALLOW.ANSEL_ALLOW_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_ANSEL_ALLOW.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ANSEL_ALLOW_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_ANSEL_ALLOW.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: ANSEL_ALLOW_DEFAULT = 1
+    return:
+      type: NVAPIWrapper.EValues_ANSEL_ALLOW
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_ANSEL_ALLOW
+  commentId: T:NVAPIWrapper.EValues_ANSEL_ALLOW
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_ANSEL_ALLOW.html
+  name: EValues_ANSEL_ALLOW
+  nameWithType: EValues_ANSEL_ALLOW
+  fullName: NVAPIWrapper.EValues_ANSEL_ALLOW

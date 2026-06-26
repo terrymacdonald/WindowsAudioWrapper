@@ -1,0 +1,840 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIVioSyncDelayDto
+  commentId: T:NVAPIWrapper.NVAPIVioSyncDelayDto
+  id: NVAPIVioSyncDelayDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIVioSyncDelayDto.#ctor(System.UInt32,System.UInt32)
+  - NVAPIWrapper.NVAPIVioSyncDelayDto.Equals(NVAPIWrapper.NVAPIVioSyncDelayDto)
+  - NVAPIWrapper.NVAPIVioSyncDelayDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIVioSyncDelayDto.FromNative(NVAPIWrapper._NVVIOSYNCDELAY)
+  - NVAPIWrapper.NVAPIVioSyncDelayDto.GetHashCode
+  - NVAPIWrapper.NVAPIVioSyncDelayDto.HorizontalDelay
+  - NVAPIWrapper.NVAPIVioSyncDelayDto.ToNative
+  - NVAPIWrapper.NVAPIVioSyncDelayDto.VerticalDelay
+  - NVAPIWrapper.NVAPIVioSyncDelayDto.op_Equality(NVAPIWrapper.NVAPIVioSyncDelayDto,NVAPIWrapper.NVAPIVioSyncDelayDto)
+  - NVAPIWrapper.NVAPIVioSyncDelayDto.op_Inequality(NVAPIWrapper.NVAPIVioSyncDelayDto,NVAPIWrapper.NVAPIVioSyncDelayDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIVioSyncDelayDto
+  nameWithType: NVAPIVioSyncDelayDto
+  fullName: NVAPIWrapper.NVAPIVioSyncDelayDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIVioSyncDelayDto
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 1347
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: VIO sync delay DTO.
+  example: []
+  syntax:
+    content: 'public struct NVAPIVioSyncDelayDto : IEquatable<NVAPIVioSyncDelayDto>'
+    content.vb: Public Structure NVAPIVioSyncDelayDto Implements IEquatable(Of NVAPIVioSyncDelayDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIVioSyncDelayDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIVioSyncDelayDto.HorizontalDelay
+  commentId: P:NVAPIWrapper.NVAPIVioSyncDelayDto.HorizontalDelay
+  id: HorizontalDelay
+  parent: NVAPIWrapper.NVAPIVioSyncDelayDto
+  langs:
+  - csharp
+  - vb
+  name: HorizontalDelay
+  nameWithType: NVAPIVioSyncDelayDto.HorizontalDelay
+  fullName: NVAPIWrapper.NVAPIVioSyncDelayDto.HorizontalDelay
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: HorizontalDelay
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 1349
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint HorizontalDelay { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property HorizontalDelay As UInteger
+  overload: NVAPIWrapper.NVAPIVioSyncDelayDto.HorizontalDelay*
+- uid: NVAPIWrapper.NVAPIVioSyncDelayDto.VerticalDelay
+  commentId: P:NVAPIWrapper.NVAPIVioSyncDelayDto.VerticalDelay
+  id: VerticalDelay
+  parent: NVAPIWrapper.NVAPIVioSyncDelayDto
+  langs:
+  - csharp
+  - vb
+  name: VerticalDelay
+  nameWithType: NVAPIVioSyncDelayDto.VerticalDelay
+  fullName: NVAPIWrapper.NVAPIVioSyncDelayDto.VerticalDelay
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VerticalDelay
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 1350
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint VerticalDelay { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property VerticalDelay As UInteger
+  overload: NVAPIWrapper.NVAPIVioSyncDelayDto.VerticalDelay*
+- uid: NVAPIWrapper.NVAPIVioSyncDelayDto.#ctor(System.UInt32,System.UInt32)
+  commentId: M:NVAPIWrapper.NVAPIVioSyncDelayDto.#ctor(System.UInt32,System.UInt32)
+  id: '#ctor(System.UInt32,System.UInt32)'
+  parent: NVAPIWrapper.NVAPIVioSyncDelayDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIVioSyncDelayDto(uint, uint)
+  nameWithType: NVAPIVioSyncDelayDto.NVAPIVioSyncDelayDto(uint, uint)
+  fullName: NVAPIWrapper.NVAPIVioSyncDelayDto.NVAPIVioSyncDelayDto(uint, uint)
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 1352
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NVAPIVioSyncDelayDto(uint horizontalDelay, uint verticalDelay)
+    parameters:
+    - id: horizontalDelay
+      type: System.UInt32
+    - id: verticalDelay
+      type: System.UInt32
+    content.vb: Public Sub New(horizontalDelay As UInteger, verticalDelay As UInteger)
+  overload: NVAPIWrapper.NVAPIVioSyncDelayDto.#ctor*
+  nameWithType.vb: NVAPIVioSyncDelayDto.New(UInteger, UInteger)
+  fullName.vb: NVAPIWrapper.NVAPIVioSyncDelayDto.New(UInteger, UInteger)
+  name.vb: New(UInteger, UInteger)
+- uid: NVAPIWrapper.NVAPIVioSyncDelayDto.FromNative(NVAPIWrapper._NVVIOSYNCDELAY)
+  commentId: M:NVAPIWrapper.NVAPIVioSyncDelayDto.FromNative(NVAPIWrapper._NVVIOSYNCDELAY)
+  id: FromNative(NVAPIWrapper._NVVIOSYNCDELAY)
+  parent: NVAPIWrapper.NVAPIVioSyncDelayDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(_NVVIOSYNCDELAY)
+  nameWithType: NVAPIVioSyncDelayDto.FromNative(_NVVIOSYNCDELAY)
+  fullName: NVAPIWrapper.NVAPIVioSyncDelayDto.FromNative(NVAPIWrapper._NVVIOSYNCDELAY)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 1358
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static NVAPIVioSyncDelayDto FromNative(_NVVIOSYNCDELAY native)
+    parameters:
+    - id: native
+      type: NVAPIWrapper._NVVIOSYNCDELAY
+    return:
+      type: NVAPIWrapper.NVAPIVioSyncDelayDto
+    content.vb: Public Shared Function FromNative(native As _NVVIOSYNCDELAY) As NVAPIVioSyncDelayDto
+  overload: NVAPIWrapper.NVAPIVioSyncDelayDto.FromNative*
+- uid: NVAPIWrapper.NVAPIVioSyncDelayDto.ToNative
+  commentId: M:NVAPIWrapper.NVAPIVioSyncDelayDto.ToNative
+  id: ToNative
+  parent: NVAPIWrapper.NVAPIVioSyncDelayDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: NVAPIVioSyncDelayDto.ToNative()
+  fullName: NVAPIWrapper.NVAPIVioSyncDelayDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 1363
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public _NVVIOSYNCDELAY ToNative()
+    return:
+      type: NVAPIWrapper._NVVIOSYNCDELAY
+    content.vb: Public Function ToNative() As _NVVIOSYNCDELAY
+  overload: NVAPIWrapper.NVAPIVioSyncDelayDto.ToNative*
+- uid: NVAPIWrapper.NVAPIVioSyncDelayDto.Equals(NVAPIWrapper.NVAPIVioSyncDelayDto)
+  commentId: M:NVAPIWrapper.NVAPIVioSyncDelayDto.Equals(NVAPIWrapper.NVAPIVioSyncDelayDto)
+  id: Equals(NVAPIWrapper.NVAPIVioSyncDelayDto)
+  parent: NVAPIWrapper.NVAPIVioSyncDelayDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIVioSyncDelayDto)
+  nameWithType: NVAPIVioSyncDelayDto.Equals(NVAPIVioSyncDelayDto)
+  fullName: NVAPIWrapper.NVAPIVioSyncDelayDto.Equals(NVAPIWrapper.NVAPIVioSyncDelayDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 1373
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIVioSyncDelayDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIVioSyncDelayDto
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As NVAPIVioSyncDelayDto) As Boolean
+  overload: NVAPIWrapper.NVAPIVioSyncDelayDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIVioSyncDelayDto}.Equals(NVAPIWrapper.NVAPIVioSyncDelayDto)
+- uid: NVAPIWrapper.NVAPIVioSyncDelayDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIVioSyncDelayDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIVioSyncDelayDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIVioSyncDelayDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIVioSyncDelayDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 1378
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIVioSyncDelayDto.Equals*
+  nameWithType.vb: NVAPIVioSyncDelayDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIVioSyncDelayDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIVioSyncDelayDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIVioSyncDelayDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIVioSyncDelayDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIVioSyncDelayDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIVioSyncDelayDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 1380
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIVioSyncDelayDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIVioSyncDelayDto.op_Equality(NVAPIWrapper.NVAPIVioSyncDelayDto,NVAPIWrapper.NVAPIVioSyncDelayDto)
+  commentId: M:NVAPIWrapper.NVAPIVioSyncDelayDto.op_Equality(NVAPIWrapper.NVAPIVioSyncDelayDto,NVAPIWrapper.NVAPIVioSyncDelayDto)
+  id: op_Equality(NVAPIWrapper.NVAPIVioSyncDelayDto,NVAPIWrapper.NVAPIVioSyncDelayDto)
+  parent: NVAPIWrapper.NVAPIVioSyncDelayDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIVioSyncDelayDto, NVAPIVioSyncDelayDto)
+  nameWithType: NVAPIVioSyncDelayDto.operator ==(NVAPIVioSyncDelayDto, NVAPIVioSyncDelayDto)
+  fullName: NVAPIWrapper.NVAPIVioSyncDelayDto.operator ==(NVAPIWrapper.NVAPIVioSyncDelayDto, NVAPIWrapper.NVAPIVioSyncDelayDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 1390
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static bool operator ==(NVAPIVioSyncDelayDto left, NVAPIVioSyncDelayDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIVioSyncDelayDto
+    - id: right
+      type: NVAPIWrapper.NVAPIVioSyncDelayDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As NVAPIVioSyncDelayDto, right As NVAPIVioSyncDelayDto) As Boolean
+  overload: NVAPIWrapper.NVAPIVioSyncDelayDto.op_Equality*
+  nameWithType.vb: NVAPIVioSyncDelayDto.=(NVAPIVioSyncDelayDto, NVAPIVioSyncDelayDto)
+  fullName.vb: NVAPIWrapper.NVAPIVioSyncDelayDto.=(NVAPIWrapper.NVAPIVioSyncDelayDto, NVAPIWrapper.NVAPIVioSyncDelayDto)
+  name.vb: =(NVAPIVioSyncDelayDto, NVAPIVioSyncDelayDto)
+- uid: NVAPIWrapper.NVAPIVioSyncDelayDto.op_Inequality(NVAPIWrapper.NVAPIVioSyncDelayDto,NVAPIWrapper.NVAPIVioSyncDelayDto)
+  commentId: M:NVAPIWrapper.NVAPIVioSyncDelayDto.op_Inequality(NVAPIWrapper.NVAPIVioSyncDelayDto,NVAPIWrapper.NVAPIVioSyncDelayDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIVioSyncDelayDto,NVAPIWrapper.NVAPIVioSyncDelayDto)
+  parent: NVAPIWrapper.NVAPIVioSyncDelayDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIVioSyncDelayDto, NVAPIVioSyncDelayDto)
+  nameWithType: NVAPIVioSyncDelayDto.operator !=(NVAPIVioSyncDelayDto, NVAPIVioSyncDelayDto)
+  fullName: NVAPIWrapper.NVAPIVioSyncDelayDto.operator !=(NVAPIWrapper.NVAPIVioSyncDelayDto, NVAPIWrapper.NVAPIVioSyncDelayDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 1391
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static bool operator !=(NVAPIVioSyncDelayDto left, NVAPIVioSyncDelayDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIVioSyncDelayDto
+    - id: right
+      type: NVAPIWrapper.NVAPIVioSyncDelayDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As NVAPIVioSyncDelayDto, right As NVAPIVioSyncDelayDto) As Boolean
+  overload: NVAPIWrapper.NVAPIVioSyncDelayDto.op_Inequality*
+  nameWithType.vb: NVAPIVioSyncDelayDto.<>(NVAPIVioSyncDelayDto, NVAPIVioSyncDelayDto)
+  fullName.vb: NVAPIWrapper.NVAPIVioSyncDelayDto.<>(NVAPIWrapper.NVAPIVioSyncDelayDto, NVAPIWrapper.NVAPIVioSyncDelayDto)
+  name.vb: <>(NVAPIVioSyncDelayDto, NVAPIVioSyncDelayDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIVioSyncDelayDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIVioSyncDelayDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIVioSyncDelayDto>
+  nameWithType: IEquatable<NVAPIVioSyncDelayDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIVioSyncDelayDto>
+  nameWithType.vb: IEquatable(Of NVAPIVioSyncDelayDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIVioSyncDelayDto)
+  name.vb: IEquatable(Of NVAPIVioSyncDelayDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIVioSyncDelayDto
+    name: NVAPIVioSyncDelayDto
+    href: NVAPIWrapper.NVAPIVioSyncDelayDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIVioSyncDelayDto
+    name: NVAPIVioSyncDelayDto
+    href: NVAPIWrapper.NVAPIVioSyncDelayDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIVioSyncDelayDto.HorizontalDelay*
+  commentId: Overload:NVAPIWrapper.NVAPIVioSyncDelayDto.HorizontalDelay
+  href: NVAPIWrapper.NVAPIVioSyncDelayDto.html#NVAPIWrapper_NVAPIVioSyncDelayDto_HorizontalDelay
+  name: HorizontalDelay
+  nameWithType: NVAPIVioSyncDelayDto.HorizontalDelay
+  fullName: NVAPIWrapper.NVAPIVioSyncDelayDto.HorizontalDelay
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NVAPIVioSyncDelayDto.VerticalDelay*
+  commentId: Overload:NVAPIWrapper.NVAPIVioSyncDelayDto.VerticalDelay
+  href: NVAPIWrapper.NVAPIVioSyncDelayDto.html#NVAPIWrapper_NVAPIVioSyncDelayDto_VerticalDelay
+  name: VerticalDelay
+  nameWithType: NVAPIVioSyncDelayDto.VerticalDelay
+  fullName: NVAPIWrapper.NVAPIVioSyncDelayDto.VerticalDelay
+- uid: NVAPIWrapper.NVAPIVioSyncDelayDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIVioSyncDelayDto.#ctor
+  href: NVAPIWrapper.NVAPIVioSyncDelayDto.html#NVAPIWrapper_NVAPIVioSyncDelayDto__ctor_System_UInt32_System_UInt32_
+  name: NVAPIVioSyncDelayDto
+  nameWithType: NVAPIVioSyncDelayDto.NVAPIVioSyncDelayDto
+  fullName: NVAPIWrapper.NVAPIVioSyncDelayDto.NVAPIVioSyncDelayDto
+  nameWithType.vb: NVAPIVioSyncDelayDto.New
+  fullName.vb: NVAPIWrapper.NVAPIVioSyncDelayDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPIVioSyncDelayDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPIVioSyncDelayDto.FromNative
+  href: NVAPIWrapper.NVAPIVioSyncDelayDto.html#NVAPIWrapper_NVAPIVioSyncDelayDto_FromNative_NVAPIWrapper__NVVIOSYNCDELAY_
+  name: FromNative
+  nameWithType: NVAPIVioSyncDelayDto.FromNative
+  fullName: NVAPIWrapper.NVAPIVioSyncDelayDto.FromNative
+- uid: NVAPIWrapper._NVVIOSYNCDELAY
+  commentId: T:NVAPIWrapper._NVVIOSYNCDELAY
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOSYNCDELAY.html
+  name: _NVVIOSYNCDELAY
+  nameWithType: _NVVIOSYNCDELAY
+  fullName: NVAPIWrapper._NVVIOSYNCDELAY
+- uid: NVAPIWrapper.NVAPIVioSyncDelayDto
+  commentId: T:NVAPIWrapper.NVAPIVioSyncDelayDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIVioSyncDelayDto.html
+  name: NVAPIVioSyncDelayDto
+  nameWithType: NVAPIVioSyncDelayDto
+  fullName: NVAPIWrapper.NVAPIVioSyncDelayDto
+- uid: NVAPIWrapper.NVAPIVioSyncDelayDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPIVioSyncDelayDto.ToNative
+  href: NVAPIWrapper.NVAPIVioSyncDelayDto.html#NVAPIWrapper_NVAPIVioSyncDelayDto_ToNative
+  name: ToNative
+  nameWithType: NVAPIVioSyncDelayDto.ToNative
+  fullName: NVAPIWrapper.NVAPIVioSyncDelayDto.ToNative
+- uid: NVAPIWrapper.NVAPIVioSyncDelayDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIVioSyncDelayDto.Equals
+  href: NVAPIWrapper.NVAPIVioSyncDelayDto.html#NVAPIWrapper_NVAPIVioSyncDelayDto_Equals_NVAPIWrapper_NVAPIVioSyncDelayDto_
+  name: Equals
+  nameWithType: NVAPIVioSyncDelayDto.Equals
+  fullName: NVAPIWrapper.NVAPIVioSyncDelayDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIVioSyncDelayDto}.Equals(NVAPIWrapper.NVAPIVioSyncDelayDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIVioSyncDelayDto}.Equals(NVAPIWrapper.NVAPIVioSyncDelayDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIVioSyncDelayDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIVioSyncDelayDto)
+  nameWithType: IEquatable<NVAPIVioSyncDelayDto>.Equals(NVAPIVioSyncDelayDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIVioSyncDelayDto>.Equals(NVAPIWrapper.NVAPIVioSyncDelayDto)
+  nameWithType.vb: IEquatable(Of NVAPIVioSyncDelayDto).Equals(NVAPIVioSyncDelayDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIVioSyncDelayDto).Equals(NVAPIWrapper.NVAPIVioSyncDelayDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIVioSyncDelayDto}.Equals(NVAPIWrapper.NVAPIVioSyncDelayDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIVioSyncDelayDto
+    name: NVAPIVioSyncDelayDto
+    href: NVAPIWrapper.NVAPIVioSyncDelayDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIVioSyncDelayDto}.Equals(NVAPIWrapper.NVAPIVioSyncDelayDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIVioSyncDelayDto
+    name: NVAPIVioSyncDelayDto
+    href: NVAPIWrapper.NVAPIVioSyncDelayDto.html
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIVioSyncDelayDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIVioSyncDelayDto.GetHashCode
+  href: NVAPIWrapper.NVAPIVioSyncDelayDto.html#NVAPIWrapper_NVAPIVioSyncDelayDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIVioSyncDelayDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIVioSyncDelayDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIVioSyncDelayDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIVioSyncDelayDto.op_Equality
+  href: NVAPIWrapper.NVAPIVioSyncDelayDto.html#NVAPIWrapper_NVAPIVioSyncDelayDto_op_Equality_NVAPIWrapper_NVAPIVioSyncDelayDto_NVAPIWrapper_NVAPIVioSyncDelayDto_
+  name: operator ==
+  nameWithType: NVAPIVioSyncDelayDto.operator ==
+  fullName: NVAPIWrapper.NVAPIVioSyncDelayDto.operator ==
+  nameWithType.vb: NVAPIVioSyncDelayDto.=
+  fullName.vb: NVAPIWrapper.NVAPIVioSyncDelayDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIVioSyncDelayDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIVioSyncDelayDto.html#NVAPIWrapper_NVAPIVioSyncDelayDto_op_Equality_NVAPIWrapper_NVAPIVioSyncDelayDto_NVAPIWrapper_NVAPIVioSyncDelayDto_
+- uid: NVAPIWrapper.NVAPIVioSyncDelayDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIVioSyncDelayDto.op_Inequality
+  href: NVAPIWrapper.NVAPIVioSyncDelayDto.html#NVAPIWrapper_NVAPIVioSyncDelayDto_op_Inequality_NVAPIWrapper_NVAPIVioSyncDelayDto_NVAPIWrapper_NVAPIVioSyncDelayDto_
+  name: operator !=
+  nameWithType: NVAPIVioSyncDelayDto.operator !=
+  fullName: NVAPIWrapper.NVAPIVioSyncDelayDto.operator !=
+  nameWithType.vb: NVAPIVioSyncDelayDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIVioSyncDelayDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIVioSyncDelayDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIVioSyncDelayDto.html#NVAPIWrapper_NVAPIVioSyncDelayDto_op_Inequality_NVAPIWrapper_NVAPIVioSyncDelayDto_NVAPIWrapper_NVAPIVioSyncDelayDto_

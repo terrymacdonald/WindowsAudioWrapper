@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVVIOCOMPONENTSAMPLING
+  commentId: T:NVAPIWrapper._NVVIOCOMPONENTSAMPLING
+  id: _NVVIOCOMPONENTSAMPLING
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_422
+  - NVAPIWrapper._NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_4224
+  - NVAPIWrapper._NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_444
+  - NVAPIWrapper._NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_4444
+  - NVAPIWrapper._NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_UNKNOWN
+  langs:
+  - csharp
+  - vb
+  name: _NVVIOCOMPONENTSAMPLING
+  nameWithType: _NVVIOCOMPONENTSAMPLING
+  fullName: NVAPIWrapper._NVVIOCOMPONENTSAMPLING
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCOMPONENTSAMPLING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVVIOCOMPONENTSAMPLING
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCOMPONENTSAMPLING.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVVIOCOMPONENTSAMPLING
+    content.vb: Public Enum _NVVIOCOMPONENTSAMPLING
+- uid: NVAPIWrapper._NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_UNKNOWN
+  commentId: F:NVAPIWrapper._NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_UNKNOWN
+  id: NVVIOCOMPONENTSAMPLING_UNKNOWN
+  parent: NVAPIWrapper._NVVIOCOMPONENTSAMPLING
+  langs:
+  - csharp
+  - vb
+  name: NVVIOCOMPONENTSAMPLING_UNKNOWN
+  nameWithType: _NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_UNKNOWN
+  fullName: NVAPIWrapper._NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCOMPONENTSAMPLING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOCOMPONENTSAMPLING_UNKNOWN
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCOMPONENTSAMPLING.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOCOMPONENTSAMPLING_UNKNOWN = 0
+    return:
+      type: NVAPIWrapper._NVVIOCOMPONENTSAMPLING
+- uid: NVAPIWrapper._NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_4444
+  commentId: F:NVAPIWrapper._NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_4444
+  id: NVVIOCOMPONENTSAMPLING_4444
+  parent: NVAPIWrapper._NVVIOCOMPONENTSAMPLING
+  langs:
+  - csharp
+  - vb
+  name: NVVIOCOMPONENTSAMPLING_4444
+  nameWithType: _NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_4444
+  fullName: NVAPIWrapper._NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_4444
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCOMPONENTSAMPLING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOCOMPONENTSAMPLING_4444
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCOMPONENTSAMPLING.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOCOMPONENTSAMPLING_4444 = 1
+    return:
+      type: NVAPIWrapper._NVVIOCOMPONENTSAMPLING
+- uid: NVAPIWrapper._NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_4224
+  commentId: F:NVAPIWrapper._NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_4224
+  id: NVVIOCOMPONENTSAMPLING_4224
+  parent: NVAPIWrapper._NVVIOCOMPONENTSAMPLING
+  langs:
+  - csharp
+  - vb
+  name: NVVIOCOMPONENTSAMPLING_4224
+  nameWithType: _NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_4224
+  fullName: NVAPIWrapper._NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_4224
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCOMPONENTSAMPLING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOCOMPONENTSAMPLING_4224
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCOMPONENTSAMPLING.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOCOMPONENTSAMPLING_4224 = 2
+    return:
+      type: NVAPIWrapper._NVVIOCOMPONENTSAMPLING
+- uid: NVAPIWrapper._NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_444
+  commentId: F:NVAPIWrapper._NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_444
+  id: NVVIOCOMPONENTSAMPLING_444
+  parent: NVAPIWrapper._NVVIOCOMPONENTSAMPLING
+  langs:
+  - csharp
+  - vb
+  name: NVVIOCOMPONENTSAMPLING_444
+  nameWithType: _NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_444
+  fullName: NVAPIWrapper._NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_444
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCOMPONENTSAMPLING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOCOMPONENTSAMPLING_444
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCOMPONENTSAMPLING.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOCOMPONENTSAMPLING_444 = 3
+    return:
+      type: NVAPIWrapper._NVVIOCOMPONENTSAMPLING
+- uid: NVAPIWrapper._NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_422
+  commentId: F:NVAPIWrapper._NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_422
+  id: NVVIOCOMPONENTSAMPLING_422
+  parent: NVAPIWrapper._NVVIOCOMPONENTSAMPLING
+  langs:
+  - csharp
+  - vb
+  name: NVVIOCOMPONENTSAMPLING_422
+  nameWithType: _NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_422
+  fullName: NVAPIWrapper._NVVIOCOMPONENTSAMPLING.NVVIOCOMPONENTSAMPLING_422
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCOMPONENTSAMPLING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOCOMPONENTSAMPLING_422
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCOMPONENTSAMPLING.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOCOMPONENTSAMPLING_422 = 4
+    return:
+      type: NVAPIWrapper._NVVIOCOMPONENTSAMPLING
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVVIOCOMPONENTSAMPLING
+  commentId: T:NVAPIWrapper._NVVIOCOMPONENTSAMPLING
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOCOMPONENTSAMPLING.html
+  name: _NVVIOCOMPONENTSAMPLING
+  nameWithType: _NVVIOCOMPONENTSAMPLING
+  fullName: NVAPIWrapper._NVVIOCOMPONENTSAMPLING

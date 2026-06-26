@@ -1,0 +1,575 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+  commentId: T:NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+  id: NV_NGX_DLSS_OVERRIDE_BITFIELD
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_CREATED
+  - NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_DLL_EXISTS
+  - NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_DLL_LOADED
+  - NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_DLL_SELECTED
+  - NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ENABLED
+  - NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DENIED
+  - NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DLL_LOAD
+  - NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DRS
+  - NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_FAILED
+  - NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_NOT_FOUND
+  - NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_EVALUATE
+  - NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_FG_MODE
+  - NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_FG_MULTI_FRAME
+  - NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_INITIALIZED
+  - NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_OPTIMAL_SETTINGS
+  - NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_PERF_MODE
+  - NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_PRESET
+  - NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_SCALING_RATIO
+  - NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_SR_DLAA_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_NGX_DLSS_OVERRIDE_BITFIELD
+  nameWithType: NV_NGX_DLSS_OVERRIDE_BITFIELD
+  fullName: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_NGX_DLSS_OVERRIDE_BITFIELD
+    path: ../NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_NGX_DLSS_OVERRIDE_BITFIELD
+    content.vb: Public Enum NV_NGX_DLSS_OVERRIDE_BITFIELD
+- uid: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_INITIALIZED
+  commentId: F:NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_INITIALIZED
+  id: NV_NGX_DLSS_OVERRIDE_FLAG_INITIALIZED
+  parent: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+  langs:
+  - csharp
+  - vb
+  name: NV_NGX_DLSS_OVERRIDE_FLAG_INITIALIZED
+  nameWithType: NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_INITIALIZED
+  fullName: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_INITIALIZED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_NGX_DLSS_OVERRIDE_FLAG_INITIALIZED
+    path: ../NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_NGX_DLSS_OVERRIDE_FLAG_INITIALIZED = 1
+    return:
+      type: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+- uid: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ENABLED
+  commentId: F:NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ENABLED
+  id: NV_NGX_DLSS_OVERRIDE_FLAG_ENABLED
+  parent: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+  langs:
+  - csharp
+  - vb
+  name: NV_NGX_DLSS_OVERRIDE_FLAG_ENABLED
+  nameWithType: NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ENABLED
+  fullName: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ENABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_NGX_DLSS_OVERRIDE_FLAG_ENABLED
+    path: ../NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_NGX_DLSS_OVERRIDE_FLAG_ENABLED = 2
+    return:
+      type: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+- uid: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_DLL_EXISTS
+  commentId: F:NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_DLL_EXISTS
+  id: NV_NGX_DLSS_OVERRIDE_FLAG_DLL_EXISTS
+  parent: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+  langs:
+  - csharp
+  - vb
+  name: NV_NGX_DLSS_OVERRIDE_FLAG_DLL_EXISTS
+  nameWithType: NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_DLL_EXISTS
+  fullName: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_DLL_EXISTS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_NGX_DLSS_OVERRIDE_FLAG_DLL_EXISTS
+    path: ../NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_NGX_DLSS_OVERRIDE_FLAG_DLL_EXISTS = 4
+    return:
+      type: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+- uid: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_DLL_LOADED
+  commentId: F:NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_DLL_LOADED
+  id: NV_NGX_DLSS_OVERRIDE_FLAG_DLL_LOADED
+  parent: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+  langs:
+  - csharp
+  - vb
+  name: NV_NGX_DLSS_OVERRIDE_FLAG_DLL_LOADED
+  nameWithType: NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_DLL_LOADED
+  fullName: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_DLL_LOADED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_NGX_DLSS_OVERRIDE_FLAG_DLL_LOADED
+    path: ../NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_NGX_DLSS_OVERRIDE_FLAG_DLL_LOADED = 8
+    return:
+      type: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+- uid: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_DLL_SELECTED
+  commentId: F:NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_DLL_SELECTED
+  id: NV_NGX_DLSS_OVERRIDE_FLAG_DLL_SELECTED
+  parent: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+  langs:
+  - csharp
+  - vb
+  name: NV_NGX_DLSS_OVERRIDE_FLAG_DLL_SELECTED
+  nameWithType: NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_DLL_SELECTED
+  fullName: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_DLL_SELECTED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_NGX_DLSS_OVERRIDE_FLAG_DLL_SELECTED
+    path: ../NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_NGX_DLSS_OVERRIDE_FLAG_DLL_SELECTED = 16
+    return:
+      type: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+- uid: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_PRESET
+  commentId: F:NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_PRESET
+  id: NV_NGX_DLSS_OVERRIDE_FLAG_PRESET
+  parent: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+  langs:
+  - csharp
+  - vb
+  name: NV_NGX_DLSS_OVERRIDE_FLAG_PRESET
+  nameWithType: NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_PRESET
+  fullName: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_PRESET
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_NGX_DLSS_OVERRIDE_FLAG_PRESET
+    path: ../NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_NGX_DLSS_OVERRIDE_FLAG_PRESET = 32
+    return:
+      type: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+- uid: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_PERF_MODE
+  commentId: F:NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_PERF_MODE
+  id: NV_NGX_DLSS_OVERRIDE_FLAG_PERF_MODE
+  parent: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+  langs:
+  - csharp
+  - vb
+  name: NV_NGX_DLSS_OVERRIDE_FLAG_PERF_MODE
+  nameWithType: NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_PERF_MODE
+  fullName: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_PERF_MODE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_NGX_DLSS_OVERRIDE_FLAG_PERF_MODE
+    path: ../NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_NGX_DLSS_OVERRIDE_FLAG_PERF_MODE = 64
+    return:
+      type: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+- uid: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_SCALING_RATIO
+  commentId: F:NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_SCALING_RATIO
+  id: NV_NGX_DLSS_OVERRIDE_FLAG_SCALING_RATIO
+  parent: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+  langs:
+  - csharp
+  - vb
+  name: NV_NGX_DLSS_OVERRIDE_FLAG_SCALING_RATIO
+  nameWithType: NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_SCALING_RATIO
+  fullName: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_SCALING_RATIO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_NGX_DLSS_OVERRIDE_FLAG_SCALING_RATIO
+    path: ../NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_NGX_DLSS_OVERRIDE_FLAG_SCALING_RATIO = 128
+    return:
+      type: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+- uid: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_OPTIMAL_SETTINGS
+  commentId: F:NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_OPTIMAL_SETTINGS
+  id: NV_NGX_DLSS_OVERRIDE_FLAG_OPTIMAL_SETTINGS
+  parent: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+  langs:
+  - csharp
+  - vb
+  name: NV_NGX_DLSS_OVERRIDE_FLAG_OPTIMAL_SETTINGS
+  nameWithType: NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_OPTIMAL_SETTINGS
+  fullName: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_OPTIMAL_SETTINGS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_NGX_DLSS_OVERRIDE_FLAG_OPTIMAL_SETTINGS
+    path: ../NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_NGX_DLSS_OVERRIDE_FLAG_OPTIMAL_SETTINGS = 256
+    return:
+      type: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+- uid: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_CREATED
+  commentId: F:NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_CREATED
+  id: NV_NGX_DLSS_OVERRIDE_FLAG_CREATED
+  parent: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+  langs:
+  - csharp
+  - vb
+  name: NV_NGX_DLSS_OVERRIDE_FLAG_CREATED
+  nameWithType: NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_CREATED
+  fullName: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_CREATED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_NGX_DLSS_OVERRIDE_FLAG_CREATED
+    path: ../NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_NGX_DLSS_OVERRIDE_FLAG_CREATED = 512
+    return:
+      type: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+- uid: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_EVALUATE
+  commentId: F:NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_EVALUATE
+  id: NV_NGX_DLSS_OVERRIDE_FLAG_EVALUATE
+  parent: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+  langs:
+  - csharp
+  - vb
+  name: NV_NGX_DLSS_OVERRIDE_FLAG_EVALUATE
+  nameWithType: NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_EVALUATE
+  fullName: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_EVALUATE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_NGX_DLSS_OVERRIDE_FLAG_EVALUATE
+    path: ../NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_NGX_DLSS_OVERRIDE_FLAG_EVALUATE = 1024
+    return:
+      type: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+- uid: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_FG_MODE
+  commentId: F:NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_FG_MODE
+  id: NV_NGX_DLSS_OVERRIDE_FLAG_FG_MODE
+  parent: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+  langs:
+  - csharp
+  - vb
+  name: NV_NGX_DLSS_OVERRIDE_FLAG_FG_MODE
+  nameWithType: NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_FG_MODE
+  fullName: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_FG_MODE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_NGX_DLSS_OVERRIDE_FLAG_FG_MODE
+    path: ../NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+    startLine: 39
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_NGX_DLSS_OVERRIDE_FLAG_FG_MODE = 8192
+    return:
+      type: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+- uid: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_SR_DLAA_MODE
+  commentId: F:NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_SR_DLAA_MODE
+  id: NV_NGX_DLSS_OVERRIDE_FLAG_SR_DLAA_MODE
+  parent: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+  langs:
+  - csharp
+  - vb
+  name: NV_NGX_DLSS_OVERRIDE_FLAG_SR_DLAA_MODE
+  nameWithType: NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_SR_DLAA_MODE
+  fullName: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_SR_DLAA_MODE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_NGX_DLSS_OVERRIDE_FLAG_SR_DLAA_MODE
+    path: ../NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+    startLine: 42
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_NGX_DLSS_OVERRIDE_FLAG_SR_DLAA_MODE = 16384
+    return:
+      type: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+- uid: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_FG_MULTI_FRAME
+  commentId: F:NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_FG_MULTI_FRAME
+  id: NV_NGX_DLSS_OVERRIDE_FLAG_FG_MULTI_FRAME
+  parent: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+  langs:
+  - csharp
+  - vb
+  name: NV_NGX_DLSS_OVERRIDE_FLAG_FG_MULTI_FRAME
+  nameWithType: NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_FG_MULTI_FRAME
+  fullName: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_FG_MULTI_FRAME
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_NGX_DLSS_OVERRIDE_FLAG_FG_MULTI_FRAME
+    path: ../NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+    startLine: 45
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_NGX_DLSS_OVERRIDE_FLAG_FG_MULTI_FRAME = 32768
+    return:
+      type: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+- uid: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_FAILED
+  commentId: F:NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_FAILED
+  id: NV_NGX_DLSS_OVERRIDE_FLAG_ERR_FAILED
+  parent: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+  langs:
+  - csharp
+  - vb
+  name: NV_NGX_DLSS_OVERRIDE_FLAG_ERR_FAILED
+  nameWithType: NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_FAILED
+  fullName: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_FAILED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_NGX_DLSS_OVERRIDE_FLAG_ERR_FAILED
+    path: ../NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+    startLine: 48
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_NGX_DLSS_OVERRIDE_FLAG_ERR_FAILED = 65536
+    return:
+      type: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+- uid: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DENIED
+  commentId: F:NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DENIED
+  id: NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DENIED
+  parent: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+  langs:
+  - csharp
+  - vb
+  name: NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DENIED
+  nameWithType: NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DENIED
+  fullName: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DENIED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DENIED
+    path: ../NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+    startLine: 51
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DENIED = 131072
+    return:
+      type: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+- uid: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DRS
+  commentId: F:NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DRS
+  id: NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DRS
+  parent: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+  langs:
+  - csharp
+  - vb
+  name: NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DRS
+  nameWithType: NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DRS
+  fullName: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DRS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DRS
+    path: ../NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+    startLine: 54
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DRS = 262144
+    return:
+      type: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+- uid: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_NOT_FOUND
+  commentId: F:NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_NOT_FOUND
+  id: NV_NGX_DLSS_OVERRIDE_FLAG_ERR_NOT_FOUND
+  parent: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+  langs:
+  - csharp
+  - vb
+  name: NV_NGX_DLSS_OVERRIDE_FLAG_ERR_NOT_FOUND
+  nameWithType: NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_NOT_FOUND
+  fullName: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_NOT_FOUND
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_NGX_DLSS_OVERRIDE_FLAG_ERR_NOT_FOUND
+    path: ../NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+    startLine: 57
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_NGX_DLSS_OVERRIDE_FLAG_ERR_NOT_FOUND = 524288
+    return:
+      type: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+- uid: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DLL_LOAD
+  commentId: F:NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DLL_LOAD
+  id: NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DLL_LOAD
+  parent: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+  langs:
+  - csharp
+  - vb
+  name: NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DLL_LOAD
+  nameWithType: NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DLL_LOAD
+  fullName: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DLL_LOAD
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DLL_LOAD
+    path: ../NVAPIWrapper/cs_generated/NV_NGX_DLSS_OVERRIDE_BITFIELD.cs
+    startLine: 60
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_NGX_DLSS_OVERRIDE_FLAG_ERR_DLL_LOAD = 1048576
+    return:
+      type: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+  commentId: T:NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD.html
+  name: NV_NGX_DLSS_OVERRIDE_BITFIELD
+  nameWithType: NV_NGX_DLSS_OVERRIDE_BITFIELD
+  fullName: NVAPIWrapper.NV_NGX_DLSS_OVERRIDE_BITFIELD

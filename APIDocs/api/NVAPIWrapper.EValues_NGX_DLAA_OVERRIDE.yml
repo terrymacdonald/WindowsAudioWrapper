@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE
+  commentId: T:NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE
+  id: EValues_NGX_DLAA_OVERRIDE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE.NGX_DLAA_OVERRIDE_DEFAULT
+  - NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE.NGX_DLAA_OVERRIDE_DLAA_DEFAULT
+  - NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE.NGX_DLAA_OVERRIDE_DLAA_ON
+  - NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE.NGX_DLAA_OVERRIDE_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_NGX_DLAA_OVERRIDE
+  nameWithType: EValues_NGX_DLAA_OVERRIDE
+  fullName: NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLAA_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_NGX_DLAA_OVERRIDE
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLAA_OVERRIDE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_NGX_DLAA_OVERRIDE
+    content.vb: Public Enum EValues_NGX_DLAA_OVERRIDE
+- uid: NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE.NGX_DLAA_OVERRIDE_DLAA_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE.NGX_DLAA_OVERRIDE_DLAA_DEFAULT
+  id: NGX_DLAA_OVERRIDE_DLAA_DEFAULT
+  parent: NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLAA_OVERRIDE_DLAA_DEFAULT
+  nameWithType: EValues_NGX_DLAA_OVERRIDE.NGX_DLAA_OVERRIDE_DLAA_DEFAULT
+  fullName: NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE.NGX_DLAA_OVERRIDE_DLAA_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLAA_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLAA_OVERRIDE_DLAA_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLAA_OVERRIDE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLAA_OVERRIDE_DLAA_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE
+- uid: NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE.NGX_DLAA_OVERRIDE_DLAA_ON
+  commentId: F:NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE.NGX_DLAA_OVERRIDE_DLAA_ON
+  id: NGX_DLAA_OVERRIDE_DLAA_ON
+  parent: NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLAA_OVERRIDE_DLAA_ON
+  nameWithType: EValues_NGX_DLAA_OVERRIDE.NGX_DLAA_OVERRIDE_DLAA_ON
+  fullName: NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE.NGX_DLAA_OVERRIDE_DLAA_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLAA_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLAA_OVERRIDE_DLAA_ON
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLAA_OVERRIDE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLAA_OVERRIDE_DLAA_ON = 1
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE
+- uid: NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE.NGX_DLAA_OVERRIDE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE.NGX_DLAA_OVERRIDE_NUM_VALUES
+  id: NGX_DLAA_OVERRIDE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLAA_OVERRIDE_NUM_VALUES
+  nameWithType: EValues_NGX_DLAA_OVERRIDE.NGX_DLAA_OVERRIDE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE.NGX_DLAA_OVERRIDE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLAA_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLAA_OVERRIDE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLAA_OVERRIDE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLAA_OVERRIDE_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE
+- uid: NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE.NGX_DLAA_OVERRIDE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE.NGX_DLAA_OVERRIDE_DEFAULT
+  id: NGX_DLAA_OVERRIDE_DEFAULT
+  parent: NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLAA_OVERRIDE_DEFAULT
+  nameWithType: EValues_NGX_DLAA_OVERRIDE.NGX_DLAA_OVERRIDE_DEFAULT
+  fullName: NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE.NGX_DLAA_OVERRIDE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLAA_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLAA_OVERRIDE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLAA_OVERRIDE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLAA_OVERRIDE_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE
+  commentId: T:NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE.html
+  name: EValues_NGX_DLAA_OVERRIDE
+  nameWithType: EValues_NGX_DLAA_OVERRIDE
+  fullName: NVAPIWrapper.EValues_NGX_DLAA_OVERRIDE

@@ -1,0 +1,1916 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIApiHelper
+  commentId: T:NVAPIWrapper.NVAPIApiHelper
+  id: NVAPIApiHelper
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIApiHelper.CreateDrsSession
+  - NVAPIWrapper.NVAPIApiHelper.Dispose
+  - NVAPIWrapper.NVAPIApiHelper.EnumerateGSyncDevices
+  - NVAPIWrapper.NVAPIApiHelper.EnumerateLogicalGpus
+  - NVAPIWrapper.NVAPIApiHelper.EnumerateNvidiaUnAttachedDisplayHandles
+  - NVAPIWrapper.NVAPIApiHelper.EnumeratePhysicalGpus
+  - NVAPIWrapper.NVAPIApiHelper.EnumerateTccPhysicalGpus
+  - NVAPIWrapper.NVAPIApiHelper.Finalize
+  - NVAPIWrapper.NVAPIApiHelper.GetChipSetInfo
+  - NVAPIWrapper.NVAPIApiHelper.GetDisplayDriverInfo
+  - NVAPIWrapper.NVAPIApiHelper.GetDriverAndBranchVersion
+  - NVAPIWrapper.NVAPIApiHelper.GetErrorMessage(NVAPIWrapper._NvAPI_Status)
+  - NVAPIWrapper.NVAPIApiHelper.GetGpuIdFromPhysicalGpu(NVAPIWrapper.NVAPIPhysicalGpuHelper)
+  - NVAPIWrapper.NVAPIApiHelper.GetInterfaceVersionString
+  - NVAPIWrapper.NVAPIApiHelper.GetLidAndDockInfo
+  - NVAPIWrapper.NVAPIApiHelper.GetLogicalGpuFromPhysicalGpu(NVAPIWrapper.NVAPIPhysicalGpuHelper)
+  - NVAPIWrapper.NVAPIApiHelper.GetLogicalGpus
+  - NVAPIWrapper.NVAPIApiHelper.GetMosaicHelper
+  - NVAPIWrapper.NVAPIApiHelper.GetNgxOverrideState(System.UInt32)
+  - NVAPIWrapper.NVAPIApiHelper.GetOpenGLHelper
+  - NVAPIWrapper.NVAPIApiHelper.GetPhysicalGpuFromGpuId(System.UInt32)
+  - NVAPIWrapper.NVAPIApiHelper.GetPhysicalGpus
+  - NVAPIWrapper.NVAPIApiHelper.GetVideoHelper
+  - NVAPIWrapper.NVAPIApiHelper.Initialize
+  - NVAPIWrapper.NVAPIApiHelper.IsNVAPIDllAvailable(System.String@)
+  - NVAPIWrapper.NVAPIApiHelper.RegisterEventCallback(NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  - NVAPIWrapper.NVAPIApiHelper.RegisterRiseCallback(NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  - NVAPIWrapper.NVAPIApiHelper.RequestRise(NVAPIWrapper.NVAPIRiseRequestDto)
+  - NVAPIWrapper.NVAPIApiHelper.SetNgxOverrideState(NVAPIWrapper.NVAPINGXOverrideSetDto)
+  - NVAPIWrapper.NVAPIApiHelper.UninstallRise
+  langs:
+  - csharp
+  - vb
+  name: NVAPIApiHelper
+  nameWithType: NVAPIApiHelper
+  fullName: NVAPIWrapper.NVAPIApiHelper
+  type: Class
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIApiHelper
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Facade entry point for NVAPI helper objects.
+  example: []
+  syntax:
+    content: 'public sealed class NVAPIApiHelper : IDisposable'
+    content.vb: Public NotInheritable Class NVAPIApiHelper Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: NVAPIWrapper.NVAPIApiHelper.Finalize
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.Finalize
+  id: Finalize
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: ~NVAPIApiHelper()
+  nameWithType: NVAPIApiHelper.~NVAPIApiHelper()
+  fullName: NVAPIWrapper.NVAPIApiHelper.~NVAPIApiHelper()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Finalize
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 40
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: protected ~NVAPIApiHelper()
+    content.vb: 'Protected '
+  overload: NVAPIWrapper.NVAPIApiHelper.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: NVAPIWrapper.NVAPIApiHelper.Initialize
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.Initialize
+  id: Initialize
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: NVAPIApiHelper.Initialize()
+  fullName: NVAPIWrapper.NVAPIApiHelper.Initialize()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Initialize
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 49
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Initialize NVAPI and return a facade helper that owns the library lifetime.
+  example: []
+  syntax:
+    content: public static NVAPIApiHelper Initialize()
+    return:
+      type: NVAPIWrapper.NVAPIApiHelper
+      description: Initialized NVAPI helper.
+    content.vb: Public Shared Function Initialize() As NVAPIApiHelper
+  overload: NVAPIWrapper.NVAPIApiHelper.Initialize*
+- uid: NVAPIWrapper.NVAPIApiHelper.IsNVAPIDllAvailable(System.String@)
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.IsNVAPIDllAvailable(System.String@)
+  id: IsNVAPIDllAvailable(System.String@)
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: IsNVAPIDllAvailable(out string)
+  nameWithType: NVAPIApiHelper.IsNVAPIDllAvailable(out string)
+  fullName: NVAPIWrapper.NVAPIApiHelper.IsNVAPIDllAvailable(out string)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: IsNVAPIDllAvailable
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 60
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Expose NVAPI DLL availability check without requiring direct use of NVAPIApi.
+  example: []
+  syntax:
+    content: public static bool IsNVAPIDllAvailable(out string errorMessage)
+    parameters:
+    - id: errorMessage
+      type: System.String
+      description: Details about why the DLL could not be loaded.
+    return:
+      type: System.Boolean
+      description: True if the NVAPI DLL can be loaded; otherwise, false.
+    content.vb: Public Shared Function IsNVAPIDllAvailable(errorMessage As String) As Boolean
+  overload: NVAPIWrapper.NVAPIApiHelper.IsNVAPIDllAvailable*
+  nameWithType.vb: NVAPIApiHelper.IsNVAPIDllAvailable(String)
+  fullName.vb: NVAPIWrapper.NVAPIApiHelper.IsNVAPIDllAvailable(String)
+  name.vb: IsNVAPIDllAvailable(String)
+- uid: NVAPIWrapper.NVAPIApiHelper.CreateDrsSession
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.CreateDrsSession
+  id: CreateDrsSession
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateDrsSession()
+  nameWithType: NVAPIApiHelper.CreateDrsSession()
+  fullName: NVAPIWrapper.NVAPIApiHelper.CreateDrsSession()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CreateDrsSession
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 69
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a DRS session helper.
+  example: []
+  syntax:
+    content: public NVAPIDrsHelper? CreateDrsSession()
+    return:
+      type: NVAPIWrapper.NVAPIDrsHelper
+      description: DRS helper instance, or null if unsupported.
+    content.vb: Public Function CreateDrsSession() As NVAPIDrsHelper
+  overload: NVAPIWrapper.NVAPIApiHelper.CreateDrsSession*
+- uid: NVAPIWrapper.NVAPIApiHelper.EnumeratePhysicalGpus
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.EnumeratePhysicalGpus
+  id: EnumeratePhysicalGpus
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: EnumeratePhysicalGpus()
+  nameWithType: NVAPIApiHelper.EnumeratePhysicalGpus()
+  fullName: NVAPIWrapper.NVAPIApiHelper.EnumeratePhysicalGpus()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EnumeratePhysicalGpus
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 96
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Enumerate physical GPU helpers.
+  example: []
+  syntax:
+    content: public NVAPIPhysicalGpuHelper[] EnumeratePhysicalGpus()
+    return:
+      type: NVAPIWrapper.NVAPIPhysicalGpuHelper[]
+      description: Array of physical GPU helpers, or empty if none are found.
+    content.vb: Public Function EnumeratePhysicalGpus() As NVAPIPhysicalGpuHelper()
+  overload: NVAPIWrapper.NVAPIApiHelper.EnumeratePhysicalGpus*
+- uid: NVAPIWrapper.NVAPIApiHelper.GetPhysicalGpuFromGpuId(System.UInt32)
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.GetPhysicalGpuFromGpuId(System.UInt32)
+  id: GetPhysicalGpuFromGpuId(System.UInt32)
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: GetPhysicalGpuFromGpuId(uint)
+  nameWithType: NVAPIApiHelper.GetPhysicalGpuFromGpuId(uint)
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetPhysicalGpuFromGpuId(uint)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetPhysicalGpuFromGpuId
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 118
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get a physical GPU helper from a GPU ID.
+  example: []
+  syntax:
+    content: public NVAPIPhysicalGpuHelper? GetPhysicalGpuFromGpuId(uint gpuId)
+    parameters:
+    - id: gpuId
+      type: System.UInt32
+      description: GPU ID.
+    return:
+      type: NVAPIWrapper.NVAPIPhysicalGpuHelper
+      description: Physical GPU helper, or null if unavailable.
+    content.vb: Public Function GetPhysicalGpuFromGpuId(gpuId As UInteger) As NVAPIPhysicalGpuHelper
+  overload: NVAPIWrapper.NVAPIApiHelper.GetPhysicalGpuFromGpuId*
+  nameWithType.vb: NVAPIApiHelper.GetPhysicalGpuFromGpuId(UInteger)
+  fullName.vb: NVAPIWrapper.NVAPIApiHelper.GetPhysicalGpuFromGpuId(UInteger)
+  name.vb: GetPhysicalGpuFromGpuId(UInteger)
+- uid: NVAPIWrapper.NVAPIApiHelper.GetLogicalGpuFromPhysicalGpu(NVAPIWrapper.NVAPIPhysicalGpuHelper)
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.GetLogicalGpuFromPhysicalGpu(NVAPIWrapper.NVAPIPhysicalGpuHelper)
+  id: GetLogicalGpuFromPhysicalGpu(NVAPIWrapper.NVAPIPhysicalGpuHelper)
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: GetLogicalGpuFromPhysicalGpu(NVAPIPhysicalGpuHelper)
+  nameWithType: NVAPIApiHelper.GetLogicalGpuFromPhysicalGpu(NVAPIPhysicalGpuHelper)
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetLogicalGpuFromPhysicalGpu(NVAPIWrapper.NVAPIPhysicalGpuHelper)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetLogicalGpuFromPhysicalGpu
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 142
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get the logical GPU helper from a physical GPU helper.
+  example: []
+  syntax:
+    content: public NVAPILogicalGpuHelper? GetLogicalGpuFromPhysicalGpu(NVAPIPhysicalGpuHelper physicalGpu)
+    parameters:
+    - id: physicalGpu
+      type: NVAPIWrapper.NVAPIPhysicalGpuHelper
+      description: Physical GPU helper.
+    return:
+      type: NVAPIWrapper.NVAPILogicalGpuHelper
+      description: Logical GPU helper, or null if unavailable.
+    content.vb: Public Function GetLogicalGpuFromPhysicalGpu(physicalGpu As NVAPIPhysicalGpuHelper) As NVAPILogicalGpuHelper
+  overload: NVAPIWrapper.NVAPIApiHelper.GetLogicalGpuFromPhysicalGpu*
+- uid: NVAPIWrapper.NVAPIApiHelper.GetGpuIdFromPhysicalGpu(NVAPIWrapper.NVAPIPhysicalGpuHelper)
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.GetGpuIdFromPhysicalGpu(NVAPIWrapper.NVAPIPhysicalGpuHelper)
+  id: GetGpuIdFromPhysicalGpu(NVAPIWrapper.NVAPIPhysicalGpuHelper)
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: GetGpuIdFromPhysicalGpu(NVAPIPhysicalGpuHelper)
+  nameWithType: NVAPIApiHelper.GetGpuIdFromPhysicalGpu(NVAPIPhysicalGpuHelper)
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetGpuIdFromPhysicalGpu(NVAPIWrapper.NVAPIPhysicalGpuHelper)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetGpuIdFromPhysicalGpu
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 171
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get the GPU ID from a physical GPU helper.
+  example: []
+  syntax:
+    content: public uint? GetGpuIdFromPhysicalGpu(NVAPIPhysicalGpuHelper physicalGpu)
+    parameters:
+    - id: physicalGpu
+      type: NVAPIWrapper.NVAPIPhysicalGpuHelper
+      description: Physical GPU helper.
+    return:
+      type: System.Nullable{System.UInt32}
+      description: GPU ID, or null if unavailable.
+    content.vb: Public Function GetGpuIdFromPhysicalGpu(physicalGpu As NVAPIPhysicalGpuHelper) As UInteger?
+  overload: NVAPIWrapper.NVAPIApiHelper.GetGpuIdFromPhysicalGpu*
+- uid: NVAPIWrapper.NVAPIApiHelper.GetDriverAndBranchVersion
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.GetDriverAndBranchVersion
+  id: GetDriverAndBranchVersion
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: GetDriverAndBranchVersion()
+  nameWithType: NVAPIApiHelper.GetDriverAndBranchVersion()
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetDriverAndBranchVersion()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetDriverAndBranchVersion
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 199
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get the NVAPI driver version and branch string.
+  example: []
+  syntax:
+    content: public NVAPIDriverAndBranchVersionDto? GetDriverAndBranchVersion()
+    return:
+      type: System.Nullable{NVAPIWrapper.NVAPIDriverAndBranchVersionDto}
+      description: Driver version info, or null if unavailable.
+    content.vb: Public Function GetDriverAndBranchVersion() As NVAPIDriverAndBranchVersionDto?
+  overload: NVAPIWrapper.NVAPIApiHelper.GetDriverAndBranchVersion*
+- uid: NVAPIWrapper.NVAPIApiHelper.GetMosaicHelper
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.GetMosaicHelper
+  id: GetMosaicHelper
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: GetMosaicHelper()
+  nameWithType: NVAPIApiHelper.GetMosaicHelper()
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetMosaicHelper()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetMosaicHelper
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 231
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get the Mosaic helper.
+  example: []
+  syntax:
+    content: public NVAPIMosaicHelper GetMosaicHelper()
+    return:
+      type: NVAPIWrapper.NVAPIMosaicHelper
+      description: Mosaic helper instance.
+    content.vb: Public Function GetMosaicHelper() As NVAPIMosaicHelper
+  overload: NVAPIWrapper.NVAPIApiHelper.GetMosaicHelper*
+- uid: NVAPIWrapper.NVAPIApiHelper.GetVideoHelper
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.GetVideoHelper
+  id: GetVideoHelper
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: GetVideoHelper()
+  nameWithType: NVAPIApiHelper.GetVideoHelper()
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetVideoHelper()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetVideoHelper
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 241
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get the Video helper.
+  example: []
+  syntax:
+    content: public NVAPIVideoHelper GetVideoHelper()
+    return:
+      type: NVAPIWrapper.NVAPIVideoHelper
+      description: Video helper instance.
+    content.vb: Public Function GetVideoHelper() As NVAPIVideoHelper
+  overload: NVAPIWrapper.NVAPIApiHelper.GetVideoHelper*
+- uid: NVAPIWrapper.NVAPIApiHelper.GetOpenGLHelper
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.GetOpenGLHelper
+  id: GetOpenGLHelper
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: GetOpenGLHelper()
+  nameWithType: NVAPIApiHelper.GetOpenGLHelper()
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetOpenGLHelper()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetOpenGLHelper
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 251
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get the OpenGL helper.
+  example: []
+  syntax:
+    content: public NVAPIOpenGLHelper GetOpenGLHelper()
+    return:
+      type: NVAPIWrapper.NVAPIOpenGLHelper
+      description: OpenGL helper instance.
+    content.vb: Public Function GetOpenGLHelper() As NVAPIOpenGLHelper
+  overload: NVAPIWrapper.NVAPIApiHelper.GetOpenGLHelper*
+- uid: NVAPIWrapper.NVAPIApiHelper.GetChipSetInfo
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.GetChipSetInfo
+  id: GetChipSetInfo
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: GetChipSetInfo()
+  nameWithType: NVAPIApiHelper.GetChipSetInfo()
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetChipSetInfo()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetChipSetInfo
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 261
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get the system chipset info.
+  example: []
+  syntax:
+    content: public NVAPIChipSetInfoDto? GetChipSetInfo()
+    return:
+      type: System.Nullable{NVAPIWrapper.NVAPIChipSetInfoDto}
+      description: Chipset info, or null if unavailable.
+    content.vb: Public Function GetChipSetInfo() As NVAPIChipSetInfoDto?
+  overload: NVAPIWrapper.NVAPIApiHelper.GetChipSetInfo*
+- uid: NVAPIWrapper.NVAPIApiHelper.GetLidAndDockInfo
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.GetLidAndDockInfo
+  id: GetLidAndDockInfo
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: GetLidAndDockInfo()
+  nameWithType: NVAPIApiHelper.GetLidAndDockInfo()
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetLidAndDockInfo()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetLidAndDockInfo
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 282
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get lid and dock information.
+  example: []
+  syntax:
+    content: public NVAPILidAndDockInfoDto? GetLidAndDockInfo()
+    return:
+      type: System.Nullable{NVAPIWrapper.NVAPILidAndDockInfoDto}
+      description: Lid and dock info, or null if unavailable.
+    content.vb: Public Function GetLidAndDockInfo() As NVAPILidAndDockInfoDto?
+  overload: NVAPIWrapper.NVAPIApiHelper.GetLidAndDockInfo*
+- uid: NVAPIWrapper.NVAPIApiHelper.GetDisplayDriverInfo
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.GetDisplayDriverInfo
+  id: GetDisplayDriverInfo
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: GetDisplayDriverInfo()
+  nameWithType: NVAPIApiHelper.GetDisplayDriverInfo()
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetDisplayDriverInfo()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetDisplayDriverInfo
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 303
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get display driver info.
+  example: []
+  syntax:
+    content: public NVAPIDisplayDriverInfoDto? GetDisplayDriverInfo()
+    return:
+      type: System.Nullable{NVAPIWrapper.NVAPIDisplayDriverInfoDto}
+      description: Display driver info, or null if unavailable.
+    content.vb: Public Function GetDisplayDriverInfo() As NVAPIDisplayDriverInfoDto?
+  overload: NVAPIWrapper.NVAPIApiHelper.GetDisplayDriverInfo*
+- uid: NVAPIWrapper.NVAPIApiHelper.GetPhysicalGpus
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.GetPhysicalGpus
+  id: GetPhysicalGpus
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: GetPhysicalGpus()
+  nameWithType: NVAPIApiHelper.GetPhysicalGpus()
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetPhysicalGpus()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetPhysicalGpus
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 324
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get physical GPU handles with adapter type metadata.
+  example: []
+  syntax:
+    content: public NVAPISystemPhysicalGpuHandleDto[] GetPhysicalGpus()
+    return:
+      type: NVAPIWrapper.NVAPISystemPhysicalGpuHandleDto[]
+      description: Array of physical GPU handle data, or empty if none are found.
+    content.vb: Public Function GetPhysicalGpus() As NVAPISystemPhysicalGpuHandleDto()
+  overload: NVAPIWrapper.NVAPIApiHelper.GetPhysicalGpus*
+- uid: NVAPIWrapper.NVAPIApiHelper.GetLogicalGpus
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.GetLogicalGpus
+  id: GetLogicalGpus
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: GetLogicalGpus()
+  nameWithType: NVAPIApiHelper.GetLogicalGpus()
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetLogicalGpus()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetLogicalGpus
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 356
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get logical GPU handles with adapter type metadata.
+  example: []
+  syntax:
+    content: public NVAPISystemLogicalGpuHandleDto[] GetLogicalGpus()
+    return:
+      type: NVAPIWrapper.NVAPISystemLogicalGpuHandleDto[]
+      description: Array of logical GPU handle data, or empty if none are found.
+    content.vb: Public Function GetLogicalGpus() As NVAPISystemLogicalGpuHandleDto()
+  overload: NVAPIWrapper.NVAPIApiHelper.GetLogicalGpus*
+- uid: NVAPIWrapper.NVAPIApiHelper.EnumerateLogicalGpus
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.EnumerateLogicalGpus
+  id: EnumerateLogicalGpus
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: EnumerateLogicalGpus()
+  nameWithType: NVAPIApiHelper.EnumerateLogicalGpus()
+  fullName: NVAPIWrapper.NVAPIApiHelper.EnumerateLogicalGpus()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EnumerateLogicalGpus
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 388
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Enumerate logical GPU helpers.
+  example: []
+  syntax:
+    content: public NVAPILogicalGpuHelper[] EnumerateLogicalGpus()
+    return:
+      type: NVAPIWrapper.NVAPILogicalGpuHelper[]
+      description: Array of logical GPU helpers, or empty if none are found.
+    content.vb: Public Function EnumerateLogicalGpus() As NVAPILogicalGpuHelper()
+  overload: NVAPIWrapper.NVAPIApiHelper.EnumerateLogicalGpus*
+- uid: NVAPIWrapper.NVAPIApiHelper.EnumerateTccPhysicalGpus
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.EnumerateTccPhysicalGpus
+  id: EnumerateTccPhysicalGpus
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: EnumerateTccPhysicalGpus()
+  nameWithType: NVAPIApiHelper.EnumerateTccPhysicalGpus()
+  fullName: NVAPIWrapper.NVAPIApiHelper.EnumerateTccPhysicalGpus()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EnumerateTccPhysicalGpus
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 409
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Enumerate physical GPU helpers that are in TCC mode.
+  example: []
+  syntax:
+    content: public NVAPIPhysicalGpuHelper[] EnumerateTccPhysicalGpus()
+    return:
+      type: NVAPIWrapper.NVAPIPhysicalGpuHelper[]
+      description: Array of physical GPU helpers, or empty if none are found.
+    content.vb: Public Function EnumerateTccPhysicalGpus() As NVAPIPhysicalGpuHelper()
+  overload: NVAPIWrapper.NVAPIApiHelper.EnumerateTccPhysicalGpus*
+- uid: NVAPIWrapper.NVAPIApiHelper.EnumerateNvidiaUnAttachedDisplayHandles
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.EnumerateNvidiaUnAttachedDisplayHandles
+  id: EnumerateNvidiaUnAttachedDisplayHandles
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: EnumerateNvidiaUnAttachedDisplayHandles()
+  nameWithType: NVAPIApiHelper.EnumerateNvidiaUnAttachedDisplayHandles()
+  fullName: NVAPIWrapper.NVAPIApiHelper.EnumerateNvidiaUnAttachedDisplayHandles()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EnumerateNvidiaUnAttachedDisplayHandles
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 448
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Enumerate unattached display helpers.
+  example: []
+  syntax:
+    content: public NVAPIUnAttachedDisplayHelper[] EnumerateNvidiaUnAttachedDisplayHandles()
+    return:
+      type: NVAPIWrapper.NVAPIUnAttachedDisplayHelper[]
+      description: Array of unattached display helpers, or empty if none are found.
+    content.vb: Public Function EnumerateNvidiaUnAttachedDisplayHandles() As NVAPIUnAttachedDisplayHelper()
+  overload: NVAPIWrapper.NVAPIApiHelper.EnumerateNvidiaUnAttachedDisplayHandles*
+- uid: NVAPIWrapper.NVAPIApiHelper.EnumerateGSyncDevices
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.EnumerateGSyncDevices
+  id: EnumerateGSyncDevices
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: EnumerateGSyncDevices()
+  nameWithType: NVAPIApiHelper.EnumerateGSyncDevices()
+  fullName: NVAPIWrapper.NVAPIApiHelper.EnumerateGSyncDevices()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EnumerateGSyncDevices
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 469
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Enumerate G-Sync device helpers.
+  example: []
+  syntax:
+    content: public NVAPIQuadroGSyncHelper[] EnumerateGSyncDevices()
+    return:
+      type: NVAPIWrapper.NVAPIQuadroGSyncHelper[]
+      description: Array of G-Sync helpers, or empty if none are found.
+    content.vb: Public Function EnumerateGSyncDevices() As NVAPIQuadroGSyncHelper()
+  overload: NVAPIWrapper.NVAPIApiHelper.EnumerateGSyncDevices*
+- uid: NVAPIWrapper.NVAPIApiHelper.GetErrorMessage(NVAPIWrapper._NvAPI_Status)
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.GetErrorMessage(NVAPIWrapper._NvAPI_Status)
+  id: GetErrorMessage(NVAPIWrapper._NvAPI_Status)
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: GetErrorMessage(_NvAPI_Status)
+  nameWithType: NVAPIApiHelper.GetErrorMessage(_NvAPI_Status)
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetErrorMessage(NVAPIWrapper._NvAPI_Status)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetErrorMessage
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 491
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Convert an NVAPI status to a human-readable message.
+  example: []
+  syntax:
+    content: public string? GetErrorMessage(_NvAPI_Status status)
+    parameters:
+    - id: status
+      type: NVAPIWrapper._NvAPI_Status
+      description: NVAPI status value.
+    return:
+      type: System.String
+      description: Message string, or null if unavailable.
+    content.vb: Public Function GetErrorMessage(status As _NvAPI_Status) As String
+  overload: NVAPIWrapper.NVAPIApiHelper.GetErrorMessage*
+- uid: NVAPIWrapper.NVAPIApiHelper.GetInterfaceVersionString
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.GetInterfaceVersionString
+  id: GetInterfaceVersionString
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: GetInterfaceVersionString()
+  nameWithType: NVAPIApiHelper.GetInterfaceVersionString()
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetInterfaceVersionString()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetInterfaceVersionString
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 516
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get the NVAPI interface version string.
+  example: []
+  syntax:
+    content: public string? GetInterfaceVersionString()
+    return:
+      type: System.String
+      description: Version string, or null if unavailable.
+    content.vb: Public Function GetInterfaceVersionString() As String
+  overload: NVAPIWrapper.NVAPIApiHelper.GetInterfaceVersionString*
+- uid: NVAPIWrapper.NVAPIApiHelper.RegisterEventCallback(NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.RegisterEventCallback(NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  id: RegisterEventCallback(NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: RegisterEventCallback(NVAPIEventCallbackSettingsDto)
+  nameWithType: NVAPIApiHelper.RegisterEventCallback(NVAPIEventCallbackSettingsDto)
+  fullName: NVAPIWrapper.NVAPIApiHelper.RegisterEventCallback(NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: RegisterEventCallback
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 528
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Register an NVAPI event callback for the current process.
+  remarks: Caller must keep the callback delegate alive for the lifetime of the registration.
+  example: []
+  syntax:
+    content: public NVAPIEventHandleHelper? RegisterEventCallback(NVAPIEventCallbackSettingsDto settings)
+    parameters:
+    - id: settings
+      type: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+      description: Callback settings.
+    return:
+      type: NVAPIWrapper.NVAPIEventHandleHelper
+      description: Event handle helper, or null if unsupported.
+    content.vb: Public Function RegisterEventCallback(settings As NVAPIEventCallbackSettingsDto) As NVAPIEventHandleHelper
+  overload: NVAPIWrapper.NVAPIApiHelper.RegisterEventCallback*
+- uid: NVAPIWrapper.NVAPIApiHelper.GetNgxOverrideState(System.UInt32)
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.GetNgxOverrideState(System.UInt32)
+  id: GetNgxOverrideState(System.UInt32)
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: GetNgxOverrideState(uint)
+  nameWithType: NVAPIApiHelper.GetNgxOverrideState(uint)
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetNgxOverrideState(uint)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetNgxOverrideState
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 557
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get the NGX override state for a process ID.
+  example: []
+  syntax:
+    content: public NVAPINGXOverrideStateDto? GetNgxOverrideState(uint processId)
+    parameters:
+    - id: processId
+      type: System.UInt32
+      description: Process identifier.
+    return:
+      type: System.Nullable{NVAPIWrapper.NVAPINGXOverrideStateDto}
+      description: NGX override state DTO, or null if unsupported.
+    content.vb: Public Function GetNgxOverrideState(processId As UInteger) As NVAPINGXOverrideStateDto?
+  overload: NVAPIWrapper.NVAPIApiHelper.GetNgxOverrideState*
+  nameWithType.vb: NVAPIApiHelper.GetNgxOverrideState(UInteger)
+  fullName.vb: NVAPIWrapper.NVAPIApiHelper.GetNgxOverrideState(UInteger)
+  name.vb: GetNgxOverrideState(UInteger)
+- uid: NVAPIWrapper.NVAPIApiHelper.SetNgxOverrideState(NVAPIWrapper.NVAPINGXOverrideSetDto)
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.SetNgxOverrideState(NVAPIWrapper.NVAPINGXOverrideSetDto)
+  id: SetNgxOverrideState(NVAPIWrapper.NVAPINGXOverrideSetDto)
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: SetNgxOverrideState(NVAPINGXOverrideSetDto)
+  nameWithType: NVAPIApiHelper.SetNgxOverrideState(NVAPINGXOverrideSetDto)
+  fullName: NVAPIWrapper.NVAPIApiHelper.SetNgxOverrideState(NVAPIWrapper.NVAPINGXOverrideSetDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SetNgxOverrideState
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 584
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Set the NGX override state for a process.
+  example: []
+  syntax:
+    content: public bool? SetNgxOverrideState(NVAPINGXOverrideSetDto settings)
+    parameters:
+    - id: settings
+      type: NVAPIWrapper.NVAPINGXOverrideSetDto
+      description: NGX override settings.
+    return:
+      type: System.Nullable{System.Boolean}
+      description: True if set, or null if unsupported.
+    content.vb: Public Function SetNgxOverrideState(settings As NVAPINGXOverrideSetDto) As Boolean?
+  overload: NVAPIWrapper.NVAPIApiHelper.SetNgxOverrideState*
+- uid: NVAPIWrapper.NVAPIApiHelper.RegisterRiseCallback(NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.RegisterRiseCallback(NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  id: RegisterRiseCallback(NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: RegisterRiseCallback(NVAPIRiseCallbackSettingsDto)
+  nameWithType: NVAPIApiHelper.RegisterRiseCallback(NVAPIRiseCallbackSettingsDto)
+  fullName: NVAPIWrapper.NVAPIApiHelper.RegisterRiseCallback(NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: RegisterRiseCallback
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 612
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Register a RISE callback for the current process.
+  remarks: Caller must keep the callback delegate alive for the lifetime of the registration.
+  example: []
+  syntax:
+    content: public bool? RegisterRiseCallback(NVAPIRiseCallbackSettingsDto settings)
+    parameters:
+    - id: settings
+      type: NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+      description: RISE callback settings.
+    return:
+      type: System.Nullable{System.Boolean}
+      description: True if registered, or null if unsupported.
+    content.vb: Public Function RegisterRiseCallback(settings As NVAPIRiseCallbackSettingsDto) As Boolean?
+  overload: NVAPIWrapper.NVAPIApiHelper.RegisterRiseCallback*
+- uid: NVAPIWrapper.NVAPIApiHelper.RequestRise(NVAPIWrapper.NVAPIRiseRequestDto)
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.RequestRise(NVAPIWrapper.NVAPIRiseRequestDto)
+  id: RequestRise(NVAPIWrapper.NVAPIRiseRequestDto)
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: RequestRise(NVAPIRiseRequestDto)
+  nameWithType: NVAPIApiHelper.RequestRise(NVAPIRiseRequestDto)
+  fullName: NVAPIWrapper.NVAPIApiHelper.RequestRise(NVAPIWrapper.NVAPIRiseRequestDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: RequestRise
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 639
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Request RISE assistance.
+  example: []
+  syntax:
+    content: public NVAPIRiseRequestDto? RequestRise(NVAPIRiseRequestDto request)
+    parameters:
+    - id: request
+      type: NVAPIWrapper.NVAPIRiseRequestDto
+      description: RISE request settings.
+    return:
+      type: System.Nullable{NVAPIWrapper.NVAPIRiseRequestDto}
+      description: Updated request DTO, or null if unsupported.
+    content.vb: Public Function RequestRise(request As NVAPIRiseRequestDto) As NVAPIRiseRequestDto?
+  overload: NVAPIWrapper.NVAPIApiHelper.RequestRise*
+- uid: NVAPIWrapper.NVAPIApiHelper.UninstallRise
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.UninstallRise
+  id: UninstallRise
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: UninstallRise()
+  nameWithType: NVAPIApiHelper.UninstallRise()
+  fullName: NVAPIWrapper.NVAPIApiHelper.UninstallRise()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: UninstallRise
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 665
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Uninstall RISE from the system.
+  example: []
+  syntax:
+    content: public bool? UninstallRise()
+    return:
+      type: System.Nullable{System.Boolean}
+      description: True if uninstalled, or null if unsupported.
+    content.vb: Public Function UninstallRise() As Boolean?
+  overload: NVAPIWrapper.NVAPIApiHelper.UninstallRise*
+- uid: NVAPIWrapper.NVAPIApiHelper.Dispose
+  commentId: M:NVAPIWrapper.NVAPIApiHelper.Dispose
+  id: Dispose
+  parent: NVAPIWrapper.NVAPIApiHelper
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: NVAPIApiHelper.Dispose()
+  fullName: NVAPIWrapper.NVAPIApiHelper.Dispose()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Dispose
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 808
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Dispose the NVAPI helper and release native resources.
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: NVAPIWrapper.NVAPIApiHelper.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NVAPIWrapper.NVAPIApiHelper.Finalize*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.Finalize
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_Finalize
+  name: ~NVAPIApiHelper
+  nameWithType: NVAPIApiHelper.~NVAPIApiHelper
+  fullName: NVAPIWrapper.NVAPIApiHelper.~NVAPIApiHelper
+  spec.csharp:
+  - name: "~"
+  - uid: NVAPIWrapper.NVAPIApiHelper.Finalize*
+    name: NVAPIApiHelper
+    href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_Finalize
+- uid: NVAPIWrapper.NVAPIApiHelper.Initialize*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.Initialize
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_Initialize
+  name: Initialize
+  nameWithType: NVAPIApiHelper.Initialize
+  fullName: NVAPIWrapper.NVAPIApiHelper.Initialize
+- uid: NVAPIWrapper.NVAPIApiHelper
+  commentId: T:NVAPIWrapper.NVAPIApiHelper
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIApiHelper.html
+  name: NVAPIApiHelper
+  nameWithType: NVAPIApiHelper
+  fullName: NVAPIWrapper.NVAPIApiHelper
+- uid: NVAPIWrapper.NVAPIApiHelper.IsNVAPIDllAvailable*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.IsNVAPIDllAvailable
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_IsNVAPIDllAvailable_System_String__
+  name: IsNVAPIDllAvailable
+  nameWithType: NVAPIApiHelper.IsNVAPIDllAvailable
+  fullName: NVAPIWrapper.NVAPIApiHelper.IsNVAPIDllAvailable
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NVAPIWrapper.NVAPIApiHelper.CreateDrsSession*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.CreateDrsSession
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_CreateDrsSession
+  name: CreateDrsSession
+  nameWithType: NVAPIApiHelper.CreateDrsSession
+  fullName: NVAPIWrapper.NVAPIApiHelper.CreateDrsSession
+- uid: NVAPIWrapper.NVAPIDrsHelper
+  commentId: T:NVAPIWrapper.NVAPIDrsHelper
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIDrsHelper.html
+  name: NVAPIDrsHelper
+  nameWithType: NVAPIDrsHelper
+  fullName: NVAPIWrapper.NVAPIDrsHelper
+- uid: NVAPIWrapper.NVAPIApiHelper.EnumeratePhysicalGpus*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.EnumeratePhysicalGpus
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_EnumeratePhysicalGpus
+  name: EnumeratePhysicalGpus
+  nameWithType: NVAPIApiHelper.EnumeratePhysicalGpus
+  fullName: NVAPIWrapper.NVAPIApiHelper.EnumeratePhysicalGpus
+- uid: NVAPIWrapper.NVAPIPhysicalGpuHelper[]
+  isExternal: true
+  href: NVAPIWrapper.NVAPIPhysicalGpuHelper.html
+  name: NVAPIPhysicalGpuHelper[]
+  nameWithType: NVAPIPhysicalGpuHelper[]
+  fullName: NVAPIWrapper.NVAPIPhysicalGpuHelper[]
+  nameWithType.vb: NVAPIPhysicalGpuHelper()
+  fullName.vb: NVAPIWrapper.NVAPIPhysicalGpuHelper()
+  name.vb: NVAPIPhysicalGpuHelper()
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIPhysicalGpuHelper
+    name: NVAPIPhysicalGpuHelper
+    href: NVAPIWrapper.NVAPIPhysicalGpuHelper.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIPhysicalGpuHelper
+    name: NVAPIPhysicalGpuHelper
+    href: NVAPIWrapper.NVAPIPhysicalGpuHelper.html
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIApiHelper.GetPhysicalGpuFromGpuId*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.GetPhysicalGpuFromGpuId
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_GetPhysicalGpuFromGpuId_System_UInt32_
+  name: GetPhysicalGpuFromGpuId
+  nameWithType: NVAPIApiHelper.GetPhysicalGpuFromGpuId
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetPhysicalGpuFromGpuId
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NVAPIPhysicalGpuHelper
+  commentId: T:NVAPIWrapper.NVAPIPhysicalGpuHelper
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIPhysicalGpuHelper.html
+  name: NVAPIPhysicalGpuHelper
+  nameWithType: NVAPIPhysicalGpuHelper
+  fullName: NVAPIWrapper.NVAPIPhysicalGpuHelper
+- uid: NVAPIWrapper.NVAPIApiHelper.GetLogicalGpuFromPhysicalGpu*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.GetLogicalGpuFromPhysicalGpu
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_GetLogicalGpuFromPhysicalGpu_NVAPIWrapper_NVAPIPhysicalGpuHelper_
+  name: GetLogicalGpuFromPhysicalGpu
+  nameWithType: NVAPIApiHelper.GetLogicalGpuFromPhysicalGpu
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetLogicalGpuFromPhysicalGpu
+- uid: NVAPIWrapper.NVAPILogicalGpuHelper
+  commentId: T:NVAPIWrapper.NVAPILogicalGpuHelper
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPILogicalGpuHelper.html
+  name: NVAPILogicalGpuHelper
+  nameWithType: NVAPILogicalGpuHelper
+  fullName: NVAPIWrapper.NVAPILogicalGpuHelper
+- uid: NVAPIWrapper.NVAPIApiHelper.GetGpuIdFromPhysicalGpu*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.GetGpuIdFromPhysicalGpu
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_GetGpuIdFromPhysicalGpu_NVAPIWrapper_NVAPIPhysicalGpuHelper_
+  name: GetGpuIdFromPhysicalGpu
+  nameWithType: NVAPIApiHelper.GetGpuIdFromPhysicalGpu
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetGpuIdFromPhysicalGpu
+- uid: System.Nullable{System.UInt32}
+  commentId: T:System.Nullable{System.UInt32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint?
+  nameWithType: uint?
+  fullName: uint?
+  nameWithType.vb: UInteger?
+  fullName.vb: UInteger?
+  name.vb: UInteger?
+  spec.csharp:
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: '?'
+  spec.vb:
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: NVAPIWrapper.NVAPIApiHelper.GetDriverAndBranchVersion*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.GetDriverAndBranchVersion
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_GetDriverAndBranchVersion
+  name: GetDriverAndBranchVersion
+  nameWithType: NVAPIApiHelper.GetDriverAndBranchVersion
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetDriverAndBranchVersion
+- uid: System.Nullable{NVAPIWrapper.NVAPIDriverAndBranchVersionDto}
+  commentId: T:System.Nullable{NVAPIWrapper.NVAPIDriverAndBranchVersionDto}
+  parent: System
+  definition: System.Nullable`1
+  href: NVAPIWrapper.NVAPIDriverAndBranchVersionDto.html
+  name: NVAPIDriverAndBranchVersionDto?
+  nameWithType: NVAPIDriverAndBranchVersionDto?
+  fullName: NVAPIWrapper.NVAPIDriverAndBranchVersionDto?
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIDriverAndBranchVersionDto
+    name: NVAPIDriverAndBranchVersionDto
+    href: NVAPIWrapper.NVAPIDriverAndBranchVersionDto.html
+  - name: '?'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIDriverAndBranchVersionDto
+    name: NVAPIDriverAndBranchVersionDto
+    href: NVAPIWrapper.NVAPIDriverAndBranchVersionDto.html
+  - name: '?'
+- uid: NVAPIWrapper.NVAPIApiHelper.GetMosaicHelper*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.GetMosaicHelper
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_GetMosaicHelper
+  name: GetMosaicHelper
+  nameWithType: NVAPIApiHelper.GetMosaicHelper
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetMosaicHelper
+- uid: NVAPIWrapper.NVAPIMosaicHelper
+  commentId: T:NVAPIWrapper.NVAPIMosaicHelper
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIMosaicHelper.html
+  name: NVAPIMosaicHelper
+  nameWithType: NVAPIMosaicHelper
+  fullName: NVAPIWrapper.NVAPIMosaicHelper
+- uid: NVAPIWrapper.NVAPIApiHelper.GetVideoHelper*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.GetVideoHelper
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_GetVideoHelper
+  name: GetVideoHelper
+  nameWithType: NVAPIApiHelper.GetVideoHelper
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetVideoHelper
+- uid: NVAPIWrapper.NVAPIVideoHelper
+  commentId: T:NVAPIWrapper.NVAPIVideoHelper
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIVideoHelper.html
+  name: NVAPIVideoHelper
+  nameWithType: NVAPIVideoHelper
+  fullName: NVAPIWrapper.NVAPIVideoHelper
+- uid: NVAPIWrapper.NVAPIApiHelper.GetOpenGLHelper*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.GetOpenGLHelper
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_GetOpenGLHelper
+  name: GetOpenGLHelper
+  nameWithType: NVAPIApiHelper.GetOpenGLHelper
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetOpenGLHelper
+- uid: NVAPIWrapper.NVAPIOpenGLHelper
+  commentId: T:NVAPIWrapper.NVAPIOpenGLHelper
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIOpenGLHelper.html
+  name: NVAPIOpenGLHelper
+  nameWithType: NVAPIOpenGLHelper
+  fullName: NVAPIWrapper.NVAPIOpenGLHelper
+- uid: NVAPIWrapper.NVAPIApiHelper.GetChipSetInfo*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.GetChipSetInfo
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_GetChipSetInfo
+  name: GetChipSetInfo
+  nameWithType: NVAPIApiHelper.GetChipSetInfo
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetChipSetInfo
+- uid: System.Nullable{NVAPIWrapper.NVAPIChipSetInfoDto}
+  commentId: T:System.Nullable{NVAPIWrapper.NVAPIChipSetInfoDto}
+  parent: System
+  definition: System.Nullable`1
+  href: NVAPIWrapper.NVAPIChipSetInfoDto.html
+  name: NVAPIChipSetInfoDto?
+  nameWithType: NVAPIChipSetInfoDto?
+  fullName: NVAPIWrapper.NVAPIChipSetInfoDto?
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIChipSetInfoDto
+    name: NVAPIChipSetInfoDto
+    href: NVAPIWrapper.NVAPIChipSetInfoDto.html
+  - name: '?'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIChipSetInfoDto
+    name: NVAPIChipSetInfoDto
+    href: NVAPIWrapper.NVAPIChipSetInfoDto.html
+  - name: '?'
+- uid: NVAPIWrapper.NVAPIApiHelper.GetLidAndDockInfo*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.GetLidAndDockInfo
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_GetLidAndDockInfo
+  name: GetLidAndDockInfo
+  nameWithType: NVAPIApiHelper.GetLidAndDockInfo
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetLidAndDockInfo
+- uid: System.Nullable{NVAPIWrapper.NVAPILidAndDockInfoDto}
+  commentId: T:System.Nullable{NVAPIWrapper.NVAPILidAndDockInfoDto}
+  parent: System
+  definition: System.Nullable`1
+  href: NVAPIWrapper.NVAPILidAndDockInfoDto.html
+  name: NVAPILidAndDockInfoDto?
+  nameWithType: NVAPILidAndDockInfoDto?
+  fullName: NVAPIWrapper.NVAPILidAndDockInfoDto?
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPILidAndDockInfoDto
+    name: NVAPILidAndDockInfoDto
+    href: NVAPIWrapper.NVAPILidAndDockInfoDto.html
+  - name: '?'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPILidAndDockInfoDto
+    name: NVAPILidAndDockInfoDto
+    href: NVAPIWrapper.NVAPILidAndDockInfoDto.html
+  - name: '?'
+- uid: NVAPIWrapper.NVAPIApiHelper.GetDisplayDriverInfo*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.GetDisplayDriverInfo
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_GetDisplayDriverInfo
+  name: GetDisplayDriverInfo
+  nameWithType: NVAPIApiHelper.GetDisplayDriverInfo
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetDisplayDriverInfo
+- uid: System.Nullable{NVAPIWrapper.NVAPIDisplayDriverInfoDto}
+  commentId: T:System.Nullable{NVAPIWrapper.NVAPIDisplayDriverInfoDto}
+  parent: System
+  definition: System.Nullable`1
+  href: NVAPIWrapper.NVAPIDisplayDriverInfoDto.html
+  name: NVAPIDisplayDriverInfoDto?
+  nameWithType: NVAPIDisplayDriverInfoDto?
+  fullName: NVAPIWrapper.NVAPIDisplayDriverInfoDto?
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIDisplayDriverInfoDto
+    name: NVAPIDisplayDriverInfoDto
+    href: NVAPIWrapper.NVAPIDisplayDriverInfoDto.html
+  - name: '?'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIDisplayDriverInfoDto
+    name: NVAPIDisplayDriverInfoDto
+    href: NVAPIWrapper.NVAPIDisplayDriverInfoDto.html
+  - name: '?'
+- uid: NVAPIWrapper.NVAPIApiHelper.GetPhysicalGpus*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.GetPhysicalGpus
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_GetPhysicalGpus
+  name: GetPhysicalGpus
+  nameWithType: NVAPIApiHelper.GetPhysicalGpus
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetPhysicalGpus
+- uid: NVAPIWrapper.NVAPISystemPhysicalGpuHandleDto[]
+  isExternal: true
+  href: NVAPIWrapper.NVAPISystemPhysicalGpuHandleDto.html
+  name: NVAPISystemPhysicalGpuHandleDto[]
+  nameWithType: NVAPISystemPhysicalGpuHandleDto[]
+  fullName: NVAPIWrapper.NVAPISystemPhysicalGpuHandleDto[]
+  nameWithType.vb: NVAPISystemPhysicalGpuHandleDto()
+  fullName.vb: NVAPIWrapper.NVAPISystemPhysicalGpuHandleDto()
+  name.vb: NVAPISystemPhysicalGpuHandleDto()
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPISystemPhysicalGpuHandleDto
+    name: NVAPISystemPhysicalGpuHandleDto
+    href: NVAPIWrapper.NVAPISystemPhysicalGpuHandleDto.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPISystemPhysicalGpuHandleDto
+    name: NVAPISystemPhysicalGpuHandleDto
+    href: NVAPIWrapper.NVAPISystemPhysicalGpuHandleDto.html
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIApiHelper.GetLogicalGpus*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.GetLogicalGpus
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_GetLogicalGpus
+  name: GetLogicalGpus
+  nameWithType: NVAPIApiHelper.GetLogicalGpus
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetLogicalGpus
+- uid: NVAPIWrapper.NVAPISystemLogicalGpuHandleDto[]
+  isExternal: true
+  href: NVAPIWrapper.NVAPISystemLogicalGpuHandleDto.html
+  name: NVAPISystemLogicalGpuHandleDto[]
+  nameWithType: NVAPISystemLogicalGpuHandleDto[]
+  fullName: NVAPIWrapper.NVAPISystemLogicalGpuHandleDto[]
+  nameWithType.vb: NVAPISystemLogicalGpuHandleDto()
+  fullName.vb: NVAPIWrapper.NVAPISystemLogicalGpuHandleDto()
+  name.vb: NVAPISystemLogicalGpuHandleDto()
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPISystemLogicalGpuHandleDto
+    name: NVAPISystemLogicalGpuHandleDto
+    href: NVAPIWrapper.NVAPISystemLogicalGpuHandleDto.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPISystemLogicalGpuHandleDto
+    name: NVAPISystemLogicalGpuHandleDto
+    href: NVAPIWrapper.NVAPISystemLogicalGpuHandleDto.html
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIApiHelper.EnumerateLogicalGpus*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.EnumerateLogicalGpus
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_EnumerateLogicalGpus
+  name: EnumerateLogicalGpus
+  nameWithType: NVAPIApiHelper.EnumerateLogicalGpus
+  fullName: NVAPIWrapper.NVAPIApiHelper.EnumerateLogicalGpus
+- uid: NVAPIWrapper.NVAPILogicalGpuHelper[]
+  isExternal: true
+  href: NVAPIWrapper.NVAPILogicalGpuHelper.html
+  name: NVAPILogicalGpuHelper[]
+  nameWithType: NVAPILogicalGpuHelper[]
+  fullName: NVAPIWrapper.NVAPILogicalGpuHelper[]
+  nameWithType.vb: NVAPILogicalGpuHelper()
+  fullName.vb: NVAPIWrapper.NVAPILogicalGpuHelper()
+  name.vb: NVAPILogicalGpuHelper()
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPILogicalGpuHelper
+    name: NVAPILogicalGpuHelper
+    href: NVAPIWrapper.NVAPILogicalGpuHelper.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPILogicalGpuHelper
+    name: NVAPILogicalGpuHelper
+    href: NVAPIWrapper.NVAPILogicalGpuHelper.html
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIApiHelper.EnumerateTccPhysicalGpus*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.EnumerateTccPhysicalGpus
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_EnumerateTccPhysicalGpus
+  name: EnumerateTccPhysicalGpus
+  nameWithType: NVAPIApiHelper.EnumerateTccPhysicalGpus
+  fullName: NVAPIWrapper.NVAPIApiHelper.EnumerateTccPhysicalGpus
+- uid: NVAPIWrapper.NVAPIApiHelper.EnumerateNvidiaUnAttachedDisplayHandles*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.EnumerateNvidiaUnAttachedDisplayHandles
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_EnumerateNvidiaUnAttachedDisplayHandles
+  name: EnumerateNvidiaUnAttachedDisplayHandles
+  nameWithType: NVAPIApiHelper.EnumerateNvidiaUnAttachedDisplayHandles
+  fullName: NVAPIWrapper.NVAPIApiHelper.EnumerateNvidiaUnAttachedDisplayHandles
+- uid: NVAPIWrapper.NVAPIUnAttachedDisplayHelper[]
+  isExternal: true
+  href: NVAPIWrapper.NVAPIUnAttachedDisplayHelper.html
+  name: NVAPIUnAttachedDisplayHelper[]
+  nameWithType: NVAPIUnAttachedDisplayHelper[]
+  fullName: NVAPIWrapper.NVAPIUnAttachedDisplayHelper[]
+  nameWithType.vb: NVAPIUnAttachedDisplayHelper()
+  fullName.vb: NVAPIWrapper.NVAPIUnAttachedDisplayHelper()
+  name.vb: NVAPIUnAttachedDisplayHelper()
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIUnAttachedDisplayHelper
+    name: NVAPIUnAttachedDisplayHelper
+    href: NVAPIWrapper.NVAPIUnAttachedDisplayHelper.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIUnAttachedDisplayHelper
+    name: NVAPIUnAttachedDisplayHelper
+    href: NVAPIWrapper.NVAPIUnAttachedDisplayHelper.html
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIApiHelper.EnumerateGSyncDevices*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.EnumerateGSyncDevices
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_EnumerateGSyncDevices
+  name: EnumerateGSyncDevices
+  nameWithType: NVAPIApiHelper.EnumerateGSyncDevices
+  fullName: NVAPIWrapper.NVAPIApiHelper.EnumerateGSyncDevices
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper[]
+  isExternal: true
+  href: NVAPIWrapper.NVAPIQuadroGSyncHelper.html
+  name: NVAPIQuadroGSyncHelper[]
+  nameWithType: NVAPIQuadroGSyncHelper[]
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper[]
+  nameWithType.vb: NVAPIQuadroGSyncHelper()
+  fullName.vb: NVAPIWrapper.NVAPIQuadroGSyncHelper()
+  name.vb: NVAPIQuadroGSyncHelper()
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIQuadroGSyncHelper
+    name: NVAPIQuadroGSyncHelper
+    href: NVAPIWrapper.NVAPIQuadroGSyncHelper.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIQuadroGSyncHelper
+    name: NVAPIQuadroGSyncHelper
+    href: NVAPIWrapper.NVAPIQuadroGSyncHelper.html
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIApiHelper.GetErrorMessage*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.GetErrorMessage
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_GetErrorMessage_NVAPIWrapper__NvAPI_Status_
+  name: GetErrorMessage
+  nameWithType: NVAPIApiHelper.GetErrorMessage
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetErrorMessage
+- uid: NVAPIWrapper._NvAPI_Status
+  commentId: T:NVAPIWrapper._NvAPI_Status
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NvAPI_Status.html
+  name: _NvAPI_Status
+  nameWithType: _NvAPI_Status
+  fullName: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper.NVAPIApiHelper.GetInterfaceVersionString*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.GetInterfaceVersionString
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_GetInterfaceVersionString
+  name: GetInterfaceVersionString
+  nameWithType: NVAPIApiHelper.GetInterfaceVersionString
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetInterfaceVersionString
+- uid: NVAPIWrapper.NVAPIApiHelper.RegisterEventCallback*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.RegisterEventCallback
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_RegisterEventCallback_NVAPIWrapper_NVAPIEventCallbackSettingsDto_
+  name: RegisterEventCallback
+  nameWithType: NVAPIApiHelper.RegisterEventCallback
+  fullName: NVAPIWrapper.NVAPIApiHelper.RegisterEventCallback
+- uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+  commentId: T:NVAPIWrapper.NVAPIEventCallbackSettingsDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIEventCallbackSettingsDto.html
+  name: NVAPIEventCallbackSettingsDto
+  nameWithType: NVAPIEventCallbackSettingsDto
+  fullName: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+- uid: NVAPIWrapper.NVAPIEventHandleHelper
+  commentId: T:NVAPIWrapper.NVAPIEventHandleHelper
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIEventHandleHelper.html
+  name: NVAPIEventHandleHelper
+  nameWithType: NVAPIEventHandleHelper
+  fullName: NVAPIWrapper.NVAPIEventHandleHelper
+- uid: NVAPIWrapper.NVAPIApiHelper.GetNgxOverrideState*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.GetNgxOverrideState
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_GetNgxOverrideState_System_UInt32_
+  name: GetNgxOverrideState
+  nameWithType: NVAPIApiHelper.GetNgxOverrideState
+  fullName: NVAPIWrapper.NVAPIApiHelper.GetNgxOverrideState
+- uid: System.Nullable{NVAPIWrapper.NVAPINGXOverrideStateDto}
+  commentId: T:System.Nullable{NVAPIWrapper.NVAPINGXOverrideStateDto}
+  parent: System
+  definition: System.Nullable`1
+  href: NVAPIWrapper.NVAPINGXOverrideStateDto.html
+  name: NVAPINGXOverrideStateDto?
+  nameWithType: NVAPINGXOverrideStateDto?
+  fullName: NVAPIWrapper.NVAPINGXOverrideStateDto?
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPINGXOverrideStateDto
+    name: NVAPINGXOverrideStateDto
+    href: NVAPIWrapper.NVAPINGXOverrideStateDto.html
+  - name: '?'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPINGXOverrideStateDto
+    name: NVAPINGXOverrideStateDto
+    href: NVAPIWrapper.NVAPINGXOverrideStateDto.html
+  - name: '?'
+- uid: NVAPIWrapper.NVAPIApiHelper.SetNgxOverrideState*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.SetNgxOverrideState
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_SetNgxOverrideState_NVAPIWrapper_NVAPINGXOverrideSetDto_
+  name: SetNgxOverrideState
+  nameWithType: NVAPIApiHelper.SetNgxOverrideState
+  fullName: NVAPIWrapper.NVAPIApiHelper.SetNgxOverrideState
+- uid: NVAPIWrapper.NVAPINGXOverrideSetDto
+  commentId: T:NVAPIWrapper.NVAPINGXOverrideSetDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPINGXOverrideSetDto.html
+  name: NVAPINGXOverrideSetDto
+  nameWithType: NVAPINGXOverrideSetDto
+  fullName: NVAPIWrapper.NVAPINGXOverrideSetDto
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool?
+  nameWithType: bool?
+  fullName: bool?
+  nameWithType.vb: Boolean?
+  fullName.vb: Boolean?
+  name.vb: Boolean?
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+- uid: NVAPIWrapper.NVAPIApiHelper.RegisterRiseCallback*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.RegisterRiseCallback
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_RegisterRiseCallback_NVAPIWrapper_NVAPIRiseCallbackSettingsDto_
+  name: RegisterRiseCallback
+  nameWithType: NVAPIApiHelper.RegisterRiseCallback
+  fullName: NVAPIWrapper.NVAPIApiHelper.RegisterRiseCallback
+- uid: NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+  commentId: T:NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.html
+  name: NVAPIRiseCallbackSettingsDto
+  nameWithType: NVAPIRiseCallbackSettingsDto
+  fullName: NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+- uid: NVAPIWrapper.NVAPIApiHelper.RequestRise*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.RequestRise
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_RequestRise_NVAPIWrapper_NVAPIRiseRequestDto_
+  name: RequestRise
+  nameWithType: NVAPIApiHelper.RequestRise
+  fullName: NVAPIWrapper.NVAPIApiHelper.RequestRise
+- uid: NVAPIWrapper.NVAPIRiseRequestDto
+  commentId: T:NVAPIWrapper.NVAPIRiseRequestDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIRiseRequestDto.html
+  name: NVAPIRiseRequestDto
+  nameWithType: NVAPIRiseRequestDto
+  fullName: NVAPIWrapper.NVAPIRiseRequestDto
+- uid: System.Nullable{NVAPIWrapper.NVAPIRiseRequestDto}
+  commentId: T:System.Nullable{NVAPIWrapper.NVAPIRiseRequestDto}
+  parent: System
+  definition: System.Nullable`1
+  href: NVAPIWrapper.NVAPIRiseRequestDto.html
+  name: NVAPIRiseRequestDto?
+  nameWithType: NVAPIRiseRequestDto?
+  fullName: NVAPIWrapper.NVAPIRiseRequestDto?
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIRiseRequestDto
+    name: NVAPIRiseRequestDto
+    href: NVAPIWrapper.NVAPIRiseRequestDto.html
+  - name: '?'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIRiseRequestDto
+    name: NVAPIRiseRequestDto
+    href: NVAPIWrapper.NVAPIRiseRequestDto.html
+  - name: '?'
+- uid: NVAPIWrapper.NVAPIApiHelper.UninstallRise*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.UninstallRise
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_UninstallRise
+  name: UninstallRise
+  nameWithType: NVAPIApiHelper.UninstallRise
+  fullName: NVAPIWrapper.NVAPIApiHelper.UninstallRise
+- uid: NVAPIWrapper.NVAPIApiHelper.Dispose*
+  commentId: Overload:NVAPIWrapper.NVAPIApiHelper.Dispose
+  href: NVAPIWrapper.NVAPIApiHelper.html#NVAPIWrapper_NVAPIApiHelper_Dispose
+  name: Dispose
+  nameWithType: NVAPIApiHelper.Dispose
+  fullName: NVAPIWrapper.NVAPIApiHelper.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )

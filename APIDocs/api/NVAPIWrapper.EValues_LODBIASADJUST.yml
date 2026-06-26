@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_LODBIASADJUST
+  commentId: T:NVAPIWrapper.EValues_LODBIASADJUST
+  id: EValues_LODBIASADJUST
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_LODBIASADJUST.LODBIASADJUST_DEFAULT
+  - NVAPIWrapper.EValues_LODBIASADJUST.LODBIASADJUST_MAX
+  - NVAPIWrapper.EValues_LODBIASADJUST.LODBIASADJUST_MIN
+  - NVAPIWrapper.EValues_LODBIASADJUST.LODBIASADJUST_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_LODBIASADJUST
+  nameWithType: EValues_LODBIASADJUST
+  fullName: NVAPIWrapper.EValues_LODBIASADJUST
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_LODBIASADJUST.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_LODBIASADJUST
+    path: ../NVAPIWrapper/cs_generated/EValues_LODBIASADJUST.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_LODBIASADJUST
+    content.vb: Public Enum EValues_LODBIASADJUST
+- uid: NVAPIWrapper.EValues_LODBIASADJUST.LODBIASADJUST_MIN
+  commentId: F:NVAPIWrapper.EValues_LODBIASADJUST.LODBIASADJUST_MIN
+  id: LODBIASADJUST_MIN
+  parent: NVAPIWrapper.EValues_LODBIASADJUST
+  langs:
+  - csharp
+  - vb
+  name: LODBIASADJUST_MIN
+  nameWithType: EValues_LODBIASADJUST.LODBIASADJUST_MIN
+  fullName: NVAPIWrapper.EValues_LODBIASADJUST.LODBIASADJUST_MIN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_LODBIASADJUST.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: LODBIASADJUST_MIN
+    path: ../NVAPIWrapper/cs_generated/EValues_LODBIASADJUST.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: LODBIASADJUST_MIN = -128
+    return:
+      type: NVAPIWrapper.EValues_LODBIASADJUST
+- uid: NVAPIWrapper.EValues_LODBIASADJUST.LODBIASADJUST_MAX
+  commentId: F:NVAPIWrapper.EValues_LODBIASADJUST.LODBIASADJUST_MAX
+  id: LODBIASADJUST_MAX
+  parent: NVAPIWrapper.EValues_LODBIASADJUST
+  langs:
+  - csharp
+  - vb
+  name: LODBIASADJUST_MAX
+  nameWithType: EValues_LODBIASADJUST.LODBIASADJUST_MAX
+  fullName: NVAPIWrapper.EValues_LODBIASADJUST.LODBIASADJUST_MAX
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_LODBIASADJUST.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: LODBIASADJUST_MAX
+    path: ../NVAPIWrapper/cs_generated/EValues_LODBIASADJUST.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: LODBIASADJUST_MAX = 128
+    return:
+      type: NVAPIWrapper.EValues_LODBIASADJUST
+- uid: NVAPIWrapper.EValues_LODBIASADJUST.LODBIASADJUST_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_LODBIASADJUST.LODBIASADJUST_NUM_VALUES
+  id: LODBIASADJUST_NUM_VALUES
+  parent: NVAPIWrapper.EValues_LODBIASADJUST
+  langs:
+  - csharp
+  - vb
+  name: LODBIASADJUST_NUM_VALUES
+  nameWithType: EValues_LODBIASADJUST.LODBIASADJUST_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_LODBIASADJUST.LODBIASADJUST_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_LODBIASADJUST.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: LODBIASADJUST_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_LODBIASADJUST.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: LODBIASADJUST_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_LODBIASADJUST
+- uid: NVAPIWrapper.EValues_LODBIASADJUST.LODBIASADJUST_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_LODBIASADJUST.LODBIASADJUST_DEFAULT
+  id: LODBIASADJUST_DEFAULT
+  parent: NVAPIWrapper.EValues_LODBIASADJUST
+  langs:
+  - csharp
+  - vb
+  name: LODBIASADJUST_DEFAULT
+  nameWithType: EValues_LODBIASADJUST.LODBIASADJUST_DEFAULT
+  fullName: NVAPIWrapper.EValues_LODBIASADJUST.LODBIASADJUST_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_LODBIASADJUST.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: LODBIASADJUST_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_LODBIASADJUST.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: LODBIASADJUST_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_LODBIASADJUST
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_LODBIASADJUST
+  commentId: T:NVAPIWrapper.EValues_LODBIASADJUST
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_LODBIASADJUST.html
+  name: EValues_LODBIASADJUST
+  nameWithType: EValues_LODBIASADJUST
+  fullName: NVAPIWrapper.EValues_LODBIASADJUST

@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_HDR_TONEMAPPING_METHOD
+  commentId: T:NVAPIWrapper._NV_HDR_TONEMAPPING_METHOD
+  id: _NV_HDR_TONEMAPPING_METHOD
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_HDR_TONEMAPPING_METHOD.NV_HDR_TONEMAPPING_APP
+  - NVAPIWrapper._NV_HDR_TONEMAPPING_METHOD.NV_HDR_TONEMAPPING_GPU
+  langs:
+  - csharp
+  - vb
+  name: _NV_HDR_TONEMAPPING_METHOD
+  nameWithType: _NV_HDR_TONEMAPPING_METHOD
+  fullName: NVAPIWrapper._NV_HDR_TONEMAPPING_METHOD
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_TONEMAPPING_METHOD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_HDR_TONEMAPPING_METHOD
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_TONEMAPPING_METHOD.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_HDR_TONEMAPPING_METHOD
+    content.vb: Public Enum _NV_HDR_TONEMAPPING_METHOD
+- uid: NVAPIWrapper._NV_HDR_TONEMAPPING_METHOD.NV_HDR_TONEMAPPING_APP
+  commentId: F:NVAPIWrapper._NV_HDR_TONEMAPPING_METHOD.NV_HDR_TONEMAPPING_APP
+  id: NV_HDR_TONEMAPPING_APP
+  parent: NVAPIWrapper._NV_HDR_TONEMAPPING_METHOD
+  langs:
+  - csharp
+  - vb
+  name: NV_HDR_TONEMAPPING_APP
+  nameWithType: _NV_HDR_TONEMAPPING_METHOD.NV_HDR_TONEMAPPING_APP
+  fullName: NVAPIWrapper._NV_HDR_TONEMAPPING_METHOD.NV_HDR_TONEMAPPING_APP
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_TONEMAPPING_METHOD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_HDR_TONEMAPPING_APP
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_TONEMAPPING_METHOD.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_HDR_TONEMAPPING_APP = 0
+    return:
+      type: NVAPIWrapper._NV_HDR_TONEMAPPING_METHOD
+- uid: NVAPIWrapper._NV_HDR_TONEMAPPING_METHOD.NV_HDR_TONEMAPPING_GPU
+  commentId: F:NVAPIWrapper._NV_HDR_TONEMAPPING_METHOD.NV_HDR_TONEMAPPING_GPU
+  id: NV_HDR_TONEMAPPING_GPU
+  parent: NVAPIWrapper._NV_HDR_TONEMAPPING_METHOD
+  langs:
+  - csharp
+  - vb
+  name: NV_HDR_TONEMAPPING_GPU
+  nameWithType: _NV_HDR_TONEMAPPING_METHOD.NV_HDR_TONEMAPPING_GPU
+  fullName: NVAPIWrapper._NV_HDR_TONEMAPPING_METHOD.NV_HDR_TONEMAPPING_GPU
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_TONEMAPPING_METHOD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_HDR_TONEMAPPING_GPU
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_TONEMAPPING_METHOD.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_HDR_TONEMAPPING_GPU = 1
+    return:
+      type: NVAPIWrapper._NV_HDR_TONEMAPPING_METHOD
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_HDR_TONEMAPPING_METHOD
+  commentId: T:NVAPIWrapper._NV_HDR_TONEMAPPING_METHOD
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_HDR_TONEMAPPING_METHOD.html
+  name: _NV_HDR_TONEMAPPING_METHOD
+  nameWithType: _NV_HDR_TONEMAPPING_METHOD
+  fullName: NVAPIWrapper._NV_HDR_TONEMAPPING_METHOD

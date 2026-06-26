@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_SYSTEM_TYPE
+  commentId: T:NVAPIWrapper.NV_SYSTEM_TYPE
+  id: NV_SYSTEM_TYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_SYSTEM_TYPE.NV_SYSTEM_TYPE_DESKTOP
+  - NVAPIWrapper.NV_SYSTEM_TYPE.NV_SYSTEM_TYPE_LAPTOP
+  - NVAPIWrapper.NV_SYSTEM_TYPE.NV_SYSTEM_TYPE_UNKNOWN
+  langs:
+  - csharp
+  - vb
+  name: NV_SYSTEM_TYPE
+  nameWithType: NV_SYSTEM_TYPE
+  fullName: NVAPIWrapper.NV_SYSTEM_TYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_SYSTEM_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_SYSTEM_TYPE
+    path: ../NVAPIWrapper/cs_generated/NV_SYSTEM_TYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_SYSTEM_TYPE
+    content.vb: Public Enum NV_SYSTEM_TYPE
+- uid: NVAPIWrapper.NV_SYSTEM_TYPE.NV_SYSTEM_TYPE_UNKNOWN
+  commentId: F:NVAPIWrapper.NV_SYSTEM_TYPE.NV_SYSTEM_TYPE_UNKNOWN
+  id: NV_SYSTEM_TYPE_UNKNOWN
+  parent: NVAPIWrapper.NV_SYSTEM_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_SYSTEM_TYPE_UNKNOWN
+  nameWithType: NV_SYSTEM_TYPE.NV_SYSTEM_TYPE_UNKNOWN
+  fullName: NVAPIWrapper.NV_SYSTEM_TYPE.NV_SYSTEM_TYPE_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_SYSTEM_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_SYSTEM_TYPE_UNKNOWN
+    path: ../NVAPIWrapper/cs_generated/NV_SYSTEM_TYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_SYSTEM_TYPE_UNKNOWN = 0
+    return:
+      type: NVAPIWrapper.NV_SYSTEM_TYPE
+- uid: NVAPIWrapper.NV_SYSTEM_TYPE.NV_SYSTEM_TYPE_LAPTOP
+  commentId: F:NVAPIWrapper.NV_SYSTEM_TYPE.NV_SYSTEM_TYPE_LAPTOP
+  id: NV_SYSTEM_TYPE_LAPTOP
+  parent: NVAPIWrapper.NV_SYSTEM_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_SYSTEM_TYPE_LAPTOP
+  nameWithType: NV_SYSTEM_TYPE.NV_SYSTEM_TYPE_LAPTOP
+  fullName: NVAPIWrapper.NV_SYSTEM_TYPE.NV_SYSTEM_TYPE_LAPTOP
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_SYSTEM_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_SYSTEM_TYPE_LAPTOP
+    path: ../NVAPIWrapper/cs_generated/NV_SYSTEM_TYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_SYSTEM_TYPE_LAPTOP = 1
+    return:
+      type: NVAPIWrapper.NV_SYSTEM_TYPE
+- uid: NVAPIWrapper.NV_SYSTEM_TYPE.NV_SYSTEM_TYPE_DESKTOP
+  commentId: F:NVAPIWrapper.NV_SYSTEM_TYPE.NV_SYSTEM_TYPE_DESKTOP
+  id: NV_SYSTEM_TYPE_DESKTOP
+  parent: NVAPIWrapper.NV_SYSTEM_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_SYSTEM_TYPE_DESKTOP
+  nameWithType: NV_SYSTEM_TYPE.NV_SYSTEM_TYPE_DESKTOP
+  fullName: NVAPIWrapper.NV_SYSTEM_TYPE.NV_SYSTEM_TYPE_DESKTOP
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_SYSTEM_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_SYSTEM_TYPE_DESKTOP
+    path: ../NVAPIWrapper/cs_generated/NV_SYSTEM_TYPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_SYSTEM_TYPE_DESKTOP = 2
+    return:
+      type: NVAPIWrapper.NV_SYSTEM_TYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_SYSTEM_TYPE
+  commentId: T:NVAPIWrapper.NV_SYSTEM_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_SYSTEM_TYPE.html
+  name: NV_SYSTEM_TYPE
+  nameWithType: NV_SYSTEM_TYPE
+  fullName: NVAPIWrapper.NV_SYSTEM_TYPE

@@ -1,0 +1,805 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIMosaicGridTopologiesDto
+  commentId: T:NVAPIWrapper.NVAPIMosaicGridTopologiesDto
+  id: NVAPIMosaicGridTopologiesDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIMosaicGridTopologiesDto.#ctor(NVAPIWrapper.NVAPIMosaicGridTopoDto[])
+  - NVAPIWrapper.NVAPIMosaicGridTopologiesDto.Equals(NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+  - NVAPIWrapper.NVAPIMosaicGridTopologiesDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIMosaicGridTopologiesDto.FromNative(System.UInt32,NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V2[])
+  - NVAPIWrapper.NVAPIMosaicGridTopologiesDto.GetHashCode
+  - NVAPIWrapper.NVAPIMosaicGridTopologiesDto.Grids
+  - NVAPIWrapper.NVAPIMosaicGridTopologiesDto.op_Equality(NVAPIWrapper.NVAPIMosaicGridTopologiesDto,NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+  - NVAPIWrapper.NVAPIMosaicGridTopologiesDto.op_Inequality(NVAPIWrapper.NVAPIMosaicGridTopologiesDto,NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIMosaicGridTopologiesDto
+  nameWithType: NVAPIMosaicGridTopologiesDto
+  fullName: NVAPIWrapper.NVAPIMosaicGridTopologiesDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIMosaicGridTopologiesDto
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 1718
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: 'public struct NVAPIMosaicGridTopologiesDto : IEquatable<NVAPIMosaicGridTopologiesDto>'
+    content.vb: Public Structure NVAPIMosaicGridTopologiesDto Implements IEquatable(Of NVAPIMosaicGridTopologiesDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIMosaicGridTopologiesDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.Grids
+  commentId: P:NVAPIWrapper.NVAPIMosaicGridTopologiesDto.Grids
+  id: Grids
+  parent: NVAPIWrapper.NVAPIMosaicGridTopologiesDto
+  langs:
+  - csharp
+  - vb
+  name: Grids
+  nameWithType: NVAPIMosaicGridTopologiesDto.Grids
+  fullName: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.Grids
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Grids
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 1722
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NVAPIMosaicGridTopoDto[] Grids { get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper.NVAPIMosaicGridTopoDto[]
+    content.vb: Public Property Grids As NVAPIMosaicGridTopoDto()
+  overload: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.Grids*
+- uid: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.#ctor(NVAPIWrapper.NVAPIMosaicGridTopoDto[])
+  commentId: M:NVAPIWrapper.NVAPIMosaicGridTopologiesDto.#ctor(NVAPIWrapper.NVAPIMosaicGridTopoDto[])
+  id: '#ctor(NVAPIWrapper.NVAPIMosaicGridTopoDto[])'
+  parent: NVAPIWrapper.NVAPIMosaicGridTopologiesDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIMosaicGridTopologiesDto(NVAPIMosaicGridTopoDto[])
+  nameWithType: NVAPIMosaicGridTopologiesDto.NVAPIMosaicGridTopologiesDto(NVAPIMosaicGridTopoDto[])
+  fullName: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.NVAPIMosaicGridTopologiesDto(NVAPIWrapper.NVAPIMosaicGridTopoDto[])
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 1728
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NVAPIMosaicGridTopologiesDto(NVAPIMosaicGridTopoDto[] grids)
+    parameters:
+    - id: grids
+      type: NVAPIWrapper.NVAPIMosaicGridTopoDto[]
+    content.vb: Public Sub New(grids As NVAPIMosaicGridTopoDto())
+  overload: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.#ctor*
+  nameWithType.vb: NVAPIMosaicGridTopologiesDto.New(NVAPIMosaicGridTopoDto())
+  fullName.vb: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.New(NVAPIWrapper.NVAPIMosaicGridTopoDto())
+  name.vb: New(NVAPIMosaicGridTopoDto())
+- uid: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.FromNative(System.UInt32,NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V2[])
+  commentId: M:NVAPIWrapper.NVAPIMosaicGridTopologiesDto.FromNative(System.UInt32,NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V2[])
+  id: FromNative(System.UInt32,NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V2[])
+  parent: NVAPIWrapper.NVAPIMosaicGridTopologiesDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(uint, _NV_MOSAIC_GRID_TOPO_V2[])
+  nameWithType: NVAPIMosaicGridTopologiesDto.FromNative(uint, _NV_MOSAIC_GRID_TOPO_V2[])
+  fullName: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.FromNative(uint, NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V2[])
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 1733
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static NVAPIMosaicGridTopologiesDto FromNative(uint count, _NV_MOSAIC_GRID_TOPO_V2[] native)
+    parameters:
+    - id: count
+      type: System.UInt32
+    - id: native
+      type: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V2[]
+    return:
+      type: NVAPIWrapper.NVAPIMosaicGridTopologiesDto
+    content.vb: Public Shared Function FromNative(count As UInteger, native As _NV_MOSAIC_GRID_TOPO_V2()) As NVAPIMosaicGridTopologiesDto
+  overload: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.FromNative*
+  nameWithType.vb: NVAPIMosaicGridTopologiesDto.FromNative(UInteger, _NV_MOSAIC_GRID_TOPO_V2())
+  fullName.vb: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.FromNative(UInteger, NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V2())
+  name.vb: FromNative(UInteger, _NV_MOSAIC_GRID_TOPO_V2())
+- uid: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.Equals(NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+  commentId: M:NVAPIWrapper.NVAPIMosaicGridTopologiesDto.Equals(NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+  id: Equals(NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+  parent: NVAPIWrapper.NVAPIMosaicGridTopologiesDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIMosaicGridTopologiesDto)
+  nameWithType: NVAPIMosaicGridTopologiesDto.Equals(NVAPIMosaicGridTopologiesDto)
+  fullName: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.Equals(NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 1762
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIMosaicGridTopologiesDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIMosaicGridTopologiesDto
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As NVAPIMosaicGridTopologiesDto) As Boolean
+  overload: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIMosaicGridTopologiesDto}.Equals(NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+- uid: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIMosaicGridTopologiesDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIMosaicGridTopologiesDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIMosaicGridTopologiesDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 1767
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.Equals*
+  nameWithType.vb: NVAPIMosaicGridTopologiesDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIMosaicGridTopologiesDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIMosaicGridTopologiesDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIMosaicGridTopologiesDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 1769
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.op_Equality(NVAPIWrapper.NVAPIMosaicGridTopologiesDto,NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+  commentId: M:NVAPIWrapper.NVAPIMosaicGridTopologiesDto.op_Equality(NVAPIWrapper.NVAPIMosaicGridTopologiesDto,NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+  id: op_Equality(NVAPIWrapper.NVAPIMosaicGridTopologiesDto,NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+  parent: NVAPIWrapper.NVAPIMosaicGridTopologiesDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIMosaicGridTopologiesDto, NVAPIMosaicGridTopologiesDto)
+  nameWithType: NVAPIMosaicGridTopologiesDto.operator ==(NVAPIMosaicGridTopologiesDto, NVAPIMosaicGridTopologiesDto)
+  fullName: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.operator ==(NVAPIWrapper.NVAPIMosaicGridTopologiesDto, NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 1771
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static bool operator ==(NVAPIMosaicGridTopologiesDto left, NVAPIMosaicGridTopologiesDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIMosaicGridTopologiesDto
+    - id: right
+      type: NVAPIWrapper.NVAPIMosaicGridTopologiesDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As NVAPIMosaicGridTopologiesDto, right As NVAPIMosaicGridTopologiesDto) As Boolean
+  overload: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.op_Equality*
+  nameWithType.vb: NVAPIMosaicGridTopologiesDto.=(NVAPIMosaicGridTopologiesDto, NVAPIMosaicGridTopologiesDto)
+  fullName.vb: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.=(NVAPIWrapper.NVAPIMosaicGridTopologiesDto, NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+  name.vb: =(NVAPIMosaicGridTopologiesDto, NVAPIMosaicGridTopologiesDto)
+- uid: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.op_Inequality(NVAPIWrapper.NVAPIMosaicGridTopologiesDto,NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+  commentId: M:NVAPIWrapper.NVAPIMosaicGridTopologiesDto.op_Inequality(NVAPIWrapper.NVAPIMosaicGridTopologiesDto,NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIMosaicGridTopologiesDto,NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+  parent: NVAPIWrapper.NVAPIMosaicGridTopologiesDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIMosaicGridTopologiesDto, NVAPIMosaicGridTopologiesDto)
+  nameWithType: NVAPIMosaicGridTopologiesDto.operator !=(NVAPIMosaicGridTopologiesDto, NVAPIMosaicGridTopologiesDto)
+  fullName: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.operator !=(NVAPIWrapper.NVAPIMosaicGridTopologiesDto, NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 1773
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static bool operator !=(NVAPIMosaicGridTopologiesDto left, NVAPIMosaicGridTopologiesDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIMosaicGridTopologiesDto
+    - id: right
+      type: NVAPIWrapper.NVAPIMosaicGridTopologiesDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As NVAPIMosaicGridTopologiesDto, right As NVAPIMosaicGridTopologiesDto) As Boolean
+  overload: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.op_Inequality*
+  nameWithType.vb: NVAPIMosaicGridTopologiesDto.<>(NVAPIMosaicGridTopologiesDto, NVAPIMosaicGridTopologiesDto)
+  fullName.vb: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.<>(NVAPIWrapper.NVAPIMosaicGridTopologiesDto, NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+  name.vb: <>(NVAPIMosaicGridTopologiesDto, NVAPIMosaicGridTopologiesDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIMosaicGridTopologiesDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIMosaicGridTopologiesDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIMosaicGridTopologiesDto>
+  nameWithType: IEquatable<NVAPIMosaicGridTopologiesDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIMosaicGridTopologiesDto>
+  nameWithType.vb: IEquatable(Of NVAPIMosaicGridTopologiesDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+  name.vb: IEquatable(Of NVAPIMosaicGridTopologiesDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIMosaicGridTopologiesDto
+    name: NVAPIMosaicGridTopologiesDto
+    href: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIMosaicGridTopologiesDto
+    name: NVAPIMosaicGridTopologiesDto
+    href: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.Grids*
+  commentId: Overload:NVAPIWrapper.NVAPIMosaicGridTopologiesDto.Grids
+  href: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.html#NVAPIWrapper_NVAPIMosaicGridTopologiesDto_Grids
+  name: Grids
+  nameWithType: NVAPIMosaicGridTopologiesDto.Grids
+  fullName: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.Grids
+- uid: NVAPIWrapper.NVAPIMosaicGridTopoDto[]
+  isExternal: true
+  href: NVAPIWrapper.NVAPIMosaicGridTopoDto.html
+  name: NVAPIMosaicGridTopoDto[]
+  nameWithType: NVAPIMosaicGridTopoDto[]
+  fullName: NVAPIWrapper.NVAPIMosaicGridTopoDto[]
+  nameWithType.vb: NVAPIMosaicGridTopoDto()
+  fullName.vb: NVAPIWrapper.NVAPIMosaicGridTopoDto()
+  name.vb: NVAPIMosaicGridTopoDto()
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIMosaicGridTopoDto
+    name: NVAPIMosaicGridTopoDto
+    href: NVAPIWrapper.NVAPIMosaicGridTopoDto.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIMosaicGridTopoDto
+    name: NVAPIMosaicGridTopoDto
+    href: NVAPIWrapper.NVAPIMosaicGridTopoDto.html
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIMosaicGridTopologiesDto.#ctor
+  href: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.html#NVAPIWrapper_NVAPIMosaicGridTopologiesDto__ctor_NVAPIWrapper_NVAPIMosaicGridTopoDto___
+  name: NVAPIMosaicGridTopologiesDto
+  nameWithType: NVAPIMosaicGridTopologiesDto.NVAPIMosaicGridTopologiesDto
+  fullName: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.NVAPIMosaicGridTopologiesDto
+  nameWithType.vb: NVAPIMosaicGridTopologiesDto.New
+  fullName.vb: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPIMosaicGridTopologiesDto.FromNative
+  href: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.html#NVAPIWrapper_NVAPIMosaicGridTopologiesDto_FromNative_System_UInt32_NVAPIWrapper__NV_MOSAIC_GRID_TOPO_V2___
+  name: FromNative
+  nameWithType: NVAPIMosaicGridTopologiesDto.FromNative
+  fullName: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.FromNative
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V2[]
+  isExternal: true
+  href: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V2.html
+  name: _NV_MOSAIC_GRID_TOPO_V2[]
+  nameWithType: _NV_MOSAIC_GRID_TOPO_V2[]
+  fullName: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V2[]
+  nameWithType.vb: _NV_MOSAIC_GRID_TOPO_V2()
+  fullName.vb: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V2()
+  name.vb: _NV_MOSAIC_GRID_TOPO_V2()
+  spec.csharp:
+  - uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V2
+    name: _NV_MOSAIC_GRID_TOPO_V2
+    href: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V2.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V2
+    name: _NV_MOSAIC_GRID_TOPO_V2
+    href: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V2.html
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIMosaicGridTopologiesDto
+  commentId: T:NVAPIWrapper.NVAPIMosaicGridTopologiesDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.html
+  name: NVAPIMosaicGridTopologiesDto
+  nameWithType: NVAPIMosaicGridTopologiesDto
+  fullName: NVAPIWrapper.NVAPIMosaicGridTopologiesDto
+- uid: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIMosaicGridTopologiesDto.Equals
+  href: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.html#NVAPIWrapper_NVAPIMosaicGridTopologiesDto_Equals_NVAPIWrapper_NVAPIMosaicGridTopologiesDto_
+  name: Equals
+  nameWithType: NVAPIMosaicGridTopologiesDto.Equals
+  fullName: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIMosaicGridTopologiesDto}.Equals(NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIMosaicGridTopologiesDto}.Equals(NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIMosaicGridTopologiesDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIMosaicGridTopologiesDto)
+  nameWithType: IEquatable<NVAPIMosaicGridTopologiesDto>.Equals(NVAPIMosaicGridTopologiesDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIMosaicGridTopologiesDto>.Equals(NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+  nameWithType.vb: IEquatable(Of NVAPIMosaicGridTopologiesDto).Equals(NVAPIMosaicGridTopologiesDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIMosaicGridTopologiesDto).Equals(NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIMosaicGridTopologiesDto}.Equals(NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIMosaicGridTopologiesDto
+    name: NVAPIMosaicGridTopologiesDto
+    href: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIMosaicGridTopologiesDto}.Equals(NVAPIWrapper.NVAPIMosaicGridTopologiesDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIMosaicGridTopologiesDto
+    name: NVAPIMosaicGridTopologiesDto
+    href: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.html
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIMosaicGridTopologiesDto.GetHashCode
+  href: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.html#NVAPIWrapper_NVAPIMosaicGridTopologiesDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIMosaicGridTopologiesDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIMosaicGridTopologiesDto.op_Equality
+  href: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.html#NVAPIWrapper_NVAPIMosaicGridTopologiesDto_op_Equality_NVAPIWrapper_NVAPIMosaicGridTopologiesDto_NVAPIWrapper_NVAPIMosaicGridTopologiesDto_
+  name: operator ==
+  nameWithType: NVAPIMosaicGridTopologiesDto.operator ==
+  fullName: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.operator ==
+  nameWithType.vb: NVAPIMosaicGridTopologiesDto.=
+  fullName.vb: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.html#NVAPIWrapper_NVAPIMosaicGridTopologiesDto_op_Equality_NVAPIWrapper_NVAPIMosaicGridTopologiesDto_NVAPIWrapper_NVAPIMosaicGridTopologiesDto_
+- uid: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIMosaicGridTopologiesDto.op_Inequality
+  href: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.html#NVAPIWrapper_NVAPIMosaicGridTopologiesDto_op_Inequality_NVAPIWrapper_NVAPIMosaicGridTopologiesDto_NVAPIWrapper_NVAPIMosaicGridTopologiesDto_
+  name: operator !=
+  nameWithType: NVAPIMosaicGridTopologiesDto.operator !=
+  fullName: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.operator !=
+  nameWithType.vb: NVAPIMosaicGridTopologiesDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIMosaicGridTopologiesDto.html#NVAPIWrapper_NVAPIMosaicGridTopologiesDto_op_Inequality_NVAPIWrapper_NVAPIMosaicGridTopologiesDto_NVAPIWrapper_NVAPIMosaicGridTopologiesDto_

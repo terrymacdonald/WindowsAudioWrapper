@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE
+  commentId: T:NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE
+  id: _NVAPI_GSYNC_DISPLAY_SYNC_STATE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE.NVAPI_GSYNC_DISPLAY_SYNC_STATE_MASTER
+  - NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE.NVAPI_GSYNC_DISPLAY_SYNC_STATE_SLAVE
+  - NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE.NVAPI_GSYNC_DISPLAY_SYNC_STATE_UNSYNCED
+  langs:
+  - csharp
+  - vb
+  name: _NVAPI_GSYNC_DISPLAY_SYNC_STATE
+  nameWithType: _NVAPI_GSYNC_DISPLAY_SYNC_STATE
+  fullName: NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_DISPLAY_SYNC_STATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVAPI_GSYNC_DISPLAY_SYNC_STATE
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_DISPLAY_SYNC_STATE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVAPI_GSYNC_DISPLAY_SYNC_STATE
+    content.vb: Public Enum _NVAPI_GSYNC_DISPLAY_SYNC_STATE
+- uid: NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE.NVAPI_GSYNC_DISPLAY_SYNC_STATE_UNSYNCED
+  commentId: F:NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE.NVAPI_GSYNC_DISPLAY_SYNC_STATE_UNSYNCED
+  id: NVAPI_GSYNC_DISPLAY_SYNC_STATE_UNSYNCED
+  parent: NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GSYNC_DISPLAY_SYNC_STATE_UNSYNCED
+  nameWithType: _NVAPI_GSYNC_DISPLAY_SYNC_STATE.NVAPI_GSYNC_DISPLAY_SYNC_STATE_UNSYNCED
+  fullName: NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE.NVAPI_GSYNC_DISPLAY_SYNC_STATE_UNSYNCED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_DISPLAY_SYNC_STATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GSYNC_DISPLAY_SYNC_STATE_UNSYNCED
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_DISPLAY_SYNC_STATE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GSYNC_DISPLAY_SYNC_STATE_UNSYNCED = 0
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE
+- uid: NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE.NVAPI_GSYNC_DISPLAY_SYNC_STATE_SLAVE
+  commentId: F:NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE.NVAPI_GSYNC_DISPLAY_SYNC_STATE_SLAVE
+  id: NVAPI_GSYNC_DISPLAY_SYNC_STATE_SLAVE
+  parent: NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GSYNC_DISPLAY_SYNC_STATE_SLAVE
+  nameWithType: _NVAPI_GSYNC_DISPLAY_SYNC_STATE.NVAPI_GSYNC_DISPLAY_SYNC_STATE_SLAVE
+  fullName: NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE.NVAPI_GSYNC_DISPLAY_SYNC_STATE_SLAVE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_DISPLAY_SYNC_STATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GSYNC_DISPLAY_SYNC_STATE_SLAVE
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_DISPLAY_SYNC_STATE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GSYNC_DISPLAY_SYNC_STATE_SLAVE = 1
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE
+- uid: NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE.NVAPI_GSYNC_DISPLAY_SYNC_STATE_MASTER
+  commentId: F:NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE.NVAPI_GSYNC_DISPLAY_SYNC_STATE_MASTER
+  id: NVAPI_GSYNC_DISPLAY_SYNC_STATE_MASTER
+  parent: NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GSYNC_DISPLAY_SYNC_STATE_MASTER
+  nameWithType: _NVAPI_GSYNC_DISPLAY_SYNC_STATE.NVAPI_GSYNC_DISPLAY_SYNC_STATE_MASTER
+  fullName: NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE.NVAPI_GSYNC_DISPLAY_SYNC_STATE_MASTER
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_DISPLAY_SYNC_STATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GSYNC_DISPLAY_SYNC_STATE_MASTER
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_DISPLAY_SYNC_STATE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GSYNC_DISPLAY_SYNC_STATE_MASTER = 2
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE
+  commentId: T:NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE.html
+  name: _NVAPI_GSYNC_DISPLAY_SYNC_STATE
+  nameWithType: _NVAPI_GSYNC_DISPLAY_SYNC_STATE
+  fullName: NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE

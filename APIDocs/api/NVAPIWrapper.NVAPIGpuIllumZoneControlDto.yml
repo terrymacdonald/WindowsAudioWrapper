@@ -1,0 +1,929 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+  commentId: T:NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+  id: NVAPIGpuIllumZoneControlDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIGpuIllumZoneControlDto.#ctor(NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE,NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE,System.Byte[])
+  - NVAPIWrapper.NVAPIGpuIllumZoneControlDto.CtrlMode
+  - NVAPIWrapper.NVAPIGpuIllumZoneControlDto.DataRawBytes
+  - NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Equals(NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+  - NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIGpuIllumZoneControlDto.FromNative(NVAPIWrapper._NV_GPU_CLIENT_ILLUM_ZONE_CONTROL_V1)
+  - NVAPIWrapper.NVAPIGpuIllumZoneControlDto.GetHashCode
+  - NVAPIWrapper.NVAPIGpuIllumZoneControlDto.ToNative
+  - NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Type
+  - NVAPIWrapper.NVAPIGpuIllumZoneControlDto.op_Equality(NVAPIWrapper.NVAPIGpuIllumZoneControlDto,NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+  - NVAPIWrapper.NVAPIGpuIllumZoneControlDto.op_Inequality(NVAPIWrapper.NVAPIGpuIllumZoneControlDto,NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGpuIllumZoneControlDto
+  nameWithType: NVAPIGpuIllumZoneControlDto
+  fullName: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIGpuIllumZoneControlDto
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3723
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Per-zone illumination control DTO, wrapping <xref href="NVAPIWrapper._NV_GPU_CLIENT_ILLUM_ZONE_CONTROL_V1" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public struct NVAPIGpuIllumZoneControlDto : IEquatable<NVAPIGpuIllumZoneControlDto>'
+    content.vb: Public Structure NVAPIGpuIllumZoneControlDto Implements IEquatable(Of NVAPIGpuIllumZoneControlDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGpuIllumZoneControlDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Type
+  commentId: P:NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Type
+  id: Type
+  parent: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: NVAPIGpuIllumZoneControlDto.Type
+  fullName: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Type
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Type
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3726
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Type of illumination zone.
+  example: []
+  syntax:
+    content: public NV_GPU_CLIENT_ILLUM_ZONE_TYPE Type { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+    content.vb: Public Property Type As NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+  overload: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Type*
+- uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.CtrlMode
+  commentId: P:NVAPIWrapper.NVAPIGpuIllumZoneControlDto.CtrlMode
+  id: CtrlMode
+  parent: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+  langs:
+  - csharp
+  - vb
+  name: CtrlMode
+  nameWithType: NVAPIGpuIllumZoneControlDto.CtrlMode
+  fullName: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.CtrlMode
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CtrlMode
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3728
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Control mode for this illumination zone.
+  example: []
+  syntax:
+    content: public NV_GPU_CLIENT_ILLUM_CTRL_MODE CtrlMode { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE
+    content.vb: Public Property CtrlMode As NV_GPU_CLIENT_ILLUM_CTRL_MODE
+  overload: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.CtrlMode*
+- uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.DataRawBytes
+  commentId: P:NVAPIWrapper.NVAPIGpuIllumZoneControlDto.DataRawBytes
+  id: DataRawBytes
+  parent: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+  langs:
+  - csharp
+  - vb
+  name: DataRawBytes
+  nameWithType: NVAPIGpuIllumZoneControlDto.DataRawBytes
+  fullName: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.DataRawBytes
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: DataRawBytes
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3733
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: >-
+    Raw bytes for the type-discriminated union <code>data</code> field (64 bytes).
+
+    Interpret using <xref href="NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Type" data-throw-if-not-resolved="false"></xref> to select the appropriate union member.
+  example: []
+  syntax:
+    content: public byte[] DataRawBytes { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property DataRawBytes As Byte()
+  overload: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.DataRawBytes*
+- uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.#ctor(NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE,NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE,System.Byte[])
+  commentId: M:NVAPIWrapper.NVAPIGpuIllumZoneControlDto.#ctor(NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE,NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE,System.Byte[])
+  id: '#ctor(NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE,NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE,System.Byte[])'
+  parent: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGpuIllumZoneControlDto(NV_GPU_CLIENT_ILLUM_ZONE_TYPE, NV_GPU_CLIENT_ILLUM_CTRL_MODE, byte[])
+  nameWithType: NVAPIGpuIllumZoneControlDto.NVAPIGpuIllumZoneControlDto(NV_GPU_CLIENT_ILLUM_ZONE_TYPE, NV_GPU_CLIENT_ILLUM_CTRL_MODE, byte[])
+  fullName: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.NVAPIGpuIllumZoneControlDto(NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE, NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE, byte[])
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3736
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Initializes a new instance of <xref href="NVAPIWrapper.NVAPIGpuIllumZoneControlDto" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public NVAPIGpuIllumZoneControlDto(NV_GPU_CLIENT_ILLUM_ZONE_TYPE type, NV_GPU_CLIENT_ILLUM_CTRL_MODE ctrlMode, byte[] dataRawBytes)
+    parameters:
+    - id: type
+      type: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+    - id: ctrlMode
+      type: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE
+    - id: dataRawBytes
+      type: System.Byte[]
+    content.vb: Public Sub New(type As NV_GPU_CLIENT_ILLUM_ZONE_TYPE, ctrlMode As NV_GPU_CLIENT_ILLUM_CTRL_MODE, dataRawBytes As Byte())
+  overload: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.#ctor*
+  nameWithType.vb: NVAPIGpuIllumZoneControlDto.New(NV_GPU_CLIENT_ILLUM_ZONE_TYPE, NV_GPU_CLIENT_ILLUM_CTRL_MODE, Byte())
+  fullName.vb: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.New(NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE, NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE, Byte())
+  name.vb: New(NV_GPU_CLIENT_ILLUM_ZONE_TYPE, NV_GPU_CLIENT_ILLUM_CTRL_MODE, Byte())
+- uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.FromNative(NVAPIWrapper._NV_GPU_CLIENT_ILLUM_ZONE_CONTROL_V1)
+  commentId: M:NVAPIWrapper.NVAPIGpuIllumZoneControlDto.FromNative(NVAPIWrapper._NV_GPU_CLIENT_ILLUM_ZONE_CONTROL_V1)
+  id: FromNative(NVAPIWrapper._NV_GPU_CLIENT_ILLUM_ZONE_CONTROL_V1)
+  parent: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(_NV_GPU_CLIENT_ILLUM_ZONE_CONTROL_V1)
+  nameWithType: NVAPIGpuIllumZoneControlDto.FromNative(_NV_GPU_CLIENT_ILLUM_ZONE_CONTROL_V1)
+  fullName: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.FromNative(NVAPIWrapper._NV_GPU_CLIENT_ILLUM_ZONE_CONTROL_V1)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3744
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Creates a DTO from the native <xref href="NVAPIWrapper._NV_GPU_CLIENT_ILLUM_ZONE_CONTROL_V1" data-throw-if-not-resolved="false"></xref> struct.
+  example: []
+  syntax:
+    content: public static NVAPIGpuIllumZoneControlDto FromNative(_NV_GPU_CLIENT_ILLUM_ZONE_CONTROL_V1 native)
+    parameters:
+    - id: native
+      type: NVAPIWrapper._NV_GPU_CLIENT_ILLUM_ZONE_CONTROL_V1
+    return:
+      type: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+    content.vb: Public Shared Function FromNative(native As _NV_GPU_CLIENT_ILLUM_ZONE_CONTROL_V1) As NVAPIGpuIllumZoneControlDto
+  overload: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.FromNative*
+- uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.ToNative
+  commentId: M:NVAPIWrapper.NVAPIGpuIllumZoneControlDto.ToNative
+  id: ToNative
+  parent: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: NVAPIGpuIllumZoneControlDto.ToNative()
+  fullName: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3751
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Converts this DTO back to the native <xref href="NVAPIWrapper._NV_GPU_CLIENT_ILLUM_ZONE_CONTROL_V1" data-throw-if-not-resolved="false"></xref> struct.
+  example: []
+  syntax:
+    content: public _NV_GPU_CLIENT_ILLUM_ZONE_CONTROL_V1 ToNative()
+    return:
+      type: NVAPIWrapper._NV_GPU_CLIENT_ILLUM_ZONE_CONTROL_V1
+    content.vb: Public Function ToNative() As _NV_GPU_CLIENT_ILLUM_ZONE_CONTROL_V1
+  overload: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.ToNative*
+- uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Equals(NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Equals(NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+  id: Equals(NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+  parent: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIGpuIllumZoneControlDto)
+  nameWithType: NVAPIGpuIllumZoneControlDto.Equals(NVAPIGpuIllumZoneControlDto)
+  fullName: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Equals(NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3764
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIGpuIllumZoneControlDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As NVAPIGpuIllumZoneControlDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGpuIllumZoneControlDto}.Equals(NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+- uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIGpuIllumZoneControlDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3771
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Equals*
+  nameWithType.vb: NVAPIGpuIllumZoneControlDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIGpuIllumZoneControlDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIGpuIllumZoneControlDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3773
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.op_Equality(NVAPIWrapper.NVAPIGpuIllumZoneControlDto,NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuIllumZoneControlDto.op_Equality(NVAPIWrapper.NVAPIGpuIllumZoneControlDto,NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+  id: op_Equality(NVAPIWrapper.NVAPIGpuIllumZoneControlDto,NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+  parent: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIGpuIllumZoneControlDto, NVAPIGpuIllumZoneControlDto)
+  nameWithType: NVAPIGpuIllumZoneControlDto.operator ==(NVAPIGpuIllumZoneControlDto, NVAPIGpuIllumZoneControlDto)
+  fullName: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.operator ==(NVAPIWrapper.NVAPIGpuIllumZoneControlDto, NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3775
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Equality operator.
+  example: []
+  syntax:
+    content: public static bool operator ==(NVAPIGpuIllumZoneControlDto left, NVAPIGpuIllumZoneControlDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+    - id: right
+      type: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As NVAPIGpuIllumZoneControlDto, right As NVAPIGpuIllumZoneControlDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.op_Equality*
+  nameWithType.vb: NVAPIGpuIllumZoneControlDto.=(NVAPIGpuIllumZoneControlDto, NVAPIGpuIllumZoneControlDto)
+  fullName.vb: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.=(NVAPIWrapper.NVAPIGpuIllumZoneControlDto, NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+  name.vb: =(NVAPIGpuIllumZoneControlDto, NVAPIGpuIllumZoneControlDto)
+- uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.op_Inequality(NVAPIWrapper.NVAPIGpuIllumZoneControlDto,NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuIllumZoneControlDto.op_Inequality(NVAPIWrapper.NVAPIGpuIllumZoneControlDto,NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIGpuIllumZoneControlDto,NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+  parent: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIGpuIllumZoneControlDto, NVAPIGpuIllumZoneControlDto)
+  nameWithType: NVAPIGpuIllumZoneControlDto.operator !=(NVAPIGpuIllumZoneControlDto, NVAPIGpuIllumZoneControlDto)
+  fullName: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.operator !=(NVAPIWrapper.NVAPIGpuIllumZoneControlDto, NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3777
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Inequality operator.
+  example: []
+  syntax:
+    content: public static bool operator !=(NVAPIGpuIllumZoneControlDto left, NVAPIGpuIllumZoneControlDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+    - id: right
+      type: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As NVAPIGpuIllumZoneControlDto, right As NVAPIGpuIllumZoneControlDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.op_Inequality*
+  nameWithType.vb: NVAPIGpuIllumZoneControlDto.<>(NVAPIGpuIllumZoneControlDto, NVAPIGpuIllumZoneControlDto)
+  fullName.vb: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.<>(NVAPIWrapper.NVAPIGpuIllumZoneControlDto, NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+  name.vb: <>(NVAPIGpuIllumZoneControlDto, NVAPIGpuIllumZoneControlDto)
+references:
+- uid: NVAPIWrapper._NV_GPU_CLIENT_ILLUM_ZONE_CONTROL_V1
+  commentId: T:NVAPIWrapper._NV_GPU_CLIENT_ILLUM_ZONE_CONTROL_V1
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_CLIENT_ILLUM_ZONE_CONTROL_V1.html
+  name: _NV_GPU_CLIENT_ILLUM_ZONE_CONTROL_V1
+  nameWithType: _NV_GPU_CLIENT_ILLUM_ZONE_CONTROL_V1
+  fullName: NVAPIWrapper._NV_GPU_CLIENT_ILLUM_ZONE_CONTROL_V1
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGpuIllumZoneControlDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIGpuIllumZoneControlDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIGpuIllumZoneControlDto>
+  nameWithType: IEquatable<NVAPIGpuIllumZoneControlDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGpuIllumZoneControlDto>
+  nameWithType.vb: IEquatable(Of NVAPIGpuIllumZoneControlDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+  name.vb: IEquatable(Of NVAPIGpuIllumZoneControlDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+    name: NVAPIGpuIllumZoneControlDto
+    href: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+    name: NVAPIGpuIllumZoneControlDto
+    href: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Type*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Type
+  href: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.html#NVAPIWrapper_NVAPIGpuIllumZoneControlDto_Type
+  name: Type
+  nameWithType: NVAPIGpuIllumZoneControlDto.Type
+  fullName: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Type
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+  commentId: T:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE.html
+  name: NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+  nameWithType: NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+- uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.CtrlMode*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuIllumZoneControlDto.CtrlMode
+  href: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.html#NVAPIWrapper_NVAPIGpuIllumZoneControlDto_CtrlMode
+  name: CtrlMode
+  nameWithType: NVAPIGpuIllumZoneControlDto.CtrlMode
+  fullName: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.CtrlMode
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE
+  commentId: T:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE.html
+  name: NV_GPU_CLIENT_ILLUM_CTRL_MODE
+  nameWithType: NV_GPU_CLIENT_ILLUM_CTRL_MODE
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE
+- uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Type
+  commentId: P:NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Type
+  href: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.html#NVAPIWrapper_NVAPIGpuIllumZoneControlDto_Type
+  name: Type
+  nameWithType: NVAPIGpuIllumZoneControlDto.Type
+  fullName: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Type
+- uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.DataRawBytes*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuIllumZoneControlDto.DataRawBytes
+  href: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.html#NVAPIWrapper_NVAPIGpuIllumZoneControlDto_DataRawBytes
+  name: DataRawBytes
+  nameWithType: NVAPIGpuIllumZoneControlDto.DataRawBytes
+  fullName: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.DataRawBytes
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+  commentId: T:NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.html
+  name: NVAPIGpuIllumZoneControlDto
+  nameWithType: NVAPIGpuIllumZoneControlDto
+  fullName: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+- uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuIllumZoneControlDto.#ctor
+  href: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.html#NVAPIWrapper_NVAPIGpuIllumZoneControlDto__ctor_NVAPIWrapper_NV_GPU_CLIENT_ILLUM_ZONE_TYPE_NVAPIWrapper_NV_GPU_CLIENT_ILLUM_CTRL_MODE_System_Byte___
+  name: NVAPIGpuIllumZoneControlDto
+  nameWithType: NVAPIGpuIllumZoneControlDto.NVAPIGpuIllumZoneControlDto
+  fullName: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.NVAPIGpuIllumZoneControlDto
+  nameWithType.vb: NVAPIGpuIllumZoneControlDto.New
+  fullName.vb: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuIllumZoneControlDto.FromNative
+  href: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.html#NVAPIWrapper_NVAPIGpuIllumZoneControlDto_FromNative_NVAPIWrapper__NV_GPU_CLIENT_ILLUM_ZONE_CONTROL_V1_
+  name: FromNative
+  nameWithType: NVAPIGpuIllumZoneControlDto.FromNative
+  fullName: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.FromNative
+- uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuIllumZoneControlDto.ToNative
+  href: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.html#NVAPIWrapper_NVAPIGpuIllumZoneControlDto_ToNative
+  name: ToNative
+  nameWithType: NVAPIGpuIllumZoneControlDto.ToNative
+  fullName: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.ToNative
+- uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Equals
+  href: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.html#NVAPIWrapper_NVAPIGpuIllumZoneControlDto_Equals_NVAPIWrapper_NVAPIGpuIllumZoneControlDto_
+  name: Equals
+  nameWithType: NVAPIGpuIllumZoneControlDto.Equals
+  fullName: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGpuIllumZoneControlDto}.Equals(NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIGpuIllumZoneControlDto}.Equals(NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIGpuIllumZoneControlDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIGpuIllumZoneControlDto)
+  nameWithType: IEquatable<NVAPIGpuIllumZoneControlDto>.Equals(NVAPIGpuIllumZoneControlDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGpuIllumZoneControlDto>.Equals(NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+  nameWithType.vb: IEquatable(Of NVAPIGpuIllumZoneControlDto).Equals(NVAPIGpuIllumZoneControlDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGpuIllumZoneControlDto).Equals(NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGpuIllumZoneControlDto}.Equals(NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+    name: NVAPIGpuIllumZoneControlDto
+    href: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGpuIllumZoneControlDto}.Equals(NVAPIWrapper.NVAPIGpuIllumZoneControlDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto
+    name: NVAPIGpuIllumZoneControlDto
+    href: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.html
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuIllumZoneControlDto.GetHashCode
+  href: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.html#NVAPIWrapper_NVAPIGpuIllumZoneControlDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIGpuIllumZoneControlDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuIllumZoneControlDto.op_Equality
+  href: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.html#NVAPIWrapper_NVAPIGpuIllumZoneControlDto_op_Equality_NVAPIWrapper_NVAPIGpuIllumZoneControlDto_NVAPIWrapper_NVAPIGpuIllumZoneControlDto_
+  name: operator ==
+  nameWithType: NVAPIGpuIllumZoneControlDto.operator ==
+  fullName: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.operator ==
+  nameWithType.vb: NVAPIGpuIllumZoneControlDto.=
+  fullName.vb: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.html#NVAPIWrapper_NVAPIGpuIllumZoneControlDto_op_Equality_NVAPIWrapper_NVAPIGpuIllumZoneControlDto_NVAPIWrapper_NVAPIGpuIllumZoneControlDto_
+- uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuIllumZoneControlDto.op_Inequality
+  href: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.html#NVAPIWrapper_NVAPIGpuIllumZoneControlDto_op_Inequality_NVAPIWrapper_NVAPIGpuIllumZoneControlDto_NVAPIWrapper_NVAPIGpuIllumZoneControlDto_
+  name: operator !=
+  nameWithType: NVAPIGpuIllumZoneControlDto.operator !=
+  fullName: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.operator !=
+  nameWithType.vb: NVAPIGpuIllumZoneControlDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIGpuIllumZoneControlDto.html#NVAPIWrapper_NVAPIGpuIllumZoneControlDto_op_Inequality_NVAPIWrapper_NVAPIGpuIllumZoneControlDto_NVAPIWrapper_NVAPIGpuIllumZoneControlDto_

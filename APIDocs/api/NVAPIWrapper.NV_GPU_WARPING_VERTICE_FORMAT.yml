@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT
+  commentId: T:NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT
+  id: NV_GPU_WARPING_VERTICE_FORMAT
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT.NV_GPU_WARPING_VERTICE_FORMAT_TRIANGLESTRIP_XYUVRQ
+  - NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT.NV_GPU_WARPING_VERTICE_FORMAT_TRIANGLES_XYUVRQ
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_WARPING_VERTICE_FORMAT
+  nameWithType: NV_GPU_WARPING_VERTICE_FORMAT
+  fullName: NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_WARPING_VERTICE_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_WARPING_VERTICE_FORMAT
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_WARPING_VERTICE_FORMAT.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_GPU_WARPING_VERTICE_FORMAT
+    content.vb: Public Enum NV_GPU_WARPING_VERTICE_FORMAT
+- uid: NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT.NV_GPU_WARPING_VERTICE_FORMAT_TRIANGLESTRIP_XYUVRQ
+  commentId: F:NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT.NV_GPU_WARPING_VERTICE_FORMAT_TRIANGLESTRIP_XYUVRQ
+  id: NV_GPU_WARPING_VERTICE_FORMAT_TRIANGLESTRIP_XYUVRQ
+  parent: NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_WARPING_VERTICE_FORMAT_TRIANGLESTRIP_XYUVRQ
+  nameWithType: NV_GPU_WARPING_VERTICE_FORMAT.NV_GPU_WARPING_VERTICE_FORMAT_TRIANGLESTRIP_XYUVRQ
+  fullName: NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT.NV_GPU_WARPING_VERTICE_FORMAT_TRIANGLESTRIP_XYUVRQ
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_WARPING_VERTICE_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_WARPING_VERTICE_FORMAT_TRIANGLESTRIP_XYUVRQ
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_WARPING_VERTICE_FORMAT.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_WARPING_VERTICE_FORMAT_TRIANGLESTRIP_XYUVRQ = 0
+    return:
+      type: NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT
+- uid: NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT.NV_GPU_WARPING_VERTICE_FORMAT_TRIANGLES_XYUVRQ
+  commentId: F:NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT.NV_GPU_WARPING_VERTICE_FORMAT_TRIANGLES_XYUVRQ
+  id: NV_GPU_WARPING_VERTICE_FORMAT_TRIANGLES_XYUVRQ
+  parent: NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_WARPING_VERTICE_FORMAT_TRIANGLES_XYUVRQ
+  nameWithType: NV_GPU_WARPING_VERTICE_FORMAT.NV_GPU_WARPING_VERTICE_FORMAT_TRIANGLES_XYUVRQ
+  fullName: NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT.NV_GPU_WARPING_VERTICE_FORMAT_TRIANGLES_XYUVRQ
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_WARPING_VERTICE_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_WARPING_VERTICE_FORMAT_TRIANGLES_XYUVRQ
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_WARPING_VERTICE_FORMAT.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_WARPING_VERTICE_FORMAT_TRIANGLES_XYUVRQ = 1
+    return:
+      type: NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT
+  commentId: T:NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT.html
+  name: NV_GPU_WARPING_VERTICE_FORMAT
+  nameWithType: NV_GPU_WARPING_VERTICE_FORMAT
+  fullName: NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT

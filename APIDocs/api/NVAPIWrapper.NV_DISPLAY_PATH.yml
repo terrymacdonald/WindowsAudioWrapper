@@ -1,0 +1,989 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_DISPLAY_PATH
+  commentId: T:NVAPIWrapper.NV_DISPLAY_PATH
+  id: NV_DISPLAY_PATH
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_DISPLAY_PATH._bitfield1
+  - NVAPIWrapper.NV_DISPLAY_PATH._bitfield2
+  - NVAPIWrapper.NV_DISPLAY_PATH._bitfield3
+  - NVAPIWrapper.NV_DISPLAY_PATH.bFocusDisplay
+  - NVAPIWrapper.NV_DISPLAY_PATH.bForceModeSet
+  - NVAPIWrapper.NV_DISPLAY_PATH.bGDIPrimary
+  - NVAPIWrapper.NV_DISPLAY_PATH.bPrimary
+  - NVAPIWrapper.NV_DISPLAY_PATH.colorFormat
+  - NVAPIWrapper.NV_DISPLAY_PATH.connector
+  - NVAPIWrapper.NV_DISPLAY_PATH.depth
+  - NVAPIWrapper.NV_DISPLAY_PATH.deviceMask
+  - NVAPIWrapper.NV_DISPLAY_PATH.gpuId
+  - NVAPIWrapper.NV_DISPLAY_PATH.height
+  - NVAPIWrapper.NV_DISPLAY_PATH.interlaced
+  - NVAPIWrapper.NV_DISPLAY_PATH.posx
+  - NVAPIWrapper.NV_DISPLAY_PATH.posy
+  - NVAPIWrapper.NV_DISPLAY_PATH.refreshRate
+  - NVAPIWrapper.NV_DISPLAY_PATH.rotation
+  - NVAPIWrapper.NV_DISPLAY_PATH.scaling
+  - NVAPIWrapper.NV_DISPLAY_PATH.sourceId
+  - NVAPIWrapper.NV_DISPLAY_PATH.tvFormat
+  - NVAPIWrapper.NV_DISPLAY_PATH.width
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_PATH
+  nameWithType: NV_DISPLAY_PATH
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_PATH
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct NV_DISPLAY_PATH
+    content.vb: Public Structure NV_DISPLAY_PATH
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.deviceMask
+  commentId: F:NVAPIWrapper.NV_DISPLAY_PATH.deviceMask
+  id: deviceMask
+  parent: NVAPIWrapper.NV_DISPLAY_PATH
+  langs:
+  - csharp
+  - vb
+  name: deviceMask
+  nameWithType: NV_DISPLAY_PATH.deviceMask
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.deviceMask
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: deviceMask
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+    startLine: 7
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint deviceMask
+    return:
+      type: System.UInt32
+    content.vb: Public deviceMask As UInteger
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.sourceId
+  commentId: F:NVAPIWrapper.NV_DISPLAY_PATH.sourceId
+  id: sourceId
+  parent: NVAPIWrapper.NV_DISPLAY_PATH
+  langs:
+  - csharp
+  - vb
+  name: sourceId
+  nameWithType: NV_DISPLAY_PATH.sourceId
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.sourceId
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: sourceId
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+    startLine: 11
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint sourceId
+    return:
+      type: System.UInt32
+    content.vb: Public sourceId As UInteger
+- uid: NVAPIWrapper.NV_DISPLAY_PATH._bitfield1
+  commentId: F:NVAPIWrapper.NV_DISPLAY_PATH._bitfield1
+  id: _bitfield1
+  parent: NVAPIWrapper.NV_DISPLAY_PATH
+  langs:
+  - csharp
+  - vb
+  name: _bitfield1
+  nameWithType: NV_DISPLAY_PATH._bitfield1
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH._bitfield1
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield1
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+    startLine: 13
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield1
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield1 As UInteger
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.bPrimary
+  commentId: P:NVAPIWrapper.NV_DISPLAY_PATH.bPrimary
+  id: bPrimary
+  parent: NVAPIWrapper.NV_DISPLAY_PATH
+  langs:
+  - csharp
+  - vb
+  name: bPrimary
+  nameWithType: NV_DISPLAY_PATH.bPrimary
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.bPrimary
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bPrimary
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+    startLine: 16
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bPrimary { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property bPrimary As UInteger
+  overload: NVAPIWrapper.NV_DISPLAY_PATH.bPrimary*
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.connector
+  commentId: F:NVAPIWrapper.NV_DISPLAY_PATH.connector
+  id: connector
+  parent: NVAPIWrapper.NV_DISPLAY_PATH
+  langs:
+  - csharp
+  - vb
+  name: connector
+  nameWithType: NV_DISPLAY_PATH.connector
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.connector
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: connector
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+    startLine: 32
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_GPU_CONNECTOR_TYPE connector
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+    content.vb: Public connector As _NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.width
+  commentId: F:NVAPIWrapper.NV_DISPLAY_PATH.width
+  id: width
+  parent: NVAPIWrapper.NV_DISPLAY_PATH
+  langs:
+  - csharp
+  - vb
+  name: width
+  nameWithType: NV_DISPLAY_PATH.width
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.width
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: width
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint width
+    return:
+      type: System.UInt32
+    content.vb: Public width As UInteger
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.height
+  commentId: F:NVAPIWrapper.NV_DISPLAY_PATH.height
+  id: height
+  parent: NVAPIWrapper.NV_DISPLAY_PATH
+  langs:
+  - csharp
+  - vb
+  name: height
+  nameWithType: NV_DISPLAY_PATH.height
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.height
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: height
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+    startLine: 40
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint height
+    return:
+      type: System.UInt32
+    content.vb: Public height As UInteger
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.depth
+  commentId: F:NVAPIWrapper.NV_DISPLAY_PATH.depth
+  id: depth
+  parent: NVAPIWrapper.NV_DISPLAY_PATH
+  langs:
+  - csharp
+  - vb
+  name: depth
+  nameWithType: NV_DISPLAY_PATH.depth
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.depth
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: depth
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+    startLine: 44
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint depth
+    return:
+      type: System.UInt32
+    content.vb: Public depth As UInteger
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.colorFormat
+  commentId: F:NVAPIWrapper.NV_DISPLAY_PATH.colorFormat
+  id: colorFormat
+  parent: NVAPIWrapper.NV_DISPLAY_PATH
+  langs:
+  - csharp
+  - vb
+  name: colorFormat
+  nameWithType: NV_DISPLAY_PATH.colorFormat
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.colorFormat
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: colorFormat
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+    startLine: 48
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_FORMAT colorFormat
+    return:
+      type: NVAPIWrapper._NV_FORMAT
+    content.vb: Public colorFormat As _NV_FORMAT
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.rotation
+  commentId: F:NVAPIWrapper.NV_DISPLAY_PATH.rotation
+  id: rotation
+  parent: NVAPIWrapper.NV_DISPLAY_PATH
+  langs:
+  - csharp
+  - vb
+  name: rotation
+  nameWithType: NV_DISPLAY_PATH.rotation
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.rotation
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: rotation
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+    startLine: 52
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_ROTATE rotation
+    return:
+      type: NVAPIWrapper._NV_ROTATE
+    content.vb: Public rotation As _NV_ROTATE
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.scaling
+  commentId: F:NVAPIWrapper.NV_DISPLAY_PATH.scaling
+  id: scaling
+  parent: NVAPIWrapper.NV_DISPLAY_PATH
+  langs:
+  - csharp
+  - vb
+  name: scaling
+  nameWithType: NV_DISPLAY_PATH.scaling
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.scaling
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: scaling
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+    startLine: 56
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_SCALING scaling
+    return:
+      type: NVAPIWrapper._NV_SCALING
+    content.vb: Public scaling As _NV_SCALING
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.refreshRate
+  commentId: F:NVAPIWrapper.NV_DISPLAY_PATH.refreshRate
+  id: refreshRate
+  parent: NVAPIWrapper.NV_DISPLAY_PATH
+  langs:
+  - csharp
+  - vb
+  name: refreshRate
+  nameWithType: NV_DISPLAY_PATH.refreshRate
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.refreshRate
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: refreshRate
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+    startLine: 60
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint refreshRate
+    return:
+      type: System.UInt32
+    content.vb: Public refreshRate As UInteger
+- uid: NVAPIWrapper.NV_DISPLAY_PATH._bitfield2
+  commentId: F:NVAPIWrapper.NV_DISPLAY_PATH._bitfield2
+  id: _bitfield2
+  parent: NVAPIWrapper.NV_DISPLAY_PATH
+  langs:
+  - csharp
+  - vb
+  name: _bitfield2
+  nameWithType: NV_DISPLAY_PATH._bitfield2
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH._bitfield2
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield2
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+    startLine: 62
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield2
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield2 As UInteger
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.interlaced
+  commentId: P:NVAPIWrapper.NV_DISPLAY_PATH.interlaced
+  id: interlaced
+  parent: NVAPIWrapper.NV_DISPLAY_PATH
+  langs:
+  - csharp
+  - vb
+  name: interlaced
+  nameWithType: NV_DISPLAY_PATH.interlaced
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.interlaced
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: interlaced
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+    startLine: 65
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint interlaced { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property interlaced As UInteger
+  overload: NVAPIWrapper.NV_DISPLAY_PATH.interlaced*
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.tvFormat
+  commentId: F:NVAPIWrapper.NV_DISPLAY_PATH.tvFormat
+  id: tvFormat
+  parent: NVAPIWrapper.NV_DISPLAY_PATH
+  langs:
+  - csharp
+  - vb
+  name: tvFormat
+  nameWithType: NV_DISPLAY_PATH.tvFormat
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.tvFormat
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: tvFormat
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+    startLine: 81
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_DISPLAY_TV_FORMAT tvFormat
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public tvFormat As _NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.posx
+  commentId: F:NVAPIWrapper.NV_DISPLAY_PATH.posx
+  id: posx
+  parent: NVAPIWrapper.NV_DISPLAY_PATH
+  langs:
+  - csharp
+  - vb
+  name: posx
+  nameWithType: NV_DISPLAY_PATH.posx
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.posx
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: posx
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+    startLine: 85
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint posx
+    return:
+      type: System.UInt32
+    content.vb: Public posx As UInteger
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.posy
+  commentId: F:NVAPIWrapper.NV_DISPLAY_PATH.posy
+  id: posy
+  parent: NVAPIWrapper.NV_DISPLAY_PATH
+  langs:
+  - csharp
+  - vb
+  name: posy
+  nameWithType: NV_DISPLAY_PATH.posy
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.posy
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: posy
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+    startLine: 89
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint posy
+    return:
+      type: System.UInt32
+    content.vb: Public posy As UInteger
+- uid: NVAPIWrapper.NV_DISPLAY_PATH._bitfield3
+  commentId: F:NVAPIWrapper.NV_DISPLAY_PATH._bitfield3
+  id: _bitfield3
+  parent: NVAPIWrapper.NV_DISPLAY_PATH
+  langs:
+  - csharp
+  - vb
+  name: _bitfield3
+  nameWithType: NV_DISPLAY_PATH._bitfield3
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH._bitfield3
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield3
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+    startLine: 91
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield3
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield3 As UInteger
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.bGDIPrimary
+  commentId: P:NVAPIWrapper.NV_DISPLAY_PATH.bGDIPrimary
+  id: bGDIPrimary
+  parent: NVAPIWrapper.NV_DISPLAY_PATH
+  langs:
+  - csharp
+  - vb
+  name: bGDIPrimary
+  nameWithType: NV_DISPLAY_PATH.bGDIPrimary
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.bGDIPrimary
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bGDIPrimary
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+    startLine: 94
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bGDIPrimary { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property bGDIPrimary As UInteger
+  overload: NVAPIWrapper.NV_DISPLAY_PATH.bGDIPrimary*
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.bForceModeSet
+  commentId: P:NVAPIWrapper.NV_DISPLAY_PATH.bForceModeSet
+  id: bForceModeSet
+  parent: NVAPIWrapper.NV_DISPLAY_PATH
+  langs:
+  - csharp
+  - vb
+  name: bForceModeSet
+  nameWithType: NV_DISPLAY_PATH.bForceModeSet
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.bForceModeSet
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bForceModeSet
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+    startLine: 109
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bForceModeSet { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property bForceModeSet As UInteger
+  overload: NVAPIWrapper.NV_DISPLAY_PATH.bForceModeSet*
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.bFocusDisplay
+  commentId: P:NVAPIWrapper.NV_DISPLAY_PATH.bFocusDisplay
+  id: bFocusDisplay
+  parent: NVAPIWrapper.NV_DISPLAY_PATH
+  langs:
+  - csharp
+  - vb
+  name: bFocusDisplay
+  nameWithType: NV_DISPLAY_PATH.bFocusDisplay
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.bFocusDisplay
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bFocusDisplay
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+    startLine: 124
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bFocusDisplay { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property bFocusDisplay As UInteger
+  overload: NVAPIWrapper.NV_DISPLAY_PATH.bFocusDisplay*
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.gpuId
+  commentId: P:NVAPIWrapper.NV_DISPLAY_PATH.gpuId
+  id: gpuId
+  parent: NVAPIWrapper.NV_DISPLAY_PATH
+  langs:
+  - csharp
+  - vb
+  name: gpuId
+  nameWithType: NV_DISPLAY_PATH.gpuId
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.gpuId
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: gpuId
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PATH.cs
+    startLine: 139
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint gpuId { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property gpuId As UInteger
+  overload: NVAPIWrapper.NV_DISPLAY_PATH.gpuId*
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.bPrimary*
+  commentId: Overload:NVAPIWrapper.NV_DISPLAY_PATH.bPrimary
+  href: NVAPIWrapper.NV_DISPLAY_PATH.html#NVAPIWrapper_NV_DISPLAY_PATH_bPrimary
+  name: bPrimary
+  nameWithType: NV_DISPLAY_PATH.bPrimary
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.bPrimary
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  commentId: T:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.html
+  name: _NV_GPU_CONNECTOR_TYPE
+  nameWithType: _NV_GPU_CONNECTOR_TYPE
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_FORMAT
+  commentId: T:NVAPIWrapper._NV_FORMAT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_FORMAT.html
+  name: _NV_FORMAT
+  nameWithType: _NV_FORMAT
+  fullName: NVAPIWrapper._NV_FORMAT
+- uid: NVAPIWrapper._NV_ROTATE
+  commentId: T:NVAPIWrapper._NV_ROTATE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_ROTATE.html
+  name: _NV_ROTATE
+  nameWithType: _NV_ROTATE
+  fullName: NVAPIWrapper._NV_ROTATE
+- uid: NVAPIWrapper._NV_SCALING
+  commentId: T:NVAPIWrapper._NV_SCALING
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_SCALING.html
+  name: _NV_SCALING
+  nameWithType: _NV_SCALING
+  fullName: NVAPIWrapper._NV_SCALING
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.interlaced*
+  commentId: Overload:NVAPIWrapper.NV_DISPLAY_PATH.interlaced
+  href: NVAPIWrapper.NV_DISPLAY_PATH.html#NVAPIWrapper_NV_DISPLAY_PATH_interlaced
+  name: interlaced
+  nameWithType: NV_DISPLAY_PATH.interlaced
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.interlaced
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  commentId: T:NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.html
+  name: _NV_DISPLAY_TV_FORMAT
+  nameWithType: _NV_DISPLAY_TV_FORMAT
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.bGDIPrimary*
+  commentId: Overload:NVAPIWrapper.NV_DISPLAY_PATH.bGDIPrimary
+  href: NVAPIWrapper.NV_DISPLAY_PATH.html#NVAPIWrapper_NV_DISPLAY_PATH_bGDIPrimary
+  name: bGDIPrimary
+  nameWithType: NV_DISPLAY_PATH.bGDIPrimary
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.bGDIPrimary
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.bForceModeSet*
+  commentId: Overload:NVAPIWrapper.NV_DISPLAY_PATH.bForceModeSet
+  href: NVAPIWrapper.NV_DISPLAY_PATH.html#NVAPIWrapper_NV_DISPLAY_PATH_bForceModeSet
+  name: bForceModeSet
+  nameWithType: NV_DISPLAY_PATH.bForceModeSet
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.bForceModeSet
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.bFocusDisplay*
+  commentId: Overload:NVAPIWrapper.NV_DISPLAY_PATH.bFocusDisplay
+  href: NVAPIWrapper.NV_DISPLAY_PATH.html#NVAPIWrapper_NV_DISPLAY_PATH_bFocusDisplay
+  name: bFocusDisplay
+  nameWithType: NV_DISPLAY_PATH.bFocusDisplay
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.bFocusDisplay
+- uid: NVAPIWrapper.NV_DISPLAY_PATH.gpuId*
+  commentId: Overload:NVAPIWrapper.NV_DISPLAY_PATH.gpuId
+  href: NVAPIWrapper.NV_DISPLAY_PATH.html#NVAPIWrapper_NV_DISPLAY_PATH_gpuId
+  name: gpuId
+  nameWithType: NV_DISPLAY_PATH.gpuId
+  fullName: NVAPIWrapper.NV_DISPLAY_PATH.gpuId

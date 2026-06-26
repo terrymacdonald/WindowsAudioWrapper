@@ -1,0 +1,1007 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  commentId: T:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  id: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.VSVDB_version
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct._bitfield
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.backlt_min_luma
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_blue_x
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_blue_y
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_green_x
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_green_y
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_red_x
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_red_y
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_white_x
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_white_y
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.colorimetry
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.dm_version
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.interface_supported_by_sink
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.reserved
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_10b_12b_444
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_2160p60hz
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_YUV422_12bit
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_backlight_control
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_global_dimming
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.target_max_luminance
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.target_min_luminance
+  langs:
+  - csharp
+  - vb
+  name: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _dv_static_metadata_e__Struct
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+    startLine: 176
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+    content.vb: Public Structure _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct._bitfield
+  commentId: F:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct._bitfield
+  id: _bitfield
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: _bitfield
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct._bitfield
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct._bitfield
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+    startLine: 178
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield As UInteger
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.VSVDB_version
+  commentId: P:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.VSVDB_version
+  id: VSVDB_version
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: VSVDB_version
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.VSVDB_version
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.VSVDB_version
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSVDB_version
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+    startLine: 181
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint VSVDB_version { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property VSVDB_version As UInteger
+  overload: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.VSVDB_version*
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.dm_version
+  commentId: P:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.dm_version
+  id: dm_version
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: dm_version
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.dm_version
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.dm_version
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: dm_version
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+    startLine: 196
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint dm_version { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property dm_version As UInteger
+  overload: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.dm_version*
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_2160p60hz
+  commentId: P:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_2160p60hz
+  id: supports_2160p60hz
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: supports_2160p60hz
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_2160p60hz
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_2160p60hz
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: supports_2160p60hz
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+    startLine: 211
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint supports_2160p60hz { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property supports_2160p60hz As UInteger
+  overload: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_2160p60hz*
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_YUV422_12bit
+  commentId: P:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_YUV422_12bit
+  id: supports_YUV422_12bit
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: supports_YUV422_12bit
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_YUV422_12bit
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_YUV422_12bit
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: supports_YUV422_12bit
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+    startLine: 226
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint supports_YUV422_12bit { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property supports_YUV422_12bit As UInteger
+  overload: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_YUV422_12bit*
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_global_dimming
+  commentId: P:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_global_dimming
+  id: supports_global_dimming
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: supports_global_dimming
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_global_dimming
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_global_dimming
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: supports_global_dimming
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+    startLine: 241
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint supports_global_dimming { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property supports_global_dimming As UInteger
+  overload: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_global_dimming*
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.colorimetry
+  commentId: P:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.colorimetry
+  id: colorimetry
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: colorimetry
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.colorimetry
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.colorimetry
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: colorimetry
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+    startLine: 256
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint colorimetry { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property colorimetry As UInteger
+  overload: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.colorimetry*
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_backlight_control
+  commentId: P:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_backlight_control
+  id: supports_backlight_control
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: supports_backlight_control
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_backlight_control
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_backlight_control
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: supports_backlight_control
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+    startLine: 271
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint supports_backlight_control { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property supports_backlight_control As UInteger
+  overload: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_backlight_control*
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.backlt_min_luma
+  commentId: P:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.backlt_min_luma
+  id: backlt_min_luma
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: backlt_min_luma
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.backlt_min_luma
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.backlt_min_luma
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: backlt_min_luma
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+    startLine: 286
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint backlt_min_luma { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property backlt_min_luma As UInteger
+  overload: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.backlt_min_luma*
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.interface_supported_by_sink
+  commentId: P:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.interface_supported_by_sink
+  id: interface_supported_by_sink
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: interface_supported_by_sink
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.interface_supported_by_sink
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.interface_supported_by_sink
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: interface_supported_by_sink
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+    startLine: 301
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint interface_supported_by_sink { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property interface_supported_by_sink As UInteger
+  overload: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.interface_supported_by_sink*
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_10b_12b_444
+  commentId: P:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_10b_12b_444
+  id: supports_10b_12b_444
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: supports_10b_12b_444
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_10b_12b_444
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_10b_12b_444
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: supports_10b_12b_444
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+    startLine: 316
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint supports_10b_12b_444 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property supports_10b_12b_444 As UInteger
+  overload: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_10b_12b_444*
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.reserved
+  commentId: P:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.reserved
+  id: reserved
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: reserved
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.reserved
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.reserved
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+    startLine: 331
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved As UInteger
+  overload: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.reserved*
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.target_min_luminance
+  commentId: F:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.target_min_luminance
+  id: target_min_luminance
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: target_min_luminance
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.target_min_luminance
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.target_min_luminance
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: target_min_luminance
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+    startLine: 347
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort target_min_luminance
+    return:
+      type: System.UInt16
+    content.vb: Public target_min_luminance As UShort
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.target_max_luminance
+  commentId: F:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.target_max_luminance
+  id: target_max_luminance
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: target_max_luminance
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.target_max_luminance
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.target_max_luminance
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: target_max_luminance
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+    startLine: 351
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort target_max_luminance
+    return:
+      type: System.UInt16
+    content.vb: Public target_max_luminance As UShort
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_red_x
+  commentId: F:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_red_x
+  id: cc_red_x
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: cc_red_x
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_red_x
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_red_x
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: cc_red_x
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+    startLine: 355
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort cc_red_x
+    return:
+      type: System.UInt16
+    content.vb: Public cc_red_x As UShort
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_red_y
+  commentId: F:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_red_y
+  id: cc_red_y
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: cc_red_y
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_red_y
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_red_y
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: cc_red_y
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+    startLine: 359
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort cc_red_y
+    return:
+      type: System.UInt16
+    content.vb: Public cc_red_y As UShort
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_green_x
+  commentId: F:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_green_x
+  id: cc_green_x
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: cc_green_x
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_green_x
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_green_x
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: cc_green_x
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+    startLine: 363
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort cc_green_x
+    return:
+      type: System.UInt16
+    content.vb: Public cc_green_x As UShort
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_green_y
+  commentId: F:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_green_y
+  id: cc_green_y
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: cc_green_y
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_green_y
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_green_y
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: cc_green_y
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+    startLine: 367
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort cc_green_y
+    return:
+      type: System.UInt16
+    content.vb: Public cc_green_y As UShort
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_blue_x
+  commentId: F:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_blue_x
+  id: cc_blue_x
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: cc_blue_x
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_blue_x
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_blue_x
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: cc_blue_x
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+    startLine: 371
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort cc_blue_x
+    return:
+      type: System.UInt16
+    content.vb: Public cc_blue_x As UShort
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_blue_y
+  commentId: F:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_blue_y
+  id: cc_blue_y
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: cc_blue_y
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_blue_y
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_blue_y
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: cc_blue_y
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+    startLine: 375
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort cc_blue_y
+    return:
+      type: System.UInt16
+    content.vb: Public cc_blue_y As UShort
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_white_x
+  commentId: F:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_white_x
+  id: cc_white_x
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: cc_white_x
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_white_x
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_white_x
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: cc_white_x
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+    startLine: 379
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort cc_white_x
+    return:
+      type: System.UInt16
+    content.vb: Public cc_white_x As UShort
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_white_y
+  commentId: F:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_white_y
+  id: cc_white_y
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: cc_white_y
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_white_y
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.cc_white_y
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: cc_white_y
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V2.cs
+    startLine: 383
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort cc_white_y
+    return:
+      type: System.UInt16
+    content.vb: Public cc_white_y As UShort
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.VSVDB_version*
+  commentId: Overload:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.VSVDB_version
+  href: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.html#NVAPIWrapper__NV_HDR_CAPABILITIES_V2__dv_static_metadata_e__Struct_VSVDB_version
+  name: VSVDB_version
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.VSVDB_version
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.VSVDB_version
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.dm_version*
+  commentId: Overload:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.dm_version
+  href: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.html#NVAPIWrapper__NV_HDR_CAPABILITIES_V2__dv_static_metadata_e__Struct_dm_version
+  name: dm_version
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.dm_version
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.dm_version
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_2160p60hz*
+  commentId: Overload:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_2160p60hz
+  href: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.html#NVAPIWrapper__NV_HDR_CAPABILITIES_V2__dv_static_metadata_e__Struct_supports_2160p60hz
+  name: supports_2160p60hz
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_2160p60hz
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_2160p60hz
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_YUV422_12bit*
+  commentId: Overload:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_YUV422_12bit
+  href: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.html#NVAPIWrapper__NV_HDR_CAPABILITIES_V2__dv_static_metadata_e__Struct_supports_YUV422_12bit
+  name: supports_YUV422_12bit
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_YUV422_12bit
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_YUV422_12bit
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_global_dimming*
+  commentId: Overload:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_global_dimming
+  href: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.html#NVAPIWrapper__NV_HDR_CAPABILITIES_V2__dv_static_metadata_e__Struct_supports_global_dimming
+  name: supports_global_dimming
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_global_dimming
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_global_dimming
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.colorimetry*
+  commentId: Overload:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.colorimetry
+  href: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.html#NVAPIWrapper__NV_HDR_CAPABILITIES_V2__dv_static_metadata_e__Struct_colorimetry
+  name: colorimetry
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.colorimetry
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.colorimetry
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_backlight_control*
+  commentId: Overload:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_backlight_control
+  href: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.html#NVAPIWrapper__NV_HDR_CAPABILITIES_V2__dv_static_metadata_e__Struct_supports_backlight_control
+  name: supports_backlight_control
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_backlight_control
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_backlight_control
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.backlt_min_luma*
+  commentId: Overload:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.backlt_min_luma
+  href: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.html#NVAPIWrapper__NV_HDR_CAPABILITIES_V2__dv_static_metadata_e__Struct_backlt_min_luma
+  name: backlt_min_luma
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.backlt_min_luma
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.backlt_min_luma
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.interface_supported_by_sink*
+  commentId: Overload:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.interface_supported_by_sink
+  href: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.html#NVAPIWrapper__NV_HDR_CAPABILITIES_V2__dv_static_metadata_e__Struct_interface_supported_by_sink
+  name: interface_supported_by_sink
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.interface_supported_by_sink
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.interface_supported_by_sink
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_10b_12b_444*
+  commentId: Overload:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_10b_12b_444
+  href: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.html#NVAPIWrapper__NV_HDR_CAPABILITIES_V2__dv_static_metadata_e__Struct_supports_10b_12b_444
+  name: supports_10b_12b_444
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_10b_12b_444
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.supports_10b_12b_444
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.reserved*
+  commentId: Overload:NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.reserved
+  href: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.html#NVAPIWrapper__NV_HDR_CAPABILITIES_V2__dv_static_metadata_e__Struct_reserved
+  name: reserved
+  nameWithType: _NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.reserved
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V2._dv_static_metadata_e__Struct.reserved
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint16
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort

@@ -1,0 +1,392 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1
+  commentId: T:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1
+  id: NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.bSync
+  - NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.rsvd
+  - NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.timeStampms
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1
+  nameWithType: NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.cs
+    startLine: 5
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1
+    content.vb: Public Structure NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.bSync
+  commentId: F:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.bSync
+  id: bSync
+  parent: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1
+  langs:
+  - csharp
+  - vb
+  name: bSync
+  nameWithType: NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.bSync
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.bSync
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bSync
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte bSync
+    return:
+      type: System.Byte
+    content.vb: Public bSync As Byte
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.timeStampms
+  commentId: F:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.timeStampms
+  id: timeStampms
+  parent: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1
+  langs:
+  - csharp
+  - vb
+  name: timeStampms
+  nameWithType: NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.timeStampms
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.timeStampms
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: timeStampms
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.cs
+    startLine: 13
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ulong timeStampms
+    return:
+      type: System.UInt64
+    content.vb: Public timeStampms As ULong
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.rsvd
+  commentId: F:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.rsvd
+  id: rsvd
+  parent: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1
+  langs:
+  - csharp
+  - vb
+  name: rsvd
+  nameWithType: NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.rsvd
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.rsvd
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: rsvd
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.cs
+    startLine: 17
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1._rsvd_e__FixedBuffer rsvd
+    return:
+      type: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1._rsvd_e__FixedBuffer
+    content.vb: Public rsvd As NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1._rsvd_e__FixedBuffer
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1._rsvd_e__FixedBuffer
+  commentId: T:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1._rsvd_e__FixedBuffer
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.html
+  name: NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1._rsvd_e__FixedBuffer
+  nameWithType: NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1._rsvd_e__FixedBuffer
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1._rsvd_e__FixedBuffer
+  spec.csharp:
+  - uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1
+    name: NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1
+    href: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.html
+  - name: .
+  - uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1._rsvd_e__FixedBuffer
+    name: _rsvd_e__FixedBuffer
+    href: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1._rsvd_e__FixedBuffer.html
+  spec.vb:
+  - uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1
+    name: NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1
+    href: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1.html
+  - name: .
+  - uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1._rsvd_e__FixedBuffer
+    name: _rsvd_e__FixedBuffer
+    href: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_SYNC_V1._rsvd_e__FixedBuffer.html

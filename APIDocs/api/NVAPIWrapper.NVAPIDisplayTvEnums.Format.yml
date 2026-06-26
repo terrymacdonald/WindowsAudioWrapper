@@ -1,0 +1,2139 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  commentId: T:NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  id: NVAPIDisplayTvEnums.Format
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Any
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Ed480p
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Ed576p
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.EdOther
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd1080i
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd1080i50
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd1080p
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd1080p24
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd1080p50
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd720p
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd720p50
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.HdOther
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.None
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Sd480i
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Sd576i
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdNtscJ
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdNtscM
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdOther
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdPalBdgh
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdPalM
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdPalN
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdPalNc
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp100_10240
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp120_10240
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp24_10240
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp25_10240
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp30_10240
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp48_10240
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp50_10240
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp60_10240
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp100_3840
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp100_4096
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp100_5120
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp120_3840
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp120_4096
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp120_5120
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp24
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp24Smpte
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp24_3840
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp24_4096
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp24_5120
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp25
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp25_3840
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp25_4096
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp25_5120
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp30
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp30_3840
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp30_4096
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp30_5120
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp48_3840
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp48_4096
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp48_5120
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp50_3840
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp50_4096
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp50_5120
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp60_3840
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp60_4096
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp60_5120
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp100_7680
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp120_7680
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp24_7680
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp25_7680
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp30_7680
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp48_7680
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp50_7680
+  - NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp60_7680
+  langs:
+  - csharp
+  - vb
+  name: NVAPIDisplayTvEnums.Format
+  nameWithType: NVAPIDisplayTvEnums.Format
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  type: Class
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Format
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2937
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: TV format values (native enum names preserved).
+  example: []
+  syntax:
+    content: public static class NVAPIDisplayTvEnums.Format
+    content.vb: Public Module NVAPIDisplayTvEnums.Format
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.None
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.None
+  id: None
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: NVAPIDisplayTvEnums.Format.None
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.None
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: None
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2939
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT None = NV_DISPLAY_TV_FORMAT_NONE
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const None As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_NONE
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdNtscM
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdNtscM
+  id: SdNtscM
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: SdNtscM
+  nameWithType: NVAPIDisplayTvEnums.Format.SdNtscM
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdNtscM
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SdNtscM
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2940
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT SdNtscM = NV_DISPLAY_TV_FORMAT_SD_NTSCM
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const SdNtscM As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_SD_NTSCM
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdNtscJ
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdNtscJ
+  id: SdNtscJ
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: SdNtscJ
+  nameWithType: NVAPIDisplayTvEnums.Format.SdNtscJ
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdNtscJ
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SdNtscJ
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2941
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT SdNtscJ = NV_DISPLAY_TV_FORMAT_SD_NTSCJ
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const SdNtscJ As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_SD_NTSCJ
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdPalM
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdPalM
+  id: SdPalM
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: SdPalM
+  nameWithType: NVAPIDisplayTvEnums.Format.SdPalM
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdPalM
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SdPalM
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2942
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT SdPalM = NV_DISPLAY_TV_FORMAT_SD_PALM
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const SdPalM As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_SD_PALM
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdPalBdgh
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdPalBdgh
+  id: SdPalBdgh
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: SdPalBdgh
+  nameWithType: NVAPIDisplayTvEnums.Format.SdPalBdgh
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdPalBdgh
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SdPalBdgh
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2943
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT SdPalBdgh = NV_DISPLAY_TV_FORMAT_SD_PALBDGH
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const SdPalBdgh As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_SD_PALBDGH
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdPalN
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdPalN
+  id: SdPalN
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: SdPalN
+  nameWithType: NVAPIDisplayTvEnums.Format.SdPalN
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdPalN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SdPalN
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2944
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT SdPalN = NV_DISPLAY_TV_FORMAT_SD_PALN
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const SdPalN As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_SD_PALN
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdPalNc
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdPalNc
+  id: SdPalNc
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: SdPalNc
+  nameWithType: NVAPIDisplayTvEnums.Format.SdPalNc
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdPalNc
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SdPalNc
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2945
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT SdPalNc = NV_DISPLAY_TV_FORMAT_SD_PALNC
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const SdPalNc As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_SD_PALNC
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Sd576i
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Sd576i
+  id: Sd576i
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Sd576i
+  nameWithType: NVAPIDisplayTvEnums.Format.Sd576i
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Sd576i
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Sd576i
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2946
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Sd576i = NV_DISPLAY_TV_FORMAT_SD_576i
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Sd576i As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_SD_576i
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Sd480i
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Sd480i
+  id: Sd480i
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Sd480i
+  nameWithType: NVAPIDisplayTvEnums.Format.Sd480i
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Sd480i
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Sd480i
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2947
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Sd480i = NV_DISPLAY_TV_FORMAT_SD_480i
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Sd480i As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_SD_480i
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Ed480p
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Ed480p
+  id: Ed480p
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Ed480p
+  nameWithType: NVAPIDisplayTvEnums.Format.Ed480p
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Ed480p
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Ed480p
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2948
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Ed480p = NV_DISPLAY_TV_FORMAT_ED_480p
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Ed480p As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_ED_480p
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Ed576p
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Ed576p
+  id: Ed576p
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Ed576p
+  nameWithType: NVAPIDisplayTvEnums.Format.Ed576p
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Ed576p
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Ed576p
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2949
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Ed576p = NV_DISPLAY_TV_FORMAT_ED_576p
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Ed576p As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_ED_576p
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd720p
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd720p
+  id: Hd720p
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Hd720p
+  nameWithType: NVAPIDisplayTvEnums.Format.Hd720p
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd720p
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Hd720p
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2950
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Hd720p = NV_DISPLAY_TV_FORMAT_HD_720p
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Hd720p As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_HD_720p
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd1080i
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd1080i
+  id: Hd1080i
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Hd1080i
+  nameWithType: NVAPIDisplayTvEnums.Format.Hd1080i
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd1080i
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Hd1080i
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2951
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Hd1080i = NV_DISPLAY_TV_FORMAT_HD_1080i
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Hd1080i As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_HD_1080i
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd1080p
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd1080p
+  id: Hd1080p
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Hd1080p
+  nameWithType: NVAPIDisplayTvEnums.Format.Hd1080p
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd1080p
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Hd1080p
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2952
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Hd1080p = NV_DISPLAY_TV_FORMAT_HD_1080p
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Hd1080p As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_HD_1080p
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd720p50
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd720p50
+  id: Hd720p50
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Hd720p50
+  nameWithType: NVAPIDisplayTvEnums.Format.Hd720p50
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd720p50
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Hd720p50
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2953
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Hd720p50 = NV_DISPLAY_TV_FORMAT_HD_720p50
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Hd720p50 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_HD_720p50
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd1080p24
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd1080p24
+  id: Hd1080p24
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Hd1080p24
+  nameWithType: NVAPIDisplayTvEnums.Format.Hd1080p24
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd1080p24
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Hd1080p24
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2954
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Hd1080p24 = NV_DISPLAY_TV_FORMAT_HD_1080p24
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Hd1080p24 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_HD_1080p24
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd1080i50
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd1080i50
+  id: Hd1080i50
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Hd1080i50
+  nameWithType: NVAPIDisplayTvEnums.Format.Hd1080i50
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd1080i50
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Hd1080i50
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2955
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Hd1080i50 = NV_DISPLAY_TV_FORMAT_HD_1080i50
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Hd1080i50 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_HD_1080i50
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd1080p50
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd1080p50
+  id: Hd1080p50
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Hd1080p50
+  nameWithType: NVAPIDisplayTvEnums.Format.Hd1080p50
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Hd1080p50
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Hd1080p50
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2956
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Hd1080p50 = NV_DISPLAY_TV_FORMAT_HD_1080p50
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Hd1080p50 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_HD_1080p50
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp30
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp30
+  id: Uhd4Kp30
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp30
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp30
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp30
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp30
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2957
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp30 = NV_DISPLAY_TV_FORMAT_UHD_4Kp30
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp30 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp30
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp30_3840
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp30_3840
+  id: Uhd4Kp30_3840
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp30_3840
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp30_3840
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp30_3840
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp30_3840
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2958
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp30_3840 = NV_DISPLAY_TV_FORMAT_UHD_4Kp30
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp30_3840 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp30
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp25
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp25
+  id: Uhd4Kp25
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp25
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp25
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp25
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp25
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2959
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp25 = NV_DISPLAY_TV_FORMAT_UHD_4Kp25
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp25 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp25
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp25_3840
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp25_3840
+  id: Uhd4Kp25_3840
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp25_3840
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp25_3840
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp25_3840
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp25_3840
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2960
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp25_3840 = NV_DISPLAY_TV_FORMAT_UHD_4Kp25
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp25_3840 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp25
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp24
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp24
+  id: Uhd4Kp24
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp24
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp24
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp24
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp24
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2961
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp24 = NV_DISPLAY_TV_FORMAT_UHD_4Kp24
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp24 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp24
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp24_3840
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp24_3840
+  id: Uhd4Kp24_3840
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp24_3840
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp24_3840
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp24_3840
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp24_3840
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2962
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp24_3840 = NV_DISPLAY_TV_FORMAT_UHD_4Kp24
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp24_3840 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp24
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp24Smpte
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp24Smpte
+  id: Uhd4Kp24Smpte
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp24Smpte
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp24Smpte
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp24Smpte
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp24Smpte
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2963
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp24Smpte = NV_DISPLAY_TV_FORMAT_UHD_4Kp24_SMPTE
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp24Smpte As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp24_SMPTE
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp50_3840
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp50_3840
+  id: Uhd4Kp50_3840
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp50_3840
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp50_3840
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp50_3840
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp50_3840
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2964
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp50_3840 = NV_DISPLAY_TV_FORMAT_UHD_4Kp50_3840
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp50_3840 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp50_3840
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp60_3840
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp60_3840
+  id: Uhd4Kp60_3840
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp60_3840
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp60_3840
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp60_3840
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp60_3840
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2965
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp60_3840 = NV_DISPLAY_TV_FORMAT_UHD_4Kp60_3840
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp60_3840 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp60_3840
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp30_4096
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp30_4096
+  id: Uhd4Kp30_4096
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp30_4096
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp30_4096
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp30_4096
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp30_4096
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2966
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp30_4096 = NV_DISPLAY_TV_FORMAT_UHD_4Kp30_4096
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp30_4096 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp30_4096
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp25_4096
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp25_4096
+  id: Uhd4Kp25_4096
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp25_4096
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp25_4096
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp25_4096
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp25_4096
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2967
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp25_4096 = NV_DISPLAY_TV_FORMAT_UHD_4Kp25_4096
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp25_4096 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp25_4096
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp24_4096
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp24_4096
+  id: Uhd4Kp24_4096
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp24_4096
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp24_4096
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp24_4096
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp24_4096
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2968
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp24_4096 = NV_DISPLAY_TV_FORMAT_UHD_4Kp24_4096
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp24_4096 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp24_4096
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp50_4096
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp50_4096
+  id: Uhd4Kp50_4096
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp50_4096
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp50_4096
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp50_4096
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp50_4096
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2969
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp50_4096 = NV_DISPLAY_TV_FORMAT_UHD_4Kp50_4096
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp50_4096 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp50_4096
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp60_4096
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp60_4096
+  id: Uhd4Kp60_4096
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp60_4096
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp60_4096
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp60_4096
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp60_4096
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2970
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp60_4096 = NV_DISPLAY_TV_FORMAT_UHD_4Kp60_4096
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp60_4096 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp60_4096
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp24_7680
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp24_7680
+  id: Uhd8Kp24_7680
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd8Kp24_7680
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd8Kp24_7680
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp24_7680
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd8Kp24_7680
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2971
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd8Kp24_7680 = NV_DISPLAY_TV_FORMAT_UHD_8Kp24_7680
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd8Kp24_7680 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_8Kp24_7680
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp25_7680
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp25_7680
+  id: Uhd8Kp25_7680
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd8Kp25_7680
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd8Kp25_7680
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp25_7680
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd8Kp25_7680
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2972
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd8Kp25_7680 = NV_DISPLAY_TV_FORMAT_UHD_8Kp25_7680
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd8Kp25_7680 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_8Kp25_7680
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp30_7680
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp30_7680
+  id: Uhd8Kp30_7680
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd8Kp30_7680
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd8Kp30_7680
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp30_7680
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd8Kp30_7680
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2973
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd8Kp30_7680 = NV_DISPLAY_TV_FORMAT_UHD_8Kp30_7680
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd8Kp30_7680 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_8Kp30_7680
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp48_7680
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp48_7680
+  id: Uhd8Kp48_7680
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd8Kp48_7680
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd8Kp48_7680
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp48_7680
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd8Kp48_7680
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2974
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd8Kp48_7680 = NV_DISPLAY_TV_FORMAT_UHD_8Kp48_7680
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd8Kp48_7680 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_8Kp48_7680
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp50_7680
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp50_7680
+  id: Uhd8Kp50_7680
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd8Kp50_7680
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd8Kp50_7680
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp50_7680
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd8Kp50_7680
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2975
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd8Kp50_7680 = NV_DISPLAY_TV_FORMAT_UHD_8Kp50_7680
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd8Kp50_7680 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_8Kp50_7680
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp60_7680
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp60_7680
+  id: Uhd8Kp60_7680
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd8Kp60_7680
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd8Kp60_7680
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp60_7680
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd8Kp60_7680
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2976
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd8Kp60_7680 = NV_DISPLAY_TV_FORMAT_UHD_8Kp60_7680
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd8Kp60_7680 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_8Kp60_7680
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp100_7680
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp100_7680
+  id: Uhd8Kp100_7680
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd8Kp100_7680
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd8Kp100_7680
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp100_7680
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd8Kp100_7680
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2977
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd8Kp100_7680 = NV_DISPLAY_TV_FORMAT_UHD_8Kp100_7680
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd8Kp100_7680 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_8Kp100_7680
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp120_7680
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp120_7680
+  id: Uhd8Kp120_7680
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd8Kp120_7680
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd8Kp120_7680
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd8Kp120_7680
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd8Kp120_7680
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2978
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd8Kp120_7680 = NV_DISPLAY_TV_FORMAT_UHD_8Kp120_7680
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd8Kp120_7680 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_8Kp120_7680
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp48_3840
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp48_3840
+  id: Uhd4Kp48_3840
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp48_3840
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp48_3840
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp48_3840
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp48_3840
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2979
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp48_3840 = NV_DISPLAY_TV_FORMAT_UHD_4Kp48_3840
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp48_3840 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp48_3840
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp48_4096
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp48_4096
+  id: Uhd4Kp48_4096
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp48_4096
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp48_4096
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp48_4096
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp48_4096
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2980
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp48_4096 = NV_DISPLAY_TV_FORMAT_UHD_4Kp48_4096
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp48_4096 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp48_4096
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp100_4096
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp100_4096
+  id: Uhd4Kp100_4096
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp100_4096
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp100_4096
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp100_4096
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp100_4096
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2981
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp100_4096 = NV_DISPLAY_TV_FORMAT_UHD_4Kp100_4096
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp100_4096 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp100_4096
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp100_3840
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp100_3840
+  id: Uhd4Kp100_3840
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp100_3840
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp100_3840
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp100_3840
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp100_3840
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2982
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp100_3840 = NV_DISPLAY_TV_FORMAT_UHD_4Kp100_3840
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp100_3840 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp100_3840
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp120_4096
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp120_4096
+  id: Uhd4Kp120_4096
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp120_4096
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp120_4096
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp120_4096
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp120_4096
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2983
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp120_4096 = NV_DISPLAY_TV_FORMAT_UHD_4Kp120_4096
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp120_4096 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp120_4096
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp120_3840
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp120_3840
+  id: Uhd4Kp120_3840
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp120_3840
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp120_3840
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp120_3840
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp120_3840
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2984
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp120_3840 = NV_DISPLAY_TV_FORMAT_UHD_4Kp120_3840
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp120_3840 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp120_3840
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp100_5120
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp100_5120
+  id: Uhd4Kp100_5120
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp100_5120
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp100_5120
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp100_5120
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp100_5120
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2985
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp100_5120 = NV_DISPLAY_TV_FORMAT_UHD_4Kp100_5120
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp100_5120 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp100_5120
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp120_5120
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp120_5120
+  id: Uhd4Kp120_5120
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp120_5120
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp120_5120
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp120_5120
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp120_5120
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2986
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp120_5120 = NV_DISPLAY_TV_FORMAT_UHD_4Kp120_5120
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp120_5120 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp120_5120
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp24_5120
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp24_5120
+  id: Uhd4Kp24_5120
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp24_5120
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp24_5120
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp24_5120
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp24_5120
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2987
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp24_5120 = NV_DISPLAY_TV_FORMAT_UHD_4Kp24_5120
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp24_5120 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp24_5120
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp25_5120
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp25_5120
+  id: Uhd4Kp25_5120
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp25_5120
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp25_5120
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp25_5120
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp25_5120
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2988
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp25_5120 = NV_DISPLAY_TV_FORMAT_UHD_4Kp25_5120
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp25_5120 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp25_5120
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp30_5120
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp30_5120
+  id: Uhd4Kp30_5120
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp30_5120
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp30_5120
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp30_5120
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp30_5120
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2989
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp30_5120 = NV_DISPLAY_TV_FORMAT_UHD_4Kp30_5120
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp30_5120 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp30_5120
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp48_5120
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp48_5120
+  id: Uhd4Kp48_5120
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp48_5120
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp48_5120
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp48_5120
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp48_5120
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2990
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp48_5120 = NV_DISPLAY_TV_FORMAT_UHD_4Kp48_5120
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp48_5120 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp48_5120
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp50_5120
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp50_5120
+  id: Uhd4Kp50_5120
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp50_5120
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp50_5120
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp50_5120
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp50_5120
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2991
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp50_5120 = NV_DISPLAY_TV_FORMAT_UHD_4Kp50_5120
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp50_5120 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp50_5120
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp60_5120
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp60_5120
+  id: Uhd4Kp60_5120
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd4Kp60_5120
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd4Kp60_5120
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd4Kp60_5120
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd4Kp60_5120
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2992
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd4Kp60_5120 = NV_DISPLAY_TV_FORMAT_UHD_4Kp60_5120
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd4Kp60_5120 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_4Kp60_5120
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp24_10240
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp24_10240
+  id: Uhd10Kp24_10240
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd10Kp24_10240
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd10Kp24_10240
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp24_10240
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd10Kp24_10240
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2993
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd10Kp24_10240 = NV_DISPLAY_TV_FORMAT_UHD_10Kp24_10240
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd10Kp24_10240 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_10Kp24_10240
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp25_10240
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp25_10240
+  id: Uhd10Kp25_10240
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd10Kp25_10240
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd10Kp25_10240
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp25_10240
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd10Kp25_10240
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2994
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd10Kp25_10240 = NV_DISPLAY_TV_FORMAT_UHD_10Kp25_10240
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd10Kp25_10240 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_10Kp25_10240
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp30_10240
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp30_10240
+  id: Uhd10Kp30_10240
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd10Kp30_10240
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd10Kp30_10240
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp30_10240
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd10Kp30_10240
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2995
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd10Kp30_10240 = NV_DISPLAY_TV_FORMAT_UHD_10Kp30_10240
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd10Kp30_10240 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_10Kp30_10240
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp48_10240
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp48_10240
+  id: Uhd10Kp48_10240
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd10Kp48_10240
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd10Kp48_10240
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp48_10240
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd10Kp48_10240
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2996
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd10Kp48_10240 = NV_DISPLAY_TV_FORMAT_UHD_10Kp48_10240
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd10Kp48_10240 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_10Kp48_10240
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp50_10240
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp50_10240
+  id: Uhd10Kp50_10240
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd10Kp50_10240
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd10Kp50_10240
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp50_10240
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd10Kp50_10240
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2997
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd10Kp50_10240 = NV_DISPLAY_TV_FORMAT_UHD_10Kp50_10240
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd10Kp50_10240 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_10Kp50_10240
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp60_10240
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp60_10240
+  id: Uhd10Kp60_10240
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd10Kp60_10240
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd10Kp60_10240
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp60_10240
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd10Kp60_10240
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2998
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd10Kp60_10240 = NV_DISPLAY_TV_FORMAT_UHD_10Kp60_10240
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd10Kp60_10240 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_10Kp60_10240
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp100_10240
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp100_10240
+  id: Uhd10Kp100_10240
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd10Kp100_10240
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd10Kp100_10240
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp100_10240
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd10Kp100_10240
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 2999
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd10Kp100_10240 = NV_DISPLAY_TV_FORMAT_UHD_10Kp100_10240
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd10Kp100_10240 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_10Kp100_10240
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp120_10240
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp120_10240
+  id: Uhd10Kp120_10240
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Uhd10Kp120_10240
+  nameWithType: NVAPIDisplayTvEnums.Format.Uhd10Kp120_10240
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Uhd10Kp120_10240
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Uhd10Kp120_10240
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3000
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Uhd10Kp120_10240 = NV_DISPLAY_TV_FORMAT_UHD_10Kp120_10240
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Uhd10Kp120_10240 As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_UHD_10Kp120_10240
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdOther
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdOther
+  id: SdOther
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: SdOther
+  nameWithType: NVAPIDisplayTvEnums.Format.SdOther
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.SdOther
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SdOther
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3001
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT SdOther = NV_DISPLAY_TV_FORMAT_SD_OTHER
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const SdOther As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_SD_OTHER
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.EdOther
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.EdOther
+  id: EdOther
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: EdOther
+  nameWithType: NVAPIDisplayTvEnums.Format.EdOther
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.EdOther
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EdOther
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3002
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT EdOther = NV_DISPLAY_TV_FORMAT_ED_OTHER
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const EdOther As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_ED_OTHER
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.HdOther
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.HdOther
+  id: HdOther
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: HdOther
+  nameWithType: NVAPIDisplayTvEnums.Format.HdOther
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.HdOther
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: HdOther
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3003
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT HdOther = NV_DISPLAY_TV_FORMAT_HD_OTHER
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const HdOther As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_HD_OTHER
+- uid: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Any
+  commentId: F:NVAPIWrapper.NVAPIDisplayTvEnums.Format.Any
+  id: Any
+  parent: NVAPIWrapper.NVAPIDisplayTvEnums.Format
+  langs:
+  - csharp
+  - vb
+  name: Any
+  nameWithType: NVAPIDisplayTvEnums.Format.Any
+  fullName: NVAPIWrapper.NVAPIDisplayTvEnums.Format.Any
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Any
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 3004
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public const _NV_DISPLAY_TV_FORMAT Any = NV_DISPLAY_TV_FORMAT_ANY
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+    content.vb: Public Const Any As _NV_DISPLAY_TV_FORMAT = NV_DISPLAY_TV_FORMAT_ANY
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  commentId: T:NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.html
+  name: _NV_DISPLAY_TV_FORMAT
+  nameWithType: _NV_DISPLAY_TV_FORMAT
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT

@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_AO_MODE_ACTIVE
+  commentId: T:NVAPIWrapper.EValues_AO_MODE_ACTIVE
+  id: EValues_AO_MODE_ACTIVE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_AO_MODE_ACTIVE.AO_MODE_ACTIVE_DEFAULT
+  - NVAPIWrapper.EValues_AO_MODE_ACTIVE.AO_MODE_ACTIVE_DISABLED
+  - NVAPIWrapper.EValues_AO_MODE_ACTIVE.AO_MODE_ACTIVE_ENABLED
+  - NVAPIWrapper.EValues_AO_MODE_ACTIVE.AO_MODE_ACTIVE_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_AO_MODE_ACTIVE
+  nameWithType: EValues_AO_MODE_ACTIVE
+  fullName: NVAPIWrapper.EValues_AO_MODE_ACTIVE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AO_MODE_ACTIVE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_AO_MODE_ACTIVE
+    path: ../NVAPIWrapper/cs_generated/EValues_AO_MODE_ACTIVE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_AO_MODE_ACTIVE
+    content.vb: Public Enum EValues_AO_MODE_ACTIVE
+- uid: NVAPIWrapper.EValues_AO_MODE_ACTIVE.AO_MODE_ACTIVE_DISABLED
+  commentId: F:NVAPIWrapper.EValues_AO_MODE_ACTIVE.AO_MODE_ACTIVE_DISABLED
+  id: AO_MODE_ACTIVE_DISABLED
+  parent: NVAPIWrapper.EValues_AO_MODE_ACTIVE
+  langs:
+  - csharp
+  - vb
+  name: AO_MODE_ACTIVE_DISABLED
+  nameWithType: EValues_AO_MODE_ACTIVE.AO_MODE_ACTIVE_DISABLED
+  fullName: NVAPIWrapper.EValues_AO_MODE_ACTIVE.AO_MODE_ACTIVE_DISABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AO_MODE_ACTIVE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AO_MODE_ACTIVE_DISABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_AO_MODE_ACTIVE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AO_MODE_ACTIVE_DISABLED = 0
+    return:
+      type: NVAPIWrapper.EValues_AO_MODE_ACTIVE
+- uid: NVAPIWrapper.EValues_AO_MODE_ACTIVE.AO_MODE_ACTIVE_ENABLED
+  commentId: F:NVAPIWrapper.EValues_AO_MODE_ACTIVE.AO_MODE_ACTIVE_ENABLED
+  id: AO_MODE_ACTIVE_ENABLED
+  parent: NVAPIWrapper.EValues_AO_MODE_ACTIVE
+  langs:
+  - csharp
+  - vb
+  name: AO_MODE_ACTIVE_ENABLED
+  nameWithType: EValues_AO_MODE_ACTIVE.AO_MODE_ACTIVE_ENABLED
+  fullName: NVAPIWrapper.EValues_AO_MODE_ACTIVE.AO_MODE_ACTIVE_ENABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AO_MODE_ACTIVE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AO_MODE_ACTIVE_ENABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_AO_MODE_ACTIVE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AO_MODE_ACTIVE_ENABLED = 1
+    return:
+      type: NVAPIWrapper.EValues_AO_MODE_ACTIVE
+- uid: NVAPIWrapper.EValues_AO_MODE_ACTIVE.AO_MODE_ACTIVE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_AO_MODE_ACTIVE.AO_MODE_ACTIVE_NUM_VALUES
+  id: AO_MODE_ACTIVE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_AO_MODE_ACTIVE
+  langs:
+  - csharp
+  - vb
+  name: AO_MODE_ACTIVE_NUM_VALUES
+  nameWithType: EValues_AO_MODE_ACTIVE.AO_MODE_ACTIVE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_AO_MODE_ACTIVE.AO_MODE_ACTIVE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AO_MODE_ACTIVE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AO_MODE_ACTIVE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_AO_MODE_ACTIVE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AO_MODE_ACTIVE_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_AO_MODE_ACTIVE
+- uid: NVAPIWrapper.EValues_AO_MODE_ACTIVE.AO_MODE_ACTIVE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_AO_MODE_ACTIVE.AO_MODE_ACTIVE_DEFAULT
+  id: AO_MODE_ACTIVE_DEFAULT
+  parent: NVAPIWrapper.EValues_AO_MODE_ACTIVE
+  langs:
+  - csharp
+  - vb
+  name: AO_MODE_ACTIVE_DEFAULT
+  nameWithType: EValues_AO_MODE_ACTIVE.AO_MODE_ACTIVE_DEFAULT
+  fullName: NVAPIWrapper.EValues_AO_MODE_ACTIVE.AO_MODE_ACTIVE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AO_MODE_ACTIVE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AO_MODE_ACTIVE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_AO_MODE_ACTIVE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AO_MODE_ACTIVE_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_AO_MODE_ACTIVE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_AO_MODE_ACTIVE
+  commentId: T:NVAPIWrapper.EValues_AO_MODE_ACTIVE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_AO_MODE_ACTIVE.html
+  name: EValues_AO_MODE_ACTIVE
+  nameWithType: EValues_AO_MODE_ACTIVE
+  fullName: NVAPIWrapper.EValues_AO_MODE_ACTIVE

@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVDRS_SETTING_LOCATION
+  commentId: T:NVAPIWrapper._NVDRS_SETTING_LOCATION
+  id: _NVDRS_SETTING_LOCATION
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVDRS_SETTING_LOCATION.NVDRS_BASE_PROFILE_LOCATION
+  - NVAPIWrapper._NVDRS_SETTING_LOCATION.NVDRS_CURRENT_PROFILE_LOCATION
+  - NVAPIWrapper._NVDRS_SETTING_LOCATION.NVDRS_DEFAULT_PROFILE_LOCATION
+  - NVAPIWrapper._NVDRS_SETTING_LOCATION.NVDRS_GLOBAL_PROFILE_LOCATION
+  langs:
+  - csharp
+  - vb
+  name: _NVDRS_SETTING_LOCATION
+  nameWithType: _NVDRS_SETTING_LOCATION
+  fullName: NVAPIWrapper._NVDRS_SETTING_LOCATION
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_LOCATION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVDRS_SETTING_LOCATION
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_LOCATION.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVDRS_SETTING_LOCATION
+    content.vb: Public Enum _NVDRS_SETTING_LOCATION
+- uid: NVAPIWrapper._NVDRS_SETTING_LOCATION.NVDRS_CURRENT_PROFILE_LOCATION
+  commentId: F:NVAPIWrapper._NVDRS_SETTING_LOCATION.NVDRS_CURRENT_PROFILE_LOCATION
+  id: NVDRS_CURRENT_PROFILE_LOCATION
+  parent: NVAPIWrapper._NVDRS_SETTING_LOCATION
+  langs:
+  - csharp
+  - vb
+  name: NVDRS_CURRENT_PROFILE_LOCATION
+  nameWithType: _NVDRS_SETTING_LOCATION.NVDRS_CURRENT_PROFILE_LOCATION
+  fullName: NVAPIWrapper._NVDRS_SETTING_LOCATION.NVDRS_CURRENT_PROFILE_LOCATION
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_LOCATION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVDRS_CURRENT_PROFILE_LOCATION
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_LOCATION.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVDRS_CURRENT_PROFILE_LOCATION = 0
+    return:
+      type: NVAPIWrapper._NVDRS_SETTING_LOCATION
+- uid: NVAPIWrapper._NVDRS_SETTING_LOCATION.NVDRS_GLOBAL_PROFILE_LOCATION
+  commentId: F:NVAPIWrapper._NVDRS_SETTING_LOCATION.NVDRS_GLOBAL_PROFILE_LOCATION
+  id: NVDRS_GLOBAL_PROFILE_LOCATION
+  parent: NVAPIWrapper._NVDRS_SETTING_LOCATION
+  langs:
+  - csharp
+  - vb
+  name: NVDRS_GLOBAL_PROFILE_LOCATION
+  nameWithType: _NVDRS_SETTING_LOCATION.NVDRS_GLOBAL_PROFILE_LOCATION
+  fullName: NVAPIWrapper._NVDRS_SETTING_LOCATION.NVDRS_GLOBAL_PROFILE_LOCATION
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_LOCATION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVDRS_GLOBAL_PROFILE_LOCATION
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_LOCATION.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVDRS_GLOBAL_PROFILE_LOCATION = 1
+    return:
+      type: NVAPIWrapper._NVDRS_SETTING_LOCATION
+- uid: NVAPIWrapper._NVDRS_SETTING_LOCATION.NVDRS_BASE_PROFILE_LOCATION
+  commentId: F:NVAPIWrapper._NVDRS_SETTING_LOCATION.NVDRS_BASE_PROFILE_LOCATION
+  id: NVDRS_BASE_PROFILE_LOCATION
+  parent: NVAPIWrapper._NVDRS_SETTING_LOCATION
+  langs:
+  - csharp
+  - vb
+  name: NVDRS_BASE_PROFILE_LOCATION
+  nameWithType: _NVDRS_SETTING_LOCATION.NVDRS_BASE_PROFILE_LOCATION
+  fullName: NVAPIWrapper._NVDRS_SETTING_LOCATION.NVDRS_BASE_PROFILE_LOCATION
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_LOCATION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVDRS_BASE_PROFILE_LOCATION
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_LOCATION.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVDRS_BASE_PROFILE_LOCATION = 2
+    return:
+      type: NVAPIWrapper._NVDRS_SETTING_LOCATION
+- uid: NVAPIWrapper._NVDRS_SETTING_LOCATION.NVDRS_DEFAULT_PROFILE_LOCATION
+  commentId: F:NVAPIWrapper._NVDRS_SETTING_LOCATION.NVDRS_DEFAULT_PROFILE_LOCATION
+  id: NVDRS_DEFAULT_PROFILE_LOCATION
+  parent: NVAPIWrapper._NVDRS_SETTING_LOCATION
+  langs:
+  - csharp
+  - vb
+  name: NVDRS_DEFAULT_PROFILE_LOCATION
+  nameWithType: _NVDRS_SETTING_LOCATION.NVDRS_DEFAULT_PROFILE_LOCATION
+  fullName: NVAPIWrapper._NVDRS_SETTING_LOCATION.NVDRS_DEFAULT_PROFILE_LOCATION
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_LOCATION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVDRS_DEFAULT_PROFILE_LOCATION
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_LOCATION.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVDRS_DEFAULT_PROFILE_LOCATION = 3
+    return:
+      type: NVAPIWrapper._NVDRS_SETTING_LOCATION
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVDRS_SETTING_LOCATION
+  commentId: T:NVAPIWrapper._NVDRS_SETTING_LOCATION
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVDRS_SETTING_LOCATION.html
+  name: _NVDRS_SETTING_LOCATION
+  nameWithType: _NVDRS_SETTING_LOCATION
+  fullName: NVAPIWrapper._NVDRS_SETTING_LOCATION

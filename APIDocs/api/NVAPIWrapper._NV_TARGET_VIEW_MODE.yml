@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_TARGET_VIEW_MODE
+  commentId: T:NVAPIWrapper._NV_TARGET_VIEW_MODE
+  id: _NV_TARGET_VIEW_MODE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_TARGET_VIEW_MODE.NV_VIEW_MODE_CLONE
+  - NVAPIWrapper._NV_TARGET_VIEW_MODE.NV_VIEW_MODE_DUALVIEW
+  - NVAPIWrapper._NV_TARGET_VIEW_MODE.NV_VIEW_MODE_HSPAN
+  - NVAPIWrapper._NV_TARGET_VIEW_MODE.NV_VIEW_MODE_MULTIVIEW
+  - NVAPIWrapper._NV_TARGET_VIEW_MODE.NV_VIEW_MODE_STANDARD
+  - NVAPIWrapper._NV_TARGET_VIEW_MODE.NV_VIEW_MODE_VSPAN
+  langs:
+  - csharp
+  - vb
+  name: _NV_TARGET_VIEW_MODE
+  nameWithType: _NV_TARGET_VIEW_MODE
+  fullName: NVAPIWrapper._NV_TARGET_VIEW_MODE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_TARGET_VIEW_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_TARGET_VIEW_MODE
+    path: ../NVAPIWrapper/cs_generated/_NV_TARGET_VIEW_MODE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_TARGET_VIEW_MODE
+    content.vb: Public Enum _NV_TARGET_VIEW_MODE
+- uid: NVAPIWrapper._NV_TARGET_VIEW_MODE.NV_VIEW_MODE_STANDARD
+  commentId: F:NVAPIWrapper._NV_TARGET_VIEW_MODE.NV_VIEW_MODE_STANDARD
+  id: NV_VIEW_MODE_STANDARD
+  parent: NVAPIWrapper._NV_TARGET_VIEW_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_VIEW_MODE_STANDARD
+  nameWithType: _NV_TARGET_VIEW_MODE.NV_VIEW_MODE_STANDARD
+  fullName: NVAPIWrapper._NV_TARGET_VIEW_MODE.NV_VIEW_MODE_STANDARD
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_TARGET_VIEW_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_VIEW_MODE_STANDARD
+    path: ../NVAPIWrapper/cs_generated/_NV_TARGET_VIEW_MODE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_VIEW_MODE_STANDARD = 0
+    return:
+      type: NVAPIWrapper._NV_TARGET_VIEW_MODE
+- uid: NVAPIWrapper._NV_TARGET_VIEW_MODE.NV_VIEW_MODE_CLONE
+  commentId: F:NVAPIWrapper._NV_TARGET_VIEW_MODE.NV_VIEW_MODE_CLONE
+  id: NV_VIEW_MODE_CLONE
+  parent: NVAPIWrapper._NV_TARGET_VIEW_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_VIEW_MODE_CLONE
+  nameWithType: _NV_TARGET_VIEW_MODE.NV_VIEW_MODE_CLONE
+  fullName: NVAPIWrapper._NV_TARGET_VIEW_MODE.NV_VIEW_MODE_CLONE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_TARGET_VIEW_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_VIEW_MODE_CLONE
+    path: ../NVAPIWrapper/cs_generated/_NV_TARGET_VIEW_MODE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_VIEW_MODE_CLONE = 1
+    return:
+      type: NVAPIWrapper._NV_TARGET_VIEW_MODE
+- uid: NVAPIWrapper._NV_TARGET_VIEW_MODE.NV_VIEW_MODE_HSPAN
+  commentId: F:NVAPIWrapper._NV_TARGET_VIEW_MODE.NV_VIEW_MODE_HSPAN
+  id: NV_VIEW_MODE_HSPAN
+  parent: NVAPIWrapper._NV_TARGET_VIEW_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_VIEW_MODE_HSPAN
+  nameWithType: _NV_TARGET_VIEW_MODE.NV_VIEW_MODE_HSPAN
+  fullName: NVAPIWrapper._NV_TARGET_VIEW_MODE.NV_VIEW_MODE_HSPAN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_TARGET_VIEW_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_VIEW_MODE_HSPAN
+    path: ../NVAPIWrapper/cs_generated/_NV_TARGET_VIEW_MODE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_VIEW_MODE_HSPAN = 2
+    return:
+      type: NVAPIWrapper._NV_TARGET_VIEW_MODE
+- uid: NVAPIWrapper._NV_TARGET_VIEW_MODE.NV_VIEW_MODE_VSPAN
+  commentId: F:NVAPIWrapper._NV_TARGET_VIEW_MODE.NV_VIEW_MODE_VSPAN
+  id: NV_VIEW_MODE_VSPAN
+  parent: NVAPIWrapper._NV_TARGET_VIEW_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_VIEW_MODE_VSPAN
+  nameWithType: _NV_TARGET_VIEW_MODE.NV_VIEW_MODE_VSPAN
+  fullName: NVAPIWrapper._NV_TARGET_VIEW_MODE.NV_VIEW_MODE_VSPAN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_TARGET_VIEW_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_VIEW_MODE_VSPAN
+    path: ../NVAPIWrapper/cs_generated/_NV_TARGET_VIEW_MODE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_VIEW_MODE_VSPAN = 3
+    return:
+      type: NVAPIWrapper._NV_TARGET_VIEW_MODE
+- uid: NVAPIWrapper._NV_TARGET_VIEW_MODE.NV_VIEW_MODE_DUALVIEW
+  commentId: F:NVAPIWrapper._NV_TARGET_VIEW_MODE.NV_VIEW_MODE_DUALVIEW
+  id: NV_VIEW_MODE_DUALVIEW
+  parent: NVAPIWrapper._NV_TARGET_VIEW_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_VIEW_MODE_DUALVIEW
+  nameWithType: _NV_TARGET_VIEW_MODE.NV_VIEW_MODE_DUALVIEW
+  fullName: NVAPIWrapper._NV_TARGET_VIEW_MODE.NV_VIEW_MODE_DUALVIEW
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_TARGET_VIEW_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_VIEW_MODE_DUALVIEW
+    path: ../NVAPIWrapper/cs_generated/_NV_TARGET_VIEW_MODE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_VIEW_MODE_DUALVIEW = 4
+    return:
+      type: NVAPIWrapper._NV_TARGET_VIEW_MODE
+- uid: NVAPIWrapper._NV_TARGET_VIEW_MODE.NV_VIEW_MODE_MULTIVIEW
+  commentId: F:NVAPIWrapper._NV_TARGET_VIEW_MODE.NV_VIEW_MODE_MULTIVIEW
+  id: NV_VIEW_MODE_MULTIVIEW
+  parent: NVAPIWrapper._NV_TARGET_VIEW_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_VIEW_MODE_MULTIVIEW
+  nameWithType: _NV_TARGET_VIEW_MODE.NV_VIEW_MODE_MULTIVIEW
+  fullName: NVAPIWrapper._NV_TARGET_VIEW_MODE.NV_VIEW_MODE_MULTIVIEW
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_TARGET_VIEW_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_VIEW_MODE_MULTIVIEW
+    path: ../NVAPIWrapper/cs_generated/_NV_TARGET_VIEW_MODE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_VIEW_MODE_MULTIVIEW = 5
+    return:
+      type: NVAPIWrapper._NV_TARGET_VIEW_MODE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_TARGET_VIEW_MODE
+  commentId: T:NVAPIWrapper._NV_TARGET_VIEW_MODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_TARGET_VIEW_MODE.html
+  name: _NV_TARGET_VIEW_MODE
+  nameWithType: _NV_TARGET_VIEW_MODE
+  fullName: NVAPIWrapper._NV_TARGET_VIEW_MODE

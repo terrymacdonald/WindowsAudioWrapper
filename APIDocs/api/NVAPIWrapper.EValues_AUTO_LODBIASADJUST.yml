@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_AUTO_LODBIASADJUST
+  commentId: T:NVAPIWrapper.EValues_AUTO_LODBIASADJUST
+  id: EValues_AUTO_LODBIASADJUST
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_AUTO_LODBIASADJUST.AUTO_LODBIASADJUST_DEFAULT
+  - NVAPIWrapper.EValues_AUTO_LODBIASADJUST.AUTO_LODBIASADJUST_NUM_VALUES
+  - NVAPIWrapper.EValues_AUTO_LODBIASADJUST.AUTO_LODBIASADJUST_OFF
+  - NVAPIWrapper.EValues_AUTO_LODBIASADJUST.AUTO_LODBIASADJUST_ON
+  langs:
+  - csharp
+  - vb
+  name: EValues_AUTO_LODBIASADJUST
+  nameWithType: EValues_AUTO_LODBIASADJUST
+  fullName: NVAPIWrapper.EValues_AUTO_LODBIASADJUST
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AUTO_LODBIASADJUST.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_AUTO_LODBIASADJUST
+    path: ../NVAPIWrapper/cs_generated/EValues_AUTO_LODBIASADJUST.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_AUTO_LODBIASADJUST
+    content.vb: Public Enum EValues_AUTO_LODBIASADJUST
+- uid: NVAPIWrapper.EValues_AUTO_LODBIASADJUST.AUTO_LODBIASADJUST_OFF
+  commentId: F:NVAPIWrapper.EValues_AUTO_LODBIASADJUST.AUTO_LODBIASADJUST_OFF
+  id: AUTO_LODBIASADJUST_OFF
+  parent: NVAPIWrapper.EValues_AUTO_LODBIASADJUST
+  langs:
+  - csharp
+  - vb
+  name: AUTO_LODBIASADJUST_OFF
+  nameWithType: EValues_AUTO_LODBIASADJUST.AUTO_LODBIASADJUST_OFF
+  fullName: NVAPIWrapper.EValues_AUTO_LODBIASADJUST.AUTO_LODBIASADJUST_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AUTO_LODBIASADJUST.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AUTO_LODBIASADJUST_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_AUTO_LODBIASADJUST.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AUTO_LODBIASADJUST_OFF = 0
+    return:
+      type: NVAPIWrapper.EValues_AUTO_LODBIASADJUST
+- uid: NVAPIWrapper.EValues_AUTO_LODBIASADJUST.AUTO_LODBIASADJUST_ON
+  commentId: F:NVAPIWrapper.EValues_AUTO_LODBIASADJUST.AUTO_LODBIASADJUST_ON
+  id: AUTO_LODBIASADJUST_ON
+  parent: NVAPIWrapper.EValues_AUTO_LODBIASADJUST
+  langs:
+  - csharp
+  - vb
+  name: AUTO_LODBIASADJUST_ON
+  nameWithType: EValues_AUTO_LODBIASADJUST.AUTO_LODBIASADJUST_ON
+  fullName: NVAPIWrapper.EValues_AUTO_LODBIASADJUST.AUTO_LODBIASADJUST_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AUTO_LODBIASADJUST.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AUTO_LODBIASADJUST_ON
+    path: ../NVAPIWrapper/cs_generated/EValues_AUTO_LODBIASADJUST.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AUTO_LODBIASADJUST_ON = 1
+    return:
+      type: NVAPIWrapper.EValues_AUTO_LODBIASADJUST
+- uid: NVAPIWrapper.EValues_AUTO_LODBIASADJUST.AUTO_LODBIASADJUST_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_AUTO_LODBIASADJUST.AUTO_LODBIASADJUST_NUM_VALUES
+  id: AUTO_LODBIASADJUST_NUM_VALUES
+  parent: NVAPIWrapper.EValues_AUTO_LODBIASADJUST
+  langs:
+  - csharp
+  - vb
+  name: AUTO_LODBIASADJUST_NUM_VALUES
+  nameWithType: EValues_AUTO_LODBIASADJUST.AUTO_LODBIASADJUST_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_AUTO_LODBIASADJUST.AUTO_LODBIASADJUST_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AUTO_LODBIASADJUST.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AUTO_LODBIASADJUST_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_AUTO_LODBIASADJUST.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AUTO_LODBIASADJUST_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_AUTO_LODBIASADJUST
+- uid: NVAPIWrapper.EValues_AUTO_LODBIASADJUST.AUTO_LODBIASADJUST_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_AUTO_LODBIASADJUST.AUTO_LODBIASADJUST_DEFAULT
+  id: AUTO_LODBIASADJUST_DEFAULT
+  parent: NVAPIWrapper.EValues_AUTO_LODBIASADJUST
+  langs:
+  - csharp
+  - vb
+  name: AUTO_LODBIASADJUST_DEFAULT
+  nameWithType: EValues_AUTO_LODBIASADJUST.AUTO_LODBIASADJUST_DEFAULT
+  fullName: NVAPIWrapper.EValues_AUTO_LODBIASADJUST.AUTO_LODBIASADJUST_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AUTO_LODBIASADJUST.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AUTO_LODBIASADJUST_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_AUTO_LODBIASADJUST.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AUTO_LODBIASADJUST_DEFAULT = 1
+    return:
+      type: NVAPIWrapper.EValues_AUTO_LODBIASADJUST
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_AUTO_LODBIASADJUST
+  commentId: T:NVAPIWrapper.EValues_AUTO_LODBIASADJUST
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_AUTO_LODBIASADJUST.html
+  name: EValues_AUTO_LODBIASADJUST
+  nameWithType: EValues_AUTO_LODBIASADJUST
+  fullName: NVAPIWrapper.EValues_AUTO_LODBIASADJUST

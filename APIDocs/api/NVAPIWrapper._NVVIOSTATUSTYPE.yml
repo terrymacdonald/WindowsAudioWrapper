@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVVIOSTATUSTYPE
+  commentId: T:NVAPIWrapper._NVVIOSTATUSTYPE
+  id: _NVVIOSTATUSTYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVVIOSTATUSTYPE.NVVIOSTATUSTYPE_IN
+  - NVAPIWrapper._NVVIOSTATUSTYPE.NVVIOSTATUSTYPE_OUT
+  langs:
+  - csharp
+  - vb
+  name: _NVVIOSTATUSTYPE
+  nameWithType: _NVVIOSTATUSTYPE
+  fullName: NVAPIWrapper._NVVIOSTATUSTYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOSTATUSTYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVVIOSTATUSTYPE
+    path: ../NVAPIWrapper/cs_generated/_NVVIOSTATUSTYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVVIOSTATUSTYPE
+    content.vb: Public Enum _NVVIOSTATUSTYPE
+- uid: NVAPIWrapper._NVVIOSTATUSTYPE.NVVIOSTATUSTYPE_IN
+  commentId: F:NVAPIWrapper._NVVIOSTATUSTYPE.NVVIOSTATUSTYPE_IN
+  id: NVVIOSTATUSTYPE_IN
+  parent: NVAPIWrapper._NVVIOSTATUSTYPE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOSTATUSTYPE_IN
+  nameWithType: _NVVIOSTATUSTYPE.NVVIOSTATUSTYPE_IN
+  fullName: NVAPIWrapper._NVVIOSTATUSTYPE.NVVIOSTATUSTYPE_IN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOSTATUSTYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOSTATUSTYPE_IN
+    path: ../NVAPIWrapper/cs_generated/_NVVIOSTATUSTYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOSTATUSTYPE_IN = 0
+    return:
+      type: NVAPIWrapper._NVVIOSTATUSTYPE
+- uid: NVAPIWrapper._NVVIOSTATUSTYPE.NVVIOSTATUSTYPE_OUT
+  commentId: F:NVAPIWrapper._NVVIOSTATUSTYPE.NVVIOSTATUSTYPE_OUT
+  id: NVVIOSTATUSTYPE_OUT
+  parent: NVAPIWrapper._NVVIOSTATUSTYPE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOSTATUSTYPE_OUT
+  nameWithType: _NVVIOSTATUSTYPE.NVVIOSTATUSTYPE_OUT
+  fullName: NVAPIWrapper._NVVIOSTATUSTYPE.NVVIOSTATUSTYPE_OUT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOSTATUSTYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOSTATUSTYPE_OUT
+    path: ../NVAPIWrapper/cs_generated/_NVVIOSTATUSTYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOSTATUSTYPE_OUT = 1
+    return:
+      type: NVAPIWrapper._NVVIOSTATUSTYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVVIOSTATUSTYPE
+  commentId: T:NVAPIWrapper._NVVIOSTATUSTYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOSTATUSTYPE.html
+  name: _NVVIOSTATUSTYPE
+  nameWithType: _NVVIOSTATUSTYPE
+  fullName: NVAPIWrapper._NVVIOSTATUSTYPE

@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID
+  commentId: T:NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID
+  id: _NV_GPU_PUBLIC_CLOCK_ID
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_GRAPHICS
+  - NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_MEMORY
+  - NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_PROCESSOR
+  - NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_UNDEFINED
+  - NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: _NV_GPU_PUBLIC_CLOCK_ID
+  nameWithType: _NV_GPU_PUBLIC_CLOCK_ID
+  fullName: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PUBLIC_CLOCK_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_GPU_PUBLIC_CLOCK_ID
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PUBLIC_CLOCK_ID.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_GPU_PUBLIC_CLOCK_ID
+    content.vb: Public Enum _NV_GPU_PUBLIC_CLOCK_ID
+- uid: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_GRAPHICS
+  commentId: F:NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_GRAPHICS
+  id: NVAPI_GPU_PUBLIC_CLOCK_GRAPHICS
+  parent: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_PUBLIC_CLOCK_GRAPHICS
+  nameWithType: _NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_GRAPHICS
+  fullName: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_GRAPHICS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PUBLIC_CLOCK_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_PUBLIC_CLOCK_GRAPHICS
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PUBLIC_CLOCK_ID.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_PUBLIC_CLOCK_GRAPHICS = 0
+    return:
+      type: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID
+- uid: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_MEMORY
+  commentId: F:NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_MEMORY
+  id: NVAPI_GPU_PUBLIC_CLOCK_MEMORY
+  parent: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_PUBLIC_CLOCK_MEMORY
+  nameWithType: _NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_MEMORY
+  fullName: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_MEMORY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PUBLIC_CLOCK_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_PUBLIC_CLOCK_MEMORY
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PUBLIC_CLOCK_ID.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_PUBLIC_CLOCK_MEMORY = 4
+    return:
+      type: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID
+- uid: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_PROCESSOR
+  commentId: F:NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_PROCESSOR
+  id: NVAPI_GPU_PUBLIC_CLOCK_PROCESSOR
+  parent: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_PUBLIC_CLOCK_PROCESSOR
+  nameWithType: _NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_PROCESSOR
+  fullName: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_PROCESSOR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PUBLIC_CLOCK_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_PUBLIC_CLOCK_PROCESSOR
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PUBLIC_CLOCK_ID.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_PUBLIC_CLOCK_PROCESSOR = 7
+    return:
+      type: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID
+- uid: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_VIDEO
+  commentId: F:NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_VIDEO
+  id: NVAPI_GPU_PUBLIC_CLOCK_VIDEO
+  parent: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_PUBLIC_CLOCK_VIDEO
+  nameWithType: _NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_VIDEO
+  fullName: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_VIDEO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PUBLIC_CLOCK_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_PUBLIC_CLOCK_VIDEO
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PUBLIC_CLOCK_ID.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_PUBLIC_CLOCK_VIDEO = 8
+    return:
+      type: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID
+- uid: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_UNDEFINED
+  commentId: F:NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_UNDEFINED
+  id: NVAPI_GPU_PUBLIC_CLOCK_UNDEFINED
+  parent: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_PUBLIC_CLOCK_UNDEFINED
+  nameWithType: _NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_UNDEFINED
+  fullName: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID.NVAPI_GPU_PUBLIC_CLOCK_UNDEFINED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PUBLIC_CLOCK_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_PUBLIC_CLOCK_UNDEFINED
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PUBLIC_CLOCK_ID.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_PUBLIC_CLOCK_UNDEFINED = 32
+    return:
+      type: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID
+  commentId: T:NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID.html
+  name: _NV_GPU_PUBLIC_CLOCK_ID
+  nameWithType: _NV_GPU_PUBLIC_CLOCK_ID
+  fullName: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID

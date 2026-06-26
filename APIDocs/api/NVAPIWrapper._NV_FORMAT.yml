@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_FORMAT
+  commentId: T:NVAPIWrapper._NV_FORMAT
+  id: _NV_FORMAT
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_FORMAT.NV_FORMAT_A16B16G16R16F
+  - NVAPIWrapper._NV_FORMAT.NV_FORMAT_A8R8G8B8
+  - NVAPIWrapper._NV_FORMAT.NV_FORMAT_P8
+  - NVAPIWrapper._NV_FORMAT.NV_FORMAT_R5G6B5
+  - NVAPIWrapper._NV_FORMAT.NV_FORMAT_UNKNOWN
+  langs:
+  - csharp
+  - vb
+  name: _NV_FORMAT
+  nameWithType: _NV_FORMAT
+  fullName: NVAPIWrapper._NV_FORMAT
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_FORMAT
+    path: ../NVAPIWrapper/cs_generated/_NV_FORMAT.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: 'public enum _NV_FORMAT : byte'
+    content.vb: Public Enum _NV_FORMAT As Byte
+- uid: NVAPIWrapper._NV_FORMAT.NV_FORMAT_UNKNOWN
+  commentId: F:NVAPIWrapper._NV_FORMAT.NV_FORMAT_UNKNOWN
+  id: NV_FORMAT_UNKNOWN
+  parent: NVAPIWrapper._NV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_FORMAT_UNKNOWN
+  nameWithType: _NV_FORMAT.NV_FORMAT_UNKNOWN
+  fullName: NVAPIWrapper._NV_FORMAT.NV_FORMAT_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_FORMAT_UNKNOWN
+    path: ../NVAPIWrapper/cs_generated/_NV_FORMAT.cs
+    startLine: 7
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_FORMAT_UNKNOWN = 0
+    return:
+      type: NVAPIWrapper._NV_FORMAT
+- uid: NVAPIWrapper._NV_FORMAT.NV_FORMAT_P8
+  commentId: F:NVAPIWrapper._NV_FORMAT.NV_FORMAT_P8
+  id: NV_FORMAT_P8
+  parent: NVAPIWrapper._NV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_FORMAT_P8
+  nameWithType: _NV_FORMAT.NV_FORMAT_P8
+  fullName: NVAPIWrapper._NV_FORMAT.NV_FORMAT_P8
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_FORMAT_P8
+    path: ../NVAPIWrapper/cs_generated/_NV_FORMAT.cs
+    startLine: 10
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_FORMAT_P8 = 41
+    return:
+      type: NVAPIWrapper._NV_FORMAT
+- uid: NVAPIWrapper._NV_FORMAT.NV_FORMAT_R5G6B5
+  commentId: F:NVAPIWrapper._NV_FORMAT.NV_FORMAT_R5G6B5
+  id: NV_FORMAT_R5G6B5
+  parent: NVAPIWrapper._NV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_FORMAT_R5G6B5
+  nameWithType: _NV_FORMAT.NV_FORMAT_R5G6B5
+  fullName: NVAPIWrapper._NV_FORMAT.NV_FORMAT_R5G6B5
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_FORMAT_R5G6B5
+    path: ../NVAPIWrapper/cs_generated/_NV_FORMAT.cs
+    startLine: 13
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_FORMAT_R5G6B5 = 23
+    return:
+      type: NVAPIWrapper._NV_FORMAT
+- uid: NVAPIWrapper._NV_FORMAT.NV_FORMAT_A8R8G8B8
+  commentId: F:NVAPIWrapper._NV_FORMAT.NV_FORMAT_A8R8G8B8
+  id: NV_FORMAT_A8R8G8B8
+  parent: NVAPIWrapper._NV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_FORMAT_A8R8G8B8
+  nameWithType: _NV_FORMAT.NV_FORMAT_A8R8G8B8
+  fullName: NVAPIWrapper._NV_FORMAT.NV_FORMAT_A8R8G8B8
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_FORMAT_A8R8G8B8
+    path: ../NVAPIWrapper/cs_generated/_NV_FORMAT.cs
+    startLine: 16
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_FORMAT_A8R8G8B8 = 21
+    return:
+      type: NVAPIWrapper._NV_FORMAT
+- uid: NVAPIWrapper._NV_FORMAT.NV_FORMAT_A16B16G16R16F
+  commentId: F:NVAPIWrapper._NV_FORMAT.NV_FORMAT_A16B16G16R16F
+  id: NV_FORMAT_A16B16G16R16F
+  parent: NVAPIWrapper._NV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_FORMAT_A16B16G16R16F
+  nameWithType: _NV_FORMAT.NV_FORMAT_A16B16G16R16F
+  fullName: NVAPIWrapper._NV_FORMAT.NV_FORMAT_A16B16G16R16F
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_FORMAT_A16B16G16R16F
+    path: ../NVAPIWrapper/cs_generated/_NV_FORMAT.cs
+    startLine: 19
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_FORMAT_A16B16G16R16F = 113
+    return:
+      type: NVAPIWrapper._NV_FORMAT
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_FORMAT
+  commentId: T:NVAPIWrapper._NV_FORMAT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_FORMAT.html
+  name: _NV_FORMAT
+  nameWithType: _NV_FORMAT
+  fullName: NVAPIWrapper._NV_FORMAT

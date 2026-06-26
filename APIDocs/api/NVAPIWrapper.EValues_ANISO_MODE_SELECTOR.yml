@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR
+  commentId: T:NVAPIWrapper.EValues_ANISO_MODE_SELECTOR
+  id: EValues_ANISO_MODE_SELECTOR
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_APP
+  - NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_COND
+  - NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_DEFAULT
+  - NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_MASK
+  - NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_MAX
+  - NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_NUM_VALUES
+  - NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_USER
+  langs:
+  - csharp
+  - vb
+  name: EValues_ANISO_MODE_SELECTOR
+  nameWithType: EValues_ANISO_MODE_SELECTOR
+  fullName: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_ANISO_MODE_SELECTOR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_ANISO_MODE_SELECTOR
+    path: ../NVAPIWrapper/cs_generated/EValues_ANISO_MODE_SELECTOR.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_ANISO_MODE_SELECTOR
+    content.vb: Public Enum EValues_ANISO_MODE_SELECTOR
+- uid: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_MASK
+  commentId: F:NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_MASK
+  id: ANISO_MODE_SELECTOR_MASK
+  parent: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR
+  langs:
+  - csharp
+  - vb
+  name: ANISO_MODE_SELECTOR_MASK
+  nameWithType: EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_MASK
+  fullName: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_MASK
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_ANISO_MODE_SELECTOR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ANISO_MODE_SELECTOR_MASK
+    path: ../NVAPIWrapper/cs_generated/EValues_ANISO_MODE_SELECTOR.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: ANISO_MODE_SELECTOR_MASK = 15
+    return:
+      type: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR
+- uid: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_APP
+  commentId: F:NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_APP
+  id: ANISO_MODE_SELECTOR_APP
+  parent: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR
+  langs:
+  - csharp
+  - vb
+  name: ANISO_MODE_SELECTOR_APP
+  nameWithType: EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_APP
+  fullName: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_APP
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_ANISO_MODE_SELECTOR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ANISO_MODE_SELECTOR_APP
+    path: ../NVAPIWrapper/cs_generated/EValues_ANISO_MODE_SELECTOR.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: ANISO_MODE_SELECTOR_APP = 0
+    return:
+      type: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR
+- uid: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_USER
+  commentId: F:NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_USER
+  id: ANISO_MODE_SELECTOR_USER
+  parent: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR
+  langs:
+  - csharp
+  - vb
+  name: ANISO_MODE_SELECTOR_USER
+  nameWithType: EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_USER
+  fullName: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_USER
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_ANISO_MODE_SELECTOR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ANISO_MODE_SELECTOR_USER
+    path: ../NVAPIWrapper/cs_generated/EValues_ANISO_MODE_SELECTOR.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: ANISO_MODE_SELECTOR_USER = 1
+    return:
+      type: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR
+- uid: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_COND
+  commentId: F:NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_COND
+  id: ANISO_MODE_SELECTOR_COND
+  parent: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR
+  langs:
+  - csharp
+  - vb
+  name: ANISO_MODE_SELECTOR_COND
+  nameWithType: EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_COND
+  fullName: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_COND
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_ANISO_MODE_SELECTOR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ANISO_MODE_SELECTOR_COND
+    path: ../NVAPIWrapper/cs_generated/EValues_ANISO_MODE_SELECTOR.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: ANISO_MODE_SELECTOR_COND = 2
+    return:
+      type: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR
+- uid: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_MAX
+  commentId: F:NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_MAX
+  id: ANISO_MODE_SELECTOR_MAX
+  parent: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR
+  langs:
+  - csharp
+  - vb
+  name: ANISO_MODE_SELECTOR_MAX
+  nameWithType: EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_MAX
+  fullName: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_MAX
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_ANISO_MODE_SELECTOR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ANISO_MODE_SELECTOR_MAX
+    path: ../NVAPIWrapper/cs_generated/EValues_ANISO_MODE_SELECTOR.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: ANISO_MODE_SELECTOR_MAX = 2
+    return:
+      type: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR
+- uid: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_DEFAULT
+  id: ANISO_MODE_SELECTOR_DEFAULT
+  parent: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR
+  langs:
+  - csharp
+  - vb
+  name: ANISO_MODE_SELECTOR_DEFAULT
+  nameWithType: EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_DEFAULT
+  fullName: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_ANISO_MODE_SELECTOR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ANISO_MODE_SELECTOR_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_ANISO_MODE_SELECTOR.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: ANISO_MODE_SELECTOR_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR
+- uid: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_NUM_VALUES
+  id: ANISO_MODE_SELECTOR_NUM_VALUES
+  parent: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR
+  langs:
+  - csharp
+  - vb
+  name: ANISO_MODE_SELECTOR_NUM_VALUES
+  nameWithType: EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.ANISO_MODE_SELECTOR_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_ANISO_MODE_SELECTOR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ANISO_MODE_SELECTOR_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_ANISO_MODE_SELECTOR.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: ANISO_MODE_SELECTOR_NUM_VALUES = 6
+    return:
+      type: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR
+  commentId: T:NVAPIWrapper.EValues_ANISO_MODE_SELECTOR
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR.html
+  name: EValues_ANISO_MODE_SELECTOR
+  nameWithType: EValues_ANISO_MODE_SELECTOR
+  fullName: NVAPIWrapper.EValues_ANISO_MODE_SELECTOR

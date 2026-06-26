@@ -1,0 +1,857 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+  commentId: T:NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+  id: NVAPIGpuClockFrequenciesDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIGpuClockFrequenciesDto.#ctor(NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE,NVAPIWrapper.NVAPIGpuClockDomainDto[])
+  - NVAPIWrapper.NVAPIGpuClockFrequenciesDto.ClockType
+  - NVAPIWrapper.NVAPIGpuClockFrequenciesDto.Domains
+  - NVAPIWrapper.NVAPIGpuClockFrequenciesDto.Equals(NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+  - NVAPIWrapper.NVAPIGpuClockFrequenciesDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIGpuClockFrequenciesDto.FromNative(NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_V2)
+  - NVAPIWrapper.NVAPIGpuClockFrequenciesDto.GetHashCode
+  - NVAPIWrapper.NVAPIGpuClockFrequenciesDto.ToNative
+  - NVAPIWrapper.NVAPIGpuClockFrequenciesDto.op_Equality(NVAPIWrapper.NVAPIGpuClockFrequenciesDto,NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+  - NVAPIWrapper.NVAPIGpuClockFrequenciesDto.op_Inequality(NVAPIWrapper.NVAPIGpuClockFrequenciesDto,NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGpuClockFrequenciesDto
+  nameWithType: NVAPIGpuClockFrequenciesDto
+  fullName: NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIGpuClockFrequenciesDto
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3161
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Clock frequencies DTO.
+  example: []
+  syntax:
+    content: 'public struct NVAPIGpuClockFrequenciesDto : IEquatable<NVAPIGpuClockFrequenciesDto>'
+    content.vb: Public Structure NVAPIGpuClockFrequenciesDto Implements IEquatable(Of NVAPIGpuClockFrequenciesDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGpuClockFrequenciesDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.ClockType
+  commentId: P:NVAPIWrapper.NVAPIGpuClockFrequenciesDto.ClockType
+  id: ClockType
+  parent: NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+  langs:
+  - csharp
+  - vb
+  name: ClockType
+  nameWithType: NVAPIGpuClockFrequenciesDto.ClockType
+  fullName: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.ClockType
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ClockType
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3163
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE ClockType { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+    content.vb: Public Property ClockType As NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+  overload: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.ClockType*
+- uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.Domains
+  commentId: P:NVAPIWrapper.NVAPIGpuClockFrequenciesDto.Domains
+  id: Domains
+  parent: NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+  langs:
+  - csharp
+  - vb
+  name: Domains
+  nameWithType: NVAPIGpuClockFrequenciesDto.Domains
+  fullName: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.Domains
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Domains
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3164
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NVAPIGpuClockDomainDto[] Domains { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper.NVAPIGpuClockDomainDto[]
+    content.vb: Public Property Domains As NVAPIGpuClockDomainDto()
+  overload: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.Domains*
+- uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.#ctor(NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE,NVAPIWrapper.NVAPIGpuClockDomainDto[])
+  commentId: M:NVAPIWrapper.NVAPIGpuClockFrequenciesDto.#ctor(NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE,NVAPIWrapper.NVAPIGpuClockDomainDto[])
+  id: '#ctor(NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE,NVAPIWrapper.NVAPIGpuClockDomainDto[])'
+  parent: NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGpuClockFrequenciesDto(NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE, NVAPIGpuClockDomainDto[])
+  nameWithType: NVAPIGpuClockFrequenciesDto.NVAPIGpuClockFrequenciesDto(NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE, NVAPIGpuClockDomainDto[])
+  fullName: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.NVAPIGpuClockFrequenciesDto(NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE, NVAPIWrapper.NVAPIGpuClockDomainDto[])
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3166
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NVAPIGpuClockFrequenciesDto(NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE clockType, NVAPIGpuClockDomainDto[] domains)
+    parameters:
+    - id: clockType
+      type: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+    - id: domains
+      type: NVAPIWrapper.NVAPIGpuClockDomainDto[]
+    content.vb: Public Sub New(clockType As NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE, domains As NVAPIGpuClockDomainDto())
+  overload: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.#ctor*
+  nameWithType.vb: NVAPIGpuClockFrequenciesDto.New(NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE, NVAPIGpuClockDomainDto())
+  fullName.vb: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.New(NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE, NVAPIWrapper.NVAPIGpuClockDomainDto())
+  name.vb: New(NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE, NVAPIGpuClockDomainDto())
+- uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.FromNative(NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_V2)
+  commentId: M:NVAPIWrapper.NVAPIGpuClockFrequenciesDto.FromNative(NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_V2)
+  id: FromNative(NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_V2)
+  parent: NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(NV_GPU_CLOCK_FREQUENCIES_V2)
+  nameWithType: NVAPIGpuClockFrequenciesDto.FromNative(NV_GPU_CLOCK_FREQUENCIES_V2)
+  fullName: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.FromNative(NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_V2)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3172
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static NVAPIGpuClockFrequenciesDto FromNative(NV_GPU_CLOCK_FREQUENCIES_V2 native)
+    parameters:
+    - id: native
+      type: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_V2
+    return:
+      type: NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+    content.vb: Public Shared Function FromNative(native As NV_GPU_CLOCK_FREQUENCIES_V2) As NVAPIGpuClockFrequenciesDto
+  overload: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.FromNative*
+- uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.ToNative
+  commentId: M:NVAPIWrapper.NVAPIGpuClockFrequenciesDto.ToNative
+  id: ToNative
+  parent: NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: NVAPIGpuClockFrequenciesDto.ToNative()
+  fullName: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3181
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NV_GPU_CLOCK_FREQUENCIES_V2 ToNative()
+    return:
+      type: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_V2
+    content.vb: Public Function ToNative() As NV_GPU_CLOCK_FREQUENCIES_V2
+  overload: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.ToNative*
+- uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.Equals(NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuClockFrequenciesDto.Equals(NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+  id: Equals(NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+  parent: NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIGpuClockFrequenciesDto)
+  nameWithType: NVAPIGpuClockFrequenciesDto.Equals(NVAPIGpuClockFrequenciesDto)
+  fullName: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.Equals(NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3197
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIGpuClockFrequenciesDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As NVAPIGpuClockFrequenciesDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGpuClockFrequenciesDto}.Equals(NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+- uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIGpuClockFrequenciesDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIGpuClockFrequenciesDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3205
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.Equals*
+  nameWithType.vb: NVAPIGpuClockFrequenciesDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIGpuClockFrequenciesDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIGpuClockFrequenciesDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3207
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.op_Equality(NVAPIWrapper.NVAPIGpuClockFrequenciesDto,NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuClockFrequenciesDto.op_Equality(NVAPIWrapper.NVAPIGpuClockFrequenciesDto,NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+  id: op_Equality(NVAPIWrapper.NVAPIGpuClockFrequenciesDto,NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+  parent: NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIGpuClockFrequenciesDto, NVAPIGpuClockFrequenciesDto)
+  nameWithType: NVAPIGpuClockFrequenciesDto.operator ==(NVAPIGpuClockFrequenciesDto, NVAPIGpuClockFrequenciesDto)
+  fullName: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.operator ==(NVAPIWrapper.NVAPIGpuClockFrequenciesDto, NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3217
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static bool operator ==(NVAPIGpuClockFrequenciesDto left, NVAPIGpuClockFrequenciesDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+    - id: right
+      type: NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As NVAPIGpuClockFrequenciesDto, right As NVAPIGpuClockFrequenciesDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.op_Equality*
+  nameWithType.vb: NVAPIGpuClockFrequenciesDto.=(NVAPIGpuClockFrequenciesDto, NVAPIGpuClockFrequenciesDto)
+  fullName.vb: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.=(NVAPIWrapper.NVAPIGpuClockFrequenciesDto, NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+  name.vb: =(NVAPIGpuClockFrequenciesDto, NVAPIGpuClockFrequenciesDto)
+- uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.op_Inequality(NVAPIWrapper.NVAPIGpuClockFrequenciesDto,NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuClockFrequenciesDto.op_Inequality(NVAPIWrapper.NVAPIGpuClockFrequenciesDto,NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIGpuClockFrequenciesDto,NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+  parent: NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIGpuClockFrequenciesDto, NVAPIGpuClockFrequenciesDto)
+  nameWithType: NVAPIGpuClockFrequenciesDto.operator !=(NVAPIGpuClockFrequenciesDto, NVAPIGpuClockFrequenciesDto)
+  fullName: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.operator !=(NVAPIWrapper.NVAPIGpuClockFrequenciesDto, NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3218
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static bool operator !=(NVAPIGpuClockFrequenciesDto left, NVAPIGpuClockFrequenciesDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+    - id: right
+      type: NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As NVAPIGpuClockFrequenciesDto, right As NVAPIGpuClockFrequenciesDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.op_Inequality*
+  nameWithType.vb: NVAPIGpuClockFrequenciesDto.<>(NVAPIGpuClockFrequenciesDto, NVAPIGpuClockFrequenciesDto)
+  fullName.vb: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.<>(NVAPIWrapper.NVAPIGpuClockFrequenciesDto, NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+  name.vb: <>(NVAPIGpuClockFrequenciesDto, NVAPIGpuClockFrequenciesDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGpuClockFrequenciesDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIGpuClockFrequenciesDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIGpuClockFrequenciesDto>
+  nameWithType: IEquatable<NVAPIGpuClockFrequenciesDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGpuClockFrequenciesDto>
+  nameWithType.vb: IEquatable(Of NVAPIGpuClockFrequenciesDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+  name.vb: IEquatable(Of NVAPIGpuClockFrequenciesDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+    name: NVAPIGpuClockFrequenciesDto
+    href: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+    name: NVAPIGpuClockFrequenciesDto
+    href: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.ClockType*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuClockFrequenciesDto.ClockType
+  href: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.html#NVAPIWrapper_NVAPIGpuClockFrequenciesDto_ClockType
+  name: ClockType
+  nameWithType: NVAPIGpuClockFrequenciesDto.ClockType
+  fullName: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.ClockType
+- uid: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+  commentId: T:NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE.html
+  name: NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+  nameWithType: NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+  fullName: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE
+- uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.Domains*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuClockFrequenciesDto.Domains
+  href: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.html#NVAPIWrapper_NVAPIGpuClockFrequenciesDto_Domains
+  name: Domains
+  nameWithType: NVAPIGpuClockFrequenciesDto.Domains
+  fullName: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.Domains
+- uid: NVAPIWrapper.NVAPIGpuClockDomainDto[]
+  isExternal: true
+  href: NVAPIWrapper.NVAPIGpuClockDomainDto.html
+  name: NVAPIGpuClockDomainDto[]
+  nameWithType: NVAPIGpuClockDomainDto[]
+  fullName: NVAPIWrapper.NVAPIGpuClockDomainDto[]
+  nameWithType.vb: NVAPIGpuClockDomainDto()
+  fullName.vb: NVAPIWrapper.NVAPIGpuClockDomainDto()
+  name.vb: NVAPIGpuClockDomainDto()
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIGpuClockDomainDto
+    name: NVAPIGpuClockDomainDto
+    href: NVAPIWrapper.NVAPIGpuClockDomainDto.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIGpuClockDomainDto
+    name: NVAPIGpuClockDomainDto
+    href: NVAPIWrapper.NVAPIGpuClockDomainDto.html
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuClockFrequenciesDto.#ctor
+  href: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.html#NVAPIWrapper_NVAPIGpuClockFrequenciesDto__ctor_NVAPIWrapper_NV_GPU_CLOCK_FREQUENCIES_CLOCK_TYPE_NVAPIWrapper_NVAPIGpuClockDomainDto___
+  name: NVAPIGpuClockFrequenciesDto
+  nameWithType: NVAPIGpuClockFrequenciesDto.NVAPIGpuClockFrequenciesDto
+  fullName: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.NVAPIGpuClockFrequenciesDto
+  nameWithType.vb: NVAPIGpuClockFrequenciesDto.New
+  fullName.vb: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuClockFrequenciesDto.FromNative
+  href: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.html#NVAPIWrapper_NVAPIGpuClockFrequenciesDto_FromNative_NVAPIWrapper_NV_GPU_CLOCK_FREQUENCIES_V2_
+  name: FromNative
+  nameWithType: NVAPIGpuClockFrequenciesDto.FromNative
+  fullName: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.FromNative
+- uid: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_V2
+  commentId: T:NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_V2
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_V2.html
+  name: NV_GPU_CLOCK_FREQUENCIES_V2
+  nameWithType: NV_GPU_CLOCK_FREQUENCIES_V2
+  fullName: NVAPIWrapper.NV_GPU_CLOCK_FREQUENCIES_V2
+- uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+  commentId: T:NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.html
+  name: NVAPIGpuClockFrequenciesDto
+  nameWithType: NVAPIGpuClockFrequenciesDto
+  fullName: NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+- uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuClockFrequenciesDto.ToNative
+  href: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.html#NVAPIWrapper_NVAPIGpuClockFrequenciesDto_ToNative
+  name: ToNative
+  nameWithType: NVAPIGpuClockFrequenciesDto.ToNative
+  fullName: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.ToNative
+- uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuClockFrequenciesDto.Equals
+  href: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.html#NVAPIWrapper_NVAPIGpuClockFrequenciesDto_Equals_NVAPIWrapper_NVAPIGpuClockFrequenciesDto_
+  name: Equals
+  nameWithType: NVAPIGpuClockFrequenciesDto.Equals
+  fullName: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGpuClockFrequenciesDto}.Equals(NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIGpuClockFrequenciesDto}.Equals(NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIGpuClockFrequenciesDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIGpuClockFrequenciesDto)
+  nameWithType: IEquatable<NVAPIGpuClockFrequenciesDto>.Equals(NVAPIGpuClockFrequenciesDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGpuClockFrequenciesDto>.Equals(NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+  nameWithType.vb: IEquatable(Of NVAPIGpuClockFrequenciesDto).Equals(NVAPIGpuClockFrequenciesDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGpuClockFrequenciesDto).Equals(NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGpuClockFrequenciesDto}.Equals(NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+    name: NVAPIGpuClockFrequenciesDto
+    href: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGpuClockFrequenciesDto}.Equals(NVAPIWrapper.NVAPIGpuClockFrequenciesDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto
+    name: NVAPIGpuClockFrequenciesDto
+    href: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.html
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuClockFrequenciesDto.GetHashCode
+  href: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.html#NVAPIWrapper_NVAPIGpuClockFrequenciesDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIGpuClockFrequenciesDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuClockFrequenciesDto.op_Equality
+  href: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.html#NVAPIWrapper_NVAPIGpuClockFrequenciesDto_op_Equality_NVAPIWrapper_NVAPIGpuClockFrequenciesDto_NVAPIWrapper_NVAPIGpuClockFrequenciesDto_
+  name: operator ==
+  nameWithType: NVAPIGpuClockFrequenciesDto.operator ==
+  fullName: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.operator ==
+  nameWithType.vb: NVAPIGpuClockFrequenciesDto.=
+  fullName.vb: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.html#NVAPIWrapper_NVAPIGpuClockFrequenciesDto_op_Equality_NVAPIWrapper_NVAPIGpuClockFrequenciesDto_NVAPIWrapper_NVAPIGpuClockFrequenciesDto_
+- uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuClockFrequenciesDto.op_Inequality
+  href: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.html#NVAPIWrapper_NVAPIGpuClockFrequenciesDto_op_Inequality_NVAPIWrapper_NVAPIGpuClockFrequenciesDto_NVAPIWrapper_NVAPIGpuClockFrequenciesDto_
+  name: operator !=
+  nameWithType: NVAPIGpuClockFrequenciesDto.operator !=
+  fullName: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.operator !=
+  nameWithType.vb: NVAPIGpuClockFrequenciesDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIGpuClockFrequenciesDto.html#NVAPIWrapper_NVAPIGpuClockFrequenciesDto_op_Inequality_NVAPIWrapper_NVAPIGpuClockFrequenciesDto_NVAPIWrapper_NVAPIGpuClockFrequenciesDto_

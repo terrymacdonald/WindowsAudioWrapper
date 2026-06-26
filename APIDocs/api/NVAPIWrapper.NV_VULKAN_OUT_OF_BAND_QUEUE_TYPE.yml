@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE
+  commentId: T:NVAPIWrapper.NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE
+  id: NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE.VULKAN_OUT_OF_BAND_QUEUE_TYPE_PRESENT
+  - NVAPIWrapper.NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE.VULKAN_OUT_OF_BAND_QUEUE_TYPE_RENDER
+  langs:
+  - csharp
+  - vb
+  name: NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE
+  nameWithType: NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE
+  fullName: NVAPIWrapper.NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE
+    path: ../NVAPIWrapper/cs_generated/NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE
+    content.vb: Public Enum NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE
+- uid: NVAPIWrapper.NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE.VULKAN_OUT_OF_BAND_QUEUE_TYPE_RENDER
+  commentId: F:NVAPIWrapper.NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE.VULKAN_OUT_OF_BAND_QUEUE_TYPE_RENDER
+  id: VULKAN_OUT_OF_BAND_QUEUE_TYPE_RENDER
+  parent: NVAPIWrapper.NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: VULKAN_OUT_OF_BAND_QUEUE_TYPE_RENDER
+  nameWithType: NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE.VULKAN_OUT_OF_BAND_QUEUE_TYPE_RENDER
+  fullName: NVAPIWrapper.NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE.VULKAN_OUT_OF_BAND_QUEUE_TYPE_RENDER
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VULKAN_OUT_OF_BAND_QUEUE_TYPE_RENDER
+    path: ../NVAPIWrapper/cs_generated/NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VULKAN_OUT_OF_BAND_QUEUE_TYPE_RENDER = 0
+    return:
+      type: NVAPIWrapper.NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE
+- uid: NVAPIWrapper.NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE.VULKAN_OUT_OF_BAND_QUEUE_TYPE_PRESENT
+  commentId: F:NVAPIWrapper.NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE.VULKAN_OUT_OF_BAND_QUEUE_TYPE_PRESENT
+  id: VULKAN_OUT_OF_BAND_QUEUE_TYPE_PRESENT
+  parent: NVAPIWrapper.NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: VULKAN_OUT_OF_BAND_QUEUE_TYPE_PRESENT
+  nameWithType: NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE.VULKAN_OUT_OF_BAND_QUEUE_TYPE_PRESENT
+  fullName: NVAPIWrapper.NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE.VULKAN_OUT_OF_BAND_QUEUE_TYPE_PRESENT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VULKAN_OUT_OF_BAND_QUEUE_TYPE_PRESENT
+    path: ../NVAPIWrapper/cs_generated/NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VULKAN_OUT_OF_BAND_QUEUE_TYPE_PRESENT = 1
+    return:
+      type: NVAPIWrapper.NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE
+  commentId: T:NVAPIWrapper.NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE.html
+  name: NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE
+  nameWithType: NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE
+  fullName: NVAPIWrapper.NV_VULKAN_OUT_OF_BAND_QUEUE_TYPE

@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVVIOANCPARITYCOMPUTATION
+  commentId: T:NVAPIWrapper._NVVIOANCPARITYCOMPUTATION
+  id: _NVVIOANCPARITYCOMPUTATION
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVVIOANCPARITYCOMPUTATION.NVVIOANCPARITYCOMPUTATION_AUTO
+  - NVAPIWrapper._NVVIOANCPARITYCOMPUTATION.NVVIOANCPARITYCOMPUTATION_OFF
+  - NVAPIWrapper._NVVIOANCPARITYCOMPUTATION.NVVIOANCPARITYCOMPUTATION_ON
+  langs:
+  - csharp
+  - vb
+  name: _NVVIOANCPARITYCOMPUTATION
+  nameWithType: _NVVIOANCPARITYCOMPUTATION
+  fullName: NVAPIWrapper._NVVIOANCPARITYCOMPUTATION
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOANCPARITYCOMPUTATION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVVIOANCPARITYCOMPUTATION
+    path: ../NVAPIWrapper/cs_generated/_NVVIOANCPARITYCOMPUTATION.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVVIOANCPARITYCOMPUTATION
+    content.vb: Public Enum _NVVIOANCPARITYCOMPUTATION
+- uid: NVAPIWrapper._NVVIOANCPARITYCOMPUTATION.NVVIOANCPARITYCOMPUTATION_AUTO
+  commentId: F:NVAPIWrapper._NVVIOANCPARITYCOMPUTATION.NVVIOANCPARITYCOMPUTATION_AUTO
+  id: NVVIOANCPARITYCOMPUTATION_AUTO
+  parent: NVAPIWrapper._NVVIOANCPARITYCOMPUTATION
+  langs:
+  - csharp
+  - vb
+  name: NVVIOANCPARITYCOMPUTATION_AUTO
+  nameWithType: _NVVIOANCPARITYCOMPUTATION.NVVIOANCPARITYCOMPUTATION_AUTO
+  fullName: NVAPIWrapper._NVVIOANCPARITYCOMPUTATION.NVVIOANCPARITYCOMPUTATION_AUTO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOANCPARITYCOMPUTATION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOANCPARITYCOMPUTATION_AUTO
+    path: ../NVAPIWrapper/cs_generated/_NVVIOANCPARITYCOMPUTATION.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOANCPARITYCOMPUTATION_AUTO = 0
+    return:
+      type: NVAPIWrapper._NVVIOANCPARITYCOMPUTATION
+- uid: NVAPIWrapper._NVVIOANCPARITYCOMPUTATION.NVVIOANCPARITYCOMPUTATION_ON
+  commentId: F:NVAPIWrapper._NVVIOANCPARITYCOMPUTATION.NVVIOANCPARITYCOMPUTATION_ON
+  id: NVVIOANCPARITYCOMPUTATION_ON
+  parent: NVAPIWrapper._NVVIOANCPARITYCOMPUTATION
+  langs:
+  - csharp
+  - vb
+  name: NVVIOANCPARITYCOMPUTATION_ON
+  nameWithType: _NVVIOANCPARITYCOMPUTATION.NVVIOANCPARITYCOMPUTATION_ON
+  fullName: NVAPIWrapper._NVVIOANCPARITYCOMPUTATION.NVVIOANCPARITYCOMPUTATION_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOANCPARITYCOMPUTATION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOANCPARITYCOMPUTATION_ON
+    path: ../NVAPIWrapper/cs_generated/_NVVIOANCPARITYCOMPUTATION.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOANCPARITYCOMPUTATION_ON = 1
+    return:
+      type: NVAPIWrapper._NVVIOANCPARITYCOMPUTATION
+- uid: NVAPIWrapper._NVVIOANCPARITYCOMPUTATION.NVVIOANCPARITYCOMPUTATION_OFF
+  commentId: F:NVAPIWrapper._NVVIOANCPARITYCOMPUTATION.NVVIOANCPARITYCOMPUTATION_OFF
+  id: NVVIOANCPARITYCOMPUTATION_OFF
+  parent: NVAPIWrapper._NVVIOANCPARITYCOMPUTATION
+  langs:
+  - csharp
+  - vb
+  name: NVVIOANCPARITYCOMPUTATION_OFF
+  nameWithType: _NVVIOANCPARITYCOMPUTATION.NVVIOANCPARITYCOMPUTATION_OFF
+  fullName: NVAPIWrapper._NVVIOANCPARITYCOMPUTATION.NVVIOANCPARITYCOMPUTATION_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOANCPARITYCOMPUTATION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOANCPARITYCOMPUTATION_OFF
+    path: ../NVAPIWrapper/cs_generated/_NVVIOANCPARITYCOMPUTATION.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOANCPARITYCOMPUTATION_OFF = 2
+    return:
+      type: NVAPIWrapper._NVVIOANCPARITYCOMPUTATION
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVVIOANCPARITYCOMPUTATION
+  commentId: T:NVAPIWrapper._NVVIOANCPARITYCOMPUTATION
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOANCPARITYCOMPUTATION.html
+  name: _NVVIOANCPARITYCOMPUTATION
+  nameWithType: _NVVIOANCPARITYCOMPUTATION
+  fullName: NVAPIWrapper._NVVIOANCPARITYCOMPUTATION

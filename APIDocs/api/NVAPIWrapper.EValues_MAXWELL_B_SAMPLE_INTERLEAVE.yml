@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE
+  commentId: T:NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE
+  id: EValues_MAXWELL_B_SAMPLE_INTERLEAVE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE.MAXWELL_B_SAMPLE_INTERLEAVE_DEFAULT
+  - NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE.MAXWELL_B_SAMPLE_INTERLEAVE_NUM_VALUES
+  - NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE.MAXWELL_B_SAMPLE_INTERLEAVE_OFF
+  - NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE.MAXWELL_B_SAMPLE_INTERLEAVE_ON
+  langs:
+  - csharp
+  - vb
+  name: EValues_MAXWELL_B_SAMPLE_INTERLEAVE
+  nameWithType: EValues_MAXWELL_B_SAMPLE_INTERLEAVE
+  fullName: NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_MAXWELL_B_SAMPLE_INTERLEAVE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_MAXWELL_B_SAMPLE_INTERLEAVE
+    path: ../NVAPIWrapper/cs_generated/EValues_MAXWELL_B_SAMPLE_INTERLEAVE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_MAXWELL_B_SAMPLE_INTERLEAVE
+    content.vb: Public Enum EValues_MAXWELL_B_SAMPLE_INTERLEAVE
+- uid: NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE.MAXWELL_B_SAMPLE_INTERLEAVE_OFF
+  commentId: F:NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE.MAXWELL_B_SAMPLE_INTERLEAVE_OFF
+  id: MAXWELL_B_SAMPLE_INTERLEAVE_OFF
+  parent: NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE
+  langs:
+  - csharp
+  - vb
+  name: MAXWELL_B_SAMPLE_INTERLEAVE_OFF
+  nameWithType: EValues_MAXWELL_B_SAMPLE_INTERLEAVE.MAXWELL_B_SAMPLE_INTERLEAVE_OFF
+  fullName: NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE.MAXWELL_B_SAMPLE_INTERLEAVE_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_MAXWELL_B_SAMPLE_INTERLEAVE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: MAXWELL_B_SAMPLE_INTERLEAVE_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_MAXWELL_B_SAMPLE_INTERLEAVE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: MAXWELL_B_SAMPLE_INTERLEAVE_OFF = 0
+    return:
+      type: NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE
+- uid: NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE.MAXWELL_B_SAMPLE_INTERLEAVE_ON
+  commentId: F:NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE.MAXWELL_B_SAMPLE_INTERLEAVE_ON
+  id: MAXWELL_B_SAMPLE_INTERLEAVE_ON
+  parent: NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE
+  langs:
+  - csharp
+  - vb
+  name: MAXWELL_B_SAMPLE_INTERLEAVE_ON
+  nameWithType: EValues_MAXWELL_B_SAMPLE_INTERLEAVE.MAXWELL_B_SAMPLE_INTERLEAVE_ON
+  fullName: NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE.MAXWELL_B_SAMPLE_INTERLEAVE_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_MAXWELL_B_SAMPLE_INTERLEAVE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: MAXWELL_B_SAMPLE_INTERLEAVE_ON
+    path: ../NVAPIWrapper/cs_generated/EValues_MAXWELL_B_SAMPLE_INTERLEAVE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: MAXWELL_B_SAMPLE_INTERLEAVE_ON = 1
+    return:
+      type: NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE
+- uid: NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE.MAXWELL_B_SAMPLE_INTERLEAVE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE.MAXWELL_B_SAMPLE_INTERLEAVE_NUM_VALUES
+  id: MAXWELL_B_SAMPLE_INTERLEAVE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE
+  langs:
+  - csharp
+  - vb
+  name: MAXWELL_B_SAMPLE_INTERLEAVE_NUM_VALUES
+  nameWithType: EValues_MAXWELL_B_SAMPLE_INTERLEAVE.MAXWELL_B_SAMPLE_INTERLEAVE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE.MAXWELL_B_SAMPLE_INTERLEAVE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_MAXWELL_B_SAMPLE_INTERLEAVE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: MAXWELL_B_SAMPLE_INTERLEAVE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_MAXWELL_B_SAMPLE_INTERLEAVE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: MAXWELL_B_SAMPLE_INTERLEAVE_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE
+- uid: NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE.MAXWELL_B_SAMPLE_INTERLEAVE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE.MAXWELL_B_SAMPLE_INTERLEAVE_DEFAULT
+  id: MAXWELL_B_SAMPLE_INTERLEAVE_DEFAULT
+  parent: NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE
+  langs:
+  - csharp
+  - vb
+  name: MAXWELL_B_SAMPLE_INTERLEAVE_DEFAULT
+  nameWithType: EValues_MAXWELL_B_SAMPLE_INTERLEAVE.MAXWELL_B_SAMPLE_INTERLEAVE_DEFAULT
+  fullName: NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE.MAXWELL_B_SAMPLE_INTERLEAVE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_MAXWELL_B_SAMPLE_INTERLEAVE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: MAXWELL_B_SAMPLE_INTERLEAVE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_MAXWELL_B_SAMPLE_INTERLEAVE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: MAXWELL_B_SAMPLE_INTERLEAVE_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE
+  commentId: T:NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE.html
+  name: EValues_MAXWELL_B_SAMPLE_INTERLEAVE
+  nameWithType: EValues_MAXWELL_B_SAMPLE_INTERLEAVE
+  fullName: NVAPIWrapper.EValues_MAXWELL_B_SAMPLE_INTERLEAVE

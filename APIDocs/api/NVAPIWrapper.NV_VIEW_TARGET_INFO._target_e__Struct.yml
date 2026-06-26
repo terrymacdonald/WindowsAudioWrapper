@@ -1,0 +1,505 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct
+  commentId: T:NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct
+  id: NV_VIEW_TARGET_INFO._target_e__Struct
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct._bitfield
+  - NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bForceModeSet
+  - NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bGDIPrimary
+  - NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bInterlaced
+  - NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bPrimary
+  - NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.deviceMask
+  - NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.sourceId
+  langs:
+  - csharp
+  - vb
+  name: NV_VIEW_TARGET_INFO._target_e__Struct
+  nameWithType: NV_VIEW_TARGET_INFO._target_e__Struct
+  fullName: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VIEW_TARGET_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _target_e__Struct
+    path: ../NVAPIWrapper/cs_generated/NV_VIEW_TARGET_INFO.cs
+    startLine: 20
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct NV_VIEW_TARGET_INFO._target_e__Struct
+    content.vb: Public Structure NV_VIEW_TARGET_INFO._target_e__Struct
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.deviceMask
+  commentId: F:NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.deviceMask
+  id: deviceMask
+  parent: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: deviceMask
+  nameWithType: NV_VIEW_TARGET_INFO._target_e__Struct.deviceMask
+  fullName: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.deviceMask
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VIEW_TARGET_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: deviceMask
+    path: ../NVAPIWrapper/cs_generated/NV_VIEW_TARGET_INFO.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint deviceMask
+    return:
+      type: System.UInt32
+    content.vb: Public deviceMask As UInteger
+- uid: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.sourceId
+  commentId: F:NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.sourceId
+  id: sourceId
+  parent: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: sourceId
+  nameWithType: NV_VIEW_TARGET_INFO._target_e__Struct.sourceId
+  fullName: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.sourceId
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VIEW_TARGET_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: sourceId
+    path: ../NVAPIWrapper/cs_generated/NV_VIEW_TARGET_INFO.cs
+    startLine: 28
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint sourceId
+    return:
+      type: System.UInt32
+    content.vb: Public sourceId As UInteger
+- uid: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct._bitfield
+  commentId: F:NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct._bitfield
+  id: _bitfield
+  parent: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: _bitfield
+  nameWithType: NV_VIEW_TARGET_INFO._target_e__Struct._bitfield
+  fullName: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct._bitfield
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VIEW_TARGET_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield
+    path: ../NVAPIWrapper/cs_generated/NV_VIEW_TARGET_INFO.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield As UInteger
+- uid: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bPrimary
+  commentId: P:NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bPrimary
+  id: bPrimary
+  parent: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: bPrimary
+  nameWithType: NV_VIEW_TARGET_INFO._target_e__Struct.bPrimary
+  fullName: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bPrimary
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VIEW_TARGET_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bPrimary
+    path: ../NVAPIWrapper/cs_generated/NV_VIEW_TARGET_INFO.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bPrimary { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property bPrimary As UInteger
+  overload: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bPrimary*
+- uid: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bInterlaced
+  commentId: P:NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bInterlaced
+  id: bInterlaced
+  parent: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: bInterlaced
+  nameWithType: NV_VIEW_TARGET_INFO._target_e__Struct.bInterlaced
+  fullName: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bInterlaced
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VIEW_TARGET_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bInterlaced
+    path: ../NVAPIWrapper/cs_generated/NV_VIEW_TARGET_INFO.cs
+    startLine: 48
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bInterlaced { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property bInterlaced As UInteger
+  overload: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bInterlaced*
+- uid: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bGDIPrimary
+  commentId: P:NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bGDIPrimary
+  id: bGDIPrimary
+  parent: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: bGDIPrimary
+  nameWithType: NV_VIEW_TARGET_INFO._target_e__Struct.bGDIPrimary
+  fullName: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bGDIPrimary
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VIEW_TARGET_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bGDIPrimary
+    path: ../NVAPIWrapper/cs_generated/NV_VIEW_TARGET_INFO.cs
+    startLine: 63
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bGDIPrimary { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property bGDIPrimary As UInteger
+  overload: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bGDIPrimary*
+- uid: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bForceModeSet
+  commentId: P:NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bForceModeSet
+  id: bForceModeSet
+  parent: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: bForceModeSet
+  nameWithType: NV_VIEW_TARGET_INFO._target_e__Struct.bForceModeSet
+  fullName: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bForceModeSet
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_VIEW_TARGET_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bForceModeSet
+    path: ../NVAPIWrapper/cs_generated/NV_VIEW_TARGET_INFO.cs
+    startLine: 78
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bForceModeSet { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property bForceModeSet As UInteger
+  overload: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bForceModeSet*
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bPrimary*
+  commentId: Overload:NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bPrimary
+  href: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.html#NVAPIWrapper_NV_VIEW_TARGET_INFO__target_e__Struct_bPrimary
+  name: bPrimary
+  nameWithType: NV_VIEW_TARGET_INFO._target_e__Struct.bPrimary
+  fullName: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bPrimary
+- uid: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bInterlaced*
+  commentId: Overload:NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bInterlaced
+  href: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.html#NVAPIWrapper_NV_VIEW_TARGET_INFO__target_e__Struct_bInterlaced
+  name: bInterlaced
+  nameWithType: NV_VIEW_TARGET_INFO._target_e__Struct.bInterlaced
+  fullName: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bInterlaced
+- uid: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bGDIPrimary*
+  commentId: Overload:NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bGDIPrimary
+  href: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.html#NVAPIWrapper_NV_VIEW_TARGET_INFO__target_e__Struct_bGDIPrimary
+  name: bGDIPrimary
+  nameWithType: NV_VIEW_TARGET_INFO._target_e__Struct.bGDIPrimary
+  fullName: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bGDIPrimary
+- uid: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bForceModeSet*
+  commentId: Overload:NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bForceModeSet
+  href: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.html#NVAPIWrapper_NV_VIEW_TARGET_INFO__target_e__Struct_bForceModeSet
+  name: bForceModeSet
+  nameWithType: NV_VIEW_TARGET_INFO._target_e__Struct.bForceModeSet
+  fullName: NVAPIWrapper.NV_VIEW_TARGET_INFO._target_e__Struct.bForceModeSet

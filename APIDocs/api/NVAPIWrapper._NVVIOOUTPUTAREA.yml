@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVVIOOUTPUTAREA
+  commentId: T:NVAPIWrapper._NVVIOOUTPUTAREA
+  id: _NVVIOOUTPUTAREA
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVVIOOUTPUTAREA.NVVIOOUTPUTAREA_FULLSIZE
+  - NVAPIWrapper._NVVIOOUTPUTAREA.NVVIOOUTPUTAREA_SAFEACTION
+  - NVAPIWrapper._NVVIOOUTPUTAREA.NVVIOOUTPUTAREA_SAFETITLE
+  langs:
+  - csharp
+  - vb
+  name: _NVVIOOUTPUTAREA
+  nameWithType: _NVVIOOUTPUTAREA
+  fullName: NVAPIWrapper._NVVIOOUTPUTAREA
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTAREA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVVIOOUTPUTAREA
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTAREA.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVVIOOUTPUTAREA
+    content.vb: Public Enum _NVVIOOUTPUTAREA
+- uid: NVAPIWrapper._NVVIOOUTPUTAREA.NVVIOOUTPUTAREA_FULLSIZE
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTAREA.NVVIOOUTPUTAREA_FULLSIZE
+  id: NVVIOOUTPUTAREA_FULLSIZE
+  parent: NVAPIWrapper._NVVIOOUTPUTAREA
+  langs:
+  - csharp
+  - vb
+  name: NVVIOOUTPUTAREA_FULLSIZE
+  nameWithType: _NVVIOOUTPUTAREA.NVVIOOUTPUTAREA_FULLSIZE
+  fullName: NVAPIWrapper._NVVIOOUTPUTAREA.NVVIOOUTPUTAREA_FULLSIZE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTAREA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOOUTPUTAREA_FULLSIZE
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTAREA.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOOUTPUTAREA_FULLSIZE = 0
+    return:
+      type: NVAPIWrapper._NVVIOOUTPUTAREA
+- uid: NVAPIWrapper._NVVIOOUTPUTAREA.NVVIOOUTPUTAREA_SAFEACTION
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTAREA.NVVIOOUTPUTAREA_SAFEACTION
+  id: NVVIOOUTPUTAREA_SAFEACTION
+  parent: NVAPIWrapper._NVVIOOUTPUTAREA
+  langs:
+  - csharp
+  - vb
+  name: NVVIOOUTPUTAREA_SAFEACTION
+  nameWithType: _NVVIOOUTPUTAREA.NVVIOOUTPUTAREA_SAFEACTION
+  fullName: NVAPIWrapper._NVVIOOUTPUTAREA.NVVIOOUTPUTAREA_SAFEACTION
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTAREA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOOUTPUTAREA_SAFEACTION
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTAREA.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOOUTPUTAREA_SAFEACTION = 1
+    return:
+      type: NVAPIWrapper._NVVIOOUTPUTAREA
+- uid: NVAPIWrapper._NVVIOOUTPUTAREA.NVVIOOUTPUTAREA_SAFETITLE
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTAREA.NVVIOOUTPUTAREA_SAFETITLE
+  id: NVVIOOUTPUTAREA_SAFETITLE
+  parent: NVAPIWrapper._NVVIOOUTPUTAREA
+  langs:
+  - csharp
+  - vb
+  name: NVVIOOUTPUTAREA_SAFETITLE
+  nameWithType: _NVVIOOUTPUTAREA.NVVIOOUTPUTAREA_SAFETITLE
+  fullName: NVAPIWrapper._NVVIOOUTPUTAREA.NVVIOOUTPUTAREA_SAFETITLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTAREA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOOUTPUTAREA_SAFETITLE
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTAREA.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOOUTPUTAREA_SAFETITLE = 2
+    return:
+      type: NVAPIWrapper._NVVIOOUTPUTAREA
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVVIOOUTPUTAREA
+  commentId: T:NVAPIWrapper._NVVIOOUTPUTAREA
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOOUTPUTAREA.html
+  name: _NVVIOOUTPUTAREA
+  nameWithType: _NVVIOOUTPUTAREA
+  fullName: NVAPIWrapper._NVVIOOUTPUTAREA

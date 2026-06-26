@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN
+  commentId: T:NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN
+  id: EValues_LATENCY_INDICATOR_AUTOALIGN
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN.LATENCY_INDICATOR_AUTOALIGN_DEFAULT
+  - NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN.LATENCY_INDICATOR_AUTOALIGN_DISABLED
+  - NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN.LATENCY_INDICATOR_AUTOALIGN_ENABLED
+  - NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN.LATENCY_INDICATOR_AUTOALIGN_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_LATENCY_INDICATOR_AUTOALIGN
+  nameWithType: EValues_LATENCY_INDICATOR_AUTOALIGN
+  fullName: NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_LATENCY_INDICATOR_AUTOALIGN.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_LATENCY_INDICATOR_AUTOALIGN
+    path: ../NVAPIWrapper/cs_generated/EValues_LATENCY_INDICATOR_AUTOALIGN.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_LATENCY_INDICATOR_AUTOALIGN
+    content.vb: Public Enum EValues_LATENCY_INDICATOR_AUTOALIGN
+- uid: NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN.LATENCY_INDICATOR_AUTOALIGN_DISABLED
+  commentId: F:NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN.LATENCY_INDICATOR_AUTOALIGN_DISABLED
+  id: LATENCY_INDICATOR_AUTOALIGN_DISABLED
+  parent: NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN
+  langs:
+  - csharp
+  - vb
+  name: LATENCY_INDICATOR_AUTOALIGN_DISABLED
+  nameWithType: EValues_LATENCY_INDICATOR_AUTOALIGN.LATENCY_INDICATOR_AUTOALIGN_DISABLED
+  fullName: NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN.LATENCY_INDICATOR_AUTOALIGN_DISABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_LATENCY_INDICATOR_AUTOALIGN.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: LATENCY_INDICATOR_AUTOALIGN_DISABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_LATENCY_INDICATOR_AUTOALIGN.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: LATENCY_INDICATOR_AUTOALIGN_DISABLED = 0
+    return:
+      type: NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN
+- uid: NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN.LATENCY_INDICATOR_AUTOALIGN_ENABLED
+  commentId: F:NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN.LATENCY_INDICATOR_AUTOALIGN_ENABLED
+  id: LATENCY_INDICATOR_AUTOALIGN_ENABLED
+  parent: NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN
+  langs:
+  - csharp
+  - vb
+  name: LATENCY_INDICATOR_AUTOALIGN_ENABLED
+  nameWithType: EValues_LATENCY_INDICATOR_AUTOALIGN.LATENCY_INDICATOR_AUTOALIGN_ENABLED
+  fullName: NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN.LATENCY_INDICATOR_AUTOALIGN_ENABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_LATENCY_INDICATOR_AUTOALIGN.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: LATENCY_INDICATOR_AUTOALIGN_ENABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_LATENCY_INDICATOR_AUTOALIGN.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: LATENCY_INDICATOR_AUTOALIGN_ENABLED = 1
+    return:
+      type: NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN
+- uid: NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN.LATENCY_INDICATOR_AUTOALIGN_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN.LATENCY_INDICATOR_AUTOALIGN_NUM_VALUES
+  id: LATENCY_INDICATOR_AUTOALIGN_NUM_VALUES
+  parent: NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN
+  langs:
+  - csharp
+  - vb
+  name: LATENCY_INDICATOR_AUTOALIGN_NUM_VALUES
+  nameWithType: EValues_LATENCY_INDICATOR_AUTOALIGN.LATENCY_INDICATOR_AUTOALIGN_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN.LATENCY_INDICATOR_AUTOALIGN_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_LATENCY_INDICATOR_AUTOALIGN.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: LATENCY_INDICATOR_AUTOALIGN_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_LATENCY_INDICATOR_AUTOALIGN.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: LATENCY_INDICATOR_AUTOALIGN_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN
+- uid: NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN.LATENCY_INDICATOR_AUTOALIGN_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN.LATENCY_INDICATOR_AUTOALIGN_DEFAULT
+  id: LATENCY_INDICATOR_AUTOALIGN_DEFAULT
+  parent: NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN
+  langs:
+  - csharp
+  - vb
+  name: LATENCY_INDICATOR_AUTOALIGN_DEFAULT
+  nameWithType: EValues_LATENCY_INDICATOR_AUTOALIGN.LATENCY_INDICATOR_AUTOALIGN_DEFAULT
+  fullName: NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN.LATENCY_INDICATOR_AUTOALIGN_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_LATENCY_INDICATOR_AUTOALIGN.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: LATENCY_INDICATOR_AUTOALIGN_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_LATENCY_INDICATOR_AUTOALIGN.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: LATENCY_INDICATOR_AUTOALIGN_DEFAULT = 1
+    return:
+      type: NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN
+  commentId: T:NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN.html
+  name: EValues_LATENCY_INDICATOR_AUTOALIGN
+  nameWithType: EValues_LATENCY_INDICATOR_AUTOALIGN
+  fullName: NVAPIWrapper.EValues_LATENCY_INDICATOR_AUTOALIGN

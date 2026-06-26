@@ -1,0 +1,468 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO
+  commentId: T:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO
+  id: _NV_MANAGED_DEDICATED_DISPLAY_INFO
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO._bitfield
+  - NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.displayId
+  - NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.isAcquired
+  - NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.isMosaic
+  - NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.reserved
+  - NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.version
+  langs:
+  - csharp
+  - vb
+  name: _NV_MANAGED_DEDICATED_DISPLAY_INFO
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_INFO
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_MANAGED_DEDICATED_DISPLAY_INFO
+    path: ../NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_INFO.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NV_MANAGED_DEDICATED_DISPLAY_INFO
+    content.vb: Public Structure _NV_MANAGED_DEDICATED_DISPLAY_INFO
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.version
+  commentId: F:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.version
+  id: version
+  parent: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_INFO.version
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.version
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: version
+    path: ../NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_INFO.cs
+    startLine: 7
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint version
+    return:
+      type: System.UInt32
+    content.vb: Public version As UInteger
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.displayId
+  commentId: F:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.displayId
+  id: displayId
+  parent: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO
+  langs:
+  - csharp
+  - vb
+  name: displayId
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_INFO.displayId
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.displayId
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: displayId
+    path: ../NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_INFO.cs
+    startLine: 11
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint displayId
+    return:
+      type: System.UInt32
+    content.vb: Public displayId As UInteger
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO._bitfield
+  commentId: F:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO._bitfield
+  id: _bitfield
+  parent: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO
+  langs:
+  - csharp
+  - vb
+  name: _bitfield
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_INFO._bitfield
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO._bitfield
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield
+    path: ../NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_INFO.cs
+    startLine: 13
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield As UInteger
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.isAcquired
+  commentId: P:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.isAcquired
+  id: isAcquired
+  parent: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO
+  langs:
+  - csharp
+  - vb
+  name: isAcquired
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_INFO.isAcquired
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.isAcquired
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isAcquired
+    path: ../NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_INFO.cs
+    startLine: 16
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isAcquired { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isAcquired As UInteger
+  overload: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.isAcquired*
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.isMosaic
+  commentId: P:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.isMosaic
+  id: isMosaic
+  parent: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO
+  langs:
+  - csharp
+  - vb
+  name: isMosaic
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_INFO.isMosaic
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.isMosaic
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isMosaic
+    path: ../NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_INFO.cs
+    startLine: 31
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isMosaic { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isMosaic As UInteger
+  overload: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.isMosaic*
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.reserved
+  commentId: P:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.reserved
+  id: reserved
+  parent: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO
+  langs:
+  - csharp
+  - vb
+  name: reserved
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_INFO.reserved
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.reserved
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved
+    path: ../NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_INFO.cs
+    startLine: 46
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved As UInteger
+  overload: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.reserved*
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.isAcquired*
+  commentId: Overload:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.isAcquired
+  href: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.html#NVAPIWrapper__NV_MANAGED_DEDICATED_DISPLAY_INFO_isAcquired
+  name: isAcquired
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_INFO.isAcquired
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.isAcquired
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.isMosaic*
+  commentId: Overload:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.isMosaic
+  href: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.html#NVAPIWrapper__NV_MANAGED_DEDICATED_DISPLAY_INFO_isMosaic
+  name: isMosaic
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_INFO.isMosaic
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.isMosaic
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.reserved*
+  commentId: Overload:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.reserved
+  href: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.html#NVAPIWrapper__NV_MANAGED_DEDICATED_DISPLAY_INFO_reserved
+  name: reserved
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_INFO.reserved
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_INFO.reserved

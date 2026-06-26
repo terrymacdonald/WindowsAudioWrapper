@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+  commentId: T:NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+  id: EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_AUTOSELECT
+  - NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_DEFAULT
+  - NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_FOUR
+  - NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_NUM_VALUES
+  - NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_ONE
+  - NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_THREE
+  - NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_TWO
+  langs:
+  - csharp
+  - vb
+  name: EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+  nameWithType: EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+  fullName: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_GPU_COUNT_DX10.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+    path: ../NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_GPU_COUNT_DX10.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+    content.vb: Public Enum EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+- uid: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_AUTOSELECT
+  commentId: F:NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_AUTOSELECT
+  id: SLI_PREDEFINED_GPU_COUNT_DX10_AUTOSELECT
+  parent: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+  langs:
+  - csharp
+  - vb
+  name: SLI_PREDEFINED_GPU_COUNT_DX10_AUTOSELECT
+  nameWithType: EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_AUTOSELECT
+  fullName: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_AUTOSELECT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_GPU_COUNT_DX10.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SLI_PREDEFINED_GPU_COUNT_DX10_AUTOSELECT
+    path: ../NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_GPU_COUNT_DX10.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SLI_PREDEFINED_GPU_COUNT_DX10_AUTOSELECT = 0
+    return:
+      type: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+- uid: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_ONE
+  commentId: F:NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_ONE
+  id: SLI_PREDEFINED_GPU_COUNT_DX10_ONE
+  parent: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+  langs:
+  - csharp
+  - vb
+  name: SLI_PREDEFINED_GPU_COUNT_DX10_ONE
+  nameWithType: EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_ONE
+  fullName: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_ONE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_GPU_COUNT_DX10.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SLI_PREDEFINED_GPU_COUNT_DX10_ONE
+    path: ../NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_GPU_COUNT_DX10.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SLI_PREDEFINED_GPU_COUNT_DX10_ONE = 1
+    return:
+      type: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+- uid: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_TWO
+  commentId: F:NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_TWO
+  id: SLI_PREDEFINED_GPU_COUNT_DX10_TWO
+  parent: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+  langs:
+  - csharp
+  - vb
+  name: SLI_PREDEFINED_GPU_COUNT_DX10_TWO
+  nameWithType: EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_TWO
+  fullName: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_TWO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_GPU_COUNT_DX10.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SLI_PREDEFINED_GPU_COUNT_DX10_TWO
+    path: ../NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_GPU_COUNT_DX10.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SLI_PREDEFINED_GPU_COUNT_DX10_TWO = 2
+    return:
+      type: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+- uid: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_THREE
+  commentId: F:NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_THREE
+  id: SLI_PREDEFINED_GPU_COUNT_DX10_THREE
+  parent: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+  langs:
+  - csharp
+  - vb
+  name: SLI_PREDEFINED_GPU_COUNT_DX10_THREE
+  nameWithType: EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_THREE
+  fullName: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_THREE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_GPU_COUNT_DX10.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SLI_PREDEFINED_GPU_COUNT_DX10_THREE
+    path: ../NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_GPU_COUNT_DX10.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SLI_PREDEFINED_GPU_COUNT_DX10_THREE = 3
+    return:
+      type: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+- uid: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_FOUR
+  commentId: F:NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_FOUR
+  id: SLI_PREDEFINED_GPU_COUNT_DX10_FOUR
+  parent: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+  langs:
+  - csharp
+  - vb
+  name: SLI_PREDEFINED_GPU_COUNT_DX10_FOUR
+  nameWithType: EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_FOUR
+  fullName: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_FOUR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_GPU_COUNT_DX10.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SLI_PREDEFINED_GPU_COUNT_DX10_FOUR
+    path: ../NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_GPU_COUNT_DX10.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SLI_PREDEFINED_GPU_COUNT_DX10_FOUR = 4
+    return:
+      type: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+- uid: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_NUM_VALUES
+  id: SLI_PREDEFINED_GPU_COUNT_DX10_NUM_VALUES
+  parent: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+  langs:
+  - csharp
+  - vb
+  name: SLI_PREDEFINED_GPU_COUNT_DX10_NUM_VALUES
+  nameWithType: EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_GPU_COUNT_DX10.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SLI_PREDEFINED_GPU_COUNT_DX10_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_GPU_COUNT_DX10.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SLI_PREDEFINED_GPU_COUNT_DX10_NUM_VALUES = 5
+    return:
+      type: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+- uid: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_DEFAULT
+  id: SLI_PREDEFINED_GPU_COUNT_DX10_DEFAULT
+  parent: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+  langs:
+  - csharp
+  - vb
+  name: SLI_PREDEFINED_GPU_COUNT_DX10_DEFAULT
+  nameWithType: EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_DEFAULT
+  fullName: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.SLI_PREDEFINED_GPU_COUNT_DX10_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_GPU_COUNT_DX10.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SLI_PREDEFINED_GPU_COUNT_DX10_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_GPU_COUNT_DX10.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SLI_PREDEFINED_GPU_COUNT_DX10_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+  commentId: T:NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10.html
+  name: EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+  nameWithType: EValues_SLI_PREDEFINED_GPU_COUNT_DX10
+  fullName: NVAPIWrapper.EValues_SLI_PREDEFINED_GPU_COUNT_DX10

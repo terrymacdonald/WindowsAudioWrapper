@@ -1,0 +1,1483 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  commentId: T:NVAPIWrapper._NVDRS_GPU_SUPPORT
+  id: _NVDRS_GPU_SUPPORT
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT._bitfield
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.geforce
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.nvs
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.quadro
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved10
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved11
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved12
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved13
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved14
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved15
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved16
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved17
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved18
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved19
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved20
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved21
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved22
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved23
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved24
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved25
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved26
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved27
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved28
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved29
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved30
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved31
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved32
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved4
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved5
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved6
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved7
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved8
+  - NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved9
+  langs:
+  - csharp
+  - vb
+  name: _NVDRS_GPU_SUPPORT
+  nameWithType: _NVDRS_GPU_SUPPORT
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVDRS_GPU_SUPPORT
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NVDRS_GPU_SUPPORT
+    content.vb: Public Structure _NVDRS_GPU_SUPPORT
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT._bitfield
+  commentId: F:NVAPIWrapper._NVDRS_GPU_SUPPORT._bitfield
+  id: _bitfield
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: _bitfield
+  nameWithType: _NVDRS_GPU_SUPPORT._bitfield
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT._bitfield
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 5
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield As UInteger
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.geforce
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.geforce
+  id: geforce
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: geforce
+  nameWithType: _NVDRS_GPU_SUPPORT.geforce
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.geforce
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: geforce
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 8
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint geforce { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property geforce As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.geforce*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.quadro
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.quadro
+  id: quadro
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: quadro
+  nameWithType: _NVDRS_GPU_SUPPORT.quadro
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.quadro
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: quadro
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 23
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint quadro { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property quadro As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.quadro*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.nvs
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.nvs
+  id: nvs
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: nvs
+  nameWithType: _NVDRS_GPU_SUPPORT.nvs
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.nvs
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: nvs
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 38
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint nvs { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property nvs As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.nvs*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved4
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved4
+  id: reserved4
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved4
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved4
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved4
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved4
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 53
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved4 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved4 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved4*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved5
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved5
+  id: reserved5
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved5
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved5
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved5
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved5
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 68
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved5 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved5 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved5*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved6
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved6
+  id: reserved6
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved6
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved6
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved6
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved6
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 83
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved6 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved6 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved6*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved7
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved7
+  id: reserved7
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved7
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved7
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved7
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved7
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 98
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved7 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved7 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved7*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved8
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved8
+  id: reserved8
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved8
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved8
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved8
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved8
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 113
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved8 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved8 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved8*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved9
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved9
+  id: reserved9
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved9
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved9
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved9
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved9
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 128
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved9 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved9 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved9*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved10
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved10
+  id: reserved10
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved10
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved10
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved10
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved10
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 143
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved10 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved10 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved10*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved11
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved11
+  id: reserved11
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved11
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved11
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved11
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved11
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 158
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved11 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved11 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved11*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved12
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved12
+  id: reserved12
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved12
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved12
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved12
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved12
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 173
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved12 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved12 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved12*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved13
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved13
+  id: reserved13
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved13
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved13
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved13
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved13
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 188
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved13 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved13 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved13*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved14
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved14
+  id: reserved14
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved14
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved14
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved14
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved14
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 203
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved14 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved14 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved14*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved15
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved15
+  id: reserved15
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved15
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved15
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved15
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved15
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 218
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved15 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved15 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved15*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved16
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved16
+  id: reserved16
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved16
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved16
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved16
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved16
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 233
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved16 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved16 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved16*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved17
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved17
+  id: reserved17
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved17
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved17
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved17
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved17
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 248
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved17 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved17 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved17*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved18
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved18
+  id: reserved18
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved18
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved18
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved18
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved18
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 263
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved18 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved18 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved18*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved19
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved19
+  id: reserved19
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved19
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved19
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved19
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved19
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 278
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved19 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved19 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved19*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved20
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved20
+  id: reserved20
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved20
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved20
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved20
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved20
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 293
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved20 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved20 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved20*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved21
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved21
+  id: reserved21
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved21
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved21
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved21
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved21
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 308
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved21 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved21 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved21*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved22
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved22
+  id: reserved22
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved22
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved22
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved22
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved22
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 323
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved22 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved22 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved22*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved23
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved23
+  id: reserved23
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved23
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved23
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved23
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved23
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 338
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved23 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved23 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved23*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved24
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved24
+  id: reserved24
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved24
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved24
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved24
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved24
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 353
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved24 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved24 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved24*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved25
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved25
+  id: reserved25
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved25
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved25
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved25
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved25
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 368
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved25 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved25 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved25*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved26
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved26
+  id: reserved26
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved26
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved26
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved26
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved26
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 383
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved26 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved26 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved26*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved27
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved27
+  id: reserved27
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved27
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved27
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved27
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved27
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 398
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved27 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved27 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved27*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved28
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved28
+  id: reserved28
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved28
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved28
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved28
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved28
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 413
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved28 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved28 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved28*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved29
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved29
+  id: reserved29
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved29
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved29
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved29
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved29
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 428
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved29 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved29 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved29*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved30
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved30
+  id: reserved30
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved30
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved30
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved30
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved30
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 443
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved30 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved30 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved30*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved31
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved31
+  id: reserved31
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved31
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved31
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved31
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved31
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 458
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved31 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved31 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved31*
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved32
+  commentId: P:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved32
+  id: reserved32
+  parent: NVAPIWrapper._NVDRS_GPU_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: reserved32
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved32
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved32
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved32
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_GPU_SUPPORT.cs
+    startLine: 473
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved32 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved32 As UInteger
+  overload: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved32*
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.geforce*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.geforce
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_geforce
+  name: geforce
+  nameWithType: _NVDRS_GPU_SUPPORT.geforce
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.geforce
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.quadro*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.quadro
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_quadro
+  name: quadro
+  nameWithType: _NVDRS_GPU_SUPPORT.quadro
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.quadro
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.nvs*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.nvs
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_nvs
+  name: nvs
+  nameWithType: _NVDRS_GPU_SUPPORT.nvs
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.nvs
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved4*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved4
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved4
+  name: reserved4
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved4
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved4
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved5*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved5
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved5
+  name: reserved5
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved5
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved5
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved6*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved6
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved6
+  name: reserved6
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved6
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved6
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved7*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved7
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved7
+  name: reserved7
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved7
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved7
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved8*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved8
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved8
+  name: reserved8
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved8
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved8
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved9*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved9
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved9
+  name: reserved9
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved9
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved9
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved10*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved10
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved10
+  name: reserved10
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved10
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved10
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved11*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved11
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved11
+  name: reserved11
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved11
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved11
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved12*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved12
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved12
+  name: reserved12
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved12
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved12
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved13*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved13
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved13
+  name: reserved13
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved13
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved13
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved14*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved14
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved14
+  name: reserved14
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved14
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved14
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved15*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved15
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved15
+  name: reserved15
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved15
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved15
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved16*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved16
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved16
+  name: reserved16
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved16
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved16
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved17*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved17
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved17
+  name: reserved17
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved17
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved17
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved18*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved18
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved18
+  name: reserved18
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved18
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved18
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved19*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved19
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved19
+  name: reserved19
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved19
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved19
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved20*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved20
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved20
+  name: reserved20
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved20
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved20
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved21*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved21
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved21
+  name: reserved21
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved21
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved21
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved22*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved22
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved22
+  name: reserved22
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved22
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved22
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved23*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved23
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved23
+  name: reserved23
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved23
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved23
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved24*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved24
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved24
+  name: reserved24
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved24
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved24
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved25*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved25
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved25
+  name: reserved25
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved25
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved25
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved26*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved26
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved26
+  name: reserved26
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved26
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved26
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved27*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved27
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved27
+  name: reserved27
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved27
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved27
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved28*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved28
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved28
+  name: reserved28
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved28
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved28
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved29*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved29
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved29
+  name: reserved29
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved29
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved29
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved30*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved30
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved30
+  name: reserved30
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved30
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved30
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved31*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved31
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved31
+  name: reserved31
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved31
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved31
+- uid: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved32*
+  commentId: Overload:NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved32
+  href: NVAPIWrapper._NVDRS_GPU_SUPPORT.html#NVAPIWrapper__NVDRS_GPU_SUPPORT_reserved32
+  name: reserved32
+  nameWithType: _NVDRS_GPU_SUPPORT.reserved32
+  fullName: NVAPIWrapper._NVDRS_GPU_SUPPORT.reserved32

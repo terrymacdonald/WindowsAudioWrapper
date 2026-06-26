@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+  commentId: T:NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+  id: _NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.NVAPI_GSYNC_DIVIDE_MODE
+  - NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.NVAPI_GSYNC_MULTIPLY_MODE
+  - NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.NVAPI_GSYNC_UNDEFINED_MODE
+  langs:
+  - csharp
+  - vb
+  name: _NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+  nameWithType: _NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+  fullName: NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+    content.vb: Public Enum _NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+- uid: NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.NVAPI_GSYNC_UNDEFINED_MODE
+  commentId: F:NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.NVAPI_GSYNC_UNDEFINED_MODE
+  id: NVAPI_GSYNC_UNDEFINED_MODE
+  parent: NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GSYNC_UNDEFINED_MODE
+  nameWithType: _NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.NVAPI_GSYNC_UNDEFINED_MODE
+  fullName: NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.NVAPI_GSYNC_UNDEFINED_MODE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GSYNC_UNDEFINED_MODE
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GSYNC_UNDEFINED_MODE = 0
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+- uid: NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.NVAPI_GSYNC_MULTIPLY_MODE
+  commentId: F:NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.NVAPI_GSYNC_MULTIPLY_MODE
+  id: NVAPI_GSYNC_MULTIPLY_MODE
+  parent: NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GSYNC_MULTIPLY_MODE
+  nameWithType: _NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.NVAPI_GSYNC_MULTIPLY_MODE
+  fullName: NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.NVAPI_GSYNC_MULTIPLY_MODE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GSYNC_MULTIPLY_MODE
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GSYNC_MULTIPLY_MODE = 1
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+- uid: NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.NVAPI_GSYNC_DIVIDE_MODE
+  commentId: F:NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.NVAPI_GSYNC_DIVIDE_MODE
+  id: NVAPI_GSYNC_DIVIDE_MODE
+  parent: NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GSYNC_DIVIDE_MODE
+  nameWithType: _NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.NVAPI_GSYNC_DIVIDE_MODE
+  fullName: NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.NVAPI_GSYNC_DIVIDE_MODE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GSYNC_DIVIDE_MODE
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GSYNC_DIVIDE_MODE = 2
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+  commentId: T:NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.html
+  name: _NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+  nameWithType: _NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+  fullName: NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE

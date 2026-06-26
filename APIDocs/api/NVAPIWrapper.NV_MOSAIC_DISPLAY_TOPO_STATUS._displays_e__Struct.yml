@@ -1,0 +1,460 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct
+  commentId: T:NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct
+  id: NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct._bitfield
+  - NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.displayId
+  - NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.errorFlags
+  - NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.reserved
+  - NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.supportsRotation
+  - NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.warningFlags
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct
+  nameWithType: NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct
+  fullName: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_DISPLAY_TOPO_STATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _displays_e__Struct
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_DISPLAY_TOPO_STATUS.cs
+    startLine: 28
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct
+    content.vb: Public Structure NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.displayId
+  commentId: F:NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.displayId
+  id: displayId
+  parent: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: displayId
+  nameWithType: NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.displayId
+  fullName: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.displayId
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_DISPLAY_TOPO_STATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: displayId
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_DISPLAY_TOPO_STATUS.cs
+    startLine: 32
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint displayId
+    return:
+      type: System.UInt32
+    content.vb: Public displayId As UInteger
+- uid: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.errorFlags
+  commentId: F:NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.errorFlags
+  id: errorFlags
+  parent: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: errorFlags
+  nameWithType: NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.errorFlags
+  fullName: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.errorFlags
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_DISPLAY_TOPO_STATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: errorFlags
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_DISPLAY_TOPO_STATUS.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint errorFlags
+    return:
+      type: System.UInt32
+    content.vb: Public errorFlags As UInteger
+- uid: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.warningFlags
+  commentId: F:NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.warningFlags
+  id: warningFlags
+  parent: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: warningFlags
+  nameWithType: NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.warningFlags
+  fullName: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.warningFlags
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_DISPLAY_TOPO_STATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: warningFlags
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_DISPLAY_TOPO_STATUS.cs
+    startLine: 40
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint warningFlags
+    return:
+      type: System.UInt32
+    content.vb: Public warningFlags As UInteger
+- uid: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct._bitfield
+  commentId: F:NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct._bitfield
+  id: _bitfield
+  parent: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: _bitfield
+  nameWithType: NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct._bitfield
+  fullName: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct._bitfield
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_DISPLAY_TOPO_STATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_DISPLAY_TOPO_STATUS.cs
+    startLine: 42
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield As UInteger
+- uid: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.supportsRotation
+  commentId: P:NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.supportsRotation
+  id: supportsRotation
+  parent: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: supportsRotation
+  nameWithType: NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.supportsRotation
+  fullName: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.supportsRotation
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_DISPLAY_TOPO_STATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: supportsRotation
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_DISPLAY_TOPO_STATUS.cs
+    startLine: 45
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint supportsRotation { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property supportsRotation As UInteger
+  overload: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.supportsRotation*
+- uid: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.reserved
+  commentId: P:NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.reserved
+  id: reserved
+  parent: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: reserved
+  nameWithType: NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.reserved
+  fullName: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.reserved
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_DISPLAY_TOPO_STATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_DISPLAY_TOPO_STATUS.cs
+    startLine: 60
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved As UInteger
+  overload: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.reserved*
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.supportsRotation*
+  commentId: Overload:NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.supportsRotation
+  href: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.html#NVAPIWrapper_NV_MOSAIC_DISPLAY_TOPO_STATUS__displays_e__Struct_supportsRotation
+  name: supportsRotation
+  nameWithType: NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.supportsRotation
+  fullName: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.supportsRotation
+- uid: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.reserved*
+  commentId: Overload:NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.reserved
+  href: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.html#NVAPIWrapper_NV_MOSAIC_DISPLAY_TOPO_STATUS__displays_e__Struct_reserved
+  name: reserved
+  nameWithType: NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.reserved
+  fullName: NVAPIWrapper.NV_MOSAIC_DISPLAY_TOPO_STATUS._displays_e__Struct.reserved

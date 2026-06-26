@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE
+  commentId: T:NVAPIWrapper._NV_LICENSE_FEATURE_TYPE
+  id: _NV_LICENSE_FEATURE_TYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_COMPUTE
+  - NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_GAMING
+  - NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_NVIDIA_RTX
+  - NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_QUADRO
+  - NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_UNKNOWN
+  - NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_VGPU
+  langs:
+  - csharp
+  - vb
+  name: _NV_LICENSE_FEATURE_TYPE
+  nameWithType: _NV_LICENSE_FEATURE_TYPE
+  fullName: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LICENSE_FEATURE_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_LICENSE_FEATURE_TYPE
+    path: ../NVAPIWrapper/cs_generated/_NV_LICENSE_FEATURE_TYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_LICENSE_FEATURE_TYPE
+    content.vb: Public Enum _NV_LICENSE_FEATURE_TYPE
+- uid: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_UNKNOWN
+  commentId: F:NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_UNKNOWN
+  id: NV_LICENSE_FEATURE_UNKNOWN
+  parent: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_LICENSE_FEATURE_UNKNOWN
+  nameWithType: _NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_UNKNOWN
+  fullName: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LICENSE_FEATURE_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_LICENSE_FEATURE_UNKNOWN
+    path: ../NVAPIWrapper/cs_generated/_NV_LICENSE_FEATURE_TYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_LICENSE_FEATURE_UNKNOWN = 0
+    return:
+      type: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE
+- uid: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_VGPU
+  commentId: F:NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_VGPU
+  id: NV_LICENSE_FEATURE_VGPU
+  parent: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_LICENSE_FEATURE_VGPU
+  nameWithType: _NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_VGPU
+  fullName: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_VGPU
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LICENSE_FEATURE_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_LICENSE_FEATURE_VGPU
+    path: ../NVAPIWrapper/cs_generated/_NV_LICENSE_FEATURE_TYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_LICENSE_FEATURE_VGPU = 1
+    return:
+      type: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE
+- uid: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_NVIDIA_RTX
+  commentId: F:NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_NVIDIA_RTX
+  id: NV_LICENSE_FEATURE_NVIDIA_RTX
+  parent: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_LICENSE_FEATURE_NVIDIA_RTX
+  nameWithType: _NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_NVIDIA_RTX
+  fullName: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_NVIDIA_RTX
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LICENSE_FEATURE_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_LICENSE_FEATURE_NVIDIA_RTX
+    path: ../NVAPIWrapper/cs_generated/_NV_LICENSE_FEATURE_TYPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_LICENSE_FEATURE_NVIDIA_RTX = 2
+    return:
+      type: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE
+- uid: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_QUADRO
+  commentId: F:NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_QUADRO
+  id: NV_LICENSE_FEATURE_QUADRO
+  parent: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_LICENSE_FEATURE_QUADRO
+  nameWithType: _NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_QUADRO
+  fullName: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_QUADRO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LICENSE_FEATURE_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_LICENSE_FEATURE_QUADRO
+    path: ../NVAPIWrapper/cs_generated/_NV_LICENSE_FEATURE_TYPE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_LICENSE_FEATURE_QUADRO = 2
+    return:
+      type: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE
+- uid: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_GAMING
+  commentId: F:NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_GAMING
+  id: NV_LICENSE_FEATURE_GAMING
+  parent: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_LICENSE_FEATURE_GAMING
+  nameWithType: _NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_GAMING
+  fullName: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_GAMING
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LICENSE_FEATURE_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_LICENSE_FEATURE_GAMING
+    path: ../NVAPIWrapper/cs_generated/_NV_LICENSE_FEATURE_TYPE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_LICENSE_FEATURE_GAMING = 3
+    return:
+      type: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE
+- uid: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_COMPUTE
+  commentId: F:NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_COMPUTE
+  id: NV_LICENSE_FEATURE_COMPUTE
+  parent: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_LICENSE_FEATURE_COMPUTE
+  nameWithType: _NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_COMPUTE
+  fullName: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.NV_LICENSE_FEATURE_COMPUTE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LICENSE_FEATURE_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_LICENSE_FEATURE_COMPUTE
+    path: ../NVAPIWrapper/cs_generated/_NV_LICENSE_FEATURE_TYPE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_LICENSE_FEATURE_COMPUTE = 4
+    return:
+      type: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE
+  commentId: T:NVAPIWrapper._NV_LICENSE_FEATURE_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.html
+  name: _NV_LICENSE_FEATURE_TYPE
+  nameWithType: _NV_LICENSE_FEATURE_TYPE
+  fullName: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE

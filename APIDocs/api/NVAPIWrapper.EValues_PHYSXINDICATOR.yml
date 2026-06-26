@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_PHYSXINDICATOR
+  commentId: T:NVAPIWrapper.EValues_PHYSXINDICATOR
+  id: EValues_PHYSXINDICATOR
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_PHYSXINDICATOR.PHYSXINDICATOR_DEFAULT
+  - NVAPIWrapper.EValues_PHYSXINDICATOR.PHYSXINDICATOR_DISABLED
+  - NVAPIWrapper.EValues_PHYSXINDICATOR.PHYSXINDICATOR_ENABLED
+  - NVAPIWrapper.EValues_PHYSXINDICATOR.PHYSXINDICATOR_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_PHYSXINDICATOR
+  nameWithType: EValues_PHYSXINDICATOR
+  fullName: NVAPIWrapper.EValues_PHYSXINDICATOR
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PHYSXINDICATOR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_PHYSXINDICATOR
+    path: ../NVAPIWrapper/cs_generated/EValues_PHYSXINDICATOR.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_PHYSXINDICATOR
+    content.vb: Public Enum EValues_PHYSXINDICATOR
+- uid: NVAPIWrapper.EValues_PHYSXINDICATOR.PHYSXINDICATOR_DISABLED
+  commentId: F:NVAPIWrapper.EValues_PHYSXINDICATOR.PHYSXINDICATOR_DISABLED
+  id: PHYSXINDICATOR_DISABLED
+  parent: NVAPIWrapper.EValues_PHYSXINDICATOR
+  langs:
+  - csharp
+  - vb
+  name: PHYSXINDICATOR_DISABLED
+  nameWithType: EValues_PHYSXINDICATOR.PHYSXINDICATOR_DISABLED
+  fullName: NVAPIWrapper.EValues_PHYSXINDICATOR.PHYSXINDICATOR_DISABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PHYSXINDICATOR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PHYSXINDICATOR_DISABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_PHYSXINDICATOR.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PHYSXINDICATOR_DISABLED = 877871204
+    return:
+      type: NVAPIWrapper.EValues_PHYSXINDICATOR
+- uid: NVAPIWrapper.EValues_PHYSXINDICATOR.PHYSXINDICATOR_ENABLED
+  commentId: F:NVAPIWrapper.EValues_PHYSXINDICATOR.PHYSXINDICATOR_ENABLED
+  id: PHYSXINDICATOR_ENABLED
+  parent: NVAPIWrapper.EValues_PHYSXINDICATOR
+  langs:
+  - csharp
+  - vb
+  name: PHYSXINDICATOR_ENABLED
+  nameWithType: EValues_PHYSXINDICATOR.PHYSXINDICATOR_ENABLED
+  fullName: NVAPIWrapper.EValues_PHYSXINDICATOR.PHYSXINDICATOR_ENABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PHYSXINDICATOR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PHYSXINDICATOR_ENABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_PHYSXINDICATOR.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PHYSXINDICATOR_ENABLED = 609506690
+    return:
+      type: NVAPIWrapper.EValues_PHYSXINDICATOR
+- uid: NVAPIWrapper.EValues_PHYSXINDICATOR.PHYSXINDICATOR_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_PHYSXINDICATOR.PHYSXINDICATOR_NUM_VALUES
+  id: PHYSXINDICATOR_NUM_VALUES
+  parent: NVAPIWrapper.EValues_PHYSXINDICATOR
+  langs:
+  - csharp
+  - vb
+  name: PHYSXINDICATOR_NUM_VALUES
+  nameWithType: EValues_PHYSXINDICATOR.PHYSXINDICATOR_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_PHYSXINDICATOR.PHYSXINDICATOR_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PHYSXINDICATOR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PHYSXINDICATOR_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_PHYSXINDICATOR.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PHYSXINDICATOR_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_PHYSXINDICATOR
+- uid: NVAPIWrapper.EValues_PHYSXINDICATOR.PHYSXINDICATOR_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_PHYSXINDICATOR.PHYSXINDICATOR_DEFAULT
+  id: PHYSXINDICATOR_DEFAULT
+  parent: NVAPIWrapper.EValues_PHYSXINDICATOR
+  langs:
+  - csharp
+  - vb
+  name: PHYSXINDICATOR_DEFAULT
+  nameWithType: EValues_PHYSXINDICATOR.PHYSXINDICATOR_DEFAULT
+  fullName: NVAPIWrapper.EValues_PHYSXINDICATOR.PHYSXINDICATOR_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PHYSXINDICATOR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PHYSXINDICATOR_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_PHYSXINDICATOR.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PHYSXINDICATOR_DEFAULT = 877871204
+    return:
+      type: NVAPIWrapper.EValues_PHYSXINDICATOR
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_PHYSXINDICATOR
+  commentId: T:NVAPIWrapper.EValues_PHYSXINDICATOR
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_PHYSXINDICATOR.html
+  name: EValues_PHYSXINDICATOR
+  nameWithType: EValues_PHYSXINDICATOR
+  fullName: NVAPIWrapper.EValues_PHYSXINDICATOR

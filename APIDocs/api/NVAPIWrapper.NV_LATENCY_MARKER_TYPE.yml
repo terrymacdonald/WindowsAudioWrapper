@@ -1,0 +1,407 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+  commentId: T:NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+  id: NV_LATENCY_MARKER_TYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_LATENCY_MARKER_TYPE.INPUT_SAMPLE
+  - NVAPIWrapper.NV_LATENCY_MARKER_TYPE.OUT_OF_BAND_PRESENT_END
+  - NVAPIWrapper.NV_LATENCY_MARKER_TYPE.OUT_OF_BAND_PRESENT_START
+  - NVAPIWrapper.NV_LATENCY_MARKER_TYPE.OUT_OF_BAND_RENDERSUBMIT_END
+  - NVAPIWrapper.NV_LATENCY_MARKER_TYPE.OUT_OF_BAND_RENDERSUBMIT_START
+  - NVAPIWrapper.NV_LATENCY_MARKER_TYPE.PC_LATENCY_PING
+  - NVAPIWrapper.NV_LATENCY_MARKER_TYPE.PRESENT_END
+  - NVAPIWrapper.NV_LATENCY_MARKER_TYPE.PRESENT_START
+  - NVAPIWrapper.NV_LATENCY_MARKER_TYPE.RENDERSUBMIT_END
+  - NVAPIWrapper.NV_LATENCY_MARKER_TYPE.RENDERSUBMIT_START
+  - NVAPIWrapper.NV_LATENCY_MARKER_TYPE.SIMULATION_END
+  - NVAPIWrapper.NV_LATENCY_MARKER_TYPE.SIMULATION_START
+  - NVAPIWrapper.NV_LATENCY_MARKER_TYPE.TRIGGER_FLASH
+  langs:
+  - csharp
+  - vb
+  name: NV_LATENCY_MARKER_TYPE
+  nameWithType: NV_LATENCY_MARKER_TYPE
+  fullName: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_LATENCY_MARKER_TYPE
+    path: ../NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_LATENCY_MARKER_TYPE
+    content.vb: Public Enum NV_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.SIMULATION_START
+  commentId: F:NVAPIWrapper.NV_LATENCY_MARKER_TYPE.SIMULATION_START
+  id: SIMULATION_START
+  parent: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: SIMULATION_START
+  nameWithType: NV_LATENCY_MARKER_TYPE.SIMULATION_START
+  fullName: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.SIMULATION_START
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SIMULATION_START
+    path: ../NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SIMULATION_START = 0
+    return:
+      type: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.SIMULATION_END
+  commentId: F:NVAPIWrapper.NV_LATENCY_MARKER_TYPE.SIMULATION_END
+  id: SIMULATION_END
+  parent: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: SIMULATION_END
+  nameWithType: NV_LATENCY_MARKER_TYPE.SIMULATION_END
+  fullName: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.SIMULATION_END
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SIMULATION_END
+    path: ../NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SIMULATION_END = 1
+    return:
+      type: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.RENDERSUBMIT_START
+  commentId: F:NVAPIWrapper.NV_LATENCY_MARKER_TYPE.RENDERSUBMIT_START
+  id: RENDERSUBMIT_START
+  parent: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: RENDERSUBMIT_START
+  nameWithType: NV_LATENCY_MARKER_TYPE.RENDERSUBMIT_START
+  fullName: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.RENDERSUBMIT_START
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: RENDERSUBMIT_START
+    path: ../NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: RENDERSUBMIT_START = 2
+    return:
+      type: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.RENDERSUBMIT_END
+  commentId: F:NVAPIWrapper.NV_LATENCY_MARKER_TYPE.RENDERSUBMIT_END
+  id: RENDERSUBMIT_END
+  parent: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: RENDERSUBMIT_END
+  nameWithType: NV_LATENCY_MARKER_TYPE.RENDERSUBMIT_END
+  fullName: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.RENDERSUBMIT_END
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: RENDERSUBMIT_END
+    path: ../NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: RENDERSUBMIT_END = 3
+    return:
+      type: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.PRESENT_START
+  commentId: F:NVAPIWrapper.NV_LATENCY_MARKER_TYPE.PRESENT_START
+  id: PRESENT_START
+  parent: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: PRESENT_START
+  nameWithType: NV_LATENCY_MARKER_TYPE.PRESENT_START
+  fullName: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.PRESENT_START
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PRESENT_START
+    path: ../NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PRESENT_START = 4
+    return:
+      type: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.PRESENT_END
+  commentId: F:NVAPIWrapper.NV_LATENCY_MARKER_TYPE.PRESENT_END
+  id: PRESENT_END
+  parent: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: PRESENT_END
+  nameWithType: NV_LATENCY_MARKER_TYPE.PRESENT_END
+  fullName: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.PRESENT_END
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PRESENT_END
+    path: ../NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PRESENT_END = 5
+    return:
+      type: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.INPUT_SAMPLE
+  commentId: F:NVAPIWrapper.NV_LATENCY_MARKER_TYPE.INPUT_SAMPLE
+  id: INPUT_SAMPLE
+  parent: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: INPUT_SAMPLE
+  nameWithType: NV_LATENCY_MARKER_TYPE.INPUT_SAMPLE
+  fullName: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.INPUT_SAMPLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: INPUT_SAMPLE
+    path: ../NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: INPUT_SAMPLE = 6
+    return:
+      type: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.TRIGGER_FLASH
+  commentId: F:NVAPIWrapper.NV_LATENCY_MARKER_TYPE.TRIGGER_FLASH
+  id: TRIGGER_FLASH
+  parent: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: TRIGGER_FLASH
+  nameWithType: NV_LATENCY_MARKER_TYPE.TRIGGER_FLASH
+  fullName: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.TRIGGER_FLASH
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: TRIGGER_FLASH
+    path: ../NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: TRIGGER_FLASH = 7
+    return:
+      type: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.PC_LATENCY_PING
+  commentId: F:NVAPIWrapper.NV_LATENCY_MARKER_TYPE.PC_LATENCY_PING
+  id: PC_LATENCY_PING
+  parent: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: PC_LATENCY_PING
+  nameWithType: NV_LATENCY_MARKER_TYPE.PC_LATENCY_PING
+  fullName: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.PC_LATENCY_PING
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PC_LATENCY_PING
+    path: ../NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PC_LATENCY_PING = 8
+    return:
+      type: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.OUT_OF_BAND_RENDERSUBMIT_START
+  commentId: F:NVAPIWrapper.NV_LATENCY_MARKER_TYPE.OUT_OF_BAND_RENDERSUBMIT_START
+  id: OUT_OF_BAND_RENDERSUBMIT_START
+  parent: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: OUT_OF_BAND_RENDERSUBMIT_START
+  nameWithType: NV_LATENCY_MARKER_TYPE.OUT_OF_BAND_RENDERSUBMIT_START
+  fullName: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.OUT_OF_BAND_RENDERSUBMIT_START
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OUT_OF_BAND_RENDERSUBMIT_START
+    path: ../NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OUT_OF_BAND_RENDERSUBMIT_START = 9
+    return:
+      type: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.OUT_OF_BAND_RENDERSUBMIT_END
+  commentId: F:NVAPIWrapper.NV_LATENCY_MARKER_TYPE.OUT_OF_BAND_RENDERSUBMIT_END
+  id: OUT_OF_BAND_RENDERSUBMIT_END
+  parent: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: OUT_OF_BAND_RENDERSUBMIT_END
+  nameWithType: NV_LATENCY_MARKER_TYPE.OUT_OF_BAND_RENDERSUBMIT_END
+  fullName: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.OUT_OF_BAND_RENDERSUBMIT_END
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OUT_OF_BAND_RENDERSUBMIT_END
+    path: ../NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OUT_OF_BAND_RENDERSUBMIT_END = 10
+    return:
+      type: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.OUT_OF_BAND_PRESENT_START
+  commentId: F:NVAPIWrapper.NV_LATENCY_MARKER_TYPE.OUT_OF_BAND_PRESENT_START
+  id: OUT_OF_BAND_PRESENT_START
+  parent: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: OUT_OF_BAND_PRESENT_START
+  nameWithType: NV_LATENCY_MARKER_TYPE.OUT_OF_BAND_PRESENT_START
+  fullName: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.OUT_OF_BAND_PRESENT_START
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OUT_OF_BAND_PRESENT_START
+    path: ../NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+    startLine: 39
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OUT_OF_BAND_PRESENT_START = 11
+    return:
+      type: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+- uid: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.OUT_OF_BAND_PRESENT_END
+  commentId: F:NVAPIWrapper.NV_LATENCY_MARKER_TYPE.OUT_OF_BAND_PRESENT_END
+  id: OUT_OF_BAND_PRESENT_END
+  parent: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: OUT_OF_BAND_PRESENT_END
+  nameWithType: NV_LATENCY_MARKER_TYPE.OUT_OF_BAND_PRESENT_END
+  fullName: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.OUT_OF_BAND_PRESENT_END
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OUT_OF_BAND_PRESENT_END
+    path: ../NVAPIWrapper/cs_generated/NV_LATENCY_MARKER_TYPE.cs
+    startLine: 42
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OUT_OF_BAND_PRESENT_END = 12
+    return:
+      type: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+  commentId: T:NVAPIWrapper.NV_LATENCY_MARKER_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_LATENCY_MARKER_TYPE.html
+  name: NV_LATENCY_MARKER_TYPE
+  nameWithType: NV_LATENCY_MARKER_TYPE
+  fullName: NVAPIWrapper.NV_LATENCY_MARKER_TYPE

@@ -1,0 +1,840 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIGpuVrReadyDto
+  commentId: T:NVAPIWrapper.NVAPIGpuVrReadyDto
+  id: NVAPIGpuVrReadyDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIGpuVrReadyDto.#ctor(System.Boolean)
+  - NVAPIWrapper.NVAPIGpuVrReadyDto.CreateDefault
+  - NVAPIWrapper.NVAPIGpuVrReadyDto.Equals(NVAPIWrapper.NVAPIGpuVrReadyDto)
+  - NVAPIWrapper.NVAPIGpuVrReadyDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIGpuVrReadyDto.FromNative(NVAPIWrapper._NV_GPU_VR_READY_V1)
+  - NVAPIWrapper.NVAPIGpuVrReadyDto.GetHashCode
+  - NVAPIWrapper.NVAPIGpuVrReadyDto.IsVRReady
+  - NVAPIWrapper.NVAPIGpuVrReadyDto.ToNative
+  - NVAPIWrapper.NVAPIGpuVrReadyDto.op_Equality(NVAPIWrapper.NVAPIGpuVrReadyDto,NVAPIWrapper.NVAPIGpuVrReadyDto)
+  - NVAPIWrapper.NVAPIGpuVrReadyDto.op_Inequality(NVAPIWrapper.NVAPIGpuVrReadyDto,NVAPIWrapper.NVAPIGpuVrReadyDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGpuVrReadyDto
+  nameWithType: NVAPIGpuVrReadyDto
+  fullName: NVAPIWrapper.NVAPIGpuVrReadyDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIGpuVrReadyDto
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4687
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: VR Ready DTO.
+  example: []
+  syntax:
+    content: 'public struct NVAPIGpuVrReadyDto : IEquatable<NVAPIGpuVrReadyDto>'
+    content.vb: Public Structure NVAPIGpuVrReadyDto Implements IEquatable(Of NVAPIGpuVrReadyDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGpuVrReadyDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIGpuVrReadyDto.IsVRReady
+  commentId: P:NVAPIWrapper.NVAPIGpuVrReadyDto.IsVRReady
+  id: IsVRReady
+  parent: NVAPIWrapper.NVAPIGpuVrReadyDto
+  langs:
+  - csharp
+  - vb
+  name: IsVRReady
+  nameWithType: NVAPIGpuVrReadyDto.IsVRReady
+  fullName: NVAPIWrapper.NVAPIGpuVrReadyDto.IsVRReady
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: IsVRReady
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4690
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: True if the GPU is VR-ready.
+  example: []
+  syntax:
+    content: public bool IsVRReady { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsVRReady As Boolean
+  overload: NVAPIWrapper.NVAPIGpuVrReadyDto.IsVRReady*
+- uid: NVAPIWrapper.NVAPIGpuVrReadyDto.#ctor(System.Boolean)
+  commentId: M:NVAPIWrapper.NVAPIGpuVrReadyDto.#ctor(System.Boolean)
+  id: '#ctor(System.Boolean)'
+  parent: NVAPIWrapper.NVAPIGpuVrReadyDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGpuVrReadyDto(bool)
+  nameWithType: NVAPIGpuVrReadyDto.NVAPIGpuVrReadyDto(bool)
+  fullName: NVAPIWrapper.NVAPIGpuVrReadyDto.NVAPIGpuVrReadyDto(bool)
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4693
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Initializes a new instance of <xref href="NVAPIWrapper.NVAPIGpuVrReadyDto" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public NVAPIGpuVrReadyDto(bool isVRReady)
+    parameters:
+    - id: isVRReady
+      type: System.Boolean
+    content.vb: Public Sub New(isVRReady As Boolean)
+  overload: NVAPIWrapper.NVAPIGpuVrReadyDto.#ctor*
+  nameWithType.vb: NVAPIGpuVrReadyDto.New(Boolean)
+  fullName.vb: NVAPIWrapper.NVAPIGpuVrReadyDto.New(Boolean)
+  name.vb: New(Boolean)
+- uid: NVAPIWrapper.NVAPIGpuVrReadyDto.FromNative(NVAPIWrapper._NV_GPU_VR_READY_V1)
+  commentId: M:NVAPIWrapper.NVAPIGpuVrReadyDto.FromNative(NVAPIWrapper._NV_GPU_VR_READY_V1)
+  id: FromNative(NVAPIWrapper._NV_GPU_VR_READY_V1)
+  parent: NVAPIWrapper.NVAPIGpuVrReadyDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(_NV_GPU_VR_READY_V1)
+  nameWithType: NVAPIGpuVrReadyDto.FromNative(_NV_GPU_VR_READY_V1)
+  fullName: NVAPIWrapper.NVAPIGpuVrReadyDto.FromNative(NVAPIWrapper._NV_GPU_VR_READY_V1)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4699
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Creates a DTO from the native <xref href="NVAPIWrapper._NV_GPU_VR_READY_V1" data-throw-if-not-resolved="false"></xref> struct.
+  example: []
+  syntax:
+    content: public static NVAPIGpuVrReadyDto FromNative(_NV_GPU_VR_READY_V1 native)
+    parameters:
+    - id: native
+      type: NVAPIWrapper._NV_GPU_VR_READY_V1
+    return:
+      type: NVAPIWrapper.NVAPIGpuVrReadyDto
+    content.vb: Public Shared Function FromNative(native As _NV_GPU_VR_READY_V1) As NVAPIGpuVrReadyDto
+  overload: NVAPIWrapper.NVAPIGpuVrReadyDto.FromNative*
+- uid: NVAPIWrapper.NVAPIGpuVrReadyDto.CreateDefault
+  commentId: M:NVAPIWrapper.NVAPIGpuVrReadyDto.CreateDefault
+  id: CreateDefault
+  parent: NVAPIWrapper.NVAPIGpuVrReadyDto
+  langs:
+  - csharp
+  - vb
+  name: CreateDefault()
+  nameWithType: NVAPIGpuVrReadyDto.CreateDefault()
+  fullName: NVAPIWrapper.NVAPIGpuVrReadyDto.CreateDefault()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CreateDefault
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4705
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Creates a default (zeroed) DTO with the correct version field.
+  example: []
+  syntax:
+    content: public static NVAPIGpuVrReadyDto CreateDefault()
+    return:
+      type: NVAPIWrapper.NVAPIGpuVrReadyDto
+    content.vb: Public Shared Function CreateDefault() As NVAPIGpuVrReadyDto
+  overload: NVAPIWrapper.NVAPIGpuVrReadyDto.CreateDefault*
+- uid: NVAPIWrapper.NVAPIGpuVrReadyDto.ToNative
+  commentId: M:NVAPIWrapper.NVAPIGpuVrReadyDto.ToNative
+  id: ToNative
+  parent: NVAPIWrapper.NVAPIGpuVrReadyDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: NVAPIGpuVrReadyDto.ToNative()
+  fullName: NVAPIWrapper.NVAPIGpuVrReadyDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4711
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Converts this DTO back to the native <xref href="NVAPIWrapper._NV_GPU_VR_READY_V1" data-throw-if-not-resolved="false"></xref> struct.
+  example: []
+  syntax:
+    content: public _NV_GPU_VR_READY_V1 ToNative()
+    return:
+      type: NVAPIWrapper._NV_GPU_VR_READY_V1
+    content.vb: Public Function ToNative() As _NV_GPU_VR_READY_V1
+  overload: NVAPIWrapper.NVAPIGpuVrReadyDto.ToNative*
+- uid: NVAPIWrapper.NVAPIGpuVrReadyDto.Equals(NVAPIWrapper.NVAPIGpuVrReadyDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuVrReadyDto.Equals(NVAPIWrapper.NVAPIGpuVrReadyDto)
+  id: Equals(NVAPIWrapper.NVAPIGpuVrReadyDto)
+  parent: NVAPIWrapper.NVAPIGpuVrReadyDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIGpuVrReadyDto)
+  nameWithType: NVAPIGpuVrReadyDto.Equals(NVAPIGpuVrReadyDto)
+  fullName: NVAPIWrapper.NVAPIGpuVrReadyDto.Equals(NVAPIWrapper.NVAPIGpuVrReadyDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4719
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIGpuVrReadyDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIGpuVrReadyDto
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As NVAPIGpuVrReadyDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuVrReadyDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGpuVrReadyDto}.Equals(NVAPIWrapper.NVAPIGpuVrReadyDto)
+- uid: NVAPIWrapper.NVAPIGpuVrReadyDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIGpuVrReadyDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIGpuVrReadyDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIGpuVrReadyDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIGpuVrReadyDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4725
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIGpuVrReadyDto.Equals*
+  nameWithType.vb: NVAPIGpuVrReadyDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIGpuVrReadyDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIGpuVrReadyDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIGpuVrReadyDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIGpuVrReadyDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIGpuVrReadyDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIGpuVrReadyDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4727
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIGpuVrReadyDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIGpuVrReadyDto.op_Equality(NVAPIWrapper.NVAPIGpuVrReadyDto,NVAPIWrapper.NVAPIGpuVrReadyDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuVrReadyDto.op_Equality(NVAPIWrapper.NVAPIGpuVrReadyDto,NVAPIWrapper.NVAPIGpuVrReadyDto)
+  id: op_Equality(NVAPIWrapper.NVAPIGpuVrReadyDto,NVAPIWrapper.NVAPIGpuVrReadyDto)
+  parent: NVAPIWrapper.NVAPIGpuVrReadyDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIGpuVrReadyDto, NVAPIGpuVrReadyDto)
+  nameWithType: NVAPIGpuVrReadyDto.operator ==(NVAPIGpuVrReadyDto, NVAPIGpuVrReadyDto)
+  fullName: NVAPIWrapper.NVAPIGpuVrReadyDto.operator ==(NVAPIWrapper.NVAPIGpuVrReadyDto, NVAPIWrapper.NVAPIGpuVrReadyDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4729
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Equality operator.
+  example: []
+  syntax:
+    content: public static bool operator ==(NVAPIGpuVrReadyDto left, NVAPIGpuVrReadyDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGpuVrReadyDto
+    - id: right
+      type: NVAPIWrapper.NVAPIGpuVrReadyDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As NVAPIGpuVrReadyDto, right As NVAPIGpuVrReadyDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuVrReadyDto.op_Equality*
+  nameWithType.vb: NVAPIGpuVrReadyDto.=(NVAPIGpuVrReadyDto, NVAPIGpuVrReadyDto)
+  fullName.vb: NVAPIWrapper.NVAPIGpuVrReadyDto.=(NVAPIWrapper.NVAPIGpuVrReadyDto, NVAPIWrapper.NVAPIGpuVrReadyDto)
+  name.vb: =(NVAPIGpuVrReadyDto, NVAPIGpuVrReadyDto)
+- uid: NVAPIWrapper.NVAPIGpuVrReadyDto.op_Inequality(NVAPIWrapper.NVAPIGpuVrReadyDto,NVAPIWrapper.NVAPIGpuVrReadyDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuVrReadyDto.op_Inequality(NVAPIWrapper.NVAPIGpuVrReadyDto,NVAPIWrapper.NVAPIGpuVrReadyDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIGpuVrReadyDto,NVAPIWrapper.NVAPIGpuVrReadyDto)
+  parent: NVAPIWrapper.NVAPIGpuVrReadyDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIGpuVrReadyDto, NVAPIGpuVrReadyDto)
+  nameWithType: NVAPIGpuVrReadyDto.operator !=(NVAPIGpuVrReadyDto, NVAPIGpuVrReadyDto)
+  fullName: NVAPIWrapper.NVAPIGpuVrReadyDto.operator !=(NVAPIWrapper.NVAPIGpuVrReadyDto, NVAPIWrapper.NVAPIGpuVrReadyDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4731
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Inequality operator.
+  example: []
+  syntax:
+    content: public static bool operator !=(NVAPIGpuVrReadyDto left, NVAPIGpuVrReadyDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGpuVrReadyDto
+    - id: right
+      type: NVAPIWrapper.NVAPIGpuVrReadyDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As NVAPIGpuVrReadyDto, right As NVAPIGpuVrReadyDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuVrReadyDto.op_Inequality*
+  nameWithType.vb: NVAPIGpuVrReadyDto.<>(NVAPIGpuVrReadyDto, NVAPIGpuVrReadyDto)
+  fullName.vb: NVAPIWrapper.NVAPIGpuVrReadyDto.<>(NVAPIWrapper.NVAPIGpuVrReadyDto, NVAPIWrapper.NVAPIGpuVrReadyDto)
+  name.vb: <>(NVAPIGpuVrReadyDto, NVAPIGpuVrReadyDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGpuVrReadyDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIGpuVrReadyDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIGpuVrReadyDto>
+  nameWithType: IEquatable<NVAPIGpuVrReadyDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGpuVrReadyDto>
+  nameWithType.vb: IEquatable(Of NVAPIGpuVrReadyDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGpuVrReadyDto)
+  name.vb: IEquatable(Of NVAPIGpuVrReadyDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIGpuVrReadyDto
+    name: NVAPIGpuVrReadyDto
+    href: NVAPIWrapper.NVAPIGpuVrReadyDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuVrReadyDto
+    name: NVAPIGpuVrReadyDto
+    href: NVAPIWrapper.NVAPIGpuVrReadyDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIGpuVrReadyDto.IsVRReady*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuVrReadyDto.IsVRReady
+  href: NVAPIWrapper.NVAPIGpuVrReadyDto.html#NVAPIWrapper_NVAPIGpuVrReadyDto_IsVRReady
+  name: IsVRReady
+  nameWithType: NVAPIGpuVrReadyDto.IsVRReady
+  fullName: NVAPIWrapper.NVAPIGpuVrReadyDto.IsVRReady
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NVAPIWrapper.NVAPIGpuVrReadyDto
+  commentId: T:NVAPIWrapper.NVAPIGpuVrReadyDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIGpuVrReadyDto.html
+  name: NVAPIGpuVrReadyDto
+  nameWithType: NVAPIGpuVrReadyDto
+  fullName: NVAPIWrapper.NVAPIGpuVrReadyDto
+- uid: NVAPIWrapper.NVAPIGpuVrReadyDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuVrReadyDto.#ctor
+  href: NVAPIWrapper.NVAPIGpuVrReadyDto.html#NVAPIWrapper_NVAPIGpuVrReadyDto__ctor_System_Boolean_
+  name: NVAPIGpuVrReadyDto
+  nameWithType: NVAPIGpuVrReadyDto.NVAPIGpuVrReadyDto
+  fullName: NVAPIWrapper.NVAPIGpuVrReadyDto.NVAPIGpuVrReadyDto
+  nameWithType.vb: NVAPIGpuVrReadyDto.New
+  fullName.vb: NVAPIWrapper.NVAPIGpuVrReadyDto.New
+  name.vb: New
+- uid: NVAPIWrapper._NV_GPU_VR_READY_V1
+  commentId: T:NVAPIWrapper._NV_GPU_VR_READY_V1
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_VR_READY_V1.html
+  name: _NV_GPU_VR_READY_V1
+  nameWithType: _NV_GPU_VR_READY_V1
+  fullName: NVAPIWrapper._NV_GPU_VR_READY_V1
+- uid: NVAPIWrapper.NVAPIGpuVrReadyDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuVrReadyDto.FromNative
+  href: NVAPIWrapper.NVAPIGpuVrReadyDto.html#NVAPIWrapper_NVAPIGpuVrReadyDto_FromNative_NVAPIWrapper__NV_GPU_VR_READY_V1_
+  name: FromNative
+  nameWithType: NVAPIGpuVrReadyDto.FromNative
+  fullName: NVAPIWrapper.NVAPIGpuVrReadyDto.FromNative
+- uid: NVAPIWrapper.NVAPIGpuVrReadyDto.CreateDefault*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuVrReadyDto.CreateDefault
+  href: NVAPIWrapper.NVAPIGpuVrReadyDto.html#NVAPIWrapper_NVAPIGpuVrReadyDto_CreateDefault
+  name: CreateDefault
+  nameWithType: NVAPIGpuVrReadyDto.CreateDefault
+  fullName: NVAPIWrapper.NVAPIGpuVrReadyDto.CreateDefault
+- uid: NVAPIWrapper.NVAPIGpuVrReadyDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuVrReadyDto.ToNative
+  href: NVAPIWrapper.NVAPIGpuVrReadyDto.html#NVAPIWrapper_NVAPIGpuVrReadyDto_ToNative
+  name: ToNative
+  nameWithType: NVAPIGpuVrReadyDto.ToNative
+  fullName: NVAPIWrapper.NVAPIGpuVrReadyDto.ToNative
+- uid: NVAPIWrapper.NVAPIGpuVrReadyDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuVrReadyDto.Equals
+  href: NVAPIWrapper.NVAPIGpuVrReadyDto.html#NVAPIWrapper_NVAPIGpuVrReadyDto_Equals_NVAPIWrapper_NVAPIGpuVrReadyDto_
+  name: Equals
+  nameWithType: NVAPIGpuVrReadyDto.Equals
+  fullName: NVAPIWrapper.NVAPIGpuVrReadyDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGpuVrReadyDto}.Equals(NVAPIWrapper.NVAPIGpuVrReadyDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIGpuVrReadyDto}.Equals(NVAPIWrapper.NVAPIGpuVrReadyDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIGpuVrReadyDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIGpuVrReadyDto)
+  nameWithType: IEquatable<NVAPIGpuVrReadyDto>.Equals(NVAPIGpuVrReadyDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGpuVrReadyDto>.Equals(NVAPIWrapper.NVAPIGpuVrReadyDto)
+  nameWithType.vb: IEquatable(Of NVAPIGpuVrReadyDto).Equals(NVAPIGpuVrReadyDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGpuVrReadyDto).Equals(NVAPIWrapper.NVAPIGpuVrReadyDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGpuVrReadyDto}.Equals(NVAPIWrapper.NVAPIGpuVrReadyDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGpuVrReadyDto
+    name: NVAPIGpuVrReadyDto
+    href: NVAPIWrapper.NVAPIGpuVrReadyDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGpuVrReadyDto}.Equals(NVAPIWrapper.NVAPIGpuVrReadyDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGpuVrReadyDto
+    name: NVAPIGpuVrReadyDto
+    href: NVAPIWrapper.NVAPIGpuVrReadyDto.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIGpuVrReadyDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuVrReadyDto.GetHashCode
+  href: NVAPIWrapper.NVAPIGpuVrReadyDto.html#NVAPIWrapper_NVAPIGpuVrReadyDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIGpuVrReadyDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIGpuVrReadyDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIGpuVrReadyDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuVrReadyDto.op_Equality
+  href: NVAPIWrapper.NVAPIGpuVrReadyDto.html#NVAPIWrapper_NVAPIGpuVrReadyDto_op_Equality_NVAPIWrapper_NVAPIGpuVrReadyDto_NVAPIWrapper_NVAPIGpuVrReadyDto_
+  name: operator ==
+  nameWithType: NVAPIGpuVrReadyDto.operator ==
+  fullName: NVAPIWrapper.NVAPIGpuVrReadyDto.operator ==
+  nameWithType.vb: NVAPIGpuVrReadyDto.=
+  fullName.vb: NVAPIWrapper.NVAPIGpuVrReadyDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuVrReadyDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIGpuVrReadyDto.html#NVAPIWrapper_NVAPIGpuVrReadyDto_op_Equality_NVAPIWrapper_NVAPIGpuVrReadyDto_NVAPIWrapper_NVAPIGpuVrReadyDto_
+- uid: NVAPIWrapper.NVAPIGpuVrReadyDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuVrReadyDto.op_Inequality
+  href: NVAPIWrapper.NVAPIGpuVrReadyDto.html#NVAPIWrapper_NVAPIGpuVrReadyDto_op_Inequality_NVAPIWrapper_NVAPIGpuVrReadyDto_NVAPIWrapper_NVAPIGpuVrReadyDto_
+  name: operator !=
+  nameWithType: NVAPIGpuVrReadyDto.operator !=
+  fullName: NVAPIWrapper.NVAPIGpuVrReadyDto.operator !=
+  nameWithType.vb: NVAPIGpuVrReadyDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIGpuVrReadyDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuVrReadyDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIGpuVrReadyDto.html#NVAPIWrapper_NVAPIGpuVrReadyDto_op_Inequality_NVAPIWrapper_NVAPIGpuVrReadyDto_NVAPIWrapper_NVAPIGpuVrReadyDto_

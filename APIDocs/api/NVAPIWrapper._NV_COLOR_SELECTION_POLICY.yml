@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_COLOR_SELECTION_POLICY
+  commentId: T:NVAPIWrapper._NV_COLOR_SELECTION_POLICY
+  id: _NV_COLOR_SELECTION_POLICY
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_COLOR_SELECTION_POLICY.NV_COLOR_SELECTION_POLICY_BEST_QUALITY
+  - NVAPIWrapper._NV_COLOR_SELECTION_POLICY.NV_COLOR_SELECTION_POLICY_DEFAULT
+  - NVAPIWrapper._NV_COLOR_SELECTION_POLICY.NV_COLOR_SELECTION_POLICY_UNKNOWN
+  - NVAPIWrapper._NV_COLOR_SELECTION_POLICY.NV_COLOR_SELECTION_POLICY_USER
+  langs:
+  - csharp
+  - vb
+  name: _NV_COLOR_SELECTION_POLICY
+  nameWithType: _NV_COLOR_SELECTION_POLICY
+  fullName: NVAPIWrapper._NV_COLOR_SELECTION_POLICY
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_COLOR_SELECTION_POLICY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_COLOR_SELECTION_POLICY
+    path: ../NVAPIWrapper/cs_generated/_NV_COLOR_SELECTION_POLICY.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_COLOR_SELECTION_POLICY
+    content.vb: Public Enum _NV_COLOR_SELECTION_POLICY
+- uid: NVAPIWrapper._NV_COLOR_SELECTION_POLICY.NV_COLOR_SELECTION_POLICY_USER
+  commentId: F:NVAPIWrapper._NV_COLOR_SELECTION_POLICY.NV_COLOR_SELECTION_POLICY_USER
+  id: NV_COLOR_SELECTION_POLICY_USER
+  parent: NVAPIWrapper._NV_COLOR_SELECTION_POLICY
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_SELECTION_POLICY_USER
+  nameWithType: _NV_COLOR_SELECTION_POLICY.NV_COLOR_SELECTION_POLICY_USER
+  fullName: NVAPIWrapper._NV_COLOR_SELECTION_POLICY.NV_COLOR_SELECTION_POLICY_USER
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_COLOR_SELECTION_POLICY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_SELECTION_POLICY_USER
+    path: ../NVAPIWrapper/cs_generated/_NV_COLOR_SELECTION_POLICY.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_SELECTION_POLICY_USER = 0
+    return:
+      type: NVAPIWrapper._NV_COLOR_SELECTION_POLICY
+- uid: NVAPIWrapper._NV_COLOR_SELECTION_POLICY.NV_COLOR_SELECTION_POLICY_BEST_QUALITY
+  commentId: F:NVAPIWrapper._NV_COLOR_SELECTION_POLICY.NV_COLOR_SELECTION_POLICY_BEST_QUALITY
+  id: NV_COLOR_SELECTION_POLICY_BEST_QUALITY
+  parent: NVAPIWrapper._NV_COLOR_SELECTION_POLICY
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_SELECTION_POLICY_BEST_QUALITY
+  nameWithType: _NV_COLOR_SELECTION_POLICY.NV_COLOR_SELECTION_POLICY_BEST_QUALITY
+  fullName: NVAPIWrapper._NV_COLOR_SELECTION_POLICY.NV_COLOR_SELECTION_POLICY_BEST_QUALITY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_COLOR_SELECTION_POLICY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_SELECTION_POLICY_BEST_QUALITY
+    path: ../NVAPIWrapper/cs_generated/_NV_COLOR_SELECTION_POLICY.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_SELECTION_POLICY_BEST_QUALITY = 1
+    return:
+      type: NVAPIWrapper._NV_COLOR_SELECTION_POLICY
+- uid: NVAPIWrapper._NV_COLOR_SELECTION_POLICY.NV_COLOR_SELECTION_POLICY_DEFAULT
+  commentId: F:NVAPIWrapper._NV_COLOR_SELECTION_POLICY.NV_COLOR_SELECTION_POLICY_DEFAULT
+  id: NV_COLOR_SELECTION_POLICY_DEFAULT
+  parent: NVAPIWrapper._NV_COLOR_SELECTION_POLICY
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_SELECTION_POLICY_DEFAULT
+  nameWithType: _NV_COLOR_SELECTION_POLICY.NV_COLOR_SELECTION_POLICY_DEFAULT
+  fullName: NVAPIWrapper._NV_COLOR_SELECTION_POLICY.NV_COLOR_SELECTION_POLICY_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_COLOR_SELECTION_POLICY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_SELECTION_POLICY_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/_NV_COLOR_SELECTION_POLICY.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_SELECTION_POLICY_DEFAULT = 1
+    return:
+      type: NVAPIWrapper._NV_COLOR_SELECTION_POLICY
+- uid: NVAPIWrapper._NV_COLOR_SELECTION_POLICY.NV_COLOR_SELECTION_POLICY_UNKNOWN
+  commentId: F:NVAPIWrapper._NV_COLOR_SELECTION_POLICY.NV_COLOR_SELECTION_POLICY_UNKNOWN
+  id: NV_COLOR_SELECTION_POLICY_UNKNOWN
+  parent: NVAPIWrapper._NV_COLOR_SELECTION_POLICY
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_SELECTION_POLICY_UNKNOWN
+  nameWithType: _NV_COLOR_SELECTION_POLICY.NV_COLOR_SELECTION_POLICY_UNKNOWN
+  fullName: NVAPIWrapper._NV_COLOR_SELECTION_POLICY.NV_COLOR_SELECTION_POLICY_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_COLOR_SELECTION_POLICY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_SELECTION_POLICY_UNKNOWN
+    path: ../NVAPIWrapper/cs_generated/_NV_COLOR_SELECTION_POLICY.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_SELECTION_POLICY_UNKNOWN = 255
+    return:
+      type: NVAPIWrapper._NV_COLOR_SELECTION_POLICY
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_COLOR_SELECTION_POLICY
+  commentId: T:NVAPIWrapper._NV_COLOR_SELECTION_POLICY
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_COLOR_SELECTION_POLICY.html
+  name: _NV_COLOR_SELECTION_POLICY
+  nameWithType: _NV_COLOR_SELECTION_POLICY
+  fullName: NVAPIWrapper._NV_COLOR_SELECTION_POLICY

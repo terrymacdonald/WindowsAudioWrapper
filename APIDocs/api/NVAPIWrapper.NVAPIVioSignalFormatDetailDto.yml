@@ -1,0 +1,843 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+  commentId: T:NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+  id: NVAPIVioSignalFormatDetailDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIVioSignalFormatDetailDto.#ctor(NVAPIWrapper._NVVIOSIGNALFORMAT,NVAPIWrapper._NVVIOVIDEOMODE)
+  - NVAPIWrapper.NVAPIVioSignalFormatDetailDto.Equals(NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+  - NVAPIWrapper.NVAPIVioSignalFormatDetailDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIVioSignalFormatDetailDto.FromNative(NVAPIWrapper._NVVIOSIGNALFORMATDETAIL)
+  - NVAPIWrapper.NVAPIVioSignalFormatDetailDto.GetHashCode
+  - NVAPIWrapper.NVAPIVioSignalFormatDetailDto.SignalFormat
+  - NVAPIWrapper.NVAPIVioSignalFormatDetailDto.ToNative
+  - NVAPIWrapper.NVAPIVioSignalFormatDetailDto.VideoMode
+  - NVAPIWrapper.NVAPIVioSignalFormatDetailDto.op_Equality(NVAPIWrapper.NVAPIVioSignalFormatDetailDto,NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+  - NVAPIWrapper.NVAPIVioSignalFormatDetailDto.op_Inequality(NVAPIWrapper.NVAPIVioSignalFormatDetailDto,NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIVioSignalFormatDetailDto
+  nameWithType: NVAPIVioSignalFormatDetailDto
+  fullName: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIVioSignalFormatDetailDto
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 1249
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: VIO signal format detail DTO.
+  example: []
+  syntax:
+    content: 'public struct NVAPIVioSignalFormatDetailDto : IEquatable<NVAPIVioSignalFormatDetailDto>'
+    content.vb: Public Structure NVAPIVioSignalFormatDetailDto Implements IEquatable(Of NVAPIVioSignalFormatDetailDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIVioSignalFormatDetailDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.SignalFormat
+  commentId: P:NVAPIWrapper.NVAPIVioSignalFormatDetailDto.SignalFormat
+  id: SignalFormat
+  parent: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+  langs:
+  - csharp
+  - vb
+  name: SignalFormat
+  nameWithType: NVAPIVioSignalFormatDetailDto.SignalFormat
+  fullName: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.SignalFormat
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SignalFormat
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 1251
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public _NVVIOSIGNALFORMAT SignalFormat { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper._NVVIOSIGNALFORMAT
+    content.vb: Public Property SignalFormat As _NVVIOSIGNALFORMAT
+  overload: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.SignalFormat*
+- uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.VideoMode
+  commentId: P:NVAPIWrapper.NVAPIVioSignalFormatDetailDto.VideoMode
+  id: VideoMode
+  parent: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+  langs:
+  - csharp
+  - vb
+  name: VideoMode
+  nameWithType: NVAPIVioSignalFormatDetailDto.VideoMode
+  fullName: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.VideoMode
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VideoMode
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 1252
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public _NVVIOVIDEOMODE VideoMode { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper._NVVIOVIDEOMODE
+    content.vb: Public Property VideoMode As _NVVIOVIDEOMODE
+  overload: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.VideoMode*
+- uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.#ctor(NVAPIWrapper._NVVIOSIGNALFORMAT,NVAPIWrapper._NVVIOVIDEOMODE)
+  commentId: M:NVAPIWrapper.NVAPIVioSignalFormatDetailDto.#ctor(NVAPIWrapper._NVVIOSIGNALFORMAT,NVAPIWrapper._NVVIOVIDEOMODE)
+  id: '#ctor(NVAPIWrapper._NVVIOSIGNALFORMAT,NVAPIWrapper._NVVIOVIDEOMODE)'
+  parent: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIVioSignalFormatDetailDto(_NVVIOSIGNALFORMAT, _NVVIOVIDEOMODE)
+  nameWithType: NVAPIVioSignalFormatDetailDto.NVAPIVioSignalFormatDetailDto(_NVVIOSIGNALFORMAT, _NVVIOVIDEOMODE)
+  fullName: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.NVAPIVioSignalFormatDetailDto(NVAPIWrapper._NVVIOSIGNALFORMAT, NVAPIWrapper._NVVIOVIDEOMODE)
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 1254
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NVAPIVioSignalFormatDetailDto(_NVVIOSIGNALFORMAT signalFormat, _NVVIOVIDEOMODE videoMode)
+    parameters:
+    - id: signalFormat
+      type: NVAPIWrapper._NVVIOSIGNALFORMAT
+    - id: videoMode
+      type: NVAPIWrapper._NVVIOVIDEOMODE
+    content.vb: Public Sub New(signalFormat As _NVVIOSIGNALFORMAT, videoMode As _NVVIOVIDEOMODE)
+  overload: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.#ctor*
+  nameWithType.vb: NVAPIVioSignalFormatDetailDto.New(_NVVIOSIGNALFORMAT, _NVVIOVIDEOMODE)
+  fullName.vb: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.New(NVAPIWrapper._NVVIOSIGNALFORMAT, NVAPIWrapper._NVVIOVIDEOMODE)
+  name.vb: New(_NVVIOSIGNALFORMAT, _NVVIOVIDEOMODE)
+- uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.FromNative(NVAPIWrapper._NVVIOSIGNALFORMATDETAIL)
+  commentId: M:NVAPIWrapper.NVAPIVioSignalFormatDetailDto.FromNative(NVAPIWrapper._NVVIOSIGNALFORMATDETAIL)
+  id: FromNative(NVAPIWrapper._NVVIOSIGNALFORMATDETAIL)
+  parent: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(_NVVIOSIGNALFORMATDETAIL)
+  nameWithType: NVAPIVioSignalFormatDetailDto.FromNative(_NVVIOSIGNALFORMATDETAIL)
+  fullName: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.FromNative(NVAPIWrapper._NVVIOSIGNALFORMATDETAIL)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 1260
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static NVAPIVioSignalFormatDetailDto FromNative(_NVVIOSIGNALFORMATDETAIL native)
+    parameters:
+    - id: native
+      type: NVAPIWrapper._NVVIOSIGNALFORMATDETAIL
+    return:
+      type: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+    content.vb: Public Shared Function FromNative(native As _NVVIOSIGNALFORMATDETAIL) As NVAPIVioSignalFormatDetailDto
+  overload: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.FromNative*
+- uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.ToNative
+  commentId: M:NVAPIWrapper.NVAPIVioSignalFormatDetailDto.ToNative
+  id: ToNative
+  parent: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: NVAPIVioSignalFormatDetailDto.ToNative()
+  fullName: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 1265
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public _NVVIOSIGNALFORMATDETAIL ToNative()
+    return:
+      type: NVAPIWrapper._NVVIOSIGNALFORMATDETAIL
+    content.vb: Public Function ToNative() As _NVVIOSIGNALFORMATDETAIL
+  overload: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.ToNative*
+- uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.Equals(NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+  commentId: M:NVAPIWrapper.NVAPIVioSignalFormatDetailDto.Equals(NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+  id: Equals(NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+  parent: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIVioSignalFormatDetailDto)
+  nameWithType: NVAPIVioSignalFormatDetailDto.Equals(NVAPIVioSignalFormatDetailDto)
+  fullName: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.Equals(NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 1274
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIVioSignalFormatDetailDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As NVAPIVioSignalFormatDetailDto) As Boolean
+  overload: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIVioSignalFormatDetailDto}.Equals(NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+- uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIVioSignalFormatDetailDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIVioSignalFormatDetailDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 1279
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.Equals*
+  nameWithType.vb: NVAPIVioSignalFormatDetailDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIVioSignalFormatDetailDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIVioSignalFormatDetailDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 1281
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.op_Equality(NVAPIWrapper.NVAPIVioSignalFormatDetailDto,NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+  commentId: M:NVAPIWrapper.NVAPIVioSignalFormatDetailDto.op_Equality(NVAPIWrapper.NVAPIVioSignalFormatDetailDto,NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+  id: op_Equality(NVAPIWrapper.NVAPIVioSignalFormatDetailDto,NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+  parent: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIVioSignalFormatDetailDto, NVAPIVioSignalFormatDetailDto)
+  nameWithType: NVAPIVioSignalFormatDetailDto.operator ==(NVAPIVioSignalFormatDetailDto, NVAPIVioSignalFormatDetailDto)
+  fullName: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.operator ==(NVAPIWrapper.NVAPIVioSignalFormatDetailDto, NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 1291
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static bool operator ==(NVAPIVioSignalFormatDetailDto left, NVAPIVioSignalFormatDetailDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+    - id: right
+      type: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As NVAPIVioSignalFormatDetailDto, right As NVAPIVioSignalFormatDetailDto) As Boolean
+  overload: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.op_Equality*
+  nameWithType.vb: NVAPIVioSignalFormatDetailDto.=(NVAPIVioSignalFormatDetailDto, NVAPIVioSignalFormatDetailDto)
+  fullName.vb: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.=(NVAPIWrapper.NVAPIVioSignalFormatDetailDto, NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+  name.vb: =(NVAPIVioSignalFormatDetailDto, NVAPIVioSignalFormatDetailDto)
+- uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.op_Inequality(NVAPIWrapper.NVAPIVioSignalFormatDetailDto,NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+  commentId: M:NVAPIWrapper.NVAPIVioSignalFormatDetailDto.op_Inequality(NVAPIWrapper.NVAPIVioSignalFormatDetailDto,NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIVioSignalFormatDetailDto,NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+  parent: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIVioSignalFormatDetailDto, NVAPIVioSignalFormatDetailDto)
+  nameWithType: NVAPIVioSignalFormatDetailDto.operator !=(NVAPIVioSignalFormatDetailDto, NVAPIVioSignalFormatDetailDto)
+  fullName: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.operator !=(NVAPIWrapper.NVAPIVioSignalFormatDetailDto, NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 1292
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static bool operator !=(NVAPIVioSignalFormatDetailDto left, NVAPIVioSignalFormatDetailDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+    - id: right
+      type: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As NVAPIVioSignalFormatDetailDto, right As NVAPIVioSignalFormatDetailDto) As Boolean
+  overload: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.op_Inequality*
+  nameWithType.vb: NVAPIVioSignalFormatDetailDto.<>(NVAPIVioSignalFormatDetailDto, NVAPIVioSignalFormatDetailDto)
+  fullName.vb: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.<>(NVAPIWrapper.NVAPIVioSignalFormatDetailDto, NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+  name.vb: <>(NVAPIVioSignalFormatDetailDto, NVAPIVioSignalFormatDetailDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIVioSignalFormatDetailDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIVioSignalFormatDetailDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIVioSignalFormatDetailDto>
+  nameWithType: IEquatable<NVAPIVioSignalFormatDetailDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIVioSignalFormatDetailDto>
+  nameWithType.vb: IEquatable(Of NVAPIVioSignalFormatDetailDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+  name.vb: IEquatable(Of NVAPIVioSignalFormatDetailDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+    name: NVAPIVioSignalFormatDetailDto
+    href: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+    name: NVAPIVioSignalFormatDetailDto
+    href: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.SignalFormat*
+  commentId: Overload:NVAPIWrapper.NVAPIVioSignalFormatDetailDto.SignalFormat
+  href: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.html#NVAPIWrapper_NVAPIVioSignalFormatDetailDto_SignalFormat
+  name: SignalFormat
+  nameWithType: NVAPIVioSignalFormatDetailDto.SignalFormat
+  fullName: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.SignalFormat
+- uid: NVAPIWrapper._NVVIOSIGNALFORMAT
+  commentId: T:NVAPIWrapper._NVVIOSIGNALFORMAT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOSIGNALFORMAT.html
+  name: _NVVIOSIGNALFORMAT
+  nameWithType: _NVVIOSIGNALFORMAT
+  fullName: NVAPIWrapper._NVVIOSIGNALFORMAT
+- uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.VideoMode*
+  commentId: Overload:NVAPIWrapper.NVAPIVioSignalFormatDetailDto.VideoMode
+  href: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.html#NVAPIWrapper_NVAPIVioSignalFormatDetailDto_VideoMode
+  name: VideoMode
+  nameWithType: NVAPIVioSignalFormatDetailDto.VideoMode
+  fullName: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.VideoMode
+- uid: NVAPIWrapper._NVVIOVIDEOMODE
+  commentId: T:NVAPIWrapper._NVVIOVIDEOMODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOVIDEOMODE.html
+  name: _NVVIOVIDEOMODE
+  nameWithType: _NVVIOVIDEOMODE
+  fullName: NVAPIWrapper._NVVIOVIDEOMODE
+- uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIVioSignalFormatDetailDto.#ctor
+  href: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.html#NVAPIWrapper_NVAPIVioSignalFormatDetailDto__ctor_NVAPIWrapper__NVVIOSIGNALFORMAT_NVAPIWrapper__NVVIOVIDEOMODE_
+  name: NVAPIVioSignalFormatDetailDto
+  nameWithType: NVAPIVioSignalFormatDetailDto.NVAPIVioSignalFormatDetailDto
+  fullName: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.NVAPIVioSignalFormatDetailDto
+  nameWithType.vb: NVAPIVioSignalFormatDetailDto.New
+  fullName.vb: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPIVioSignalFormatDetailDto.FromNative
+  href: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.html#NVAPIWrapper_NVAPIVioSignalFormatDetailDto_FromNative_NVAPIWrapper__NVVIOSIGNALFORMATDETAIL_
+  name: FromNative
+  nameWithType: NVAPIVioSignalFormatDetailDto.FromNative
+  fullName: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.FromNative
+- uid: NVAPIWrapper._NVVIOSIGNALFORMATDETAIL
+  commentId: T:NVAPIWrapper._NVVIOSIGNALFORMATDETAIL
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOSIGNALFORMATDETAIL.html
+  name: _NVVIOSIGNALFORMATDETAIL
+  nameWithType: _NVVIOSIGNALFORMATDETAIL
+  fullName: NVAPIWrapper._NVVIOSIGNALFORMATDETAIL
+- uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+  commentId: T:NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.html
+  name: NVAPIVioSignalFormatDetailDto
+  nameWithType: NVAPIVioSignalFormatDetailDto
+  fullName: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+- uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPIVioSignalFormatDetailDto.ToNative
+  href: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.html#NVAPIWrapper_NVAPIVioSignalFormatDetailDto_ToNative
+  name: ToNative
+  nameWithType: NVAPIVioSignalFormatDetailDto.ToNative
+  fullName: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.ToNative
+- uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIVioSignalFormatDetailDto.Equals
+  href: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.html#NVAPIWrapper_NVAPIVioSignalFormatDetailDto_Equals_NVAPIWrapper_NVAPIVioSignalFormatDetailDto_
+  name: Equals
+  nameWithType: NVAPIVioSignalFormatDetailDto.Equals
+  fullName: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIVioSignalFormatDetailDto}.Equals(NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIVioSignalFormatDetailDto}.Equals(NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIVioSignalFormatDetailDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIVioSignalFormatDetailDto)
+  nameWithType: IEquatable<NVAPIVioSignalFormatDetailDto>.Equals(NVAPIVioSignalFormatDetailDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIVioSignalFormatDetailDto>.Equals(NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+  nameWithType.vb: IEquatable(Of NVAPIVioSignalFormatDetailDto).Equals(NVAPIVioSignalFormatDetailDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIVioSignalFormatDetailDto).Equals(NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIVioSignalFormatDetailDto}.Equals(NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+    name: NVAPIVioSignalFormatDetailDto
+    href: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIVioSignalFormatDetailDto}.Equals(NVAPIWrapper.NVAPIVioSignalFormatDetailDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+    name: NVAPIVioSignalFormatDetailDto
+    href: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.html
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIVioSignalFormatDetailDto.GetHashCode
+  href: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.html#NVAPIWrapper_NVAPIVioSignalFormatDetailDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIVioSignalFormatDetailDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIVioSignalFormatDetailDto.op_Equality
+  href: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.html#NVAPIWrapper_NVAPIVioSignalFormatDetailDto_op_Equality_NVAPIWrapper_NVAPIVioSignalFormatDetailDto_NVAPIWrapper_NVAPIVioSignalFormatDetailDto_
+  name: operator ==
+  nameWithType: NVAPIVioSignalFormatDetailDto.operator ==
+  fullName: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.operator ==
+  nameWithType.vb: NVAPIVioSignalFormatDetailDto.=
+  fullName.vb: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.html#NVAPIWrapper_NVAPIVioSignalFormatDetailDto_op_Equality_NVAPIWrapper_NVAPIVioSignalFormatDetailDto_NVAPIWrapper_NVAPIVioSignalFormatDetailDto_
+- uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIVioSignalFormatDetailDto.op_Inequality
+  href: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.html#NVAPIWrapper_NVAPIVioSignalFormatDetailDto_op_Inequality_NVAPIWrapper_NVAPIVioSignalFormatDetailDto_NVAPIWrapper_NVAPIVioSignalFormatDetailDto_
+  name: operator !=
+  nameWithType: NVAPIVioSignalFormatDetailDto.operator !=
+  fullName: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.operator !=
+  nameWithType.vb: NVAPIVioSignalFormatDetailDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.html#NVAPIWrapper_NVAPIVioSignalFormatDetailDto_op_Inequality_NVAPIWrapper_NVAPIVioSignalFormatDetailDto_NVAPIWrapper_NVAPIVioSignalFormatDetailDto_

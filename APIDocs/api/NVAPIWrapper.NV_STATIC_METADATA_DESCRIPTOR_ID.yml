@@ -1,0 +1,71 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_STATIC_METADATA_DESCRIPTOR_ID
+  commentId: T:NVAPIWrapper.NV_STATIC_METADATA_DESCRIPTOR_ID
+  id: NV_STATIC_METADATA_DESCRIPTOR_ID
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_STATIC_METADATA_DESCRIPTOR_ID.NV_STATIC_METADATA_TYPE_1
+  langs:
+  - csharp
+  - vb
+  name: NV_STATIC_METADATA_DESCRIPTOR_ID
+  nameWithType: NV_STATIC_METADATA_DESCRIPTOR_ID
+  fullName: NVAPIWrapper.NV_STATIC_METADATA_DESCRIPTOR_ID
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_STATIC_METADATA_DESCRIPTOR_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_STATIC_METADATA_DESCRIPTOR_ID
+    path: ../NVAPIWrapper/cs_generated/NV_STATIC_METADATA_DESCRIPTOR_ID.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_STATIC_METADATA_DESCRIPTOR_ID
+    content.vb: Public Enum NV_STATIC_METADATA_DESCRIPTOR_ID
+- uid: NVAPIWrapper.NV_STATIC_METADATA_DESCRIPTOR_ID.NV_STATIC_METADATA_TYPE_1
+  commentId: F:NVAPIWrapper.NV_STATIC_METADATA_DESCRIPTOR_ID.NV_STATIC_METADATA_TYPE_1
+  id: NV_STATIC_METADATA_TYPE_1
+  parent: NVAPIWrapper.NV_STATIC_METADATA_DESCRIPTOR_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_STATIC_METADATA_TYPE_1
+  nameWithType: NV_STATIC_METADATA_DESCRIPTOR_ID.NV_STATIC_METADATA_TYPE_1
+  fullName: NVAPIWrapper.NV_STATIC_METADATA_DESCRIPTOR_ID.NV_STATIC_METADATA_TYPE_1
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_STATIC_METADATA_DESCRIPTOR_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_STATIC_METADATA_TYPE_1
+    path: ../NVAPIWrapper/cs_generated/NV_STATIC_METADATA_DESCRIPTOR_ID.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_STATIC_METADATA_TYPE_1 = 0
+    return:
+      type: NVAPIWrapper.NV_STATIC_METADATA_DESCRIPTOR_ID
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_STATIC_METADATA_DESCRIPTOR_ID
+  commentId: T:NVAPIWrapper.NV_STATIC_METADATA_DESCRIPTOR_ID
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_STATIC_METADATA_DESCRIPTOR_ID.html
+  name: NV_STATIC_METADATA_DESCRIPTOR_ID
+  nameWithType: NV_STATIC_METADATA_DESCRIPTOR_ID
+  fullName: NVAPIWrapper.NV_STATIC_METADATA_DESCRIPTOR_ID

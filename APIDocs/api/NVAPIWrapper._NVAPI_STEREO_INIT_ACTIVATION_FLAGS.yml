@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVAPI_STEREO_INIT_ACTIVATION_FLAGS
+  commentId: T:NVAPIWrapper._NVAPI_STEREO_INIT_ACTIVATION_FLAGS
+  id: _NVAPI_STEREO_INIT_ACTIVATION_FLAGS
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVAPI_STEREO_INIT_ACTIVATION_FLAGS.NVAPI_STEREO_INIT_ACTIVATION_DELAYED
+  - NVAPIWrapper._NVAPI_STEREO_INIT_ACTIVATION_FLAGS.NVAPI_STEREO_INIT_ACTIVATION_IMMEDIATE
+  langs:
+  - csharp
+  - vb
+  name: _NVAPI_STEREO_INIT_ACTIVATION_FLAGS
+  nameWithType: _NVAPI_STEREO_INIT_ACTIVATION_FLAGS
+  fullName: NVAPIWrapper._NVAPI_STEREO_INIT_ACTIVATION_FLAGS
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_STEREO_INIT_ACTIVATION_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVAPI_STEREO_INIT_ACTIVATION_FLAGS
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_STEREO_INIT_ACTIVATION_FLAGS.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVAPI_STEREO_INIT_ACTIVATION_FLAGS
+    content.vb: Public Enum _NVAPI_STEREO_INIT_ACTIVATION_FLAGS
+- uid: NVAPIWrapper._NVAPI_STEREO_INIT_ACTIVATION_FLAGS.NVAPI_STEREO_INIT_ACTIVATION_IMMEDIATE
+  commentId: F:NVAPIWrapper._NVAPI_STEREO_INIT_ACTIVATION_FLAGS.NVAPI_STEREO_INIT_ACTIVATION_IMMEDIATE
+  id: NVAPI_STEREO_INIT_ACTIVATION_IMMEDIATE
+  parent: NVAPIWrapper._NVAPI_STEREO_INIT_ACTIVATION_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_INIT_ACTIVATION_IMMEDIATE
+  nameWithType: _NVAPI_STEREO_INIT_ACTIVATION_FLAGS.NVAPI_STEREO_INIT_ACTIVATION_IMMEDIATE
+  fullName: NVAPIWrapper._NVAPI_STEREO_INIT_ACTIVATION_FLAGS.NVAPI_STEREO_INIT_ACTIVATION_IMMEDIATE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_STEREO_INIT_ACTIVATION_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_INIT_ACTIVATION_IMMEDIATE
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_STEREO_INIT_ACTIVATION_FLAGS.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_INIT_ACTIVATION_IMMEDIATE = 0
+    return:
+      type: NVAPIWrapper._NVAPI_STEREO_INIT_ACTIVATION_FLAGS
+- uid: NVAPIWrapper._NVAPI_STEREO_INIT_ACTIVATION_FLAGS.NVAPI_STEREO_INIT_ACTIVATION_DELAYED
+  commentId: F:NVAPIWrapper._NVAPI_STEREO_INIT_ACTIVATION_FLAGS.NVAPI_STEREO_INIT_ACTIVATION_DELAYED
+  id: NVAPI_STEREO_INIT_ACTIVATION_DELAYED
+  parent: NVAPIWrapper._NVAPI_STEREO_INIT_ACTIVATION_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_INIT_ACTIVATION_DELAYED
+  nameWithType: _NVAPI_STEREO_INIT_ACTIVATION_FLAGS.NVAPI_STEREO_INIT_ACTIVATION_DELAYED
+  fullName: NVAPIWrapper._NVAPI_STEREO_INIT_ACTIVATION_FLAGS.NVAPI_STEREO_INIT_ACTIVATION_DELAYED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_STEREO_INIT_ACTIVATION_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_INIT_ACTIVATION_DELAYED
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_STEREO_INIT_ACTIVATION_FLAGS.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_INIT_ACTIVATION_DELAYED = 1
+    return:
+      type: NVAPIWrapper._NVAPI_STEREO_INIT_ACTIVATION_FLAGS
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVAPI_STEREO_INIT_ACTIVATION_FLAGS
+  commentId: T:NVAPIWrapper._NVAPI_STEREO_INIT_ACTIVATION_FLAGS
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVAPI_STEREO_INIT_ACTIVATION_FLAGS.html
+  name: _NVAPI_STEREO_INIT_ACTIVATION_FLAGS
+  nameWithType: _NVAPI_STEREO_INIT_ACTIVATION_FLAGS
+  fullName: NVAPIWrapper._NVAPI_STEREO_INIT_ACTIVATION_FLAGS

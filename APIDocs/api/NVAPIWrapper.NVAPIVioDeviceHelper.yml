@@ -1,0 +1,1509 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper
+  commentId: T:NVAPIWrapper.NVAPIVioDeviceHelper
+  id: NVAPIVioDeviceHelper
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIVioDeviceHelper.Close(System.Boolean)
+  - NVAPIWrapper.NVAPIVioDeviceHelper.Dispose
+  - NVAPIWrapper.NVAPIVioDeviceHelper.EnumDataFormats
+  - NVAPIWrapper.NVAPIVioDeviceHelper.EnumSignalFormats
+  - NVAPIWrapper.NVAPIVioDeviceHelper.GetCapabilities
+  - NVAPIWrapper.NVAPIVioDeviceHelper.GetConfig
+  - NVAPIWrapper.NVAPIVioDeviceHelper.GetCsc
+  - NVAPIWrapper.NVAPIVioDeviceHelper.GetGamma
+  - NVAPIWrapper.NVAPIVioDeviceHelper.GetPciInfo
+  - NVAPIWrapper.NVAPIVioDeviceHelper.GetStatus
+  - NVAPIWrapper.NVAPIVioDeviceHelper.GetSyncDelay
+  - NVAPIWrapper.NVAPIVioDeviceHelper.IsFrameLockModeCompatible(System.UInt32,System.UInt32)
+  - NVAPIWrapper.NVAPIVioDeviceHelper.IsRunning
+  - NVAPIWrapper.NVAPIVioDeviceHelper.Open(System.UInt32,NVAPIWrapper._NVVIOOWNERTYPE)
+  - NVAPIWrapper.NVAPIVioDeviceHelper.SetConfig(NVAPIWrapper.NVAPIVioConfigDto)
+  - NVAPIWrapper.NVAPIVioDeviceHelper.SetCsc(NVAPIWrapper.NVAPIVioColorConversionDto)
+  - NVAPIWrapper.NVAPIVioDeviceHelper.SetGamma(NVAPIWrapper.NVAPIVioGammaDto)
+  - NVAPIWrapper.NVAPIVioDeviceHelper.SetSyncDelay(NVAPIWrapper.NVAPIVioSyncDelayDto)
+  - NVAPIWrapper.NVAPIVioDeviceHelper.Start
+  - NVAPIWrapper.NVAPIVioDeviceHelper.Stop
+  - NVAPIWrapper.NVAPIVioDeviceHelper.SyncFormatDetect(System.UInt32)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIVioDeviceHelper
+  nameWithType: NVAPIVioDeviceHelper
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper
+  type: Class
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIVioDeviceHelper
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 409
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Facade helper for a VIO device handle.
+  example: []
+  syntax:
+    content: 'public sealed class NVAPIVioDeviceHelper : IDisposable'
+    content.vb: Public NotInheritable Class NVAPIVioDeviceHelper Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.GetCapabilities
+  commentId: M:NVAPIWrapper.NVAPIVioDeviceHelper.GetCapabilities
+  id: GetCapabilities
+  parent: NVAPIWrapper.NVAPIVioDeviceHelper
+  langs:
+  - csharp
+  - vb
+  name: GetCapabilities()
+  nameWithType: NVAPIVioDeviceHelper.GetCapabilities()
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.GetCapabilities()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetCapabilities
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 425
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get VIO capabilities.
+  example: []
+  syntax:
+    content: public NVAPIVioCapsDto? GetCapabilities()
+    return:
+      type: System.Nullable{NVAPIWrapper.NVAPIVioCapsDto}
+      description: Capabilities DTO, or null if unavailable.
+    content.vb: Public Function GetCapabilities() As NVAPIVioCapsDto?
+  overload: NVAPIWrapper.NVAPIVioDeviceHelper.GetCapabilities*
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.Open(System.UInt32,NVAPIWrapper._NVVIOOWNERTYPE)
+  commentId: M:NVAPIWrapper.NVAPIVioDeviceHelper.Open(System.UInt32,NVAPIWrapper._NVVIOOWNERTYPE)
+  id: Open(System.UInt32,NVAPIWrapper._NVVIOOWNERTYPE)
+  parent: NVAPIWrapper.NVAPIVioDeviceHelper
+  langs:
+  - csharp
+  - vb
+  name: Open(uint, _NVVIOOWNERTYPE)
+  nameWithType: NVAPIVioDeviceHelper.Open(uint, _NVVIOOWNERTYPE)
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.Open(uint, NVAPIWrapper._NVVIOOWNERTYPE)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Open
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 448
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Open the VIO device.
+  example: []
+  syntax:
+    content: public bool? Open(uint vioClass, _NVVIOOWNERTYPE ownerType)
+    parameters:
+    - id: vioClass
+      type: System.UInt32
+      description: VIO class.
+    - id: ownerType
+      type: NVAPIWrapper._NVVIOOWNERTYPE
+      description: Owner type.
+    return:
+      type: System.Nullable{System.Boolean}
+      description: True if opened, null if unsupported.
+    content.vb: Public Function Open(vioClass As UInteger, ownerType As _NVVIOOWNERTYPE) As Boolean?
+  overload: NVAPIWrapper.NVAPIVioDeviceHelper.Open*
+  nameWithType.vb: NVAPIVioDeviceHelper.Open(UInteger, _NVVIOOWNERTYPE)
+  fullName.vb: NVAPIWrapper.NVAPIVioDeviceHelper.Open(UInteger, NVAPIWrapper._NVVIOOWNERTYPE)
+  name.vb: Open(UInteger, _NVVIOOWNERTYPE)
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.Close(System.Boolean)
+  commentId: M:NVAPIWrapper.NVAPIVioDeviceHelper.Close(System.Boolean)
+  id: Close(System.Boolean)
+  parent: NVAPIWrapper.NVAPIVioDeviceHelper
+  langs:
+  - csharp
+  - vb
+  name: Close(bool)
+  nameWithType: NVAPIVioDeviceHelper.Close(bool)
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.Close(bool)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Close
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 468
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Close the VIO device.
+  example: []
+  syntax:
+    content: public bool? Close(bool release = true)
+    parameters:
+    - id: release
+      type: System.Boolean
+      description: Release resources.
+    return:
+      type: System.Nullable{System.Boolean}
+      description: True if closed, null if unsupported.
+    content.vb: Public Function Close(release As Boolean = True) As Boolean?
+  overload: NVAPIWrapper.NVAPIVioDeviceHelper.Close*
+  nameWithType.vb: NVAPIVioDeviceHelper.Close(Boolean)
+  fullName.vb: NVAPIWrapper.NVAPIVioDeviceHelper.Close(Boolean)
+  name.vb: Close(Boolean)
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.GetStatus
+  commentId: M:NVAPIWrapper.NVAPIVioDeviceHelper.GetStatus
+  id: GetStatus
+  parent: NVAPIWrapper.NVAPIVioDeviceHelper
+  langs:
+  - csharp
+  - vb
+  name: GetStatus()
+  nameWithType: NVAPIVioDeviceHelper.GetStatus()
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.GetStatus()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetStatus
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 487
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get VIO status.
+  example: []
+  syntax:
+    content: public NVAPIVioStatusDto? GetStatus()
+    return:
+      type: System.Nullable{NVAPIWrapper.NVAPIVioStatusDto}
+      description: Status DTO, or null if unavailable.
+    content.vb: Public Function GetStatus() As NVAPIVioStatusDto?
+  overload: NVAPIWrapper.NVAPIVioDeviceHelper.GetStatus*
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.SyncFormatDetect(System.UInt32)
+  commentId: M:NVAPIWrapper.NVAPIVioDeviceHelper.SyncFormatDetect(System.UInt32)
+  id: SyncFormatDetect(System.UInt32)
+  parent: NVAPIWrapper.NVAPIVioDeviceHelper
+  langs:
+  - csharp
+  - vb
+  name: SyncFormatDetect(uint)
+  nameWithType: NVAPIVioDeviceHelper.SyncFormatDetect(uint)
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.SyncFormatDetect(uint)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SyncFormatDetect
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 509
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Detect sync format.
+  example: []
+  syntax:
+    content: public uint? SyncFormatDetect(uint wait = 0)
+    parameters:
+    - id: wait
+      type: System.UInt32
+      description: Wait value.
+    return:
+      type: System.Nullable{System.UInt32}
+      description: Updated wait value, or null if unsupported.
+    content.vb: Public Function SyncFormatDetect(wait As UInteger = 0) As UInteger?
+  overload: NVAPIWrapper.NVAPIVioDeviceHelper.SyncFormatDetect*
+  nameWithType.vb: NVAPIVioDeviceHelper.SyncFormatDetect(UInteger)
+  fullName.vb: NVAPIWrapper.NVAPIVioDeviceHelper.SyncFormatDetect(UInteger)
+  name.vb: SyncFormatDetect(UInteger)
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.GetConfig
+  commentId: M:NVAPIWrapper.NVAPIVioDeviceHelper.GetConfig
+  id: GetConfig
+  parent: NVAPIWrapper.NVAPIVioDeviceHelper
+  langs:
+  - csharp
+  - vb
+  name: GetConfig()
+  nameWithType: NVAPIVioDeviceHelper.GetConfig()
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.GetConfig()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetConfig
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 529
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get VIO configuration.
+  example: []
+  syntax:
+    content: public NVAPIVioConfigDto? GetConfig()
+    return:
+      type: System.Nullable{NVAPIWrapper.NVAPIVioConfigDto}
+      description: Configuration DTO, or null if unavailable.
+    content.vb: Public Function GetConfig() As NVAPIVioConfigDto?
+  overload: NVAPIWrapper.NVAPIVioDeviceHelper.GetConfig*
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.SetConfig(NVAPIWrapper.NVAPIVioConfigDto)
+  commentId: M:NVAPIWrapper.NVAPIVioDeviceHelper.SetConfig(NVAPIWrapper.NVAPIVioConfigDto)
+  id: SetConfig(NVAPIWrapper.NVAPIVioConfigDto)
+  parent: NVAPIWrapper.NVAPIVioDeviceHelper
+  langs:
+  - csharp
+  - vb
+  name: SetConfig(NVAPIVioConfigDto)
+  nameWithType: NVAPIVioDeviceHelper.SetConfig(NVAPIVioConfigDto)
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.SetConfig(NVAPIWrapper.NVAPIVioConfigDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SetConfig
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 551
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Set VIO configuration.
+  example: []
+  syntax:
+    content: public bool? SetConfig(NVAPIVioConfigDto config)
+    parameters:
+    - id: config
+      type: NVAPIWrapper.NVAPIVioConfigDto
+      description: Configuration DTO.
+    return:
+      type: System.Nullable{System.Boolean}
+      description: True if applied, null if unsupported.
+    content.vb: Public Function SetConfig(config As NVAPIVioConfigDto) As Boolean?
+  overload: NVAPIWrapper.NVAPIVioDeviceHelper.SetConfig*
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.GetCsc
+  commentId: M:NVAPIWrapper.NVAPIVioDeviceHelper.GetCsc
+  id: GetCsc
+  parent: NVAPIWrapper.NVAPIVioDeviceHelper
+  langs:
+  - csharp
+  - vb
+  name: GetCsc()
+  nameWithType: NVAPIVioDeviceHelper.GetCsc()
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.GetCsc()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetCsc
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 576
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get VIO color conversion (deprecated).
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Deprecated by NVAPI. Prefer GetConfig/SetConfig.")]
+
+      public NVAPIVioColorConversionDto? GetCsc()
+    return:
+      type: System.Nullable{NVAPIWrapper.NVAPIVioColorConversionDto}
+      description: Color conversion DTO, or null if unavailable.
+    content.vb: >-
+      <Obsolete("Deprecated by NVAPI. Prefer GetConfig/SetConfig.")>
+
+      Public Function GetCsc() As NVAPIVioColorConversionDto?
+  overload: NVAPIWrapper.NVAPIVioDeviceHelper.GetCsc*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Deprecated by NVAPI. Prefer GetConfig/SetConfig.
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.SetCsc(NVAPIWrapper.NVAPIVioColorConversionDto)
+  commentId: M:NVAPIWrapper.NVAPIVioDeviceHelper.SetCsc(NVAPIWrapper.NVAPIVioColorConversionDto)
+  id: SetCsc(NVAPIWrapper.NVAPIVioColorConversionDto)
+  parent: NVAPIWrapper.NVAPIVioDeviceHelper
+  langs:
+  - csharp
+  - vb
+  name: SetCsc(NVAPIVioColorConversionDto)
+  nameWithType: NVAPIVioDeviceHelper.SetCsc(NVAPIVioColorConversionDto)
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.SetCsc(NVAPIWrapper.NVAPIVioColorConversionDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SetCsc
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 599
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Set VIO color conversion (deprecated).
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Deprecated by NVAPI. Prefer GetConfig/SetConfig.")]
+
+      public bool? SetCsc(NVAPIVioColorConversionDto conversion)
+    parameters:
+    - id: conversion
+      type: NVAPIWrapper.NVAPIVioColorConversionDto
+      description: Color conversion DTO.
+    return:
+      type: System.Nullable{System.Boolean}
+      description: True if applied, null if unsupported.
+    content.vb: >-
+      <Obsolete("Deprecated by NVAPI. Prefer GetConfig/SetConfig.")>
+
+      Public Function SetCsc(conversion As NVAPIVioColorConversionDto) As Boolean?
+  overload: NVAPIWrapper.NVAPIVioDeviceHelper.SetCsc*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Deprecated by NVAPI. Prefer GetConfig/SetConfig.
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.GetGamma
+  commentId: M:NVAPIWrapper.NVAPIVioDeviceHelper.GetGamma
+  id: GetGamma
+  parent: NVAPIWrapper.NVAPIVioDeviceHelper
+  langs:
+  - csharp
+  - vb
+  name: GetGamma()
+  nameWithType: NVAPIVioDeviceHelper.GetGamma()
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.GetGamma()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetGamma
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 621
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get VIO gamma correction (deprecated).
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Deprecated by NVAPI. Prefer GetConfig/SetConfig.")]
+
+      public NVAPIVioGammaDto? GetGamma()
+    return:
+      type: System.Nullable{NVAPIWrapper.NVAPIVioGammaDto}
+      description: Gamma DTO, or null if unavailable.
+    content.vb: >-
+      <Obsolete("Deprecated by NVAPI. Prefer GetConfig/SetConfig.")>
+
+      Public Function GetGamma() As NVAPIVioGammaDto?
+  overload: NVAPIWrapper.NVAPIVioDeviceHelper.GetGamma*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Deprecated by NVAPI. Prefer GetConfig/SetConfig.
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.SetGamma(NVAPIWrapper.NVAPIVioGammaDto)
+  commentId: M:NVAPIWrapper.NVAPIVioDeviceHelper.SetGamma(NVAPIWrapper.NVAPIVioGammaDto)
+  id: SetGamma(NVAPIWrapper.NVAPIVioGammaDto)
+  parent: NVAPIWrapper.NVAPIVioDeviceHelper
+  langs:
+  - csharp
+  - vb
+  name: SetGamma(NVAPIVioGammaDto)
+  nameWithType: NVAPIVioDeviceHelper.SetGamma(NVAPIVioGammaDto)
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.SetGamma(NVAPIWrapper.NVAPIVioGammaDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SetGamma
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 644
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Set VIO gamma correction (deprecated).
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Deprecated by NVAPI. Prefer GetConfig/SetConfig.")]
+
+      public bool? SetGamma(NVAPIVioGammaDto gamma)
+    parameters:
+    - id: gamma
+      type: NVAPIWrapper.NVAPIVioGammaDto
+      description: Gamma DTO.
+    return:
+      type: System.Nullable{System.Boolean}
+      description: True if applied, null if unsupported.
+    content.vb: >-
+      <Obsolete("Deprecated by NVAPI. Prefer GetConfig/SetConfig.")>
+
+      Public Function SetGamma(gamma As NVAPIVioGammaDto) As Boolean?
+  overload: NVAPIWrapper.NVAPIVioDeviceHelper.SetGamma*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Deprecated by NVAPI. Prefer GetConfig/SetConfig.
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.GetSyncDelay
+  commentId: M:NVAPIWrapper.NVAPIVioDeviceHelper.GetSyncDelay
+  id: GetSyncDelay
+  parent: NVAPIWrapper.NVAPIVioDeviceHelper
+  langs:
+  - csharp
+  - vb
+  name: GetSyncDelay()
+  nameWithType: NVAPIVioDeviceHelper.GetSyncDelay()
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.GetSyncDelay()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetSyncDelay
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 666
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get VIO sync delay (deprecated).
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Deprecated by NVAPI. Prefer GetConfig/SetConfig.")]
+
+      public NVAPIVioSyncDelayDto? GetSyncDelay()
+    return:
+      type: System.Nullable{NVAPIWrapper.NVAPIVioSyncDelayDto}
+      description: Sync delay DTO, or null if unavailable.
+    content.vb: >-
+      <Obsolete("Deprecated by NVAPI. Prefer GetConfig/SetConfig.")>
+
+      Public Function GetSyncDelay() As NVAPIVioSyncDelayDto?
+  overload: NVAPIWrapper.NVAPIVioDeviceHelper.GetSyncDelay*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Deprecated by NVAPI. Prefer GetConfig/SetConfig.
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.SetSyncDelay(NVAPIWrapper.NVAPIVioSyncDelayDto)
+  commentId: M:NVAPIWrapper.NVAPIVioDeviceHelper.SetSyncDelay(NVAPIWrapper.NVAPIVioSyncDelayDto)
+  id: SetSyncDelay(NVAPIWrapper.NVAPIVioSyncDelayDto)
+  parent: NVAPIWrapper.NVAPIVioDeviceHelper
+  langs:
+  - csharp
+  - vb
+  name: SetSyncDelay(NVAPIVioSyncDelayDto)
+  nameWithType: NVAPIVioDeviceHelper.SetSyncDelay(NVAPIVioSyncDelayDto)
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.SetSyncDelay(NVAPIWrapper.NVAPIVioSyncDelayDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SetSyncDelay
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 689
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Set VIO sync delay (deprecated).
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Deprecated by NVAPI. Prefer GetConfig/SetConfig.")]
+
+      public bool? SetSyncDelay(NVAPIVioSyncDelayDto delay)
+    parameters:
+    - id: delay
+      type: NVAPIWrapper.NVAPIVioSyncDelayDto
+      description: Sync delay DTO.
+    return:
+      type: System.Nullable{System.Boolean}
+      description: True if applied, null if unsupported.
+    content.vb: >-
+      <Obsolete("Deprecated by NVAPI. Prefer GetConfig/SetConfig.")>
+
+      Public Function SetSyncDelay(delay As NVAPIVioSyncDelayDto) As Boolean?
+  overload: NVAPIWrapper.NVAPIVioDeviceHelper.SetSyncDelay*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Deprecated by NVAPI. Prefer GetConfig/SetConfig.
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.GetPciInfo
+  commentId: M:NVAPIWrapper.NVAPIVioDeviceHelper.GetPciInfo
+  id: GetPciInfo
+  parent: NVAPIWrapper.NVAPIVioDeviceHelper
+  langs:
+  - csharp
+  - vb
+  name: GetPciInfo()
+  nameWithType: NVAPIVioDeviceHelper.GetPciInfo()
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.GetPciInfo()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetPciInfo
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 711
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get PCI information for the VIO device.
+  example: []
+  syntax:
+    content: public NVAPIVioPciInfoDto? GetPciInfo()
+    return:
+      type: System.Nullable{NVAPIWrapper.NVAPIVioPciInfoDto}
+      description: PCI info DTO, or null if unavailable.
+    content.vb: Public Function GetPciInfo() As NVAPIVioPciInfoDto?
+  overload: NVAPIWrapper.NVAPIVioDeviceHelper.GetPciInfo*
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.IsRunning
+  commentId: M:NVAPIWrapper.NVAPIVioDeviceHelper.IsRunning
+  id: IsRunning
+  parent: NVAPIWrapper.NVAPIVioDeviceHelper
+  langs:
+  - csharp
+  - vb
+  name: IsRunning()
+  nameWithType: NVAPIVioDeviceHelper.IsRunning()
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.IsRunning()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: IsRunning
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 732
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Check whether the VIO device is running.
+  example: []
+  syntax:
+    content: public bool? IsRunning()
+    return:
+      type: System.Nullable{System.Boolean}
+      description: True if running, false if not, or null if unsupported.
+    content.vb: Public Function IsRunning() As Boolean?
+  overload: NVAPIWrapper.NVAPIVioDeviceHelper.IsRunning*
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.Start
+  commentId: M:NVAPIWrapper.NVAPIVioDeviceHelper.Start
+  id: Start
+  parent: NVAPIWrapper.NVAPIVioDeviceHelper
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: NVAPIVioDeviceHelper.Start()
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.Start()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Start
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 754
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Start the VIO device.
+  example: []
+  syntax:
+    content: public bool? Start()
+    return:
+      type: System.Nullable{System.Boolean}
+      description: True if started, null if unsupported.
+    content.vb: Public Function Start() As Boolean?
+  overload: NVAPIWrapper.NVAPIVioDeviceHelper.Start*
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.Stop
+  commentId: M:NVAPIWrapper.NVAPIVioDeviceHelper.Stop
+  id: Stop
+  parent: NVAPIWrapper.NVAPIVioDeviceHelper
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: NVAPIVioDeviceHelper.Stop()
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.Stop()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Stop
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 773
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Stop the VIO device.
+  example: []
+  syntax:
+    content: public bool? Stop()
+    return:
+      type: System.Nullable{System.Boolean}
+      description: True if stopped, null if unsupported.
+    content.vb: Public Function [Stop]() As Boolean?
+  overload: NVAPIWrapper.NVAPIVioDeviceHelper.Stop*
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.IsFrameLockModeCompatible(System.UInt32,System.UInt32)
+  commentId: M:NVAPIWrapper.NVAPIVioDeviceHelper.IsFrameLockModeCompatible(System.UInt32,System.UInt32)
+  id: IsFrameLockModeCompatible(System.UInt32,System.UInt32)
+  parent: NVAPIWrapper.NVAPIVioDeviceHelper
+  langs:
+  - csharp
+  - vb
+  name: IsFrameLockModeCompatible(uint, uint)
+  nameWithType: NVAPIVioDeviceHelper.IsFrameLockModeCompatible(uint, uint)
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.IsFrameLockModeCompatible(uint, uint)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: IsFrameLockModeCompatible
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 794
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Check frame lock mode compatibility.
+  example: []
+  syntax:
+    content: public bool? IsFrameLockModeCompatible(uint sourceIndex, uint destIndex)
+    parameters:
+    - id: sourceIndex
+      type: System.UInt32
+      description: Source enum index.
+    - id: destIndex
+      type: System.UInt32
+      description: Destination enum index.
+    return:
+      type: System.Nullable{System.Boolean}
+      description: True if compatible, false if not, or null if unsupported.
+    content.vb: Public Function IsFrameLockModeCompatible(sourceIndex As UInteger, destIndex As UInteger) As Boolean?
+  overload: NVAPIWrapper.NVAPIVioDeviceHelper.IsFrameLockModeCompatible*
+  nameWithType.vb: NVAPIVioDeviceHelper.IsFrameLockModeCompatible(UInteger, UInteger)
+  fullName.vb: NVAPIWrapper.NVAPIVioDeviceHelper.IsFrameLockModeCompatible(UInteger, UInteger)
+  name.vb: IsFrameLockModeCompatible(UInteger, UInteger)
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.EnumSignalFormats
+  commentId: M:NVAPIWrapper.NVAPIVioDeviceHelper.EnumSignalFormats
+  id: EnumSignalFormats
+  parent: NVAPIWrapper.NVAPIVioDeviceHelper
+  langs:
+  - csharp
+  - vb
+  name: EnumSignalFormats()
+  nameWithType: NVAPIVioDeviceHelper.EnumSignalFormats()
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.EnumSignalFormats()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EnumSignalFormats
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 817
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Enumerate signal formats.
+  example: []
+  syntax:
+    content: public NVAPIVioSignalFormatDetailDto[]? EnumSignalFormats()
+    return:
+      type: NVAPIWrapper.NVAPIVioSignalFormatDetailDto[]
+      description: Array of signal formats, or null if unavailable.
+    content.vb: Public Function EnumSignalFormats() As NVAPIVioSignalFormatDetailDto()
+  overload: NVAPIWrapper.NVAPIVioDeviceHelper.EnumSignalFormats*
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.EnumDataFormats
+  commentId: M:NVAPIWrapper.NVAPIVioDeviceHelper.EnumDataFormats
+  id: EnumDataFormats
+  parent: NVAPIWrapper.NVAPIVioDeviceHelper
+  langs:
+  - csharp
+  - vb
+  name: EnumDataFormats()
+  nameWithType: NVAPIVioDeviceHelper.EnumDataFormats()
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.EnumDataFormats()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EnumDataFormats
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 847
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Enumerate data formats.
+  example: []
+  syntax:
+    content: public NVAPIVioDataFormatDetailDto[]? EnumDataFormats()
+    return:
+      type: NVAPIWrapper.NVAPIVioDataFormatDetailDto[]
+      description: Array of data formats, or null if unavailable.
+    content.vb: Public Function EnumDataFormats() As NVAPIVioDataFormatDetailDto()
+  overload: NVAPIWrapper.NVAPIVioDeviceHelper.EnumDataFormats*
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.Dispose
+  commentId: M:NVAPIWrapper.NVAPIVioDeviceHelper.Dispose
+  id: Dispose
+  parent: NVAPIWrapper.NVAPIVioDeviceHelper
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: NVAPIVioDeviceHelper.Dispose()
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.Dispose()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Dispose
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 895
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Dispose the helper and prevent further use.
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: NVAPIWrapper.NVAPIVioDeviceHelper.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.GetCapabilities*
+  commentId: Overload:NVAPIWrapper.NVAPIVioDeviceHelper.GetCapabilities
+  href: NVAPIWrapper.NVAPIVioDeviceHelper.html#NVAPIWrapper_NVAPIVioDeviceHelper_GetCapabilities
+  name: GetCapabilities
+  nameWithType: NVAPIVioDeviceHelper.GetCapabilities
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.GetCapabilities
+- uid: System.Nullable{NVAPIWrapper.NVAPIVioCapsDto}
+  commentId: T:System.Nullable{NVAPIWrapper.NVAPIVioCapsDto}
+  parent: System
+  definition: System.Nullable`1
+  href: NVAPIWrapper.NVAPIVioCapsDto.html
+  name: NVAPIVioCapsDto?
+  nameWithType: NVAPIVioCapsDto?
+  fullName: NVAPIWrapper.NVAPIVioCapsDto?
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIVioCapsDto
+    name: NVAPIVioCapsDto
+    href: NVAPIWrapper.NVAPIVioCapsDto.html
+  - name: '?'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIVioCapsDto
+    name: NVAPIVioCapsDto
+    href: NVAPIWrapper.NVAPIVioCapsDto.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.Open*
+  commentId: Overload:NVAPIWrapper.NVAPIVioDeviceHelper.Open
+  href: NVAPIWrapper.NVAPIVioDeviceHelper.html#NVAPIWrapper_NVAPIVioDeviceHelper_Open_System_UInt32_NVAPIWrapper__NVVIOOWNERTYPE_
+  name: Open
+  nameWithType: NVAPIVioDeviceHelper.Open
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.Open
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper._NVVIOOWNERTYPE
+  commentId: T:NVAPIWrapper._NVVIOOWNERTYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOOWNERTYPE.html
+  name: _NVVIOOWNERTYPE
+  nameWithType: _NVVIOOWNERTYPE
+  fullName: NVAPIWrapper._NVVIOOWNERTYPE
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool?
+  nameWithType: bool?
+  fullName: bool?
+  nameWithType.vb: Boolean?
+  fullName.vb: Boolean?
+  name.vb: Boolean?
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.Close*
+  commentId: Overload:NVAPIWrapper.NVAPIVioDeviceHelper.Close
+  href: NVAPIWrapper.NVAPIVioDeviceHelper.html#NVAPIWrapper_NVAPIVioDeviceHelper_Close_System_Boolean_
+  name: Close
+  nameWithType: NVAPIVioDeviceHelper.Close
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.Close
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.GetStatus*
+  commentId: Overload:NVAPIWrapper.NVAPIVioDeviceHelper.GetStatus
+  href: NVAPIWrapper.NVAPIVioDeviceHelper.html#NVAPIWrapper_NVAPIVioDeviceHelper_GetStatus
+  name: GetStatus
+  nameWithType: NVAPIVioDeviceHelper.GetStatus
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.GetStatus
+- uid: System.Nullable{NVAPIWrapper.NVAPIVioStatusDto}
+  commentId: T:System.Nullable{NVAPIWrapper.NVAPIVioStatusDto}
+  parent: System
+  definition: System.Nullable`1
+  href: NVAPIWrapper.NVAPIVioStatusDto.html
+  name: NVAPIVioStatusDto?
+  nameWithType: NVAPIVioStatusDto?
+  fullName: NVAPIWrapper.NVAPIVioStatusDto?
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIVioStatusDto
+    name: NVAPIVioStatusDto
+    href: NVAPIWrapper.NVAPIVioStatusDto.html
+  - name: '?'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIVioStatusDto
+    name: NVAPIVioStatusDto
+    href: NVAPIWrapper.NVAPIVioStatusDto.html
+  - name: '?'
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.SyncFormatDetect*
+  commentId: Overload:NVAPIWrapper.NVAPIVioDeviceHelper.SyncFormatDetect
+  href: NVAPIWrapper.NVAPIVioDeviceHelper.html#NVAPIWrapper_NVAPIVioDeviceHelper_SyncFormatDetect_System_UInt32_
+  name: SyncFormatDetect
+  nameWithType: NVAPIVioDeviceHelper.SyncFormatDetect
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.SyncFormatDetect
+- uid: System.Nullable{System.UInt32}
+  commentId: T:System.Nullable{System.UInt32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint?
+  nameWithType: uint?
+  fullName: uint?
+  nameWithType.vb: UInteger?
+  fullName.vb: UInteger?
+  name.vb: UInteger?
+  spec.csharp:
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: '?'
+  spec.vb:
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: '?'
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.GetConfig*
+  commentId: Overload:NVAPIWrapper.NVAPIVioDeviceHelper.GetConfig
+  href: NVAPIWrapper.NVAPIVioDeviceHelper.html#NVAPIWrapper_NVAPIVioDeviceHelper_GetConfig
+  name: GetConfig
+  nameWithType: NVAPIVioDeviceHelper.GetConfig
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.GetConfig
+- uid: System.Nullable{NVAPIWrapper.NVAPIVioConfigDto}
+  commentId: T:System.Nullable{NVAPIWrapper.NVAPIVioConfigDto}
+  parent: System
+  definition: System.Nullable`1
+  href: NVAPIWrapper.NVAPIVioConfigDto.html
+  name: NVAPIVioConfigDto?
+  nameWithType: NVAPIVioConfigDto?
+  fullName: NVAPIWrapper.NVAPIVioConfigDto?
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIVioConfigDto
+    name: NVAPIVioConfigDto
+    href: NVAPIWrapper.NVAPIVioConfigDto.html
+  - name: '?'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIVioConfigDto
+    name: NVAPIVioConfigDto
+    href: NVAPIWrapper.NVAPIVioConfigDto.html
+  - name: '?'
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.SetConfig*
+  commentId: Overload:NVAPIWrapper.NVAPIVioDeviceHelper.SetConfig
+  href: NVAPIWrapper.NVAPIVioDeviceHelper.html#NVAPIWrapper_NVAPIVioDeviceHelper_SetConfig_NVAPIWrapper_NVAPIVioConfigDto_
+  name: SetConfig
+  nameWithType: NVAPIVioDeviceHelper.SetConfig
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.SetConfig
+- uid: NVAPIWrapper.NVAPIVioConfigDto
+  commentId: T:NVAPIWrapper.NVAPIVioConfigDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIVioConfigDto.html
+  name: NVAPIVioConfigDto
+  nameWithType: NVAPIVioConfigDto
+  fullName: NVAPIWrapper.NVAPIVioConfigDto
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.GetCsc*
+  commentId: Overload:NVAPIWrapper.NVAPIVioDeviceHelper.GetCsc
+  href: NVAPIWrapper.NVAPIVioDeviceHelper.html#NVAPIWrapper_NVAPIVioDeviceHelper_GetCsc
+  name: GetCsc
+  nameWithType: NVAPIVioDeviceHelper.GetCsc
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.GetCsc
+- uid: System.Nullable{NVAPIWrapper.NVAPIVioColorConversionDto}
+  commentId: T:System.Nullable{NVAPIWrapper.NVAPIVioColorConversionDto}
+  parent: System
+  definition: System.Nullable`1
+  href: NVAPIWrapper.NVAPIVioColorConversionDto.html
+  name: NVAPIVioColorConversionDto?
+  nameWithType: NVAPIVioColorConversionDto?
+  fullName: NVAPIWrapper.NVAPIVioColorConversionDto?
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIVioColorConversionDto
+    name: NVAPIVioColorConversionDto
+    href: NVAPIWrapper.NVAPIVioColorConversionDto.html
+  - name: '?'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIVioColorConversionDto
+    name: NVAPIVioColorConversionDto
+    href: NVAPIWrapper.NVAPIVioColorConversionDto.html
+  - name: '?'
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.SetCsc*
+  commentId: Overload:NVAPIWrapper.NVAPIVioDeviceHelper.SetCsc
+  href: NVAPIWrapper.NVAPIVioDeviceHelper.html#NVAPIWrapper_NVAPIVioDeviceHelper_SetCsc_NVAPIWrapper_NVAPIVioColorConversionDto_
+  name: SetCsc
+  nameWithType: NVAPIVioDeviceHelper.SetCsc
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.SetCsc
+- uid: NVAPIWrapper.NVAPIVioColorConversionDto
+  commentId: T:NVAPIWrapper.NVAPIVioColorConversionDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIVioColorConversionDto.html
+  name: NVAPIVioColorConversionDto
+  nameWithType: NVAPIVioColorConversionDto
+  fullName: NVAPIWrapper.NVAPIVioColorConversionDto
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.GetGamma*
+  commentId: Overload:NVAPIWrapper.NVAPIVioDeviceHelper.GetGamma
+  href: NVAPIWrapper.NVAPIVioDeviceHelper.html#NVAPIWrapper_NVAPIVioDeviceHelper_GetGamma
+  name: GetGamma
+  nameWithType: NVAPIVioDeviceHelper.GetGamma
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.GetGamma
+- uid: System.Nullable{NVAPIWrapper.NVAPIVioGammaDto}
+  commentId: T:System.Nullable{NVAPIWrapper.NVAPIVioGammaDto}
+  parent: System
+  definition: System.Nullable`1
+  href: NVAPIWrapper.NVAPIVioGammaDto.html
+  name: NVAPIVioGammaDto?
+  nameWithType: NVAPIVioGammaDto?
+  fullName: NVAPIWrapper.NVAPIVioGammaDto?
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIVioGammaDto
+    name: NVAPIVioGammaDto
+    href: NVAPIWrapper.NVAPIVioGammaDto.html
+  - name: '?'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIVioGammaDto
+    name: NVAPIVioGammaDto
+    href: NVAPIWrapper.NVAPIVioGammaDto.html
+  - name: '?'
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.SetGamma*
+  commentId: Overload:NVAPIWrapper.NVAPIVioDeviceHelper.SetGamma
+  href: NVAPIWrapper.NVAPIVioDeviceHelper.html#NVAPIWrapper_NVAPIVioDeviceHelper_SetGamma_NVAPIWrapper_NVAPIVioGammaDto_
+  name: SetGamma
+  nameWithType: NVAPIVioDeviceHelper.SetGamma
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.SetGamma
+- uid: NVAPIWrapper.NVAPIVioGammaDto
+  commentId: T:NVAPIWrapper.NVAPIVioGammaDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIVioGammaDto.html
+  name: NVAPIVioGammaDto
+  nameWithType: NVAPIVioGammaDto
+  fullName: NVAPIWrapper.NVAPIVioGammaDto
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.GetSyncDelay*
+  commentId: Overload:NVAPIWrapper.NVAPIVioDeviceHelper.GetSyncDelay
+  href: NVAPIWrapper.NVAPIVioDeviceHelper.html#NVAPIWrapper_NVAPIVioDeviceHelper_GetSyncDelay
+  name: GetSyncDelay
+  nameWithType: NVAPIVioDeviceHelper.GetSyncDelay
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.GetSyncDelay
+- uid: System.Nullable{NVAPIWrapper.NVAPIVioSyncDelayDto}
+  commentId: T:System.Nullable{NVAPIWrapper.NVAPIVioSyncDelayDto}
+  parent: System
+  definition: System.Nullable`1
+  href: NVAPIWrapper.NVAPIVioSyncDelayDto.html
+  name: NVAPIVioSyncDelayDto?
+  nameWithType: NVAPIVioSyncDelayDto?
+  fullName: NVAPIWrapper.NVAPIVioSyncDelayDto?
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIVioSyncDelayDto
+    name: NVAPIVioSyncDelayDto
+    href: NVAPIWrapper.NVAPIVioSyncDelayDto.html
+  - name: '?'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIVioSyncDelayDto
+    name: NVAPIVioSyncDelayDto
+    href: NVAPIWrapper.NVAPIVioSyncDelayDto.html
+  - name: '?'
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.SetSyncDelay*
+  commentId: Overload:NVAPIWrapper.NVAPIVioDeviceHelper.SetSyncDelay
+  href: NVAPIWrapper.NVAPIVioDeviceHelper.html#NVAPIWrapper_NVAPIVioDeviceHelper_SetSyncDelay_NVAPIWrapper_NVAPIVioSyncDelayDto_
+  name: SetSyncDelay
+  nameWithType: NVAPIVioDeviceHelper.SetSyncDelay
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.SetSyncDelay
+- uid: NVAPIWrapper.NVAPIVioSyncDelayDto
+  commentId: T:NVAPIWrapper.NVAPIVioSyncDelayDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIVioSyncDelayDto.html
+  name: NVAPIVioSyncDelayDto
+  nameWithType: NVAPIVioSyncDelayDto
+  fullName: NVAPIWrapper.NVAPIVioSyncDelayDto
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.GetPciInfo*
+  commentId: Overload:NVAPIWrapper.NVAPIVioDeviceHelper.GetPciInfo
+  href: NVAPIWrapper.NVAPIVioDeviceHelper.html#NVAPIWrapper_NVAPIVioDeviceHelper_GetPciInfo
+  name: GetPciInfo
+  nameWithType: NVAPIVioDeviceHelper.GetPciInfo
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.GetPciInfo
+- uid: System.Nullable{NVAPIWrapper.NVAPIVioPciInfoDto}
+  commentId: T:System.Nullable{NVAPIWrapper.NVAPIVioPciInfoDto}
+  parent: System
+  definition: System.Nullable`1
+  href: NVAPIWrapper.NVAPIVioPciInfoDto.html
+  name: NVAPIVioPciInfoDto?
+  nameWithType: NVAPIVioPciInfoDto?
+  fullName: NVAPIWrapper.NVAPIVioPciInfoDto?
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIVioPciInfoDto
+    name: NVAPIVioPciInfoDto
+    href: NVAPIWrapper.NVAPIVioPciInfoDto.html
+  - name: '?'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIVioPciInfoDto
+    name: NVAPIVioPciInfoDto
+    href: NVAPIWrapper.NVAPIVioPciInfoDto.html
+  - name: '?'
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.IsRunning*
+  commentId: Overload:NVAPIWrapper.NVAPIVioDeviceHelper.IsRunning
+  href: NVAPIWrapper.NVAPIVioDeviceHelper.html#NVAPIWrapper_NVAPIVioDeviceHelper_IsRunning
+  name: IsRunning
+  nameWithType: NVAPIVioDeviceHelper.IsRunning
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.IsRunning
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.Start*
+  commentId: Overload:NVAPIWrapper.NVAPIVioDeviceHelper.Start
+  href: NVAPIWrapper.NVAPIVioDeviceHelper.html#NVAPIWrapper_NVAPIVioDeviceHelper_Start
+  name: Start
+  nameWithType: NVAPIVioDeviceHelper.Start
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.Start
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.Stop*
+  commentId: Overload:NVAPIWrapper.NVAPIVioDeviceHelper.Stop
+  href: NVAPIWrapper.NVAPIVioDeviceHelper.html#NVAPIWrapper_NVAPIVioDeviceHelper_Stop
+  name: Stop
+  nameWithType: NVAPIVioDeviceHelper.Stop
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.Stop
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.IsFrameLockModeCompatible*
+  commentId: Overload:NVAPIWrapper.NVAPIVioDeviceHelper.IsFrameLockModeCompatible
+  href: NVAPIWrapper.NVAPIVioDeviceHelper.html#NVAPIWrapper_NVAPIVioDeviceHelper_IsFrameLockModeCompatible_System_UInt32_System_UInt32_
+  name: IsFrameLockModeCompatible
+  nameWithType: NVAPIVioDeviceHelper.IsFrameLockModeCompatible
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.IsFrameLockModeCompatible
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.EnumSignalFormats*
+  commentId: Overload:NVAPIWrapper.NVAPIVioDeviceHelper.EnumSignalFormats
+  href: NVAPIWrapper.NVAPIVioDeviceHelper.html#NVAPIWrapper_NVAPIVioDeviceHelper_EnumSignalFormats
+  name: EnumSignalFormats
+  nameWithType: NVAPIVioDeviceHelper.EnumSignalFormats
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.EnumSignalFormats
+- uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto[]
+  isExternal: true
+  href: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.html
+  name: NVAPIVioSignalFormatDetailDto[]
+  nameWithType: NVAPIVioSignalFormatDetailDto[]
+  fullName: NVAPIWrapper.NVAPIVioSignalFormatDetailDto[]
+  nameWithType.vb: NVAPIVioSignalFormatDetailDto()
+  fullName.vb: NVAPIWrapper.NVAPIVioSignalFormatDetailDto()
+  name.vb: NVAPIVioSignalFormatDetailDto()
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+    name: NVAPIVioSignalFormatDetailDto
+    href: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIVioSignalFormatDetailDto
+    name: NVAPIVioSignalFormatDetailDto
+    href: NVAPIWrapper.NVAPIVioSignalFormatDetailDto.html
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.EnumDataFormats*
+  commentId: Overload:NVAPIWrapper.NVAPIVioDeviceHelper.EnumDataFormats
+  href: NVAPIWrapper.NVAPIVioDeviceHelper.html#NVAPIWrapper_NVAPIVioDeviceHelper_EnumDataFormats
+  name: EnumDataFormats
+  nameWithType: NVAPIVioDeviceHelper.EnumDataFormats
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.EnumDataFormats
+- uid: NVAPIWrapper.NVAPIVioDataFormatDetailDto[]
+  isExternal: true
+  href: NVAPIWrapper.NVAPIVioDataFormatDetailDto.html
+  name: NVAPIVioDataFormatDetailDto[]
+  nameWithType: NVAPIVioDataFormatDetailDto[]
+  fullName: NVAPIWrapper.NVAPIVioDataFormatDetailDto[]
+  nameWithType.vb: NVAPIVioDataFormatDetailDto()
+  fullName.vb: NVAPIWrapper.NVAPIVioDataFormatDetailDto()
+  name.vb: NVAPIVioDataFormatDetailDto()
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIVioDataFormatDetailDto
+    name: NVAPIVioDataFormatDetailDto
+    href: NVAPIWrapper.NVAPIVioDataFormatDetailDto.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIVioDataFormatDetailDto
+    name: NVAPIVioDataFormatDetailDto
+    href: NVAPIWrapper.NVAPIVioDataFormatDetailDto.html
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper.Dispose*
+  commentId: Overload:NVAPIWrapper.NVAPIVioDeviceHelper.Dispose
+  href: NVAPIWrapper.NVAPIVioDeviceHelper.html#NVAPIWrapper_NVAPIVioDeviceHelper_Dispose
+  name: Dispose
+  nameWithType: NVAPIVioDeviceHelper.Dispose
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )

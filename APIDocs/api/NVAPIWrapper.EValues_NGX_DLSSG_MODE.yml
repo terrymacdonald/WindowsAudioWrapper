@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_NGX_DLSSG_MODE
+  commentId: T:NVAPIWrapper.EValues_NGX_DLSSG_MODE
+  id: EValues_NGX_DLSSG_MODE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_AUTO
+  - NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_DEFAULT
+  - NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_DISABLED
+  - NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_DYNAMIC
+  - NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_NUM_VALUES
+  - NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_OFF
+  - NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_ON
+  langs:
+  - csharp
+  - vb
+  name: EValues_NGX_DLSSG_MODE
+  nameWithType: EValues_NGX_DLSSG_MODE
+  fullName: NVAPIWrapper.EValues_NGX_DLSSG_MODE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSSG_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_NGX_DLSSG_MODE
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSSG_MODE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_NGX_DLSSG_MODE
+    content.vb: Public Enum EValues_NGX_DLSSG_MODE
+- uid: NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_DISABLED
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_DISABLED
+  id: NGX_DLSSG_MODE_DISABLED
+  parent: NVAPIWrapper.EValues_NGX_DLSSG_MODE
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSSG_MODE_DISABLED
+  nameWithType: EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_DISABLED
+  fullName: NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_DISABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSSG_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSSG_MODE_DISABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSSG_MODE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSSG_MODE_DISABLED = 0
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSSG_MODE
+- uid: NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_OFF
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_OFF
+  id: NGX_DLSSG_MODE_OFF
+  parent: NVAPIWrapper.EValues_NGX_DLSSG_MODE
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSSG_MODE_OFF
+  nameWithType: EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_OFF
+  fullName: NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSSG_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSSG_MODE_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSSG_MODE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSSG_MODE_OFF = 1
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSSG_MODE
+- uid: NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_ON
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_ON
+  id: NGX_DLSSG_MODE_ON
+  parent: NVAPIWrapper.EValues_NGX_DLSSG_MODE
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSSG_MODE_ON
+  nameWithType: EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_ON
+  fullName: NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSSG_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSSG_MODE_ON
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSSG_MODE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSSG_MODE_ON = 2
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSSG_MODE
+- uid: NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_AUTO
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_AUTO
+  id: NGX_DLSSG_MODE_AUTO
+  parent: NVAPIWrapper.EValues_NGX_DLSSG_MODE
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSSG_MODE_AUTO
+  nameWithType: EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_AUTO
+  fullName: NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_AUTO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSSG_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSSG_MODE_AUTO
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSSG_MODE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSSG_MODE_AUTO = 3
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSSG_MODE
+- uid: NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_DYNAMIC
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_DYNAMIC
+  id: NGX_DLSSG_MODE_DYNAMIC
+  parent: NVAPIWrapper.EValues_NGX_DLSSG_MODE
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSSG_MODE_DYNAMIC
+  nameWithType: EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_DYNAMIC
+  fullName: NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_DYNAMIC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSSG_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSSG_MODE_DYNAMIC
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSSG_MODE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSSG_MODE_DYNAMIC = 4
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSSG_MODE
+- uid: NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_NUM_VALUES
+  id: NGX_DLSSG_MODE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_NGX_DLSSG_MODE
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSSG_MODE_NUM_VALUES
+  nameWithType: EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSSG_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSSG_MODE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSSG_MODE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSSG_MODE_NUM_VALUES = 5
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSSG_MODE
+- uid: NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_DEFAULT
+  id: NGX_DLSSG_MODE_DEFAULT
+  parent: NVAPIWrapper.EValues_NGX_DLSSG_MODE
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSSG_MODE_DEFAULT
+  nameWithType: EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_DEFAULT
+  fullName: NVAPIWrapper.EValues_NGX_DLSSG_MODE.NGX_DLSSG_MODE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSSG_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSSG_MODE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSSG_MODE.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSSG_MODE_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSSG_MODE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_NGX_DLSSG_MODE
+  commentId: T:NVAPIWrapper.EValues_NGX_DLSSG_MODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_NGX_DLSSG_MODE.html
+  name: EValues_NGX_DLSSG_MODE
+  nameWithType: EValues_NGX_DLSSG_MODE
+  fullName: NVAPIWrapper.EValues_NGX_DLSSG_MODE

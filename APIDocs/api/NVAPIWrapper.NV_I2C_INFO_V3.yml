@@ -1,0 +1,658 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_I2C_INFO_V3
+  commentId: T:NVAPIWrapper.NV_I2C_INFO_V3
+  id: NV_I2C_INFO_V3
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_I2C_INFO_V3.bIsDDCPort
+  - NVAPIWrapper.NV_I2C_INFO_V3.bIsPortIdSet
+  - NVAPIWrapper.NV_I2C_INFO_V3.cbSize
+  - NVAPIWrapper.NV_I2C_INFO_V3.displayMask
+  - NVAPIWrapper.NV_I2C_INFO_V3.i2cDevAddress
+  - NVAPIWrapper.NV_I2C_INFO_V3.i2cSpeed
+  - NVAPIWrapper.NV_I2C_INFO_V3.i2cSpeedKhz
+  - NVAPIWrapper.NV_I2C_INFO_V3.pbData
+  - NVAPIWrapper.NV_I2C_INFO_V3.pbI2cRegAddress
+  - NVAPIWrapper.NV_I2C_INFO_V3.portId
+  - NVAPIWrapper.NV_I2C_INFO_V3.regAddrSize
+  - NVAPIWrapper.NV_I2C_INFO_V3.version
+  langs:
+  - csharp
+  - vb
+  name: NV_I2C_INFO_V3
+  nameWithType: NV_I2C_INFO_V3
+  fullName: NVAPIWrapper.NV_I2C_INFO_V3
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_I2C_INFO_V3
+    path: ../NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct NV_I2C_INFO_V3
+    content.vb: Public Structure NV_I2C_INFO_V3
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NV_I2C_INFO_V3.version
+  commentId: F:NVAPIWrapper.NV_I2C_INFO_V3.version
+  id: version
+  parent: NVAPIWrapper.NV_I2C_INFO_V3
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: NV_I2C_INFO_V3.version
+  fullName: NVAPIWrapper.NV_I2C_INFO_V3.version
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: version
+    path: ../NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+    startLine: 7
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint version
+    return:
+      type: System.UInt32
+    content.vb: Public version As UInteger
+- uid: NVAPIWrapper.NV_I2C_INFO_V3.displayMask
+  commentId: F:NVAPIWrapper.NV_I2C_INFO_V3.displayMask
+  id: displayMask
+  parent: NVAPIWrapper.NV_I2C_INFO_V3
+  langs:
+  - csharp
+  - vb
+  name: displayMask
+  nameWithType: NV_I2C_INFO_V3.displayMask
+  fullName: NVAPIWrapper.NV_I2C_INFO_V3.displayMask
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: displayMask
+    path: ../NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+    startLine: 11
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint displayMask
+    return:
+      type: System.UInt32
+    content.vb: Public displayMask As UInteger
+- uid: NVAPIWrapper.NV_I2C_INFO_V3.bIsDDCPort
+  commentId: F:NVAPIWrapper.NV_I2C_INFO_V3.bIsDDCPort
+  id: bIsDDCPort
+  parent: NVAPIWrapper.NV_I2C_INFO_V3
+  langs:
+  - csharp
+  - vb
+  name: bIsDDCPort
+  nameWithType: NV_I2C_INFO_V3.bIsDDCPort
+  fullName: NVAPIWrapper.NV_I2C_INFO_V3.bIsDDCPort
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bIsDDCPort
+    path: ../NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte bIsDDCPort
+    return:
+      type: System.Byte
+    content.vb: Public bIsDDCPort As Byte
+- uid: NVAPIWrapper.NV_I2C_INFO_V3.i2cDevAddress
+  commentId: F:NVAPIWrapper.NV_I2C_INFO_V3.i2cDevAddress
+  id: i2cDevAddress
+  parent: NVAPIWrapper.NV_I2C_INFO_V3
+  langs:
+  - csharp
+  - vb
+  name: i2cDevAddress
+  nameWithType: NV_I2C_INFO_V3.i2cDevAddress
+  fullName: NVAPIWrapper.NV_I2C_INFO_V3.i2cDevAddress
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: i2cDevAddress
+    path: ../NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+    startLine: 19
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte i2cDevAddress
+    return:
+      type: System.Byte
+    content.vb: Public i2cDevAddress As Byte
+- uid: NVAPIWrapper.NV_I2C_INFO_V3.pbI2cRegAddress
+  commentId: F:NVAPIWrapper.NV_I2C_INFO_V3.pbI2cRegAddress
+  id: pbI2cRegAddress
+  parent: NVAPIWrapper.NV_I2C_INFO_V3
+  langs:
+  - csharp
+  - vb
+  name: pbI2cRegAddress
+  nameWithType: NV_I2C_INFO_V3.pbI2cRegAddress
+  fullName: NVAPIWrapper.NV_I2C_INFO_V3.pbI2cRegAddress
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: pbI2cRegAddress
+    path: ../NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+    startLine: 23
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte* pbI2cRegAddress
+    return:
+      type: System.Byte*
+    content.vb: Public pbI2cRegAddress As Byte*
+- uid: NVAPIWrapper.NV_I2C_INFO_V3.regAddrSize
+  commentId: F:NVAPIWrapper.NV_I2C_INFO_V3.regAddrSize
+  id: regAddrSize
+  parent: NVAPIWrapper.NV_I2C_INFO_V3
+  langs:
+  - csharp
+  - vb
+  name: regAddrSize
+  nameWithType: NV_I2C_INFO_V3.regAddrSize
+  fullName: NVAPIWrapper.NV_I2C_INFO_V3.regAddrSize
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: regAddrSize
+    path: ../NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint regAddrSize
+    return:
+      type: System.UInt32
+    content.vb: Public regAddrSize As UInteger
+- uid: NVAPIWrapper.NV_I2C_INFO_V3.pbData
+  commentId: F:NVAPIWrapper.NV_I2C_INFO_V3.pbData
+  id: pbData
+  parent: NVAPIWrapper.NV_I2C_INFO_V3
+  langs:
+  - csharp
+  - vb
+  name: pbData
+  nameWithType: NV_I2C_INFO_V3.pbData
+  fullName: NVAPIWrapper.NV_I2C_INFO_V3.pbData
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: pbData
+    path: ../NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+    startLine: 31
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte* pbData
+    return:
+      type: System.Byte*
+    content.vb: Public pbData As Byte*
+- uid: NVAPIWrapper.NV_I2C_INFO_V3.cbSize
+  commentId: F:NVAPIWrapper.NV_I2C_INFO_V3.cbSize
+  id: cbSize
+  parent: NVAPIWrapper.NV_I2C_INFO_V3
+  langs:
+  - csharp
+  - vb
+  name: cbSize
+  nameWithType: NV_I2C_INFO_V3.cbSize
+  fullName: NVAPIWrapper.NV_I2C_INFO_V3.cbSize
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: cbSize
+    path: ../NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+    startLine: 35
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint cbSize
+    return:
+      type: System.UInt32
+    content.vb: Public cbSize As UInteger
+- uid: NVAPIWrapper.NV_I2C_INFO_V3.i2cSpeed
+  commentId: F:NVAPIWrapper.NV_I2C_INFO_V3.i2cSpeed
+  id: i2cSpeed
+  parent: NVAPIWrapper.NV_I2C_INFO_V3
+  langs:
+  - csharp
+  - vb
+  name: i2cSpeed
+  nameWithType: NV_I2C_INFO_V3.i2cSpeed
+  fullName: NVAPIWrapper.NV_I2C_INFO_V3.i2cSpeed
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: i2cSpeed
+    path: ../NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+    startLine: 39
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint i2cSpeed
+    return:
+      type: System.UInt32
+    content.vb: Public i2cSpeed As UInteger
+- uid: NVAPIWrapper.NV_I2C_INFO_V3.i2cSpeedKhz
+  commentId: F:NVAPIWrapper.NV_I2C_INFO_V3.i2cSpeedKhz
+  id: i2cSpeedKhz
+  parent: NVAPIWrapper.NV_I2C_INFO_V3
+  langs:
+  - csharp
+  - vb
+  name: i2cSpeedKhz
+  nameWithType: NV_I2C_INFO_V3.i2cSpeedKhz
+  fullName: NVAPIWrapper.NV_I2C_INFO_V3.i2cSpeedKhz
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: i2cSpeedKhz
+    path: ../NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+    startLine: 42
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public NV_I2C_SPEED i2cSpeedKhz
+    return:
+      type: NVAPIWrapper.NV_I2C_SPEED
+    content.vb: Public i2cSpeedKhz As NV_I2C_SPEED
+- uid: NVAPIWrapper.NV_I2C_INFO_V3.portId
+  commentId: F:NVAPIWrapper.NV_I2C_INFO_V3.portId
+  id: portId
+  parent: NVAPIWrapper.NV_I2C_INFO_V3
+  langs:
+  - csharp
+  - vb
+  name: portId
+  nameWithType: NV_I2C_INFO_V3.portId
+  fullName: NVAPIWrapper.NV_I2C_INFO_V3.portId
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: portId
+    path: ../NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+    startLine: 46
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte portId
+    return:
+      type: System.Byte
+    content.vb: Public portId As Byte
+- uid: NVAPIWrapper.NV_I2C_INFO_V3.bIsPortIdSet
+  commentId: F:NVAPIWrapper.NV_I2C_INFO_V3.bIsPortIdSet
+  id: bIsPortIdSet
+  parent: NVAPIWrapper.NV_I2C_INFO_V3
+  langs:
+  - csharp
+  - vb
+  name: bIsPortIdSet
+  nameWithType: NV_I2C_INFO_V3.bIsPortIdSet
+  fullName: NVAPIWrapper.NV_I2C_INFO_V3.bIsPortIdSet
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bIsPortIdSet
+    path: ../NVAPIWrapper/cs_generated/NV_I2C_INFO_V3.cs
+    startLine: 50
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bIsPortIdSet
+    return:
+      type: System.UInt32
+    content.vb: Public bIsPortIdSet As UInteger
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: System.Byte*
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte*
+  nameWithType: byte*
+  fullName: byte*
+  nameWithType.vb: Byte*
+  fullName.vb: Byte*
+  name.vb: Byte*
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '*'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '*'
+- uid: NVAPIWrapper.NV_I2C_SPEED
+  commentId: T:NVAPIWrapper.NV_I2C_SPEED
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_I2C_SPEED.html
+  name: NV_I2C_SPEED
+  nameWithType: NV_I2C_SPEED
+  fullName: NVAPIWrapper.NV_I2C_SPEED

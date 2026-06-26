@@ -1,0 +1,705 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVVIOOUTPUTSTATUS
+  commentId: T:NVAPIWrapper._NVVIOOUTPUTSTATUS
+  id: _NVVIOOUTPUTSTATUS
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVVIOOUTPUTSTATUS.compSyncIn
+  - NVAPIWrapper._NVVIOOUTPUTSTATUS.dataIntegrityCheckEnabled
+  - NVAPIWrapper._NVVIOOUTPUTSTATUS.dataIntegrityCheckErrorCount
+  - NVAPIWrapper._NVVIOOUTPUTSTATUS.dataIntegrityCheckFailed
+  - NVAPIWrapper._NVVIOOUTPUTSTATUS.frameLockEnable
+  - NVAPIWrapper._NVVIOOUTPUTSTATUS.outputVideoLocked
+  - NVAPIWrapper._NVVIOOUTPUTSTATUS.sdiSyncIn
+  - NVAPIWrapper._NVVIOOUTPUTSTATUS.syncEnable
+  - NVAPIWrapper._NVVIOOUTPUTSTATUS.syncFormat
+  - NVAPIWrapper._NVVIOOUTPUTSTATUS.syncSource
+  - NVAPIWrapper._NVVIOOUTPUTSTATUS.uPowerOn
+  - NVAPIWrapper._NVVIOOUTPUTSTATUS.uSyncSourceLocked
+  - NVAPIWrapper._NVVIOOUTPUTSTATUS.vid1Out
+  - NVAPIWrapper._NVVIOOUTPUTSTATUS.vid2Out
+  langs:
+  - csharp
+  - vb
+  name: _NVVIOOUTPUTSTATUS
+  nameWithType: _NVVIOOUTPUTSTATUS
+  fullName: NVAPIWrapper._NVVIOOUTPUTSTATUS
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVVIOOUTPUTSTATUS
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NVVIOOUTPUTSTATUS
+    content.vb: Public Structure _NVVIOOUTPUTSTATUS
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NVVIOOUTPUTSTATUS.vid1Out
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTSTATUS.vid1Out
+  id: vid1Out
+  parent: NVAPIWrapper._NVVIOOUTPUTSTATUS
+  langs:
+  - csharp
+  - vb
+  name: vid1Out
+  nameWithType: _NVVIOOUTPUTSTATUS.vid1Out
+  fullName: NVAPIWrapper._NVVIOOUTPUTSTATUS.vid1Out
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: vid1Out
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+    startLine: 7
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVVIOINPUTOUTPUTSTATUS vid1Out
+    return:
+      type: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS
+    content.vb: Public vid1Out As _NVVIOINPUTOUTPUTSTATUS
+- uid: NVAPIWrapper._NVVIOOUTPUTSTATUS.vid2Out
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTSTATUS.vid2Out
+  id: vid2Out
+  parent: NVAPIWrapper._NVVIOOUTPUTSTATUS
+  langs:
+  - csharp
+  - vb
+  name: vid2Out
+  nameWithType: _NVVIOOUTPUTSTATUS.vid2Out
+  fullName: NVAPIWrapper._NVVIOOUTPUTSTATUS.vid2Out
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: vid2Out
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+    startLine: 11
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVVIOINPUTOUTPUTSTATUS vid2Out
+    return:
+      type: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS
+    content.vb: Public vid2Out As _NVVIOINPUTOUTPUTSTATUS
+- uid: NVAPIWrapper._NVVIOOUTPUTSTATUS.sdiSyncIn
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTSTATUS.sdiSyncIn
+  id: sdiSyncIn
+  parent: NVAPIWrapper._NVVIOOUTPUTSTATUS
+  langs:
+  - csharp
+  - vb
+  name: sdiSyncIn
+  nameWithType: _NVVIOOUTPUTSTATUS.sdiSyncIn
+  fullName: NVAPIWrapper._NVVIOOUTPUTSTATUS.sdiSyncIn
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: sdiSyncIn
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVVIOSYNCSTATUS sdiSyncIn
+    return:
+      type: NVAPIWrapper._NVVIOSYNCSTATUS
+    content.vb: Public sdiSyncIn As _NVVIOSYNCSTATUS
+- uid: NVAPIWrapper._NVVIOOUTPUTSTATUS.compSyncIn
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTSTATUS.compSyncIn
+  id: compSyncIn
+  parent: NVAPIWrapper._NVVIOOUTPUTSTATUS
+  langs:
+  - csharp
+  - vb
+  name: compSyncIn
+  nameWithType: _NVVIOOUTPUTSTATUS.compSyncIn
+  fullName: NVAPIWrapper._NVVIOOUTPUTSTATUS.compSyncIn
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: compSyncIn
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+    startLine: 19
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVVIOSYNCSTATUS compSyncIn
+    return:
+      type: NVAPIWrapper._NVVIOSYNCSTATUS
+    content.vb: Public compSyncIn As _NVVIOSYNCSTATUS
+- uid: NVAPIWrapper._NVVIOOUTPUTSTATUS.syncEnable
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTSTATUS.syncEnable
+  id: syncEnable
+  parent: NVAPIWrapper._NVVIOOUTPUTSTATUS
+  langs:
+  - csharp
+  - vb
+  name: syncEnable
+  nameWithType: _NVVIOOUTPUTSTATUS.syncEnable
+  fullName: NVAPIWrapper._NVVIOOUTPUTSTATUS.syncEnable
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: syncEnable
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+    startLine: 23
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint syncEnable
+    return:
+      type: System.UInt32
+    content.vb: Public syncEnable As UInteger
+- uid: NVAPIWrapper._NVVIOOUTPUTSTATUS.syncSource
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTSTATUS.syncSource
+  id: syncSource
+  parent: NVAPIWrapper._NVVIOOUTPUTSTATUS
+  langs:
+  - csharp
+  - vb
+  name: syncSource
+  nameWithType: _NVVIOOUTPUTSTATUS.syncSource
+  fullName: NVAPIWrapper._NVVIOOUTPUTSTATUS.syncSource
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: syncSource
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVVIOSYNCSOURCE syncSource
+    return:
+      type: NVAPIWrapper._NVVIOSYNCSOURCE
+    content.vb: Public syncSource As _NVVIOSYNCSOURCE
+- uid: NVAPIWrapper._NVVIOOUTPUTSTATUS.syncFormat
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTSTATUS.syncFormat
+  id: syncFormat
+  parent: NVAPIWrapper._NVVIOOUTPUTSTATUS
+  langs:
+  - csharp
+  - vb
+  name: syncFormat
+  nameWithType: _NVVIOOUTPUTSTATUS.syncFormat
+  fullName: NVAPIWrapper._NVVIOOUTPUTSTATUS.syncFormat
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: syncFormat
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+    startLine: 31
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVVIOSIGNALFORMAT syncFormat
+    return:
+      type: NVAPIWrapper._NVVIOSIGNALFORMAT
+    content.vb: Public syncFormat As _NVVIOSIGNALFORMAT
+- uid: NVAPIWrapper._NVVIOOUTPUTSTATUS.frameLockEnable
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTSTATUS.frameLockEnable
+  id: frameLockEnable
+  parent: NVAPIWrapper._NVVIOOUTPUTSTATUS
+  langs:
+  - csharp
+  - vb
+  name: frameLockEnable
+  nameWithType: _NVVIOOUTPUTSTATUS.frameLockEnable
+  fullName: NVAPIWrapper._NVVIOOUTPUTSTATUS.frameLockEnable
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: frameLockEnable
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+    startLine: 35
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint frameLockEnable
+    return:
+      type: System.UInt32
+    content.vb: Public frameLockEnable As UInteger
+- uid: NVAPIWrapper._NVVIOOUTPUTSTATUS.outputVideoLocked
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTSTATUS.outputVideoLocked
+  id: outputVideoLocked
+  parent: NVAPIWrapper._NVVIOOUTPUTSTATUS
+  langs:
+  - csharp
+  - vb
+  name: outputVideoLocked
+  nameWithType: _NVVIOOUTPUTSTATUS.outputVideoLocked
+  fullName: NVAPIWrapper._NVVIOOUTPUTSTATUS.outputVideoLocked
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: outputVideoLocked
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+    startLine: 39
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint outputVideoLocked
+    return:
+      type: System.UInt32
+    content.vb: Public outputVideoLocked As UInteger
+- uid: NVAPIWrapper._NVVIOOUTPUTSTATUS.dataIntegrityCheckErrorCount
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTSTATUS.dataIntegrityCheckErrorCount
+  id: dataIntegrityCheckErrorCount
+  parent: NVAPIWrapper._NVVIOOUTPUTSTATUS
+  langs:
+  - csharp
+  - vb
+  name: dataIntegrityCheckErrorCount
+  nameWithType: _NVVIOOUTPUTSTATUS.dataIntegrityCheckErrorCount
+  fullName: NVAPIWrapper._NVVIOOUTPUTSTATUS.dataIntegrityCheckErrorCount
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: dataIntegrityCheckErrorCount
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+    startLine: 43
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint dataIntegrityCheckErrorCount
+    return:
+      type: System.UInt32
+    content.vb: Public dataIntegrityCheckErrorCount As UInteger
+- uid: NVAPIWrapper._NVVIOOUTPUTSTATUS.dataIntegrityCheckEnabled
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTSTATUS.dataIntegrityCheckEnabled
+  id: dataIntegrityCheckEnabled
+  parent: NVAPIWrapper._NVVIOOUTPUTSTATUS
+  langs:
+  - csharp
+  - vb
+  name: dataIntegrityCheckEnabled
+  nameWithType: _NVVIOOUTPUTSTATUS.dataIntegrityCheckEnabled
+  fullName: NVAPIWrapper._NVVIOOUTPUTSTATUS.dataIntegrityCheckEnabled
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: dataIntegrityCheckEnabled
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+    startLine: 47
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint dataIntegrityCheckEnabled
+    return:
+      type: System.UInt32
+    content.vb: Public dataIntegrityCheckEnabled As UInteger
+- uid: NVAPIWrapper._NVVIOOUTPUTSTATUS.dataIntegrityCheckFailed
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTSTATUS.dataIntegrityCheckFailed
+  id: dataIntegrityCheckFailed
+  parent: NVAPIWrapper._NVVIOOUTPUTSTATUS
+  langs:
+  - csharp
+  - vb
+  name: dataIntegrityCheckFailed
+  nameWithType: _NVVIOOUTPUTSTATUS.dataIntegrityCheckFailed
+  fullName: NVAPIWrapper._NVVIOOUTPUTSTATUS.dataIntegrityCheckFailed
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: dataIntegrityCheckFailed
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+    startLine: 51
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint dataIntegrityCheckFailed
+    return:
+      type: System.UInt32
+    content.vb: Public dataIntegrityCheckFailed As UInteger
+- uid: NVAPIWrapper._NVVIOOUTPUTSTATUS.uSyncSourceLocked
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTSTATUS.uSyncSourceLocked
+  id: uSyncSourceLocked
+  parent: NVAPIWrapper._NVVIOOUTPUTSTATUS
+  langs:
+  - csharp
+  - vb
+  name: uSyncSourceLocked
+  nameWithType: _NVVIOOUTPUTSTATUS.uSyncSourceLocked
+  fullName: NVAPIWrapper._NVVIOOUTPUTSTATUS.uSyncSourceLocked
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: uSyncSourceLocked
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+    startLine: 55
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint uSyncSourceLocked
+    return:
+      type: System.UInt32
+    content.vb: Public uSyncSourceLocked As UInteger
+- uid: NVAPIWrapper._NVVIOOUTPUTSTATUS.uPowerOn
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTSTATUS.uPowerOn
+  id: uPowerOn
+  parent: NVAPIWrapper._NVVIOOUTPUTSTATUS
+  langs:
+  - csharp
+  - vb
+  name: uPowerOn
+  nameWithType: _NVVIOOUTPUTSTATUS.uPowerOn
+  fullName: NVAPIWrapper._NVVIOOUTPUTSTATUS.uPowerOn
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: uPowerOn
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTSTATUS.cs
+    startLine: 59
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint uPowerOn
+    return:
+      type: System.UInt32
+    content.vb: Public uPowerOn As UInteger
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS
+  commentId: T:NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS.html
+  name: _NVVIOINPUTOUTPUTSTATUS
+  nameWithType: _NVVIOINPUTOUTPUTSTATUS
+  fullName: NVAPIWrapper._NVVIOINPUTOUTPUTSTATUS
+- uid: NVAPIWrapper._NVVIOSYNCSTATUS
+  commentId: T:NVAPIWrapper._NVVIOSYNCSTATUS
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOSYNCSTATUS.html
+  name: _NVVIOSYNCSTATUS
+  nameWithType: _NVVIOSYNCSTATUS
+  fullName: NVAPIWrapper._NVVIOSYNCSTATUS
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper._NVVIOSYNCSOURCE
+  commentId: T:NVAPIWrapper._NVVIOSYNCSOURCE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOSYNCSOURCE.html
+  name: _NVVIOSYNCSOURCE
+  nameWithType: _NVVIOSYNCSOURCE
+  fullName: NVAPIWrapper._NVVIOSYNCSOURCE
+- uid: NVAPIWrapper._NVVIOSIGNALFORMAT
+  commentId: T:NVAPIWrapper._NVVIOSIGNALFORMAT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOSIGNALFORMAT.html
+  name: _NVVIOSIGNALFORMAT
+  nameWithType: _NVVIOSIGNALFORMAT
+  fullName: NVAPIWrapper._NVVIOSIGNALFORMAT

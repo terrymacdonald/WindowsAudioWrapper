@@ -1,0 +1,407 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_COLOR_COLORIMETRY
+  commentId: T:NVAPIWrapper.NV_COLOR_COLORIMETRY
+  id: NV_COLOR_COLORIMETRY
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_ADOBERGB
+  - NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_ADOBEYCC601
+  - NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_AUTO
+  - NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_BT2020RGB
+  - NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_BT2020YCC
+  - NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_BT2020cYCC
+  - NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_DEFAULT
+  - NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_RGB
+  - NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_SYCC601
+  - NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_XVYCC601
+  - NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_XVYCC709
+  - NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_YCC601
+  - NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_YCC709
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_COLORIMETRY
+  nameWithType: NV_COLOR_COLORIMETRY
+  fullName: NVAPIWrapper.NV_COLOR_COLORIMETRY
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_COLORIMETRY
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_COLOR_COLORIMETRY
+    content.vb: Public Enum NV_COLOR_COLORIMETRY
+- uid: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_RGB
+  commentId: F:NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_RGB
+  id: NV_COLOR_COLORIMETRY_RGB
+  parent: NVAPIWrapper.NV_COLOR_COLORIMETRY
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_COLORIMETRY_RGB
+  nameWithType: NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_RGB
+  fullName: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_RGB
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_COLORIMETRY_RGB
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_COLORIMETRY_RGB = 0
+    return:
+      type: NVAPIWrapper.NV_COLOR_COLORIMETRY
+- uid: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_YCC601
+  commentId: F:NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_YCC601
+  id: NV_COLOR_COLORIMETRY_YCC601
+  parent: NVAPIWrapper.NV_COLOR_COLORIMETRY
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_COLORIMETRY_YCC601
+  nameWithType: NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_YCC601
+  fullName: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_YCC601
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_COLORIMETRY_YCC601
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_COLORIMETRY_YCC601 = 1
+    return:
+      type: NVAPIWrapper.NV_COLOR_COLORIMETRY
+- uid: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_YCC709
+  commentId: F:NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_YCC709
+  id: NV_COLOR_COLORIMETRY_YCC709
+  parent: NVAPIWrapper.NV_COLOR_COLORIMETRY
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_COLORIMETRY_YCC709
+  nameWithType: NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_YCC709
+  fullName: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_YCC709
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_COLORIMETRY_YCC709
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_COLORIMETRY_YCC709 = 2
+    return:
+      type: NVAPIWrapper.NV_COLOR_COLORIMETRY
+- uid: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_XVYCC601
+  commentId: F:NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_XVYCC601
+  id: NV_COLOR_COLORIMETRY_XVYCC601
+  parent: NVAPIWrapper.NV_COLOR_COLORIMETRY
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_COLORIMETRY_XVYCC601
+  nameWithType: NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_XVYCC601
+  fullName: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_XVYCC601
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_COLORIMETRY_XVYCC601
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_COLORIMETRY_XVYCC601 = 3
+    return:
+      type: NVAPIWrapper.NV_COLOR_COLORIMETRY
+- uid: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_XVYCC709
+  commentId: F:NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_XVYCC709
+  id: NV_COLOR_COLORIMETRY_XVYCC709
+  parent: NVAPIWrapper.NV_COLOR_COLORIMETRY
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_COLORIMETRY_XVYCC709
+  nameWithType: NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_XVYCC709
+  fullName: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_XVYCC709
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_COLORIMETRY_XVYCC709
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_COLORIMETRY_XVYCC709 = 4
+    return:
+      type: NVAPIWrapper.NV_COLOR_COLORIMETRY
+- uid: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_SYCC601
+  commentId: F:NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_SYCC601
+  id: NV_COLOR_COLORIMETRY_SYCC601
+  parent: NVAPIWrapper.NV_COLOR_COLORIMETRY
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_COLORIMETRY_SYCC601
+  nameWithType: NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_SYCC601
+  fullName: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_SYCC601
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_COLORIMETRY_SYCC601
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_COLORIMETRY_SYCC601 = 5
+    return:
+      type: NVAPIWrapper.NV_COLOR_COLORIMETRY
+- uid: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_ADOBEYCC601
+  commentId: F:NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_ADOBEYCC601
+  id: NV_COLOR_COLORIMETRY_ADOBEYCC601
+  parent: NVAPIWrapper.NV_COLOR_COLORIMETRY
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_COLORIMETRY_ADOBEYCC601
+  nameWithType: NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_ADOBEYCC601
+  fullName: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_ADOBEYCC601
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_COLORIMETRY_ADOBEYCC601
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_COLORIMETRY_ADOBEYCC601 = 6
+    return:
+      type: NVAPIWrapper.NV_COLOR_COLORIMETRY
+- uid: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_ADOBERGB
+  commentId: F:NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_ADOBERGB
+  id: NV_COLOR_COLORIMETRY_ADOBERGB
+  parent: NVAPIWrapper.NV_COLOR_COLORIMETRY
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_COLORIMETRY_ADOBERGB
+  nameWithType: NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_ADOBERGB
+  fullName: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_ADOBERGB
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_COLORIMETRY_ADOBERGB
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_COLORIMETRY_ADOBERGB = 7
+    return:
+      type: NVAPIWrapper.NV_COLOR_COLORIMETRY
+- uid: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_BT2020RGB
+  commentId: F:NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_BT2020RGB
+  id: NV_COLOR_COLORIMETRY_BT2020RGB
+  parent: NVAPIWrapper.NV_COLOR_COLORIMETRY
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_COLORIMETRY_BT2020RGB
+  nameWithType: NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_BT2020RGB
+  fullName: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_BT2020RGB
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_COLORIMETRY_BT2020RGB
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_COLORIMETRY_BT2020RGB = 8
+    return:
+      type: NVAPIWrapper.NV_COLOR_COLORIMETRY
+- uid: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_BT2020YCC
+  commentId: F:NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_BT2020YCC
+  id: NV_COLOR_COLORIMETRY_BT2020YCC
+  parent: NVAPIWrapper.NV_COLOR_COLORIMETRY
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_COLORIMETRY_BT2020YCC
+  nameWithType: NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_BT2020YCC
+  fullName: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_BT2020YCC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_COLORIMETRY_BT2020YCC
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_COLORIMETRY_BT2020YCC = 9
+    return:
+      type: NVAPIWrapper.NV_COLOR_COLORIMETRY
+- uid: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_BT2020cYCC
+  commentId: F:NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_BT2020cYCC
+  id: NV_COLOR_COLORIMETRY_BT2020cYCC
+  parent: NVAPIWrapper.NV_COLOR_COLORIMETRY
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_COLORIMETRY_BT2020cYCC
+  nameWithType: NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_BT2020cYCC
+  fullName: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_BT2020cYCC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_COLORIMETRY_BT2020cYCC
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_COLORIMETRY_BT2020cYCC = 10
+    return:
+      type: NVAPIWrapper.NV_COLOR_COLORIMETRY
+- uid: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_DEFAULT
+  commentId: F:NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_DEFAULT
+  id: NV_COLOR_COLORIMETRY_DEFAULT
+  parent: NVAPIWrapper.NV_COLOR_COLORIMETRY
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_COLORIMETRY_DEFAULT
+  nameWithType: NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_DEFAULT
+  fullName: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_COLORIMETRY_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+    startLine: 39
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_COLORIMETRY_DEFAULT = 254
+    return:
+      type: NVAPIWrapper.NV_COLOR_COLORIMETRY
+- uid: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_AUTO
+  commentId: F:NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_AUTO
+  id: NV_COLOR_COLORIMETRY_AUTO
+  parent: NVAPIWrapper.NV_COLOR_COLORIMETRY
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_COLORIMETRY_AUTO
+  nameWithType: NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_AUTO
+  fullName: NVAPIWrapper.NV_COLOR_COLORIMETRY.NV_COLOR_COLORIMETRY_AUTO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_COLORIMETRY_AUTO
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_COLORIMETRY.cs
+    startLine: 42
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_COLORIMETRY_AUTO = 255
+    return:
+      type: NVAPIWrapper.NV_COLOR_COLORIMETRY
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_COLOR_COLORIMETRY
+  commentId: T:NVAPIWrapper.NV_COLOR_COLORIMETRY
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_COLOR_COLORIMETRY.html
+  name: NV_COLOR_COLORIMETRY
+  nameWithType: NV_COLOR_COLORIMETRY
+  fullName: NVAPIWrapper.NV_COLOR_COLORIMETRY

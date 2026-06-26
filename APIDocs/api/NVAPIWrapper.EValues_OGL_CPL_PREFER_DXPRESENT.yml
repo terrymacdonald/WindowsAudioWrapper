@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT
+  commentId: T:NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT
+  id: EValues_OGL_CPL_PREFER_DXPRESENT
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_AUTO
+  - NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_DEFAULT
+  - NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_NUM_VALUES
+  - NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_PREFER_DISABLED
+  - NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_PREFER_ENABLED
+  langs:
+  - csharp
+  - vb
+  name: EValues_OGL_CPL_PREFER_DXPRESENT
+  nameWithType: EValues_OGL_CPL_PREFER_DXPRESENT
+  fullName: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_CPL_PREFER_DXPRESENT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_OGL_CPL_PREFER_DXPRESENT
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_CPL_PREFER_DXPRESENT.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_OGL_CPL_PREFER_DXPRESENT
+    content.vb: Public Enum EValues_OGL_CPL_PREFER_DXPRESENT
+- uid: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_PREFER_DISABLED
+  commentId: F:NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_PREFER_DISABLED
+  id: OGL_CPL_PREFER_DXPRESENT_PREFER_DISABLED
+  parent: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT
+  langs:
+  - csharp
+  - vb
+  name: OGL_CPL_PREFER_DXPRESENT_PREFER_DISABLED
+  nameWithType: EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_PREFER_DISABLED
+  fullName: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_PREFER_DISABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_CPL_PREFER_DXPRESENT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_CPL_PREFER_DXPRESENT_PREFER_DISABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_CPL_PREFER_DXPRESENT.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_CPL_PREFER_DXPRESENT_PREFER_DISABLED = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT
+- uid: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_PREFER_ENABLED
+  commentId: F:NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_PREFER_ENABLED
+  id: OGL_CPL_PREFER_DXPRESENT_PREFER_ENABLED
+  parent: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT
+  langs:
+  - csharp
+  - vb
+  name: OGL_CPL_PREFER_DXPRESENT_PREFER_ENABLED
+  nameWithType: EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_PREFER_ENABLED
+  fullName: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_PREFER_ENABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_CPL_PREFER_DXPRESENT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_CPL_PREFER_DXPRESENT_PREFER_ENABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_CPL_PREFER_DXPRESENT.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_CPL_PREFER_DXPRESENT_PREFER_ENABLED = 1
+    return:
+      type: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT
+- uid: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_AUTO
+  commentId: F:NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_AUTO
+  id: OGL_CPL_PREFER_DXPRESENT_AUTO
+  parent: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT
+  langs:
+  - csharp
+  - vb
+  name: OGL_CPL_PREFER_DXPRESENT_AUTO
+  nameWithType: EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_AUTO
+  fullName: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_AUTO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_CPL_PREFER_DXPRESENT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_CPL_PREFER_DXPRESENT_AUTO
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_CPL_PREFER_DXPRESENT.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_CPL_PREFER_DXPRESENT_AUTO = 2
+    return:
+      type: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT
+- uid: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_NUM_VALUES
+  id: OGL_CPL_PREFER_DXPRESENT_NUM_VALUES
+  parent: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT
+  langs:
+  - csharp
+  - vb
+  name: OGL_CPL_PREFER_DXPRESENT_NUM_VALUES
+  nameWithType: EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_CPL_PREFER_DXPRESENT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_CPL_PREFER_DXPRESENT_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_CPL_PREFER_DXPRESENT.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_CPL_PREFER_DXPRESENT_NUM_VALUES = 3
+    return:
+      type: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT
+- uid: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_DEFAULT
+  id: OGL_CPL_PREFER_DXPRESENT_DEFAULT
+  parent: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT
+  langs:
+  - csharp
+  - vb
+  name: OGL_CPL_PREFER_DXPRESENT_DEFAULT
+  nameWithType: EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_DEFAULT
+  fullName: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT.OGL_CPL_PREFER_DXPRESENT_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_CPL_PREFER_DXPRESENT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_CPL_PREFER_DXPRESENT_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_CPL_PREFER_DXPRESENT.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_CPL_PREFER_DXPRESENT_DEFAULT = 2
+    return:
+      type: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT
+  commentId: T:NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT.html
+  name: EValues_OGL_CPL_PREFER_DXPRESENT
+  nameWithType: EValues_OGL_CPL_PREFER_DXPRESENT
+  fullName: NVAPIWrapper.EValues_OGL_CPL_PREFER_DXPRESENT

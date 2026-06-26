@@ -1,0 +1,1081 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  commentId: T:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  id: NVLINK_LINK_STATUS_INFO_V2
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2._bitfield
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.capsTbl
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.connected
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.linkState
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.localDeviceInfo
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.localDeviceLinkNumber
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.loopProperty
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nciVersion
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkCommonClockSpeedMhz
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkL1ThresholdUnits
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkLineRateMbps
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkLinkClockMhz
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkMaxL1Threshold
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkMinL1Threshold
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkRefClkSpeedMhz
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkRefClkType
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkVersion
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.phyType
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.phyVersion
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.remoteDeviceInfo
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.remoteDeviceLinkNumber
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.reserved
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.reservedEx
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.rxSublinkStatus
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.subLinkWidth
+  - NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.txSublinkStatus
+  langs:
+  - csharp
+  - vb
+  name: NVLINK_LINK_STATUS_INFO_V2
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVLINK_LINK_STATUS_INFO_V2
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 5
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct NVLINK_LINK_STATUS_INFO_V2
+    content.vb: Public Structure NVLINK_LINK_STATUS_INFO_V2
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.capsTbl
+  commentId: F:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.capsTbl
+  id: capsTbl
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: capsTbl
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.capsTbl
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.capsTbl
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: capsTbl
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint capsTbl
+    return:
+      type: System.UInt32
+    content.vb: Public capsTbl As UInteger
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.phyType
+  commentId: F:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.phyType
+  id: phyType
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: phyType
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.phyType
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.phyType
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: phyType
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 13
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte phyType
+    return:
+      type: System.Byte
+    content.vb: Public phyType As Byte
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.subLinkWidth
+  commentId: F:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.subLinkWidth
+  id: subLinkWidth
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: subLinkWidth
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.subLinkWidth
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.subLinkWidth
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: subLinkWidth
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 17
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte subLinkWidth
+    return:
+      type: System.Byte
+    content.vb: Public subLinkWidth As Byte
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.linkState
+  commentId: F:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.linkState
+  id: linkState
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: linkState
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.linkState
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.linkState
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: linkState
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint linkState
+    return:
+      type: System.UInt32
+    content.vb: Public linkState As UInteger
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.rxSublinkStatus
+  commentId: F:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.rxSublinkStatus
+  id: rxSublinkStatus
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: rxSublinkStatus
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.rxSublinkStatus
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.rxSublinkStatus
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: rxSublinkStatus
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 25
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte rxSublinkStatus
+    return:
+      type: System.Byte
+    content.vb: Public rxSublinkStatus As Byte
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.txSublinkStatus
+  commentId: F:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.txSublinkStatus
+  id: txSublinkStatus
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: txSublinkStatus
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.txSublinkStatus
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.txSublinkStatus
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: txSublinkStatus
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 29
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte txSublinkStatus
+    return:
+      type: System.Byte
+    content.vb: Public txSublinkStatus As Byte
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkVersion
+  commentId: F:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkVersion
+  id: nvlinkVersion
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: nvlinkVersion
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.nvlinkVersion
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkVersion
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: nvlinkVersion
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte nvlinkVersion
+    return:
+      type: System.Byte
+    content.vb: Public nvlinkVersion As Byte
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nciVersion
+  commentId: F:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nciVersion
+  id: nciVersion
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: nciVersion
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.nciVersion
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nciVersion
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: nciVersion
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 37
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte nciVersion
+    return:
+      type: System.Byte
+    content.vb: Public nciVersion As Byte
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.phyVersion
+  commentId: F:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.phyVersion
+  id: phyVersion
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: phyVersion
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.phyVersion
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.phyVersion
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: phyVersion
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 41
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte phyVersion
+    return:
+      type: System.Byte
+    content.vb: Public phyVersion As Byte
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkCommonClockSpeedMhz
+  commentId: F:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkCommonClockSpeedMhz
+  id: nvlinkCommonClockSpeedMhz
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: nvlinkCommonClockSpeedMhz
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.nvlinkCommonClockSpeedMhz
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkCommonClockSpeedMhz
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: nvlinkCommonClockSpeedMhz
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 45
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint nvlinkCommonClockSpeedMhz
+    return:
+      type: System.UInt32
+    content.vb: Public nvlinkCommonClockSpeedMhz As UInteger
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkRefClkSpeedMhz
+  commentId: F:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkRefClkSpeedMhz
+  id: nvlinkRefClkSpeedMhz
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: nvlinkRefClkSpeedMhz
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.nvlinkRefClkSpeedMhz
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkRefClkSpeedMhz
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: nvlinkRefClkSpeedMhz
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 49
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint nvlinkRefClkSpeedMhz
+    return:
+      type: System.UInt32
+    content.vb: Public nvlinkRefClkSpeedMhz As UInteger
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkRefClkType
+  commentId: F:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkRefClkType
+  id: nvlinkRefClkType
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: nvlinkRefClkType
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.nvlinkRefClkType
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkRefClkType
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: nvlinkRefClkType
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 53
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte nvlinkRefClkType
+    return:
+      type: System.Byte
+    content.vb: Public nvlinkRefClkType As Byte
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkLinkClockMhz
+  commentId: F:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkLinkClockMhz
+  id: nvlinkLinkClockMhz
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: nvlinkLinkClockMhz
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.nvlinkLinkClockMhz
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkLinkClockMhz
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: nvlinkLinkClockMhz
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 57
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint nvlinkLinkClockMhz
+    return:
+      type: System.UInt32
+    content.vb: Public nvlinkLinkClockMhz As UInteger
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2._bitfield
+  commentId: F:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2._bitfield
+  id: _bitfield
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: _bitfield
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2._bitfield
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2._bitfield
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 59
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield As UInteger
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.connected
+  commentId: P:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.connected
+  id: connected
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: connected
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.connected
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.connected
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: connected
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 62
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint connected { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property connected As UInteger
+  overload: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.connected*
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.reserved
+  commentId: P:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.reserved
+  id: reserved
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: reserved
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.reserved
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.reserved
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 77
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved As UInteger
+  overload: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.reserved*
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.loopProperty
+  commentId: F:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.loopProperty
+  id: loopProperty
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: loopProperty
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.loopProperty
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.loopProperty
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: loopProperty
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 93
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte loopProperty
+    return:
+      type: System.Byte
+    content.vb: Public loopProperty As Byte
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.remoteDeviceLinkNumber
+  commentId: F:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.remoteDeviceLinkNumber
+  id: remoteDeviceLinkNumber
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: remoteDeviceLinkNumber
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.remoteDeviceLinkNumber
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.remoteDeviceLinkNumber
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: remoteDeviceLinkNumber
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 97
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte remoteDeviceLinkNumber
+    return:
+      type: System.Byte
+    content.vb: Public remoteDeviceLinkNumber As Byte
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.remoteDeviceInfo
+  commentId: F:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.remoteDeviceInfo
+  id: remoteDeviceInfo
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: remoteDeviceInfo
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.remoteDeviceInfo
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.remoteDeviceInfo
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: remoteDeviceInfo
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 100
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public NVLINK_DEVICE_INFO_V1 remoteDeviceInfo
+    return:
+      type: NVAPIWrapper.NVLINK_DEVICE_INFO_V1
+    content.vb: Public remoteDeviceInfo As NVLINK_DEVICE_INFO_V1
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.localDeviceLinkNumber
+  commentId: F:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.localDeviceLinkNumber
+  id: localDeviceLinkNumber
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: localDeviceLinkNumber
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.localDeviceLinkNumber
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.localDeviceLinkNumber
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: localDeviceLinkNumber
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 104
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte localDeviceLinkNumber
+    return:
+      type: System.Byte
+    content.vb: Public localDeviceLinkNumber As Byte
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.localDeviceInfo
+  commentId: F:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.localDeviceInfo
+  id: localDeviceInfo
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: localDeviceInfo
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.localDeviceInfo
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.localDeviceInfo
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: localDeviceInfo
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 107
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public NVLINK_DEVICE_INFO_V1 localDeviceInfo
+    return:
+      type: NVAPIWrapper.NVLINK_DEVICE_INFO_V1
+    content.vb: Public localDeviceInfo As NVLINK_DEVICE_INFO_V1
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkLineRateMbps
+  commentId: F:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkLineRateMbps
+  id: nvlinkLineRateMbps
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: nvlinkLineRateMbps
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.nvlinkLineRateMbps
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkLineRateMbps
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: nvlinkLineRateMbps
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 111
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint nvlinkLineRateMbps
+    return:
+      type: System.UInt32
+    content.vb: Public nvlinkLineRateMbps As UInteger
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkMinL1Threshold
+  commentId: F:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkMinL1Threshold
+  id: nvlinkMinL1Threshold
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: nvlinkMinL1Threshold
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.nvlinkMinL1Threshold
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkMinL1Threshold
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: nvlinkMinL1Threshold
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 115
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint nvlinkMinL1Threshold
+    return:
+      type: System.UInt32
+    content.vb: Public nvlinkMinL1Threshold As UInteger
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkMaxL1Threshold
+  commentId: F:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkMaxL1Threshold
+  id: nvlinkMaxL1Threshold
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: nvlinkMaxL1Threshold
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.nvlinkMaxL1Threshold
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkMaxL1Threshold
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: nvlinkMaxL1Threshold
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 119
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint nvlinkMaxL1Threshold
+    return:
+      type: System.UInt32
+    content.vb: Public nvlinkMaxL1Threshold As UInteger
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkL1ThresholdUnits
+  commentId: F:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkL1ThresholdUnits
+  id: nvlinkL1ThresholdUnits
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: nvlinkL1ThresholdUnits
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.nvlinkL1ThresholdUnits
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.nvlinkL1ThresholdUnits
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: nvlinkL1ThresholdUnits
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 123
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint nvlinkL1ThresholdUnits
+    return:
+      type: System.UInt32
+    content.vb: Public nvlinkL1ThresholdUnits As UInteger
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.reservedEx
+  commentId: F:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.reservedEx
+  id: reservedEx
+  parent: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: reservedEx
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.reservedEx
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.reservedEx
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reservedEx
+    path: ../NVAPIWrapper/cs_generated/NVLINK_LINK_STATUS_INFO_V2.cs
+    startLine: 127
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public NVLINK_LINK_STATUS_INFO_V2._reservedEx_e__FixedBuffer reservedEx
+    return:
+      type: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2._reservedEx_e__FixedBuffer
+    content.vb: Public reservedEx As NVLINK_LINK_STATUS_INFO_V2._reservedEx_e__FixedBuffer
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.connected*
+  commentId: Overload:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.connected
+  href: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.html#NVAPIWrapper_NVLINK_LINK_STATUS_INFO_V2_connected
+  name: connected
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.connected
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.connected
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.reserved*
+  commentId: Overload:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.reserved
+  href: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.html#NVAPIWrapper_NVLINK_LINK_STATUS_INFO_V2_reserved
+  name: reserved
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2.reserved
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.reserved
+- uid: NVAPIWrapper.NVLINK_DEVICE_INFO_V1
+  commentId: T:NVAPIWrapper.NVLINK_DEVICE_INFO_V1
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVLINK_DEVICE_INFO_V1.html
+  name: NVLINK_DEVICE_INFO_V1
+  nameWithType: NVLINK_DEVICE_INFO_V1
+  fullName: NVAPIWrapper.NVLINK_DEVICE_INFO_V1
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2._reservedEx_e__FixedBuffer
+  commentId: T:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2._reservedEx_e__FixedBuffer
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.html
+  name: NVLINK_LINK_STATUS_INFO_V2._reservedEx_e__FixedBuffer
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2._reservedEx_e__FixedBuffer
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2._reservedEx_e__FixedBuffer
+  spec.csharp:
+  - uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+    name: NVLINK_LINK_STATUS_INFO_V2
+    href: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.html
+  - name: .
+  - uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2._reservedEx_e__FixedBuffer
+    name: _reservedEx_e__FixedBuffer
+    href: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2._reservedEx_e__FixedBuffer.html
+  spec.vb:
+  - uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+    name: NVLINK_LINK_STATUS_INFO_V2
+    href: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.html
+  - name: .
+  - uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2._reservedEx_e__FixedBuffer
+    name: _reservedEx_e__FixedBuffer
+    href: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2._reservedEx_e__FixedBuffer.html

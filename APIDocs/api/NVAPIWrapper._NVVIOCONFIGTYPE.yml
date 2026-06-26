@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVVIOCONFIGTYPE
+  commentId: T:NVAPIWrapper._NVVIOCONFIGTYPE
+  id: _NVVIOCONFIGTYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVVIOCONFIGTYPE.NVVIOCONFIGTYPE_IN
+  - NVAPIWrapper._NVVIOCONFIGTYPE.NVVIOCONFIGTYPE_OUT
+  langs:
+  - csharp
+  - vb
+  name: _NVVIOCONFIGTYPE
+  nameWithType: _NVVIOCONFIGTYPE
+  fullName: NVAPIWrapper._NVVIOCONFIGTYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCONFIGTYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVVIOCONFIGTYPE
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCONFIGTYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVVIOCONFIGTYPE
+    content.vb: Public Enum _NVVIOCONFIGTYPE
+- uid: NVAPIWrapper._NVVIOCONFIGTYPE.NVVIOCONFIGTYPE_IN
+  commentId: F:NVAPIWrapper._NVVIOCONFIGTYPE.NVVIOCONFIGTYPE_IN
+  id: NVVIOCONFIGTYPE_IN
+  parent: NVAPIWrapper._NVVIOCONFIGTYPE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOCONFIGTYPE_IN
+  nameWithType: _NVVIOCONFIGTYPE.NVVIOCONFIGTYPE_IN
+  fullName: NVAPIWrapper._NVVIOCONFIGTYPE.NVVIOCONFIGTYPE_IN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCONFIGTYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOCONFIGTYPE_IN
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCONFIGTYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOCONFIGTYPE_IN = 0
+    return:
+      type: NVAPIWrapper._NVVIOCONFIGTYPE
+- uid: NVAPIWrapper._NVVIOCONFIGTYPE.NVVIOCONFIGTYPE_OUT
+  commentId: F:NVAPIWrapper._NVVIOCONFIGTYPE.NVVIOCONFIGTYPE_OUT
+  id: NVVIOCONFIGTYPE_OUT
+  parent: NVAPIWrapper._NVVIOCONFIGTYPE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOCONFIGTYPE_OUT
+  nameWithType: _NVVIOCONFIGTYPE.NVVIOCONFIGTYPE_OUT
+  fullName: NVAPIWrapper._NVVIOCONFIGTYPE.NVVIOCONFIGTYPE_OUT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCONFIGTYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOCONFIGTYPE_OUT
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCONFIGTYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOCONFIGTYPE_OUT = 1
+    return:
+      type: NVAPIWrapper._NVVIOCONFIGTYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVVIOCONFIGTYPE
+  commentId: T:NVAPIWrapper._NVVIOCONFIGTYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOCONFIGTYPE.html
+  name: _NVVIOCONFIGTYPE
+  nameWithType: _NVVIOCONFIGTYPE
+  fullName: NVAPIWrapper._NVVIOCONFIGTYPE

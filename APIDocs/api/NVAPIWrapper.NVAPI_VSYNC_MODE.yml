@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPI_VSYNC_MODE
+  commentId: T:NVAPIWrapper.NVAPI_VSYNC_MODE
+  id: NVAPI_VSYNC_MODE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPI_VSYNC_MODE.NVAPI_VSYNC_ADAPTIVE
+  - NVAPIWrapper.NVAPI_VSYNC_MODE.NVAPI_VSYNC_ADAPTIVE_HALF_REFRESH_RATE
+  - NVAPIWrapper.NVAPI_VSYNC_MODE.NVAPI_VSYNC_DEFAULT
+  - NVAPIWrapper.NVAPI_VSYNC_MODE.NVAPI_VSYNC_OFF
+  - NVAPIWrapper.NVAPI_VSYNC_MODE.NVAPI_VSYNC_ON
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_VSYNC_MODE
+  nameWithType: NVAPI_VSYNC_MODE
+  fullName: NVAPIWrapper.NVAPI_VSYNC_MODE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVAPI_VSYNC_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_VSYNC_MODE
+    path: ../NVAPIWrapper/cs_generated/NVAPI_VSYNC_MODE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NVAPI_VSYNC_MODE
+    content.vb: Public Enum NVAPI_VSYNC_MODE
+- uid: NVAPIWrapper.NVAPI_VSYNC_MODE.NVAPI_VSYNC_DEFAULT
+  commentId: F:NVAPIWrapper.NVAPI_VSYNC_MODE.NVAPI_VSYNC_DEFAULT
+  id: NVAPI_VSYNC_DEFAULT
+  parent: NVAPIWrapper.NVAPI_VSYNC_MODE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_VSYNC_DEFAULT
+  nameWithType: NVAPI_VSYNC_MODE.NVAPI_VSYNC_DEFAULT
+  fullName: NVAPIWrapper.NVAPI_VSYNC_MODE.NVAPI_VSYNC_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVAPI_VSYNC_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_VSYNC_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/NVAPI_VSYNC_MODE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_VSYNC_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.NVAPI_VSYNC_MODE
+- uid: NVAPIWrapper.NVAPI_VSYNC_MODE.NVAPI_VSYNC_OFF
+  commentId: F:NVAPIWrapper.NVAPI_VSYNC_MODE.NVAPI_VSYNC_OFF
+  id: NVAPI_VSYNC_OFF
+  parent: NVAPIWrapper.NVAPI_VSYNC_MODE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_VSYNC_OFF
+  nameWithType: NVAPI_VSYNC_MODE.NVAPI_VSYNC_OFF
+  fullName: NVAPIWrapper.NVAPI_VSYNC_MODE.NVAPI_VSYNC_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVAPI_VSYNC_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_VSYNC_OFF
+    path: ../NVAPIWrapper/cs_generated/NVAPI_VSYNC_MODE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_VSYNC_OFF = 1
+    return:
+      type: NVAPIWrapper.NVAPI_VSYNC_MODE
+- uid: NVAPIWrapper.NVAPI_VSYNC_MODE.NVAPI_VSYNC_ON
+  commentId: F:NVAPIWrapper.NVAPI_VSYNC_MODE.NVAPI_VSYNC_ON
+  id: NVAPI_VSYNC_ON
+  parent: NVAPIWrapper.NVAPI_VSYNC_MODE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_VSYNC_ON
+  nameWithType: NVAPI_VSYNC_MODE.NVAPI_VSYNC_ON
+  fullName: NVAPIWrapper.NVAPI_VSYNC_MODE.NVAPI_VSYNC_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVAPI_VSYNC_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_VSYNC_ON
+    path: ../NVAPIWrapper/cs_generated/NVAPI_VSYNC_MODE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_VSYNC_ON = 2
+    return:
+      type: NVAPIWrapper.NVAPI_VSYNC_MODE
+- uid: NVAPIWrapper.NVAPI_VSYNC_MODE.NVAPI_VSYNC_ADAPTIVE
+  commentId: F:NVAPIWrapper.NVAPI_VSYNC_MODE.NVAPI_VSYNC_ADAPTIVE
+  id: NVAPI_VSYNC_ADAPTIVE
+  parent: NVAPIWrapper.NVAPI_VSYNC_MODE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_VSYNC_ADAPTIVE
+  nameWithType: NVAPI_VSYNC_MODE.NVAPI_VSYNC_ADAPTIVE
+  fullName: NVAPIWrapper.NVAPI_VSYNC_MODE.NVAPI_VSYNC_ADAPTIVE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVAPI_VSYNC_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_VSYNC_ADAPTIVE
+    path: ../NVAPIWrapper/cs_generated/NVAPI_VSYNC_MODE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_VSYNC_ADAPTIVE = 3
+    return:
+      type: NVAPIWrapper.NVAPI_VSYNC_MODE
+- uid: NVAPIWrapper.NVAPI_VSYNC_MODE.NVAPI_VSYNC_ADAPTIVE_HALF_REFRESH_RATE
+  commentId: F:NVAPIWrapper.NVAPI_VSYNC_MODE.NVAPI_VSYNC_ADAPTIVE_HALF_REFRESH_RATE
+  id: NVAPI_VSYNC_ADAPTIVE_HALF_REFRESH_RATE
+  parent: NVAPIWrapper.NVAPI_VSYNC_MODE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_VSYNC_ADAPTIVE_HALF_REFRESH_RATE
+  nameWithType: NVAPI_VSYNC_MODE.NVAPI_VSYNC_ADAPTIVE_HALF_REFRESH_RATE
+  fullName: NVAPIWrapper.NVAPI_VSYNC_MODE.NVAPI_VSYNC_ADAPTIVE_HALF_REFRESH_RATE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NVAPI_VSYNC_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_VSYNC_ADAPTIVE_HALF_REFRESH_RATE
+    path: ../NVAPIWrapper/cs_generated/NVAPI_VSYNC_MODE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_VSYNC_ADAPTIVE_HALF_REFRESH_RATE = 4
+    return:
+      type: NVAPIWrapper.NVAPI_VSYNC_MODE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NVAPI_VSYNC_MODE
+  commentId: T:NVAPIWrapper.NVAPI_VSYNC_MODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPI_VSYNC_MODE.html
+  name: NVAPI_VSYNC_MODE
+  nameWithType: NVAPI_VSYNC_MODE
+  fullName: NVAPIWrapper.NVAPI_VSYNC_MODE

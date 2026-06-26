@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE
+  commentId: T:NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE
+  id: EValues_EXTERNAL_QUIET_MODE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE.EXTERNAL_QUIET_MODE_DEFAULT
+  - NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE.EXTERNAL_QUIET_MODE_NUM_VALUES
+  - NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE.EXTERNAL_QUIET_MODE_OFF
+  - NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE.EXTERNAL_QUIET_MODE_ON
+  langs:
+  - csharp
+  - vb
+  name: EValues_EXTERNAL_QUIET_MODE
+  nameWithType: EValues_EXTERNAL_QUIET_MODE
+  fullName: NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_EXTERNAL_QUIET_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_EXTERNAL_QUIET_MODE
+    path: ../NVAPIWrapper/cs_generated/EValues_EXTERNAL_QUIET_MODE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_EXTERNAL_QUIET_MODE
+    content.vb: Public Enum EValues_EXTERNAL_QUIET_MODE
+- uid: NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE.EXTERNAL_QUIET_MODE_ON
+  commentId: F:NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE.EXTERNAL_QUIET_MODE_ON
+  id: EXTERNAL_QUIET_MODE_ON
+  parent: NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE
+  langs:
+  - csharp
+  - vb
+  name: EXTERNAL_QUIET_MODE_ON
+  nameWithType: EValues_EXTERNAL_QUIET_MODE.EXTERNAL_QUIET_MODE_ON
+  fullName: NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE.EXTERNAL_QUIET_MODE_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_EXTERNAL_QUIET_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EXTERNAL_QUIET_MODE_ON
+    path: ../NVAPIWrapper/cs_generated/EValues_EXTERNAL_QUIET_MODE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: EXTERNAL_QUIET_MODE_ON = 1
+    return:
+      type: NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE
+- uid: NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE.EXTERNAL_QUIET_MODE_OFF
+  commentId: F:NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE.EXTERNAL_QUIET_MODE_OFF
+  id: EXTERNAL_QUIET_MODE_OFF
+  parent: NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE
+  langs:
+  - csharp
+  - vb
+  name: EXTERNAL_QUIET_MODE_OFF
+  nameWithType: EValues_EXTERNAL_QUIET_MODE.EXTERNAL_QUIET_MODE_OFF
+  fullName: NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE.EXTERNAL_QUIET_MODE_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_EXTERNAL_QUIET_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EXTERNAL_QUIET_MODE_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_EXTERNAL_QUIET_MODE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: EXTERNAL_QUIET_MODE_OFF = 0
+    return:
+      type: NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE
+- uid: NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE.EXTERNAL_QUIET_MODE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE.EXTERNAL_QUIET_MODE_NUM_VALUES
+  id: EXTERNAL_QUIET_MODE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE
+  langs:
+  - csharp
+  - vb
+  name: EXTERNAL_QUIET_MODE_NUM_VALUES
+  nameWithType: EValues_EXTERNAL_QUIET_MODE.EXTERNAL_QUIET_MODE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE.EXTERNAL_QUIET_MODE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_EXTERNAL_QUIET_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EXTERNAL_QUIET_MODE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_EXTERNAL_QUIET_MODE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: EXTERNAL_QUIET_MODE_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE
+- uid: NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE.EXTERNAL_QUIET_MODE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE.EXTERNAL_QUIET_MODE_DEFAULT
+  id: EXTERNAL_QUIET_MODE_DEFAULT
+  parent: NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE
+  langs:
+  - csharp
+  - vb
+  name: EXTERNAL_QUIET_MODE_DEFAULT
+  nameWithType: EValues_EXTERNAL_QUIET_MODE.EXTERNAL_QUIET_MODE_DEFAULT
+  fullName: NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE.EXTERNAL_QUIET_MODE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_EXTERNAL_QUIET_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EXTERNAL_QUIET_MODE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_EXTERNAL_QUIET_MODE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: EXTERNAL_QUIET_MODE_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE
+  commentId: T:NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE.html
+  name: EValues_EXTERNAL_QUIET_MODE
+  nameWithType: EValues_EXTERNAL_QUIET_MODE
+  fullName: NVAPIWrapper.EValues_EXTERNAL_QUIET_MODE

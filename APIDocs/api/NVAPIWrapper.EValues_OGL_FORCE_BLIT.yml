@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_OGL_FORCE_BLIT
+  commentId: T:NVAPIWrapper.EValues_OGL_FORCE_BLIT
+  id: EValues_OGL_FORCE_BLIT
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_OGL_FORCE_BLIT.OGL_FORCE_BLIT_DEFAULT
+  - NVAPIWrapper.EValues_OGL_FORCE_BLIT.OGL_FORCE_BLIT_NUM_VALUES
+  - NVAPIWrapper.EValues_OGL_FORCE_BLIT.OGL_FORCE_BLIT_OFF
+  - NVAPIWrapper.EValues_OGL_FORCE_BLIT.OGL_FORCE_BLIT_ON
+  langs:
+  - csharp
+  - vb
+  name: EValues_OGL_FORCE_BLIT
+  nameWithType: EValues_OGL_FORCE_BLIT
+  fullName: NVAPIWrapper.EValues_OGL_FORCE_BLIT
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_FORCE_BLIT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_OGL_FORCE_BLIT
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_FORCE_BLIT.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_OGL_FORCE_BLIT
+    content.vb: Public Enum EValues_OGL_FORCE_BLIT
+- uid: NVAPIWrapper.EValues_OGL_FORCE_BLIT.OGL_FORCE_BLIT_ON
+  commentId: F:NVAPIWrapper.EValues_OGL_FORCE_BLIT.OGL_FORCE_BLIT_ON
+  id: OGL_FORCE_BLIT_ON
+  parent: NVAPIWrapper.EValues_OGL_FORCE_BLIT
+  langs:
+  - csharp
+  - vb
+  name: OGL_FORCE_BLIT_ON
+  nameWithType: EValues_OGL_FORCE_BLIT.OGL_FORCE_BLIT_ON
+  fullName: NVAPIWrapper.EValues_OGL_FORCE_BLIT.OGL_FORCE_BLIT_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_FORCE_BLIT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_FORCE_BLIT_ON
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_FORCE_BLIT.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_FORCE_BLIT_ON = 1
+    return:
+      type: NVAPIWrapper.EValues_OGL_FORCE_BLIT
+- uid: NVAPIWrapper.EValues_OGL_FORCE_BLIT.OGL_FORCE_BLIT_OFF
+  commentId: F:NVAPIWrapper.EValues_OGL_FORCE_BLIT.OGL_FORCE_BLIT_OFF
+  id: OGL_FORCE_BLIT_OFF
+  parent: NVAPIWrapper.EValues_OGL_FORCE_BLIT
+  langs:
+  - csharp
+  - vb
+  name: OGL_FORCE_BLIT_OFF
+  nameWithType: EValues_OGL_FORCE_BLIT.OGL_FORCE_BLIT_OFF
+  fullName: NVAPIWrapper.EValues_OGL_FORCE_BLIT.OGL_FORCE_BLIT_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_FORCE_BLIT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_FORCE_BLIT_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_FORCE_BLIT.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_FORCE_BLIT_OFF = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_FORCE_BLIT
+- uid: NVAPIWrapper.EValues_OGL_FORCE_BLIT.OGL_FORCE_BLIT_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_OGL_FORCE_BLIT.OGL_FORCE_BLIT_NUM_VALUES
+  id: OGL_FORCE_BLIT_NUM_VALUES
+  parent: NVAPIWrapper.EValues_OGL_FORCE_BLIT
+  langs:
+  - csharp
+  - vb
+  name: OGL_FORCE_BLIT_NUM_VALUES
+  nameWithType: EValues_OGL_FORCE_BLIT.OGL_FORCE_BLIT_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_OGL_FORCE_BLIT.OGL_FORCE_BLIT_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_FORCE_BLIT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_FORCE_BLIT_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_FORCE_BLIT.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_FORCE_BLIT_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_OGL_FORCE_BLIT
+- uid: NVAPIWrapper.EValues_OGL_FORCE_BLIT.OGL_FORCE_BLIT_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_OGL_FORCE_BLIT.OGL_FORCE_BLIT_DEFAULT
+  id: OGL_FORCE_BLIT_DEFAULT
+  parent: NVAPIWrapper.EValues_OGL_FORCE_BLIT
+  langs:
+  - csharp
+  - vb
+  name: OGL_FORCE_BLIT_DEFAULT
+  nameWithType: EValues_OGL_FORCE_BLIT.OGL_FORCE_BLIT_DEFAULT
+  fullName: NVAPIWrapper.EValues_OGL_FORCE_BLIT.OGL_FORCE_BLIT_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_FORCE_BLIT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_FORCE_BLIT_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_FORCE_BLIT.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_FORCE_BLIT_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_FORCE_BLIT
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_OGL_FORCE_BLIT
+  commentId: T:NVAPIWrapper.EValues_OGL_FORCE_BLIT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_OGL_FORCE_BLIT.html
+  name: EValues_OGL_FORCE_BLIT
+  nameWithType: EValues_OGL_FORCE_BLIT
+  fullName: NVAPIWrapper.EValues_OGL_FORCE_BLIT

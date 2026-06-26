@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE
+  commentId: T:NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE
+  id: NV_INFOFRAME_PROPERTY_MODE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE.NV_INFOFRAME_PROPERTY_MODE_ALLOW_OVERRIDE
+  - NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE.NV_INFOFRAME_PROPERTY_MODE_AUTO
+  - NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE.NV_INFOFRAME_PROPERTY_MODE_DISABLE
+  - NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE.NV_INFOFRAME_PROPERTY_MODE_ENABLE
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_PROPERTY_MODE
+  nameWithType: NV_INFOFRAME_PROPERTY_MODE
+  fullName: NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_PROPERTY_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_PROPERTY_MODE
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_PROPERTY_MODE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_INFOFRAME_PROPERTY_MODE
+    content.vb: Public Enum NV_INFOFRAME_PROPERTY_MODE
+- uid: NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE.NV_INFOFRAME_PROPERTY_MODE_AUTO
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE.NV_INFOFRAME_PROPERTY_MODE_AUTO
+  id: NV_INFOFRAME_PROPERTY_MODE_AUTO
+  parent: NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_PROPERTY_MODE_AUTO
+  nameWithType: NV_INFOFRAME_PROPERTY_MODE.NV_INFOFRAME_PROPERTY_MODE_AUTO
+  fullName: NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE.NV_INFOFRAME_PROPERTY_MODE_AUTO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_PROPERTY_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_PROPERTY_MODE_AUTO
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_PROPERTY_MODE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_INFOFRAME_PROPERTY_MODE_AUTO = 0
+    return:
+      type: NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE
+- uid: NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE.NV_INFOFRAME_PROPERTY_MODE_ENABLE
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE.NV_INFOFRAME_PROPERTY_MODE_ENABLE
+  id: NV_INFOFRAME_PROPERTY_MODE_ENABLE
+  parent: NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_PROPERTY_MODE_ENABLE
+  nameWithType: NV_INFOFRAME_PROPERTY_MODE.NV_INFOFRAME_PROPERTY_MODE_ENABLE
+  fullName: NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE.NV_INFOFRAME_PROPERTY_MODE_ENABLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_PROPERTY_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_PROPERTY_MODE_ENABLE
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_PROPERTY_MODE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_INFOFRAME_PROPERTY_MODE_ENABLE = 1
+    return:
+      type: NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE
+- uid: NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE.NV_INFOFRAME_PROPERTY_MODE_DISABLE
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE.NV_INFOFRAME_PROPERTY_MODE_DISABLE
+  id: NV_INFOFRAME_PROPERTY_MODE_DISABLE
+  parent: NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_PROPERTY_MODE_DISABLE
+  nameWithType: NV_INFOFRAME_PROPERTY_MODE.NV_INFOFRAME_PROPERTY_MODE_DISABLE
+  fullName: NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE.NV_INFOFRAME_PROPERTY_MODE_DISABLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_PROPERTY_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_PROPERTY_MODE_DISABLE
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_PROPERTY_MODE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_INFOFRAME_PROPERTY_MODE_DISABLE = 2
+    return:
+      type: NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE
+- uid: NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE.NV_INFOFRAME_PROPERTY_MODE_ALLOW_OVERRIDE
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE.NV_INFOFRAME_PROPERTY_MODE_ALLOW_OVERRIDE
+  id: NV_INFOFRAME_PROPERTY_MODE_ALLOW_OVERRIDE
+  parent: NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_PROPERTY_MODE_ALLOW_OVERRIDE
+  nameWithType: NV_INFOFRAME_PROPERTY_MODE.NV_INFOFRAME_PROPERTY_MODE_ALLOW_OVERRIDE
+  fullName: NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE.NV_INFOFRAME_PROPERTY_MODE_ALLOW_OVERRIDE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_PROPERTY_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_PROPERTY_MODE_ALLOW_OVERRIDE
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_PROPERTY_MODE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_INFOFRAME_PROPERTY_MODE_ALLOW_OVERRIDE = 3
+    return:
+      type: NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE
+  commentId: T:NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE.html
+  name: NV_INFOFRAME_PROPERTY_MODE
+  nameWithType: NV_INFOFRAME_PROPERTY_MODE
+  fullName: NVAPIWrapper.NV_INFOFRAME_PROPERTY_MODE

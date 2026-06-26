@@ -1,0 +1,323 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+  commentId: T:NVAPIWrapper.NV_MONITOR_CONN_TYPE
+  id: NV_MONITOR_CONN_TYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_COMPONENT
+  - NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_COMPOSITE
+  - NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_DP
+  - NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_DVI
+  - NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_HDMI
+  - NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_LVDS
+  - NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_SVIDEO
+  - NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_UNINITIALIZED
+  - NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_UNKNOWN
+  - NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_VGA
+  langs:
+  - csharp
+  - vb
+  name: NV_MONITOR_CONN_TYPE
+  nameWithType: NV_MONITOR_CONN_TYPE
+  fullName: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MONITOR_CONN_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MONITOR_CONN_TYPE
+    path: ../NVAPIWrapper/cs_generated/NV_MONITOR_CONN_TYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_MONITOR_CONN_TYPE
+    content.vb: Public Enum NV_MONITOR_CONN_TYPE
+- uid: NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_UNINITIALIZED
+  commentId: F:NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_UNINITIALIZED
+  id: NV_MONITOR_CONN_TYPE_UNINITIALIZED
+  parent: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_MONITOR_CONN_TYPE_UNINITIALIZED
+  nameWithType: NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_UNINITIALIZED
+  fullName: NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_UNINITIALIZED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MONITOR_CONN_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MONITOR_CONN_TYPE_UNINITIALIZED
+    path: ../NVAPIWrapper/cs_generated/NV_MONITOR_CONN_TYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MONITOR_CONN_TYPE_UNINITIALIZED = 0
+    return:
+      type: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+- uid: NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_VGA
+  commentId: F:NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_VGA
+  id: NV_MONITOR_CONN_TYPE_VGA
+  parent: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_MONITOR_CONN_TYPE_VGA
+  nameWithType: NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_VGA
+  fullName: NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_VGA
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MONITOR_CONN_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MONITOR_CONN_TYPE_VGA
+    path: ../NVAPIWrapper/cs_generated/NV_MONITOR_CONN_TYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MONITOR_CONN_TYPE_VGA = 1
+    return:
+      type: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+- uid: NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_COMPONENT
+  commentId: F:NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_COMPONENT
+  id: NV_MONITOR_CONN_TYPE_COMPONENT
+  parent: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_MONITOR_CONN_TYPE_COMPONENT
+  nameWithType: NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_COMPONENT
+  fullName: NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_COMPONENT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MONITOR_CONN_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MONITOR_CONN_TYPE_COMPONENT
+    path: ../NVAPIWrapper/cs_generated/NV_MONITOR_CONN_TYPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MONITOR_CONN_TYPE_COMPONENT = 2
+    return:
+      type: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+- uid: NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_SVIDEO
+  commentId: F:NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_SVIDEO
+  id: NV_MONITOR_CONN_TYPE_SVIDEO
+  parent: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_MONITOR_CONN_TYPE_SVIDEO
+  nameWithType: NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_SVIDEO
+  fullName: NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_SVIDEO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MONITOR_CONN_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MONITOR_CONN_TYPE_SVIDEO
+    path: ../NVAPIWrapper/cs_generated/NV_MONITOR_CONN_TYPE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MONITOR_CONN_TYPE_SVIDEO = 3
+    return:
+      type: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+- uid: NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_HDMI
+  commentId: F:NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_HDMI
+  id: NV_MONITOR_CONN_TYPE_HDMI
+  parent: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_MONITOR_CONN_TYPE_HDMI
+  nameWithType: NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_HDMI
+  fullName: NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_HDMI
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MONITOR_CONN_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MONITOR_CONN_TYPE_HDMI
+    path: ../NVAPIWrapper/cs_generated/NV_MONITOR_CONN_TYPE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MONITOR_CONN_TYPE_HDMI = 4
+    return:
+      type: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+- uid: NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_DVI
+  commentId: F:NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_DVI
+  id: NV_MONITOR_CONN_TYPE_DVI
+  parent: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_MONITOR_CONN_TYPE_DVI
+  nameWithType: NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_DVI
+  fullName: NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_DVI
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MONITOR_CONN_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MONITOR_CONN_TYPE_DVI
+    path: ../NVAPIWrapper/cs_generated/NV_MONITOR_CONN_TYPE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MONITOR_CONN_TYPE_DVI = 5
+    return:
+      type: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+- uid: NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_LVDS
+  commentId: F:NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_LVDS
+  id: NV_MONITOR_CONN_TYPE_LVDS
+  parent: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_MONITOR_CONN_TYPE_LVDS
+  nameWithType: NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_LVDS
+  fullName: NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_LVDS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MONITOR_CONN_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MONITOR_CONN_TYPE_LVDS
+    path: ../NVAPIWrapper/cs_generated/NV_MONITOR_CONN_TYPE.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MONITOR_CONN_TYPE_LVDS = 6
+    return:
+      type: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+- uid: NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_DP
+  commentId: F:NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_DP
+  id: NV_MONITOR_CONN_TYPE_DP
+  parent: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_MONITOR_CONN_TYPE_DP
+  nameWithType: NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_DP
+  fullName: NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_DP
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MONITOR_CONN_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MONITOR_CONN_TYPE_DP
+    path: ../NVAPIWrapper/cs_generated/NV_MONITOR_CONN_TYPE.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MONITOR_CONN_TYPE_DP = 7
+    return:
+      type: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+- uid: NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_COMPOSITE
+  commentId: F:NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_COMPOSITE
+  id: NV_MONITOR_CONN_TYPE_COMPOSITE
+  parent: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_MONITOR_CONN_TYPE_COMPOSITE
+  nameWithType: NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_COMPOSITE
+  fullName: NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_COMPOSITE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MONITOR_CONN_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MONITOR_CONN_TYPE_COMPOSITE
+    path: ../NVAPIWrapper/cs_generated/NV_MONITOR_CONN_TYPE.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MONITOR_CONN_TYPE_COMPOSITE = 8
+    return:
+      type: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+- uid: NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_UNKNOWN
+  commentId: F:NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_UNKNOWN
+  id: NV_MONITOR_CONN_TYPE_UNKNOWN
+  parent: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_MONITOR_CONN_TYPE_UNKNOWN
+  nameWithType: NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_UNKNOWN
+  fullName: NVAPIWrapper.NV_MONITOR_CONN_TYPE.NV_MONITOR_CONN_TYPE_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MONITOR_CONN_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MONITOR_CONN_TYPE_UNKNOWN
+    path: ../NVAPIWrapper/cs_generated/NV_MONITOR_CONN_TYPE.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MONITOR_CONN_TYPE_UNKNOWN = -1
+    return:
+      type: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+  commentId: T:NVAPIWrapper.NV_MONITOR_CONN_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_MONITOR_CONN_TYPE.html
+  name: NV_MONITOR_CONN_TYPE
+  nameWithType: NV_MONITOR_CONN_TYPE
+  fullName: NVAPIWrapper.NV_MONITOR_CONN_TYPE

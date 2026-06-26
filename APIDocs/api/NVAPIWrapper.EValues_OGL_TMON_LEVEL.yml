@@ -1,0 +1,267 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_OGL_TMON_LEVEL
+  commentId: T:NVAPIWrapper.EValues_OGL_TMON_LEVEL
+  id: EValues_OGL_TMON_LEVEL
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_CRITICAL
+  - NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_DEFAULT
+  - NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_DISABLE
+  - NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_INFORMATION
+  - NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_MOST
+  - NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_NUM_VALUES
+  - NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_VERBOSE
+  - NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_WARNING
+  langs:
+  - csharp
+  - vb
+  name: EValues_OGL_TMON_LEVEL
+  nameWithType: EValues_OGL_TMON_LEVEL
+  fullName: NVAPIWrapper.EValues_OGL_TMON_LEVEL
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_TMON_LEVEL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_OGL_TMON_LEVEL
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_TMON_LEVEL.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_OGL_TMON_LEVEL
+    content.vb: Public Enum EValues_OGL_TMON_LEVEL
+- uid: NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_DISABLE
+  commentId: F:NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_DISABLE
+  id: OGL_TMON_LEVEL_DISABLE
+  parent: NVAPIWrapper.EValues_OGL_TMON_LEVEL
+  langs:
+  - csharp
+  - vb
+  name: OGL_TMON_LEVEL_DISABLE
+  nameWithType: EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_DISABLE
+  fullName: NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_DISABLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_TMON_LEVEL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_TMON_LEVEL_DISABLE
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_TMON_LEVEL.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_TMON_LEVEL_DISABLE = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_TMON_LEVEL
+- uid: NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_CRITICAL
+  commentId: F:NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_CRITICAL
+  id: OGL_TMON_LEVEL_CRITICAL
+  parent: NVAPIWrapper.EValues_OGL_TMON_LEVEL
+  langs:
+  - csharp
+  - vb
+  name: OGL_TMON_LEVEL_CRITICAL
+  nameWithType: EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_CRITICAL
+  fullName: NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_CRITICAL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_TMON_LEVEL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_TMON_LEVEL_CRITICAL
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_TMON_LEVEL.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_TMON_LEVEL_CRITICAL = 1
+    return:
+      type: NVAPIWrapper.EValues_OGL_TMON_LEVEL
+- uid: NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_WARNING
+  commentId: F:NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_WARNING
+  id: OGL_TMON_LEVEL_WARNING
+  parent: NVAPIWrapper.EValues_OGL_TMON_LEVEL
+  langs:
+  - csharp
+  - vb
+  name: OGL_TMON_LEVEL_WARNING
+  nameWithType: EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_WARNING
+  fullName: NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_WARNING
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_TMON_LEVEL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_TMON_LEVEL_WARNING
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_TMON_LEVEL.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_TMON_LEVEL_WARNING = 2
+    return:
+      type: NVAPIWrapper.EValues_OGL_TMON_LEVEL
+- uid: NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_INFORMATION
+  commentId: F:NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_INFORMATION
+  id: OGL_TMON_LEVEL_INFORMATION
+  parent: NVAPIWrapper.EValues_OGL_TMON_LEVEL
+  langs:
+  - csharp
+  - vb
+  name: OGL_TMON_LEVEL_INFORMATION
+  nameWithType: EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_INFORMATION
+  fullName: NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_INFORMATION
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_TMON_LEVEL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_TMON_LEVEL_INFORMATION
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_TMON_LEVEL.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_TMON_LEVEL_INFORMATION = 3
+    return:
+      type: NVAPIWrapper.EValues_OGL_TMON_LEVEL
+- uid: NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_MOST
+  commentId: F:NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_MOST
+  id: OGL_TMON_LEVEL_MOST
+  parent: NVAPIWrapper.EValues_OGL_TMON_LEVEL
+  langs:
+  - csharp
+  - vb
+  name: OGL_TMON_LEVEL_MOST
+  nameWithType: EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_MOST
+  fullName: NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_MOST
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_TMON_LEVEL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_TMON_LEVEL_MOST
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_TMON_LEVEL.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_TMON_LEVEL_MOST = 4
+    return:
+      type: NVAPIWrapper.EValues_OGL_TMON_LEVEL
+- uid: NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_VERBOSE
+  commentId: F:NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_VERBOSE
+  id: OGL_TMON_LEVEL_VERBOSE
+  parent: NVAPIWrapper.EValues_OGL_TMON_LEVEL
+  langs:
+  - csharp
+  - vb
+  name: OGL_TMON_LEVEL_VERBOSE
+  nameWithType: EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_VERBOSE
+  fullName: NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_VERBOSE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_TMON_LEVEL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_TMON_LEVEL_VERBOSE
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_TMON_LEVEL.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_TMON_LEVEL_VERBOSE = 5
+    return:
+      type: NVAPIWrapper.EValues_OGL_TMON_LEVEL
+- uid: NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_NUM_VALUES
+  id: OGL_TMON_LEVEL_NUM_VALUES
+  parent: NVAPIWrapper.EValues_OGL_TMON_LEVEL
+  langs:
+  - csharp
+  - vb
+  name: OGL_TMON_LEVEL_NUM_VALUES
+  nameWithType: EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_TMON_LEVEL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_TMON_LEVEL_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_TMON_LEVEL.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_TMON_LEVEL_NUM_VALUES = 6
+    return:
+      type: NVAPIWrapper.EValues_OGL_TMON_LEVEL
+- uid: NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_DEFAULT
+  id: OGL_TMON_LEVEL_DEFAULT
+  parent: NVAPIWrapper.EValues_OGL_TMON_LEVEL
+  langs:
+  - csharp
+  - vb
+  name: OGL_TMON_LEVEL_DEFAULT
+  nameWithType: EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_DEFAULT
+  fullName: NVAPIWrapper.EValues_OGL_TMON_LEVEL.OGL_TMON_LEVEL_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_TMON_LEVEL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_TMON_LEVEL_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_TMON_LEVEL.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_TMON_LEVEL_DEFAULT = 4
+    return:
+      type: NVAPIWrapper.EValues_OGL_TMON_LEVEL
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_OGL_TMON_LEVEL
+  commentId: T:NVAPIWrapper.EValues_OGL_TMON_LEVEL
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_OGL_TMON_LEVEL.html
+  name: EValues_OGL_TMON_LEVEL
+  nameWithType: EValues_OGL_TMON_LEVEL
+  fullName: NVAPIWrapper.EValues_OGL_TMON_LEVEL

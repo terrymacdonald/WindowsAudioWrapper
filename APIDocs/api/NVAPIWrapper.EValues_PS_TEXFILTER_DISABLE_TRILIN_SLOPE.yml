@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE
+  commentId: T:NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE
+  id: EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_DEFAULT
+  - NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_NUM_VALUES
+  - NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_OFF
+  - NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_ON
+  langs:
+  - csharp
+  - vb
+  name: EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE
+  nameWithType: EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE
+  fullName: NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE
+    path: ../NVAPIWrapper/cs_generated/EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE
+    content.vb: Public Enum EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE
+- uid: NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_OFF
+  commentId: F:NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_OFF
+  id: PS_TEXFILTER_DISABLE_TRILIN_SLOPE_OFF
+  parent: NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE
+  langs:
+  - csharp
+  - vb
+  name: PS_TEXFILTER_DISABLE_TRILIN_SLOPE_OFF
+  nameWithType: EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_OFF
+  fullName: NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PS_TEXFILTER_DISABLE_TRILIN_SLOPE_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PS_TEXFILTER_DISABLE_TRILIN_SLOPE_OFF = 0
+    return:
+      type: NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE
+- uid: NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_ON
+  commentId: F:NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_ON
+  id: PS_TEXFILTER_DISABLE_TRILIN_SLOPE_ON
+  parent: NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE
+  langs:
+  - csharp
+  - vb
+  name: PS_TEXFILTER_DISABLE_TRILIN_SLOPE_ON
+  nameWithType: EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_ON
+  fullName: NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PS_TEXFILTER_DISABLE_TRILIN_SLOPE_ON
+    path: ../NVAPIWrapper/cs_generated/EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PS_TEXFILTER_DISABLE_TRILIN_SLOPE_ON = 1
+    return:
+      type: NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE
+- uid: NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_NUM_VALUES
+  id: PS_TEXFILTER_DISABLE_TRILIN_SLOPE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE
+  langs:
+  - csharp
+  - vb
+  name: PS_TEXFILTER_DISABLE_TRILIN_SLOPE_NUM_VALUES
+  nameWithType: EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PS_TEXFILTER_DISABLE_TRILIN_SLOPE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PS_TEXFILTER_DISABLE_TRILIN_SLOPE_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE
+- uid: NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_DEFAULT
+  id: PS_TEXFILTER_DISABLE_TRILIN_SLOPE_DEFAULT
+  parent: NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE
+  langs:
+  - csharp
+  - vb
+  name: PS_TEXFILTER_DISABLE_TRILIN_SLOPE_DEFAULT
+  nameWithType: EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_DEFAULT
+  fullName: NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PS_TEXFILTER_DISABLE_TRILIN_SLOPE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PS_TEXFILTER_DISABLE_TRILIN_SLOPE_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE
+  commentId: T:NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE.html
+  name: EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE
+  nameWithType: EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE
+  fullName: NVAPIWrapper.EValues_PS_TEXFILTER_DISABLE_TRILIN_SLOPE

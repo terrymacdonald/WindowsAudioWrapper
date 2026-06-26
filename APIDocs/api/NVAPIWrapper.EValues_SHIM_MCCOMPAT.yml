@@ -1,0 +1,323 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_SHIM_MCCOMPAT
+  commentId: T:NVAPIWrapper.EValues_SHIM_MCCOMPAT
+  id: EValues_SHIM_MCCOMPAT
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_AUTO_SELECT
+  - NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_DEFAULT
+  - NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_ENABLE
+  - NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_INTEGRATED
+  - NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_MASK
+  - NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_NUM_VALUES
+  - NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_OVERRIDE_BIT
+  - NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_USER_EDITABLE
+  - NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_VARYING_BIT
+  - NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_VIDEO_MASK
+  langs:
+  - csharp
+  - vb
+  name: EValues_SHIM_MCCOMPAT
+  nameWithType: EValues_SHIM_MCCOMPAT
+  fullName: NVAPIWrapper.EValues_SHIM_MCCOMPAT
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SHIM_MCCOMPAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_SHIM_MCCOMPAT
+    path: ../NVAPIWrapper/cs_generated/EValues_SHIM_MCCOMPAT.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: 'public enum EValues_SHIM_MCCOMPAT : uint'
+    content.vb: Public Enum EValues_SHIM_MCCOMPAT As UInteger
+- uid: NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_INTEGRATED
+  commentId: F:NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_INTEGRATED
+  id: SHIM_MCCOMPAT_INTEGRATED
+  parent: NVAPIWrapper.EValues_SHIM_MCCOMPAT
+  langs:
+  - csharp
+  - vb
+  name: SHIM_MCCOMPAT_INTEGRATED
+  nameWithType: EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_INTEGRATED
+  fullName: NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_INTEGRATED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SHIM_MCCOMPAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SHIM_MCCOMPAT_INTEGRATED
+    path: ../NVAPIWrapper/cs_generated/EValues_SHIM_MCCOMPAT.cs
+    startLine: 7
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SHIM_MCCOMPAT_INTEGRATED = 0
+    return:
+      type: NVAPIWrapper.EValues_SHIM_MCCOMPAT
+- uid: NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_ENABLE
+  commentId: F:NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_ENABLE
+  id: SHIM_MCCOMPAT_ENABLE
+  parent: NVAPIWrapper.EValues_SHIM_MCCOMPAT
+  langs:
+  - csharp
+  - vb
+  name: SHIM_MCCOMPAT_ENABLE
+  nameWithType: EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_ENABLE
+  fullName: NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_ENABLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SHIM_MCCOMPAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SHIM_MCCOMPAT_ENABLE
+    path: ../NVAPIWrapper/cs_generated/EValues_SHIM_MCCOMPAT.cs
+    startLine: 10
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SHIM_MCCOMPAT_ENABLE = 1
+    return:
+      type: NVAPIWrapper.EValues_SHIM_MCCOMPAT
+- uid: NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_USER_EDITABLE
+  commentId: F:NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_USER_EDITABLE
+  id: SHIM_MCCOMPAT_USER_EDITABLE
+  parent: NVAPIWrapper.EValues_SHIM_MCCOMPAT
+  langs:
+  - csharp
+  - vb
+  name: SHIM_MCCOMPAT_USER_EDITABLE
+  nameWithType: EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_USER_EDITABLE
+  fullName: NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_USER_EDITABLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SHIM_MCCOMPAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SHIM_MCCOMPAT_USER_EDITABLE
+    path: ../NVAPIWrapper/cs_generated/EValues_SHIM_MCCOMPAT.cs
+    startLine: 13
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SHIM_MCCOMPAT_USER_EDITABLE = 2
+    return:
+      type: NVAPIWrapper.EValues_SHIM_MCCOMPAT
+- uid: NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_MASK
+  commentId: F:NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_MASK
+  id: SHIM_MCCOMPAT_MASK
+  parent: NVAPIWrapper.EValues_SHIM_MCCOMPAT
+  langs:
+  - csharp
+  - vb
+  name: SHIM_MCCOMPAT_MASK
+  nameWithType: EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_MASK
+  fullName: NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_MASK
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SHIM_MCCOMPAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SHIM_MCCOMPAT_MASK
+    path: ../NVAPIWrapper/cs_generated/EValues_SHIM_MCCOMPAT.cs
+    startLine: 16
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SHIM_MCCOMPAT_MASK = 3
+    return:
+      type: NVAPIWrapper.EValues_SHIM_MCCOMPAT
+- uid: NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_VIDEO_MASK
+  commentId: F:NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_VIDEO_MASK
+  id: SHIM_MCCOMPAT_VIDEO_MASK
+  parent: NVAPIWrapper.EValues_SHIM_MCCOMPAT
+  langs:
+  - csharp
+  - vb
+  name: SHIM_MCCOMPAT_VIDEO_MASK
+  nameWithType: EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_VIDEO_MASK
+  fullName: NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_VIDEO_MASK
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SHIM_MCCOMPAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SHIM_MCCOMPAT_VIDEO_MASK
+    path: ../NVAPIWrapper/cs_generated/EValues_SHIM_MCCOMPAT.cs
+    startLine: 19
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SHIM_MCCOMPAT_VIDEO_MASK = 4
+    return:
+      type: NVAPIWrapper.EValues_SHIM_MCCOMPAT
+- uid: NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_VARYING_BIT
+  commentId: F:NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_VARYING_BIT
+  id: SHIM_MCCOMPAT_VARYING_BIT
+  parent: NVAPIWrapper.EValues_SHIM_MCCOMPAT
+  langs:
+  - csharp
+  - vb
+  name: SHIM_MCCOMPAT_VARYING_BIT
+  nameWithType: EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_VARYING_BIT
+  fullName: NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_VARYING_BIT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SHIM_MCCOMPAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SHIM_MCCOMPAT_VARYING_BIT
+    path: ../NVAPIWrapper/cs_generated/EValues_SHIM_MCCOMPAT.cs
+    startLine: 22
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SHIM_MCCOMPAT_VARYING_BIT = 8
+    return:
+      type: NVAPIWrapper.EValues_SHIM_MCCOMPAT
+- uid: NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_AUTO_SELECT
+  commentId: F:NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_AUTO_SELECT
+  id: SHIM_MCCOMPAT_AUTO_SELECT
+  parent: NVAPIWrapper.EValues_SHIM_MCCOMPAT
+  langs:
+  - csharp
+  - vb
+  name: SHIM_MCCOMPAT_AUTO_SELECT
+  nameWithType: EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_AUTO_SELECT
+  fullName: NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_AUTO_SELECT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SHIM_MCCOMPAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SHIM_MCCOMPAT_AUTO_SELECT
+    path: ../NVAPIWrapper/cs_generated/EValues_SHIM_MCCOMPAT.cs
+    startLine: 25
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SHIM_MCCOMPAT_AUTO_SELECT = 16
+    return:
+      type: NVAPIWrapper.EValues_SHIM_MCCOMPAT
+- uid: NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_OVERRIDE_BIT
+  commentId: F:NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_OVERRIDE_BIT
+  id: SHIM_MCCOMPAT_OVERRIDE_BIT
+  parent: NVAPIWrapper.EValues_SHIM_MCCOMPAT
+  langs:
+  - csharp
+  - vb
+  name: SHIM_MCCOMPAT_OVERRIDE_BIT
+  nameWithType: EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_OVERRIDE_BIT
+  fullName: NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_OVERRIDE_BIT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SHIM_MCCOMPAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SHIM_MCCOMPAT_OVERRIDE_BIT
+    path: ../NVAPIWrapper/cs_generated/EValues_SHIM_MCCOMPAT.cs
+    startLine: 28
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SHIM_MCCOMPAT_OVERRIDE_BIT = 2147483648
+    return:
+      type: NVAPIWrapper.EValues_SHIM_MCCOMPAT
+- uid: NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_NUM_VALUES
+  id: SHIM_MCCOMPAT_NUM_VALUES
+  parent: NVAPIWrapper.EValues_SHIM_MCCOMPAT
+  langs:
+  - csharp
+  - vb
+  name: SHIM_MCCOMPAT_NUM_VALUES
+  nameWithType: EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SHIM_MCCOMPAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SHIM_MCCOMPAT_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_SHIM_MCCOMPAT.cs
+    startLine: 31
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SHIM_MCCOMPAT_NUM_VALUES = 8
+    return:
+      type: NVAPIWrapper.EValues_SHIM_MCCOMPAT
+- uid: NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_DEFAULT
+  id: SHIM_MCCOMPAT_DEFAULT
+  parent: NVAPIWrapper.EValues_SHIM_MCCOMPAT
+  langs:
+  - csharp
+  - vb
+  name: SHIM_MCCOMPAT_DEFAULT
+  nameWithType: EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_DEFAULT
+  fullName: NVAPIWrapper.EValues_SHIM_MCCOMPAT.SHIM_MCCOMPAT_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SHIM_MCCOMPAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SHIM_MCCOMPAT_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_SHIM_MCCOMPAT.cs
+    startLine: 34
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SHIM_MCCOMPAT_DEFAULT = 16
+    return:
+      type: NVAPIWrapper.EValues_SHIM_MCCOMPAT
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_SHIM_MCCOMPAT
+  commentId: T:NVAPIWrapper.EValues_SHIM_MCCOMPAT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_SHIM_MCCOMPAT.html
+  name: EValues_SHIM_MCCOMPAT
+  nameWithType: EValues_SHIM_MCCOMPAT
+  fullName: NVAPIWrapper.EValues_SHIM_MCCOMPAT

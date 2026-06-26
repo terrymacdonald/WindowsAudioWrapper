@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+  commentId: T:NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+  id: EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_ALLOW
+  - NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_DEFAULT
+  - NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_DISALLOW
+  - NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_FIXED_REFRESH
+  - NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_FORCE_OFF
+  - NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_NUM_VALUES
+  - NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_ULMB
+  langs:
+  - csharp
+  - vb
+  name: EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+  nameWithType: EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+  fullName: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRR_APP_OVERRIDE_REQUEST_STATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+    path: ../NVAPIWrapper/cs_generated/EValues_VRR_APP_OVERRIDE_REQUEST_STATE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+    content.vb: Public Enum EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+- uid: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_ALLOW
+  commentId: F:NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_ALLOW
+  id: VRR_APP_OVERRIDE_REQUEST_STATE_ALLOW
+  parent: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+  langs:
+  - csharp
+  - vb
+  name: VRR_APP_OVERRIDE_REQUEST_STATE_ALLOW
+  nameWithType: EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_ALLOW
+  fullName: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_ALLOW
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRR_APP_OVERRIDE_REQUEST_STATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRR_APP_OVERRIDE_REQUEST_STATE_ALLOW
+    path: ../NVAPIWrapper/cs_generated/EValues_VRR_APP_OVERRIDE_REQUEST_STATE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRR_APP_OVERRIDE_REQUEST_STATE_ALLOW = 0
+    return:
+      type: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+- uid: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_FORCE_OFF
+  commentId: F:NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_FORCE_OFF
+  id: VRR_APP_OVERRIDE_REQUEST_STATE_FORCE_OFF
+  parent: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+  langs:
+  - csharp
+  - vb
+  name: VRR_APP_OVERRIDE_REQUEST_STATE_FORCE_OFF
+  nameWithType: EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_FORCE_OFF
+  fullName: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_FORCE_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRR_APP_OVERRIDE_REQUEST_STATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRR_APP_OVERRIDE_REQUEST_STATE_FORCE_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_VRR_APP_OVERRIDE_REQUEST_STATE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRR_APP_OVERRIDE_REQUEST_STATE_FORCE_OFF = 1
+    return:
+      type: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+- uid: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_DISALLOW
+  commentId: F:NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_DISALLOW
+  id: VRR_APP_OVERRIDE_REQUEST_STATE_DISALLOW
+  parent: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+  langs:
+  - csharp
+  - vb
+  name: VRR_APP_OVERRIDE_REQUEST_STATE_DISALLOW
+  nameWithType: EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_DISALLOW
+  fullName: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_DISALLOW
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRR_APP_OVERRIDE_REQUEST_STATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRR_APP_OVERRIDE_REQUEST_STATE_DISALLOW
+    path: ../NVAPIWrapper/cs_generated/EValues_VRR_APP_OVERRIDE_REQUEST_STATE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRR_APP_OVERRIDE_REQUEST_STATE_DISALLOW = 2
+    return:
+      type: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+- uid: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_ULMB
+  commentId: F:NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_ULMB
+  id: VRR_APP_OVERRIDE_REQUEST_STATE_ULMB
+  parent: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+  langs:
+  - csharp
+  - vb
+  name: VRR_APP_OVERRIDE_REQUEST_STATE_ULMB
+  nameWithType: EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_ULMB
+  fullName: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_ULMB
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRR_APP_OVERRIDE_REQUEST_STATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRR_APP_OVERRIDE_REQUEST_STATE_ULMB
+    path: ../NVAPIWrapper/cs_generated/EValues_VRR_APP_OVERRIDE_REQUEST_STATE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRR_APP_OVERRIDE_REQUEST_STATE_ULMB = 3
+    return:
+      type: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+- uid: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_FIXED_REFRESH
+  commentId: F:NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_FIXED_REFRESH
+  id: VRR_APP_OVERRIDE_REQUEST_STATE_FIXED_REFRESH
+  parent: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+  langs:
+  - csharp
+  - vb
+  name: VRR_APP_OVERRIDE_REQUEST_STATE_FIXED_REFRESH
+  nameWithType: EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_FIXED_REFRESH
+  fullName: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_FIXED_REFRESH
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRR_APP_OVERRIDE_REQUEST_STATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRR_APP_OVERRIDE_REQUEST_STATE_FIXED_REFRESH
+    path: ../NVAPIWrapper/cs_generated/EValues_VRR_APP_OVERRIDE_REQUEST_STATE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRR_APP_OVERRIDE_REQUEST_STATE_FIXED_REFRESH = 4
+    return:
+      type: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+- uid: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_NUM_VALUES
+  id: VRR_APP_OVERRIDE_REQUEST_STATE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+  langs:
+  - csharp
+  - vb
+  name: VRR_APP_OVERRIDE_REQUEST_STATE_NUM_VALUES
+  nameWithType: EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRR_APP_OVERRIDE_REQUEST_STATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRR_APP_OVERRIDE_REQUEST_STATE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_VRR_APP_OVERRIDE_REQUEST_STATE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRR_APP_OVERRIDE_REQUEST_STATE_NUM_VALUES = 5
+    return:
+      type: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+- uid: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_DEFAULT
+  id: VRR_APP_OVERRIDE_REQUEST_STATE_DEFAULT
+  parent: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+  langs:
+  - csharp
+  - vb
+  name: VRR_APP_OVERRIDE_REQUEST_STATE_DEFAULT
+  nameWithType: EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_DEFAULT
+  fullName: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.VRR_APP_OVERRIDE_REQUEST_STATE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRR_APP_OVERRIDE_REQUEST_STATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRR_APP_OVERRIDE_REQUEST_STATE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_VRR_APP_OVERRIDE_REQUEST_STATE.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRR_APP_OVERRIDE_REQUEST_STATE_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+  commentId: T:NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE.html
+  name: EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+  nameWithType: EValues_VRR_APP_OVERRIDE_REQUEST_STATE
+  fullName: NVAPIWrapper.EValues_VRR_APP_OVERRIDE_REQUEST_STATE

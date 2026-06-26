@@ -1,0 +1,737 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA
+  commentId: T:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA
+  id: _NV_MANAGED_DEDICATED_DISPLAY_METADATA
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA._bitfield
+  - NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bNameIsAvailable
+  - NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bPositionIsAvailable
+  - NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bRemoveName
+  - NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bRemovePosition
+  - NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bSetName
+  - NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bSetPosition
+  - NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.displayId
+  - NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.name
+  - NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.positionX
+  - NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.positionY
+  - NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.reserved
+  - NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.version
+  langs:
+  - csharp
+  - vb
+  name: _NV_MANAGED_DEDICATED_DISPLAY_METADATA
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_METADATA
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_MANAGED_DEDICATED_DISPLAY_METADATA
+    path: ../NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+    startLine: 5
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NV_MANAGED_DEDICATED_DISPLAY_METADATA
+    content.vb: Public Structure _NV_MANAGED_DEDICATED_DISPLAY_METADATA
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.version
+  commentId: F:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.version
+  id: version
+  parent: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_METADATA.version
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.version
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: version
+    path: ../NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint version
+    return:
+      type: System.UInt32
+    content.vb: Public version As UInteger
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.displayId
+  commentId: F:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.displayId
+  id: displayId
+  parent: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA
+  langs:
+  - csharp
+  - vb
+  name: displayId
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_METADATA.displayId
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.displayId
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: displayId
+    path: ../NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+    startLine: 13
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint displayId
+    return:
+      type: System.UInt32
+    content.vb: Public displayId As UInteger
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA._bitfield
+  commentId: F:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA._bitfield
+  id: _bitfield
+  parent: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA
+  langs:
+  - csharp
+  - vb
+  name: _bitfield
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_METADATA._bitfield
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA._bitfield
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield
+    path: ../NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield As UInteger
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bSetPosition
+  commentId: P:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bSetPosition
+  id: bSetPosition
+  parent: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA
+  langs:
+  - csharp
+  - vb
+  name: bSetPosition
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_METADATA.bSetPosition
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bSetPosition
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bSetPosition
+    path: ../NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bSetPosition { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property bSetPosition As UInteger
+  overload: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bSetPosition*
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bRemovePosition
+  commentId: P:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bRemovePosition
+  id: bRemovePosition
+  parent: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA
+  langs:
+  - csharp
+  - vb
+  name: bRemovePosition
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_METADATA.bRemovePosition
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bRemovePosition
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bRemovePosition
+    path: ../NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bRemovePosition { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property bRemovePosition As UInteger
+  overload: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bRemovePosition*
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bPositionIsAvailable
+  commentId: P:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bPositionIsAvailable
+  id: bPositionIsAvailable
+  parent: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA
+  langs:
+  - csharp
+  - vb
+  name: bPositionIsAvailable
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_METADATA.bPositionIsAvailable
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bPositionIsAvailable
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bPositionIsAvailable
+    path: ../NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+    startLine: 48
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bPositionIsAvailable { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property bPositionIsAvailable As UInteger
+  overload: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bPositionIsAvailable*
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bSetName
+  commentId: P:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bSetName
+  id: bSetName
+  parent: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA
+  langs:
+  - csharp
+  - vb
+  name: bSetName
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_METADATA.bSetName
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bSetName
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bSetName
+    path: ../NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+    startLine: 63
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bSetName { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property bSetName As UInteger
+  overload: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bSetName*
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bRemoveName
+  commentId: P:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bRemoveName
+  id: bRemoveName
+  parent: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA
+  langs:
+  - csharp
+  - vb
+  name: bRemoveName
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_METADATA.bRemoveName
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bRemoveName
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bRemoveName
+    path: ../NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+    startLine: 78
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bRemoveName { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property bRemoveName As UInteger
+  overload: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bRemoveName*
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bNameIsAvailable
+  commentId: P:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bNameIsAvailable
+  id: bNameIsAvailable
+  parent: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA
+  langs:
+  - csharp
+  - vb
+  name: bNameIsAvailable
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_METADATA.bNameIsAvailable
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bNameIsAvailable
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bNameIsAvailable
+    path: ../NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+    startLine: 93
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bNameIsAvailable { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property bNameIsAvailable As UInteger
+  overload: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bNameIsAvailable*
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.reserved
+  commentId: P:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.reserved
+  id: reserved
+  parent: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA
+  langs:
+  - csharp
+  - vb
+  name: reserved
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_METADATA.reserved
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.reserved
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved
+    path: ../NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+    startLine: 108
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved As UInteger
+  overload: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.reserved*
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.positionX
+  commentId: F:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.positionX
+  id: positionX
+  parent: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA
+  langs:
+  - csharp
+  - vb
+  name: positionX
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_METADATA.positionX
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.positionX
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: positionX
+    path: ../NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+    startLine: 124
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public int positionX
+    return:
+      type: System.Int32
+    content.vb: Public positionX As Integer
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.positionY
+  commentId: F:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.positionY
+  id: positionY
+  parent: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA
+  langs:
+  - csharp
+  - vb
+  name: positionY
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_METADATA.positionY
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.positionY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: positionY
+    path: ../NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+    startLine: 128
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public int positionY
+    return:
+      type: System.Int32
+    content.vb: Public positionY As Integer
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.name
+  commentId: F:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.name
+  id: name
+  parent: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_METADATA.name
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.name
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: name
+    path: ../NVAPIWrapper/cs_generated/_NV_MANAGED_DEDICATED_DISPLAY_METADATA.cs
+    startLine: 132
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_MANAGED_DEDICATED_DISPLAY_METADATA._name_e__FixedBuffer name
+    return:
+      type: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA._name_e__FixedBuffer
+    content.vb: Public name As _NV_MANAGED_DEDICATED_DISPLAY_METADATA._name_e__FixedBuffer
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bSetPosition*
+  commentId: Overload:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bSetPosition
+  href: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.html#NVAPIWrapper__NV_MANAGED_DEDICATED_DISPLAY_METADATA_bSetPosition
+  name: bSetPosition
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_METADATA.bSetPosition
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bSetPosition
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bRemovePosition*
+  commentId: Overload:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bRemovePosition
+  href: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.html#NVAPIWrapper__NV_MANAGED_DEDICATED_DISPLAY_METADATA_bRemovePosition
+  name: bRemovePosition
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_METADATA.bRemovePosition
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bRemovePosition
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bPositionIsAvailable*
+  commentId: Overload:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bPositionIsAvailable
+  href: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.html#NVAPIWrapper__NV_MANAGED_DEDICATED_DISPLAY_METADATA_bPositionIsAvailable
+  name: bPositionIsAvailable
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_METADATA.bPositionIsAvailable
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bPositionIsAvailable
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bSetName*
+  commentId: Overload:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bSetName
+  href: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.html#NVAPIWrapper__NV_MANAGED_DEDICATED_DISPLAY_METADATA_bSetName
+  name: bSetName
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_METADATA.bSetName
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bSetName
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bRemoveName*
+  commentId: Overload:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bRemoveName
+  href: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.html#NVAPIWrapper__NV_MANAGED_DEDICATED_DISPLAY_METADATA_bRemoveName
+  name: bRemoveName
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_METADATA.bRemoveName
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bRemoveName
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bNameIsAvailable*
+  commentId: Overload:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bNameIsAvailable
+  href: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.html#NVAPIWrapper__NV_MANAGED_DEDICATED_DISPLAY_METADATA_bNameIsAvailable
+  name: bNameIsAvailable
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_METADATA.bNameIsAvailable
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.bNameIsAvailable
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.reserved*
+  commentId: Overload:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.reserved
+  href: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.html#NVAPIWrapper__NV_MANAGED_DEDICATED_DISPLAY_METADATA_reserved
+  name: reserved
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_METADATA.reserved
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.reserved
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA._name_e__FixedBuffer
+  commentId: T:NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA._name_e__FixedBuffer
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.html
+  name: _NV_MANAGED_DEDICATED_DISPLAY_METADATA._name_e__FixedBuffer
+  nameWithType: _NV_MANAGED_DEDICATED_DISPLAY_METADATA._name_e__FixedBuffer
+  fullName: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA._name_e__FixedBuffer
+  spec.csharp:
+  - uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA
+    name: _NV_MANAGED_DEDICATED_DISPLAY_METADATA
+    href: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.html
+  - name: .
+  - uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA._name_e__FixedBuffer
+    name: _name_e__FixedBuffer
+    href: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA._name_e__FixedBuffer.html
+  spec.vb:
+  - uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA
+    name: _NV_MANAGED_DEDICATED_DISPLAY_METADATA
+    href: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA.html
+  - name: .
+  - uid: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA._name_e__FixedBuffer
+    name: _name_e__FixedBuffer
+    href: NVAPIWrapper._NV_MANAGED_DEDICATED_DISPLAY_METADATA._name_e__FixedBuffer.html

@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS
+  commentId: T:NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS
+  id: EValues_QUALITY_ENHANCEMENTS
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_DEFAULT
+  - NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_HIGHPERFORMANCE
+  - NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_HIGHQUALITY
+  - NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_NUM_VALUES
+  - NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_PERFORMANCE
+  - NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_QUALITY
+  langs:
+  - csharp
+  - vb
+  name: EValues_QUALITY_ENHANCEMENTS
+  nameWithType: EValues_QUALITY_ENHANCEMENTS
+  fullName: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_QUALITY_ENHANCEMENTS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_QUALITY_ENHANCEMENTS
+    path: ../NVAPIWrapper/cs_generated/EValues_QUALITY_ENHANCEMENTS.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_QUALITY_ENHANCEMENTS
+    content.vb: Public Enum EValues_QUALITY_ENHANCEMENTS
+- uid: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_HIGHQUALITY
+  commentId: F:NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_HIGHQUALITY
+  id: QUALITY_ENHANCEMENTS_HIGHQUALITY
+  parent: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS
+  langs:
+  - csharp
+  - vb
+  name: QUALITY_ENHANCEMENTS_HIGHQUALITY
+  nameWithType: EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_HIGHQUALITY
+  fullName: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_HIGHQUALITY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_QUALITY_ENHANCEMENTS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: QUALITY_ENHANCEMENTS_HIGHQUALITY
+    path: ../NVAPIWrapper/cs_generated/EValues_QUALITY_ENHANCEMENTS.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: QUALITY_ENHANCEMENTS_HIGHQUALITY = -10
+    return:
+      type: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS
+- uid: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_QUALITY
+  commentId: F:NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_QUALITY
+  id: QUALITY_ENHANCEMENTS_QUALITY
+  parent: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS
+  langs:
+  - csharp
+  - vb
+  name: QUALITY_ENHANCEMENTS_QUALITY
+  nameWithType: EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_QUALITY
+  fullName: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_QUALITY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_QUALITY_ENHANCEMENTS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: QUALITY_ENHANCEMENTS_QUALITY
+    path: ../NVAPIWrapper/cs_generated/EValues_QUALITY_ENHANCEMENTS.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: QUALITY_ENHANCEMENTS_QUALITY = 0
+    return:
+      type: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS
+- uid: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_PERFORMANCE
+  commentId: F:NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_PERFORMANCE
+  id: QUALITY_ENHANCEMENTS_PERFORMANCE
+  parent: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS
+  langs:
+  - csharp
+  - vb
+  name: QUALITY_ENHANCEMENTS_PERFORMANCE
+  nameWithType: EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_PERFORMANCE
+  fullName: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_PERFORMANCE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_QUALITY_ENHANCEMENTS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: QUALITY_ENHANCEMENTS_PERFORMANCE
+    path: ../NVAPIWrapper/cs_generated/EValues_QUALITY_ENHANCEMENTS.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: QUALITY_ENHANCEMENTS_PERFORMANCE = 10
+    return:
+      type: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS
+- uid: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_HIGHPERFORMANCE
+  commentId: F:NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_HIGHPERFORMANCE
+  id: QUALITY_ENHANCEMENTS_HIGHPERFORMANCE
+  parent: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS
+  langs:
+  - csharp
+  - vb
+  name: QUALITY_ENHANCEMENTS_HIGHPERFORMANCE
+  nameWithType: EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_HIGHPERFORMANCE
+  fullName: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_HIGHPERFORMANCE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_QUALITY_ENHANCEMENTS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: QUALITY_ENHANCEMENTS_HIGHPERFORMANCE
+    path: ../NVAPIWrapper/cs_generated/EValues_QUALITY_ENHANCEMENTS.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: QUALITY_ENHANCEMENTS_HIGHPERFORMANCE = 20
+    return:
+      type: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS
+- uid: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_NUM_VALUES
+  id: QUALITY_ENHANCEMENTS_NUM_VALUES
+  parent: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS
+  langs:
+  - csharp
+  - vb
+  name: QUALITY_ENHANCEMENTS_NUM_VALUES
+  nameWithType: EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_QUALITY_ENHANCEMENTS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: QUALITY_ENHANCEMENTS_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_QUALITY_ENHANCEMENTS.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: QUALITY_ENHANCEMENTS_NUM_VALUES = 4
+    return:
+      type: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS
+- uid: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_DEFAULT
+  id: QUALITY_ENHANCEMENTS_DEFAULT
+  parent: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS
+  langs:
+  - csharp
+  - vb
+  name: QUALITY_ENHANCEMENTS_DEFAULT
+  nameWithType: EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_DEFAULT
+  fullName: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.QUALITY_ENHANCEMENTS_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_QUALITY_ENHANCEMENTS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: QUALITY_ENHANCEMENTS_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_QUALITY_ENHANCEMENTS.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: QUALITY_ENHANCEMENTS_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS
+  commentId: T:NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS.html
+  name: EValues_QUALITY_ENHANCEMENTS
+  nameWithType: EValues_QUALITY_ENHANCEMENTS
+  fullName: NVAPIWrapper.EValues_QUALITY_ENHANCEMENTS

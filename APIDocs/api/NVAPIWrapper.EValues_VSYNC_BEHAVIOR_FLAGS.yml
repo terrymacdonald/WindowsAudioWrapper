@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS
+  commentId: T:NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS
+  id: EValues_VSYNC_BEHAVIOR_FLAGS
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS.VSYNC_BEHAVIOR_FLAGS_DEFAULT
+  - NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS.VSYNC_BEHAVIOR_FLAGS_IGNORE_FLIPINTERVAL_MULTIPLE
+  - NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS.VSYNC_BEHAVIOR_FLAGS_NONE
+  - NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS.VSYNC_BEHAVIOR_FLAGS_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_VSYNC_BEHAVIOR_FLAGS
+  nameWithType: EValues_VSYNC_BEHAVIOR_FLAGS
+  fullName: NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNC_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_VSYNC_BEHAVIOR_FLAGS
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNC_BEHAVIOR_FLAGS.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_VSYNC_BEHAVIOR_FLAGS
+    content.vb: Public Enum EValues_VSYNC_BEHAVIOR_FLAGS
+- uid: NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS.VSYNC_BEHAVIOR_FLAGS_NONE
+  commentId: F:NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS.VSYNC_BEHAVIOR_FLAGS_NONE
+  id: VSYNC_BEHAVIOR_FLAGS_NONE
+  parent: NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: VSYNC_BEHAVIOR_FLAGS_NONE
+  nameWithType: EValues_VSYNC_BEHAVIOR_FLAGS.VSYNC_BEHAVIOR_FLAGS_NONE
+  fullName: NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS.VSYNC_BEHAVIOR_FLAGS_NONE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNC_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNC_BEHAVIOR_FLAGS_NONE
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNC_BEHAVIOR_FLAGS.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNC_BEHAVIOR_FLAGS_NONE = 0
+    return:
+      type: NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS
+- uid: NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS.VSYNC_BEHAVIOR_FLAGS_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS.VSYNC_BEHAVIOR_FLAGS_DEFAULT
+  id: VSYNC_BEHAVIOR_FLAGS_DEFAULT
+  parent: NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: VSYNC_BEHAVIOR_FLAGS_DEFAULT
+  nameWithType: EValues_VSYNC_BEHAVIOR_FLAGS.VSYNC_BEHAVIOR_FLAGS_DEFAULT
+  fullName: NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS.VSYNC_BEHAVIOR_FLAGS_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNC_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNC_BEHAVIOR_FLAGS_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNC_BEHAVIOR_FLAGS.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNC_BEHAVIOR_FLAGS_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS
+- uid: NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS.VSYNC_BEHAVIOR_FLAGS_IGNORE_FLIPINTERVAL_MULTIPLE
+  commentId: F:NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS.VSYNC_BEHAVIOR_FLAGS_IGNORE_FLIPINTERVAL_MULTIPLE
+  id: VSYNC_BEHAVIOR_FLAGS_IGNORE_FLIPINTERVAL_MULTIPLE
+  parent: NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: VSYNC_BEHAVIOR_FLAGS_IGNORE_FLIPINTERVAL_MULTIPLE
+  nameWithType: EValues_VSYNC_BEHAVIOR_FLAGS.VSYNC_BEHAVIOR_FLAGS_IGNORE_FLIPINTERVAL_MULTIPLE
+  fullName: NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS.VSYNC_BEHAVIOR_FLAGS_IGNORE_FLIPINTERVAL_MULTIPLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNC_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNC_BEHAVIOR_FLAGS_IGNORE_FLIPINTERVAL_MULTIPLE
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNC_BEHAVIOR_FLAGS.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNC_BEHAVIOR_FLAGS_IGNORE_FLIPINTERVAL_MULTIPLE = 1
+    return:
+      type: NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS
+- uid: NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS.VSYNC_BEHAVIOR_FLAGS_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS.VSYNC_BEHAVIOR_FLAGS_NUM_VALUES
+  id: VSYNC_BEHAVIOR_FLAGS_NUM_VALUES
+  parent: NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: VSYNC_BEHAVIOR_FLAGS_NUM_VALUES
+  nameWithType: EValues_VSYNC_BEHAVIOR_FLAGS.VSYNC_BEHAVIOR_FLAGS_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS.VSYNC_BEHAVIOR_FLAGS_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNC_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNC_BEHAVIOR_FLAGS_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNC_BEHAVIOR_FLAGS.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNC_BEHAVIOR_FLAGS_NUM_VALUES = 3
+    return:
+      type: NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS
+  commentId: T:NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS.html
+  name: EValues_VSYNC_BEHAVIOR_FLAGS
+  nameWithType: EValues_VSYNC_BEHAVIOR_FLAGS
+  fullName: NVAPIWrapper.EValues_VSYNC_BEHAVIOR_FLAGS

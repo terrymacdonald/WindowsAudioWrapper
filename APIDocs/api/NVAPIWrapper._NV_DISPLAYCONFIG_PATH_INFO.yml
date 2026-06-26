@@ -1,0 +1,717 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO
+  commentId: T:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO
+  id: _NV_DISPLAYCONFIG_PATH_INFO
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.Anonymous
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.IsNonNVIDIAAdapter
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO._bitfield
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.pOSAdapterID
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.reserved
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.reserved_sourceId
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.sourceId
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.sourceModeInfo
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.targetInfo
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.targetInfoCount
+  - NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.version
+  langs:
+  - csharp
+  - vb
+  name: _NV_DISPLAYCONFIG_PATH_INFO
+  nameWithType: _NV_DISPLAYCONFIG_PATH_INFO
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_PATH_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_DISPLAYCONFIG_PATH_INFO
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_PATH_INFO.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NV_DISPLAYCONFIG_PATH_INFO
+    content.vb: Public Structure _NV_DISPLAYCONFIG_PATH_INFO
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.version
+  commentId: F:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.version
+  id: version
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: _NV_DISPLAYCONFIG_PATH_INFO.version
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.version
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_PATH_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: version
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_PATH_INFO.cs
+    startLine: 10
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint version
+    return:
+      type: System.UInt32
+    content.vb: Public version As UInteger
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.Anonymous
+  commentId: F:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.Anonymous
+  id: Anonymous
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO
+  langs:
+  - csharp
+  - vb
+  name: Anonymous
+  nameWithType: _NV_DISPLAYCONFIG_PATH_INFO.Anonymous
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.Anonymous
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_PATH_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Anonymous
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_PATH_INFO.cs
+    startLine: 14
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_DISPLAYCONFIG_PATH_INFO._Anonymous_e__Union Anonymous
+    return:
+      type: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO._Anonymous_e__Union
+    content.vb: Public Anonymous As _NV_DISPLAYCONFIG_PATH_INFO._Anonymous_e__Union
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.targetInfoCount
+  commentId: F:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.targetInfoCount
+  id: targetInfoCount
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO
+  langs:
+  - csharp
+  - vb
+  name: targetInfoCount
+  nameWithType: _NV_DISPLAYCONFIG_PATH_INFO.targetInfoCount
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.targetInfoCount
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_PATH_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: targetInfoCount
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_PATH_INFO.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint targetInfoCount
+    return:
+      type: System.UInt32
+    content.vb: Public targetInfoCount As UInteger
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.targetInfo
+  commentId: F:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.targetInfo
+  id: targetInfo
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO
+  langs:
+  - csharp
+  - vb
+  name: targetInfo
+  nameWithType: _NV_DISPLAYCONFIG_PATH_INFO.targetInfo
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.targetInfo
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_PATH_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: targetInfo
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_PATH_INFO.cs
+    startLine: 22
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_DISPLAYCONFIG_PATH_TARGET_INFO_V2* targetInfo
+    return:
+      type: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_TARGET_INFO_V2*
+    content.vb: Public targetInfo As _NV_DISPLAYCONFIG_PATH_TARGET_INFO_V2*
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.sourceModeInfo
+  commentId: F:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.sourceModeInfo
+  id: sourceModeInfo
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO
+  langs:
+  - csharp
+  - vb
+  name: sourceModeInfo
+  nameWithType: _NV_DISPLAYCONFIG_PATH_INFO.sourceModeInfo
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.sourceModeInfo
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_PATH_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: sourceModeInfo
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_PATH_INFO.cs
+    startLine: 26
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1* sourceModeInfo
+    return:
+      type: NVAPIWrapper._NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1*
+    content.vb: Public sourceModeInfo As _NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1*
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO._bitfield
+  commentId: F:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO._bitfield
+  id: _bitfield
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO
+  langs:
+  - csharp
+  - vb
+  name: _bitfield
+  nameWithType: _NV_DISPLAYCONFIG_PATH_INFO._bitfield
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO._bitfield
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_PATH_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_PATH_INFO.cs
+    startLine: 28
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield As UInteger
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.IsNonNVIDIAAdapter
+  commentId: P:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.IsNonNVIDIAAdapter
+  id: IsNonNVIDIAAdapter
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO
+  langs:
+  - csharp
+  - vb
+  name: IsNonNVIDIAAdapter
+  nameWithType: _NV_DISPLAYCONFIG_PATH_INFO.IsNonNVIDIAAdapter
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.IsNonNVIDIAAdapter
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_PATH_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: IsNonNVIDIAAdapter
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_PATH_INFO.cs
+    startLine: 31
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint IsNonNVIDIAAdapter { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property IsNonNVIDIAAdapter As UInteger
+  overload: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.IsNonNVIDIAAdapter*
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.reserved
+  commentId: P:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.reserved
+  id: reserved
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO
+  langs:
+  - csharp
+  - vb
+  name: reserved
+  nameWithType: _NV_DISPLAYCONFIG_PATH_INFO.reserved
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.reserved
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_PATH_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_PATH_INFO.cs
+    startLine: 46
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved As UInteger
+  overload: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.reserved*
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.pOSAdapterID
+  commentId: F:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.pOSAdapterID
+  id: pOSAdapterID
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO
+  langs:
+  - csharp
+  - vb
+  name: pOSAdapterID
+  nameWithType: _NV_DISPLAYCONFIG_PATH_INFO.pOSAdapterID
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.pOSAdapterID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_PATH_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: pOSAdapterID
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_PATH_INFO.cs
+    startLine: 61
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public void* pOSAdapterID
+    return:
+      type: System.Void*
+    content.vb: Public pOSAdapterID As Void*
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.sourceId
+  commentId: P:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.sourceId
+  id: sourceId
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO
+  langs:
+  - csharp
+  - vb
+  name: sourceId
+  nameWithType: _NV_DISPLAYCONFIG_PATH_INFO.sourceId
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.sourceId
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_PATH_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: sourceId
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_PATH_INFO.cs
+    startLine: 64
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: >-
+      [UnscopedRef]
+
+      public ref uint sourceId { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: >-
+      <UnscopedRef>
+
+      Public ReadOnly ByRef Property sourceId As UInteger
+  overload: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.sourceId*
+  attributes:
+  - type: System.Diagnostics.CodeAnalysis.UnscopedRefAttribute
+    ctor: System.Diagnostics.CodeAnalysis.UnscopedRefAttribute.#ctor
+    arguments: []
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.reserved_sourceId
+  commentId: P:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.reserved_sourceId
+  id: reserved_sourceId
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO
+  langs:
+  - csharp
+  - vb
+  name: reserved_sourceId
+  nameWithType: _NV_DISPLAYCONFIG_PATH_INFO.reserved_sourceId
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.reserved_sourceId
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_PATH_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved_sourceId
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_PATH_INFO.cs
+    startLine: 74
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: >-
+      [UnscopedRef]
+
+      public ref uint reserved_sourceId { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: >-
+      <UnscopedRef>
+
+      Public ReadOnly ByRef Property reserved_sourceId As UInteger
+  overload: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.reserved_sourceId*
+  attributes:
+  - type: System.Diagnostics.CodeAnalysis.UnscopedRefAttribute
+    ctor: System.Diagnostics.CodeAnalysis.UnscopedRefAttribute.#ctor
+    arguments: []
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO._Anonymous_e__Union
+  commentId: T:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO._Anonymous_e__Union
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.html
+  name: _NV_DISPLAYCONFIG_PATH_INFO._Anonymous_e__Union
+  nameWithType: _NV_DISPLAYCONFIG_PATH_INFO._Anonymous_e__Union
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO._Anonymous_e__Union
+  spec.csharp:
+  - uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO
+    name: _NV_DISPLAYCONFIG_PATH_INFO
+    href: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.html
+  - name: .
+  - uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO._Anonymous_e__Union
+    name: _Anonymous_e__Union
+    href: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO._Anonymous_e__Union.html
+  spec.vb:
+  - uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO
+    name: _NV_DISPLAYCONFIG_PATH_INFO
+    href: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.html
+  - name: .
+  - uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO._Anonymous_e__Union
+    name: _Anonymous_e__Union
+    href: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO._Anonymous_e__Union.html
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_TARGET_INFO_V2*
+  isExternal: true
+  href: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_TARGET_INFO_V2.html
+  name: _NV_DISPLAYCONFIG_PATH_TARGET_INFO_V2*
+  nameWithType: _NV_DISPLAYCONFIG_PATH_TARGET_INFO_V2*
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_TARGET_INFO_V2*
+  spec.csharp:
+  - uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_TARGET_INFO_V2
+    name: _NV_DISPLAYCONFIG_PATH_TARGET_INFO_V2
+    href: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_TARGET_INFO_V2.html
+  - name: '*'
+  spec.vb:
+  - uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_TARGET_INFO_V2
+    name: _NV_DISPLAYCONFIG_PATH_TARGET_INFO_V2
+    href: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_TARGET_INFO_V2.html
+  - name: '*'
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1*
+  isExternal: true
+  href: NVAPIWrapper._NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1.html
+  name: _NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1*
+  nameWithType: _NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1*
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1*
+  spec.csharp:
+  - uid: NVAPIWrapper._NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1
+    name: _NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1
+    href: NVAPIWrapper._NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1.html
+  - name: '*'
+  spec.vb:
+  - uid: NVAPIWrapper._NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1
+    name: _NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1
+    href: NVAPIWrapper._NV_DISPLAYCONFIG_SOURCE_MODE_INFO_V1.html
+  - name: '*'
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.IsNonNVIDIAAdapter*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.IsNonNVIDIAAdapter
+  href: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.html#NVAPIWrapper__NV_DISPLAYCONFIG_PATH_INFO_IsNonNVIDIAAdapter
+  name: IsNonNVIDIAAdapter
+  nameWithType: _NV_DISPLAYCONFIG_PATH_INFO.IsNonNVIDIAAdapter
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.IsNonNVIDIAAdapter
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.reserved*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.reserved
+  href: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.html#NVAPIWrapper__NV_DISPLAYCONFIG_PATH_INFO_reserved
+  name: reserved
+  nameWithType: _NV_DISPLAYCONFIG_PATH_INFO.reserved
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.reserved
+- uid: System.Void*
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.void
+  name: void*
+  nameWithType: void*
+  fullName: void*
+  nameWithType.vb: Void*
+  fullName.vb: Void*
+  name.vb: Void*
+  spec.csharp:
+  - uid: System.Void
+    name: void
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.void
+  - name: '*'
+  spec.vb:
+  - uid: System.Void
+    name: Void
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.void
+  - name: '*'
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.sourceId*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.sourceId
+  href: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.html#NVAPIWrapper__NV_DISPLAYCONFIG_PATH_INFO_sourceId
+  name: sourceId
+  nameWithType: _NV_DISPLAYCONFIG_PATH_INFO.sourceId
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.sourceId
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.reserved_sourceId*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.reserved_sourceId
+  href: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.html#NVAPIWrapper__NV_DISPLAYCONFIG_PATH_INFO_reserved_sourceId
+  name: reserved_sourceId
+  nameWithType: _NV_DISPLAYCONFIG_PATH_INFO.reserved_sourceId
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_PATH_INFO.reserved_sourceId

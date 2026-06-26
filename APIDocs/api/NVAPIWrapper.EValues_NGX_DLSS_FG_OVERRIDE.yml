@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE
+  commentId: T:NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE
+  id: EValues_NGX_DLSS_FG_OVERRIDE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE.NGX_DLSS_FG_OVERRIDE_DEFAULT
+  - NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE.NGX_DLSS_FG_OVERRIDE_NUM_VALUES
+  - NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE.NGX_DLSS_FG_OVERRIDE_OFF
+  - NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE.NGX_DLSS_FG_OVERRIDE_ON
+  langs:
+  - csharp
+  - vb
+  name: EValues_NGX_DLSS_FG_OVERRIDE
+  nameWithType: EValues_NGX_DLSS_FG_OVERRIDE
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSS_FG_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_NGX_DLSS_FG_OVERRIDE
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSS_FG_OVERRIDE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_NGX_DLSS_FG_OVERRIDE
+    content.vb: Public Enum EValues_NGX_DLSS_FG_OVERRIDE
+- uid: NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE.NGX_DLSS_FG_OVERRIDE_OFF
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE.NGX_DLSS_FG_OVERRIDE_OFF
+  id: NGX_DLSS_FG_OVERRIDE_OFF
+  parent: NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_FG_OVERRIDE_OFF
+  nameWithType: EValues_NGX_DLSS_FG_OVERRIDE.NGX_DLSS_FG_OVERRIDE_OFF
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE.NGX_DLSS_FG_OVERRIDE_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSS_FG_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_FG_OVERRIDE_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSS_FG_OVERRIDE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_FG_OVERRIDE_OFF = 0
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE
+- uid: NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE.NGX_DLSS_FG_OVERRIDE_ON
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE.NGX_DLSS_FG_OVERRIDE_ON
+  id: NGX_DLSS_FG_OVERRIDE_ON
+  parent: NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_FG_OVERRIDE_ON
+  nameWithType: EValues_NGX_DLSS_FG_OVERRIDE.NGX_DLSS_FG_OVERRIDE_ON
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE.NGX_DLSS_FG_OVERRIDE_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSS_FG_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_FG_OVERRIDE_ON
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSS_FG_OVERRIDE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_FG_OVERRIDE_ON = 1
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE
+- uid: NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE.NGX_DLSS_FG_OVERRIDE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE.NGX_DLSS_FG_OVERRIDE_NUM_VALUES
+  id: NGX_DLSS_FG_OVERRIDE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_FG_OVERRIDE_NUM_VALUES
+  nameWithType: EValues_NGX_DLSS_FG_OVERRIDE.NGX_DLSS_FG_OVERRIDE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE.NGX_DLSS_FG_OVERRIDE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSS_FG_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_FG_OVERRIDE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSS_FG_OVERRIDE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_FG_OVERRIDE_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE
+- uid: NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE.NGX_DLSS_FG_OVERRIDE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE.NGX_DLSS_FG_OVERRIDE_DEFAULT
+  id: NGX_DLSS_FG_OVERRIDE_DEFAULT
+  parent: NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_FG_OVERRIDE_DEFAULT
+  nameWithType: EValues_NGX_DLSS_FG_OVERRIDE.NGX_DLSS_FG_OVERRIDE_DEFAULT
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE.NGX_DLSS_FG_OVERRIDE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSS_FG_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_FG_OVERRIDE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSS_FG_OVERRIDE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_FG_OVERRIDE_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE
+  commentId: T:NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE.html
+  name: EValues_NGX_DLSS_FG_OVERRIDE
+  nameWithType: EValues_NGX_DLSS_FG_OVERRIDE
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_FG_OVERRIDE

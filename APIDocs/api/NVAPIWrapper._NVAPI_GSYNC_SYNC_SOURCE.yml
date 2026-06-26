@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVAPI_GSYNC_SYNC_SOURCE
+  commentId: T:NVAPIWrapper._NVAPI_GSYNC_SYNC_SOURCE
+  id: _NVAPI_GSYNC_SYNC_SOURCE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVAPI_GSYNC_SYNC_SOURCE.NVAPI_GSYNC_SYNC_SOURCE_HOUSESYNC
+  - NVAPIWrapper._NVAPI_GSYNC_SYNC_SOURCE.NVAPI_GSYNC_SYNC_SOURCE_VSYNC
+  langs:
+  - csharp
+  - vb
+  name: _NVAPI_GSYNC_SYNC_SOURCE
+  nameWithType: _NVAPI_GSYNC_SYNC_SOURCE
+  fullName: NVAPIWrapper._NVAPI_GSYNC_SYNC_SOURCE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_SYNC_SOURCE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVAPI_GSYNC_SYNC_SOURCE
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_SYNC_SOURCE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVAPI_GSYNC_SYNC_SOURCE
+    content.vb: Public Enum _NVAPI_GSYNC_SYNC_SOURCE
+- uid: NVAPIWrapper._NVAPI_GSYNC_SYNC_SOURCE.NVAPI_GSYNC_SYNC_SOURCE_VSYNC
+  commentId: F:NVAPIWrapper._NVAPI_GSYNC_SYNC_SOURCE.NVAPI_GSYNC_SYNC_SOURCE_VSYNC
+  id: NVAPI_GSYNC_SYNC_SOURCE_VSYNC
+  parent: NVAPIWrapper._NVAPI_GSYNC_SYNC_SOURCE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GSYNC_SYNC_SOURCE_VSYNC
+  nameWithType: _NVAPI_GSYNC_SYNC_SOURCE.NVAPI_GSYNC_SYNC_SOURCE_VSYNC
+  fullName: NVAPIWrapper._NVAPI_GSYNC_SYNC_SOURCE.NVAPI_GSYNC_SYNC_SOURCE_VSYNC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_SYNC_SOURCE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GSYNC_SYNC_SOURCE_VSYNC
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_SYNC_SOURCE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GSYNC_SYNC_SOURCE_VSYNC = 0
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_SYNC_SOURCE
+- uid: NVAPIWrapper._NVAPI_GSYNC_SYNC_SOURCE.NVAPI_GSYNC_SYNC_SOURCE_HOUSESYNC
+  commentId: F:NVAPIWrapper._NVAPI_GSYNC_SYNC_SOURCE.NVAPI_GSYNC_SYNC_SOURCE_HOUSESYNC
+  id: NVAPI_GSYNC_SYNC_SOURCE_HOUSESYNC
+  parent: NVAPIWrapper._NVAPI_GSYNC_SYNC_SOURCE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GSYNC_SYNC_SOURCE_HOUSESYNC
+  nameWithType: _NVAPI_GSYNC_SYNC_SOURCE.NVAPI_GSYNC_SYNC_SOURCE_HOUSESYNC
+  fullName: NVAPIWrapper._NVAPI_GSYNC_SYNC_SOURCE.NVAPI_GSYNC_SYNC_SOURCE_HOUSESYNC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_SYNC_SOURCE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GSYNC_SYNC_SOURCE_HOUSESYNC
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_SYNC_SOURCE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GSYNC_SYNC_SOURCE_HOUSESYNC = 1
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_SYNC_SOURCE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVAPI_GSYNC_SYNC_SOURCE
+  commentId: T:NVAPIWrapper._NVAPI_GSYNC_SYNC_SOURCE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVAPI_GSYNC_SYNC_SOURCE.html
+  name: _NVAPI_GSYNC_SYNC_SOURCE
+  nameWithType: _NVAPI_GSYNC_SYNC_SOURCE
+  fullName: NVAPIWrapper._NVAPI_GSYNC_SYNC_SOURCE

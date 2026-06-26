@@ -1,0 +1,423 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct
+  commentId: T:NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct
+  id: NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.domainId
+  - NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.maxFreq_kHz
+  - NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.maxVoltage_uV
+  - NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.minFreq_kHz
+  - NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.minVoltage_uV
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct
+  nameWithType: NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct
+  fullName: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _range_e__Struct
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+    startLine: 76
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct
+    content.vb: Public Structure NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.minFreq_kHz
+  commentId: F:NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.minFreq_kHz
+  id: minFreq_kHz
+  parent: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: minFreq_kHz
+  nameWithType: NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.minFreq_kHz
+  fullName: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.minFreq_kHz
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: minFreq_kHz
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+    startLine: 80
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint minFreq_kHz
+    return:
+      type: System.UInt32
+    content.vb: Public minFreq_kHz As UInteger
+- uid: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.maxFreq_kHz
+  commentId: F:NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.maxFreq_kHz
+  id: maxFreq_kHz
+  parent: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: maxFreq_kHz
+  nameWithType: NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.maxFreq_kHz
+  fullName: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.maxFreq_kHz
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: maxFreq_kHz
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+    startLine: 84
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint maxFreq_kHz
+    return:
+      type: System.UInt32
+    content.vb: Public maxFreq_kHz As UInteger
+- uid: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.domainId
+  commentId: F:NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.domainId
+  id: domainId
+  parent: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: domainId
+  nameWithType: NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.domainId
+  fullName: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.domainId
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: domainId
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+    startLine: 88
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID domainId
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID
+    content.vb: Public domainId As _NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID
+- uid: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.minVoltage_uV
+  commentId: F:NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.minVoltage_uV
+  id: minVoltage_uV
+  parent: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: minVoltage_uV
+  nameWithType: NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.minVoltage_uV
+  fullName: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.minVoltage_uV
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: minVoltage_uV
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+    startLine: 92
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint minVoltage_uV
+    return:
+      type: System.UInt32
+    content.vb: Public minVoltage_uV As UInteger
+- uid: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.maxVoltage_uV
+  commentId: F:NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.maxVoltage_uV
+  id: maxVoltage_uV
+  parent: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: maxVoltage_uV
+  nameWithType: NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.maxVoltage_uV
+  fullName: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1._data_e__Union._range_e__Struct.maxVoltage_uV
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: maxVoltage_uV
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_PSTATE20_CLOCK_ENTRY_V1.cs
+    startLine: 96
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint maxVoltage_uV
+    return:
+      type: System.UInt32
+    content.vb: Public maxVoltage_uV As UInteger
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper._NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID
+  commentId: T:NVAPIWrapper._NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID.html
+  name: _NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID
+  nameWithType: _NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID
+  fullName: NVAPIWrapper._NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID

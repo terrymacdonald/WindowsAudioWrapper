@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_StereoRegistryProfileType
+  commentId: T:NVAPIWrapper._NV_StereoRegistryProfileType
+  id: _NV_StereoRegistryProfileType
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_StereoRegistryProfileType.NVAPI_STEREO_DEFAULT_REGISTRY_PROFILE
+  - NVAPIWrapper._NV_StereoRegistryProfileType.NVAPI_STEREO_DX10_REGISTRY_PROFILE
+  - NVAPIWrapper._NV_StereoRegistryProfileType.NVAPI_STEREO_DX9_REGISTRY_PROFILE
+  langs:
+  - csharp
+  - vb
+  name: _NV_StereoRegistryProfileType
+  nameWithType: _NV_StereoRegistryProfileType
+  fullName: NVAPIWrapper._NV_StereoRegistryProfileType
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_StereoRegistryProfileType.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_StereoRegistryProfileType
+    path: ../NVAPIWrapper/cs_generated/_NV_StereoRegistryProfileType.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_StereoRegistryProfileType
+    content.vb: Public Enum _NV_StereoRegistryProfileType
+- uid: NVAPIWrapper._NV_StereoRegistryProfileType.NVAPI_STEREO_DEFAULT_REGISTRY_PROFILE
+  commentId: F:NVAPIWrapper._NV_StereoRegistryProfileType.NVAPI_STEREO_DEFAULT_REGISTRY_PROFILE
+  id: NVAPI_STEREO_DEFAULT_REGISTRY_PROFILE
+  parent: NVAPIWrapper._NV_StereoRegistryProfileType
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_DEFAULT_REGISTRY_PROFILE
+  nameWithType: _NV_StereoRegistryProfileType.NVAPI_STEREO_DEFAULT_REGISTRY_PROFILE
+  fullName: NVAPIWrapper._NV_StereoRegistryProfileType.NVAPI_STEREO_DEFAULT_REGISTRY_PROFILE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_StereoRegistryProfileType.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_DEFAULT_REGISTRY_PROFILE
+    path: ../NVAPIWrapper/cs_generated/_NV_StereoRegistryProfileType.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_DEFAULT_REGISTRY_PROFILE = 0
+    return:
+      type: NVAPIWrapper._NV_StereoRegistryProfileType
+- uid: NVAPIWrapper._NV_StereoRegistryProfileType.NVAPI_STEREO_DX9_REGISTRY_PROFILE
+  commentId: F:NVAPIWrapper._NV_StereoRegistryProfileType.NVAPI_STEREO_DX9_REGISTRY_PROFILE
+  id: NVAPI_STEREO_DX9_REGISTRY_PROFILE
+  parent: NVAPIWrapper._NV_StereoRegistryProfileType
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_DX9_REGISTRY_PROFILE
+  nameWithType: _NV_StereoRegistryProfileType.NVAPI_STEREO_DX9_REGISTRY_PROFILE
+  fullName: NVAPIWrapper._NV_StereoRegistryProfileType.NVAPI_STEREO_DX9_REGISTRY_PROFILE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_StereoRegistryProfileType.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_DX9_REGISTRY_PROFILE
+    path: ../NVAPIWrapper/cs_generated/_NV_StereoRegistryProfileType.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_DX9_REGISTRY_PROFILE = 1
+    return:
+      type: NVAPIWrapper._NV_StereoRegistryProfileType
+- uid: NVAPIWrapper._NV_StereoRegistryProfileType.NVAPI_STEREO_DX10_REGISTRY_PROFILE
+  commentId: F:NVAPIWrapper._NV_StereoRegistryProfileType.NVAPI_STEREO_DX10_REGISTRY_PROFILE
+  id: NVAPI_STEREO_DX10_REGISTRY_PROFILE
+  parent: NVAPIWrapper._NV_StereoRegistryProfileType
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_DX10_REGISTRY_PROFILE
+  nameWithType: _NV_StereoRegistryProfileType.NVAPI_STEREO_DX10_REGISTRY_PROFILE
+  fullName: NVAPIWrapper._NV_StereoRegistryProfileType.NVAPI_STEREO_DX10_REGISTRY_PROFILE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_StereoRegistryProfileType.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_DX10_REGISTRY_PROFILE
+    path: ../NVAPIWrapper/cs_generated/_NV_StereoRegistryProfileType.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_DX10_REGISTRY_PROFILE = 2
+    return:
+      type: NVAPIWrapper._NV_StereoRegistryProfileType
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_StereoRegistryProfileType
+  commentId: T:NVAPIWrapper._NV_StereoRegistryProfileType
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_StereoRegistryProfileType.html
+  name: _NV_StereoRegistryProfileType
+  nameWithType: _NV_StereoRegistryProfileType
+  fullName: NVAPIWrapper._NV_StereoRegistryProfileType

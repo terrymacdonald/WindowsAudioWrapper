@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER
+  commentId: T:NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER
+  id: EValues_OGL_SINGLE_BACKDEPTH_BUFFER
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_DEFAULT
+  - NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_DISABLE
+  - NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_ENABLE
+  - NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_NUM_VALUES
+  - NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_USE_HW_DEFAULT
+  langs:
+  - csharp
+  - vb
+  name: EValues_OGL_SINGLE_BACKDEPTH_BUFFER
+  nameWithType: EValues_OGL_SINGLE_BACKDEPTH_BUFFER
+  fullName: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_SINGLE_BACKDEPTH_BUFFER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_OGL_SINGLE_BACKDEPTH_BUFFER
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_SINGLE_BACKDEPTH_BUFFER.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_OGL_SINGLE_BACKDEPTH_BUFFER
+    content.vb: Public Enum EValues_OGL_SINGLE_BACKDEPTH_BUFFER
+- uid: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_DISABLE
+  commentId: F:NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_DISABLE
+  id: OGL_SINGLE_BACKDEPTH_BUFFER_DISABLE
+  parent: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER
+  langs:
+  - csharp
+  - vb
+  name: OGL_SINGLE_BACKDEPTH_BUFFER_DISABLE
+  nameWithType: EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_DISABLE
+  fullName: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_DISABLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_SINGLE_BACKDEPTH_BUFFER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_SINGLE_BACKDEPTH_BUFFER_DISABLE
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_SINGLE_BACKDEPTH_BUFFER.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_SINGLE_BACKDEPTH_BUFFER_DISABLE = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER
+- uid: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_ENABLE
+  commentId: F:NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_ENABLE
+  id: OGL_SINGLE_BACKDEPTH_BUFFER_ENABLE
+  parent: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER
+  langs:
+  - csharp
+  - vb
+  name: OGL_SINGLE_BACKDEPTH_BUFFER_ENABLE
+  nameWithType: EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_ENABLE
+  fullName: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_ENABLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_SINGLE_BACKDEPTH_BUFFER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_SINGLE_BACKDEPTH_BUFFER_ENABLE
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_SINGLE_BACKDEPTH_BUFFER.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_SINGLE_BACKDEPTH_BUFFER_ENABLE = 1
+    return:
+      type: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER
+- uid: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_USE_HW_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_USE_HW_DEFAULT
+  id: OGL_SINGLE_BACKDEPTH_BUFFER_USE_HW_DEFAULT
+  parent: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER
+  langs:
+  - csharp
+  - vb
+  name: OGL_SINGLE_BACKDEPTH_BUFFER_USE_HW_DEFAULT
+  nameWithType: EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_USE_HW_DEFAULT
+  fullName: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_USE_HW_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_SINGLE_BACKDEPTH_BUFFER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_SINGLE_BACKDEPTH_BUFFER_USE_HW_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_SINGLE_BACKDEPTH_BUFFER.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_SINGLE_BACKDEPTH_BUFFER_USE_HW_DEFAULT = -1
+    return:
+      type: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER
+- uid: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_NUM_VALUES
+  id: OGL_SINGLE_BACKDEPTH_BUFFER_NUM_VALUES
+  parent: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER
+  langs:
+  - csharp
+  - vb
+  name: OGL_SINGLE_BACKDEPTH_BUFFER_NUM_VALUES
+  nameWithType: EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_SINGLE_BACKDEPTH_BUFFER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_SINGLE_BACKDEPTH_BUFFER_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_SINGLE_BACKDEPTH_BUFFER.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_SINGLE_BACKDEPTH_BUFFER_NUM_VALUES = 3
+    return:
+      type: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER
+- uid: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_DEFAULT
+  id: OGL_SINGLE_BACKDEPTH_BUFFER_DEFAULT
+  parent: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER
+  langs:
+  - csharp
+  - vb
+  name: OGL_SINGLE_BACKDEPTH_BUFFER_DEFAULT
+  nameWithType: EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_DEFAULT
+  fullName: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER.OGL_SINGLE_BACKDEPTH_BUFFER_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_SINGLE_BACKDEPTH_BUFFER.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_SINGLE_BACKDEPTH_BUFFER_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_SINGLE_BACKDEPTH_BUFFER.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_SINGLE_BACKDEPTH_BUFFER_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER
+  commentId: T:NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER.html
+  name: EValues_OGL_SINGLE_BACKDEPTH_BUFFER
+  nameWithType: EValues_OGL_SINGLE_BACKDEPTH_BUFFER
+  fullName: NVAPIWrapper.EValues_OGL_SINGLE_BACKDEPTH_BUFFER

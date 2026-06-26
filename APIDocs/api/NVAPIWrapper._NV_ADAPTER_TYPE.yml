@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_ADAPTER_TYPE
+  commentId: T:NVAPIWrapper._NV_ADAPTER_TYPE
+  id: _NV_ADAPTER_TYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_LAST
+  - NVAPIWrapper._NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_MCDM
+  - NVAPIWrapper._NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_TCC
+  - NVAPIWrapper._NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_UNKNOWN
+  - NVAPIWrapper._NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_WDDM
+  langs:
+  - csharp
+  - vb
+  name: _NV_ADAPTER_TYPE
+  nameWithType: _NV_ADAPTER_TYPE
+  fullName: NVAPIWrapper._NV_ADAPTER_TYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_ADAPTER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_ADAPTER_TYPE
+    path: ../NVAPIWrapper/cs_generated/_NV_ADAPTER_TYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_ADAPTER_TYPE
+    content.vb: Public Enum _NV_ADAPTER_TYPE
+- uid: NVAPIWrapper._NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_UNKNOWN
+  commentId: F:NVAPIWrapper._NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_UNKNOWN
+  id: NV_ADAPTER_TYPE_UNKNOWN
+  parent: NVAPIWrapper._NV_ADAPTER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_ADAPTER_TYPE_UNKNOWN
+  nameWithType: _NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_UNKNOWN
+  fullName: NVAPIWrapper._NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_ADAPTER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_ADAPTER_TYPE_UNKNOWN
+    path: ../NVAPIWrapper/cs_generated/_NV_ADAPTER_TYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_ADAPTER_TYPE_UNKNOWN = 0
+    return:
+      type: NVAPIWrapper._NV_ADAPTER_TYPE
+- uid: NVAPIWrapper._NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_WDDM
+  commentId: F:NVAPIWrapper._NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_WDDM
+  id: NV_ADAPTER_TYPE_WDDM
+  parent: NVAPIWrapper._NV_ADAPTER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_ADAPTER_TYPE_WDDM
+  nameWithType: _NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_WDDM
+  fullName: NVAPIWrapper._NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_WDDM
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_ADAPTER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_ADAPTER_TYPE_WDDM
+    path: ../NVAPIWrapper/cs_generated/_NV_ADAPTER_TYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_ADAPTER_TYPE_WDDM = 1
+    return:
+      type: NVAPIWrapper._NV_ADAPTER_TYPE
+- uid: NVAPIWrapper._NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_MCDM
+  commentId: F:NVAPIWrapper._NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_MCDM
+  id: NV_ADAPTER_TYPE_MCDM
+  parent: NVAPIWrapper._NV_ADAPTER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_ADAPTER_TYPE_MCDM
+  nameWithType: _NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_MCDM
+  fullName: NVAPIWrapper._NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_MCDM
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_ADAPTER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_ADAPTER_TYPE_MCDM
+    path: ../NVAPIWrapper/cs_generated/_NV_ADAPTER_TYPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_ADAPTER_TYPE_MCDM = 2
+    return:
+      type: NVAPIWrapper._NV_ADAPTER_TYPE
+- uid: NVAPIWrapper._NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_TCC
+  commentId: F:NVAPIWrapper._NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_TCC
+  id: NV_ADAPTER_TYPE_TCC
+  parent: NVAPIWrapper._NV_ADAPTER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_ADAPTER_TYPE_TCC
+  nameWithType: _NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_TCC
+  fullName: NVAPIWrapper._NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_TCC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_ADAPTER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_ADAPTER_TYPE_TCC
+    path: ../NVAPIWrapper/cs_generated/_NV_ADAPTER_TYPE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_ADAPTER_TYPE_TCC = 4
+    return:
+      type: NVAPIWrapper._NV_ADAPTER_TYPE
+- uid: NVAPIWrapper._NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_LAST
+  commentId: F:NVAPIWrapper._NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_LAST
+  id: NV_ADAPTER_TYPE_LAST
+  parent: NVAPIWrapper._NV_ADAPTER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_ADAPTER_TYPE_LAST
+  nameWithType: _NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_LAST
+  fullName: NVAPIWrapper._NV_ADAPTER_TYPE.NV_ADAPTER_TYPE_LAST
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_ADAPTER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_ADAPTER_TYPE_LAST
+    path: ../NVAPIWrapper/cs_generated/_NV_ADAPTER_TYPE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_ADAPTER_TYPE_LAST = -1
+    return:
+      type: NVAPIWrapper._NV_ADAPTER_TYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_ADAPTER_TYPE
+  commentId: T:NVAPIWrapper._NV_ADAPTER_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_ADAPTER_TYPE.html
+  name: _NV_ADAPTER_TYPE
+  nameWithType: _NV_ADAPTER_TYPE
+  fullName: NVAPIWrapper._NV_ADAPTER_TYPE

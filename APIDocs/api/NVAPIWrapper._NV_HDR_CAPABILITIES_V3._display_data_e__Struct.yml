@@ -1,0 +1,590 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct
+  commentId: T:NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct
+  id: _NV_HDR_CAPABILITIES_V3._display_data_e__Struct
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.desired_content_max_frame_average_luminance
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.desired_content_max_luminance
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.desired_content_min_luminance
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_x0
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_x1
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_x2
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_y0
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_y1
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_y2
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayWhitePoint_x
+  - NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayWhitePoint_y
+  langs:
+  - csharp
+  - vb
+  name: _NV_HDR_CAPABILITIES_V3._display_data_e__Struct
+  nameWithType: _NV_HDR_CAPABILITIES_V3._display_data_e__Struct
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _display_data_e__Struct
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V3.cs
+    startLine: 177
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NV_HDR_CAPABILITIES_V3._display_data_e__Struct
+    content.vb: Public Structure _NV_HDR_CAPABILITIES_V3._display_data_e__Struct
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_x0
+  commentId: F:NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_x0
+  id: displayPrimary_x0
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: displayPrimary_x0
+  nameWithType: _NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_x0
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_x0
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: displayPrimary_x0
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V3.cs
+    startLine: 181
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort displayPrimary_x0
+    return:
+      type: System.UInt16
+    content.vb: Public displayPrimary_x0 As UShort
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_y0
+  commentId: F:NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_y0
+  id: displayPrimary_y0
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: displayPrimary_y0
+  nameWithType: _NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_y0
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_y0
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: displayPrimary_y0
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V3.cs
+    startLine: 185
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort displayPrimary_y0
+    return:
+      type: System.UInt16
+    content.vb: Public displayPrimary_y0 As UShort
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_x1
+  commentId: F:NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_x1
+  id: displayPrimary_x1
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: displayPrimary_x1
+  nameWithType: _NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_x1
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_x1
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: displayPrimary_x1
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V3.cs
+    startLine: 189
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort displayPrimary_x1
+    return:
+      type: System.UInt16
+    content.vb: Public displayPrimary_x1 As UShort
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_y1
+  commentId: F:NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_y1
+  id: displayPrimary_y1
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: displayPrimary_y1
+  nameWithType: _NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_y1
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_y1
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: displayPrimary_y1
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V3.cs
+    startLine: 193
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort displayPrimary_y1
+    return:
+      type: System.UInt16
+    content.vb: Public displayPrimary_y1 As UShort
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_x2
+  commentId: F:NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_x2
+  id: displayPrimary_x2
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: displayPrimary_x2
+  nameWithType: _NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_x2
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_x2
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: displayPrimary_x2
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V3.cs
+    startLine: 197
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort displayPrimary_x2
+    return:
+      type: System.UInt16
+    content.vb: Public displayPrimary_x2 As UShort
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_y2
+  commentId: F:NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_y2
+  id: displayPrimary_y2
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: displayPrimary_y2
+  nameWithType: _NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_y2
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayPrimary_y2
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: displayPrimary_y2
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V3.cs
+    startLine: 201
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort displayPrimary_y2
+    return:
+      type: System.UInt16
+    content.vb: Public displayPrimary_y2 As UShort
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayWhitePoint_x
+  commentId: F:NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayWhitePoint_x
+  id: displayWhitePoint_x
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: displayWhitePoint_x
+  nameWithType: _NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayWhitePoint_x
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayWhitePoint_x
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: displayWhitePoint_x
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V3.cs
+    startLine: 205
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort displayWhitePoint_x
+    return:
+      type: System.UInt16
+    content.vb: Public displayWhitePoint_x As UShort
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayWhitePoint_y
+  commentId: F:NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayWhitePoint_y
+  id: displayWhitePoint_y
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: displayWhitePoint_y
+  nameWithType: _NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayWhitePoint_y
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.displayWhitePoint_y
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: displayWhitePoint_y
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V3.cs
+    startLine: 209
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort displayWhitePoint_y
+    return:
+      type: System.UInt16
+    content.vb: Public displayWhitePoint_y As UShort
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.desired_content_max_luminance
+  commentId: F:NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.desired_content_max_luminance
+  id: desired_content_max_luminance
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: desired_content_max_luminance
+  nameWithType: _NV_HDR_CAPABILITIES_V3._display_data_e__Struct.desired_content_max_luminance
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.desired_content_max_luminance
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: desired_content_max_luminance
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V3.cs
+    startLine: 213
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort desired_content_max_luminance
+    return:
+      type: System.UInt16
+    content.vb: Public desired_content_max_luminance As UShort
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.desired_content_min_luminance
+  commentId: F:NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.desired_content_min_luminance
+  id: desired_content_min_luminance
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: desired_content_min_luminance
+  nameWithType: _NV_HDR_CAPABILITIES_V3._display_data_e__Struct.desired_content_min_luminance
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.desired_content_min_luminance
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: desired_content_min_luminance
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V3.cs
+    startLine: 217
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort desired_content_min_luminance
+    return:
+      type: System.UInt16
+    content.vb: Public desired_content_min_luminance As UShort
+- uid: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.desired_content_max_frame_average_luminance
+  commentId: F:NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.desired_content_max_frame_average_luminance
+  id: desired_content_max_frame_average_luminance
+  parent: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: desired_content_max_frame_average_luminance
+  nameWithType: _NV_HDR_CAPABILITIES_V3._display_data_e__Struct.desired_content_max_frame_average_luminance
+  fullName: NVAPIWrapper._NV_HDR_CAPABILITIES_V3._display_data_e__Struct.desired_content_max_frame_average_luminance
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V3.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: desired_content_max_frame_average_luminance
+    path: ../NVAPIWrapper/cs_generated/_NV_HDR_CAPABILITIES_V3.cs
+    startLine: 221
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ushort desired_content_max_frame_average_luminance
+    return:
+      type: System.UInt16
+    content.vb: Public desired_content_max_frame_average_luminance As UShort
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint16
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort

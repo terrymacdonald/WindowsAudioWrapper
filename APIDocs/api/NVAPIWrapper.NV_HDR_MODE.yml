@@ -1,0 +1,267 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_HDR_MODE
+  commentId: T:NVAPIWrapper.NV_HDR_MODE
+  id: NV_HDR_MODE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_DOLBY_VISION
+  - NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_EDR
+  - NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_OFF
+  - NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_SDR
+  - NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_UHDA
+  - NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_UHDA_NB
+  - NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_UHDA_PASSTHROUGH
+  - NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_UHDBD
+  langs:
+  - csharp
+  - vb
+  name: NV_HDR_MODE
+  nameWithType: NV_HDR_MODE
+  fullName: NVAPIWrapper.NV_HDR_MODE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_HDR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_HDR_MODE
+    path: ../NVAPIWrapper/cs_generated/NV_HDR_MODE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_HDR_MODE
+    content.vb: Public Enum NV_HDR_MODE
+- uid: NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_OFF
+  commentId: F:NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_OFF
+  id: NV_HDR_MODE_OFF
+  parent: NVAPIWrapper.NV_HDR_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_HDR_MODE_OFF
+  nameWithType: NV_HDR_MODE.NV_HDR_MODE_OFF
+  fullName: NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_HDR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_HDR_MODE_OFF
+    path: ../NVAPIWrapper/cs_generated/NV_HDR_MODE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_HDR_MODE_OFF = 0
+    return:
+      type: NVAPIWrapper.NV_HDR_MODE
+- uid: NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_UHDA
+  commentId: F:NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_UHDA
+  id: NV_HDR_MODE_UHDA
+  parent: NVAPIWrapper.NV_HDR_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_HDR_MODE_UHDA
+  nameWithType: NV_HDR_MODE.NV_HDR_MODE_UHDA
+  fullName: NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_UHDA
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_HDR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_HDR_MODE_UHDA
+    path: ../NVAPIWrapper/cs_generated/NV_HDR_MODE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_HDR_MODE_UHDA = 2
+    return:
+      type: NVAPIWrapper.NV_HDR_MODE
+- uid: NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_UHDA_PASSTHROUGH
+  commentId: F:NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_UHDA_PASSTHROUGH
+  id: NV_HDR_MODE_UHDA_PASSTHROUGH
+  parent: NVAPIWrapper.NV_HDR_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_HDR_MODE_UHDA_PASSTHROUGH
+  nameWithType: NV_HDR_MODE.NV_HDR_MODE_UHDA_PASSTHROUGH
+  fullName: NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_UHDA_PASSTHROUGH
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_HDR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_HDR_MODE_UHDA_PASSTHROUGH
+    path: ../NVAPIWrapper/cs_generated/NV_HDR_MODE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_HDR_MODE_UHDA_PASSTHROUGH = 5
+    return:
+      type: NVAPIWrapper.NV_HDR_MODE
+- uid: NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_DOLBY_VISION
+  commentId: F:NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_DOLBY_VISION
+  id: NV_HDR_MODE_DOLBY_VISION
+  parent: NVAPIWrapper.NV_HDR_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_HDR_MODE_DOLBY_VISION
+  nameWithType: NV_HDR_MODE.NV_HDR_MODE_DOLBY_VISION
+  fullName: NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_DOLBY_VISION
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_HDR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_HDR_MODE_DOLBY_VISION
+    path: ../NVAPIWrapper/cs_generated/NV_HDR_MODE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_HDR_MODE_DOLBY_VISION = 7
+    return:
+      type: NVAPIWrapper.NV_HDR_MODE
+- uid: NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_EDR
+  commentId: F:NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_EDR
+  id: NV_HDR_MODE_EDR
+  parent: NVAPIWrapper.NV_HDR_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_HDR_MODE_EDR
+  nameWithType: NV_HDR_MODE.NV_HDR_MODE_EDR
+  fullName: NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_EDR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_HDR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_HDR_MODE_EDR
+    path: ../NVAPIWrapper/cs_generated/NV_HDR_MODE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_HDR_MODE_EDR = 3
+    return:
+      type: NVAPIWrapper.NV_HDR_MODE
+- uid: NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_SDR
+  commentId: F:NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_SDR
+  id: NV_HDR_MODE_SDR
+  parent: NVAPIWrapper.NV_HDR_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_HDR_MODE_SDR
+  nameWithType: NV_HDR_MODE.NV_HDR_MODE_SDR
+  fullName: NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_SDR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_HDR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_HDR_MODE_SDR
+    path: ../NVAPIWrapper/cs_generated/NV_HDR_MODE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_HDR_MODE_SDR = 4
+    return:
+      type: NVAPIWrapper.NV_HDR_MODE
+- uid: NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_UHDA_NB
+  commentId: F:NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_UHDA_NB
+  id: NV_HDR_MODE_UHDA_NB
+  parent: NVAPIWrapper.NV_HDR_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_HDR_MODE_UHDA_NB
+  nameWithType: NV_HDR_MODE.NV_HDR_MODE_UHDA_NB
+  fullName: NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_UHDA_NB
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_HDR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_HDR_MODE_UHDA_NB
+    path: ../NVAPIWrapper/cs_generated/NV_HDR_MODE.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_HDR_MODE_UHDA_NB = 6
+    return:
+      type: NVAPIWrapper.NV_HDR_MODE
+- uid: NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_UHDBD
+  commentId: F:NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_UHDBD
+  id: NV_HDR_MODE_UHDBD
+  parent: NVAPIWrapper.NV_HDR_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_HDR_MODE_UHDBD
+  nameWithType: NV_HDR_MODE.NV_HDR_MODE_UHDBD
+  fullName: NVAPIWrapper.NV_HDR_MODE.NV_HDR_MODE_UHDBD
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_HDR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_HDR_MODE_UHDBD
+    path: ../NVAPIWrapper/cs_generated/NV_HDR_MODE.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_HDR_MODE_UHDBD = 2
+    return:
+      type: NVAPIWrapper.NV_HDR_MODE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_HDR_MODE
+  commentId: T:NVAPIWrapper.NV_HDR_MODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_HDR_MODE.html
+  name: NV_HDR_MODE
+  nameWithType: NV_HDR_MODE
+  fullName: NVAPIWrapper.NV_HDR_MODE

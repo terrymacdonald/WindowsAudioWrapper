@@ -1,0 +1,1539 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  commentId: T:NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  id: _NV_MONITOR_CAPS_VSDB
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB._bitfield1
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB._bitfield2
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB._bitfield3
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB._bitfield4
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB._bitfield5
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB._bitfield6
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.audioLatency
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc0SupportGraphicsTextContent
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc1SupportPhotoContent
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc2SupportCinemaContent
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc3SupportGameContent
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.has3dEntries
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hasInterlacedLatencyField
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hasLatencyField
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hasVicEntries
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hdmi3dLength
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hdmiVicLength
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hdmi_3d
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hdmi_vic
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.interlacedAudioLatency
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.interlacedVideoLatency
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.maxTmdsClock
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.reserved13
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.reserved6
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.reserved8
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressA
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressB
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressC
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressD
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportAI
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColor30bits
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColor36bits
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColor48bits
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColorYCbCr444
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDualDviOperation
+  - NVAPIWrapper._NV_MONITOR_CAPS_VSDB.videoLatency
+  langs:
+  - csharp
+  - vb
+  name: _NV_MONITOR_CAPS_VSDB
+  nameWithType: _NV_MONITOR_CAPS_VSDB
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_MONITOR_CAPS_VSDB
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 5
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NV_MONITOR_CAPS_VSDB
+    content.vb: Public Structure _NV_MONITOR_CAPS_VSDB
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._bitfield1
+  commentId: F:NVAPIWrapper._NV_MONITOR_CAPS_VSDB._bitfield1
+  id: _bitfield1
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: _bitfield1
+  nameWithType: _NV_MONITOR_CAPS_VSDB._bitfield1
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._bitfield1
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield1
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 7
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte _bitfield1
+    return:
+      type: System.Byte
+    content.vb: Public _bitfield1 As Byte
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressB
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressB
+  id: sourcePhysicalAddressB
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: sourcePhysicalAddressB
+  nameWithType: _NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressB
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressB
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: sourcePhysicalAddressB
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 10
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte sourcePhysicalAddressB { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property sourcePhysicalAddressB As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressB*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressA
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressA
+  id: sourcePhysicalAddressA
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: sourcePhysicalAddressA
+  nameWithType: _NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressA
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressA
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: sourcePhysicalAddressA
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 25
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte sourcePhysicalAddressA { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property sourcePhysicalAddressA As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressA*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._bitfield2
+  commentId: F:NVAPIWrapper._NV_MONITOR_CAPS_VSDB._bitfield2
+  id: _bitfield2
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: _bitfield2
+  nameWithType: _NV_MONITOR_CAPS_VSDB._bitfield2
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._bitfield2
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield2
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 39
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte _bitfield2
+    return:
+      type: System.Byte
+    content.vb: Public _bitfield2 As Byte
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressD
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressD
+  id: sourcePhysicalAddressD
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: sourcePhysicalAddressD
+  nameWithType: _NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressD
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressD
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: sourcePhysicalAddressD
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 42
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte sourcePhysicalAddressD { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property sourcePhysicalAddressD As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressD*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressC
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressC
+  id: sourcePhysicalAddressC
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: sourcePhysicalAddressC
+  nameWithType: _NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressC
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressC
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: sourcePhysicalAddressC
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 57
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte sourcePhysicalAddressC { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property sourcePhysicalAddressC As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressC*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._bitfield3
+  commentId: F:NVAPIWrapper._NV_MONITOR_CAPS_VSDB._bitfield3
+  id: _bitfield3
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: _bitfield3
+  nameWithType: _NV_MONITOR_CAPS_VSDB._bitfield3
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._bitfield3
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield3
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 71
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte _bitfield3
+    return:
+      type: System.Byte
+    content.vb: Public _bitfield3 As Byte
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDualDviOperation
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDualDviOperation
+  id: supportDualDviOperation
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: supportDualDviOperation
+  nameWithType: _NV_MONITOR_CAPS_VSDB.supportDualDviOperation
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDualDviOperation
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: supportDualDviOperation
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 74
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte supportDualDviOperation { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property supportDualDviOperation As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDualDviOperation*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.reserved6
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.reserved6
+  id: reserved6
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: reserved6
+  nameWithType: _NV_MONITOR_CAPS_VSDB.reserved6
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.reserved6
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved6
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 89
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte reserved6 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property reserved6 As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.reserved6*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColorYCbCr444
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColorYCbCr444
+  id: supportDeepColorYCbCr444
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: supportDeepColorYCbCr444
+  nameWithType: _NV_MONITOR_CAPS_VSDB.supportDeepColorYCbCr444
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColorYCbCr444
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: supportDeepColorYCbCr444
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 104
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte supportDeepColorYCbCr444 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property supportDeepColorYCbCr444 As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColorYCbCr444*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColor30bits
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColor30bits
+  id: supportDeepColor30bits
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: supportDeepColor30bits
+  nameWithType: _NV_MONITOR_CAPS_VSDB.supportDeepColor30bits
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColor30bits
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: supportDeepColor30bits
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 119
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte supportDeepColor30bits { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property supportDeepColor30bits As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColor30bits*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColor36bits
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColor36bits
+  id: supportDeepColor36bits
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: supportDeepColor36bits
+  nameWithType: _NV_MONITOR_CAPS_VSDB.supportDeepColor36bits
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColor36bits
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: supportDeepColor36bits
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 134
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte supportDeepColor36bits { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property supportDeepColor36bits As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColor36bits*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColor48bits
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColor48bits
+  id: supportDeepColor48bits
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: supportDeepColor48bits
+  nameWithType: _NV_MONITOR_CAPS_VSDB.supportDeepColor48bits
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColor48bits
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: supportDeepColor48bits
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 149
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte supportDeepColor48bits { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property supportDeepColor48bits As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColor48bits*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportAI
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportAI
+  id: supportAI
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: supportAI
+  nameWithType: _NV_MONITOR_CAPS_VSDB.supportAI
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportAI
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: supportAI
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 164
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte supportAI { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property supportAI As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportAI*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.maxTmdsClock
+  commentId: F:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.maxTmdsClock
+  id: maxTmdsClock
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: maxTmdsClock
+  nameWithType: _NV_MONITOR_CAPS_VSDB.maxTmdsClock
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.maxTmdsClock
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: maxTmdsClock
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 180
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte maxTmdsClock
+    return:
+      type: System.Byte
+    content.vb: Public maxTmdsClock As Byte
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._bitfield4
+  commentId: F:NVAPIWrapper._NV_MONITOR_CAPS_VSDB._bitfield4
+  id: _bitfield4
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: _bitfield4
+  nameWithType: _NV_MONITOR_CAPS_VSDB._bitfield4
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._bitfield4
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield4
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 182
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte _bitfield4
+    return:
+      type: System.Byte
+    content.vb: Public _bitfield4 As Byte
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc0SupportGraphicsTextContent
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc0SupportGraphicsTextContent
+  id: cnc0SupportGraphicsTextContent
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: cnc0SupportGraphicsTextContent
+  nameWithType: _NV_MONITOR_CAPS_VSDB.cnc0SupportGraphicsTextContent
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc0SupportGraphicsTextContent
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: cnc0SupportGraphicsTextContent
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 185
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte cnc0SupportGraphicsTextContent { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property cnc0SupportGraphicsTextContent As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc0SupportGraphicsTextContent*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc1SupportPhotoContent
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc1SupportPhotoContent
+  id: cnc1SupportPhotoContent
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: cnc1SupportPhotoContent
+  nameWithType: _NV_MONITOR_CAPS_VSDB.cnc1SupportPhotoContent
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc1SupportPhotoContent
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: cnc1SupportPhotoContent
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 200
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte cnc1SupportPhotoContent { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property cnc1SupportPhotoContent As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc1SupportPhotoContent*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc2SupportCinemaContent
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc2SupportCinemaContent
+  id: cnc2SupportCinemaContent
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: cnc2SupportCinemaContent
+  nameWithType: _NV_MONITOR_CAPS_VSDB.cnc2SupportCinemaContent
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc2SupportCinemaContent
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: cnc2SupportCinemaContent
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 215
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte cnc2SupportCinemaContent { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property cnc2SupportCinemaContent As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc2SupportCinemaContent*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc3SupportGameContent
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc3SupportGameContent
+  id: cnc3SupportGameContent
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: cnc3SupportGameContent
+  nameWithType: _NV_MONITOR_CAPS_VSDB.cnc3SupportGameContent
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc3SupportGameContent
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: cnc3SupportGameContent
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 230
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte cnc3SupportGameContent { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property cnc3SupportGameContent As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc3SupportGameContent*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.reserved8
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.reserved8
+  id: reserved8
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: reserved8
+  nameWithType: _NV_MONITOR_CAPS_VSDB.reserved8
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.reserved8
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved8
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 245
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte reserved8 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property reserved8 As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.reserved8*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hasVicEntries
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hasVicEntries
+  id: hasVicEntries
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: hasVicEntries
+  nameWithType: _NV_MONITOR_CAPS_VSDB.hasVicEntries
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hasVicEntries
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: hasVicEntries
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 260
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte hasVicEntries { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property hasVicEntries As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hasVicEntries*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hasInterlacedLatencyField
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hasInterlacedLatencyField
+  id: hasInterlacedLatencyField
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: hasInterlacedLatencyField
+  nameWithType: _NV_MONITOR_CAPS_VSDB.hasInterlacedLatencyField
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hasInterlacedLatencyField
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: hasInterlacedLatencyField
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 275
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte hasInterlacedLatencyField { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property hasInterlacedLatencyField As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hasInterlacedLatencyField*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hasLatencyField
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hasLatencyField
+  id: hasLatencyField
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: hasLatencyField
+  nameWithType: _NV_MONITOR_CAPS_VSDB.hasLatencyField
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hasLatencyField
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: hasLatencyField
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 290
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte hasLatencyField { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property hasLatencyField As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hasLatencyField*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.videoLatency
+  commentId: F:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.videoLatency
+  id: videoLatency
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: videoLatency
+  nameWithType: _NV_MONITOR_CAPS_VSDB.videoLatency
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.videoLatency
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: videoLatency
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 306
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte videoLatency
+    return:
+      type: System.Byte
+    content.vb: Public videoLatency As Byte
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.audioLatency
+  commentId: F:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.audioLatency
+  id: audioLatency
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: audioLatency
+  nameWithType: _NV_MONITOR_CAPS_VSDB.audioLatency
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.audioLatency
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: audioLatency
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 310
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte audioLatency
+    return:
+      type: System.Byte
+    content.vb: Public audioLatency As Byte
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.interlacedVideoLatency
+  commentId: F:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.interlacedVideoLatency
+  id: interlacedVideoLatency
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: interlacedVideoLatency
+  nameWithType: _NV_MONITOR_CAPS_VSDB.interlacedVideoLatency
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.interlacedVideoLatency
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: interlacedVideoLatency
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 314
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte interlacedVideoLatency
+    return:
+      type: System.Byte
+    content.vb: Public interlacedVideoLatency As Byte
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.interlacedAudioLatency
+  commentId: F:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.interlacedAudioLatency
+  id: interlacedAudioLatency
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: interlacedAudioLatency
+  nameWithType: _NV_MONITOR_CAPS_VSDB.interlacedAudioLatency
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.interlacedAudioLatency
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: interlacedAudioLatency
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 318
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte interlacedAudioLatency
+    return:
+      type: System.Byte
+    content.vb: Public interlacedAudioLatency As Byte
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._bitfield5
+  commentId: F:NVAPIWrapper._NV_MONITOR_CAPS_VSDB._bitfield5
+  id: _bitfield5
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: _bitfield5
+  nameWithType: _NV_MONITOR_CAPS_VSDB._bitfield5
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._bitfield5
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield5
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 320
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte _bitfield5
+    return:
+      type: System.Byte
+    content.vb: Public _bitfield5 As Byte
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.reserved13
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.reserved13
+  id: reserved13
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: reserved13
+  nameWithType: _NV_MONITOR_CAPS_VSDB.reserved13
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.reserved13
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved13
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 323
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte reserved13 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property reserved13 As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.reserved13*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.has3dEntries
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.has3dEntries
+  id: has3dEntries
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: has3dEntries
+  nameWithType: _NV_MONITOR_CAPS_VSDB.has3dEntries
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.has3dEntries
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: has3dEntries
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 338
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte has3dEntries { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property has3dEntries As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.has3dEntries*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._bitfield6
+  commentId: F:NVAPIWrapper._NV_MONITOR_CAPS_VSDB._bitfield6
+  id: _bitfield6
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: _bitfield6
+  nameWithType: _NV_MONITOR_CAPS_VSDB._bitfield6
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._bitfield6
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield6
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 352
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte _bitfield6
+    return:
+      type: System.Byte
+    content.vb: Public _bitfield6 As Byte
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hdmi3dLength
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hdmi3dLength
+  id: hdmi3dLength
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: hdmi3dLength
+  nameWithType: _NV_MONITOR_CAPS_VSDB.hdmi3dLength
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hdmi3dLength
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: hdmi3dLength
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 355
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte hdmi3dLength { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property hdmi3dLength As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hdmi3dLength*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hdmiVicLength
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hdmiVicLength
+  id: hdmiVicLength
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: hdmiVicLength
+  nameWithType: _NV_MONITOR_CAPS_VSDB.hdmiVicLength
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hdmiVicLength
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: hdmiVicLength
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 370
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte hdmiVicLength { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property hdmiVicLength As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hdmiVicLength*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hdmi_vic
+  commentId: F:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hdmi_vic
+  id: hdmi_vic
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: hdmi_vic
+  nameWithType: _NV_MONITOR_CAPS_VSDB.hdmi_vic
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hdmi_vic
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: hdmi_vic
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 386
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_MONITOR_CAPS_VSDB._hdmi_vic_e__FixedBuffer hdmi_vic
+    return:
+      type: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._hdmi_vic_e__FixedBuffer
+    content.vb: Public hdmi_vic As _NV_MONITOR_CAPS_VSDB._hdmi_vic_e__FixedBuffer
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hdmi_3d
+  commentId: F:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hdmi_3d
+  id: hdmi_3d
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+  langs:
+  - csharp
+  - vb
+  name: hdmi_3d
+  nameWithType: _NV_MONITOR_CAPS_VSDB.hdmi_3d
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hdmi_3d
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: hdmi_3d
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_VSDB.cs
+    startLine: 390
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_MONITOR_CAPS_VSDB._hdmi_3d_e__FixedBuffer hdmi_3d
+    return:
+      type: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._hdmi_3d_e__FixedBuffer
+    content.vb: Public hdmi_3d As _NV_MONITOR_CAPS_VSDB._hdmi_3d_e__FixedBuffer
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressB*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressB
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html#NVAPIWrapper__NV_MONITOR_CAPS_VSDB_sourcePhysicalAddressB
+  name: sourcePhysicalAddressB
+  nameWithType: _NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressB
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressB
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressA*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressA
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html#NVAPIWrapper__NV_MONITOR_CAPS_VSDB_sourcePhysicalAddressA
+  name: sourcePhysicalAddressA
+  nameWithType: _NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressA
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressA
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressD*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressD
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html#NVAPIWrapper__NV_MONITOR_CAPS_VSDB_sourcePhysicalAddressD
+  name: sourcePhysicalAddressD
+  nameWithType: _NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressD
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressD
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressC*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressC
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html#NVAPIWrapper__NV_MONITOR_CAPS_VSDB_sourcePhysicalAddressC
+  name: sourcePhysicalAddressC
+  nameWithType: _NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressC
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.sourcePhysicalAddressC
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDualDviOperation*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDualDviOperation
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html#NVAPIWrapper__NV_MONITOR_CAPS_VSDB_supportDualDviOperation
+  name: supportDualDviOperation
+  nameWithType: _NV_MONITOR_CAPS_VSDB.supportDualDviOperation
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDualDviOperation
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.reserved6*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.reserved6
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html#NVAPIWrapper__NV_MONITOR_CAPS_VSDB_reserved6
+  name: reserved6
+  nameWithType: _NV_MONITOR_CAPS_VSDB.reserved6
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.reserved6
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColorYCbCr444*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColorYCbCr444
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html#NVAPIWrapper__NV_MONITOR_CAPS_VSDB_supportDeepColorYCbCr444
+  name: supportDeepColorYCbCr444
+  nameWithType: _NV_MONITOR_CAPS_VSDB.supportDeepColorYCbCr444
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColorYCbCr444
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColor30bits*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColor30bits
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html#NVAPIWrapper__NV_MONITOR_CAPS_VSDB_supportDeepColor30bits
+  name: supportDeepColor30bits
+  nameWithType: _NV_MONITOR_CAPS_VSDB.supportDeepColor30bits
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColor30bits
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColor36bits*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColor36bits
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html#NVAPIWrapper__NV_MONITOR_CAPS_VSDB_supportDeepColor36bits
+  name: supportDeepColor36bits
+  nameWithType: _NV_MONITOR_CAPS_VSDB.supportDeepColor36bits
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColor36bits
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColor48bits*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColor48bits
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html#NVAPIWrapper__NV_MONITOR_CAPS_VSDB_supportDeepColor48bits
+  name: supportDeepColor48bits
+  nameWithType: _NV_MONITOR_CAPS_VSDB.supportDeepColor48bits
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportDeepColor48bits
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportAI*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportAI
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html#NVAPIWrapper__NV_MONITOR_CAPS_VSDB_supportAI
+  name: supportAI
+  nameWithType: _NV_MONITOR_CAPS_VSDB.supportAI
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.supportAI
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc0SupportGraphicsTextContent*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc0SupportGraphicsTextContent
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html#NVAPIWrapper__NV_MONITOR_CAPS_VSDB_cnc0SupportGraphicsTextContent
+  name: cnc0SupportGraphicsTextContent
+  nameWithType: _NV_MONITOR_CAPS_VSDB.cnc0SupportGraphicsTextContent
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc0SupportGraphicsTextContent
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc1SupportPhotoContent*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc1SupportPhotoContent
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html#NVAPIWrapper__NV_MONITOR_CAPS_VSDB_cnc1SupportPhotoContent
+  name: cnc1SupportPhotoContent
+  nameWithType: _NV_MONITOR_CAPS_VSDB.cnc1SupportPhotoContent
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc1SupportPhotoContent
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc2SupportCinemaContent*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc2SupportCinemaContent
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html#NVAPIWrapper__NV_MONITOR_CAPS_VSDB_cnc2SupportCinemaContent
+  name: cnc2SupportCinemaContent
+  nameWithType: _NV_MONITOR_CAPS_VSDB.cnc2SupportCinemaContent
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc2SupportCinemaContent
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc3SupportGameContent*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc3SupportGameContent
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html#NVAPIWrapper__NV_MONITOR_CAPS_VSDB_cnc3SupportGameContent
+  name: cnc3SupportGameContent
+  nameWithType: _NV_MONITOR_CAPS_VSDB.cnc3SupportGameContent
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.cnc3SupportGameContent
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.reserved8*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.reserved8
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html#NVAPIWrapper__NV_MONITOR_CAPS_VSDB_reserved8
+  name: reserved8
+  nameWithType: _NV_MONITOR_CAPS_VSDB.reserved8
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.reserved8
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hasVicEntries*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hasVicEntries
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html#NVAPIWrapper__NV_MONITOR_CAPS_VSDB_hasVicEntries
+  name: hasVicEntries
+  nameWithType: _NV_MONITOR_CAPS_VSDB.hasVicEntries
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hasVicEntries
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hasInterlacedLatencyField*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hasInterlacedLatencyField
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html#NVAPIWrapper__NV_MONITOR_CAPS_VSDB_hasInterlacedLatencyField
+  name: hasInterlacedLatencyField
+  nameWithType: _NV_MONITOR_CAPS_VSDB.hasInterlacedLatencyField
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hasInterlacedLatencyField
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hasLatencyField*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hasLatencyField
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html#NVAPIWrapper__NV_MONITOR_CAPS_VSDB_hasLatencyField
+  name: hasLatencyField
+  nameWithType: _NV_MONITOR_CAPS_VSDB.hasLatencyField
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hasLatencyField
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.reserved13*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.reserved13
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html#NVAPIWrapper__NV_MONITOR_CAPS_VSDB_reserved13
+  name: reserved13
+  nameWithType: _NV_MONITOR_CAPS_VSDB.reserved13
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.reserved13
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.has3dEntries*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.has3dEntries
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html#NVAPIWrapper__NV_MONITOR_CAPS_VSDB_has3dEntries
+  name: has3dEntries
+  nameWithType: _NV_MONITOR_CAPS_VSDB.has3dEntries
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.has3dEntries
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hdmi3dLength*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hdmi3dLength
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html#NVAPIWrapper__NV_MONITOR_CAPS_VSDB_hdmi3dLength
+  name: hdmi3dLength
+  nameWithType: _NV_MONITOR_CAPS_VSDB.hdmi3dLength
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hdmi3dLength
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hdmiVicLength*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hdmiVicLength
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html#NVAPIWrapper__NV_MONITOR_CAPS_VSDB_hdmiVicLength
+  name: hdmiVicLength
+  nameWithType: _NV_MONITOR_CAPS_VSDB.hdmiVicLength
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.hdmiVicLength
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._hdmi_vic_e__FixedBuffer
+  commentId: T:NVAPIWrapper._NV_MONITOR_CAPS_VSDB._hdmi_vic_e__FixedBuffer
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html
+  name: _NV_MONITOR_CAPS_VSDB._hdmi_vic_e__FixedBuffer
+  nameWithType: _NV_MONITOR_CAPS_VSDB._hdmi_vic_e__FixedBuffer
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._hdmi_vic_e__FixedBuffer
+  spec.csharp:
+  - uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+    name: _NV_MONITOR_CAPS_VSDB
+    href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html
+  - name: .
+  - uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._hdmi_vic_e__FixedBuffer
+    name: _hdmi_vic_e__FixedBuffer
+    href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._hdmi_vic_e__FixedBuffer.html
+  spec.vb:
+  - uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+    name: _NV_MONITOR_CAPS_VSDB
+    href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html
+  - name: .
+  - uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._hdmi_vic_e__FixedBuffer
+    name: _hdmi_vic_e__FixedBuffer
+    href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._hdmi_vic_e__FixedBuffer.html
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._hdmi_3d_e__FixedBuffer
+  commentId: T:NVAPIWrapper._NV_MONITOR_CAPS_VSDB._hdmi_3d_e__FixedBuffer
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html
+  name: _NV_MONITOR_CAPS_VSDB._hdmi_3d_e__FixedBuffer
+  nameWithType: _NV_MONITOR_CAPS_VSDB._hdmi_3d_e__FixedBuffer
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._hdmi_3d_e__FixedBuffer
+  spec.csharp:
+  - uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+    name: _NV_MONITOR_CAPS_VSDB
+    href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html
+  - name: .
+  - uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._hdmi_3d_e__FixedBuffer
+    name: _hdmi_3d_e__FixedBuffer
+    href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._hdmi_3d_e__FixedBuffer.html
+  spec.vb:
+  - uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB
+    name: _NV_MONITOR_CAPS_VSDB
+    href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB.html
+  - name: .
+  - uid: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._hdmi_3d_e__FixedBuffer
+    name: _hdmi_3d_e__FixedBuffer
+    href: NVAPIWrapper._NV_MONITOR_CAPS_VSDB._hdmi_3d_e__FixedBuffer.html

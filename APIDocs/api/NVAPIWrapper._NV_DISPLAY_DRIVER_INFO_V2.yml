@@ -1,0 +1,712 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2
+  commentId: T:NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2
+  id: _NV_DISPLAY_DRIVER_INFO_V2
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2._bitfield
+  - NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsDCHDriver
+  - NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIAGameReadyPackage
+  - NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIARTXNewFeatureBranchPackage
+  - NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIARTXProductionBranchPackage
+  - NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIAStudioPackage
+  - NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.driverVersion
+  - NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.reserved
+  - NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.reservedEx
+  - NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.szBuildBaseBranch
+  - NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.szBuildBranch
+  - NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.version
+  langs:
+  - csharp
+  - vb
+  name: _NV_DISPLAY_DRIVER_INFO_V2
+  nameWithType: _NV_DISPLAY_DRIVER_INFO_V2
+  fullName: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_DISPLAY_DRIVER_INFO_V2
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+    startLine: 5
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NV_DISPLAY_DRIVER_INFO_V2
+    content.vb: Public Structure _NV_DISPLAY_DRIVER_INFO_V2
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.version
+  commentId: F:NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.version
+  id: version
+  parent: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: _NV_DISPLAY_DRIVER_INFO_V2.version
+  fullName: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.version
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: version
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint version
+    return:
+      type: System.UInt32
+    content.vb: Public version As UInteger
+- uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.driverVersion
+  commentId: F:NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.driverVersion
+  id: driverVersion
+  parent: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: driverVersion
+  nameWithType: _NV_DISPLAY_DRIVER_INFO_V2.driverVersion
+  fullName: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.driverVersion
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: driverVersion
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+    startLine: 13
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint driverVersion
+    return:
+      type: System.UInt32
+    content.vb: Public driverVersion As UInteger
+- uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.szBuildBranch
+  commentId: F:NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.szBuildBranch
+  id: szBuildBranch
+  parent: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: szBuildBranch
+  nameWithType: _NV_DISPLAY_DRIVER_INFO_V2.szBuildBranch
+  fullName: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.szBuildBranch
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: szBuildBranch
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+    startLine: 17
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_DISPLAY_DRIVER_INFO_V2._szBuildBranch_e__FixedBuffer szBuildBranch
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2._szBuildBranch_e__FixedBuffer
+    content.vb: Public szBuildBranch As _NV_DISPLAY_DRIVER_INFO_V2._szBuildBranch_e__FixedBuffer
+- uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2._bitfield
+  commentId: F:NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2._bitfield
+  id: _bitfield
+  parent: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: _bitfield
+  nameWithType: _NV_DISPLAY_DRIVER_INFO_V2._bitfield
+  fullName: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2._bitfield
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+    startLine: 19
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield As UInteger
+- uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsDCHDriver
+  commentId: P:NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsDCHDriver
+  id: bIsDCHDriver
+  parent: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: bIsDCHDriver
+  nameWithType: _NV_DISPLAY_DRIVER_INFO_V2.bIsDCHDriver
+  fullName: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsDCHDriver
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bIsDCHDriver
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+    startLine: 22
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bIsDCHDriver { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property bIsDCHDriver As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsDCHDriver*
+- uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIAStudioPackage
+  commentId: P:NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIAStudioPackage
+  id: bIsNVIDIAStudioPackage
+  parent: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: bIsNVIDIAStudioPackage
+  nameWithType: _NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIAStudioPackage
+  fullName: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIAStudioPackage
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bIsNVIDIAStudioPackage
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+    startLine: 37
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bIsNVIDIAStudioPackage { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property bIsNVIDIAStudioPackage As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIAStudioPackage*
+- uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIAGameReadyPackage
+  commentId: P:NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIAGameReadyPackage
+  id: bIsNVIDIAGameReadyPackage
+  parent: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: bIsNVIDIAGameReadyPackage
+  nameWithType: _NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIAGameReadyPackage
+  fullName: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIAGameReadyPackage
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bIsNVIDIAGameReadyPackage
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+    startLine: 52
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bIsNVIDIAGameReadyPackage { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property bIsNVIDIAGameReadyPackage As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIAGameReadyPackage*
+- uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIARTXProductionBranchPackage
+  commentId: P:NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIARTXProductionBranchPackage
+  id: bIsNVIDIARTXProductionBranchPackage
+  parent: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: bIsNVIDIARTXProductionBranchPackage
+  nameWithType: _NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIARTXProductionBranchPackage
+  fullName: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIARTXProductionBranchPackage
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bIsNVIDIARTXProductionBranchPackage
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+    startLine: 67
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bIsNVIDIARTXProductionBranchPackage { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property bIsNVIDIARTXProductionBranchPackage As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIARTXProductionBranchPackage*
+- uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIARTXNewFeatureBranchPackage
+  commentId: P:NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIARTXNewFeatureBranchPackage
+  id: bIsNVIDIARTXNewFeatureBranchPackage
+  parent: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: bIsNVIDIARTXNewFeatureBranchPackage
+  nameWithType: _NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIARTXNewFeatureBranchPackage
+  fullName: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIARTXNewFeatureBranchPackage
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bIsNVIDIARTXNewFeatureBranchPackage
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+    startLine: 82
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bIsNVIDIARTXNewFeatureBranchPackage { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property bIsNVIDIARTXNewFeatureBranchPackage As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIARTXNewFeatureBranchPackage*
+- uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.reserved
+  commentId: P:NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.reserved
+  id: reserved
+  parent: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: reserved
+  nameWithType: _NV_DISPLAY_DRIVER_INFO_V2.reserved
+  fullName: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.reserved
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+    startLine: 97
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.reserved*
+- uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.szBuildBaseBranch
+  commentId: F:NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.szBuildBaseBranch
+  id: szBuildBaseBranch
+  parent: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: szBuildBaseBranch
+  nameWithType: _NV_DISPLAY_DRIVER_INFO_V2.szBuildBaseBranch
+  fullName: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.szBuildBaseBranch
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: szBuildBaseBranch
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+    startLine: 113
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_DISPLAY_DRIVER_INFO_V2._szBuildBaseBranch_e__FixedBuffer szBuildBaseBranch
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2._szBuildBaseBranch_e__FixedBuffer
+    content.vb: Public szBuildBaseBranch As _NV_DISPLAY_DRIVER_INFO_V2._szBuildBaseBranch_e__FixedBuffer
+- uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.reservedEx
+  commentId: F:NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.reservedEx
+  id: reservedEx
+  parent: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2
+  langs:
+  - csharp
+  - vb
+  name: reservedEx
+  nameWithType: _NV_DISPLAY_DRIVER_INFO_V2.reservedEx
+  fullName: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.reservedEx
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reservedEx
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_DRIVER_INFO_V2.cs
+    startLine: 117
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reservedEx
+    return:
+      type: System.UInt32
+    content.vb: Public reservedEx As UInteger
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2._szBuildBranch_e__FixedBuffer
+  commentId: T:NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2._szBuildBranch_e__FixedBuffer
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.html
+  name: _NV_DISPLAY_DRIVER_INFO_V2._szBuildBranch_e__FixedBuffer
+  nameWithType: _NV_DISPLAY_DRIVER_INFO_V2._szBuildBranch_e__FixedBuffer
+  fullName: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2._szBuildBranch_e__FixedBuffer
+  spec.csharp:
+  - uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2
+    name: _NV_DISPLAY_DRIVER_INFO_V2
+    href: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.html
+  - name: .
+  - uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2._szBuildBranch_e__FixedBuffer
+    name: _szBuildBranch_e__FixedBuffer
+    href: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2._szBuildBranch_e__FixedBuffer.html
+  spec.vb:
+  - uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2
+    name: _NV_DISPLAY_DRIVER_INFO_V2
+    href: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.html
+  - name: .
+  - uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2._szBuildBranch_e__FixedBuffer
+    name: _szBuildBranch_e__FixedBuffer
+    href: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2._szBuildBranch_e__FixedBuffer.html
+- uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsDCHDriver*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsDCHDriver
+  href: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.html#NVAPIWrapper__NV_DISPLAY_DRIVER_INFO_V2_bIsDCHDriver
+  name: bIsDCHDriver
+  nameWithType: _NV_DISPLAY_DRIVER_INFO_V2.bIsDCHDriver
+  fullName: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsDCHDriver
+- uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIAStudioPackage*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIAStudioPackage
+  href: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.html#NVAPIWrapper__NV_DISPLAY_DRIVER_INFO_V2_bIsNVIDIAStudioPackage
+  name: bIsNVIDIAStudioPackage
+  nameWithType: _NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIAStudioPackage
+  fullName: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIAStudioPackage
+- uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIAGameReadyPackage*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIAGameReadyPackage
+  href: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.html#NVAPIWrapper__NV_DISPLAY_DRIVER_INFO_V2_bIsNVIDIAGameReadyPackage
+  name: bIsNVIDIAGameReadyPackage
+  nameWithType: _NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIAGameReadyPackage
+  fullName: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIAGameReadyPackage
+- uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIARTXProductionBranchPackage*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIARTXProductionBranchPackage
+  href: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.html#NVAPIWrapper__NV_DISPLAY_DRIVER_INFO_V2_bIsNVIDIARTXProductionBranchPackage
+  name: bIsNVIDIARTXProductionBranchPackage
+  nameWithType: _NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIARTXProductionBranchPackage
+  fullName: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIARTXProductionBranchPackage
+- uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIARTXNewFeatureBranchPackage*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIARTXNewFeatureBranchPackage
+  href: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.html#NVAPIWrapper__NV_DISPLAY_DRIVER_INFO_V2_bIsNVIDIARTXNewFeatureBranchPackage
+  name: bIsNVIDIARTXNewFeatureBranchPackage
+  nameWithType: _NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIARTXNewFeatureBranchPackage
+  fullName: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.bIsNVIDIARTXNewFeatureBranchPackage
+- uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.reserved*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.reserved
+  href: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.html#NVAPIWrapper__NV_DISPLAY_DRIVER_INFO_V2_reserved
+  name: reserved
+  nameWithType: _NV_DISPLAY_DRIVER_INFO_V2.reserved
+  fullName: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.reserved
+- uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2._szBuildBaseBranch_e__FixedBuffer
+  commentId: T:NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2._szBuildBaseBranch_e__FixedBuffer
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.html
+  name: _NV_DISPLAY_DRIVER_INFO_V2._szBuildBaseBranch_e__FixedBuffer
+  nameWithType: _NV_DISPLAY_DRIVER_INFO_V2._szBuildBaseBranch_e__FixedBuffer
+  fullName: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2._szBuildBaseBranch_e__FixedBuffer
+  spec.csharp:
+  - uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2
+    name: _NV_DISPLAY_DRIVER_INFO_V2
+    href: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.html
+  - name: .
+  - uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2._szBuildBaseBranch_e__FixedBuffer
+    name: _szBuildBaseBranch_e__FixedBuffer
+    href: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2._szBuildBaseBranch_e__FixedBuffer.html
+  spec.vb:
+  - uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2
+    name: _NV_DISPLAY_DRIVER_INFO_V2
+    href: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2.html
+  - name: .
+  - uid: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2._szBuildBaseBranch_e__FixedBuffer
+    name: _szBuildBaseBranch_e__FixedBuffer
+    href: NVAPIWrapper._NV_DISPLAY_DRIVER_INFO_V2._szBuildBaseBranch_e__FixedBuffer.html

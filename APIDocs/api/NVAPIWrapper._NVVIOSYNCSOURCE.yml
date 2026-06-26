@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVVIOSYNCSOURCE
+  commentId: T:NVAPIWrapper._NVVIOSYNCSOURCE
+  id: _NVVIOSYNCSOURCE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVVIOSYNCSOURCE.NVVIOSYNCSOURCE_COMPSYNC
+  - NVAPIWrapper._NVVIOSYNCSOURCE.NVVIOSYNCSOURCE_SDISYNC
+  langs:
+  - csharp
+  - vb
+  name: _NVVIOSYNCSOURCE
+  nameWithType: _NVVIOSYNCSOURCE
+  fullName: NVAPIWrapper._NVVIOSYNCSOURCE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOSYNCSOURCE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVVIOSYNCSOURCE
+    path: ../NVAPIWrapper/cs_generated/_NVVIOSYNCSOURCE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVVIOSYNCSOURCE
+    content.vb: Public Enum _NVVIOSYNCSOURCE
+- uid: NVAPIWrapper._NVVIOSYNCSOURCE.NVVIOSYNCSOURCE_SDISYNC
+  commentId: F:NVAPIWrapper._NVVIOSYNCSOURCE.NVVIOSYNCSOURCE_SDISYNC
+  id: NVVIOSYNCSOURCE_SDISYNC
+  parent: NVAPIWrapper._NVVIOSYNCSOURCE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOSYNCSOURCE_SDISYNC
+  nameWithType: _NVVIOSYNCSOURCE.NVVIOSYNCSOURCE_SDISYNC
+  fullName: NVAPIWrapper._NVVIOSYNCSOURCE.NVVIOSYNCSOURCE_SDISYNC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOSYNCSOURCE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOSYNCSOURCE_SDISYNC
+    path: ../NVAPIWrapper/cs_generated/_NVVIOSYNCSOURCE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOSYNCSOURCE_SDISYNC = 0
+    return:
+      type: NVAPIWrapper._NVVIOSYNCSOURCE
+- uid: NVAPIWrapper._NVVIOSYNCSOURCE.NVVIOSYNCSOURCE_COMPSYNC
+  commentId: F:NVAPIWrapper._NVVIOSYNCSOURCE.NVVIOSYNCSOURCE_COMPSYNC
+  id: NVVIOSYNCSOURCE_COMPSYNC
+  parent: NVAPIWrapper._NVVIOSYNCSOURCE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOSYNCSOURCE_COMPSYNC
+  nameWithType: _NVVIOSYNCSOURCE.NVVIOSYNCSOURCE_COMPSYNC
+  fullName: NVAPIWrapper._NVVIOSYNCSOURCE.NVVIOSYNCSOURCE_COMPSYNC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOSYNCSOURCE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOSYNCSOURCE_COMPSYNC
+    path: ../NVAPIWrapper/cs_generated/_NVVIOSYNCSOURCE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOSYNCSOURCE_COMPSYNC = 1
+    return:
+      type: NVAPIWrapper._NVVIOSYNCSOURCE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVVIOSYNCSOURCE
+  commentId: T:NVAPIWrapper._NVVIOSYNCSOURCE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOSYNCSOURCE.html
+  name: _NVVIOSYNCSOURCE
+  nameWithType: _NVVIOSYNCSOURCE
+  fullName: NVAPIWrapper._NVVIOSYNCSOURCE

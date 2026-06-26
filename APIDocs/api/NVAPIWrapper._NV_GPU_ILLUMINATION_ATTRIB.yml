@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_GPU_ILLUMINATION_ATTRIB
+  commentId: T:NVAPIWrapper._NV_GPU_ILLUMINATION_ATTRIB
+  id: _NV_GPU_ILLUMINATION_ATTRIB
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_GPU_ILLUMINATION_ATTRIB.NV_GPU_IA_LOGO_BRIGHTNESS
+  - NVAPIWrapper._NV_GPU_ILLUMINATION_ATTRIB.NV_GPU_IA_SLI_BRIGHTNESS
+  langs:
+  - csharp
+  - vb
+  name: _NV_GPU_ILLUMINATION_ATTRIB
+  nameWithType: _NV_GPU_ILLUMINATION_ATTRIB
+  fullName: NVAPIWrapper._NV_GPU_ILLUMINATION_ATTRIB
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ILLUMINATION_ATTRIB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_GPU_ILLUMINATION_ATTRIB
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ILLUMINATION_ATTRIB.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_GPU_ILLUMINATION_ATTRIB
+    content.vb: Public Enum _NV_GPU_ILLUMINATION_ATTRIB
+- uid: NVAPIWrapper._NV_GPU_ILLUMINATION_ATTRIB.NV_GPU_IA_LOGO_BRIGHTNESS
+  commentId: F:NVAPIWrapper._NV_GPU_ILLUMINATION_ATTRIB.NV_GPU_IA_LOGO_BRIGHTNESS
+  id: NV_GPU_IA_LOGO_BRIGHTNESS
+  parent: NVAPIWrapper._NV_GPU_ILLUMINATION_ATTRIB
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_IA_LOGO_BRIGHTNESS
+  nameWithType: _NV_GPU_ILLUMINATION_ATTRIB.NV_GPU_IA_LOGO_BRIGHTNESS
+  fullName: NVAPIWrapper._NV_GPU_ILLUMINATION_ATTRIB.NV_GPU_IA_LOGO_BRIGHTNESS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ILLUMINATION_ATTRIB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_IA_LOGO_BRIGHTNESS
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ILLUMINATION_ATTRIB.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_IA_LOGO_BRIGHTNESS = 0
+    return:
+      type: NVAPIWrapper._NV_GPU_ILLUMINATION_ATTRIB
+- uid: NVAPIWrapper._NV_GPU_ILLUMINATION_ATTRIB.NV_GPU_IA_SLI_BRIGHTNESS
+  commentId: F:NVAPIWrapper._NV_GPU_ILLUMINATION_ATTRIB.NV_GPU_IA_SLI_BRIGHTNESS
+  id: NV_GPU_IA_SLI_BRIGHTNESS
+  parent: NVAPIWrapper._NV_GPU_ILLUMINATION_ATTRIB
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_IA_SLI_BRIGHTNESS
+  nameWithType: _NV_GPU_ILLUMINATION_ATTRIB.NV_GPU_IA_SLI_BRIGHTNESS
+  fullName: NVAPIWrapper._NV_GPU_ILLUMINATION_ATTRIB.NV_GPU_IA_SLI_BRIGHTNESS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ILLUMINATION_ATTRIB.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_IA_SLI_BRIGHTNESS
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ILLUMINATION_ATTRIB.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_IA_SLI_BRIGHTNESS = 1
+    return:
+      type: NVAPIWrapper._NV_GPU_ILLUMINATION_ATTRIB
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_GPU_ILLUMINATION_ATTRIB
+  commentId: T:NVAPIWrapper._NV_GPU_ILLUMINATION_ATTRIB
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_ILLUMINATION_ATTRIB.html
+  name: _NV_GPU_ILLUMINATION_ATTRIB
+  nameWithType: _NV_GPU_ILLUMINATION_ATTRIB
+  fullName: NVAPIWrapper._NV_GPU_ILLUMINATION_ATTRIB

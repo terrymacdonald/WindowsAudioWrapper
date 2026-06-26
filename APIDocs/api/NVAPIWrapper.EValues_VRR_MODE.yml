@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_VRR_MODE
+  commentId: T:NVAPIWrapper.EValues_VRR_MODE
+  id: EValues_VRR_MODE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_VRR_MODE.VRR_MODE_DEFAULT
+  - NVAPIWrapper.EValues_VRR_MODE.VRR_MODE_DISABLED
+  - NVAPIWrapper.EValues_VRR_MODE.VRR_MODE_FULLSCREEN_AND_WINDOWED
+  - NVAPIWrapper.EValues_VRR_MODE.VRR_MODE_FULLSCREEN_ONLY
+  - NVAPIWrapper.EValues_VRR_MODE.VRR_MODE_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_VRR_MODE
+  nameWithType: EValues_VRR_MODE
+  fullName: NVAPIWrapper.EValues_VRR_MODE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_VRR_MODE
+    path: ../NVAPIWrapper/cs_generated/EValues_VRR_MODE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_VRR_MODE
+    content.vb: Public Enum EValues_VRR_MODE
+- uid: NVAPIWrapper.EValues_VRR_MODE.VRR_MODE_DISABLED
+  commentId: F:NVAPIWrapper.EValues_VRR_MODE.VRR_MODE_DISABLED
+  id: VRR_MODE_DISABLED
+  parent: NVAPIWrapper.EValues_VRR_MODE
+  langs:
+  - csharp
+  - vb
+  name: VRR_MODE_DISABLED
+  nameWithType: EValues_VRR_MODE.VRR_MODE_DISABLED
+  fullName: NVAPIWrapper.EValues_VRR_MODE.VRR_MODE_DISABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRR_MODE_DISABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_VRR_MODE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRR_MODE_DISABLED = 0
+    return:
+      type: NVAPIWrapper.EValues_VRR_MODE
+- uid: NVAPIWrapper.EValues_VRR_MODE.VRR_MODE_FULLSCREEN_ONLY
+  commentId: F:NVAPIWrapper.EValues_VRR_MODE.VRR_MODE_FULLSCREEN_ONLY
+  id: VRR_MODE_FULLSCREEN_ONLY
+  parent: NVAPIWrapper.EValues_VRR_MODE
+  langs:
+  - csharp
+  - vb
+  name: VRR_MODE_FULLSCREEN_ONLY
+  nameWithType: EValues_VRR_MODE.VRR_MODE_FULLSCREEN_ONLY
+  fullName: NVAPIWrapper.EValues_VRR_MODE.VRR_MODE_FULLSCREEN_ONLY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRR_MODE_FULLSCREEN_ONLY
+    path: ../NVAPIWrapper/cs_generated/EValues_VRR_MODE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRR_MODE_FULLSCREEN_ONLY = 1
+    return:
+      type: NVAPIWrapper.EValues_VRR_MODE
+- uid: NVAPIWrapper.EValues_VRR_MODE.VRR_MODE_FULLSCREEN_AND_WINDOWED
+  commentId: F:NVAPIWrapper.EValues_VRR_MODE.VRR_MODE_FULLSCREEN_AND_WINDOWED
+  id: VRR_MODE_FULLSCREEN_AND_WINDOWED
+  parent: NVAPIWrapper.EValues_VRR_MODE
+  langs:
+  - csharp
+  - vb
+  name: VRR_MODE_FULLSCREEN_AND_WINDOWED
+  nameWithType: EValues_VRR_MODE.VRR_MODE_FULLSCREEN_AND_WINDOWED
+  fullName: NVAPIWrapper.EValues_VRR_MODE.VRR_MODE_FULLSCREEN_AND_WINDOWED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRR_MODE_FULLSCREEN_AND_WINDOWED
+    path: ../NVAPIWrapper/cs_generated/EValues_VRR_MODE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRR_MODE_FULLSCREEN_AND_WINDOWED = 2
+    return:
+      type: NVAPIWrapper.EValues_VRR_MODE
+- uid: NVAPIWrapper.EValues_VRR_MODE.VRR_MODE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_VRR_MODE.VRR_MODE_NUM_VALUES
+  id: VRR_MODE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_VRR_MODE
+  langs:
+  - csharp
+  - vb
+  name: VRR_MODE_NUM_VALUES
+  nameWithType: EValues_VRR_MODE.VRR_MODE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_VRR_MODE.VRR_MODE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRR_MODE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_VRR_MODE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRR_MODE_NUM_VALUES = 3
+    return:
+      type: NVAPIWrapper.EValues_VRR_MODE
+- uid: NVAPIWrapper.EValues_VRR_MODE.VRR_MODE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_VRR_MODE.VRR_MODE_DEFAULT
+  id: VRR_MODE_DEFAULT
+  parent: NVAPIWrapper.EValues_VRR_MODE
+  langs:
+  - csharp
+  - vb
+  name: VRR_MODE_DEFAULT
+  nameWithType: EValues_VRR_MODE.VRR_MODE_DEFAULT
+  fullName: NVAPIWrapper.EValues_VRR_MODE.VRR_MODE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRR_MODE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_VRR_MODE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRR_MODE_DEFAULT = 1
+    return:
+      type: NVAPIWrapper.EValues_VRR_MODE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_VRR_MODE
+  commentId: T:NVAPIWrapper.EValues_VRR_MODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_VRR_MODE.html
+  name: EValues_VRR_MODE
+  nameWithType: EValues_VRR_MODE
+  fullName: NVAPIWrapper.EValues_VRR_MODE

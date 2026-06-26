@@ -1,0 +1,407 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_DP2X_LINK_RATE
+  commentId: T:NVAPIWrapper._NV_DP2X_LINK_RATE
+  id: _NV_DP2X_LINK_RATE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_10_0Gbps
+  - NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_13_5Gbps
+  - NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_1_62Gbps
+  - NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_20_0Gbps
+  - NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_2_16Gbps
+  - NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_2_43Gbps
+  - NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_2_50Gbps
+  - NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_2_70Gbps
+  - NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_3_24Gbps
+  - NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_4_32Gbps
+  - NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_5_40Gbps
+  - NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_6_75Gbps
+  - NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_8_10Gbps
+  langs:
+  - csharp
+  - vb
+  name: _NV_DP2X_LINK_RATE
+  nameWithType: _NV_DP2X_LINK_RATE
+  fullName: NVAPIWrapper._NV_DP2X_LINK_RATE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_DP2X_LINK_RATE
+    path: ../NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_DP2X_LINK_RATE
+    content.vb: Public Enum _NV_DP2X_LINK_RATE
+- uid: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_1_62Gbps
+  commentId: F:NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_1_62Gbps
+  id: NV_DP2X_1_62Gbps
+  parent: NVAPIWrapper._NV_DP2X_LINK_RATE
+  langs:
+  - csharp
+  - vb
+  name: NV_DP2X_1_62Gbps
+  nameWithType: _NV_DP2X_LINK_RATE.NV_DP2X_1_62Gbps
+  fullName: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_1_62Gbps
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DP2X_1_62Gbps
+    path: ../NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DP2X_1_62Gbps = 162
+    return:
+      type: NVAPIWrapper._NV_DP2X_LINK_RATE
+- uid: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_2_16Gbps
+  commentId: F:NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_2_16Gbps
+  id: NV_DP2X_2_16Gbps
+  parent: NVAPIWrapper._NV_DP2X_LINK_RATE
+  langs:
+  - csharp
+  - vb
+  name: NV_DP2X_2_16Gbps
+  nameWithType: _NV_DP2X_LINK_RATE.NV_DP2X_2_16Gbps
+  fullName: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_2_16Gbps
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DP2X_2_16Gbps
+    path: ../NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DP2X_2_16Gbps = 216
+    return:
+      type: NVAPIWrapper._NV_DP2X_LINK_RATE
+- uid: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_2_43Gbps
+  commentId: F:NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_2_43Gbps
+  id: NV_DP2X_2_43Gbps
+  parent: NVAPIWrapper._NV_DP2X_LINK_RATE
+  langs:
+  - csharp
+  - vb
+  name: NV_DP2X_2_43Gbps
+  nameWithType: _NV_DP2X_LINK_RATE.NV_DP2X_2_43Gbps
+  fullName: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_2_43Gbps
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DP2X_2_43Gbps
+    path: ../NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DP2X_2_43Gbps = 243
+    return:
+      type: NVAPIWrapper._NV_DP2X_LINK_RATE
+- uid: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_2_50Gbps
+  commentId: F:NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_2_50Gbps
+  id: NV_DP2X_2_50Gbps
+  parent: NVAPIWrapper._NV_DP2X_LINK_RATE
+  langs:
+  - csharp
+  - vb
+  name: NV_DP2X_2_50Gbps
+  nameWithType: _NV_DP2X_LINK_RATE.NV_DP2X_2_50Gbps
+  fullName: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_2_50Gbps
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DP2X_2_50Gbps
+    path: ../NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DP2X_2_50Gbps = 250
+    return:
+      type: NVAPIWrapper._NV_DP2X_LINK_RATE
+- uid: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_2_70Gbps
+  commentId: F:NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_2_70Gbps
+  id: NV_DP2X_2_70Gbps
+  parent: NVAPIWrapper._NV_DP2X_LINK_RATE
+  langs:
+  - csharp
+  - vb
+  name: NV_DP2X_2_70Gbps
+  nameWithType: _NV_DP2X_LINK_RATE.NV_DP2X_2_70Gbps
+  fullName: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_2_70Gbps
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DP2X_2_70Gbps
+    path: ../NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DP2X_2_70Gbps = 270
+    return:
+      type: NVAPIWrapper._NV_DP2X_LINK_RATE
+- uid: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_3_24Gbps
+  commentId: F:NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_3_24Gbps
+  id: NV_DP2X_3_24Gbps
+  parent: NVAPIWrapper._NV_DP2X_LINK_RATE
+  langs:
+  - csharp
+  - vb
+  name: NV_DP2X_3_24Gbps
+  nameWithType: _NV_DP2X_LINK_RATE.NV_DP2X_3_24Gbps
+  fullName: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_3_24Gbps
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DP2X_3_24Gbps
+    path: ../NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DP2X_3_24Gbps = 324
+    return:
+      type: NVAPIWrapper._NV_DP2X_LINK_RATE
+- uid: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_4_32Gbps
+  commentId: F:NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_4_32Gbps
+  id: NV_DP2X_4_32Gbps
+  parent: NVAPIWrapper._NV_DP2X_LINK_RATE
+  langs:
+  - csharp
+  - vb
+  name: NV_DP2X_4_32Gbps
+  nameWithType: _NV_DP2X_LINK_RATE.NV_DP2X_4_32Gbps
+  fullName: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_4_32Gbps
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DP2X_4_32Gbps
+    path: ../NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DP2X_4_32Gbps = 432
+    return:
+      type: NVAPIWrapper._NV_DP2X_LINK_RATE
+- uid: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_5_40Gbps
+  commentId: F:NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_5_40Gbps
+  id: NV_DP2X_5_40Gbps
+  parent: NVAPIWrapper._NV_DP2X_LINK_RATE
+  langs:
+  - csharp
+  - vb
+  name: NV_DP2X_5_40Gbps
+  nameWithType: _NV_DP2X_LINK_RATE.NV_DP2X_5_40Gbps
+  fullName: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_5_40Gbps
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DP2X_5_40Gbps
+    path: ../NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DP2X_5_40Gbps = 540
+    return:
+      type: NVAPIWrapper._NV_DP2X_LINK_RATE
+- uid: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_6_75Gbps
+  commentId: F:NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_6_75Gbps
+  id: NV_DP2X_6_75Gbps
+  parent: NVAPIWrapper._NV_DP2X_LINK_RATE
+  langs:
+  - csharp
+  - vb
+  name: NV_DP2X_6_75Gbps
+  nameWithType: _NV_DP2X_LINK_RATE.NV_DP2X_6_75Gbps
+  fullName: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_6_75Gbps
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DP2X_6_75Gbps
+    path: ../NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DP2X_6_75Gbps = 675
+    return:
+      type: NVAPIWrapper._NV_DP2X_LINK_RATE
+- uid: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_8_10Gbps
+  commentId: F:NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_8_10Gbps
+  id: NV_DP2X_8_10Gbps
+  parent: NVAPIWrapper._NV_DP2X_LINK_RATE
+  langs:
+  - csharp
+  - vb
+  name: NV_DP2X_8_10Gbps
+  nameWithType: _NV_DP2X_LINK_RATE.NV_DP2X_8_10Gbps
+  fullName: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_8_10Gbps
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DP2X_8_10Gbps
+    path: ../NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DP2X_8_10Gbps = 810
+    return:
+      type: NVAPIWrapper._NV_DP2X_LINK_RATE
+- uid: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_10_0Gbps
+  commentId: F:NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_10_0Gbps
+  id: NV_DP2X_10_0Gbps
+  parent: NVAPIWrapper._NV_DP2X_LINK_RATE
+  langs:
+  - csharp
+  - vb
+  name: NV_DP2X_10_0Gbps
+  nameWithType: _NV_DP2X_LINK_RATE.NV_DP2X_10_0Gbps
+  fullName: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_10_0Gbps
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DP2X_10_0Gbps
+    path: ../NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DP2X_10_0Gbps = 1000
+    return:
+      type: NVAPIWrapper._NV_DP2X_LINK_RATE
+- uid: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_13_5Gbps
+  commentId: F:NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_13_5Gbps
+  id: NV_DP2X_13_5Gbps
+  parent: NVAPIWrapper._NV_DP2X_LINK_RATE
+  langs:
+  - csharp
+  - vb
+  name: NV_DP2X_13_5Gbps
+  nameWithType: _NV_DP2X_LINK_RATE.NV_DP2X_13_5Gbps
+  fullName: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_13_5Gbps
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DP2X_13_5Gbps
+    path: ../NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+    startLine: 39
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DP2X_13_5Gbps = 1350
+    return:
+      type: NVAPIWrapper._NV_DP2X_LINK_RATE
+- uid: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_20_0Gbps
+  commentId: F:NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_20_0Gbps
+  id: NV_DP2X_20_0Gbps
+  parent: NVAPIWrapper._NV_DP2X_LINK_RATE
+  langs:
+  - csharp
+  - vb
+  name: NV_DP2X_20_0Gbps
+  nameWithType: _NV_DP2X_LINK_RATE.NV_DP2X_20_0Gbps
+  fullName: NVAPIWrapper._NV_DP2X_LINK_RATE.NV_DP2X_20_0Gbps
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DP2X_20_0Gbps
+    path: ../NVAPIWrapper/cs_generated/_NV_DP2X_LINK_RATE.cs
+    startLine: 42
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DP2X_20_0Gbps = 2000
+    return:
+      type: NVAPIWrapper._NV_DP2X_LINK_RATE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_DP2X_LINK_RATE
+  commentId: T:NVAPIWrapper._NV_DP2X_LINK_RATE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DP2X_LINK_RATE.html
+  name: _NV_DP2X_LINK_RATE
+  nameWithType: _NV_DP2X_LINK_RATE
+  fullName: NVAPIWrapper._NV_DP2X_LINK_RATE

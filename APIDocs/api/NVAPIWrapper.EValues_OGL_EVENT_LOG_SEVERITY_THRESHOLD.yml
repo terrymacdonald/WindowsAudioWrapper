@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+  commentId: T:NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+  id: EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_ALL
+  - NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_CRITICAL
+  - NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_DEFAULT
+  - NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_DISABLE
+  - NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_INFORMATION
+  - NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_NUM_VALUES
+  - NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_WARNING
+  langs:
+  - csharp
+  - vb
+  name: EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+  nameWithType: EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+  fullName: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+    content.vb: Public Enum EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+- uid: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_DISABLE
+  commentId: F:NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_DISABLE
+  id: OGL_EVENT_LOG_SEVERITY_THRESHOLD_DISABLE
+  parent: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+  langs:
+  - csharp
+  - vb
+  name: OGL_EVENT_LOG_SEVERITY_THRESHOLD_DISABLE
+  nameWithType: EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_DISABLE
+  fullName: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_DISABLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_EVENT_LOG_SEVERITY_THRESHOLD_DISABLE
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_EVENT_LOG_SEVERITY_THRESHOLD_DISABLE = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+- uid: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_CRITICAL
+  commentId: F:NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_CRITICAL
+  id: OGL_EVENT_LOG_SEVERITY_THRESHOLD_CRITICAL
+  parent: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+  langs:
+  - csharp
+  - vb
+  name: OGL_EVENT_LOG_SEVERITY_THRESHOLD_CRITICAL
+  nameWithType: EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_CRITICAL
+  fullName: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_CRITICAL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_EVENT_LOG_SEVERITY_THRESHOLD_CRITICAL
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_EVENT_LOG_SEVERITY_THRESHOLD_CRITICAL = 1
+    return:
+      type: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+- uid: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_WARNING
+  commentId: F:NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_WARNING
+  id: OGL_EVENT_LOG_SEVERITY_THRESHOLD_WARNING
+  parent: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+  langs:
+  - csharp
+  - vb
+  name: OGL_EVENT_LOG_SEVERITY_THRESHOLD_WARNING
+  nameWithType: EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_WARNING
+  fullName: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_WARNING
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_EVENT_LOG_SEVERITY_THRESHOLD_WARNING
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_EVENT_LOG_SEVERITY_THRESHOLD_WARNING = 2
+    return:
+      type: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+- uid: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_INFORMATION
+  commentId: F:NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_INFORMATION
+  id: OGL_EVENT_LOG_SEVERITY_THRESHOLD_INFORMATION
+  parent: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+  langs:
+  - csharp
+  - vb
+  name: OGL_EVENT_LOG_SEVERITY_THRESHOLD_INFORMATION
+  nameWithType: EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_INFORMATION
+  fullName: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_INFORMATION
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_EVENT_LOG_SEVERITY_THRESHOLD_INFORMATION
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_EVENT_LOG_SEVERITY_THRESHOLD_INFORMATION = 3
+    return:
+      type: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+- uid: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_ALL
+  commentId: F:NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_ALL
+  id: OGL_EVENT_LOG_SEVERITY_THRESHOLD_ALL
+  parent: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+  langs:
+  - csharp
+  - vb
+  name: OGL_EVENT_LOG_SEVERITY_THRESHOLD_ALL
+  nameWithType: EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_ALL
+  fullName: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_ALL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_EVENT_LOG_SEVERITY_THRESHOLD_ALL
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_EVENT_LOG_SEVERITY_THRESHOLD_ALL = 4
+    return:
+      type: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+- uid: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_NUM_VALUES
+  id: OGL_EVENT_LOG_SEVERITY_THRESHOLD_NUM_VALUES
+  parent: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+  langs:
+  - csharp
+  - vb
+  name: OGL_EVENT_LOG_SEVERITY_THRESHOLD_NUM_VALUES
+  nameWithType: EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_EVENT_LOG_SEVERITY_THRESHOLD_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_EVENT_LOG_SEVERITY_THRESHOLD_NUM_VALUES = 5
+    return:
+      type: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+- uid: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_DEFAULT
+  id: OGL_EVENT_LOG_SEVERITY_THRESHOLD_DEFAULT
+  parent: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+  langs:
+  - csharp
+  - vb
+  name: OGL_EVENT_LOG_SEVERITY_THRESHOLD_DEFAULT
+  nameWithType: EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_DEFAULT
+  fullName: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.OGL_EVENT_LOG_SEVERITY_THRESHOLD_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_EVENT_LOG_SEVERITY_THRESHOLD_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_EVENT_LOG_SEVERITY_THRESHOLD_DEFAULT = 4
+    return:
+      type: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+  commentId: T:NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD.html
+  name: EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+  nameWithType: EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD
+  fullName: NVAPIWrapper.EValues_OGL_EVENT_LOG_SEVERITY_THRESHOLD

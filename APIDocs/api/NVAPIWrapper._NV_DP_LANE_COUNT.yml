@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_DP_LANE_COUNT
+  commentId: T:NVAPIWrapper._NV_DP_LANE_COUNT
+  id: _NV_DP_LANE_COUNT
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_DP_LANE_COUNT.NV_DP_1_LANE
+  - NVAPIWrapper._NV_DP_LANE_COUNT.NV_DP_2_LANE
+  - NVAPIWrapper._NV_DP_LANE_COUNT.NV_DP_4_LANE
+  langs:
+  - csharp
+  - vb
+  name: _NV_DP_LANE_COUNT
+  nameWithType: _NV_DP_LANE_COUNT
+  fullName: NVAPIWrapper._NV_DP_LANE_COUNT
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP_LANE_COUNT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_DP_LANE_COUNT
+    path: ../NVAPIWrapper/cs_generated/_NV_DP_LANE_COUNT.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_DP_LANE_COUNT
+    content.vb: Public Enum _NV_DP_LANE_COUNT
+- uid: NVAPIWrapper._NV_DP_LANE_COUNT.NV_DP_1_LANE
+  commentId: F:NVAPIWrapper._NV_DP_LANE_COUNT.NV_DP_1_LANE
+  id: NV_DP_1_LANE
+  parent: NVAPIWrapper._NV_DP_LANE_COUNT
+  langs:
+  - csharp
+  - vb
+  name: NV_DP_1_LANE
+  nameWithType: _NV_DP_LANE_COUNT.NV_DP_1_LANE
+  fullName: NVAPIWrapper._NV_DP_LANE_COUNT.NV_DP_1_LANE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP_LANE_COUNT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DP_1_LANE
+    path: ../NVAPIWrapper/cs_generated/_NV_DP_LANE_COUNT.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DP_1_LANE = 1
+    return:
+      type: NVAPIWrapper._NV_DP_LANE_COUNT
+- uid: NVAPIWrapper._NV_DP_LANE_COUNT.NV_DP_2_LANE
+  commentId: F:NVAPIWrapper._NV_DP_LANE_COUNT.NV_DP_2_LANE
+  id: NV_DP_2_LANE
+  parent: NVAPIWrapper._NV_DP_LANE_COUNT
+  langs:
+  - csharp
+  - vb
+  name: NV_DP_2_LANE
+  nameWithType: _NV_DP_LANE_COUNT.NV_DP_2_LANE
+  fullName: NVAPIWrapper._NV_DP_LANE_COUNT.NV_DP_2_LANE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP_LANE_COUNT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DP_2_LANE
+    path: ../NVAPIWrapper/cs_generated/_NV_DP_LANE_COUNT.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DP_2_LANE = 2
+    return:
+      type: NVAPIWrapper._NV_DP_LANE_COUNT
+- uid: NVAPIWrapper._NV_DP_LANE_COUNT.NV_DP_4_LANE
+  commentId: F:NVAPIWrapper._NV_DP_LANE_COUNT.NV_DP_4_LANE
+  id: NV_DP_4_LANE
+  parent: NVAPIWrapper._NV_DP_LANE_COUNT
+  langs:
+  - csharp
+  - vb
+  name: NV_DP_4_LANE
+  nameWithType: _NV_DP_LANE_COUNT.NV_DP_4_LANE
+  fullName: NVAPIWrapper._NV_DP_LANE_COUNT.NV_DP_4_LANE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP_LANE_COUNT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DP_4_LANE
+    path: ../NVAPIWrapper/cs_generated/_NV_DP_LANE_COUNT.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DP_4_LANE = 4
+    return:
+      type: NVAPIWrapper._NV_DP_LANE_COUNT
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_DP_LANE_COUNT
+  commentId: T:NVAPIWrapper._NV_DP_LANE_COUNT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DP_LANE_COUNT.html
+  name: _NV_DP_LANE_COUNT
+  nameWithType: _NV_DP_LANE_COUNT
+  fullName: NVAPIWrapper._NV_DP_LANE_COUNT

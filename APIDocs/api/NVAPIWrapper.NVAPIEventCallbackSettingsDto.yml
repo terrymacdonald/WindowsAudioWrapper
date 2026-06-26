@@ -1,0 +1,874 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+  commentId: T:NVAPIWrapper.NVAPIEventCallbackSettingsDto
+  id: NVAPIEventCallbackSettingsDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIEventCallbackSettingsDto.#ctor(NVAPIWrapper.NV_EVENT_TYPE,NVAPIWrapper.NVAPIEventCallbackKind,System.IntPtr,System.IntPtr)
+  - NVAPIWrapper.NVAPIEventCallbackSettingsDto.Callback
+  - NVAPIWrapper.NVAPIEventCallbackSettingsDto.CallbackKind
+  - NVAPIWrapper.NVAPIEventCallbackSettingsDto.CallbackParam
+  - NVAPIWrapper.NVAPIEventCallbackSettingsDto.Equals(NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  - NVAPIWrapper.NVAPIEventCallbackSettingsDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIEventCallbackSettingsDto.EventId
+  - NVAPIWrapper.NVAPIEventCallbackSettingsDto.GetHashCode
+  - NVAPIWrapper.NVAPIEventCallbackSettingsDto.op_Equality(NVAPIWrapper.NVAPIEventCallbackSettingsDto,NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  - NVAPIWrapper.NVAPIEventCallbackSettingsDto.op_Inequality(NVAPIWrapper.NVAPIEventCallbackSettingsDto,NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIEventCallbackSettingsDto
+  nameWithType: NVAPIEventCallbackSettingsDto
+  fullName: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIEventCallbackSettingsDto
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 929
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Event callback settings DTO.
+  example: []
+  syntax:
+    content: 'public struct NVAPIEventCallbackSettingsDto : IEquatable<NVAPIEventCallbackSettingsDto>'
+    content.vb: Public Structure NVAPIEventCallbackSettingsDto Implements IEquatable(Of NVAPIEventCallbackSettingsDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIEventCallbackSettingsDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto.#ctor(NVAPIWrapper.NV_EVENT_TYPE,NVAPIWrapper.NVAPIEventCallbackKind,System.IntPtr,System.IntPtr)
+  commentId: M:NVAPIWrapper.NVAPIEventCallbackSettingsDto.#ctor(NVAPIWrapper.NV_EVENT_TYPE,NVAPIWrapper.NVAPIEventCallbackKind,System.IntPtr,System.IntPtr)
+  id: '#ctor(NVAPIWrapper.NV_EVENT_TYPE,NVAPIWrapper.NVAPIEventCallbackKind,System.IntPtr,System.IntPtr)'
+  parent: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIEventCallbackSettingsDto(NV_EVENT_TYPE, NVAPIEventCallbackKind, nint, nint)
+  nameWithType: NVAPIEventCallbackSettingsDto.NVAPIEventCallbackSettingsDto(NV_EVENT_TYPE, NVAPIEventCallbackKind, nint, nint)
+  fullName: NVAPIWrapper.NVAPIEventCallbackSettingsDto.NVAPIEventCallbackSettingsDto(NVAPIWrapper.NV_EVENT_TYPE, NVAPIWrapper.NVAPIEventCallbackKind, nint, nint)
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 938
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Initializes a new instance of the <xref href="NVAPIWrapper.NVAPIEventCallbackSettingsDto" data-throw-if-not-resolved="false"></xref> struct.
+  example: []
+  syntax:
+    content: public NVAPIEventCallbackSettingsDto(NV_EVENT_TYPE eventId, NVAPIEventCallbackKind callbackKind, nint callbackParam, nint callback)
+    parameters:
+    - id: eventId
+      type: NVAPIWrapper.NV_EVENT_TYPE
+      description: Event type.
+    - id: callbackKind
+      type: NVAPIWrapper.NVAPIEventCallbackKind
+      description: Callback kind.
+    - id: callbackParam
+      type: System.IntPtr
+      description: Callback parameter pointer.
+    - id: callback
+      type: System.IntPtr
+      description: Callback function pointer.
+    content.vb: Public Sub New(eventId As NV_EVENT_TYPE, callbackKind As NVAPIEventCallbackKind, callbackParam As IntPtr, callback As IntPtr)
+  overload: NVAPIWrapper.NVAPIEventCallbackSettingsDto.#ctor*
+  nameWithType.vb: NVAPIEventCallbackSettingsDto.New(NV_EVENT_TYPE, NVAPIEventCallbackKind, IntPtr, IntPtr)
+  fullName.vb: NVAPIWrapper.NVAPIEventCallbackSettingsDto.New(NVAPIWrapper.NV_EVENT_TYPE, NVAPIWrapper.NVAPIEventCallbackKind, System.IntPtr, System.IntPtr)
+  name.vb: New(NV_EVENT_TYPE, NVAPIEventCallbackKind, IntPtr, IntPtr)
+- uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto.EventId
+  commentId: P:NVAPIWrapper.NVAPIEventCallbackSettingsDto.EventId
+  id: EventId
+  parent: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: EventId
+  nameWithType: NVAPIEventCallbackSettingsDto.EventId
+  fullName: NVAPIWrapper.NVAPIEventCallbackSettingsDto.EventId
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EventId
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 953
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Event type.
+  example: []
+  syntax:
+    content: public NV_EVENT_TYPE EventId { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper.NV_EVENT_TYPE
+    content.vb: Public Property EventId As NV_EVENT_TYPE
+  overload: NVAPIWrapper.NVAPIEventCallbackSettingsDto.EventId*
+- uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto.CallbackKind
+  commentId: P:NVAPIWrapper.NVAPIEventCallbackSettingsDto.CallbackKind
+  id: CallbackKind
+  parent: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: CallbackKind
+  nameWithType: NVAPIEventCallbackSettingsDto.CallbackKind
+  fullName: NVAPIWrapper.NVAPIEventCallbackSettingsDto.CallbackKind
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CallbackKind
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 958
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Callback kind to map the union field.
+  example: []
+  syntax:
+    content: public NVAPIEventCallbackKind CallbackKind { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper.NVAPIEventCallbackKind
+    content.vb: Public Property CallbackKind As NVAPIEventCallbackKind
+  overload: NVAPIWrapper.NVAPIEventCallbackSettingsDto.CallbackKind*
+- uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto.CallbackParam
+  commentId: P:NVAPIWrapper.NVAPIEventCallbackSettingsDto.CallbackParam
+  id: CallbackParam
+  parent: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: CallbackParam
+  nameWithType: NVAPIEventCallbackSettingsDto.CallbackParam
+  fullName: NVAPIWrapper.NVAPIEventCallbackSettingsDto.CallbackParam
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CallbackParam
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 963
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Callback parameter pointer.
+  example: []
+  syntax:
+    content: public nint CallbackParam { readonly get; set; }
+    parameters: []
+    return:
+      type: System.IntPtr
+    content.vb: Public Property CallbackParam As IntPtr
+  overload: NVAPIWrapper.NVAPIEventCallbackSettingsDto.CallbackParam*
+- uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto.Callback
+  commentId: P:NVAPIWrapper.NVAPIEventCallbackSettingsDto.Callback
+  id: Callback
+  parent: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: Callback
+  nameWithType: NVAPIEventCallbackSettingsDto.Callback
+  fullName: NVAPIWrapper.NVAPIEventCallbackSettingsDto.Callback
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Callback
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 968
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Callback function pointer.
+  example: []
+  syntax:
+    content: public nint Callback { readonly get; set; }
+    parameters: []
+    return:
+      type: System.IntPtr
+    content.vb: Public Property Callback As IntPtr
+  overload: NVAPIWrapper.NVAPIEventCallbackSettingsDto.Callback*
+- uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto.Equals(NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  commentId: M:NVAPIWrapper.NVAPIEventCallbackSettingsDto.Equals(NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  id: Equals(NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  parent: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIEventCallbackSettingsDto)
+  nameWithType: NVAPIEventCallbackSettingsDto.Equals(NVAPIEventCallbackSettingsDto)
+  fullName: NVAPIWrapper.NVAPIEventCallbackSettingsDto.Equals(NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1000
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether this instance and another callback settings instance are equal.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIEventCallbackSettingsDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+      description: The other callback settings instance.
+    return:
+      type: System.Boolean
+      description: True if the instances are equal; otherwise, false.
+    content.vb: Public Function Equals(other As NVAPIEventCallbackSettingsDto) As Boolean
+  overload: NVAPIWrapper.NVAPIEventCallbackSettingsDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIEventCallbackSettingsDto}.Equals(NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+- uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIEventCallbackSettingsDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIEventCallbackSettingsDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIEventCallbackSettingsDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1013
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare.
+    return:
+      type: System.Boolean
+      description: True if equal; otherwise, false.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIEventCallbackSettingsDto.Equals*
+  nameWithType.vb: NVAPIEventCallbackSettingsDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIEventCallbackSettingsDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIEventCallbackSettingsDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIEventCallbackSettingsDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIEventCallbackSettingsDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1019
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get a hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIEventCallbackSettingsDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto.op_Equality(NVAPIWrapper.NVAPIEventCallbackSettingsDto,NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  commentId: M:NVAPIWrapper.NVAPIEventCallbackSettingsDto.op_Equality(NVAPIWrapper.NVAPIEventCallbackSettingsDto,NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  id: op_Equality(NVAPIWrapper.NVAPIEventCallbackSettingsDto,NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  parent: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIEventCallbackSettingsDto, NVAPIEventCallbackSettingsDto)
+  nameWithType: NVAPIEventCallbackSettingsDto.operator ==(NVAPIEventCallbackSettingsDto, NVAPIEventCallbackSettingsDto)
+  fullName: NVAPIWrapper.NVAPIEventCallbackSettingsDto.operator ==(NVAPIWrapper.NVAPIEventCallbackSettingsDto, NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1027
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether two callback settings instances are equal.
+  example: []
+  syntax:
+    content: public static bool operator ==(NVAPIEventCallbackSettingsDto left, NVAPIEventCallbackSettingsDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+      description: The left instance.
+    - id: right
+      type: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+      description: The right instance.
+    return:
+      type: System.Boolean
+      description: True if the instances are equal; otherwise, false.
+    content.vb: Public Shared Operator =(left As NVAPIEventCallbackSettingsDto, right As NVAPIEventCallbackSettingsDto) As Boolean
+  overload: NVAPIWrapper.NVAPIEventCallbackSettingsDto.op_Equality*
+  nameWithType.vb: NVAPIEventCallbackSettingsDto.=(NVAPIEventCallbackSettingsDto, NVAPIEventCallbackSettingsDto)
+  fullName.vb: NVAPIWrapper.NVAPIEventCallbackSettingsDto.=(NVAPIWrapper.NVAPIEventCallbackSettingsDto, NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  name.vb: =(NVAPIEventCallbackSettingsDto, NVAPIEventCallbackSettingsDto)
+- uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto.op_Inequality(NVAPIWrapper.NVAPIEventCallbackSettingsDto,NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  commentId: M:NVAPIWrapper.NVAPIEventCallbackSettingsDto.op_Inequality(NVAPIWrapper.NVAPIEventCallbackSettingsDto,NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIEventCallbackSettingsDto,NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  parent: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIEventCallbackSettingsDto, NVAPIEventCallbackSettingsDto)
+  nameWithType: NVAPIEventCallbackSettingsDto.operator !=(NVAPIEventCallbackSettingsDto, NVAPIEventCallbackSettingsDto)
+  fullName: NVAPIWrapper.NVAPIEventCallbackSettingsDto.operator !=(NVAPIWrapper.NVAPIEventCallbackSettingsDto, NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1035
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether two callback settings instances are not equal.
+  example: []
+  syntax:
+    content: public static bool operator !=(NVAPIEventCallbackSettingsDto left, NVAPIEventCallbackSettingsDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+      description: The left instance.
+    - id: right
+      type: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+      description: The right instance.
+    return:
+      type: System.Boolean
+      description: True if the instances are not equal; otherwise, false.
+    content.vb: Public Shared Operator <>(left As NVAPIEventCallbackSettingsDto, right As NVAPIEventCallbackSettingsDto) As Boolean
+  overload: NVAPIWrapper.NVAPIEventCallbackSettingsDto.op_Inequality*
+  nameWithType.vb: NVAPIEventCallbackSettingsDto.<>(NVAPIEventCallbackSettingsDto, NVAPIEventCallbackSettingsDto)
+  fullName.vb: NVAPIWrapper.NVAPIEventCallbackSettingsDto.<>(NVAPIWrapper.NVAPIEventCallbackSettingsDto, NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  name.vb: <>(NVAPIEventCallbackSettingsDto, NVAPIEventCallbackSettingsDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIEventCallbackSettingsDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIEventCallbackSettingsDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIEventCallbackSettingsDto>
+  nameWithType: IEquatable<NVAPIEventCallbackSettingsDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIEventCallbackSettingsDto>
+  nameWithType.vb: IEquatable(Of NVAPIEventCallbackSettingsDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  name.vb: IEquatable(Of NVAPIEventCallbackSettingsDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+    name: NVAPIEventCallbackSettingsDto
+    href: NVAPIWrapper.NVAPIEventCallbackSettingsDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+    name: NVAPIEventCallbackSettingsDto
+    href: NVAPIWrapper.NVAPIEventCallbackSettingsDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+  commentId: T:NVAPIWrapper.NVAPIEventCallbackSettingsDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIEventCallbackSettingsDto.html
+  name: NVAPIEventCallbackSettingsDto
+  nameWithType: NVAPIEventCallbackSettingsDto
+  fullName: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+- uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIEventCallbackSettingsDto.#ctor
+  href: NVAPIWrapper.NVAPIEventCallbackSettingsDto.html#NVAPIWrapper_NVAPIEventCallbackSettingsDto__ctor_NVAPIWrapper_NV_EVENT_TYPE_NVAPIWrapper_NVAPIEventCallbackKind_System_IntPtr_System_IntPtr_
+  name: NVAPIEventCallbackSettingsDto
+  nameWithType: NVAPIEventCallbackSettingsDto.NVAPIEventCallbackSettingsDto
+  fullName: NVAPIWrapper.NVAPIEventCallbackSettingsDto.NVAPIEventCallbackSettingsDto
+  nameWithType.vb: NVAPIEventCallbackSettingsDto.New
+  fullName.vb: NVAPIWrapper.NVAPIEventCallbackSettingsDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NV_EVENT_TYPE
+  commentId: T:NVAPIWrapper.NV_EVENT_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_EVENT_TYPE.html
+  name: NV_EVENT_TYPE
+  nameWithType: NV_EVENT_TYPE
+  fullName: NVAPIWrapper.NV_EVENT_TYPE
+- uid: NVAPIWrapper.NVAPIEventCallbackKind
+  commentId: T:NVAPIWrapper.NVAPIEventCallbackKind
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIEventCallbackKind.html
+  name: NVAPIEventCallbackKind
+  nameWithType: NVAPIEventCallbackKind
+  fullName: NVAPIWrapper.NVAPIEventCallbackKind
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto.EventId*
+  commentId: Overload:NVAPIWrapper.NVAPIEventCallbackSettingsDto.EventId
+  href: NVAPIWrapper.NVAPIEventCallbackSettingsDto.html#NVAPIWrapper_NVAPIEventCallbackSettingsDto_EventId
+  name: EventId
+  nameWithType: NVAPIEventCallbackSettingsDto.EventId
+  fullName: NVAPIWrapper.NVAPIEventCallbackSettingsDto.EventId
+- uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto.CallbackKind*
+  commentId: Overload:NVAPIWrapper.NVAPIEventCallbackSettingsDto.CallbackKind
+  href: NVAPIWrapper.NVAPIEventCallbackSettingsDto.html#NVAPIWrapper_NVAPIEventCallbackSettingsDto_CallbackKind
+  name: CallbackKind
+  nameWithType: NVAPIEventCallbackSettingsDto.CallbackKind
+  fullName: NVAPIWrapper.NVAPIEventCallbackSettingsDto.CallbackKind
+- uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto.CallbackParam*
+  commentId: Overload:NVAPIWrapper.NVAPIEventCallbackSettingsDto.CallbackParam
+  href: NVAPIWrapper.NVAPIEventCallbackSettingsDto.html#NVAPIWrapper_NVAPIEventCallbackSettingsDto_CallbackParam
+  name: CallbackParam
+  nameWithType: NVAPIEventCallbackSettingsDto.CallbackParam
+  fullName: NVAPIWrapper.NVAPIEventCallbackSettingsDto.CallbackParam
+- uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto.Callback*
+  commentId: Overload:NVAPIWrapper.NVAPIEventCallbackSettingsDto.Callback
+  href: NVAPIWrapper.NVAPIEventCallbackSettingsDto.html#NVAPIWrapper_NVAPIEventCallbackSettingsDto_Callback
+  name: Callback
+  nameWithType: NVAPIEventCallbackSettingsDto.Callback
+  fullName: NVAPIWrapper.NVAPIEventCallbackSettingsDto.Callback
+- uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIEventCallbackSettingsDto.Equals
+  href: NVAPIWrapper.NVAPIEventCallbackSettingsDto.html#NVAPIWrapper_NVAPIEventCallbackSettingsDto_Equals_NVAPIWrapper_NVAPIEventCallbackSettingsDto_
+  name: Equals
+  nameWithType: NVAPIEventCallbackSettingsDto.Equals
+  fullName: NVAPIWrapper.NVAPIEventCallbackSettingsDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIEventCallbackSettingsDto}.Equals(NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIEventCallbackSettingsDto}.Equals(NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIEventCallbackSettingsDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIEventCallbackSettingsDto)
+  nameWithType: IEquatable<NVAPIEventCallbackSettingsDto>.Equals(NVAPIEventCallbackSettingsDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIEventCallbackSettingsDto>.Equals(NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  nameWithType.vb: IEquatable(Of NVAPIEventCallbackSettingsDto).Equals(NVAPIEventCallbackSettingsDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIEventCallbackSettingsDto).Equals(NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIEventCallbackSettingsDto}.Equals(NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+    name: NVAPIEventCallbackSettingsDto
+    href: NVAPIWrapper.NVAPIEventCallbackSettingsDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIEventCallbackSettingsDto}.Equals(NVAPIWrapper.NVAPIEventCallbackSettingsDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto
+    name: NVAPIEventCallbackSettingsDto
+    href: NVAPIWrapper.NVAPIEventCallbackSettingsDto.html
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIEventCallbackSettingsDto.GetHashCode
+  href: NVAPIWrapper.NVAPIEventCallbackSettingsDto.html#NVAPIWrapper_NVAPIEventCallbackSettingsDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIEventCallbackSettingsDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIEventCallbackSettingsDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIEventCallbackSettingsDto.op_Equality
+  href: NVAPIWrapper.NVAPIEventCallbackSettingsDto.html#NVAPIWrapper_NVAPIEventCallbackSettingsDto_op_Equality_NVAPIWrapper_NVAPIEventCallbackSettingsDto_NVAPIWrapper_NVAPIEventCallbackSettingsDto_
+  name: operator ==
+  nameWithType: NVAPIEventCallbackSettingsDto.operator ==
+  fullName: NVAPIWrapper.NVAPIEventCallbackSettingsDto.operator ==
+  nameWithType.vb: NVAPIEventCallbackSettingsDto.=
+  fullName.vb: NVAPIWrapper.NVAPIEventCallbackSettingsDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIEventCallbackSettingsDto.html#NVAPIWrapper_NVAPIEventCallbackSettingsDto_op_Equality_NVAPIWrapper_NVAPIEventCallbackSettingsDto_NVAPIWrapper_NVAPIEventCallbackSettingsDto_
+- uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIEventCallbackSettingsDto.op_Inequality
+  href: NVAPIWrapper.NVAPIEventCallbackSettingsDto.html#NVAPIWrapper_NVAPIEventCallbackSettingsDto_op_Inequality_NVAPIWrapper_NVAPIEventCallbackSettingsDto_NVAPIWrapper_NVAPIEventCallbackSettingsDto_
+  name: operator !=
+  nameWithType: NVAPIEventCallbackSettingsDto.operator !=
+  fullName: NVAPIWrapper.NVAPIEventCallbackSettingsDto.operator !=
+  nameWithType.vb: NVAPIEventCallbackSettingsDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIEventCallbackSettingsDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIEventCallbackSettingsDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIEventCallbackSettingsDto.html#NVAPIWrapper_NVAPIEventCallbackSettingsDto_op_Inequality_NVAPIWrapper_NVAPIEventCallbackSettingsDto_NVAPIWrapper_NVAPIEventCallbackSettingsDto_

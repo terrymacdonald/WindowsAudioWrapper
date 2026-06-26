@@ -1,0 +1,855 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  commentId: T:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  id: _NV_GPU_CONNECTOR_TYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_ADC
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DISPLAYPORT_EXTERNAL
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DISPLAYPORT_INTERNAL
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DISPLAYPORT_MINI_EXT
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DVI_D
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DVI_I
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DVI_I_TV_COMPOSITE
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DVI_I_TV_SVIDEO
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_HDMI_A
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_HDMI_C_MINI
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_LFH_DISPLAYPORT_1
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_LFH_DISPLAYPORT_2
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_LFH_DVI_I_1
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_LFH_DVI_I_2
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_OEM
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_PC_POD_COMPOSITE
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_PC_POD_HDTV_YPRPB
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_PC_POD_SVIDEO
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_SPWG
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_COMPOSITE
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_COMPOSITE_SCART_ON_EIAJ4120
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_HDTV_COMPONENT
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_HDTV_EIAJ4120
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_SCART
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_SVIDEO
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_UNKNOWN
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_USB_C
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_VGA_15_PIN
+  - NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_VIRTUAL_WFD
+  langs:
+  - csharp
+  - vb
+  name: _NV_GPU_CONNECTOR_TYPE
+  nameWithType: _NV_GPU_CONNECTOR_TYPE
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_GPU_CONNECTOR_TYPE
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_GPU_CONNECTOR_TYPE
+    content.vb: Public Enum _NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_VGA_15_PIN
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_VGA_15_PIN
+  id: NVAPI_GPU_CONNECTOR_VGA_15_PIN
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_VGA_15_PIN
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_VGA_15_PIN
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_VGA_15_PIN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_VGA_15_PIN
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_VGA_15_PIN = 0
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_COMPOSITE
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_COMPOSITE
+  id: NVAPI_GPU_CONNECTOR_TV_COMPOSITE
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_TV_COMPOSITE
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_COMPOSITE
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_COMPOSITE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_TV_COMPOSITE
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_TV_COMPOSITE = 16
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_SVIDEO
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_SVIDEO
+  id: NVAPI_GPU_CONNECTOR_TV_SVIDEO
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_TV_SVIDEO
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_SVIDEO
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_SVIDEO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_TV_SVIDEO
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_TV_SVIDEO = 17
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_HDTV_COMPONENT
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_HDTV_COMPONENT
+  id: NVAPI_GPU_CONNECTOR_TV_HDTV_COMPONENT
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_TV_HDTV_COMPONENT
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_HDTV_COMPONENT
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_HDTV_COMPONENT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_TV_HDTV_COMPONENT
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_TV_HDTV_COMPONENT = 19
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_SCART
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_SCART
+  id: NVAPI_GPU_CONNECTOR_TV_SCART
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_TV_SCART
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_SCART
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_SCART
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_TV_SCART
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_TV_SCART = 20
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_COMPOSITE_SCART_ON_EIAJ4120
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_COMPOSITE_SCART_ON_EIAJ4120
+  id: NVAPI_GPU_CONNECTOR_TV_COMPOSITE_SCART_ON_EIAJ4120
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_TV_COMPOSITE_SCART_ON_EIAJ4120
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_COMPOSITE_SCART_ON_EIAJ4120
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_COMPOSITE_SCART_ON_EIAJ4120
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_TV_COMPOSITE_SCART_ON_EIAJ4120
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_TV_COMPOSITE_SCART_ON_EIAJ4120 = 22
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_HDTV_EIAJ4120
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_HDTV_EIAJ4120
+  id: NVAPI_GPU_CONNECTOR_TV_HDTV_EIAJ4120
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_TV_HDTV_EIAJ4120
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_HDTV_EIAJ4120
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_TV_HDTV_EIAJ4120
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_TV_HDTV_EIAJ4120
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_TV_HDTV_EIAJ4120 = 23
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_PC_POD_HDTV_YPRPB
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_PC_POD_HDTV_YPRPB
+  id: NVAPI_GPU_CONNECTOR_PC_POD_HDTV_YPRPB
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_PC_POD_HDTV_YPRPB
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_PC_POD_HDTV_YPRPB
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_PC_POD_HDTV_YPRPB
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_PC_POD_HDTV_YPRPB
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_PC_POD_HDTV_YPRPB = 24
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_PC_POD_SVIDEO
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_PC_POD_SVIDEO
+  id: NVAPI_GPU_CONNECTOR_PC_POD_SVIDEO
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_PC_POD_SVIDEO
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_PC_POD_SVIDEO
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_PC_POD_SVIDEO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_PC_POD_SVIDEO
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_PC_POD_SVIDEO = 25
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_PC_POD_COMPOSITE
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_PC_POD_COMPOSITE
+  id: NVAPI_GPU_CONNECTOR_PC_POD_COMPOSITE
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_PC_POD_COMPOSITE
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_PC_POD_COMPOSITE
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_PC_POD_COMPOSITE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_PC_POD_COMPOSITE
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_PC_POD_COMPOSITE = 26
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DVI_I_TV_SVIDEO
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DVI_I_TV_SVIDEO
+  id: NVAPI_GPU_CONNECTOR_DVI_I_TV_SVIDEO
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_DVI_I_TV_SVIDEO
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DVI_I_TV_SVIDEO
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DVI_I_TV_SVIDEO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_DVI_I_TV_SVIDEO
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_DVI_I_TV_SVIDEO = 32
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DVI_I_TV_COMPOSITE
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DVI_I_TV_COMPOSITE
+  id: NVAPI_GPU_CONNECTOR_DVI_I_TV_COMPOSITE
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_DVI_I_TV_COMPOSITE
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DVI_I_TV_COMPOSITE
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DVI_I_TV_COMPOSITE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_DVI_I_TV_COMPOSITE
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 39
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_DVI_I_TV_COMPOSITE = 33
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DVI_I
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DVI_I
+  id: NVAPI_GPU_CONNECTOR_DVI_I
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_DVI_I
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DVI_I
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DVI_I
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_DVI_I
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 42
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_DVI_I = 48
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DVI_D
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DVI_D
+  id: NVAPI_GPU_CONNECTOR_DVI_D
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_DVI_D
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DVI_D
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DVI_D
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_DVI_D
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 45
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_DVI_D = 49
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_ADC
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_ADC
+  id: NVAPI_GPU_CONNECTOR_ADC
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_ADC
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_ADC
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_ADC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_ADC
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 48
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_ADC = 50
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_LFH_DVI_I_1
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_LFH_DVI_I_1
+  id: NVAPI_GPU_CONNECTOR_LFH_DVI_I_1
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_LFH_DVI_I_1
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_LFH_DVI_I_1
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_LFH_DVI_I_1
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_LFH_DVI_I_1
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 51
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_LFH_DVI_I_1 = 56
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_LFH_DVI_I_2
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_LFH_DVI_I_2
+  id: NVAPI_GPU_CONNECTOR_LFH_DVI_I_2
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_LFH_DVI_I_2
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_LFH_DVI_I_2
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_LFH_DVI_I_2
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_LFH_DVI_I_2
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 54
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_LFH_DVI_I_2 = 57
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_SPWG
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_SPWG
+  id: NVAPI_GPU_CONNECTOR_SPWG
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_SPWG
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_SPWG
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_SPWG
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_SPWG
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 57
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_SPWG = 64
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_OEM
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_OEM
+  id: NVAPI_GPU_CONNECTOR_OEM
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_OEM
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_OEM
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_OEM
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_OEM
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 60
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_OEM = 65
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DISPLAYPORT_EXTERNAL
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DISPLAYPORT_EXTERNAL
+  id: NVAPI_GPU_CONNECTOR_DISPLAYPORT_EXTERNAL
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_DISPLAYPORT_EXTERNAL
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DISPLAYPORT_EXTERNAL
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DISPLAYPORT_EXTERNAL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_DISPLAYPORT_EXTERNAL
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 63
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_DISPLAYPORT_EXTERNAL = 70
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DISPLAYPORT_INTERNAL
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DISPLAYPORT_INTERNAL
+  id: NVAPI_GPU_CONNECTOR_DISPLAYPORT_INTERNAL
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_DISPLAYPORT_INTERNAL
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DISPLAYPORT_INTERNAL
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DISPLAYPORT_INTERNAL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_DISPLAYPORT_INTERNAL
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 66
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_DISPLAYPORT_INTERNAL = 71
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DISPLAYPORT_MINI_EXT
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DISPLAYPORT_MINI_EXT
+  id: NVAPI_GPU_CONNECTOR_DISPLAYPORT_MINI_EXT
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_DISPLAYPORT_MINI_EXT
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DISPLAYPORT_MINI_EXT
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_DISPLAYPORT_MINI_EXT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_DISPLAYPORT_MINI_EXT
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 69
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_DISPLAYPORT_MINI_EXT = 72
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_HDMI_A
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_HDMI_A
+  id: NVAPI_GPU_CONNECTOR_HDMI_A
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_HDMI_A
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_HDMI_A
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_HDMI_A
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_HDMI_A
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 72
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_HDMI_A = 97
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_HDMI_C_MINI
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_HDMI_C_MINI
+  id: NVAPI_GPU_CONNECTOR_HDMI_C_MINI
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_HDMI_C_MINI
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_HDMI_C_MINI
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_HDMI_C_MINI
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_HDMI_C_MINI
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 75
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_HDMI_C_MINI = 99
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_LFH_DISPLAYPORT_1
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_LFH_DISPLAYPORT_1
+  id: NVAPI_GPU_CONNECTOR_LFH_DISPLAYPORT_1
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_LFH_DISPLAYPORT_1
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_LFH_DISPLAYPORT_1
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_LFH_DISPLAYPORT_1
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_LFH_DISPLAYPORT_1
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 78
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_LFH_DISPLAYPORT_1 = 100
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_LFH_DISPLAYPORT_2
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_LFH_DISPLAYPORT_2
+  id: NVAPI_GPU_CONNECTOR_LFH_DISPLAYPORT_2
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_LFH_DISPLAYPORT_2
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_LFH_DISPLAYPORT_2
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_LFH_DISPLAYPORT_2
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_LFH_DISPLAYPORT_2
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 81
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_LFH_DISPLAYPORT_2 = 101
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_VIRTUAL_WFD
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_VIRTUAL_WFD
+  id: NVAPI_GPU_CONNECTOR_VIRTUAL_WFD
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_VIRTUAL_WFD
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_VIRTUAL_WFD
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_VIRTUAL_WFD
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_VIRTUAL_WFD
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 84
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_VIRTUAL_WFD = 112
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_USB_C
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_USB_C
+  id: NVAPI_GPU_CONNECTOR_USB_C
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_USB_C
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_USB_C
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_USB_C
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_USB_C
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 87
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_USB_C = 113
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_UNKNOWN
+  commentId: F:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_UNKNOWN
+  id: NVAPI_GPU_CONNECTOR_UNKNOWN
+  parent: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_CONNECTOR_UNKNOWN
+  nameWithType: _NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_UNKNOWN
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.NVAPI_GPU_CONNECTOR_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_CONNECTOR_UNKNOWN
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CONNECTOR_TYPE.cs
+    startLine: 90
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_CONNECTOR_UNKNOWN = -1
+    return:
+      type: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  commentId: T:NVAPIWrapper._NV_GPU_CONNECTOR_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE.html
+  name: _NV_GPU_CONNECTOR_TYPE
+  nameWithType: _NV_GPU_CONNECTOR_TYPE
+  fullName: NVAPIWrapper._NV_GPU_CONNECTOR_TYPE

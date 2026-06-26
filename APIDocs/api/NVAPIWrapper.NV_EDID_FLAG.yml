@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_EDID_FLAG
+  commentId: T:NVAPIWrapper.NV_EDID_FLAG
+  id: NV_EDID_FLAG
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_EDID_FLAG.NV_EDID_FLAG_COOKED
+  - NVAPIWrapper.NV_EDID_FLAG.NV_EDID_FLAG_DEFAULT
+  - NVAPIWrapper.NV_EDID_FLAG.NV_EDID_FLAG_FORCED
+  - NVAPIWrapper.NV_EDID_FLAG.NV_EDID_FLAG_HW
+  - NVAPIWrapper.NV_EDID_FLAG.NV_EDID_FLAG_INF
+  - NVAPIWrapper.NV_EDID_FLAG.NV_EDID_FLAG_RAW
+  langs:
+  - csharp
+  - vb
+  name: NV_EDID_FLAG
+  nameWithType: NV_EDID_FLAG
+  fullName: NVAPIWrapper.NV_EDID_FLAG
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_EDID_FLAG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_EDID_FLAG
+    path: ../NVAPIWrapper/cs_generated/NV_EDID_FLAG.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_EDID_FLAG
+    content.vb: Public Enum NV_EDID_FLAG
+- uid: NVAPIWrapper.NV_EDID_FLAG.NV_EDID_FLAG_DEFAULT
+  commentId: F:NVAPIWrapper.NV_EDID_FLAG.NV_EDID_FLAG_DEFAULT
+  id: NV_EDID_FLAG_DEFAULT
+  parent: NVAPIWrapper.NV_EDID_FLAG
+  langs:
+  - csharp
+  - vb
+  name: NV_EDID_FLAG_DEFAULT
+  nameWithType: NV_EDID_FLAG.NV_EDID_FLAG_DEFAULT
+  fullName: NVAPIWrapper.NV_EDID_FLAG.NV_EDID_FLAG_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_EDID_FLAG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_EDID_FLAG_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/NV_EDID_FLAG.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_EDID_FLAG_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.NV_EDID_FLAG
+- uid: NVAPIWrapper.NV_EDID_FLAG.NV_EDID_FLAG_RAW
+  commentId: F:NVAPIWrapper.NV_EDID_FLAG.NV_EDID_FLAG_RAW
+  id: NV_EDID_FLAG_RAW
+  parent: NVAPIWrapper.NV_EDID_FLAG
+  langs:
+  - csharp
+  - vb
+  name: NV_EDID_FLAG_RAW
+  nameWithType: NV_EDID_FLAG.NV_EDID_FLAG_RAW
+  fullName: NVAPIWrapper.NV_EDID_FLAG.NV_EDID_FLAG_RAW
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_EDID_FLAG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_EDID_FLAG_RAW
+    path: ../NVAPIWrapper/cs_generated/NV_EDID_FLAG.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_EDID_FLAG_RAW = 1
+    return:
+      type: NVAPIWrapper.NV_EDID_FLAG
+- uid: NVAPIWrapper.NV_EDID_FLAG.NV_EDID_FLAG_COOKED
+  commentId: F:NVAPIWrapper.NV_EDID_FLAG.NV_EDID_FLAG_COOKED
+  id: NV_EDID_FLAG_COOKED
+  parent: NVAPIWrapper.NV_EDID_FLAG
+  langs:
+  - csharp
+  - vb
+  name: NV_EDID_FLAG_COOKED
+  nameWithType: NV_EDID_FLAG.NV_EDID_FLAG_COOKED
+  fullName: NVAPIWrapper.NV_EDID_FLAG.NV_EDID_FLAG_COOKED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_EDID_FLAG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_EDID_FLAG_COOKED
+    path: ../NVAPIWrapper/cs_generated/NV_EDID_FLAG.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_EDID_FLAG_COOKED = 2
+    return:
+      type: NVAPIWrapper.NV_EDID_FLAG
+- uid: NVAPIWrapper.NV_EDID_FLAG.NV_EDID_FLAG_FORCED
+  commentId: F:NVAPIWrapper.NV_EDID_FLAG.NV_EDID_FLAG_FORCED
+  id: NV_EDID_FLAG_FORCED
+  parent: NVAPIWrapper.NV_EDID_FLAG
+  langs:
+  - csharp
+  - vb
+  name: NV_EDID_FLAG_FORCED
+  nameWithType: NV_EDID_FLAG.NV_EDID_FLAG_FORCED
+  fullName: NVAPIWrapper.NV_EDID_FLAG.NV_EDID_FLAG_FORCED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_EDID_FLAG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_EDID_FLAG_FORCED
+    path: ../NVAPIWrapper/cs_generated/NV_EDID_FLAG.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_EDID_FLAG_FORCED = 3
+    return:
+      type: NVAPIWrapper.NV_EDID_FLAG
+- uid: NVAPIWrapper.NV_EDID_FLAG.NV_EDID_FLAG_INF
+  commentId: F:NVAPIWrapper.NV_EDID_FLAG.NV_EDID_FLAG_INF
+  id: NV_EDID_FLAG_INF
+  parent: NVAPIWrapper.NV_EDID_FLAG
+  langs:
+  - csharp
+  - vb
+  name: NV_EDID_FLAG_INF
+  nameWithType: NV_EDID_FLAG.NV_EDID_FLAG_INF
+  fullName: NVAPIWrapper.NV_EDID_FLAG.NV_EDID_FLAG_INF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_EDID_FLAG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_EDID_FLAG_INF
+    path: ../NVAPIWrapper/cs_generated/NV_EDID_FLAG.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_EDID_FLAG_INF = 4
+    return:
+      type: NVAPIWrapper.NV_EDID_FLAG
+- uid: NVAPIWrapper.NV_EDID_FLAG.NV_EDID_FLAG_HW
+  commentId: F:NVAPIWrapper.NV_EDID_FLAG.NV_EDID_FLAG_HW
+  id: NV_EDID_FLAG_HW
+  parent: NVAPIWrapper.NV_EDID_FLAG
+  langs:
+  - csharp
+  - vb
+  name: NV_EDID_FLAG_HW
+  nameWithType: NV_EDID_FLAG.NV_EDID_FLAG_HW
+  fullName: NVAPIWrapper.NV_EDID_FLAG.NV_EDID_FLAG_HW
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_EDID_FLAG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_EDID_FLAG_HW
+    path: ../NVAPIWrapper/cs_generated/NV_EDID_FLAG.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_EDID_FLAG_HW = 5
+    return:
+      type: NVAPIWrapper.NV_EDID_FLAG
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_EDID_FLAG
+  commentId: T:NVAPIWrapper.NV_EDID_FLAG
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_EDID_FLAG.html
+  name: NV_EDID_FLAG
+  nameWithType: NV_EDID_FLAG
+  fullName: NVAPIWrapper.NV_EDID_FLAG

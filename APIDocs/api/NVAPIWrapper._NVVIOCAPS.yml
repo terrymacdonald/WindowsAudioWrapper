@@ -1,0 +1,666 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVVIOCAPS
+  commentId: T:NVAPIWrapper._NVVIOCAPS
+  id: _NVVIOCAPS
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVVIOCAPS.adapterCaps
+  - NVAPIWrapper._NVVIOCAPS.adapterClass
+  - NVAPIWrapper._NVVIOCAPS.adapterName
+  - NVAPIWrapper._NVVIOCAPS.boardID
+  - NVAPIWrapper._NVVIOCAPS.dipSwitch
+  - NVAPIWrapper._NVVIOCAPS.dipSwitchReserved
+  - NVAPIWrapper._NVVIOCAPS.driver
+  - NVAPIWrapper._NVVIOCAPS.firmWare
+  - NVAPIWrapper._NVVIOCAPS.ownerId
+  - NVAPIWrapper._NVVIOCAPS.ownerType
+  - NVAPIWrapper._NVVIOCAPS.version
+  langs:
+  - csharp
+  - vb
+  name: _NVVIOCAPS
+  nameWithType: _NVVIOCAPS
+  fullName: NVAPIWrapper._NVVIOCAPS
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCAPS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVVIOCAPS
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCAPS.cs
+    startLine: 5
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NVVIOCAPS
+    content.vb: Public Structure _NVVIOCAPS
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NVVIOCAPS.version
+  commentId: F:NVAPIWrapper._NVVIOCAPS.version
+  id: version
+  parent: NVAPIWrapper._NVVIOCAPS
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: _NVVIOCAPS.version
+  fullName: NVAPIWrapper._NVVIOCAPS.version
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCAPS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: version
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCAPS.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint version
+    return:
+      type: System.UInt32
+    content.vb: Public version As UInteger
+- uid: NVAPIWrapper._NVVIOCAPS.adapterName
+  commentId: F:NVAPIWrapper._NVVIOCAPS.adapterName
+  id: adapterName
+  parent: NVAPIWrapper._NVVIOCAPS
+  langs:
+  - csharp
+  - vb
+  name: adapterName
+  nameWithType: _NVVIOCAPS.adapterName
+  fullName: NVAPIWrapper._NVVIOCAPS.adapterName
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCAPS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: adapterName
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCAPS.cs
+    startLine: 13
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVVIOCAPS._adapterName_e__FixedBuffer adapterName
+    return:
+      type: NVAPIWrapper._NVVIOCAPS._adapterName_e__FixedBuffer
+    content.vb: Public adapterName As _NVVIOCAPS._adapterName_e__FixedBuffer
+- uid: NVAPIWrapper._NVVIOCAPS.adapterClass
+  commentId: F:NVAPIWrapper._NVVIOCAPS.adapterClass
+  id: adapterClass
+  parent: NVAPIWrapper._NVVIOCAPS
+  langs:
+  - csharp
+  - vb
+  name: adapterClass
+  nameWithType: _NVVIOCAPS.adapterClass
+  fullName: NVAPIWrapper._NVVIOCAPS.adapterClass
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCAPS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: adapterClass
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCAPS.cs
+    startLine: 17
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint adapterClass
+    return:
+      type: System.UInt32
+    content.vb: Public adapterClass As UInteger
+- uid: NVAPIWrapper._NVVIOCAPS.adapterCaps
+  commentId: F:NVAPIWrapper._NVVIOCAPS.adapterCaps
+  id: adapterCaps
+  parent: NVAPIWrapper._NVVIOCAPS
+  langs:
+  - csharp
+  - vb
+  name: adapterCaps
+  nameWithType: _NVVIOCAPS.adapterCaps
+  fullName: NVAPIWrapper._NVVIOCAPS.adapterCaps
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCAPS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: adapterCaps
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCAPS.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint adapterCaps
+    return:
+      type: System.UInt32
+    content.vb: Public adapterCaps As UInteger
+- uid: NVAPIWrapper._NVVIOCAPS.dipSwitch
+  commentId: F:NVAPIWrapper._NVVIOCAPS.dipSwitch
+  id: dipSwitch
+  parent: NVAPIWrapper._NVVIOCAPS
+  langs:
+  - csharp
+  - vb
+  name: dipSwitch
+  nameWithType: _NVVIOCAPS.dipSwitch
+  fullName: NVAPIWrapper._NVVIOCAPS.dipSwitch
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCAPS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: dipSwitch
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCAPS.cs
+    startLine: 25
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint dipSwitch
+    return:
+      type: System.UInt32
+    content.vb: Public dipSwitch As UInteger
+- uid: NVAPIWrapper._NVVIOCAPS.dipSwitchReserved
+  commentId: F:NVAPIWrapper._NVVIOCAPS.dipSwitchReserved
+  id: dipSwitchReserved
+  parent: NVAPIWrapper._NVVIOCAPS
+  langs:
+  - csharp
+  - vb
+  name: dipSwitchReserved
+  nameWithType: _NVVIOCAPS.dipSwitchReserved
+  fullName: NVAPIWrapper._NVVIOCAPS.dipSwitchReserved
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCAPS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: dipSwitchReserved
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCAPS.cs
+    startLine: 29
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint dipSwitchReserved
+    return:
+      type: System.UInt32
+    content.vb: Public dipSwitchReserved As UInteger
+- uid: NVAPIWrapper._NVVIOCAPS.boardID
+  commentId: F:NVAPIWrapper._NVVIOCAPS.boardID
+  id: boardID
+  parent: NVAPIWrapper._NVVIOCAPS
+  langs:
+  - csharp
+  - vb
+  name: boardID
+  nameWithType: _NVVIOCAPS.boardID
+  fullName: NVAPIWrapper._NVVIOCAPS.boardID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCAPS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: boardID
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCAPS.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint boardID
+    return:
+      type: System.UInt32
+    content.vb: Public boardID As UInteger
+- uid: NVAPIWrapper._NVVIOCAPS.driver
+  commentId: F:NVAPIWrapper._NVVIOCAPS.driver
+  id: driver
+  parent: NVAPIWrapper._NVVIOCAPS
+  langs:
+  - csharp
+  - vb
+  name: driver
+  nameWithType: _NVVIOCAPS.driver
+  fullName: NVAPIWrapper._NVVIOCAPS.driver
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCAPS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: driver
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCAPS.cs
+    startLine: 37
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVVIOCAPS._driver_e__Struct driver
+    return:
+      type: NVAPIWrapper._NVVIOCAPS._driver_e__Struct
+    content.vb: Public driver As _NVVIOCAPS._driver_e__Struct
+- uid: NVAPIWrapper._NVVIOCAPS.firmWare
+  commentId: F:NVAPIWrapper._NVVIOCAPS.firmWare
+  id: firmWare
+  parent: NVAPIWrapper._NVVIOCAPS
+  langs:
+  - csharp
+  - vb
+  name: firmWare
+  nameWithType: _NVVIOCAPS.firmWare
+  fullName: NVAPIWrapper._NVVIOCAPS.firmWare
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCAPS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: firmWare
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCAPS.cs
+    startLine: 41
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVVIOCAPS._firmWare_e__Struct firmWare
+    return:
+      type: NVAPIWrapper._NVVIOCAPS._firmWare_e__Struct
+    content.vb: Public firmWare As _NVVIOCAPS._firmWare_e__Struct
+- uid: NVAPIWrapper._NVVIOCAPS.ownerId
+  commentId: F:NVAPIWrapper._NVVIOCAPS.ownerId
+  id: ownerId
+  parent: NVAPIWrapper._NVVIOCAPS
+  langs:
+  - csharp
+  - vb
+  name: ownerId
+  nameWithType: _NVVIOCAPS.ownerId
+  fullName: NVAPIWrapper._NVVIOCAPS.ownerId
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCAPS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ownerId
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCAPS.cs
+    startLine: 45
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint ownerId
+    return:
+      type: System.UInt32
+    content.vb: Public ownerId As UInteger
+- uid: NVAPIWrapper._NVVIOCAPS.ownerType
+  commentId: F:NVAPIWrapper._NVVIOCAPS.ownerType
+  id: ownerType
+  parent: NVAPIWrapper._NVVIOCAPS
+  langs:
+  - csharp
+  - vb
+  name: ownerType
+  nameWithType: _NVVIOCAPS.ownerType
+  fullName: NVAPIWrapper._NVVIOCAPS.ownerType
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCAPS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ownerType
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCAPS.cs
+    startLine: 49
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVVIOOWNERTYPE ownerType
+    return:
+      type: NVAPIWrapper._NVVIOOWNERTYPE
+    content.vb: Public ownerType As _NVVIOOWNERTYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper._NVVIOCAPS._adapterName_e__FixedBuffer
+  commentId: T:NVAPIWrapper._NVVIOCAPS._adapterName_e__FixedBuffer
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOCAPS.html
+  name: _NVVIOCAPS._adapterName_e__FixedBuffer
+  nameWithType: _NVVIOCAPS._adapterName_e__FixedBuffer
+  fullName: NVAPIWrapper._NVVIOCAPS._adapterName_e__FixedBuffer
+  spec.csharp:
+  - uid: NVAPIWrapper._NVVIOCAPS
+    name: _NVVIOCAPS
+    href: NVAPIWrapper._NVVIOCAPS.html
+  - name: .
+  - uid: NVAPIWrapper._NVVIOCAPS._adapterName_e__FixedBuffer
+    name: _adapterName_e__FixedBuffer
+    href: NVAPIWrapper._NVVIOCAPS._adapterName_e__FixedBuffer.html
+  spec.vb:
+  - uid: NVAPIWrapper._NVVIOCAPS
+    name: _NVVIOCAPS
+    href: NVAPIWrapper._NVVIOCAPS.html
+  - name: .
+  - uid: NVAPIWrapper._NVVIOCAPS._adapterName_e__FixedBuffer
+    name: _adapterName_e__FixedBuffer
+    href: NVAPIWrapper._NVVIOCAPS._adapterName_e__FixedBuffer.html
+- uid: NVAPIWrapper._NVVIOCAPS._driver_e__Struct
+  commentId: T:NVAPIWrapper._NVVIOCAPS._driver_e__Struct
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOCAPS.html
+  name: _NVVIOCAPS._driver_e__Struct
+  nameWithType: _NVVIOCAPS._driver_e__Struct
+  fullName: NVAPIWrapper._NVVIOCAPS._driver_e__Struct
+  spec.csharp:
+  - uid: NVAPIWrapper._NVVIOCAPS
+    name: _NVVIOCAPS
+    href: NVAPIWrapper._NVVIOCAPS.html
+  - name: .
+  - uid: NVAPIWrapper._NVVIOCAPS._driver_e__Struct
+    name: _driver_e__Struct
+    href: NVAPIWrapper._NVVIOCAPS._driver_e__Struct.html
+  spec.vb:
+  - uid: NVAPIWrapper._NVVIOCAPS
+    name: _NVVIOCAPS
+    href: NVAPIWrapper._NVVIOCAPS.html
+  - name: .
+  - uid: NVAPIWrapper._NVVIOCAPS._driver_e__Struct
+    name: _driver_e__Struct
+    href: NVAPIWrapper._NVVIOCAPS._driver_e__Struct.html
+- uid: NVAPIWrapper._NVVIOCAPS._firmWare_e__Struct
+  commentId: T:NVAPIWrapper._NVVIOCAPS._firmWare_e__Struct
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOCAPS.html
+  name: _NVVIOCAPS._firmWare_e__Struct
+  nameWithType: _NVVIOCAPS._firmWare_e__Struct
+  fullName: NVAPIWrapper._NVVIOCAPS._firmWare_e__Struct
+  spec.csharp:
+  - uid: NVAPIWrapper._NVVIOCAPS
+    name: _NVVIOCAPS
+    href: NVAPIWrapper._NVVIOCAPS.html
+  - name: .
+  - uid: NVAPIWrapper._NVVIOCAPS._firmWare_e__Struct
+    name: _firmWare_e__Struct
+    href: NVAPIWrapper._NVVIOCAPS._firmWare_e__Struct.html
+  spec.vb:
+  - uid: NVAPIWrapper._NVVIOCAPS
+    name: _NVVIOCAPS
+    href: NVAPIWrapper._NVVIOCAPS.html
+  - name: .
+  - uid: NVAPIWrapper._NVVIOCAPS._firmWare_e__Struct
+    name: _firmWare_e__Struct
+    href: NVAPIWrapper._NVVIOCAPS._firmWare_e__Struct.html
+- uid: NVAPIWrapper._NVVIOOWNERTYPE
+  commentId: T:NVAPIWrapper._NVVIOOWNERTYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOOWNERTYPE.html
+  name: _NVVIOOWNERTYPE
+  nameWithType: _NVVIOOWNERTYPE
+  fullName: NVAPIWrapper._NVVIOOWNERTYPE

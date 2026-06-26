@@ -1,0 +1,967 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVDRS_SETTING_V1
+  commentId: T:NVAPIWrapper._NVDRS_SETTING_V1
+  id: _NVDRS_SETTING_V1
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVDRS_SETTING_V1.Anonymous1
+  - NVAPIWrapper._NVDRS_SETTING_V1.Anonymous2
+  - NVAPIWrapper._NVDRS_SETTING_V1.binaryCurrentValue
+  - NVAPIWrapper._NVDRS_SETTING_V1.binaryPredefinedValue
+  - NVAPIWrapper._NVDRS_SETTING_V1.isCurrentPredefined
+  - NVAPIWrapper._NVDRS_SETTING_V1.isPredefinedValid
+  - NVAPIWrapper._NVDRS_SETTING_V1.settingId
+  - NVAPIWrapper._NVDRS_SETTING_V1.settingLocation
+  - NVAPIWrapper._NVDRS_SETTING_V1.settingName
+  - NVAPIWrapper._NVDRS_SETTING_V1.settingType
+  - NVAPIWrapper._NVDRS_SETTING_V1.u32CurrentValue
+  - NVAPIWrapper._NVDRS_SETTING_V1.u32PredefinedValue
+  - NVAPIWrapper._NVDRS_SETTING_V1.version
+  - NVAPIWrapper._NVDRS_SETTING_V1.wszCurrentValue
+  - NVAPIWrapper._NVDRS_SETTING_V1.wszPredefinedValue
+  langs:
+  - csharp
+  - vb
+  name: _NVDRS_SETTING_V1
+  nameWithType: _NVDRS_SETTING_V1
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVDRS_SETTING_V1
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+    startLine: 8
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NVDRS_SETTING_V1
+    content.vb: Public Structure _NVDRS_SETTING_V1
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NVDRS_SETTING_V1.version
+  commentId: F:NVAPIWrapper._NVDRS_SETTING_V1.version
+  id: version
+  parent: NVAPIWrapper._NVDRS_SETTING_V1
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: _NVDRS_SETTING_V1.version
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1.version
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: version
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint version
+    return:
+      type: System.UInt32
+    content.vb: Public version As UInteger
+- uid: NVAPIWrapper._NVDRS_SETTING_V1.settingName
+  commentId: F:NVAPIWrapper._NVDRS_SETTING_V1.settingName
+  id: settingName
+  parent: NVAPIWrapper._NVDRS_SETTING_V1
+  langs:
+  - csharp
+  - vb
+  name: settingName
+  nameWithType: _NVDRS_SETTING_V1.settingName
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1.settingName
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: settingName
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+    startLine: 16
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVDRS_SETTING_V1._settingName_e__FixedBuffer settingName
+    return:
+      type: NVAPIWrapper._NVDRS_SETTING_V1._settingName_e__FixedBuffer
+    content.vb: Public settingName As _NVDRS_SETTING_V1._settingName_e__FixedBuffer
+- uid: NVAPIWrapper._NVDRS_SETTING_V1.settingId
+  commentId: F:NVAPIWrapper._NVDRS_SETTING_V1.settingId
+  id: settingId
+  parent: NVAPIWrapper._NVDRS_SETTING_V1
+  langs:
+  - csharp
+  - vb
+  name: settingId
+  nameWithType: _NVDRS_SETTING_V1.settingId
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1.settingId
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: settingId
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+    startLine: 20
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint settingId
+    return:
+      type: System.UInt32
+    content.vb: Public settingId As UInteger
+- uid: NVAPIWrapper._NVDRS_SETTING_V1.settingType
+  commentId: F:NVAPIWrapper._NVDRS_SETTING_V1.settingType
+  id: settingType
+  parent: NVAPIWrapper._NVDRS_SETTING_V1
+  langs:
+  - csharp
+  - vb
+  name: settingType
+  nameWithType: _NVDRS_SETTING_V1.settingType
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1.settingType
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: settingType
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVDRS_SETTING_TYPE settingType
+    return:
+      type: NVAPIWrapper._NVDRS_SETTING_TYPE
+    content.vb: Public settingType As _NVDRS_SETTING_TYPE
+- uid: NVAPIWrapper._NVDRS_SETTING_V1.settingLocation
+  commentId: F:NVAPIWrapper._NVDRS_SETTING_V1.settingLocation
+  id: settingLocation
+  parent: NVAPIWrapper._NVDRS_SETTING_V1
+  langs:
+  - csharp
+  - vb
+  name: settingLocation
+  nameWithType: _NVDRS_SETTING_V1.settingLocation
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1.settingLocation
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: settingLocation
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+    startLine: 28
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVDRS_SETTING_LOCATION settingLocation
+    return:
+      type: NVAPIWrapper._NVDRS_SETTING_LOCATION
+    content.vb: Public settingLocation As _NVDRS_SETTING_LOCATION
+- uid: NVAPIWrapper._NVDRS_SETTING_V1.isCurrentPredefined
+  commentId: F:NVAPIWrapper._NVDRS_SETTING_V1.isCurrentPredefined
+  id: isCurrentPredefined
+  parent: NVAPIWrapper._NVDRS_SETTING_V1
+  langs:
+  - csharp
+  - vb
+  name: isCurrentPredefined
+  nameWithType: _NVDRS_SETTING_V1.isCurrentPredefined
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1.isCurrentPredefined
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isCurrentPredefined
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+    startLine: 32
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isCurrentPredefined
+    return:
+      type: System.UInt32
+    content.vb: Public isCurrentPredefined As UInteger
+- uid: NVAPIWrapper._NVDRS_SETTING_V1.isPredefinedValid
+  commentId: F:NVAPIWrapper._NVDRS_SETTING_V1.isPredefinedValid
+  id: isPredefinedValid
+  parent: NVAPIWrapper._NVDRS_SETTING_V1
+  langs:
+  - csharp
+  - vb
+  name: isPredefinedValid
+  nameWithType: _NVDRS_SETTING_V1.isPredefinedValid
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1.isPredefinedValid
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isPredefinedValid
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isPredefinedValid
+    return:
+      type: System.UInt32
+    content.vb: Public isPredefinedValid As UInteger
+- uid: NVAPIWrapper._NVDRS_SETTING_V1.Anonymous1
+  commentId: F:NVAPIWrapper._NVDRS_SETTING_V1.Anonymous1
+  id: Anonymous1
+  parent: NVAPIWrapper._NVDRS_SETTING_V1
+  langs:
+  - csharp
+  - vb
+  name: Anonymous1
+  nameWithType: _NVDRS_SETTING_V1.Anonymous1
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1.Anonymous1
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Anonymous1
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+    startLine: 40
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVDRS_SETTING_V1._Anonymous1_e__Union Anonymous1
+    return:
+      type: NVAPIWrapper._NVDRS_SETTING_V1._Anonymous1_e__Union
+    content.vb: Public Anonymous1 As _NVDRS_SETTING_V1._Anonymous1_e__Union
+- uid: NVAPIWrapper._NVDRS_SETTING_V1.Anonymous2
+  commentId: F:NVAPIWrapper._NVDRS_SETTING_V1.Anonymous2
+  id: Anonymous2
+  parent: NVAPIWrapper._NVDRS_SETTING_V1
+  langs:
+  - csharp
+  - vb
+  name: Anonymous2
+  nameWithType: _NVDRS_SETTING_V1.Anonymous2
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1.Anonymous2
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Anonymous2
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+    startLine: 44
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVDRS_SETTING_V1._Anonymous2_e__Union Anonymous2
+    return:
+      type: NVAPIWrapper._NVDRS_SETTING_V1._Anonymous2_e__Union
+    content.vb: Public Anonymous2 As _NVDRS_SETTING_V1._Anonymous2_e__Union
+- uid: NVAPIWrapper._NVDRS_SETTING_V1.u32PredefinedValue
+  commentId: P:NVAPIWrapper._NVDRS_SETTING_V1.u32PredefinedValue
+  id: u32PredefinedValue
+  parent: NVAPIWrapper._NVDRS_SETTING_V1
+  langs:
+  - csharp
+  - vb
+  name: u32PredefinedValue
+  nameWithType: _NVDRS_SETTING_V1.u32PredefinedValue
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1.u32PredefinedValue
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: u32PredefinedValue
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+    startLine: 47
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: >-
+      [UnscopedRef]
+
+      public ref uint u32PredefinedValue { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: >-
+      <UnscopedRef>
+
+      Public ReadOnly ByRef Property u32PredefinedValue As UInteger
+  overload: NVAPIWrapper._NVDRS_SETTING_V1.u32PredefinedValue*
+  attributes:
+  - type: System.Diagnostics.CodeAnalysis.UnscopedRefAttribute
+    ctor: System.Diagnostics.CodeAnalysis.UnscopedRefAttribute.#ctor
+    arguments: []
+- uid: NVAPIWrapper._NVDRS_SETTING_V1.binaryPredefinedValue
+  commentId: P:NVAPIWrapper._NVDRS_SETTING_V1.binaryPredefinedValue
+  id: binaryPredefinedValue
+  parent: NVAPIWrapper._NVDRS_SETTING_V1
+  langs:
+  - csharp
+  - vb
+  name: binaryPredefinedValue
+  nameWithType: _NVDRS_SETTING_V1.binaryPredefinedValue
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1.binaryPredefinedValue
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: binaryPredefinedValue
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+    startLine: 57
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: >-
+      [UnscopedRef]
+
+      public ref _NVDRS_BINARY_SETTING binaryPredefinedValue { get; }
+    parameters: []
+    return:
+      type: NVAPIWrapper._NVDRS_BINARY_SETTING
+    content.vb: >-
+      <UnscopedRef>
+
+      Public ReadOnly ByRef Property binaryPredefinedValue As _NVDRS_BINARY_SETTING
+  overload: NVAPIWrapper._NVDRS_SETTING_V1.binaryPredefinedValue*
+  attributes:
+  - type: System.Diagnostics.CodeAnalysis.UnscopedRefAttribute
+    ctor: System.Diagnostics.CodeAnalysis.UnscopedRefAttribute.#ctor
+    arguments: []
+- uid: NVAPIWrapper._NVDRS_SETTING_V1.wszPredefinedValue
+  commentId: P:NVAPIWrapper._NVDRS_SETTING_V1.wszPredefinedValue
+  id: wszPredefinedValue
+  parent: NVAPIWrapper._NVDRS_SETTING_V1
+  langs:
+  - csharp
+  - vb
+  name: wszPredefinedValue
+  nameWithType: _NVDRS_SETTING_V1.wszPredefinedValue
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1.wszPredefinedValue
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: wszPredefinedValue
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+    startLine: 67
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: >-
+      [UnscopedRef]
+
+      public Span<ushort> wszPredefinedValue { get; }
+    parameters: []
+    return:
+      type: System.Span{System.UInt16}
+    content.vb: >-
+      <UnscopedRef>
+
+      Public ReadOnly Property wszPredefinedValue As Span(Of UShort)
+  overload: NVAPIWrapper._NVDRS_SETTING_V1.wszPredefinedValue*
+  attributes:
+  - type: System.Diagnostics.CodeAnalysis.UnscopedRefAttribute
+    ctor: System.Diagnostics.CodeAnalysis.UnscopedRefAttribute.#ctor
+    arguments: []
+- uid: NVAPIWrapper._NVDRS_SETTING_V1.u32CurrentValue
+  commentId: P:NVAPIWrapper._NVDRS_SETTING_V1.u32CurrentValue
+  id: u32CurrentValue
+  parent: NVAPIWrapper._NVDRS_SETTING_V1
+  langs:
+  - csharp
+  - vb
+  name: u32CurrentValue
+  nameWithType: _NVDRS_SETTING_V1.u32CurrentValue
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1.u32CurrentValue
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: u32CurrentValue
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+    startLine: 77
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: >-
+      [UnscopedRef]
+
+      public ref uint u32CurrentValue { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: >-
+      <UnscopedRef>
+
+      Public ReadOnly ByRef Property u32CurrentValue As UInteger
+  overload: NVAPIWrapper._NVDRS_SETTING_V1.u32CurrentValue*
+  attributes:
+  - type: System.Diagnostics.CodeAnalysis.UnscopedRefAttribute
+    ctor: System.Diagnostics.CodeAnalysis.UnscopedRefAttribute.#ctor
+    arguments: []
+- uid: NVAPIWrapper._NVDRS_SETTING_V1.binaryCurrentValue
+  commentId: P:NVAPIWrapper._NVDRS_SETTING_V1.binaryCurrentValue
+  id: binaryCurrentValue
+  parent: NVAPIWrapper._NVDRS_SETTING_V1
+  langs:
+  - csharp
+  - vb
+  name: binaryCurrentValue
+  nameWithType: _NVDRS_SETTING_V1.binaryCurrentValue
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1.binaryCurrentValue
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: binaryCurrentValue
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+    startLine: 87
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: >-
+      [UnscopedRef]
+
+      public ref _NVDRS_BINARY_SETTING binaryCurrentValue { get; }
+    parameters: []
+    return:
+      type: NVAPIWrapper._NVDRS_BINARY_SETTING
+    content.vb: >-
+      <UnscopedRef>
+
+      Public ReadOnly ByRef Property binaryCurrentValue As _NVDRS_BINARY_SETTING
+  overload: NVAPIWrapper._NVDRS_SETTING_V1.binaryCurrentValue*
+  attributes:
+  - type: System.Diagnostics.CodeAnalysis.UnscopedRefAttribute
+    ctor: System.Diagnostics.CodeAnalysis.UnscopedRefAttribute.#ctor
+    arguments: []
+- uid: NVAPIWrapper._NVDRS_SETTING_V1.wszCurrentValue
+  commentId: P:NVAPIWrapper._NVDRS_SETTING_V1.wszCurrentValue
+  id: wszCurrentValue
+  parent: NVAPIWrapper._NVDRS_SETTING_V1
+  langs:
+  - csharp
+  - vb
+  name: wszCurrentValue
+  nameWithType: _NVDRS_SETTING_V1.wszCurrentValue
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1.wszCurrentValue
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: wszCurrentValue
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_V1.cs
+    startLine: 97
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: >-
+      [UnscopedRef]
+
+      public Span<ushort> wszCurrentValue { get; }
+    parameters: []
+    return:
+      type: System.Span{System.UInt16}
+    content.vb: >-
+      <UnscopedRef>
+
+      Public ReadOnly Property wszCurrentValue As Span(Of UShort)
+  overload: NVAPIWrapper._NVDRS_SETTING_V1.wszCurrentValue*
+  attributes:
+  - type: System.Diagnostics.CodeAnalysis.UnscopedRefAttribute
+    ctor: System.Diagnostics.CodeAnalysis.UnscopedRefAttribute.#ctor
+    arguments: []
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper._NVDRS_SETTING_V1._settingName_e__FixedBuffer
+  commentId: T:NVAPIWrapper._NVDRS_SETTING_V1._settingName_e__FixedBuffer
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVDRS_SETTING_V1.html
+  name: _NVDRS_SETTING_V1._settingName_e__FixedBuffer
+  nameWithType: _NVDRS_SETTING_V1._settingName_e__FixedBuffer
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1._settingName_e__FixedBuffer
+  spec.csharp:
+  - uid: NVAPIWrapper._NVDRS_SETTING_V1
+    name: _NVDRS_SETTING_V1
+    href: NVAPIWrapper._NVDRS_SETTING_V1.html
+  - name: .
+  - uid: NVAPIWrapper._NVDRS_SETTING_V1._settingName_e__FixedBuffer
+    name: _settingName_e__FixedBuffer
+    href: NVAPIWrapper._NVDRS_SETTING_V1._settingName_e__FixedBuffer.html
+  spec.vb:
+  - uid: NVAPIWrapper._NVDRS_SETTING_V1
+    name: _NVDRS_SETTING_V1
+    href: NVAPIWrapper._NVDRS_SETTING_V1.html
+  - name: .
+  - uid: NVAPIWrapper._NVDRS_SETTING_V1._settingName_e__FixedBuffer
+    name: _settingName_e__FixedBuffer
+    href: NVAPIWrapper._NVDRS_SETTING_V1._settingName_e__FixedBuffer.html
+- uid: NVAPIWrapper._NVDRS_SETTING_TYPE
+  commentId: T:NVAPIWrapper._NVDRS_SETTING_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVDRS_SETTING_TYPE.html
+  name: _NVDRS_SETTING_TYPE
+  nameWithType: _NVDRS_SETTING_TYPE
+  fullName: NVAPIWrapper._NVDRS_SETTING_TYPE
+- uid: NVAPIWrapper._NVDRS_SETTING_LOCATION
+  commentId: T:NVAPIWrapper._NVDRS_SETTING_LOCATION
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVDRS_SETTING_LOCATION.html
+  name: _NVDRS_SETTING_LOCATION
+  nameWithType: _NVDRS_SETTING_LOCATION
+  fullName: NVAPIWrapper._NVDRS_SETTING_LOCATION
+- uid: NVAPIWrapper._NVDRS_SETTING_V1._Anonymous1_e__Union
+  commentId: T:NVAPIWrapper._NVDRS_SETTING_V1._Anonymous1_e__Union
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVDRS_SETTING_V1.html
+  name: _NVDRS_SETTING_V1._Anonymous1_e__Union
+  nameWithType: _NVDRS_SETTING_V1._Anonymous1_e__Union
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1._Anonymous1_e__Union
+  spec.csharp:
+  - uid: NVAPIWrapper._NVDRS_SETTING_V1
+    name: _NVDRS_SETTING_V1
+    href: NVAPIWrapper._NVDRS_SETTING_V1.html
+  - name: .
+  - uid: NVAPIWrapper._NVDRS_SETTING_V1._Anonymous1_e__Union
+    name: _Anonymous1_e__Union
+    href: NVAPIWrapper._NVDRS_SETTING_V1._Anonymous1_e__Union.html
+  spec.vb:
+  - uid: NVAPIWrapper._NVDRS_SETTING_V1
+    name: _NVDRS_SETTING_V1
+    href: NVAPIWrapper._NVDRS_SETTING_V1.html
+  - name: .
+  - uid: NVAPIWrapper._NVDRS_SETTING_V1._Anonymous1_e__Union
+    name: _Anonymous1_e__Union
+    href: NVAPIWrapper._NVDRS_SETTING_V1._Anonymous1_e__Union.html
+- uid: NVAPIWrapper._NVDRS_SETTING_V1._Anonymous2_e__Union
+  commentId: T:NVAPIWrapper._NVDRS_SETTING_V1._Anonymous2_e__Union
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVDRS_SETTING_V1.html
+  name: _NVDRS_SETTING_V1._Anonymous2_e__Union
+  nameWithType: _NVDRS_SETTING_V1._Anonymous2_e__Union
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1._Anonymous2_e__Union
+  spec.csharp:
+  - uid: NVAPIWrapper._NVDRS_SETTING_V1
+    name: _NVDRS_SETTING_V1
+    href: NVAPIWrapper._NVDRS_SETTING_V1.html
+  - name: .
+  - uid: NVAPIWrapper._NVDRS_SETTING_V1._Anonymous2_e__Union
+    name: _Anonymous2_e__Union
+    href: NVAPIWrapper._NVDRS_SETTING_V1._Anonymous2_e__Union.html
+  spec.vb:
+  - uid: NVAPIWrapper._NVDRS_SETTING_V1
+    name: _NVDRS_SETTING_V1
+    href: NVAPIWrapper._NVDRS_SETTING_V1.html
+  - name: .
+  - uid: NVAPIWrapper._NVDRS_SETTING_V1._Anonymous2_e__Union
+    name: _Anonymous2_e__Union
+    href: NVAPIWrapper._NVDRS_SETTING_V1._Anonymous2_e__Union.html
+- uid: NVAPIWrapper._NVDRS_SETTING_V1.u32PredefinedValue*
+  commentId: Overload:NVAPIWrapper._NVDRS_SETTING_V1.u32PredefinedValue
+  href: NVAPIWrapper._NVDRS_SETTING_V1.html#NVAPIWrapper__NVDRS_SETTING_V1_u32PredefinedValue
+  name: u32PredefinedValue
+  nameWithType: _NVDRS_SETTING_V1.u32PredefinedValue
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1.u32PredefinedValue
+- uid: NVAPIWrapper._NVDRS_SETTING_V1.binaryPredefinedValue*
+  commentId: Overload:NVAPIWrapper._NVDRS_SETTING_V1.binaryPredefinedValue
+  href: NVAPIWrapper._NVDRS_SETTING_V1.html#NVAPIWrapper__NVDRS_SETTING_V1_binaryPredefinedValue
+  name: binaryPredefinedValue
+  nameWithType: _NVDRS_SETTING_V1.binaryPredefinedValue
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1.binaryPredefinedValue
+- uid: NVAPIWrapper._NVDRS_BINARY_SETTING
+  commentId: T:NVAPIWrapper._NVDRS_BINARY_SETTING
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVDRS_BINARY_SETTING.html
+  name: _NVDRS_BINARY_SETTING
+  nameWithType: _NVDRS_BINARY_SETTING
+  fullName: NVAPIWrapper._NVDRS_BINARY_SETTING
+- uid: NVAPIWrapper._NVDRS_SETTING_V1.wszPredefinedValue*
+  commentId: Overload:NVAPIWrapper._NVDRS_SETTING_V1.wszPredefinedValue
+  href: NVAPIWrapper._NVDRS_SETTING_V1.html#NVAPIWrapper__NVDRS_SETTING_V1_wszPredefinedValue
+  name: wszPredefinedValue
+  nameWithType: _NVDRS_SETTING_V1.wszPredefinedValue
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1.wszPredefinedValue
+- uid: System.Span{System.UInt16}
+  commentId: T:System.Span{System.UInt16}
+  parent: System
+  definition: System.Span`1
+  href: https://learn.microsoft.com/dotnet/api/system.span-1
+  name: Span<ushort>
+  nameWithType: Span<ushort>
+  fullName: System.Span<ushort>
+  nameWithType.vb: Span(Of UShort)
+  fullName.vb: System.Span(Of UShort)
+  name.vb: Span(Of UShort)
+  spec.csharp:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.span-1
+  - name: <
+  - uid: System.UInt16
+    name: ushort
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint16
+  - name: '>'
+  spec.vb:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.span-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.UInt16
+    name: UShort
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint16
+  - name: )
+- uid: System.Span`1
+  commentId: T:System.Span`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.span-1
+  name: Span<T>
+  nameWithType: Span<T>
+  fullName: System.Span<T>
+  nameWithType.vb: Span(Of T)
+  fullName.vb: System.Span(Of T)
+  name.vb: Span(Of T)
+  spec.csharp:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.span-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.span-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: NVAPIWrapper._NVDRS_SETTING_V1.u32CurrentValue*
+  commentId: Overload:NVAPIWrapper._NVDRS_SETTING_V1.u32CurrentValue
+  href: NVAPIWrapper._NVDRS_SETTING_V1.html#NVAPIWrapper__NVDRS_SETTING_V1_u32CurrentValue
+  name: u32CurrentValue
+  nameWithType: _NVDRS_SETTING_V1.u32CurrentValue
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1.u32CurrentValue
+- uid: NVAPIWrapper._NVDRS_SETTING_V1.binaryCurrentValue*
+  commentId: Overload:NVAPIWrapper._NVDRS_SETTING_V1.binaryCurrentValue
+  href: NVAPIWrapper._NVDRS_SETTING_V1.html#NVAPIWrapper__NVDRS_SETTING_V1_binaryCurrentValue
+  name: binaryCurrentValue
+  nameWithType: _NVDRS_SETTING_V1.binaryCurrentValue
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1.binaryCurrentValue
+- uid: NVAPIWrapper._NVDRS_SETTING_V1.wszCurrentValue*
+  commentId: Overload:NVAPIWrapper._NVDRS_SETTING_V1.wszCurrentValue
+  href: NVAPIWrapper._NVDRS_SETTING_V1.html#NVAPIWrapper__NVDRS_SETTING_V1_wszCurrentValue
+  name: wszCurrentValue
+  nameWithType: _NVDRS_SETTING_V1.wszCurrentValue
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1.wszCurrentValue

@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_GPU_CHIP_REVISION
+  commentId: T:NVAPIWrapper._NV_GPU_CHIP_REVISION
+  id: _NV_GPU_CHIP_REVISION
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_A01
+  - NVAPIWrapper._NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_A02
+  - NVAPIWrapper._NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_A03
+  - NVAPIWrapper._NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_EMULATION_FPGA
+  - NVAPIWrapper._NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_EMULATION_QT
+  - NVAPIWrapper._NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_UNKNOWN
+  langs:
+  - csharp
+  - vb
+  name: _NV_GPU_CHIP_REVISION
+  nameWithType: _NV_GPU_CHIP_REVISION
+  fullName: NVAPIWrapper._NV_GPU_CHIP_REVISION
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CHIP_REVISION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_GPU_CHIP_REVISION
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CHIP_REVISION.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_GPU_CHIP_REVISION
+    content.vb: Public Enum _NV_GPU_CHIP_REVISION
+- uid: NVAPIWrapper._NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_EMULATION_QT
+  commentId: F:NVAPIWrapper._NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_EMULATION_QT
+  id: NV_GPU_CHIP_REV_EMULATION_QT
+  parent: NVAPIWrapper._NV_GPU_CHIP_REVISION
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CHIP_REV_EMULATION_QT
+  nameWithType: _NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_EMULATION_QT
+  fullName: NVAPIWrapper._NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_EMULATION_QT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CHIP_REVISION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CHIP_REV_EMULATION_QT
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CHIP_REVISION.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CHIP_REV_EMULATION_QT = 0
+    return:
+      type: NVAPIWrapper._NV_GPU_CHIP_REVISION
+- uid: NVAPIWrapper._NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_EMULATION_FPGA
+  commentId: F:NVAPIWrapper._NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_EMULATION_FPGA
+  id: NV_GPU_CHIP_REV_EMULATION_FPGA
+  parent: NVAPIWrapper._NV_GPU_CHIP_REVISION
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CHIP_REV_EMULATION_FPGA
+  nameWithType: _NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_EMULATION_FPGA
+  fullName: NVAPIWrapper._NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_EMULATION_FPGA
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CHIP_REVISION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CHIP_REV_EMULATION_FPGA
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CHIP_REVISION.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CHIP_REV_EMULATION_FPGA = 1
+    return:
+      type: NVAPIWrapper._NV_GPU_CHIP_REVISION
+- uid: NVAPIWrapper._NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_A01
+  commentId: F:NVAPIWrapper._NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_A01
+  id: NV_GPU_CHIP_REV_A01
+  parent: NVAPIWrapper._NV_GPU_CHIP_REVISION
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CHIP_REV_A01
+  nameWithType: _NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_A01
+  fullName: NVAPIWrapper._NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_A01
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CHIP_REVISION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CHIP_REV_A01
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CHIP_REVISION.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CHIP_REV_A01 = 17
+    return:
+      type: NVAPIWrapper._NV_GPU_CHIP_REVISION
+- uid: NVAPIWrapper._NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_A02
+  commentId: F:NVAPIWrapper._NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_A02
+  id: NV_GPU_CHIP_REV_A02
+  parent: NVAPIWrapper._NV_GPU_CHIP_REVISION
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CHIP_REV_A02
+  nameWithType: _NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_A02
+  fullName: NVAPIWrapper._NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_A02
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CHIP_REVISION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CHIP_REV_A02
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CHIP_REVISION.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CHIP_REV_A02 = 18
+    return:
+      type: NVAPIWrapper._NV_GPU_CHIP_REVISION
+- uid: NVAPIWrapper._NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_A03
+  commentId: F:NVAPIWrapper._NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_A03
+  id: NV_GPU_CHIP_REV_A03
+  parent: NVAPIWrapper._NV_GPU_CHIP_REVISION
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CHIP_REV_A03
+  nameWithType: _NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_A03
+  fullName: NVAPIWrapper._NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_A03
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CHIP_REVISION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CHIP_REV_A03
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CHIP_REVISION.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CHIP_REV_A03 = 19
+    return:
+      type: NVAPIWrapper._NV_GPU_CHIP_REVISION
+- uid: NVAPIWrapper._NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_UNKNOWN
+  commentId: F:NVAPIWrapper._NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_UNKNOWN
+  id: NV_GPU_CHIP_REV_UNKNOWN
+  parent: NVAPIWrapper._NV_GPU_CHIP_REVISION
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CHIP_REV_UNKNOWN
+  nameWithType: _NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_UNKNOWN
+  fullName: NVAPIWrapper._NV_GPU_CHIP_REVISION.NV_GPU_CHIP_REV_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_CHIP_REVISION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CHIP_REV_UNKNOWN
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_CHIP_REVISION.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CHIP_REV_UNKNOWN = -1
+    return:
+      type: NVAPIWrapper._NV_GPU_CHIP_REVISION
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_GPU_CHIP_REVISION
+  commentId: T:NVAPIWrapper._NV_GPU_CHIP_REVISION
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_CHIP_REVISION.html
+  name: _NV_GPU_CHIP_REVISION
+  nameWithType: _NV_GPU_CHIP_REVISION
+  fullName: NVAPIWrapper._NV_GPU_CHIP_REVISION

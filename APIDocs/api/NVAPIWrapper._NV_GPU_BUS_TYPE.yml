@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_GPU_BUS_TYPE
+  commentId: T:NVAPIWrapper._NV_GPU_BUS_TYPE
+  id: _NV_GPU_BUS_TYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_AGP
+  - NVAPIWrapper._NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_AXI
+  - NVAPIWrapper._NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_FPCI
+  - NVAPIWrapper._NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_PCI
+  - NVAPIWrapper._NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_PCI_EXPRESS
+  - NVAPIWrapper._NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_UNDEFINED
+  langs:
+  - csharp
+  - vb
+  name: _NV_GPU_BUS_TYPE
+  nameWithType: _NV_GPU_BUS_TYPE
+  fullName: NVAPIWrapper._NV_GPU_BUS_TYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_BUS_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_GPU_BUS_TYPE
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_BUS_TYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_GPU_BUS_TYPE
+    content.vb: Public Enum _NV_GPU_BUS_TYPE
+- uid: NVAPIWrapper._NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_UNDEFINED
+  commentId: F:NVAPIWrapper._NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_UNDEFINED
+  id: NVAPI_GPU_BUS_TYPE_UNDEFINED
+  parent: NVAPIWrapper._NV_GPU_BUS_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_BUS_TYPE_UNDEFINED
+  nameWithType: _NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_UNDEFINED
+  fullName: NVAPIWrapper._NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_UNDEFINED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_BUS_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_BUS_TYPE_UNDEFINED
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_BUS_TYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_BUS_TYPE_UNDEFINED = 0
+    return:
+      type: NVAPIWrapper._NV_GPU_BUS_TYPE
+- uid: NVAPIWrapper._NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_PCI
+  commentId: F:NVAPIWrapper._NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_PCI
+  id: NVAPI_GPU_BUS_TYPE_PCI
+  parent: NVAPIWrapper._NV_GPU_BUS_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_BUS_TYPE_PCI
+  nameWithType: _NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_PCI
+  fullName: NVAPIWrapper._NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_PCI
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_BUS_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_BUS_TYPE_PCI
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_BUS_TYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_BUS_TYPE_PCI = 1
+    return:
+      type: NVAPIWrapper._NV_GPU_BUS_TYPE
+- uid: NVAPIWrapper._NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_AGP
+  commentId: F:NVAPIWrapper._NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_AGP
+  id: NVAPI_GPU_BUS_TYPE_AGP
+  parent: NVAPIWrapper._NV_GPU_BUS_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_BUS_TYPE_AGP
+  nameWithType: _NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_AGP
+  fullName: NVAPIWrapper._NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_AGP
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_BUS_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_BUS_TYPE_AGP
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_BUS_TYPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_BUS_TYPE_AGP = 2
+    return:
+      type: NVAPIWrapper._NV_GPU_BUS_TYPE
+- uid: NVAPIWrapper._NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_PCI_EXPRESS
+  commentId: F:NVAPIWrapper._NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_PCI_EXPRESS
+  id: NVAPI_GPU_BUS_TYPE_PCI_EXPRESS
+  parent: NVAPIWrapper._NV_GPU_BUS_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_BUS_TYPE_PCI_EXPRESS
+  nameWithType: _NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_PCI_EXPRESS
+  fullName: NVAPIWrapper._NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_PCI_EXPRESS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_BUS_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_BUS_TYPE_PCI_EXPRESS
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_BUS_TYPE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_BUS_TYPE_PCI_EXPRESS = 3
+    return:
+      type: NVAPIWrapper._NV_GPU_BUS_TYPE
+- uid: NVAPIWrapper._NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_FPCI
+  commentId: F:NVAPIWrapper._NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_FPCI
+  id: NVAPI_GPU_BUS_TYPE_FPCI
+  parent: NVAPIWrapper._NV_GPU_BUS_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_BUS_TYPE_FPCI
+  nameWithType: _NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_FPCI
+  fullName: NVAPIWrapper._NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_FPCI
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_BUS_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_BUS_TYPE_FPCI
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_BUS_TYPE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_BUS_TYPE_FPCI = 4
+    return:
+      type: NVAPIWrapper._NV_GPU_BUS_TYPE
+- uid: NVAPIWrapper._NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_AXI
+  commentId: F:NVAPIWrapper._NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_AXI
+  id: NVAPI_GPU_BUS_TYPE_AXI
+  parent: NVAPIWrapper._NV_GPU_BUS_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_BUS_TYPE_AXI
+  nameWithType: _NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_AXI
+  fullName: NVAPIWrapper._NV_GPU_BUS_TYPE.NVAPI_GPU_BUS_TYPE_AXI
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_BUS_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_BUS_TYPE_AXI
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_BUS_TYPE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_BUS_TYPE_AXI = 5
+    return:
+      type: NVAPIWrapper._NV_GPU_BUS_TYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_GPU_BUS_TYPE
+  commentId: T:NVAPIWrapper._NV_GPU_BUS_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_BUS_TYPE.html
+  name: _NV_GPU_BUS_TYPE
+  nameWithType: _NV_GPU_BUS_TYPE
+  fullName: NVAPIWrapper._NV_GPU_BUS_TYPE

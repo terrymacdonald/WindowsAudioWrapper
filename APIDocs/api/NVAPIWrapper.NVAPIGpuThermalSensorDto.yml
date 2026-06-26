@@ -1,0 +1,877 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIGpuThermalSensorDto
+  commentId: T:NVAPIWrapper.NVAPIGpuThermalSensorDto
+  id: NVAPIGpuThermalSensorDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIGpuThermalSensorDto.#ctor(NVAPIWrapper.NV_THERMAL_CONTROLLER,System.Int32,System.Int32,System.Int32,NVAPIWrapper.NV_THERMAL_TARGET)
+  - NVAPIWrapper.NVAPIGpuThermalSensorDto.Controller
+  - NVAPIWrapper.NVAPIGpuThermalSensorDto.CurrentTemp
+  - NVAPIWrapper.NVAPIGpuThermalSensorDto.DefaultMaxTemp
+  - NVAPIWrapper.NVAPIGpuThermalSensorDto.DefaultMinTemp
+  - NVAPIWrapper.NVAPIGpuThermalSensorDto.Equals(NVAPIWrapper.NVAPIGpuThermalSensorDto)
+  - NVAPIWrapper.NVAPIGpuThermalSensorDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIGpuThermalSensorDto.GetHashCode
+  - NVAPIWrapper.NVAPIGpuThermalSensorDto.Target
+  - NVAPIWrapper.NVAPIGpuThermalSensorDto.op_Equality(NVAPIWrapper.NVAPIGpuThermalSensorDto,NVAPIWrapper.NVAPIGpuThermalSensorDto)
+  - NVAPIWrapper.NVAPIGpuThermalSensorDto.op_Inequality(NVAPIWrapper.NVAPIGpuThermalSensorDto,NVAPIWrapper.NVAPIGpuThermalSensorDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGpuThermalSensorDto
+  nameWithType: NVAPIGpuThermalSensorDto
+  fullName: NVAPIWrapper.NVAPIGpuThermalSensorDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIGpuThermalSensorDto
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3002
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Thermal sensor DTO.
+  example: []
+  syntax:
+    content: 'public struct NVAPIGpuThermalSensorDto : IEquatable<NVAPIGpuThermalSensorDto>'
+    content.vb: Public Structure NVAPIGpuThermalSensorDto Implements IEquatable(Of NVAPIGpuThermalSensorDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGpuThermalSensorDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIGpuThermalSensorDto.Controller
+  commentId: P:NVAPIWrapper.NVAPIGpuThermalSensorDto.Controller
+  id: Controller
+  parent: NVAPIWrapper.NVAPIGpuThermalSensorDto
+  langs:
+  - csharp
+  - vb
+  name: Controller
+  nameWithType: NVAPIGpuThermalSensorDto.Controller
+  fullName: NVAPIWrapper.NVAPIGpuThermalSensorDto.Controller
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Controller
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3004
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NV_THERMAL_CONTROLLER Controller { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper.NV_THERMAL_CONTROLLER
+    content.vb: Public Property Controller As NV_THERMAL_CONTROLLER
+  overload: NVAPIWrapper.NVAPIGpuThermalSensorDto.Controller*
+- uid: NVAPIWrapper.NVAPIGpuThermalSensorDto.DefaultMinTemp
+  commentId: P:NVAPIWrapper.NVAPIGpuThermalSensorDto.DefaultMinTemp
+  id: DefaultMinTemp
+  parent: NVAPIWrapper.NVAPIGpuThermalSensorDto
+  langs:
+  - csharp
+  - vb
+  name: DefaultMinTemp
+  nameWithType: NVAPIGpuThermalSensorDto.DefaultMinTemp
+  fullName: NVAPIWrapper.NVAPIGpuThermalSensorDto.DefaultMinTemp
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: DefaultMinTemp
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3005
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public int DefaultMinTemp { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DefaultMinTemp As Integer
+  overload: NVAPIWrapper.NVAPIGpuThermalSensorDto.DefaultMinTemp*
+- uid: NVAPIWrapper.NVAPIGpuThermalSensorDto.DefaultMaxTemp
+  commentId: P:NVAPIWrapper.NVAPIGpuThermalSensorDto.DefaultMaxTemp
+  id: DefaultMaxTemp
+  parent: NVAPIWrapper.NVAPIGpuThermalSensorDto
+  langs:
+  - csharp
+  - vb
+  name: DefaultMaxTemp
+  nameWithType: NVAPIGpuThermalSensorDto.DefaultMaxTemp
+  fullName: NVAPIWrapper.NVAPIGpuThermalSensorDto.DefaultMaxTemp
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: DefaultMaxTemp
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3006
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public int DefaultMaxTemp { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DefaultMaxTemp As Integer
+  overload: NVAPIWrapper.NVAPIGpuThermalSensorDto.DefaultMaxTemp*
+- uid: NVAPIWrapper.NVAPIGpuThermalSensorDto.CurrentTemp
+  commentId: P:NVAPIWrapper.NVAPIGpuThermalSensorDto.CurrentTemp
+  id: CurrentTemp
+  parent: NVAPIWrapper.NVAPIGpuThermalSensorDto
+  langs:
+  - csharp
+  - vb
+  name: CurrentTemp
+  nameWithType: NVAPIGpuThermalSensorDto.CurrentTemp
+  fullName: NVAPIWrapper.NVAPIGpuThermalSensorDto.CurrentTemp
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CurrentTemp
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3007
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public int CurrentTemp { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CurrentTemp As Integer
+  overload: NVAPIWrapper.NVAPIGpuThermalSensorDto.CurrentTemp*
+- uid: NVAPIWrapper.NVAPIGpuThermalSensorDto.Target
+  commentId: P:NVAPIWrapper.NVAPIGpuThermalSensorDto.Target
+  id: Target
+  parent: NVAPIWrapper.NVAPIGpuThermalSensorDto
+  langs:
+  - csharp
+  - vb
+  name: Target
+  nameWithType: NVAPIGpuThermalSensorDto.Target
+  fullName: NVAPIWrapper.NVAPIGpuThermalSensorDto.Target
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Target
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3008
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NV_THERMAL_TARGET Target { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper.NV_THERMAL_TARGET
+    content.vb: Public Property Target As NV_THERMAL_TARGET
+  overload: NVAPIWrapper.NVAPIGpuThermalSensorDto.Target*
+- uid: NVAPIWrapper.NVAPIGpuThermalSensorDto.#ctor(NVAPIWrapper.NV_THERMAL_CONTROLLER,System.Int32,System.Int32,System.Int32,NVAPIWrapper.NV_THERMAL_TARGET)
+  commentId: M:NVAPIWrapper.NVAPIGpuThermalSensorDto.#ctor(NVAPIWrapper.NV_THERMAL_CONTROLLER,System.Int32,System.Int32,System.Int32,NVAPIWrapper.NV_THERMAL_TARGET)
+  id: '#ctor(NVAPIWrapper.NV_THERMAL_CONTROLLER,System.Int32,System.Int32,System.Int32,NVAPIWrapper.NV_THERMAL_TARGET)'
+  parent: NVAPIWrapper.NVAPIGpuThermalSensorDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGpuThermalSensorDto(NV_THERMAL_CONTROLLER, int, int, int, NV_THERMAL_TARGET)
+  nameWithType: NVAPIGpuThermalSensorDto.NVAPIGpuThermalSensorDto(NV_THERMAL_CONTROLLER, int, int, int, NV_THERMAL_TARGET)
+  fullName: NVAPIWrapper.NVAPIGpuThermalSensorDto.NVAPIGpuThermalSensorDto(NVAPIWrapper.NV_THERMAL_CONTROLLER, int, int, int, NVAPIWrapper.NV_THERMAL_TARGET)
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3010
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NVAPIGpuThermalSensorDto(NV_THERMAL_CONTROLLER controller, int defaultMinTemp, int defaultMaxTemp, int currentTemp, NV_THERMAL_TARGET target)
+    parameters:
+    - id: controller
+      type: NVAPIWrapper.NV_THERMAL_CONTROLLER
+    - id: defaultMinTemp
+      type: System.Int32
+    - id: defaultMaxTemp
+      type: System.Int32
+    - id: currentTemp
+      type: System.Int32
+    - id: target
+      type: NVAPIWrapper.NV_THERMAL_TARGET
+    content.vb: Public Sub New(controller As NV_THERMAL_CONTROLLER, defaultMinTemp As Integer, defaultMaxTemp As Integer, currentTemp As Integer, target As NV_THERMAL_TARGET)
+  overload: NVAPIWrapper.NVAPIGpuThermalSensorDto.#ctor*
+  nameWithType.vb: NVAPIGpuThermalSensorDto.New(NV_THERMAL_CONTROLLER, Integer, Integer, Integer, NV_THERMAL_TARGET)
+  fullName.vb: NVAPIWrapper.NVAPIGpuThermalSensorDto.New(NVAPIWrapper.NV_THERMAL_CONTROLLER, Integer, Integer, Integer, NVAPIWrapper.NV_THERMAL_TARGET)
+  name.vb: New(NV_THERMAL_CONTROLLER, Integer, Integer, Integer, NV_THERMAL_TARGET)
+- uid: NVAPIWrapper.NVAPIGpuThermalSensorDto.Equals(NVAPIWrapper.NVAPIGpuThermalSensorDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuThermalSensorDto.Equals(NVAPIWrapper.NVAPIGpuThermalSensorDto)
+  id: Equals(NVAPIWrapper.NVAPIGpuThermalSensorDto)
+  parent: NVAPIWrapper.NVAPIGpuThermalSensorDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIGpuThermalSensorDto)
+  nameWithType: NVAPIGpuThermalSensorDto.Equals(NVAPIGpuThermalSensorDto)
+  fullName: NVAPIWrapper.NVAPIGpuThermalSensorDto.Equals(NVAPIWrapper.NVAPIGpuThermalSensorDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3041
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIGpuThermalSensorDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIGpuThermalSensorDto
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As NVAPIGpuThermalSensorDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuThermalSensorDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGpuThermalSensorDto}.Equals(NVAPIWrapper.NVAPIGpuThermalSensorDto)
+- uid: NVAPIWrapper.NVAPIGpuThermalSensorDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIGpuThermalSensorDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIGpuThermalSensorDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIGpuThermalSensorDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIGpuThermalSensorDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3050
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIGpuThermalSensorDto.Equals*
+  nameWithType.vb: NVAPIGpuThermalSensorDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIGpuThermalSensorDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIGpuThermalSensorDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIGpuThermalSensorDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIGpuThermalSensorDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIGpuThermalSensorDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIGpuThermalSensorDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3051
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIGpuThermalSensorDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIGpuThermalSensorDto.op_Equality(NVAPIWrapper.NVAPIGpuThermalSensorDto,NVAPIWrapper.NVAPIGpuThermalSensorDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuThermalSensorDto.op_Equality(NVAPIWrapper.NVAPIGpuThermalSensorDto,NVAPIWrapper.NVAPIGpuThermalSensorDto)
+  id: op_Equality(NVAPIWrapper.NVAPIGpuThermalSensorDto,NVAPIWrapper.NVAPIGpuThermalSensorDto)
+  parent: NVAPIWrapper.NVAPIGpuThermalSensorDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIGpuThermalSensorDto, NVAPIGpuThermalSensorDto)
+  nameWithType: NVAPIGpuThermalSensorDto.operator ==(NVAPIGpuThermalSensorDto, NVAPIGpuThermalSensorDto)
+  fullName: NVAPIWrapper.NVAPIGpuThermalSensorDto.operator ==(NVAPIWrapper.NVAPIGpuThermalSensorDto, NVAPIWrapper.NVAPIGpuThermalSensorDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3052
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static bool operator ==(NVAPIGpuThermalSensorDto left, NVAPIGpuThermalSensorDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGpuThermalSensorDto
+    - id: right
+      type: NVAPIWrapper.NVAPIGpuThermalSensorDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As NVAPIGpuThermalSensorDto, right As NVAPIGpuThermalSensorDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuThermalSensorDto.op_Equality*
+  nameWithType.vb: NVAPIGpuThermalSensorDto.=(NVAPIGpuThermalSensorDto, NVAPIGpuThermalSensorDto)
+  fullName.vb: NVAPIWrapper.NVAPIGpuThermalSensorDto.=(NVAPIWrapper.NVAPIGpuThermalSensorDto, NVAPIWrapper.NVAPIGpuThermalSensorDto)
+  name.vb: =(NVAPIGpuThermalSensorDto, NVAPIGpuThermalSensorDto)
+- uid: NVAPIWrapper.NVAPIGpuThermalSensorDto.op_Inequality(NVAPIWrapper.NVAPIGpuThermalSensorDto,NVAPIWrapper.NVAPIGpuThermalSensorDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuThermalSensorDto.op_Inequality(NVAPIWrapper.NVAPIGpuThermalSensorDto,NVAPIWrapper.NVAPIGpuThermalSensorDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIGpuThermalSensorDto,NVAPIWrapper.NVAPIGpuThermalSensorDto)
+  parent: NVAPIWrapper.NVAPIGpuThermalSensorDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIGpuThermalSensorDto, NVAPIGpuThermalSensorDto)
+  nameWithType: NVAPIGpuThermalSensorDto.operator !=(NVAPIGpuThermalSensorDto, NVAPIGpuThermalSensorDto)
+  fullName: NVAPIWrapper.NVAPIGpuThermalSensorDto.operator !=(NVAPIWrapper.NVAPIGpuThermalSensorDto, NVAPIWrapper.NVAPIGpuThermalSensorDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3053
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static bool operator !=(NVAPIGpuThermalSensorDto left, NVAPIGpuThermalSensorDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGpuThermalSensorDto
+    - id: right
+      type: NVAPIWrapper.NVAPIGpuThermalSensorDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As NVAPIGpuThermalSensorDto, right As NVAPIGpuThermalSensorDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuThermalSensorDto.op_Inequality*
+  nameWithType.vb: NVAPIGpuThermalSensorDto.<>(NVAPIGpuThermalSensorDto, NVAPIGpuThermalSensorDto)
+  fullName.vb: NVAPIWrapper.NVAPIGpuThermalSensorDto.<>(NVAPIWrapper.NVAPIGpuThermalSensorDto, NVAPIWrapper.NVAPIGpuThermalSensorDto)
+  name.vb: <>(NVAPIGpuThermalSensorDto, NVAPIGpuThermalSensorDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGpuThermalSensorDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIGpuThermalSensorDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIGpuThermalSensorDto>
+  nameWithType: IEquatable<NVAPIGpuThermalSensorDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGpuThermalSensorDto>
+  nameWithType.vb: IEquatable(Of NVAPIGpuThermalSensorDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGpuThermalSensorDto)
+  name.vb: IEquatable(Of NVAPIGpuThermalSensorDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIGpuThermalSensorDto
+    name: NVAPIGpuThermalSensorDto
+    href: NVAPIWrapper.NVAPIGpuThermalSensorDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuThermalSensorDto
+    name: NVAPIGpuThermalSensorDto
+    href: NVAPIWrapper.NVAPIGpuThermalSensorDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIGpuThermalSensorDto.Controller*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuThermalSensorDto.Controller
+  href: NVAPIWrapper.NVAPIGpuThermalSensorDto.html#NVAPIWrapper_NVAPIGpuThermalSensorDto_Controller
+  name: Controller
+  nameWithType: NVAPIGpuThermalSensorDto.Controller
+  fullName: NVAPIWrapper.NVAPIGpuThermalSensorDto.Controller
+- uid: NVAPIWrapper.NV_THERMAL_CONTROLLER
+  commentId: T:NVAPIWrapper.NV_THERMAL_CONTROLLER
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_THERMAL_CONTROLLER.html
+  name: NV_THERMAL_CONTROLLER
+  nameWithType: NV_THERMAL_CONTROLLER
+  fullName: NVAPIWrapper.NV_THERMAL_CONTROLLER
+- uid: NVAPIWrapper.NVAPIGpuThermalSensorDto.DefaultMinTemp*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuThermalSensorDto.DefaultMinTemp
+  href: NVAPIWrapper.NVAPIGpuThermalSensorDto.html#NVAPIWrapper_NVAPIGpuThermalSensorDto_DefaultMinTemp
+  name: DefaultMinTemp
+  nameWithType: NVAPIGpuThermalSensorDto.DefaultMinTemp
+  fullName: NVAPIWrapper.NVAPIGpuThermalSensorDto.DefaultMinTemp
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIGpuThermalSensorDto.DefaultMaxTemp*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuThermalSensorDto.DefaultMaxTemp
+  href: NVAPIWrapper.NVAPIGpuThermalSensorDto.html#NVAPIWrapper_NVAPIGpuThermalSensorDto_DefaultMaxTemp
+  name: DefaultMaxTemp
+  nameWithType: NVAPIGpuThermalSensorDto.DefaultMaxTemp
+  fullName: NVAPIWrapper.NVAPIGpuThermalSensorDto.DefaultMaxTemp
+- uid: NVAPIWrapper.NVAPIGpuThermalSensorDto.CurrentTemp*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuThermalSensorDto.CurrentTemp
+  href: NVAPIWrapper.NVAPIGpuThermalSensorDto.html#NVAPIWrapper_NVAPIGpuThermalSensorDto_CurrentTemp
+  name: CurrentTemp
+  nameWithType: NVAPIGpuThermalSensorDto.CurrentTemp
+  fullName: NVAPIWrapper.NVAPIGpuThermalSensorDto.CurrentTemp
+- uid: NVAPIWrapper.NVAPIGpuThermalSensorDto.Target*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuThermalSensorDto.Target
+  href: NVAPIWrapper.NVAPIGpuThermalSensorDto.html#NVAPIWrapper_NVAPIGpuThermalSensorDto_Target
+  name: Target
+  nameWithType: NVAPIGpuThermalSensorDto.Target
+  fullName: NVAPIWrapper.NVAPIGpuThermalSensorDto.Target
+- uid: NVAPIWrapper.NV_THERMAL_TARGET
+  commentId: T:NVAPIWrapper.NV_THERMAL_TARGET
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_THERMAL_TARGET.html
+  name: NV_THERMAL_TARGET
+  nameWithType: NV_THERMAL_TARGET
+  fullName: NVAPIWrapper.NV_THERMAL_TARGET
+- uid: NVAPIWrapper.NVAPIGpuThermalSensorDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuThermalSensorDto.#ctor
+  href: NVAPIWrapper.NVAPIGpuThermalSensorDto.html#NVAPIWrapper_NVAPIGpuThermalSensorDto__ctor_NVAPIWrapper_NV_THERMAL_CONTROLLER_System_Int32_System_Int32_System_Int32_NVAPIWrapper_NV_THERMAL_TARGET_
+  name: NVAPIGpuThermalSensorDto
+  nameWithType: NVAPIGpuThermalSensorDto.NVAPIGpuThermalSensorDto
+  fullName: NVAPIWrapper.NVAPIGpuThermalSensorDto.NVAPIGpuThermalSensorDto
+  nameWithType.vb: NVAPIGpuThermalSensorDto.New
+  fullName.vb: NVAPIWrapper.NVAPIGpuThermalSensorDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPIGpuThermalSensorDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuThermalSensorDto.Equals
+  href: NVAPIWrapper.NVAPIGpuThermalSensorDto.html#NVAPIWrapper_NVAPIGpuThermalSensorDto_Equals_NVAPIWrapper_NVAPIGpuThermalSensorDto_
+  name: Equals
+  nameWithType: NVAPIGpuThermalSensorDto.Equals
+  fullName: NVAPIWrapper.NVAPIGpuThermalSensorDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGpuThermalSensorDto}.Equals(NVAPIWrapper.NVAPIGpuThermalSensorDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIGpuThermalSensorDto}.Equals(NVAPIWrapper.NVAPIGpuThermalSensorDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIGpuThermalSensorDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIGpuThermalSensorDto)
+  nameWithType: IEquatable<NVAPIGpuThermalSensorDto>.Equals(NVAPIGpuThermalSensorDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGpuThermalSensorDto>.Equals(NVAPIWrapper.NVAPIGpuThermalSensorDto)
+  nameWithType.vb: IEquatable(Of NVAPIGpuThermalSensorDto).Equals(NVAPIGpuThermalSensorDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGpuThermalSensorDto).Equals(NVAPIWrapper.NVAPIGpuThermalSensorDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGpuThermalSensorDto}.Equals(NVAPIWrapper.NVAPIGpuThermalSensorDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGpuThermalSensorDto
+    name: NVAPIGpuThermalSensorDto
+    href: NVAPIWrapper.NVAPIGpuThermalSensorDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGpuThermalSensorDto}.Equals(NVAPIWrapper.NVAPIGpuThermalSensorDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGpuThermalSensorDto
+    name: NVAPIGpuThermalSensorDto
+    href: NVAPIWrapper.NVAPIGpuThermalSensorDto.html
+  - name: )
+- uid: NVAPIWrapper.NVAPIGpuThermalSensorDto
+  commentId: T:NVAPIWrapper.NVAPIGpuThermalSensorDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIGpuThermalSensorDto.html
+  name: NVAPIGpuThermalSensorDto
+  nameWithType: NVAPIGpuThermalSensorDto
+  fullName: NVAPIWrapper.NVAPIGpuThermalSensorDto
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIGpuThermalSensorDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuThermalSensorDto.GetHashCode
+  href: NVAPIWrapper.NVAPIGpuThermalSensorDto.html#NVAPIWrapper_NVAPIGpuThermalSensorDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIGpuThermalSensorDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIGpuThermalSensorDto.GetHashCode
+- uid: NVAPIWrapper.NVAPIGpuThermalSensorDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuThermalSensorDto.op_Equality
+  href: NVAPIWrapper.NVAPIGpuThermalSensorDto.html#NVAPIWrapper_NVAPIGpuThermalSensorDto_op_Equality_NVAPIWrapper_NVAPIGpuThermalSensorDto_NVAPIWrapper_NVAPIGpuThermalSensorDto_
+  name: operator ==
+  nameWithType: NVAPIGpuThermalSensorDto.operator ==
+  fullName: NVAPIWrapper.NVAPIGpuThermalSensorDto.operator ==
+  nameWithType.vb: NVAPIGpuThermalSensorDto.=
+  fullName.vb: NVAPIWrapper.NVAPIGpuThermalSensorDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuThermalSensorDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIGpuThermalSensorDto.html#NVAPIWrapper_NVAPIGpuThermalSensorDto_op_Equality_NVAPIWrapper_NVAPIGpuThermalSensorDto_NVAPIWrapper_NVAPIGpuThermalSensorDto_
+- uid: NVAPIWrapper.NVAPIGpuThermalSensorDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuThermalSensorDto.op_Inequality
+  href: NVAPIWrapper.NVAPIGpuThermalSensorDto.html#NVAPIWrapper_NVAPIGpuThermalSensorDto_op_Inequality_NVAPIWrapper_NVAPIGpuThermalSensorDto_NVAPIWrapper_NVAPIGpuThermalSensorDto_
+  name: operator !=
+  nameWithType: NVAPIGpuThermalSensorDto.operator !=
+  fullName: NVAPIWrapper.NVAPIGpuThermalSensorDto.operator !=
+  nameWithType.vb: NVAPIGpuThermalSensorDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIGpuThermalSensorDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuThermalSensorDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIGpuThermalSensorDto.html#NVAPIWrapper_NVAPIGpuThermalSensorDto_op_Inequality_NVAPIWrapper_NVAPIGpuThermalSensorDto_NVAPIWrapper_NVAPIGpuThermalSensorDto_

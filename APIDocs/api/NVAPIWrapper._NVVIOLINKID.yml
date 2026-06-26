@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVVIOLINKID
+  commentId: T:NVAPIWrapper._NVVIOLINKID
+  id: _NVVIOLINKID
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVVIOLINKID.NVVIOLINKID_A
+  - NVAPIWrapper._NVVIOLINKID.NVVIOLINKID_B
+  - NVAPIWrapper._NVVIOLINKID.NVVIOLINKID_C
+  - NVAPIWrapper._NVVIOLINKID.NVVIOLINKID_D
+  - NVAPIWrapper._NVVIOLINKID.NVVIOLINKID_UNKNOWN
+  langs:
+  - csharp
+  - vb
+  name: _NVVIOLINKID
+  nameWithType: _NVVIOLINKID
+  fullName: NVAPIWrapper._NVVIOLINKID
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOLINKID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVVIOLINKID
+    path: ../NVAPIWrapper/cs_generated/_NVVIOLINKID.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVVIOLINKID
+    content.vb: Public Enum _NVVIOLINKID
+- uid: NVAPIWrapper._NVVIOLINKID.NVVIOLINKID_UNKNOWN
+  commentId: F:NVAPIWrapper._NVVIOLINKID.NVVIOLINKID_UNKNOWN
+  id: NVVIOLINKID_UNKNOWN
+  parent: NVAPIWrapper._NVVIOLINKID
+  langs:
+  - csharp
+  - vb
+  name: NVVIOLINKID_UNKNOWN
+  nameWithType: _NVVIOLINKID.NVVIOLINKID_UNKNOWN
+  fullName: NVAPIWrapper._NVVIOLINKID.NVVIOLINKID_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOLINKID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOLINKID_UNKNOWN
+    path: ../NVAPIWrapper/cs_generated/_NVVIOLINKID.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOLINKID_UNKNOWN = 0
+    return:
+      type: NVAPIWrapper._NVVIOLINKID
+- uid: NVAPIWrapper._NVVIOLINKID.NVVIOLINKID_A
+  commentId: F:NVAPIWrapper._NVVIOLINKID.NVVIOLINKID_A
+  id: NVVIOLINKID_A
+  parent: NVAPIWrapper._NVVIOLINKID
+  langs:
+  - csharp
+  - vb
+  name: NVVIOLINKID_A
+  nameWithType: _NVVIOLINKID.NVVIOLINKID_A
+  fullName: NVAPIWrapper._NVVIOLINKID.NVVIOLINKID_A
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOLINKID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOLINKID_A
+    path: ../NVAPIWrapper/cs_generated/_NVVIOLINKID.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOLINKID_A = 1
+    return:
+      type: NVAPIWrapper._NVVIOLINKID
+- uid: NVAPIWrapper._NVVIOLINKID.NVVIOLINKID_B
+  commentId: F:NVAPIWrapper._NVVIOLINKID.NVVIOLINKID_B
+  id: NVVIOLINKID_B
+  parent: NVAPIWrapper._NVVIOLINKID
+  langs:
+  - csharp
+  - vb
+  name: NVVIOLINKID_B
+  nameWithType: _NVVIOLINKID.NVVIOLINKID_B
+  fullName: NVAPIWrapper._NVVIOLINKID.NVVIOLINKID_B
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOLINKID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOLINKID_B
+    path: ../NVAPIWrapper/cs_generated/_NVVIOLINKID.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOLINKID_B = 2
+    return:
+      type: NVAPIWrapper._NVVIOLINKID
+- uid: NVAPIWrapper._NVVIOLINKID.NVVIOLINKID_C
+  commentId: F:NVAPIWrapper._NVVIOLINKID.NVVIOLINKID_C
+  id: NVVIOLINKID_C
+  parent: NVAPIWrapper._NVVIOLINKID
+  langs:
+  - csharp
+  - vb
+  name: NVVIOLINKID_C
+  nameWithType: _NVVIOLINKID.NVVIOLINKID_C
+  fullName: NVAPIWrapper._NVVIOLINKID.NVVIOLINKID_C
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOLINKID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOLINKID_C
+    path: ../NVAPIWrapper/cs_generated/_NVVIOLINKID.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOLINKID_C = 3
+    return:
+      type: NVAPIWrapper._NVVIOLINKID
+- uid: NVAPIWrapper._NVVIOLINKID.NVVIOLINKID_D
+  commentId: F:NVAPIWrapper._NVVIOLINKID.NVVIOLINKID_D
+  id: NVVIOLINKID_D
+  parent: NVAPIWrapper._NVVIOLINKID
+  langs:
+  - csharp
+  - vb
+  name: NVVIOLINKID_D
+  nameWithType: _NVVIOLINKID.NVVIOLINKID_D
+  fullName: NVAPIWrapper._NVVIOLINKID.NVVIOLINKID_D
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOLINKID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOLINKID_D
+    path: ../NVAPIWrapper/cs_generated/_NVVIOLINKID.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOLINKID_D = 4
+    return:
+      type: NVAPIWrapper._NVVIOLINKID
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVVIOLINKID
+  commentId: T:NVAPIWrapper._NVVIOLINKID
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOLINKID.html
+  name: _NVVIOLINKID
+  nameWithType: _NVVIOLINKID
+  fullName: NVAPIWrapper._NVVIOLINKID

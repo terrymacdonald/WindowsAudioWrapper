@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS
+  commentId: T:NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS
+  id: _NV_DISPLAYCONFIG_FLAGS
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS.NV_DISPLAYCONFIG_DRIVER_RELOAD_ALLOWED
+  - NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS.NV_DISPLAYCONFIG_FORCE_MODE_ENUMERATION
+  - NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS.NV_DISPLAYCONFIG_SAVE_TO_PERSISTENCE
+  - NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS.NV_DISPLAYCONFIG_VALIDATE_ONLY
+  - NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS.NV_FORCE_COMMIT_VIDPN
+  langs:
+  - csharp
+  - vb
+  name: _NV_DISPLAYCONFIG_FLAGS
+  nameWithType: _NV_DISPLAYCONFIG_FLAGS
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_DISPLAYCONFIG_FLAGS
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_FLAGS.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_DISPLAYCONFIG_FLAGS
+    content.vb: Public Enum _NV_DISPLAYCONFIG_FLAGS
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS.NV_DISPLAYCONFIG_VALIDATE_ONLY
+  commentId: F:NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS.NV_DISPLAYCONFIG_VALIDATE_ONLY
+  id: NV_DISPLAYCONFIG_VALIDATE_ONLY
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAYCONFIG_VALIDATE_ONLY
+  nameWithType: _NV_DISPLAYCONFIG_FLAGS.NV_DISPLAYCONFIG_VALIDATE_ONLY
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS.NV_DISPLAYCONFIG_VALIDATE_ONLY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAYCONFIG_VALIDATE_ONLY
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_FLAGS.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAYCONFIG_VALIDATE_ONLY = 1
+    return:
+      type: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS.NV_DISPLAYCONFIG_SAVE_TO_PERSISTENCE
+  commentId: F:NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS.NV_DISPLAYCONFIG_SAVE_TO_PERSISTENCE
+  id: NV_DISPLAYCONFIG_SAVE_TO_PERSISTENCE
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAYCONFIG_SAVE_TO_PERSISTENCE
+  nameWithType: _NV_DISPLAYCONFIG_FLAGS.NV_DISPLAYCONFIG_SAVE_TO_PERSISTENCE
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS.NV_DISPLAYCONFIG_SAVE_TO_PERSISTENCE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAYCONFIG_SAVE_TO_PERSISTENCE
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_FLAGS.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAYCONFIG_SAVE_TO_PERSISTENCE = 2
+    return:
+      type: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS.NV_DISPLAYCONFIG_DRIVER_RELOAD_ALLOWED
+  commentId: F:NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS.NV_DISPLAYCONFIG_DRIVER_RELOAD_ALLOWED
+  id: NV_DISPLAYCONFIG_DRIVER_RELOAD_ALLOWED
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAYCONFIG_DRIVER_RELOAD_ALLOWED
+  nameWithType: _NV_DISPLAYCONFIG_FLAGS.NV_DISPLAYCONFIG_DRIVER_RELOAD_ALLOWED
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS.NV_DISPLAYCONFIG_DRIVER_RELOAD_ALLOWED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAYCONFIG_DRIVER_RELOAD_ALLOWED
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_FLAGS.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAYCONFIG_DRIVER_RELOAD_ALLOWED = 4
+    return:
+      type: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS.NV_DISPLAYCONFIG_FORCE_MODE_ENUMERATION
+  commentId: F:NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS.NV_DISPLAYCONFIG_FORCE_MODE_ENUMERATION
+  id: NV_DISPLAYCONFIG_FORCE_MODE_ENUMERATION
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAYCONFIG_FORCE_MODE_ENUMERATION
+  nameWithType: _NV_DISPLAYCONFIG_FLAGS.NV_DISPLAYCONFIG_FORCE_MODE_ENUMERATION
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS.NV_DISPLAYCONFIG_FORCE_MODE_ENUMERATION
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAYCONFIG_FORCE_MODE_ENUMERATION
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_FLAGS.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAYCONFIG_FORCE_MODE_ENUMERATION = 8
+    return:
+      type: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS.NV_FORCE_COMMIT_VIDPN
+  commentId: F:NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS.NV_FORCE_COMMIT_VIDPN
+  id: NV_FORCE_COMMIT_VIDPN
+  parent: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: NV_FORCE_COMMIT_VIDPN
+  nameWithType: _NV_DISPLAYCONFIG_FLAGS.NV_FORCE_COMMIT_VIDPN
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS.NV_FORCE_COMMIT_VIDPN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_FORCE_COMMIT_VIDPN
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAYCONFIG_FLAGS.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_FORCE_COMMIT_VIDPN = 16
+    return:
+      type: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS
+  commentId: T:NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS.html
+  name: _NV_DISPLAYCONFIG_FLAGS
+  nameWithType: _NV_DISPLAYCONFIG_FLAGS
+  fullName: NVAPIWrapper._NV_DISPLAYCONFIG_FLAGS

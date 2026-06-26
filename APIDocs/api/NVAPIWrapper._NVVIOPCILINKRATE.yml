@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVVIOPCILINKRATE
+  commentId: T:NVAPIWrapper._NVVIOPCILINKRATE
+  id: _NVVIOPCILINKRATE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVVIOPCILINKRATE.NVVIOPCILINKRATE_GEN1
+  - NVAPIWrapper._NVVIOPCILINKRATE.NVVIOPCILINKRATE_GEN2
+  - NVAPIWrapper._NVVIOPCILINKRATE.NVVIOPCILINKRATE_GEN3
+  - NVAPIWrapper._NVVIOPCILINKRATE.NVVIOPCILINKRATE_UNKNOWN
+  langs:
+  - csharp
+  - vb
+  name: _NVVIOPCILINKRATE
+  nameWithType: _NVVIOPCILINKRATE
+  fullName: NVAPIWrapper._NVVIOPCILINKRATE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOPCILINKRATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVVIOPCILINKRATE
+    path: ../NVAPIWrapper/cs_generated/_NVVIOPCILINKRATE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVVIOPCILINKRATE
+    content.vb: Public Enum _NVVIOPCILINKRATE
+- uid: NVAPIWrapper._NVVIOPCILINKRATE.NVVIOPCILINKRATE_UNKNOWN
+  commentId: F:NVAPIWrapper._NVVIOPCILINKRATE.NVVIOPCILINKRATE_UNKNOWN
+  id: NVVIOPCILINKRATE_UNKNOWN
+  parent: NVAPIWrapper._NVVIOPCILINKRATE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOPCILINKRATE_UNKNOWN
+  nameWithType: _NVVIOPCILINKRATE.NVVIOPCILINKRATE_UNKNOWN
+  fullName: NVAPIWrapper._NVVIOPCILINKRATE.NVVIOPCILINKRATE_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOPCILINKRATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOPCILINKRATE_UNKNOWN
+    path: ../NVAPIWrapper/cs_generated/_NVVIOPCILINKRATE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOPCILINKRATE_UNKNOWN = 0
+    return:
+      type: NVAPIWrapper._NVVIOPCILINKRATE
+- uid: NVAPIWrapper._NVVIOPCILINKRATE.NVVIOPCILINKRATE_GEN1
+  commentId: F:NVAPIWrapper._NVVIOPCILINKRATE.NVVIOPCILINKRATE_GEN1
+  id: NVVIOPCILINKRATE_GEN1
+  parent: NVAPIWrapper._NVVIOPCILINKRATE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOPCILINKRATE_GEN1
+  nameWithType: _NVVIOPCILINKRATE.NVVIOPCILINKRATE_GEN1
+  fullName: NVAPIWrapper._NVVIOPCILINKRATE.NVVIOPCILINKRATE_GEN1
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOPCILINKRATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOPCILINKRATE_GEN1
+    path: ../NVAPIWrapper/cs_generated/_NVVIOPCILINKRATE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOPCILINKRATE_GEN1 = 1
+    return:
+      type: NVAPIWrapper._NVVIOPCILINKRATE
+- uid: NVAPIWrapper._NVVIOPCILINKRATE.NVVIOPCILINKRATE_GEN2
+  commentId: F:NVAPIWrapper._NVVIOPCILINKRATE.NVVIOPCILINKRATE_GEN2
+  id: NVVIOPCILINKRATE_GEN2
+  parent: NVAPIWrapper._NVVIOPCILINKRATE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOPCILINKRATE_GEN2
+  nameWithType: _NVVIOPCILINKRATE.NVVIOPCILINKRATE_GEN2
+  fullName: NVAPIWrapper._NVVIOPCILINKRATE.NVVIOPCILINKRATE_GEN2
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOPCILINKRATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOPCILINKRATE_GEN2
+    path: ../NVAPIWrapper/cs_generated/_NVVIOPCILINKRATE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOPCILINKRATE_GEN2 = 2
+    return:
+      type: NVAPIWrapper._NVVIOPCILINKRATE
+- uid: NVAPIWrapper._NVVIOPCILINKRATE.NVVIOPCILINKRATE_GEN3
+  commentId: F:NVAPIWrapper._NVVIOPCILINKRATE.NVVIOPCILINKRATE_GEN3
+  id: NVVIOPCILINKRATE_GEN3
+  parent: NVAPIWrapper._NVVIOPCILINKRATE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOPCILINKRATE_GEN3
+  nameWithType: _NVVIOPCILINKRATE.NVVIOPCILINKRATE_GEN3
+  fullName: NVAPIWrapper._NVVIOPCILINKRATE.NVVIOPCILINKRATE_GEN3
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOPCILINKRATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOPCILINKRATE_GEN3
+    path: ../NVAPIWrapper/cs_generated/_NVVIOPCILINKRATE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOPCILINKRATE_GEN3 = 3
+    return:
+      type: NVAPIWrapper._NVVIOPCILINKRATE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVVIOPCILINKRATE
+  commentId: T:NVAPIWrapper._NVVIOPCILINKRATE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOPCILINKRATE.html
+  name: _NVVIOPCILINKRATE
+  nameWithType: _NVVIOPCILINKRATE
+  fullName: NVAPIWrapper._NVVIOPCILINKRATE

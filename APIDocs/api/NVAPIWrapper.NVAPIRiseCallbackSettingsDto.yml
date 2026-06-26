@@ -1,0 +1,778 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+  commentId: T:NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+  id: NVAPIRiseCallbackSettingsDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIRiseCallbackSettingsDto.#ctor(System.IntPtr,System.IntPtr)
+  - NVAPIWrapper.NVAPIRiseCallbackSettingsDto.Callback
+  - NVAPIWrapper.NVAPIRiseCallbackSettingsDto.CallbackParam
+  - NVAPIWrapper.NVAPIRiseCallbackSettingsDto.Equals(NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  - NVAPIWrapper.NVAPIRiseCallbackSettingsDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIRiseCallbackSettingsDto.GetHashCode
+  - NVAPIWrapper.NVAPIRiseCallbackSettingsDto.op_Equality(NVAPIWrapper.NVAPIRiseCallbackSettingsDto,NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  - NVAPIWrapper.NVAPIRiseCallbackSettingsDto.op_Inequality(NVAPIWrapper.NVAPIRiseCallbackSettingsDto,NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIRiseCallbackSettingsDto
+  nameWithType: NVAPIRiseCallbackSettingsDto
+  fullName: NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIRiseCallbackSettingsDto
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1268
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: RISE callback settings DTO.
+  example: []
+  syntax:
+    content: 'public struct NVAPIRiseCallbackSettingsDto : IEquatable<NVAPIRiseCallbackSettingsDto>'
+    content.vb: Public Structure NVAPIRiseCallbackSettingsDto Implements IEquatable(Of NVAPIRiseCallbackSettingsDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIRiseCallbackSettingsDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.#ctor(System.IntPtr,System.IntPtr)
+  commentId: M:NVAPIWrapper.NVAPIRiseCallbackSettingsDto.#ctor(System.IntPtr,System.IntPtr)
+  id: '#ctor(System.IntPtr,System.IntPtr)'
+  parent: NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIRiseCallbackSettingsDto(nint, nint)
+  nameWithType: NVAPIRiseCallbackSettingsDto.NVAPIRiseCallbackSettingsDto(nint, nint)
+  fullName: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.NVAPIRiseCallbackSettingsDto(nint, nint)
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1275
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Initializes a new instance of the <xref href="NVAPIWrapper.NVAPIRiseCallbackSettingsDto" data-throw-if-not-resolved="false"></xref> struct.
+  example: []
+  syntax:
+    content: public NVAPIRiseCallbackSettingsDto(nint callbackParam, nint callback)
+    parameters:
+    - id: callbackParam
+      type: System.IntPtr
+      description: Callback parameter pointer.
+    - id: callback
+      type: System.IntPtr
+      description: Callback function pointer.
+    content.vb: Public Sub New(callbackParam As IntPtr, callback As IntPtr)
+  overload: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.#ctor*
+  nameWithType.vb: NVAPIRiseCallbackSettingsDto.New(IntPtr, IntPtr)
+  fullName.vb: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.New(System.IntPtr, System.IntPtr)
+  name.vb: New(IntPtr, IntPtr)
+- uid: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.CallbackParam
+  commentId: P:NVAPIWrapper.NVAPIRiseCallbackSettingsDto.CallbackParam
+  id: CallbackParam
+  parent: NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: CallbackParam
+  nameWithType: NVAPIRiseCallbackSettingsDto.CallbackParam
+  fullName: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.CallbackParam
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CallbackParam
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1284
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Callback parameter pointer.
+  example: []
+  syntax:
+    content: public nint CallbackParam { readonly get; set; }
+    parameters: []
+    return:
+      type: System.IntPtr
+    content.vb: Public Property CallbackParam As IntPtr
+  overload: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.CallbackParam*
+- uid: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.Callback
+  commentId: P:NVAPIWrapper.NVAPIRiseCallbackSettingsDto.Callback
+  id: Callback
+  parent: NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: Callback
+  nameWithType: NVAPIRiseCallbackSettingsDto.Callback
+  fullName: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.Callback
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Callback
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1289
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Callback function pointer.
+  example: []
+  syntax:
+    content: public nint Callback { readonly get; set; }
+    parameters: []
+    return:
+      type: System.IntPtr
+    content.vb: Public Property Callback As IntPtr
+  overload: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.Callback*
+- uid: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.Equals(NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  commentId: M:NVAPIWrapper.NVAPIRiseCallbackSettingsDto.Equals(NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  id: Equals(NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  parent: NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIRiseCallbackSettingsDto)
+  nameWithType: NVAPIRiseCallbackSettingsDto.Equals(NVAPIRiseCallbackSettingsDto)
+  fullName: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.Equals(NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1301
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether this instance and another RISE callback settings instance are equal.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIRiseCallbackSettingsDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+      description: The other RISE callback settings instance.
+    return:
+      type: System.Boolean
+      description: True if the instances are equal; otherwise, false.
+    content.vb: Public Function Equals(other As NVAPIRiseCallbackSettingsDto) As Boolean
+  overload: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIRiseCallbackSettingsDto}.Equals(NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+- uid: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIRiseCallbackSettingsDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIRiseCallbackSettingsDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1311
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare.
+    return:
+      type: System.Boolean
+      description: True if equal; otherwise, false.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.Equals*
+  nameWithType.vb: NVAPIRiseCallbackSettingsDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIRiseCallbackSettingsDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIRiseCallbackSettingsDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1317
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get a hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.op_Equality(NVAPIWrapper.NVAPIRiseCallbackSettingsDto,NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  commentId: M:NVAPIWrapper.NVAPIRiseCallbackSettingsDto.op_Equality(NVAPIWrapper.NVAPIRiseCallbackSettingsDto,NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  id: op_Equality(NVAPIWrapper.NVAPIRiseCallbackSettingsDto,NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  parent: NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIRiseCallbackSettingsDto, NVAPIRiseCallbackSettingsDto)
+  nameWithType: NVAPIRiseCallbackSettingsDto.operator ==(NVAPIRiseCallbackSettingsDto, NVAPIRiseCallbackSettingsDto)
+  fullName: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.operator ==(NVAPIWrapper.NVAPIRiseCallbackSettingsDto, NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1325
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether two RISE callback settings instances are equal.
+  example: []
+  syntax:
+    content: public static bool operator ==(NVAPIRiseCallbackSettingsDto left, NVAPIRiseCallbackSettingsDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+      description: The left instance.
+    - id: right
+      type: NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+      description: The right instance.
+    return:
+      type: System.Boolean
+      description: True if the instances are equal; otherwise, false.
+    content.vb: Public Shared Operator =(left As NVAPIRiseCallbackSettingsDto, right As NVAPIRiseCallbackSettingsDto) As Boolean
+  overload: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.op_Equality*
+  nameWithType.vb: NVAPIRiseCallbackSettingsDto.=(NVAPIRiseCallbackSettingsDto, NVAPIRiseCallbackSettingsDto)
+  fullName.vb: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.=(NVAPIWrapper.NVAPIRiseCallbackSettingsDto, NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  name.vb: =(NVAPIRiseCallbackSettingsDto, NVAPIRiseCallbackSettingsDto)
+- uid: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.op_Inequality(NVAPIWrapper.NVAPIRiseCallbackSettingsDto,NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  commentId: M:NVAPIWrapper.NVAPIRiseCallbackSettingsDto.op_Inequality(NVAPIWrapper.NVAPIRiseCallbackSettingsDto,NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIRiseCallbackSettingsDto,NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  parent: NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIRiseCallbackSettingsDto, NVAPIRiseCallbackSettingsDto)
+  nameWithType: NVAPIRiseCallbackSettingsDto.operator !=(NVAPIRiseCallbackSettingsDto, NVAPIRiseCallbackSettingsDto)
+  fullName: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.operator !=(NVAPIWrapper.NVAPIRiseCallbackSettingsDto, NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 1333
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether two RISE callback settings instances are not equal.
+  example: []
+  syntax:
+    content: public static bool operator !=(NVAPIRiseCallbackSettingsDto left, NVAPIRiseCallbackSettingsDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+      description: The left instance.
+    - id: right
+      type: NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+      description: The right instance.
+    return:
+      type: System.Boolean
+      description: True if the instances are not equal; otherwise, false.
+    content.vb: Public Shared Operator <>(left As NVAPIRiseCallbackSettingsDto, right As NVAPIRiseCallbackSettingsDto) As Boolean
+  overload: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.op_Inequality*
+  nameWithType.vb: NVAPIRiseCallbackSettingsDto.<>(NVAPIRiseCallbackSettingsDto, NVAPIRiseCallbackSettingsDto)
+  fullName.vb: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.<>(NVAPIWrapper.NVAPIRiseCallbackSettingsDto, NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  name.vb: <>(NVAPIRiseCallbackSettingsDto, NVAPIRiseCallbackSettingsDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIRiseCallbackSettingsDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIRiseCallbackSettingsDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIRiseCallbackSettingsDto>
+  nameWithType: IEquatable<NVAPIRiseCallbackSettingsDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIRiseCallbackSettingsDto>
+  nameWithType.vb: IEquatable(Of NVAPIRiseCallbackSettingsDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  name.vb: IEquatable(Of NVAPIRiseCallbackSettingsDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+    name: NVAPIRiseCallbackSettingsDto
+    href: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+    name: NVAPIRiseCallbackSettingsDto
+    href: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+  commentId: T:NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.html
+  name: NVAPIRiseCallbackSettingsDto
+  nameWithType: NVAPIRiseCallbackSettingsDto
+  fullName: NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+- uid: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIRiseCallbackSettingsDto.#ctor
+  href: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.html#NVAPIWrapper_NVAPIRiseCallbackSettingsDto__ctor_System_IntPtr_System_IntPtr_
+  name: NVAPIRiseCallbackSettingsDto
+  nameWithType: NVAPIRiseCallbackSettingsDto.NVAPIRiseCallbackSettingsDto
+  fullName: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.NVAPIRiseCallbackSettingsDto
+  nameWithType.vb: NVAPIRiseCallbackSettingsDto.New
+  fullName.vb: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.New
+  name.vb: New
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.CallbackParam*
+  commentId: Overload:NVAPIWrapper.NVAPIRiseCallbackSettingsDto.CallbackParam
+  href: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.html#NVAPIWrapper_NVAPIRiseCallbackSettingsDto_CallbackParam
+  name: CallbackParam
+  nameWithType: NVAPIRiseCallbackSettingsDto.CallbackParam
+  fullName: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.CallbackParam
+- uid: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.Callback*
+  commentId: Overload:NVAPIWrapper.NVAPIRiseCallbackSettingsDto.Callback
+  href: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.html#NVAPIWrapper_NVAPIRiseCallbackSettingsDto_Callback
+  name: Callback
+  nameWithType: NVAPIRiseCallbackSettingsDto.Callback
+  fullName: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.Callback
+- uid: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIRiseCallbackSettingsDto.Equals
+  href: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.html#NVAPIWrapper_NVAPIRiseCallbackSettingsDto_Equals_NVAPIWrapper_NVAPIRiseCallbackSettingsDto_
+  name: Equals
+  nameWithType: NVAPIRiseCallbackSettingsDto.Equals
+  fullName: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIRiseCallbackSettingsDto}.Equals(NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIRiseCallbackSettingsDto}.Equals(NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIRiseCallbackSettingsDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIRiseCallbackSettingsDto)
+  nameWithType: IEquatable<NVAPIRiseCallbackSettingsDto>.Equals(NVAPIRiseCallbackSettingsDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIRiseCallbackSettingsDto>.Equals(NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  nameWithType.vb: IEquatable(Of NVAPIRiseCallbackSettingsDto).Equals(NVAPIRiseCallbackSettingsDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIRiseCallbackSettingsDto).Equals(NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIRiseCallbackSettingsDto}.Equals(NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+    name: NVAPIRiseCallbackSettingsDto
+    href: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIRiseCallbackSettingsDto}.Equals(NVAPIWrapper.NVAPIRiseCallbackSettingsDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIRiseCallbackSettingsDto
+    name: NVAPIRiseCallbackSettingsDto
+    href: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.html
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIRiseCallbackSettingsDto.GetHashCode
+  href: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.html#NVAPIWrapper_NVAPIRiseCallbackSettingsDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIRiseCallbackSettingsDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIRiseCallbackSettingsDto.op_Equality
+  href: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.html#NVAPIWrapper_NVAPIRiseCallbackSettingsDto_op_Equality_NVAPIWrapper_NVAPIRiseCallbackSettingsDto_NVAPIWrapper_NVAPIRiseCallbackSettingsDto_
+  name: operator ==
+  nameWithType: NVAPIRiseCallbackSettingsDto.operator ==
+  fullName: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.operator ==
+  nameWithType.vb: NVAPIRiseCallbackSettingsDto.=
+  fullName.vb: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.html#NVAPIWrapper_NVAPIRiseCallbackSettingsDto_op_Equality_NVAPIWrapper_NVAPIRiseCallbackSettingsDto_NVAPIWrapper_NVAPIRiseCallbackSettingsDto_
+- uid: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIRiseCallbackSettingsDto.op_Inequality
+  href: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.html#NVAPIWrapper_NVAPIRiseCallbackSettingsDto_op_Inequality_NVAPIWrapper_NVAPIRiseCallbackSettingsDto_NVAPIWrapper_NVAPIRiseCallbackSettingsDto_
+  name: operator !=
+  nameWithType: NVAPIRiseCallbackSettingsDto.operator !=
+  fullName: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.operator !=
+  nameWithType.vb: NVAPIRiseCallbackSettingsDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIRiseCallbackSettingsDto.html#NVAPIWrapper_NVAPIRiseCallbackSettingsDto_op_Inequality_NVAPIWrapper_NVAPIRiseCallbackSettingsDto_NVAPIWrapper_NVAPIRiseCallbackSettingsDto_

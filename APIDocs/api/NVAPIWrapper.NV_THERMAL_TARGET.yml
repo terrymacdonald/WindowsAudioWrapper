@@ -1,0 +1,323 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_THERMAL_TARGET
+  commentId: T:NVAPIWrapper.NV_THERMAL_TARGET
+  id: NV_THERMAL_TARGET
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_ALL
+  - NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_BOARD
+  - NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_GPU
+  - NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_MEMORY
+  - NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_NONE
+  - NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_POWER_SUPPLY
+  - NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_UNKNOWN
+  - NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_VCD_BOARD
+  - NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_VCD_INLET
+  - NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_VCD_OUTLET
+  langs:
+  - csharp
+  - vb
+  name: NV_THERMAL_TARGET
+  nameWithType: NV_THERMAL_TARGET
+  fullName: NVAPIWrapper.NV_THERMAL_TARGET
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_TARGET.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_THERMAL_TARGET
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_TARGET.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_THERMAL_TARGET
+    content.vb: Public Enum NV_THERMAL_TARGET
+- uid: NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_NONE
+  commentId: F:NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_NONE
+  id: NVAPI_THERMAL_TARGET_NONE
+  parent: NVAPIWrapper.NV_THERMAL_TARGET
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_THERMAL_TARGET_NONE
+  nameWithType: NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_NONE
+  fullName: NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_NONE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_TARGET.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_THERMAL_TARGET_NONE
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_TARGET.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_THERMAL_TARGET_NONE = 0
+    return:
+      type: NVAPIWrapper.NV_THERMAL_TARGET
+- uid: NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_GPU
+  commentId: F:NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_GPU
+  id: NVAPI_THERMAL_TARGET_GPU
+  parent: NVAPIWrapper.NV_THERMAL_TARGET
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_THERMAL_TARGET_GPU
+  nameWithType: NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_GPU
+  fullName: NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_GPU
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_TARGET.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_THERMAL_TARGET_GPU
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_TARGET.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_THERMAL_TARGET_GPU = 1
+    return:
+      type: NVAPIWrapper.NV_THERMAL_TARGET
+- uid: NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_MEMORY
+  commentId: F:NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_MEMORY
+  id: NVAPI_THERMAL_TARGET_MEMORY
+  parent: NVAPIWrapper.NV_THERMAL_TARGET
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_THERMAL_TARGET_MEMORY
+  nameWithType: NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_MEMORY
+  fullName: NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_MEMORY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_TARGET.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_THERMAL_TARGET_MEMORY
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_TARGET.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_THERMAL_TARGET_MEMORY = 2
+    return:
+      type: NVAPIWrapper.NV_THERMAL_TARGET
+- uid: NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_POWER_SUPPLY
+  commentId: F:NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_POWER_SUPPLY
+  id: NVAPI_THERMAL_TARGET_POWER_SUPPLY
+  parent: NVAPIWrapper.NV_THERMAL_TARGET
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_THERMAL_TARGET_POWER_SUPPLY
+  nameWithType: NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_POWER_SUPPLY
+  fullName: NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_POWER_SUPPLY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_TARGET.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_THERMAL_TARGET_POWER_SUPPLY
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_TARGET.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_THERMAL_TARGET_POWER_SUPPLY = 4
+    return:
+      type: NVAPIWrapper.NV_THERMAL_TARGET
+- uid: NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_BOARD
+  commentId: F:NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_BOARD
+  id: NVAPI_THERMAL_TARGET_BOARD
+  parent: NVAPIWrapper.NV_THERMAL_TARGET
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_THERMAL_TARGET_BOARD
+  nameWithType: NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_BOARD
+  fullName: NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_BOARD
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_TARGET.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_THERMAL_TARGET_BOARD
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_TARGET.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_THERMAL_TARGET_BOARD = 8
+    return:
+      type: NVAPIWrapper.NV_THERMAL_TARGET
+- uid: NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_VCD_BOARD
+  commentId: F:NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_VCD_BOARD
+  id: NVAPI_THERMAL_TARGET_VCD_BOARD
+  parent: NVAPIWrapper.NV_THERMAL_TARGET
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_THERMAL_TARGET_VCD_BOARD
+  nameWithType: NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_VCD_BOARD
+  fullName: NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_VCD_BOARD
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_TARGET.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_THERMAL_TARGET_VCD_BOARD
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_TARGET.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_THERMAL_TARGET_VCD_BOARD = 9
+    return:
+      type: NVAPIWrapper.NV_THERMAL_TARGET
+- uid: NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_VCD_INLET
+  commentId: F:NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_VCD_INLET
+  id: NVAPI_THERMAL_TARGET_VCD_INLET
+  parent: NVAPIWrapper.NV_THERMAL_TARGET
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_THERMAL_TARGET_VCD_INLET
+  nameWithType: NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_VCD_INLET
+  fullName: NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_VCD_INLET
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_TARGET.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_THERMAL_TARGET_VCD_INLET
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_TARGET.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_THERMAL_TARGET_VCD_INLET = 10
+    return:
+      type: NVAPIWrapper.NV_THERMAL_TARGET
+- uid: NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_VCD_OUTLET
+  commentId: F:NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_VCD_OUTLET
+  id: NVAPI_THERMAL_TARGET_VCD_OUTLET
+  parent: NVAPIWrapper.NV_THERMAL_TARGET
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_THERMAL_TARGET_VCD_OUTLET
+  nameWithType: NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_VCD_OUTLET
+  fullName: NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_VCD_OUTLET
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_TARGET.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_THERMAL_TARGET_VCD_OUTLET
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_TARGET.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_THERMAL_TARGET_VCD_OUTLET = 11
+    return:
+      type: NVAPIWrapper.NV_THERMAL_TARGET
+- uid: NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_ALL
+  commentId: F:NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_ALL
+  id: NVAPI_THERMAL_TARGET_ALL
+  parent: NVAPIWrapper.NV_THERMAL_TARGET
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_THERMAL_TARGET_ALL
+  nameWithType: NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_ALL
+  fullName: NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_ALL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_TARGET.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_THERMAL_TARGET_ALL
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_TARGET.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_THERMAL_TARGET_ALL = 15
+    return:
+      type: NVAPIWrapper.NV_THERMAL_TARGET
+- uid: NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_UNKNOWN
+  commentId: F:NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_UNKNOWN
+  id: NVAPI_THERMAL_TARGET_UNKNOWN
+  parent: NVAPIWrapper.NV_THERMAL_TARGET
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_THERMAL_TARGET_UNKNOWN
+  nameWithType: NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_UNKNOWN
+  fullName: NVAPIWrapper.NV_THERMAL_TARGET.NVAPI_THERMAL_TARGET_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_THERMAL_TARGET.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_THERMAL_TARGET_UNKNOWN
+    path: ../NVAPIWrapper/cs_generated/NV_THERMAL_TARGET.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_THERMAL_TARGET_UNKNOWN = -1
+    return:
+      type: NVAPIWrapper.NV_THERMAL_TARGET
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_THERMAL_TARGET
+  commentId: T:NVAPIWrapper.NV_THERMAL_TARGET
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_THERMAL_TARGET.html
+  name: NV_THERMAL_TARGET
+  nameWithType: NV_THERMAL_TARGET
+  fullName: NVAPIWrapper.NV_THERMAL_TARGET

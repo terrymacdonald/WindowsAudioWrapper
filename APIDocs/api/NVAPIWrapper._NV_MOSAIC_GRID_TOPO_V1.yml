@@ -1,0 +1,725 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1
+  commentId: T:NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1
+  id: _NV_MOSAIC_GRID_TOPO_V1
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1._bitfield
+  - NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.acceleratePrimaryDisplay
+  - NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.applyWithBezelCorrect
+  - NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.baseMosaic
+  - NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.columns
+  - NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.displayCount
+  - NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.displaySettings
+  - NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.displays
+  - NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.driverReloadAllowed
+  - NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.immersiveGaming
+  - NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.reserved
+  - NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.rows
+  - NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.version
+  langs:
+  - csharp
+  - vb
+  name: _NV_MOSAIC_GRID_TOPO_V1
+  nameWithType: _NV_MOSAIC_GRID_TOPO_V1
+  fullName: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_MOSAIC_GRID_TOPO_V1
+    path: ../NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+    startLine: 5
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NV_MOSAIC_GRID_TOPO_V1
+    content.vb: Public Structure _NV_MOSAIC_GRID_TOPO_V1
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.version
+  commentId: F:NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.version
+  id: version
+  parent: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: _NV_MOSAIC_GRID_TOPO_V1.version
+  fullName: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.version
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: version
+    path: ../NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint version
+    return:
+      type: System.UInt32
+    content.vb: Public version As UInteger
+- uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.rows
+  commentId: F:NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.rows
+  id: rows
+  parent: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1
+  langs:
+  - csharp
+  - vb
+  name: rows
+  nameWithType: _NV_MOSAIC_GRID_TOPO_V1.rows
+  fullName: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.rows
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: rows
+    path: ../NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+    startLine: 13
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint rows
+    return:
+      type: System.UInt32
+    content.vb: Public rows As UInteger
+- uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.columns
+  commentId: F:NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.columns
+  id: columns
+  parent: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1
+  langs:
+  - csharp
+  - vb
+  name: columns
+  nameWithType: _NV_MOSAIC_GRID_TOPO_V1.columns
+  fullName: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.columns
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: columns
+    path: ../NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+    startLine: 17
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint columns
+    return:
+      type: System.UInt32
+    content.vb: Public columns As UInteger
+- uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.displayCount
+  commentId: F:NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.displayCount
+  id: displayCount
+  parent: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1
+  langs:
+  - csharp
+  - vb
+  name: displayCount
+  nameWithType: _NV_MOSAIC_GRID_TOPO_V1.displayCount
+  fullName: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.displayCount
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: displayCount
+    path: ../NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint displayCount
+    return:
+      type: System.UInt32
+    content.vb: Public displayCount As UInteger
+- uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1._bitfield
+  commentId: F:NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1._bitfield
+  id: _bitfield
+  parent: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1
+  langs:
+  - csharp
+  - vb
+  name: _bitfield
+  nameWithType: _NV_MOSAIC_GRID_TOPO_V1._bitfield
+  fullName: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1._bitfield
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield
+    path: ../NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+    startLine: 23
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield As UInteger
+- uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.applyWithBezelCorrect
+  commentId: P:NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.applyWithBezelCorrect
+  id: applyWithBezelCorrect
+  parent: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1
+  langs:
+  - csharp
+  - vb
+  name: applyWithBezelCorrect
+  nameWithType: _NV_MOSAIC_GRID_TOPO_V1.applyWithBezelCorrect
+  fullName: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.applyWithBezelCorrect
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: applyWithBezelCorrect
+    path: ../NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+    startLine: 26
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint applyWithBezelCorrect { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property applyWithBezelCorrect As UInteger
+  overload: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.applyWithBezelCorrect*
+- uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.immersiveGaming
+  commentId: P:NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.immersiveGaming
+  id: immersiveGaming
+  parent: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1
+  langs:
+  - csharp
+  - vb
+  name: immersiveGaming
+  nameWithType: _NV_MOSAIC_GRID_TOPO_V1.immersiveGaming
+  fullName: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.immersiveGaming
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: immersiveGaming
+    path: ../NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+    startLine: 41
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint immersiveGaming { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property immersiveGaming As UInteger
+  overload: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.immersiveGaming*
+- uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.baseMosaic
+  commentId: P:NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.baseMosaic
+  id: baseMosaic
+  parent: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1
+  langs:
+  - csharp
+  - vb
+  name: baseMosaic
+  nameWithType: _NV_MOSAIC_GRID_TOPO_V1.baseMosaic
+  fullName: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.baseMosaic
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: baseMosaic
+    path: ../NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+    startLine: 56
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint baseMosaic { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property baseMosaic As UInteger
+  overload: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.baseMosaic*
+- uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.driverReloadAllowed
+  commentId: P:NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.driverReloadAllowed
+  id: driverReloadAllowed
+  parent: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1
+  langs:
+  - csharp
+  - vb
+  name: driverReloadAllowed
+  nameWithType: _NV_MOSAIC_GRID_TOPO_V1.driverReloadAllowed
+  fullName: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.driverReloadAllowed
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: driverReloadAllowed
+    path: ../NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+    startLine: 71
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint driverReloadAllowed { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property driverReloadAllowed As UInteger
+  overload: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.driverReloadAllowed*
+- uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.acceleratePrimaryDisplay
+  commentId: P:NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.acceleratePrimaryDisplay
+  id: acceleratePrimaryDisplay
+  parent: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1
+  langs:
+  - csharp
+  - vb
+  name: acceleratePrimaryDisplay
+  nameWithType: _NV_MOSAIC_GRID_TOPO_V1.acceleratePrimaryDisplay
+  fullName: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.acceleratePrimaryDisplay
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: acceleratePrimaryDisplay
+    path: ../NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+    startLine: 86
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint acceleratePrimaryDisplay { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property acceleratePrimaryDisplay As UInteger
+  overload: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.acceleratePrimaryDisplay*
+- uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.reserved
+  commentId: P:NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.reserved
+  id: reserved
+  parent: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1
+  langs:
+  - csharp
+  - vb
+  name: reserved
+  nameWithType: _NV_MOSAIC_GRID_TOPO_V1.reserved
+  fullName: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.reserved
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved
+    path: ../NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+    startLine: 101
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved As UInteger
+  overload: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.reserved*
+- uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.displays
+  commentId: F:NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.displays
+  id: displays
+  parent: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1
+  langs:
+  - csharp
+  - vb
+  name: displays
+  nameWithType: _NV_MOSAIC_GRID_TOPO_V1.displays
+  fullName: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.displays
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: displays
+    path: ../NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+    startLine: 117
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_MOSAIC_GRID_TOPO_V1._displays_e__FixedBuffer displays
+    return:
+      type: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1._displays_e__FixedBuffer
+    content.vb: Public displays As _NV_MOSAIC_GRID_TOPO_V1._displays_e__FixedBuffer
+- uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.displaySettings
+  commentId: F:NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.displaySettings
+  id: displaySettings
+  parent: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1
+  langs:
+  - csharp
+  - vb
+  name: displaySettings
+  nameWithType: _NV_MOSAIC_GRID_TOPO_V1.displaySettings
+  fullName: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.displaySettings
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: displaySettings
+    path: ../NVAPIWrapper/cs_generated/_NV_MOSAIC_GRID_TOPO_V1.cs
+    startLine: 121
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_MOSAIC_DISPLAY_SETTING_V1 displaySettings
+    return:
+      type: NVAPIWrapper._NV_MOSAIC_DISPLAY_SETTING_V1
+    content.vb: Public displaySettings As _NV_MOSAIC_DISPLAY_SETTING_V1
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.applyWithBezelCorrect*
+  commentId: Overload:NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.applyWithBezelCorrect
+  href: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.html#NVAPIWrapper__NV_MOSAIC_GRID_TOPO_V1_applyWithBezelCorrect
+  name: applyWithBezelCorrect
+  nameWithType: _NV_MOSAIC_GRID_TOPO_V1.applyWithBezelCorrect
+  fullName: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.applyWithBezelCorrect
+- uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.immersiveGaming*
+  commentId: Overload:NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.immersiveGaming
+  href: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.html#NVAPIWrapper__NV_MOSAIC_GRID_TOPO_V1_immersiveGaming
+  name: immersiveGaming
+  nameWithType: _NV_MOSAIC_GRID_TOPO_V1.immersiveGaming
+  fullName: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.immersiveGaming
+- uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.baseMosaic*
+  commentId: Overload:NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.baseMosaic
+  href: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.html#NVAPIWrapper__NV_MOSAIC_GRID_TOPO_V1_baseMosaic
+  name: baseMosaic
+  nameWithType: _NV_MOSAIC_GRID_TOPO_V1.baseMosaic
+  fullName: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.baseMosaic
+- uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.driverReloadAllowed*
+  commentId: Overload:NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.driverReloadAllowed
+  href: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.html#NVAPIWrapper__NV_MOSAIC_GRID_TOPO_V1_driverReloadAllowed
+  name: driverReloadAllowed
+  nameWithType: _NV_MOSAIC_GRID_TOPO_V1.driverReloadAllowed
+  fullName: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.driverReloadAllowed
+- uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.acceleratePrimaryDisplay*
+  commentId: Overload:NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.acceleratePrimaryDisplay
+  href: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.html#NVAPIWrapper__NV_MOSAIC_GRID_TOPO_V1_acceleratePrimaryDisplay
+  name: acceleratePrimaryDisplay
+  nameWithType: _NV_MOSAIC_GRID_TOPO_V1.acceleratePrimaryDisplay
+  fullName: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.acceleratePrimaryDisplay
+- uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.reserved*
+  commentId: Overload:NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.reserved
+  href: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.html#NVAPIWrapper__NV_MOSAIC_GRID_TOPO_V1_reserved
+  name: reserved
+  nameWithType: _NV_MOSAIC_GRID_TOPO_V1.reserved
+  fullName: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.reserved
+- uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1._displays_e__FixedBuffer
+  commentId: T:NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1._displays_e__FixedBuffer
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.html
+  name: _NV_MOSAIC_GRID_TOPO_V1._displays_e__FixedBuffer
+  nameWithType: _NV_MOSAIC_GRID_TOPO_V1._displays_e__FixedBuffer
+  fullName: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1._displays_e__FixedBuffer
+  spec.csharp:
+  - uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1
+    name: _NV_MOSAIC_GRID_TOPO_V1
+    href: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.html
+  - name: .
+  - uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1._displays_e__FixedBuffer
+    name: _displays_e__FixedBuffer
+    href: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1._displays_e__FixedBuffer.html
+  spec.vb:
+  - uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1
+    name: _NV_MOSAIC_GRID_TOPO_V1
+    href: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1.html
+  - name: .
+  - uid: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1._displays_e__FixedBuffer
+    name: _displays_e__FixedBuffer
+    href: NVAPIWrapper._NV_MOSAIC_GRID_TOPO_V1._displays_e__FixedBuffer.html
+- uid: NVAPIWrapper._NV_MOSAIC_DISPLAY_SETTING_V1
+  commentId: T:NVAPIWrapper._NV_MOSAIC_DISPLAY_SETTING_V1
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_MOSAIC_DISPLAY_SETTING_V1.html
+  name: _NV_MOSAIC_DISPLAY_SETTING_V1
+  nameWithType: _NV_MOSAIC_DISPLAY_SETTING_V1
+  fullName: NVAPIWrapper._NV_MOSAIC_DISPLAY_SETTING_V1

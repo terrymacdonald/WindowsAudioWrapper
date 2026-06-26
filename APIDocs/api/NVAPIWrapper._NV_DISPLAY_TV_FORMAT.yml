@@ -1,0 +1,1891 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  commentId: T:NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  id: _NV_DISPLAY_TV_FORMAT
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_ANY
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_ED_480p
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_ED_576p
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_ED_OTHER
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080i
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080i50
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080p
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080p24
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080p50
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_720p
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_720p50
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_OTHER
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_NONE
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_480i
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_576i
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_NTSCJ
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_NTSCM
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_OTHER
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_PALBDGH
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_PALM
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_PALN
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_PALNC
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp100_10240
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp120_10240
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp24_10240
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp25_10240
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp30_10240
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp48_10240
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp50_10240
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp60_10240
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp100_3840
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp100_4096
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp100_5120
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp120_3840
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp120_4096
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp120_5120
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24_3840
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24_4096
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24_5120
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24_SMPTE
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp25
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp25_3840
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp25_4096
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp25_5120
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp30
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp30_3840
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp30_4096
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp30_5120
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp48_3840
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp48_4096
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp48_5120
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp50_3840
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp50_4096
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp50_5120
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp60_3840
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp60_4096
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp60_5120
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp100_7680
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp120_7680
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp24_7680
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp25_7680
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp30_7680
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp48_7680
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp50_7680
+  - NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp60_7680
+  langs:
+  - csharp
+  - vb
+  name: _NV_DISPLAY_TV_FORMAT
+  nameWithType: _NV_DISPLAY_TV_FORMAT
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_DISPLAY_TV_FORMAT
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_DISPLAY_TV_FORMAT
+    content.vb: Public Enum _NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_NONE
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_NONE
+  id: NV_DISPLAY_TV_FORMAT_NONE
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_NONE
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_NONE
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_NONE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_NONE
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_NONE = 0
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_NTSCM
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_NTSCM
+  id: NV_DISPLAY_TV_FORMAT_SD_NTSCM
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_SD_NTSCM
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_NTSCM
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_NTSCM
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_SD_NTSCM
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_SD_NTSCM = 1
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_NTSCJ
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_NTSCJ
+  id: NV_DISPLAY_TV_FORMAT_SD_NTSCJ
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_SD_NTSCJ
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_NTSCJ
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_NTSCJ
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_SD_NTSCJ
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_SD_NTSCJ = 2
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_PALM
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_PALM
+  id: NV_DISPLAY_TV_FORMAT_SD_PALM
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_SD_PALM
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_PALM
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_PALM
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_SD_PALM
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_SD_PALM = 4
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_PALBDGH
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_PALBDGH
+  id: NV_DISPLAY_TV_FORMAT_SD_PALBDGH
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_SD_PALBDGH
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_PALBDGH
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_PALBDGH
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_SD_PALBDGH
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_SD_PALBDGH = 8
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_PALN
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_PALN
+  id: NV_DISPLAY_TV_FORMAT_SD_PALN
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_SD_PALN
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_PALN
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_PALN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_SD_PALN
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_SD_PALN = 16
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_PALNC
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_PALNC
+  id: NV_DISPLAY_TV_FORMAT_SD_PALNC
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_SD_PALNC
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_PALNC
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_PALNC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_SD_PALNC
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_SD_PALNC = 32
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_576i
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_576i
+  id: NV_DISPLAY_TV_FORMAT_SD_576i
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_SD_576i
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_576i
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_576i
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_SD_576i
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_SD_576i = 256
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_480i
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_480i
+  id: NV_DISPLAY_TV_FORMAT_SD_480i
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_SD_480i
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_480i
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_480i
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_SD_480i
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_SD_480i = 512
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_ED_480p
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_ED_480p
+  id: NV_DISPLAY_TV_FORMAT_ED_480p
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_ED_480p
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_ED_480p
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_ED_480p
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_ED_480p
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_ED_480p = 1024
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_ED_576p
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_ED_576p
+  id: NV_DISPLAY_TV_FORMAT_ED_576p
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_ED_576p
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_ED_576p
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_ED_576p
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_ED_576p
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_ED_576p = 2048
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_720p
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_720p
+  id: NV_DISPLAY_TV_FORMAT_HD_720p
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_HD_720p
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_720p
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_720p
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_HD_720p
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 39
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_HD_720p = 4096
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080i
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080i
+  id: NV_DISPLAY_TV_FORMAT_HD_1080i
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_HD_1080i
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080i
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080i
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_HD_1080i
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 42
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_HD_1080i = 8192
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080p
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080p
+  id: NV_DISPLAY_TV_FORMAT_HD_1080p
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_HD_1080p
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080p
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080p
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_HD_1080p
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 45
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_HD_1080p = 16384
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_720p50
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_720p50
+  id: NV_DISPLAY_TV_FORMAT_HD_720p50
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_HD_720p50
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_720p50
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_720p50
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_HD_720p50
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 48
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_HD_720p50 = 32768
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080p24
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080p24
+  id: NV_DISPLAY_TV_FORMAT_HD_1080p24
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_HD_1080p24
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080p24
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080p24
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_HD_1080p24
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 51
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_HD_1080p24 = 65536
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080i50
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080i50
+  id: NV_DISPLAY_TV_FORMAT_HD_1080i50
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_HD_1080i50
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080i50
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080i50
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_HD_1080i50
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 54
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_HD_1080i50 = 131072
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080p50
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080p50
+  id: NV_DISPLAY_TV_FORMAT_HD_1080p50
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_HD_1080p50
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080p50
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_1080p50
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_HD_1080p50
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 57
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_HD_1080p50 = 262144
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp30
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp30
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp30
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp30
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp30
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp30
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp30
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 60
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp30 = 524288
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp30_3840
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp30_3840
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp30_3840
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp30_3840
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp30_3840
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp30_3840
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp30_3840
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 63
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp30_3840 = 524288
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp25
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp25
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp25
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp25
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp25
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp25
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp25
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 66
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp25 = 1048576
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp25_3840
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp25_3840
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp25_3840
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp25_3840
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp25_3840
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp25_3840
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp25_3840
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 69
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp25_3840 = 1048576
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp24
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp24
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp24
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 72
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp24 = 2097152
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24_3840
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24_3840
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp24_3840
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp24_3840
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24_3840
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24_3840
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp24_3840
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 75
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp24_3840 = 2097152
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24_SMPTE
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24_SMPTE
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp24_SMPTE
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp24_SMPTE
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24_SMPTE
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24_SMPTE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp24_SMPTE
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 78
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp24_SMPTE = 4194304
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp50_3840
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp50_3840
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp50_3840
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp50_3840
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp50_3840
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp50_3840
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp50_3840
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 81
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp50_3840 = 8388608
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp60_3840
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp60_3840
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp60_3840
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp60_3840
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp60_3840
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp60_3840
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp60_3840
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 84
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp60_3840 = 9437184
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp30_4096
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp30_4096
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp30_4096
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp30_4096
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp30_4096
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp30_4096
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp30_4096
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 87
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp30_4096 = 10485760
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp25_4096
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp25_4096
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp25_4096
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp25_4096
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp25_4096
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp25_4096
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp25_4096
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 90
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp25_4096 = 11534336
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24_4096
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24_4096
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp24_4096
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp24_4096
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24_4096
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24_4096
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp24_4096
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 93
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp24_4096 = 12582912
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp50_4096
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp50_4096
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp50_4096
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp50_4096
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp50_4096
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp50_4096
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp50_4096
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 96
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp50_4096 = 13631488
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp60_4096
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp60_4096
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp60_4096
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp60_4096
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp60_4096
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp60_4096
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp60_4096
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 99
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp60_4096 = 14680064
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp24_7680
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp24_7680
+  id: NV_DISPLAY_TV_FORMAT_UHD_8Kp24_7680
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_8Kp24_7680
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp24_7680
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp24_7680
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_8Kp24_7680
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 102
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_8Kp24_7680 = 16777216
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp25_7680
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp25_7680
+  id: NV_DISPLAY_TV_FORMAT_UHD_8Kp25_7680
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_8Kp25_7680
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp25_7680
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp25_7680
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_8Kp25_7680
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 105
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_8Kp25_7680 = 33554432
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp30_7680
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp30_7680
+  id: NV_DISPLAY_TV_FORMAT_UHD_8Kp30_7680
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_8Kp30_7680
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp30_7680
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp30_7680
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_8Kp30_7680
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 108
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_8Kp30_7680 = 67108864
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp48_7680
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp48_7680
+  id: NV_DISPLAY_TV_FORMAT_UHD_8Kp48_7680
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_8Kp48_7680
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp48_7680
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp48_7680
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_8Kp48_7680
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 111
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_8Kp48_7680 = 134217728
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp50_7680
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp50_7680
+  id: NV_DISPLAY_TV_FORMAT_UHD_8Kp50_7680
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_8Kp50_7680
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp50_7680
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp50_7680
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_8Kp50_7680
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 114
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_8Kp50_7680 = 150994944
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp60_7680
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp60_7680
+  id: NV_DISPLAY_TV_FORMAT_UHD_8Kp60_7680
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_8Kp60_7680
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp60_7680
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp60_7680
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_8Kp60_7680
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 117
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_8Kp60_7680 = 167772160
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp100_7680
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp100_7680
+  id: NV_DISPLAY_TV_FORMAT_UHD_8Kp100_7680
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_8Kp100_7680
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp100_7680
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp100_7680
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_8Kp100_7680
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 120
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_8Kp100_7680 = 184549376
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp120_7680
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp120_7680
+  id: NV_DISPLAY_TV_FORMAT_UHD_8Kp120_7680
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_8Kp120_7680
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp120_7680
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_8Kp120_7680
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_8Kp120_7680
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 123
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_8Kp120_7680 = 201326592
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp48_3840
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp48_3840
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp48_3840
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp48_3840
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp48_3840
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp48_3840
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp48_3840
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 126
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp48_3840 = 218103808
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp48_4096
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp48_4096
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp48_4096
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp48_4096
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp48_4096
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp48_4096
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp48_4096
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 129
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp48_4096 = 234881024
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp100_4096
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp100_4096
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp100_4096
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp100_4096
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp100_4096
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp100_4096
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp100_4096
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 132
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp100_4096 = 251658240
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp100_3840
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp100_3840
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp100_3840
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp100_3840
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp100_3840
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp100_3840
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp100_3840
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 135
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp100_3840 = 268435456
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp120_4096
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp120_4096
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp120_4096
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp120_4096
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp120_4096
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp120_4096
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp120_4096
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 138
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp120_4096 = 285212672
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp120_3840
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp120_3840
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp120_3840
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp120_3840
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp120_3840
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp120_3840
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp120_3840
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 141
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp120_3840 = 301989888
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp100_5120
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp100_5120
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp100_5120
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp100_5120
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp100_5120
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp100_5120
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp100_5120
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 144
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp100_5120 = 318767104
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp120_5120
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp120_5120
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp120_5120
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp120_5120
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp120_5120
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp120_5120
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp120_5120
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 147
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp120_5120 = 335544320
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24_5120
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24_5120
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp24_5120
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp24_5120
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24_5120
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp24_5120
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp24_5120
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 150
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp24_5120 = 352321536
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp25_5120
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp25_5120
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp25_5120
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp25_5120
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp25_5120
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp25_5120
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp25_5120
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 153
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp25_5120 = 369098752
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp30_5120
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp30_5120
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp30_5120
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp30_5120
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp30_5120
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp30_5120
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp30_5120
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 156
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp30_5120 = 385875968
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp48_5120
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp48_5120
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp48_5120
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp48_5120
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp48_5120
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp48_5120
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp48_5120
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 159
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp48_5120 = 402653184
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp50_5120
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp50_5120
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp50_5120
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp50_5120
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp50_5120
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp50_5120
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp50_5120
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 162
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp50_5120 = 419430400
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp60_5120
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp60_5120
+  id: NV_DISPLAY_TV_FORMAT_UHD_4Kp60_5120
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_4Kp60_5120
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp60_5120
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_4Kp60_5120
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_4Kp60_5120
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 165
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_4Kp60_5120 = 536870912
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp24_10240
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp24_10240
+  id: NV_DISPLAY_TV_FORMAT_UHD_10Kp24_10240
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_10Kp24_10240
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp24_10240
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp24_10240
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_10Kp24_10240
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 168
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_10Kp24_10240 = 553648128
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp25_10240
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp25_10240
+  id: NV_DISPLAY_TV_FORMAT_UHD_10Kp25_10240
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_10Kp25_10240
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp25_10240
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp25_10240
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_10Kp25_10240
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 171
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_10Kp25_10240 = 570425344
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp30_10240
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp30_10240
+  id: NV_DISPLAY_TV_FORMAT_UHD_10Kp30_10240
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_10Kp30_10240
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp30_10240
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp30_10240
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_10Kp30_10240
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 174
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_10Kp30_10240 = 587202560
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp48_10240
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp48_10240
+  id: NV_DISPLAY_TV_FORMAT_UHD_10Kp48_10240
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_10Kp48_10240
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp48_10240
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp48_10240
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_10Kp48_10240
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 177
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_10Kp48_10240 = 603979776
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp50_10240
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp50_10240
+  id: NV_DISPLAY_TV_FORMAT_UHD_10Kp50_10240
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_10Kp50_10240
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp50_10240
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp50_10240
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_10Kp50_10240
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 180
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_10Kp50_10240 = 620756992
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp60_10240
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp60_10240
+  id: NV_DISPLAY_TV_FORMAT_UHD_10Kp60_10240
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_10Kp60_10240
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp60_10240
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp60_10240
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_10Kp60_10240
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 183
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_10Kp60_10240 = 637534208
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp100_10240
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp100_10240
+  id: NV_DISPLAY_TV_FORMAT_UHD_10Kp100_10240
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_10Kp100_10240
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp100_10240
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp100_10240
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_10Kp100_10240
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 186
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_10Kp100_10240 = 654311424
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp120_10240
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp120_10240
+  id: NV_DISPLAY_TV_FORMAT_UHD_10Kp120_10240
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_UHD_10Kp120_10240
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp120_10240
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_UHD_10Kp120_10240
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_UHD_10Kp120_10240
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 189
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_UHD_10Kp120_10240 = 671088640
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_OTHER
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_OTHER
+  id: NV_DISPLAY_TV_FORMAT_SD_OTHER
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_SD_OTHER
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_OTHER
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_SD_OTHER
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_SD_OTHER
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 192
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_SD_OTHER = 805306368
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_ED_OTHER
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_ED_OTHER
+  id: NV_DISPLAY_TV_FORMAT_ED_OTHER
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_ED_OTHER
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_ED_OTHER
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_ED_OTHER
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_ED_OTHER
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 195
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_ED_OTHER = 1073741824
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_OTHER
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_OTHER
+  id: NV_DISPLAY_TV_FORMAT_HD_OTHER
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_HD_OTHER
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_OTHER
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_HD_OTHER
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_HD_OTHER
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 198
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_HD_OTHER = 1342177280
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_ANY
+  commentId: F:NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_ANY
+  id: NV_DISPLAY_TV_FORMAT_ANY
+  parent: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_TV_FORMAT_ANY
+  nameWithType: _NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_ANY
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.NV_DISPLAY_TV_FORMAT_ANY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_TV_FORMAT_ANY
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_TV_FORMAT.cs
+    startLine: 201
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DISPLAY_TV_FORMAT_ANY = -2147483648
+    return:
+      type: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  commentId: T:NVAPIWrapper._NV_DISPLAY_TV_FORMAT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DISPLAY_TV_FORMAT.html
+  name: _NV_DISPLAY_TV_FORMAT
+  nameWithType: _NV_DISPLAY_TV_FORMAT
+  fullName: NVAPIWrapper._NV_DISPLAY_TV_FORMAT

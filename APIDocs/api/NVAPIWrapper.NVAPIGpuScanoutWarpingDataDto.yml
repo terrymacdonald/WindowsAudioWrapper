@@ -1,0 +1,978 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+  commentId: T:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+  id: NVAPIGpuScanoutWarpingDataDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.#ctor(System.Single[],NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT,System.Int32,System.Boolean,NVAPIWrapper.NVAPISBoxDto)
+  - NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.Equals(NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+  - NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.GetHashCode
+  - NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.HasTextureRect
+  - NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.NumVertices
+  - NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.TextureRect
+  - NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.ToNative
+  - NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.VertexFormat
+  - NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.Vertices
+  - NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.op_Equality(NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto,NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+  - NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.op_Inequality(NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto,NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGpuScanoutWarpingDataDto
+  nameWithType: NVAPIGpuScanoutWarpingDataDto
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIGpuScanoutWarpingDataDto
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 6316
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Scanout warping data DTO.
+  example: []
+  syntax:
+    content: 'public struct NVAPIGpuScanoutWarpingDataDto : IEquatable<NVAPIGpuScanoutWarpingDataDto>'
+    content.vb: Public Structure NVAPIGpuScanoutWarpingDataDto Implements IEquatable(Of NVAPIGpuScanoutWarpingDataDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.Vertices
+  commentId: P:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.Vertices
+  id: Vertices
+  parent: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+  langs:
+  - csharp
+  - vb
+  name: Vertices
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.Vertices
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.Vertices
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Vertices
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 6323
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Warping vertices. Empty when no vertices are present.
+  example: []
+  syntax:
+    content: public float[] Vertices { get; set; }
+    parameters: []
+    return:
+      type: System.Single[]
+    content.vb: Public Property Vertices As Single()
+  overload: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.Vertices*
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.VertexFormat
+  commentId: P:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.VertexFormat
+  id: VertexFormat
+  parent: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+  langs:
+  - csharp
+  - vb
+  name: VertexFormat
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.VertexFormat
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.VertexFormat
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VertexFormat
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 6332
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Vertex format for the warping data.
+  example: []
+  syntax:
+    content: public NV_GPU_WARPING_VERTICE_FORMAT VertexFormat { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT
+    content.vb: Public Property VertexFormat As NV_GPU_WARPING_VERTICE_FORMAT
+  overload: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.VertexFormat*
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.NumVertices
+  commentId: P:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.NumVertices
+  id: NumVertices
+  parent: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+  langs:
+  - csharp
+  - vb
+  name: NumVertices
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.NumVertices
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.NumVertices
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NumVertices
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 6337
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Number of vertices to pass to NVAPI.
+  example: []
+  syntax:
+    content: public int NumVertices { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NumVertices As Integer
+  overload: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.NumVertices*
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.HasTextureRect
+  commentId: P:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.HasTextureRect
+  id: HasTextureRect
+  parent: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+  langs:
+  - csharp
+  - vb
+  name: HasTextureRect
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.HasTextureRect
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.HasTextureRect
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: HasTextureRect
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 6342
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: True when <xref href="NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.TextureRect" data-throw-if-not-resolved="false"></xref> contains a texture rectangle.
+  example: []
+  syntax:
+    content: public bool HasTextureRect { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasTextureRect As Boolean
+  overload: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.HasTextureRect*
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.TextureRect
+  commentId: P:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.TextureRect
+  id: TextureRect
+  parent: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+  langs:
+  - csharp
+  - vb
+  name: TextureRect
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.TextureRect
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.TextureRect
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: TextureRect
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 6347
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Texture rectangle. When <xref href="NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.HasTextureRect" data-throw-if-not-resolved="false"></xref> is false, this contains a default value.
+  example: []
+  syntax:
+    content: public NVAPISBoxDto TextureRect { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper.NVAPISBoxDto
+    content.vb: Public Property TextureRect As NVAPISBoxDto
+  overload: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.TextureRect*
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.#ctor(System.Single[],NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT,System.Int32,System.Boolean,NVAPIWrapper.NVAPISBoxDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.#ctor(System.Single[],NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT,System.Int32,System.Boolean,NVAPIWrapper.NVAPISBoxDto)
+  id: '#ctor(System.Single[],NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT,System.Int32,System.Boolean,NVAPIWrapper.NVAPISBoxDto)'
+  parent: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGpuScanoutWarpingDataDto(float[], NV_GPU_WARPING_VERTICE_FORMAT, int, bool, NVAPISBoxDto)
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.NVAPIGpuScanoutWarpingDataDto(float[], NV_GPU_WARPING_VERTICE_FORMAT, int, bool, NVAPISBoxDto)
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.NVAPIGpuScanoutWarpingDataDto(float[], NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT, int, bool, NVAPIWrapper.NVAPISBoxDto)
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 6357
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create scanout warping data.
+  example: []
+  syntax:
+    content: public NVAPIGpuScanoutWarpingDataDto(float[] vertices, NV_GPU_WARPING_VERTICE_FORMAT vertexFormat, int numVertices, bool hasTextureRect, NVAPISBoxDto textureRect)
+    parameters:
+    - id: vertices
+      type: System.Single[]
+      description: Warping vertices.
+    - id: vertexFormat
+      type: NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT
+      description: Vertex format.
+    - id: numVertices
+      type: System.Int32
+      description: Number of vertices.
+    - id: hasTextureRect
+      type: System.Boolean
+      description: True when texture rectangle data is present.
+    - id: textureRect
+      type: NVAPIWrapper.NVAPISBoxDto
+      description: Texture rectangle, or default when not present.
+    content.vb: Public Sub New(vertices As Single(), vertexFormat As NV_GPU_WARPING_VERTICE_FORMAT, numVertices As Integer, hasTextureRect As Boolean, textureRect As NVAPISBoxDto)
+  overload: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.#ctor*
+  nameWithType.vb: NVAPIGpuScanoutWarpingDataDto.New(Single(), NV_GPU_WARPING_VERTICE_FORMAT, Integer, Boolean, NVAPISBoxDto)
+  fullName.vb: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.New(Single(), NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT, Integer, Boolean, NVAPIWrapper.NVAPISBoxDto)
+  name.vb: New(Single(), NV_GPU_WARPING_VERTICE_FORMAT, Integer, Boolean, NVAPISBoxDto)
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.ToNative
+  commentId: M:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.ToNative
+  id: ToNative
+  parent: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.ToNative()
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 6375
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Convert this DTO to a native scanout warping data struct.
+  example: []
+  syntax:
+    content: public NV_SCANOUT_WARPING_DATA ToNative()
+    return:
+      type: NVAPIWrapper.NV_SCANOUT_WARPING_DATA
+      description: Native scanout warping data.
+    content.vb: Public Function ToNative() As NV_SCANOUT_WARPING_DATA
+  overload: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.ToNative*
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.Equals(NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.Equals(NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+  id: Equals(NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+  parent: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIGpuScanoutWarpingDataDto)
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.Equals(NVAPIGpuScanoutWarpingDataDto)
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.Equals(NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 6388
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIGpuScanoutWarpingDataDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As NVAPIGpuScanoutWarpingDataDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto}.Equals(NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 6398
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.Equals*
+  nameWithType.vb: NVAPIGpuScanoutWarpingDataDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 6401
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.op_Equality(NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto,NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.op_Equality(NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto,NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+  id: op_Equality(NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto,NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+  parent: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIGpuScanoutWarpingDataDto, NVAPIGpuScanoutWarpingDataDto)
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.operator ==(NVAPIGpuScanoutWarpingDataDto, NVAPIGpuScanoutWarpingDataDto)
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.operator ==(NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto, NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 6417
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether two scanout warping DTOs are equal.
+  example: []
+  syntax:
+    content: public static bool operator ==(NVAPIGpuScanoutWarpingDataDto left, NVAPIGpuScanoutWarpingDataDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+    - id: right
+      type: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As NVAPIGpuScanoutWarpingDataDto, right As NVAPIGpuScanoutWarpingDataDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.op_Equality*
+  nameWithType.vb: NVAPIGpuScanoutWarpingDataDto.=(NVAPIGpuScanoutWarpingDataDto, NVAPIGpuScanoutWarpingDataDto)
+  fullName.vb: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.=(NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto, NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+  name.vb: =(NVAPIGpuScanoutWarpingDataDto, NVAPIGpuScanoutWarpingDataDto)
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.op_Inequality(NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto,NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.op_Inequality(NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto,NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto,NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+  parent: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIGpuScanoutWarpingDataDto, NVAPIGpuScanoutWarpingDataDto)
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.operator !=(NVAPIGpuScanoutWarpingDataDto, NVAPIGpuScanoutWarpingDataDto)
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.operator !=(NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto, NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 6422
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether two scanout warping DTOs are not equal.
+  example: []
+  syntax:
+    content: public static bool operator !=(NVAPIGpuScanoutWarpingDataDto left, NVAPIGpuScanoutWarpingDataDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+    - id: right
+      type: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As NVAPIGpuScanoutWarpingDataDto, right As NVAPIGpuScanoutWarpingDataDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.op_Inequality*
+  nameWithType.vb: NVAPIGpuScanoutWarpingDataDto.<>(NVAPIGpuScanoutWarpingDataDto, NVAPIGpuScanoutWarpingDataDto)
+  fullName.vb: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.<>(NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto, NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+  name.vb: <>(NVAPIGpuScanoutWarpingDataDto, NVAPIGpuScanoutWarpingDataDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIGpuScanoutWarpingDataDto>
+  nameWithType: IEquatable<NVAPIGpuScanoutWarpingDataDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto>
+  nameWithType.vb: IEquatable(Of NVAPIGpuScanoutWarpingDataDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+  name.vb: IEquatable(Of NVAPIGpuScanoutWarpingDataDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+    name: NVAPIGpuScanoutWarpingDataDto
+    href: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+    name: NVAPIGpuScanoutWarpingDataDto
+    href: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.Vertices*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.Vertices
+  href: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.html#NVAPIWrapper_NVAPIGpuScanoutWarpingDataDto_Vertices
+  name: Vertices
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.Vertices
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.Vertices
+- uid: System.Single[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float[]
+  nameWithType: float[]
+  fullName: float[]
+  nameWithType.vb: Single()
+  fullName.vb: Single()
+  name.vb: Single()
+  spec.csharp:
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.VertexFormat*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.VertexFormat
+  href: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.html#NVAPIWrapper_NVAPIGpuScanoutWarpingDataDto_VertexFormat
+  name: VertexFormat
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.VertexFormat
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.VertexFormat
+- uid: NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT
+  commentId: T:NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT.html
+  name: NV_GPU_WARPING_VERTICE_FORMAT
+  nameWithType: NV_GPU_WARPING_VERTICE_FORMAT
+  fullName: NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.NumVertices*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.NumVertices
+  href: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.html#NVAPIWrapper_NVAPIGpuScanoutWarpingDataDto_NumVertices
+  name: NumVertices
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.NumVertices
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.NumVertices
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.TextureRect
+  commentId: P:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.TextureRect
+  href: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.html#NVAPIWrapper_NVAPIGpuScanoutWarpingDataDto_TextureRect
+  name: TextureRect
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.TextureRect
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.TextureRect
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.HasTextureRect*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.HasTextureRect
+  href: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.html#NVAPIWrapper_NVAPIGpuScanoutWarpingDataDto_HasTextureRect
+  name: HasTextureRect
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.HasTextureRect
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.HasTextureRect
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.HasTextureRect
+  commentId: P:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.HasTextureRect
+  href: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.html#NVAPIWrapper_NVAPIGpuScanoutWarpingDataDto_HasTextureRect
+  name: HasTextureRect
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.HasTextureRect
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.HasTextureRect
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.TextureRect*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.TextureRect
+  href: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.html#NVAPIWrapper_NVAPIGpuScanoutWarpingDataDto_TextureRect
+  name: TextureRect
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.TextureRect
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.TextureRect
+- uid: NVAPIWrapper.NVAPISBoxDto
+  commentId: T:NVAPIWrapper.NVAPISBoxDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPISBoxDto.html
+  name: NVAPISBoxDto
+  nameWithType: NVAPISBoxDto
+  fullName: NVAPIWrapper.NVAPISBoxDto
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.#ctor
+  href: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.html#NVAPIWrapper_NVAPIGpuScanoutWarpingDataDto__ctor_System_Single___NVAPIWrapper_NV_GPU_WARPING_VERTICE_FORMAT_System_Int32_System_Boolean_NVAPIWrapper_NVAPISBoxDto_
+  name: NVAPIGpuScanoutWarpingDataDto
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.NVAPIGpuScanoutWarpingDataDto
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.NVAPIGpuScanoutWarpingDataDto
+  nameWithType.vb: NVAPIGpuScanoutWarpingDataDto.New
+  fullName.vb: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.ToNative
+  href: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.html#NVAPIWrapper_NVAPIGpuScanoutWarpingDataDto_ToNative
+  name: ToNative
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.ToNative
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.ToNative
+- uid: NVAPIWrapper.NV_SCANOUT_WARPING_DATA
+  commentId: T:NVAPIWrapper.NV_SCANOUT_WARPING_DATA
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_SCANOUT_WARPING_DATA.html
+  name: NV_SCANOUT_WARPING_DATA
+  nameWithType: NV_SCANOUT_WARPING_DATA
+  fullName: NVAPIWrapper.NV_SCANOUT_WARPING_DATA
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.Equals
+  href: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.html#NVAPIWrapper_NVAPIGpuScanoutWarpingDataDto_Equals_NVAPIWrapper_NVAPIGpuScanoutWarpingDataDto_
+  name: Equals
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.Equals
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto}.Equals(NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto}.Equals(NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIGpuScanoutWarpingDataDto)
+  nameWithType: IEquatable<NVAPIGpuScanoutWarpingDataDto>.Equals(NVAPIGpuScanoutWarpingDataDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto>.Equals(NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+  nameWithType.vb: IEquatable(Of NVAPIGpuScanoutWarpingDataDto).Equals(NVAPIGpuScanoutWarpingDataDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto).Equals(NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto}.Equals(NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+    name: NVAPIGpuScanoutWarpingDataDto
+    href: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto}.Equals(NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+    name: NVAPIGpuScanoutWarpingDataDto
+    href: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.html
+  - name: )
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+  commentId: T:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.html
+  name: NVAPIGpuScanoutWarpingDataDto
+  nameWithType: NVAPIGpuScanoutWarpingDataDto
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.GetHashCode
+  href: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.html#NVAPIWrapper_NVAPIGpuScanoutWarpingDataDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.GetHashCode
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.op_Equality
+  href: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.html#NVAPIWrapper_NVAPIGpuScanoutWarpingDataDto_op_Equality_NVAPIWrapper_NVAPIGpuScanoutWarpingDataDto_NVAPIWrapper_NVAPIGpuScanoutWarpingDataDto_
+  name: operator ==
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.operator ==
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.operator ==
+  nameWithType.vb: NVAPIGpuScanoutWarpingDataDto.=
+  fullName.vb: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.html#NVAPIWrapper_NVAPIGpuScanoutWarpingDataDto_op_Equality_NVAPIWrapper_NVAPIGpuScanoutWarpingDataDto_NVAPIWrapper_NVAPIGpuScanoutWarpingDataDto_
+- uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.op_Inequality
+  href: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.html#NVAPIWrapper_NVAPIGpuScanoutWarpingDataDto_op_Inequality_NVAPIWrapper_NVAPIGpuScanoutWarpingDataDto_NVAPIWrapper_NVAPIGpuScanoutWarpingDataDto_
+  name: operator !=
+  nameWithType: NVAPIGpuScanoutWarpingDataDto.operator !=
+  fullName: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.operator !=
+  nameWithType.vb: NVAPIGpuScanoutWarpingDataDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIGpuScanoutWarpingDataDto.html#NVAPIWrapper_NVAPIGpuScanoutWarpingDataDto_op_Inequality_NVAPIWrapper_NVAPIGpuScanoutWarpingDataDto_NVAPIWrapper_NVAPIGpuScanoutWarpingDataDto_

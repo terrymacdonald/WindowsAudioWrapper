@@ -1,0 +1,2123 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  commentId: T:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  id: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.Item(System.Int32)
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e0
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e1
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e10
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e11
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e12
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e13
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e14
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e15
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e16
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e17
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e18
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e19
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e2
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e20
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e21
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e22
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e23
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e24
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e25
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e26
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e27
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e28
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e29
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e3
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e30
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e31
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e32
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e33
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e34
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e35
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e36
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e37
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e38
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e39
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e4
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e40
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e41
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e42
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e43
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e44
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e45
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e46
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e47
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e48
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e49
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e5
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e50
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e51
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e52
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e53
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e54
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e55
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e56
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e57
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e58
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e59
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e6
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e60
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e61
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e62
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e63
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e7
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e8
+  - NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e9
+  langs:
+  - csharp
+  - vb
+  name: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _physicalGpuHandles_e__FixedBuffer
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+    content.vb: Public Structure _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e0
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e0
+  id: e0
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e0
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e0
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e0
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e0
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 29
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e0
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e0 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e1
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e1
+  id: e1
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e1
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e1
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e1
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e1
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e1
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e1 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e2
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e2
+  id: e2
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e2
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e2
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e2
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e2
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 31
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e2
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e2 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e3
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e3
+  id: e3
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e3
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e3
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e3
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e3
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 32
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e3
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e3 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e4
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e4
+  id: e4
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e4
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e4
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e4
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e4
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e4
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e4 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e5
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e5
+  id: e5
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e5
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e5
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e5
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e5
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 34
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e5
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e5 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e6
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e6
+  id: e6
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e6
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e6
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e6
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e6
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 35
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e6
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e6 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e7
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e7
+  id: e7
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e7
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e7
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e7
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e7
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e7
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e7 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e8
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e8
+  id: e8
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e8
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e8
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e8
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e8
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 37
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e8
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e8 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e9
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e9
+  id: e9
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e9
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e9
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e9
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e9
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 38
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e9
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e9 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e10
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e10
+  id: e10
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e10
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e10
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e10
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e10
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 39
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e10
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e10 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e11
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e11
+  id: e11
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e11
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e11
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e11
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e11
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 40
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e11
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e11 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e12
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e12
+  id: e12
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e12
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e12
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e12
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e12
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 41
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e12
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e12 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e13
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e13
+  id: e13
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e13
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e13
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e13
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e13
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 42
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e13
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e13 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e14
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e14
+  id: e14
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e14
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e14
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e14
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e14
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 43
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e14
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e14 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e15
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e15
+  id: e15
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e15
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e15
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e15
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e15
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 44
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e15
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e15 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e16
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e16
+  id: e16
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e16
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e16
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e16
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e16
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 45
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e16
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e16 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e17
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e17
+  id: e17
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e17
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e17
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e17
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e17
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 46
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e17
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e17 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e18
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e18
+  id: e18
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e18
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e18
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e18
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e18
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 47
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e18
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e18 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e19
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e19
+  id: e19
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e19
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e19
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e19
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e19
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 48
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e19
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e19 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e20
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e20
+  id: e20
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e20
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e20
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e20
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e20
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 49
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e20
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e20 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e21
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e21
+  id: e21
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e21
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e21
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e21
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e21
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 50
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e21
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e21 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e22
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e22
+  id: e22
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e22
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e22
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e22
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e22
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 51
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e22
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e22 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e23
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e23
+  id: e23
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e23
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e23
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e23
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e23
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 52
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e23
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e23 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e24
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e24
+  id: e24
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e24
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e24
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e24
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e24
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 53
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e24
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e24 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e25
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e25
+  id: e25
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e25
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e25
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e25
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e25
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 54
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e25
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e25 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e26
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e26
+  id: e26
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e26
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e26
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e26
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e26
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 55
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e26
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e26 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e27
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e27
+  id: e27
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e27
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e27
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e27
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e27
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 56
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e27
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e27 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e28
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e28
+  id: e28
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e28
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e28
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e28
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e28
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 57
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e28
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e28 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e29
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e29
+  id: e29
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e29
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e29
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e29
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e29
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 58
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e29
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e29 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e30
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e30
+  id: e30
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e30
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e30
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e30
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e30
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 59
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e30
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e30 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e31
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e31
+  id: e31
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e31
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e31
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e31
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e31
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 60
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e31
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e31 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e32
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e32
+  id: e32
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e32
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e32
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e32
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e32
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 61
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e32
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e32 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e33
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e33
+  id: e33
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e33
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e33
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e33
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e33
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 62
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e33
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e33 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e34
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e34
+  id: e34
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e34
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e34
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e34
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e34
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 63
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e34
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e34 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e35
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e35
+  id: e35
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e35
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e35
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e35
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e35
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 64
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e35
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e35 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e36
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e36
+  id: e36
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e36
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e36
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e36
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e36
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 65
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e36
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e36 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e37
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e37
+  id: e37
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e37
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e37
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e37
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e37
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 66
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e37
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e37 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e38
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e38
+  id: e38
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e38
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e38
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e38
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e38
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 67
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e38
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e38 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e39
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e39
+  id: e39
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e39
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e39
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e39
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e39
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 68
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e39
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e39 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e40
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e40
+  id: e40
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e40
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e40
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e40
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e40
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 69
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e40
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e40 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e41
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e41
+  id: e41
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e41
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e41
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e41
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e41
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 70
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e41
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e41 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e42
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e42
+  id: e42
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e42
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e42
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e42
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e42
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 71
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e42
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e42 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e43
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e43
+  id: e43
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e43
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e43
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e43
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e43
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 72
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e43
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e43 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e44
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e44
+  id: e44
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e44
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e44
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e44
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e44
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 73
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e44
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e44 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e45
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e45
+  id: e45
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e45
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e45
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e45
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e45
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 74
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e45
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e45 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e46
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e46
+  id: e46
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e46
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e46
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e46
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e46
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 75
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e46
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e46 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e47
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e47
+  id: e47
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e47
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e47
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e47
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e47
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 76
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e47
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e47 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e48
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e48
+  id: e48
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e48
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e48
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e48
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e48
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 77
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e48
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e48 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e49
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e49
+  id: e49
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e49
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e49
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e49
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e49
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 78
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e49
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e49 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e50
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e50
+  id: e50
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e50
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e50
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e50
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e50
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 79
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e50
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e50 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e51
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e51
+  id: e51
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e51
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e51
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e51
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e51
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 80
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e51
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e51 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e52
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e52
+  id: e52
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e52
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e52
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e52
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e52
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 81
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e52
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e52 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e53
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e53
+  id: e53
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e53
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e53
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e53
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e53
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 82
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e53
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e53 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e54
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e54
+  id: e54
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e54
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e54
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e54
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e54
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 83
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e54
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e54 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e55
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e55
+  id: e55
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e55
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e55
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e55
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e55
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 84
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e55
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e55 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e56
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e56
+  id: e56
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e56
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e56
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e56
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e56
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 85
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e56
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e56 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e57
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e57
+  id: e57
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e57
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e57
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e57
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e57
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 86
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e57
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e57 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e58
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e58
+  id: e58
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e58
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e58
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e58
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e58
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 87
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e58
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e58 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e59
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e59
+  id: e59
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e59
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e59
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e59
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e59
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 88
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e59
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e59 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e60
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e60
+  id: e60
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e60
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e60
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e60
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e60
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 89
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e60
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e60 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e61
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e61
+  id: e61
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e61
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e61
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e61
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e61
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 90
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e61
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e61 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e62
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e62
+  id: e62
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e62
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e62
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e62
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e62
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 91
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e62
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e62 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e63
+  commentId: F:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e63
+  id: e63
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: e63
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e63
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.e63
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: e63
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 92
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NvPhysicalGpuHandle__* e63
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public e63 As NvPhysicalGpuHandle__*
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.Item(System.Int32)
+  commentId: P:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer
+  langs:
+  - csharp
+  - vb
+  name: this[int]
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.this[int]
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.this[int]
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: this[]
+    path: ../NVAPIWrapper/cs_generated/_NV_LOGICAL_GPU_DATA_V1.cs
+    startLine: 94
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public ref NvPhysicalGpuHandle__* this[int index] { get; }
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: NVAPIWrapper.NvPhysicalGpuHandle__*
+    content.vb: Public ReadOnly Default ByRef Property this[](index As Integer) As NvPhysicalGpuHandle__*
+  overload: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.Item*
+  nameWithType.vb: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.this[](Integer)
+  fullName.vb: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.this[](Integer)
+  name.vb: this[](Integer)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NVAPIWrapper.NvPhysicalGpuHandle__*
+  isExternal: true
+  href: NVAPIWrapper.NvPhysicalGpuHandle__.html
+  name: NvPhysicalGpuHandle__*
+  nameWithType: NvPhysicalGpuHandle__*
+  fullName: NVAPIWrapper.NvPhysicalGpuHandle__*
+  spec.csharp:
+  - uid: NVAPIWrapper.NvPhysicalGpuHandle__
+    name: NvPhysicalGpuHandle__
+    href: NVAPIWrapper.NvPhysicalGpuHandle__.html
+  - name: '*'
+  spec.vb:
+  - uid: NVAPIWrapper.NvPhysicalGpuHandle__
+    name: NvPhysicalGpuHandle__
+    href: NVAPIWrapper.NvPhysicalGpuHandle__.html
+  - name: '*'
+- uid: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.Item*
+  commentId: Overload:NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.Item
+  href: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.html#NVAPIWrapper__NV_LOGICAL_GPU_DATA_V1__physicalGpuHandles_e__FixedBuffer_Item_System_Int32_
+  name: this
+  nameWithType: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.this
+  fullName: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.this
+  nameWithType.vb: _NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.this[]
+  fullName.vb: NVAPIWrapper._NV_LOGICAL_GPU_DATA_V1._physicalGpuHandles_e__FixedBuffer.this[]
+  name.vb: this[]
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

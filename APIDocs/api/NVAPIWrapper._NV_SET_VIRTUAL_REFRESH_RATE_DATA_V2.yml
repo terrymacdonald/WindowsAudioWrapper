@@ -1,0 +1,479 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2
+  commentId: T:NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2
+  id: _NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.bIsGamingVrr
+  - NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.frameIntervalNs
+  - NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.frameIntervalUs
+  - NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.reservedEx
+  - NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.rrx1k
+  - NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.version
+  langs:
+  - csharp
+  - vb
+  name: _NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2
+  nameWithType: _NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2
+  fullName: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2
+    path: ../NVAPIWrapper/cs_generated/_NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.cs
+    startLine: 5
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2
+    content.vb: Public Structure _NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.version
+  commentId: F:NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.version
+  id: version
+  parent: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: _NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.version
+  fullName: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.version
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: version
+    path: ../NVAPIWrapper/cs_generated/_NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint version
+    return:
+      type: System.UInt32
+    content.vb: Public version As UInteger
+- uid: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.frameIntervalUs
+  commentId: F:NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.frameIntervalUs
+  id: frameIntervalUs
+  parent: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2
+  langs:
+  - csharp
+  - vb
+  name: frameIntervalUs
+  nameWithType: _NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.frameIntervalUs
+  fullName: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.frameIntervalUs
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: frameIntervalUs
+    path: ../NVAPIWrapper/cs_generated/_NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.cs
+    startLine: 13
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint frameIntervalUs
+    return:
+      type: System.UInt32
+    content.vb: Public frameIntervalUs As UInteger
+- uid: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.rrx1k
+  commentId: F:NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.rrx1k
+  id: rrx1k
+  parent: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2
+  langs:
+  - csharp
+  - vb
+  name: rrx1k
+  nameWithType: _NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.rrx1k
+  fullName: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.rrx1k
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: rrx1k
+    path: ../NVAPIWrapper/cs_generated/_NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.cs
+    startLine: 17
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint rrx1k
+    return:
+      type: System.UInt32
+    content.vb: Public rrx1k As UInteger
+- uid: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.bIsGamingVrr
+  commentId: F:NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.bIsGamingVrr
+  id: bIsGamingVrr
+  parent: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2
+  langs:
+  - csharp
+  - vb
+  name: bIsGamingVrr
+  nameWithType: _NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.bIsGamingVrr
+  fullName: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.bIsGamingVrr
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bIsGamingVrr
+    path: ../NVAPIWrapper/cs_generated/_NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bIsGamingVrr
+    return:
+      type: System.UInt32
+    content.vb: Public bIsGamingVrr As UInteger
+- uid: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.frameIntervalNs
+  commentId: F:NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.frameIntervalNs
+  id: frameIntervalNs
+  parent: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2
+  langs:
+  - csharp
+  - vb
+  name: frameIntervalNs
+  nameWithType: _NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.frameIntervalNs
+  fullName: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.frameIntervalNs
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: frameIntervalNs
+    path: ../NVAPIWrapper/cs_generated/_NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.cs
+    startLine: 25
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ulong frameIntervalNs
+    return:
+      type: System.UInt64
+    content.vb: Public frameIntervalNs As ULong
+- uid: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.reservedEx
+  commentId: F:NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.reservedEx
+  id: reservedEx
+  parent: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2
+  langs:
+  - csharp
+  - vb
+  name: reservedEx
+  nameWithType: _NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.reservedEx
+  fullName: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.reservedEx
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reservedEx
+    path: ../NVAPIWrapper/cs_generated/_NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.cs
+    startLine: 29
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2._reservedEx_e__FixedBuffer reservedEx
+    return:
+      type: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2._reservedEx_e__FixedBuffer
+    content.vb: Public reservedEx As _NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2._reservedEx_e__FixedBuffer
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2._reservedEx_e__FixedBuffer
+  commentId: T:NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2._reservedEx_e__FixedBuffer
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.html
+  name: _NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2._reservedEx_e__FixedBuffer
+  nameWithType: _NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2._reservedEx_e__FixedBuffer
+  fullName: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2._reservedEx_e__FixedBuffer
+  spec.csharp:
+  - uid: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2
+    name: _NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2
+    href: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.html
+  - name: .
+  - uid: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2._reservedEx_e__FixedBuffer
+    name: _reservedEx_e__FixedBuffer
+    href: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2._reservedEx_e__FixedBuffer.html
+  spec.vb:
+  - uid: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2
+    name: _NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2
+    href: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2.html
+  - name: .
+  - uid: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2._reservedEx_e__FixedBuffer
+    name: _reservedEx_e__FixedBuffer
+    href: NVAPIWrapper._NV_SET_VIRTUAL_REFRESH_RATE_DATA_V2._reservedEx_e__FixedBuffer.html

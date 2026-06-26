@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+  commentId: T:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+  id: NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_COLOR_FIXED
+  - NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_INVALID
+  - NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_RGB
+  - NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_RGBW
+  - NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_SINGLE_COLOR
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+  nameWithType: NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_ZONE_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_ZONE_TYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+    content.vb: Public Enum NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_INVALID
+  commentId: F:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_INVALID
+  id: NV_GPU_CLIENT_ILLUM_ZONE_TYPE_INVALID
+  parent: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLIENT_ILLUM_ZONE_TYPE_INVALID
+  nameWithType: NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_INVALID
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_INVALID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_ZONE_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLIENT_ILLUM_ZONE_TYPE_INVALID
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_ZONE_TYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CLIENT_ILLUM_ZONE_TYPE_INVALID = 0
+    return:
+      type: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_RGB
+  commentId: F:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_RGB
+  id: NV_GPU_CLIENT_ILLUM_ZONE_TYPE_RGB
+  parent: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLIENT_ILLUM_ZONE_TYPE_RGB
+  nameWithType: NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_RGB
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_RGB
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_ZONE_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLIENT_ILLUM_ZONE_TYPE_RGB
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_ZONE_TYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CLIENT_ILLUM_ZONE_TYPE_RGB = 1
+    return:
+      type: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_COLOR_FIXED
+  commentId: F:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_COLOR_FIXED
+  id: NV_GPU_CLIENT_ILLUM_ZONE_TYPE_COLOR_FIXED
+  parent: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLIENT_ILLUM_ZONE_TYPE_COLOR_FIXED
+  nameWithType: NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_COLOR_FIXED
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_COLOR_FIXED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_ZONE_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLIENT_ILLUM_ZONE_TYPE_COLOR_FIXED
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_ZONE_TYPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CLIENT_ILLUM_ZONE_TYPE_COLOR_FIXED = 2
+    return:
+      type: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_RGBW
+  commentId: F:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_RGBW
+  id: NV_GPU_CLIENT_ILLUM_ZONE_TYPE_RGBW
+  parent: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLIENT_ILLUM_ZONE_TYPE_RGBW
+  nameWithType: NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_RGBW
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_RGBW
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_ZONE_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLIENT_ILLUM_ZONE_TYPE_RGBW
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_ZONE_TYPE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CLIENT_ILLUM_ZONE_TYPE_RGBW = 3
+    return:
+      type: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_SINGLE_COLOR
+  commentId: F:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_SINGLE_COLOR
+  id: NV_GPU_CLIENT_ILLUM_ZONE_TYPE_SINGLE_COLOR
+  parent: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLIENT_ILLUM_ZONE_TYPE_SINGLE_COLOR
+  nameWithType: NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_SINGLE_COLOR
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE.NV_GPU_CLIENT_ILLUM_ZONE_TYPE_SINGLE_COLOR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_ZONE_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLIENT_ILLUM_ZONE_TYPE_SINGLE_COLOR
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_ZONE_TYPE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CLIENT_ILLUM_ZONE_TYPE_SINGLE_COLOR = 4
+    return:
+      type: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+  commentId: T:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE.html
+  name: NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+  nameWithType: NV_GPU_CLIENT_ILLUM_ZONE_TYPE
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_TYPE

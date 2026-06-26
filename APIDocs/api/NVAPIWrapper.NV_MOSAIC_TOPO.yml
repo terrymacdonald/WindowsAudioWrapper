@@ -1,0 +1,799 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO
+  commentId: T:NVAPIWrapper.NV_MOSAIC_TOPO
+  id: NV_MOSAIC_TOPO
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x2_BASIC
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x2_PASSIVE_STEREO
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x3_BASIC
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x3_PASSIVE_STEREO
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x4_BASIC
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x4_PASSIVE_STEREO
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x5_BASIC
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x6_BASIC
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x1_BASIC
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x1_PASSIVE_STEREO
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x2_BASIC
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x2_PASSIVE_STEREO
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x3_BASIC
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x4_BASIC
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_3x1_BASIC
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_3x1_PASSIVE_STEREO
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_3x2_BASIC
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_4x1_BASIC
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_4x1_PASSIVE_STEREO
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_4x2_BASIC
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_7x1_BASIC
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_BEGIN_BASIC
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_BEGIN_PASSIVE_STEREO
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_END_BASIC
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_END_PASSIVE_STEREO
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_MAX
+  - NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_NONE
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO
+  nameWithType: NV_MOSAIC_TOPO
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_MOSAIC_TOPO
+    content.vb: Public Enum NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_NONE
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_NONE
+  id: NV_MOSAIC_TOPO_NONE
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_NONE
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_NONE
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_NONE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_NONE
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_NONE = 0
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_BEGIN_BASIC
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_BEGIN_BASIC
+  id: NV_MOSAIC_TOPO_BEGIN_BASIC
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_BEGIN_BASIC
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_BEGIN_BASIC
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_BEGIN_BASIC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_BEGIN_BASIC
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_BEGIN_BASIC = 1
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x2_BASIC
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x2_BASIC
+  id: NV_MOSAIC_TOPO_1x2_BASIC
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_1x2_BASIC
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x2_BASIC
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x2_BASIC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_1x2_BASIC
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_1x2_BASIC = 1
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x1_BASIC
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x1_BASIC
+  id: NV_MOSAIC_TOPO_2x1_BASIC
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_2x1_BASIC
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x1_BASIC
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x1_BASIC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_2x1_BASIC
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_2x1_BASIC = 2
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x3_BASIC
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x3_BASIC
+  id: NV_MOSAIC_TOPO_1x3_BASIC
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_1x3_BASIC
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x3_BASIC
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x3_BASIC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_1x3_BASIC
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_1x3_BASIC = 3
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_3x1_BASIC
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_3x1_BASIC
+  id: NV_MOSAIC_TOPO_3x1_BASIC
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_3x1_BASIC
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_3x1_BASIC
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_3x1_BASIC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_3x1_BASIC
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_3x1_BASIC = 4
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x4_BASIC
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x4_BASIC
+  id: NV_MOSAIC_TOPO_1x4_BASIC
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_1x4_BASIC
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x4_BASIC
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x4_BASIC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_1x4_BASIC
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_1x4_BASIC = 5
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_4x1_BASIC
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_4x1_BASIC
+  id: NV_MOSAIC_TOPO_4x1_BASIC
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_4x1_BASIC
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_4x1_BASIC
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_4x1_BASIC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_4x1_BASIC
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_4x1_BASIC = 6
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x2_BASIC
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x2_BASIC
+  id: NV_MOSAIC_TOPO_2x2_BASIC
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_2x2_BASIC
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x2_BASIC
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x2_BASIC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_2x2_BASIC
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_2x2_BASIC = 7
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x3_BASIC
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x3_BASIC
+  id: NV_MOSAIC_TOPO_2x3_BASIC
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_2x3_BASIC
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x3_BASIC
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x3_BASIC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_2x3_BASIC
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_2x3_BASIC = 8
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x4_BASIC
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x4_BASIC
+  id: NV_MOSAIC_TOPO_2x4_BASIC
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_2x4_BASIC
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x4_BASIC
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x4_BASIC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_2x4_BASIC
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_2x4_BASIC = 9
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_3x2_BASIC
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_3x2_BASIC
+  id: NV_MOSAIC_TOPO_3x2_BASIC
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_3x2_BASIC
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_3x2_BASIC
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_3x2_BASIC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_3x2_BASIC
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 39
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_3x2_BASIC = 10
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_4x2_BASIC
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_4x2_BASIC
+  id: NV_MOSAIC_TOPO_4x2_BASIC
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_4x2_BASIC
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_4x2_BASIC
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_4x2_BASIC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_4x2_BASIC
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 42
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_4x2_BASIC = 11
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x5_BASIC
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x5_BASIC
+  id: NV_MOSAIC_TOPO_1x5_BASIC
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_1x5_BASIC
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x5_BASIC
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x5_BASIC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_1x5_BASIC
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 45
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_1x5_BASIC = 12
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x6_BASIC
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x6_BASIC
+  id: NV_MOSAIC_TOPO_1x6_BASIC
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_1x6_BASIC
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x6_BASIC
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x6_BASIC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_1x6_BASIC
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 48
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_1x6_BASIC = 13
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_7x1_BASIC
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_7x1_BASIC
+  id: NV_MOSAIC_TOPO_7x1_BASIC
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_7x1_BASIC
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_7x1_BASIC
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_7x1_BASIC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_7x1_BASIC
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 51
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_7x1_BASIC = 14
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_END_BASIC
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_END_BASIC
+  id: NV_MOSAIC_TOPO_END_BASIC
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_END_BASIC
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_END_BASIC
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_END_BASIC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_END_BASIC
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 54
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_END_BASIC = 23
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_BEGIN_PASSIVE_STEREO
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_BEGIN_PASSIVE_STEREO
+  id: NV_MOSAIC_TOPO_BEGIN_PASSIVE_STEREO
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_BEGIN_PASSIVE_STEREO
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_BEGIN_PASSIVE_STEREO
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_BEGIN_PASSIVE_STEREO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_BEGIN_PASSIVE_STEREO
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 57
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_BEGIN_PASSIVE_STEREO = 24
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x2_PASSIVE_STEREO
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x2_PASSIVE_STEREO
+  id: NV_MOSAIC_TOPO_1x2_PASSIVE_STEREO
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_1x2_PASSIVE_STEREO
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x2_PASSIVE_STEREO
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x2_PASSIVE_STEREO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_1x2_PASSIVE_STEREO
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 60
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_1x2_PASSIVE_STEREO = 24
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x1_PASSIVE_STEREO
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x1_PASSIVE_STEREO
+  id: NV_MOSAIC_TOPO_2x1_PASSIVE_STEREO
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_2x1_PASSIVE_STEREO
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x1_PASSIVE_STEREO
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x1_PASSIVE_STEREO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_2x1_PASSIVE_STEREO
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 63
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_2x1_PASSIVE_STEREO = 25
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x3_PASSIVE_STEREO
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x3_PASSIVE_STEREO
+  id: NV_MOSAIC_TOPO_1x3_PASSIVE_STEREO
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_1x3_PASSIVE_STEREO
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x3_PASSIVE_STEREO
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x3_PASSIVE_STEREO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_1x3_PASSIVE_STEREO
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 66
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_1x3_PASSIVE_STEREO = 26
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_3x1_PASSIVE_STEREO
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_3x1_PASSIVE_STEREO
+  id: NV_MOSAIC_TOPO_3x1_PASSIVE_STEREO
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_3x1_PASSIVE_STEREO
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_3x1_PASSIVE_STEREO
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_3x1_PASSIVE_STEREO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_3x1_PASSIVE_STEREO
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 69
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_3x1_PASSIVE_STEREO = 27
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x4_PASSIVE_STEREO
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x4_PASSIVE_STEREO
+  id: NV_MOSAIC_TOPO_1x4_PASSIVE_STEREO
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_1x4_PASSIVE_STEREO
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x4_PASSIVE_STEREO
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_1x4_PASSIVE_STEREO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_1x4_PASSIVE_STEREO
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 72
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_1x4_PASSIVE_STEREO = 28
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_4x1_PASSIVE_STEREO
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_4x1_PASSIVE_STEREO
+  id: NV_MOSAIC_TOPO_4x1_PASSIVE_STEREO
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_4x1_PASSIVE_STEREO
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_4x1_PASSIVE_STEREO
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_4x1_PASSIVE_STEREO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_4x1_PASSIVE_STEREO
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 75
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_4x1_PASSIVE_STEREO = 29
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x2_PASSIVE_STEREO
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x2_PASSIVE_STEREO
+  id: NV_MOSAIC_TOPO_2x2_PASSIVE_STEREO
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_2x2_PASSIVE_STEREO
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x2_PASSIVE_STEREO
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_2x2_PASSIVE_STEREO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_2x2_PASSIVE_STEREO
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 78
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_2x2_PASSIVE_STEREO = 30
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_END_PASSIVE_STEREO
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_END_PASSIVE_STEREO
+  id: NV_MOSAIC_TOPO_END_PASSIVE_STEREO
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_END_PASSIVE_STEREO
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_END_PASSIVE_STEREO
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_END_PASSIVE_STEREO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_END_PASSIVE_STEREO
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 81
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_END_PASSIVE_STEREO = 34
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_MAX
+  commentId: F:NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_MAX
+  id: NV_MOSAIC_TOPO_MAX
+  parent: NVAPIWrapper.NV_MOSAIC_TOPO
+  langs:
+  - csharp
+  - vb
+  name: NV_MOSAIC_TOPO_MAX
+  nameWithType: NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_MAX
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO.NV_MOSAIC_TOPO_MAX
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MOSAIC_TOPO_MAX
+    path: ../NVAPIWrapper/cs_generated/NV_MOSAIC_TOPO.cs
+    startLine: 84
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MOSAIC_TOPO_MAX = 35
+    return:
+      type: NVAPIWrapper.NV_MOSAIC_TOPO
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_MOSAIC_TOPO
+  commentId: T:NVAPIWrapper.NV_MOSAIC_TOPO
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_MOSAIC_TOPO.html
+  name: NV_MOSAIC_TOPO
+  nameWithType: NV_MOSAIC_TOPO
+  fullName: NVAPIWrapper.NV_MOSAIC_TOPO

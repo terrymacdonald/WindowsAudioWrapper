@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_VSYNCTEARCONTROL
+  commentId: T:NVAPIWrapper.EValues_VSYNCTEARCONTROL
+  id: EValues_VSYNCTEARCONTROL
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_VSYNCTEARCONTROL.VSYNCTEARCONTROL_DEFAULT
+  - NVAPIWrapper.EValues_VSYNCTEARCONTROL.VSYNCTEARCONTROL_DISABLE
+  - NVAPIWrapper.EValues_VSYNCTEARCONTROL.VSYNCTEARCONTROL_ENABLE
+  - NVAPIWrapper.EValues_VSYNCTEARCONTROL.VSYNCTEARCONTROL_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_VSYNCTEARCONTROL
+  nameWithType: EValues_VSYNCTEARCONTROL
+  fullName: NVAPIWrapper.EValues_VSYNCTEARCONTROL
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCTEARCONTROL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_VSYNCTEARCONTROL
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCTEARCONTROL.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_VSYNCTEARCONTROL
+    content.vb: Public Enum EValues_VSYNCTEARCONTROL
+- uid: NVAPIWrapper.EValues_VSYNCTEARCONTROL.VSYNCTEARCONTROL_DISABLE
+  commentId: F:NVAPIWrapper.EValues_VSYNCTEARCONTROL.VSYNCTEARCONTROL_DISABLE
+  id: VSYNCTEARCONTROL_DISABLE
+  parent: NVAPIWrapper.EValues_VSYNCTEARCONTROL
+  langs:
+  - csharp
+  - vb
+  name: VSYNCTEARCONTROL_DISABLE
+  nameWithType: EValues_VSYNCTEARCONTROL.VSYNCTEARCONTROL_DISABLE
+  fullName: NVAPIWrapper.EValues_VSYNCTEARCONTROL.VSYNCTEARCONTROL_DISABLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCTEARCONTROL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCTEARCONTROL_DISABLE
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCTEARCONTROL.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCTEARCONTROL_DISABLE = -1769598857
+    return:
+      type: NVAPIWrapper.EValues_VSYNCTEARCONTROL
+- uid: NVAPIWrapper.EValues_VSYNCTEARCONTROL.VSYNCTEARCONTROL_ENABLE
+  commentId: F:NVAPIWrapper.EValues_VSYNCTEARCONTROL.VSYNCTEARCONTROL_ENABLE
+  id: VSYNCTEARCONTROL_ENABLE
+  parent: NVAPIWrapper.EValues_VSYNCTEARCONTROL
+  langs:
+  - csharp
+  - vb
+  name: VSYNCTEARCONTROL_ENABLE
+  nameWithType: EValues_VSYNCTEARCONTROL.VSYNCTEARCONTROL_ENABLE
+  fullName: NVAPIWrapper.EValues_VSYNCTEARCONTROL.VSYNCTEARCONTROL_ENABLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCTEARCONTROL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCTEARCONTROL_ENABLE
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCTEARCONTROL.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCTEARCONTROL_ENABLE = -1718349180
+    return:
+      type: NVAPIWrapper.EValues_VSYNCTEARCONTROL
+- uid: NVAPIWrapper.EValues_VSYNCTEARCONTROL.VSYNCTEARCONTROL_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_VSYNCTEARCONTROL.VSYNCTEARCONTROL_NUM_VALUES
+  id: VSYNCTEARCONTROL_NUM_VALUES
+  parent: NVAPIWrapper.EValues_VSYNCTEARCONTROL
+  langs:
+  - csharp
+  - vb
+  name: VSYNCTEARCONTROL_NUM_VALUES
+  nameWithType: EValues_VSYNCTEARCONTROL.VSYNCTEARCONTROL_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_VSYNCTEARCONTROL.VSYNCTEARCONTROL_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCTEARCONTROL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCTEARCONTROL_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCTEARCONTROL.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCTEARCONTROL_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_VSYNCTEARCONTROL
+- uid: NVAPIWrapper.EValues_VSYNCTEARCONTROL.VSYNCTEARCONTROL_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_VSYNCTEARCONTROL.VSYNCTEARCONTROL_DEFAULT
+  id: VSYNCTEARCONTROL_DEFAULT
+  parent: NVAPIWrapper.EValues_VSYNCTEARCONTROL
+  langs:
+  - csharp
+  - vb
+  name: VSYNCTEARCONTROL_DEFAULT
+  nameWithType: EValues_VSYNCTEARCONTROL.VSYNCTEARCONTROL_DEFAULT
+  fullName: NVAPIWrapper.EValues_VSYNCTEARCONTROL.VSYNCTEARCONTROL_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCTEARCONTROL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCTEARCONTROL_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCTEARCONTROL.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCTEARCONTROL_DEFAULT = -1769598857
+    return:
+      type: NVAPIWrapper.EValues_VSYNCTEARCONTROL
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_VSYNCTEARCONTROL
+  commentId: T:NVAPIWrapper.EValues_VSYNCTEARCONTROL
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_VSYNCTEARCONTROL.html
+  name: EValues_VSYNCTEARCONTROL
+  nameWithType: EValues_VSYNCTEARCONTROL
+  fullName: NVAPIWrapper.EValues_VSYNCTEARCONTROL

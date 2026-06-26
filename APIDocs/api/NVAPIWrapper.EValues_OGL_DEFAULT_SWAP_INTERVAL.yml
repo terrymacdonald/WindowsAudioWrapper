@@ -1,0 +1,351 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+  commentId: T:NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+  id: EValues_OGL_DEFAULT_SWAP_INTERVAL
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_APP_CONTROLLED
+  - NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_DEFAULT
+  - NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_DISABLE
+  - NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_FORCE_MASK
+  - NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_FORCE_OFF
+  - NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_FORCE_ON
+  - NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_NUM_VALUES
+  - NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_TEAR
+  - NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_VALUE_MASK
+  - NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_VSYNC
+  - NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_VSYNC_ONE
+  langs:
+  - csharp
+  - vb
+  name: EValues_OGL_DEFAULT_SWAP_INTERVAL
+  nameWithType: EValues_OGL_DEFAULT_SWAP_INTERVAL
+  fullName: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_OGL_DEFAULT_SWAP_INTERVAL
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_OGL_DEFAULT_SWAP_INTERVAL
+    content.vb: Public Enum EValues_OGL_DEFAULT_SWAP_INTERVAL
+- uid: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_TEAR
+  commentId: F:NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_TEAR
+  id: OGL_DEFAULT_SWAP_INTERVAL_TEAR
+  parent: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+  langs:
+  - csharp
+  - vb
+  name: OGL_DEFAULT_SWAP_INTERVAL_TEAR
+  nameWithType: EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_TEAR
+  fullName: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_TEAR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_DEFAULT_SWAP_INTERVAL_TEAR
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_DEFAULT_SWAP_INTERVAL_TEAR = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+- uid: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_VSYNC_ONE
+  commentId: F:NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_VSYNC_ONE
+  id: OGL_DEFAULT_SWAP_INTERVAL_VSYNC_ONE
+  parent: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+  langs:
+  - csharp
+  - vb
+  name: OGL_DEFAULT_SWAP_INTERVAL_VSYNC_ONE
+  nameWithType: EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_VSYNC_ONE
+  fullName: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_VSYNC_ONE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_DEFAULT_SWAP_INTERVAL_VSYNC_ONE
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_DEFAULT_SWAP_INTERVAL_VSYNC_ONE = 1
+    return:
+      type: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+- uid: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_VSYNC
+  commentId: F:NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_VSYNC
+  id: OGL_DEFAULT_SWAP_INTERVAL_VSYNC
+  parent: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+  langs:
+  - csharp
+  - vb
+  name: OGL_DEFAULT_SWAP_INTERVAL_VSYNC
+  nameWithType: EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_VSYNC
+  fullName: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_VSYNC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_DEFAULT_SWAP_INTERVAL_VSYNC
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_DEFAULT_SWAP_INTERVAL_VSYNC = 1
+    return:
+      type: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+- uid: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_VALUE_MASK
+  commentId: F:NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_VALUE_MASK
+  id: OGL_DEFAULT_SWAP_INTERVAL_VALUE_MASK
+  parent: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+  langs:
+  - csharp
+  - vb
+  name: OGL_DEFAULT_SWAP_INTERVAL_VALUE_MASK
+  nameWithType: EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_VALUE_MASK
+  fullName: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_VALUE_MASK
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_DEFAULT_SWAP_INTERVAL_VALUE_MASK
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_DEFAULT_SWAP_INTERVAL_VALUE_MASK = 65535
+    return:
+      type: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+- uid: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_FORCE_MASK
+  commentId: F:NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_FORCE_MASK
+  id: OGL_DEFAULT_SWAP_INTERVAL_FORCE_MASK
+  parent: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+  langs:
+  - csharp
+  - vb
+  name: OGL_DEFAULT_SWAP_INTERVAL_FORCE_MASK
+  nameWithType: EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_FORCE_MASK
+  fullName: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_FORCE_MASK
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_DEFAULT_SWAP_INTERVAL_FORCE_MASK
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_DEFAULT_SWAP_INTERVAL_FORCE_MASK = -268435456
+    return:
+      type: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+- uid: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_FORCE_OFF
+  commentId: F:NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_FORCE_OFF
+  id: OGL_DEFAULT_SWAP_INTERVAL_FORCE_OFF
+  parent: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+  langs:
+  - csharp
+  - vb
+  name: OGL_DEFAULT_SWAP_INTERVAL_FORCE_OFF
+  nameWithType: EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_FORCE_OFF
+  fullName: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_FORCE_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_DEFAULT_SWAP_INTERVAL_FORCE_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_DEFAULT_SWAP_INTERVAL_FORCE_OFF = -268435456
+    return:
+      type: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+- uid: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_FORCE_ON
+  commentId: F:NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_FORCE_ON
+  id: OGL_DEFAULT_SWAP_INTERVAL_FORCE_ON
+  parent: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+  langs:
+  - csharp
+  - vb
+  name: OGL_DEFAULT_SWAP_INTERVAL_FORCE_ON
+  nameWithType: EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_FORCE_ON
+  fullName: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_FORCE_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_DEFAULT_SWAP_INTERVAL_FORCE_ON
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_DEFAULT_SWAP_INTERVAL_FORCE_ON = 268435456
+    return:
+      type: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+- uid: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_APP_CONTROLLED
+  commentId: F:NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_APP_CONTROLLED
+  id: OGL_DEFAULT_SWAP_INTERVAL_APP_CONTROLLED
+  parent: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+  langs:
+  - csharp
+  - vb
+  name: OGL_DEFAULT_SWAP_INTERVAL_APP_CONTROLLED
+  nameWithType: EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_APP_CONTROLLED
+  fullName: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_APP_CONTROLLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_DEFAULT_SWAP_INTERVAL_APP_CONTROLLED
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_DEFAULT_SWAP_INTERVAL_APP_CONTROLLED = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+- uid: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_DISABLE
+  commentId: F:NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_DISABLE
+  id: OGL_DEFAULT_SWAP_INTERVAL_DISABLE
+  parent: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+  langs:
+  - csharp
+  - vb
+  name: OGL_DEFAULT_SWAP_INTERVAL_DISABLE
+  nameWithType: EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_DISABLE
+  fullName: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_DISABLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_DEFAULT_SWAP_INTERVAL_DISABLE
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_DEFAULT_SWAP_INTERVAL_DISABLE = -1
+    return:
+      type: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+- uid: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_NUM_VALUES
+  id: OGL_DEFAULT_SWAP_INTERVAL_NUM_VALUES
+  parent: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+  langs:
+  - csharp
+  - vb
+  name: OGL_DEFAULT_SWAP_INTERVAL_NUM_VALUES
+  nameWithType: EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_DEFAULT_SWAP_INTERVAL_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_DEFAULT_SWAP_INTERVAL_NUM_VALUES = 9
+    return:
+      type: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+- uid: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_DEFAULT
+  id: OGL_DEFAULT_SWAP_INTERVAL_DEFAULT
+  parent: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+  langs:
+  - csharp
+  - vb
+  name: OGL_DEFAULT_SWAP_INTERVAL_DEFAULT
+  nameWithType: EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_DEFAULT
+  fullName: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.OGL_DEFAULT_SWAP_INTERVAL_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_DEFAULT_SWAP_INTERVAL_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_DEFAULT_SWAP_INTERVAL_DEFAULT = 1
+    return:
+      type: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+  commentId: T:NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL.html
+  name: EValues_OGL_DEFAULT_SWAP_INTERVAL
+  nameWithType: EValues_OGL_DEFAULT_SWAP_INTERVAL
+  fullName: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL

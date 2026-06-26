@@ -1,0 +1,1216 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  commentId: T:NVAPIWrapper.NV_INFOFRAME_VIDEO
+  id: NV_INFOFRAME_VIDEO
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO.Future17
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO.Future47
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO._bitfield1
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO._bitfield2
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO._bitfield3
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO._bitfield4
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO._bitfield5
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO._bitfield6
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO.activeFormatAspectRatio
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO.activeFormatInfoPresent
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO.barInfo
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO.bottom_bar
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO.colorSpace
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO.colorimetry
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO.contentTypes
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO.extendedColorimetry
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO.itContent
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO.left_bar
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO.nonuniformScaling
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO.picAspectRatio
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO.pixelRepeat
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO.rgbQuantizationRange
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO.right_bar
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO.scanInfo
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO.top_bar
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO.vic
+  - NVAPIWrapper.NV_INFOFRAME_VIDEO.yccQuantizationRange
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_VIDEO
+  nameWithType: NV_INFOFRAME_VIDEO
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_VIDEO
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct NV_INFOFRAME_VIDEO
+    content.vb: Public Structure NV_INFOFRAME_VIDEO
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO._bitfield1
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_VIDEO._bitfield1
+  id: _bitfield1
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: _bitfield1
+  nameWithType: NV_INFOFRAME_VIDEO._bitfield1
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO._bitfield1
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield1
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 5
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield1
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield1 As UInteger
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.vic
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_VIDEO.vic
+  id: vic
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: vic
+  nameWithType: NV_INFOFRAME_VIDEO.vic
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.vic
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: vic
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 8
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint vic { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property vic As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_VIDEO.vic*
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.pixelRepeat
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_VIDEO.pixelRepeat
+  id: pixelRepeat
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: pixelRepeat
+  nameWithType: NV_INFOFRAME_VIDEO.pixelRepeat
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.pixelRepeat
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: pixelRepeat
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 23
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint pixelRepeat { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property pixelRepeat As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_VIDEO.pixelRepeat*
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.colorSpace
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_VIDEO.colorSpace
+  id: colorSpace
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: colorSpace
+  nameWithType: NV_INFOFRAME_VIDEO.colorSpace
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.colorSpace
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: colorSpace
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 38
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint colorSpace { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property colorSpace As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_VIDEO.colorSpace*
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.colorimetry
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_VIDEO.colorimetry
+  id: colorimetry
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: colorimetry
+  nameWithType: NV_INFOFRAME_VIDEO.colorimetry
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.colorimetry
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: colorimetry
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 53
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint colorimetry { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property colorimetry As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_VIDEO.colorimetry*
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.extendedColorimetry
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_VIDEO.extendedColorimetry
+  id: extendedColorimetry
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: extendedColorimetry
+  nameWithType: NV_INFOFRAME_VIDEO.extendedColorimetry
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.extendedColorimetry
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: extendedColorimetry
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 68
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint extendedColorimetry { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property extendedColorimetry As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_VIDEO.extendedColorimetry*
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.rgbQuantizationRange
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_VIDEO.rgbQuantizationRange
+  id: rgbQuantizationRange
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: rgbQuantizationRange
+  nameWithType: NV_INFOFRAME_VIDEO.rgbQuantizationRange
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.rgbQuantizationRange
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: rgbQuantizationRange
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 83
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint rgbQuantizationRange { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property rgbQuantizationRange As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_VIDEO.rgbQuantizationRange*
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.yccQuantizationRange
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_VIDEO.yccQuantizationRange
+  id: yccQuantizationRange
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: yccQuantizationRange
+  nameWithType: NV_INFOFRAME_VIDEO.yccQuantizationRange
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.yccQuantizationRange
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: yccQuantizationRange
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 98
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint yccQuantizationRange { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property yccQuantizationRange As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_VIDEO.yccQuantizationRange*
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.itContent
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_VIDEO.itContent
+  id: itContent
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: itContent
+  nameWithType: NV_INFOFRAME_VIDEO.itContent
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.itContent
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: itContent
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 113
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint itContent { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property itContent As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_VIDEO.itContent*
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO._bitfield2
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_VIDEO._bitfield2
+  id: _bitfield2
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: _bitfield2
+  nameWithType: NV_INFOFRAME_VIDEO._bitfield2
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO._bitfield2
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield2
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 127
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield2
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield2 As UInteger
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.contentTypes
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_VIDEO.contentTypes
+  id: contentTypes
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: contentTypes
+  nameWithType: NV_INFOFRAME_VIDEO.contentTypes
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.contentTypes
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: contentTypes
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 130
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint contentTypes { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property contentTypes As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_VIDEO.contentTypes*
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.scanInfo
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_VIDEO.scanInfo
+  id: scanInfo
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: scanInfo
+  nameWithType: NV_INFOFRAME_VIDEO.scanInfo
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.scanInfo
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: scanInfo
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 145
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint scanInfo { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property scanInfo As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_VIDEO.scanInfo*
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.activeFormatInfoPresent
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_VIDEO.activeFormatInfoPresent
+  id: activeFormatInfoPresent
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: activeFormatInfoPresent
+  nameWithType: NV_INFOFRAME_VIDEO.activeFormatInfoPresent
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.activeFormatInfoPresent
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: activeFormatInfoPresent
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 160
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint activeFormatInfoPresent { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property activeFormatInfoPresent As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_VIDEO.activeFormatInfoPresent*
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.activeFormatAspectRatio
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_VIDEO.activeFormatAspectRatio
+  id: activeFormatAspectRatio
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: activeFormatAspectRatio
+  nameWithType: NV_INFOFRAME_VIDEO.activeFormatAspectRatio
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.activeFormatAspectRatio
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: activeFormatAspectRatio
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 175
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint activeFormatAspectRatio { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property activeFormatAspectRatio As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_VIDEO.activeFormatAspectRatio*
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.picAspectRatio
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_VIDEO.picAspectRatio
+  id: picAspectRatio
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: picAspectRatio
+  nameWithType: NV_INFOFRAME_VIDEO.picAspectRatio
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.picAspectRatio
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: picAspectRatio
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 190
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint picAspectRatio { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property picAspectRatio As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_VIDEO.picAspectRatio*
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.nonuniformScaling
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_VIDEO.nonuniformScaling
+  id: nonuniformScaling
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: nonuniformScaling
+  nameWithType: NV_INFOFRAME_VIDEO.nonuniformScaling
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.nonuniformScaling
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: nonuniformScaling
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 205
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint nonuniformScaling { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property nonuniformScaling As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_VIDEO.nonuniformScaling*
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.barInfo
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_VIDEO.barInfo
+  id: barInfo
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: barInfo
+  nameWithType: NV_INFOFRAME_VIDEO.barInfo
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.barInfo
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: barInfo
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 220
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint barInfo { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property barInfo As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_VIDEO.barInfo*
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO._bitfield3
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_VIDEO._bitfield3
+  id: _bitfield3
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: _bitfield3
+  nameWithType: NV_INFOFRAME_VIDEO._bitfield3
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO._bitfield3
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield3
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 234
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield3
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield3 As UInteger
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.top_bar
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_VIDEO.top_bar
+  id: top_bar
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: top_bar
+  nameWithType: NV_INFOFRAME_VIDEO.top_bar
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.top_bar
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: top_bar
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 237
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint top_bar { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property top_bar As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_VIDEO.top_bar*
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO._bitfield4
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_VIDEO._bitfield4
+  id: _bitfield4
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: _bitfield4
+  nameWithType: NV_INFOFRAME_VIDEO._bitfield4
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO._bitfield4
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield4
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 251
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield4
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield4 As UInteger
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.bottom_bar
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_VIDEO.bottom_bar
+  id: bottom_bar
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: bottom_bar
+  nameWithType: NV_INFOFRAME_VIDEO.bottom_bar
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.bottom_bar
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bottom_bar
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 254
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bottom_bar { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property bottom_bar As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_VIDEO.bottom_bar*
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO._bitfield5
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_VIDEO._bitfield5
+  id: _bitfield5
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: _bitfield5
+  nameWithType: NV_INFOFRAME_VIDEO._bitfield5
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO._bitfield5
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield5
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 268
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield5
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield5 As UInteger
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.left_bar
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_VIDEO.left_bar
+  id: left_bar
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: left_bar
+  nameWithType: NV_INFOFRAME_VIDEO.left_bar
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.left_bar
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: left_bar
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 271
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint left_bar { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property left_bar As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_VIDEO.left_bar*
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO._bitfield6
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_VIDEO._bitfield6
+  id: _bitfield6
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: _bitfield6
+  nameWithType: NV_INFOFRAME_VIDEO._bitfield6
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO._bitfield6
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield6
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 285
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield6
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield6 As UInteger
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.right_bar
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_VIDEO.right_bar
+  id: right_bar
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: right_bar
+  nameWithType: NV_INFOFRAME_VIDEO.right_bar
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.right_bar
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: right_bar
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 288
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint right_bar { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property right_bar As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_VIDEO.right_bar*
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.Future17
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_VIDEO.Future17
+  id: Future17
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: Future17
+  nameWithType: NV_INFOFRAME_VIDEO.Future17
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.Future17
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Future17
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 303
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint Future17 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Future17 As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_VIDEO.Future17*
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.Future47
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_VIDEO.Future47
+  id: Future47
+  parent: NVAPIWrapper.NV_INFOFRAME_VIDEO
+  langs:
+  - csharp
+  - vb
+  name: Future47
+  nameWithType: NV_INFOFRAME_VIDEO.Future47
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.Future47
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Future47
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_VIDEO.cs
+    startLine: 318
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint Future47 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Future47 As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_VIDEO.Future47*
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.vic*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_VIDEO.vic
+  href: NVAPIWrapper.NV_INFOFRAME_VIDEO.html#NVAPIWrapper_NV_INFOFRAME_VIDEO_vic
+  name: vic
+  nameWithType: NV_INFOFRAME_VIDEO.vic
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.vic
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.pixelRepeat*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_VIDEO.pixelRepeat
+  href: NVAPIWrapper.NV_INFOFRAME_VIDEO.html#NVAPIWrapper_NV_INFOFRAME_VIDEO_pixelRepeat
+  name: pixelRepeat
+  nameWithType: NV_INFOFRAME_VIDEO.pixelRepeat
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.pixelRepeat
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.colorSpace*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_VIDEO.colorSpace
+  href: NVAPIWrapper.NV_INFOFRAME_VIDEO.html#NVAPIWrapper_NV_INFOFRAME_VIDEO_colorSpace
+  name: colorSpace
+  nameWithType: NV_INFOFRAME_VIDEO.colorSpace
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.colorSpace
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.colorimetry*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_VIDEO.colorimetry
+  href: NVAPIWrapper.NV_INFOFRAME_VIDEO.html#NVAPIWrapper_NV_INFOFRAME_VIDEO_colorimetry
+  name: colorimetry
+  nameWithType: NV_INFOFRAME_VIDEO.colorimetry
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.colorimetry
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.extendedColorimetry*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_VIDEO.extendedColorimetry
+  href: NVAPIWrapper.NV_INFOFRAME_VIDEO.html#NVAPIWrapper_NV_INFOFRAME_VIDEO_extendedColorimetry
+  name: extendedColorimetry
+  nameWithType: NV_INFOFRAME_VIDEO.extendedColorimetry
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.extendedColorimetry
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.rgbQuantizationRange*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_VIDEO.rgbQuantizationRange
+  href: NVAPIWrapper.NV_INFOFRAME_VIDEO.html#NVAPIWrapper_NV_INFOFRAME_VIDEO_rgbQuantizationRange
+  name: rgbQuantizationRange
+  nameWithType: NV_INFOFRAME_VIDEO.rgbQuantizationRange
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.rgbQuantizationRange
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.yccQuantizationRange*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_VIDEO.yccQuantizationRange
+  href: NVAPIWrapper.NV_INFOFRAME_VIDEO.html#NVAPIWrapper_NV_INFOFRAME_VIDEO_yccQuantizationRange
+  name: yccQuantizationRange
+  nameWithType: NV_INFOFRAME_VIDEO.yccQuantizationRange
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.yccQuantizationRange
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.itContent*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_VIDEO.itContent
+  href: NVAPIWrapper.NV_INFOFRAME_VIDEO.html#NVAPIWrapper_NV_INFOFRAME_VIDEO_itContent
+  name: itContent
+  nameWithType: NV_INFOFRAME_VIDEO.itContent
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.itContent
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.contentTypes*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_VIDEO.contentTypes
+  href: NVAPIWrapper.NV_INFOFRAME_VIDEO.html#NVAPIWrapper_NV_INFOFRAME_VIDEO_contentTypes
+  name: contentTypes
+  nameWithType: NV_INFOFRAME_VIDEO.contentTypes
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.contentTypes
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.scanInfo*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_VIDEO.scanInfo
+  href: NVAPIWrapper.NV_INFOFRAME_VIDEO.html#NVAPIWrapper_NV_INFOFRAME_VIDEO_scanInfo
+  name: scanInfo
+  nameWithType: NV_INFOFRAME_VIDEO.scanInfo
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.scanInfo
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.activeFormatInfoPresent*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_VIDEO.activeFormatInfoPresent
+  href: NVAPIWrapper.NV_INFOFRAME_VIDEO.html#NVAPIWrapper_NV_INFOFRAME_VIDEO_activeFormatInfoPresent
+  name: activeFormatInfoPresent
+  nameWithType: NV_INFOFRAME_VIDEO.activeFormatInfoPresent
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.activeFormatInfoPresent
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.activeFormatAspectRatio*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_VIDEO.activeFormatAspectRatio
+  href: NVAPIWrapper.NV_INFOFRAME_VIDEO.html#NVAPIWrapper_NV_INFOFRAME_VIDEO_activeFormatAspectRatio
+  name: activeFormatAspectRatio
+  nameWithType: NV_INFOFRAME_VIDEO.activeFormatAspectRatio
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.activeFormatAspectRatio
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.picAspectRatio*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_VIDEO.picAspectRatio
+  href: NVAPIWrapper.NV_INFOFRAME_VIDEO.html#NVAPIWrapper_NV_INFOFRAME_VIDEO_picAspectRatio
+  name: picAspectRatio
+  nameWithType: NV_INFOFRAME_VIDEO.picAspectRatio
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.picAspectRatio
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.nonuniformScaling*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_VIDEO.nonuniformScaling
+  href: NVAPIWrapper.NV_INFOFRAME_VIDEO.html#NVAPIWrapper_NV_INFOFRAME_VIDEO_nonuniformScaling
+  name: nonuniformScaling
+  nameWithType: NV_INFOFRAME_VIDEO.nonuniformScaling
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.nonuniformScaling
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.barInfo*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_VIDEO.barInfo
+  href: NVAPIWrapper.NV_INFOFRAME_VIDEO.html#NVAPIWrapper_NV_INFOFRAME_VIDEO_barInfo
+  name: barInfo
+  nameWithType: NV_INFOFRAME_VIDEO.barInfo
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.barInfo
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.top_bar*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_VIDEO.top_bar
+  href: NVAPIWrapper.NV_INFOFRAME_VIDEO.html#NVAPIWrapper_NV_INFOFRAME_VIDEO_top_bar
+  name: top_bar
+  nameWithType: NV_INFOFRAME_VIDEO.top_bar
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.top_bar
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.bottom_bar*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_VIDEO.bottom_bar
+  href: NVAPIWrapper.NV_INFOFRAME_VIDEO.html#NVAPIWrapper_NV_INFOFRAME_VIDEO_bottom_bar
+  name: bottom_bar
+  nameWithType: NV_INFOFRAME_VIDEO.bottom_bar
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.bottom_bar
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.left_bar*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_VIDEO.left_bar
+  href: NVAPIWrapper.NV_INFOFRAME_VIDEO.html#NVAPIWrapper_NV_INFOFRAME_VIDEO_left_bar
+  name: left_bar
+  nameWithType: NV_INFOFRAME_VIDEO.left_bar
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.left_bar
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.right_bar*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_VIDEO.right_bar
+  href: NVAPIWrapper.NV_INFOFRAME_VIDEO.html#NVAPIWrapper_NV_INFOFRAME_VIDEO_right_bar
+  name: right_bar
+  nameWithType: NV_INFOFRAME_VIDEO.right_bar
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.right_bar
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.Future17*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_VIDEO.Future17
+  href: NVAPIWrapper.NV_INFOFRAME_VIDEO.html#NVAPIWrapper_NV_INFOFRAME_VIDEO_Future17
+  name: Future17
+  nameWithType: NV_INFOFRAME_VIDEO.Future17
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.Future17
+- uid: NVAPIWrapper.NV_INFOFRAME_VIDEO.Future47*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_VIDEO.Future47
+  href: NVAPIWrapper.NV_INFOFRAME_VIDEO.html#NVAPIWrapper_NV_INFOFRAME_VIDEO_Future47
+  name: Future47
+  nameWithType: NV_INFOFRAME_VIDEO.Future47
+  fullName: NVAPIWrapper.NV_INFOFRAME_VIDEO.Future47

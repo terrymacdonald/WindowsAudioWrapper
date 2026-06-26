@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_VRPRERENDERLIMIT
+  commentId: T:NVAPIWrapper.EValues_VRPRERENDERLIMIT
+  id: EValues_VRPRERENDERLIMIT
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_APP_CONTROLLED
+  - NVAPIWrapper.EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_DEFAULT
+  - NVAPIWrapper.EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_MAX
+  - NVAPIWrapper.EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_MIN
+  - NVAPIWrapper.EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_VRPRERENDERLIMIT
+  nameWithType: EValues_VRPRERENDERLIMIT
+  fullName: NVAPIWrapper.EValues_VRPRERENDERLIMIT
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRPRERENDERLIMIT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_VRPRERENDERLIMIT
+    path: ../NVAPIWrapper/cs_generated/EValues_VRPRERENDERLIMIT.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_VRPRERENDERLIMIT
+    content.vb: Public Enum EValues_VRPRERENDERLIMIT
+- uid: NVAPIWrapper.EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_MIN
+  commentId: F:NVAPIWrapper.EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_MIN
+  id: VRPRERENDERLIMIT_MIN
+  parent: NVAPIWrapper.EValues_VRPRERENDERLIMIT
+  langs:
+  - csharp
+  - vb
+  name: VRPRERENDERLIMIT_MIN
+  nameWithType: EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_MIN
+  fullName: NVAPIWrapper.EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_MIN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRPRERENDERLIMIT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRPRERENDERLIMIT_MIN
+    path: ../NVAPIWrapper/cs_generated/EValues_VRPRERENDERLIMIT.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRPRERENDERLIMIT_MIN = 0
+    return:
+      type: NVAPIWrapper.EValues_VRPRERENDERLIMIT
+- uid: NVAPIWrapper.EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_MAX
+  commentId: F:NVAPIWrapper.EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_MAX
+  id: VRPRERENDERLIMIT_MAX
+  parent: NVAPIWrapper.EValues_VRPRERENDERLIMIT
+  langs:
+  - csharp
+  - vb
+  name: VRPRERENDERLIMIT_MAX
+  nameWithType: EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_MAX
+  fullName: NVAPIWrapper.EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_MAX
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRPRERENDERLIMIT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRPRERENDERLIMIT_MAX
+    path: ../NVAPIWrapper/cs_generated/EValues_VRPRERENDERLIMIT.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRPRERENDERLIMIT_MAX = 255
+    return:
+      type: NVAPIWrapper.EValues_VRPRERENDERLIMIT
+- uid: NVAPIWrapper.EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_APP_CONTROLLED
+  commentId: F:NVAPIWrapper.EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_APP_CONTROLLED
+  id: VRPRERENDERLIMIT_APP_CONTROLLED
+  parent: NVAPIWrapper.EValues_VRPRERENDERLIMIT
+  langs:
+  - csharp
+  - vb
+  name: VRPRERENDERLIMIT_APP_CONTROLLED
+  nameWithType: EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_APP_CONTROLLED
+  fullName: NVAPIWrapper.EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_APP_CONTROLLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRPRERENDERLIMIT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRPRERENDERLIMIT_APP_CONTROLLED
+    path: ../NVAPIWrapper/cs_generated/EValues_VRPRERENDERLIMIT.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRPRERENDERLIMIT_APP_CONTROLLED = 0
+    return:
+      type: NVAPIWrapper.EValues_VRPRERENDERLIMIT
+- uid: NVAPIWrapper.EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_DEFAULT
+  id: VRPRERENDERLIMIT_DEFAULT
+  parent: NVAPIWrapper.EValues_VRPRERENDERLIMIT
+  langs:
+  - csharp
+  - vb
+  name: VRPRERENDERLIMIT_DEFAULT
+  nameWithType: EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_DEFAULT
+  fullName: NVAPIWrapper.EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRPRERENDERLIMIT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRPRERENDERLIMIT_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_VRPRERENDERLIMIT.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRPRERENDERLIMIT_DEFAULT = 1
+    return:
+      type: NVAPIWrapper.EValues_VRPRERENDERLIMIT
+- uid: NVAPIWrapper.EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_NUM_VALUES
+  id: VRPRERENDERLIMIT_NUM_VALUES
+  parent: NVAPIWrapper.EValues_VRPRERENDERLIMIT
+  langs:
+  - csharp
+  - vb
+  name: VRPRERENDERLIMIT_NUM_VALUES
+  nameWithType: EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_VRPRERENDERLIMIT.VRPRERENDERLIMIT_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRPRERENDERLIMIT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRPRERENDERLIMIT_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_VRPRERENDERLIMIT.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRPRERENDERLIMIT_NUM_VALUES = 4
+    return:
+      type: NVAPIWrapper.EValues_VRPRERENDERLIMIT
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_VRPRERENDERLIMIT
+  commentId: T:NVAPIWrapper.EValues_VRPRERENDERLIMIT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_VRPRERENDERLIMIT.html
+  name: EValues_VRPRERENDERLIMIT
+  nameWithType: EValues_VRPRERENDERLIMIT
+  fullName: NVAPIWrapper.EValues_VRPRERENDERLIMIT

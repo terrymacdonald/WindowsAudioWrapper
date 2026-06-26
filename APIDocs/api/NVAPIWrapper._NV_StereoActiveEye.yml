@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_StereoActiveEye
+  commentId: T:NVAPIWrapper._NV_StereoActiveEye
+  id: _NV_StereoActiveEye
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_StereoActiveEye.NVAPI_STEREO_EYE_LEFT
+  - NVAPIWrapper._NV_StereoActiveEye.NVAPI_STEREO_EYE_MONO
+  - NVAPIWrapper._NV_StereoActiveEye.NVAPI_STEREO_EYE_RIGHT
+  langs:
+  - csharp
+  - vb
+  name: _NV_StereoActiveEye
+  nameWithType: _NV_StereoActiveEye
+  fullName: NVAPIWrapper._NV_StereoActiveEye
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_StereoActiveEye.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_StereoActiveEye
+    path: ../NVAPIWrapper/cs_generated/_NV_StereoActiveEye.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_StereoActiveEye
+    content.vb: Public Enum _NV_StereoActiveEye
+- uid: NVAPIWrapper._NV_StereoActiveEye.NVAPI_STEREO_EYE_RIGHT
+  commentId: F:NVAPIWrapper._NV_StereoActiveEye.NVAPI_STEREO_EYE_RIGHT
+  id: NVAPI_STEREO_EYE_RIGHT
+  parent: NVAPIWrapper._NV_StereoActiveEye
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_EYE_RIGHT
+  nameWithType: _NV_StereoActiveEye.NVAPI_STEREO_EYE_RIGHT
+  fullName: NVAPIWrapper._NV_StereoActiveEye.NVAPI_STEREO_EYE_RIGHT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_StereoActiveEye.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_EYE_RIGHT
+    path: ../NVAPIWrapper/cs_generated/_NV_StereoActiveEye.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_EYE_RIGHT = 1
+    return:
+      type: NVAPIWrapper._NV_StereoActiveEye
+- uid: NVAPIWrapper._NV_StereoActiveEye.NVAPI_STEREO_EYE_LEFT
+  commentId: F:NVAPIWrapper._NV_StereoActiveEye.NVAPI_STEREO_EYE_LEFT
+  id: NVAPI_STEREO_EYE_LEFT
+  parent: NVAPIWrapper._NV_StereoActiveEye
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_EYE_LEFT
+  nameWithType: _NV_StereoActiveEye.NVAPI_STEREO_EYE_LEFT
+  fullName: NVAPIWrapper._NV_StereoActiveEye.NVAPI_STEREO_EYE_LEFT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_StereoActiveEye.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_EYE_LEFT
+    path: ../NVAPIWrapper/cs_generated/_NV_StereoActiveEye.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_EYE_LEFT = 2
+    return:
+      type: NVAPIWrapper._NV_StereoActiveEye
+- uid: NVAPIWrapper._NV_StereoActiveEye.NVAPI_STEREO_EYE_MONO
+  commentId: F:NVAPIWrapper._NV_StereoActiveEye.NVAPI_STEREO_EYE_MONO
+  id: NVAPI_STEREO_EYE_MONO
+  parent: NVAPIWrapper._NV_StereoActiveEye
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_EYE_MONO
+  nameWithType: _NV_StereoActiveEye.NVAPI_STEREO_EYE_MONO
+  fullName: NVAPIWrapper._NV_StereoActiveEye.NVAPI_STEREO_EYE_MONO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_StereoActiveEye.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_EYE_MONO
+    path: ../NVAPIWrapper/cs_generated/_NV_StereoActiveEye.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_EYE_MONO = 3
+    return:
+      type: NVAPIWrapper._NV_StereoActiveEye
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_StereoActiveEye
+  commentId: T:NVAPIWrapper._NV_StereoActiveEye
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_StereoActiveEye.html
+  name: _NV_StereoActiveEye
+  nameWithType: _NV_StereoActiveEye
+  fullName: NVAPIWrapper._NV_StereoActiveEye

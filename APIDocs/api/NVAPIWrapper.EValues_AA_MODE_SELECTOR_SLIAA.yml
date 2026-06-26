@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA
+  commentId: T:NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA
+  id: EValues_AA_MODE_SELECTOR_SLIAA
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA.AA_MODE_SELECTOR_SLIAA_DEFAULT
+  - NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA.AA_MODE_SELECTOR_SLIAA_DISABLED
+  - NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA.AA_MODE_SELECTOR_SLIAA_ENABLED
+  - NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA.AA_MODE_SELECTOR_SLIAA_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_AA_MODE_SELECTOR_SLIAA
+  nameWithType: EValues_AA_MODE_SELECTOR_SLIAA
+  fullName: NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_SELECTOR_SLIAA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_AA_MODE_SELECTOR_SLIAA
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_SELECTOR_SLIAA.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_AA_MODE_SELECTOR_SLIAA
+    content.vb: Public Enum EValues_AA_MODE_SELECTOR_SLIAA
+- uid: NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA.AA_MODE_SELECTOR_SLIAA_DISABLED
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA.AA_MODE_SELECTOR_SLIAA_DISABLED
+  id: AA_MODE_SELECTOR_SLIAA_DISABLED
+  parent: NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_SELECTOR_SLIAA_DISABLED
+  nameWithType: EValues_AA_MODE_SELECTOR_SLIAA.AA_MODE_SELECTOR_SLIAA_DISABLED
+  fullName: NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA.AA_MODE_SELECTOR_SLIAA_DISABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_SELECTOR_SLIAA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_SELECTOR_SLIAA_DISABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_SELECTOR_SLIAA.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_SELECTOR_SLIAA_DISABLED = 0
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA
+- uid: NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA.AA_MODE_SELECTOR_SLIAA_ENABLED
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA.AA_MODE_SELECTOR_SLIAA_ENABLED
+  id: AA_MODE_SELECTOR_SLIAA_ENABLED
+  parent: NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_SELECTOR_SLIAA_ENABLED
+  nameWithType: EValues_AA_MODE_SELECTOR_SLIAA.AA_MODE_SELECTOR_SLIAA_ENABLED
+  fullName: NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA.AA_MODE_SELECTOR_SLIAA_ENABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_SELECTOR_SLIAA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_SELECTOR_SLIAA_ENABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_SELECTOR_SLIAA.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_SELECTOR_SLIAA_ENABLED = 1
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA
+- uid: NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA.AA_MODE_SELECTOR_SLIAA_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA.AA_MODE_SELECTOR_SLIAA_NUM_VALUES
+  id: AA_MODE_SELECTOR_SLIAA_NUM_VALUES
+  parent: NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_SELECTOR_SLIAA_NUM_VALUES
+  nameWithType: EValues_AA_MODE_SELECTOR_SLIAA.AA_MODE_SELECTOR_SLIAA_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA.AA_MODE_SELECTOR_SLIAA_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_SELECTOR_SLIAA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_SELECTOR_SLIAA_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_SELECTOR_SLIAA.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_SELECTOR_SLIAA_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA
+- uid: NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA.AA_MODE_SELECTOR_SLIAA_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA.AA_MODE_SELECTOR_SLIAA_DEFAULT
+  id: AA_MODE_SELECTOR_SLIAA_DEFAULT
+  parent: NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_SELECTOR_SLIAA_DEFAULT
+  nameWithType: EValues_AA_MODE_SELECTOR_SLIAA.AA_MODE_SELECTOR_SLIAA_DEFAULT
+  fullName: NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA.AA_MODE_SELECTOR_SLIAA_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_SELECTOR_SLIAA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_SELECTOR_SLIAA_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_SELECTOR_SLIAA.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_SELECTOR_SLIAA_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA
+  commentId: T:NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA.html
+  name: EValues_AA_MODE_SELECTOR_SLIAA
+  nameWithType: EValues_AA_MODE_SELECTOR_SLIAA
+  fullName: NVAPIWrapper.EValues_AA_MODE_SELECTOR_SLIAA

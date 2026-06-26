@@ -1,0 +1,547 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  commentId: T:NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  id: _NV_GPU_PERF_PSTATE_ID
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_ALL
+  - NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P0
+  - NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P1
+  - NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P10
+  - NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P11
+  - NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P12
+  - NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P13
+  - NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P14
+  - NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P15
+  - NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P2
+  - NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P3
+  - NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P4
+  - NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P5
+  - NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P6
+  - NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P7
+  - NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P8
+  - NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P9
+  - NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_UNDEFINED
+  langs:
+  - csharp
+  - vb
+  name: _NV_GPU_PERF_PSTATE_ID
+  nameWithType: _NV_GPU_PERF_PSTATE_ID
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_GPU_PERF_PSTATE_ID
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_GPU_PERF_PSTATE_ID
+    content.vb: Public Enum _NV_GPU_PERF_PSTATE_ID
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P0
+  commentId: F:NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P0
+  id: NVAPI_GPU_PERF_PSTATE_P0
+  parent: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_PERF_PSTATE_P0
+  nameWithType: _NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P0
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P0
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_PERF_PSTATE_P0
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_PERF_PSTATE_P0 = 0
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P1
+  commentId: F:NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P1
+  id: NVAPI_GPU_PERF_PSTATE_P1
+  parent: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_PERF_PSTATE_P1
+  nameWithType: _NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P1
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P1
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_PERF_PSTATE_P1
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_PERF_PSTATE_P1 = 1
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P2
+  commentId: F:NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P2
+  id: NVAPI_GPU_PERF_PSTATE_P2
+  parent: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_PERF_PSTATE_P2
+  nameWithType: _NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P2
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P2
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_PERF_PSTATE_P2
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_PERF_PSTATE_P2 = 2
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P3
+  commentId: F:NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P3
+  id: NVAPI_GPU_PERF_PSTATE_P3
+  parent: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_PERF_PSTATE_P3
+  nameWithType: _NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P3
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P3
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_PERF_PSTATE_P3
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_PERF_PSTATE_P3 = 3
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P4
+  commentId: F:NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P4
+  id: NVAPI_GPU_PERF_PSTATE_P4
+  parent: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_PERF_PSTATE_P4
+  nameWithType: _NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P4
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P4
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_PERF_PSTATE_P4
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_PERF_PSTATE_P4 = 4
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P5
+  commentId: F:NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P5
+  id: NVAPI_GPU_PERF_PSTATE_P5
+  parent: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_PERF_PSTATE_P5
+  nameWithType: _NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P5
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P5
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_PERF_PSTATE_P5
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_PERF_PSTATE_P5 = 5
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P6
+  commentId: F:NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P6
+  id: NVAPI_GPU_PERF_PSTATE_P6
+  parent: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_PERF_PSTATE_P6
+  nameWithType: _NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P6
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P6
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_PERF_PSTATE_P6
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_PERF_PSTATE_P6 = 6
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P7
+  commentId: F:NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P7
+  id: NVAPI_GPU_PERF_PSTATE_P7
+  parent: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_PERF_PSTATE_P7
+  nameWithType: _NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P7
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P7
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_PERF_PSTATE_P7
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_PERF_PSTATE_P7 = 7
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P8
+  commentId: F:NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P8
+  id: NVAPI_GPU_PERF_PSTATE_P8
+  parent: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_PERF_PSTATE_P8
+  nameWithType: _NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P8
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P8
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_PERF_PSTATE_P8
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_PERF_PSTATE_P8 = 8
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P9
+  commentId: F:NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P9
+  id: NVAPI_GPU_PERF_PSTATE_P9
+  parent: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_PERF_PSTATE_P9
+  nameWithType: _NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P9
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P9
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_PERF_PSTATE_P9
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_PERF_PSTATE_P9 = 9
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P10
+  commentId: F:NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P10
+  id: NVAPI_GPU_PERF_PSTATE_P10
+  parent: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_PERF_PSTATE_P10
+  nameWithType: _NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P10
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P10
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_PERF_PSTATE_P10
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_PERF_PSTATE_P10 = 10
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P11
+  commentId: F:NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P11
+  id: NVAPI_GPU_PERF_PSTATE_P11
+  parent: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_PERF_PSTATE_P11
+  nameWithType: _NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P11
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P11
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_PERF_PSTATE_P11
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+    startLine: 39
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_PERF_PSTATE_P11 = 11
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P12
+  commentId: F:NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P12
+  id: NVAPI_GPU_PERF_PSTATE_P12
+  parent: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_PERF_PSTATE_P12
+  nameWithType: _NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P12
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P12
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_PERF_PSTATE_P12
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+    startLine: 42
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_PERF_PSTATE_P12 = 12
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P13
+  commentId: F:NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P13
+  id: NVAPI_GPU_PERF_PSTATE_P13
+  parent: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_PERF_PSTATE_P13
+  nameWithType: _NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P13
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P13
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_PERF_PSTATE_P13
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+    startLine: 45
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_PERF_PSTATE_P13 = 13
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P14
+  commentId: F:NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P14
+  id: NVAPI_GPU_PERF_PSTATE_P14
+  parent: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_PERF_PSTATE_P14
+  nameWithType: _NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P14
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P14
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_PERF_PSTATE_P14
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+    startLine: 48
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_PERF_PSTATE_P14 = 14
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P15
+  commentId: F:NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P15
+  id: NVAPI_GPU_PERF_PSTATE_P15
+  parent: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_PERF_PSTATE_P15
+  nameWithType: _NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P15
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_P15
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_PERF_PSTATE_P15
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+    startLine: 51
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_PERF_PSTATE_P15 = 15
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_UNDEFINED
+  commentId: F:NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_UNDEFINED
+  id: NVAPI_GPU_PERF_PSTATE_UNDEFINED
+  parent: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_PERF_PSTATE_UNDEFINED
+  nameWithType: _NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_UNDEFINED
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_UNDEFINED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_PERF_PSTATE_UNDEFINED
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+    startLine: 54
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_PERF_PSTATE_UNDEFINED = 16
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_ALL
+  commentId: F:NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_ALL
+  id: NVAPI_GPU_PERF_PSTATE_ALL
+  parent: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_PERF_PSTATE_ALL
+  nameWithType: _NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_ALL
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.NVAPI_GPU_PERF_PSTATE_ALL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_PERF_PSTATE_ALL
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATE_ID.cs
+    startLine: 57
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_PERF_PSTATE_ALL = 17
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  commentId: T:NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.html
+  name: _NV_GPU_PERF_PSTATE_ID
+  nameWithType: _NV_GPU_PERF_PSTATE_ID
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID

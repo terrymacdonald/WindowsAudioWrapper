@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVVIOSYNCSTATUS
+  commentId: T:NVAPIWrapper._NVVIOSYNCSTATUS
+  id: _NVVIOSYNCSTATUS
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_COMPOSITE
+  - NVAPIWrapper._NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_ERROR
+  - NVAPIWrapper._NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_OFF
+  - NVAPIWrapper._NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_SDI_HD
+  - NVAPIWrapper._NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_SDI_SD
+  - NVAPIWrapper._NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_SYNCLOSS
+  langs:
+  - csharp
+  - vb
+  name: _NVVIOSYNCSTATUS
+  nameWithType: _NVVIOSYNCSTATUS
+  fullName: NVAPIWrapper._NVVIOSYNCSTATUS
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOSYNCSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVVIOSYNCSTATUS
+    path: ../NVAPIWrapper/cs_generated/_NVVIOSYNCSTATUS.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVVIOSYNCSTATUS
+    content.vb: Public Enum _NVVIOSYNCSTATUS
+- uid: NVAPIWrapper._NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_OFF
+  commentId: F:NVAPIWrapper._NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_OFF
+  id: NVVIOSYNCSTATUS_OFF
+  parent: NVAPIWrapper._NVVIOSYNCSTATUS
+  langs:
+  - csharp
+  - vb
+  name: NVVIOSYNCSTATUS_OFF
+  nameWithType: _NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_OFF
+  fullName: NVAPIWrapper._NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOSYNCSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOSYNCSTATUS_OFF
+    path: ../NVAPIWrapper/cs_generated/_NVVIOSYNCSTATUS.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOSYNCSTATUS_OFF = 0
+    return:
+      type: NVAPIWrapper._NVVIOSYNCSTATUS
+- uid: NVAPIWrapper._NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_ERROR
+  commentId: F:NVAPIWrapper._NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_ERROR
+  id: NVVIOSYNCSTATUS_ERROR
+  parent: NVAPIWrapper._NVVIOSYNCSTATUS
+  langs:
+  - csharp
+  - vb
+  name: NVVIOSYNCSTATUS_ERROR
+  nameWithType: _NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_ERROR
+  fullName: NVAPIWrapper._NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_ERROR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOSYNCSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOSYNCSTATUS_ERROR
+    path: ../NVAPIWrapper/cs_generated/_NVVIOSYNCSTATUS.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOSYNCSTATUS_ERROR = 1
+    return:
+      type: NVAPIWrapper._NVVIOSYNCSTATUS
+- uid: NVAPIWrapper._NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_SYNCLOSS
+  commentId: F:NVAPIWrapper._NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_SYNCLOSS
+  id: NVVIOSYNCSTATUS_SYNCLOSS
+  parent: NVAPIWrapper._NVVIOSYNCSTATUS
+  langs:
+  - csharp
+  - vb
+  name: NVVIOSYNCSTATUS_SYNCLOSS
+  nameWithType: _NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_SYNCLOSS
+  fullName: NVAPIWrapper._NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_SYNCLOSS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOSYNCSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOSYNCSTATUS_SYNCLOSS
+    path: ../NVAPIWrapper/cs_generated/_NVVIOSYNCSTATUS.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOSYNCSTATUS_SYNCLOSS = 2
+    return:
+      type: NVAPIWrapper._NVVIOSYNCSTATUS
+- uid: NVAPIWrapper._NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_COMPOSITE
+  commentId: F:NVAPIWrapper._NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_COMPOSITE
+  id: NVVIOSYNCSTATUS_COMPOSITE
+  parent: NVAPIWrapper._NVVIOSYNCSTATUS
+  langs:
+  - csharp
+  - vb
+  name: NVVIOSYNCSTATUS_COMPOSITE
+  nameWithType: _NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_COMPOSITE
+  fullName: NVAPIWrapper._NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_COMPOSITE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOSYNCSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOSYNCSTATUS_COMPOSITE
+    path: ../NVAPIWrapper/cs_generated/_NVVIOSYNCSTATUS.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOSYNCSTATUS_COMPOSITE = 3
+    return:
+      type: NVAPIWrapper._NVVIOSYNCSTATUS
+- uid: NVAPIWrapper._NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_SDI_SD
+  commentId: F:NVAPIWrapper._NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_SDI_SD
+  id: NVVIOSYNCSTATUS_SDI_SD
+  parent: NVAPIWrapper._NVVIOSYNCSTATUS
+  langs:
+  - csharp
+  - vb
+  name: NVVIOSYNCSTATUS_SDI_SD
+  nameWithType: _NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_SDI_SD
+  fullName: NVAPIWrapper._NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_SDI_SD
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOSYNCSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOSYNCSTATUS_SDI_SD
+    path: ../NVAPIWrapper/cs_generated/_NVVIOSYNCSTATUS.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOSYNCSTATUS_SDI_SD = 4
+    return:
+      type: NVAPIWrapper._NVVIOSYNCSTATUS
+- uid: NVAPIWrapper._NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_SDI_HD
+  commentId: F:NVAPIWrapper._NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_SDI_HD
+  id: NVVIOSYNCSTATUS_SDI_HD
+  parent: NVAPIWrapper._NVVIOSYNCSTATUS
+  langs:
+  - csharp
+  - vb
+  name: NVVIOSYNCSTATUS_SDI_HD
+  nameWithType: _NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_SDI_HD
+  fullName: NVAPIWrapper._NVVIOSYNCSTATUS.NVVIOSYNCSTATUS_SDI_HD
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOSYNCSTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOSYNCSTATUS_SDI_HD
+    path: ../NVAPIWrapper/cs_generated/_NVVIOSYNCSTATUS.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOSYNCSTATUS_SDI_HD = 5
+    return:
+      type: NVAPIWrapper._NVVIOSYNCSTATUS
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVVIOSYNCSTATUS
+  commentId: T:NVAPIWrapper._NVVIOSYNCSTATUS
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOSYNCSTATUS.html
+  name: _NVVIOSYNCSTATUS
+  nameWithType: _NVVIOSYNCSTATUS
+  fullName: NVAPIWrapper._NVVIOSYNCSTATUS

@@ -1,0 +1,1079 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+  commentId: T:NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+  id: NVAPILicenseFeatureDetailsDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPILicenseFeatureDetailsDto.#ctor(System.UInt32,System.Boolean,System.Boolean,NVAPIWrapper._NV_LICENSE_FEATURE_TYPE,System.String,System.String,NVAPIWrapper._NV_LICENSE_EXPIRY_DETAILS)
+  - NVAPIWrapper.NVAPILicenseFeatureDetailsDto.Equals(NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+  - NVAPIWrapper.NVAPILicenseFeatureDetailsDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPILicenseFeatureDetailsDto.FeatureCode
+  - NVAPIWrapper.NVAPILicenseFeatureDetailsDto.FromNative(NVAPIWrapper._NV_LICENSE_FEATURE_DETAILS_V4)
+  - NVAPIWrapper.NVAPILicenseFeatureDetailsDto.GetHashCode
+  - NVAPIWrapper.NVAPILicenseFeatureDetailsDto.IsEnabled
+  - NVAPIWrapper.NVAPILicenseFeatureDetailsDto.IsFeatureEnabled
+  - NVAPIWrapper.NVAPILicenseFeatureDetailsDto.LicenseExpiry
+  - NVAPIWrapper.NVAPILicenseFeatureDetailsDto.LicenseInfo
+  - NVAPIWrapper.NVAPILicenseFeatureDetailsDto.ProductName
+  - NVAPIWrapper.NVAPILicenseFeatureDetailsDto.ToNative
+  - NVAPIWrapper.NVAPILicenseFeatureDetailsDto.Version
+  - NVAPIWrapper.NVAPILicenseFeatureDetailsDto.op_Equality(NVAPIWrapper.NVAPILicenseFeatureDetailsDto,NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+  - NVAPIWrapper.NVAPILicenseFeatureDetailsDto.op_Inequality(NVAPIWrapper.NVAPILicenseFeatureDetailsDto,NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPILicenseFeatureDetailsDto
+  nameWithType: NVAPILicenseFeatureDetailsDto
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPILicenseFeatureDetailsDto
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4283
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Per-feature license details DTO, wrapping <xref href="NVAPIWrapper._NV_LICENSE_FEATURE_DETAILS_V4" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public struct NVAPILicenseFeatureDetailsDto : IEquatable<NVAPILicenseFeatureDetailsDto>'
+    content.vb: Public Structure NVAPILicenseFeatureDetailsDto Implements IEquatable(Of NVAPILicenseFeatureDetailsDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPILicenseFeatureDetailsDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.Version
+  commentId: P:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.Version
+  id: Version
+  parent: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: NVAPILicenseFeatureDetailsDto.Version
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.Version
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Version
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4286
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Version of the feature details struct as returned by NVAPI.
+  example: []
+  syntax:
+    content: public uint Version { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Version As UInteger
+  overload: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.Version*
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.IsEnabled
+  commentId: P:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.IsEnabled
+  id: IsEnabled
+  parent: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+  langs:
+  - csharp
+  - vb
+  name: IsEnabled
+  nameWithType: NVAPILicenseFeatureDetailsDto.IsEnabled
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.IsEnabled
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: IsEnabled
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4288
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: True if the license is currently enabled.
+  example: []
+  syntax:
+    content: public bool IsEnabled { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsEnabled As Boolean
+  overload: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.IsEnabled*
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.IsFeatureEnabled
+  commentId: P:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.IsFeatureEnabled
+  id: IsFeatureEnabled
+  parent: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+  langs:
+  - csharp
+  - vb
+  name: IsFeatureEnabled
+  nameWithType: NVAPILicenseFeatureDetailsDto.IsFeatureEnabled
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.IsFeatureEnabled
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: IsFeatureEnabled
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4290
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: True if the feature is enabled.
+  example: []
+  syntax:
+    content: public bool IsFeatureEnabled { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsFeatureEnabled As Boolean
+  overload: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.IsFeatureEnabled*
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.FeatureCode
+  commentId: P:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.FeatureCode
+  id: FeatureCode
+  parent: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+  langs:
+  - csharp
+  - vb
+  name: FeatureCode
+  nameWithType: NVAPILicenseFeatureDetailsDto.FeatureCode
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.FeatureCode
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FeatureCode
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4292
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Feature code identifying the licensable feature type.
+  example: []
+  syntax:
+    content: public _NV_LICENSE_FEATURE_TYPE FeatureCode { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE
+    content.vb: Public Property FeatureCode As _NV_LICENSE_FEATURE_TYPE
+  overload: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.FeatureCode*
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.LicenseInfo
+  commentId: P:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.LicenseInfo
+  id: LicenseInfo
+  parent: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+  langs:
+  - csharp
+  - vb
+  name: LicenseInfo
+  nameWithType: NVAPILicenseFeatureDetailsDto.LicenseInfo
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.LicenseInfo
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: LicenseInfo
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4294
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: License info string (up to 128 characters).
+  example: []
+  syntax:
+    content: public string LicenseInfo { readonly get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LicenseInfo As String
+  overload: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.LicenseInfo*
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.ProductName
+  commentId: P:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.ProductName
+  id: ProductName
+  parent: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+  langs:
+  - csharp
+  - vb
+  name: ProductName
+  nameWithType: NVAPILicenseFeatureDetailsDto.ProductName
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.ProductName
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ProductName
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4296
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Product name string (up to 128 characters).
+  example: []
+  syntax:
+    content: public string ProductName { readonly get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProductName As String
+  overload: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.ProductName*
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.LicenseExpiry
+  commentId: P:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.LicenseExpiry
+  id: LicenseExpiry
+  parent: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+  langs:
+  - csharp
+  - vb
+  name: LicenseExpiry
+  nameWithType: NVAPILicenseFeatureDetailsDto.LicenseExpiry
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.LicenseExpiry
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: LicenseExpiry
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4298
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: License expiry date and time details.
+  example: []
+  syntax:
+    content: public _NV_LICENSE_EXPIRY_DETAILS LicenseExpiry { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper._NV_LICENSE_EXPIRY_DETAILS
+    content.vb: Public Property LicenseExpiry As _NV_LICENSE_EXPIRY_DETAILS
+  overload: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.LicenseExpiry*
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.#ctor(System.UInt32,System.Boolean,System.Boolean,NVAPIWrapper._NV_LICENSE_FEATURE_TYPE,System.String,System.String,NVAPIWrapper._NV_LICENSE_EXPIRY_DETAILS)
+  commentId: M:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.#ctor(System.UInt32,System.Boolean,System.Boolean,NVAPIWrapper._NV_LICENSE_FEATURE_TYPE,System.String,System.String,NVAPIWrapper._NV_LICENSE_EXPIRY_DETAILS)
+  id: '#ctor(System.UInt32,System.Boolean,System.Boolean,NVAPIWrapper._NV_LICENSE_FEATURE_TYPE,System.String,System.String,NVAPIWrapper._NV_LICENSE_EXPIRY_DETAILS)'
+  parent: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPILicenseFeatureDetailsDto(uint, bool, bool, _NV_LICENSE_FEATURE_TYPE, string, string, _NV_LICENSE_EXPIRY_DETAILS)
+  nameWithType: NVAPILicenseFeatureDetailsDto.NVAPILicenseFeatureDetailsDto(uint, bool, bool, _NV_LICENSE_FEATURE_TYPE, string, string, _NV_LICENSE_EXPIRY_DETAILS)
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.NVAPILicenseFeatureDetailsDto(uint, bool, bool, NVAPIWrapper._NV_LICENSE_FEATURE_TYPE, string, string, NVAPIWrapper._NV_LICENSE_EXPIRY_DETAILS)
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4301
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Initializes a new instance of <xref href="NVAPIWrapper.NVAPILicenseFeatureDetailsDto" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public NVAPILicenseFeatureDetailsDto(uint version, bool isEnabled, bool isFeatureEnabled, _NV_LICENSE_FEATURE_TYPE featureCode, string licenseInfo, string productName, _NV_LICENSE_EXPIRY_DETAILS licenseExpiry)
+    parameters:
+    - id: version
+      type: System.UInt32
+    - id: isEnabled
+      type: System.Boolean
+    - id: isFeatureEnabled
+      type: System.Boolean
+    - id: featureCode
+      type: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE
+    - id: licenseInfo
+      type: System.String
+    - id: productName
+      type: System.String
+    - id: licenseExpiry
+      type: NVAPIWrapper._NV_LICENSE_EXPIRY_DETAILS
+    content.vb: Public Sub New(version As UInteger, isEnabled As Boolean, isFeatureEnabled As Boolean, featureCode As _NV_LICENSE_FEATURE_TYPE, licenseInfo As String, productName As String, licenseExpiry As _NV_LICENSE_EXPIRY_DETAILS)
+  overload: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.#ctor*
+  nameWithType.vb: NVAPILicenseFeatureDetailsDto.New(UInteger, Boolean, Boolean, _NV_LICENSE_FEATURE_TYPE, String, String, _NV_LICENSE_EXPIRY_DETAILS)
+  fullName.vb: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.New(UInteger, Boolean, Boolean, NVAPIWrapper._NV_LICENSE_FEATURE_TYPE, String, String, NVAPIWrapper._NV_LICENSE_EXPIRY_DETAILS)
+  name.vb: New(UInteger, Boolean, Boolean, _NV_LICENSE_FEATURE_TYPE, String, String, _NV_LICENSE_EXPIRY_DETAILS)
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.FromNative(NVAPIWrapper._NV_LICENSE_FEATURE_DETAILS_V4)
+  commentId: M:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.FromNative(NVAPIWrapper._NV_LICENSE_FEATURE_DETAILS_V4)
+  id: FromNative(NVAPIWrapper._NV_LICENSE_FEATURE_DETAILS_V4)
+  parent: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(_NV_LICENSE_FEATURE_DETAILS_V4)
+  nameWithType: NVAPILicenseFeatureDetailsDto.FromNative(_NV_LICENSE_FEATURE_DETAILS_V4)
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.FromNative(NVAPIWrapper._NV_LICENSE_FEATURE_DETAILS_V4)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4313
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Creates a DTO from the native <xref href="NVAPIWrapper._NV_LICENSE_FEATURE_DETAILS_V4" data-throw-if-not-resolved="false"></xref> struct.
+  example: []
+  syntax:
+    content: public static NVAPILicenseFeatureDetailsDto FromNative(_NV_LICENSE_FEATURE_DETAILS_V4 native)
+    parameters:
+    - id: native
+      type: NVAPIWrapper._NV_LICENSE_FEATURE_DETAILS_V4
+    return:
+      type: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+    content.vb: Public Shared Function FromNative(native As _NV_LICENSE_FEATURE_DETAILS_V4) As NVAPILicenseFeatureDetailsDto
+  overload: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.FromNative*
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.ToNative
+  commentId: M:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.ToNative
+  id: ToNative
+  parent: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: NVAPILicenseFeatureDetailsDto.ToNative()
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4330
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Converts this DTO back to the native <xref href="NVAPIWrapper._NV_LICENSE_FEATURE_DETAILS_V4" data-throw-if-not-resolved="false"></xref> struct.
+  example: []
+  syntax:
+    content: public _NV_LICENSE_FEATURE_DETAILS_V4 ToNative()
+    return:
+      type: NVAPIWrapper._NV_LICENSE_FEATURE_DETAILS_V4
+    content.vb: Public Function ToNative() As _NV_LICENSE_FEATURE_DETAILS_V4
+  overload: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.ToNative*
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.Equals(NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+  commentId: M:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.Equals(NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+  id: Equals(NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+  parent: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPILicenseFeatureDetailsDto)
+  nameWithType: NVAPILicenseFeatureDetailsDto.Equals(NVAPILicenseFeatureDetailsDto)
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.Equals(NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4355
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPILicenseFeatureDetailsDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As NVAPILicenseFeatureDetailsDto) As Boolean
+  overload: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPILicenseFeatureDetailsDto}.Equals(NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPILicenseFeatureDetailsDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4373
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.Equals*
+  nameWithType.vb: NVAPILicenseFeatureDetailsDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPILicenseFeatureDetailsDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4375
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.op_Equality(NVAPIWrapper.NVAPILicenseFeatureDetailsDto,NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+  commentId: M:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.op_Equality(NVAPIWrapper.NVAPILicenseFeatureDetailsDto,NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+  id: op_Equality(NVAPIWrapper.NVAPILicenseFeatureDetailsDto,NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+  parent: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPILicenseFeatureDetailsDto, NVAPILicenseFeatureDetailsDto)
+  nameWithType: NVAPILicenseFeatureDetailsDto.operator ==(NVAPILicenseFeatureDetailsDto, NVAPILicenseFeatureDetailsDto)
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.operator ==(NVAPIWrapper.NVAPILicenseFeatureDetailsDto, NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4377
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Equality operator.
+  example: []
+  syntax:
+    content: public static bool operator ==(NVAPILicenseFeatureDetailsDto left, NVAPILicenseFeatureDetailsDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+    - id: right
+      type: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As NVAPILicenseFeatureDetailsDto, right As NVAPILicenseFeatureDetailsDto) As Boolean
+  overload: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.op_Equality*
+  nameWithType.vb: NVAPILicenseFeatureDetailsDto.=(NVAPILicenseFeatureDetailsDto, NVAPILicenseFeatureDetailsDto)
+  fullName.vb: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.=(NVAPIWrapper.NVAPILicenseFeatureDetailsDto, NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+  name.vb: =(NVAPILicenseFeatureDetailsDto, NVAPILicenseFeatureDetailsDto)
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.op_Inequality(NVAPIWrapper.NVAPILicenseFeatureDetailsDto,NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+  commentId: M:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.op_Inequality(NVAPIWrapper.NVAPILicenseFeatureDetailsDto,NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+  id: op_Inequality(NVAPIWrapper.NVAPILicenseFeatureDetailsDto,NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+  parent: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPILicenseFeatureDetailsDto, NVAPILicenseFeatureDetailsDto)
+  nameWithType: NVAPILicenseFeatureDetailsDto.operator !=(NVAPILicenseFeatureDetailsDto, NVAPILicenseFeatureDetailsDto)
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.operator !=(NVAPIWrapper.NVAPILicenseFeatureDetailsDto, NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4379
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Inequality operator.
+  example: []
+  syntax:
+    content: public static bool operator !=(NVAPILicenseFeatureDetailsDto left, NVAPILicenseFeatureDetailsDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+    - id: right
+      type: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As NVAPILicenseFeatureDetailsDto, right As NVAPILicenseFeatureDetailsDto) As Boolean
+  overload: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.op_Inequality*
+  nameWithType.vb: NVAPILicenseFeatureDetailsDto.<>(NVAPILicenseFeatureDetailsDto, NVAPILicenseFeatureDetailsDto)
+  fullName.vb: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.<>(NVAPIWrapper.NVAPILicenseFeatureDetailsDto, NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+  name.vb: <>(NVAPILicenseFeatureDetailsDto, NVAPILicenseFeatureDetailsDto)
+references:
+- uid: NVAPIWrapper._NV_LICENSE_FEATURE_DETAILS_V4
+  commentId: T:NVAPIWrapper._NV_LICENSE_FEATURE_DETAILS_V4
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_LICENSE_FEATURE_DETAILS_V4.html
+  name: _NV_LICENSE_FEATURE_DETAILS_V4
+  nameWithType: _NV_LICENSE_FEATURE_DETAILS_V4
+  fullName: NVAPIWrapper._NV_LICENSE_FEATURE_DETAILS_V4
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPILicenseFeatureDetailsDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPILicenseFeatureDetailsDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPILicenseFeatureDetailsDto>
+  nameWithType: IEquatable<NVAPILicenseFeatureDetailsDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPILicenseFeatureDetailsDto>
+  nameWithType.vb: IEquatable(Of NVAPILicenseFeatureDetailsDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+  name.vb: IEquatable(Of NVAPILicenseFeatureDetailsDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+    name: NVAPILicenseFeatureDetailsDto
+    href: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+    name: NVAPILicenseFeatureDetailsDto
+    href: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.Version*
+  commentId: Overload:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.Version
+  href: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.html#NVAPIWrapper_NVAPILicenseFeatureDetailsDto_Version
+  name: Version
+  nameWithType: NVAPILicenseFeatureDetailsDto.Version
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.Version
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.IsEnabled*
+  commentId: Overload:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.IsEnabled
+  href: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.html#NVAPIWrapper_NVAPILicenseFeatureDetailsDto_IsEnabled
+  name: IsEnabled
+  nameWithType: NVAPILicenseFeatureDetailsDto.IsEnabled
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.IsEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.IsFeatureEnabled*
+  commentId: Overload:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.IsFeatureEnabled
+  href: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.html#NVAPIWrapper_NVAPILicenseFeatureDetailsDto_IsFeatureEnabled
+  name: IsFeatureEnabled
+  nameWithType: NVAPILicenseFeatureDetailsDto.IsFeatureEnabled
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.IsFeatureEnabled
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.FeatureCode*
+  commentId: Overload:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.FeatureCode
+  href: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.html#NVAPIWrapper_NVAPILicenseFeatureDetailsDto_FeatureCode
+  name: FeatureCode
+  nameWithType: NVAPILicenseFeatureDetailsDto.FeatureCode
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.FeatureCode
+- uid: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE
+  commentId: T:NVAPIWrapper._NV_LICENSE_FEATURE_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE.html
+  name: _NV_LICENSE_FEATURE_TYPE
+  nameWithType: _NV_LICENSE_FEATURE_TYPE
+  fullName: NVAPIWrapper._NV_LICENSE_FEATURE_TYPE
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.LicenseInfo*
+  commentId: Overload:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.LicenseInfo
+  href: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.html#NVAPIWrapper_NVAPILicenseFeatureDetailsDto_LicenseInfo
+  name: LicenseInfo
+  nameWithType: NVAPILicenseFeatureDetailsDto.LicenseInfo
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.LicenseInfo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.ProductName*
+  commentId: Overload:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.ProductName
+  href: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.html#NVAPIWrapper_NVAPILicenseFeatureDetailsDto_ProductName
+  name: ProductName
+  nameWithType: NVAPILicenseFeatureDetailsDto.ProductName
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.ProductName
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.LicenseExpiry*
+  commentId: Overload:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.LicenseExpiry
+  href: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.html#NVAPIWrapper_NVAPILicenseFeatureDetailsDto_LicenseExpiry
+  name: LicenseExpiry
+  nameWithType: NVAPILicenseFeatureDetailsDto.LicenseExpiry
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.LicenseExpiry
+- uid: NVAPIWrapper._NV_LICENSE_EXPIRY_DETAILS
+  commentId: T:NVAPIWrapper._NV_LICENSE_EXPIRY_DETAILS
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_LICENSE_EXPIRY_DETAILS.html
+  name: _NV_LICENSE_EXPIRY_DETAILS
+  nameWithType: _NV_LICENSE_EXPIRY_DETAILS
+  fullName: NVAPIWrapper._NV_LICENSE_EXPIRY_DETAILS
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+  commentId: T:NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.html
+  name: NVAPILicenseFeatureDetailsDto
+  nameWithType: NVAPILicenseFeatureDetailsDto
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.#ctor
+  href: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.html#NVAPIWrapper_NVAPILicenseFeatureDetailsDto__ctor_System_UInt32_System_Boolean_System_Boolean_NVAPIWrapper__NV_LICENSE_FEATURE_TYPE_System_String_System_String_NVAPIWrapper__NV_LICENSE_EXPIRY_DETAILS_
+  name: NVAPILicenseFeatureDetailsDto
+  nameWithType: NVAPILicenseFeatureDetailsDto.NVAPILicenseFeatureDetailsDto
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.NVAPILicenseFeatureDetailsDto
+  nameWithType.vb: NVAPILicenseFeatureDetailsDto.New
+  fullName.vb: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.FromNative
+  href: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.html#NVAPIWrapper_NVAPILicenseFeatureDetailsDto_FromNative_NVAPIWrapper__NV_LICENSE_FEATURE_DETAILS_V4_
+  name: FromNative
+  nameWithType: NVAPILicenseFeatureDetailsDto.FromNative
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.FromNative
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.ToNative
+  href: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.html#NVAPIWrapper_NVAPILicenseFeatureDetailsDto_ToNative
+  name: ToNative
+  nameWithType: NVAPILicenseFeatureDetailsDto.ToNative
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.ToNative
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.Equals
+  href: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.html#NVAPIWrapper_NVAPILicenseFeatureDetailsDto_Equals_NVAPIWrapper_NVAPILicenseFeatureDetailsDto_
+  name: Equals
+  nameWithType: NVAPILicenseFeatureDetailsDto.Equals
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPILicenseFeatureDetailsDto}.Equals(NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPILicenseFeatureDetailsDto}.Equals(NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPILicenseFeatureDetailsDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPILicenseFeatureDetailsDto)
+  nameWithType: IEquatable<NVAPILicenseFeatureDetailsDto>.Equals(NVAPILicenseFeatureDetailsDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPILicenseFeatureDetailsDto>.Equals(NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+  nameWithType.vb: IEquatable(Of NVAPILicenseFeatureDetailsDto).Equals(NVAPILicenseFeatureDetailsDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPILicenseFeatureDetailsDto).Equals(NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPILicenseFeatureDetailsDto}.Equals(NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+    name: NVAPILicenseFeatureDetailsDto
+    href: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPILicenseFeatureDetailsDto}.Equals(NVAPIWrapper.NVAPILicenseFeatureDetailsDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto
+    name: NVAPILicenseFeatureDetailsDto
+    href: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.GetHashCode
+  href: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.html#NVAPIWrapper_NVAPILicenseFeatureDetailsDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPILicenseFeatureDetailsDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.op_Equality
+  href: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.html#NVAPIWrapper_NVAPILicenseFeatureDetailsDto_op_Equality_NVAPIWrapper_NVAPILicenseFeatureDetailsDto_NVAPIWrapper_NVAPILicenseFeatureDetailsDto_
+  name: operator ==
+  nameWithType: NVAPILicenseFeatureDetailsDto.operator ==
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.operator ==
+  nameWithType.vb: NVAPILicenseFeatureDetailsDto.=
+  fullName.vb: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.html#NVAPIWrapper_NVAPILicenseFeatureDetailsDto_op_Equality_NVAPIWrapper_NVAPILicenseFeatureDetailsDto_NVAPIWrapper_NVAPILicenseFeatureDetailsDto_
+- uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPILicenseFeatureDetailsDto.op_Inequality
+  href: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.html#NVAPIWrapper_NVAPILicenseFeatureDetailsDto_op_Inequality_NVAPIWrapper_NVAPILicenseFeatureDetailsDto_NVAPIWrapper_NVAPILicenseFeatureDetailsDto_
+  name: operator !=
+  nameWithType: NVAPILicenseFeatureDetailsDto.operator !=
+  fullName: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.operator !=
+  nameWithType.vb: NVAPILicenseFeatureDetailsDto.<>
+  fullName.vb: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPILicenseFeatureDetailsDto.html#NVAPIWrapper_NVAPILicenseFeatureDetailsDto_op_Inequality_NVAPIWrapper_NVAPILicenseFeatureDetailsDto_NVAPIWrapper_NVAPILicenseFeatureDetailsDto_

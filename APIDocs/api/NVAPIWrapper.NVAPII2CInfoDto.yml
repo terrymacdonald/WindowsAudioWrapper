@@ -1,0 +1,1149 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPII2CInfoDto
+  commentId: T:NVAPIWrapper.NVAPII2CInfoDto
+  id: NVAPII2CInfoDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPII2CInfoDto.#ctor(System.UInt32,System.Boolean,System.Byte,System.Byte[],System.Byte[],System.UInt32,NVAPIWrapper.NV_I2C_SPEED,System.Byte,System.Boolean)
+  - NVAPIWrapper.NVAPII2CInfoDto.Data
+  - NVAPIWrapper.NVAPII2CInfoDto.DisplayMask
+  - NVAPIWrapper.NVAPII2CInfoDto.Equals(NVAPIWrapper.NVAPII2CInfoDto)
+  - NVAPIWrapper.NVAPII2CInfoDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPII2CInfoDto.FromNative(NVAPIWrapper.NV_I2C_INFO_V3)
+  - NVAPIWrapper.NVAPII2CInfoDto.GetHashCode
+  - NVAPIWrapper.NVAPII2CInfoDto.I2cDevAddress
+  - NVAPIWrapper.NVAPII2CInfoDto.I2cSpeed
+  - NVAPIWrapper.NVAPII2CInfoDto.I2cSpeedKhz
+  - NVAPIWrapper.NVAPII2CInfoDto.IsDDCPort
+  - NVAPIWrapper.NVAPII2CInfoDto.IsPortIdSet
+  - NVAPIWrapper.NVAPII2CInfoDto.PortId
+  - NVAPIWrapper.NVAPII2CInfoDto.RegisterAddress
+  - NVAPIWrapper.NVAPII2CInfoDto.ToNative
+  - NVAPIWrapper.NVAPII2CInfoDto.op_Equality(NVAPIWrapper.NVAPII2CInfoDto,NVAPIWrapper.NVAPII2CInfoDto)
+  - NVAPIWrapper.NVAPII2CInfoDto.op_Inequality(NVAPIWrapper.NVAPII2CInfoDto,NVAPIWrapper.NVAPII2CInfoDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPII2CInfoDto
+  nameWithType: NVAPII2CInfoDto
+  fullName: NVAPIWrapper.NVAPII2CInfoDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPII2CInfoDto
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2474
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: I2C request/response DTO for NVAPI I2C operations.
+  example: []
+  syntax:
+    content: 'public struct NVAPII2CInfoDto : IEquatable<NVAPII2CInfoDto>'
+    content.vb: Public Structure NVAPII2CInfoDto Implements IEquatable(Of NVAPII2CInfoDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPII2CInfoDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPII2CInfoDto.DisplayMask
+  commentId: P:NVAPIWrapper.NVAPII2CInfoDto.DisplayMask
+  id: DisplayMask
+  parent: NVAPIWrapper.NVAPII2CInfoDto
+  langs:
+  - csharp
+  - vb
+  name: DisplayMask
+  nameWithType: NVAPII2CInfoDto.DisplayMask
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.DisplayMask
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: DisplayMask
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2476
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint DisplayMask { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property DisplayMask As UInteger
+  overload: NVAPIWrapper.NVAPII2CInfoDto.DisplayMask*
+- uid: NVAPIWrapper.NVAPII2CInfoDto.IsDDCPort
+  commentId: P:NVAPIWrapper.NVAPII2CInfoDto.IsDDCPort
+  id: IsDDCPort
+  parent: NVAPIWrapper.NVAPII2CInfoDto
+  langs:
+  - csharp
+  - vb
+  name: IsDDCPort
+  nameWithType: NVAPII2CInfoDto.IsDDCPort
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.IsDDCPort
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: IsDDCPort
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2477
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public bool IsDDCPort { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsDDCPort As Boolean
+  overload: NVAPIWrapper.NVAPII2CInfoDto.IsDDCPort*
+- uid: NVAPIWrapper.NVAPII2CInfoDto.I2cDevAddress
+  commentId: P:NVAPIWrapper.NVAPII2CInfoDto.I2cDevAddress
+  id: I2cDevAddress
+  parent: NVAPIWrapper.NVAPII2CInfoDto
+  langs:
+  - csharp
+  - vb
+  name: I2cDevAddress
+  nameWithType: NVAPII2CInfoDto.I2cDevAddress
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.I2cDevAddress
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: I2cDevAddress
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2478
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte I2cDevAddress { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property I2cDevAddress As Byte
+  overload: NVAPIWrapper.NVAPII2CInfoDto.I2cDevAddress*
+- uid: NVAPIWrapper.NVAPII2CInfoDto.RegisterAddress
+  commentId: P:NVAPIWrapper.NVAPII2CInfoDto.RegisterAddress
+  id: RegisterAddress
+  parent: NVAPIWrapper.NVAPII2CInfoDto
+  langs:
+  - csharp
+  - vb
+  name: RegisterAddress
+  nameWithType: NVAPII2CInfoDto.RegisterAddress
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.RegisterAddress
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: RegisterAddress
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2479
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte[] RegisterAddress { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property RegisterAddress As Byte()
+  overload: NVAPIWrapper.NVAPII2CInfoDto.RegisterAddress*
+- uid: NVAPIWrapper.NVAPII2CInfoDto.Data
+  commentId: P:NVAPIWrapper.NVAPII2CInfoDto.Data
+  id: Data
+  parent: NVAPIWrapper.NVAPII2CInfoDto
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: NVAPII2CInfoDto.Data
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.Data
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Data
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2480
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte[] Data { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Data As Byte()
+  overload: NVAPIWrapper.NVAPII2CInfoDto.Data*
+- uid: NVAPIWrapper.NVAPII2CInfoDto.I2cSpeed
+  commentId: P:NVAPIWrapper.NVAPII2CInfoDto.I2cSpeed
+  id: I2cSpeed
+  parent: NVAPIWrapper.NVAPII2CInfoDto
+  langs:
+  - csharp
+  - vb
+  name: I2cSpeed
+  nameWithType: NVAPII2CInfoDto.I2cSpeed
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.I2cSpeed
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: I2cSpeed
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2481
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint I2cSpeed { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property I2cSpeed As UInteger
+  overload: NVAPIWrapper.NVAPII2CInfoDto.I2cSpeed*
+- uid: NVAPIWrapper.NVAPII2CInfoDto.I2cSpeedKhz
+  commentId: P:NVAPIWrapper.NVAPII2CInfoDto.I2cSpeedKhz
+  id: I2cSpeedKhz
+  parent: NVAPIWrapper.NVAPII2CInfoDto
+  langs:
+  - csharp
+  - vb
+  name: I2cSpeedKhz
+  nameWithType: NVAPII2CInfoDto.I2cSpeedKhz
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.I2cSpeedKhz
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: I2cSpeedKhz
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2482
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NV_I2C_SPEED I2cSpeedKhz { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper.NV_I2C_SPEED
+    content.vb: Public Property I2cSpeedKhz As NV_I2C_SPEED
+  overload: NVAPIWrapper.NVAPII2CInfoDto.I2cSpeedKhz*
+- uid: NVAPIWrapper.NVAPII2CInfoDto.PortId
+  commentId: P:NVAPIWrapper.NVAPII2CInfoDto.PortId
+  id: PortId
+  parent: NVAPIWrapper.NVAPII2CInfoDto
+  langs:
+  - csharp
+  - vb
+  name: PortId
+  nameWithType: NVAPII2CInfoDto.PortId
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.PortId
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PortId
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2483
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte PortId { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property PortId As Byte
+  overload: NVAPIWrapper.NVAPII2CInfoDto.PortId*
+- uid: NVAPIWrapper.NVAPII2CInfoDto.IsPortIdSet
+  commentId: P:NVAPIWrapper.NVAPII2CInfoDto.IsPortIdSet
+  id: IsPortIdSet
+  parent: NVAPIWrapper.NVAPII2CInfoDto
+  langs:
+  - csharp
+  - vb
+  name: IsPortIdSet
+  nameWithType: NVAPII2CInfoDto.IsPortIdSet
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.IsPortIdSet
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: IsPortIdSet
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2484
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public bool IsPortIdSet { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsPortIdSet As Boolean
+  overload: NVAPIWrapper.NVAPII2CInfoDto.IsPortIdSet*
+- uid: NVAPIWrapper.NVAPII2CInfoDto.#ctor(System.UInt32,System.Boolean,System.Byte,System.Byte[],System.Byte[],System.UInt32,NVAPIWrapper.NV_I2C_SPEED,System.Byte,System.Boolean)
+  commentId: M:NVAPIWrapper.NVAPII2CInfoDto.#ctor(System.UInt32,System.Boolean,System.Byte,System.Byte[],System.Byte[],System.UInt32,NVAPIWrapper.NV_I2C_SPEED,System.Byte,System.Boolean)
+  id: '#ctor(System.UInt32,System.Boolean,System.Byte,System.Byte[],System.Byte[],System.UInt32,NVAPIWrapper.NV_I2C_SPEED,System.Byte,System.Boolean)'
+  parent: NVAPIWrapper.NVAPII2CInfoDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPII2CInfoDto(uint, bool, byte, byte[], byte[], uint, NV_I2C_SPEED, byte, bool)
+  nameWithType: NVAPII2CInfoDto.NVAPII2CInfoDto(uint, bool, byte, byte[], byte[], uint, NV_I2C_SPEED, byte, bool)
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.NVAPII2CInfoDto(uint, bool, byte, byte[], byte[], uint, NVAPIWrapper.NV_I2C_SPEED, byte, bool)
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2486
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NVAPII2CInfoDto(uint displayMask, bool isDDCPort, byte i2cDevAddress, byte[] registerAddress, byte[] data, uint i2cSpeed, NV_I2C_SPEED i2cSpeedKhz, byte portId, bool isPortIdSet)
+    parameters:
+    - id: displayMask
+      type: System.UInt32
+    - id: isDDCPort
+      type: System.Boolean
+    - id: i2cDevAddress
+      type: System.Byte
+    - id: registerAddress
+      type: System.Byte[]
+    - id: data
+      type: System.Byte[]
+    - id: i2cSpeed
+      type: System.UInt32
+    - id: i2cSpeedKhz
+      type: NVAPIWrapper.NV_I2C_SPEED
+    - id: portId
+      type: System.Byte
+    - id: isPortIdSet
+      type: System.Boolean
+    content.vb: Public Sub New(displayMask As UInteger, isDDCPort As Boolean, i2cDevAddress As Byte, registerAddress As Byte(), data As Byte(), i2cSpeed As UInteger, i2cSpeedKhz As NV_I2C_SPEED, portId As Byte, isPortIdSet As Boolean)
+  overload: NVAPIWrapper.NVAPII2CInfoDto.#ctor*
+  nameWithType.vb: NVAPII2CInfoDto.New(UInteger, Boolean, Byte, Byte(), Byte(), UInteger, NV_I2C_SPEED, Byte, Boolean)
+  fullName.vb: NVAPIWrapper.NVAPII2CInfoDto.New(UInteger, Boolean, Byte, Byte(), Byte(), UInteger, NVAPIWrapper.NV_I2C_SPEED, Byte, Boolean)
+  name.vb: New(UInteger, Boolean, Byte, Byte(), Byte(), UInteger, NV_I2C_SPEED, Byte, Boolean)
+- uid: NVAPIWrapper.NVAPII2CInfoDto.FromNative(NVAPIWrapper.NV_I2C_INFO_V3)
+  commentId: M:NVAPIWrapper.NVAPII2CInfoDto.FromNative(NVAPIWrapper.NV_I2C_INFO_V3)
+  id: FromNative(NVAPIWrapper.NV_I2C_INFO_V3)
+  parent: NVAPIWrapper.NVAPII2CInfoDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(NV_I2C_INFO_V3)
+  nameWithType: NVAPII2CInfoDto.FromNative(NV_I2C_INFO_V3)
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.FromNative(NVAPIWrapper.NV_I2C_INFO_V3)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2511
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: 'Create a DTO from a native struct. Note: pointer-backed buffers are not copied.'
+  example: []
+  syntax:
+    content: public static NVAPII2CInfoDto FromNative(NV_I2C_INFO_V3 native)
+    parameters:
+    - id: native
+      type: NVAPIWrapper.NV_I2C_INFO_V3
+    return:
+      type: NVAPIWrapper.NVAPII2CInfoDto
+    content.vb: Public Shared Function FromNative(native As NV_I2C_INFO_V3) As NVAPII2CInfoDto
+  overload: NVAPIWrapper.NVAPII2CInfoDto.FromNative*
+- uid: NVAPIWrapper.NVAPII2CInfoDto.ToNative
+  commentId: M:NVAPIWrapper.NVAPII2CInfoDto.ToNative
+  id: ToNative
+  parent: NVAPIWrapper.NVAPII2CInfoDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: NVAPII2CInfoDto.ToNative()
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2525
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NV_I2C_INFO_V3 ToNative()
+    return:
+      type: NVAPIWrapper.NV_I2C_INFO_V3
+    content.vb: Public Function ToNative() As NV_I2C_INFO_V3
+  overload: NVAPIWrapper.NVAPII2CInfoDto.ToNative*
+- uid: NVAPIWrapper.NVAPII2CInfoDto.Equals(NVAPIWrapper.NVAPII2CInfoDto)
+  commentId: M:NVAPIWrapper.NVAPII2CInfoDto.Equals(NVAPIWrapper.NVAPII2CInfoDto)
+  id: Equals(NVAPIWrapper.NVAPII2CInfoDto)
+  parent: NVAPIWrapper.NVAPII2CInfoDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPII2CInfoDto)
+  nameWithType: NVAPII2CInfoDto.Equals(NVAPII2CInfoDto)
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.Equals(NVAPIWrapper.NVAPII2CInfoDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2544
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPII2CInfoDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPII2CInfoDto
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As NVAPII2CInfoDto) As Boolean
+  overload: NVAPIWrapper.NVAPII2CInfoDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPII2CInfoDto}.Equals(NVAPIWrapper.NVAPII2CInfoDto)
+- uid: NVAPIWrapper.NVAPII2CInfoDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPII2CInfoDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPII2CInfoDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPII2CInfoDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2557
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPII2CInfoDto.Equals*
+  nameWithType.vb: NVAPII2CInfoDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPII2CInfoDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPII2CInfoDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPII2CInfoDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPII2CInfoDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPII2CInfoDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2559
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPII2CInfoDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPII2CInfoDto.op_Equality(NVAPIWrapper.NVAPII2CInfoDto,NVAPIWrapper.NVAPII2CInfoDto)
+  commentId: M:NVAPIWrapper.NVAPII2CInfoDto.op_Equality(NVAPIWrapper.NVAPII2CInfoDto,NVAPIWrapper.NVAPII2CInfoDto)
+  id: op_Equality(NVAPIWrapper.NVAPII2CInfoDto,NVAPIWrapper.NVAPII2CInfoDto)
+  parent: NVAPIWrapper.NVAPII2CInfoDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPII2CInfoDto, NVAPII2CInfoDto)
+  nameWithType: NVAPII2CInfoDto.operator ==(NVAPII2CInfoDto, NVAPII2CInfoDto)
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.operator ==(NVAPIWrapper.NVAPII2CInfoDto, NVAPIWrapper.NVAPII2CInfoDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2576
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static bool operator ==(NVAPII2CInfoDto left, NVAPII2CInfoDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPII2CInfoDto
+    - id: right
+      type: NVAPIWrapper.NVAPII2CInfoDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As NVAPII2CInfoDto, right As NVAPII2CInfoDto) As Boolean
+  overload: NVAPIWrapper.NVAPII2CInfoDto.op_Equality*
+  nameWithType.vb: NVAPII2CInfoDto.=(NVAPII2CInfoDto, NVAPII2CInfoDto)
+  fullName.vb: NVAPIWrapper.NVAPII2CInfoDto.=(NVAPIWrapper.NVAPII2CInfoDto, NVAPIWrapper.NVAPII2CInfoDto)
+  name.vb: =(NVAPII2CInfoDto, NVAPII2CInfoDto)
+- uid: NVAPIWrapper.NVAPII2CInfoDto.op_Inequality(NVAPIWrapper.NVAPII2CInfoDto,NVAPIWrapper.NVAPII2CInfoDto)
+  commentId: M:NVAPIWrapper.NVAPII2CInfoDto.op_Inequality(NVAPIWrapper.NVAPII2CInfoDto,NVAPIWrapper.NVAPII2CInfoDto)
+  id: op_Inequality(NVAPIWrapper.NVAPII2CInfoDto,NVAPIWrapper.NVAPII2CInfoDto)
+  parent: NVAPIWrapper.NVAPII2CInfoDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPII2CInfoDto, NVAPII2CInfoDto)
+  nameWithType: NVAPII2CInfoDto.operator !=(NVAPII2CInfoDto, NVAPII2CInfoDto)
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.operator !=(NVAPIWrapper.NVAPII2CInfoDto, NVAPIWrapper.NVAPII2CInfoDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 2577
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static bool operator !=(NVAPII2CInfoDto left, NVAPII2CInfoDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPII2CInfoDto
+    - id: right
+      type: NVAPIWrapper.NVAPII2CInfoDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As NVAPII2CInfoDto, right As NVAPII2CInfoDto) As Boolean
+  overload: NVAPIWrapper.NVAPII2CInfoDto.op_Inequality*
+  nameWithType.vb: NVAPII2CInfoDto.<>(NVAPII2CInfoDto, NVAPII2CInfoDto)
+  fullName.vb: NVAPIWrapper.NVAPII2CInfoDto.<>(NVAPIWrapper.NVAPII2CInfoDto, NVAPIWrapper.NVAPII2CInfoDto)
+  name.vb: <>(NVAPII2CInfoDto, NVAPII2CInfoDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPII2CInfoDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPII2CInfoDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPII2CInfoDto>
+  nameWithType: IEquatable<NVAPII2CInfoDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPII2CInfoDto>
+  nameWithType.vb: IEquatable(Of NVAPII2CInfoDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPII2CInfoDto)
+  name.vb: IEquatable(Of NVAPII2CInfoDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPII2CInfoDto
+    name: NVAPII2CInfoDto
+    href: NVAPIWrapper.NVAPII2CInfoDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPII2CInfoDto
+    name: NVAPII2CInfoDto
+    href: NVAPIWrapper.NVAPII2CInfoDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPII2CInfoDto.DisplayMask*
+  commentId: Overload:NVAPIWrapper.NVAPII2CInfoDto.DisplayMask
+  href: NVAPIWrapper.NVAPII2CInfoDto.html#NVAPIWrapper_NVAPII2CInfoDto_DisplayMask
+  name: DisplayMask
+  nameWithType: NVAPII2CInfoDto.DisplayMask
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.DisplayMask
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NVAPII2CInfoDto.IsDDCPort*
+  commentId: Overload:NVAPIWrapper.NVAPII2CInfoDto.IsDDCPort
+  href: NVAPIWrapper.NVAPII2CInfoDto.html#NVAPIWrapper_NVAPII2CInfoDto_IsDDCPort
+  name: IsDDCPort
+  nameWithType: NVAPII2CInfoDto.IsDDCPort
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.IsDDCPort
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NVAPIWrapper.NVAPII2CInfoDto.I2cDevAddress*
+  commentId: Overload:NVAPIWrapper.NVAPII2CInfoDto.I2cDevAddress
+  href: NVAPIWrapper.NVAPII2CInfoDto.html#NVAPIWrapper_NVAPII2CInfoDto_I2cDevAddress
+  name: I2cDevAddress
+  nameWithType: NVAPII2CInfoDto.I2cDevAddress
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.I2cDevAddress
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: NVAPIWrapper.NVAPII2CInfoDto.RegisterAddress*
+  commentId: Overload:NVAPIWrapper.NVAPII2CInfoDto.RegisterAddress
+  href: NVAPIWrapper.NVAPII2CInfoDto.html#NVAPIWrapper_NVAPII2CInfoDto_RegisterAddress
+  name: RegisterAddress
+  nameWithType: NVAPII2CInfoDto.RegisterAddress
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.RegisterAddress
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPII2CInfoDto.Data*
+  commentId: Overload:NVAPIWrapper.NVAPII2CInfoDto.Data
+  href: NVAPIWrapper.NVAPII2CInfoDto.html#NVAPIWrapper_NVAPII2CInfoDto_Data
+  name: Data
+  nameWithType: NVAPII2CInfoDto.Data
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.Data
+- uid: NVAPIWrapper.NVAPII2CInfoDto.I2cSpeed*
+  commentId: Overload:NVAPIWrapper.NVAPII2CInfoDto.I2cSpeed
+  href: NVAPIWrapper.NVAPII2CInfoDto.html#NVAPIWrapper_NVAPII2CInfoDto_I2cSpeed
+  name: I2cSpeed
+  nameWithType: NVAPII2CInfoDto.I2cSpeed
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.I2cSpeed
+- uid: NVAPIWrapper.NVAPII2CInfoDto.I2cSpeedKhz*
+  commentId: Overload:NVAPIWrapper.NVAPII2CInfoDto.I2cSpeedKhz
+  href: NVAPIWrapper.NVAPII2CInfoDto.html#NVAPIWrapper_NVAPII2CInfoDto_I2cSpeedKhz
+  name: I2cSpeedKhz
+  nameWithType: NVAPII2CInfoDto.I2cSpeedKhz
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.I2cSpeedKhz
+- uid: NVAPIWrapper.NV_I2C_SPEED
+  commentId: T:NVAPIWrapper.NV_I2C_SPEED
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_I2C_SPEED.html
+  name: NV_I2C_SPEED
+  nameWithType: NV_I2C_SPEED
+  fullName: NVAPIWrapper.NV_I2C_SPEED
+- uid: NVAPIWrapper.NVAPII2CInfoDto.PortId*
+  commentId: Overload:NVAPIWrapper.NVAPII2CInfoDto.PortId
+  href: NVAPIWrapper.NVAPII2CInfoDto.html#NVAPIWrapper_NVAPII2CInfoDto_PortId
+  name: PortId
+  nameWithType: NVAPII2CInfoDto.PortId
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.PortId
+- uid: NVAPIWrapper.NVAPII2CInfoDto.IsPortIdSet*
+  commentId: Overload:NVAPIWrapper.NVAPII2CInfoDto.IsPortIdSet
+  href: NVAPIWrapper.NVAPII2CInfoDto.html#NVAPIWrapper_NVAPII2CInfoDto_IsPortIdSet
+  name: IsPortIdSet
+  nameWithType: NVAPII2CInfoDto.IsPortIdSet
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.IsPortIdSet
+- uid: NVAPIWrapper.NVAPII2CInfoDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPII2CInfoDto.#ctor
+  href: NVAPIWrapper.NVAPII2CInfoDto.html#NVAPIWrapper_NVAPII2CInfoDto__ctor_System_UInt32_System_Boolean_System_Byte_System_Byte___System_Byte___System_UInt32_NVAPIWrapper_NV_I2C_SPEED_System_Byte_System_Boolean_
+  name: NVAPII2CInfoDto
+  nameWithType: NVAPII2CInfoDto.NVAPII2CInfoDto
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.NVAPII2CInfoDto
+  nameWithType.vb: NVAPII2CInfoDto.New
+  fullName.vb: NVAPIWrapper.NVAPII2CInfoDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPII2CInfoDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPII2CInfoDto.FromNative
+  href: NVAPIWrapper.NVAPII2CInfoDto.html#NVAPIWrapper_NVAPII2CInfoDto_FromNative_NVAPIWrapper_NV_I2C_INFO_V3_
+  name: FromNative
+  nameWithType: NVAPII2CInfoDto.FromNative
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.FromNative
+- uid: NVAPIWrapper.NV_I2C_INFO_V3
+  commentId: T:NVAPIWrapper.NV_I2C_INFO_V3
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_I2C_INFO_V3.html
+  name: NV_I2C_INFO_V3
+  nameWithType: NV_I2C_INFO_V3
+  fullName: NVAPIWrapper.NV_I2C_INFO_V3
+- uid: NVAPIWrapper.NVAPII2CInfoDto
+  commentId: T:NVAPIWrapper.NVAPII2CInfoDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPII2CInfoDto.html
+  name: NVAPII2CInfoDto
+  nameWithType: NVAPII2CInfoDto
+  fullName: NVAPIWrapper.NVAPII2CInfoDto
+- uid: NVAPIWrapper.NVAPII2CInfoDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPII2CInfoDto.ToNative
+  href: NVAPIWrapper.NVAPII2CInfoDto.html#NVAPIWrapper_NVAPII2CInfoDto_ToNative
+  name: ToNative
+  nameWithType: NVAPII2CInfoDto.ToNative
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.ToNative
+- uid: NVAPIWrapper.NVAPII2CInfoDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPII2CInfoDto.Equals
+  href: NVAPIWrapper.NVAPII2CInfoDto.html#NVAPIWrapper_NVAPII2CInfoDto_Equals_NVAPIWrapper_NVAPII2CInfoDto_
+  name: Equals
+  nameWithType: NVAPII2CInfoDto.Equals
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPII2CInfoDto}.Equals(NVAPIWrapper.NVAPII2CInfoDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPII2CInfoDto}.Equals(NVAPIWrapper.NVAPII2CInfoDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPII2CInfoDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPII2CInfoDto)
+  nameWithType: IEquatable<NVAPII2CInfoDto>.Equals(NVAPII2CInfoDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPII2CInfoDto>.Equals(NVAPIWrapper.NVAPII2CInfoDto)
+  nameWithType.vb: IEquatable(Of NVAPII2CInfoDto).Equals(NVAPII2CInfoDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPII2CInfoDto).Equals(NVAPIWrapper.NVAPII2CInfoDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPII2CInfoDto}.Equals(NVAPIWrapper.NVAPII2CInfoDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPII2CInfoDto
+    name: NVAPII2CInfoDto
+    href: NVAPIWrapper.NVAPII2CInfoDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPII2CInfoDto}.Equals(NVAPIWrapper.NVAPII2CInfoDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPII2CInfoDto
+    name: NVAPII2CInfoDto
+    href: NVAPIWrapper.NVAPII2CInfoDto.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPII2CInfoDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPII2CInfoDto.GetHashCode
+  href: NVAPIWrapper.NVAPII2CInfoDto.html#NVAPIWrapper_NVAPII2CInfoDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPII2CInfoDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPII2CInfoDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPII2CInfoDto.op_Equality
+  href: NVAPIWrapper.NVAPII2CInfoDto.html#NVAPIWrapper_NVAPII2CInfoDto_op_Equality_NVAPIWrapper_NVAPII2CInfoDto_NVAPIWrapper_NVAPII2CInfoDto_
+  name: operator ==
+  nameWithType: NVAPII2CInfoDto.operator ==
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.operator ==
+  nameWithType.vb: NVAPII2CInfoDto.=
+  fullName.vb: NVAPIWrapper.NVAPII2CInfoDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPII2CInfoDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPII2CInfoDto.html#NVAPIWrapper_NVAPII2CInfoDto_op_Equality_NVAPIWrapper_NVAPII2CInfoDto_NVAPIWrapper_NVAPII2CInfoDto_
+- uid: NVAPIWrapper.NVAPII2CInfoDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPII2CInfoDto.op_Inequality
+  href: NVAPIWrapper.NVAPII2CInfoDto.html#NVAPIWrapper_NVAPII2CInfoDto_op_Inequality_NVAPIWrapper_NVAPII2CInfoDto_NVAPIWrapper_NVAPII2CInfoDto_
+  name: operator !=
+  nameWithType: NVAPII2CInfoDto.operator !=
+  fullName: NVAPIWrapper.NVAPII2CInfoDto.operator !=
+  nameWithType.vb: NVAPII2CInfoDto.<>
+  fullName.vb: NVAPIWrapper.NVAPII2CInfoDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPII2CInfoDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPII2CInfoDto.html#NVAPIWrapper_NVAPII2CInfoDto_op_Inequality_NVAPIWrapper_NVAPII2CInfoDto_NVAPIWrapper_NVAPII2CInfoDto_

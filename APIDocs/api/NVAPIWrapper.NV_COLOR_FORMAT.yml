@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_COLOR_FORMAT
+  commentId: T:NVAPIWrapper.NV_COLOR_FORMAT
+  id: NV_COLOR_FORMAT
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_COLOR_FORMAT.NV_COLOR_FORMAT_AUTO
+  - NVAPIWrapper.NV_COLOR_FORMAT.NV_COLOR_FORMAT_DEFAULT
+  - NVAPIWrapper.NV_COLOR_FORMAT.NV_COLOR_FORMAT_RGB
+  - NVAPIWrapper.NV_COLOR_FORMAT.NV_COLOR_FORMAT_YUV420
+  - NVAPIWrapper.NV_COLOR_FORMAT.NV_COLOR_FORMAT_YUV422
+  - NVAPIWrapper.NV_COLOR_FORMAT.NV_COLOR_FORMAT_YUV444
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_FORMAT
+  nameWithType: NV_COLOR_FORMAT
+  fullName: NVAPIWrapper.NV_COLOR_FORMAT
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_FORMAT
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_FORMAT.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_COLOR_FORMAT
+    content.vb: Public Enum NV_COLOR_FORMAT
+- uid: NVAPIWrapper.NV_COLOR_FORMAT.NV_COLOR_FORMAT_RGB
+  commentId: F:NVAPIWrapper.NV_COLOR_FORMAT.NV_COLOR_FORMAT_RGB
+  id: NV_COLOR_FORMAT_RGB
+  parent: NVAPIWrapper.NV_COLOR_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_FORMAT_RGB
+  nameWithType: NV_COLOR_FORMAT.NV_COLOR_FORMAT_RGB
+  fullName: NVAPIWrapper.NV_COLOR_FORMAT.NV_COLOR_FORMAT_RGB
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_FORMAT_RGB
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_FORMAT.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_FORMAT_RGB = 0
+    return:
+      type: NVAPIWrapper.NV_COLOR_FORMAT
+- uid: NVAPIWrapper.NV_COLOR_FORMAT.NV_COLOR_FORMAT_YUV422
+  commentId: F:NVAPIWrapper.NV_COLOR_FORMAT.NV_COLOR_FORMAT_YUV422
+  id: NV_COLOR_FORMAT_YUV422
+  parent: NVAPIWrapper.NV_COLOR_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_FORMAT_YUV422
+  nameWithType: NV_COLOR_FORMAT.NV_COLOR_FORMAT_YUV422
+  fullName: NVAPIWrapper.NV_COLOR_FORMAT.NV_COLOR_FORMAT_YUV422
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_FORMAT_YUV422
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_FORMAT.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_FORMAT_YUV422 = 1
+    return:
+      type: NVAPIWrapper.NV_COLOR_FORMAT
+- uid: NVAPIWrapper.NV_COLOR_FORMAT.NV_COLOR_FORMAT_YUV444
+  commentId: F:NVAPIWrapper.NV_COLOR_FORMAT.NV_COLOR_FORMAT_YUV444
+  id: NV_COLOR_FORMAT_YUV444
+  parent: NVAPIWrapper.NV_COLOR_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_FORMAT_YUV444
+  nameWithType: NV_COLOR_FORMAT.NV_COLOR_FORMAT_YUV444
+  fullName: NVAPIWrapper.NV_COLOR_FORMAT.NV_COLOR_FORMAT_YUV444
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_FORMAT_YUV444
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_FORMAT.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_FORMAT_YUV444 = 2
+    return:
+      type: NVAPIWrapper.NV_COLOR_FORMAT
+- uid: NVAPIWrapper.NV_COLOR_FORMAT.NV_COLOR_FORMAT_YUV420
+  commentId: F:NVAPIWrapper.NV_COLOR_FORMAT.NV_COLOR_FORMAT_YUV420
+  id: NV_COLOR_FORMAT_YUV420
+  parent: NVAPIWrapper.NV_COLOR_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_FORMAT_YUV420
+  nameWithType: NV_COLOR_FORMAT.NV_COLOR_FORMAT_YUV420
+  fullName: NVAPIWrapper.NV_COLOR_FORMAT.NV_COLOR_FORMAT_YUV420
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_FORMAT_YUV420
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_FORMAT.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_FORMAT_YUV420 = 3
+    return:
+      type: NVAPIWrapper.NV_COLOR_FORMAT
+- uid: NVAPIWrapper.NV_COLOR_FORMAT.NV_COLOR_FORMAT_DEFAULT
+  commentId: F:NVAPIWrapper.NV_COLOR_FORMAT.NV_COLOR_FORMAT_DEFAULT
+  id: NV_COLOR_FORMAT_DEFAULT
+  parent: NVAPIWrapper.NV_COLOR_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_FORMAT_DEFAULT
+  nameWithType: NV_COLOR_FORMAT.NV_COLOR_FORMAT_DEFAULT
+  fullName: NVAPIWrapper.NV_COLOR_FORMAT.NV_COLOR_FORMAT_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_FORMAT_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_FORMAT.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_FORMAT_DEFAULT = 254
+    return:
+      type: NVAPIWrapper.NV_COLOR_FORMAT
+- uid: NVAPIWrapper.NV_COLOR_FORMAT.NV_COLOR_FORMAT_AUTO
+  commentId: F:NVAPIWrapper.NV_COLOR_FORMAT.NV_COLOR_FORMAT_AUTO
+  id: NV_COLOR_FORMAT_AUTO
+  parent: NVAPIWrapper.NV_COLOR_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_FORMAT_AUTO
+  nameWithType: NV_COLOR_FORMAT.NV_COLOR_FORMAT_AUTO
+  fullName: NVAPIWrapper.NV_COLOR_FORMAT.NV_COLOR_FORMAT_AUTO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_FORMAT_AUTO
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_FORMAT.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_FORMAT_AUTO = 255
+    return:
+      type: NVAPIWrapper.NV_COLOR_FORMAT
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_COLOR_FORMAT
+  commentId: T:NVAPIWrapper.NV_COLOR_FORMAT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_COLOR_FORMAT.html
+  name: NV_COLOR_FORMAT
+  nameWithType: NV_COLOR_FORMAT
+  fullName: NVAPIWrapper.NV_COLOR_FORMAT

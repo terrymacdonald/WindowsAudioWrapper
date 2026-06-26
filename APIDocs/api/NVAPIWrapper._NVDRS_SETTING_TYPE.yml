@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVDRS_SETTING_TYPE
+  commentId: T:NVAPIWrapper._NVDRS_SETTING_TYPE
+  id: _NVDRS_SETTING_TYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVDRS_SETTING_TYPE.NVDRS_BINARY_TYPE
+  - NVAPIWrapper._NVDRS_SETTING_TYPE.NVDRS_DWORD_TYPE
+  - NVAPIWrapper._NVDRS_SETTING_TYPE.NVDRS_STRING_TYPE
+  - NVAPIWrapper._NVDRS_SETTING_TYPE.NVDRS_WSTRING_TYPE
+  langs:
+  - csharp
+  - vb
+  name: _NVDRS_SETTING_TYPE
+  nameWithType: _NVDRS_SETTING_TYPE
+  fullName: NVAPIWrapper._NVDRS_SETTING_TYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVDRS_SETTING_TYPE
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_TYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVDRS_SETTING_TYPE
+    content.vb: Public Enum _NVDRS_SETTING_TYPE
+- uid: NVAPIWrapper._NVDRS_SETTING_TYPE.NVDRS_DWORD_TYPE
+  commentId: F:NVAPIWrapper._NVDRS_SETTING_TYPE.NVDRS_DWORD_TYPE
+  id: NVDRS_DWORD_TYPE
+  parent: NVAPIWrapper._NVDRS_SETTING_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVDRS_DWORD_TYPE
+  nameWithType: _NVDRS_SETTING_TYPE.NVDRS_DWORD_TYPE
+  fullName: NVAPIWrapper._NVDRS_SETTING_TYPE.NVDRS_DWORD_TYPE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVDRS_DWORD_TYPE
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_TYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVDRS_DWORD_TYPE = 0
+    return:
+      type: NVAPIWrapper._NVDRS_SETTING_TYPE
+- uid: NVAPIWrapper._NVDRS_SETTING_TYPE.NVDRS_BINARY_TYPE
+  commentId: F:NVAPIWrapper._NVDRS_SETTING_TYPE.NVDRS_BINARY_TYPE
+  id: NVDRS_BINARY_TYPE
+  parent: NVAPIWrapper._NVDRS_SETTING_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVDRS_BINARY_TYPE
+  nameWithType: _NVDRS_SETTING_TYPE.NVDRS_BINARY_TYPE
+  fullName: NVAPIWrapper._NVDRS_SETTING_TYPE.NVDRS_BINARY_TYPE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVDRS_BINARY_TYPE
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_TYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVDRS_BINARY_TYPE = 1
+    return:
+      type: NVAPIWrapper._NVDRS_SETTING_TYPE
+- uid: NVAPIWrapper._NVDRS_SETTING_TYPE.NVDRS_STRING_TYPE
+  commentId: F:NVAPIWrapper._NVDRS_SETTING_TYPE.NVDRS_STRING_TYPE
+  id: NVDRS_STRING_TYPE
+  parent: NVAPIWrapper._NVDRS_SETTING_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVDRS_STRING_TYPE
+  nameWithType: _NVDRS_SETTING_TYPE.NVDRS_STRING_TYPE
+  fullName: NVAPIWrapper._NVDRS_SETTING_TYPE.NVDRS_STRING_TYPE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVDRS_STRING_TYPE
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_TYPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVDRS_STRING_TYPE = 2
+    return:
+      type: NVAPIWrapper._NVDRS_SETTING_TYPE
+- uid: NVAPIWrapper._NVDRS_SETTING_TYPE.NVDRS_WSTRING_TYPE
+  commentId: F:NVAPIWrapper._NVDRS_SETTING_TYPE.NVDRS_WSTRING_TYPE
+  id: NVDRS_WSTRING_TYPE
+  parent: NVAPIWrapper._NVDRS_SETTING_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVDRS_WSTRING_TYPE
+  nameWithType: _NVDRS_SETTING_TYPE.NVDRS_WSTRING_TYPE
+  fullName: NVAPIWrapper._NVDRS_SETTING_TYPE.NVDRS_WSTRING_TYPE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVDRS_SETTING_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVDRS_WSTRING_TYPE
+    path: ../NVAPIWrapper/cs_generated/_NVDRS_SETTING_TYPE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVDRS_WSTRING_TYPE = 3
+    return:
+      type: NVAPIWrapper._NVDRS_SETTING_TYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVDRS_SETTING_TYPE
+  commentId: T:NVAPIWrapper._NVDRS_SETTING_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVDRS_SETTING_TYPE.html
+  name: _NVDRS_SETTING_TYPE
+  nameWithType: _NVDRS_SETTING_TYPE
+  fullName: NVAPIWrapper._NVDRS_SETTING_TYPE

@@ -1,0 +1,558 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC
+  commentId: T:NVAPIWrapper._NV_MONITOR_CAPS_GENERIC
+  id: _NV_MONITOR_CAPS_GENERIC
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_MONITOR_CAPS_GENERIC._bitfield
+  - NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.currentlyCapableOfVRR
+  - NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.isBasicVRR
+  - NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.isRLACapable
+  - NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.isTrueGsync
+  - NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.reserved
+  - NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.supportULMB
+  - NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.supportVRR
+  langs:
+  - csharp
+  - vb
+  name: _NV_MONITOR_CAPS_GENERIC
+  nameWithType: _NV_MONITOR_CAPS_GENERIC
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_GENERIC.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_MONITOR_CAPS_GENERIC
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_GENERIC.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NV_MONITOR_CAPS_GENERIC
+    content.vb: Public Structure _NV_MONITOR_CAPS_GENERIC
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC._bitfield
+  commentId: F:NVAPIWrapper._NV_MONITOR_CAPS_GENERIC._bitfield
+  id: _bitfield
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC
+  langs:
+  - csharp
+  - vb
+  name: _bitfield
+  nameWithType: _NV_MONITOR_CAPS_GENERIC._bitfield
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC._bitfield
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_GENERIC.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_GENERIC.cs
+    startLine: 5
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte _bitfield
+    return:
+      type: System.Byte
+    content.vb: Public _bitfield As Byte
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.supportVRR
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.supportVRR
+  id: supportVRR
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC
+  langs:
+  - csharp
+  - vb
+  name: supportVRR
+  nameWithType: _NV_MONITOR_CAPS_GENERIC.supportVRR
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.supportVRR
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_GENERIC.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: supportVRR
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_GENERIC.cs
+    startLine: 8
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte supportVRR { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property supportVRR As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.supportVRR*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.supportULMB
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.supportULMB
+  id: supportULMB
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC
+  langs:
+  - csharp
+  - vb
+  name: supportULMB
+  nameWithType: _NV_MONITOR_CAPS_GENERIC.supportULMB
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.supportULMB
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_GENERIC.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: supportULMB
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_GENERIC.cs
+    startLine: 23
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte supportULMB { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property supportULMB As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.supportULMB*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.isTrueGsync
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.isTrueGsync
+  id: isTrueGsync
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC
+  langs:
+  - csharp
+  - vb
+  name: isTrueGsync
+  nameWithType: _NV_MONITOR_CAPS_GENERIC.isTrueGsync
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.isTrueGsync
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_GENERIC.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isTrueGsync
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_GENERIC.cs
+    startLine: 38
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte isTrueGsync { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property isTrueGsync As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.isTrueGsync*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.isRLACapable
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.isRLACapable
+  id: isRLACapable
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC
+  langs:
+  - csharp
+  - vb
+  name: isRLACapable
+  nameWithType: _NV_MONITOR_CAPS_GENERIC.isRLACapable
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.isRLACapable
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_GENERIC.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isRLACapable
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_GENERIC.cs
+    startLine: 53
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte isRLACapable { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property isRLACapable As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.isRLACapable*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.currentlyCapableOfVRR
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.currentlyCapableOfVRR
+  id: currentlyCapableOfVRR
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC
+  langs:
+  - csharp
+  - vb
+  name: currentlyCapableOfVRR
+  nameWithType: _NV_MONITOR_CAPS_GENERIC.currentlyCapableOfVRR
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.currentlyCapableOfVRR
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_GENERIC.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: currentlyCapableOfVRR
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_GENERIC.cs
+    startLine: 68
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte currentlyCapableOfVRR { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property currentlyCapableOfVRR As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.currentlyCapableOfVRR*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.isBasicVRR
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.isBasicVRR
+  id: isBasicVRR
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC
+  langs:
+  - csharp
+  - vb
+  name: isBasicVRR
+  nameWithType: _NV_MONITOR_CAPS_GENERIC.isBasicVRR
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.isBasicVRR
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_GENERIC.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isBasicVRR
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_GENERIC.cs
+    startLine: 83
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte isBasicVRR { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property isBasicVRR As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.isBasicVRR*
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.reserved
+  commentId: P:NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.reserved
+  id: reserved
+  parent: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC
+  langs:
+  - csharp
+  - vb
+  name: reserved
+  nameWithType: _NV_MONITOR_CAPS_GENERIC.reserved
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.reserved
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_GENERIC.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved
+    path: ../NVAPIWrapper/cs_generated/_NV_MONITOR_CAPS_GENERIC.cs
+    startLine: 98
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte reserved { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property reserved As Byte
+  overload: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.reserved*
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.supportVRR*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.supportVRR
+  href: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.html#NVAPIWrapper__NV_MONITOR_CAPS_GENERIC_supportVRR
+  name: supportVRR
+  nameWithType: _NV_MONITOR_CAPS_GENERIC.supportVRR
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.supportVRR
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.supportULMB*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.supportULMB
+  href: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.html#NVAPIWrapper__NV_MONITOR_CAPS_GENERIC_supportULMB
+  name: supportULMB
+  nameWithType: _NV_MONITOR_CAPS_GENERIC.supportULMB
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.supportULMB
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.isTrueGsync*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.isTrueGsync
+  href: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.html#NVAPIWrapper__NV_MONITOR_CAPS_GENERIC_isTrueGsync
+  name: isTrueGsync
+  nameWithType: _NV_MONITOR_CAPS_GENERIC.isTrueGsync
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.isTrueGsync
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.isRLACapable*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.isRLACapable
+  href: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.html#NVAPIWrapper__NV_MONITOR_CAPS_GENERIC_isRLACapable
+  name: isRLACapable
+  nameWithType: _NV_MONITOR_CAPS_GENERIC.isRLACapable
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.isRLACapable
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.currentlyCapableOfVRR*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.currentlyCapableOfVRR
+  href: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.html#NVAPIWrapper__NV_MONITOR_CAPS_GENERIC_currentlyCapableOfVRR
+  name: currentlyCapableOfVRR
+  nameWithType: _NV_MONITOR_CAPS_GENERIC.currentlyCapableOfVRR
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.currentlyCapableOfVRR
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.isBasicVRR*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.isBasicVRR
+  href: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.html#NVAPIWrapper__NV_MONITOR_CAPS_GENERIC_isBasicVRR
+  name: isBasicVRR
+  nameWithType: _NV_MONITOR_CAPS_GENERIC.isBasicVRR
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.isBasicVRR
+- uid: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.reserved*
+  commentId: Overload:NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.reserved
+  href: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.html#NVAPIWrapper__NV_MONITOR_CAPS_GENERIC_reserved
+  name: reserved
+  nameWithType: _NV_MONITOR_CAPS_GENERIC.reserved
+  fullName: NVAPIWrapper._NV_MONITOR_CAPS_GENERIC.reserved

@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_NV_QUALITY_UPSCALING
+  commentId: T:NVAPIWrapper.EValues_NV_QUALITY_UPSCALING
+  id: EValues_NV_QUALITY_UPSCALING
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_NV_QUALITY_UPSCALING.NV_QUALITY_UPSCALING_DEFAULT
+  - NVAPIWrapper.EValues_NV_QUALITY_UPSCALING.NV_QUALITY_UPSCALING_NUM_VALUES
+  - NVAPIWrapper.EValues_NV_QUALITY_UPSCALING.NV_QUALITY_UPSCALING_OFF
+  - NVAPIWrapper.EValues_NV_QUALITY_UPSCALING.NV_QUALITY_UPSCALING_ON
+  langs:
+  - csharp
+  - vb
+  name: EValues_NV_QUALITY_UPSCALING
+  nameWithType: EValues_NV_QUALITY_UPSCALING
+  fullName: NVAPIWrapper.EValues_NV_QUALITY_UPSCALING
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NV_QUALITY_UPSCALING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_NV_QUALITY_UPSCALING
+    path: ../NVAPIWrapper/cs_generated/EValues_NV_QUALITY_UPSCALING.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_NV_QUALITY_UPSCALING
+    content.vb: Public Enum EValues_NV_QUALITY_UPSCALING
+- uid: NVAPIWrapper.EValues_NV_QUALITY_UPSCALING.NV_QUALITY_UPSCALING_OFF
+  commentId: F:NVAPIWrapper.EValues_NV_QUALITY_UPSCALING.NV_QUALITY_UPSCALING_OFF
+  id: NV_QUALITY_UPSCALING_OFF
+  parent: NVAPIWrapper.EValues_NV_QUALITY_UPSCALING
+  langs:
+  - csharp
+  - vb
+  name: NV_QUALITY_UPSCALING_OFF
+  nameWithType: EValues_NV_QUALITY_UPSCALING.NV_QUALITY_UPSCALING_OFF
+  fullName: NVAPIWrapper.EValues_NV_QUALITY_UPSCALING.NV_QUALITY_UPSCALING_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NV_QUALITY_UPSCALING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_QUALITY_UPSCALING_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_NV_QUALITY_UPSCALING.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_QUALITY_UPSCALING_OFF = 0
+    return:
+      type: NVAPIWrapper.EValues_NV_QUALITY_UPSCALING
+- uid: NVAPIWrapper.EValues_NV_QUALITY_UPSCALING.NV_QUALITY_UPSCALING_ON
+  commentId: F:NVAPIWrapper.EValues_NV_QUALITY_UPSCALING.NV_QUALITY_UPSCALING_ON
+  id: NV_QUALITY_UPSCALING_ON
+  parent: NVAPIWrapper.EValues_NV_QUALITY_UPSCALING
+  langs:
+  - csharp
+  - vb
+  name: NV_QUALITY_UPSCALING_ON
+  nameWithType: EValues_NV_QUALITY_UPSCALING.NV_QUALITY_UPSCALING_ON
+  fullName: NVAPIWrapper.EValues_NV_QUALITY_UPSCALING.NV_QUALITY_UPSCALING_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NV_QUALITY_UPSCALING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_QUALITY_UPSCALING_ON
+    path: ../NVAPIWrapper/cs_generated/EValues_NV_QUALITY_UPSCALING.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_QUALITY_UPSCALING_ON = 1
+    return:
+      type: NVAPIWrapper.EValues_NV_QUALITY_UPSCALING
+- uid: NVAPIWrapper.EValues_NV_QUALITY_UPSCALING.NV_QUALITY_UPSCALING_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_NV_QUALITY_UPSCALING.NV_QUALITY_UPSCALING_NUM_VALUES
+  id: NV_QUALITY_UPSCALING_NUM_VALUES
+  parent: NVAPIWrapper.EValues_NV_QUALITY_UPSCALING
+  langs:
+  - csharp
+  - vb
+  name: NV_QUALITY_UPSCALING_NUM_VALUES
+  nameWithType: EValues_NV_QUALITY_UPSCALING.NV_QUALITY_UPSCALING_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_NV_QUALITY_UPSCALING.NV_QUALITY_UPSCALING_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NV_QUALITY_UPSCALING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_QUALITY_UPSCALING_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_NV_QUALITY_UPSCALING.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_QUALITY_UPSCALING_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_NV_QUALITY_UPSCALING
+- uid: NVAPIWrapper.EValues_NV_QUALITY_UPSCALING.NV_QUALITY_UPSCALING_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_NV_QUALITY_UPSCALING.NV_QUALITY_UPSCALING_DEFAULT
+  id: NV_QUALITY_UPSCALING_DEFAULT
+  parent: NVAPIWrapper.EValues_NV_QUALITY_UPSCALING
+  langs:
+  - csharp
+  - vb
+  name: NV_QUALITY_UPSCALING_DEFAULT
+  nameWithType: EValues_NV_QUALITY_UPSCALING.NV_QUALITY_UPSCALING_DEFAULT
+  fullName: NVAPIWrapper.EValues_NV_QUALITY_UPSCALING.NV_QUALITY_UPSCALING_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NV_QUALITY_UPSCALING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_QUALITY_UPSCALING_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_NV_QUALITY_UPSCALING.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_QUALITY_UPSCALING_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_NV_QUALITY_UPSCALING
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_NV_QUALITY_UPSCALING
+  commentId: T:NVAPIWrapper.EValues_NV_QUALITY_UPSCALING
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_NV_QUALITY_UPSCALING.html
+  name: EValues_NV_QUALITY_UPSCALING
+  nameWithType: EValues_NV_QUALITY_UPSCALING
+  fullName: NVAPIWrapper.EValues_NV_QUALITY_UPSCALING

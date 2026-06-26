@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_DP_COLORIMETRY
+  commentId: T:NVAPIWrapper._NV_DP_COLORIMETRY
+  id: _NV_DP_COLORIMETRY
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_DP_COLORIMETRY.NV_DP_COLORIMETRY_RGB
+  - NVAPIWrapper._NV_DP_COLORIMETRY.NV_DP_COLORIMETRY_YCbCr_ITU601
+  - NVAPIWrapper._NV_DP_COLORIMETRY.NV_DP_COLORIMETRY_YCbCr_ITU709
+  langs:
+  - csharp
+  - vb
+  name: _NV_DP_COLORIMETRY
+  nameWithType: _NV_DP_COLORIMETRY
+  fullName: NVAPIWrapper._NV_DP_COLORIMETRY
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP_COLORIMETRY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_DP_COLORIMETRY
+    path: ../NVAPIWrapper/cs_generated/_NV_DP_COLORIMETRY.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_DP_COLORIMETRY
+    content.vb: Public Enum _NV_DP_COLORIMETRY
+- uid: NVAPIWrapper._NV_DP_COLORIMETRY.NV_DP_COLORIMETRY_RGB
+  commentId: F:NVAPIWrapper._NV_DP_COLORIMETRY.NV_DP_COLORIMETRY_RGB
+  id: NV_DP_COLORIMETRY_RGB
+  parent: NVAPIWrapper._NV_DP_COLORIMETRY
+  langs:
+  - csharp
+  - vb
+  name: NV_DP_COLORIMETRY_RGB
+  nameWithType: _NV_DP_COLORIMETRY.NV_DP_COLORIMETRY_RGB
+  fullName: NVAPIWrapper._NV_DP_COLORIMETRY.NV_DP_COLORIMETRY_RGB
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP_COLORIMETRY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DP_COLORIMETRY_RGB
+    path: ../NVAPIWrapper/cs_generated/_NV_DP_COLORIMETRY.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DP_COLORIMETRY_RGB = 0
+    return:
+      type: NVAPIWrapper._NV_DP_COLORIMETRY
+- uid: NVAPIWrapper._NV_DP_COLORIMETRY.NV_DP_COLORIMETRY_YCbCr_ITU601
+  commentId: F:NVAPIWrapper._NV_DP_COLORIMETRY.NV_DP_COLORIMETRY_YCbCr_ITU601
+  id: NV_DP_COLORIMETRY_YCbCr_ITU601
+  parent: NVAPIWrapper._NV_DP_COLORIMETRY
+  langs:
+  - csharp
+  - vb
+  name: NV_DP_COLORIMETRY_YCbCr_ITU601
+  nameWithType: _NV_DP_COLORIMETRY.NV_DP_COLORIMETRY_YCbCr_ITU601
+  fullName: NVAPIWrapper._NV_DP_COLORIMETRY.NV_DP_COLORIMETRY_YCbCr_ITU601
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP_COLORIMETRY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DP_COLORIMETRY_YCbCr_ITU601
+    path: ../NVAPIWrapper/cs_generated/_NV_DP_COLORIMETRY.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DP_COLORIMETRY_YCbCr_ITU601 = 1
+    return:
+      type: NVAPIWrapper._NV_DP_COLORIMETRY
+- uid: NVAPIWrapper._NV_DP_COLORIMETRY.NV_DP_COLORIMETRY_YCbCr_ITU709
+  commentId: F:NVAPIWrapper._NV_DP_COLORIMETRY.NV_DP_COLORIMETRY_YCbCr_ITU709
+  id: NV_DP_COLORIMETRY_YCbCr_ITU709
+  parent: NVAPIWrapper._NV_DP_COLORIMETRY
+  langs:
+  - csharp
+  - vb
+  name: NV_DP_COLORIMETRY_YCbCr_ITU709
+  nameWithType: _NV_DP_COLORIMETRY.NV_DP_COLORIMETRY_YCbCr_ITU709
+  fullName: NVAPIWrapper._NV_DP_COLORIMETRY.NV_DP_COLORIMETRY_YCbCr_ITU709
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP_COLORIMETRY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DP_COLORIMETRY_YCbCr_ITU709
+    path: ../NVAPIWrapper/cs_generated/_NV_DP_COLORIMETRY.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DP_COLORIMETRY_YCbCr_ITU709 = 2
+    return:
+      type: NVAPIWrapper._NV_DP_COLORIMETRY
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_DP_COLORIMETRY
+  commentId: T:NVAPIWrapper._NV_DP_COLORIMETRY
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DP_COLORIMETRY.html
+  name: _NV_DP_COLORIMETRY
+  nameWithType: _NV_DP_COLORIMETRY
+  fullName: NVAPIWrapper._NV_DP_COLORIMETRY

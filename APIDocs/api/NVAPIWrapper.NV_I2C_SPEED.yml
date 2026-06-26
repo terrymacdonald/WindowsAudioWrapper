@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_I2C_SPEED
+  commentId: T:NVAPIWrapper.NV_I2C_SPEED
+  id: NV_I2C_SPEED
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_100KHZ
+  - NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_10KHZ
+  - NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_200KHZ
+  - NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_33KHZ
+  - NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_3KHZ
+  - NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_400KHZ
+  - NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_DEFAULT
+  langs:
+  - csharp
+  - vb
+  name: NV_I2C_SPEED
+  nameWithType: NV_I2C_SPEED
+  fullName: NVAPIWrapper.NV_I2C_SPEED
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_I2C_SPEED.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_I2C_SPEED
+    path: ../NVAPIWrapper/cs_generated/NV_I2C_SPEED.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_I2C_SPEED
+    content.vb: Public Enum NV_I2C_SPEED
+- uid: NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_DEFAULT
+  commentId: F:NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_DEFAULT
+  id: NVAPI_I2C_SPEED_DEFAULT
+  parent: NVAPIWrapper.NV_I2C_SPEED
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_I2C_SPEED_DEFAULT
+  nameWithType: NV_I2C_SPEED.NVAPI_I2C_SPEED_DEFAULT
+  fullName: NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_I2C_SPEED.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_I2C_SPEED_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/NV_I2C_SPEED.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_I2C_SPEED_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.NV_I2C_SPEED
+- uid: NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_3KHZ
+  commentId: F:NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_3KHZ
+  id: NVAPI_I2C_SPEED_3KHZ
+  parent: NVAPIWrapper.NV_I2C_SPEED
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_I2C_SPEED_3KHZ
+  nameWithType: NV_I2C_SPEED.NVAPI_I2C_SPEED_3KHZ
+  fullName: NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_3KHZ
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_I2C_SPEED.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_I2C_SPEED_3KHZ
+    path: ../NVAPIWrapper/cs_generated/NV_I2C_SPEED.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_I2C_SPEED_3KHZ = 1
+    return:
+      type: NVAPIWrapper.NV_I2C_SPEED
+- uid: NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_10KHZ
+  commentId: F:NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_10KHZ
+  id: NVAPI_I2C_SPEED_10KHZ
+  parent: NVAPIWrapper.NV_I2C_SPEED
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_I2C_SPEED_10KHZ
+  nameWithType: NV_I2C_SPEED.NVAPI_I2C_SPEED_10KHZ
+  fullName: NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_10KHZ
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_I2C_SPEED.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_I2C_SPEED_10KHZ
+    path: ../NVAPIWrapper/cs_generated/NV_I2C_SPEED.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_I2C_SPEED_10KHZ = 2
+    return:
+      type: NVAPIWrapper.NV_I2C_SPEED
+- uid: NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_33KHZ
+  commentId: F:NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_33KHZ
+  id: NVAPI_I2C_SPEED_33KHZ
+  parent: NVAPIWrapper.NV_I2C_SPEED
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_I2C_SPEED_33KHZ
+  nameWithType: NV_I2C_SPEED.NVAPI_I2C_SPEED_33KHZ
+  fullName: NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_33KHZ
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_I2C_SPEED.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_I2C_SPEED_33KHZ
+    path: ../NVAPIWrapper/cs_generated/NV_I2C_SPEED.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_I2C_SPEED_33KHZ = 3
+    return:
+      type: NVAPIWrapper.NV_I2C_SPEED
+- uid: NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_100KHZ
+  commentId: F:NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_100KHZ
+  id: NVAPI_I2C_SPEED_100KHZ
+  parent: NVAPIWrapper.NV_I2C_SPEED
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_I2C_SPEED_100KHZ
+  nameWithType: NV_I2C_SPEED.NVAPI_I2C_SPEED_100KHZ
+  fullName: NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_100KHZ
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_I2C_SPEED.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_I2C_SPEED_100KHZ
+    path: ../NVAPIWrapper/cs_generated/NV_I2C_SPEED.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_I2C_SPEED_100KHZ = 4
+    return:
+      type: NVAPIWrapper.NV_I2C_SPEED
+- uid: NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_200KHZ
+  commentId: F:NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_200KHZ
+  id: NVAPI_I2C_SPEED_200KHZ
+  parent: NVAPIWrapper.NV_I2C_SPEED
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_I2C_SPEED_200KHZ
+  nameWithType: NV_I2C_SPEED.NVAPI_I2C_SPEED_200KHZ
+  fullName: NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_200KHZ
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_I2C_SPEED.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_I2C_SPEED_200KHZ
+    path: ../NVAPIWrapper/cs_generated/NV_I2C_SPEED.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_I2C_SPEED_200KHZ = 5
+    return:
+      type: NVAPIWrapper.NV_I2C_SPEED
+- uid: NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_400KHZ
+  commentId: F:NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_400KHZ
+  id: NVAPI_I2C_SPEED_400KHZ
+  parent: NVAPIWrapper.NV_I2C_SPEED
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_I2C_SPEED_400KHZ
+  nameWithType: NV_I2C_SPEED.NVAPI_I2C_SPEED_400KHZ
+  fullName: NVAPIWrapper.NV_I2C_SPEED.NVAPI_I2C_SPEED_400KHZ
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_I2C_SPEED.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_I2C_SPEED_400KHZ
+    path: ../NVAPIWrapper/cs_generated/NV_I2C_SPEED.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_I2C_SPEED_400KHZ = 6
+    return:
+      type: NVAPIWrapper.NV_I2C_SPEED
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_I2C_SPEED
+  commentId: T:NVAPIWrapper.NV_I2C_SPEED
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_I2C_SPEED.html
+  name: NV_I2C_SPEED
+  nameWithType: NV_I2C_SPEED
+  fullName: NVAPIWrapper.NV_I2C_SPEED

@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT
+  commentId: T:NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT
+  id: EValues_OGL_DEEP_COLOR_SCANOUT
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT.OGL_DEEP_COLOR_SCANOUT_DEFAULT
+  - NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT.OGL_DEEP_COLOR_SCANOUT_DISABLE
+  - NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT.OGL_DEEP_COLOR_SCANOUT_ENABLE
+  - NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT.OGL_DEEP_COLOR_SCANOUT_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_OGL_DEEP_COLOR_SCANOUT
+  nameWithType: EValues_OGL_DEEP_COLOR_SCANOUT
+  fullName: NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_DEEP_COLOR_SCANOUT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_OGL_DEEP_COLOR_SCANOUT
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_DEEP_COLOR_SCANOUT.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_OGL_DEEP_COLOR_SCANOUT
+    content.vb: Public Enum EValues_OGL_DEEP_COLOR_SCANOUT
+- uid: NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT.OGL_DEEP_COLOR_SCANOUT_DISABLE
+  commentId: F:NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT.OGL_DEEP_COLOR_SCANOUT_DISABLE
+  id: OGL_DEEP_COLOR_SCANOUT_DISABLE
+  parent: NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT
+  langs:
+  - csharp
+  - vb
+  name: OGL_DEEP_COLOR_SCANOUT_DISABLE
+  nameWithType: EValues_OGL_DEEP_COLOR_SCANOUT.OGL_DEEP_COLOR_SCANOUT_DISABLE
+  fullName: NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT.OGL_DEEP_COLOR_SCANOUT_DISABLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_DEEP_COLOR_SCANOUT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_DEEP_COLOR_SCANOUT_DISABLE
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_DEEP_COLOR_SCANOUT.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_DEEP_COLOR_SCANOUT_DISABLE = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT
+- uid: NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT.OGL_DEEP_COLOR_SCANOUT_ENABLE
+  commentId: F:NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT.OGL_DEEP_COLOR_SCANOUT_ENABLE
+  id: OGL_DEEP_COLOR_SCANOUT_ENABLE
+  parent: NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT
+  langs:
+  - csharp
+  - vb
+  name: OGL_DEEP_COLOR_SCANOUT_ENABLE
+  nameWithType: EValues_OGL_DEEP_COLOR_SCANOUT.OGL_DEEP_COLOR_SCANOUT_ENABLE
+  fullName: NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT.OGL_DEEP_COLOR_SCANOUT_ENABLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_DEEP_COLOR_SCANOUT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_DEEP_COLOR_SCANOUT_ENABLE
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_DEEP_COLOR_SCANOUT.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_DEEP_COLOR_SCANOUT_ENABLE = 1
+    return:
+      type: NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT
+- uid: NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT.OGL_DEEP_COLOR_SCANOUT_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT.OGL_DEEP_COLOR_SCANOUT_NUM_VALUES
+  id: OGL_DEEP_COLOR_SCANOUT_NUM_VALUES
+  parent: NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT
+  langs:
+  - csharp
+  - vb
+  name: OGL_DEEP_COLOR_SCANOUT_NUM_VALUES
+  nameWithType: EValues_OGL_DEEP_COLOR_SCANOUT.OGL_DEEP_COLOR_SCANOUT_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT.OGL_DEEP_COLOR_SCANOUT_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_DEEP_COLOR_SCANOUT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_DEEP_COLOR_SCANOUT_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_DEEP_COLOR_SCANOUT.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_DEEP_COLOR_SCANOUT_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT
+- uid: NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT.OGL_DEEP_COLOR_SCANOUT_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT.OGL_DEEP_COLOR_SCANOUT_DEFAULT
+  id: OGL_DEEP_COLOR_SCANOUT_DEFAULT
+  parent: NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT
+  langs:
+  - csharp
+  - vb
+  name: OGL_DEEP_COLOR_SCANOUT_DEFAULT
+  nameWithType: EValues_OGL_DEEP_COLOR_SCANOUT.OGL_DEEP_COLOR_SCANOUT_DEFAULT
+  fullName: NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT.OGL_DEEP_COLOR_SCANOUT_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_DEEP_COLOR_SCANOUT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_DEEP_COLOR_SCANOUT_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_DEEP_COLOR_SCANOUT.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_DEEP_COLOR_SCANOUT_DEFAULT = 1
+    return:
+      type: NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT
+  commentId: T:NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT.html
+  name: EValues_OGL_DEEP_COLOR_SCANOUT
+  nameWithType: EValues_OGL_DEEP_COLOR_SCANOUT
+  fullName: NVAPIWrapper.EValues_OGL_DEEP_COLOR_SCANOUT

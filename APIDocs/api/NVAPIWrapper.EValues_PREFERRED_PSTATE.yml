@@ -1,0 +1,323 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_PREFERRED_PSTATE
+  commentId: T:NVAPIWrapper.EValues_PREFERRED_PSTATE
+  id: EValues_PREFERRED_PSTATE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_ADAPTIVE
+  - NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_DEFAULT
+  - NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_DRIVER_CONTROLLED
+  - NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_MAX
+  - NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_MIN
+  - NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_NUM_VALUES
+  - NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_OPTIMAL_POWER
+  - NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_PREFER_CONSISTENT_PERFORMANCE
+  - NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_PREFER_MAX
+  - NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_PREFER_MIN
+  langs:
+  - csharp
+  - vb
+  name: EValues_PREFERRED_PSTATE
+  nameWithType: EValues_PREFERRED_PSTATE
+  fullName: NVAPIWrapper.EValues_PREFERRED_PSTATE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PREFERRED_PSTATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_PREFERRED_PSTATE
+    path: ../NVAPIWrapper/cs_generated/EValues_PREFERRED_PSTATE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_PREFERRED_PSTATE
+    content.vb: Public Enum EValues_PREFERRED_PSTATE
+- uid: NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_ADAPTIVE
+  commentId: F:NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_ADAPTIVE
+  id: PREFERRED_PSTATE_ADAPTIVE
+  parent: NVAPIWrapper.EValues_PREFERRED_PSTATE
+  langs:
+  - csharp
+  - vb
+  name: PREFERRED_PSTATE_ADAPTIVE
+  nameWithType: EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_ADAPTIVE
+  fullName: NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_ADAPTIVE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PREFERRED_PSTATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PREFERRED_PSTATE_ADAPTIVE
+    path: ../NVAPIWrapper/cs_generated/EValues_PREFERRED_PSTATE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PREFERRED_PSTATE_ADAPTIVE = 0
+    return:
+      type: NVAPIWrapper.EValues_PREFERRED_PSTATE
+- uid: NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_PREFER_MAX
+  commentId: F:NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_PREFER_MAX
+  id: PREFERRED_PSTATE_PREFER_MAX
+  parent: NVAPIWrapper.EValues_PREFERRED_PSTATE
+  langs:
+  - csharp
+  - vb
+  name: PREFERRED_PSTATE_PREFER_MAX
+  nameWithType: EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_PREFER_MAX
+  fullName: NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_PREFER_MAX
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PREFERRED_PSTATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PREFERRED_PSTATE_PREFER_MAX
+    path: ../NVAPIWrapper/cs_generated/EValues_PREFERRED_PSTATE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PREFERRED_PSTATE_PREFER_MAX = 1
+    return:
+      type: NVAPIWrapper.EValues_PREFERRED_PSTATE
+- uid: NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_DRIVER_CONTROLLED
+  commentId: F:NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_DRIVER_CONTROLLED
+  id: PREFERRED_PSTATE_DRIVER_CONTROLLED
+  parent: NVAPIWrapper.EValues_PREFERRED_PSTATE
+  langs:
+  - csharp
+  - vb
+  name: PREFERRED_PSTATE_DRIVER_CONTROLLED
+  nameWithType: EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_DRIVER_CONTROLLED
+  fullName: NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_DRIVER_CONTROLLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PREFERRED_PSTATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PREFERRED_PSTATE_DRIVER_CONTROLLED
+    path: ../NVAPIWrapper/cs_generated/EValues_PREFERRED_PSTATE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PREFERRED_PSTATE_DRIVER_CONTROLLED = 2
+    return:
+      type: NVAPIWrapper.EValues_PREFERRED_PSTATE
+- uid: NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_PREFER_CONSISTENT_PERFORMANCE
+  commentId: F:NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_PREFER_CONSISTENT_PERFORMANCE
+  id: PREFERRED_PSTATE_PREFER_CONSISTENT_PERFORMANCE
+  parent: NVAPIWrapper.EValues_PREFERRED_PSTATE
+  langs:
+  - csharp
+  - vb
+  name: PREFERRED_PSTATE_PREFER_CONSISTENT_PERFORMANCE
+  nameWithType: EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_PREFER_CONSISTENT_PERFORMANCE
+  fullName: NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_PREFER_CONSISTENT_PERFORMANCE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PREFERRED_PSTATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PREFERRED_PSTATE_PREFER_CONSISTENT_PERFORMANCE
+    path: ../NVAPIWrapper/cs_generated/EValues_PREFERRED_PSTATE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PREFERRED_PSTATE_PREFER_CONSISTENT_PERFORMANCE = 3
+    return:
+      type: NVAPIWrapper.EValues_PREFERRED_PSTATE
+- uid: NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_PREFER_MIN
+  commentId: F:NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_PREFER_MIN
+  id: PREFERRED_PSTATE_PREFER_MIN
+  parent: NVAPIWrapper.EValues_PREFERRED_PSTATE
+  langs:
+  - csharp
+  - vb
+  name: PREFERRED_PSTATE_PREFER_MIN
+  nameWithType: EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_PREFER_MIN
+  fullName: NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_PREFER_MIN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PREFERRED_PSTATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PREFERRED_PSTATE_PREFER_MIN
+    path: ../NVAPIWrapper/cs_generated/EValues_PREFERRED_PSTATE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PREFERRED_PSTATE_PREFER_MIN = 4
+    return:
+      type: NVAPIWrapper.EValues_PREFERRED_PSTATE
+- uid: NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_OPTIMAL_POWER
+  commentId: F:NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_OPTIMAL_POWER
+  id: PREFERRED_PSTATE_OPTIMAL_POWER
+  parent: NVAPIWrapper.EValues_PREFERRED_PSTATE
+  langs:
+  - csharp
+  - vb
+  name: PREFERRED_PSTATE_OPTIMAL_POWER
+  nameWithType: EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_OPTIMAL_POWER
+  fullName: NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_OPTIMAL_POWER
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PREFERRED_PSTATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PREFERRED_PSTATE_OPTIMAL_POWER
+    path: ../NVAPIWrapper/cs_generated/EValues_PREFERRED_PSTATE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PREFERRED_PSTATE_OPTIMAL_POWER = 5
+    return:
+      type: NVAPIWrapper.EValues_PREFERRED_PSTATE
+- uid: NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_MIN
+  commentId: F:NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_MIN
+  id: PREFERRED_PSTATE_MIN
+  parent: NVAPIWrapper.EValues_PREFERRED_PSTATE
+  langs:
+  - csharp
+  - vb
+  name: PREFERRED_PSTATE_MIN
+  nameWithType: EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_MIN
+  fullName: NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_MIN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PREFERRED_PSTATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PREFERRED_PSTATE_MIN
+    path: ../NVAPIWrapper/cs_generated/EValues_PREFERRED_PSTATE.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PREFERRED_PSTATE_MIN = 0
+    return:
+      type: NVAPIWrapper.EValues_PREFERRED_PSTATE
+- uid: NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_MAX
+  commentId: F:NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_MAX
+  id: PREFERRED_PSTATE_MAX
+  parent: NVAPIWrapper.EValues_PREFERRED_PSTATE
+  langs:
+  - csharp
+  - vb
+  name: PREFERRED_PSTATE_MAX
+  nameWithType: EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_MAX
+  fullName: NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_MAX
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PREFERRED_PSTATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PREFERRED_PSTATE_MAX
+    path: ../NVAPIWrapper/cs_generated/EValues_PREFERRED_PSTATE.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PREFERRED_PSTATE_MAX = 5
+    return:
+      type: NVAPIWrapper.EValues_PREFERRED_PSTATE
+- uid: NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_NUM_VALUES
+  id: PREFERRED_PSTATE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_PREFERRED_PSTATE
+  langs:
+  - csharp
+  - vb
+  name: PREFERRED_PSTATE_NUM_VALUES
+  nameWithType: EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PREFERRED_PSTATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PREFERRED_PSTATE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_PREFERRED_PSTATE.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PREFERRED_PSTATE_NUM_VALUES = 8
+    return:
+      type: NVAPIWrapper.EValues_PREFERRED_PSTATE
+- uid: NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_DEFAULT
+  id: PREFERRED_PSTATE_DEFAULT
+  parent: NVAPIWrapper.EValues_PREFERRED_PSTATE
+  langs:
+  - csharp
+  - vb
+  name: PREFERRED_PSTATE_DEFAULT
+  nameWithType: EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_DEFAULT
+  fullName: NVAPIWrapper.EValues_PREFERRED_PSTATE.PREFERRED_PSTATE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PREFERRED_PSTATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PREFERRED_PSTATE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_PREFERRED_PSTATE.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PREFERRED_PSTATE_DEFAULT = 5
+    return:
+      type: NVAPIWrapper.EValues_PREFERRED_PSTATE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_PREFERRED_PSTATE
+  commentId: T:NVAPIWrapper.EValues_PREFERRED_PSTATE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_PREFERRED_PSTATE.html
+  name: EValues_PREFERRED_PSTATE
+  nameWithType: EValues_PREFERRED_PSTATE
+  fullName: NVAPIWrapper.EValues_PREFERRED_PSTATE

@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE
+  commentId: T:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE
+  id: NV_GPU_CLIENT_ILLUM_CTRL_MODE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_INVALID
+  - NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_MANUAL
+  - NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_MANUAL_RGB
+  - NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_PIECEWISE_LINEAR
+  - NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_PIECEWISE_LINEAR_RGB
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLIENT_ILLUM_CTRL_MODE
+  nameWithType: NV_GPU_CLIENT_ILLUM_CTRL_MODE
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_CTRL_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLIENT_ILLUM_CTRL_MODE
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_CTRL_MODE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_GPU_CLIENT_ILLUM_CTRL_MODE
+    content.vb: Public Enum NV_GPU_CLIENT_ILLUM_CTRL_MODE
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_MANUAL_RGB
+  commentId: F:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_MANUAL_RGB
+  id: NV_GPU_CLIENT_ILLUM_CTRL_MODE_MANUAL_RGB
+  parent: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLIENT_ILLUM_CTRL_MODE_MANUAL_RGB
+  nameWithType: NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_MANUAL_RGB
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_MANUAL_RGB
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_CTRL_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLIENT_ILLUM_CTRL_MODE_MANUAL_RGB
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_CTRL_MODE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CLIENT_ILLUM_CTRL_MODE_MANUAL_RGB = 0
+    return:
+      type: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_PIECEWISE_LINEAR_RGB
+  commentId: F:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_PIECEWISE_LINEAR_RGB
+  id: NV_GPU_CLIENT_ILLUM_CTRL_MODE_PIECEWISE_LINEAR_RGB
+  parent: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLIENT_ILLUM_CTRL_MODE_PIECEWISE_LINEAR_RGB
+  nameWithType: NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_PIECEWISE_LINEAR_RGB
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_PIECEWISE_LINEAR_RGB
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_CTRL_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLIENT_ILLUM_CTRL_MODE_PIECEWISE_LINEAR_RGB
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_CTRL_MODE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CLIENT_ILLUM_CTRL_MODE_PIECEWISE_LINEAR_RGB = 1
+    return:
+      type: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_MANUAL
+  commentId: F:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_MANUAL
+  id: NV_GPU_CLIENT_ILLUM_CTRL_MODE_MANUAL
+  parent: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLIENT_ILLUM_CTRL_MODE_MANUAL
+  nameWithType: NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_MANUAL
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_MANUAL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_CTRL_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLIENT_ILLUM_CTRL_MODE_MANUAL
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_CTRL_MODE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CLIENT_ILLUM_CTRL_MODE_MANUAL = 0
+    return:
+      type: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_PIECEWISE_LINEAR
+  commentId: F:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_PIECEWISE_LINEAR
+  id: NV_GPU_CLIENT_ILLUM_CTRL_MODE_PIECEWISE_LINEAR
+  parent: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLIENT_ILLUM_CTRL_MODE_PIECEWISE_LINEAR
+  nameWithType: NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_PIECEWISE_LINEAR
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_PIECEWISE_LINEAR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_CTRL_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLIENT_ILLUM_CTRL_MODE_PIECEWISE_LINEAR
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_CTRL_MODE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CLIENT_ILLUM_CTRL_MODE_PIECEWISE_LINEAR = 1
+    return:
+      type: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_INVALID
+  commentId: F:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_INVALID
+  id: NV_GPU_CLIENT_ILLUM_CTRL_MODE_INVALID
+  parent: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLIENT_ILLUM_CTRL_MODE_INVALID
+  nameWithType: NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_INVALID
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE.NV_GPU_CLIENT_ILLUM_CTRL_MODE_INVALID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_CTRL_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLIENT_ILLUM_CTRL_MODE_INVALID
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_CTRL_MODE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CLIENT_ILLUM_CTRL_MODE_INVALID = 255
+    return:
+      type: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE
+  commentId: T:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE.html
+  name: NV_GPU_CLIENT_ILLUM_CTRL_MODE
+  nameWithType: NV_GPU_CLIENT_ILLUM_CTRL_MODE
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_CTRL_MODE

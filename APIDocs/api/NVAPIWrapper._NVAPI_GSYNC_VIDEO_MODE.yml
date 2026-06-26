@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE
+  commentId: T:NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE
+  id: _NVAPI_GSYNC_VIDEO_MODE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_COMPOSITE
+  - NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_HDTV
+  - NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_NONE
+  - NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_NTSCPALSECAM
+  - NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_TTL
+  langs:
+  - csharp
+  - vb
+  name: _NVAPI_GSYNC_VIDEO_MODE
+  nameWithType: _NVAPI_GSYNC_VIDEO_MODE
+  fullName: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_VIDEO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVAPI_GSYNC_VIDEO_MODE
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_VIDEO_MODE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVAPI_GSYNC_VIDEO_MODE
+    content.vb: Public Enum _NVAPI_GSYNC_VIDEO_MODE
+- uid: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_NONE
+  commentId: F:NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_NONE
+  id: NVAPI_GSYNC_VIDEO_MODE_NONE
+  parent: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GSYNC_VIDEO_MODE_NONE
+  nameWithType: _NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_NONE
+  fullName: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_NONE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_VIDEO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GSYNC_VIDEO_MODE_NONE
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_VIDEO_MODE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GSYNC_VIDEO_MODE_NONE = 0
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE
+- uid: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_TTL
+  commentId: F:NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_TTL
+  id: NVAPI_GSYNC_VIDEO_MODE_TTL
+  parent: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GSYNC_VIDEO_MODE_TTL
+  nameWithType: _NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_TTL
+  fullName: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_TTL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_VIDEO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GSYNC_VIDEO_MODE_TTL
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_VIDEO_MODE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GSYNC_VIDEO_MODE_TTL = 1
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE
+- uid: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_NTSCPALSECAM
+  commentId: F:NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_NTSCPALSECAM
+  id: NVAPI_GSYNC_VIDEO_MODE_NTSCPALSECAM
+  parent: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GSYNC_VIDEO_MODE_NTSCPALSECAM
+  nameWithType: _NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_NTSCPALSECAM
+  fullName: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_NTSCPALSECAM
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_VIDEO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GSYNC_VIDEO_MODE_NTSCPALSECAM
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_VIDEO_MODE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GSYNC_VIDEO_MODE_NTSCPALSECAM = 2
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE
+- uid: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_HDTV
+  commentId: F:NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_HDTV
+  id: NVAPI_GSYNC_VIDEO_MODE_HDTV
+  parent: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GSYNC_VIDEO_MODE_HDTV
+  nameWithType: _NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_HDTV
+  fullName: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_HDTV
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_VIDEO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GSYNC_VIDEO_MODE_HDTV
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_VIDEO_MODE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GSYNC_VIDEO_MODE_HDTV = 3
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE
+- uid: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_COMPOSITE
+  commentId: F:NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_COMPOSITE
+  id: NVAPI_GSYNC_VIDEO_MODE_COMPOSITE
+  parent: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GSYNC_VIDEO_MODE_COMPOSITE
+  nameWithType: _NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_COMPOSITE
+  fullName: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE.NVAPI_GSYNC_VIDEO_MODE_COMPOSITE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_VIDEO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GSYNC_VIDEO_MODE_COMPOSITE
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_VIDEO_MODE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GSYNC_VIDEO_MODE_COMPOSITE = 4
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE
+  commentId: T:NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE.html
+  name: _NVAPI_GSYNC_VIDEO_MODE
+  nameWithType: _NVAPI_GSYNC_VIDEO_MODE
+  fullName: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE

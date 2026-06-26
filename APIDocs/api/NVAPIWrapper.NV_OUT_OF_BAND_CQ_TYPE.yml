@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE
+  commentId: T:NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE
+  id: NV_OUT_OF_BAND_CQ_TYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE.OUT_OF_BAND_IGNORE
+  - NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE.OUT_OF_BAND_PRESENT
+  - NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE.OUT_OF_BAND_RENDER
+  - NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE.OUT_OF_BAND_RENDER_PRESENT
+  langs:
+  - csharp
+  - vb
+  name: NV_OUT_OF_BAND_CQ_TYPE
+  nameWithType: NV_OUT_OF_BAND_CQ_TYPE
+  fullName: NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_OUT_OF_BAND_CQ_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_OUT_OF_BAND_CQ_TYPE
+    path: ../NVAPIWrapper/cs_generated/NV_OUT_OF_BAND_CQ_TYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_OUT_OF_BAND_CQ_TYPE
+    content.vb: Public Enum NV_OUT_OF_BAND_CQ_TYPE
+- uid: NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE.OUT_OF_BAND_RENDER
+  commentId: F:NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE.OUT_OF_BAND_RENDER
+  id: OUT_OF_BAND_RENDER
+  parent: NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE
+  langs:
+  - csharp
+  - vb
+  name: OUT_OF_BAND_RENDER
+  nameWithType: NV_OUT_OF_BAND_CQ_TYPE.OUT_OF_BAND_RENDER
+  fullName: NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE.OUT_OF_BAND_RENDER
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_OUT_OF_BAND_CQ_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OUT_OF_BAND_RENDER
+    path: ../NVAPIWrapper/cs_generated/NV_OUT_OF_BAND_CQ_TYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OUT_OF_BAND_RENDER = 0
+    return:
+      type: NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE
+- uid: NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE.OUT_OF_BAND_PRESENT
+  commentId: F:NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE.OUT_OF_BAND_PRESENT
+  id: OUT_OF_BAND_PRESENT
+  parent: NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE
+  langs:
+  - csharp
+  - vb
+  name: OUT_OF_BAND_PRESENT
+  nameWithType: NV_OUT_OF_BAND_CQ_TYPE.OUT_OF_BAND_PRESENT
+  fullName: NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE.OUT_OF_BAND_PRESENT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_OUT_OF_BAND_CQ_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OUT_OF_BAND_PRESENT
+    path: ../NVAPIWrapper/cs_generated/NV_OUT_OF_BAND_CQ_TYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OUT_OF_BAND_PRESENT = 1
+    return:
+      type: NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE
+- uid: NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE.OUT_OF_BAND_IGNORE
+  commentId: F:NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE.OUT_OF_BAND_IGNORE
+  id: OUT_OF_BAND_IGNORE
+  parent: NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE
+  langs:
+  - csharp
+  - vb
+  name: OUT_OF_BAND_IGNORE
+  nameWithType: NV_OUT_OF_BAND_CQ_TYPE.OUT_OF_BAND_IGNORE
+  fullName: NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE.OUT_OF_BAND_IGNORE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_OUT_OF_BAND_CQ_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OUT_OF_BAND_IGNORE
+    path: ../NVAPIWrapper/cs_generated/NV_OUT_OF_BAND_CQ_TYPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OUT_OF_BAND_IGNORE = 2
+    return:
+      type: NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE
+- uid: NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE.OUT_OF_BAND_RENDER_PRESENT
+  commentId: F:NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE.OUT_OF_BAND_RENDER_PRESENT
+  id: OUT_OF_BAND_RENDER_PRESENT
+  parent: NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE
+  langs:
+  - csharp
+  - vb
+  name: OUT_OF_BAND_RENDER_PRESENT
+  nameWithType: NV_OUT_OF_BAND_CQ_TYPE.OUT_OF_BAND_RENDER_PRESENT
+  fullName: NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE.OUT_OF_BAND_RENDER_PRESENT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_OUT_OF_BAND_CQ_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OUT_OF_BAND_RENDER_PRESENT
+    path: ../NVAPIWrapper/cs_generated/NV_OUT_OF_BAND_CQ_TYPE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OUT_OF_BAND_RENDER_PRESENT = 3
+    return:
+      type: NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE
+  commentId: T:NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE.html
+  name: NV_OUT_OF_BAND_CQ_TYPE
+  nameWithType: NV_OUT_OF_BAND_CQ_TYPE
+  fullName: NVAPIWrapper.NV_OUT_OF_BAND_CQ_TYPE

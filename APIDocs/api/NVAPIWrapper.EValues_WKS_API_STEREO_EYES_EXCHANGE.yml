@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE
+  commentId: T:NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE
+  id: EValues_WKS_API_STEREO_EYES_EXCHANGE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE.WKS_API_STEREO_EYES_EXCHANGE_DEFAULT
+  - NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE.WKS_API_STEREO_EYES_EXCHANGE_NUM_VALUES
+  - NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE.WKS_API_STEREO_EYES_EXCHANGE_OFF
+  - NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE.WKS_API_STEREO_EYES_EXCHANGE_ON
+  langs:
+  - csharp
+  - vb
+  name: EValues_WKS_API_STEREO_EYES_EXCHANGE
+  nameWithType: EValues_WKS_API_STEREO_EYES_EXCHANGE
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_EYES_EXCHANGE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_WKS_API_STEREO_EYES_EXCHANGE
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_EYES_EXCHANGE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_WKS_API_STEREO_EYES_EXCHANGE
+    content.vb: Public Enum EValues_WKS_API_STEREO_EYES_EXCHANGE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE.WKS_API_STEREO_EYES_EXCHANGE_OFF
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE.WKS_API_STEREO_EYES_EXCHANGE_OFF
+  id: WKS_API_STEREO_EYES_EXCHANGE_OFF
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_EYES_EXCHANGE_OFF
+  nameWithType: EValues_WKS_API_STEREO_EYES_EXCHANGE.WKS_API_STEREO_EYES_EXCHANGE_OFF
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE.WKS_API_STEREO_EYES_EXCHANGE_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_EYES_EXCHANGE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_EYES_EXCHANGE_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_EYES_EXCHANGE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_EYES_EXCHANGE_OFF = 0
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE.WKS_API_STEREO_EYES_EXCHANGE_ON
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE.WKS_API_STEREO_EYES_EXCHANGE_ON
+  id: WKS_API_STEREO_EYES_EXCHANGE_ON
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_EYES_EXCHANGE_ON
+  nameWithType: EValues_WKS_API_STEREO_EYES_EXCHANGE.WKS_API_STEREO_EYES_EXCHANGE_ON
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE.WKS_API_STEREO_EYES_EXCHANGE_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_EYES_EXCHANGE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_EYES_EXCHANGE_ON
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_EYES_EXCHANGE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_EYES_EXCHANGE_ON = 1
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE.WKS_API_STEREO_EYES_EXCHANGE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE.WKS_API_STEREO_EYES_EXCHANGE_NUM_VALUES
+  id: WKS_API_STEREO_EYES_EXCHANGE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_EYES_EXCHANGE_NUM_VALUES
+  nameWithType: EValues_WKS_API_STEREO_EYES_EXCHANGE.WKS_API_STEREO_EYES_EXCHANGE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE.WKS_API_STEREO_EYES_EXCHANGE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_EYES_EXCHANGE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_EYES_EXCHANGE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_EYES_EXCHANGE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_EYES_EXCHANGE_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE.WKS_API_STEREO_EYES_EXCHANGE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE.WKS_API_STEREO_EYES_EXCHANGE_DEFAULT
+  id: WKS_API_STEREO_EYES_EXCHANGE_DEFAULT
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_EYES_EXCHANGE_DEFAULT
+  nameWithType: EValues_WKS_API_STEREO_EYES_EXCHANGE.WKS_API_STEREO_EYES_EXCHANGE_DEFAULT
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE.WKS_API_STEREO_EYES_EXCHANGE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_EYES_EXCHANGE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_EYES_EXCHANGE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_EYES_EXCHANGE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_EYES_EXCHANGE_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE
+  commentId: T:NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE.html
+  name: EValues_WKS_API_STEREO_EYES_EXCHANGE
+  nameWithType: EValues_WKS_API_STEREO_EYES_EXCHANGE
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_EYES_EXCHANGE

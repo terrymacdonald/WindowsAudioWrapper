@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN
+  commentId: T:NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN
+  id: EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.OGL_DEFAULT_SWAP_INTERVAL_SIGN_DEFAULT
+  - NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.OGL_DEFAULT_SWAP_INTERVAL_SIGN_NEGATIVE
+  - NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.OGL_DEFAULT_SWAP_INTERVAL_SIGN_NUM_VALUES
+  - NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.OGL_DEFAULT_SWAP_INTERVAL_SIGN_POSITIVE
+  langs:
+  - csharp
+  - vb
+  name: EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN
+  nameWithType: EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN
+  fullName: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN
+    content.vb: Public Enum EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN
+- uid: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.OGL_DEFAULT_SWAP_INTERVAL_SIGN_POSITIVE
+  commentId: F:NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.OGL_DEFAULT_SWAP_INTERVAL_SIGN_POSITIVE
+  id: OGL_DEFAULT_SWAP_INTERVAL_SIGN_POSITIVE
+  parent: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN
+  langs:
+  - csharp
+  - vb
+  name: OGL_DEFAULT_SWAP_INTERVAL_SIGN_POSITIVE
+  nameWithType: EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.OGL_DEFAULT_SWAP_INTERVAL_SIGN_POSITIVE
+  fullName: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.OGL_DEFAULT_SWAP_INTERVAL_SIGN_POSITIVE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_DEFAULT_SWAP_INTERVAL_SIGN_POSITIVE
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_DEFAULT_SWAP_INTERVAL_SIGN_POSITIVE = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN
+- uid: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.OGL_DEFAULT_SWAP_INTERVAL_SIGN_NEGATIVE
+  commentId: F:NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.OGL_DEFAULT_SWAP_INTERVAL_SIGN_NEGATIVE
+  id: OGL_DEFAULT_SWAP_INTERVAL_SIGN_NEGATIVE
+  parent: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN
+  langs:
+  - csharp
+  - vb
+  name: OGL_DEFAULT_SWAP_INTERVAL_SIGN_NEGATIVE
+  nameWithType: EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.OGL_DEFAULT_SWAP_INTERVAL_SIGN_NEGATIVE
+  fullName: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.OGL_DEFAULT_SWAP_INTERVAL_SIGN_NEGATIVE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_DEFAULT_SWAP_INTERVAL_SIGN_NEGATIVE
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_DEFAULT_SWAP_INTERVAL_SIGN_NEGATIVE = 1
+    return:
+      type: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN
+- uid: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.OGL_DEFAULT_SWAP_INTERVAL_SIGN_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.OGL_DEFAULT_SWAP_INTERVAL_SIGN_NUM_VALUES
+  id: OGL_DEFAULT_SWAP_INTERVAL_SIGN_NUM_VALUES
+  parent: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN
+  langs:
+  - csharp
+  - vb
+  name: OGL_DEFAULT_SWAP_INTERVAL_SIGN_NUM_VALUES
+  nameWithType: EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.OGL_DEFAULT_SWAP_INTERVAL_SIGN_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.OGL_DEFAULT_SWAP_INTERVAL_SIGN_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_DEFAULT_SWAP_INTERVAL_SIGN_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_DEFAULT_SWAP_INTERVAL_SIGN_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN
+- uid: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.OGL_DEFAULT_SWAP_INTERVAL_SIGN_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.OGL_DEFAULT_SWAP_INTERVAL_SIGN_DEFAULT
+  id: OGL_DEFAULT_SWAP_INTERVAL_SIGN_DEFAULT
+  parent: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN
+  langs:
+  - csharp
+  - vb
+  name: OGL_DEFAULT_SWAP_INTERVAL_SIGN_DEFAULT
+  nameWithType: EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.OGL_DEFAULT_SWAP_INTERVAL_SIGN_DEFAULT
+  fullName: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.OGL_DEFAULT_SWAP_INTERVAL_SIGN_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_DEFAULT_SWAP_INTERVAL_SIGN_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_DEFAULT_SWAP_INTERVAL_SIGN_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN
+  commentId: T:NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN.html
+  name: EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN
+  nameWithType: EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN
+  fullName: NVAPIWrapper.EValues_OGL_DEFAULT_SWAP_INTERVAL_SIGN

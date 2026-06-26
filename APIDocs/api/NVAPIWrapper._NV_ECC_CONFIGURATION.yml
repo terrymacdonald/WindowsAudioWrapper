@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_ECC_CONFIGURATION
+  commentId: T:NVAPIWrapper._NV_ECC_CONFIGURATION
+  id: _NV_ECC_CONFIGURATION
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_ECC_CONFIGURATION.NV_ECC_CONFIGURATION_DEFERRED
+  - NVAPIWrapper._NV_ECC_CONFIGURATION.NV_ECC_CONFIGURATION_IMMEDIATE
+  - NVAPIWrapper._NV_ECC_CONFIGURATION.NV_ECC_CONFIGURATION_NOT_SUPPORTED
+  langs:
+  - csharp
+  - vb
+  name: _NV_ECC_CONFIGURATION
+  nameWithType: _NV_ECC_CONFIGURATION
+  fullName: NVAPIWrapper._NV_ECC_CONFIGURATION
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_ECC_CONFIGURATION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_ECC_CONFIGURATION
+    path: ../NVAPIWrapper/cs_generated/_NV_ECC_CONFIGURATION.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_ECC_CONFIGURATION
+    content.vb: Public Enum _NV_ECC_CONFIGURATION
+- uid: NVAPIWrapper._NV_ECC_CONFIGURATION.NV_ECC_CONFIGURATION_NOT_SUPPORTED
+  commentId: F:NVAPIWrapper._NV_ECC_CONFIGURATION.NV_ECC_CONFIGURATION_NOT_SUPPORTED
+  id: NV_ECC_CONFIGURATION_NOT_SUPPORTED
+  parent: NVAPIWrapper._NV_ECC_CONFIGURATION
+  langs:
+  - csharp
+  - vb
+  name: NV_ECC_CONFIGURATION_NOT_SUPPORTED
+  nameWithType: _NV_ECC_CONFIGURATION.NV_ECC_CONFIGURATION_NOT_SUPPORTED
+  fullName: NVAPIWrapper._NV_ECC_CONFIGURATION.NV_ECC_CONFIGURATION_NOT_SUPPORTED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_ECC_CONFIGURATION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_ECC_CONFIGURATION_NOT_SUPPORTED
+    path: ../NVAPIWrapper/cs_generated/_NV_ECC_CONFIGURATION.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_ECC_CONFIGURATION_NOT_SUPPORTED = 0
+    return:
+      type: NVAPIWrapper._NV_ECC_CONFIGURATION
+- uid: NVAPIWrapper._NV_ECC_CONFIGURATION.NV_ECC_CONFIGURATION_DEFERRED
+  commentId: F:NVAPIWrapper._NV_ECC_CONFIGURATION.NV_ECC_CONFIGURATION_DEFERRED
+  id: NV_ECC_CONFIGURATION_DEFERRED
+  parent: NVAPIWrapper._NV_ECC_CONFIGURATION
+  langs:
+  - csharp
+  - vb
+  name: NV_ECC_CONFIGURATION_DEFERRED
+  nameWithType: _NV_ECC_CONFIGURATION.NV_ECC_CONFIGURATION_DEFERRED
+  fullName: NVAPIWrapper._NV_ECC_CONFIGURATION.NV_ECC_CONFIGURATION_DEFERRED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_ECC_CONFIGURATION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_ECC_CONFIGURATION_DEFERRED
+    path: ../NVAPIWrapper/cs_generated/_NV_ECC_CONFIGURATION.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_ECC_CONFIGURATION_DEFERRED = 1
+    return:
+      type: NVAPIWrapper._NV_ECC_CONFIGURATION
+- uid: NVAPIWrapper._NV_ECC_CONFIGURATION.NV_ECC_CONFIGURATION_IMMEDIATE
+  commentId: F:NVAPIWrapper._NV_ECC_CONFIGURATION.NV_ECC_CONFIGURATION_IMMEDIATE
+  id: NV_ECC_CONFIGURATION_IMMEDIATE
+  parent: NVAPIWrapper._NV_ECC_CONFIGURATION
+  langs:
+  - csharp
+  - vb
+  name: NV_ECC_CONFIGURATION_IMMEDIATE
+  nameWithType: _NV_ECC_CONFIGURATION.NV_ECC_CONFIGURATION_IMMEDIATE
+  fullName: NVAPIWrapper._NV_ECC_CONFIGURATION.NV_ECC_CONFIGURATION_IMMEDIATE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_ECC_CONFIGURATION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_ECC_CONFIGURATION_IMMEDIATE
+    path: ../NVAPIWrapper/cs_generated/_NV_ECC_CONFIGURATION.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_ECC_CONFIGURATION_IMMEDIATE = 2
+    return:
+      type: NVAPIWrapper._NV_ECC_CONFIGURATION
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_ECC_CONFIGURATION
+  commentId: T:NVAPIWrapper._NV_ECC_CONFIGURATION
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_ECC_CONFIGURATION.html
+  name: _NV_ECC_CONFIGURATION
+  nameWithType: _NV_ECC_CONFIGURATION
+  fullName: NVAPIWrapper._NV_ECC_CONFIGURATION

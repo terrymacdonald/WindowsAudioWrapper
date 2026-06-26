@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE
+  commentId: T:NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE
+  id: _NVAPI_GSYNC_DELAY_TYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE.NVAPI_GSYNC_DELAY_TYPE_STARTUP
+  - NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE.NVAPI_GSYNC_DELAY_TYPE_SYNC_SKEW
+  - NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE.NVAPI_GSYNC_DELAY_TYPE_UNKNOWN
+  langs:
+  - csharp
+  - vb
+  name: _NVAPI_GSYNC_DELAY_TYPE
+  nameWithType: _NVAPI_GSYNC_DELAY_TYPE
+  fullName: NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_DELAY_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVAPI_GSYNC_DELAY_TYPE
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_DELAY_TYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVAPI_GSYNC_DELAY_TYPE
+    content.vb: Public Enum _NVAPI_GSYNC_DELAY_TYPE
+- uid: NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE.NVAPI_GSYNC_DELAY_TYPE_UNKNOWN
+  commentId: F:NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE.NVAPI_GSYNC_DELAY_TYPE_UNKNOWN
+  id: NVAPI_GSYNC_DELAY_TYPE_UNKNOWN
+  parent: NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GSYNC_DELAY_TYPE_UNKNOWN
+  nameWithType: _NVAPI_GSYNC_DELAY_TYPE.NVAPI_GSYNC_DELAY_TYPE_UNKNOWN
+  fullName: NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE.NVAPI_GSYNC_DELAY_TYPE_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_DELAY_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GSYNC_DELAY_TYPE_UNKNOWN
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_DELAY_TYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GSYNC_DELAY_TYPE_UNKNOWN = 0
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE
+- uid: NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE.NVAPI_GSYNC_DELAY_TYPE_SYNC_SKEW
+  commentId: F:NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE.NVAPI_GSYNC_DELAY_TYPE_SYNC_SKEW
+  id: NVAPI_GSYNC_DELAY_TYPE_SYNC_SKEW
+  parent: NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GSYNC_DELAY_TYPE_SYNC_SKEW
+  nameWithType: _NVAPI_GSYNC_DELAY_TYPE.NVAPI_GSYNC_DELAY_TYPE_SYNC_SKEW
+  fullName: NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE.NVAPI_GSYNC_DELAY_TYPE_SYNC_SKEW
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_DELAY_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GSYNC_DELAY_TYPE_SYNC_SKEW
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_DELAY_TYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GSYNC_DELAY_TYPE_SYNC_SKEW = 1
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE
+- uid: NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE.NVAPI_GSYNC_DELAY_TYPE_STARTUP
+  commentId: F:NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE.NVAPI_GSYNC_DELAY_TYPE_STARTUP
+  id: NVAPI_GSYNC_DELAY_TYPE_STARTUP
+  parent: NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GSYNC_DELAY_TYPE_STARTUP
+  nameWithType: _NVAPI_GSYNC_DELAY_TYPE.NVAPI_GSYNC_DELAY_TYPE_STARTUP
+  fullName: NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE.NVAPI_GSYNC_DELAY_TYPE_STARTUP
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_DELAY_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GSYNC_DELAY_TYPE_STARTUP
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_DELAY_TYPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GSYNC_DELAY_TYPE_STARTUP = 2
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE
+  commentId: T:NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE.html
+  name: _NVAPI_GSYNC_DELAY_TYPE
+  nameWithType: _NVAPI_GSYNC_DELAY_TYPE
+  fullName: NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE

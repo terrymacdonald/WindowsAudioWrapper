@@ -1,0 +1,1061 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+  commentId: T:NVAPIWrapper.NVAPIGSyncStatusParametersDto
+  id: NVAPIGSyncStatusParametersDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIGSyncStatusParametersDto.#ctor(System.UInt32,NVAPIWrapper._NVAPI_GSYNC_RJ45_IO[],System.UInt32[],System.UInt32,System.Boolean,System.Boolean)
+  - NVAPIWrapper.NVAPIGSyncStatusParametersDto.Equals(NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+  - NVAPIWrapper.NVAPIGSyncStatusParametersDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIGSyncStatusParametersDto.FromNative(NVAPIWrapper._NV_GSYNC_STATUS_PARAMS_V2)
+  - NVAPIWrapper.NVAPIGSyncStatusParametersDto.GetHashCode
+  - NVAPIWrapper.NVAPIGSyncStatusParametersDto.HouseSyncIncoming
+  - NVAPIWrapper.NVAPIGSyncStatusParametersDto.IsHouseSyncConnected
+  - NVAPIWrapper.NVAPIGSyncStatusParametersDto.IsInternalSlave
+  - NVAPIWrapper.NVAPIGSyncStatusParametersDto.RefreshRate
+  - NVAPIWrapper.NVAPIGSyncStatusParametersDto.Rj45Ethernet
+  - NVAPIWrapper.NVAPIGSyncStatusParametersDto.Rj45Io
+  - NVAPIWrapper.NVAPIGSyncStatusParametersDto.ToNative
+  - NVAPIWrapper.NVAPIGSyncStatusParametersDto.op_Equality(NVAPIWrapper.NVAPIGSyncStatusParametersDto,NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+  - NVAPIWrapper.NVAPIGSyncStatusParametersDto.op_Inequality(NVAPIWrapper.NVAPIGSyncStatusParametersDto,NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGSyncStatusParametersDto
+  nameWithType: NVAPIGSyncStatusParametersDto
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIGSyncStatusParametersDto
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 1349
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: DTO for G-Sync status parameters.
+  example: []
+  syntax:
+    content: 'public struct NVAPIGSyncStatusParametersDto : IEquatable<NVAPIGSyncStatusParametersDto>'
+    content.vb: Public Structure NVAPIGSyncStatusParametersDto Implements IEquatable(Of NVAPIGSyncStatusParametersDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGSyncStatusParametersDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.RefreshRate
+  commentId: P:NVAPIWrapper.NVAPIGSyncStatusParametersDto.RefreshRate
+  id: RefreshRate
+  parent: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+  langs:
+  - csharp
+  - vb
+  name: RefreshRate
+  nameWithType: NVAPIGSyncStatusParametersDto.RefreshRate
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.RefreshRate
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: RefreshRate
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 1351
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint RefreshRate { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property RefreshRate As UInteger
+  overload: NVAPIWrapper.NVAPIGSyncStatusParametersDto.RefreshRate*
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.Rj45Io
+  commentId: P:NVAPIWrapper.NVAPIGSyncStatusParametersDto.Rj45Io
+  id: Rj45Io
+  parent: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+  langs:
+  - csharp
+  - vb
+  name: Rj45Io
+  nameWithType: NVAPIGSyncStatusParametersDto.Rj45Io
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.Rj45Io
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Rj45Io
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 1352
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public _NVAPI_GSYNC_RJ45_IO[] Rj45Io { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO[]
+    content.vb: Public Property Rj45Io As _NVAPI_GSYNC_RJ45_IO()
+  overload: NVAPIWrapper.NVAPIGSyncStatusParametersDto.Rj45Io*
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.Rj45Ethernet
+  commentId: P:NVAPIWrapper.NVAPIGSyncStatusParametersDto.Rj45Ethernet
+  id: Rj45Ethernet
+  parent: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+  langs:
+  - csharp
+  - vb
+  name: Rj45Ethernet
+  nameWithType: NVAPIGSyncStatusParametersDto.Rj45Ethernet
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.Rj45Ethernet
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Rj45Ethernet
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 1353
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint[] Rj45Ethernet { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32[]
+    content.vb: Public Property Rj45Ethernet As UInteger()
+  overload: NVAPIWrapper.NVAPIGSyncStatusParametersDto.Rj45Ethernet*
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.HouseSyncIncoming
+  commentId: P:NVAPIWrapper.NVAPIGSyncStatusParametersDto.HouseSyncIncoming
+  id: HouseSyncIncoming
+  parent: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+  langs:
+  - csharp
+  - vb
+  name: HouseSyncIncoming
+  nameWithType: NVAPIGSyncStatusParametersDto.HouseSyncIncoming
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.HouseSyncIncoming
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: HouseSyncIncoming
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 1354
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint HouseSyncIncoming { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property HouseSyncIncoming As UInteger
+  overload: NVAPIWrapper.NVAPIGSyncStatusParametersDto.HouseSyncIncoming*
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.IsHouseSyncConnected
+  commentId: P:NVAPIWrapper.NVAPIGSyncStatusParametersDto.IsHouseSyncConnected
+  id: IsHouseSyncConnected
+  parent: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+  langs:
+  - csharp
+  - vb
+  name: IsHouseSyncConnected
+  nameWithType: NVAPIGSyncStatusParametersDto.IsHouseSyncConnected
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.IsHouseSyncConnected
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: IsHouseSyncConnected
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 1355
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public bool IsHouseSyncConnected { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsHouseSyncConnected As Boolean
+  overload: NVAPIWrapper.NVAPIGSyncStatusParametersDto.IsHouseSyncConnected*
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.IsInternalSlave
+  commentId: P:NVAPIWrapper.NVAPIGSyncStatusParametersDto.IsInternalSlave
+  id: IsInternalSlave
+  parent: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+  langs:
+  - csharp
+  - vb
+  name: IsInternalSlave
+  nameWithType: NVAPIGSyncStatusParametersDto.IsInternalSlave
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.IsInternalSlave
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: IsInternalSlave
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 1356
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public bool IsInternalSlave { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsInternalSlave As Boolean
+  overload: NVAPIWrapper.NVAPIGSyncStatusParametersDto.IsInternalSlave*
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.#ctor(System.UInt32,NVAPIWrapper._NVAPI_GSYNC_RJ45_IO[],System.UInt32[],System.UInt32,System.Boolean,System.Boolean)
+  commentId: M:NVAPIWrapper.NVAPIGSyncStatusParametersDto.#ctor(System.UInt32,NVAPIWrapper._NVAPI_GSYNC_RJ45_IO[],System.UInt32[],System.UInt32,System.Boolean,System.Boolean)
+  id: '#ctor(System.UInt32,NVAPIWrapper._NVAPI_GSYNC_RJ45_IO[],System.UInt32[],System.UInt32,System.Boolean,System.Boolean)'
+  parent: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGSyncStatusParametersDto(uint, _NVAPI_GSYNC_RJ45_IO[], uint[], uint, bool, bool)
+  nameWithType: NVAPIGSyncStatusParametersDto.NVAPIGSyncStatusParametersDto(uint, _NVAPI_GSYNC_RJ45_IO[], uint[], uint, bool, bool)
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.NVAPIGSyncStatusParametersDto(uint, NVAPIWrapper._NVAPI_GSYNC_RJ45_IO[], uint[], uint, bool, bool)
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 1367
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a G-Sync status parameters DTO.
+  example: []
+  syntax:
+    content: public NVAPIGSyncStatusParametersDto(uint refreshRate, _NVAPI_GSYNC_RJ45_IO[] rj45Io, uint[] rj45Ethernet, uint houseSyncIncoming, bool isHouseSyncConnected, bool isInternalSlave)
+    parameters:
+    - id: refreshRate
+      type: System.UInt32
+      description: Refresh rate.
+    - id: rj45Io
+      type: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO[]
+      description: RJ45 IO values.
+    - id: rj45Ethernet
+      type: System.UInt32[]
+      description: RJ45 ethernet values.
+    - id: houseSyncIncoming
+      type: System.UInt32
+      description: House sync incoming value.
+    - id: isHouseSyncConnected
+      type: System.Boolean
+      description: Whether house sync is connected.
+    - id: isInternalSlave
+      type: System.Boolean
+      description: Whether this device is an internal slave.
+    content.vb: Public Sub New(refreshRate As UInteger, rj45Io As _NVAPI_GSYNC_RJ45_IO(), rj45Ethernet As UInteger(), houseSyncIncoming As UInteger, isHouseSyncConnected As Boolean, isInternalSlave As Boolean)
+  overload: NVAPIWrapper.NVAPIGSyncStatusParametersDto.#ctor*
+  nameWithType.vb: NVAPIGSyncStatusParametersDto.New(UInteger, _NVAPI_GSYNC_RJ45_IO(), UInteger(), UInteger, Boolean, Boolean)
+  fullName.vb: NVAPIWrapper.NVAPIGSyncStatusParametersDto.New(UInteger, NVAPIWrapper._NVAPI_GSYNC_RJ45_IO(), UInteger(), UInteger, Boolean, Boolean)
+  name.vb: New(UInteger, _NVAPI_GSYNC_RJ45_IO(), UInteger(), UInteger, Boolean, Boolean)
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.FromNative(NVAPIWrapper._NV_GSYNC_STATUS_PARAMS_V2)
+  commentId: M:NVAPIWrapper.NVAPIGSyncStatusParametersDto.FromNative(NVAPIWrapper._NV_GSYNC_STATUS_PARAMS_V2)
+  id: FromNative(NVAPIWrapper._NV_GSYNC_STATUS_PARAMS_V2)
+  parent: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(_NV_GSYNC_STATUS_PARAMS_V2)
+  nameWithType: NVAPIGSyncStatusParametersDto.FromNative(_NV_GSYNC_STATUS_PARAMS_V2)
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.FromNative(NVAPIWrapper._NV_GSYNC_STATUS_PARAMS_V2)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 1388
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a G-Sync status parameters DTO from native data.
+  example: []
+  syntax:
+    content: public static NVAPIGSyncStatusParametersDto FromNative(_NV_GSYNC_STATUS_PARAMS_V2 native)
+    parameters:
+    - id: native
+      type: NVAPIWrapper._NV_GSYNC_STATUS_PARAMS_V2
+      description: Native status parameters data.
+    return:
+      type: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+      description: G-Sync status parameters DTO.
+    content.vb: Public Shared Function FromNative(native As _NV_GSYNC_STATUS_PARAMS_V2) As NVAPIGSyncStatusParametersDto
+  overload: NVAPIWrapper.NVAPIGSyncStatusParametersDto.FromNative*
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.ToNative
+  commentId: M:NVAPIWrapper.NVAPIGSyncStatusParametersDto.ToNative
+  id: ToNative
+  parent: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: NVAPIGSyncStatusParametersDto.ToNative()
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 1411
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Convert this DTO to native status parameters data.
+  example: []
+  syntax:
+    content: public _NV_GSYNC_STATUS_PARAMS_V2 ToNative()
+    return:
+      type: NVAPIWrapper._NV_GSYNC_STATUS_PARAMS_V2
+      description: Native status parameters data.
+    content.vb: Public Function ToNative() As _NV_GSYNC_STATUS_PARAMS_V2
+  overload: NVAPIWrapper.NVAPIGSyncStatusParametersDto.ToNative*
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.Equals(NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+  commentId: M:NVAPIWrapper.NVAPIGSyncStatusParametersDto.Equals(NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+  id: Equals(NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+  parent: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIGSyncStatusParametersDto)
+  nameWithType: NVAPIGSyncStatusParametersDto.Equals(NVAPIGSyncStatusParametersDto)
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.Equals(NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 1437
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether this instance equals another G-Sync status parameters DTO.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIGSyncStatusParametersDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+      description: The other DTO to compare.
+    return:
+      type: System.Boolean
+      description: True if the DTOs are equal; otherwise false.
+    content.vb: Public Function Equals(other As NVAPIGSyncStatusParametersDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGSyncStatusParametersDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGSyncStatusParametersDto}.Equals(NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIGSyncStatusParametersDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIGSyncStatusParametersDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 1452
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether this instance equals another object.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare.
+    return:
+      type: System.Boolean
+      description: True if the object is an equivalent DTO; otherwise false.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIGSyncStatusParametersDto.Equals*
+  nameWithType.vb: NVAPIGSyncStatusParametersDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIGSyncStatusParametersDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIGSyncStatusParametersDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIGSyncStatusParametersDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 1458
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get a hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: Hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIGSyncStatusParametersDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.op_Equality(NVAPIWrapper.NVAPIGSyncStatusParametersDto,NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+  commentId: M:NVAPIWrapper.NVAPIGSyncStatusParametersDto.op_Equality(NVAPIWrapper.NVAPIGSyncStatusParametersDto,NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+  id: op_Equality(NVAPIWrapper.NVAPIGSyncStatusParametersDto,NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+  parent: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIGSyncStatusParametersDto, NVAPIGSyncStatusParametersDto)
+  nameWithType: NVAPIGSyncStatusParametersDto.operator ==(NVAPIGSyncStatusParametersDto, NVAPIGSyncStatusParametersDto)
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.operator ==(NVAPIWrapper.NVAPIGSyncStatusParametersDto, NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 1478
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether two G-Sync status parameters DTOs are equal.
+  example: []
+  syntax:
+    content: public static bool operator ==(NVAPIGSyncStatusParametersDto left, NVAPIGSyncStatusParametersDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+      description: Left DTO.
+    - id: right
+      type: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+      description: Right DTO.
+    return:
+      type: System.Boolean
+      description: True if the DTOs are equal; otherwise false.
+    content.vb: Public Shared Operator =(left As NVAPIGSyncStatusParametersDto, right As NVAPIGSyncStatusParametersDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGSyncStatusParametersDto.op_Equality*
+  nameWithType.vb: NVAPIGSyncStatusParametersDto.=(NVAPIGSyncStatusParametersDto, NVAPIGSyncStatusParametersDto)
+  fullName.vb: NVAPIWrapper.NVAPIGSyncStatusParametersDto.=(NVAPIWrapper.NVAPIGSyncStatusParametersDto, NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+  name.vb: =(NVAPIGSyncStatusParametersDto, NVAPIGSyncStatusParametersDto)
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.op_Inequality(NVAPIWrapper.NVAPIGSyncStatusParametersDto,NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+  commentId: M:NVAPIWrapper.NVAPIGSyncStatusParametersDto.op_Inequality(NVAPIWrapper.NVAPIGSyncStatusParametersDto,NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIGSyncStatusParametersDto,NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+  parent: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIGSyncStatusParametersDto, NVAPIGSyncStatusParametersDto)
+  nameWithType: NVAPIGSyncStatusParametersDto.operator !=(NVAPIGSyncStatusParametersDto, NVAPIGSyncStatusParametersDto)
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.operator !=(NVAPIWrapper.NVAPIGSyncStatusParametersDto, NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 1486
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether two G-Sync status parameters DTOs are not equal.
+  example: []
+  syntax:
+    content: public static bool operator !=(NVAPIGSyncStatusParametersDto left, NVAPIGSyncStatusParametersDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+      description: Left DTO.
+    - id: right
+      type: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+      description: Right DTO.
+    return:
+      type: System.Boolean
+      description: True if the DTOs are not equal; otherwise false.
+    content.vb: Public Shared Operator <>(left As NVAPIGSyncStatusParametersDto, right As NVAPIGSyncStatusParametersDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGSyncStatusParametersDto.op_Inequality*
+  nameWithType.vb: NVAPIGSyncStatusParametersDto.<>(NVAPIGSyncStatusParametersDto, NVAPIGSyncStatusParametersDto)
+  fullName.vb: NVAPIWrapper.NVAPIGSyncStatusParametersDto.<>(NVAPIWrapper.NVAPIGSyncStatusParametersDto, NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+  name.vb: <>(NVAPIGSyncStatusParametersDto, NVAPIGSyncStatusParametersDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGSyncStatusParametersDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIGSyncStatusParametersDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIGSyncStatusParametersDto>
+  nameWithType: IEquatable<NVAPIGSyncStatusParametersDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGSyncStatusParametersDto>
+  nameWithType.vb: IEquatable(Of NVAPIGSyncStatusParametersDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+  name.vb: IEquatable(Of NVAPIGSyncStatusParametersDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+    name: NVAPIGSyncStatusParametersDto
+    href: NVAPIWrapper.NVAPIGSyncStatusParametersDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+    name: NVAPIGSyncStatusParametersDto
+    href: NVAPIWrapper.NVAPIGSyncStatusParametersDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.RefreshRate*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncStatusParametersDto.RefreshRate
+  href: NVAPIWrapper.NVAPIGSyncStatusParametersDto.html#NVAPIWrapper_NVAPIGSyncStatusParametersDto_RefreshRate
+  name: RefreshRate
+  nameWithType: NVAPIGSyncStatusParametersDto.RefreshRate
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.RefreshRate
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.Rj45Io*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncStatusParametersDto.Rj45Io
+  href: NVAPIWrapper.NVAPIGSyncStatusParametersDto.html#NVAPIWrapper_NVAPIGSyncStatusParametersDto_Rj45Io
+  name: Rj45Io
+  nameWithType: NVAPIGSyncStatusParametersDto.Rj45Io
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.Rj45Io
+- uid: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO[]
+  isExternal: true
+  href: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO.html
+  name: _NVAPI_GSYNC_RJ45_IO[]
+  nameWithType: _NVAPI_GSYNC_RJ45_IO[]
+  fullName: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO[]
+  nameWithType.vb: _NVAPI_GSYNC_RJ45_IO()
+  fullName.vb: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO()
+  name.vb: _NVAPI_GSYNC_RJ45_IO()
+  spec.csharp:
+  - uid: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO
+    name: _NVAPI_GSYNC_RJ45_IO
+    href: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO
+    name: _NVAPI_GSYNC_RJ45_IO
+    href: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO.html
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.Rj45Ethernet*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncStatusParametersDto.Rj45Ethernet
+  href: NVAPIWrapper.NVAPIGSyncStatusParametersDto.html#NVAPIWrapper_NVAPIGSyncStatusParametersDto_Rj45Ethernet
+  name: Rj45Ethernet
+  nameWithType: NVAPIGSyncStatusParametersDto.Rj45Ethernet
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.Rj45Ethernet
+- uid: System.UInt32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint[]
+  nameWithType: uint[]
+  fullName: uint[]
+  nameWithType.vb: UInteger()
+  fullName.vb: UInteger()
+  name.vb: UInteger()
+  spec.csharp:
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.HouseSyncIncoming*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncStatusParametersDto.HouseSyncIncoming
+  href: NVAPIWrapper.NVAPIGSyncStatusParametersDto.html#NVAPIWrapper_NVAPIGSyncStatusParametersDto_HouseSyncIncoming
+  name: HouseSyncIncoming
+  nameWithType: NVAPIGSyncStatusParametersDto.HouseSyncIncoming
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.HouseSyncIncoming
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.IsHouseSyncConnected*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncStatusParametersDto.IsHouseSyncConnected
+  href: NVAPIWrapper.NVAPIGSyncStatusParametersDto.html#NVAPIWrapper_NVAPIGSyncStatusParametersDto_IsHouseSyncConnected
+  name: IsHouseSyncConnected
+  nameWithType: NVAPIGSyncStatusParametersDto.IsHouseSyncConnected
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.IsHouseSyncConnected
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.IsInternalSlave*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncStatusParametersDto.IsInternalSlave
+  href: NVAPIWrapper.NVAPIGSyncStatusParametersDto.html#NVAPIWrapper_NVAPIGSyncStatusParametersDto_IsInternalSlave
+  name: IsInternalSlave
+  nameWithType: NVAPIGSyncStatusParametersDto.IsInternalSlave
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.IsInternalSlave
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncStatusParametersDto.#ctor
+  href: NVAPIWrapper.NVAPIGSyncStatusParametersDto.html#NVAPIWrapper_NVAPIGSyncStatusParametersDto__ctor_System_UInt32_NVAPIWrapper__NVAPI_GSYNC_RJ45_IO___System_UInt32___System_UInt32_System_Boolean_System_Boolean_
+  name: NVAPIGSyncStatusParametersDto
+  nameWithType: NVAPIGSyncStatusParametersDto.NVAPIGSyncStatusParametersDto
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.NVAPIGSyncStatusParametersDto
+  nameWithType.vb: NVAPIGSyncStatusParametersDto.New
+  fullName.vb: NVAPIWrapper.NVAPIGSyncStatusParametersDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncStatusParametersDto.FromNative
+  href: NVAPIWrapper.NVAPIGSyncStatusParametersDto.html#NVAPIWrapper_NVAPIGSyncStatusParametersDto_FromNative_NVAPIWrapper__NV_GSYNC_STATUS_PARAMS_V2_
+  name: FromNative
+  nameWithType: NVAPIGSyncStatusParametersDto.FromNative
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.FromNative
+- uid: NVAPIWrapper._NV_GSYNC_STATUS_PARAMS_V2
+  commentId: T:NVAPIWrapper._NV_GSYNC_STATUS_PARAMS_V2
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GSYNC_STATUS_PARAMS_V2.html
+  name: _NV_GSYNC_STATUS_PARAMS_V2
+  nameWithType: _NV_GSYNC_STATUS_PARAMS_V2
+  fullName: NVAPIWrapper._NV_GSYNC_STATUS_PARAMS_V2
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+  commentId: T:NVAPIWrapper.NVAPIGSyncStatusParametersDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIGSyncStatusParametersDto.html
+  name: NVAPIGSyncStatusParametersDto
+  nameWithType: NVAPIGSyncStatusParametersDto
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncStatusParametersDto.ToNative
+  href: NVAPIWrapper.NVAPIGSyncStatusParametersDto.html#NVAPIWrapper_NVAPIGSyncStatusParametersDto_ToNative
+  name: ToNative
+  nameWithType: NVAPIGSyncStatusParametersDto.ToNative
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.ToNative
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncStatusParametersDto.Equals
+  href: NVAPIWrapper.NVAPIGSyncStatusParametersDto.html#NVAPIWrapper_NVAPIGSyncStatusParametersDto_Equals_NVAPIWrapper_NVAPIGSyncStatusParametersDto_
+  name: Equals
+  nameWithType: NVAPIGSyncStatusParametersDto.Equals
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGSyncStatusParametersDto}.Equals(NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIGSyncStatusParametersDto}.Equals(NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIGSyncStatusParametersDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIGSyncStatusParametersDto)
+  nameWithType: IEquatable<NVAPIGSyncStatusParametersDto>.Equals(NVAPIGSyncStatusParametersDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGSyncStatusParametersDto>.Equals(NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+  nameWithType.vb: IEquatable(Of NVAPIGSyncStatusParametersDto).Equals(NVAPIGSyncStatusParametersDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGSyncStatusParametersDto).Equals(NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGSyncStatusParametersDto}.Equals(NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+    name: NVAPIGSyncStatusParametersDto
+    href: NVAPIWrapper.NVAPIGSyncStatusParametersDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGSyncStatusParametersDto}.Equals(NVAPIWrapper.NVAPIGSyncStatusParametersDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+    name: NVAPIGSyncStatusParametersDto
+    href: NVAPIWrapper.NVAPIGSyncStatusParametersDto.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncStatusParametersDto.GetHashCode
+  href: NVAPIWrapper.NVAPIGSyncStatusParametersDto.html#NVAPIWrapper_NVAPIGSyncStatusParametersDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIGSyncStatusParametersDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncStatusParametersDto.op_Equality
+  href: NVAPIWrapper.NVAPIGSyncStatusParametersDto.html#NVAPIWrapper_NVAPIGSyncStatusParametersDto_op_Equality_NVAPIWrapper_NVAPIGSyncStatusParametersDto_NVAPIWrapper_NVAPIGSyncStatusParametersDto_
+  name: operator ==
+  nameWithType: NVAPIGSyncStatusParametersDto.operator ==
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.operator ==
+  nameWithType.vb: NVAPIGSyncStatusParametersDto.=
+  fullName.vb: NVAPIWrapper.NVAPIGSyncStatusParametersDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIGSyncStatusParametersDto.html#NVAPIWrapper_NVAPIGSyncStatusParametersDto_op_Equality_NVAPIWrapper_NVAPIGSyncStatusParametersDto_NVAPIWrapper_NVAPIGSyncStatusParametersDto_
+- uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncStatusParametersDto.op_Inequality
+  href: NVAPIWrapper.NVAPIGSyncStatusParametersDto.html#NVAPIWrapper_NVAPIGSyncStatusParametersDto_op_Inequality_NVAPIWrapper_NVAPIGSyncStatusParametersDto_NVAPIWrapper_NVAPIGSyncStatusParametersDto_
+  name: operator !=
+  nameWithType: NVAPIGSyncStatusParametersDto.operator !=
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto.operator !=
+  nameWithType.vb: NVAPIGSyncStatusParametersDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIGSyncStatusParametersDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIGSyncStatusParametersDto.html#NVAPIWrapper_NVAPIGSyncStatusParametersDto_op_Inequality_NVAPIWrapper_NVAPIGSyncStatusParametersDto_NVAPIWrapper_NVAPIGSyncStatusParametersDto_

@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_FXAA_ALLOW
+  commentId: T:NVAPIWrapper.EValues_FXAA_ALLOW
+  id: EValues_FXAA_ALLOW
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_FXAA_ALLOW.FXAA_ALLOW_ALLOWED
+  - NVAPIWrapper.EValues_FXAA_ALLOW.FXAA_ALLOW_DEFAULT
+  - NVAPIWrapper.EValues_FXAA_ALLOW.FXAA_ALLOW_DISALLOWED
+  - NVAPIWrapper.EValues_FXAA_ALLOW.FXAA_ALLOW_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_FXAA_ALLOW
+  nameWithType: EValues_FXAA_ALLOW
+  fullName: NVAPIWrapper.EValues_FXAA_ALLOW
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_FXAA_ALLOW.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_FXAA_ALLOW
+    path: ../NVAPIWrapper/cs_generated/EValues_FXAA_ALLOW.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_FXAA_ALLOW
+    content.vb: Public Enum EValues_FXAA_ALLOW
+- uid: NVAPIWrapper.EValues_FXAA_ALLOW.FXAA_ALLOW_DISALLOWED
+  commentId: F:NVAPIWrapper.EValues_FXAA_ALLOW.FXAA_ALLOW_DISALLOWED
+  id: FXAA_ALLOW_DISALLOWED
+  parent: NVAPIWrapper.EValues_FXAA_ALLOW
+  langs:
+  - csharp
+  - vb
+  name: FXAA_ALLOW_DISALLOWED
+  nameWithType: EValues_FXAA_ALLOW.FXAA_ALLOW_DISALLOWED
+  fullName: NVAPIWrapper.EValues_FXAA_ALLOW.FXAA_ALLOW_DISALLOWED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_FXAA_ALLOW.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FXAA_ALLOW_DISALLOWED
+    path: ../NVAPIWrapper/cs_generated/EValues_FXAA_ALLOW.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: FXAA_ALLOW_DISALLOWED = 0
+    return:
+      type: NVAPIWrapper.EValues_FXAA_ALLOW
+- uid: NVAPIWrapper.EValues_FXAA_ALLOW.FXAA_ALLOW_ALLOWED
+  commentId: F:NVAPIWrapper.EValues_FXAA_ALLOW.FXAA_ALLOW_ALLOWED
+  id: FXAA_ALLOW_ALLOWED
+  parent: NVAPIWrapper.EValues_FXAA_ALLOW
+  langs:
+  - csharp
+  - vb
+  name: FXAA_ALLOW_ALLOWED
+  nameWithType: EValues_FXAA_ALLOW.FXAA_ALLOW_ALLOWED
+  fullName: NVAPIWrapper.EValues_FXAA_ALLOW.FXAA_ALLOW_ALLOWED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_FXAA_ALLOW.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FXAA_ALLOW_ALLOWED
+    path: ../NVAPIWrapper/cs_generated/EValues_FXAA_ALLOW.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: FXAA_ALLOW_ALLOWED = 1
+    return:
+      type: NVAPIWrapper.EValues_FXAA_ALLOW
+- uid: NVAPIWrapper.EValues_FXAA_ALLOW.FXAA_ALLOW_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_FXAA_ALLOW.FXAA_ALLOW_NUM_VALUES
+  id: FXAA_ALLOW_NUM_VALUES
+  parent: NVAPIWrapper.EValues_FXAA_ALLOW
+  langs:
+  - csharp
+  - vb
+  name: FXAA_ALLOW_NUM_VALUES
+  nameWithType: EValues_FXAA_ALLOW.FXAA_ALLOW_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_FXAA_ALLOW.FXAA_ALLOW_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_FXAA_ALLOW.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FXAA_ALLOW_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_FXAA_ALLOW.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: FXAA_ALLOW_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_FXAA_ALLOW
+- uid: NVAPIWrapper.EValues_FXAA_ALLOW.FXAA_ALLOW_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_FXAA_ALLOW.FXAA_ALLOW_DEFAULT
+  id: FXAA_ALLOW_DEFAULT
+  parent: NVAPIWrapper.EValues_FXAA_ALLOW
+  langs:
+  - csharp
+  - vb
+  name: FXAA_ALLOW_DEFAULT
+  nameWithType: EValues_FXAA_ALLOW.FXAA_ALLOW_DEFAULT
+  fullName: NVAPIWrapper.EValues_FXAA_ALLOW.FXAA_ALLOW_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_FXAA_ALLOW.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FXAA_ALLOW_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_FXAA_ALLOW.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: FXAA_ALLOW_DEFAULT = 1
+    return:
+      type: NVAPIWrapper.EValues_FXAA_ALLOW
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_FXAA_ALLOW
+  commentId: T:NVAPIWrapper.EValues_FXAA_ALLOW
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_FXAA_ALLOW.html
+  name: EValues_FXAA_ALLOW
+  nameWithType: EValues_FXAA_ALLOW
+  fullName: NVAPIWrapper.EValues_FXAA_ALLOW

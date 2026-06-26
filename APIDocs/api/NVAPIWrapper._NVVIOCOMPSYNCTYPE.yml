@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVVIOCOMPSYNCTYPE
+  commentId: T:NVAPIWrapper._NVVIOCOMPSYNCTYPE
+  id: _NVVIOCOMPSYNCTYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVVIOCOMPSYNCTYPE.NVVIOCOMPSYNCTYPE_AUTO
+  - NVAPIWrapper._NVVIOCOMPSYNCTYPE.NVVIOCOMPSYNCTYPE_BILEVEL
+  - NVAPIWrapper._NVVIOCOMPSYNCTYPE.NVVIOCOMPSYNCTYPE_TRILEVEL
+  langs:
+  - csharp
+  - vb
+  name: _NVVIOCOMPSYNCTYPE
+  nameWithType: _NVVIOCOMPSYNCTYPE
+  fullName: NVAPIWrapper._NVVIOCOMPSYNCTYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCOMPSYNCTYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVVIOCOMPSYNCTYPE
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCOMPSYNCTYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVVIOCOMPSYNCTYPE
+    content.vb: Public Enum _NVVIOCOMPSYNCTYPE
+- uid: NVAPIWrapper._NVVIOCOMPSYNCTYPE.NVVIOCOMPSYNCTYPE_AUTO
+  commentId: F:NVAPIWrapper._NVVIOCOMPSYNCTYPE.NVVIOCOMPSYNCTYPE_AUTO
+  id: NVVIOCOMPSYNCTYPE_AUTO
+  parent: NVAPIWrapper._NVVIOCOMPSYNCTYPE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOCOMPSYNCTYPE_AUTO
+  nameWithType: _NVVIOCOMPSYNCTYPE.NVVIOCOMPSYNCTYPE_AUTO
+  fullName: NVAPIWrapper._NVVIOCOMPSYNCTYPE.NVVIOCOMPSYNCTYPE_AUTO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCOMPSYNCTYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOCOMPSYNCTYPE_AUTO
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCOMPSYNCTYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOCOMPSYNCTYPE_AUTO = 0
+    return:
+      type: NVAPIWrapper._NVVIOCOMPSYNCTYPE
+- uid: NVAPIWrapper._NVVIOCOMPSYNCTYPE.NVVIOCOMPSYNCTYPE_BILEVEL
+  commentId: F:NVAPIWrapper._NVVIOCOMPSYNCTYPE.NVVIOCOMPSYNCTYPE_BILEVEL
+  id: NVVIOCOMPSYNCTYPE_BILEVEL
+  parent: NVAPIWrapper._NVVIOCOMPSYNCTYPE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOCOMPSYNCTYPE_BILEVEL
+  nameWithType: _NVVIOCOMPSYNCTYPE.NVVIOCOMPSYNCTYPE_BILEVEL
+  fullName: NVAPIWrapper._NVVIOCOMPSYNCTYPE.NVVIOCOMPSYNCTYPE_BILEVEL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCOMPSYNCTYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOCOMPSYNCTYPE_BILEVEL
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCOMPSYNCTYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOCOMPSYNCTYPE_BILEVEL = 1
+    return:
+      type: NVAPIWrapper._NVVIOCOMPSYNCTYPE
+- uid: NVAPIWrapper._NVVIOCOMPSYNCTYPE.NVVIOCOMPSYNCTYPE_TRILEVEL
+  commentId: F:NVAPIWrapper._NVVIOCOMPSYNCTYPE.NVVIOCOMPSYNCTYPE_TRILEVEL
+  id: NVVIOCOMPSYNCTYPE_TRILEVEL
+  parent: NVAPIWrapper._NVVIOCOMPSYNCTYPE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOCOMPSYNCTYPE_TRILEVEL
+  nameWithType: _NVVIOCOMPSYNCTYPE.NVVIOCOMPSYNCTYPE_TRILEVEL
+  fullName: NVAPIWrapper._NVVIOCOMPSYNCTYPE.NVVIOCOMPSYNCTYPE_TRILEVEL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCOMPSYNCTYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOCOMPSYNCTYPE_TRILEVEL
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCOMPSYNCTYPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOCOMPSYNCTYPE_TRILEVEL = 2
+    return:
+      type: NVAPIWrapper._NVVIOCOMPSYNCTYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVVIOCOMPSYNCTYPE
+  commentId: T:NVAPIWrapper._NVVIOCOMPSYNCTYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOCOMPSYNCTYPE.html
+  name: _NVVIOCOMPSYNCTYPE
+  nameWithType: _NVVIOCOMPSYNCTYPE
+  fullName: NVAPIWrapper._NVVIOCOMPSYNCTYPE

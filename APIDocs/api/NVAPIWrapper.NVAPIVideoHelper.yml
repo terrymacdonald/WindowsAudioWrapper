@@ -1,0 +1,932 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIVideoHelper
+  commentId: T:NVAPIWrapper.NVAPIVideoHelper
+  id: NVAPIVideoHelper
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIVideoHelper.Dispose
+  - NVAPIWrapper.NVAPIVideoHelper.EnumerateVioDevices
+  - NVAPIWrapper.NVAPIVideoHelper.QueryTopology
+  - NVAPIWrapper.NVAPIVideoHelper.StereoCreateConfigurationProfileRegistryKey(NVAPIWrapper._NV_StereoRegistryProfileType)
+  - NVAPIWrapper.NVAPIVideoHelper.StereoDeleteConfigurationProfileRegistryKey(NVAPIWrapper._NV_StereoRegistryProfileType)
+  - NVAPIWrapper.NVAPIVideoHelper.StereoDeleteConfigurationProfileValue(NVAPIWrapper._NV_StereoRegistryProfileType,NVAPIWrapper._NV_StereoRegistryID)
+  - NVAPIWrapper.NVAPIVideoHelper.StereoDisable
+  - NVAPIWrapper.NVAPIVideoHelper.StereoEnable
+  - NVAPIWrapper.NVAPIVideoHelper.StereoGetDefaultProfile
+  - NVAPIWrapper.NVAPIVideoHelper.StereoIsEnabled
+  - NVAPIWrapper.NVAPIVideoHelper.StereoIsWindowedModeSupported
+  - NVAPIWrapper.NVAPIVideoHelper.StereoSetDefaultProfile(System.String)
+  - NVAPIWrapper.NVAPIVideoHelper.StereoSetDriverMode(NVAPIWrapper._NV_StereoDriverMode)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIVideoHelper
+  nameWithType: NVAPIVideoHelper
+  fullName: NVAPIWrapper.NVAPIVideoHelper
+  type: Class
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIVideoHelper
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 10
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Facade helper for video-related NVAPI functions (VIO + Stereo globals).
+  example: []
+  syntax:
+    content: 'public sealed class NVAPIVideoHelper : IDisposable'
+    content.vb: Public NotInheritable Class NVAPIVideoHelper Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: NVAPIWrapper.NVAPIVideoHelper.EnumerateVioDevices
+  commentId: M:NVAPIWrapper.NVAPIVideoHelper.EnumerateVioDevices
+  id: EnumerateVioDevices
+  parent: NVAPIWrapper.NVAPIVideoHelper
+  langs:
+  - csharp
+  - vb
+  name: EnumerateVioDevices()
+  nameWithType: NVAPIVideoHelper.EnumerateVioDevices()
+  fullName: NVAPIWrapper.NVAPIVideoHelper.EnumerateVioDevices()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EnumerateVioDevices
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 60
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Enumerate available VIO devices.
+  example: []
+  syntax:
+    content: public NVAPIVioDeviceHelper[] EnumerateVioDevices()
+    return:
+      type: NVAPIWrapper.NVAPIVioDeviceHelper[]
+      description: Array of VIO device helpers, or empty if unavailable.
+    content.vb: Public Function EnumerateVioDevices() As NVAPIVioDeviceHelper()
+  overload: NVAPIWrapper.NVAPIVideoHelper.EnumerateVioDevices*
+- uid: NVAPIWrapper.NVAPIVideoHelper.QueryTopology
+  commentId: M:NVAPIWrapper.NVAPIVideoHelper.QueryTopology
+  id: QueryTopology
+  parent: NVAPIWrapper.NVAPIVideoHelper
+  langs:
+  - csharp
+  - vb
+  name: QueryTopology()
+  nameWithType: NVAPIVideoHelper.QueryTopology()
+  fullName: NVAPIWrapper.NVAPIVideoHelper.QueryTopology()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: QueryTopology
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 92
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Query VIO topology.
+  example: []
+  syntax:
+    content: public NVAPIVioTopologyDto? QueryTopology()
+    return:
+      type: System.Nullable{NVAPIWrapper.NVAPIVioTopologyDto}
+      description: Topology DTO, or null if unavailable.
+    content.vb: Public Function QueryTopology() As NVAPIVioTopologyDto?
+  overload: NVAPIWrapper.NVAPIVideoHelper.QueryTopology*
+- uid: NVAPIWrapper.NVAPIVideoHelper.StereoEnable
+  commentId: M:NVAPIWrapper.NVAPIVideoHelper.StereoEnable
+  id: StereoEnable
+  parent: NVAPIWrapper.NVAPIVideoHelper
+  langs:
+  - csharp
+  - vb
+  name: StereoEnable()
+  nameWithType: NVAPIVideoHelper.StereoEnable()
+  fullName: NVAPIWrapper.NVAPIVideoHelper.StereoEnable()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: StereoEnable
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 113
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Enable stereo driver mode globally.
+  example: []
+  syntax:
+    content: public bool? StereoEnable()
+    return:
+      type: System.Nullable{System.Boolean}
+      description: True if enabled, null if unsupported.
+    content.vb: Public Function StereoEnable() As Boolean?
+  overload: NVAPIWrapper.NVAPIVideoHelper.StereoEnable*
+- uid: NVAPIWrapper.NVAPIVideoHelper.StereoDisable
+  commentId: M:NVAPIWrapper.NVAPIVideoHelper.StereoDisable
+  id: StereoDisable
+  parent: NVAPIWrapper.NVAPIVideoHelper
+  langs:
+  - csharp
+  - vb
+  name: StereoDisable()
+  nameWithType: NVAPIVideoHelper.StereoDisable()
+  fullName: NVAPIWrapper.NVAPIVideoHelper.StereoDisable()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: StereoDisable
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 132
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Disable stereo driver mode globally.
+  example: []
+  syntax:
+    content: public bool? StereoDisable()
+    return:
+      type: System.Nullable{System.Boolean}
+      description: True if disabled, null if unsupported.
+    content.vb: Public Function StereoDisable() As Boolean?
+  overload: NVAPIWrapper.NVAPIVideoHelper.StereoDisable*
+- uid: NVAPIWrapper.NVAPIVideoHelper.StereoIsEnabled
+  commentId: M:NVAPIWrapper.NVAPIVideoHelper.StereoIsEnabled
+  id: StereoIsEnabled
+  parent: NVAPIWrapper.NVAPIVideoHelper
+  langs:
+  - csharp
+  - vb
+  name: StereoIsEnabled()
+  nameWithType: NVAPIVideoHelper.StereoIsEnabled()
+  fullName: NVAPIWrapper.NVAPIVideoHelper.StereoIsEnabled()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: StereoIsEnabled
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 151
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get whether stereo is enabled.
+  example: []
+  syntax:
+    content: public bool? StereoIsEnabled()
+    return:
+      type: System.Nullable{System.Boolean}
+      description: True if enabled, false if disabled, or null if unsupported.
+    content.vb: Public Function StereoIsEnabled() As Boolean?
+  overload: NVAPIWrapper.NVAPIVideoHelper.StereoIsEnabled*
+- uid: NVAPIWrapper.NVAPIVideoHelper.StereoIsWindowedModeSupported
+  commentId: M:NVAPIWrapper.NVAPIVideoHelper.StereoIsWindowedModeSupported
+  id: StereoIsWindowedModeSupported
+  parent: NVAPIWrapper.NVAPIVideoHelper
+  langs:
+  - csharp
+  - vb
+  name: StereoIsWindowedModeSupported()
+  nameWithType: NVAPIVideoHelper.StereoIsWindowedModeSupported()
+  fullName: NVAPIWrapper.NVAPIVideoHelper.StereoIsWindowedModeSupported()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: StereoIsWindowedModeSupported
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 171
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Check whether windowed stereo is supported.
+  example: []
+  syntax:
+    content: public bool? StereoIsWindowedModeSupported()
+    return:
+      type: System.Nullable{System.Boolean}
+      description: True if supported, false if not, or null if unsupported.
+    content.vb: Public Function StereoIsWindowedModeSupported() As Boolean?
+  overload: NVAPIWrapper.NVAPIVideoHelper.StereoIsWindowedModeSupported*
+- uid: NVAPIWrapper.NVAPIVideoHelper.StereoSetDriverMode(NVAPIWrapper._NV_StereoDriverMode)
+  commentId: M:NVAPIWrapper.NVAPIVideoHelper.StereoSetDriverMode(NVAPIWrapper._NV_StereoDriverMode)
+  id: StereoSetDriverMode(NVAPIWrapper._NV_StereoDriverMode)
+  parent: NVAPIWrapper.NVAPIVideoHelper
+  langs:
+  - csharp
+  - vb
+  name: StereoSetDriverMode(_NV_StereoDriverMode)
+  nameWithType: NVAPIVideoHelper.StereoSetDriverMode(_NV_StereoDriverMode)
+  fullName: NVAPIWrapper.NVAPIVideoHelper.StereoSetDriverMode(NVAPIWrapper._NV_StereoDriverMode)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: StereoSetDriverMode
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 195
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Set stereo driver mode.
+  example: []
+  syntax:
+    content: public bool? StereoSetDriverMode(_NV_StereoDriverMode mode)
+    parameters:
+    - id: mode
+      type: NVAPIWrapper._NV_StereoDriverMode
+      description: Driver mode.
+    return:
+      type: System.Nullable{System.Boolean}
+      description: True if applied, null if unsupported.
+    content.vb: Public Function StereoSetDriverMode(mode As _NV_StereoDriverMode) As Boolean?
+  overload: NVAPIWrapper.NVAPIVideoHelper.StereoSetDriverMode*
+- uid: NVAPIWrapper.NVAPIVideoHelper.StereoSetDefaultProfile(System.String)
+  commentId: M:NVAPIWrapper.NVAPIVideoHelper.StereoSetDefaultProfile(System.String)
+  id: StereoSetDefaultProfile(System.String)
+  parent: NVAPIWrapper.NVAPIVideoHelper
+  langs:
+  - csharp
+  - vb
+  name: StereoSetDefaultProfile(string)
+  nameWithType: NVAPIVideoHelper.StereoSetDefaultProfile(string)
+  fullName: NVAPIWrapper.NVAPIVideoHelper.StereoSetDefaultProfile(string)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: StereoSetDefaultProfile
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 215
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Set the default stereo profile.
+  example: []
+  syntax:
+    content: public bool? StereoSetDefaultProfile(string profileName)
+    parameters:
+    - id: profileName
+      type: System.String
+      description: Profile name.
+    return:
+      type: System.Nullable{System.Boolean}
+      description: True if applied, null if unsupported.
+    content.vb: Public Function StereoSetDefaultProfile(profileName As String) As Boolean?
+  overload: NVAPIWrapper.NVAPIVideoHelper.StereoSetDefaultProfile*
+  nameWithType.vb: NVAPIVideoHelper.StereoSetDefaultProfile(String)
+  fullName.vb: NVAPIWrapper.NVAPIVideoHelper.StereoSetDefaultProfile(String)
+  name.vb: StereoSetDefaultProfile(String)
+- uid: NVAPIWrapper.NVAPIVideoHelper.StereoGetDefaultProfile
+  commentId: M:NVAPIWrapper.NVAPIVideoHelper.StereoGetDefaultProfile
+  id: StereoGetDefaultProfile
+  parent: NVAPIWrapper.NVAPIVideoHelper
+  langs:
+  - csharp
+  - vb
+  name: StereoGetDefaultProfile()
+  nameWithType: NVAPIVideoHelper.StereoGetDefaultProfile()
+  fullName: NVAPIWrapper.NVAPIVideoHelper.StereoGetDefaultProfile()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: StereoGetDefaultProfile
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 243
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get the default stereo profile name.
+  example: []
+  syntax:
+    content: public string? StereoGetDefaultProfile()
+    return:
+      type: System.String
+      description: Profile name, or null if unsupported.
+    content.vb: Public Function StereoGetDefaultProfile() As String
+  overload: NVAPIWrapper.NVAPIVideoHelper.StereoGetDefaultProfile*
+- uid: NVAPIWrapper.NVAPIVideoHelper.StereoCreateConfigurationProfileRegistryKey(NVAPIWrapper._NV_StereoRegistryProfileType)
+  commentId: M:NVAPIWrapper.NVAPIVideoHelper.StereoCreateConfigurationProfileRegistryKey(NVAPIWrapper._NV_StereoRegistryProfileType)
+  id: StereoCreateConfigurationProfileRegistryKey(NVAPIWrapper._NV_StereoRegistryProfileType)
+  parent: NVAPIWrapper.NVAPIVideoHelper
+  langs:
+  - csharp
+  - vb
+  name: StereoCreateConfigurationProfileRegistryKey(_NV_StereoRegistryProfileType)
+  nameWithType: NVAPIVideoHelper.StereoCreateConfigurationProfileRegistryKey(_NV_StereoRegistryProfileType)
+  fullName: NVAPIWrapper.NVAPIVideoHelper.StereoCreateConfigurationProfileRegistryKey(NVAPIWrapper._NV_StereoRegistryProfileType)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: StereoCreateConfigurationProfileRegistryKey
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 270
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create the stereo configuration profile registry key.
+  example: []
+  syntax:
+    content: public bool? StereoCreateConfigurationProfileRegistryKey(_NV_StereoRegistryProfileType profileType)
+    parameters:
+    - id: profileType
+      type: NVAPIWrapper._NV_StereoRegistryProfileType
+      description: Registry profile type.
+    return:
+      type: System.Nullable{System.Boolean}
+      description: True if created, null if unsupported.
+    content.vb: Public Function StereoCreateConfigurationProfileRegistryKey(profileType As _NV_StereoRegistryProfileType) As Boolean?
+  overload: NVAPIWrapper.NVAPIVideoHelper.StereoCreateConfigurationProfileRegistryKey*
+- uid: NVAPIWrapper.NVAPIVideoHelper.StereoDeleteConfigurationProfileRegistryKey(NVAPIWrapper._NV_StereoRegistryProfileType)
+  commentId: M:NVAPIWrapper.NVAPIVideoHelper.StereoDeleteConfigurationProfileRegistryKey(NVAPIWrapper._NV_StereoRegistryProfileType)
+  id: StereoDeleteConfigurationProfileRegistryKey(NVAPIWrapper._NV_StereoRegistryProfileType)
+  parent: NVAPIWrapper.NVAPIVideoHelper
+  langs:
+  - csharp
+  - vb
+  name: StereoDeleteConfigurationProfileRegistryKey(_NV_StereoRegistryProfileType)
+  nameWithType: NVAPIVideoHelper.StereoDeleteConfigurationProfileRegistryKey(_NV_StereoRegistryProfileType)
+  fullName: NVAPIWrapper.NVAPIVideoHelper.StereoDeleteConfigurationProfileRegistryKey(NVAPIWrapper._NV_StereoRegistryProfileType)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: StereoDeleteConfigurationProfileRegistryKey
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 293
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Delete the stereo configuration profile registry key.
+  example: []
+  syntax:
+    content: public bool? StereoDeleteConfigurationProfileRegistryKey(_NV_StereoRegistryProfileType profileType)
+    parameters:
+    - id: profileType
+      type: NVAPIWrapper._NV_StereoRegistryProfileType
+      description: Registry profile type.
+    return:
+      type: System.Nullable{System.Boolean}
+      description: True if deleted, null if unsupported.
+    content.vb: Public Function StereoDeleteConfigurationProfileRegistryKey(profileType As _NV_StereoRegistryProfileType) As Boolean?
+  overload: NVAPIWrapper.NVAPIVideoHelper.StereoDeleteConfigurationProfileRegistryKey*
+- uid: NVAPIWrapper.NVAPIVideoHelper.StereoDeleteConfigurationProfileValue(NVAPIWrapper._NV_StereoRegistryProfileType,NVAPIWrapper._NV_StereoRegistryID)
+  commentId: M:NVAPIWrapper.NVAPIVideoHelper.StereoDeleteConfigurationProfileValue(NVAPIWrapper._NV_StereoRegistryProfileType,NVAPIWrapper._NV_StereoRegistryID)
+  id: StereoDeleteConfigurationProfileValue(NVAPIWrapper._NV_StereoRegistryProfileType,NVAPIWrapper._NV_StereoRegistryID)
+  parent: NVAPIWrapper.NVAPIVideoHelper
+  langs:
+  - csharp
+  - vb
+  name: StereoDeleteConfigurationProfileValue(_NV_StereoRegistryProfileType, _NV_StereoRegistryID)
+  nameWithType: NVAPIVideoHelper.StereoDeleteConfigurationProfileValue(_NV_StereoRegistryProfileType, _NV_StereoRegistryID)
+  fullName: NVAPIWrapper.NVAPIVideoHelper.StereoDeleteConfigurationProfileValue(NVAPIWrapper._NV_StereoRegistryProfileType, NVAPIWrapper._NV_StereoRegistryID)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: StereoDeleteConfigurationProfileValue
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 317
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Delete a stereo configuration profile value.
+  example: []
+  syntax:
+    content: public bool? StereoDeleteConfigurationProfileValue(_NV_StereoRegistryProfileType profileType, _NV_StereoRegistryID valueId)
+    parameters:
+    - id: profileType
+      type: NVAPIWrapper._NV_StereoRegistryProfileType
+      description: Registry profile type.
+    - id: valueId
+      type: NVAPIWrapper._NV_StereoRegistryID
+      description: Value identifier.
+    return:
+      type: System.Nullable{System.Boolean}
+      description: True if deleted, null if unsupported.
+    content.vb: Public Function StereoDeleteConfigurationProfileValue(profileType As _NV_StereoRegistryProfileType, valueId As _NV_StereoRegistryID) As Boolean?
+  overload: NVAPIWrapper.NVAPIVideoHelper.StereoDeleteConfigurationProfileValue*
+- uid: NVAPIWrapper.NVAPIVideoHelper.Dispose
+  commentId: M:NVAPIWrapper.NVAPIVideoHelper.Dispose
+  id: Dispose
+  parent: NVAPIWrapper.NVAPIVideoHelper
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: NVAPIVideoHelper.Dispose()
+  fullName: NVAPIWrapper.NVAPIVideoHelper.Dispose()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIVideoHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Dispose
+    path: ../NVAPIWrapper/NVAPIVideoHelper.cs
+    startLine: 357
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Dispose the helper and prevent further use.
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: NVAPIWrapper.NVAPIVideoHelper.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NVAPIWrapper.NVAPIVideoHelper.EnumerateVioDevices*
+  commentId: Overload:NVAPIWrapper.NVAPIVideoHelper.EnumerateVioDevices
+  href: NVAPIWrapper.NVAPIVideoHelper.html#NVAPIWrapper_NVAPIVideoHelper_EnumerateVioDevices
+  name: EnumerateVioDevices
+  nameWithType: NVAPIVideoHelper.EnumerateVioDevices
+  fullName: NVAPIWrapper.NVAPIVideoHelper.EnumerateVioDevices
+- uid: NVAPIWrapper.NVAPIVioDeviceHelper[]
+  isExternal: true
+  href: NVAPIWrapper.NVAPIVioDeviceHelper.html
+  name: NVAPIVioDeviceHelper[]
+  nameWithType: NVAPIVioDeviceHelper[]
+  fullName: NVAPIWrapper.NVAPIVioDeviceHelper[]
+  nameWithType.vb: NVAPIVioDeviceHelper()
+  fullName.vb: NVAPIWrapper.NVAPIVioDeviceHelper()
+  name.vb: NVAPIVioDeviceHelper()
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIVioDeviceHelper
+    name: NVAPIVioDeviceHelper
+    href: NVAPIWrapper.NVAPIVioDeviceHelper.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIVioDeviceHelper
+    name: NVAPIVioDeviceHelper
+    href: NVAPIWrapper.NVAPIVioDeviceHelper.html
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIVideoHelper.QueryTopology*
+  commentId: Overload:NVAPIWrapper.NVAPIVideoHelper.QueryTopology
+  href: NVAPIWrapper.NVAPIVideoHelper.html#NVAPIWrapper_NVAPIVideoHelper_QueryTopology
+  name: QueryTopology
+  nameWithType: NVAPIVideoHelper.QueryTopology
+  fullName: NVAPIWrapper.NVAPIVideoHelper.QueryTopology
+- uid: System.Nullable{NVAPIWrapper.NVAPIVioTopologyDto}
+  commentId: T:System.Nullable{NVAPIWrapper.NVAPIVioTopologyDto}
+  parent: System
+  definition: System.Nullable`1
+  href: NVAPIWrapper.NVAPIVioTopologyDto.html
+  name: NVAPIVioTopologyDto?
+  nameWithType: NVAPIVioTopologyDto?
+  fullName: NVAPIWrapper.NVAPIVioTopologyDto?
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIVioTopologyDto
+    name: NVAPIVioTopologyDto
+    href: NVAPIWrapper.NVAPIVioTopologyDto.html
+  - name: '?'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIVioTopologyDto
+    name: NVAPIVioTopologyDto
+    href: NVAPIWrapper.NVAPIVioTopologyDto.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: NVAPIWrapper.NVAPIVideoHelper.StereoEnable*
+  commentId: Overload:NVAPIWrapper.NVAPIVideoHelper.StereoEnable
+  href: NVAPIWrapper.NVAPIVideoHelper.html#NVAPIWrapper_NVAPIVideoHelper_StereoEnable
+  name: StereoEnable
+  nameWithType: NVAPIVideoHelper.StereoEnable
+  fullName: NVAPIWrapper.NVAPIVideoHelper.StereoEnable
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool?
+  nameWithType: bool?
+  fullName: bool?
+  nameWithType.vb: Boolean?
+  fullName.vb: Boolean?
+  name.vb: Boolean?
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+- uid: NVAPIWrapper.NVAPIVideoHelper.StereoDisable*
+  commentId: Overload:NVAPIWrapper.NVAPIVideoHelper.StereoDisable
+  href: NVAPIWrapper.NVAPIVideoHelper.html#NVAPIWrapper_NVAPIVideoHelper_StereoDisable
+  name: StereoDisable
+  nameWithType: NVAPIVideoHelper.StereoDisable
+  fullName: NVAPIWrapper.NVAPIVideoHelper.StereoDisable
+- uid: NVAPIWrapper.NVAPIVideoHelper.StereoIsEnabled*
+  commentId: Overload:NVAPIWrapper.NVAPIVideoHelper.StereoIsEnabled
+  href: NVAPIWrapper.NVAPIVideoHelper.html#NVAPIWrapper_NVAPIVideoHelper_StereoIsEnabled
+  name: StereoIsEnabled
+  nameWithType: NVAPIVideoHelper.StereoIsEnabled
+  fullName: NVAPIWrapper.NVAPIVideoHelper.StereoIsEnabled
+- uid: NVAPIWrapper.NVAPIVideoHelper.StereoIsWindowedModeSupported*
+  commentId: Overload:NVAPIWrapper.NVAPIVideoHelper.StereoIsWindowedModeSupported
+  href: NVAPIWrapper.NVAPIVideoHelper.html#NVAPIWrapper_NVAPIVideoHelper_StereoIsWindowedModeSupported
+  name: StereoIsWindowedModeSupported
+  nameWithType: NVAPIVideoHelper.StereoIsWindowedModeSupported
+  fullName: NVAPIWrapper.NVAPIVideoHelper.StereoIsWindowedModeSupported
+- uid: NVAPIWrapper.NVAPIVideoHelper.StereoSetDriverMode*
+  commentId: Overload:NVAPIWrapper.NVAPIVideoHelper.StereoSetDriverMode
+  href: NVAPIWrapper.NVAPIVideoHelper.html#NVAPIWrapper_NVAPIVideoHelper_StereoSetDriverMode_NVAPIWrapper__NV_StereoDriverMode_
+  name: StereoSetDriverMode
+  nameWithType: NVAPIVideoHelper.StereoSetDriverMode
+  fullName: NVAPIWrapper.NVAPIVideoHelper.StereoSetDriverMode
+- uid: NVAPIWrapper._NV_StereoDriverMode
+  commentId: T:NVAPIWrapper._NV_StereoDriverMode
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_StereoDriverMode.html
+  name: _NV_StereoDriverMode
+  nameWithType: _NV_StereoDriverMode
+  fullName: NVAPIWrapper._NV_StereoDriverMode
+- uid: NVAPIWrapper.NVAPIVideoHelper.StereoSetDefaultProfile*
+  commentId: Overload:NVAPIWrapper.NVAPIVideoHelper.StereoSetDefaultProfile
+  href: NVAPIWrapper.NVAPIVideoHelper.html#NVAPIWrapper_NVAPIVideoHelper_StereoSetDefaultProfile_System_String_
+  name: StereoSetDefaultProfile
+  nameWithType: NVAPIVideoHelper.StereoSetDefaultProfile
+  fullName: NVAPIWrapper.NVAPIVideoHelper.StereoSetDefaultProfile
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NVAPIWrapper.NVAPIVideoHelper.StereoGetDefaultProfile*
+  commentId: Overload:NVAPIWrapper.NVAPIVideoHelper.StereoGetDefaultProfile
+  href: NVAPIWrapper.NVAPIVideoHelper.html#NVAPIWrapper_NVAPIVideoHelper_StereoGetDefaultProfile
+  name: StereoGetDefaultProfile
+  nameWithType: NVAPIVideoHelper.StereoGetDefaultProfile
+  fullName: NVAPIWrapper.NVAPIVideoHelper.StereoGetDefaultProfile
+- uid: NVAPIWrapper.NVAPIVideoHelper.StereoCreateConfigurationProfileRegistryKey*
+  commentId: Overload:NVAPIWrapper.NVAPIVideoHelper.StereoCreateConfigurationProfileRegistryKey
+  href: NVAPIWrapper.NVAPIVideoHelper.html#NVAPIWrapper_NVAPIVideoHelper_StereoCreateConfigurationProfileRegistryKey_NVAPIWrapper__NV_StereoRegistryProfileType_
+  name: StereoCreateConfigurationProfileRegistryKey
+  nameWithType: NVAPIVideoHelper.StereoCreateConfigurationProfileRegistryKey
+  fullName: NVAPIWrapper.NVAPIVideoHelper.StereoCreateConfigurationProfileRegistryKey
+- uid: NVAPIWrapper._NV_StereoRegistryProfileType
+  commentId: T:NVAPIWrapper._NV_StereoRegistryProfileType
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_StereoRegistryProfileType.html
+  name: _NV_StereoRegistryProfileType
+  nameWithType: _NV_StereoRegistryProfileType
+  fullName: NVAPIWrapper._NV_StereoRegistryProfileType
+- uid: NVAPIWrapper.NVAPIVideoHelper.StereoDeleteConfigurationProfileRegistryKey*
+  commentId: Overload:NVAPIWrapper.NVAPIVideoHelper.StereoDeleteConfigurationProfileRegistryKey
+  href: NVAPIWrapper.NVAPIVideoHelper.html#NVAPIWrapper_NVAPIVideoHelper_StereoDeleteConfigurationProfileRegistryKey_NVAPIWrapper__NV_StereoRegistryProfileType_
+  name: StereoDeleteConfigurationProfileRegistryKey
+  nameWithType: NVAPIVideoHelper.StereoDeleteConfigurationProfileRegistryKey
+  fullName: NVAPIWrapper.NVAPIVideoHelper.StereoDeleteConfigurationProfileRegistryKey
+- uid: NVAPIWrapper.NVAPIVideoHelper.StereoDeleteConfigurationProfileValue*
+  commentId: Overload:NVAPIWrapper.NVAPIVideoHelper.StereoDeleteConfigurationProfileValue
+  href: NVAPIWrapper.NVAPIVideoHelper.html#NVAPIWrapper_NVAPIVideoHelper_StereoDeleteConfigurationProfileValue_NVAPIWrapper__NV_StereoRegistryProfileType_NVAPIWrapper__NV_StereoRegistryID_
+  name: StereoDeleteConfigurationProfileValue
+  nameWithType: NVAPIVideoHelper.StereoDeleteConfigurationProfileValue
+  fullName: NVAPIWrapper.NVAPIVideoHelper.StereoDeleteConfigurationProfileValue
+- uid: NVAPIWrapper._NV_StereoRegistryID
+  commentId: T:NVAPIWrapper._NV_StereoRegistryID
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_StereoRegistryID.html
+  name: _NV_StereoRegistryID
+  nameWithType: _NV_StereoRegistryID
+  fullName: NVAPIWrapper._NV_StereoRegistryID
+- uid: NVAPIWrapper.NVAPIVideoHelper.Dispose*
+  commentId: Overload:NVAPIWrapper.NVAPIVideoHelper.Dispose
+  href: NVAPIWrapper.NVAPIVideoHelper.html#NVAPIWrapper_NVAPIVideoHelper_Dispose
+  name: Dispose
+  nameWithType: NVAPIVideoHelper.Dispose
+  fullName: NVAPIWrapper.NVAPIVideoHelper.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )

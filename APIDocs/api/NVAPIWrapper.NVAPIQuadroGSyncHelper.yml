@@ -1,0 +1,1184 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper
+  commentId: T:NVAPIWrapper.NVAPIQuadroGSyncHelper
+  id: NVAPIQuadroGSyncHelper
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIQuadroGSyncHelper.AdjustSyncDelay(NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE,NVAPIWrapper.NVAPIGSyncDelayDto)
+  - NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateCapabilities
+  - NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateControlParameters
+  - NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateDelay
+  - NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateGSyncDisplay
+  - NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateGSyncGpu
+  - NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateStatusParameters
+  - NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateSyncStatus
+  - NVAPIWrapper.NVAPIQuadroGSyncHelper.Dispose
+  - NVAPIWrapper.NVAPIQuadroGSyncHelper.GetControlParameters
+  - NVAPIWrapper.NVAPIQuadroGSyncHelper.GetStatusParameters
+  - NVAPIWrapper.NVAPIQuadroGSyncHelper.GetSyncStatus(NVAPIWrapper.NVAPIPhysicalGpuHelper)
+  - NVAPIWrapper.NVAPIQuadroGSyncHelper.GetTopology
+  - NVAPIWrapper.NVAPIQuadroGSyncHelper.QueryCapabilities
+  - NVAPIWrapper.NVAPIQuadroGSyncHelper.SetControlParameters(NVAPIWrapper.NVAPIGSyncControlParametersDto)
+  - NVAPIWrapper.NVAPIQuadroGSyncHelper.SetSyncStateSettings(NVAPIWrapper.NVAPIGSyncDisplayDto[],System.UInt32)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIQuadroGSyncHelper
+  nameWithType: NVAPIQuadroGSyncHelper
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper
+  type: Class
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIQuadroGSyncHelper
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Facade helper for Quadro G-Sync (frame lock) devices.
+  example: []
+  syntax:
+    content: 'public sealed class NVAPIQuadroGSyncHelper : IDisposable'
+    content.vb: Public NotInheritable Class NVAPIQuadroGSyncHelper Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateCapabilities
+  commentId: M:NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateCapabilities
+  id: CreateCapabilities
+  parent: NVAPIWrapper.NVAPIQuadroGSyncHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateCapabilities()
+  nameWithType: NVAPIQuadroGSyncHelper.CreateCapabilities()
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateCapabilities()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CreateCapabilities
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 35
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a G-Sync capabilities struct with the version initialized.
+  example: []
+  syntax:
+    content: public static _NV_GSYNC_CAPABILITIES_V3 CreateCapabilities()
+    return:
+      type: NVAPIWrapper._NV_GSYNC_CAPABILITIES_V3
+    content.vb: Public Shared Function CreateCapabilities() As _NV_GSYNC_CAPABILITIES_V3
+  overload: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateCapabilities*
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateControlParameters
+  commentId: M:NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateControlParameters
+  id: CreateControlParameters
+  parent: NVAPIWrapper.NVAPIQuadroGSyncHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateControlParameters()
+  nameWithType: NVAPIQuadroGSyncHelper.CreateControlParameters()
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateControlParameters()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CreateControlParameters
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 46
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a G-Sync control parameters struct with the version initialized.
+  example: []
+  syntax:
+    content: public static _NV_GSYNC_CONTROL_PARAMS_V2 CreateControlParameters()
+    return:
+      type: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2
+    content.vb: Public Shared Function CreateControlParameters() As _NV_GSYNC_CONTROL_PARAMS_V2
+  overload: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateControlParameters*
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateDelay
+  commentId: M:NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateDelay
+  id: CreateDelay
+  parent: NVAPIWrapper.NVAPIQuadroGSyncHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateDelay()
+  nameWithType: NVAPIQuadroGSyncHelper.CreateDelay()
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateDelay()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CreateDelay
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 57
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a G-Sync delay struct with the version initialized.
+  example: []
+  syntax:
+    content: public static _NV_GSYNC_DELAY CreateDelay()
+    return:
+      type: NVAPIWrapper._NV_GSYNC_DELAY
+    content.vb: Public Shared Function CreateDelay() As _NV_GSYNC_DELAY
+  overload: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateDelay*
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateSyncStatus
+  commentId: M:NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateSyncStatus
+  id: CreateSyncStatus
+  parent: NVAPIWrapper.NVAPIQuadroGSyncHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateSyncStatus()
+  nameWithType: NVAPIQuadroGSyncHelper.CreateSyncStatus()
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateSyncStatus()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CreateSyncStatus
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 68
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a G-Sync status struct with the version initialized.
+  example: []
+  syntax:
+    content: public static _NV_GSYNC_STATUS CreateSyncStatus()
+    return:
+      type: NVAPIWrapper._NV_GSYNC_STATUS
+    content.vb: Public Shared Function CreateSyncStatus() As _NV_GSYNC_STATUS
+  overload: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateSyncStatus*
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateStatusParameters
+  commentId: M:NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateStatusParameters
+  id: CreateStatusParameters
+  parent: NVAPIWrapper.NVAPIQuadroGSyncHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateStatusParameters()
+  nameWithType: NVAPIQuadroGSyncHelper.CreateStatusParameters()
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateStatusParameters()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CreateStatusParameters
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 79
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a G-Sync status parameters struct with the version initialized.
+  example: []
+  syntax:
+    content: public static _NV_GSYNC_STATUS_PARAMS_V2 CreateStatusParameters()
+    return:
+      type: NVAPIWrapper._NV_GSYNC_STATUS_PARAMS_V2
+    content.vb: Public Shared Function CreateStatusParameters() As _NV_GSYNC_STATUS_PARAMS_V2
+  overload: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateStatusParameters*
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateGSyncGpu
+  commentId: M:NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateGSyncGpu
+  id: CreateGSyncGpu
+  parent: NVAPIWrapper.NVAPIQuadroGSyncHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateGSyncGpu()
+  nameWithType: NVAPIQuadroGSyncHelper.CreateGSyncGpu()
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateGSyncGpu()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CreateGSyncGpu
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 90
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a G-Sync GPU topology struct with the version initialized.
+  example: []
+  syntax:
+    content: public static _NV_GSYNC_GPU CreateGSyncGpu()
+    return:
+      type: NVAPIWrapper._NV_GSYNC_GPU
+    content.vb: Public Shared Function CreateGSyncGpu() As _NV_GSYNC_GPU
+  overload: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateGSyncGpu*
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateGSyncDisplay
+  commentId: M:NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateGSyncDisplay
+  id: CreateGSyncDisplay
+  parent: NVAPIWrapper.NVAPIQuadroGSyncHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateGSyncDisplay()
+  nameWithType: NVAPIQuadroGSyncHelper.CreateGSyncDisplay()
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateGSyncDisplay()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CreateGSyncDisplay
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 101
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a G-Sync display topology struct with the version initialized.
+  example: []
+  syntax:
+    content: public static _NV_GSYNC_DISPLAY CreateGSyncDisplay()
+    return:
+      type: NVAPIWrapper._NV_GSYNC_DISPLAY
+    content.vb: Public Shared Function CreateGSyncDisplay() As _NV_GSYNC_DISPLAY
+  overload: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateGSyncDisplay*
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.QueryCapabilities
+  commentId: M:NVAPIWrapper.NVAPIQuadroGSyncHelper.QueryCapabilities
+  id: QueryCapabilities
+  parent: NVAPIWrapper.NVAPIQuadroGSyncHelper
+  langs:
+  - csharp
+  - vb
+  name: QueryCapabilities()
+  nameWithType: NVAPIQuadroGSyncHelper.QueryCapabilities()
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.QueryCapabilities()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: QueryCapabilities
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 113
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Query capabilities of this G-Sync device.
+  example: []
+  syntax:
+    content: public NVAPIGSyncCapabilitiesDto? QueryCapabilities()
+    return:
+      type: System.Nullable{NVAPIWrapper.NVAPIGSyncCapabilitiesDto}
+      description: Capabilities DTO, or null if unavailable.
+    content.vb: Public Function QueryCapabilities() As NVAPIGSyncCapabilitiesDto?
+  overload: NVAPIWrapper.NVAPIQuadroGSyncHelper.QueryCapabilities*
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.GetTopology
+  commentId: M:NVAPIWrapper.NVAPIQuadroGSyncHelper.GetTopology
+  id: GetTopology
+  parent: NVAPIWrapper.NVAPIQuadroGSyncHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTopology()
+  nameWithType: NVAPIQuadroGSyncHelper.GetTopology()
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.GetTopology()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetTopology
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 136
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Query the topology for this G-Sync device.
+  example: []
+  syntax:
+    content: public NVAPIGSyncTopologyDto? GetTopology()
+    return:
+      type: System.Nullable{NVAPIWrapper.NVAPIGSyncTopologyDto}
+      description: Topology DTO, or null if unavailable.
+    content.vb: Public Function GetTopology() As NVAPIGSyncTopologyDto?
+  overload: NVAPIWrapper.NVAPIQuadroGSyncHelper.GetTopology*
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.GetControlParameters
+  commentId: M:NVAPIWrapper.NVAPIQuadroGSyncHelper.GetControlParameters
+  id: GetControlParameters
+  parent: NVAPIWrapper.NVAPIQuadroGSyncHelper
+  langs:
+  - csharp
+  - vb
+  name: GetControlParameters()
+  nameWithType: NVAPIQuadroGSyncHelper.GetControlParameters()
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.GetControlParameters()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetControlParameters
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 217
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get control parameters for this G-Sync device.
+  example: []
+  syntax:
+    content: public NVAPIGSyncControlParametersDto? GetControlParameters()
+    return:
+      type: System.Nullable{NVAPIWrapper.NVAPIGSyncControlParametersDto}
+      description: Control parameters DTO, or null if unavailable.
+    content.vb: Public Function GetControlParameters() As NVAPIGSyncControlParametersDto?
+  overload: NVAPIWrapper.NVAPIQuadroGSyncHelper.GetControlParameters*
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.SetControlParameters(NVAPIWrapper.NVAPIGSyncControlParametersDto)
+  commentId: M:NVAPIWrapper.NVAPIQuadroGSyncHelper.SetControlParameters(NVAPIWrapper.NVAPIGSyncControlParametersDto)
+  id: SetControlParameters(NVAPIWrapper.NVAPIGSyncControlParametersDto)
+  parent: NVAPIWrapper.NVAPIQuadroGSyncHelper
+  langs:
+  - csharp
+  - vb
+  name: SetControlParameters(NVAPIGSyncControlParametersDto)
+  nameWithType: NVAPIQuadroGSyncHelper.SetControlParameters(NVAPIGSyncControlParametersDto)
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.SetControlParameters(NVAPIWrapper.NVAPIGSyncControlParametersDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SetControlParameters
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 241
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Set control parameters for this G-Sync device.
+  example: []
+  syntax:
+    content: public bool? SetControlParameters(NVAPIGSyncControlParametersDto parameters)
+    parameters:
+    - id: parameters
+      type: NVAPIWrapper.NVAPIGSyncControlParametersDto
+      description: Control parameters DTO.
+    return:
+      type: System.Nullable{System.Boolean}
+      description: True if applied, null if unsupported.
+    content.vb: Public Function SetControlParameters(parameters As NVAPIGSyncControlParametersDto) As Boolean?
+  overload: NVAPIWrapper.NVAPIQuadroGSyncHelper.SetControlParameters*
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.AdjustSyncDelay(NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE,NVAPIWrapper.NVAPIGSyncDelayDto)
+  commentId: M:NVAPIWrapper.NVAPIQuadroGSyncHelper.AdjustSyncDelay(NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE,NVAPIWrapper.NVAPIGSyncDelayDto)
+  id: AdjustSyncDelay(NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE,NVAPIWrapper.NVAPIGSyncDelayDto)
+  parent: NVAPIWrapper.NVAPIQuadroGSyncHelper
+  langs:
+  - csharp
+  - vb
+  name: AdjustSyncDelay(_NVAPI_GSYNC_DELAY_TYPE, NVAPIGSyncDelayDto)
+  nameWithType: NVAPIQuadroGSyncHelper.AdjustSyncDelay(_NVAPI_GSYNC_DELAY_TYPE, NVAPIGSyncDelayDto)
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.AdjustSyncDelay(NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE, NVAPIWrapper.NVAPIGSyncDelayDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AdjustSyncDelay
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 266
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Adjust sync delay for this G-Sync device.
+  example: []
+  syntax:
+    content: public NVAPIGSyncAdjustedDelayDto? AdjustSyncDelay(_NVAPI_GSYNC_DELAY_TYPE delayType, NVAPIGSyncDelayDto delay)
+    parameters:
+    - id: delayType
+      type: NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE
+      description: Delay type.
+    - id: delay
+      type: NVAPIWrapper.NVAPIGSyncDelayDto
+      description: Delay DTO.
+    return:
+      type: System.Nullable{NVAPIWrapper.NVAPIGSyncAdjustedDelayDto}
+      description: Adjusted delay DTO, or null if unavailable.
+    content.vb: Public Function AdjustSyncDelay(delayType As _NVAPI_GSYNC_DELAY_TYPE, delay As NVAPIGSyncDelayDto) As NVAPIGSyncAdjustedDelayDto?
+  overload: NVAPIWrapper.NVAPIQuadroGSyncHelper.AdjustSyncDelay*
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.GetSyncStatus(NVAPIWrapper.NVAPIPhysicalGpuHelper)
+  commentId: M:NVAPIWrapper.NVAPIQuadroGSyncHelper.GetSyncStatus(NVAPIWrapper.NVAPIPhysicalGpuHelper)
+  id: GetSyncStatus(NVAPIWrapper.NVAPIPhysicalGpuHelper)
+  parent: NVAPIWrapper.NVAPIQuadroGSyncHelper
+  langs:
+  - csharp
+  - vb
+  name: GetSyncStatus(NVAPIPhysicalGpuHelper)
+  nameWithType: NVAPIQuadroGSyncHelper.GetSyncStatus(NVAPIPhysicalGpuHelper)
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.GetSyncStatus(NVAPIWrapper.NVAPIPhysicalGpuHelper)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetSyncStatus
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 291
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get sync status for a physical GPU attached to this G-Sync device.
+  example: []
+  syntax:
+    content: public NVAPIGSyncSyncStatusDto? GetSyncStatus(NVAPIPhysicalGpuHelper physicalGpu)
+    parameters:
+    - id: physicalGpu
+      type: NVAPIWrapper.NVAPIPhysicalGpuHelper
+      description: Physical GPU helper.
+    return:
+      type: System.Nullable{NVAPIWrapper.NVAPIGSyncSyncStatusDto}
+      description: Sync status DTO, or null if unavailable.
+    content.vb: Public Function GetSyncStatus(physicalGpu As NVAPIPhysicalGpuHelper) As NVAPIGSyncSyncStatusDto?
+  overload: NVAPIWrapper.NVAPIQuadroGSyncHelper.GetSyncStatus*
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.GetStatusParameters
+  commentId: M:NVAPIWrapper.NVAPIQuadroGSyncHelper.GetStatusParameters
+  id: GetStatusParameters
+  parent: NVAPIWrapper.NVAPIQuadroGSyncHelper
+  langs:
+  - csharp
+  - vb
+  name: GetStatusParameters()
+  nameWithType: NVAPIQuadroGSyncHelper.GetStatusParameters()
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.GetStatusParameters()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetStatusParameters
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 317
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get status parameters for this G-Sync device.
+  example: []
+  syntax:
+    content: public NVAPIGSyncStatusParametersDto? GetStatusParameters()
+    return:
+      type: System.Nullable{NVAPIWrapper.NVAPIGSyncStatusParametersDto}
+      description: Status parameters DTO, or null if unavailable.
+    content.vb: Public Function GetStatusParameters() As NVAPIGSyncStatusParametersDto?
+  overload: NVAPIWrapper.NVAPIQuadroGSyncHelper.GetStatusParameters*
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.SetSyncStateSettings(NVAPIWrapper.NVAPIGSyncDisplayDto[],System.UInt32)
+  commentId: M:NVAPIWrapper.NVAPIQuadroGSyncHelper.SetSyncStateSettings(NVAPIWrapper.NVAPIGSyncDisplayDto[],System.UInt32)
+  id: SetSyncStateSettings(NVAPIWrapper.NVAPIGSyncDisplayDto[],System.UInt32)
+  parent: NVAPIWrapper.NVAPIQuadroGSyncHelper
+  langs:
+  - csharp
+  - vb
+  name: SetSyncStateSettings(NVAPIGSyncDisplayDto[], uint)
+  nameWithType: NVAPIQuadroGSyncHelper.SetSyncStateSettings(NVAPIGSyncDisplayDto[], uint)
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.SetSyncStateSettings(NVAPIWrapper.NVAPIGSyncDisplayDto[], uint)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SetSyncStateSettings
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 342
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Set display sync state settings for this G-Sync device.
+  example: []
+  syntax:
+    content: public bool? SetSyncStateSettings(NVAPIGSyncDisplayDto[] displays, uint flags = 0)
+    parameters:
+    - id: displays
+      type: NVAPIWrapper.NVAPIGSyncDisplayDto[]
+      description: Display DTO array.
+    - id: flags
+      type: System.UInt32
+      description: Flags for the operation.
+    return:
+      type: System.Nullable{System.Boolean}
+      description: True if applied, null if unsupported.
+    content.vb: Public Function SetSyncStateSettings(displays As NVAPIGSyncDisplayDto(), flags As UInteger = 0) As Boolean?
+  overload: NVAPIWrapper.NVAPIQuadroGSyncHelper.SetSyncStateSettings*
+  nameWithType.vb: NVAPIQuadroGSyncHelper.SetSyncStateSettings(NVAPIGSyncDisplayDto(), UInteger)
+  fullName.vb: NVAPIWrapper.NVAPIQuadroGSyncHelper.SetSyncStateSettings(NVAPIWrapper.NVAPIGSyncDisplayDto(), UInteger)
+  name.vb: SetSyncStateSettings(NVAPIGSyncDisplayDto(), UInteger)
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.Dispose
+  commentId: M:NVAPIWrapper.NVAPIQuadroGSyncHelper.Dispose
+  id: Dispose
+  parent: NVAPIWrapper.NVAPIQuadroGSyncHelper
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: NVAPIQuadroGSyncHelper.Dispose()
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.Dispose()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Dispose
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 396
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Dispose the helper.
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: NVAPIWrapper.NVAPIQuadroGSyncHelper.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateCapabilities*
+  commentId: Overload:NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateCapabilities
+  href: NVAPIWrapper.NVAPIQuadroGSyncHelper.html#NVAPIWrapper_NVAPIQuadroGSyncHelper_CreateCapabilities
+  name: CreateCapabilities
+  nameWithType: NVAPIQuadroGSyncHelper.CreateCapabilities
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateCapabilities
+- uid: NVAPIWrapper._NV_GSYNC_CAPABILITIES_V3
+  commentId: T:NVAPIWrapper._NV_GSYNC_CAPABILITIES_V3
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GSYNC_CAPABILITIES_V3.html
+  name: _NV_GSYNC_CAPABILITIES_V3
+  nameWithType: _NV_GSYNC_CAPABILITIES_V3
+  fullName: NVAPIWrapper._NV_GSYNC_CAPABILITIES_V3
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateControlParameters*
+  commentId: Overload:NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateControlParameters
+  href: NVAPIWrapper.NVAPIQuadroGSyncHelper.html#NVAPIWrapper_NVAPIQuadroGSyncHelper_CreateControlParameters
+  name: CreateControlParameters
+  nameWithType: NVAPIQuadroGSyncHelper.CreateControlParameters
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateControlParameters
+- uid: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2
+  commentId: T:NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.html
+  name: _NV_GSYNC_CONTROL_PARAMS_V2
+  nameWithType: _NV_GSYNC_CONTROL_PARAMS_V2
+  fullName: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateDelay*
+  commentId: Overload:NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateDelay
+  href: NVAPIWrapper.NVAPIQuadroGSyncHelper.html#NVAPIWrapper_NVAPIQuadroGSyncHelper_CreateDelay
+  name: CreateDelay
+  nameWithType: NVAPIQuadroGSyncHelper.CreateDelay
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateDelay
+- uid: NVAPIWrapper._NV_GSYNC_DELAY
+  commentId: T:NVAPIWrapper._NV_GSYNC_DELAY
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GSYNC_DELAY.html
+  name: _NV_GSYNC_DELAY
+  nameWithType: _NV_GSYNC_DELAY
+  fullName: NVAPIWrapper._NV_GSYNC_DELAY
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateSyncStatus*
+  commentId: Overload:NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateSyncStatus
+  href: NVAPIWrapper.NVAPIQuadroGSyncHelper.html#NVAPIWrapper_NVAPIQuadroGSyncHelper_CreateSyncStatus
+  name: CreateSyncStatus
+  nameWithType: NVAPIQuadroGSyncHelper.CreateSyncStatus
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateSyncStatus
+- uid: NVAPIWrapper._NV_GSYNC_STATUS
+  commentId: T:NVAPIWrapper._NV_GSYNC_STATUS
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GSYNC_STATUS.html
+  name: _NV_GSYNC_STATUS
+  nameWithType: _NV_GSYNC_STATUS
+  fullName: NVAPIWrapper._NV_GSYNC_STATUS
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateStatusParameters*
+  commentId: Overload:NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateStatusParameters
+  href: NVAPIWrapper.NVAPIQuadroGSyncHelper.html#NVAPIWrapper_NVAPIQuadroGSyncHelper_CreateStatusParameters
+  name: CreateStatusParameters
+  nameWithType: NVAPIQuadroGSyncHelper.CreateStatusParameters
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateStatusParameters
+- uid: NVAPIWrapper._NV_GSYNC_STATUS_PARAMS_V2
+  commentId: T:NVAPIWrapper._NV_GSYNC_STATUS_PARAMS_V2
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GSYNC_STATUS_PARAMS_V2.html
+  name: _NV_GSYNC_STATUS_PARAMS_V2
+  nameWithType: _NV_GSYNC_STATUS_PARAMS_V2
+  fullName: NVAPIWrapper._NV_GSYNC_STATUS_PARAMS_V2
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateGSyncGpu*
+  commentId: Overload:NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateGSyncGpu
+  href: NVAPIWrapper.NVAPIQuadroGSyncHelper.html#NVAPIWrapper_NVAPIQuadroGSyncHelper_CreateGSyncGpu
+  name: CreateGSyncGpu
+  nameWithType: NVAPIQuadroGSyncHelper.CreateGSyncGpu
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateGSyncGpu
+- uid: NVAPIWrapper._NV_GSYNC_GPU
+  commentId: T:NVAPIWrapper._NV_GSYNC_GPU
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GSYNC_GPU.html
+  name: _NV_GSYNC_GPU
+  nameWithType: _NV_GSYNC_GPU
+  fullName: NVAPIWrapper._NV_GSYNC_GPU
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateGSyncDisplay*
+  commentId: Overload:NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateGSyncDisplay
+  href: NVAPIWrapper.NVAPIQuadroGSyncHelper.html#NVAPIWrapper_NVAPIQuadroGSyncHelper_CreateGSyncDisplay
+  name: CreateGSyncDisplay
+  nameWithType: NVAPIQuadroGSyncHelper.CreateGSyncDisplay
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.CreateGSyncDisplay
+- uid: NVAPIWrapper._NV_GSYNC_DISPLAY
+  commentId: T:NVAPIWrapper._NV_GSYNC_DISPLAY
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GSYNC_DISPLAY.html
+  name: _NV_GSYNC_DISPLAY
+  nameWithType: _NV_GSYNC_DISPLAY
+  fullName: NVAPIWrapper._NV_GSYNC_DISPLAY
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.QueryCapabilities*
+  commentId: Overload:NVAPIWrapper.NVAPIQuadroGSyncHelper.QueryCapabilities
+  href: NVAPIWrapper.NVAPIQuadroGSyncHelper.html#NVAPIWrapper_NVAPIQuadroGSyncHelper_QueryCapabilities
+  name: QueryCapabilities
+  nameWithType: NVAPIQuadroGSyncHelper.QueryCapabilities
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.QueryCapabilities
+- uid: System.Nullable{NVAPIWrapper.NVAPIGSyncCapabilitiesDto}
+  commentId: T:System.Nullable{NVAPIWrapper.NVAPIGSyncCapabilitiesDto}
+  parent: System
+  definition: System.Nullable`1
+  href: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.html
+  name: NVAPIGSyncCapabilitiesDto?
+  nameWithType: NVAPIGSyncCapabilitiesDto?
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto?
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+    name: NVAPIGSyncCapabilitiesDto
+    href: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.html
+  - name: '?'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+    name: NVAPIGSyncCapabilitiesDto
+    href: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.GetTopology*
+  commentId: Overload:NVAPIWrapper.NVAPIQuadroGSyncHelper.GetTopology
+  href: NVAPIWrapper.NVAPIQuadroGSyncHelper.html#NVAPIWrapper_NVAPIQuadroGSyncHelper_GetTopology
+  name: GetTopology
+  nameWithType: NVAPIQuadroGSyncHelper.GetTopology
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.GetTopology
+- uid: System.Nullable{NVAPIWrapper.NVAPIGSyncTopologyDto}
+  commentId: T:System.Nullable{NVAPIWrapper.NVAPIGSyncTopologyDto}
+  parent: System
+  definition: System.Nullable`1
+  href: NVAPIWrapper.NVAPIGSyncTopologyDto.html
+  name: NVAPIGSyncTopologyDto?
+  nameWithType: NVAPIGSyncTopologyDto?
+  fullName: NVAPIWrapper.NVAPIGSyncTopologyDto?
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIGSyncTopologyDto
+    name: NVAPIGSyncTopologyDto
+    href: NVAPIWrapper.NVAPIGSyncTopologyDto.html
+  - name: '?'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIGSyncTopologyDto
+    name: NVAPIGSyncTopologyDto
+    href: NVAPIWrapper.NVAPIGSyncTopologyDto.html
+  - name: '?'
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.GetControlParameters*
+  commentId: Overload:NVAPIWrapper.NVAPIQuadroGSyncHelper.GetControlParameters
+  href: NVAPIWrapper.NVAPIQuadroGSyncHelper.html#NVAPIWrapper_NVAPIQuadroGSyncHelper_GetControlParameters
+  name: GetControlParameters
+  nameWithType: NVAPIQuadroGSyncHelper.GetControlParameters
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.GetControlParameters
+- uid: System.Nullable{NVAPIWrapper.NVAPIGSyncControlParametersDto}
+  commentId: T:System.Nullable{NVAPIWrapper.NVAPIGSyncControlParametersDto}
+  parent: System
+  definition: System.Nullable`1
+  href: NVAPIWrapper.NVAPIGSyncControlParametersDto.html
+  name: NVAPIGSyncControlParametersDto?
+  nameWithType: NVAPIGSyncControlParametersDto?
+  fullName: NVAPIWrapper.NVAPIGSyncControlParametersDto?
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIGSyncControlParametersDto
+    name: NVAPIGSyncControlParametersDto
+    href: NVAPIWrapper.NVAPIGSyncControlParametersDto.html
+  - name: '?'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIGSyncControlParametersDto
+    name: NVAPIGSyncControlParametersDto
+    href: NVAPIWrapper.NVAPIGSyncControlParametersDto.html
+  - name: '?'
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.SetControlParameters*
+  commentId: Overload:NVAPIWrapper.NVAPIQuadroGSyncHelper.SetControlParameters
+  href: NVAPIWrapper.NVAPIQuadroGSyncHelper.html#NVAPIWrapper_NVAPIQuadroGSyncHelper_SetControlParameters_NVAPIWrapper_NVAPIGSyncControlParametersDto_
+  name: SetControlParameters
+  nameWithType: NVAPIQuadroGSyncHelper.SetControlParameters
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.SetControlParameters
+- uid: NVAPIWrapper.NVAPIGSyncControlParametersDto
+  commentId: T:NVAPIWrapper.NVAPIGSyncControlParametersDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIGSyncControlParametersDto.html
+  name: NVAPIGSyncControlParametersDto
+  nameWithType: NVAPIGSyncControlParametersDto
+  fullName: NVAPIWrapper.NVAPIGSyncControlParametersDto
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool?
+  nameWithType: bool?
+  fullName: bool?
+  nameWithType.vb: Boolean?
+  fullName.vb: Boolean?
+  name.vb: Boolean?
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.AdjustSyncDelay*
+  commentId: Overload:NVAPIWrapper.NVAPIQuadroGSyncHelper.AdjustSyncDelay
+  href: NVAPIWrapper.NVAPIQuadroGSyncHelper.html#NVAPIWrapper_NVAPIQuadroGSyncHelper_AdjustSyncDelay_NVAPIWrapper__NVAPI_GSYNC_DELAY_TYPE_NVAPIWrapper_NVAPIGSyncDelayDto_
+  name: AdjustSyncDelay
+  nameWithType: NVAPIQuadroGSyncHelper.AdjustSyncDelay
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.AdjustSyncDelay
+- uid: NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE
+  commentId: T:NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE.html
+  name: _NVAPI_GSYNC_DELAY_TYPE
+  nameWithType: _NVAPI_GSYNC_DELAY_TYPE
+  fullName: NVAPIWrapper._NVAPI_GSYNC_DELAY_TYPE
+- uid: NVAPIWrapper.NVAPIGSyncDelayDto
+  commentId: T:NVAPIWrapper.NVAPIGSyncDelayDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIGSyncDelayDto.html
+  name: NVAPIGSyncDelayDto
+  nameWithType: NVAPIGSyncDelayDto
+  fullName: NVAPIWrapper.NVAPIGSyncDelayDto
+- uid: System.Nullable{NVAPIWrapper.NVAPIGSyncAdjustedDelayDto}
+  commentId: T:System.Nullable{NVAPIWrapper.NVAPIGSyncAdjustedDelayDto}
+  parent: System
+  definition: System.Nullable`1
+  href: NVAPIWrapper.NVAPIGSyncAdjustedDelayDto.html
+  name: NVAPIGSyncAdjustedDelayDto?
+  nameWithType: NVAPIGSyncAdjustedDelayDto?
+  fullName: NVAPIWrapper.NVAPIGSyncAdjustedDelayDto?
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIGSyncAdjustedDelayDto
+    name: NVAPIGSyncAdjustedDelayDto
+    href: NVAPIWrapper.NVAPIGSyncAdjustedDelayDto.html
+  - name: '?'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIGSyncAdjustedDelayDto
+    name: NVAPIGSyncAdjustedDelayDto
+    href: NVAPIWrapper.NVAPIGSyncAdjustedDelayDto.html
+  - name: '?'
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.GetSyncStatus*
+  commentId: Overload:NVAPIWrapper.NVAPIQuadroGSyncHelper.GetSyncStatus
+  href: NVAPIWrapper.NVAPIQuadroGSyncHelper.html#NVAPIWrapper_NVAPIQuadroGSyncHelper_GetSyncStatus_NVAPIWrapper_NVAPIPhysicalGpuHelper_
+  name: GetSyncStatus
+  nameWithType: NVAPIQuadroGSyncHelper.GetSyncStatus
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.GetSyncStatus
+- uid: NVAPIWrapper.NVAPIPhysicalGpuHelper
+  commentId: T:NVAPIWrapper.NVAPIPhysicalGpuHelper
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIPhysicalGpuHelper.html
+  name: NVAPIPhysicalGpuHelper
+  nameWithType: NVAPIPhysicalGpuHelper
+  fullName: NVAPIWrapper.NVAPIPhysicalGpuHelper
+- uid: System.Nullable{NVAPIWrapper.NVAPIGSyncSyncStatusDto}
+  commentId: T:System.Nullable{NVAPIWrapper.NVAPIGSyncSyncStatusDto}
+  parent: System
+  definition: System.Nullable`1
+  href: NVAPIWrapper.NVAPIGSyncSyncStatusDto.html
+  name: NVAPIGSyncSyncStatusDto?
+  nameWithType: NVAPIGSyncSyncStatusDto?
+  fullName: NVAPIWrapper.NVAPIGSyncSyncStatusDto?
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIGSyncSyncStatusDto
+    name: NVAPIGSyncSyncStatusDto
+    href: NVAPIWrapper.NVAPIGSyncSyncStatusDto.html
+  - name: '?'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIGSyncSyncStatusDto
+    name: NVAPIGSyncSyncStatusDto
+    href: NVAPIWrapper.NVAPIGSyncSyncStatusDto.html
+  - name: '?'
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.GetStatusParameters*
+  commentId: Overload:NVAPIWrapper.NVAPIQuadroGSyncHelper.GetStatusParameters
+  href: NVAPIWrapper.NVAPIQuadroGSyncHelper.html#NVAPIWrapper_NVAPIQuadroGSyncHelper_GetStatusParameters
+  name: GetStatusParameters
+  nameWithType: NVAPIQuadroGSyncHelper.GetStatusParameters
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.GetStatusParameters
+- uid: System.Nullable{NVAPIWrapper.NVAPIGSyncStatusParametersDto}
+  commentId: T:System.Nullable{NVAPIWrapper.NVAPIGSyncStatusParametersDto}
+  parent: System
+  definition: System.Nullable`1
+  href: NVAPIWrapper.NVAPIGSyncStatusParametersDto.html
+  name: NVAPIGSyncStatusParametersDto?
+  nameWithType: NVAPIGSyncStatusParametersDto?
+  fullName: NVAPIWrapper.NVAPIGSyncStatusParametersDto?
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+    name: NVAPIGSyncStatusParametersDto
+    href: NVAPIWrapper.NVAPIGSyncStatusParametersDto.html
+  - name: '?'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIGSyncStatusParametersDto
+    name: NVAPIGSyncStatusParametersDto
+    href: NVAPIWrapper.NVAPIGSyncStatusParametersDto.html
+  - name: '?'
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.SetSyncStateSettings*
+  commentId: Overload:NVAPIWrapper.NVAPIQuadroGSyncHelper.SetSyncStateSettings
+  href: NVAPIWrapper.NVAPIQuadroGSyncHelper.html#NVAPIWrapper_NVAPIQuadroGSyncHelper_SetSyncStateSettings_NVAPIWrapper_NVAPIGSyncDisplayDto___System_UInt32_
+  name: SetSyncStateSettings
+  nameWithType: NVAPIQuadroGSyncHelper.SetSyncStateSettings
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.SetSyncStateSettings
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto[]
+  isExternal: true
+  href: NVAPIWrapper.NVAPIGSyncDisplayDto.html
+  name: NVAPIGSyncDisplayDto[]
+  nameWithType: NVAPIGSyncDisplayDto[]
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto[]
+  nameWithType.vb: NVAPIGSyncDisplayDto()
+  fullName.vb: NVAPIWrapper.NVAPIGSyncDisplayDto()
+  name.vb: NVAPIGSyncDisplayDto()
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIGSyncDisplayDto
+    name: NVAPIGSyncDisplayDto
+    href: NVAPIWrapper.NVAPIGSyncDisplayDto.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIGSyncDisplayDto
+    name: NVAPIGSyncDisplayDto
+    href: NVAPIWrapper.NVAPIGSyncDisplayDto.html
+  - name: (
+  - name: )
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NVAPIQuadroGSyncHelper.Dispose*
+  commentId: Overload:NVAPIWrapper.NVAPIQuadroGSyncHelper.Dispose
+  href: NVAPIWrapper.NVAPIQuadroGSyncHelper.html#NVAPIWrapper_NVAPIQuadroGSyncHelper_Dispose
+  name: Dispose
+  nameWithType: NVAPIQuadroGSyncHelper.Dispose
+  fullName: NVAPIWrapper.NVAPIQuadroGSyncHelper.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )

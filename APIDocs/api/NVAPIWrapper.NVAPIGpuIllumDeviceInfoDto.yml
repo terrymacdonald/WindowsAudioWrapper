@@ -1,0 +1,933 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+  commentId: T:NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+  id: NVAPIGpuIllumDeviceInfoDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.#ctor(NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_TYPE,System.UInt32,System.Byte[])
+  - NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.CtrlModeMask
+  - NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.DataRawBytes
+  - NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Equals(NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+  - NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.FromNative(NVAPIWrapper._NV_GPU_CLIENT_ILLUM_DEVICE_INFO_V1)
+  - NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.GetHashCode
+  - NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.ToNative
+  - NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Type
+  - NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.op_Equality(NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto,NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+  - NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.op_Inequality(NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto,NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGpuIllumDeviceInfoDto
+  nameWithType: NVAPIGpuIllumDeviceInfoDto
+  fullName: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIGpuIllumDeviceInfoDto
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3306
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Per-device illumination info DTO, wrapping <xref href="NVAPIWrapper._NV_GPU_CLIENT_ILLUM_DEVICE_INFO_V1" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public struct NVAPIGpuIllumDeviceInfoDto : IEquatable<NVAPIGpuIllumDeviceInfoDto>'
+    content.vb: Public Structure NVAPIGpuIllumDeviceInfoDto Implements IEquatable(Of NVAPIGpuIllumDeviceInfoDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Type
+  commentId: P:NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Type
+  id: Type
+  parent: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: NVAPIGpuIllumDeviceInfoDto.Type
+  fullName: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Type
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Type
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3309
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Type of illumination device.
+  example: []
+  syntax:
+    content: public NV_GPU_CLIENT_ILLUM_DEVICE_TYPE Type { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_TYPE
+    content.vb: Public Property Type As NV_GPU_CLIENT_ILLUM_DEVICE_TYPE
+  overload: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Type*
+- uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.CtrlModeMask
+  commentId: P:NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.CtrlModeMask
+  id: CtrlModeMask
+  parent: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+  langs:
+  - csharp
+  - vb
+  name: CtrlModeMask
+  nameWithType: NVAPIGpuIllumDeviceInfoDto.CtrlModeMask
+  fullName: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.CtrlModeMask
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CtrlModeMask
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3311
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Bitmask of supported control modes.
+  example: []
+  syntax:
+    content: public uint CtrlModeMask { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property CtrlModeMask As UInteger
+  overload: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.CtrlModeMask*
+- uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.DataRawBytes
+  commentId: P:NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.DataRawBytes
+  id: DataRawBytes
+  parent: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+  langs:
+  - csharp
+  - vb
+  name: DataRawBytes
+  nameWithType: NVAPIGpuIllumDeviceInfoDto.DataRawBytes
+  fullName: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.DataRawBytes
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: DataRawBytes
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3316
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: >-
+    Raw bytes for the type-discriminated union <code>data</code> field (64 bytes).
+
+    Interpret using <xref href="NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Type" data-throw-if-not-resolved="false"></xref> to select the appropriate union member.
+  example: []
+  syntax:
+    content: public byte[] DataRawBytes { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property DataRawBytes As Byte()
+  overload: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.DataRawBytes*
+- uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.#ctor(NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_TYPE,System.UInt32,System.Byte[])
+  commentId: M:NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.#ctor(NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_TYPE,System.UInt32,System.Byte[])
+  id: '#ctor(NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_TYPE,System.UInt32,System.Byte[])'
+  parent: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGpuIllumDeviceInfoDto(NV_GPU_CLIENT_ILLUM_DEVICE_TYPE, uint, byte[])
+  nameWithType: NVAPIGpuIllumDeviceInfoDto.NVAPIGpuIllumDeviceInfoDto(NV_GPU_CLIENT_ILLUM_DEVICE_TYPE, uint, byte[])
+  fullName: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.NVAPIGpuIllumDeviceInfoDto(NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_TYPE, uint, byte[])
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3319
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Initializes a new instance of <xref href="NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public NVAPIGpuIllumDeviceInfoDto(NV_GPU_CLIENT_ILLUM_DEVICE_TYPE type, uint ctrlModeMask, byte[] dataRawBytes)
+    parameters:
+    - id: type
+      type: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_TYPE
+    - id: ctrlModeMask
+      type: System.UInt32
+    - id: dataRawBytes
+      type: System.Byte[]
+    content.vb: Public Sub New(type As NV_GPU_CLIENT_ILLUM_DEVICE_TYPE, ctrlModeMask As UInteger, dataRawBytes As Byte())
+  overload: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.#ctor*
+  nameWithType.vb: NVAPIGpuIllumDeviceInfoDto.New(NV_GPU_CLIENT_ILLUM_DEVICE_TYPE, UInteger, Byte())
+  fullName.vb: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.New(NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_TYPE, UInteger, Byte())
+  name.vb: New(NV_GPU_CLIENT_ILLUM_DEVICE_TYPE, UInteger, Byte())
+- uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.FromNative(NVAPIWrapper._NV_GPU_CLIENT_ILLUM_DEVICE_INFO_V1)
+  commentId: M:NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.FromNative(NVAPIWrapper._NV_GPU_CLIENT_ILLUM_DEVICE_INFO_V1)
+  id: FromNative(NVAPIWrapper._NV_GPU_CLIENT_ILLUM_DEVICE_INFO_V1)
+  parent: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(_NV_GPU_CLIENT_ILLUM_DEVICE_INFO_V1)
+  nameWithType: NVAPIGpuIllumDeviceInfoDto.FromNative(_NV_GPU_CLIENT_ILLUM_DEVICE_INFO_V1)
+  fullName: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.FromNative(NVAPIWrapper._NV_GPU_CLIENT_ILLUM_DEVICE_INFO_V1)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3327
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Creates a DTO from the native <xref href="NVAPIWrapper._NV_GPU_CLIENT_ILLUM_DEVICE_INFO_V1" data-throw-if-not-resolved="false"></xref> struct.
+  example: []
+  syntax:
+    content: public static NVAPIGpuIllumDeviceInfoDto FromNative(_NV_GPU_CLIENT_ILLUM_DEVICE_INFO_V1 native)
+    parameters:
+    - id: native
+      type: NVAPIWrapper._NV_GPU_CLIENT_ILLUM_DEVICE_INFO_V1
+    return:
+      type: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+    content.vb: Public Shared Function FromNative(native As _NV_GPU_CLIENT_ILLUM_DEVICE_INFO_V1) As NVAPIGpuIllumDeviceInfoDto
+  overload: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.FromNative*
+- uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.ToNative
+  commentId: M:NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.ToNative
+  id: ToNative
+  parent: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: NVAPIGpuIllumDeviceInfoDto.ToNative()
+  fullName: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3334
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Converts this DTO back to the native <xref href="NVAPIWrapper._NV_GPU_CLIENT_ILLUM_DEVICE_INFO_V1" data-throw-if-not-resolved="false"></xref> struct.
+  example: []
+  syntax:
+    content: public _NV_GPU_CLIENT_ILLUM_DEVICE_INFO_V1 ToNative()
+    return:
+      type: NVAPIWrapper._NV_GPU_CLIENT_ILLUM_DEVICE_INFO_V1
+    content.vb: Public Function ToNative() As _NV_GPU_CLIENT_ILLUM_DEVICE_INFO_V1
+  overload: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.ToNative*
+- uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Equals(NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Equals(NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+  id: Equals(NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+  parent: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIGpuIllumDeviceInfoDto)
+  nameWithType: NVAPIGpuIllumDeviceInfoDto.Equals(NVAPIGpuIllumDeviceInfoDto)
+  fullName: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Equals(NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3347
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIGpuIllumDeviceInfoDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As NVAPIGpuIllumDeviceInfoDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto}.Equals(NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+- uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIGpuIllumDeviceInfoDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3354
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Equals*
+  nameWithType.vb: NVAPIGpuIllumDeviceInfoDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIGpuIllumDeviceInfoDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3356
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.op_Equality(NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto,NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.op_Equality(NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto,NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+  id: op_Equality(NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto,NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+  parent: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIGpuIllumDeviceInfoDto, NVAPIGpuIllumDeviceInfoDto)
+  nameWithType: NVAPIGpuIllumDeviceInfoDto.operator ==(NVAPIGpuIllumDeviceInfoDto, NVAPIGpuIllumDeviceInfoDto)
+  fullName: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.operator ==(NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto, NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3358
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Equality operator.
+  example: []
+  syntax:
+    content: public static bool operator ==(NVAPIGpuIllumDeviceInfoDto left, NVAPIGpuIllumDeviceInfoDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+    - id: right
+      type: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As NVAPIGpuIllumDeviceInfoDto, right As NVAPIGpuIllumDeviceInfoDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.op_Equality*
+  nameWithType.vb: NVAPIGpuIllumDeviceInfoDto.=(NVAPIGpuIllumDeviceInfoDto, NVAPIGpuIllumDeviceInfoDto)
+  fullName.vb: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.=(NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto, NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+  name.vb: =(NVAPIGpuIllumDeviceInfoDto, NVAPIGpuIllumDeviceInfoDto)
+- uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.op_Inequality(NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto,NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.op_Inequality(NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto,NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto,NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+  parent: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIGpuIllumDeviceInfoDto, NVAPIGpuIllumDeviceInfoDto)
+  nameWithType: NVAPIGpuIllumDeviceInfoDto.operator !=(NVAPIGpuIllumDeviceInfoDto, NVAPIGpuIllumDeviceInfoDto)
+  fullName: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.operator !=(NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto, NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3360
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Inequality operator.
+  example: []
+  syntax:
+    content: public static bool operator !=(NVAPIGpuIllumDeviceInfoDto left, NVAPIGpuIllumDeviceInfoDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+    - id: right
+      type: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As NVAPIGpuIllumDeviceInfoDto, right As NVAPIGpuIllumDeviceInfoDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.op_Inequality*
+  nameWithType.vb: NVAPIGpuIllumDeviceInfoDto.<>(NVAPIGpuIllumDeviceInfoDto, NVAPIGpuIllumDeviceInfoDto)
+  fullName.vb: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.<>(NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto, NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+  name.vb: <>(NVAPIGpuIllumDeviceInfoDto, NVAPIGpuIllumDeviceInfoDto)
+references:
+- uid: NVAPIWrapper._NV_GPU_CLIENT_ILLUM_DEVICE_INFO_V1
+  commentId: T:NVAPIWrapper._NV_GPU_CLIENT_ILLUM_DEVICE_INFO_V1
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_CLIENT_ILLUM_DEVICE_INFO_V1.html
+  name: _NV_GPU_CLIENT_ILLUM_DEVICE_INFO_V1
+  nameWithType: _NV_GPU_CLIENT_ILLUM_DEVICE_INFO_V1
+  fullName: NVAPIWrapper._NV_GPU_CLIENT_ILLUM_DEVICE_INFO_V1
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIGpuIllumDeviceInfoDto>
+  nameWithType: IEquatable<NVAPIGpuIllumDeviceInfoDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto>
+  nameWithType.vb: IEquatable(Of NVAPIGpuIllumDeviceInfoDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+  name.vb: IEquatable(Of NVAPIGpuIllumDeviceInfoDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+    name: NVAPIGpuIllumDeviceInfoDto
+    href: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+    name: NVAPIGpuIllumDeviceInfoDto
+    href: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Type*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Type
+  href: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.html#NVAPIWrapper_NVAPIGpuIllumDeviceInfoDto_Type
+  name: Type
+  nameWithType: NVAPIGpuIllumDeviceInfoDto.Type
+  fullName: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Type
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_TYPE
+  commentId: T:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_TYPE.html
+  name: NV_GPU_CLIENT_ILLUM_DEVICE_TYPE
+  nameWithType: NV_GPU_CLIENT_ILLUM_DEVICE_TYPE
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_DEVICE_TYPE
+- uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.CtrlModeMask*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.CtrlModeMask
+  href: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.html#NVAPIWrapper_NVAPIGpuIllumDeviceInfoDto_CtrlModeMask
+  name: CtrlModeMask
+  nameWithType: NVAPIGpuIllumDeviceInfoDto.CtrlModeMask
+  fullName: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.CtrlModeMask
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Type
+  commentId: P:NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Type
+  href: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.html#NVAPIWrapper_NVAPIGpuIllumDeviceInfoDto_Type
+  name: Type
+  nameWithType: NVAPIGpuIllumDeviceInfoDto.Type
+  fullName: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Type
+- uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.DataRawBytes*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.DataRawBytes
+  href: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.html#NVAPIWrapper_NVAPIGpuIllumDeviceInfoDto_DataRawBytes
+  name: DataRawBytes
+  nameWithType: NVAPIGpuIllumDeviceInfoDto.DataRawBytes
+  fullName: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.DataRawBytes
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+  commentId: T:NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.html
+  name: NVAPIGpuIllumDeviceInfoDto
+  nameWithType: NVAPIGpuIllumDeviceInfoDto
+  fullName: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+- uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.#ctor
+  href: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.html#NVAPIWrapper_NVAPIGpuIllumDeviceInfoDto__ctor_NVAPIWrapper_NV_GPU_CLIENT_ILLUM_DEVICE_TYPE_System_UInt32_System_Byte___
+  name: NVAPIGpuIllumDeviceInfoDto
+  nameWithType: NVAPIGpuIllumDeviceInfoDto.NVAPIGpuIllumDeviceInfoDto
+  fullName: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.NVAPIGpuIllumDeviceInfoDto
+  nameWithType.vb: NVAPIGpuIllumDeviceInfoDto.New
+  fullName.vb: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.FromNative
+  href: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.html#NVAPIWrapper_NVAPIGpuIllumDeviceInfoDto_FromNative_NVAPIWrapper__NV_GPU_CLIENT_ILLUM_DEVICE_INFO_V1_
+  name: FromNative
+  nameWithType: NVAPIGpuIllumDeviceInfoDto.FromNative
+  fullName: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.FromNative
+- uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.ToNative
+  href: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.html#NVAPIWrapper_NVAPIGpuIllumDeviceInfoDto_ToNative
+  name: ToNative
+  nameWithType: NVAPIGpuIllumDeviceInfoDto.ToNative
+  fullName: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.ToNative
+- uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Equals
+  href: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.html#NVAPIWrapper_NVAPIGpuIllumDeviceInfoDto_Equals_NVAPIWrapper_NVAPIGpuIllumDeviceInfoDto_
+  name: Equals
+  nameWithType: NVAPIGpuIllumDeviceInfoDto.Equals
+  fullName: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto}.Equals(NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto}.Equals(NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIGpuIllumDeviceInfoDto)
+  nameWithType: IEquatable<NVAPIGpuIllumDeviceInfoDto>.Equals(NVAPIGpuIllumDeviceInfoDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto>.Equals(NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+  nameWithType.vb: IEquatable(Of NVAPIGpuIllumDeviceInfoDto).Equals(NVAPIGpuIllumDeviceInfoDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto).Equals(NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto}.Equals(NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+    name: NVAPIGpuIllumDeviceInfoDto
+    href: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto}.Equals(NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto
+    name: NVAPIGpuIllumDeviceInfoDto
+    href: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.html
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.GetHashCode
+  href: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.html#NVAPIWrapper_NVAPIGpuIllumDeviceInfoDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIGpuIllumDeviceInfoDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.op_Equality
+  href: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.html#NVAPIWrapper_NVAPIGpuIllumDeviceInfoDto_op_Equality_NVAPIWrapper_NVAPIGpuIllumDeviceInfoDto_NVAPIWrapper_NVAPIGpuIllumDeviceInfoDto_
+  name: operator ==
+  nameWithType: NVAPIGpuIllumDeviceInfoDto.operator ==
+  fullName: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.operator ==
+  nameWithType.vb: NVAPIGpuIllumDeviceInfoDto.=
+  fullName.vb: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.html#NVAPIWrapper_NVAPIGpuIllumDeviceInfoDto_op_Equality_NVAPIWrapper_NVAPIGpuIllumDeviceInfoDto_NVAPIWrapper_NVAPIGpuIllumDeviceInfoDto_
+- uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.op_Inequality
+  href: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.html#NVAPIWrapper_NVAPIGpuIllumDeviceInfoDto_op_Inequality_NVAPIWrapper_NVAPIGpuIllumDeviceInfoDto_NVAPIWrapper_NVAPIGpuIllumDeviceInfoDto_
+  name: operator !=
+  nameWithType: NVAPIGpuIllumDeviceInfoDto.operator !=
+  fullName: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.operator !=
+  nameWithType.vb: NVAPIGpuIllumDeviceInfoDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIGpuIllumDeviceInfoDto.html#NVAPIWrapper_NVAPIGpuIllumDeviceInfoDto_op_Inequality_NVAPIWrapper_NVAPIGpuIllumDeviceInfoDto_NVAPIWrapper_NVAPIGpuIllumDeviceInfoDto_

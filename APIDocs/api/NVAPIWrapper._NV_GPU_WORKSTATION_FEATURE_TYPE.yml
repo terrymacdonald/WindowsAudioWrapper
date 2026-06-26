@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE
+  commentId: T:NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE
+  id: _NV_GPU_WORKSTATION_FEATURE_TYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE.NV_GPU_WORKSTATION_FEATURE_TYPE_NVIDIA_RTX_VR_READY
+  - NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE.NV_GPU_WORKSTATION_FEATURE_TYPE_PROVIZ
+  - NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE.NV_GPU_WORKSTATION_FEATURE_TYPE_QUADRO_VR_READY
+  langs:
+  - csharp
+  - vb
+  name: _NV_GPU_WORKSTATION_FEATURE_TYPE
+  nameWithType: _NV_GPU_WORKSTATION_FEATURE_TYPE
+  fullName: NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_WORKSTATION_FEATURE_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_GPU_WORKSTATION_FEATURE_TYPE
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_WORKSTATION_FEATURE_TYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_GPU_WORKSTATION_FEATURE_TYPE
+    content.vb: Public Enum _NV_GPU_WORKSTATION_FEATURE_TYPE
+- uid: NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE.NV_GPU_WORKSTATION_FEATURE_TYPE_NVIDIA_RTX_VR_READY
+  commentId: F:NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE.NV_GPU_WORKSTATION_FEATURE_TYPE_NVIDIA_RTX_VR_READY
+  id: NV_GPU_WORKSTATION_FEATURE_TYPE_NVIDIA_RTX_VR_READY
+  parent: NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_WORKSTATION_FEATURE_TYPE_NVIDIA_RTX_VR_READY
+  nameWithType: _NV_GPU_WORKSTATION_FEATURE_TYPE.NV_GPU_WORKSTATION_FEATURE_TYPE_NVIDIA_RTX_VR_READY
+  fullName: NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE.NV_GPU_WORKSTATION_FEATURE_TYPE_NVIDIA_RTX_VR_READY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_WORKSTATION_FEATURE_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_WORKSTATION_FEATURE_TYPE_NVIDIA_RTX_VR_READY
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_WORKSTATION_FEATURE_TYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_WORKSTATION_FEATURE_TYPE_NVIDIA_RTX_VR_READY = 1
+    return:
+      type: NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE
+- uid: NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE.NV_GPU_WORKSTATION_FEATURE_TYPE_QUADRO_VR_READY
+  commentId: F:NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE.NV_GPU_WORKSTATION_FEATURE_TYPE_QUADRO_VR_READY
+  id: NV_GPU_WORKSTATION_FEATURE_TYPE_QUADRO_VR_READY
+  parent: NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_WORKSTATION_FEATURE_TYPE_QUADRO_VR_READY
+  nameWithType: _NV_GPU_WORKSTATION_FEATURE_TYPE.NV_GPU_WORKSTATION_FEATURE_TYPE_QUADRO_VR_READY
+  fullName: NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE.NV_GPU_WORKSTATION_FEATURE_TYPE_QUADRO_VR_READY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_WORKSTATION_FEATURE_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_WORKSTATION_FEATURE_TYPE_QUADRO_VR_READY
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_WORKSTATION_FEATURE_TYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_WORKSTATION_FEATURE_TYPE_QUADRO_VR_READY = 1
+    return:
+      type: NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE
+- uid: NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE.NV_GPU_WORKSTATION_FEATURE_TYPE_PROVIZ
+  commentId: F:NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE.NV_GPU_WORKSTATION_FEATURE_TYPE_PROVIZ
+  id: NV_GPU_WORKSTATION_FEATURE_TYPE_PROVIZ
+  parent: NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_WORKSTATION_FEATURE_TYPE_PROVIZ
+  nameWithType: _NV_GPU_WORKSTATION_FEATURE_TYPE.NV_GPU_WORKSTATION_FEATURE_TYPE_PROVIZ
+  fullName: NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE.NV_GPU_WORKSTATION_FEATURE_TYPE_PROVIZ
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_WORKSTATION_FEATURE_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_WORKSTATION_FEATURE_TYPE_PROVIZ
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_WORKSTATION_FEATURE_TYPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_WORKSTATION_FEATURE_TYPE_PROVIZ = 2
+    return:
+      type: NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE
+  commentId: T:NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE.html
+  name: _NV_GPU_WORKSTATION_FEATURE_TYPE
+  nameWithType: _NV_GPU_WORKSTATION_FEATURE_TYPE
+  fullName: NVAPIWrapper._NV_GPU_WORKSTATION_FEATURE_TYPE

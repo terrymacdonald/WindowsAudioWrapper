@@ -1,0 +1,491 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_CHIPSET_INFO_v2
+  commentId: T:NVAPIWrapper.NV_CHIPSET_INFO_v2
+  id: NV_CHIPSET_INFO_v2
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_CHIPSET_INFO_v2.deviceId
+  - NVAPIWrapper.NV_CHIPSET_INFO_v2.flags
+  - NVAPIWrapper.NV_CHIPSET_INFO_v2.szChipsetName
+  - NVAPIWrapper.NV_CHIPSET_INFO_v2.szVendorName
+  - NVAPIWrapper.NV_CHIPSET_INFO_v2.vendorId
+  - NVAPIWrapper.NV_CHIPSET_INFO_v2.version
+  langs:
+  - csharp
+  - vb
+  name: NV_CHIPSET_INFO_v2
+  nameWithType: NV_CHIPSET_INFO_v2
+  fullName: NVAPIWrapper.NV_CHIPSET_INFO_v2
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_CHIPSET_INFO_v2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_CHIPSET_INFO_v2
+    path: ../NVAPIWrapper/cs_generated/NV_CHIPSET_INFO_v2.cs
+    startLine: 5
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct NV_CHIPSET_INFO_v2
+    content.vb: Public Structure NV_CHIPSET_INFO_v2
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NV_CHIPSET_INFO_v2.version
+  commentId: F:NVAPIWrapper.NV_CHIPSET_INFO_v2.version
+  id: version
+  parent: NVAPIWrapper.NV_CHIPSET_INFO_v2
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: NV_CHIPSET_INFO_v2.version
+  fullName: NVAPIWrapper.NV_CHIPSET_INFO_v2.version
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_CHIPSET_INFO_v2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: version
+    path: ../NVAPIWrapper/cs_generated/NV_CHIPSET_INFO_v2.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint version
+    return:
+      type: System.UInt32
+    content.vb: Public version As UInteger
+- uid: NVAPIWrapper.NV_CHIPSET_INFO_v2.vendorId
+  commentId: F:NVAPIWrapper.NV_CHIPSET_INFO_v2.vendorId
+  id: vendorId
+  parent: NVAPIWrapper.NV_CHIPSET_INFO_v2
+  langs:
+  - csharp
+  - vb
+  name: vendorId
+  nameWithType: NV_CHIPSET_INFO_v2.vendorId
+  fullName: NVAPIWrapper.NV_CHIPSET_INFO_v2.vendorId
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_CHIPSET_INFO_v2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: vendorId
+    path: ../NVAPIWrapper/cs_generated/NV_CHIPSET_INFO_v2.cs
+    startLine: 13
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint vendorId
+    return:
+      type: System.UInt32
+    content.vb: Public vendorId As UInteger
+- uid: NVAPIWrapper.NV_CHIPSET_INFO_v2.deviceId
+  commentId: F:NVAPIWrapper.NV_CHIPSET_INFO_v2.deviceId
+  id: deviceId
+  parent: NVAPIWrapper.NV_CHIPSET_INFO_v2
+  langs:
+  - csharp
+  - vb
+  name: deviceId
+  nameWithType: NV_CHIPSET_INFO_v2.deviceId
+  fullName: NVAPIWrapper.NV_CHIPSET_INFO_v2.deviceId
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_CHIPSET_INFO_v2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: deviceId
+    path: ../NVAPIWrapper/cs_generated/NV_CHIPSET_INFO_v2.cs
+    startLine: 17
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint deviceId
+    return:
+      type: System.UInt32
+    content.vb: Public deviceId As UInteger
+- uid: NVAPIWrapper.NV_CHIPSET_INFO_v2.szVendorName
+  commentId: F:NVAPIWrapper.NV_CHIPSET_INFO_v2.szVendorName
+  id: szVendorName
+  parent: NVAPIWrapper.NV_CHIPSET_INFO_v2
+  langs:
+  - csharp
+  - vb
+  name: szVendorName
+  nameWithType: NV_CHIPSET_INFO_v2.szVendorName
+  fullName: NVAPIWrapper.NV_CHIPSET_INFO_v2.szVendorName
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_CHIPSET_INFO_v2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: szVendorName
+    path: ../NVAPIWrapper/cs_generated/NV_CHIPSET_INFO_v2.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public NV_CHIPSET_INFO_v2._szVendorName_e__FixedBuffer szVendorName
+    return:
+      type: NVAPIWrapper.NV_CHIPSET_INFO_v2._szVendorName_e__FixedBuffer
+    content.vb: Public szVendorName As NV_CHIPSET_INFO_v2._szVendorName_e__FixedBuffer
+- uid: NVAPIWrapper.NV_CHIPSET_INFO_v2.szChipsetName
+  commentId: F:NVAPIWrapper.NV_CHIPSET_INFO_v2.szChipsetName
+  id: szChipsetName
+  parent: NVAPIWrapper.NV_CHIPSET_INFO_v2
+  langs:
+  - csharp
+  - vb
+  name: szChipsetName
+  nameWithType: NV_CHIPSET_INFO_v2.szChipsetName
+  fullName: NVAPIWrapper.NV_CHIPSET_INFO_v2.szChipsetName
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_CHIPSET_INFO_v2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: szChipsetName
+    path: ../NVAPIWrapper/cs_generated/NV_CHIPSET_INFO_v2.cs
+    startLine: 25
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public NV_CHIPSET_INFO_v2._szChipsetName_e__FixedBuffer szChipsetName
+    return:
+      type: NVAPIWrapper.NV_CHIPSET_INFO_v2._szChipsetName_e__FixedBuffer
+    content.vb: Public szChipsetName As NV_CHIPSET_INFO_v2._szChipsetName_e__FixedBuffer
+- uid: NVAPIWrapper.NV_CHIPSET_INFO_v2.flags
+  commentId: F:NVAPIWrapper.NV_CHIPSET_INFO_v2.flags
+  id: flags
+  parent: NVAPIWrapper.NV_CHIPSET_INFO_v2
+  langs:
+  - csharp
+  - vb
+  name: flags
+  nameWithType: NV_CHIPSET_INFO_v2.flags
+  fullName: NVAPIWrapper.NV_CHIPSET_INFO_v2.flags
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_CHIPSET_INFO_v2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: flags
+    path: ../NVAPIWrapper/cs_generated/NV_CHIPSET_INFO_v2.cs
+    startLine: 29
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint flags
+    return:
+      type: System.UInt32
+    content.vb: Public flags As UInteger
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NV_CHIPSET_INFO_v2._szVendorName_e__FixedBuffer
+  commentId: T:NVAPIWrapper.NV_CHIPSET_INFO_v2._szVendorName_e__FixedBuffer
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_CHIPSET_INFO_v2.html
+  name: NV_CHIPSET_INFO_v2._szVendorName_e__FixedBuffer
+  nameWithType: NV_CHIPSET_INFO_v2._szVendorName_e__FixedBuffer
+  fullName: NVAPIWrapper.NV_CHIPSET_INFO_v2._szVendorName_e__FixedBuffer
+  spec.csharp:
+  - uid: NVAPIWrapper.NV_CHIPSET_INFO_v2
+    name: NV_CHIPSET_INFO_v2
+    href: NVAPIWrapper.NV_CHIPSET_INFO_v2.html
+  - name: .
+  - uid: NVAPIWrapper.NV_CHIPSET_INFO_v2._szVendorName_e__FixedBuffer
+    name: _szVendorName_e__FixedBuffer
+    href: NVAPIWrapper.NV_CHIPSET_INFO_v2._szVendorName_e__FixedBuffer.html
+  spec.vb:
+  - uid: NVAPIWrapper.NV_CHIPSET_INFO_v2
+    name: NV_CHIPSET_INFO_v2
+    href: NVAPIWrapper.NV_CHIPSET_INFO_v2.html
+  - name: .
+  - uid: NVAPIWrapper.NV_CHIPSET_INFO_v2._szVendorName_e__FixedBuffer
+    name: _szVendorName_e__FixedBuffer
+    href: NVAPIWrapper.NV_CHIPSET_INFO_v2._szVendorName_e__FixedBuffer.html
+- uid: NVAPIWrapper.NV_CHIPSET_INFO_v2._szChipsetName_e__FixedBuffer
+  commentId: T:NVAPIWrapper.NV_CHIPSET_INFO_v2._szChipsetName_e__FixedBuffer
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_CHIPSET_INFO_v2.html
+  name: NV_CHIPSET_INFO_v2._szChipsetName_e__FixedBuffer
+  nameWithType: NV_CHIPSET_INFO_v2._szChipsetName_e__FixedBuffer
+  fullName: NVAPIWrapper.NV_CHIPSET_INFO_v2._szChipsetName_e__FixedBuffer
+  spec.csharp:
+  - uid: NVAPIWrapper.NV_CHIPSET_INFO_v2
+    name: NV_CHIPSET_INFO_v2
+    href: NVAPIWrapper.NV_CHIPSET_INFO_v2.html
+  - name: .
+  - uid: NVAPIWrapper.NV_CHIPSET_INFO_v2._szChipsetName_e__FixedBuffer
+    name: _szChipsetName_e__FixedBuffer
+    href: NVAPIWrapper.NV_CHIPSET_INFO_v2._szChipsetName_e__FixedBuffer.html
+  spec.vb:
+  - uid: NVAPIWrapper.NV_CHIPSET_INFO_v2
+    name: NV_CHIPSET_INFO_v2
+    href: NVAPIWrapper.NV_CHIPSET_INFO_v2.html
+  - name: .
+  - uid: NVAPIWrapper.NV_CHIPSET_INFO_v2._szChipsetName_e__FixedBuffer
+    name: _szChipsetName_e__FixedBuffer
+    href: NVAPIWrapper.NV_CHIPSET_INFO_v2._szChipsetName_e__FixedBuffer.html

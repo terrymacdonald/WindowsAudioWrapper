@@ -1,0 +1,323 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+  commentId: T:NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+  id: EValues_SHIM_RENDERING_MODE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_AUTO_SELECT
+  - NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_DEFAULT
+  - NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_ENABLE
+  - NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_INTEGRATED
+  - NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_MASK
+  - NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_NUM_VALUES
+  - NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_OVERRIDE_BIT
+  - NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_USER_EDITABLE
+  - NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_VARYING_BIT
+  - NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_VIDEO_MASK
+  langs:
+  - csharp
+  - vb
+  name: EValues_SHIM_RENDERING_MODE
+  nameWithType: EValues_SHIM_RENDERING_MODE
+  fullName: NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SHIM_RENDERING_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_SHIM_RENDERING_MODE
+    path: ../NVAPIWrapper/cs_generated/EValues_SHIM_RENDERING_MODE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: 'public enum EValues_SHIM_RENDERING_MODE : uint'
+    content.vb: Public Enum EValues_SHIM_RENDERING_MODE As UInteger
+- uid: NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_INTEGRATED
+  commentId: F:NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_INTEGRATED
+  id: SHIM_RENDERING_MODE_INTEGRATED
+  parent: NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+  langs:
+  - csharp
+  - vb
+  name: SHIM_RENDERING_MODE_INTEGRATED
+  nameWithType: EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_INTEGRATED
+  fullName: NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_INTEGRATED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SHIM_RENDERING_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SHIM_RENDERING_MODE_INTEGRATED
+    path: ../NVAPIWrapper/cs_generated/EValues_SHIM_RENDERING_MODE.cs
+    startLine: 7
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SHIM_RENDERING_MODE_INTEGRATED = 0
+    return:
+      type: NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+- uid: NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_ENABLE
+  commentId: F:NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_ENABLE
+  id: SHIM_RENDERING_MODE_ENABLE
+  parent: NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+  langs:
+  - csharp
+  - vb
+  name: SHIM_RENDERING_MODE_ENABLE
+  nameWithType: EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_ENABLE
+  fullName: NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_ENABLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SHIM_RENDERING_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SHIM_RENDERING_MODE_ENABLE
+    path: ../NVAPIWrapper/cs_generated/EValues_SHIM_RENDERING_MODE.cs
+    startLine: 10
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SHIM_RENDERING_MODE_ENABLE = 1
+    return:
+      type: NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+- uid: NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_USER_EDITABLE
+  commentId: F:NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_USER_EDITABLE
+  id: SHIM_RENDERING_MODE_USER_EDITABLE
+  parent: NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+  langs:
+  - csharp
+  - vb
+  name: SHIM_RENDERING_MODE_USER_EDITABLE
+  nameWithType: EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_USER_EDITABLE
+  fullName: NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_USER_EDITABLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SHIM_RENDERING_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SHIM_RENDERING_MODE_USER_EDITABLE
+    path: ../NVAPIWrapper/cs_generated/EValues_SHIM_RENDERING_MODE.cs
+    startLine: 13
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SHIM_RENDERING_MODE_USER_EDITABLE = 2
+    return:
+      type: NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+- uid: NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_MASK
+  commentId: F:NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_MASK
+  id: SHIM_RENDERING_MODE_MASK
+  parent: NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+  langs:
+  - csharp
+  - vb
+  name: SHIM_RENDERING_MODE_MASK
+  nameWithType: EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_MASK
+  fullName: NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_MASK
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SHIM_RENDERING_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SHIM_RENDERING_MODE_MASK
+    path: ../NVAPIWrapper/cs_generated/EValues_SHIM_RENDERING_MODE.cs
+    startLine: 16
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SHIM_RENDERING_MODE_MASK = 3
+    return:
+      type: NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+- uid: NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_VIDEO_MASK
+  commentId: F:NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_VIDEO_MASK
+  id: SHIM_RENDERING_MODE_VIDEO_MASK
+  parent: NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+  langs:
+  - csharp
+  - vb
+  name: SHIM_RENDERING_MODE_VIDEO_MASK
+  nameWithType: EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_VIDEO_MASK
+  fullName: NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_VIDEO_MASK
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SHIM_RENDERING_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SHIM_RENDERING_MODE_VIDEO_MASK
+    path: ../NVAPIWrapper/cs_generated/EValues_SHIM_RENDERING_MODE.cs
+    startLine: 19
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SHIM_RENDERING_MODE_VIDEO_MASK = 4
+    return:
+      type: NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+- uid: NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_VARYING_BIT
+  commentId: F:NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_VARYING_BIT
+  id: SHIM_RENDERING_MODE_VARYING_BIT
+  parent: NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+  langs:
+  - csharp
+  - vb
+  name: SHIM_RENDERING_MODE_VARYING_BIT
+  nameWithType: EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_VARYING_BIT
+  fullName: NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_VARYING_BIT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SHIM_RENDERING_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SHIM_RENDERING_MODE_VARYING_BIT
+    path: ../NVAPIWrapper/cs_generated/EValues_SHIM_RENDERING_MODE.cs
+    startLine: 22
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SHIM_RENDERING_MODE_VARYING_BIT = 8
+    return:
+      type: NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+- uid: NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_AUTO_SELECT
+  commentId: F:NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_AUTO_SELECT
+  id: SHIM_RENDERING_MODE_AUTO_SELECT
+  parent: NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+  langs:
+  - csharp
+  - vb
+  name: SHIM_RENDERING_MODE_AUTO_SELECT
+  nameWithType: EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_AUTO_SELECT
+  fullName: NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_AUTO_SELECT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SHIM_RENDERING_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SHIM_RENDERING_MODE_AUTO_SELECT
+    path: ../NVAPIWrapper/cs_generated/EValues_SHIM_RENDERING_MODE.cs
+    startLine: 25
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SHIM_RENDERING_MODE_AUTO_SELECT = 16
+    return:
+      type: NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+- uid: NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_OVERRIDE_BIT
+  commentId: F:NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_OVERRIDE_BIT
+  id: SHIM_RENDERING_MODE_OVERRIDE_BIT
+  parent: NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+  langs:
+  - csharp
+  - vb
+  name: SHIM_RENDERING_MODE_OVERRIDE_BIT
+  nameWithType: EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_OVERRIDE_BIT
+  fullName: NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_OVERRIDE_BIT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SHIM_RENDERING_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SHIM_RENDERING_MODE_OVERRIDE_BIT
+    path: ../NVAPIWrapper/cs_generated/EValues_SHIM_RENDERING_MODE.cs
+    startLine: 28
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SHIM_RENDERING_MODE_OVERRIDE_BIT = 2147483648
+    return:
+      type: NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+- uid: NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_NUM_VALUES
+  id: SHIM_RENDERING_MODE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+  langs:
+  - csharp
+  - vb
+  name: SHIM_RENDERING_MODE_NUM_VALUES
+  nameWithType: EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SHIM_RENDERING_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SHIM_RENDERING_MODE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_SHIM_RENDERING_MODE.cs
+    startLine: 31
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SHIM_RENDERING_MODE_NUM_VALUES = 8
+    return:
+      type: NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+- uid: NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_DEFAULT
+  id: SHIM_RENDERING_MODE_DEFAULT
+  parent: NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+  langs:
+  - csharp
+  - vb
+  name: SHIM_RENDERING_MODE_DEFAULT
+  nameWithType: EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_DEFAULT
+  fullName: NVAPIWrapper.EValues_SHIM_RENDERING_MODE.SHIM_RENDERING_MODE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SHIM_RENDERING_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SHIM_RENDERING_MODE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_SHIM_RENDERING_MODE.cs
+    startLine: 34
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SHIM_RENDERING_MODE_DEFAULT = 16
+    return:
+      type: NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+  commentId: T:NVAPIWrapper.EValues_SHIM_RENDERING_MODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_SHIM_RENDERING_MODE.html
+  name: EValues_SHIM_RENDERING_MODE
+  nameWithType: EValues_SHIM_RENDERING_MODE
+  fullName: NVAPIWrapper.EValues_SHIM_RENDERING_MODE

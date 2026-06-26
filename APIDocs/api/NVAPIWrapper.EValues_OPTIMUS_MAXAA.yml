@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_OPTIMUS_MAXAA
+  commentId: T:NVAPIWrapper.EValues_OPTIMUS_MAXAA
+  id: EValues_OPTIMUS_MAXAA
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_OPTIMUS_MAXAA.OPTIMUS_MAXAA_DEFAULT
+  - NVAPIWrapper.EValues_OPTIMUS_MAXAA.OPTIMUS_MAXAA_MAX
+  - NVAPIWrapper.EValues_OPTIMUS_MAXAA.OPTIMUS_MAXAA_MIN
+  - NVAPIWrapper.EValues_OPTIMUS_MAXAA.OPTIMUS_MAXAA_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_OPTIMUS_MAXAA
+  nameWithType: EValues_OPTIMUS_MAXAA
+  fullName: NVAPIWrapper.EValues_OPTIMUS_MAXAA
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OPTIMUS_MAXAA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_OPTIMUS_MAXAA
+    path: ../NVAPIWrapper/cs_generated/EValues_OPTIMUS_MAXAA.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_OPTIMUS_MAXAA
+    content.vb: Public Enum EValues_OPTIMUS_MAXAA
+- uid: NVAPIWrapper.EValues_OPTIMUS_MAXAA.OPTIMUS_MAXAA_MIN
+  commentId: F:NVAPIWrapper.EValues_OPTIMUS_MAXAA.OPTIMUS_MAXAA_MIN
+  id: OPTIMUS_MAXAA_MIN
+  parent: NVAPIWrapper.EValues_OPTIMUS_MAXAA
+  langs:
+  - csharp
+  - vb
+  name: OPTIMUS_MAXAA_MIN
+  nameWithType: EValues_OPTIMUS_MAXAA.OPTIMUS_MAXAA_MIN
+  fullName: NVAPIWrapper.EValues_OPTIMUS_MAXAA.OPTIMUS_MAXAA_MIN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OPTIMUS_MAXAA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OPTIMUS_MAXAA_MIN
+    path: ../NVAPIWrapper/cs_generated/EValues_OPTIMUS_MAXAA.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OPTIMUS_MAXAA_MIN = 0
+    return:
+      type: NVAPIWrapper.EValues_OPTIMUS_MAXAA
+- uid: NVAPIWrapper.EValues_OPTIMUS_MAXAA.OPTIMUS_MAXAA_MAX
+  commentId: F:NVAPIWrapper.EValues_OPTIMUS_MAXAA.OPTIMUS_MAXAA_MAX
+  id: OPTIMUS_MAXAA_MAX
+  parent: NVAPIWrapper.EValues_OPTIMUS_MAXAA
+  langs:
+  - csharp
+  - vb
+  name: OPTIMUS_MAXAA_MAX
+  nameWithType: EValues_OPTIMUS_MAXAA.OPTIMUS_MAXAA_MAX
+  fullName: NVAPIWrapper.EValues_OPTIMUS_MAXAA.OPTIMUS_MAXAA_MAX
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OPTIMUS_MAXAA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OPTIMUS_MAXAA_MAX
+    path: ../NVAPIWrapper/cs_generated/EValues_OPTIMUS_MAXAA.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OPTIMUS_MAXAA_MAX = 16
+    return:
+      type: NVAPIWrapper.EValues_OPTIMUS_MAXAA
+- uid: NVAPIWrapper.EValues_OPTIMUS_MAXAA.OPTIMUS_MAXAA_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_OPTIMUS_MAXAA.OPTIMUS_MAXAA_NUM_VALUES
+  id: OPTIMUS_MAXAA_NUM_VALUES
+  parent: NVAPIWrapper.EValues_OPTIMUS_MAXAA
+  langs:
+  - csharp
+  - vb
+  name: OPTIMUS_MAXAA_NUM_VALUES
+  nameWithType: EValues_OPTIMUS_MAXAA.OPTIMUS_MAXAA_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_OPTIMUS_MAXAA.OPTIMUS_MAXAA_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OPTIMUS_MAXAA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OPTIMUS_MAXAA_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_OPTIMUS_MAXAA.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OPTIMUS_MAXAA_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_OPTIMUS_MAXAA
+- uid: NVAPIWrapper.EValues_OPTIMUS_MAXAA.OPTIMUS_MAXAA_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_OPTIMUS_MAXAA.OPTIMUS_MAXAA_DEFAULT
+  id: OPTIMUS_MAXAA_DEFAULT
+  parent: NVAPIWrapper.EValues_OPTIMUS_MAXAA
+  langs:
+  - csharp
+  - vb
+  name: OPTIMUS_MAXAA_DEFAULT
+  nameWithType: EValues_OPTIMUS_MAXAA.OPTIMUS_MAXAA_DEFAULT
+  fullName: NVAPIWrapper.EValues_OPTIMUS_MAXAA.OPTIMUS_MAXAA_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OPTIMUS_MAXAA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OPTIMUS_MAXAA_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_OPTIMUS_MAXAA.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OPTIMUS_MAXAA_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_OPTIMUS_MAXAA
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_OPTIMUS_MAXAA
+  commentId: T:NVAPIWrapper.EValues_OPTIMUS_MAXAA
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_OPTIMUS_MAXAA.html
+  name: EValues_OPTIMUS_MAXAA
+  nameWithType: EValues_OPTIMUS_MAXAA
+  fullName: NVAPIWrapper.EValues_OPTIMUS_MAXAA

@@ -1,0 +1,779 @@
+### YamlMime:ManagedReference
+items:
+- uid: IGCLWrapper.IGCLMemoryHelper
+  commentId: T:IGCLWrapper.IGCLMemoryHelper
+  id: IGCLMemoryHelper
+  parent: IGCLWrapper
+  children:
+  - IGCLWrapper.IGCLMemoryHelper.AreMemoryBandwidthEqual(IGCLWrapper.ctl_mem_bandwidth_t,IGCLWrapper.ctl_mem_bandwidth_t)
+  - IGCLWrapper.IGCLMemoryHelper.AreMemoryPropertiesEqual(IGCLWrapper.ctl_mem_properties_t,IGCLWrapper.ctl_mem_properties_t)
+  - IGCLWrapper.IGCLMemoryHelper.AreMemoryStatesEqual(IGCLWrapper.ctl_mem_state_t,IGCLWrapper.ctl_mem_state_t)
+  - IGCLWrapper.IGCLMemoryHelper.Dispose
+  - IGCLWrapper.IGCLMemoryHelper.EnumMemoryModules
+  - IGCLWrapper.IGCLMemoryHelper.MemoryGetBandwidth(System.IntPtr)
+  - IGCLWrapper.IGCLMemoryHelper.MemoryGetProperties(System.IntPtr)
+  - IGCLWrapper.IGCLMemoryHelper.MemoryGetState(System.IntPtr)
+  langs:
+  - csharp
+  - vb
+  name: IGCLMemoryHelper
+  nameWithType: IGCLMemoryHelper
+  fullName: IGCLWrapper.IGCLMemoryHelper
+  type: Class
+  source:
+    remote:
+      path: IGCLWrapper/IGCLMemoryHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: IGCLMemoryHelper
+    path: ../IGCLWrapper/IGCLMemoryHelper.cs
+    startLine: 8
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: 'Memory helper: enumerate memory modules and query properties/state/bandwidth.'
+  example: []
+  syntax:
+    content: 'public sealed class IGCLMemoryHelper : IDisposable'
+    content.vb: Public NotInheritable Class IGCLMemoryHelper Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: IGCLWrapper.IGCLMemoryHelper.EnumMemoryModules
+  commentId: M:IGCLWrapper.IGCLMemoryHelper.EnumMemoryModules
+  id: EnumMemoryModules
+  parent: IGCLWrapper.IGCLMemoryHelper
+  langs:
+  - csharp
+  - vb
+  name: EnumMemoryModules()
+  nameWithType: IGCLMemoryHelper.EnumMemoryModules()
+  fullName: IGCLWrapper.IGCLMemoryHelper.EnumMemoryModules()
+  type: Method
+  source:
+    remote:
+      path: IGCLWrapper/IGCLMemoryHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: EnumMemoryModules
+    path: ../IGCLWrapper/IGCLMemoryHelper.cs
+    startLine: 24
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Enumerate memory module handles for the adapter.
+  example: []
+  syntax:
+    content: public IReadOnlyList<nint> EnumMemoryModules()
+    return:
+      type: System.Collections.Generic.IReadOnlyList{System.IntPtr}
+      description: Read-only list of memory module handles.
+    content.vb: Public Function EnumMemoryModules() As IReadOnlyList(Of IntPtr)
+  overload: IGCLWrapper.IGCLMemoryHelper.EnumMemoryModules*
+- uid: IGCLWrapper.IGCLMemoryHelper.MemoryGetProperties(System.IntPtr)
+  commentId: M:IGCLWrapper.IGCLMemoryHelper.MemoryGetProperties(System.IntPtr)
+  id: MemoryGetProperties(System.IntPtr)
+  parent: IGCLWrapper.IGCLMemoryHelper
+  langs:
+  - csharp
+  - vb
+  name: MemoryGetProperties(nint)
+  nameWithType: IGCLMemoryHelper.MemoryGetProperties(nint)
+  fullName: IGCLWrapper.IGCLMemoryHelper.MemoryGetProperties(nint)
+  type: Method
+  source:
+    remote:
+      path: IGCLWrapper/IGCLMemoryHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: MemoryGetProperties
+    path: ../IGCLWrapper/IGCLMemoryHelper.cs
+    startLine: 35
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Get memory module properties.
+  example: []
+  syntax:
+    content: public ctl_mem_properties_t MemoryGetProperties(nint memoryHandle)
+    parameters:
+    - id: memoryHandle
+      type: System.IntPtr
+      description: Memory module handle.
+    return:
+      type: IGCLWrapper.ctl_mem_properties_t
+      description: Memory properties struct.
+    content.vb: Public Function MemoryGetProperties(memoryHandle As IntPtr) As ctl_mem_properties_t
+  overload: IGCLWrapper.IGCLMemoryHelper.MemoryGetProperties*
+  nameWithType.vb: IGCLMemoryHelper.MemoryGetProperties(IntPtr)
+  fullName.vb: IGCLWrapper.IGCLMemoryHelper.MemoryGetProperties(System.IntPtr)
+  name.vb: MemoryGetProperties(IntPtr)
+- uid: IGCLWrapper.IGCLMemoryHelper.MemoryGetState(System.IntPtr)
+  commentId: M:IGCLWrapper.IGCLMemoryHelper.MemoryGetState(System.IntPtr)
+  id: MemoryGetState(System.IntPtr)
+  parent: IGCLWrapper.IGCLMemoryHelper
+  langs:
+  - csharp
+  - vb
+  name: MemoryGetState(nint)
+  nameWithType: IGCLMemoryHelper.MemoryGetState(nint)
+  fullName: IGCLWrapper.IGCLMemoryHelper.MemoryGetState(nint)
+  type: Method
+  source:
+    remote:
+      path: IGCLWrapper/IGCLMemoryHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: MemoryGetState
+    path: ../IGCLWrapper/IGCLMemoryHelper.cs
+    startLine: 50
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Get current memory module state.
+  example: []
+  syntax:
+    content: public ctl_mem_state_t MemoryGetState(nint memoryHandle)
+    parameters:
+    - id: memoryHandle
+      type: System.IntPtr
+      description: Memory module handle.
+    return:
+      type: IGCLWrapper.ctl_mem_state_t
+      description: Memory state struct.
+    content.vb: Public Function MemoryGetState(memoryHandle As IntPtr) As ctl_mem_state_t
+  overload: IGCLWrapper.IGCLMemoryHelper.MemoryGetState*
+  nameWithType.vb: IGCLMemoryHelper.MemoryGetState(IntPtr)
+  fullName.vb: IGCLWrapper.IGCLMemoryHelper.MemoryGetState(System.IntPtr)
+  name.vb: MemoryGetState(IntPtr)
+- uid: IGCLWrapper.IGCLMemoryHelper.MemoryGetBandwidth(System.IntPtr)
+  commentId: M:IGCLWrapper.IGCLMemoryHelper.MemoryGetBandwidth(System.IntPtr)
+  id: MemoryGetBandwidth(System.IntPtr)
+  parent: IGCLWrapper.IGCLMemoryHelper
+  langs:
+  - csharp
+  - vb
+  name: MemoryGetBandwidth(nint)
+  nameWithType: IGCLMemoryHelper.MemoryGetBandwidth(nint)
+  fullName: IGCLWrapper.IGCLMemoryHelper.MemoryGetBandwidth(nint)
+  type: Method
+  source:
+    remote:
+      path: IGCLWrapper/IGCLMemoryHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: MemoryGetBandwidth
+    path: ../IGCLWrapper/IGCLMemoryHelper.cs
+    startLine: 65
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Get memory bandwidth information.
+  example: []
+  syntax:
+    content: public ctl_mem_bandwidth_t MemoryGetBandwidth(nint memoryHandle)
+    parameters:
+    - id: memoryHandle
+      type: System.IntPtr
+      description: Memory module handle.
+    return:
+      type: IGCLWrapper.ctl_mem_bandwidth_t
+      description: Memory bandwidth struct.
+    content.vb: Public Function MemoryGetBandwidth(memoryHandle As IntPtr) As ctl_mem_bandwidth_t
+  overload: IGCLWrapper.IGCLMemoryHelper.MemoryGetBandwidth*
+  nameWithType.vb: IGCLMemoryHelper.MemoryGetBandwidth(IntPtr)
+  fullName.vb: IGCLWrapper.IGCLMemoryHelper.MemoryGetBandwidth(System.IntPtr)
+  name.vb: MemoryGetBandwidth(IntPtr)
+- uid: IGCLWrapper.IGCLMemoryHelper.AreMemoryPropertiesEqual(IGCLWrapper.ctl_mem_properties_t,IGCLWrapper.ctl_mem_properties_t)
+  commentId: M:IGCLWrapper.IGCLMemoryHelper.AreMemoryPropertiesEqual(IGCLWrapper.ctl_mem_properties_t,IGCLWrapper.ctl_mem_properties_t)
+  id: AreMemoryPropertiesEqual(IGCLWrapper.ctl_mem_properties_t,IGCLWrapper.ctl_mem_properties_t)
+  parent: IGCLWrapper.IGCLMemoryHelper
+  langs:
+  - csharp
+  - vb
+  name: AreMemoryPropertiesEqual(ctl_mem_properties_t, ctl_mem_properties_t)
+  nameWithType: IGCLMemoryHelper.AreMemoryPropertiesEqual(ctl_mem_properties_t, ctl_mem_properties_t)
+  fullName: IGCLWrapper.IGCLMemoryHelper.AreMemoryPropertiesEqual(IGCLWrapper.ctl_mem_properties_t, IGCLWrapper.ctl_mem_properties_t)
+  type: Method
+  source:
+    remote:
+      path: IGCLWrapper/IGCLMemoryHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: AreMemoryPropertiesEqual
+    path: ../IGCLWrapper/IGCLMemoryHelper.cs
+    startLine: 109
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Compare memory properties while ignoring native-only fields.
+  example: []
+  syntax:
+    content: public static bool AreMemoryPropertiesEqual(ctl_mem_properties_t left, ctl_mem_properties_t right)
+    parameters:
+    - id: left
+      type: IGCLWrapper.ctl_mem_properties_t
+      description: Left properties struct.
+    - id: right
+      type: IGCLWrapper.ctl_mem_properties_t
+      description: Right properties struct.
+    return:
+      type: System.Boolean
+      description: True when equal; otherwise, false.
+    content.vb: Public Shared Function AreMemoryPropertiesEqual(left As ctl_mem_properties_t, right As ctl_mem_properties_t) As Boolean
+  overload: IGCLWrapper.IGCLMemoryHelper.AreMemoryPropertiesEqual*
+- uid: IGCLWrapper.IGCLMemoryHelper.AreMemoryStatesEqual(IGCLWrapper.ctl_mem_state_t,IGCLWrapper.ctl_mem_state_t)
+  commentId: M:IGCLWrapper.IGCLMemoryHelper.AreMemoryStatesEqual(IGCLWrapper.ctl_mem_state_t,IGCLWrapper.ctl_mem_state_t)
+  id: AreMemoryStatesEqual(IGCLWrapper.ctl_mem_state_t,IGCLWrapper.ctl_mem_state_t)
+  parent: IGCLWrapper.IGCLMemoryHelper
+  langs:
+  - csharp
+  - vb
+  name: AreMemoryStatesEqual(ctl_mem_state_t, ctl_mem_state_t)
+  nameWithType: IGCLMemoryHelper.AreMemoryStatesEqual(ctl_mem_state_t, ctl_mem_state_t)
+  fullName: IGCLWrapper.IGCLMemoryHelper.AreMemoryStatesEqual(IGCLWrapper.ctl_mem_state_t, IGCLWrapper.ctl_mem_state_t)
+  type: Method
+  source:
+    remote:
+      path: IGCLWrapper/IGCLMemoryHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: AreMemoryStatesEqual
+    path: ../IGCLWrapper/IGCLMemoryHelper.cs
+    startLine: 126
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Compare memory state while ignoring native-only fields.
+  example: []
+  syntax:
+    content: public static bool AreMemoryStatesEqual(ctl_mem_state_t left, ctl_mem_state_t right)
+    parameters:
+    - id: left
+      type: IGCLWrapper.ctl_mem_state_t
+      description: Left state struct.
+    - id: right
+      type: IGCLWrapper.ctl_mem_state_t
+      description: Right state struct.
+    return:
+      type: System.Boolean
+      description: True when equal; otherwise, false.
+    content.vb: Public Shared Function AreMemoryStatesEqual(left As ctl_mem_state_t, right As ctl_mem_state_t) As Boolean
+  overload: IGCLWrapper.IGCLMemoryHelper.AreMemoryStatesEqual*
+- uid: IGCLWrapper.IGCLMemoryHelper.AreMemoryBandwidthEqual(IGCLWrapper.ctl_mem_bandwidth_t,IGCLWrapper.ctl_mem_bandwidth_t)
+  commentId: M:IGCLWrapper.IGCLMemoryHelper.AreMemoryBandwidthEqual(IGCLWrapper.ctl_mem_bandwidth_t,IGCLWrapper.ctl_mem_bandwidth_t)
+  id: AreMemoryBandwidthEqual(IGCLWrapper.ctl_mem_bandwidth_t,IGCLWrapper.ctl_mem_bandwidth_t)
+  parent: IGCLWrapper.IGCLMemoryHelper
+  langs:
+  - csharp
+  - vb
+  name: AreMemoryBandwidthEqual(ctl_mem_bandwidth_t, ctl_mem_bandwidth_t)
+  nameWithType: IGCLMemoryHelper.AreMemoryBandwidthEqual(ctl_mem_bandwidth_t, ctl_mem_bandwidth_t)
+  fullName: IGCLWrapper.IGCLMemoryHelper.AreMemoryBandwidthEqual(IGCLWrapper.ctl_mem_bandwidth_t, IGCLWrapper.ctl_mem_bandwidth_t)
+  type: Method
+  source:
+    remote:
+      path: IGCLWrapper/IGCLMemoryHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: AreMemoryBandwidthEqual
+    path: ../IGCLWrapper/IGCLMemoryHelper.cs
+    startLine: 140
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Compare memory bandwidth while ignoring native-only fields.
+  example: []
+  syntax:
+    content: public static bool AreMemoryBandwidthEqual(ctl_mem_bandwidth_t left, ctl_mem_bandwidth_t right)
+    parameters:
+    - id: left
+      type: IGCLWrapper.ctl_mem_bandwidth_t
+      description: Left bandwidth struct.
+    - id: right
+      type: IGCLWrapper.ctl_mem_bandwidth_t
+      description: Right bandwidth struct.
+    return:
+      type: System.Boolean
+      description: True when equal; otherwise, false.
+    content.vb: Public Shared Function AreMemoryBandwidthEqual(left As ctl_mem_bandwidth_t, right As ctl_mem_bandwidth_t) As Boolean
+  overload: IGCLWrapper.IGCLMemoryHelper.AreMemoryBandwidthEqual*
+- uid: IGCLWrapper.IGCLMemoryHelper.Dispose
+  commentId: M:IGCLWrapper.IGCLMemoryHelper.Dispose
+  id: Dispose
+  parent: IGCLWrapper.IGCLMemoryHelper
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: IGCLMemoryHelper.Dispose()
+  fullName: IGCLWrapper.IGCLMemoryHelper.Dispose()
+  type: Method
+  source:
+    remote:
+      path: IGCLWrapper/IGCLMemoryHelper.cs
+      branch: develop
+      repo: https://github.com/terrymacdonald/IGCLWrapper.git
+    id: Dispose
+    path: ../IGCLWrapper/IGCLMemoryHelper.cs
+    startLine: 153
+  assemblies:
+  - IGCLWrapper
+  namespace: IGCLWrapper
+  summary: Mark the helper as disposed.
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: IGCLWrapper.IGCLMemoryHelper.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+references:
+- uid: IGCLWrapper
+  commentId: N:IGCLWrapper
+  href: IGCLWrapper.html
+  name: IGCLWrapper
+  nameWithType: IGCLWrapper
+  fullName: IGCLWrapper
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IGCLWrapper.IGCLMemoryHelper.EnumMemoryModules*
+  commentId: Overload:IGCLWrapper.IGCLMemoryHelper.EnumMemoryModules
+  href: IGCLWrapper.IGCLMemoryHelper.html#IGCLWrapper_IGCLMemoryHelper_EnumMemoryModules
+  name: EnumMemoryModules
+  nameWithType: IGCLMemoryHelper.EnumMemoryModules
+  fullName: IGCLWrapper.IGCLMemoryHelper.EnumMemoryModules
+- uid: System.Collections.Generic.IReadOnlyList{System.IntPtr}
+  commentId: T:System.Collections.Generic.IReadOnlyList{System.IntPtr}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<nint>
+  nameWithType: IReadOnlyList<nint>
+  fullName: System.Collections.Generic.IReadOnlyList<nint>
+  nameWithType.vb: IReadOnlyList(Of IntPtr)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of System.IntPtr)
+  name.vb: IReadOnlyList(Of IntPtr)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - uid: System.IntPtr
+    name: nint
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.intptr
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.IntPtr
+    name: IntPtr
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.intptr
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyList`1
+  commentId: T:System.Collections.Generic.IReadOnlyList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<T>
+  nameWithType: IReadOnlyList<T>
+  fullName: System.Collections.Generic.IReadOnlyList<T>
+  nameWithType.vb: IReadOnlyList(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of T)
+  name.vb: IReadOnlyList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: IGCLWrapper.IGCLMemoryHelper.MemoryGetProperties*
+  commentId: Overload:IGCLWrapper.IGCLMemoryHelper.MemoryGetProperties
+  href: IGCLWrapper.IGCLMemoryHelper.html#IGCLWrapper_IGCLMemoryHelper_MemoryGetProperties_System_IntPtr_
+  name: MemoryGetProperties
+  nameWithType: IGCLMemoryHelper.MemoryGetProperties
+  fullName: IGCLWrapper.IGCLMemoryHelper.MemoryGetProperties
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: IGCLWrapper.ctl_mem_properties_t
+  commentId: T:IGCLWrapper.ctl_mem_properties_t
+  parent: IGCLWrapper
+  href: IGCLWrapper.ctl_mem_properties_t.html
+  name: ctl_mem_properties_t
+  nameWithType: ctl_mem_properties_t
+  fullName: IGCLWrapper.ctl_mem_properties_t
+- uid: IGCLWrapper.IGCLMemoryHelper.MemoryGetState*
+  commentId: Overload:IGCLWrapper.IGCLMemoryHelper.MemoryGetState
+  href: IGCLWrapper.IGCLMemoryHelper.html#IGCLWrapper_IGCLMemoryHelper_MemoryGetState_System_IntPtr_
+  name: MemoryGetState
+  nameWithType: IGCLMemoryHelper.MemoryGetState
+  fullName: IGCLWrapper.IGCLMemoryHelper.MemoryGetState
+- uid: IGCLWrapper.ctl_mem_state_t
+  commentId: T:IGCLWrapper.ctl_mem_state_t
+  parent: IGCLWrapper
+  href: IGCLWrapper.ctl_mem_state_t.html
+  name: ctl_mem_state_t
+  nameWithType: ctl_mem_state_t
+  fullName: IGCLWrapper.ctl_mem_state_t
+- uid: IGCLWrapper.IGCLMemoryHelper.MemoryGetBandwidth*
+  commentId: Overload:IGCLWrapper.IGCLMemoryHelper.MemoryGetBandwidth
+  href: IGCLWrapper.IGCLMemoryHelper.html#IGCLWrapper_IGCLMemoryHelper_MemoryGetBandwidth_System_IntPtr_
+  name: MemoryGetBandwidth
+  nameWithType: IGCLMemoryHelper.MemoryGetBandwidth
+  fullName: IGCLWrapper.IGCLMemoryHelper.MemoryGetBandwidth
+- uid: IGCLWrapper.ctl_mem_bandwidth_t
+  commentId: T:IGCLWrapper.ctl_mem_bandwidth_t
+  parent: IGCLWrapper
+  href: IGCLWrapper.ctl_mem_bandwidth_t.html
+  name: ctl_mem_bandwidth_t
+  nameWithType: ctl_mem_bandwidth_t
+  fullName: IGCLWrapper.ctl_mem_bandwidth_t
+- uid: IGCLWrapper.IGCLMemoryHelper.AreMemoryPropertiesEqual*
+  commentId: Overload:IGCLWrapper.IGCLMemoryHelper.AreMemoryPropertiesEqual
+  href: IGCLWrapper.IGCLMemoryHelper.html#IGCLWrapper_IGCLMemoryHelper_AreMemoryPropertiesEqual_IGCLWrapper_ctl_mem_properties_t_IGCLWrapper_ctl_mem_properties_t_
+  name: AreMemoryPropertiesEqual
+  nameWithType: IGCLMemoryHelper.AreMemoryPropertiesEqual
+  fullName: IGCLWrapper.IGCLMemoryHelper.AreMemoryPropertiesEqual
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: IGCLWrapper.IGCLMemoryHelper.AreMemoryStatesEqual*
+  commentId: Overload:IGCLWrapper.IGCLMemoryHelper.AreMemoryStatesEqual
+  href: IGCLWrapper.IGCLMemoryHelper.html#IGCLWrapper_IGCLMemoryHelper_AreMemoryStatesEqual_IGCLWrapper_ctl_mem_state_t_IGCLWrapper_ctl_mem_state_t_
+  name: AreMemoryStatesEqual
+  nameWithType: IGCLMemoryHelper.AreMemoryStatesEqual
+  fullName: IGCLWrapper.IGCLMemoryHelper.AreMemoryStatesEqual
+- uid: IGCLWrapper.IGCLMemoryHelper.AreMemoryBandwidthEqual*
+  commentId: Overload:IGCLWrapper.IGCLMemoryHelper.AreMemoryBandwidthEqual
+  href: IGCLWrapper.IGCLMemoryHelper.html#IGCLWrapper_IGCLMemoryHelper_AreMemoryBandwidthEqual_IGCLWrapper_ctl_mem_bandwidth_t_IGCLWrapper_ctl_mem_bandwidth_t_
+  name: AreMemoryBandwidthEqual
+  nameWithType: IGCLMemoryHelper.AreMemoryBandwidthEqual
+  fullName: IGCLWrapper.IGCLMemoryHelper.AreMemoryBandwidthEqual
+- uid: IGCLWrapper.IGCLMemoryHelper.Dispose*
+  commentId: Overload:IGCLWrapper.IGCLMemoryHelper.Dispose
+  href: IGCLWrapper.IGCLMemoryHelper.html#IGCLWrapper_IGCLMemoryHelper_Dispose
+  name: Dispose
+  nameWithType: IGCLMemoryHelper.Dispose
+  fullName: IGCLWrapper.IGCLMemoryHelper.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )

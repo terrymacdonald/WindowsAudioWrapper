@@ -1,0 +1,1017 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+  commentId: T:NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+  id: NVAPIGSyncCapabilitiesDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIGSyncCapabilitiesDto.#ctor(System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.Boolean,System.UInt32)
+  - NVAPIWrapper.NVAPIGSyncCapabilitiesDto.BoardId
+  - NVAPIWrapper.NVAPIGSyncCapabilitiesDto.CapFlags
+  - NVAPIWrapper.NVAPIGSyncCapabilitiesDto.Equals(NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+  - NVAPIWrapper.NVAPIGSyncCapabilitiesDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIGSyncCapabilitiesDto.ExtendedRevision
+  - NVAPIWrapper.NVAPIGSyncCapabilitiesDto.FromNative(NVAPIWrapper._NV_GSYNC_CAPABILITIES_V3)
+  - NVAPIWrapper.NVAPIGSyncCapabilitiesDto.GetHashCode
+  - NVAPIWrapper.NVAPIGSyncCapabilitiesDto.IsMulDivSupported
+  - NVAPIWrapper.NVAPIGSyncCapabilitiesDto.MaxMulDivValue
+  - NVAPIWrapper.NVAPIGSyncCapabilitiesDto.Revision
+  - NVAPIWrapper.NVAPIGSyncCapabilitiesDto.ToNative
+  - NVAPIWrapper.NVAPIGSyncCapabilitiesDto.op_Equality(NVAPIWrapper.NVAPIGSyncCapabilitiesDto,NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+  - NVAPIWrapper.NVAPIGSyncCapabilitiesDto.op_Inequality(NVAPIWrapper.NVAPIGSyncCapabilitiesDto,NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGSyncCapabilitiesDto
+  nameWithType: NVAPIGSyncCapabilitiesDto
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIGSyncCapabilitiesDto
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 429
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: DTO for G-Sync capabilities.
+  example: []
+  syntax:
+    content: 'public struct NVAPIGSyncCapabilitiesDto : IEquatable<NVAPIGSyncCapabilitiesDto>'
+    content.vb: Public Structure NVAPIGSyncCapabilitiesDto Implements IEquatable(Of NVAPIGSyncCapabilitiesDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGSyncCapabilitiesDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.BoardId
+  commentId: P:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.BoardId
+  id: BoardId
+  parent: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+  langs:
+  - csharp
+  - vb
+  name: BoardId
+  nameWithType: NVAPIGSyncCapabilitiesDto.BoardId
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.BoardId
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: BoardId
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 431
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint BoardId { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property BoardId As UInteger
+  overload: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.BoardId*
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.Revision
+  commentId: P:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.Revision
+  id: Revision
+  parent: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+  langs:
+  - csharp
+  - vb
+  name: Revision
+  nameWithType: NVAPIGSyncCapabilitiesDto.Revision
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.Revision
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Revision
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 432
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint Revision { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Revision As UInteger
+  overload: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.Revision*
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.CapFlags
+  commentId: P:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.CapFlags
+  id: CapFlags
+  parent: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+  langs:
+  - csharp
+  - vb
+  name: CapFlags
+  nameWithType: NVAPIGSyncCapabilitiesDto.CapFlags
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.CapFlags
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CapFlags
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 433
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint CapFlags { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property CapFlags As UInteger
+  overload: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.CapFlags*
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.ExtendedRevision
+  commentId: P:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.ExtendedRevision
+  id: ExtendedRevision
+  parent: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+  langs:
+  - csharp
+  - vb
+  name: ExtendedRevision
+  nameWithType: NVAPIGSyncCapabilitiesDto.ExtendedRevision
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.ExtendedRevision
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ExtendedRevision
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 434
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint ExtendedRevision { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property ExtendedRevision As UInteger
+  overload: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.ExtendedRevision*
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.IsMulDivSupported
+  commentId: P:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.IsMulDivSupported
+  id: IsMulDivSupported
+  parent: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+  langs:
+  - csharp
+  - vb
+  name: IsMulDivSupported
+  nameWithType: NVAPIGSyncCapabilitiesDto.IsMulDivSupported
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.IsMulDivSupported
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: IsMulDivSupported
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 435
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public bool IsMulDivSupported { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsMulDivSupported As Boolean
+  overload: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.IsMulDivSupported*
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.MaxMulDivValue
+  commentId: P:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.MaxMulDivValue
+  id: MaxMulDivValue
+  parent: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+  langs:
+  - csharp
+  - vb
+  name: MaxMulDivValue
+  nameWithType: NVAPIGSyncCapabilitiesDto.MaxMulDivValue
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.MaxMulDivValue
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: MaxMulDivValue
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 436
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint MaxMulDivValue { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property MaxMulDivValue As UInteger
+  overload: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.MaxMulDivValue*
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.#ctor(System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.Boolean,System.UInt32)
+  commentId: M:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.#ctor(System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.Boolean,System.UInt32)
+  id: '#ctor(System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.Boolean,System.UInt32)'
+  parent: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGSyncCapabilitiesDto(uint, uint, uint, uint, bool, uint)
+  nameWithType: NVAPIGSyncCapabilitiesDto.NVAPIGSyncCapabilitiesDto(uint, uint, uint, uint, bool, uint)
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.NVAPIGSyncCapabilitiesDto(uint, uint, uint, uint, bool, uint)
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 447
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a G-Sync capabilities DTO.
+  example: []
+  syntax:
+    content: public NVAPIGSyncCapabilitiesDto(uint boardId, uint revision, uint capFlags, uint extendedRevision, bool isMulDivSupported, uint maxMulDivValue)
+    parameters:
+    - id: boardId
+      type: System.UInt32
+      description: Board identifier.
+    - id: revision
+      type: System.UInt32
+      description: Revision value.
+    - id: capFlags
+      type: System.UInt32
+      description: Capability flags.
+    - id: extendedRevision
+      type: System.UInt32
+      description: Extended revision value.
+    - id: isMulDivSupported
+      type: System.Boolean
+      description: Whether mul/div is supported.
+    - id: maxMulDivValue
+      type: System.UInt32
+      description: Maximum mul/div value.
+    content.vb: Public Sub New(boardId As UInteger, revision As UInteger, capFlags As UInteger, extendedRevision As UInteger, isMulDivSupported As Boolean, maxMulDivValue As UInteger)
+  overload: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.#ctor*
+  nameWithType.vb: NVAPIGSyncCapabilitiesDto.New(UInteger, UInteger, UInteger, UInteger, Boolean, UInteger)
+  fullName.vb: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.New(UInteger, UInteger, UInteger, UInteger, Boolean, UInteger)
+  name.vb: New(UInteger, UInteger, UInteger, UInteger, Boolean, UInteger)
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.FromNative(NVAPIWrapper._NV_GSYNC_CAPABILITIES_V3)
+  commentId: M:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.FromNative(NVAPIWrapper._NV_GSYNC_CAPABILITIES_V3)
+  id: FromNative(NVAPIWrapper._NV_GSYNC_CAPABILITIES_V3)
+  parent: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(_NV_GSYNC_CAPABILITIES_V3)
+  nameWithType: NVAPIGSyncCapabilitiesDto.FromNative(_NV_GSYNC_CAPABILITIES_V3)
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.FromNative(NVAPIWrapper._NV_GSYNC_CAPABILITIES_V3)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 468
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a G-Sync capabilities DTO from native data.
+  example: []
+  syntax:
+    content: public static NVAPIGSyncCapabilitiesDto FromNative(_NV_GSYNC_CAPABILITIES_V3 native)
+    parameters:
+    - id: native
+      type: NVAPIWrapper._NV_GSYNC_CAPABILITIES_V3
+      description: Native capabilities data.
+    return:
+      type: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+      description: G-Sync capabilities DTO.
+    content.vb: Public Shared Function FromNative(native As _NV_GSYNC_CAPABILITIES_V3) As NVAPIGSyncCapabilitiesDto
+  overload: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.FromNative*
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.ToNative
+  commentId: M:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.ToNative
+  id: ToNative
+  parent: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: NVAPIGSyncCapabilitiesDto.ToNative()
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 483
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Convert this DTO to native capabilities data.
+  example: []
+  syntax:
+    content: public _NV_GSYNC_CAPABILITIES_V3 ToNative()
+    return:
+      type: NVAPIWrapper._NV_GSYNC_CAPABILITIES_V3
+      description: Native capabilities data.
+    content.vb: Public Function ToNative() As _NV_GSYNC_CAPABILITIES_V3
+  overload: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.ToNative*
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.Equals(NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+  commentId: M:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.Equals(NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+  id: Equals(NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+  parent: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIGSyncCapabilitiesDto)
+  nameWithType: NVAPIGSyncCapabilitiesDto.Equals(NVAPIGSyncCapabilitiesDto)
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.Equals(NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 503
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether this instance equals another G-Sync capabilities DTO.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIGSyncCapabilitiesDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+      description: The other DTO to compare.
+    return:
+      type: System.Boolean
+      description: True if the DTOs are equal; otherwise false.
+    content.vb: Public Function Equals(other As NVAPIGSyncCapabilitiesDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGSyncCapabilitiesDto}.Equals(NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIGSyncCapabilitiesDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 518
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether this instance equals another object.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare.
+    return:
+      type: System.Boolean
+      description: True if the object is an equivalent DTO; otherwise false.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.Equals*
+  nameWithType.vb: NVAPIGSyncCapabilitiesDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIGSyncCapabilitiesDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 524
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get a hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: Hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.op_Equality(NVAPIWrapper.NVAPIGSyncCapabilitiesDto,NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+  commentId: M:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.op_Equality(NVAPIWrapper.NVAPIGSyncCapabilitiesDto,NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+  id: op_Equality(NVAPIWrapper.NVAPIGSyncCapabilitiesDto,NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+  parent: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIGSyncCapabilitiesDto, NVAPIGSyncCapabilitiesDto)
+  nameWithType: NVAPIGSyncCapabilitiesDto.operator ==(NVAPIGSyncCapabilitiesDto, NVAPIGSyncCapabilitiesDto)
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.operator ==(NVAPIWrapper.NVAPIGSyncCapabilitiesDto, NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 544
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether two G-Sync capabilities DTOs are equal.
+  example: []
+  syntax:
+    content: public static bool operator ==(NVAPIGSyncCapabilitiesDto left, NVAPIGSyncCapabilitiesDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+      description: Left DTO.
+    - id: right
+      type: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+      description: Right DTO.
+    return:
+      type: System.Boolean
+      description: True if the DTOs are equal; otherwise false.
+    content.vb: Public Shared Operator =(left As NVAPIGSyncCapabilitiesDto, right As NVAPIGSyncCapabilitiesDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.op_Equality*
+  nameWithType.vb: NVAPIGSyncCapabilitiesDto.=(NVAPIGSyncCapabilitiesDto, NVAPIGSyncCapabilitiesDto)
+  fullName.vb: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.=(NVAPIWrapper.NVAPIGSyncCapabilitiesDto, NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+  name.vb: =(NVAPIGSyncCapabilitiesDto, NVAPIGSyncCapabilitiesDto)
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.op_Inequality(NVAPIWrapper.NVAPIGSyncCapabilitiesDto,NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+  commentId: M:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.op_Inequality(NVAPIWrapper.NVAPIGSyncCapabilitiesDto,NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIGSyncCapabilitiesDto,NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+  parent: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIGSyncCapabilitiesDto, NVAPIGSyncCapabilitiesDto)
+  nameWithType: NVAPIGSyncCapabilitiesDto.operator !=(NVAPIGSyncCapabilitiesDto, NVAPIGSyncCapabilitiesDto)
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.operator !=(NVAPIWrapper.NVAPIGSyncCapabilitiesDto, NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 552
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether two G-Sync capabilities DTOs are not equal.
+  example: []
+  syntax:
+    content: public static bool operator !=(NVAPIGSyncCapabilitiesDto left, NVAPIGSyncCapabilitiesDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+      description: Left DTO.
+    - id: right
+      type: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+      description: Right DTO.
+    return:
+      type: System.Boolean
+      description: True if the DTOs are not equal; otherwise false.
+    content.vb: Public Shared Operator <>(left As NVAPIGSyncCapabilitiesDto, right As NVAPIGSyncCapabilitiesDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.op_Inequality*
+  nameWithType.vb: NVAPIGSyncCapabilitiesDto.<>(NVAPIGSyncCapabilitiesDto, NVAPIGSyncCapabilitiesDto)
+  fullName.vb: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.<>(NVAPIWrapper.NVAPIGSyncCapabilitiesDto, NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+  name.vb: <>(NVAPIGSyncCapabilitiesDto, NVAPIGSyncCapabilitiesDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGSyncCapabilitiesDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIGSyncCapabilitiesDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIGSyncCapabilitiesDto>
+  nameWithType: IEquatable<NVAPIGSyncCapabilitiesDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGSyncCapabilitiesDto>
+  nameWithType.vb: IEquatable(Of NVAPIGSyncCapabilitiesDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+  name.vb: IEquatable(Of NVAPIGSyncCapabilitiesDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+    name: NVAPIGSyncCapabilitiesDto
+    href: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+    name: NVAPIGSyncCapabilitiesDto
+    href: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.BoardId*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.BoardId
+  href: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.html#NVAPIWrapper_NVAPIGSyncCapabilitiesDto_BoardId
+  name: BoardId
+  nameWithType: NVAPIGSyncCapabilitiesDto.BoardId
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.BoardId
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.Revision*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.Revision
+  href: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.html#NVAPIWrapper_NVAPIGSyncCapabilitiesDto_Revision
+  name: Revision
+  nameWithType: NVAPIGSyncCapabilitiesDto.Revision
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.Revision
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.CapFlags*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.CapFlags
+  href: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.html#NVAPIWrapper_NVAPIGSyncCapabilitiesDto_CapFlags
+  name: CapFlags
+  nameWithType: NVAPIGSyncCapabilitiesDto.CapFlags
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.CapFlags
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.ExtendedRevision*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.ExtendedRevision
+  href: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.html#NVAPIWrapper_NVAPIGSyncCapabilitiesDto_ExtendedRevision
+  name: ExtendedRevision
+  nameWithType: NVAPIGSyncCapabilitiesDto.ExtendedRevision
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.ExtendedRevision
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.IsMulDivSupported*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.IsMulDivSupported
+  href: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.html#NVAPIWrapper_NVAPIGSyncCapabilitiesDto_IsMulDivSupported
+  name: IsMulDivSupported
+  nameWithType: NVAPIGSyncCapabilitiesDto.IsMulDivSupported
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.IsMulDivSupported
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.MaxMulDivValue*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.MaxMulDivValue
+  href: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.html#NVAPIWrapper_NVAPIGSyncCapabilitiesDto_MaxMulDivValue
+  name: MaxMulDivValue
+  nameWithType: NVAPIGSyncCapabilitiesDto.MaxMulDivValue
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.MaxMulDivValue
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.#ctor
+  href: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.html#NVAPIWrapper_NVAPIGSyncCapabilitiesDto__ctor_System_UInt32_System_UInt32_System_UInt32_System_UInt32_System_Boolean_System_UInt32_
+  name: NVAPIGSyncCapabilitiesDto
+  nameWithType: NVAPIGSyncCapabilitiesDto.NVAPIGSyncCapabilitiesDto
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.NVAPIGSyncCapabilitiesDto
+  nameWithType.vb: NVAPIGSyncCapabilitiesDto.New
+  fullName.vb: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.FromNative
+  href: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.html#NVAPIWrapper_NVAPIGSyncCapabilitiesDto_FromNative_NVAPIWrapper__NV_GSYNC_CAPABILITIES_V3_
+  name: FromNative
+  nameWithType: NVAPIGSyncCapabilitiesDto.FromNative
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.FromNative
+- uid: NVAPIWrapper._NV_GSYNC_CAPABILITIES_V3
+  commentId: T:NVAPIWrapper._NV_GSYNC_CAPABILITIES_V3
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GSYNC_CAPABILITIES_V3.html
+  name: _NV_GSYNC_CAPABILITIES_V3
+  nameWithType: _NV_GSYNC_CAPABILITIES_V3
+  fullName: NVAPIWrapper._NV_GSYNC_CAPABILITIES_V3
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+  commentId: T:NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.html
+  name: NVAPIGSyncCapabilitiesDto
+  nameWithType: NVAPIGSyncCapabilitiesDto
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.ToNative
+  href: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.html#NVAPIWrapper_NVAPIGSyncCapabilitiesDto_ToNative
+  name: ToNative
+  nameWithType: NVAPIGSyncCapabilitiesDto.ToNative
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.ToNative
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.Equals
+  href: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.html#NVAPIWrapper_NVAPIGSyncCapabilitiesDto_Equals_NVAPIWrapper_NVAPIGSyncCapabilitiesDto_
+  name: Equals
+  nameWithType: NVAPIGSyncCapabilitiesDto.Equals
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGSyncCapabilitiesDto}.Equals(NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIGSyncCapabilitiesDto}.Equals(NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIGSyncCapabilitiesDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIGSyncCapabilitiesDto)
+  nameWithType: IEquatable<NVAPIGSyncCapabilitiesDto>.Equals(NVAPIGSyncCapabilitiesDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGSyncCapabilitiesDto>.Equals(NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+  nameWithType.vb: IEquatable(Of NVAPIGSyncCapabilitiesDto).Equals(NVAPIGSyncCapabilitiesDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGSyncCapabilitiesDto).Equals(NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGSyncCapabilitiesDto}.Equals(NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+    name: NVAPIGSyncCapabilitiesDto
+    href: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGSyncCapabilitiesDto}.Equals(NVAPIWrapper.NVAPIGSyncCapabilitiesDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto
+    name: NVAPIGSyncCapabilitiesDto
+    href: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.GetHashCode
+  href: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.html#NVAPIWrapper_NVAPIGSyncCapabilitiesDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIGSyncCapabilitiesDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.op_Equality
+  href: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.html#NVAPIWrapper_NVAPIGSyncCapabilitiesDto_op_Equality_NVAPIWrapper_NVAPIGSyncCapabilitiesDto_NVAPIWrapper_NVAPIGSyncCapabilitiesDto_
+  name: operator ==
+  nameWithType: NVAPIGSyncCapabilitiesDto.operator ==
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.operator ==
+  nameWithType.vb: NVAPIGSyncCapabilitiesDto.=
+  fullName.vb: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.html#NVAPIWrapper_NVAPIGSyncCapabilitiesDto_op_Equality_NVAPIWrapper_NVAPIGSyncCapabilitiesDto_NVAPIWrapper_NVAPIGSyncCapabilitiesDto_
+- uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncCapabilitiesDto.op_Inequality
+  href: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.html#NVAPIWrapper_NVAPIGSyncCapabilitiesDto_op_Inequality_NVAPIWrapper_NVAPIGSyncCapabilitiesDto_NVAPIWrapper_NVAPIGSyncCapabilitiesDto_
+  name: operator !=
+  nameWithType: NVAPIGSyncCapabilitiesDto.operator !=
+  fullName: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.operator !=
+  nameWithType.vb: NVAPIGSyncCapabilitiesDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIGSyncCapabilitiesDto.html#NVAPIWrapper_NVAPIGSyncCapabilitiesDto_op_Inequality_NVAPIWrapper_NVAPIGSyncCapabilitiesDto_NVAPIWrapper_NVAPIGSyncCapabilitiesDto_

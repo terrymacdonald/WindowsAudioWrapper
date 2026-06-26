@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE
+  commentId: T:NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE
+  id: EValues_REFRESH_RATE_OVERRIDE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_APPLICATION_CONTROLLED
+  - NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_DEFAULT
+  - NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_HIGHEST_AVAILABLE
+  - NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_LOW_LATENCY_RR_MASK
+  - NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_REFRESH_RATE_OVERRIDE
+  nameWithType: EValues_REFRESH_RATE_OVERRIDE
+  fullName: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_REFRESH_RATE_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_REFRESH_RATE_OVERRIDE
+    path: ../NVAPIWrapper/cs_generated/EValues_REFRESH_RATE_OVERRIDE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_REFRESH_RATE_OVERRIDE
+    content.vb: Public Enum EValues_REFRESH_RATE_OVERRIDE
+- uid: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_APPLICATION_CONTROLLED
+  commentId: F:NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_APPLICATION_CONTROLLED
+  id: REFRESH_RATE_OVERRIDE_APPLICATION_CONTROLLED
+  parent: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: REFRESH_RATE_OVERRIDE_APPLICATION_CONTROLLED
+  nameWithType: EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_APPLICATION_CONTROLLED
+  fullName: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_APPLICATION_CONTROLLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_REFRESH_RATE_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: REFRESH_RATE_OVERRIDE_APPLICATION_CONTROLLED
+    path: ../NVAPIWrapper/cs_generated/EValues_REFRESH_RATE_OVERRIDE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: REFRESH_RATE_OVERRIDE_APPLICATION_CONTROLLED = 0
+    return:
+      type: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE
+- uid: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_HIGHEST_AVAILABLE
+  commentId: F:NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_HIGHEST_AVAILABLE
+  id: REFRESH_RATE_OVERRIDE_HIGHEST_AVAILABLE
+  parent: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: REFRESH_RATE_OVERRIDE_HIGHEST_AVAILABLE
+  nameWithType: EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_HIGHEST_AVAILABLE
+  fullName: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_HIGHEST_AVAILABLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_REFRESH_RATE_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: REFRESH_RATE_OVERRIDE_HIGHEST_AVAILABLE
+    path: ../NVAPIWrapper/cs_generated/EValues_REFRESH_RATE_OVERRIDE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: REFRESH_RATE_OVERRIDE_HIGHEST_AVAILABLE = 1
+    return:
+      type: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE
+- uid: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_LOW_LATENCY_RR_MASK
+  commentId: F:NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_LOW_LATENCY_RR_MASK
+  id: REFRESH_RATE_OVERRIDE_LOW_LATENCY_RR_MASK
+  parent: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: REFRESH_RATE_OVERRIDE_LOW_LATENCY_RR_MASK
+  nameWithType: EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_LOW_LATENCY_RR_MASK
+  fullName: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_LOW_LATENCY_RR_MASK
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_REFRESH_RATE_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: REFRESH_RATE_OVERRIDE_LOW_LATENCY_RR_MASK
+    path: ../NVAPIWrapper/cs_generated/EValues_REFRESH_RATE_OVERRIDE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: REFRESH_RATE_OVERRIDE_LOW_LATENCY_RR_MASK = 4080
+    return:
+      type: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE
+- uid: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_NUM_VALUES
+  id: REFRESH_RATE_OVERRIDE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: REFRESH_RATE_OVERRIDE_NUM_VALUES
+  nameWithType: EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_REFRESH_RATE_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: REFRESH_RATE_OVERRIDE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_REFRESH_RATE_OVERRIDE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: REFRESH_RATE_OVERRIDE_NUM_VALUES = 3
+    return:
+      type: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE
+- uid: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_DEFAULT
+  id: REFRESH_RATE_OVERRIDE_DEFAULT
+  parent: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: REFRESH_RATE_OVERRIDE_DEFAULT
+  nameWithType: EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_DEFAULT
+  fullName: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE.REFRESH_RATE_OVERRIDE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_REFRESH_RATE_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: REFRESH_RATE_OVERRIDE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_REFRESH_RATE_OVERRIDE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: REFRESH_RATE_OVERRIDE_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE
+  commentId: T:NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE.html
+  name: EValues_REFRESH_RATE_OVERRIDE
+  nameWithType: EValues_REFRESH_RATE_OVERRIDE
+  fullName: NVAPIWrapper.EValues_REFRESH_RATE_OVERRIDE

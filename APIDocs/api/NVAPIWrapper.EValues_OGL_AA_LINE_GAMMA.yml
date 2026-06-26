@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA
+  commentId: T:NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA
+  id: EValues_OGL_AA_LINE_GAMMA
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_DEFAULT
+  - NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_DISABLED
+  - NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_ENABLED
+  - NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_MAX
+  - NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_MIN
+  - NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_OGL_AA_LINE_GAMMA
+  nameWithType: EValues_OGL_AA_LINE_GAMMA
+  fullName: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_AA_LINE_GAMMA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_OGL_AA_LINE_GAMMA
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_AA_LINE_GAMMA.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_OGL_AA_LINE_GAMMA
+    content.vb: Public Enum EValues_OGL_AA_LINE_GAMMA
+- uid: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_DISABLED
+  commentId: F:NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_DISABLED
+  id: OGL_AA_LINE_GAMMA_DISABLED
+  parent: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA
+  langs:
+  - csharp
+  - vb
+  name: OGL_AA_LINE_GAMMA_DISABLED
+  nameWithType: EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_DISABLED
+  fullName: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_DISABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_AA_LINE_GAMMA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_AA_LINE_GAMMA_DISABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_AA_LINE_GAMMA.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_AA_LINE_GAMMA_DISABLED = 16
+    return:
+      type: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA
+- uid: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_ENABLED
+  commentId: F:NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_ENABLED
+  id: OGL_AA_LINE_GAMMA_ENABLED
+  parent: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA
+  langs:
+  - csharp
+  - vb
+  name: OGL_AA_LINE_GAMMA_ENABLED
+  nameWithType: EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_ENABLED
+  fullName: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_ENABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_AA_LINE_GAMMA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_AA_LINE_GAMMA_ENABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_AA_LINE_GAMMA.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_AA_LINE_GAMMA_ENABLED = 35
+    return:
+      type: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA
+- uid: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_MIN
+  commentId: F:NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_MIN
+  id: OGL_AA_LINE_GAMMA_MIN
+  parent: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA
+  langs:
+  - csharp
+  - vb
+  name: OGL_AA_LINE_GAMMA_MIN
+  nameWithType: EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_MIN
+  fullName: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_MIN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_AA_LINE_GAMMA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_AA_LINE_GAMMA_MIN
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_AA_LINE_GAMMA.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_AA_LINE_GAMMA_MIN = 1
+    return:
+      type: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA
+- uid: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_MAX
+  commentId: F:NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_MAX
+  id: OGL_AA_LINE_GAMMA_MAX
+  parent: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA
+  langs:
+  - csharp
+  - vb
+  name: OGL_AA_LINE_GAMMA_MAX
+  nameWithType: EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_MAX
+  fullName: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_MAX
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_AA_LINE_GAMMA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_AA_LINE_GAMMA_MAX
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_AA_LINE_GAMMA.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_AA_LINE_GAMMA_MAX = 100
+    return:
+      type: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA
+- uid: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_NUM_VALUES
+  id: OGL_AA_LINE_GAMMA_NUM_VALUES
+  parent: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA
+  langs:
+  - csharp
+  - vb
+  name: OGL_AA_LINE_GAMMA_NUM_VALUES
+  nameWithType: EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_AA_LINE_GAMMA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_AA_LINE_GAMMA_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_AA_LINE_GAMMA.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_AA_LINE_GAMMA_NUM_VALUES = 4
+    return:
+      type: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA
+- uid: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_DEFAULT
+  id: OGL_AA_LINE_GAMMA_DEFAULT
+  parent: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA
+  langs:
+  - csharp
+  - vb
+  name: OGL_AA_LINE_GAMMA_DEFAULT
+  nameWithType: EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_DEFAULT
+  fullName: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.OGL_AA_LINE_GAMMA_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_AA_LINE_GAMMA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_AA_LINE_GAMMA_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_AA_LINE_GAMMA.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_AA_LINE_GAMMA_DEFAULT = 16
+    return:
+      type: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA
+  commentId: T:NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA.html
+  name: EValues_OGL_AA_LINE_GAMMA
+  nameWithType: EValues_OGL_AA_LINE_GAMMA
+  fullName: NVAPIWrapper.EValues_OGL_AA_LINE_GAMMA

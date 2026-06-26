@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_GPU_OUTPUT_TYPE
+  commentId: T:NVAPIWrapper._NV_GPU_OUTPUT_TYPE
+  id: _NV_GPU_OUTPUT_TYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_GPU_OUTPUT_TYPE.NVAPI_GPU_OUTPUT_CRT
+  - NVAPIWrapper._NV_GPU_OUTPUT_TYPE.NVAPI_GPU_OUTPUT_DFP
+  - NVAPIWrapper._NV_GPU_OUTPUT_TYPE.NVAPI_GPU_OUTPUT_TV
+  - NVAPIWrapper._NV_GPU_OUTPUT_TYPE.NVAPI_GPU_OUTPUT_UNKNOWN
+  langs:
+  - csharp
+  - vb
+  name: _NV_GPU_OUTPUT_TYPE
+  nameWithType: _NV_GPU_OUTPUT_TYPE
+  fullName: NVAPIWrapper._NV_GPU_OUTPUT_TYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_OUTPUT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_GPU_OUTPUT_TYPE
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_OUTPUT_TYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_GPU_OUTPUT_TYPE
+    content.vb: Public Enum _NV_GPU_OUTPUT_TYPE
+- uid: NVAPIWrapper._NV_GPU_OUTPUT_TYPE.NVAPI_GPU_OUTPUT_UNKNOWN
+  commentId: F:NVAPIWrapper._NV_GPU_OUTPUT_TYPE.NVAPI_GPU_OUTPUT_UNKNOWN
+  id: NVAPI_GPU_OUTPUT_UNKNOWN
+  parent: NVAPIWrapper._NV_GPU_OUTPUT_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_OUTPUT_UNKNOWN
+  nameWithType: _NV_GPU_OUTPUT_TYPE.NVAPI_GPU_OUTPUT_UNKNOWN
+  fullName: NVAPIWrapper._NV_GPU_OUTPUT_TYPE.NVAPI_GPU_OUTPUT_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_OUTPUT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_OUTPUT_UNKNOWN
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_OUTPUT_TYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_OUTPUT_UNKNOWN = 0
+    return:
+      type: NVAPIWrapper._NV_GPU_OUTPUT_TYPE
+- uid: NVAPIWrapper._NV_GPU_OUTPUT_TYPE.NVAPI_GPU_OUTPUT_CRT
+  commentId: F:NVAPIWrapper._NV_GPU_OUTPUT_TYPE.NVAPI_GPU_OUTPUT_CRT
+  id: NVAPI_GPU_OUTPUT_CRT
+  parent: NVAPIWrapper._NV_GPU_OUTPUT_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_OUTPUT_CRT
+  nameWithType: _NV_GPU_OUTPUT_TYPE.NVAPI_GPU_OUTPUT_CRT
+  fullName: NVAPIWrapper._NV_GPU_OUTPUT_TYPE.NVAPI_GPU_OUTPUT_CRT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_OUTPUT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_OUTPUT_CRT
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_OUTPUT_TYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_OUTPUT_CRT = 1
+    return:
+      type: NVAPIWrapper._NV_GPU_OUTPUT_TYPE
+- uid: NVAPIWrapper._NV_GPU_OUTPUT_TYPE.NVAPI_GPU_OUTPUT_DFP
+  commentId: F:NVAPIWrapper._NV_GPU_OUTPUT_TYPE.NVAPI_GPU_OUTPUT_DFP
+  id: NVAPI_GPU_OUTPUT_DFP
+  parent: NVAPIWrapper._NV_GPU_OUTPUT_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_OUTPUT_DFP
+  nameWithType: _NV_GPU_OUTPUT_TYPE.NVAPI_GPU_OUTPUT_DFP
+  fullName: NVAPIWrapper._NV_GPU_OUTPUT_TYPE.NVAPI_GPU_OUTPUT_DFP
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_OUTPUT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_OUTPUT_DFP
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_OUTPUT_TYPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_OUTPUT_DFP = 2
+    return:
+      type: NVAPIWrapper._NV_GPU_OUTPUT_TYPE
+- uid: NVAPIWrapper._NV_GPU_OUTPUT_TYPE.NVAPI_GPU_OUTPUT_TV
+  commentId: F:NVAPIWrapper._NV_GPU_OUTPUT_TYPE.NVAPI_GPU_OUTPUT_TV
+  id: NVAPI_GPU_OUTPUT_TV
+  parent: NVAPIWrapper._NV_GPU_OUTPUT_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_OUTPUT_TV
+  nameWithType: _NV_GPU_OUTPUT_TYPE.NVAPI_GPU_OUTPUT_TV
+  fullName: NVAPIWrapper._NV_GPU_OUTPUT_TYPE.NVAPI_GPU_OUTPUT_TV
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_OUTPUT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_OUTPUT_TV
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_OUTPUT_TYPE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_OUTPUT_TV = 3
+    return:
+      type: NVAPIWrapper._NV_GPU_OUTPUT_TYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_GPU_OUTPUT_TYPE
+  commentId: T:NVAPIWrapper._NV_GPU_OUTPUT_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_OUTPUT_TYPE.html
+  name: _NV_GPU_OUTPUT_TYPE
+  nameWithType: _NV_GPU_OUTPUT_TYPE
+  fullName: NVAPIWrapper._NV_GPU_OUTPUT_TYPE

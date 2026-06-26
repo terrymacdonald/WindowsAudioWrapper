@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVVIOVIDEOTYPE
+  commentId: T:NVAPIWrapper._NVVIOVIDEOTYPE
+  id: _NVVIOVIDEOTYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVVIOVIDEOTYPE.NVVIOVIDEOTYPE_HD
+  - NVAPIWrapper._NVVIOVIDEOTYPE.NVVIOVIDEOTYPE_SD
+  langs:
+  - csharp
+  - vb
+  name: _NVVIOVIDEOTYPE
+  nameWithType: _NVVIOVIDEOTYPE
+  fullName: NVAPIWrapper._NVVIOVIDEOTYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOVIDEOTYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVVIOVIDEOTYPE
+    path: ../NVAPIWrapper/cs_generated/_NVVIOVIDEOTYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVVIOVIDEOTYPE
+    content.vb: Public Enum _NVVIOVIDEOTYPE
+- uid: NVAPIWrapper._NVVIOVIDEOTYPE.NVVIOVIDEOTYPE_SD
+  commentId: F:NVAPIWrapper._NVVIOVIDEOTYPE.NVVIOVIDEOTYPE_SD
+  id: NVVIOVIDEOTYPE_SD
+  parent: NVAPIWrapper._NVVIOVIDEOTYPE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOVIDEOTYPE_SD
+  nameWithType: _NVVIOVIDEOTYPE.NVVIOVIDEOTYPE_SD
+  fullName: NVAPIWrapper._NVVIOVIDEOTYPE.NVVIOVIDEOTYPE_SD
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOVIDEOTYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOVIDEOTYPE_SD
+    path: ../NVAPIWrapper/cs_generated/_NVVIOVIDEOTYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOVIDEOTYPE_SD = 0
+    return:
+      type: NVAPIWrapper._NVVIOVIDEOTYPE
+- uid: NVAPIWrapper._NVVIOVIDEOTYPE.NVVIOVIDEOTYPE_HD
+  commentId: F:NVAPIWrapper._NVVIOVIDEOTYPE.NVVIOVIDEOTYPE_HD
+  id: NVVIOVIDEOTYPE_HD
+  parent: NVAPIWrapper._NVVIOVIDEOTYPE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOVIDEOTYPE_HD
+  nameWithType: _NVVIOVIDEOTYPE.NVVIOVIDEOTYPE_HD
+  fullName: NVAPIWrapper._NVVIOVIDEOTYPE.NVVIOVIDEOTYPE_HD
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOVIDEOTYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOVIDEOTYPE_HD
+    path: ../NVAPIWrapper/cs_generated/_NVVIOVIDEOTYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOVIDEOTYPE_HD = 1
+    return:
+      type: NVAPIWrapper._NVVIOVIDEOTYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVVIOVIDEOTYPE
+  commentId: T:NVAPIWrapper._NVVIOVIDEOTYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOVIDEOTYPE.html
+  name: _NVVIOVIDEOTYPE
+  nameWithType: _NVVIOVIDEOTYPE
+  fullName: NVAPIWrapper._NVVIOVIDEOTYPE

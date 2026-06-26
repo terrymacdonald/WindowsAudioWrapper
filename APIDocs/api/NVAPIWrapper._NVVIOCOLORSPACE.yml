@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVVIOCOLORSPACE
+  commentId: T:NVAPIWrapper._NVVIOCOLORSPACE
+  id: _NVVIOCOLORSPACE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_GBR
+  - NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_GBRA
+  - NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_GBRD
+  - NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_UNKNOWN
+  - NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_YCBCR
+  - NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_YCBCRA
+  - NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_YCBCRD
+  langs:
+  - csharp
+  - vb
+  name: _NVVIOCOLORSPACE
+  nameWithType: _NVVIOCOLORSPACE
+  fullName: NVAPIWrapper._NVVIOCOLORSPACE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCOLORSPACE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVVIOCOLORSPACE
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCOLORSPACE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVVIOCOLORSPACE
+    content.vb: Public Enum _NVVIOCOLORSPACE
+- uid: NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_UNKNOWN
+  commentId: F:NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_UNKNOWN
+  id: NVVIOCOLORSPACE_UNKNOWN
+  parent: NVAPIWrapper._NVVIOCOLORSPACE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOCOLORSPACE_UNKNOWN
+  nameWithType: _NVVIOCOLORSPACE.NVVIOCOLORSPACE_UNKNOWN
+  fullName: NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCOLORSPACE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOCOLORSPACE_UNKNOWN
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCOLORSPACE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOCOLORSPACE_UNKNOWN = 0
+    return:
+      type: NVAPIWrapper._NVVIOCOLORSPACE
+- uid: NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_YCBCR
+  commentId: F:NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_YCBCR
+  id: NVVIOCOLORSPACE_YCBCR
+  parent: NVAPIWrapper._NVVIOCOLORSPACE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOCOLORSPACE_YCBCR
+  nameWithType: _NVVIOCOLORSPACE.NVVIOCOLORSPACE_YCBCR
+  fullName: NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_YCBCR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCOLORSPACE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOCOLORSPACE_YCBCR
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCOLORSPACE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOCOLORSPACE_YCBCR = 1
+    return:
+      type: NVAPIWrapper._NVVIOCOLORSPACE
+- uid: NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_YCBCRA
+  commentId: F:NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_YCBCRA
+  id: NVVIOCOLORSPACE_YCBCRA
+  parent: NVAPIWrapper._NVVIOCOLORSPACE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOCOLORSPACE_YCBCRA
+  nameWithType: _NVVIOCOLORSPACE.NVVIOCOLORSPACE_YCBCRA
+  fullName: NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_YCBCRA
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCOLORSPACE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOCOLORSPACE_YCBCRA
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCOLORSPACE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOCOLORSPACE_YCBCRA = 2
+    return:
+      type: NVAPIWrapper._NVVIOCOLORSPACE
+- uid: NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_YCBCRD
+  commentId: F:NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_YCBCRD
+  id: NVVIOCOLORSPACE_YCBCRD
+  parent: NVAPIWrapper._NVVIOCOLORSPACE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOCOLORSPACE_YCBCRD
+  nameWithType: _NVVIOCOLORSPACE.NVVIOCOLORSPACE_YCBCRD
+  fullName: NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_YCBCRD
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCOLORSPACE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOCOLORSPACE_YCBCRD
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCOLORSPACE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOCOLORSPACE_YCBCRD = 3
+    return:
+      type: NVAPIWrapper._NVVIOCOLORSPACE
+- uid: NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_GBR
+  commentId: F:NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_GBR
+  id: NVVIOCOLORSPACE_GBR
+  parent: NVAPIWrapper._NVVIOCOLORSPACE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOCOLORSPACE_GBR
+  nameWithType: _NVVIOCOLORSPACE.NVVIOCOLORSPACE_GBR
+  fullName: NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_GBR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCOLORSPACE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOCOLORSPACE_GBR
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCOLORSPACE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOCOLORSPACE_GBR = 4
+    return:
+      type: NVAPIWrapper._NVVIOCOLORSPACE
+- uid: NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_GBRA
+  commentId: F:NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_GBRA
+  id: NVVIOCOLORSPACE_GBRA
+  parent: NVAPIWrapper._NVVIOCOLORSPACE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOCOLORSPACE_GBRA
+  nameWithType: _NVVIOCOLORSPACE.NVVIOCOLORSPACE_GBRA
+  fullName: NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_GBRA
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCOLORSPACE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOCOLORSPACE_GBRA
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCOLORSPACE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOCOLORSPACE_GBRA = 5
+    return:
+      type: NVAPIWrapper._NVVIOCOLORSPACE
+- uid: NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_GBRD
+  commentId: F:NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_GBRD
+  id: NVVIOCOLORSPACE_GBRD
+  parent: NVAPIWrapper._NVVIOCOLORSPACE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOCOLORSPACE_GBRD
+  nameWithType: _NVVIOCOLORSPACE.NVVIOCOLORSPACE_GBRD
+  fullName: NVAPIWrapper._NVVIOCOLORSPACE.NVVIOCOLORSPACE_GBRD
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCOLORSPACE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOCOLORSPACE_GBRD
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCOLORSPACE.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOCOLORSPACE_GBRD = 6
+    return:
+      type: NVAPIWrapper._NVVIOCOLORSPACE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVVIOCOLORSPACE
+  commentId: T:NVAPIWrapper._NVVIOCOLORSPACE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOCOLORSPACE.html
+  name: _NVVIOCOLORSPACE
+  nameWithType: _NVVIOCOLORSPACE
+  fullName: NVAPIWrapper._NVVIOCOLORSPACE

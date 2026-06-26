@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE
+  commentId: T:NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE
+  id: _NV_GPU_HDCP_KEY_SOURCE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_CRYPTO_ROM
+  - NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_FUSES
+  - NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_I2C_ROM
+  - NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_NONE
+  - NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_SBIOS
+  - NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_UNKNOWN
+  langs:
+  - csharp
+  - vb
+  name: _NV_GPU_HDCP_KEY_SOURCE
+  nameWithType: _NV_GPU_HDCP_KEY_SOURCE
+  fullName: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_HDCP_KEY_SOURCE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_GPU_HDCP_KEY_SOURCE
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_HDCP_KEY_SOURCE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_GPU_HDCP_KEY_SOURCE
+    content.vb: Public Enum _NV_GPU_HDCP_KEY_SOURCE
+- uid: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_UNKNOWN
+  commentId: F:NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_UNKNOWN
+  id: NV_GPU_HDCP_KEY_SOURCE_UNKNOWN
+  parent: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_HDCP_KEY_SOURCE_UNKNOWN
+  nameWithType: _NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_UNKNOWN
+  fullName: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_HDCP_KEY_SOURCE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_HDCP_KEY_SOURCE_UNKNOWN
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_HDCP_KEY_SOURCE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_HDCP_KEY_SOURCE_UNKNOWN = 0
+    return:
+      type: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE
+- uid: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_NONE
+  commentId: F:NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_NONE
+  id: NV_GPU_HDCP_KEY_SOURCE_NONE
+  parent: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_HDCP_KEY_SOURCE_NONE
+  nameWithType: _NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_NONE
+  fullName: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_NONE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_HDCP_KEY_SOURCE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_HDCP_KEY_SOURCE_NONE
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_HDCP_KEY_SOURCE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_HDCP_KEY_SOURCE_NONE = 1
+    return:
+      type: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE
+- uid: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_CRYPTO_ROM
+  commentId: F:NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_CRYPTO_ROM
+  id: NV_GPU_HDCP_KEY_SOURCE_CRYPTO_ROM
+  parent: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_HDCP_KEY_SOURCE_CRYPTO_ROM
+  nameWithType: _NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_CRYPTO_ROM
+  fullName: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_CRYPTO_ROM
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_HDCP_KEY_SOURCE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_HDCP_KEY_SOURCE_CRYPTO_ROM
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_HDCP_KEY_SOURCE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_HDCP_KEY_SOURCE_CRYPTO_ROM = 2
+    return:
+      type: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE
+- uid: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_SBIOS
+  commentId: F:NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_SBIOS
+  id: NV_GPU_HDCP_KEY_SOURCE_SBIOS
+  parent: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_HDCP_KEY_SOURCE_SBIOS
+  nameWithType: _NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_SBIOS
+  fullName: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_SBIOS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_HDCP_KEY_SOURCE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_HDCP_KEY_SOURCE_SBIOS
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_HDCP_KEY_SOURCE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_HDCP_KEY_SOURCE_SBIOS = 3
+    return:
+      type: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE
+- uid: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_I2C_ROM
+  commentId: F:NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_I2C_ROM
+  id: NV_GPU_HDCP_KEY_SOURCE_I2C_ROM
+  parent: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_HDCP_KEY_SOURCE_I2C_ROM
+  nameWithType: _NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_I2C_ROM
+  fullName: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_I2C_ROM
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_HDCP_KEY_SOURCE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_HDCP_KEY_SOURCE_I2C_ROM
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_HDCP_KEY_SOURCE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_HDCP_KEY_SOURCE_I2C_ROM = 4
+    return:
+      type: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE
+- uid: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_FUSES
+  commentId: F:NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_FUSES
+  id: NV_GPU_HDCP_KEY_SOURCE_FUSES
+  parent: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_HDCP_KEY_SOURCE_FUSES
+  nameWithType: _NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_FUSES
+  fullName: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.NV_GPU_HDCP_KEY_SOURCE_FUSES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_HDCP_KEY_SOURCE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_HDCP_KEY_SOURCE_FUSES
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_HDCP_KEY_SOURCE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_HDCP_KEY_SOURCE_FUSES = 5
+    return:
+      type: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE
+  commentId: T:NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.html
+  name: _NV_GPU_HDCP_KEY_SOURCE
+  nameWithType: _NV_GPU_HDCP_KEY_SOURCE
+  fullName: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE

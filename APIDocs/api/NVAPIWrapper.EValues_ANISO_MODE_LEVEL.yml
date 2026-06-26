@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_ANISO_MODE_LEVEL
+  commentId: T:NVAPIWrapper.EValues_ANISO_MODE_LEVEL
+  id: EValues_ANISO_MODE_LEVEL
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_DEFAULT
+  - NVAPIWrapper.EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_MASK
+  - NVAPIWrapper.EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_MAX
+  - NVAPIWrapper.EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_NONE_LINEAR
+  - NVAPIWrapper.EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_NONE_POINT
+  - NVAPIWrapper.EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_ANISO_MODE_LEVEL
+  nameWithType: EValues_ANISO_MODE_LEVEL
+  fullName: NVAPIWrapper.EValues_ANISO_MODE_LEVEL
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_ANISO_MODE_LEVEL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_ANISO_MODE_LEVEL
+    path: ../NVAPIWrapper/cs_generated/EValues_ANISO_MODE_LEVEL.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_ANISO_MODE_LEVEL
+    content.vb: Public Enum EValues_ANISO_MODE_LEVEL
+- uid: NVAPIWrapper.EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_MASK
+  commentId: F:NVAPIWrapper.EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_MASK
+  id: ANISO_MODE_LEVEL_MASK
+  parent: NVAPIWrapper.EValues_ANISO_MODE_LEVEL
+  langs:
+  - csharp
+  - vb
+  name: ANISO_MODE_LEVEL_MASK
+  nameWithType: EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_MASK
+  fullName: NVAPIWrapper.EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_MASK
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_ANISO_MODE_LEVEL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ANISO_MODE_LEVEL_MASK
+    path: ../NVAPIWrapper/cs_generated/EValues_ANISO_MODE_LEVEL.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: ANISO_MODE_LEVEL_MASK = 65535
+    return:
+      type: NVAPIWrapper.EValues_ANISO_MODE_LEVEL
+- uid: NVAPIWrapper.EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_NONE_POINT
+  commentId: F:NVAPIWrapper.EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_NONE_POINT
+  id: ANISO_MODE_LEVEL_NONE_POINT
+  parent: NVAPIWrapper.EValues_ANISO_MODE_LEVEL
+  langs:
+  - csharp
+  - vb
+  name: ANISO_MODE_LEVEL_NONE_POINT
+  nameWithType: EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_NONE_POINT
+  fullName: NVAPIWrapper.EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_NONE_POINT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_ANISO_MODE_LEVEL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ANISO_MODE_LEVEL_NONE_POINT
+    path: ../NVAPIWrapper/cs_generated/EValues_ANISO_MODE_LEVEL.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: ANISO_MODE_LEVEL_NONE_POINT = 0
+    return:
+      type: NVAPIWrapper.EValues_ANISO_MODE_LEVEL
+- uid: NVAPIWrapper.EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_NONE_LINEAR
+  commentId: F:NVAPIWrapper.EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_NONE_LINEAR
+  id: ANISO_MODE_LEVEL_NONE_LINEAR
+  parent: NVAPIWrapper.EValues_ANISO_MODE_LEVEL
+  langs:
+  - csharp
+  - vb
+  name: ANISO_MODE_LEVEL_NONE_LINEAR
+  nameWithType: EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_NONE_LINEAR
+  fullName: NVAPIWrapper.EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_NONE_LINEAR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_ANISO_MODE_LEVEL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ANISO_MODE_LEVEL_NONE_LINEAR
+    path: ../NVAPIWrapper/cs_generated/EValues_ANISO_MODE_LEVEL.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: ANISO_MODE_LEVEL_NONE_LINEAR = 1
+    return:
+      type: NVAPIWrapper.EValues_ANISO_MODE_LEVEL
+- uid: NVAPIWrapper.EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_MAX
+  commentId: F:NVAPIWrapper.EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_MAX
+  id: ANISO_MODE_LEVEL_MAX
+  parent: NVAPIWrapper.EValues_ANISO_MODE_LEVEL
+  langs:
+  - csharp
+  - vb
+  name: ANISO_MODE_LEVEL_MAX
+  nameWithType: EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_MAX
+  fullName: NVAPIWrapper.EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_MAX
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_ANISO_MODE_LEVEL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ANISO_MODE_LEVEL_MAX
+    path: ../NVAPIWrapper/cs_generated/EValues_ANISO_MODE_LEVEL.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: ANISO_MODE_LEVEL_MAX = 16
+    return:
+      type: NVAPIWrapper.EValues_ANISO_MODE_LEVEL
+- uid: NVAPIWrapper.EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_DEFAULT
+  id: ANISO_MODE_LEVEL_DEFAULT
+  parent: NVAPIWrapper.EValues_ANISO_MODE_LEVEL
+  langs:
+  - csharp
+  - vb
+  name: ANISO_MODE_LEVEL_DEFAULT
+  nameWithType: EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_DEFAULT
+  fullName: NVAPIWrapper.EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_ANISO_MODE_LEVEL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ANISO_MODE_LEVEL_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_ANISO_MODE_LEVEL.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: ANISO_MODE_LEVEL_DEFAULT = 1
+    return:
+      type: NVAPIWrapper.EValues_ANISO_MODE_LEVEL
+- uid: NVAPIWrapper.EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_NUM_VALUES
+  id: ANISO_MODE_LEVEL_NUM_VALUES
+  parent: NVAPIWrapper.EValues_ANISO_MODE_LEVEL
+  langs:
+  - csharp
+  - vb
+  name: ANISO_MODE_LEVEL_NUM_VALUES
+  nameWithType: EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_ANISO_MODE_LEVEL.ANISO_MODE_LEVEL_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_ANISO_MODE_LEVEL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ANISO_MODE_LEVEL_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_ANISO_MODE_LEVEL.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: ANISO_MODE_LEVEL_NUM_VALUES = 5
+    return:
+      type: NVAPIWrapper.EValues_ANISO_MODE_LEVEL
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_ANISO_MODE_LEVEL
+  commentId: T:NVAPIWrapper.EValues_ANISO_MODE_LEVEL
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_ANISO_MODE_LEVEL.html
+  name: EValues_ANISO_MODE_LEVEL
+  nameWithType: EValues_ANISO_MODE_LEVEL
+  fullName: NVAPIWrapper.EValues_ANISO_MODE_LEVEL

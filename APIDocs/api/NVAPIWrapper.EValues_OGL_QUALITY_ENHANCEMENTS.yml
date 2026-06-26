@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS
+  commentId: T:NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS
+  id: EValues_OGL_QUALITY_ENHANCEMENTS
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_DEFAULT
+  - NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_HPERF
+  - NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_HQUAL
+  - NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_NUM_VALUES
+  - NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_PERF
+  - NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_QUAL
+  langs:
+  - csharp
+  - vb
+  name: EValues_OGL_QUALITY_ENHANCEMENTS
+  nameWithType: EValues_OGL_QUALITY_ENHANCEMENTS
+  fullName: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_QUALITY_ENHANCEMENTS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_OGL_QUALITY_ENHANCEMENTS
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_QUALITY_ENHANCEMENTS.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_OGL_QUALITY_ENHANCEMENTS
+    content.vb: Public Enum EValues_OGL_QUALITY_ENHANCEMENTS
+- uid: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_HQUAL
+  commentId: F:NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_HQUAL
+  id: OGL_QUALITY_ENHANCEMENTS_HQUAL
+  parent: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS
+  langs:
+  - csharp
+  - vb
+  name: OGL_QUALITY_ENHANCEMENTS_HQUAL
+  nameWithType: EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_HQUAL
+  fullName: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_HQUAL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_QUALITY_ENHANCEMENTS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_QUALITY_ENHANCEMENTS_HQUAL
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_QUALITY_ENHANCEMENTS.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_QUALITY_ENHANCEMENTS_HQUAL = -10
+    return:
+      type: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS
+- uid: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_QUAL
+  commentId: F:NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_QUAL
+  id: OGL_QUALITY_ENHANCEMENTS_QUAL
+  parent: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS
+  langs:
+  - csharp
+  - vb
+  name: OGL_QUALITY_ENHANCEMENTS_QUAL
+  nameWithType: EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_QUAL
+  fullName: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_QUAL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_QUALITY_ENHANCEMENTS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_QUALITY_ENHANCEMENTS_QUAL
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_QUALITY_ENHANCEMENTS.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_QUALITY_ENHANCEMENTS_QUAL = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS
+- uid: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_PERF
+  commentId: F:NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_PERF
+  id: OGL_QUALITY_ENHANCEMENTS_PERF
+  parent: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS
+  langs:
+  - csharp
+  - vb
+  name: OGL_QUALITY_ENHANCEMENTS_PERF
+  nameWithType: EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_PERF
+  fullName: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_PERF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_QUALITY_ENHANCEMENTS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_QUALITY_ENHANCEMENTS_PERF
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_QUALITY_ENHANCEMENTS.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_QUALITY_ENHANCEMENTS_PERF = 10
+    return:
+      type: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS
+- uid: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_HPERF
+  commentId: F:NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_HPERF
+  id: OGL_QUALITY_ENHANCEMENTS_HPERF
+  parent: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS
+  langs:
+  - csharp
+  - vb
+  name: OGL_QUALITY_ENHANCEMENTS_HPERF
+  nameWithType: EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_HPERF
+  fullName: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_HPERF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_QUALITY_ENHANCEMENTS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_QUALITY_ENHANCEMENTS_HPERF
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_QUALITY_ENHANCEMENTS.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_QUALITY_ENHANCEMENTS_HPERF = 20
+    return:
+      type: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS
+- uid: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_NUM_VALUES
+  id: OGL_QUALITY_ENHANCEMENTS_NUM_VALUES
+  parent: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS
+  langs:
+  - csharp
+  - vb
+  name: OGL_QUALITY_ENHANCEMENTS_NUM_VALUES
+  nameWithType: EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_QUALITY_ENHANCEMENTS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_QUALITY_ENHANCEMENTS_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_QUALITY_ENHANCEMENTS.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_QUALITY_ENHANCEMENTS_NUM_VALUES = 4
+    return:
+      type: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS
+- uid: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_DEFAULT
+  id: OGL_QUALITY_ENHANCEMENTS_DEFAULT
+  parent: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS
+  langs:
+  - csharp
+  - vb
+  name: OGL_QUALITY_ENHANCEMENTS_DEFAULT
+  nameWithType: EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_DEFAULT
+  fullName: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.OGL_QUALITY_ENHANCEMENTS_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_QUALITY_ENHANCEMENTS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_QUALITY_ENHANCEMENTS_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_QUALITY_ENHANCEMENTS.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_QUALITY_ENHANCEMENTS_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS
+  commentId: T:NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS.html
+  name: EValues_OGL_QUALITY_ENHANCEMENTS
+  nameWithType: EValues_OGL_QUALITY_ENHANCEMENTS
+  fullName: NVAPIWrapper.EValues_OGL_QUALITY_ENHANCEMENTS

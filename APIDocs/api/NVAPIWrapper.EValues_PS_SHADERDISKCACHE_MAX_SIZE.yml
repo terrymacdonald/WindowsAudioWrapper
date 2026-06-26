@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE
+  commentId: T:NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE
+  id: EValues_PS_SHADERDISKCACHE_MAX_SIZE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE.PS_SHADERDISKCACHE_MAX_SIZE_DEFAULT
+  - NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE.PS_SHADERDISKCACHE_MAX_SIZE_MAX
+  - NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE.PS_SHADERDISKCACHE_MAX_SIZE_MIN
+  - NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE.PS_SHADERDISKCACHE_MAX_SIZE_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_PS_SHADERDISKCACHE_MAX_SIZE
+  nameWithType: EValues_PS_SHADERDISKCACHE_MAX_SIZE
+  fullName: NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PS_SHADERDISKCACHE_MAX_SIZE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_PS_SHADERDISKCACHE_MAX_SIZE
+    path: ../NVAPIWrapper/cs_generated/EValues_PS_SHADERDISKCACHE_MAX_SIZE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_PS_SHADERDISKCACHE_MAX_SIZE
+    content.vb: Public Enum EValues_PS_SHADERDISKCACHE_MAX_SIZE
+- uid: NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE.PS_SHADERDISKCACHE_MAX_SIZE_MIN
+  commentId: F:NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE.PS_SHADERDISKCACHE_MAX_SIZE_MIN
+  id: PS_SHADERDISKCACHE_MAX_SIZE_MIN
+  parent: NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE
+  langs:
+  - csharp
+  - vb
+  name: PS_SHADERDISKCACHE_MAX_SIZE_MIN
+  nameWithType: EValues_PS_SHADERDISKCACHE_MAX_SIZE.PS_SHADERDISKCACHE_MAX_SIZE_MIN
+  fullName: NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE.PS_SHADERDISKCACHE_MAX_SIZE_MIN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PS_SHADERDISKCACHE_MAX_SIZE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PS_SHADERDISKCACHE_MAX_SIZE_MIN
+    path: ../NVAPIWrapper/cs_generated/EValues_PS_SHADERDISKCACHE_MAX_SIZE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PS_SHADERDISKCACHE_MAX_SIZE_MIN = 0
+    return:
+      type: NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE
+- uid: NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE.PS_SHADERDISKCACHE_MAX_SIZE_MAX
+  commentId: F:NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE.PS_SHADERDISKCACHE_MAX_SIZE_MAX
+  id: PS_SHADERDISKCACHE_MAX_SIZE_MAX
+  parent: NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE
+  langs:
+  - csharp
+  - vb
+  name: PS_SHADERDISKCACHE_MAX_SIZE_MAX
+  nameWithType: EValues_PS_SHADERDISKCACHE_MAX_SIZE.PS_SHADERDISKCACHE_MAX_SIZE_MAX
+  fullName: NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE.PS_SHADERDISKCACHE_MAX_SIZE_MAX
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PS_SHADERDISKCACHE_MAX_SIZE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PS_SHADERDISKCACHE_MAX_SIZE_MAX
+    path: ../NVAPIWrapper/cs_generated/EValues_PS_SHADERDISKCACHE_MAX_SIZE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PS_SHADERDISKCACHE_MAX_SIZE_MAX = -1
+    return:
+      type: NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE
+- uid: NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE.PS_SHADERDISKCACHE_MAX_SIZE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE.PS_SHADERDISKCACHE_MAX_SIZE_NUM_VALUES
+  id: PS_SHADERDISKCACHE_MAX_SIZE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE
+  langs:
+  - csharp
+  - vb
+  name: PS_SHADERDISKCACHE_MAX_SIZE_NUM_VALUES
+  nameWithType: EValues_PS_SHADERDISKCACHE_MAX_SIZE.PS_SHADERDISKCACHE_MAX_SIZE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE.PS_SHADERDISKCACHE_MAX_SIZE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PS_SHADERDISKCACHE_MAX_SIZE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PS_SHADERDISKCACHE_MAX_SIZE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_PS_SHADERDISKCACHE_MAX_SIZE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PS_SHADERDISKCACHE_MAX_SIZE_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE
+- uid: NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE.PS_SHADERDISKCACHE_MAX_SIZE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE.PS_SHADERDISKCACHE_MAX_SIZE_DEFAULT
+  id: PS_SHADERDISKCACHE_MAX_SIZE_DEFAULT
+  parent: NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE
+  langs:
+  - csharp
+  - vb
+  name: PS_SHADERDISKCACHE_MAX_SIZE_DEFAULT
+  nameWithType: EValues_PS_SHADERDISKCACHE_MAX_SIZE.PS_SHADERDISKCACHE_MAX_SIZE_DEFAULT
+  fullName: NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE.PS_SHADERDISKCACHE_MAX_SIZE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PS_SHADERDISKCACHE_MAX_SIZE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PS_SHADERDISKCACHE_MAX_SIZE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_PS_SHADERDISKCACHE_MAX_SIZE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PS_SHADERDISKCACHE_MAX_SIZE_DEFAULT = 16384
+    return:
+      type: NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE
+  commentId: T:NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE.html
+  name: EValues_PS_SHADERDISKCACHE_MAX_SIZE
+  nameWithType: EValues_PS_SHADERDISKCACHE_MAX_SIZE
+  fullName: NVAPIWrapper.EValues_PS_SHADERDISKCACHE_MAX_SIZE

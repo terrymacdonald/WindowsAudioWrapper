@@ -1,0 +1,71 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_NGX_DRIVER_FEATURE_ID
+  commentId: T:NVAPIWrapper._NV_NGX_DRIVER_FEATURE_ID
+  id: _NV_NGX_DRIVER_FEATURE_ID
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_NGX_DRIVER_FEATURE_ID.NV_NGX_DRIVER_FEATURE_ID_SET_FLIP_CONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: _NV_NGX_DRIVER_FEATURE_ID
+  nameWithType: _NV_NGX_DRIVER_FEATURE_ID
+  fullName: NVAPIWrapper._NV_NGX_DRIVER_FEATURE_ID
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_NGX_DRIVER_FEATURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_NGX_DRIVER_FEATURE_ID
+    path: ../NVAPIWrapper/cs_generated/_NV_NGX_DRIVER_FEATURE_ID.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_NGX_DRIVER_FEATURE_ID
+    content.vb: Public Enum _NV_NGX_DRIVER_FEATURE_ID
+- uid: NVAPIWrapper._NV_NGX_DRIVER_FEATURE_ID.NV_NGX_DRIVER_FEATURE_ID_SET_FLIP_CONFIG_V2
+  commentId: F:NVAPIWrapper._NV_NGX_DRIVER_FEATURE_ID.NV_NGX_DRIVER_FEATURE_ID_SET_FLIP_CONFIG_V2
+  id: NV_NGX_DRIVER_FEATURE_ID_SET_FLIP_CONFIG_V2
+  parent: NVAPIWrapper._NV_NGX_DRIVER_FEATURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_NGX_DRIVER_FEATURE_ID_SET_FLIP_CONFIG_V2
+  nameWithType: _NV_NGX_DRIVER_FEATURE_ID.NV_NGX_DRIVER_FEATURE_ID_SET_FLIP_CONFIG_V2
+  fullName: NVAPIWrapper._NV_NGX_DRIVER_FEATURE_ID.NV_NGX_DRIVER_FEATURE_ID_SET_FLIP_CONFIG_V2
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_NGX_DRIVER_FEATURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_NGX_DRIVER_FEATURE_ID_SET_FLIP_CONFIG_V2
+    path: ../NVAPIWrapper/cs_generated/_NV_NGX_DRIVER_FEATURE_ID.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_NGX_DRIVER_FEATURE_ID_SET_FLIP_CONFIG_V2 = 3423695
+    return:
+      type: NVAPIWrapper._NV_NGX_DRIVER_FEATURE_ID
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_NGX_DRIVER_FEATURE_ID
+  commentId: T:NVAPIWrapper._NV_NGX_DRIVER_FEATURE_ID
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_NGX_DRIVER_FEATURE_ID.html
+  name: _NV_NGX_DRIVER_FEATURE_ID
+  nameWithType: _NV_NGX_DRIVER_FEATURE_ID
+  fullName: NVAPIWrapper._NV_NGX_DRIVER_FEATURE_ID

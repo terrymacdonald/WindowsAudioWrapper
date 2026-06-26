@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE
+  commentId: T:NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE
+  id: EValues_AA_MODE_ALPHATOCOVERAGE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_DEFAULT
+  - NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_MODE_MASK
+  - NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_MODE_MAX
+  - NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_MODE_OFF
+  - NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_MODE_ON
+  - NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_AA_MODE_ALPHATOCOVERAGE
+  nameWithType: EValues_AA_MODE_ALPHATOCOVERAGE
+  fullName: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_ALPHATOCOVERAGE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_AA_MODE_ALPHATOCOVERAGE
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_ALPHATOCOVERAGE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_AA_MODE_ALPHATOCOVERAGE
+    content.vb: Public Enum EValues_AA_MODE_ALPHATOCOVERAGE
+- uid: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_MODE_MASK
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_MODE_MASK
+  id: AA_MODE_ALPHATOCOVERAGE_MODE_MASK
+  parent: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_ALPHATOCOVERAGE_MODE_MASK
+  nameWithType: EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_MODE_MASK
+  fullName: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_MODE_MASK
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_ALPHATOCOVERAGE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_ALPHATOCOVERAGE_MODE_MASK
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_ALPHATOCOVERAGE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_ALPHATOCOVERAGE_MODE_MASK = 4
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE
+- uid: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_MODE_OFF
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_MODE_OFF
+  id: AA_MODE_ALPHATOCOVERAGE_MODE_OFF
+  parent: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_ALPHATOCOVERAGE_MODE_OFF
+  nameWithType: EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_MODE_OFF
+  fullName: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_MODE_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_ALPHATOCOVERAGE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_ALPHATOCOVERAGE_MODE_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_ALPHATOCOVERAGE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_ALPHATOCOVERAGE_MODE_OFF = 0
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE
+- uid: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_MODE_ON
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_MODE_ON
+  id: AA_MODE_ALPHATOCOVERAGE_MODE_ON
+  parent: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_ALPHATOCOVERAGE_MODE_ON
+  nameWithType: EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_MODE_ON
+  fullName: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_MODE_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_ALPHATOCOVERAGE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_ALPHATOCOVERAGE_MODE_ON
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_ALPHATOCOVERAGE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_ALPHATOCOVERAGE_MODE_ON = 4
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE
+- uid: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_MODE_MAX
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_MODE_MAX
+  id: AA_MODE_ALPHATOCOVERAGE_MODE_MAX
+  parent: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_ALPHATOCOVERAGE_MODE_MAX
+  nameWithType: EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_MODE_MAX
+  fullName: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_MODE_MAX
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_ALPHATOCOVERAGE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_ALPHATOCOVERAGE_MODE_MAX
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_ALPHATOCOVERAGE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_ALPHATOCOVERAGE_MODE_MAX = 4
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE
+- uid: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_NUM_VALUES
+  id: AA_MODE_ALPHATOCOVERAGE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_ALPHATOCOVERAGE_NUM_VALUES
+  nameWithType: EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_ALPHATOCOVERAGE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_ALPHATOCOVERAGE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_ALPHATOCOVERAGE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_ALPHATOCOVERAGE_NUM_VALUES = 4
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE
+- uid: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_DEFAULT
+  id: AA_MODE_ALPHATOCOVERAGE_DEFAULT
+  parent: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_ALPHATOCOVERAGE_DEFAULT
+  nameWithType: EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_DEFAULT
+  fullName: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.AA_MODE_ALPHATOCOVERAGE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_ALPHATOCOVERAGE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_ALPHATOCOVERAGE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_ALPHATOCOVERAGE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_ALPHATOCOVERAGE_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE
+  commentId: T:NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE.html
+  name: EValues_AA_MODE_ALPHATOCOVERAGE
+  nameWithType: EValues_AA_MODE_ALPHATOCOVERAGE
+  fullName: NVAPIWrapper.EValues_AA_MODE_ALPHATOCOVERAGE

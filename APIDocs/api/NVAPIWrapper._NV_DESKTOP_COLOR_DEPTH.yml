@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH
+  commentId: T:NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH
+  id: _NV_DESKTOP_COLOR_DEPTH
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_10BPC
+  - NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT
+  - NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT_HDR
+  - NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT_WCG
+  - NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_8BPC
+  - NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_DEFAULT
+  - NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_MAX_VALUE
+  langs:
+  - csharp
+  - vb
+  name: _NV_DESKTOP_COLOR_DEPTH
+  nameWithType: _NV_DESKTOP_COLOR_DEPTH
+  fullName: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DESKTOP_COLOR_DEPTH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_DESKTOP_COLOR_DEPTH
+    path: ../NVAPIWrapper/cs_generated/_NV_DESKTOP_COLOR_DEPTH.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_DESKTOP_COLOR_DEPTH
+    content.vb: Public Enum _NV_DESKTOP_COLOR_DEPTH
+- uid: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_DEFAULT
+  commentId: F:NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_DEFAULT
+  id: NV_DESKTOP_COLOR_DEPTH_DEFAULT
+  parent: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH
+  langs:
+  - csharp
+  - vb
+  name: NV_DESKTOP_COLOR_DEPTH_DEFAULT
+  nameWithType: _NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_DEFAULT
+  fullName: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DESKTOP_COLOR_DEPTH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DESKTOP_COLOR_DEPTH_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/_NV_DESKTOP_COLOR_DEPTH.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DESKTOP_COLOR_DEPTH_DEFAULT = 0
+    return:
+      type: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH
+- uid: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_8BPC
+  commentId: F:NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_8BPC
+  id: NV_DESKTOP_COLOR_DEPTH_8BPC
+  parent: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH
+  langs:
+  - csharp
+  - vb
+  name: NV_DESKTOP_COLOR_DEPTH_8BPC
+  nameWithType: _NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_8BPC
+  fullName: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_8BPC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DESKTOP_COLOR_DEPTH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DESKTOP_COLOR_DEPTH_8BPC
+    path: ../NVAPIWrapper/cs_generated/_NV_DESKTOP_COLOR_DEPTH.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DESKTOP_COLOR_DEPTH_8BPC = 1
+    return:
+      type: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH
+- uid: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_10BPC
+  commentId: F:NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_10BPC
+  id: NV_DESKTOP_COLOR_DEPTH_10BPC
+  parent: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH
+  langs:
+  - csharp
+  - vb
+  name: NV_DESKTOP_COLOR_DEPTH_10BPC
+  nameWithType: _NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_10BPC
+  fullName: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_10BPC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DESKTOP_COLOR_DEPTH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DESKTOP_COLOR_DEPTH_10BPC
+    path: ../NVAPIWrapper/cs_generated/_NV_DESKTOP_COLOR_DEPTH.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DESKTOP_COLOR_DEPTH_10BPC = 2
+    return:
+      type: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH
+- uid: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT
+  commentId: F:NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT
+  id: NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT
+  parent: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH
+  langs:
+  - csharp
+  - vb
+  name: NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT
+  nameWithType: _NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT
+  fullName: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DESKTOP_COLOR_DEPTH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT
+    path: ../NVAPIWrapper/cs_generated/_NV_DESKTOP_COLOR_DEPTH.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT = 3
+    return:
+      type: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH
+- uid: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT_WCG
+  commentId: F:NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT_WCG
+  id: NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT_WCG
+  parent: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH
+  langs:
+  - csharp
+  - vb
+  name: NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT_WCG
+  nameWithType: _NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT_WCG
+  fullName: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT_WCG
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DESKTOP_COLOR_DEPTH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT_WCG
+    path: ../NVAPIWrapper/cs_generated/_NV_DESKTOP_COLOR_DEPTH.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT_WCG = 4
+    return:
+      type: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH
+- uid: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT_HDR
+  commentId: F:NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT_HDR
+  id: NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT_HDR
+  parent: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH
+  langs:
+  - csharp
+  - vb
+  name: NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT_HDR
+  nameWithType: _NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT_HDR
+  fullName: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT_HDR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DESKTOP_COLOR_DEPTH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT_HDR
+    path: ../NVAPIWrapper/cs_generated/_NV_DESKTOP_COLOR_DEPTH.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DESKTOP_COLOR_DEPTH_16BPC_FLOAT_HDR = 5
+    return:
+      type: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH
+- uid: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_MAX_VALUE
+  commentId: F:NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_MAX_VALUE
+  id: NV_DESKTOP_COLOR_DEPTH_MAX_VALUE
+  parent: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH
+  langs:
+  - csharp
+  - vb
+  name: NV_DESKTOP_COLOR_DEPTH_MAX_VALUE
+  nameWithType: _NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_MAX_VALUE
+  fullName: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.NV_DESKTOP_COLOR_DEPTH_MAX_VALUE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DESKTOP_COLOR_DEPTH.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DESKTOP_COLOR_DEPTH_MAX_VALUE
+    path: ../NVAPIWrapper/cs_generated/_NV_DESKTOP_COLOR_DEPTH.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DESKTOP_COLOR_DEPTH_MAX_VALUE = 5
+    return:
+      type: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH
+  commentId: T:NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH.html
+  name: _NV_DESKTOP_COLOR_DEPTH
+  nameWithType: _NV_DESKTOP_COLOR_DEPTH
+  fullName: NVAPIWrapper._NV_DESKTOP_COLOR_DEPTH

@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIEventCallbackKind
+  commentId: T:NVAPIWrapper.NVAPIEventCallbackKind
+  id: NVAPIEventCallbackKind
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIEventCallbackKind.DisplayColorimetryChange
+  - NVAPIWrapper.NVAPIEventCallbackKind.DisplayOutputModeChange
+  - NVAPIWrapper.NVAPIEventCallbackKind.Qsync
+  langs:
+  - csharp
+  - vb
+  name: NVAPIEventCallbackKind
+  nameWithType: NVAPIEventCallbackKind
+  fullName: NVAPIWrapper.NVAPIEventCallbackKind
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIEventCallbackKind
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 908
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Event callback registration kind.
+  example: []
+  syntax:
+    content: public enum NVAPIEventCallbackKind
+    content.vb: Public Enum NVAPIEventCallbackKind
+- uid: NVAPIWrapper.NVAPIEventCallbackKind.Qsync
+  commentId: F:NVAPIWrapper.NVAPIEventCallbackKind.Qsync
+  id: Qsync
+  parent: NVAPIWrapper.NVAPIEventCallbackKind
+  langs:
+  - csharp
+  - vb
+  name: Qsync
+  nameWithType: NVAPIEventCallbackKind.Qsync
+  fullName: NVAPIWrapper.NVAPIEventCallbackKind.Qsync
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Qsync
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 913
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: QSYNC event callback.
+  example: []
+  syntax:
+    content: Qsync = 0
+    return:
+      type: NVAPIWrapper.NVAPIEventCallbackKind
+- uid: NVAPIWrapper.NVAPIEventCallbackKind.DisplayOutputModeChange
+  commentId: F:NVAPIWrapper.NVAPIEventCallbackKind.DisplayOutputModeChange
+  id: DisplayOutputModeChange
+  parent: NVAPIWrapper.NVAPIEventCallbackKind
+  langs:
+  - csharp
+  - vb
+  name: DisplayOutputModeChange
+  nameWithType: NVAPIEventCallbackKind.DisplayOutputModeChange
+  fullName: NVAPIWrapper.NVAPIEventCallbackKind.DisplayOutputModeChange
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: DisplayOutputModeChange
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 918
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Display output mode change event callback.
+  example: []
+  syntax:
+    content: DisplayOutputModeChange = 1
+    return:
+      type: NVAPIWrapper.NVAPIEventCallbackKind
+- uid: NVAPIWrapper.NVAPIEventCallbackKind.DisplayColorimetryChange
+  commentId: F:NVAPIWrapper.NVAPIEventCallbackKind.DisplayColorimetryChange
+  id: DisplayColorimetryChange
+  parent: NVAPIWrapper.NVAPIEventCallbackKind
+  langs:
+  - csharp
+  - vb
+  name: DisplayColorimetryChange
+  nameWithType: NVAPIEventCallbackKind.DisplayColorimetryChange
+  fullName: NVAPIWrapper.NVAPIEventCallbackKind.DisplayColorimetryChange
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIApiHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: DisplayColorimetryChange
+    path: ../NVAPIWrapper/NVAPIApiHelper.cs
+    startLine: 923
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Display colorimetry change event callback.
+  example: []
+  syntax:
+    content: DisplayColorimetryChange = 2
+    return:
+      type: NVAPIWrapper.NVAPIEventCallbackKind
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NVAPIEventCallbackKind
+  commentId: T:NVAPIWrapper.NVAPIEventCallbackKind
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIEventCallbackKind.html
+  name: NVAPIEventCallbackKind
+  nameWithType: NVAPIEventCallbackKind
+  fullName: NVAPIWrapper.NVAPIEventCallbackKind

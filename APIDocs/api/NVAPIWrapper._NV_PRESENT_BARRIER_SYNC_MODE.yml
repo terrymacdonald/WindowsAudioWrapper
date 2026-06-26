@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE
+  commentId: T:NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE
+  id: _NV_PRESENT_BARRIER_SYNC_MODE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE.PRESENT_BARRIER_NOT_JOINED
+  - NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE.PRESENT_BARRIER_SYNC_CLIENT
+  - NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE.PRESENT_BARRIER_SYNC_CLUSTER
+  - NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE.PRESENT_BARRIER_SYNC_SYSTEM
+  langs:
+  - csharp
+  - vb
+  name: _NV_PRESENT_BARRIER_SYNC_MODE
+  nameWithType: _NV_PRESENT_BARRIER_SYNC_MODE
+  fullName: NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_PRESENT_BARRIER_SYNC_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_PRESENT_BARRIER_SYNC_MODE
+    path: ../NVAPIWrapper/cs_generated/_NV_PRESENT_BARRIER_SYNC_MODE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_PRESENT_BARRIER_SYNC_MODE
+    content.vb: Public Enum _NV_PRESENT_BARRIER_SYNC_MODE
+- uid: NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE.PRESENT_BARRIER_NOT_JOINED
+  commentId: F:NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE.PRESENT_BARRIER_NOT_JOINED
+  id: PRESENT_BARRIER_NOT_JOINED
+  parent: NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE
+  langs:
+  - csharp
+  - vb
+  name: PRESENT_BARRIER_NOT_JOINED
+  nameWithType: _NV_PRESENT_BARRIER_SYNC_MODE.PRESENT_BARRIER_NOT_JOINED
+  fullName: NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE.PRESENT_BARRIER_NOT_JOINED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_PRESENT_BARRIER_SYNC_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PRESENT_BARRIER_NOT_JOINED
+    path: ../NVAPIWrapper/cs_generated/_NV_PRESENT_BARRIER_SYNC_MODE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PRESENT_BARRIER_NOT_JOINED = 0
+    return:
+      type: NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE
+- uid: NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE.PRESENT_BARRIER_SYNC_CLIENT
+  commentId: F:NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE.PRESENT_BARRIER_SYNC_CLIENT
+  id: PRESENT_BARRIER_SYNC_CLIENT
+  parent: NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE
+  langs:
+  - csharp
+  - vb
+  name: PRESENT_BARRIER_SYNC_CLIENT
+  nameWithType: _NV_PRESENT_BARRIER_SYNC_MODE.PRESENT_BARRIER_SYNC_CLIENT
+  fullName: NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE.PRESENT_BARRIER_SYNC_CLIENT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_PRESENT_BARRIER_SYNC_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PRESENT_BARRIER_SYNC_CLIENT
+    path: ../NVAPIWrapper/cs_generated/_NV_PRESENT_BARRIER_SYNC_MODE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PRESENT_BARRIER_SYNC_CLIENT = 1
+    return:
+      type: NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE
+- uid: NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE.PRESENT_BARRIER_SYNC_SYSTEM
+  commentId: F:NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE.PRESENT_BARRIER_SYNC_SYSTEM
+  id: PRESENT_BARRIER_SYNC_SYSTEM
+  parent: NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE
+  langs:
+  - csharp
+  - vb
+  name: PRESENT_BARRIER_SYNC_SYSTEM
+  nameWithType: _NV_PRESENT_BARRIER_SYNC_MODE.PRESENT_BARRIER_SYNC_SYSTEM
+  fullName: NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE.PRESENT_BARRIER_SYNC_SYSTEM
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_PRESENT_BARRIER_SYNC_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PRESENT_BARRIER_SYNC_SYSTEM
+    path: ../NVAPIWrapper/cs_generated/_NV_PRESENT_BARRIER_SYNC_MODE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PRESENT_BARRIER_SYNC_SYSTEM = 2
+    return:
+      type: NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE
+- uid: NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE.PRESENT_BARRIER_SYNC_CLUSTER
+  commentId: F:NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE.PRESENT_BARRIER_SYNC_CLUSTER
+  id: PRESENT_BARRIER_SYNC_CLUSTER
+  parent: NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE
+  langs:
+  - csharp
+  - vb
+  name: PRESENT_BARRIER_SYNC_CLUSTER
+  nameWithType: _NV_PRESENT_BARRIER_SYNC_MODE.PRESENT_BARRIER_SYNC_CLUSTER
+  fullName: NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE.PRESENT_BARRIER_SYNC_CLUSTER
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_PRESENT_BARRIER_SYNC_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PRESENT_BARRIER_SYNC_CLUSTER
+    path: ../NVAPIWrapper/cs_generated/_NV_PRESENT_BARRIER_SYNC_MODE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PRESENT_BARRIER_SYNC_CLUSTER = 3
+    return:
+      type: NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE
+  commentId: T:NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE.html
+  name: _NV_PRESENT_BARRIER_SYNC_MODE
+  nameWithType: _NV_PRESENT_BARRIER_SYNC_MODE
+  fullName: NVAPIWrapper._NV_PRESENT_BARRIER_SYNC_MODE

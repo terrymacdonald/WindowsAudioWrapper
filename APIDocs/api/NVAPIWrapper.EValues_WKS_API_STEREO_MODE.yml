@@ -1,0 +1,799 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  commentId: T:NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  id: EValues_WKS_API_STEREO_MODE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_AEGIS_DT_FRAME_SEQUENTIAL
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_ANAGLYPH
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_AUTODETECT_PASSIVE_MODE
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_CHECKERBOARD
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_COLOR_INTERLEAVED
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_COLOR_LINE
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_DEFAULT
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_DEFAULT_GL
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_DP_INBAND
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_FRAME_SEQUENTIAL
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_HORIZONTAL_INTERLACED
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_INVERSE_CHECKERBOARD
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_NUM_VALUES
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_AUTO
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_DAC0
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_DAC1
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_OEM_EMITTER_FRAME_SEQUENTIAL
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_SEEFRONT
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_SHUTTER_GLASSES
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_SIDE_FIELD
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_STEREO_MIRROR
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_SUB_FIELD
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_TRIDELITY_MV
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_TRIDELITY_SL
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_TWINVIEW
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_USE_HW_DEFAULT
+  - NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_VERTICAL_INTERLACED
+  langs:
+  - csharp
+  - vb
+  name: EValues_WKS_API_STEREO_MODE
+  nameWithType: EValues_WKS_API_STEREO_MODE
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_WKS_API_STEREO_MODE
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_WKS_API_STEREO_MODE
+    content.vb: Public Enum EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_SHUTTER_GLASSES
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_SHUTTER_GLASSES
+  id: WKS_API_STEREO_MODE_SHUTTER_GLASSES
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_SHUTTER_GLASSES
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_SHUTTER_GLASSES
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_SHUTTER_GLASSES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_SHUTTER_GLASSES
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_SHUTTER_GLASSES = 0
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_VERTICAL_INTERLACED
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_VERTICAL_INTERLACED
+  id: WKS_API_STEREO_MODE_VERTICAL_INTERLACED
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_VERTICAL_INTERLACED
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_VERTICAL_INTERLACED
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_VERTICAL_INTERLACED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_VERTICAL_INTERLACED
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_VERTICAL_INTERLACED = 1
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_TWINVIEW
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_TWINVIEW
+  id: WKS_API_STEREO_MODE_TWINVIEW
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_TWINVIEW
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_TWINVIEW
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_TWINVIEW
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_TWINVIEW
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_TWINVIEW = 2
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_AUTO
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_AUTO
+  id: WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_AUTO
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_AUTO
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_AUTO
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_AUTO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_AUTO
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_AUTO = 3
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_DAC0
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_DAC0
+  id: WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_DAC0
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_DAC0
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_DAC0
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_DAC0
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_DAC0
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_DAC0 = 4
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_DAC1
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_DAC1
+  id: WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_DAC1
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_DAC1
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_DAC1
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_DAC1
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_DAC1
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_NV17_SHUTTER_GLASSES_DAC1 = 5
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_COLOR_LINE
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_COLOR_LINE
+  id: WKS_API_STEREO_MODE_COLOR_LINE
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_COLOR_LINE
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_COLOR_LINE
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_COLOR_LINE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_COLOR_LINE
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_COLOR_LINE = 6
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_COLOR_INTERLEAVED
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_COLOR_INTERLEAVED
+  id: WKS_API_STEREO_MODE_COLOR_INTERLEAVED
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_COLOR_INTERLEAVED
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_COLOR_INTERLEAVED
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_COLOR_INTERLEAVED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_COLOR_INTERLEAVED
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_COLOR_INTERLEAVED = 7
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_ANAGLYPH
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_ANAGLYPH
+  id: WKS_API_STEREO_MODE_ANAGLYPH
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_ANAGLYPH
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_ANAGLYPH
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_ANAGLYPH
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_ANAGLYPH
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_ANAGLYPH = 8
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_HORIZONTAL_INTERLACED
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_HORIZONTAL_INTERLACED
+  id: WKS_API_STEREO_MODE_HORIZONTAL_INTERLACED
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_HORIZONTAL_INTERLACED
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_HORIZONTAL_INTERLACED
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_HORIZONTAL_INTERLACED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_HORIZONTAL_INTERLACED
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_HORIZONTAL_INTERLACED = 9
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_SIDE_FIELD
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_SIDE_FIELD
+  id: WKS_API_STEREO_MODE_SIDE_FIELD
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_SIDE_FIELD
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_SIDE_FIELD
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_SIDE_FIELD
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_SIDE_FIELD
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_SIDE_FIELD = 10
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_SUB_FIELD
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_SUB_FIELD
+  id: WKS_API_STEREO_MODE_SUB_FIELD
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_SUB_FIELD
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_SUB_FIELD
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_SUB_FIELD
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_SUB_FIELD
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 39
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_SUB_FIELD = 11
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_CHECKERBOARD
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_CHECKERBOARD
+  id: WKS_API_STEREO_MODE_CHECKERBOARD
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_CHECKERBOARD
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_CHECKERBOARD
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_CHECKERBOARD
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_CHECKERBOARD
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 42
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_CHECKERBOARD = 12
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_INVERSE_CHECKERBOARD
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_INVERSE_CHECKERBOARD
+  id: WKS_API_STEREO_MODE_INVERSE_CHECKERBOARD
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_INVERSE_CHECKERBOARD
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_INVERSE_CHECKERBOARD
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_INVERSE_CHECKERBOARD
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_INVERSE_CHECKERBOARD
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 45
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_INVERSE_CHECKERBOARD = 13
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_TRIDELITY_SL
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_TRIDELITY_SL
+  id: WKS_API_STEREO_MODE_TRIDELITY_SL
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_TRIDELITY_SL
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_TRIDELITY_SL
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_TRIDELITY_SL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_TRIDELITY_SL
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 48
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_TRIDELITY_SL = 14
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_TRIDELITY_MV
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_TRIDELITY_MV
+  id: WKS_API_STEREO_MODE_TRIDELITY_MV
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_TRIDELITY_MV
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_TRIDELITY_MV
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_TRIDELITY_MV
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_TRIDELITY_MV
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 51
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_TRIDELITY_MV = 15
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_SEEFRONT
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_SEEFRONT
+  id: WKS_API_STEREO_MODE_SEEFRONT
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_SEEFRONT
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_SEEFRONT
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_SEEFRONT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_SEEFRONT
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 54
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_SEEFRONT = 16
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_STEREO_MIRROR
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_STEREO_MIRROR
+  id: WKS_API_STEREO_MODE_STEREO_MIRROR
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_STEREO_MIRROR
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_STEREO_MIRROR
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_STEREO_MIRROR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_STEREO_MIRROR
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 57
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_STEREO_MIRROR = 17
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_FRAME_SEQUENTIAL
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_FRAME_SEQUENTIAL
+  id: WKS_API_STEREO_MODE_FRAME_SEQUENTIAL
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_FRAME_SEQUENTIAL
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_FRAME_SEQUENTIAL
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_FRAME_SEQUENTIAL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_FRAME_SEQUENTIAL
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 60
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_FRAME_SEQUENTIAL = 18
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_AUTODETECT_PASSIVE_MODE
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_AUTODETECT_PASSIVE_MODE
+  id: WKS_API_STEREO_MODE_AUTODETECT_PASSIVE_MODE
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_AUTODETECT_PASSIVE_MODE
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_AUTODETECT_PASSIVE_MODE
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_AUTODETECT_PASSIVE_MODE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_AUTODETECT_PASSIVE_MODE
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 63
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_AUTODETECT_PASSIVE_MODE = 19
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_AEGIS_DT_FRAME_SEQUENTIAL
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_AEGIS_DT_FRAME_SEQUENTIAL
+  id: WKS_API_STEREO_MODE_AEGIS_DT_FRAME_SEQUENTIAL
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_AEGIS_DT_FRAME_SEQUENTIAL
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_AEGIS_DT_FRAME_SEQUENTIAL
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_AEGIS_DT_FRAME_SEQUENTIAL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_AEGIS_DT_FRAME_SEQUENTIAL
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 66
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_AEGIS_DT_FRAME_SEQUENTIAL = 20
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_OEM_EMITTER_FRAME_SEQUENTIAL
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_OEM_EMITTER_FRAME_SEQUENTIAL
+  id: WKS_API_STEREO_MODE_OEM_EMITTER_FRAME_SEQUENTIAL
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_OEM_EMITTER_FRAME_SEQUENTIAL
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_OEM_EMITTER_FRAME_SEQUENTIAL
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_OEM_EMITTER_FRAME_SEQUENTIAL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_OEM_EMITTER_FRAME_SEQUENTIAL
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 69
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_OEM_EMITTER_FRAME_SEQUENTIAL = 21
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_DP_INBAND
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_DP_INBAND
+  id: WKS_API_STEREO_MODE_DP_INBAND
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_DP_INBAND
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_DP_INBAND
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_DP_INBAND
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_DP_INBAND
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 72
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_DP_INBAND = 22
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_USE_HW_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_USE_HW_DEFAULT
+  id: WKS_API_STEREO_MODE_USE_HW_DEFAULT
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_USE_HW_DEFAULT
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_USE_HW_DEFAULT
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_USE_HW_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_USE_HW_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 75
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_USE_HW_DEFAULT = -1
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_DEFAULT_GL
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_DEFAULT_GL
+  id: WKS_API_STEREO_MODE_DEFAULT_GL
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_DEFAULT_GL
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_DEFAULT_GL
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_DEFAULT_GL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_DEFAULT_GL
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 78
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_DEFAULT_GL = 3
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_NUM_VALUES
+  id: WKS_API_STEREO_MODE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_NUM_VALUES
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 81
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_NUM_VALUES = 25
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_DEFAULT
+  id: WKS_API_STEREO_MODE_DEFAULT
+  parent: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_DEFAULT
+  nameWithType: EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_DEFAULT
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.WKS_API_STEREO_MODE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_API_STEREO_MODE.cs
+    startLine: 84
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  commentId: T:NVAPIWrapper.EValues_WKS_API_STEREO_MODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_WKS_API_STEREO_MODE.html
+  name: EValues_WKS_API_STEREO_MODE
+  nameWithType: EValues_WKS_API_STEREO_MODE
+  fullName: NVAPIWrapper.EValues_WKS_API_STEREO_MODE

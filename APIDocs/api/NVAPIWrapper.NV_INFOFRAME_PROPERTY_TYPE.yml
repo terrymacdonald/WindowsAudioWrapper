@@ -1,0 +1,73 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_INFOFRAME_PROPERTY_TYPE
+  commentId: T:NVAPIWrapper.NV_INFOFRAME_PROPERTY_TYPE
+  id: NV_INFOFRAME_PROPERTY_TYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_INFOFRAME_PROPERTY_TYPE.NV_INFOFRAME_PROPERTY_TYPE_UNKNOWN
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_PROPERTY_TYPE
+  nameWithType: NV_INFOFRAME_PROPERTY_TYPE
+  fullName: NVAPIWrapper.NV_INFOFRAME_PROPERTY_TYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_PROPERTY_TYPE
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 5912
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: InfoFrame property type values. No official constants are available, so this is a safe placeholder.
+  example: []
+  syntax:
+    content: 'public enum NV_INFOFRAME_PROPERTY_TYPE : byte'
+    content.vb: Public Enum NV_INFOFRAME_PROPERTY_TYPE As Byte
+- uid: NVAPIWrapper.NV_INFOFRAME_PROPERTY_TYPE.NV_INFOFRAME_PROPERTY_TYPE_UNKNOWN
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_PROPERTY_TYPE.NV_INFOFRAME_PROPERTY_TYPE_UNKNOWN
+  id: NV_INFOFRAME_PROPERTY_TYPE_UNKNOWN
+  parent: NVAPIWrapper.NV_INFOFRAME_PROPERTY_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_PROPERTY_TYPE_UNKNOWN
+  nameWithType: NV_INFOFRAME_PROPERTY_TYPE.NV_INFOFRAME_PROPERTY_TYPE_UNKNOWN
+  fullName: NVAPIWrapper.NV_INFOFRAME_PROPERTY_TYPE.NV_INFOFRAME_PROPERTY_TYPE_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_PROPERTY_TYPE_UNKNOWN
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 5917
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: No documentation exists that specifies the values for this field, so defaulting to zero.
+  example: []
+  syntax:
+    content: NV_INFOFRAME_PROPERTY_TYPE_UNKNOWN = 0
+    return:
+      type: NVAPIWrapper.NV_INFOFRAME_PROPERTY_TYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_INFOFRAME_PROPERTY_TYPE
+  commentId: T:NVAPIWrapper.NV_INFOFRAME_PROPERTY_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_INFOFRAME_PROPERTY_TYPE.html
+  name: NV_INFOFRAME_PROPERTY_TYPE
+  nameWithType: NV_INFOFRAME_PROPERTY_TYPE
+  fullName: NVAPIWrapper.NV_INFOFRAME_PROPERTY_TYPE

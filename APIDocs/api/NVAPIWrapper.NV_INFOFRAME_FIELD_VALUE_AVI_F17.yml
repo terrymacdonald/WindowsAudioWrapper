@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17
+  commentId: T:NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17
+  id: NV_INFOFRAME_FIELD_VALUE_AVI_F17
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17.NV_INFOFRAME_FIELD_VALUE_AVI_F17_AUTO
+  - NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17.NV_INFOFRAME_FIELD_VALUE_AVI_F17_FALSE
+  - NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17.NV_INFOFRAME_FIELD_VALUE_AVI_F17_TRUE
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_FIELD_VALUE_AVI_F17
+  nameWithType: NV_INFOFRAME_FIELD_VALUE_AVI_F17
+  fullName: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_FIELD_VALUE_AVI_F17.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_FIELD_VALUE_AVI_F17
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_FIELD_VALUE_AVI_F17.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_INFOFRAME_FIELD_VALUE_AVI_F17
+    content.vb: Public Enum NV_INFOFRAME_FIELD_VALUE_AVI_F17
+- uid: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17.NV_INFOFRAME_FIELD_VALUE_AVI_F17_FALSE
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17.NV_INFOFRAME_FIELD_VALUE_AVI_F17_FALSE
+  id: NV_INFOFRAME_FIELD_VALUE_AVI_F17_FALSE
+  parent: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_FIELD_VALUE_AVI_F17_FALSE
+  nameWithType: NV_INFOFRAME_FIELD_VALUE_AVI_F17.NV_INFOFRAME_FIELD_VALUE_AVI_F17_FALSE
+  fullName: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17.NV_INFOFRAME_FIELD_VALUE_AVI_F17_FALSE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_FIELD_VALUE_AVI_F17.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_FIELD_VALUE_AVI_F17_FALSE
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_FIELD_VALUE_AVI_F17.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_INFOFRAME_FIELD_VALUE_AVI_F17_FALSE = 0
+    return:
+      type: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17
+- uid: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17.NV_INFOFRAME_FIELD_VALUE_AVI_F17_TRUE
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17.NV_INFOFRAME_FIELD_VALUE_AVI_F17_TRUE
+  id: NV_INFOFRAME_FIELD_VALUE_AVI_F17_TRUE
+  parent: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_FIELD_VALUE_AVI_F17_TRUE
+  nameWithType: NV_INFOFRAME_FIELD_VALUE_AVI_F17.NV_INFOFRAME_FIELD_VALUE_AVI_F17_TRUE
+  fullName: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17.NV_INFOFRAME_FIELD_VALUE_AVI_F17_TRUE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_FIELD_VALUE_AVI_F17.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_FIELD_VALUE_AVI_F17_TRUE
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_FIELD_VALUE_AVI_F17.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_INFOFRAME_FIELD_VALUE_AVI_F17_TRUE = 1
+    return:
+      type: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17
+- uid: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17.NV_INFOFRAME_FIELD_VALUE_AVI_F17_AUTO
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17.NV_INFOFRAME_FIELD_VALUE_AVI_F17_AUTO
+  id: NV_INFOFRAME_FIELD_VALUE_AVI_F17_AUTO
+  parent: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_FIELD_VALUE_AVI_F17_AUTO
+  nameWithType: NV_INFOFRAME_FIELD_VALUE_AVI_F17.NV_INFOFRAME_FIELD_VALUE_AVI_F17_AUTO
+  fullName: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17.NV_INFOFRAME_FIELD_VALUE_AVI_F17_AUTO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_FIELD_VALUE_AVI_F17.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_FIELD_VALUE_AVI_F17_AUTO
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_FIELD_VALUE_AVI_F17.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_INFOFRAME_FIELD_VALUE_AVI_F17_AUTO = 3
+    return:
+      type: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17
+  commentId: T:NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17.html
+  name: NV_INFOFRAME_FIELD_VALUE_AVI_F17
+  nameWithType: NV_INFOFRAME_FIELD_VALUE_AVI_F17
+  fullName: NVAPIWrapper.NV_INFOFRAME_FIELD_VALUE_AVI_F17

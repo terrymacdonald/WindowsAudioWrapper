@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_EVENT_TYPE
+  commentId: T:NVAPIWrapper.NV_EVENT_TYPE
+  id: NV_EVENT_TYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_EVENT_TYPE.NV_EVENT_TYPE_DISPLAY_COLORIMETRY_CHANGE
+  - NVAPIWrapper.NV_EVENT_TYPE.NV_EVENT_TYPE_DISPLAY_OUTPUT_MODE_CHANGE
+  - NVAPIWrapper.NV_EVENT_TYPE.NV_EVENT_TYPE_NONE
+  - NVAPIWrapper.NV_EVENT_TYPE.NV_EVENT_TYPE_QSYNC
+  langs:
+  - csharp
+  - vb
+  name: NV_EVENT_TYPE
+  nameWithType: NV_EVENT_TYPE
+  fullName: NVAPIWrapper.NV_EVENT_TYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_EVENT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_EVENT_TYPE
+    path: ../NVAPIWrapper/cs_generated/NV_EVENT_TYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_EVENT_TYPE
+    content.vb: Public Enum NV_EVENT_TYPE
+- uid: NVAPIWrapper.NV_EVENT_TYPE.NV_EVENT_TYPE_NONE
+  commentId: F:NVAPIWrapper.NV_EVENT_TYPE.NV_EVENT_TYPE_NONE
+  id: NV_EVENT_TYPE_NONE
+  parent: NVAPIWrapper.NV_EVENT_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_EVENT_TYPE_NONE
+  nameWithType: NV_EVENT_TYPE.NV_EVENT_TYPE_NONE
+  fullName: NVAPIWrapper.NV_EVENT_TYPE.NV_EVENT_TYPE_NONE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_EVENT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_EVENT_TYPE_NONE
+    path: ../NVAPIWrapper/cs_generated/NV_EVENT_TYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_EVENT_TYPE_NONE = 0
+    return:
+      type: NVAPIWrapper.NV_EVENT_TYPE
+- uid: NVAPIWrapper.NV_EVENT_TYPE.NV_EVENT_TYPE_QSYNC
+  commentId: F:NVAPIWrapper.NV_EVENT_TYPE.NV_EVENT_TYPE_QSYNC
+  id: NV_EVENT_TYPE_QSYNC
+  parent: NVAPIWrapper.NV_EVENT_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_EVENT_TYPE_QSYNC
+  nameWithType: NV_EVENT_TYPE.NV_EVENT_TYPE_QSYNC
+  fullName: NVAPIWrapper.NV_EVENT_TYPE.NV_EVENT_TYPE_QSYNC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_EVENT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_EVENT_TYPE_QSYNC
+    path: ../NVAPIWrapper/cs_generated/NV_EVENT_TYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_EVENT_TYPE_QSYNC = 6
+    return:
+      type: NVAPIWrapper.NV_EVENT_TYPE
+- uid: NVAPIWrapper.NV_EVENT_TYPE.NV_EVENT_TYPE_DISPLAY_OUTPUT_MODE_CHANGE
+  commentId: F:NVAPIWrapper.NV_EVENT_TYPE.NV_EVENT_TYPE_DISPLAY_OUTPUT_MODE_CHANGE
+  id: NV_EVENT_TYPE_DISPLAY_OUTPUT_MODE_CHANGE
+  parent: NVAPIWrapper.NV_EVENT_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_EVENT_TYPE_DISPLAY_OUTPUT_MODE_CHANGE
+  nameWithType: NV_EVENT_TYPE.NV_EVENT_TYPE_DISPLAY_OUTPUT_MODE_CHANGE
+  fullName: NVAPIWrapper.NV_EVENT_TYPE.NV_EVENT_TYPE_DISPLAY_OUTPUT_MODE_CHANGE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_EVENT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_EVENT_TYPE_DISPLAY_OUTPUT_MODE_CHANGE
+    path: ../NVAPIWrapper/cs_generated/NV_EVENT_TYPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_EVENT_TYPE_DISPLAY_OUTPUT_MODE_CHANGE = 103
+    return:
+      type: NVAPIWrapper.NV_EVENT_TYPE
+- uid: NVAPIWrapper.NV_EVENT_TYPE.NV_EVENT_TYPE_DISPLAY_COLORIMETRY_CHANGE
+  commentId: F:NVAPIWrapper.NV_EVENT_TYPE.NV_EVENT_TYPE_DISPLAY_COLORIMETRY_CHANGE
+  id: NV_EVENT_TYPE_DISPLAY_COLORIMETRY_CHANGE
+  parent: NVAPIWrapper.NV_EVENT_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_EVENT_TYPE_DISPLAY_COLORIMETRY_CHANGE
+  nameWithType: NV_EVENT_TYPE.NV_EVENT_TYPE_DISPLAY_COLORIMETRY_CHANGE
+  fullName: NVAPIWrapper.NV_EVENT_TYPE.NV_EVENT_TYPE_DISPLAY_COLORIMETRY_CHANGE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_EVENT_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_EVENT_TYPE_DISPLAY_COLORIMETRY_CHANGE
+    path: ../NVAPIWrapper/cs_generated/NV_EVENT_TYPE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_EVENT_TYPE_DISPLAY_COLORIMETRY_CHANGE = 104
+    return:
+      type: NVAPIWrapper.NV_EVENT_TYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_EVENT_TYPE
+  commentId: T:NVAPIWrapper.NV_EVENT_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_EVENT_TYPE.html
+  name: NV_EVENT_TYPE
+  nameWithType: NV_EVENT_TYPE
+  fullName: NVAPIWrapper.NV_EVENT_TYPE

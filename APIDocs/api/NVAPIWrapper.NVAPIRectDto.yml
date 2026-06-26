@@ -1,0 +1,939 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIRectDto
+  commentId: T:NVAPIWrapper.NVAPIRectDto
+  id: NVAPIRectDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIRectDto.#ctor(System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  - NVAPIWrapper.NVAPIRectDto.Bottom
+  - NVAPIWrapper.NVAPIRectDto.Equals(NVAPIWrapper.NVAPIRectDto)
+  - NVAPIWrapper.NVAPIRectDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIRectDto.FromNative(NVAPIWrapper._NV_RECT)
+  - NVAPIWrapper.NVAPIRectDto.GetHashCode
+  - NVAPIWrapper.NVAPIRectDto.Left
+  - NVAPIWrapper.NVAPIRectDto.Right
+  - NVAPIWrapper.NVAPIRectDto.ToNative
+  - NVAPIWrapper.NVAPIRectDto.Top
+  - NVAPIWrapper.NVAPIRectDto.op_Equality(NVAPIWrapper.NVAPIRectDto,NVAPIWrapper.NVAPIRectDto)
+  - NVAPIWrapper.NVAPIRectDto.op_Inequality(NVAPIWrapper.NVAPIRectDto,NVAPIWrapper.NVAPIRectDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIRectDto
+  nameWithType: NVAPIRectDto
+  fullName: NVAPIWrapper.NVAPIRectDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIRectDto
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 2074
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Rectangle DTO for Mosaic viewports.
+  example: []
+  syntax:
+    content: 'public struct NVAPIRectDto : IEquatable<NVAPIRectDto>'
+    content.vb: Public Structure NVAPIRectDto Implements IEquatable(Of NVAPIRectDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIRectDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIRectDto.Left
+  commentId: P:NVAPIWrapper.NVAPIRectDto.Left
+  id: Left
+  parent: NVAPIWrapper.NVAPIRectDto
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: NVAPIRectDto.Left
+  fullName: NVAPIWrapper.NVAPIRectDto.Left
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Left
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 2076
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint Left { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Left As UInteger
+  overload: NVAPIWrapper.NVAPIRectDto.Left*
+- uid: NVAPIWrapper.NVAPIRectDto.Top
+  commentId: P:NVAPIWrapper.NVAPIRectDto.Top
+  id: Top
+  parent: NVAPIWrapper.NVAPIRectDto
+  langs:
+  - csharp
+  - vb
+  name: Top
+  nameWithType: NVAPIRectDto.Top
+  fullName: NVAPIWrapper.NVAPIRectDto.Top
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Top
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 2077
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint Top { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Top As UInteger
+  overload: NVAPIWrapper.NVAPIRectDto.Top*
+- uid: NVAPIWrapper.NVAPIRectDto.Right
+  commentId: P:NVAPIWrapper.NVAPIRectDto.Right
+  id: Right
+  parent: NVAPIWrapper.NVAPIRectDto
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: NVAPIRectDto.Right
+  fullName: NVAPIWrapper.NVAPIRectDto.Right
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Right
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 2078
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint Right { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Right As UInteger
+  overload: NVAPIWrapper.NVAPIRectDto.Right*
+- uid: NVAPIWrapper.NVAPIRectDto.Bottom
+  commentId: P:NVAPIWrapper.NVAPIRectDto.Bottom
+  id: Bottom
+  parent: NVAPIWrapper.NVAPIRectDto
+  langs:
+  - csharp
+  - vb
+  name: Bottom
+  nameWithType: NVAPIRectDto.Bottom
+  fullName: NVAPIWrapper.NVAPIRectDto.Bottom
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Bottom
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 2079
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint Bottom { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Bottom As UInteger
+  overload: NVAPIWrapper.NVAPIRectDto.Bottom*
+- uid: NVAPIWrapper.NVAPIRectDto.#ctor(System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  commentId: M:NVAPIWrapper.NVAPIRectDto.#ctor(System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  id: '#ctor(System.UInt32,System.UInt32,System.UInt32,System.UInt32)'
+  parent: NVAPIWrapper.NVAPIRectDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIRectDto(uint, uint, uint, uint)
+  nameWithType: NVAPIRectDto.NVAPIRectDto(uint, uint, uint, uint)
+  fullName: NVAPIWrapper.NVAPIRectDto.NVAPIRectDto(uint, uint, uint, uint)
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 2088
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a rectangle DTO.
+  example: []
+  syntax:
+    content: public NVAPIRectDto(uint left, uint top, uint right, uint bottom)
+    parameters:
+    - id: left
+      type: System.UInt32
+      description: Left coordinate.
+    - id: top
+      type: System.UInt32
+      description: Top coordinate.
+    - id: right
+      type: System.UInt32
+      description: Right coordinate.
+    - id: bottom
+      type: System.UInt32
+      description: Bottom coordinate.
+    content.vb: Public Sub New(left As UInteger, top As UInteger, right As UInteger, bottom As UInteger)
+  overload: NVAPIWrapper.NVAPIRectDto.#ctor*
+  nameWithType.vb: NVAPIRectDto.New(UInteger, UInteger, UInteger, UInteger)
+  fullName.vb: NVAPIWrapper.NVAPIRectDto.New(UInteger, UInteger, UInteger, UInteger)
+  name.vb: New(UInteger, UInteger, UInteger, UInteger)
+- uid: NVAPIWrapper.NVAPIRectDto.FromNative(NVAPIWrapper._NV_RECT)
+  commentId: M:NVAPIWrapper.NVAPIRectDto.FromNative(NVAPIWrapper._NV_RECT)
+  id: FromNative(NVAPIWrapper._NV_RECT)
+  parent: NVAPIWrapper.NVAPIRectDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(_NV_RECT)
+  nameWithType: NVAPIRectDto.FromNative(_NV_RECT)
+  fullName: NVAPIWrapper.NVAPIRectDto.FromNative(NVAPIWrapper._NV_RECT)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 2101
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a rectangle DTO from native data.
+  example: []
+  syntax:
+    content: public static NVAPIRectDto FromNative(_NV_RECT native)
+    parameters:
+    - id: native
+      type: NVAPIWrapper._NV_RECT
+      description: Native rectangle data.
+    return:
+      type: NVAPIWrapper.NVAPIRectDto
+      description: Rectangle DTO.
+    content.vb: Public Shared Function FromNative(native As _NV_RECT) As NVAPIRectDto
+  overload: NVAPIWrapper.NVAPIRectDto.FromNative*
+- uid: NVAPIWrapper.NVAPIRectDto.ToNative
+  commentId: M:NVAPIWrapper.NVAPIRectDto.ToNative
+  id: ToNative
+  parent: NVAPIWrapper.NVAPIRectDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: NVAPIRectDto.ToNative()
+  fullName: NVAPIWrapper.NVAPIRectDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 2110
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Convert this DTO to native rectangle data.
+  example: []
+  syntax:
+    content: public _NV_RECT ToNative()
+    return:
+      type: NVAPIWrapper._NV_RECT
+      description: Native rectangle data.
+    content.vb: Public Function ToNative() As _NV_RECT
+  overload: NVAPIWrapper.NVAPIRectDto.ToNative*
+- uid: NVAPIWrapper.NVAPIRectDto.Equals(NVAPIWrapper.NVAPIRectDto)
+  commentId: M:NVAPIWrapper.NVAPIRectDto.Equals(NVAPIWrapper.NVAPIRectDto)
+  id: Equals(NVAPIWrapper.NVAPIRectDto)
+  parent: NVAPIWrapper.NVAPIRectDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIRectDto)
+  nameWithType: NVAPIRectDto.Equals(NVAPIRectDto)
+  fullName: NVAPIWrapper.NVAPIRectDto.Equals(NVAPIWrapper.NVAPIRectDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 2126
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether this instance equals another rectangle DTO.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIRectDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIRectDto
+      description: The other DTO to compare.
+    return:
+      type: System.Boolean
+      description: True if the DTOs are equal; otherwise false.
+    content.vb: Public Function Equals(other As NVAPIRectDto) As Boolean
+  overload: NVAPIWrapper.NVAPIRectDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIRectDto}.Equals(NVAPIWrapper.NVAPIRectDto)
+- uid: NVAPIWrapper.NVAPIRectDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIRectDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIRectDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIRectDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIRectDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 2136
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether this instance equals another object.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare.
+    return:
+      type: System.Boolean
+      description: True if the object is an equivalent DTO; otherwise false.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIRectDto.Equals*
+  nameWithType.vb: NVAPIRectDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIRectDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIRectDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIRectDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIRectDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIRectDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIRectDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 2142
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get a hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: Hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIRectDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIRectDto.op_Equality(NVAPIWrapper.NVAPIRectDto,NVAPIWrapper.NVAPIRectDto)
+  commentId: M:NVAPIWrapper.NVAPIRectDto.op_Equality(NVAPIWrapper.NVAPIRectDto,NVAPIWrapper.NVAPIRectDto)
+  id: op_Equality(NVAPIWrapper.NVAPIRectDto,NVAPIWrapper.NVAPIRectDto)
+  parent: NVAPIWrapper.NVAPIRectDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIRectDto, NVAPIRectDto)
+  nameWithType: NVAPIRectDto.operator ==(NVAPIRectDto, NVAPIRectDto)
+  fullName: NVAPIWrapper.NVAPIRectDto.operator ==(NVAPIWrapper.NVAPIRectDto, NVAPIWrapper.NVAPIRectDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 2160
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether two rectangle DTOs are equal.
+  example: []
+  syntax:
+    content: public static bool operator ==(NVAPIRectDto left, NVAPIRectDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIRectDto
+      description: Left DTO.
+    - id: right
+      type: NVAPIWrapper.NVAPIRectDto
+      description: Right DTO.
+    return:
+      type: System.Boolean
+      description: True if the DTOs are equal; otherwise false.
+    content.vb: Public Shared Operator =(left As NVAPIRectDto, right As NVAPIRectDto) As Boolean
+  overload: NVAPIWrapper.NVAPIRectDto.op_Equality*
+  nameWithType.vb: NVAPIRectDto.=(NVAPIRectDto, NVAPIRectDto)
+  fullName.vb: NVAPIWrapper.NVAPIRectDto.=(NVAPIWrapper.NVAPIRectDto, NVAPIWrapper.NVAPIRectDto)
+  name.vb: =(NVAPIRectDto, NVAPIRectDto)
+- uid: NVAPIWrapper.NVAPIRectDto.op_Inequality(NVAPIWrapper.NVAPIRectDto,NVAPIWrapper.NVAPIRectDto)
+  commentId: M:NVAPIWrapper.NVAPIRectDto.op_Inequality(NVAPIWrapper.NVAPIRectDto,NVAPIWrapper.NVAPIRectDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIRectDto,NVAPIWrapper.NVAPIRectDto)
+  parent: NVAPIWrapper.NVAPIRectDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIRectDto, NVAPIRectDto)
+  nameWithType: NVAPIRectDto.operator !=(NVAPIRectDto, NVAPIRectDto)
+  fullName: NVAPIWrapper.NVAPIRectDto.operator !=(NVAPIWrapper.NVAPIRectDto, NVAPIWrapper.NVAPIRectDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIMosaicHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIMosaicHelper.cs
+    startLine: 2168
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether two rectangle DTOs are not equal.
+  example: []
+  syntax:
+    content: public static bool operator !=(NVAPIRectDto left, NVAPIRectDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIRectDto
+      description: Left DTO.
+    - id: right
+      type: NVAPIWrapper.NVAPIRectDto
+      description: Right DTO.
+    return:
+      type: System.Boolean
+      description: True if the DTOs are not equal; otherwise false.
+    content.vb: Public Shared Operator <>(left As NVAPIRectDto, right As NVAPIRectDto) As Boolean
+  overload: NVAPIWrapper.NVAPIRectDto.op_Inequality*
+  nameWithType.vb: NVAPIRectDto.<>(NVAPIRectDto, NVAPIRectDto)
+  fullName.vb: NVAPIWrapper.NVAPIRectDto.<>(NVAPIWrapper.NVAPIRectDto, NVAPIWrapper.NVAPIRectDto)
+  name.vb: <>(NVAPIRectDto, NVAPIRectDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIRectDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIRectDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIRectDto>
+  nameWithType: IEquatable<NVAPIRectDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIRectDto>
+  nameWithType.vb: IEquatable(Of NVAPIRectDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIRectDto)
+  name.vb: IEquatable(Of NVAPIRectDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIRectDto
+    name: NVAPIRectDto
+    href: NVAPIWrapper.NVAPIRectDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIRectDto
+    name: NVAPIRectDto
+    href: NVAPIWrapper.NVAPIRectDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIRectDto.Left*
+  commentId: Overload:NVAPIWrapper.NVAPIRectDto.Left
+  href: NVAPIWrapper.NVAPIRectDto.html#NVAPIWrapper_NVAPIRectDto_Left
+  name: Left
+  nameWithType: NVAPIRectDto.Left
+  fullName: NVAPIWrapper.NVAPIRectDto.Left
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NVAPIRectDto.Top*
+  commentId: Overload:NVAPIWrapper.NVAPIRectDto.Top
+  href: NVAPIWrapper.NVAPIRectDto.html#NVAPIWrapper_NVAPIRectDto_Top
+  name: Top
+  nameWithType: NVAPIRectDto.Top
+  fullName: NVAPIWrapper.NVAPIRectDto.Top
+- uid: NVAPIWrapper.NVAPIRectDto.Right*
+  commentId: Overload:NVAPIWrapper.NVAPIRectDto.Right
+  href: NVAPIWrapper.NVAPIRectDto.html#NVAPIWrapper_NVAPIRectDto_Right
+  name: Right
+  nameWithType: NVAPIRectDto.Right
+  fullName: NVAPIWrapper.NVAPIRectDto.Right
+- uid: NVAPIWrapper.NVAPIRectDto.Bottom*
+  commentId: Overload:NVAPIWrapper.NVAPIRectDto.Bottom
+  href: NVAPIWrapper.NVAPIRectDto.html#NVAPIWrapper_NVAPIRectDto_Bottom
+  name: Bottom
+  nameWithType: NVAPIRectDto.Bottom
+  fullName: NVAPIWrapper.NVAPIRectDto.Bottom
+- uid: NVAPIWrapper.NVAPIRectDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIRectDto.#ctor
+  href: NVAPIWrapper.NVAPIRectDto.html#NVAPIWrapper_NVAPIRectDto__ctor_System_UInt32_System_UInt32_System_UInt32_System_UInt32_
+  name: NVAPIRectDto
+  nameWithType: NVAPIRectDto.NVAPIRectDto
+  fullName: NVAPIWrapper.NVAPIRectDto.NVAPIRectDto
+  nameWithType.vb: NVAPIRectDto.New
+  fullName.vb: NVAPIWrapper.NVAPIRectDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPIRectDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPIRectDto.FromNative
+  href: NVAPIWrapper.NVAPIRectDto.html#NVAPIWrapper_NVAPIRectDto_FromNative_NVAPIWrapper__NV_RECT_
+  name: FromNative
+  nameWithType: NVAPIRectDto.FromNative
+  fullName: NVAPIWrapper.NVAPIRectDto.FromNative
+- uid: NVAPIWrapper._NV_RECT
+  commentId: T:NVAPIWrapper._NV_RECT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_RECT.html
+  name: _NV_RECT
+  nameWithType: _NV_RECT
+  fullName: NVAPIWrapper._NV_RECT
+- uid: NVAPIWrapper.NVAPIRectDto
+  commentId: T:NVAPIWrapper.NVAPIRectDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIRectDto.html
+  name: NVAPIRectDto
+  nameWithType: NVAPIRectDto
+  fullName: NVAPIWrapper.NVAPIRectDto
+- uid: NVAPIWrapper.NVAPIRectDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPIRectDto.ToNative
+  href: NVAPIWrapper.NVAPIRectDto.html#NVAPIWrapper_NVAPIRectDto_ToNative
+  name: ToNative
+  nameWithType: NVAPIRectDto.ToNative
+  fullName: NVAPIWrapper.NVAPIRectDto.ToNative
+- uid: NVAPIWrapper.NVAPIRectDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIRectDto.Equals
+  href: NVAPIWrapper.NVAPIRectDto.html#NVAPIWrapper_NVAPIRectDto_Equals_NVAPIWrapper_NVAPIRectDto_
+  name: Equals
+  nameWithType: NVAPIRectDto.Equals
+  fullName: NVAPIWrapper.NVAPIRectDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIRectDto}.Equals(NVAPIWrapper.NVAPIRectDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIRectDto}.Equals(NVAPIWrapper.NVAPIRectDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIRectDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIRectDto)
+  nameWithType: IEquatable<NVAPIRectDto>.Equals(NVAPIRectDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIRectDto>.Equals(NVAPIWrapper.NVAPIRectDto)
+  nameWithType.vb: IEquatable(Of NVAPIRectDto).Equals(NVAPIRectDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIRectDto).Equals(NVAPIWrapper.NVAPIRectDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIRectDto}.Equals(NVAPIWrapper.NVAPIRectDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIRectDto
+    name: NVAPIRectDto
+    href: NVAPIWrapper.NVAPIRectDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIRectDto}.Equals(NVAPIWrapper.NVAPIRectDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIRectDto
+    name: NVAPIRectDto
+    href: NVAPIWrapper.NVAPIRectDto.html
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIRectDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIRectDto.GetHashCode
+  href: NVAPIWrapper.NVAPIRectDto.html#NVAPIWrapper_NVAPIRectDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIRectDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIRectDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIRectDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIRectDto.op_Equality
+  href: NVAPIWrapper.NVAPIRectDto.html#NVAPIWrapper_NVAPIRectDto_op_Equality_NVAPIWrapper_NVAPIRectDto_NVAPIWrapper_NVAPIRectDto_
+  name: operator ==
+  nameWithType: NVAPIRectDto.operator ==
+  fullName: NVAPIWrapper.NVAPIRectDto.operator ==
+  nameWithType.vb: NVAPIRectDto.=
+  fullName.vb: NVAPIWrapper.NVAPIRectDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIRectDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIRectDto.html#NVAPIWrapper_NVAPIRectDto_op_Equality_NVAPIWrapper_NVAPIRectDto_NVAPIWrapper_NVAPIRectDto_
+- uid: NVAPIWrapper.NVAPIRectDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIRectDto.op_Inequality
+  href: NVAPIWrapper.NVAPIRectDto.html#NVAPIWrapper_NVAPIRectDto_op_Inequality_NVAPIWrapper_NVAPIRectDto_NVAPIWrapper_NVAPIRectDto_
+  name: operator !=
+  nameWithType: NVAPIRectDto.operator !=
+  fullName: NVAPIWrapper.NVAPIRectDto.operator !=
+  nameWithType.vb: NVAPIRectDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIRectDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIRectDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIRectDto.html#NVAPIWrapper_NVAPIRectDto_op_Inequality_NVAPIWrapper_NVAPIRectDto_NVAPIWrapper_NVAPIRectDto_

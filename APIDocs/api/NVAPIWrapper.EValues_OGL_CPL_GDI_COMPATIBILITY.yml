@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY
+  commentId: T:NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY
+  id: EValues_OGL_CPL_GDI_COMPATIBILITY
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_AUTO
+  - NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_DEFAULT
+  - NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_NUM_VALUES
+  - NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_PREFER_DISABLED
+  - NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_PREFER_ENABLED
+  langs:
+  - csharp
+  - vb
+  name: EValues_OGL_CPL_GDI_COMPATIBILITY
+  nameWithType: EValues_OGL_CPL_GDI_COMPATIBILITY
+  fullName: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_CPL_GDI_COMPATIBILITY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_OGL_CPL_GDI_COMPATIBILITY
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_CPL_GDI_COMPATIBILITY.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_OGL_CPL_GDI_COMPATIBILITY
+    content.vb: Public Enum EValues_OGL_CPL_GDI_COMPATIBILITY
+- uid: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_PREFER_DISABLED
+  commentId: F:NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_PREFER_DISABLED
+  id: OGL_CPL_GDI_COMPATIBILITY_PREFER_DISABLED
+  parent: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY
+  langs:
+  - csharp
+  - vb
+  name: OGL_CPL_GDI_COMPATIBILITY_PREFER_DISABLED
+  nameWithType: EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_PREFER_DISABLED
+  fullName: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_PREFER_DISABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_CPL_GDI_COMPATIBILITY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_CPL_GDI_COMPATIBILITY_PREFER_DISABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_CPL_GDI_COMPATIBILITY.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_CPL_GDI_COMPATIBILITY_PREFER_DISABLED = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY
+- uid: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_PREFER_ENABLED
+  commentId: F:NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_PREFER_ENABLED
+  id: OGL_CPL_GDI_COMPATIBILITY_PREFER_ENABLED
+  parent: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY
+  langs:
+  - csharp
+  - vb
+  name: OGL_CPL_GDI_COMPATIBILITY_PREFER_ENABLED
+  nameWithType: EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_PREFER_ENABLED
+  fullName: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_PREFER_ENABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_CPL_GDI_COMPATIBILITY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_CPL_GDI_COMPATIBILITY_PREFER_ENABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_CPL_GDI_COMPATIBILITY.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_CPL_GDI_COMPATIBILITY_PREFER_ENABLED = 1
+    return:
+      type: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY
+- uid: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_AUTO
+  commentId: F:NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_AUTO
+  id: OGL_CPL_GDI_COMPATIBILITY_AUTO
+  parent: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY
+  langs:
+  - csharp
+  - vb
+  name: OGL_CPL_GDI_COMPATIBILITY_AUTO
+  nameWithType: EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_AUTO
+  fullName: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_AUTO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_CPL_GDI_COMPATIBILITY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_CPL_GDI_COMPATIBILITY_AUTO
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_CPL_GDI_COMPATIBILITY.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_CPL_GDI_COMPATIBILITY_AUTO = 2
+    return:
+      type: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY
+- uid: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_NUM_VALUES
+  id: OGL_CPL_GDI_COMPATIBILITY_NUM_VALUES
+  parent: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY
+  langs:
+  - csharp
+  - vb
+  name: OGL_CPL_GDI_COMPATIBILITY_NUM_VALUES
+  nameWithType: EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_CPL_GDI_COMPATIBILITY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_CPL_GDI_COMPATIBILITY_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_CPL_GDI_COMPATIBILITY.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_CPL_GDI_COMPATIBILITY_NUM_VALUES = 3
+    return:
+      type: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY
+- uid: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_DEFAULT
+  id: OGL_CPL_GDI_COMPATIBILITY_DEFAULT
+  parent: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY
+  langs:
+  - csharp
+  - vb
+  name: OGL_CPL_GDI_COMPATIBILITY_DEFAULT
+  nameWithType: EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_DEFAULT
+  fullName: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY.OGL_CPL_GDI_COMPATIBILITY_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_CPL_GDI_COMPATIBILITY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_CPL_GDI_COMPATIBILITY_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_CPL_GDI_COMPATIBILITY.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_CPL_GDI_COMPATIBILITY_DEFAULT = 2
+    return:
+      type: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY
+  commentId: T:NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY.html
+  name: EValues_OGL_CPL_GDI_COMPATIBILITY
+  nameWithType: EValues_OGL_CPL_GDI_COMPATIBILITY
+  fullName: NVAPIWrapper.EValues_OGL_CPL_GDI_COMPATIBILITY

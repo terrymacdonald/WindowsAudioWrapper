@@ -1,0 +1,763 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS
+  commentId: T:NVAPIWrapper._NV_GPU_DISPLAYIDS
+  id: _NV_GPU_DISPLAYIDS
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_GPU_DISPLAYIDS._bitfield
+  - NVAPIWrapper._NV_GPU_DISPLAYIDS.connectorType
+  - NVAPIWrapper._NV_GPU_DISPLAYIDS.displayId
+  - NVAPIWrapper._NV_GPU_DISPLAYIDS.isActive
+  - NVAPIWrapper._NV_GPU_DISPLAYIDS.isCluster
+  - NVAPIWrapper._NV_GPU_DISPLAYIDS.isConnected
+  - NVAPIWrapper._NV_GPU_DISPLAYIDS.isDynamic
+  - NVAPIWrapper._NV_GPU_DISPLAYIDS.isMultiStreamRootNode
+  - NVAPIWrapper._NV_GPU_DISPLAYIDS.isOSVisible
+  - NVAPIWrapper._NV_GPU_DISPLAYIDS.isPhysicallyConnected
+  - NVAPIWrapper._NV_GPU_DISPLAYIDS.isWFD
+  - NVAPIWrapper._NV_GPU_DISPLAYIDS.reserved
+  - NVAPIWrapper._NV_GPU_DISPLAYIDS.reservedInternal
+  - NVAPIWrapper._NV_GPU_DISPLAYIDS.version
+  langs:
+  - csharp
+  - vb
+  name: _NV_GPU_DISPLAYIDS
+  nameWithType: _NV_GPU_DISPLAYIDS
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_GPU_DISPLAYIDS
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NV_GPU_DISPLAYIDS
+    content.vb: Public Structure _NV_GPU_DISPLAYIDS
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS.version
+  commentId: F:NVAPIWrapper._NV_GPU_DISPLAYIDS.version
+  id: version
+  parent: NVAPIWrapper._NV_GPU_DISPLAYIDS
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: _NV_GPU_DISPLAYIDS.version
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS.version
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: version
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+    startLine: 7
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint version
+    return:
+      type: System.UInt32
+    content.vb: Public version As UInteger
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS.connectorType
+  commentId: F:NVAPIWrapper._NV_GPU_DISPLAYIDS.connectorType
+  id: connectorType
+  parent: NVAPIWrapper._NV_GPU_DISPLAYIDS
+  langs:
+  - csharp
+  - vb
+  name: connectorType
+  nameWithType: _NV_GPU_DISPLAYIDS.connectorType
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS.connectorType
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: connectorType
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+    startLine: 10
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public NV_MONITOR_CONN_TYPE connectorType
+    return:
+      type: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+    content.vb: Public connectorType As NV_MONITOR_CONN_TYPE
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS.displayId
+  commentId: F:NVAPIWrapper._NV_GPU_DISPLAYIDS.displayId
+  id: displayId
+  parent: NVAPIWrapper._NV_GPU_DISPLAYIDS
+  langs:
+  - csharp
+  - vb
+  name: displayId
+  nameWithType: _NV_GPU_DISPLAYIDS.displayId
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS.displayId
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: displayId
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+    startLine: 14
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint displayId
+    return:
+      type: System.UInt32
+    content.vb: Public displayId As UInteger
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS._bitfield
+  commentId: F:NVAPIWrapper._NV_GPU_DISPLAYIDS._bitfield
+  id: _bitfield
+  parent: NVAPIWrapper._NV_GPU_DISPLAYIDS
+  langs:
+  - csharp
+  - vb
+  name: _bitfield
+  nameWithType: _NV_GPU_DISPLAYIDS._bitfield
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS._bitfield
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+    startLine: 16
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield As UInteger
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS.isDynamic
+  commentId: P:NVAPIWrapper._NV_GPU_DISPLAYIDS.isDynamic
+  id: isDynamic
+  parent: NVAPIWrapper._NV_GPU_DISPLAYIDS
+  langs:
+  - csharp
+  - vb
+  name: isDynamic
+  nameWithType: _NV_GPU_DISPLAYIDS.isDynamic
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS.isDynamic
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isDynamic
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+    startLine: 19
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isDynamic { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isDynamic As UInteger
+  overload: NVAPIWrapper._NV_GPU_DISPLAYIDS.isDynamic*
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS.isMultiStreamRootNode
+  commentId: P:NVAPIWrapper._NV_GPU_DISPLAYIDS.isMultiStreamRootNode
+  id: isMultiStreamRootNode
+  parent: NVAPIWrapper._NV_GPU_DISPLAYIDS
+  langs:
+  - csharp
+  - vb
+  name: isMultiStreamRootNode
+  nameWithType: _NV_GPU_DISPLAYIDS.isMultiStreamRootNode
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS.isMultiStreamRootNode
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isMultiStreamRootNode
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+    startLine: 34
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isMultiStreamRootNode { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isMultiStreamRootNode As UInteger
+  overload: NVAPIWrapper._NV_GPU_DISPLAYIDS.isMultiStreamRootNode*
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS.isActive
+  commentId: P:NVAPIWrapper._NV_GPU_DISPLAYIDS.isActive
+  id: isActive
+  parent: NVAPIWrapper._NV_GPU_DISPLAYIDS
+  langs:
+  - csharp
+  - vb
+  name: isActive
+  nameWithType: _NV_GPU_DISPLAYIDS.isActive
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS.isActive
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isActive
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+    startLine: 49
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isActive { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isActive As UInteger
+  overload: NVAPIWrapper._NV_GPU_DISPLAYIDS.isActive*
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS.isCluster
+  commentId: P:NVAPIWrapper._NV_GPU_DISPLAYIDS.isCluster
+  id: isCluster
+  parent: NVAPIWrapper._NV_GPU_DISPLAYIDS
+  langs:
+  - csharp
+  - vb
+  name: isCluster
+  nameWithType: _NV_GPU_DISPLAYIDS.isCluster
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS.isCluster
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isCluster
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+    startLine: 64
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isCluster { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isCluster As UInteger
+  overload: NVAPIWrapper._NV_GPU_DISPLAYIDS.isCluster*
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS.isOSVisible
+  commentId: P:NVAPIWrapper._NV_GPU_DISPLAYIDS.isOSVisible
+  id: isOSVisible
+  parent: NVAPIWrapper._NV_GPU_DISPLAYIDS
+  langs:
+  - csharp
+  - vb
+  name: isOSVisible
+  nameWithType: _NV_GPU_DISPLAYIDS.isOSVisible
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS.isOSVisible
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isOSVisible
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+    startLine: 79
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isOSVisible { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isOSVisible As UInteger
+  overload: NVAPIWrapper._NV_GPU_DISPLAYIDS.isOSVisible*
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS.isWFD
+  commentId: P:NVAPIWrapper._NV_GPU_DISPLAYIDS.isWFD
+  id: isWFD
+  parent: NVAPIWrapper._NV_GPU_DISPLAYIDS
+  langs:
+  - csharp
+  - vb
+  name: isWFD
+  nameWithType: _NV_GPU_DISPLAYIDS.isWFD
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS.isWFD
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isWFD
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+    startLine: 94
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isWFD { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isWFD As UInteger
+  overload: NVAPIWrapper._NV_GPU_DISPLAYIDS.isWFD*
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS.isConnected
+  commentId: P:NVAPIWrapper._NV_GPU_DISPLAYIDS.isConnected
+  id: isConnected
+  parent: NVAPIWrapper._NV_GPU_DISPLAYIDS
+  langs:
+  - csharp
+  - vb
+  name: isConnected
+  nameWithType: _NV_GPU_DISPLAYIDS.isConnected
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS.isConnected
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isConnected
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+    startLine: 109
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isConnected { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isConnected As UInteger
+  overload: NVAPIWrapper._NV_GPU_DISPLAYIDS.isConnected*
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS.reservedInternal
+  commentId: P:NVAPIWrapper._NV_GPU_DISPLAYIDS.reservedInternal
+  id: reservedInternal
+  parent: NVAPIWrapper._NV_GPU_DISPLAYIDS
+  langs:
+  - csharp
+  - vb
+  name: reservedInternal
+  nameWithType: _NV_GPU_DISPLAYIDS.reservedInternal
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS.reservedInternal
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reservedInternal
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+    startLine: 124
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reservedInternal { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reservedInternal As UInteger
+  overload: NVAPIWrapper._NV_GPU_DISPLAYIDS.reservedInternal*
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS.isPhysicallyConnected
+  commentId: P:NVAPIWrapper._NV_GPU_DISPLAYIDS.isPhysicallyConnected
+  id: isPhysicallyConnected
+  parent: NVAPIWrapper._NV_GPU_DISPLAYIDS
+  langs:
+  - csharp
+  - vb
+  name: isPhysicallyConnected
+  nameWithType: _NV_GPU_DISPLAYIDS.isPhysicallyConnected
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS.isPhysicallyConnected
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isPhysicallyConnected
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+    startLine: 139
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isPhysicallyConnected { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isPhysicallyConnected As UInteger
+  overload: NVAPIWrapper._NV_GPU_DISPLAYIDS.isPhysicallyConnected*
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS.reserved
+  commentId: P:NVAPIWrapper._NV_GPU_DISPLAYIDS.reserved
+  id: reserved
+  parent: NVAPIWrapper._NV_GPU_DISPLAYIDS
+  langs:
+  - csharp
+  - vb
+  name: reserved
+  nameWithType: _NV_GPU_DISPLAYIDS.reserved
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS.reserved
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_DISPLAYIDS.cs
+    startLine: 154
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved As UInteger
+  overload: NVAPIWrapper._NV_GPU_DISPLAYIDS.reserved*
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+  commentId: T:NVAPIWrapper.NV_MONITOR_CONN_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_MONITOR_CONN_TYPE.html
+  name: NV_MONITOR_CONN_TYPE
+  nameWithType: NV_MONITOR_CONN_TYPE
+  fullName: NVAPIWrapper.NV_MONITOR_CONN_TYPE
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS.isDynamic*
+  commentId: Overload:NVAPIWrapper._NV_GPU_DISPLAYIDS.isDynamic
+  href: NVAPIWrapper._NV_GPU_DISPLAYIDS.html#NVAPIWrapper__NV_GPU_DISPLAYIDS_isDynamic
+  name: isDynamic
+  nameWithType: _NV_GPU_DISPLAYIDS.isDynamic
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS.isDynamic
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS.isMultiStreamRootNode*
+  commentId: Overload:NVAPIWrapper._NV_GPU_DISPLAYIDS.isMultiStreamRootNode
+  href: NVAPIWrapper._NV_GPU_DISPLAYIDS.html#NVAPIWrapper__NV_GPU_DISPLAYIDS_isMultiStreamRootNode
+  name: isMultiStreamRootNode
+  nameWithType: _NV_GPU_DISPLAYIDS.isMultiStreamRootNode
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS.isMultiStreamRootNode
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS.isActive*
+  commentId: Overload:NVAPIWrapper._NV_GPU_DISPLAYIDS.isActive
+  href: NVAPIWrapper._NV_GPU_DISPLAYIDS.html#NVAPIWrapper__NV_GPU_DISPLAYIDS_isActive
+  name: isActive
+  nameWithType: _NV_GPU_DISPLAYIDS.isActive
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS.isActive
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS.isCluster*
+  commentId: Overload:NVAPIWrapper._NV_GPU_DISPLAYIDS.isCluster
+  href: NVAPIWrapper._NV_GPU_DISPLAYIDS.html#NVAPIWrapper__NV_GPU_DISPLAYIDS_isCluster
+  name: isCluster
+  nameWithType: _NV_GPU_DISPLAYIDS.isCluster
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS.isCluster
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS.isOSVisible*
+  commentId: Overload:NVAPIWrapper._NV_GPU_DISPLAYIDS.isOSVisible
+  href: NVAPIWrapper._NV_GPU_DISPLAYIDS.html#NVAPIWrapper__NV_GPU_DISPLAYIDS_isOSVisible
+  name: isOSVisible
+  nameWithType: _NV_GPU_DISPLAYIDS.isOSVisible
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS.isOSVisible
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS.isWFD*
+  commentId: Overload:NVAPIWrapper._NV_GPU_DISPLAYIDS.isWFD
+  href: NVAPIWrapper._NV_GPU_DISPLAYIDS.html#NVAPIWrapper__NV_GPU_DISPLAYIDS_isWFD
+  name: isWFD
+  nameWithType: _NV_GPU_DISPLAYIDS.isWFD
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS.isWFD
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS.isConnected*
+  commentId: Overload:NVAPIWrapper._NV_GPU_DISPLAYIDS.isConnected
+  href: NVAPIWrapper._NV_GPU_DISPLAYIDS.html#NVAPIWrapper__NV_GPU_DISPLAYIDS_isConnected
+  name: isConnected
+  nameWithType: _NV_GPU_DISPLAYIDS.isConnected
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS.isConnected
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS.reservedInternal*
+  commentId: Overload:NVAPIWrapper._NV_GPU_DISPLAYIDS.reservedInternal
+  href: NVAPIWrapper._NV_GPU_DISPLAYIDS.html#NVAPIWrapper__NV_GPU_DISPLAYIDS_reservedInternal
+  name: reservedInternal
+  nameWithType: _NV_GPU_DISPLAYIDS.reservedInternal
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS.reservedInternal
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS.isPhysicallyConnected*
+  commentId: Overload:NVAPIWrapper._NV_GPU_DISPLAYIDS.isPhysicallyConnected
+  href: NVAPIWrapper._NV_GPU_DISPLAYIDS.html#NVAPIWrapper__NV_GPU_DISPLAYIDS_isPhysicallyConnected
+  name: isPhysicallyConnected
+  nameWithType: _NV_GPU_DISPLAYIDS.isPhysicallyConnected
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS.isPhysicallyConnected
+- uid: NVAPIWrapper._NV_GPU_DISPLAYIDS.reserved*
+  commentId: Overload:NVAPIWrapper._NV_GPU_DISPLAYIDS.reserved
+  href: NVAPIWrapper._NV_GPU_DISPLAYIDS.html#NVAPIWrapper__NV_GPU_DISPLAYIDS_reserved
+  name: reserved
+  nameWithType: _NV_GPU_DISPLAYIDS.reserved
+  fullName: NVAPIWrapper._NV_GPU_DISPLAYIDS.reserved

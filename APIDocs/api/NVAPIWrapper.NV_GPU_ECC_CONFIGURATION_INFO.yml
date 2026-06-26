@@ -1,0 +1,402 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO
+  commentId: T:NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO
+  id: NV_GPU_ECC_CONFIGURATION_INFO
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO._bitfield
+  - NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO.isEnabled
+  - NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO.isEnabledByDefault
+  - NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO.version
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ECC_CONFIGURATION_INFO
+  nameWithType: NV_GPU_ECC_CONFIGURATION_INFO
+  fullName: NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_ECC_CONFIGURATION_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ECC_CONFIGURATION_INFO
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_ECC_CONFIGURATION_INFO.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct NV_GPU_ECC_CONFIGURATION_INFO
+    content.vb: Public Structure NV_GPU_ECC_CONFIGURATION_INFO
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO.version
+  commentId: F:NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO.version
+  id: version
+  parent: NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: NV_GPU_ECC_CONFIGURATION_INFO.version
+  fullName: NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO.version
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_ECC_CONFIGURATION_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: version
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_ECC_CONFIGURATION_INFO.cs
+    startLine: 7
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint version
+    return:
+      type: System.UInt32
+    content.vb: Public version As UInteger
+- uid: NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO._bitfield
+  commentId: F:NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO._bitfield
+  id: _bitfield
+  parent: NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO
+  langs:
+  - csharp
+  - vb
+  name: _bitfield
+  nameWithType: NV_GPU_ECC_CONFIGURATION_INFO._bitfield
+  fullName: NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO._bitfield
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_ECC_CONFIGURATION_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_ECC_CONFIGURATION_INFO.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield As UInteger
+- uid: NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO.isEnabled
+  commentId: P:NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO.isEnabled
+  id: isEnabled
+  parent: NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO
+  langs:
+  - csharp
+  - vb
+  name: isEnabled
+  nameWithType: NV_GPU_ECC_CONFIGURATION_INFO.isEnabled
+  fullName: NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO.isEnabled
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_ECC_CONFIGURATION_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isEnabled
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_ECC_CONFIGURATION_INFO.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isEnabled { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isEnabled As UInteger
+  overload: NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO.isEnabled*
+- uid: NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO.isEnabledByDefault
+  commentId: P:NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO.isEnabledByDefault
+  id: isEnabledByDefault
+  parent: NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO
+  langs:
+  - csharp
+  - vb
+  name: isEnabledByDefault
+  nameWithType: NV_GPU_ECC_CONFIGURATION_INFO.isEnabledByDefault
+  fullName: NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO.isEnabledByDefault
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_ECC_CONFIGURATION_INFO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isEnabledByDefault
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_ECC_CONFIGURATION_INFO.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isEnabledByDefault { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isEnabledByDefault As UInteger
+  overload: NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO.isEnabledByDefault*
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO.isEnabled*
+  commentId: Overload:NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO.isEnabled
+  href: NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO.html#NVAPIWrapper_NV_GPU_ECC_CONFIGURATION_INFO_isEnabled
+  name: isEnabled
+  nameWithType: NV_GPU_ECC_CONFIGURATION_INFO.isEnabled
+  fullName: NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO.isEnabled
+- uid: NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO.isEnabledByDefault*
+  commentId: Overload:NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO.isEnabledByDefault
+  href: NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO.html#NVAPIWrapper_NV_GPU_ECC_CONFIGURATION_INFO_isEnabledByDefault
+  name: isEnabledByDefault
+  nameWithType: NV_GPU_ECC_CONFIGURATION_INFO.isEnabledByDefault
+  fullName: NVAPIWrapper.NV_GPU_ECC_CONFIGURATION_INFO.isEnabledByDefault

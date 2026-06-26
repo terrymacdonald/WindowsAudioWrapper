@@ -1,0 +1,471 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_SCANOUT_WARPING_DATA
+  commentId: T:NVAPIWrapper.NV_SCANOUT_WARPING_DATA
+  id: NV_SCANOUT_WARPING_DATA
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_SCANOUT_WARPING_DATA.numVertices
+  - NVAPIWrapper.NV_SCANOUT_WARPING_DATA.textureRect
+  - NVAPIWrapper.NV_SCANOUT_WARPING_DATA.version
+  - NVAPIWrapper.NV_SCANOUT_WARPING_DATA.vertexFormat
+  - NVAPIWrapper.NV_SCANOUT_WARPING_DATA.vertices
+  langs:
+  - csharp
+  - vb
+  name: NV_SCANOUT_WARPING_DATA
+  nameWithType: NV_SCANOUT_WARPING_DATA
+  fullName: NVAPIWrapper.NV_SCANOUT_WARPING_DATA
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_SCANOUT_WARPING_DATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_SCANOUT_WARPING_DATA
+    path: ../NVAPIWrapper/cs_generated/NV_SCANOUT_WARPING_DATA.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct NV_SCANOUT_WARPING_DATA
+    content.vb: Public Structure NV_SCANOUT_WARPING_DATA
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NV_SCANOUT_WARPING_DATA.version
+  commentId: F:NVAPIWrapper.NV_SCANOUT_WARPING_DATA.version
+  id: version
+  parent: NVAPIWrapper.NV_SCANOUT_WARPING_DATA
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: NV_SCANOUT_WARPING_DATA.version
+  fullName: NVAPIWrapper.NV_SCANOUT_WARPING_DATA.version
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_SCANOUT_WARPING_DATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: version
+    path: ../NVAPIWrapper/cs_generated/NV_SCANOUT_WARPING_DATA.cs
+    startLine: 7
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint version
+    return:
+      type: System.UInt32
+    content.vb: Public version As UInteger
+- uid: NVAPIWrapper.NV_SCANOUT_WARPING_DATA.vertices
+  commentId: F:NVAPIWrapper.NV_SCANOUT_WARPING_DATA.vertices
+  id: vertices
+  parent: NVAPIWrapper.NV_SCANOUT_WARPING_DATA
+  langs:
+  - csharp
+  - vb
+  name: vertices
+  nameWithType: NV_SCANOUT_WARPING_DATA.vertices
+  fullName: NVAPIWrapper.NV_SCANOUT_WARPING_DATA.vertices
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_SCANOUT_WARPING_DATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: vertices
+    path: ../NVAPIWrapper/cs_generated/NV_SCANOUT_WARPING_DATA.cs
+    startLine: 10
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public float* vertices
+    return:
+      type: System.Single*
+    content.vb: Public vertices As Single*
+- uid: NVAPIWrapper.NV_SCANOUT_WARPING_DATA.vertexFormat
+  commentId: F:NVAPIWrapper.NV_SCANOUT_WARPING_DATA.vertexFormat
+  id: vertexFormat
+  parent: NVAPIWrapper.NV_SCANOUT_WARPING_DATA
+  langs:
+  - csharp
+  - vb
+  name: vertexFormat
+  nameWithType: NV_SCANOUT_WARPING_DATA.vertexFormat
+  fullName: NVAPIWrapper.NV_SCANOUT_WARPING_DATA.vertexFormat
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_SCANOUT_WARPING_DATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: vertexFormat
+    path: ../NVAPIWrapper/cs_generated/NV_SCANOUT_WARPING_DATA.cs
+    startLine: 13
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public NV_GPU_WARPING_VERTICE_FORMAT vertexFormat
+    return:
+      type: NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT
+    content.vb: Public vertexFormat As NV_GPU_WARPING_VERTICE_FORMAT
+- uid: NVAPIWrapper.NV_SCANOUT_WARPING_DATA.numVertices
+  commentId: F:NVAPIWrapper.NV_SCANOUT_WARPING_DATA.numVertices
+  id: numVertices
+  parent: NVAPIWrapper.NV_SCANOUT_WARPING_DATA
+  langs:
+  - csharp
+  - vb
+  name: numVertices
+  nameWithType: NV_SCANOUT_WARPING_DATA.numVertices
+  fullName: NVAPIWrapper.NV_SCANOUT_WARPING_DATA.numVertices
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_SCANOUT_WARPING_DATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: numVertices
+    path: ../NVAPIWrapper/cs_generated/NV_SCANOUT_WARPING_DATA.cs
+    startLine: 16
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public int numVertices
+    return:
+      type: System.Int32
+    content.vb: Public numVertices As Integer
+- uid: NVAPIWrapper.NV_SCANOUT_WARPING_DATA.textureRect
+  commentId: F:NVAPIWrapper.NV_SCANOUT_WARPING_DATA.textureRect
+  id: textureRect
+  parent: NVAPIWrapper.NV_SCANOUT_WARPING_DATA
+  langs:
+  - csharp
+  - vb
+  name: textureRect
+  nameWithType: NV_SCANOUT_WARPING_DATA.textureRect
+  fullName: NVAPIWrapper.NV_SCANOUT_WARPING_DATA.textureRect
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_SCANOUT_WARPING_DATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: textureRect
+    path: ../NVAPIWrapper/cs_generated/NV_SCANOUT_WARPING_DATA.cs
+    startLine: 19
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public NvSBox* textureRect
+    return:
+      type: NVAPIWrapper.NvSBox*
+    content.vb: Public textureRect As NvSBox*
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.Single*
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float*
+  nameWithType: float*
+  fullName: float*
+  nameWithType.vb: Single*
+  fullName.vb: Single*
+  name.vb: Single*
+  spec.csharp:
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '*'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '*'
+- uid: NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT
+  commentId: T:NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT.html
+  name: NV_GPU_WARPING_VERTICE_FORMAT
+  nameWithType: NV_GPU_WARPING_VERTICE_FORMAT
+  fullName: NVAPIWrapper.NV_GPU_WARPING_VERTICE_FORMAT
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NvSBox*
+  isExternal: true
+  href: NVAPIWrapper.NvSBox.html
+  name: NvSBox*
+  nameWithType: NvSBox*
+  fullName: NVAPIWrapper.NvSBox*
+  spec.csharp:
+  - uid: NVAPIWrapper.NvSBox
+    name: NvSBox
+    href: NVAPIWrapper.NvSBox.html
+  - name: '*'
+  spec.vb:
+  - uid: NVAPIWrapper.NvSBox
+    name: NvSBox
+    href: NVAPIWrapper.NvSBox.html
+  - name: '*'

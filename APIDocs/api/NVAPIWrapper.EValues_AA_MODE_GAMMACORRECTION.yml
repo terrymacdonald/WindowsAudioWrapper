@@ -1,0 +1,295 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION
+  commentId: T:NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION
+  id: EValues_AA_MODE_GAMMACORRECTION
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_DEFAULT
+  - NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_DEFAULT_FERMI
+  - NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_DEFAULT_TESLA
+  - NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_MASK
+  - NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_MAX
+  - NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_NUM_VALUES
+  - NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_OFF
+  - NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_ON_ALWAYS
+  - NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_ON_IF_FOS
+  langs:
+  - csharp
+  - vb
+  name: EValues_AA_MODE_GAMMACORRECTION
+  nameWithType: EValues_AA_MODE_GAMMACORRECTION
+  fullName: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_GAMMACORRECTION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_AA_MODE_GAMMACORRECTION
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_GAMMACORRECTION.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_AA_MODE_GAMMACORRECTION
+    content.vb: Public Enum EValues_AA_MODE_GAMMACORRECTION
+- uid: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_MASK
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_MASK
+  id: AA_MODE_GAMMACORRECTION_MASK
+  parent: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_GAMMACORRECTION_MASK
+  nameWithType: EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_MASK
+  fullName: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_MASK
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_GAMMACORRECTION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_GAMMACORRECTION_MASK
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_GAMMACORRECTION.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_GAMMACORRECTION_MASK = 3
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION
+- uid: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_OFF
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_OFF
+  id: AA_MODE_GAMMACORRECTION_OFF
+  parent: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_GAMMACORRECTION_OFF
+  nameWithType: EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_OFF
+  fullName: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_GAMMACORRECTION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_GAMMACORRECTION_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_GAMMACORRECTION.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_GAMMACORRECTION_OFF = 0
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION
+- uid: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_ON_IF_FOS
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_ON_IF_FOS
+  id: AA_MODE_GAMMACORRECTION_ON_IF_FOS
+  parent: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_GAMMACORRECTION_ON_IF_FOS
+  nameWithType: EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_ON_IF_FOS
+  fullName: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_ON_IF_FOS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_GAMMACORRECTION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_GAMMACORRECTION_ON_IF_FOS
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_GAMMACORRECTION.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_GAMMACORRECTION_ON_IF_FOS = 1
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION
+- uid: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_ON_ALWAYS
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_ON_ALWAYS
+  id: AA_MODE_GAMMACORRECTION_ON_ALWAYS
+  parent: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_GAMMACORRECTION_ON_ALWAYS
+  nameWithType: EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_ON_ALWAYS
+  fullName: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_ON_ALWAYS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_GAMMACORRECTION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_GAMMACORRECTION_ON_ALWAYS
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_GAMMACORRECTION.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_GAMMACORRECTION_ON_ALWAYS = 2
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION
+- uid: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_MAX
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_MAX
+  id: AA_MODE_GAMMACORRECTION_MAX
+  parent: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_GAMMACORRECTION_MAX
+  nameWithType: EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_MAX
+  fullName: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_MAX
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_GAMMACORRECTION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_GAMMACORRECTION_MAX
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_GAMMACORRECTION.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_GAMMACORRECTION_MAX = 2
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION
+- uid: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_DEFAULT
+  id: AA_MODE_GAMMACORRECTION_DEFAULT
+  parent: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_GAMMACORRECTION_DEFAULT
+  nameWithType: EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_DEFAULT
+  fullName: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_GAMMACORRECTION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_GAMMACORRECTION_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_GAMMACORRECTION.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_GAMMACORRECTION_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION
+- uid: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_DEFAULT_TESLA
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_DEFAULT_TESLA
+  id: AA_MODE_GAMMACORRECTION_DEFAULT_TESLA
+  parent: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_GAMMACORRECTION_DEFAULT_TESLA
+  nameWithType: EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_DEFAULT_TESLA
+  fullName: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_DEFAULT_TESLA
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_GAMMACORRECTION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_GAMMACORRECTION_DEFAULT_TESLA
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_GAMMACORRECTION.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_GAMMACORRECTION_DEFAULT_TESLA = 2
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION
+- uid: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_DEFAULT_FERMI
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_DEFAULT_FERMI
+  id: AA_MODE_GAMMACORRECTION_DEFAULT_FERMI
+  parent: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_GAMMACORRECTION_DEFAULT_FERMI
+  nameWithType: EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_DEFAULT_FERMI
+  fullName: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_DEFAULT_FERMI
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_GAMMACORRECTION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_GAMMACORRECTION_DEFAULT_FERMI
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_GAMMACORRECTION.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_GAMMACORRECTION_DEFAULT_FERMI = 2
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION
+- uid: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_NUM_VALUES
+  id: AA_MODE_GAMMACORRECTION_NUM_VALUES
+  parent: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_GAMMACORRECTION_NUM_VALUES
+  nameWithType: EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.AA_MODE_GAMMACORRECTION_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_MODE_GAMMACORRECTION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_GAMMACORRECTION_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_MODE_GAMMACORRECTION.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_GAMMACORRECTION_NUM_VALUES = 8
+    return:
+      type: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION
+  commentId: T:NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION.html
+  name: EValues_AA_MODE_GAMMACORRECTION
+  nameWithType: EValues_AA_MODE_GAMMACORRECTION
+  fullName: NVAPIWrapper.EValues_AA_MODE_GAMMACORRECTION

@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVVIOOWNERTYPE
+  commentId: T:NVAPIWrapper._NVVIOOWNERTYPE
+  id: _NVVIOOWNERTYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVVIOOWNERTYPE.NVVIOOWNERTYPE_APPLICATION
+  - NVAPIWrapper._NVVIOOWNERTYPE.NVVIOOWNERTYPE_DESKTOP
+  - NVAPIWrapper._NVVIOOWNERTYPE.NVVIOOWNERTYPE_NONE
+  langs:
+  - csharp
+  - vb
+  name: _NVVIOOWNERTYPE
+  nameWithType: _NVVIOOWNERTYPE
+  fullName: NVAPIWrapper._NVVIOOWNERTYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOWNERTYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVVIOOWNERTYPE
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOWNERTYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVVIOOWNERTYPE
+    content.vb: Public Enum _NVVIOOWNERTYPE
+- uid: NVAPIWrapper._NVVIOOWNERTYPE.NVVIOOWNERTYPE_NONE
+  commentId: F:NVAPIWrapper._NVVIOOWNERTYPE.NVVIOOWNERTYPE_NONE
+  id: NVVIOOWNERTYPE_NONE
+  parent: NVAPIWrapper._NVVIOOWNERTYPE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOOWNERTYPE_NONE
+  nameWithType: _NVVIOOWNERTYPE.NVVIOOWNERTYPE_NONE
+  fullName: NVAPIWrapper._NVVIOOWNERTYPE.NVVIOOWNERTYPE_NONE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOWNERTYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOOWNERTYPE_NONE
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOWNERTYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOOWNERTYPE_NONE = 0
+    return:
+      type: NVAPIWrapper._NVVIOOWNERTYPE
+- uid: NVAPIWrapper._NVVIOOWNERTYPE.NVVIOOWNERTYPE_APPLICATION
+  commentId: F:NVAPIWrapper._NVVIOOWNERTYPE.NVVIOOWNERTYPE_APPLICATION
+  id: NVVIOOWNERTYPE_APPLICATION
+  parent: NVAPIWrapper._NVVIOOWNERTYPE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOOWNERTYPE_APPLICATION
+  nameWithType: _NVVIOOWNERTYPE.NVVIOOWNERTYPE_APPLICATION
+  fullName: NVAPIWrapper._NVVIOOWNERTYPE.NVVIOOWNERTYPE_APPLICATION
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOWNERTYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOOWNERTYPE_APPLICATION
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOWNERTYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOOWNERTYPE_APPLICATION = 1
+    return:
+      type: NVAPIWrapper._NVVIOOWNERTYPE
+- uid: NVAPIWrapper._NVVIOOWNERTYPE.NVVIOOWNERTYPE_DESKTOP
+  commentId: F:NVAPIWrapper._NVVIOOWNERTYPE.NVVIOOWNERTYPE_DESKTOP
+  id: NVVIOOWNERTYPE_DESKTOP
+  parent: NVAPIWrapper._NVVIOOWNERTYPE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOOWNERTYPE_DESKTOP
+  nameWithType: _NVVIOOWNERTYPE.NVVIOOWNERTYPE_DESKTOP
+  fullName: NVAPIWrapper._NVVIOOWNERTYPE.NVVIOOWNERTYPE_DESKTOP
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOWNERTYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOOWNERTYPE_DESKTOP
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOWNERTYPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOOWNERTYPE_DESKTOP = 2
+    return:
+      type: NVAPIWrapper._NVVIOOWNERTYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVVIOOWNERTYPE
+  commentId: T:NVAPIWrapper._NVVIOOWNERTYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOOWNERTYPE.html
+  name: _NVVIOOWNERTYPE
+  nameWithType: _NVVIOOWNERTYPE
+  fullName: NVAPIWrapper._NVVIOOWNERTYPE

@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_VSYNCSMOOTHAFR
+  commentId: T:NVAPIWrapper.EValues_VSYNCSMOOTHAFR
+  id: EValues_VSYNCSMOOTHAFR
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_VSYNCSMOOTHAFR.VSYNCSMOOTHAFR_DEFAULT
+  - NVAPIWrapper.EValues_VSYNCSMOOTHAFR.VSYNCSMOOTHAFR_NUM_VALUES
+  - NVAPIWrapper.EValues_VSYNCSMOOTHAFR.VSYNCSMOOTHAFR_OFF
+  - NVAPIWrapper.EValues_VSYNCSMOOTHAFR.VSYNCSMOOTHAFR_ON
+  langs:
+  - csharp
+  - vb
+  name: EValues_VSYNCSMOOTHAFR
+  nameWithType: EValues_VSYNCSMOOTHAFR
+  fullName: NVAPIWrapper.EValues_VSYNCSMOOTHAFR
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCSMOOTHAFR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_VSYNCSMOOTHAFR
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCSMOOTHAFR.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_VSYNCSMOOTHAFR
+    content.vb: Public Enum EValues_VSYNCSMOOTHAFR
+- uid: NVAPIWrapper.EValues_VSYNCSMOOTHAFR.VSYNCSMOOTHAFR_OFF
+  commentId: F:NVAPIWrapper.EValues_VSYNCSMOOTHAFR.VSYNCSMOOTHAFR_OFF
+  id: VSYNCSMOOTHAFR_OFF
+  parent: NVAPIWrapper.EValues_VSYNCSMOOTHAFR
+  langs:
+  - csharp
+  - vb
+  name: VSYNCSMOOTHAFR_OFF
+  nameWithType: EValues_VSYNCSMOOTHAFR.VSYNCSMOOTHAFR_OFF
+  fullName: NVAPIWrapper.EValues_VSYNCSMOOTHAFR.VSYNCSMOOTHAFR_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCSMOOTHAFR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCSMOOTHAFR_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCSMOOTHAFR.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCSMOOTHAFR_OFF = 0
+    return:
+      type: NVAPIWrapper.EValues_VSYNCSMOOTHAFR
+- uid: NVAPIWrapper.EValues_VSYNCSMOOTHAFR.VSYNCSMOOTHAFR_ON
+  commentId: F:NVAPIWrapper.EValues_VSYNCSMOOTHAFR.VSYNCSMOOTHAFR_ON
+  id: VSYNCSMOOTHAFR_ON
+  parent: NVAPIWrapper.EValues_VSYNCSMOOTHAFR
+  langs:
+  - csharp
+  - vb
+  name: VSYNCSMOOTHAFR_ON
+  nameWithType: EValues_VSYNCSMOOTHAFR.VSYNCSMOOTHAFR_ON
+  fullName: NVAPIWrapper.EValues_VSYNCSMOOTHAFR.VSYNCSMOOTHAFR_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCSMOOTHAFR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCSMOOTHAFR_ON
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCSMOOTHAFR.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCSMOOTHAFR_ON = 1
+    return:
+      type: NVAPIWrapper.EValues_VSYNCSMOOTHAFR
+- uid: NVAPIWrapper.EValues_VSYNCSMOOTHAFR.VSYNCSMOOTHAFR_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_VSYNCSMOOTHAFR.VSYNCSMOOTHAFR_NUM_VALUES
+  id: VSYNCSMOOTHAFR_NUM_VALUES
+  parent: NVAPIWrapper.EValues_VSYNCSMOOTHAFR
+  langs:
+  - csharp
+  - vb
+  name: VSYNCSMOOTHAFR_NUM_VALUES
+  nameWithType: EValues_VSYNCSMOOTHAFR.VSYNCSMOOTHAFR_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_VSYNCSMOOTHAFR.VSYNCSMOOTHAFR_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCSMOOTHAFR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCSMOOTHAFR_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCSMOOTHAFR.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCSMOOTHAFR_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_VSYNCSMOOTHAFR
+- uid: NVAPIWrapper.EValues_VSYNCSMOOTHAFR.VSYNCSMOOTHAFR_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_VSYNCSMOOTHAFR.VSYNCSMOOTHAFR_DEFAULT
+  id: VSYNCSMOOTHAFR_DEFAULT
+  parent: NVAPIWrapper.EValues_VSYNCSMOOTHAFR
+  langs:
+  - csharp
+  - vb
+  name: VSYNCSMOOTHAFR_DEFAULT
+  nameWithType: EValues_VSYNCSMOOTHAFR.VSYNCSMOOTHAFR_DEFAULT
+  fullName: NVAPIWrapper.EValues_VSYNCSMOOTHAFR.VSYNCSMOOTHAFR_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCSMOOTHAFR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCSMOOTHAFR_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCSMOOTHAFR.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCSMOOTHAFR_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_VSYNCSMOOTHAFR
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_VSYNCSMOOTHAFR
+  commentId: T:NVAPIWrapper.EValues_VSYNCSMOOTHAFR
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_VSYNCSMOOTHAFR.html
+  name: EValues_VSYNCSMOOTHAFR
+  nameWithType: EValues_VSYNCSMOOTHAFR
+  fullName: NVAPIWrapper.EValues_VSYNCSMOOTHAFR

@@ -1,0 +1,491 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_TIMING_OVERRIDE
+  commentId: T:NVAPIWrapper._NV_TIMING_OVERRIDE
+  id: _NV_TIMING_OVERRIDE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_ANALOG_TV
+  - NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_AUTO
+  - NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_CURRENT
+  - NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_CUST
+  - NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_CVT
+  - NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_CVT_RB
+  - NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_DMT
+  - NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_DMT_RB
+  - NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_EDID
+  - NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_EIA861
+  - NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_GTF
+  - NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_NV_ASPR
+  - NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_NV_PREDEFINED
+  - NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_NV_PSF
+  - NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_SDI
+  - NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVRRIDE_MAX
+  langs:
+  - csharp
+  - vb
+  name: _NV_TIMING_OVERRIDE
+  nameWithType: _NV_TIMING_OVERRIDE
+  fullName: NVAPIWrapper._NV_TIMING_OVERRIDE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_TIMING_OVERRIDE
+    path: ../NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_TIMING_OVERRIDE
+    content.vb: Public Enum _NV_TIMING_OVERRIDE
+- uid: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_CURRENT
+  commentId: F:NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_CURRENT
+  id: NV_TIMING_OVERRIDE_CURRENT
+  parent: NVAPIWrapper._NV_TIMING_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: NV_TIMING_OVERRIDE_CURRENT
+  nameWithType: _NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_CURRENT
+  fullName: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_CURRENT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_TIMING_OVERRIDE_CURRENT
+    path: ../NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_TIMING_OVERRIDE_CURRENT = 0
+    return:
+      type: NVAPIWrapper._NV_TIMING_OVERRIDE
+- uid: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_AUTO
+  commentId: F:NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_AUTO
+  id: NV_TIMING_OVERRIDE_AUTO
+  parent: NVAPIWrapper._NV_TIMING_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: NV_TIMING_OVERRIDE_AUTO
+  nameWithType: _NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_AUTO
+  fullName: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_AUTO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_TIMING_OVERRIDE_AUTO
+    path: ../NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_TIMING_OVERRIDE_AUTO = 1
+    return:
+      type: NVAPIWrapper._NV_TIMING_OVERRIDE
+- uid: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_EDID
+  commentId: F:NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_EDID
+  id: NV_TIMING_OVERRIDE_EDID
+  parent: NVAPIWrapper._NV_TIMING_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: NV_TIMING_OVERRIDE_EDID
+  nameWithType: _NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_EDID
+  fullName: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_EDID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_TIMING_OVERRIDE_EDID
+    path: ../NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_TIMING_OVERRIDE_EDID = 2
+    return:
+      type: NVAPIWrapper._NV_TIMING_OVERRIDE
+- uid: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_DMT
+  commentId: F:NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_DMT
+  id: NV_TIMING_OVERRIDE_DMT
+  parent: NVAPIWrapper._NV_TIMING_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: NV_TIMING_OVERRIDE_DMT
+  nameWithType: _NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_DMT
+  fullName: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_DMT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_TIMING_OVERRIDE_DMT
+    path: ../NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_TIMING_OVERRIDE_DMT = 3
+    return:
+      type: NVAPIWrapper._NV_TIMING_OVERRIDE
+- uid: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_DMT_RB
+  commentId: F:NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_DMT_RB
+  id: NV_TIMING_OVERRIDE_DMT_RB
+  parent: NVAPIWrapper._NV_TIMING_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: NV_TIMING_OVERRIDE_DMT_RB
+  nameWithType: _NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_DMT_RB
+  fullName: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_DMT_RB
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_TIMING_OVERRIDE_DMT_RB
+    path: ../NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_TIMING_OVERRIDE_DMT_RB = 4
+    return:
+      type: NVAPIWrapper._NV_TIMING_OVERRIDE
+- uid: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_CVT
+  commentId: F:NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_CVT
+  id: NV_TIMING_OVERRIDE_CVT
+  parent: NVAPIWrapper._NV_TIMING_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: NV_TIMING_OVERRIDE_CVT
+  nameWithType: _NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_CVT
+  fullName: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_CVT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_TIMING_OVERRIDE_CVT
+    path: ../NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_TIMING_OVERRIDE_CVT = 5
+    return:
+      type: NVAPIWrapper._NV_TIMING_OVERRIDE
+- uid: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_CVT_RB
+  commentId: F:NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_CVT_RB
+  id: NV_TIMING_OVERRIDE_CVT_RB
+  parent: NVAPIWrapper._NV_TIMING_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: NV_TIMING_OVERRIDE_CVT_RB
+  nameWithType: _NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_CVT_RB
+  fullName: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_CVT_RB
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_TIMING_OVERRIDE_CVT_RB
+    path: ../NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_TIMING_OVERRIDE_CVT_RB = 6
+    return:
+      type: NVAPIWrapper._NV_TIMING_OVERRIDE
+- uid: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_GTF
+  commentId: F:NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_GTF
+  id: NV_TIMING_OVERRIDE_GTF
+  parent: NVAPIWrapper._NV_TIMING_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: NV_TIMING_OVERRIDE_GTF
+  nameWithType: _NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_GTF
+  fullName: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_GTF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_TIMING_OVERRIDE_GTF
+    path: ../NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_TIMING_OVERRIDE_GTF = 7
+    return:
+      type: NVAPIWrapper._NV_TIMING_OVERRIDE
+- uid: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_EIA861
+  commentId: F:NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_EIA861
+  id: NV_TIMING_OVERRIDE_EIA861
+  parent: NVAPIWrapper._NV_TIMING_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: NV_TIMING_OVERRIDE_EIA861
+  nameWithType: _NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_EIA861
+  fullName: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_EIA861
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_TIMING_OVERRIDE_EIA861
+    path: ../NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_TIMING_OVERRIDE_EIA861 = 8
+    return:
+      type: NVAPIWrapper._NV_TIMING_OVERRIDE
+- uid: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_ANALOG_TV
+  commentId: F:NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_ANALOG_TV
+  id: NV_TIMING_OVERRIDE_ANALOG_TV
+  parent: NVAPIWrapper._NV_TIMING_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: NV_TIMING_OVERRIDE_ANALOG_TV
+  nameWithType: _NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_ANALOG_TV
+  fullName: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_ANALOG_TV
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_TIMING_OVERRIDE_ANALOG_TV
+    path: ../NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_TIMING_OVERRIDE_ANALOG_TV = 9
+    return:
+      type: NVAPIWrapper._NV_TIMING_OVERRIDE
+- uid: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_CUST
+  commentId: F:NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_CUST
+  id: NV_TIMING_OVERRIDE_CUST
+  parent: NVAPIWrapper._NV_TIMING_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: NV_TIMING_OVERRIDE_CUST
+  nameWithType: _NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_CUST
+  fullName: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_CUST
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_TIMING_OVERRIDE_CUST
+    path: ../NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_TIMING_OVERRIDE_CUST = 10
+    return:
+      type: NVAPIWrapper._NV_TIMING_OVERRIDE
+- uid: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_NV_PREDEFINED
+  commentId: F:NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_NV_PREDEFINED
+  id: NV_TIMING_OVERRIDE_NV_PREDEFINED
+  parent: NVAPIWrapper._NV_TIMING_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: NV_TIMING_OVERRIDE_NV_PREDEFINED
+  nameWithType: _NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_NV_PREDEFINED
+  fullName: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_NV_PREDEFINED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_TIMING_OVERRIDE_NV_PREDEFINED
+    path: ../NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+    startLine: 39
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_TIMING_OVERRIDE_NV_PREDEFINED = 11
+    return:
+      type: NVAPIWrapper._NV_TIMING_OVERRIDE
+- uid: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_NV_PSF
+  commentId: F:NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_NV_PSF
+  id: NV_TIMING_OVERRIDE_NV_PSF
+  parent: NVAPIWrapper._NV_TIMING_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: NV_TIMING_OVERRIDE_NV_PSF
+  nameWithType: _NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_NV_PSF
+  fullName: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_NV_PSF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_TIMING_OVERRIDE_NV_PSF
+    path: ../NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+    startLine: 42
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_TIMING_OVERRIDE_NV_PSF = 11
+    return:
+      type: NVAPIWrapper._NV_TIMING_OVERRIDE
+- uid: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_NV_ASPR
+  commentId: F:NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_NV_ASPR
+  id: NV_TIMING_OVERRIDE_NV_ASPR
+  parent: NVAPIWrapper._NV_TIMING_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: NV_TIMING_OVERRIDE_NV_ASPR
+  nameWithType: _NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_NV_ASPR
+  fullName: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_NV_ASPR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_TIMING_OVERRIDE_NV_ASPR
+    path: ../NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+    startLine: 45
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_TIMING_OVERRIDE_NV_ASPR = 12
+    return:
+      type: NVAPIWrapper._NV_TIMING_OVERRIDE
+- uid: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_SDI
+  commentId: F:NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_SDI
+  id: NV_TIMING_OVERRIDE_SDI
+  parent: NVAPIWrapper._NV_TIMING_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: NV_TIMING_OVERRIDE_SDI
+  nameWithType: _NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_SDI
+  fullName: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVERRIDE_SDI
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_TIMING_OVERRIDE_SDI
+    path: ../NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+    startLine: 48
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_TIMING_OVERRIDE_SDI = 13
+    return:
+      type: NVAPIWrapper._NV_TIMING_OVERRIDE
+- uid: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVRRIDE_MAX
+  commentId: F:NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVRRIDE_MAX
+  id: NV_TIMING_OVRRIDE_MAX
+  parent: NVAPIWrapper._NV_TIMING_OVERRIDE
+  langs:
+  - csharp
+  - vb
+  name: NV_TIMING_OVRRIDE_MAX
+  nameWithType: _NV_TIMING_OVERRIDE.NV_TIMING_OVRRIDE_MAX
+  fullName: NVAPIWrapper._NV_TIMING_OVERRIDE.NV_TIMING_OVRRIDE_MAX
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_TIMING_OVRRIDE_MAX
+    path: ../NVAPIWrapper/cs_generated/_NV_TIMING_OVERRIDE.cs
+    startLine: 51
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_TIMING_OVRRIDE_MAX = 14
+    return:
+      type: NVAPIWrapper._NV_TIMING_OVERRIDE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_TIMING_OVERRIDE
+  commentId: T:NVAPIWrapper._NV_TIMING_OVERRIDE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_TIMING_OVERRIDE.html
+  name: _NV_TIMING_OVERRIDE
+  nameWithType: _NV_TIMING_OVERRIDE
+  fullName: NVAPIWrapper._NV_TIMING_OVERRIDE

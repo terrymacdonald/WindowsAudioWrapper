@@ -1,0 +1,575 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+  commentId: T:NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+  id: EValues_AA_BEHAVIOR_FLAGS
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_AA_RT_BPP_DIV_4
+  - NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_AA_RT_BPP_DIV_4_SHIFT
+  - NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DEFAULT
+  - NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DISABLE_CPLAA
+  - NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DISABLE_ENHANCE
+  - NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DISABLE_OVERRIDE
+  - NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DISABLE_SLIAA
+  - NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_MAP_VCAA_TO_MULTISAMPLING
+  - NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_MASK
+  - NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_NONE
+  - NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_NON_AA_RT_BPP_DIV_4
+  - NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_NON_AA_RT_BPP_DIV_4_SHIFT
+  - NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_NUM_VALUES
+  - NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_SKIP_RT_DIM_CHECK_FOR_ENHANCE
+  - NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_SLI_DISABLE_TRANSPARENCY_SUPERSAMPLING
+  - NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_TREAT_ENHANCE_AS_APP_CONTROLLED
+  - NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_TREAT_ENHANCE_AS_OVERRIDE
+  - NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_TREAT_OVERRIDE_AS_APP_CONTROLLED
+  - NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_TREAT_OVERRIDE_AS_ENHANCE
+  langs:
+  - csharp
+  - vb
+  name: EValues_AA_BEHAVIOR_FLAGS
+  nameWithType: EValues_AA_BEHAVIOR_FLAGS
+  fullName: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_AA_BEHAVIOR_FLAGS
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_AA_BEHAVIOR_FLAGS
+    content.vb: Public Enum EValues_AA_BEHAVIOR_FLAGS
+- uid: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_NONE
+  commentId: F:NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_NONE
+  id: AA_BEHAVIOR_FLAGS_NONE
+  parent: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: AA_BEHAVIOR_FLAGS_NONE
+  nameWithType: EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_NONE
+  fullName: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_NONE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_BEHAVIOR_FLAGS_NONE
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_BEHAVIOR_FLAGS_NONE = 0
+    return:
+      type: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+- uid: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_TREAT_OVERRIDE_AS_APP_CONTROLLED
+  commentId: F:NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_TREAT_OVERRIDE_AS_APP_CONTROLLED
+  id: AA_BEHAVIOR_FLAGS_TREAT_OVERRIDE_AS_APP_CONTROLLED
+  parent: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: AA_BEHAVIOR_FLAGS_TREAT_OVERRIDE_AS_APP_CONTROLLED
+  nameWithType: EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_TREAT_OVERRIDE_AS_APP_CONTROLLED
+  fullName: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_TREAT_OVERRIDE_AS_APP_CONTROLLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_BEHAVIOR_FLAGS_TREAT_OVERRIDE_AS_APP_CONTROLLED
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_BEHAVIOR_FLAGS_TREAT_OVERRIDE_AS_APP_CONTROLLED = 1
+    return:
+      type: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+- uid: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_TREAT_OVERRIDE_AS_ENHANCE
+  commentId: F:NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_TREAT_OVERRIDE_AS_ENHANCE
+  id: AA_BEHAVIOR_FLAGS_TREAT_OVERRIDE_AS_ENHANCE
+  parent: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: AA_BEHAVIOR_FLAGS_TREAT_OVERRIDE_AS_ENHANCE
+  nameWithType: EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_TREAT_OVERRIDE_AS_ENHANCE
+  fullName: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_TREAT_OVERRIDE_AS_ENHANCE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_BEHAVIOR_FLAGS_TREAT_OVERRIDE_AS_ENHANCE
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_BEHAVIOR_FLAGS_TREAT_OVERRIDE_AS_ENHANCE = 2
+    return:
+      type: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+- uid: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DISABLE_OVERRIDE
+  commentId: F:NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DISABLE_OVERRIDE
+  id: AA_BEHAVIOR_FLAGS_DISABLE_OVERRIDE
+  parent: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: AA_BEHAVIOR_FLAGS_DISABLE_OVERRIDE
+  nameWithType: EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DISABLE_OVERRIDE
+  fullName: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DISABLE_OVERRIDE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_BEHAVIOR_FLAGS_DISABLE_OVERRIDE
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_BEHAVIOR_FLAGS_DISABLE_OVERRIDE = 3
+    return:
+      type: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+- uid: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_TREAT_ENHANCE_AS_APP_CONTROLLED
+  commentId: F:NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_TREAT_ENHANCE_AS_APP_CONTROLLED
+  id: AA_BEHAVIOR_FLAGS_TREAT_ENHANCE_AS_APP_CONTROLLED
+  parent: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: AA_BEHAVIOR_FLAGS_TREAT_ENHANCE_AS_APP_CONTROLLED
+  nameWithType: EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_TREAT_ENHANCE_AS_APP_CONTROLLED
+  fullName: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_TREAT_ENHANCE_AS_APP_CONTROLLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_BEHAVIOR_FLAGS_TREAT_ENHANCE_AS_APP_CONTROLLED
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_BEHAVIOR_FLAGS_TREAT_ENHANCE_AS_APP_CONTROLLED = 4
+    return:
+      type: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+- uid: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_TREAT_ENHANCE_AS_OVERRIDE
+  commentId: F:NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_TREAT_ENHANCE_AS_OVERRIDE
+  id: AA_BEHAVIOR_FLAGS_TREAT_ENHANCE_AS_OVERRIDE
+  parent: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: AA_BEHAVIOR_FLAGS_TREAT_ENHANCE_AS_OVERRIDE
+  nameWithType: EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_TREAT_ENHANCE_AS_OVERRIDE
+  fullName: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_TREAT_ENHANCE_AS_OVERRIDE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_BEHAVIOR_FLAGS_TREAT_ENHANCE_AS_OVERRIDE
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_BEHAVIOR_FLAGS_TREAT_ENHANCE_AS_OVERRIDE = 8
+    return:
+      type: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+- uid: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DISABLE_ENHANCE
+  commentId: F:NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DISABLE_ENHANCE
+  id: AA_BEHAVIOR_FLAGS_DISABLE_ENHANCE
+  parent: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: AA_BEHAVIOR_FLAGS_DISABLE_ENHANCE
+  nameWithType: EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DISABLE_ENHANCE
+  fullName: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DISABLE_ENHANCE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_BEHAVIOR_FLAGS_DISABLE_ENHANCE
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_BEHAVIOR_FLAGS_DISABLE_ENHANCE = 12
+    return:
+      type: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+- uid: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_MAP_VCAA_TO_MULTISAMPLING
+  commentId: F:NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_MAP_VCAA_TO_MULTISAMPLING
+  id: AA_BEHAVIOR_FLAGS_MAP_VCAA_TO_MULTISAMPLING
+  parent: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: AA_BEHAVIOR_FLAGS_MAP_VCAA_TO_MULTISAMPLING
+  nameWithType: EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_MAP_VCAA_TO_MULTISAMPLING
+  fullName: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_MAP_VCAA_TO_MULTISAMPLING
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_BEHAVIOR_FLAGS_MAP_VCAA_TO_MULTISAMPLING
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_BEHAVIOR_FLAGS_MAP_VCAA_TO_MULTISAMPLING = 65536
+    return:
+      type: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+- uid: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_SLI_DISABLE_TRANSPARENCY_SUPERSAMPLING
+  commentId: F:NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_SLI_DISABLE_TRANSPARENCY_SUPERSAMPLING
+  id: AA_BEHAVIOR_FLAGS_SLI_DISABLE_TRANSPARENCY_SUPERSAMPLING
+  parent: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: AA_BEHAVIOR_FLAGS_SLI_DISABLE_TRANSPARENCY_SUPERSAMPLING
+  nameWithType: EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_SLI_DISABLE_TRANSPARENCY_SUPERSAMPLING
+  fullName: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_SLI_DISABLE_TRANSPARENCY_SUPERSAMPLING
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_BEHAVIOR_FLAGS_SLI_DISABLE_TRANSPARENCY_SUPERSAMPLING
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_BEHAVIOR_FLAGS_SLI_DISABLE_TRANSPARENCY_SUPERSAMPLING = 131072
+    return:
+      type: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+- uid: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DISABLE_CPLAA
+  commentId: F:NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DISABLE_CPLAA
+  id: AA_BEHAVIOR_FLAGS_DISABLE_CPLAA
+  parent: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: AA_BEHAVIOR_FLAGS_DISABLE_CPLAA
+  nameWithType: EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DISABLE_CPLAA
+  fullName: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DISABLE_CPLAA
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_BEHAVIOR_FLAGS_DISABLE_CPLAA
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_BEHAVIOR_FLAGS_DISABLE_CPLAA = 262144
+    return:
+      type: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+- uid: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_SKIP_RT_DIM_CHECK_FOR_ENHANCE
+  commentId: F:NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_SKIP_RT_DIM_CHECK_FOR_ENHANCE
+  id: AA_BEHAVIOR_FLAGS_SKIP_RT_DIM_CHECK_FOR_ENHANCE
+  parent: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: AA_BEHAVIOR_FLAGS_SKIP_RT_DIM_CHECK_FOR_ENHANCE
+  nameWithType: EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_SKIP_RT_DIM_CHECK_FOR_ENHANCE
+  fullName: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_SKIP_RT_DIM_CHECK_FOR_ENHANCE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_BEHAVIOR_FLAGS_SKIP_RT_DIM_CHECK_FOR_ENHANCE
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_BEHAVIOR_FLAGS_SKIP_RT_DIM_CHECK_FOR_ENHANCE = 524288
+    return:
+      type: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+- uid: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DISABLE_SLIAA
+  commentId: F:NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DISABLE_SLIAA
+  id: AA_BEHAVIOR_FLAGS_DISABLE_SLIAA
+  parent: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: AA_BEHAVIOR_FLAGS_DISABLE_SLIAA
+  nameWithType: EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DISABLE_SLIAA
+  fullName: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DISABLE_SLIAA
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_BEHAVIOR_FLAGS_DISABLE_SLIAA
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+    startLine: 39
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_BEHAVIOR_FLAGS_DISABLE_SLIAA = 1048576
+    return:
+      type: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+- uid: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DEFAULT
+  id: AA_BEHAVIOR_FLAGS_DEFAULT
+  parent: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: AA_BEHAVIOR_FLAGS_DEFAULT
+  nameWithType: EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DEFAULT
+  fullName: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_BEHAVIOR_FLAGS_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+    startLine: 42
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_BEHAVIOR_FLAGS_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+- uid: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_AA_RT_BPP_DIV_4
+  commentId: F:NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_AA_RT_BPP_DIV_4
+  id: AA_BEHAVIOR_FLAGS_AA_RT_BPP_DIV_4
+  parent: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: AA_BEHAVIOR_FLAGS_AA_RT_BPP_DIV_4
+  nameWithType: EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_AA_RT_BPP_DIV_4
+  fullName: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_AA_RT_BPP_DIV_4
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_BEHAVIOR_FLAGS_AA_RT_BPP_DIV_4
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+    startLine: 45
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_BEHAVIOR_FLAGS_AA_RT_BPP_DIV_4 = -268435456
+    return:
+      type: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+- uid: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_AA_RT_BPP_DIV_4_SHIFT
+  commentId: F:NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_AA_RT_BPP_DIV_4_SHIFT
+  id: AA_BEHAVIOR_FLAGS_AA_RT_BPP_DIV_4_SHIFT
+  parent: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: AA_BEHAVIOR_FLAGS_AA_RT_BPP_DIV_4_SHIFT
+  nameWithType: EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_AA_RT_BPP_DIV_4_SHIFT
+  fullName: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_AA_RT_BPP_DIV_4_SHIFT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_BEHAVIOR_FLAGS_AA_RT_BPP_DIV_4_SHIFT
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+    startLine: 48
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_BEHAVIOR_FLAGS_AA_RT_BPP_DIV_4_SHIFT = 28
+    return:
+      type: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+- uid: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_NON_AA_RT_BPP_DIV_4
+  commentId: F:NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_NON_AA_RT_BPP_DIV_4
+  id: AA_BEHAVIOR_FLAGS_NON_AA_RT_BPP_DIV_4
+  parent: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: AA_BEHAVIOR_FLAGS_NON_AA_RT_BPP_DIV_4
+  nameWithType: EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_NON_AA_RT_BPP_DIV_4
+  fullName: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_NON_AA_RT_BPP_DIV_4
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_BEHAVIOR_FLAGS_NON_AA_RT_BPP_DIV_4
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+    startLine: 51
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_BEHAVIOR_FLAGS_NON_AA_RT_BPP_DIV_4 = 251658240
+    return:
+      type: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+- uid: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_NON_AA_RT_BPP_DIV_4_SHIFT
+  commentId: F:NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_NON_AA_RT_BPP_DIV_4_SHIFT
+  id: AA_BEHAVIOR_FLAGS_NON_AA_RT_BPP_DIV_4_SHIFT
+  parent: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: AA_BEHAVIOR_FLAGS_NON_AA_RT_BPP_DIV_4_SHIFT
+  nameWithType: EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_NON_AA_RT_BPP_DIV_4_SHIFT
+  fullName: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_NON_AA_RT_BPP_DIV_4_SHIFT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_BEHAVIOR_FLAGS_NON_AA_RT_BPP_DIV_4_SHIFT
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+    startLine: 54
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_BEHAVIOR_FLAGS_NON_AA_RT_BPP_DIV_4_SHIFT = 24
+    return:
+      type: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+- uid: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_MASK
+  commentId: F:NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_MASK
+  id: AA_BEHAVIOR_FLAGS_MASK
+  parent: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: AA_BEHAVIOR_FLAGS_MASK
+  nameWithType: EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_MASK
+  fullName: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_MASK
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_BEHAVIOR_FLAGS_MASK
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+    startLine: 57
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_BEHAVIOR_FLAGS_MASK = -14745585
+    return:
+      type: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+- uid: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_NUM_VALUES
+  id: AA_BEHAVIOR_FLAGS_NUM_VALUES
+  parent: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: AA_BEHAVIOR_FLAGS_NUM_VALUES
+  nameWithType: EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.AA_BEHAVIOR_FLAGS_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_BEHAVIOR_FLAGS_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_AA_BEHAVIOR_FLAGS.cs
+    startLine: 60
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_BEHAVIOR_FLAGS_NUM_VALUES = 18
+    return:
+      type: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+  commentId: T:NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS.html
+  name: EValues_AA_BEHAVIOR_FLAGS
+  nameWithType: EValues_AA_BEHAVIOR_FLAGS
+  fullName: NVAPIWrapper.EValues_AA_BEHAVIOR_FLAGS

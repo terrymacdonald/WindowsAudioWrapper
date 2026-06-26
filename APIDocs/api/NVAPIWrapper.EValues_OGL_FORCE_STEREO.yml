@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_OGL_FORCE_STEREO
+  commentId: T:NVAPIWrapper.EValues_OGL_FORCE_STEREO
+  id: EValues_OGL_FORCE_STEREO
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_OGL_FORCE_STEREO.OGL_FORCE_STEREO_DEFAULT
+  - NVAPIWrapper.EValues_OGL_FORCE_STEREO.OGL_FORCE_STEREO_NUM_VALUES
+  - NVAPIWrapper.EValues_OGL_FORCE_STEREO.OGL_FORCE_STEREO_OFF
+  - NVAPIWrapper.EValues_OGL_FORCE_STEREO.OGL_FORCE_STEREO_ON
+  langs:
+  - csharp
+  - vb
+  name: EValues_OGL_FORCE_STEREO
+  nameWithType: EValues_OGL_FORCE_STEREO
+  fullName: NVAPIWrapper.EValues_OGL_FORCE_STEREO
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_FORCE_STEREO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_OGL_FORCE_STEREO
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_FORCE_STEREO.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_OGL_FORCE_STEREO
+    content.vb: Public Enum EValues_OGL_FORCE_STEREO
+- uid: NVAPIWrapper.EValues_OGL_FORCE_STEREO.OGL_FORCE_STEREO_OFF
+  commentId: F:NVAPIWrapper.EValues_OGL_FORCE_STEREO.OGL_FORCE_STEREO_OFF
+  id: OGL_FORCE_STEREO_OFF
+  parent: NVAPIWrapper.EValues_OGL_FORCE_STEREO
+  langs:
+  - csharp
+  - vb
+  name: OGL_FORCE_STEREO_OFF
+  nameWithType: EValues_OGL_FORCE_STEREO.OGL_FORCE_STEREO_OFF
+  fullName: NVAPIWrapper.EValues_OGL_FORCE_STEREO.OGL_FORCE_STEREO_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_FORCE_STEREO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_FORCE_STEREO_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_FORCE_STEREO.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_FORCE_STEREO_OFF = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_FORCE_STEREO
+- uid: NVAPIWrapper.EValues_OGL_FORCE_STEREO.OGL_FORCE_STEREO_ON
+  commentId: F:NVAPIWrapper.EValues_OGL_FORCE_STEREO.OGL_FORCE_STEREO_ON
+  id: OGL_FORCE_STEREO_ON
+  parent: NVAPIWrapper.EValues_OGL_FORCE_STEREO
+  langs:
+  - csharp
+  - vb
+  name: OGL_FORCE_STEREO_ON
+  nameWithType: EValues_OGL_FORCE_STEREO.OGL_FORCE_STEREO_ON
+  fullName: NVAPIWrapper.EValues_OGL_FORCE_STEREO.OGL_FORCE_STEREO_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_FORCE_STEREO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_FORCE_STEREO_ON
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_FORCE_STEREO.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_FORCE_STEREO_ON = 1
+    return:
+      type: NVAPIWrapper.EValues_OGL_FORCE_STEREO
+- uid: NVAPIWrapper.EValues_OGL_FORCE_STEREO.OGL_FORCE_STEREO_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_OGL_FORCE_STEREO.OGL_FORCE_STEREO_NUM_VALUES
+  id: OGL_FORCE_STEREO_NUM_VALUES
+  parent: NVAPIWrapper.EValues_OGL_FORCE_STEREO
+  langs:
+  - csharp
+  - vb
+  name: OGL_FORCE_STEREO_NUM_VALUES
+  nameWithType: EValues_OGL_FORCE_STEREO.OGL_FORCE_STEREO_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_OGL_FORCE_STEREO.OGL_FORCE_STEREO_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_FORCE_STEREO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_FORCE_STEREO_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_FORCE_STEREO.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_FORCE_STEREO_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_OGL_FORCE_STEREO
+- uid: NVAPIWrapper.EValues_OGL_FORCE_STEREO.OGL_FORCE_STEREO_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_OGL_FORCE_STEREO.OGL_FORCE_STEREO_DEFAULT
+  id: OGL_FORCE_STEREO_DEFAULT
+  parent: NVAPIWrapper.EValues_OGL_FORCE_STEREO
+  langs:
+  - csharp
+  - vb
+  name: OGL_FORCE_STEREO_DEFAULT
+  nameWithType: EValues_OGL_FORCE_STEREO.OGL_FORCE_STEREO_DEFAULT
+  fullName: NVAPIWrapper.EValues_OGL_FORCE_STEREO.OGL_FORCE_STEREO_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_FORCE_STEREO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_FORCE_STEREO_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_FORCE_STEREO.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_FORCE_STEREO_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_FORCE_STEREO
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_OGL_FORCE_STEREO
+  commentId: T:NVAPIWrapper.EValues_OGL_FORCE_STEREO
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_OGL_FORCE_STEREO.html
+  name: EValues_OGL_FORCE_STEREO
+  nameWithType: EValues_OGL_FORCE_STEREO
+  fullName: NVAPIWrapper.EValues_OGL_FORCE_STEREO

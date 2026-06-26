@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION
+  commentId: T:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION
+  id: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_BACK_0
+  - NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_FRONT_0
+  - NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_TOP_0
+  - NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_INVALID
+  - NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_SLI_TOP_0
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION
+  nameWithType: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_GPU_CLIENT_ILLUM_ZONE_LOCATION
+    content.vb: Public Enum NV_GPU_CLIENT_ILLUM_ZONE_LOCATION
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_TOP_0
+  commentId: F:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_TOP_0
+  id: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_TOP_0
+  parent: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_TOP_0
+  nameWithType: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_TOP_0
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_TOP_0
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_TOP_0
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_TOP_0 = 0
+    return:
+      type: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_FRONT_0
+  commentId: F:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_FRONT_0
+  id: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_FRONT_0
+  parent: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_FRONT_0
+  nameWithType: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_FRONT_0
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_FRONT_0
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_FRONT_0
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_FRONT_0 = 8
+    return:
+      type: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_BACK_0
+  commentId: F:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_BACK_0
+  id: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_BACK_0
+  parent: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_BACK_0
+  nameWithType: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_BACK_0
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_BACK_0
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_BACK_0
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_GPU_BACK_0 = 12
+    return:
+      type: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_SLI_TOP_0
+  commentId: F:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_SLI_TOP_0
+  id: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_SLI_TOP_0
+  parent: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_SLI_TOP_0
+  nameWithType: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_SLI_TOP_0
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_SLI_TOP_0
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_SLI_TOP_0
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_SLI_TOP_0 = 32
+    return:
+      type: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_INVALID
+  commentId: F:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_INVALID
+  id: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_INVALID
+  parent: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_INVALID
+  nameWithType: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_INVALID
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_INVALID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_INVALID
+    path: ../NVAPIWrapper/cs_generated/NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION_INVALID = -1
+    return:
+      type: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION
+  commentId: T:NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION.html
+  name: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION
+  nameWithType: NV_GPU_CLIENT_ILLUM_ZONE_LOCATION
+  fullName: NVAPIWrapper.NV_GPU_CLIENT_ILLUM_ZONE_LOCATION

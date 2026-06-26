@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1
+  commentId: T:NVAPIWrapper.EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1
+  id: EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1.NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_DEFAULT
+  - NVAPIWrapper.EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1.NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1
+  nameWithType: EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1
+    content.vb: Public Enum EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1
+- uid: NVAPIWrapper.EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1.NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1.NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_DEFAULT
+  id: NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_DEFAULT
+  parent: NVAPIWrapper.EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_DEFAULT
+  nameWithType: EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1.NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_DEFAULT
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1.NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1
+- uid: NVAPIWrapper.EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1.NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1.NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_NUM_VALUES
+  id: NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_NUM_VALUES
+  parent: NVAPIWrapper.EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_NUM_VALUES
+  nameWithType: EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1.NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1.NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_NUM_VALUES = 1
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1
+  commentId: T:NVAPIWrapper.EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1.html
+  name: EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1
+  nameWithType: EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1

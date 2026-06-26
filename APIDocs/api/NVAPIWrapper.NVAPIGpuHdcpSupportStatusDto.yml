@@ -1,0 +1,888 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+  commentId: T:NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+  id: NVAPIGpuHdcpSupportStatusDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.#ctor(NVAPIWrapper._NV_GPU_HDCP_FUSE_STATE,NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE,NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE_STATE)
+  - NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.Equals(NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+  - NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.FromNative(NVAPIWrapper.NV_GPU_GET_HDCP_SUPPORT_STATUS)
+  - NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.GetHashCode
+  - NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.HdcpFuseState
+  - NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.HdcpKeySource
+  - NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.HdcpKeySourceState
+  - NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.ToNative
+  - NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.op_Equality(NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto,NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+  - NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.op_Inequality(NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto,NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGpuHdcpSupportStatusDto
+  nameWithType: NVAPIGpuHdcpSupportStatusDto
+  fullName: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIGpuHdcpSupportStatusDto
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5578
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: HDCP support status DTO.
+  example: []
+  syntax:
+    content: 'public struct NVAPIGpuHdcpSupportStatusDto : IEquatable<NVAPIGpuHdcpSupportStatusDto>'
+    content.vb: Public Structure NVAPIGpuHdcpSupportStatusDto Implements IEquatable(Of NVAPIGpuHdcpSupportStatusDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.HdcpFuseState
+  commentId: P:NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.HdcpFuseState
+  id: HdcpFuseState
+  parent: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+  langs:
+  - csharp
+  - vb
+  name: HdcpFuseState
+  nameWithType: NVAPIGpuHdcpSupportStatusDto.HdcpFuseState
+  fullName: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.HdcpFuseState
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: HdcpFuseState
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5580
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public _NV_GPU_HDCP_FUSE_STATE HdcpFuseState { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper._NV_GPU_HDCP_FUSE_STATE
+    content.vb: Public Property HdcpFuseState As _NV_GPU_HDCP_FUSE_STATE
+  overload: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.HdcpFuseState*
+- uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.HdcpKeySource
+  commentId: P:NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.HdcpKeySource
+  id: HdcpKeySource
+  parent: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+  langs:
+  - csharp
+  - vb
+  name: HdcpKeySource
+  nameWithType: NVAPIGpuHdcpSupportStatusDto.HdcpKeySource
+  fullName: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.HdcpKeySource
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: HdcpKeySource
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5581
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public _NV_GPU_HDCP_KEY_SOURCE HdcpKeySource { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE
+    content.vb: Public Property HdcpKeySource As _NV_GPU_HDCP_KEY_SOURCE
+  overload: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.HdcpKeySource*
+- uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.HdcpKeySourceState
+  commentId: P:NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.HdcpKeySourceState
+  id: HdcpKeySourceState
+  parent: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+  langs:
+  - csharp
+  - vb
+  name: HdcpKeySourceState
+  nameWithType: NVAPIGpuHdcpSupportStatusDto.HdcpKeySourceState
+  fullName: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.HdcpKeySourceState
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: HdcpKeySourceState
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5582
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public _NV_GPU_HDCP_KEY_SOURCE_STATE HdcpKeySourceState { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE_STATE
+    content.vb: Public Property HdcpKeySourceState As _NV_GPU_HDCP_KEY_SOURCE_STATE
+  overload: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.HdcpKeySourceState*
+- uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.#ctor(NVAPIWrapper._NV_GPU_HDCP_FUSE_STATE,NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE,NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE_STATE)
+  commentId: M:NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.#ctor(NVAPIWrapper._NV_GPU_HDCP_FUSE_STATE,NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE,NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE_STATE)
+  id: '#ctor(NVAPIWrapper._NV_GPU_HDCP_FUSE_STATE,NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE,NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE_STATE)'
+  parent: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGpuHdcpSupportStatusDto(_NV_GPU_HDCP_FUSE_STATE, _NV_GPU_HDCP_KEY_SOURCE, _NV_GPU_HDCP_KEY_SOURCE_STATE)
+  nameWithType: NVAPIGpuHdcpSupportStatusDto.NVAPIGpuHdcpSupportStatusDto(_NV_GPU_HDCP_FUSE_STATE, _NV_GPU_HDCP_KEY_SOURCE, _NV_GPU_HDCP_KEY_SOURCE_STATE)
+  fullName: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.NVAPIGpuHdcpSupportStatusDto(NVAPIWrapper._NV_GPU_HDCP_FUSE_STATE, NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE, NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE_STATE)
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5584
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NVAPIGpuHdcpSupportStatusDto(_NV_GPU_HDCP_FUSE_STATE hdcpFuseState, _NV_GPU_HDCP_KEY_SOURCE hdcpKeySource, _NV_GPU_HDCP_KEY_SOURCE_STATE hdcpKeySourceState)
+    parameters:
+    - id: hdcpFuseState
+      type: NVAPIWrapper._NV_GPU_HDCP_FUSE_STATE
+    - id: hdcpKeySource
+      type: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE
+    - id: hdcpKeySourceState
+      type: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE_STATE
+    content.vb: Public Sub New(hdcpFuseState As _NV_GPU_HDCP_FUSE_STATE, hdcpKeySource As _NV_GPU_HDCP_KEY_SOURCE, hdcpKeySourceState As _NV_GPU_HDCP_KEY_SOURCE_STATE)
+  overload: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.#ctor*
+  nameWithType.vb: NVAPIGpuHdcpSupportStatusDto.New(_NV_GPU_HDCP_FUSE_STATE, _NV_GPU_HDCP_KEY_SOURCE, _NV_GPU_HDCP_KEY_SOURCE_STATE)
+  fullName.vb: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.New(NVAPIWrapper._NV_GPU_HDCP_FUSE_STATE, NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE, NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE_STATE)
+  name.vb: New(_NV_GPU_HDCP_FUSE_STATE, _NV_GPU_HDCP_KEY_SOURCE, _NV_GPU_HDCP_KEY_SOURCE_STATE)
+- uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.FromNative(NVAPIWrapper.NV_GPU_GET_HDCP_SUPPORT_STATUS)
+  commentId: M:NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.FromNative(NVAPIWrapper.NV_GPU_GET_HDCP_SUPPORT_STATUS)
+  id: FromNative(NVAPIWrapper.NV_GPU_GET_HDCP_SUPPORT_STATUS)
+  parent: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(NV_GPU_GET_HDCP_SUPPORT_STATUS)
+  nameWithType: NVAPIGpuHdcpSupportStatusDto.FromNative(NV_GPU_GET_HDCP_SUPPORT_STATUS)
+  fullName: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.FromNative(NVAPIWrapper.NV_GPU_GET_HDCP_SUPPORT_STATUS)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5594
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static NVAPIGpuHdcpSupportStatusDto FromNative(NV_GPU_GET_HDCP_SUPPORT_STATUS native)
+    parameters:
+    - id: native
+      type: NVAPIWrapper.NV_GPU_GET_HDCP_SUPPORT_STATUS
+    return:
+      type: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+    content.vb: Public Shared Function FromNative(native As NV_GPU_GET_HDCP_SUPPORT_STATUS) As NVAPIGpuHdcpSupportStatusDto
+  overload: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.FromNative*
+- uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.ToNative
+  commentId: M:NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.ToNative
+  id: ToNative
+  parent: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: NVAPIGpuHdcpSupportStatusDto.ToNative()
+  fullName: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5599
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NV_GPU_GET_HDCP_SUPPORT_STATUS ToNative()
+    return:
+      type: NVAPIWrapper.NV_GPU_GET_HDCP_SUPPORT_STATUS
+    content.vb: Public Function ToNative() As NV_GPU_GET_HDCP_SUPPORT_STATUS
+  overload: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.ToNative*
+- uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.Equals(NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.Equals(NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+  id: Equals(NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+  parent: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIGpuHdcpSupportStatusDto)
+  nameWithType: NVAPIGpuHdcpSupportStatusDto.Equals(NVAPIGpuHdcpSupportStatusDto)
+  fullName: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.Equals(NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5610
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIGpuHdcpSupportStatusDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As NVAPIGpuHdcpSupportStatusDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto}.Equals(NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+- uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIGpuHdcpSupportStatusDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5617
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.Equals*
+  nameWithType.vb: NVAPIGpuHdcpSupportStatusDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIGpuHdcpSupportStatusDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5618
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.op_Equality(NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto,NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.op_Equality(NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto,NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+  id: op_Equality(NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto,NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+  parent: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIGpuHdcpSupportStatusDto, NVAPIGpuHdcpSupportStatusDto)
+  nameWithType: NVAPIGpuHdcpSupportStatusDto.operator ==(NVAPIGpuHdcpSupportStatusDto, NVAPIGpuHdcpSupportStatusDto)
+  fullName: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.operator ==(NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto, NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5619
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static bool operator ==(NVAPIGpuHdcpSupportStatusDto left, NVAPIGpuHdcpSupportStatusDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+    - id: right
+      type: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As NVAPIGpuHdcpSupportStatusDto, right As NVAPIGpuHdcpSupportStatusDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.op_Equality*
+  nameWithType.vb: NVAPIGpuHdcpSupportStatusDto.=(NVAPIGpuHdcpSupportStatusDto, NVAPIGpuHdcpSupportStatusDto)
+  fullName.vb: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.=(NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto, NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+  name.vb: =(NVAPIGpuHdcpSupportStatusDto, NVAPIGpuHdcpSupportStatusDto)
+- uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.op_Inequality(NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto,NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.op_Inequality(NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto,NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto,NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+  parent: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIGpuHdcpSupportStatusDto, NVAPIGpuHdcpSupportStatusDto)
+  nameWithType: NVAPIGpuHdcpSupportStatusDto.operator !=(NVAPIGpuHdcpSupportStatusDto, NVAPIGpuHdcpSupportStatusDto)
+  fullName: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.operator !=(NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto, NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5620
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static bool operator !=(NVAPIGpuHdcpSupportStatusDto left, NVAPIGpuHdcpSupportStatusDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+    - id: right
+      type: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As NVAPIGpuHdcpSupportStatusDto, right As NVAPIGpuHdcpSupportStatusDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.op_Inequality*
+  nameWithType.vb: NVAPIGpuHdcpSupportStatusDto.<>(NVAPIGpuHdcpSupportStatusDto, NVAPIGpuHdcpSupportStatusDto)
+  fullName.vb: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.<>(NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto, NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+  name.vb: <>(NVAPIGpuHdcpSupportStatusDto, NVAPIGpuHdcpSupportStatusDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIGpuHdcpSupportStatusDto>
+  nameWithType: IEquatable<NVAPIGpuHdcpSupportStatusDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto>
+  nameWithType.vb: IEquatable(Of NVAPIGpuHdcpSupportStatusDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+  name.vb: IEquatable(Of NVAPIGpuHdcpSupportStatusDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+    name: NVAPIGpuHdcpSupportStatusDto
+    href: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+    name: NVAPIGpuHdcpSupportStatusDto
+    href: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.HdcpFuseState*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.HdcpFuseState
+  href: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.html#NVAPIWrapper_NVAPIGpuHdcpSupportStatusDto_HdcpFuseState
+  name: HdcpFuseState
+  nameWithType: NVAPIGpuHdcpSupportStatusDto.HdcpFuseState
+  fullName: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.HdcpFuseState
+- uid: NVAPIWrapper._NV_GPU_HDCP_FUSE_STATE
+  commentId: T:NVAPIWrapper._NV_GPU_HDCP_FUSE_STATE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_HDCP_FUSE_STATE.html
+  name: _NV_GPU_HDCP_FUSE_STATE
+  nameWithType: _NV_GPU_HDCP_FUSE_STATE
+  fullName: NVAPIWrapper._NV_GPU_HDCP_FUSE_STATE
+- uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.HdcpKeySource*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.HdcpKeySource
+  href: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.html#NVAPIWrapper_NVAPIGpuHdcpSupportStatusDto_HdcpKeySource
+  name: HdcpKeySource
+  nameWithType: NVAPIGpuHdcpSupportStatusDto.HdcpKeySource
+  fullName: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.HdcpKeySource
+- uid: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE
+  commentId: T:NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE.html
+  name: _NV_GPU_HDCP_KEY_SOURCE
+  nameWithType: _NV_GPU_HDCP_KEY_SOURCE
+  fullName: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE
+- uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.HdcpKeySourceState*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.HdcpKeySourceState
+  href: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.html#NVAPIWrapper_NVAPIGpuHdcpSupportStatusDto_HdcpKeySourceState
+  name: HdcpKeySourceState
+  nameWithType: NVAPIGpuHdcpSupportStatusDto.HdcpKeySourceState
+  fullName: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.HdcpKeySourceState
+- uid: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE_STATE
+  commentId: T:NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE_STATE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE_STATE.html
+  name: _NV_GPU_HDCP_KEY_SOURCE_STATE
+  nameWithType: _NV_GPU_HDCP_KEY_SOURCE_STATE
+  fullName: NVAPIWrapper._NV_GPU_HDCP_KEY_SOURCE_STATE
+- uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.#ctor
+  href: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.html#NVAPIWrapper_NVAPIGpuHdcpSupportStatusDto__ctor_NVAPIWrapper__NV_GPU_HDCP_FUSE_STATE_NVAPIWrapper__NV_GPU_HDCP_KEY_SOURCE_NVAPIWrapper__NV_GPU_HDCP_KEY_SOURCE_STATE_
+  name: NVAPIGpuHdcpSupportStatusDto
+  nameWithType: NVAPIGpuHdcpSupportStatusDto.NVAPIGpuHdcpSupportStatusDto
+  fullName: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.NVAPIGpuHdcpSupportStatusDto
+  nameWithType.vb: NVAPIGpuHdcpSupportStatusDto.New
+  fullName.vb: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.FromNative
+  href: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.html#NVAPIWrapper_NVAPIGpuHdcpSupportStatusDto_FromNative_NVAPIWrapper_NV_GPU_GET_HDCP_SUPPORT_STATUS_
+  name: FromNative
+  nameWithType: NVAPIGpuHdcpSupportStatusDto.FromNative
+  fullName: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.FromNative
+- uid: NVAPIWrapper.NV_GPU_GET_HDCP_SUPPORT_STATUS
+  commentId: T:NVAPIWrapper.NV_GPU_GET_HDCP_SUPPORT_STATUS
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_GPU_GET_HDCP_SUPPORT_STATUS.html
+  name: NV_GPU_GET_HDCP_SUPPORT_STATUS
+  nameWithType: NV_GPU_GET_HDCP_SUPPORT_STATUS
+  fullName: NVAPIWrapper.NV_GPU_GET_HDCP_SUPPORT_STATUS
+- uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+  commentId: T:NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.html
+  name: NVAPIGpuHdcpSupportStatusDto
+  nameWithType: NVAPIGpuHdcpSupportStatusDto
+  fullName: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+- uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.ToNative
+  href: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.html#NVAPIWrapper_NVAPIGpuHdcpSupportStatusDto_ToNative
+  name: ToNative
+  nameWithType: NVAPIGpuHdcpSupportStatusDto.ToNative
+  fullName: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.ToNative
+- uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.Equals
+  href: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.html#NVAPIWrapper_NVAPIGpuHdcpSupportStatusDto_Equals_NVAPIWrapper_NVAPIGpuHdcpSupportStatusDto_
+  name: Equals
+  nameWithType: NVAPIGpuHdcpSupportStatusDto.Equals
+  fullName: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto}.Equals(NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto}.Equals(NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIGpuHdcpSupportStatusDto)
+  nameWithType: IEquatable<NVAPIGpuHdcpSupportStatusDto>.Equals(NVAPIGpuHdcpSupportStatusDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto>.Equals(NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+  nameWithType.vb: IEquatable(Of NVAPIGpuHdcpSupportStatusDto).Equals(NVAPIGpuHdcpSupportStatusDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto).Equals(NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto}.Equals(NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+    name: NVAPIGpuHdcpSupportStatusDto
+    href: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto}.Equals(NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto
+    name: NVAPIGpuHdcpSupportStatusDto
+    href: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.html
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.GetHashCode
+  href: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.html#NVAPIWrapper_NVAPIGpuHdcpSupportStatusDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIGpuHdcpSupportStatusDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.op_Equality
+  href: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.html#NVAPIWrapper_NVAPIGpuHdcpSupportStatusDto_op_Equality_NVAPIWrapper_NVAPIGpuHdcpSupportStatusDto_NVAPIWrapper_NVAPIGpuHdcpSupportStatusDto_
+  name: operator ==
+  nameWithType: NVAPIGpuHdcpSupportStatusDto.operator ==
+  fullName: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.operator ==
+  nameWithType.vb: NVAPIGpuHdcpSupportStatusDto.=
+  fullName.vb: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.html#NVAPIWrapper_NVAPIGpuHdcpSupportStatusDto_op_Equality_NVAPIWrapper_NVAPIGpuHdcpSupportStatusDto_NVAPIWrapper_NVAPIGpuHdcpSupportStatusDto_
+- uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.op_Inequality
+  href: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.html#NVAPIWrapper_NVAPIGpuHdcpSupportStatusDto_op_Inequality_NVAPIWrapper_NVAPIGpuHdcpSupportStatusDto_NVAPIWrapper_NVAPIGpuHdcpSupportStatusDto_
+  name: operator !=
+  nameWithType: NVAPIGpuHdcpSupportStatusDto.operator !=
+  fullName: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.operator !=
+  nameWithType.vb: NVAPIGpuHdcpSupportStatusDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIGpuHdcpSupportStatusDto.html#NVAPIWrapper_NVAPIGpuHdcpSupportStatusDto_op_Inequality_NVAPIWrapper_NVAPIGpuHdcpSupportStatusDto_NVAPIWrapper_NVAPIGpuHdcpSupportStatusDto_

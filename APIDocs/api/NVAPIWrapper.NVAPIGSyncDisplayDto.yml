@@ -1,0 +1,986 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto
+  commentId: T:NVAPIWrapper.NVAPIGSyncDisplayDto
+  id: NVAPIGSyncDisplayDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIGSyncDisplayDto.#ctor(System.UInt32,System.Boolean,NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE)
+  - NVAPIWrapper.NVAPIGSyncDisplayDto.DisplayId
+  - NVAPIWrapper.NVAPIGSyncDisplayDto.Equals(NVAPIWrapper.NVAPIGSyncDisplayDto)
+  - NVAPIWrapper.NVAPIGSyncDisplayDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIGSyncDisplayDto.FromNative(NVAPIWrapper._NV_GSYNC_DISPLAY)
+  - NVAPIWrapper.NVAPIGSyncDisplayDto.FromNative(NVAPIWrapper._NV_GSYNC_DISPLAY*,System.Int32)
+  - NVAPIWrapper.NVAPIGSyncDisplayDto.GetHashCode
+  - NVAPIWrapper.NVAPIGSyncDisplayDto.IsMasterable
+  - NVAPIWrapper.NVAPIGSyncDisplayDto.SyncState
+  - NVAPIWrapper.NVAPIGSyncDisplayDto.ToNative
+  - NVAPIWrapper.NVAPIGSyncDisplayDto.op_Equality(NVAPIWrapper.NVAPIGSyncDisplayDto,NVAPIWrapper.NVAPIGSyncDisplayDto)
+  - NVAPIWrapper.NVAPIGSyncDisplayDto.op_Inequality(NVAPIWrapper.NVAPIGSyncDisplayDto,NVAPIWrapper.NVAPIGSyncDisplayDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGSyncDisplayDto
+  nameWithType: NVAPIGSyncDisplayDto
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIGSyncDisplayDto
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 724
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: DTO for a G-Sync display entry in topology.
+  example: []
+  syntax:
+    content: 'public struct NVAPIGSyncDisplayDto : IEquatable<NVAPIGSyncDisplayDto>'
+    content.vb: Public Structure NVAPIGSyncDisplayDto Implements IEquatable(Of NVAPIGSyncDisplayDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGSyncDisplayDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto.DisplayId
+  commentId: P:NVAPIWrapper.NVAPIGSyncDisplayDto.DisplayId
+  id: DisplayId
+  parent: NVAPIWrapper.NVAPIGSyncDisplayDto
+  langs:
+  - csharp
+  - vb
+  name: DisplayId
+  nameWithType: NVAPIGSyncDisplayDto.DisplayId
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto.DisplayId
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: DisplayId
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 726
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint DisplayId { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property DisplayId As UInteger
+  overload: NVAPIWrapper.NVAPIGSyncDisplayDto.DisplayId*
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto.IsMasterable
+  commentId: P:NVAPIWrapper.NVAPIGSyncDisplayDto.IsMasterable
+  id: IsMasterable
+  parent: NVAPIWrapper.NVAPIGSyncDisplayDto
+  langs:
+  - csharp
+  - vb
+  name: IsMasterable
+  nameWithType: NVAPIGSyncDisplayDto.IsMasterable
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto.IsMasterable
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: IsMasterable
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 727
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public bool IsMasterable { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsMasterable As Boolean
+  overload: NVAPIWrapper.NVAPIGSyncDisplayDto.IsMasterable*
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto.SyncState
+  commentId: P:NVAPIWrapper.NVAPIGSyncDisplayDto.SyncState
+  id: SyncState
+  parent: NVAPIWrapper.NVAPIGSyncDisplayDto
+  langs:
+  - csharp
+  - vb
+  name: SyncState
+  nameWithType: NVAPIGSyncDisplayDto.SyncState
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto.SyncState
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SyncState
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 728
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public _NVAPI_GSYNC_DISPLAY_SYNC_STATE SyncState { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE
+    content.vb: Public Property SyncState As _NVAPI_GSYNC_DISPLAY_SYNC_STATE
+  overload: NVAPIWrapper.NVAPIGSyncDisplayDto.SyncState*
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto.#ctor(System.UInt32,System.Boolean,NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE)
+  commentId: M:NVAPIWrapper.NVAPIGSyncDisplayDto.#ctor(System.UInt32,System.Boolean,NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE)
+  id: '#ctor(System.UInt32,System.Boolean,NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE)'
+  parent: NVAPIWrapper.NVAPIGSyncDisplayDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGSyncDisplayDto(uint, bool, _NVAPI_GSYNC_DISPLAY_SYNC_STATE)
+  nameWithType: NVAPIGSyncDisplayDto.NVAPIGSyncDisplayDto(uint, bool, _NVAPI_GSYNC_DISPLAY_SYNC_STATE)
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto.NVAPIGSyncDisplayDto(uint, bool, NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE)
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 736
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a G-Sync display DTO.
+  example: []
+  syntax:
+    content: public NVAPIGSyncDisplayDto(uint displayId, bool isMasterable, _NVAPI_GSYNC_DISPLAY_SYNC_STATE syncState)
+    parameters:
+    - id: displayId
+      type: System.UInt32
+      description: Display identifier.
+    - id: isMasterable
+      type: System.Boolean
+      description: Whether the display is masterable.
+    - id: syncState
+      type: NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE
+      description: Display sync state.
+    content.vb: Public Sub New(displayId As UInteger, isMasterable As Boolean, syncState As _NVAPI_GSYNC_DISPLAY_SYNC_STATE)
+  overload: NVAPIWrapper.NVAPIGSyncDisplayDto.#ctor*
+  nameWithType.vb: NVAPIGSyncDisplayDto.New(UInteger, Boolean, _NVAPI_GSYNC_DISPLAY_SYNC_STATE)
+  fullName.vb: NVAPIWrapper.NVAPIGSyncDisplayDto.New(UInteger, Boolean, NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE)
+  name.vb: New(UInteger, Boolean, _NVAPI_GSYNC_DISPLAY_SYNC_STATE)
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto.FromNative(NVAPIWrapper._NV_GSYNC_DISPLAY)
+  commentId: M:NVAPIWrapper.NVAPIGSyncDisplayDto.FromNative(NVAPIWrapper._NV_GSYNC_DISPLAY)
+  id: FromNative(NVAPIWrapper._NV_GSYNC_DISPLAY)
+  parent: NVAPIWrapper.NVAPIGSyncDisplayDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(_NV_GSYNC_DISPLAY)
+  nameWithType: NVAPIGSyncDisplayDto.FromNative(_NV_GSYNC_DISPLAY)
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto.FromNative(NVAPIWrapper._NV_GSYNC_DISPLAY)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 748
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a G-Sync display DTO from native data.
+  example: []
+  syntax:
+    content: public static NVAPIGSyncDisplayDto FromNative(_NV_GSYNC_DISPLAY native)
+    parameters:
+    - id: native
+      type: NVAPIWrapper._NV_GSYNC_DISPLAY
+      description: Native display data.
+    return:
+      type: NVAPIWrapper.NVAPIGSyncDisplayDto
+      description: G-Sync display DTO.
+    content.vb: Public Shared Function FromNative(native As _NV_GSYNC_DISPLAY) As NVAPIGSyncDisplayDto
+  overload: NVAPIWrapper.NVAPIGSyncDisplayDto.FromNative*
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto.FromNative(NVAPIWrapper._NV_GSYNC_DISPLAY*,System.Int32)
+  commentId: M:NVAPIWrapper.NVAPIGSyncDisplayDto.FromNative(NVAPIWrapper._NV_GSYNC_DISPLAY*,System.Int32)
+  id: FromNative(NVAPIWrapper._NV_GSYNC_DISPLAY*,System.Int32)
+  parent: NVAPIWrapper.NVAPIGSyncDisplayDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(_NV_GSYNC_DISPLAY*, int)
+  nameWithType: NVAPIGSyncDisplayDto.FromNative(_NV_GSYNC_DISPLAY*, int)
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto.FromNative(NVAPIWrapper._NV_GSYNC_DISPLAY*, int)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 762
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create G-Sync display DTOs from a native array.
+  example: []
+  syntax:
+    content: public static NVAPIGSyncDisplayDto[] FromNative(_NV_GSYNC_DISPLAY* native, int count)
+    parameters:
+    - id: native
+      type: NVAPIWrapper._NV_GSYNC_DISPLAY*
+      description: Native display array pointer.
+    - id: count
+      type: System.Int32
+      description: Number of entries.
+    return:
+      type: NVAPIWrapper.NVAPIGSyncDisplayDto[]
+      description: G-Sync display DTO array.
+    content.vb: Public Shared Function FromNative(native As _NV_GSYNC_DISPLAY*, count As Integer) As NVAPIGSyncDisplayDto()
+  overload: NVAPIWrapper.NVAPIGSyncDisplayDto.FromNative*
+  nameWithType.vb: NVAPIGSyncDisplayDto.FromNative(_NV_GSYNC_DISPLAY*, Integer)
+  fullName.vb: NVAPIWrapper.NVAPIGSyncDisplayDto.FromNative(NVAPIWrapper._NV_GSYNC_DISPLAY*, Integer)
+  name.vb: FromNative(_NV_GSYNC_DISPLAY*, Integer)
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto.ToNative
+  commentId: M:NVAPIWrapper.NVAPIGSyncDisplayDto.ToNative
+  id: ToNative
+  parent: NVAPIWrapper.NVAPIGSyncDisplayDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: NVAPIGSyncDisplayDto.ToNative()
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 780
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Convert this DTO to native display data.
+  example: []
+  syntax:
+    content: public _NV_GSYNC_DISPLAY ToNative()
+    return:
+      type: NVAPIWrapper._NV_GSYNC_DISPLAY
+      description: Native display data.
+    content.vb: Public Function ToNative() As _NV_GSYNC_DISPLAY
+  overload: NVAPIWrapper.NVAPIGSyncDisplayDto.ToNative*
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto.Equals(NVAPIWrapper.NVAPIGSyncDisplayDto)
+  commentId: M:NVAPIWrapper.NVAPIGSyncDisplayDto.Equals(NVAPIWrapper.NVAPIGSyncDisplayDto)
+  id: Equals(NVAPIWrapper.NVAPIGSyncDisplayDto)
+  parent: NVAPIWrapper.NVAPIGSyncDisplayDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIGSyncDisplayDto)
+  nameWithType: NVAPIGSyncDisplayDto.Equals(NVAPIGSyncDisplayDto)
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto.Equals(NVAPIWrapper.NVAPIGSyncDisplayDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 797
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether this instance equals another G-Sync display DTO.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIGSyncDisplayDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIGSyncDisplayDto
+      description: The other DTO to compare.
+    return:
+      type: System.Boolean
+      description: True if the DTOs are equal; otherwise false.
+    content.vb: Public Function Equals(other As NVAPIGSyncDisplayDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGSyncDisplayDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGSyncDisplayDto}.Equals(NVAPIWrapper.NVAPIGSyncDisplayDto)
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIGSyncDisplayDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIGSyncDisplayDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIGSyncDisplayDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 809
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether this instance equals another object.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare.
+    return:
+      type: System.Boolean
+      description: True if the object is an equivalent DTO; otherwise false.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIGSyncDisplayDto.Equals*
+  nameWithType.vb: NVAPIGSyncDisplayDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIGSyncDisplayDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIGSyncDisplayDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIGSyncDisplayDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIGSyncDisplayDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 815
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get a hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: Hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIGSyncDisplayDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto.op_Equality(NVAPIWrapper.NVAPIGSyncDisplayDto,NVAPIWrapper.NVAPIGSyncDisplayDto)
+  commentId: M:NVAPIWrapper.NVAPIGSyncDisplayDto.op_Equality(NVAPIWrapper.NVAPIGSyncDisplayDto,NVAPIWrapper.NVAPIGSyncDisplayDto)
+  id: op_Equality(NVAPIWrapper.NVAPIGSyncDisplayDto,NVAPIWrapper.NVAPIGSyncDisplayDto)
+  parent: NVAPIWrapper.NVAPIGSyncDisplayDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIGSyncDisplayDto, NVAPIGSyncDisplayDto)
+  nameWithType: NVAPIGSyncDisplayDto.operator ==(NVAPIGSyncDisplayDto, NVAPIGSyncDisplayDto)
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto.operator ==(NVAPIWrapper.NVAPIGSyncDisplayDto, NVAPIWrapper.NVAPIGSyncDisplayDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 832
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether two G-Sync display DTOs are equal.
+  example: []
+  syntax:
+    content: public static bool operator ==(NVAPIGSyncDisplayDto left, NVAPIGSyncDisplayDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGSyncDisplayDto
+      description: Left DTO.
+    - id: right
+      type: NVAPIWrapper.NVAPIGSyncDisplayDto
+      description: Right DTO.
+    return:
+      type: System.Boolean
+      description: True if the DTOs are equal; otherwise false.
+    content.vb: Public Shared Operator =(left As NVAPIGSyncDisplayDto, right As NVAPIGSyncDisplayDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGSyncDisplayDto.op_Equality*
+  nameWithType.vb: NVAPIGSyncDisplayDto.=(NVAPIGSyncDisplayDto, NVAPIGSyncDisplayDto)
+  fullName.vb: NVAPIWrapper.NVAPIGSyncDisplayDto.=(NVAPIWrapper.NVAPIGSyncDisplayDto, NVAPIWrapper.NVAPIGSyncDisplayDto)
+  name.vb: =(NVAPIGSyncDisplayDto, NVAPIGSyncDisplayDto)
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto.op_Inequality(NVAPIWrapper.NVAPIGSyncDisplayDto,NVAPIWrapper.NVAPIGSyncDisplayDto)
+  commentId: M:NVAPIWrapper.NVAPIGSyncDisplayDto.op_Inequality(NVAPIWrapper.NVAPIGSyncDisplayDto,NVAPIWrapper.NVAPIGSyncDisplayDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIGSyncDisplayDto,NVAPIWrapper.NVAPIGSyncDisplayDto)
+  parent: NVAPIWrapper.NVAPIGSyncDisplayDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIGSyncDisplayDto, NVAPIGSyncDisplayDto)
+  nameWithType: NVAPIGSyncDisplayDto.operator !=(NVAPIGSyncDisplayDto, NVAPIGSyncDisplayDto)
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto.operator !=(NVAPIWrapper.NVAPIGSyncDisplayDto, NVAPIWrapper.NVAPIGSyncDisplayDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIQuadroGSyncHelper.cs
+    startLine: 840
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether two G-Sync display DTOs are not equal.
+  example: []
+  syntax:
+    content: public static bool operator !=(NVAPIGSyncDisplayDto left, NVAPIGSyncDisplayDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGSyncDisplayDto
+      description: Left DTO.
+    - id: right
+      type: NVAPIWrapper.NVAPIGSyncDisplayDto
+      description: Right DTO.
+    return:
+      type: System.Boolean
+      description: True if the DTOs are not equal; otherwise false.
+    content.vb: Public Shared Operator <>(left As NVAPIGSyncDisplayDto, right As NVAPIGSyncDisplayDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGSyncDisplayDto.op_Inequality*
+  nameWithType.vb: NVAPIGSyncDisplayDto.<>(NVAPIGSyncDisplayDto, NVAPIGSyncDisplayDto)
+  fullName.vb: NVAPIWrapper.NVAPIGSyncDisplayDto.<>(NVAPIWrapper.NVAPIGSyncDisplayDto, NVAPIWrapper.NVAPIGSyncDisplayDto)
+  name.vb: <>(NVAPIGSyncDisplayDto, NVAPIGSyncDisplayDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGSyncDisplayDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIGSyncDisplayDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIGSyncDisplayDto>
+  nameWithType: IEquatable<NVAPIGSyncDisplayDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGSyncDisplayDto>
+  nameWithType.vb: IEquatable(Of NVAPIGSyncDisplayDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGSyncDisplayDto)
+  name.vb: IEquatable(Of NVAPIGSyncDisplayDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIGSyncDisplayDto
+    name: NVAPIGSyncDisplayDto
+    href: NVAPIWrapper.NVAPIGSyncDisplayDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGSyncDisplayDto
+    name: NVAPIGSyncDisplayDto
+    href: NVAPIWrapper.NVAPIGSyncDisplayDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto.DisplayId*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncDisplayDto.DisplayId
+  href: NVAPIWrapper.NVAPIGSyncDisplayDto.html#NVAPIWrapper_NVAPIGSyncDisplayDto_DisplayId
+  name: DisplayId
+  nameWithType: NVAPIGSyncDisplayDto.DisplayId
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto.DisplayId
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto.IsMasterable*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncDisplayDto.IsMasterable
+  href: NVAPIWrapper.NVAPIGSyncDisplayDto.html#NVAPIWrapper_NVAPIGSyncDisplayDto_IsMasterable
+  name: IsMasterable
+  nameWithType: NVAPIGSyncDisplayDto.IsMasterable
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto.IsMasterable
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto.SyncState*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncDisplayDto.SyncState
+  href: NVAPIWrapper.NVAPIGSyncDisplayDto.html#NVAPIWrapper_NVAPIGSyncDisplayDto_SyncState
+  name: SyncState
+  nameWithType: NVAPIGSyncDisplayDto.SyncState
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto.SyncState
+- uid: NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE
+  commentId: T:NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE.html
+  name: _NVAPI_GSYNC_DISPLAY_SYNC_STATE
+  nameWithType: _NVAPI_GSYNC_DISPLAY_SYNC_STATE
+  fullName: NVAPIWrapper._NVAPI_GSYNC_DISPLAY_SYNC_STATE
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncDisplayDto.#ctor
+  href: NVAPIWrapper.NVAPIGSyncDisplayDto.html#NVAPIWrapper_NVAPIGSyncDisplayDto__ctor_System_UInt32_System_Boolean_NVAPIWrapper__NVAPI_GSYNC_DISPLAY_SYNC_STATE_
+  name: NVAPIGSyncDisplayDto
+  nameWithType: NVAPIGSyncDisplayDto.NVAPIGSyncDisplayDto
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto.NVAPIGSyncDisplayDto
+  nameWithType.vb: NVAPIGSyncDisplayDto.New
+  fullName.vb: NVAPIWrapper.NVAPIGSyncDisplayDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncDisplayDto.FromNative
+  href: NVAPIWrapper.NVAPIGSyncDisplayDto.html#NVAPIWrapper_NVAPIGSyncDisplayDto_FromNative_NVAPIWrapper__NV_GSYNC_DISPLAY_
+  name: FromNative
+  nameWithType: NVAPIGSyncDisplayDto.FromNative
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto.FromNative
+- uid: NVAPIWrapper._NV_GSYNC_DISPLAY
+  commentId: T:NVAPIWrapper._NV_GSYNC_DISPLAY
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GSYNC_DISPLAY.html
+  name: _NV_GSYNC_DISPLAY
+  nameWithType: _NV_GSYNC_DISPLAY
+  fullName: NVAPIWrapper._NV_GSYNC_DISPLAY
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto
+  commentId: T:NVAPIWrapper.NVAPIGSyncDisplayDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIGSyncDisplayDto.html
+  name: NVAPIGSyncDisplayDto
+  nameWithType: NVAPIGSyncDisplayDto
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto
+- uid: NVAPIWrapper._NV_GSYNC_DISPLAY*
+  isExternal: true
+  href: NVAPIWrapper._NV_GSYNC_DISPLAY.html
+  name: _NV_GSYNC_DISPLAY*
+  nameWithType: _NV_GSYNC_DISPLAY*
+  fullName: NVAPIWrapper._NV_GSYNC_DISPLAY*
+  spec.csharp:
+  - uid: NVAPIWrapper._NV_GSYNC_DISPLAY
+    name: _NV_GSYNC_DISPLAY
+    href: NVAPIWrapper._NV_GSYNC_DISPLAY.html
+  - name: '*'
+  spec.vb:
+  - uid: NVAPIWrapper._NV_GSYNC_DISPLAY
+    name: _NV_GSYNC_DISPLAY
+    href: NVAPIWrapper._NV_GSYNC_DISPLAY.html
+  - name: '*'
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto[]
+  isExternal: true
+  href: NVAPIWrapper.NVAPIGSyncDisplayDto.html
+  name: NVAPIGSyncDisplayDto[]
+  nameWithType: NVAPIGSyncDisplayDto[]
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto[]
+  nameWithType.vb: NVAPIGSyncDisplayDto()
+  fullName.vb: NVAPIWrapper.NVAPIGSyncDisplayDto()
+  name.vb: NVAPIGSyncDisplayDto()
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIGSyncDisplayDto
+    name: NVAPIGSyncDisplayDto
+    href: NVAPIWrapper.NVAPIGSyncDisplayDto.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIGSyncDisplayDto
+    name: NVAPIGSyncDisplayDto
+    href: NVAPIWrapper.NVAPIGSyncDisplayDto.html
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncDisplayDto.ToNative
+  href: NVAPIWrapper.NVAPIGSyncDisplayDto.html#NVAPIWrapper_NVAPIGSyncDisplayDto_ToNative
+  name: ToNative
+  nameWithType: NVAPIGSyncDisplayDto.ToNative
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto.ToNative
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncDisplayDto.Equals
+  href: NVAPIWrapper.NVAPIGSyncDisplayDto.html#NVAPIWrapper_NVAPIGSyncDisplayDto_Equals_NVAPIWrapper_NVAPIGSyncDisplayDto_
+  name: Equals
+  nameWithType: NVAPIGSyncDisplayDto.Equals
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGSyncDisplayDto}.Equals(NVAPIWrapper.NVAPIGSyncDisplayDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIGSyncDisplayDto}.Equals(NVAPIWrapper.NVAPIGSyncDisplayDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIGSyncDisplayDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIGSyncDisplayDto)
+  nameWithType: IEquatable<NVAPIGSyncDisplayDto>.Equals(NVAPIGSyncDisplayDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGSyncDisplayDto>.Equals(NVAPIWrapper.NVAPIGSyncDisplayDto)
+  nameWithType.vb: IEquatable(Of NVAPIGSyncDisplayDto).Equals(NVAPIGSyncDisplayDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGSyncDisplayDto).Equals(NVAPIWrapper.NVAPIGSyncDisplayDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGSyncDisplayDto}.Equals(NVAPIWrapper.NVAPIGSyncDisplayDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGSyncDisplayDto
+    name: NVAPIGSyncDisplayDto
+    href: NVAPIWrapper.NVAPIGSyncDisplayDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGSyncDisplayDto}.Equals(NVAPIWrapper.NVAPIGSyncDisplayDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGSyncDisplayDto
+    name: NVAPIGSyncDisplayDto
+    href: NVAPIWrapper.NVAPIGSyncDisplayDto.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncDisplayDto.GetHashCode
+  href: NVAPIWrapper.NVAPIGSyncDisplayDto.html#NVAPIWrapper_NVAPIGSyncDisplayDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIGSyncDisplayDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto.GetHashCode
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncDisplayDto.op_Equality
+  href: NVAPIWrapper.NVAPIGSyncDisplayDto.html#NVAPIWrapper_NVAPIGSyncDisplayDto_op_Equality_NVAPIWrapper_NVAPIGSyncDisplayDto_NVAPIWrapper_NVAPIGSyncDisplayDto_
+  name: operator ==
+  nameWithType: NVAPIGSyncDisplayDto.operator ==
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto.operator ==
+  nameWithType.vb: NVAPIGSyncDisplayDto.=
+  fullName.vb: NVAPIWrapper.NVAPIGSyncDisplayDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGSyncDisplayDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIGSyncDisplayDto.html#NVAPIWrapper_NVAPIGSyncDisplayDto_op_Equality_NVAPIWrapper_NVAPIGSyncDisplayDto_NVAPIWrapper_NVAPIGSyncDisplayDto_
+- uid: NVAPIWrapper.NVAPIGSyncDisplayDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIGSyncDisplayDto.op_Inequality
+  href: NVAPIWrapper.NVAPIGSyncDisplayDto.html#NVAPIWrapper_NVAPIGSyncDisplayDto_op_Inequality_NVAPIWrapper_NVAPIGSyncDisplayDto_NVAPIWrapper_NVAPIGSyncDisplayDto_
+  name: operator !=
+  nameWithType: NVAPIGSyncDisplayDto.operator !=
+  fullName: NVAPIWrapper.NVAPIGSyncDisplayDto.operator !=
+  nameWithType.vb: NVAPIGSyncDisplayDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIGSyncDisplayDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGSyncDisplayDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIGSyncDisplayDto.html#NVAPIWrapper_NVAPIGSyncDisplayDto_op_Inequality_NVAPIWrapper_NVAPIGSyncDisplayDto_NVAPIWrapper_NVAPIGSyncDisplayDto_

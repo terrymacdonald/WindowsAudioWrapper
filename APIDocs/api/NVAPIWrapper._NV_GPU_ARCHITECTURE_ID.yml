@@ -1,0 +1,715 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  commentId: T:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  id: _NV_GPU_ARCHITECTURE_ID
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_AD100
+  - NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_G78
+  - NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_G80
+  - NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_G90
+  - NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GA100
+  - NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GB200
+  - NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GF100
+  - NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GF110
+  - NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GK100
+  - NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GK110
+  - NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GK200
+  - NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GM000
+  - NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GM200
+  - NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GP100
+  - NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GT200
+  - NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GV100
+  - NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GV110
+  - NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_NV40
+  - NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_NV50
+  - NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_T12X
+  - NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_T2X
+  - NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_T3X
+  - NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_T4X
+  - NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_TU100
+  langs:
+  - csharp
+  - vb
+  name: _NV_GPU_ARCHITECTURE_ID
+  nameWithType: _NV_GPU_ARCHITECTURE_ID
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_GPU_ARCHITECTURE_ID
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_GPU_ARCHITECTURE_ID
+    content.vb: Public Enum _NV_GPU_ARCHITECTURE_ID
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_T2X
+  commentId: F:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_T2X
+  id: NV_GPU_ARCHITECTURE_T2X
+  parent: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ARCHITECTURE_T2X
+  nameWithType: _NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_T2X
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_T2X
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ARCHITECTURE_T2X
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_ARCHITECTURE_T2X = -536870880
+    return:
+      type: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_T3X
+  commentId: F:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_T3X
+  id: NV_GPU_ARCHITECTURE_T3X
+  parent: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ARCHITECTURE_T3X
+  nameWithType: _NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_T3X
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_T3X
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ARCHITECTURE_T3X
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_ARCHITECTURE_T3X = -536870864
+    return:
+      type: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_T4X
+  commentId: F:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_T4X
+  id: NV_GPU_ARCHITECTURE_T4X
+  parent: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ARCHITECTURE_T4X
+  nameWithType: _NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_T4X
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_T4X
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ARCHITECTURE_T4X
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_ARCHITECTURE_T4X = -536870848
+    return:
+      type: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_T12X
+  commentId: F:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_T12X
+  id: NV_GPU_ARCHITECTURE_T12X
+  parent: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ARCHITECTURE_T12X
+  nameWithType: _NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_T12X
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_T12X
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ARCHITECTURE_T12X
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_ARCHITECTURE_T12X = -536870848
+    return:
+      type: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_NV40
+  commentId: F:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_NV40
+  id: NV_GPU_ARCHITECTURE_NV40
+  parent: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ARCHITECTURE_NV40
+  nameWithType: _NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_NV40
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_NV40
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ARCHITECTURE_NV40
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_ARCHITECTURE_NV40 = 64
+    return:
+      type: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_NV50
+  commentId: F:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_NV50
+  id: NV_GPU_ARCHITECTURE_NV50
+  parent: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ARCHITECTURE_NV50
+  nameWithType: _NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_NV50
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_NV50
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ARCHITECTURE_NV50
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_ARCHITECTURE_NV50 = 80
+    return:
+      type: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_G78
+  commentId: F:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_G78
+  id: NV_GPU_ARCHITECTURE_G78
+  parent: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ARCHITECTURE_G78
+  nameWithType: _NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_G78
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_G78
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ARCHITECTURE_G78
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_ARCHITECTURE_G78 = 96
+    return:
+      type: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_G80
+  commentId: F:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_G80
+  id: NV_GPU_ARCHITECTURE_G80
+  parent: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ARCHITECTURE_G80
+  nameWithType: _NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_G80
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_G80
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ARCHITECTURE_G80
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_ARCHITECTURE_G80 = 128
+    return:
+      type: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_G90
+  commentId: F:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_G90
+  id: NV_GPU_ARCHITECTURE_G90
+  parent: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ARCHITECTURE_G90
+  nameWithType: _NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_G90
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_G90
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ARCHITECTURE_G90
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_ARCHITECTURE_G90 = 144
+    return:
+      type: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GT200
+  commentId: F:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GT200
+  id: NV_GPU_ARCHITECTURE_GT200
+  parent: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ARCHITECTURE_GT200
+  nameWithType: _NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GT200
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GT200
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ARCHITECTURE_GT200
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_ARCHITECTURE_GT200 = 160
+    return:
+      type: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GF100
+  commentId: F:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GF100
+  id: NV_GPU_ARCHITECTURE_GF100
+  parent: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ARCHITECTURE_GF100
+  nameWithType: _NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GF100
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GF100
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ARCHITECTURE_GF100
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_ARCHITECTURE_GF100 = 192
+    return:
+      type: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GF110
+  commentId: F:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GF110
+  id: NV_GPU_ARCHITECTURE_GF110
+  parent: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ARCHITECTURE_GF110
+  nameWithType: _NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GF110
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GF110
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ARCHITECTURE_GF110
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 39
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_ARCHITECTURE_GF110 = 208
+    return:
+      type: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GK100
+  commentId: F:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GK100
+  id: NV_GPU_ARCHITECTURE_GK100
+  parent: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ARCHITECTURE_GK100
+  nameWithType: _NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GK100
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GK100
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ARCHITECTURE_GK100
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 42
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_ARCHITECTURE_GK100 = 224
+    return:
+      type: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GK110
+  commentId: F:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GK110
+  id: NV_GPU_ARCHITECTURE_GK110
+  parent: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ARCHITECTURE_GK110
+  nameWithType: _NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GK110
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GK110
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ARCHITECTURE_GK110
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 45
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_ARCHITECTURE_GK110 = 240
+    return:
+      type: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GK200
+  commentId: F:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GK200
+  id: NV_GPU_ARCHITECTURE_GK200
+  parent: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ARCHITECTURE_GK200
+  nameWithType: _NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GK200
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GK200
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ARCHITECTURE_GK200
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 48
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_ARCHITECTURE_GK200 = 256
+    return:
+      type: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GM000
+  commentId: F:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GM000
+  id: NV_GPU_ARCHITECTURE_GM000
+  parent: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ARCHITECTURE_GM000
+  nameWithType: _NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GM000
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GM000
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ARCHITECTURE_GM000
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 51
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_ARCHITECTURE_GM000 = 272
+    return:
+      type: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GM200
+  commentId: F:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GM200
+  id: NV_GPU_ARCHITECTURE_GM200
+  parent: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ARCHITECTURE_GM200
+  nameWithType: _NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GM200
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GM200
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ARCHITECTURE_GM200
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 54
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_ARCHITECTURE_GM200 = 288
+    return:
+      type: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GP100
+  commentId: F:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GP100
+  id: NV_GPU_ARCHITECTURE_GP100
+  parent: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ARCHITECTURE_GP100
+  nameWithType: _NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GP100
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GP100
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ARCHITECTURE_GP100
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 57
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_ARCHITECTURE_GP100 = 304
+    return:
+      type: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GV100
+  commentId: F:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GV100
+  id: NV_GPU_ARCHITECTURE_GV100
+  parent: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ARCHITECTURE_GV100
+  nameWithType: _NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GV100
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GV100
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ARCHITECTURE_GV100
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 60
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_ARCHITECTURE_GV100 = 320
+    return:
+      type: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GV110
+  commentId: F:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GV110
+  id: NV_GPU_ARCHITECTURE_GV110
+  parent: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ARCHITECTURE_GV110
+  nameWithType: _NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GV110
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GV110
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ARCHITECTURE_GV110
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 63
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_ARCHITECTURE_GV110 = 336
+    return:
+      type: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_TU100
+  commentId: F:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_TU100
+  id: NV_GPU_ARCHITECTURE_TU100
+  parent: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ARCHITECTURE_TU100
+  nameWithType: _NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_TU100
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_TU100
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ARCHITECTURE_TU100
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 66
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_ARCHITECTURE_TU100 = 352
+    return:
+      type: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GA100
+  commentId: F:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GA100
+  id: NV_GPU_ARCHITECTURE_GA100
+  parent: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ARCHITECTURE_GA100
+  nameWithType: _NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GA100
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GA100
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ARCHITECTURE_GA100
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 69
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_ARCHITECTURE_GA100 = 368
+    return:
+      type: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_AD100
+  commentId: F:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_AD100
+  id: NV_GPU_ARCHITECTURE_AD100
+  parent: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ARCHITECTURE_AD100
+  nameWithType: _NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_AD100
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_AD100
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ARCHITECTURE_AD100
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 72
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_ARCHITECTURE_AD100 = 400
+    return:
+      type: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GB200
+  commentId: F:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GB200
+  id: NV_GPU_ARCHITECTURE_GB200
+  parent: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  langs:
+  - csharp
+  - vb
+  name: NV_GPU_ARCHITECTURE_GB200
+  nameWithType: _NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GB200
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.NV_GPU_ARCHITECTURE_GB200
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_GPU_ARCHITECTURE_GB200
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_ARCHITECTURE_ID.cs
+    startLine: 75
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_GPU_ARCHITECTURE_GB200 = 432
+    return:
+      type: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  commentId: T:NVAPIWrapper._NV_GPU_ARCHITECTURE_ID
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID.html
+  name: _NV_GPU_ARCHITECTURE_ID
+  nameWithType: _NV_GPU_ARCHITECTURE_ID
+  fullName: NVAPIWrapper._NV_GPU_ARCHITECTURE_ID

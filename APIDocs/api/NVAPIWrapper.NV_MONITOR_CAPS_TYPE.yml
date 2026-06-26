@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_MONITOR_CAPS_TYPE
+  commentId: T:NVAPIWrapper.NV_MONITOR_CAPS_TYPE
+  id: NV_MONITOR_CAPS_TYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_MONITOR_CAPS_TYPE.NV_MONITOR_CAPS_TYPE_GENERIC
+  - NVAPIWrapper.NV_MONITOR_CAPS_TYPE.NV_MONITOR_CAPS_TYPE_HDMI_VCDB
+  - NVAPIWrapper.NV_MONITOR_CAPS_TYPE.NV_MONITOR_CAPS_TYPE_HDMI_VSDB
+  langs:
+  - csharp
+  - vb
+  name: NV_MONITOR_CAPS_TYPE
+  nameWithType: NV_MONITOR_CAPS_TYPE
+  fullName: NVAPIWrapper.NV_MONITOR_CAPS_TYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MONITOR_CAPS_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MONITOR_CAPS_TYPE
+    path: ../NVAPIWrapper/cs_generated/NV_MONITOR_CAPS_TYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_MONITOR_CAPS_TYPE
+    content.vb: Public Enum NV_MONITOR_CAPS_TYPE
+- uid: NVAPIWrapper.NV_MONITOR_CAPS_TYPE.NV_MONITOR_CAPS_TYPE_HDMI_VSDB
+  commentId: F:NVAPIWrapper.NV_MONITOR_CAPS_TYPE.NV_MONITOR_CAPS_TYPE_HDMI_VSDB
+  id: NV_MONITOR_CAPS_TYPE_HDMI_VSDB
+  parent: NVAPIWrapper.NV_MONITOR_CAPS_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_MONITOR_CAPS_TYPE_HDMI_VSDB
+  nameWithType: NV_MONITOR_CAPS_TYPE.NV_MONITOR_CAPS_TYPE_HDMI_VSDB
+  fullName: NVAPIWrapper.NV_MONITOR_CAPS_TYPE.NV_MONITOR_CAPS_TYPE_HDMI_VSDB
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MONITOR_CAPS_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MONITOR_CAPS_TYPE_HDMI_VSDB
+    path: ../NVAPIWrapper/cs_generated/NV_MONITOR_CAPS_TYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MONITOR_CAPS_TYPE_HDMI_VSDB = 4096
+    return:
+      type: NVAPIWrapper.NV_MONITOR_CAPS_TYPE
+- uid: NVAPIWrapper.NV_MONITOR_CAPS_TYPE.NV_MONITOR_CAPS_TYPE_HDMI_VCDB
+  commentId: F:NVAPIWrapper.NV_MONITOR_CAPS_TYPE.NV_MONITOR_CAPS_TYPE_HDMI_VCDB
+  id: NV_MONITOR_CAPS_TYPE_HDMI_VCDB
+  parent: NVAPIWrapper.NV_MONITOR_CAPS_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_MONITOR_CAPS_TYPE_HDMI_VCDB
+  nameWithType: NV_MONITOR_CAPS_TYPE.NV_MONITOR_CAPS_TYPE_HDMI_VCDB
+  fullName: NVAPIWrapper.NV_MONITOR_CAPS_TYPE.NV_MONITOR_CAPS_TYPE_HDMI_VCDB
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MONITOR_CAPS_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MONITOR_CAPS_TYPE_HDMI_VCDB
+    path: ../NVAPIWrapper/cs_generated/NV_MONITOR_CAPS_TYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MONITOR_CAPS_TYPE_HDMI_VCDB = 4097
+    return:
+      type: NVAPIWrapper.NV_MONITOR_CAPS_TYPE
+- uid: NVAPIWrapper.NV_MONITOR_CAPS_TYPE.NV_MONITOR_CAPS_TYPE_GENERIC
+  commentId: F:NVAPIWrapper.NV_MONITOR_CAPS_TYPE.NV_MONITOR_CAPS_TYPE_GENERIC
+  id: NV_MONITOR_CAPS_TYPE_GENERIC
+  parent: NVAPIWrapper.NV_MONITOR_CAPS_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_MONITOR_CAPS_TYPE_GENERIC
+  nameWithType: NV_MONITOR_CAPS_TYPE.NV_MONITOR_CAPS_TYPE_GENERIC
+  fullName: NVAPIWrapper.NV_MONITOR_CAPS_TYPE.NV_MONITOR_CAPS_TYPE_GENERIC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_MONITOR_CAPS_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_MONITOR_CAPS_TYPE_GENERIC
+    path: ../NVAPIWrapper/cs_generated/NV_MONITOR_CAPS_TYPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_MONITOR_CAPS_TYPE_GENERIC = 4098
+    return:
+      type: NVAPIWrapper.NV_MONITOR_CAPS_TYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_MONITOR_CAPS_TYPE
+  commentId: T:NVAPIWrapper.NV_MONITOR_CAPS_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_MONITOR_CAPS_TYPE.html
+  name: NV_MONITOR_CAPS_TYPE
+  nameWithType: NV_MONITOR_CAPS_TYPE
+  fullName: NVAPIWrapper.NV_MONITOR_CAPS_TYPE

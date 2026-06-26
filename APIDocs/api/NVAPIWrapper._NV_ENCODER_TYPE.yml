@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_ENCODER_TYPE
+  commentId: T:NVAPIWrapper._NV_ENCODER_TYPE
+  id: _NV_ENCODER_TYPE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_ENCODER_TYPE.NV_ENCODER_H264
+  - NVAPIWrapper._NV_ENCODER_TYPE.NV_ENCODER_HEVC
+  - NVAPIWrapper._NV_ENCODER_TYPE.NV_ENCODER_UNKNOWN
+  langs:
+  - csharp
+  - vb
+  name: _NV_ENCODER_TYPE
+  nameWithType: _NV_ENCODER_TYPE
+  fullName: NVAPIWrapper._NV_ENCODER_TYPE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_ENCODER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_ENCODER_TYPE
+    path: ../NVAPIWrapper/cs_generated/_NV_ENCODER_TYPE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_ENCODER_TYPE
+    content.vb: Public Enum _NV_ENCODER_TYPE
+- uid: NVAPIWrapper._NV_ENCODER_TYPE.NV_ENCODER_H264
+  commentId: F:NVAPIWrapper._NV_ENCODER_TYPE.NV_ENCODER_H264
+  id: NV_ENCODER_H264
+  parent: NVAPIWrapper._NV_ENCODER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_ENCODER_H264
+  nameWithType: _NV_ENCODER_TYPE.NV_ENCODER_H264
+  fullName: NVAPIWrapper._NV_ENCODER_TYPE.NV_ENCODER_H264
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_ENCODER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_ENCODER_H264
+    path: ../NVAPIWrapper/cs_generated/_NV_ENCODER_TYPE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_ENCODER_H264 = 0
+    return:
+      type: NVAPIWrapper._NV_ENCODER_TYPE
+- uid: NVAPIWrapper._NV_ENCODER_TYPE.NV_ENCODER_HEVC
+  commentId: F:NVAPIWrapper._NV_ENCODER_TYPE.NV_ENCODER_HEVC
+  id: NV_ENCODER_HEVC
+  parent: NVAPIWrapper._NV_ENCODER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_ENCODER_HEVC
+  nameWithType: _NV_ENCODER_TYPE.NV_ENCODER_HEVC
+  fullName: NVAPIWrapper._NV_ENCODER_TYPE.NV_ENCODER_HEVC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_ENCODER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_ENCODER_HEVC
+    path: ../NVAPIWrapper/cs_generated/_NV_ENCODER_TYPE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_ENCODER_HEVC = 1
+    return:
+      type: NVAPIWrapper._NV_ENCODER_TYPE
+- uid: NVAPIWrapper._NV_ENCODER_TYPE.NV_ENCODER_UNKNOWN
+  commentId: F:NVAPIWrapper._NV_ENCODER_TYPE.NV_ENCODER_UNKNOWN
+  id: NV_ENCODER_UNKNOWN
+  parent: NVAPIWrapper._NV_ENCODER_TYPE
+  langs:
+  - csharp
+  - vb
+  name: NV_ENCODER_UNKNOWN
+  nameWithType: _NV_ENCODER_TYPE.NV_ENCODER_UNKNOWN
+  fullName: NVAPIWrapper._NV_ENCODER_TYPE.NV_ENCODER_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_ENCODER_TYPE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_ENCODER_UNKNOWN
+    path: ../NVAPIWrapper/cs_generated/_NV_ENCODER_TYPE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_ENCODER_UNKNOWN = -1
+    return:
+      type: NVAPIWrapper._NV_ENCODER_TYPE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_ENCODER_TYPE
+  commentId: T:NVAPIWrapper._NV_ENCODER_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_ENCODER_TYPE.html
+  name: _NV_ENCODER_TYPE
+  nameWithType: _NV_ENCODER_TYPE
+  fullName: NVAPIWrapper._NV_ENCODER_TYPE

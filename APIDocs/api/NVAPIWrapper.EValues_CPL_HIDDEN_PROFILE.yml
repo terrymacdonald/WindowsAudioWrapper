@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE
+  commentId: T:NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE
+  id: EValues_CPL_HIDDEN_PROFILE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE.CPL_HIDDEN_PROFILE_DEFAULT
+  - NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE.CPL_HIDDEN_PROFILE_DISABLED
+  - NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE.CPL_HIDDEN_PROFILE_ENABLED
+  - NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE.CPL_HIDDEN_PROFILE_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_CPL_HIDDEN_PROFILE
+  nameWithType: EValues_CPL_HIDDEN_PROFILE
+  fullName: NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_CPL_HIDDEN_PROFILE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_CPL_HIDDEN_PROFILE
+    path: ../NVAPIWrapper/cs_generated/EValues_CPL_HIDDEN_PROFILE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_CPL_HIDDEN_PROFILE
+    content.vb: Public Enum EValues_CPL_HIDDEN_PROFILE
+- uid: NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE.CPL_HIDDEN_PROFILE_DISABLED
+  commentId: F:NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE.CPL_HIDDEN_PROFILE_DISABLED
+  id: CPL_HIDDEN_PROFILE_DISABLED
+  parent: NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE
+  langs:
+  - csharp
+  - vb
+  name: CPL_HIDDEN_PROFILE_DISABLED
+  nameWithType: EValues_CPL_HIDDEN_PROFILE.CPL_HIDDEN_PROFILE_DISABLED
+  fullName: NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE.CPL_HIDDEN_PROFILE_DISABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_CPL_HIDDEN_PROFILE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CPL_HIDDEN_PROFILE_DISABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_CPL_HIDDEN_PROFILE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: CPL_HIDDEN_PROFILE_DISABLED = 0
+    return:
+      type: NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE
+- uid: NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE.CPL_HIDDEN_PROFILE_ENABLED
+  commentId: F:NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE.CPL_HIDDEN_PROFILE_ENABLED
+  id: CPL_HIDDEN_PROFILE_ENABLED
+  parent: NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE
+  langs:
+  - csharp
+  - vb
+  name: CPL_HIDDEN_PROFILE_ENABLED
+  nameWithType: EValues_CPL_HIDDEN_PROFILE.CPL_HIDDEN_PROFILE_ENABLED
+  fullName: NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE.CPL_HIDDEN_PROFILE_ENABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_CPL_HIDDEN_PROFILE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CPL_HIDDEN_PROFILE_ENABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_CPL_HIDDEN_PROFILE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: CPL_HIDDEN_PROFILE_ENABLED = 1
+    return:
+      type: NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE
+- uid: NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE.CPL_HIDDEN_PROFILE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE.CPL_HIDDEN_PROFILE_NUM_VALUES
+  id: CPL_HIDDEN_PROFILE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE
+  langs:
+  - csharp
+  - vb
+  name: CPL_HIDDEN_PROFILE_NUM_VALUES
+  nameWithType: EValues_CPL_HIDDEN_PROFILE.CPL_HIDDEN_PROFILE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE.CPL_HIDDEN_PROFILE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_CPL_HIDDEN_PROFILE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CPL_HIDDEN_PROFILE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_CPL_HIDDEN_PROFILE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: CPL_HIDDEN_PROFILE_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE
+- uid: NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE.CPL_HIDDEN_PROFILE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE.CPL_HIDDEN_PROFILE_DEFAULT
+  id: CPL_HIDDEN_PROFILE_DEFAULT
+  parent: NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE
+  langs:
+  - csharp
+  - vb
+  name: CPL_HIDDEN_PROFILE_DEFAULT
+  nameWithType: EValues_CPL_HIDDEN_PROFILE.CPL_HIDDEN_PROFILE_DEFAULT
+  fullName: NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE.CPL_HIDDEN_PROFILE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_CPL_HIDDEN_PROFILE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CPL_HIDDEN_PROFILE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_CPL_HIDDEN_PROFILE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: CPL_HIDDEN_PROFILE_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE
+  commentId: T:NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE.html
+  name: EValues_CPL_HIDDEN_PROFILE
+  nameWithType: EValues_CPL_HIDDEN_PROFILE
+  fullName: NVAPIWrapper.EValues_CPL_HIDDEN_PROFILE

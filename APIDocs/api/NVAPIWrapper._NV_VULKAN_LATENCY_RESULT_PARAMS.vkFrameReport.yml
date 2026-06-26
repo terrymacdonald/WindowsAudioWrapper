@@ -1,0 +1,737 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+  commentId: T:NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+  id: _NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.driverEndTime
+  - NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.driverStartTime
+  - NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.frameID
+  - NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.gpuRenderEndTime
+  - NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.gpuRenderStartTime
+  - NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.inputSampleTime
+  - NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.osRenderQueueEndTime
+  - NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.osRenderQueueStartTime
+  - NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.presentEndTime
+  - NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.presentStartTime
+  - NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.renderSubmitEndTime
+  - NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.renderSubmitStartTime
+  - NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.rsvd
+  - NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.simEndTime
+  - NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.simStartTime
+  langs:
+  - csharp
+  - vb
+  name: _NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+  nameWithType: _NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+  fullName: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: vkFrameReport
+    path: ../NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+    startLine: 20
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+    content.vb: Public Structure _NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.frameID
+  commentId: F:NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.frameID
+  id: frameID
+  parent: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+  langs:
+  - csharp
+  - vb
+  name: frameID
+  nameWithType: _NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.frameID
+  fullName: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.frameID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: frameID
+    path: ../NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ulong frameID
+    return:
+      type: System.UInt64
+    content.vb: Public frameID As ULong
+- uid: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.inputSampleTime
+  commentId: F:NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.inputSampleTime
+  id: inputSampleTime
+  parent: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+  langs:
+  - csharp
+  - vb
+  name: inputSampleTime
+  nameWithType: _NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.inputSampleTime
+  fullName: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.inputSampleTime
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: inputSampleTime
+    path: ../NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+    startLine: 28
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ulong inputSampleTime
+    return:
+      type: System.UInt64
+    content.vb: Public inputSampleTime As ULong
+- uid: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.simStartTime
+  commentId: F:NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.simStartTime
+  id: simStartTime
+  parent: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+  langs:
+  - csharp
+  - vb
+  name: simStartTime
+  nameWithType: _NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.simStartTime
+  fullName: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.simStartTime
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: simStartTime
+    path: ../NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+    startLine: 32
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ulong simStartTime
+    return:
+      type: System.UInt64
+    content.vb: Public simStartTime As ULong
+- uid: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.simEndTime
+  commentId: F:NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.simEndTime
+  id: simEndTime
+  parent: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+  langs:
+  - csharp
+  - vb
+  name: simEndTime
+  nameWithType: _NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.simEndTime
+  fullName: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.simEndTime
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: simEndTime
+    path: ../NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ulong simEndTime
+    return:
+      type: System.UInt64
+    content.vb: Public simEndTime As ULong
+- uid: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.renderSubmitStartTime
+  commentId: F:NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.renderSubmitStartTime
+  id: renderSubmitStartTime
+  parent: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+  langs:
+  - csharp
+  - vb
+  name: renderSubmitStartTime
+  nameWithType: _NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.renderSubmitStartTime
+  fullName: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.renderSubmitStartTime
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: renderSubmitStartTime
+    path: ../NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+    startLine: 40
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ulong renderSubmitStartTime
+    return:
+      type: System.UInt64
+    content.vb: Public renderSubmitStartTime As ULong
+- uid: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.renderSubmitEndTime
+  commentId: F:NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.renderSubmitEndTime
+  id: renderSubmitEndTime
+  parent: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+  langs:
+  - csharp
+  - vb
+  name: renderSubmitEndTime
+  nameWithType: _NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.renderSubmitEndTime
+  fullName: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.renderSubmitEndTime
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: renderSubmitEndTime
+    path: ../NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+    startLine: 44
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ulong renderSubmitEndTime
+    return:
+      type: System.UInt64
+    content.vb: Public renderSubmitEndTime As ULong
+- uid: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.presentStartTime
+  commentId: F:NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.presentStartTime
+  id: presentStartTime
+  parent: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+  langs:
+  - csharp
+  - vb
+  name: presentStartTime
+  nameWithType: _NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.presentStartTime
+  fullName: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.presentStartTime
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: presentStartTime
+    path: ../NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+    startLine: 48
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ulong presentStartTime
+    return:
+      type: System.UInt64
+    content.vb: Public presentStartTime As ULong
+- uid: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.presentEndTime
+  commentId: F:NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.presentEndTime
+  id: presentEndTime
+  parent: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+  langs:
+  - csharp
+  - vb
+  name: presentEndTime
+  nameWithType: _NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.presentEndTime
+  fullName: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.presentEndTime
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: presentEndTime
+    path: ../NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+    startLine: 52
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ulong presentEndTime
+    return:
+      type: System.UInt64
+    content.vb: Public presentEndTime As ULong
+- uid: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.driverStartTime
+  commentId: F:NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.driverStartTime
+  id: driverStartTime
+  parent: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+  langs:
+  - csharp
+  - vb
+  name: driverStartTime
+  nameWithType: _NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.driverStartTime
+  fullName: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.driverStartTime
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: driverStartTime
+    path: ../NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+    startLine: 56
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ulong driverStartTime
+    return:
+      type: System.UInt64
+    content.vb: Public driverStartTime As ULong
+- uid: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.driverEndTime
+  commentId: F:NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.driverEndTime
+  id: driverEndTime
+  parent: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+  langs:
+  - csharp
+  - vb
+  name: driverEndTime
+  nameWithType: _NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.driverEndTime
+  fullName: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.driverEndTime
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: driverEndTime
+    path: ../NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+    startLine: 60
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ulong driverEndTime
+    return:
+      type: System.UInt64
+    content.vb: Public driverEndTime As ULong
+- uid: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.osRenderQueueStartTime
+  commentId: F:NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.osRenderQueueStartTime
+  id: osRenderQueueStartTime
+  parent: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+  langs:
+  - csharp
+  - vb
+  name: osRenderQueueStartTime
+  nameWithType: _NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.osRenderQueueStartTime
+  fullName: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.osRenderQueueStartTime
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: osRenderQueueStartTime
+    path: ../NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+    startLine: 64
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ulong osRenderQueueStartTime
+    return:
+      type: System.UInt64
+    content.vb: Public osRenderQueueStartTime As ULong
+- uid: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.osRenderQueueEndTime
+  commentId: F:NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.osRenderQueueEndTime
+  id: osRenderQueueEndTime
+  parent: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+  langs:
+  - csharp
+  - vb
+  name: osRenderQueueEndTime
+  nameWithType: _NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.osRenderQueueEndTime
+  fullName: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.osRenderQueueEndTime
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: osRenderQueueEndTime
+    path: ../NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+    startLine: 68
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ulong osRenderQueueEndTime
+    return:
+      type: System.UInt64
+    content.vb: Public osRenderQueueEndTime As ULong
+- uid: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.gpuRenderStartTime
+  commentId: F:NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.gpuRenderStartTime
+  id: gpuRenderStartTime
+  parent: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+  langs:
+  - csharp
+  - vb
+  name: gpuRenderStartTime
+  nameWithType: _NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.gpuRenderStartTime
+  fullName: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.gpuRenderStartTime
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: gpuRenderStartTime
+    path: ../NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+    startLine: 72
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ulong gpuRenderStartTime
+    return:
+      type: System.UInt64
+    content.vb: Public gpuRenderStartTime As ULong
+- uid: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.gpuRenderEndTime
+  commentId: F:NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.gpuRenderEndTime
+  id: gpuRenderEndTime
+  parent: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+  langs:
+  - csharp
+  - vb
+  name: gpuRenderEndTime
+  nameWithType: _NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.gpuRenderEndTime
+  fullName: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.gpuRenderEndTime
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: gpuRenderEndTime
+    path: ../NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+    startLine: 76
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public ulong gpuRenderEndTime
+    return:
+      type: System.UInt64
+    content.vb: Public gpuRenderEndTime As ULong
+- uid: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.rsvd
+  commentId: F:NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.rsvd
+  id: rsvd
+  parent: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+  langs:
+  - csharp
+  - vb
+  name: rsvd
+  nameWithType: _NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.rsvd
+  fullName: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.rsvd
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: rsvd
+    path: ../NVAPIWrapper/cs_generated/_NV_VULKAN_LATENCY_RESULT_PARAMS.cs
+    startLine: 80
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport._rsvd_e__FixedBuffer rsvd
+    return:
+      type: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport._rsvd_e__FixedBuffer
+    content.vb: Public rsvd As _NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport._rsvd_e__FixedBuffer
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport._rsvd_e__FixedBuffer
+  commentId: T:NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport._rsvd_e__FixedBuffer
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.html
+  name: _NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport._rsvd_e__FixedBuffer
+  nameWithType: _NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport._rsvd_e__FixedBuffer
+  fullName: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport._rsvd_e__FixedBuffer
+  spec.csharp:
+  - uid: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS
+    name: _NV_VULKAN_LATENCY_RESULT_PARAMS
+    href: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.html
+  - name: .
+  - uid: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+    name: vkFrameReport
+    href: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.html
+  - name: .
+  - uid: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport._rsvd_e__FixedBuffer
+    name: _rsvd_e__FixedBuffer
+    href: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport._rsvd_e__FixedBuffer.html
+  spec.vb:
+  - uid: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS
+    name: _NV_VULKAN_LATENCY_RESULT_PARAMS
+    href: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.html
+  - name: .
+  - uid: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport
+    name: vkFrameReport
+    href: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport.html
+  - name: .
+  - uid: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport._rsvd_e__FixedBuffer
+    name: _rsvd_e__FixedBuffer
+    href: NVAPIWrapper._NV_VULKAN_LATENCY_RESULT_PARAMS.vkFrameReport._rsvd_e__FixedBuffer.html

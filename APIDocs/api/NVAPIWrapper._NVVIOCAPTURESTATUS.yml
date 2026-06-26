@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVVIOCAPTURESTATUS
+  commentId: T:NVAPIWrapper._NVVIOCAPTURESTATUS
+  id: _NVVIOCAPTURESTATUS
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVVIOCAPTURESTATUS.NVVIOSTATUS_ERROR
+  - NVAPIWrapper._NVVIOCAPTURESTATUS.NVVIOSTATUS_RUNNING
+  - NVAPIWrapper._NVVIOCAPTURESTATUS.NVVIOSTATUS_STOPPED
+  langs:
+  - csharp
+  - vb
+  name: _NVVIOCAPTURESTATUS
+  nameWithType: _NVVIOCAPTURESTATUS
+  fullName: NVAPIWrapper._NVVIOCAPTURESTATUS
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCAPTURESTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVVIOCAPTURESTATUS
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCAPTURESTATUS.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVVIOCAPTURESTATUS
+    content.vb: Public Enum _NVVIOCAPTURESTATUS
+- uid: NVAPIWrapper._NVVIOCAPTURESTATUS.NVVIOSTATUS_STOPPED
+  commentId: F:NVAPIWrapper._NVVIOCAPTURESTATUS.NVVIOSTATUS_STOPPED
+  id: NVVIOSTATUS_STOPPED
+  parent: NVAPIWrapper._NVVIOCAPTURESTATUS
+  langs:
+  - csharp
+  - vb
+  name: NVVIOSTATUS_STOPPED
+  nameWithType: _NVVIOCAPTURESTATUS.NVVIOSTATUS_STOPPED
+  fullName: NVAPIWrapper._NVVIOCAPTURESTATUS.NVVIOSTATUS_STOPPED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCAPTURESTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOSTATUS_STOPPED
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCAPTURESTATUS.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOSTATUS_STOPPED = 0
+    return:
+      type: NVAPIWrapper._NVVIOCAPTURESTATUS
+- uid: NVAPIWrapper._NVVIOCAPTURESTATUS.NVVIOSTATUS_RUNNING
+  commentId: F:NVAPIWrapper._NVVIOCAPTURESTATUS.NVVIOSTATUS_RUNNING
+  id: NVVIOSTATUS_RUNNING
+  parent: NVAPIWrapper._NVVIOCAPTURESTATUS
+  langs:
+  - csharp
+  - vb
+  name: NVVIOSTATUS_RUNNING
+  nameWithType: _NVVIOCAPTURESTATUS.NVVIOSTATUS_RUNNING
+  fullName: NVAPIWrapper._NVVIOCAPTURESTATUS.NVVIOSTATUS_RUNNING
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCAPTURESTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOSTATUS_RUNNING
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCAPTURESTATUS.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOSTATUS_RUNNING = 1
+    return:
+      type: NVAPIWrapper._NVVIOCAPTURESTATUS
+- uid: NVAPIWrapper._NVVIOCAPTURESTATUS.NVVIOSTATUS_ERROR
+  commentId: F:NVAPIWrapper._NVVIOCAPTURESTATUS.NVVIOSTATUS_ERROR
+  id: NVVIOSTATUS_ERROR
+  parent: NVAPIWrapper._NVVIOCAPTURESTATUS
+  langs:
+  - csharp
+  - vb
+  name: NVVIOSTATUS_ERROR
+  nameWithType: _NVVIOCAPTURESTATUS.NVVIOSTATUS_ERROR
+  fullName: NVAPIWrapper._NVVIOCAPTURESTATUS.NVVIOSTATUS_ERROR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOCAPTURESTATUS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOSTATUS_ERROR
+    path: ../NVAPIWrapper/cs_generated/_NVVIOCAPTURESTATUS.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOSTATUS_ERROR = 2
+    return:
+      type: NVAPIWrapper._NVVIOCAPTURESTATUS
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVVIOCAPTURESTATUS
+  commentId: T:NVAPIWrapper._NVVIOCAPTURESTATUS
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOCAPTURESTATUS.html
+  name: _NVVIOCAPTURESTATUS
+  nameWithType: _NVVIOCAPTURESTATUS
+  fullName: NVAPIWrapper._NVVIOCAPTURESTATUS

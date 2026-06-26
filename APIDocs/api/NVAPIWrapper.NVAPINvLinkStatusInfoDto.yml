@@ -1,0 +1,1755 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  commentId: T:NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  id: NVAPINvLinkStatusInfoDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.#ctor(System.UInt32,System.Byte,System.Byte,System.UInt32,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.UInt32,System.UInt32,System.Byte,System.UInt32,System.Boolean,System.UInt32,System.Byte,System.Byte,NVAPIWrapper.NVAPINvLinkDeviceInfoDto,System.Byte,NVAPIWrapper.NVAPINvLinkDeviceInfoDto,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32[])
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.CapsTbl
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.Connected
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.Equals(NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.FromNative(NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2)
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.GetHashCode
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.LinkState
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.LocalDeviceInfo
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.LocalDeviceLinkNumber
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.LoopProperty
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.NciVersion
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkCommonClockSpeedMhz
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkL1ThresholdUnits
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkLineRateMbps
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkLinkClockMhz
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkMaxL1Threshold
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkMinL1Threshold
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkRefClkSpeedMhz
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkRefClkType
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkVersion
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.PhyType
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.PhyVersion
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.RemoteDeviceInfo
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.RemoteDeviceLinkNumber
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.Reserved
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.ReservedEx
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.RxSublinkStatus
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.SubLinkWidth
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.ToNative
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.TxSublinkStatus
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.op_Equality(NVAPIWrapper.NVAPINvLinkStatusInfoDto,NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+  - NVAPIWrapper.NVAPINvLinkStatusInfoDto.op_Inequality(NVAPIWrapper.NVAPINvLinkStatusInfoDto,NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPINvLinkStatusInfoDto
+  nameWithType: NVAPINvLinkStatusInfoDto
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPINvLinkStatusInfoDto
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4978
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: NVLINK_LINK_STATUS_INFO_V2 DTO.
+  example: []
+  syntax:
+    content: 'public struct NVAPINvLinkStatusInfoDto : IEquatable<NVAPINvLinkStatusInfoDto>'
+    content.vb: Public Structure NVAPINvLinkStatusInfoDto Implements IEquatable(Of NVAPINvLinkStatusInfoDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPINvLinkStatusInfoDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.CapsTbl
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.CapsTbl
+  id: CapsTbl
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: CapsTbl
+  nameWithType: NVAPINvLinkStatusInfoDto.CapsTbl
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.CapsTbl
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CapsTbl
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4980
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint CapsTbl { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property CapsTbl As UInteger
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.CapsTbl*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.PhyType
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.PhyType
+  id: PhyType
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: PhyType
+  nameWithType: NVAPINvLinkStatusInfoDto.PhyType
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.PhyType
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PhyType
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4981
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte PhyType { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property PhyType As Byte
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.PhyType*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.SubLinkWidth
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.SubLinkWidth
+  id: SubLinkWidth
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: SubLinkWidth
+  nameWithType: NVAPINvLinkStatusInfoDto.SubLinkWidth
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.SubLinkWidth
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SubLinkWidth
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4982
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte SubLinkWidth { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property SubLinkWidth As Byte
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.SubLinkWidth*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.LinkState
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.LinkState
+  id: LinkState
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: LinkState
+  nameWithType: NVAPINvLinkStatusInfoDto.LinkState
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.LinkState
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: LinkState
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4983
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint LinkState { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property LinkState As UInteger
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.LinkState*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.RxSublinkStatus
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.RxSublinkStatus
+  id: RxSublinkStatus
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: RxSublinkStatus
+  nameWithType: NVAPINvLinkStatusInfoDto.RxSublinkStatus
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.RxSublinkStatus
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: RxSublinkStatus
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4984
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte RxSublinkStatus { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property RxSublinkStatus As Byte
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.RxSublinkStatus*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.TxSublinkStatus
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.TxSublinkStatus
+  id: TxSublinkStatus
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: TxSublinkStatus
+  nameWithType: NVAPINvLinkStatusInfoDto.TxSublinkStatus
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.TxSublinkStatus
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: TxSublinkStatus
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4985
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte TxSublinkStatus { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property TxSublinkStatus As Byte
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.TxSublinkStatus*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkVersion
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkVersion
+  id: NvlinkVersion
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: NvlinkVersion
+  nameWithType: NVAPINvLinkStatusInfoDto.NvlinkVersion
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkVersion
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NvlinkVersion
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4986
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte NvlinkVersion { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property NvlinkVersion As Byte
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkVersion*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NciVersion
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.NciVersion
+  id: NciVersion
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: NciVersion
+  nameWithType: NVAPINvLinkStatusInfoDto.NciVersion
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NciVersion
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NciVersion
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4987
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte NciVersion { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property NciVersion As Byte
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NciVersion*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.PhyVersion
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.PhyVersion
+  id: PhyVersion
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: PhyVersion
+  nameWithType: NVAPINvLinkStatusInfoDto.PhyVersion
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.PhyVersion
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PhyVersion
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4988
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte PhyVersion { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property PhyVersion As Byte
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.PhyVersion*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkCommonClockSpeedMhz
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkCommonClockSpeedMhz
+  id: NvlinkCommonClockSpeedMhz
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: NvlinkCommonClockSpeedMhz
+  nameWithType: NVAPINvLinkStatusInfoDto.NvlinkCommonClockSpeedMhz
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkCommonClockSpeedMhz
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NvlinkCommonClockSpeedMhz
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4989
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint NvlinkCommonClockSpeedMhz { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property NvlinkCommonClockSpeedMhz As UInteger
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkCommonClockSpeedMhz*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkRefClkSpeedMhz
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkRefClkSpeedMhz
+  id: NvlinkRefClkSpeedMhz
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: NvlinkRefClkSpeedMhz
+  nameWithType: NVAPINvLinkStatusInfoDto.NvlinkRefClkSpeedMhz
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkRefClkSpeedMhz
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NvlinkRefClkSpeedMhz
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4990
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint NvlinkRefClkSpeedMhz { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property NvlinkRefClkSpeedMhz As UInteger
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkRefClkSpeedMhz*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkRefClkType
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkRefClkType
+  id: NvlinkRefClkType
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: NvlinkRefClkType
+  nameWithType: NVAPINvLinkStatusInfoDto.NvlinkRefClkType
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkRefClkType
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NvlinkRefClkType
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4991
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte NvlinkRefClkType { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property NvlinkRefClkType As Byte
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkRefClkType*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkLinkClockMhz
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkLinkClockMhz
+  id: NvlinkLinkClockMhz
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: NvlinkLinkClockMhz
+  nameWithType: NVAPINvLinkStatusInfoDto.NvlinkLinkClockMhz
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkLinkClockMhz
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NvlinkLinkClockMhz
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4992
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint NvlinkLinkClockMhz { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property NvlinkLinkClockMhz As UInteger
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkLinkClockMhz*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.Connected
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.Connected
+  id: Connected
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: Connected
+  nameWithType: NVAPINvLinkStatusInfoDto.Connected
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.Connected
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Connected
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4993
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public bool Connected { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Connected As Boolean
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.Connected*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.Reserved
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.Reserved
+  id: Reserved
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: Reserved
+  nameWithType: NVAPINvLinkStatusInfoDto.Reserved
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.Reserved
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Reserved
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4994
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint Reserved { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Reserved As UInteger
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.Reserved*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.LoopProperty
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.LoopProperty
+  id: LoopProperty
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: LoopProperty
+  nameWithType: NVAPINvLinkStatusInfoDto.LoopProperty
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.LoopProperty
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: LoopProperty
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4995
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte LoopProperty { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property LoopProperty As Byte
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.LoopProperty*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.RemoteDeviceLinkNumber
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.RemoteDeviceLinkNumber
+  id: RemoteDeviceLinkNumber
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: RemoteDeviceLinkNumber
+  nameWithType: NVAPINvLinkStatusInfoDto.RemoteDeviceLinkNumber
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.RemoteDeviceLinkNumber
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: RemoteDeviceLinkNumber
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4996
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte RemoteDeviceLinkNumber { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property RemoteDeviceLinkNumber As Byte
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.RemoteDeviceLinkNumber*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.RemoteDeviceInfo
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.RemoteDeviceInfo
+  id: RemoteDeviceInfo
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: RemoteDeviceInfo
+  nameWithType: NVAPINvLinkStatusInfoDto.RemoteDeviceInfo
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.RemoteDeviceInfo
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: RemoteDeviceInfo
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4997
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NVAPINvLinkDeviceInfoDto RemoteDeviceInfo { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper.NVAPINvLinkDeviceInfoDto
+    content.vb: Public Property RemoteDeviceInfo As NVAPINvLinkDeviceInfoDto
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.RemoteDeviceInfo*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.LocalDeviceLinkNumber
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.LocalDeviceLinkNumber
+  id: LocalDeviceLinkNumber
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: LocalDeviceLinkNumber
+  nameWithType: NVAPINvLinkStatusInfoDto.LocalDeviceLinkNumber
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.LocalDeviceLinkNumber
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: LocalDeviceLinkNumber
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4998
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte LocalDeviceLinkNumber { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property LocalDeviceLinkNumber As Byte
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.LocalDeviceLinkNumber*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.LocalDeviceInfo
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.LocalDeviceInfo
+  id: LocalDeviceInfo
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: LocalDeviceInfo
+  nameWithType: NVAPINvLinkStatusInfoDto.LocalDeviceInfo
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.LocalDeviceInfo
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: LocalDeviceInfo
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4999
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NVAPINvLinkDeviceInfoDto LocalDeviceInfo { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper.NVAPINvLinkDeviceInfoDto
+    content.vb: Public Property LocalDeviceInfo As NVAPINvLinkDeviceInfoDto
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.LocalDeviceInfo*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkLineRateMbps
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkLineRateMbps
+  id: NvlinkLineRateMbps
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: NvlinkLineRateMbps
+  nameWithType: NVAPINvLinkStatusInfoDto.NvlinkLineRateMbps
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkLineRateMbps
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NvlinkLineRateMbps
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5000
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint NvlinkLineRateMbps { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property NvlinkLineRateMbps As UInteger
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkLineRateMbps*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkMinL1Threshold
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkMinL1Threshold
+  id: NvlinkMinL1Threshold
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: NvlinkMinL1Threshold
+  nameWithType: NVAPINvLinkStatusInfoDto.NvlinkMinL1Threshold
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkMinL1Threshold
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NvlinkMinL1Threshold
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5001
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint NvlinkMinL1Threshold { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property NvlinkMinL1Threshold As UInteger
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkMinL1Threshold*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkMaxL1Threshold
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkMaxL1Threshold
+  id: NvlinkMaxL1Threshold
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: NvlinkMaxL1Threshold
+  nameWithType: NVAPINvLinkStatusInfoDto.NvlinkMaxL1Threshold
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkMaxL1Threshold
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NvlinkMaxL1Threshold
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5002
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint NvlinkMaxL1Threshold { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property NvlinkMaxL1Threshold As UInteger
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkMaxL1Threshold*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkL1ThresholdUnits
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkL1ThresholdUnits
+  id: NvlinkL1ThresholdUnits
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: NvlinkL1ThresholdUnits
+  nameWithType: NVAPINvLinkStatusInfoDto.NvlinkL1ThresholdUnits
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkL1ThresholdUnits
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NvlinkL1ThresholdUnits
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5003
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint NvlinkL1ThresholdUnits { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property NvlinkL1ThresholdUnits As UInteger
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkL1ThresholdUnits*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.ReservedEx
+  commentId: P:NVAPIWrapper.NVAPINvLinkStatusInfoDto.ReservedEx
+  id: ReservedEx
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: ReservedEx
+  nameWithType: NVAPINvLinkStatusInfoDto.ReservedEx
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.ReservedEx
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ReservedEx
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5004
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint[] ReservedEx { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32[]
+    content.vb: Public Property ReservedEx As UInteger()
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.ReservedEx*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.#ctor(System.UInt32,System.Byte,System.Byte,System.UInt32,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.UInt32,System.UInt32,System.Byte,System.UInt32,System.Boolean,System.UInt32,System.Byte,System.Byte,NVAPIWrapper.NVAPINvLinkDeviceInfoDto,System.Byte,NVAPIWrapper.NVAPINvLinkDeviceInfoDto,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32[])
+  commentId: M:NVAPIWrapper.NVAPINvLinkStatusInfoDto.#ctor(System.UInt32,System.Byte,System.Byte,System.UInt32,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.UInt32,System.UInt32,System.Byte,System.UInt32,System.Boolean,System.UInt32,System.Byte,System.Byte,NVAPIWrapper.NVAPINvLinkDeviceInfoDto,System.Byte,NVAPIWrapper.NVAPINvLinkDeviceInfoDto,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32[])
+  id: '#ctor(System.UInt32,System.Byte,System.Byte,System.UInt32,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.UInt32,System.UInt32,System.Byte,System.UInt32,System.Boolean,System.UInt32,System.Byte,System.Byte,NVAPIWrapper.NVAPINvLinkDeviceInfoDto,System.Byte,NVAPIWrapper.NVAPINvLinkDeviceInfoDto,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32[])'
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPINvLinkStatusInfoDto(uint, byte, byte, uint, byte, byte, byte, byte, byte, uint, uint, byte, uint, bool, uint, byte, byte, NVAPINvLinkDeviceInfoDto, byte, NVAPINvLinkDeviceInfoDto, uint, uint, uint, uint, uint[])
+  nameWithType: NVAPINvLinkStatusInfoDto.NVAPINvLinkStatusInfoDto(uint, byte, byte, uint, byte, byte, byte, byte, byte, uint, uint, byte, uint, bool, uint, byte, byte, NVAPINvLinkDeviceInfoDto, byte, NVAPINvLinkDeviceInfoDto, uint, uint, uint, uint, uint[])
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NVAPINvLinkStatusInfoDto(uint, byte, byte, uint, byte, byte, byte, byte, byte, uint, uint, byte, uint, bool, uint, byte, byte, NVAPIWrapper.NVAPINvLinkDeviceInfoDto, byte, NVAPIWrapper.NVAPINvLinkDeviceInfoDto, uint, uint, uint, uint, uint[])
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5006
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NVAPINvLinkStatusInfoDto(uint capsTbl, byte phyType, byte subLinkWidth, uint linkState, byte rxSublinkStatus, byte txSublinkStatus, byte nvlinkVersion, byte nciVersion, byte phyVersion, uint nvlinkCommonClockSpeedMhz, uint nvlinkRefClkSpeedMhz, byte nvlinkRefClkType, uint nvlinkLinkClockMhz, bool connected, uint reserved, byte loopProperty, byte remoteDeviceLinkNumber, NVAPINvLinkDeviceInfoDto remoteDeviceInfo, byte localDeviceLinkNumber, NVAPINvLinkDeviceInfoDto localDeviceInfo, uint nvlinkLineRateMbps, uint nvlinkMinL1Threshold, uint nvlinkMaxL1Threshold, uint nvlinkL1ThresholdUnits, uint[] reservedEx)
+    parameters:
+    - id: capsTbl
+      type: System.UInt32
+    - id: phyType
+      type: System.Byte
+    - id: subLinkWidth
+      type: System.Byte
+    - id: linkState
+      type: System.UInt32
+    - id: rxSublinkStatus
+      type: System.Byte
+    - id: txSublinkStatus
+      type: System.Byte
+    - id: nvlinkVersion
+      type: System.Byte
+    - id: nciVersion
+      type: System.Byte
+    - id: phyVersion
+      type: System.Byte
+    - id: nvlinkCommonClockSpeedMhz
+      type: System.UInt32
+    - id: nvlinkRefClkSpeedMhz
+      type: System.UInt32
+    - id: nvlinkRefClkType
+      type: System.Byte
+    - id: nvlinkLinkClockMhz
+      type: System.UInt32
+    - id: connected
+      type: System.Boolean
+    - id: reserved
+      type: System.UInt32
+    - id: loopProperty
+      type: System.Byte
+    - id: remoteDeviceLinkNumber
+      type: System.Byte
+    - id: remoteDeviceInfo
+      type: NVAPIWrapper.NVAPINvLinkDeviceInfoDto
+    - id: localDeviceLinkNumber
+      type: System.Byte
+    - id: localDeviceInfo
+      type: NVAPIWrapper.NVAPINvLinkDeviceInfoDto
+    - id: nvlinkLineRateMbps
+      type: System.UInt32
+    - id: nvlinkMinL1Threshold
+      type: System.UInt32
+    - id: nvlinkMaxL1Threshold
+      type: System.UInt32
+    - id: nvlinkL1ThresholdUnits
+      type: System.UInt32
+    - id: reservedEx
+      type: System.UInt32[]
+    content.vb: Public Sub New(capsTbl As UInteger, phyType As Byte, subLinkWidth As Byte, linkState As UInteger, rxSublinkStatus As Byte, txSublinkStatus As Byte, nvlinkVersion As Byte, nciVersion As Byte, phyVersion As Byte, nvlinkCommonClockSpeedMhz As UInteger, nvlinkRefClkSpeedMhz As UInteger, nvlinkRefClkType As Byte, nvlinkLinkClockMhz As UInteger, connected As Boolean, reserved As UInteger, loopProperty As Byte, remoteDeviceLinkNumber As Byte, remoteDeviceInfo As NVAPINvLinkDeviceInfoDto, localDeviceLinkNumber As Byte, localDeviceInfo As NVAPINvLinkDeviceInfoDto, nvlinkLineRateMbps As UInteger, nvlinkMinL1Threshold As UInteger, nvlinkMaxL1Threshold As UInteger, nvlinkL1ThresholdUnits As UInteger, reservedEx As UInteger())
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.#ctor*
+  nameWithType.vb: NVAPINvLinkStatusInfoDto.New(UInteger, Byte, Byte, UInteger, Byte, Byte, Byte, Byte, Byte, UInteger, UInteger, Byte, UInteger, Boolean, UInteger, Byte, Byte, NVAPINvLinkDeviceInfoDto, Byte, NVAPINvLinkDeviceInfoDto, UInteger, UInteger, UInteger, UInteger, UInteger())
+  fullName.vb: NVAPIWrapper.NVAPINvLinkStatusInfoDto.New(UInteger, Byte, Byte, UInteger, Byte, Byte, Byte, Byte, Byte, UInteger, UInteger, Byte, UInteger, Boolean, UInteger, Byte, Byte, NVAPIWrapper.NVAPINvLinkDeviceInfoDto, Byte, NVAPIWrapper.NVAPINvLinkDeviceInfoDto, UInteger, UInteger, UInteger, UInteger, UInteger())
+  name.vb: New(UInteger, Byte, Byte, UInteger, Byte, Byte, Byte, Byte, Byte, UInteger, UInteger, Byte, UInteger, Boolean, UInteger, Byte, Byte, NVAPINvLinkDeviceInfoDto, Byte, NVAPINvLinkDeviceInfoDto, UInteger, UInteger, UInteger, UInteger, UInteger())
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.FromNative(NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2)
+  commentId: M:NVAPIWrapper.NVAPINvLinkStatusInfoDto.FromNative(NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2)
+  id: FromNative(NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2)
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(NVLINK_LINK_STATUS_INFO_V2)
+  nameWithType: NVAPINvLinkStatusInfoDto.FromNative(NVLINK_LINK_STATUS_INFO_V2)
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.FromNative(NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5060
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static NVAPINvLinkStatusInfoDto FromNative(NVLINK_LINK_STATUS_INFO_V2 native)
+    parameters:
+    - id: native
+      type: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+    return:
+      type: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+    content.vb: Public Shared Function FromNative(native As NVLINK_LINK_STATUS_INFO_V2) As NVAPINvLinkStatusInfoDto
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.FromNative*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.ToNative
+  commentId: M:NVAPIWrapper.NVAPINvLinkStatusInfoDto.ToNative
+  id: ToNative
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: NVAPINvLinkStatusInfoDto.ToNative()
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5093
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NVLINK_LINK_STATUS_INFO_V2 ToNative()
+    return:
+      type: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+    content.vb: Public Function ToNative() As NVLINK_LINK_STATUS_INFO_V2
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.ToNative*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.Equals(NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+  commentId: M:NVAPIWrapper.NVAPINvLinkStatusInfoDto.Equals(NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+  id: Equals(NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPINvLinkStatusInfoDto)
+  nameWithType: NVAPINvLinkStatusInfoDto.Equals(NVAPINvLinkStatusInfoDto)
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.Equals(NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5124
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPINvLinkStatusInfoDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As NVAPINvLinkStatusInfoDto) As Boolean
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPINvLinkStatusInfoDto}.Equals(NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPINvLinkStatusInfoDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPINvLinkStatusInfoDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5160
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.Equals*
+  nameWithType.vb: NVAPINvLinkStatusInfoDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPINvLinkStatusInfoDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPINvLinkStatusInfoDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPINvLinkStatusInfoDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5161
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.op_Equality(NVAPIWrapper.NVAPINvLinkStatusInfoDto,NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+  commentId: M:NVAPIWrapper.NVAPINvLinkStatusInfoDto.op_Equality(NVAPIWrapper.NVAPINvLinkStatusInfoDto,NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+  id: op_Equality(NVAPIWrapper.NVAPINvLinkStatusInfoDto,NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPINvLinkStatusInfoDto, NVAPINvLinkStatusInfoDto)
+  nameWithType: NVAPINvLinkStatusInfoDto.operator ==(NVAPINvLinkStatusInfoDto, NVAPINvLinkStatusInfoDto)
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.operator ==(NVAPIWrapper.NVAPINvLinkStatusInfoDto, NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5171
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static bool operator ==(NVAPINvLinkStatusInfoDto left, NVAPINvLinkStatusInfoDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+    - id: right
+      type: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As NVAPINvLinkStatusInfoDto, right As NVAPINvLinkStatusInfoDto) As Boolean
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.op_Equality*
+  nameWithType.vb: NVAPINvLinkStatusInfoDto.=(NVAPINvLinkStatusInfoDto, NVAPINvLinkStatusInfoDto)
+  fullName.vb: NVAPIWrapper.NVAPINvLinkStatusInfoDto.=(NVAPIWrapper.NVAPINvLinkStatusInfoDto, NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+  name.vb: =(NVAPINvLinkStatusInfoDto, NVAPINvLinkStatusInfoDto)
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.op_Inequality(NVAPIWrapper.NVAPINvLinkStatusInfoDto,NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+  commentId: M:NVAPIWrapper.NVAPINvLinkStatusInfoDto.op_Inequality(NVAPIWrapper.NVAPINvLinkStatusInfoDto,NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+  id: op_Inequality(NVAPIWrapper.NVAPINvLinkStatusInfoDto,NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+  parent: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPINvLinkStatusInfoDto, NVAPINvLinkStatusInfoDto)
+  nameWithType: NVAPINvLinkStatusInfoDto.operator !=(NVAPINvLinkStatusInfoDto, NVAPINvLinkStatusInfoDto)
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.operator !=(NVAPIWrapper.NVAPINvLinkStatusInfoDto, NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5172
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static bool operator !=(NVAPINvLinkStatusInfoDto left, NVAPINvLinkStatusInfoDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+    - id: right
+      type: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As NVAPINvLinkStatusInfoDto, right As NVAPINvLinkStatusInfoDto) As Boolean
+  overload: NVAPIWrapper.NVAPINvLinkStatusInfoDto.op_Inequality*
+  nameWithType.vb: NVAPINvLinkStatusInfoDto.<>(NVAPINvLinkStatusInfoDto, NVAPINvLinkStatusInfoDto)
+  fullName.vb: NVAPIWrapper.NVAPINvLinkStatusInfoDto.<>(NVAPIWrapper.NVAPINvLinkStatusInfoDto, NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+  name.vb: <>(NVAPINvLinkStatusInfoDto, NVAPINvLinkStatusInfoDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPINvLinkStatusInfoDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPINvLinkStatusInfoDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPINvLinkStatusInfoDto>
+  nameWithType: IEquatable<NVAPINvLinkStatusInfoDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPINvLinkStatusInfoDto>
+  nameWithType.vb: IEquatable(Of NVAPINvLinkStatusInfoDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+  name.vb: IEquatable(Of NVAPINvLinkStatusInfoDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+    name: NVAPINvLinkStatusInfoDto
+    href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+    name: NVAPINvLinkStatusInfoDto
+    href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.CapsTbl*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.CapsTbl
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_CapsTbl
+  name: CapsTbl
+  nameWithType: NVAPINvLinkStatusInfoDto.CapsTbl
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.CapsTbl
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.PhyType*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.PhyType
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_PhyType
+  name: PhyType
+  nameWithType: NVAPINvLinkStatusInfoDto.PhyType
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.PhyType
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.SubLinkWidth*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.SubLinkWidth
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_SubLinkWidth
+  name: SubLinkWidth
+  nameWithType: NVAPINvLinkStatusInfoDto.SubLinkWidth
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.SubLinkWidth
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.LinkState*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.LinkState
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_LinkState
+  name: LinkState
+  nameWithType: NVAPINvLinkStatusInfoDto.LinkState
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.LinkState
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.RxSublinkStatus*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.RxSublinkStatus
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_RxSublinkStatus
+  name: RxSublinkStatus
+  nameWithType: NVAPINvLinkStatusInfoDto.RxSublinkStatus
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.RxSublinkStatus
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.TxSublinkStatus*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.TxSublinkStatus
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_TxSublinkStatus
+  name: TxSublinkStatus
+  nameWithType: NVAPINvLinkStatusInfoDto.TxSublinkStatus
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.TxSublinkStatus
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkVersion*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkVersion
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_NvlinkVersion
+  name: NvlinkVersion
+  nameWithType: NVAPINvLinkStatusInfoDto.NvlinkVersion
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkVersion
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NciVersion*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.NciVersion
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_NciVersion
+  name: NciVersion
+  nameWithType: NVAPINvLinkStatusInfoDto.NciVersion
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NciVersion
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.PhyVersion*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.PhyVersion
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_PhyVersion
+  name: PhyVersion
+  nameWithType: NVAPINvLinkStatusInfoDto.PhyVersion
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.PhyVersion
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkCommonClockSpeedMhz*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkCommonClockSpeedMhz
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_NvlinkCommonClockSpeedMhz
+  name: NvlinkCommonClockSpeedMhz
+  nameWithType: NVAPINvLinkStatusInfoDto.NvlinkCommonClockSpeedMhz
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkCommonClockSpeedMhz
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkRefClkSpeedMhz*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkRefClkSpeedMhz
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_NvlinkRefClkSpeedMhz
+  name: NvlinkRefClkSpeedMhz
+  nameWithType: NVAPINvLinkStatusInfoDto.NvlinkRefClkSpeedMhz
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkRefClkSpeedMhz
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkRefClkType*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkRefClkType
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_NvlinkRefClkType
+  name: NvlinkRefClkType
+  nameWithType: NVAPINvLinkStatusInfoDto.NvlinkRefClkType
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkRefClkType
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkLinkClockMhz*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkLinkClockMhz
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_NvlinkLinkClockMhz
+  name: NvlinkLinkClockMhz
+  nameWithType: NVAPINvLinkStatusInfoDto.NvlinkLinkClockMhz
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkLinkClockMhz
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.Connected*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.Connected
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_Connected
+  name: Connected
+  nameWithType: NVAPINvLinkStatusInfoDto.Connected
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.Connected
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.Reserved*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.Reserved
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_Reserved
+  name: Reserved
+  nameWithType: NVAPINvLinkStatusInfoDto.Reserved
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.Reserved
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.LoopProperty*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.LoopProperty
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_LoopProperty
+  name: LoopProperty
+  nameWithType: NVAPINvLinkStatusInfoDto.LoopProperty
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.LoopProperty
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.RemoteDeviceLinkNumber*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.RemoteDeviceLinkNumber
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_RemoteDeviceLinkNumber
+  name: RemoteDeviceLinkNumber
+  nameWithType: NVAPINvLinkStatusInfoDto.RemoteDeviceLinkNumber
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.RemoteDeviceLinkNumber
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.RemoteDeviceInfo*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.RemoteDeviceInfo
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_RemoteDeviceInfo
+  name: RemoteDeviceInfo
+  nameWithType: NVAPINvLinkStatusInfoDto.RemoteDeviceInfo
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.RemoteDeviceInfo
+- uid: NVAPIWrapper.NVAPINvLinkDeviceInfoDto
+  commentId: T:NVAPIWrapper.NVAPINvLinkDeviceInfoDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPINvLinkDeviceInfoDto.html
+  name: NVAPINvLinkDeviceInfoDto
+  nameWithType: NVAPINvLinkDeviceInfoDto
+  fullName: NVAPIWrapper.NVAPINvLinkDeviceInfoDto
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.LocalDeviceLinkNumber*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.LocalDeviceLinkNumber
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_LocalDeviceLinkNumber
+  name: LocalDeviceLinkNumber
+  nameWithType: NVAPINvLinkStatusInfoDto.LocalDeviceLinkNumber
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.LocalDeviceLinkNumber
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.LocalDeviceInfo*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.LocalDeviceInfo
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_LocalDeviceInfo
+  name: LocalDeviceInfo
+  nameWithType: NVAPINvLinkStatusInfoDto.LocalDeviceInfo
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.LocalDeviceInfo
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkLineRateMbps*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkLineRateMbps
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_NvlinkLineRateMbps
+  name: NvlinkLineRateMbps
+  nameWithType: NVAPINvLinkStatusInfoDto.NvlinkLineRateMbps
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkLineRateMbps
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkMinL1Threshold*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkMinL1Threshold
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_NvlinkMinL1Threshold
+  name: NvlinkMinL1Threshold
+  nameWithType: NVAPINvLinkStatusInfoDto.NvlinkMinL1Threshold
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkMinL1Threshold
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkMaxL1Threshold*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkMaxL1Threshold
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_NvlinkMaxL1Threshold
+  name: NvlinkMaxL1Threshold
+  nameWithType: NVAPINvLinkStatusInfoDto.NvlinkMaxL1Threshold
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkMaxL1Threshold
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkL1ThresholdUnits*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkL1ThresholdUnits
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_NvlinkL1ThresholdUnits
+  name: NvlinkL1ThresholdUnits
+  nameWithType: NVAPINvLinkStatusInfoDto.NvlinkL1ThresholdUnits
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NvlinkL1ThresholdUnits
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.ReservedEx*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.ReservedEx
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_ReservedEx
+  name: ReservedEx
+  nameWithType: NVAPINvLinkStatusInfoDto.ReservedEx
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.ReservedEx
+- uid: System.UInt32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint[]
+  nameWithType: uint[]
+  fullName: uint[]
+  nameWithType.vb: UInteger()
+  fullName.vb: UInteger()
+  name.vb: UInteger()
+  spec.csharp:
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.#ctor
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto__ctor_System_UInt32_System_Byte_System_Byte_System_UInt32_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_UInt32_System_UInt32_System_Byte_System_UInt32_System_Boolean_System_UInt32_System_Byte_System_Byte_NVAPIWrapper_NVAPINvLinkDeviceInfoDto_System_Byte_NVAPIWrapper_NVAPINvLinkDeviceInfoDto_System_UInt32_System_UInt32_System_UInt32_System_UInt32_System_UInt32___
+  name: NVAPINvLinkStatusInfoDto
+  nameWithType: NVAPINvLinkStatusInfoDto.NVAPINvLinkStatusInfoDto
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.NVAPINvLinkStatusInfoDto
+  nameWithType.vb: NVAPINvLinkStatusInfoDto.New
+  fullName.vb: NVAPIWrapper.NVAPINvLinkStatusInfoDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.FromNative
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_FromNative_NVAPIWrapper_NVLINK_LINK_STATUS_INFO_V2_
+  name: FromNative
+  nameWithType: NVAPINvLinkStatusInfoDto.FromNative
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.FromNative
+- uid: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  commentId: T:NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2.html
+  name: NVLINK_LINK_STATUS_INFO_V2
+  nameWithType: NVLINK_LINK_STATUS_INFO_V2
+  fullName: NVAPIWrapper.NVLINK_LINK_STATUS_INFO_V2
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  commentId: T:NVAPIWrapper.NVAPINvLinkStatusInfoDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html
+  name: NVAPINvLinkStatusInfoDto
+  nameWithType: NVAPINvLinkStatusInfoDto
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.ToNative
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_ToNative
+  name: ToNative
+  nameWithType: NVAPINvLinkStatusInfoDto.ToNative
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.ToNative
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.Equals
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_Equals_NVAPIWrapper_NVAPINvLinkStatusInfoDto_
+  name: Equals
+  nameWithType: NVAPINvLinkStatusInfoDto.Equals
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPINvLinkStatusInfoDto}.Equals(NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPINvLinkStatusInfoDto}.Equals(NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPINvLinkStatusInfoDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPINvLinkStatusInfoDto)
+  nameWithType: IEquatable<NVAPINvLinkStatusInfoDto>.Equals(NVAPINvLinkStatusInfoDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPINvLinkStatusInfoDto>.Equals(NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+  nameWithType.vb: IEquatable(Of NVAPINvLinkStatusInfoDto).Equals(NVAPINvLinkStatusInfoDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPINvLinkStatusInfoDto).Equals(NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPINvLinkStatusInfoDto}.Equals(NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+    name: NVAPINvLinkStatusInfoDto
+    href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPINvLinkStatusInfoDto}.Equals(NVAPIWrapper.NVAPINvLinkStatusInfoDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto
+    name: NVAPINvLinkStatusInfoDto
+    href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.GetHashCode
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPINvLinkStatusInfoDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.op_Equality
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_op_Equality_NVAPIWrapper_NVAPINvLinkStatusInfoDto_NVAPIWrapper_NVAPINvLinkStatusInfoDto_
+  name: operator ==
+  nameWithType: NVAPINvLinkStatusInfoDto.operator ==
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.operator ==
+  nameWithType.vb: NVAPINvLinkStatusInfoDto.=
+  fullName.vb: NVAPIWrapper.NVAPINvLinkStatusInfoDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_op_Equality_NVAPIWrapper_NVAPINvLinkStatusInfoDto_NVAPIWrapper_NVAPINvLinkStatusInfoDto_
+- uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPINvLinkStatusInfoDto.op_Inequality
+  href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_op_Inequality_NVAPIWrapper_NVAPINvLinkStatusInfoDto_NVAPIWrapper_NVAPINvLinkStatusInfoDto_
+  name: operator !=
+  nameWithType: NVAPINvLinkStatusInfoDto.operator !=
+  fullName: NVAPIWrapper.NVAPINvLinkStatusInfoDto.operator !=
+  nameWithType.vb: NVAPINvLinkStatusInfoDto.<>
+  fullName.vb: NVAPIWrapper.NVAPINvLinkStatusInfoDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPINvLinkStatusInfoDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPINvLinkStatusInfoDto.html#NVAPIWrapper_NVAPINvLinkStatusInfoDto_op_Inequality_NVAPIWrapper_NVAPINvLinkStatusInfoDto_NVAPIWrapper_NVAPINvLinkStatusInfoDto_

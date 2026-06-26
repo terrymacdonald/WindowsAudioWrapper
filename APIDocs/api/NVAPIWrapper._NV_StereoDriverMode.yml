@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_StereoDriverMode
+  commentId: T:NVAPIWrapper._NV_StereoDriverMode
+  id: _NV_StereoDriverMode
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_StereoDriverMode.NVAPI_STEREO_DRIVER_MODE_AUTOMATIC
+  - NVAPIWrapper._NV_StereoDriverMode.NVAPI_STEREO_DRIVER_MODE_DIRECT
+  langs:
+  - csharp
+  - vb
+  name: _NV_StereoDriverMode
+  nameWithType: _NV_StereoDriverMode
+  fullName: NVAPIWrapper._NV_StereoDriverMode
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_StereoDriverMode.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_StereoDriverMode
+    path: ../NVAPIWrapper/cs_generated/_NV_StereoDriverMode.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_StereoDriverMode
+    content.vb: Public Enum _NV_StereoDriverMode
+- uid: NVAPIWrapper._NV_StereoDriverMode.NVAPI_STEREO_DRIVER_MODE_AUTOMATIC
+  commentId: F:NVAPIWrapper._NV_StereoDriverMode.NVAPI_STEREO_DRIVER_MODE_AUTOMATIC
+  id: NVAPI_STEREO_DRIVER_MODE_AUTOMATIC
+  parent: NVAPIWrapper._NV_StereoDriverMode
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_DRIVER_MODE_AUTOMATIC
+  nameWithType: _NV_StereoDriverMode.NVAPI_STEREO_DRIVER_MODE_AUTOMATIC
+  fullName: NVAPIWrapper._NV_StereoDriverMode.NVAPI_STEREO_DRIVER_MODE_AUTOMATIC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_StereoDriverMode.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_DRIVER_MODE_AUTOMATIC
+    path: ../NVAPIWrapper/cs_generated/_NV_StereoDriverMode.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_DRIVER_MODE_AUTOMATIC = 0
+    return:
+      type: NVAPIWrapper._NV_StereoDriverMode
+- uid: NVAPIWrapper._NV_StereoDriverMode.NVAPI_STEREO_DRIVER_MODE_DIRECT
+  commentId: F:NVAPIWrapper._NV_StereoDriverMode.NVAPI_STEREO_DRIVER_MODE_DIRECT
+  id: NVAPI_STEREO_DRIVER_MODE_DIRECT
+  parent: NVAPIWrapper._NV_StereoDriverMode
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_DRIVER_MODE_DIRECT
+  nameWithType: _NV_StereoDriverMode.NVAPI_STEREO_DRIVER_MODE_DIRECT
+  fullName: NVAPIWrapper._NV_StereoDriverMode.NVAPI_STEREO_DRIVER_MODE_DIRECT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_StereoDriverMode.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_DRIVER_MODE_DIRECT
+    path: ../NVAPIWrapper/cs_generated/_NV_StereoDriverMode.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_DRIVER_MODE_DIRECT = 2
+    return:
+      type: NVAPIWrapper._NV_StereoDriverMode
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_StereoDriverMode
+  commentId: T:NVAPIWrapper._NV_StereoDriverMode
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_StereoDriverMode.html
+  name: _NV_StereoDriverMode
+  nameWithType: _NV_StereoDriverMode
+  fullName: NVAPIWrapper._NV_StereoDriverMode

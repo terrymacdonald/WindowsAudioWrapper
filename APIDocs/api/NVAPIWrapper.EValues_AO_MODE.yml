@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_AO_MODE
+  commentId: T:NVAPIWrapper.EValues_AO_MODE
+  id: EValues_AO_MODE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_AO_MODE.AO_MODE_DEFAULT
+  - NVAPIWrapper.EValues_AO_MODE.AO_MODE_HIGH
+  - NVAPIWrapper.EValues_AO_MODE.AO_MODE_LOW
+  - NVAPIWrapper.EValues_AO_MODE.AO_MODE_MEDIUM
+  - NVAPIWrapper.EValues_AO_MODE.AO_MODE_NUM_VALUES
+  - NVAPIWrapper.EValues_AO_MODE.AO_MODE_OFF
+  langs:
+  - csharp
+  - vb
+  name: EValues_AO_MODE
+  nameWithType: EValues_AO_MODE
+  fullName: NVAPIWrapper.EValues_AO_MODE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_AO_MODE
+    path: ../NVAPIWrapper/cs_generated/EValues_AO_MODE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_AO_MODE
+    content.vb: Public Enum EValues_AO_MODE
+- uid: NVAPIWrapper.EValues_AO_MODE.AO_MODE_OFF
+  commentId: F:NVAPIWrapper.EValues_AO_MODE.AO_MODE_OFF
+  id: AO_MODE_OFF
+  parent: NVAPIWrapper.EValues_AO_MODE
+  langs:
+  - csharp
+  - vb
+  name: AO_MODE_OFF
+  nameWithType: EValues_AO_MODE.AO_MODE_OFF
+  fullName: NVAPIWrapper.EValues_AO_MODE.AO_MODE_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AO_MODE_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_AO_MODE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AO_MODE_OFF = 0
+    return:
+      type: NVAPIWrapper.EValues_AO_MODE
+- uid: NVAPIWrapper.EValues_AO_MODE.AO_MODE_LOW
+  commentId: F:NVAPIWrapper.EValues_AO_MODE.AO_MODE_LOW
+  id: AO_MODE_LOW
+  parent: NVAPIWrapper.EValues_AO_MODE
+  langs:
+  - csharp
+  - vb
+  name: AO_MODE_LOW
+  nameWithType: EValues_AO_MODE.AO_MODE_LOW
+  fullName: NVAPIWrapper.EValues_AO_MODE.AO_MODE_LOW
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AO_MODE_LOW
+    path: ../NVAPIWrapper/cs_generated/EValues_AO_MODE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AO_MODE_LOW = 1
+    return:
+      type: NVAPIWrapper.EValues_AO_MODE
+- uid: NVAPIWrapper.EValues_AO_MODE.AO_MODE_MEDIUM
+  commentId: F:NVAPIWrapper.EValues_AO_MODE.AO_MODE_MEDIUM
+  id: AO_MODE_MEDIUM
+  parent: NVAPIWrapper.EValues_AO_MODE
+  langs:
+  - csharp
+  - vb
+  name: AO_MODE_MEDIUM
+  nameWithType: EValues_AO_MODE.AO_MODE_MEDIUM
+  fullName: NVAPIWrapper.EValues_AO_MODE.AO_MODE_MEDIUM
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AO_MODE_MEDIUM
+    path: ../NVAPIWrapper/cs_generated/EValues_AO_MODE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AO_MODE_MEDIUM = 2
+    return:
+      type: NVAPIWrapper.EValues_AO_MODE
+- uid: NVAPIWrapper.EValues_AO_MODE.AO_MODE_HIGH
+  commentId: F:NVAPIWrapper.EValues_AO_MODE.AO_MODE_HIGH
+  id: AO_MODE_HIGH
+  parent: NVAPIWrapper.EValues_AO_MODE
+  langs:
+  - csharp
+  - vb
+  name: AO_MODE_HIGH
+  nameWithType: EValues_AO_MODE.AO_MODE_HIGH
+  fullName: NVAPIWrapper.EValues_AO_MODE.AO_MODE_HIGH
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AO_MODE_HIGH
+    path: ../NVAPIWrapper/cs_generated/EValues_AO_MODE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AO_MODE_HIGH = 3
+    return:
+      type: NVAPIWrapper.EValues_AO_MODE
+- uid: NVAPIWrapper.EValues_AO_MODE.AO_MODE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_AO_MODE.AO_MODE_NUM_VALUES
+  id: AO_MODE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_AO_MODE
+  langs:
+  - csharp
+  - vb
+  name: AO_MODE_NUM_VALUES
+  nameWithType: EValues_AO_MODE.AO_MODE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_AO_MODE.AO_MODE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AO_MODE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_AO_MODE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AO_MODE_NUM_VALUES = 4
+    return:
+      type: NVAPIWrapper.EValues_AO_MODE
+- uid: NVAPIWrapper.EValues_AO_MODE.AO_MODE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_AO_MODE.AO_MODE_DEFAULT
+  id: AO_MODE_DEFAULT
+  parent: NVAPIWrapper.EValues_AO_MODE
+  langs:
+  - csharp
+  - vb
+  name: AO_MODE_DEFAULT
+  nameWithType: EValues_AO_MODE.AO_MODE_DEFAULT
+  fullName: NVAPIWrapper.EValues_AO_MODE.AO_MODE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_AO_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AO_MODE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_AO_MODE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AO_MODE_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_AO_MODE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_AO_MODE
+  commentId: T:NVAPIWrapper.EValues_AO_MODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_AO_MODE.html
+  name: EValues_AO_MODE
+  nameWithType: EValues_AO_MODE
+  fullName: NVAPIWrapper.EValues_AO_MODE

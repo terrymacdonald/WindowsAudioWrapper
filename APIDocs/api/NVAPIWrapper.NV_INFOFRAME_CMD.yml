@@ -1,0 +1,267 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_INFOFRAME_CMD
+  commentId: T:NVAPIWrapper.NV_INFOFRAME_CMD
+  id: NV_INFOFRAME_CMD
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_GET
+  - NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_GET_DEFAULT
+  - NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_GET_OVERRIDE
+  - NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_GET_PROPERTY
+  - NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_RESET
+  - NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_SET
+  - NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_SET_OVERRIDE
+  - NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_SET_PROPERTY
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_CMD
+  nameWithType: NV_INFOFRAME_CMD
+  fullName: NVAPIWrapper.NV_INFOFRAME_CMD
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_CMD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_CMD
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_CMD.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_INFOFRAME_CMD
+    content.vb: Public Enum NV_INFOFRAME_CMD
+- uid: NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_GET_DEFAULT
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_GET_DEFAULT
+  id: NV_INFOFRAME_CMD_GET_DEFAULT
+  parent: NVAPIWrapper.NV_INFOFRAME_CMD
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_CMD_GET_DEFAULT
+  nameWithType: NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_GET_DEFAULT
+  fullName: NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_GET_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_CMD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_CMD_GET_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_CMD.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_INFOFRAME_CMD_GET_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.NV_INFOFRAME_CMD
+- uid: NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_RESET
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_RESET
+  id: NV_INFOFRAME_CMD_RESET
+  parent: NVAPIWrapper.NV_INFOFRAME_CMD
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_CMD_RESET
+  nameWithType: NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_RESET
+  fullName: NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_RESET
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_CMD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_CMD_RESET
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_CMD.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_INFOFRAME_CMD_RESET = 1
+    return:
+      type: NVAPIWrapper.NV_INFOFRAME_CMD
+- uid: NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_GET
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_GET
+  id: NV_INFOFRAME_CMD_GET
+  parent: NVAPIWrapper.NV_INFOFRAME_CMD
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_CMD_GET
+  nameWithType: NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_GET
+  fullName: NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_GET
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_CMD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_CMD_GET
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_CMD.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_INFOFRAME_CMD_GET = 2
+    return:
+      type: NVAPIWrapper.NV_INFOFRAME_CMD
+- uid: NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_SET
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_SET
+  id: NV_INFOFRAME_CMD_SET
+  parent: NVAPIWrapper.NV_INFOFRAME_CMD
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_CMD_SET
+  nameWithType: NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_SET
+  fullName: NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_SET
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_CMD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_CMD_SET
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_CMD.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_INFOFRAME_CMD_SET = 3
+    return:
+      type: NVAPIWrapper.NV_INFOFRAME_CMD
+- uid: NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_GET_OVERRIDE
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_GET_OVERRIDE
+  id: NV_INFOFRAME_CMD_GET_OVERRIDE
+  parent: NVAPIWrapper.NV_INFOFRAME_CMD
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_CMD_GET_OVERRIDE
+  nameWithType: NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_GET_OVERRIDE
+  fullName: NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_GET_OVERRIDE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_CMD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_CMD_GET_OVERRIDE
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_CMD.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_INFOFRAME_CMD_GET_OVERRIDE = 4
+    return:
+      type: NVAPIWrapper.NV_INFOFRAME_CMD
+- uid: NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_SET_OVERRIDE
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_SET_OVERRIDE
+  id: NV_INFOFRAME_CMD_SET_OVERRIDE
+  parent: NVAPIWrapper.NV_INFOFRAME_CMD
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_CMD_SET_OVERRIDE
+  nameWithType: NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_SET_OVERRIDE
+  fullName: NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_SET_OVERRIDE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_CMD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_CMD_SET_OVERRIDE
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_CMD.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_INFOFRAME_CMD_SET_OVERRIDE = 5
+    return:
+      type: NVAPIWrapper.NV_INFOFRAME_CMD
+- uid: NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_GET_PROPERTY
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_GET_PROPERTY
+  id: NV_INFOFRAME_CMD_GET_PROPERTY
+  parent: NVAPIWrapper.NV_INFOFRAME_CMD
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_CMD_GET_PROPERTY
+  nameWithType: NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_GET_PROPERTY
+  fullName: NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_GET_PROPERTY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_CMD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_CMD_GET_PROPERTY
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_CMD.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_INFOFRAME_CMD_GET_PROPERTY = 6
+    return:
+      type: NVAPIWrapper.NV_INFOFRAME_CMD
+- uid: NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_SET_PROPERTY
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_SET_PROPERTY
+  id: NV_INFOFRAME_CMD_SET_PROPERTY
+  parent: NVAPIWrapper.NV_INFOFRAME_CMD
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_CMD_SET_PROPERTY
+  nameWithType: NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_SET_PROPERTY
+  fullName: NVAPIWrapper.NV_INFOFRAME_CMD.NV_INFOFRAME_CMD_SET_PROPERTY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_CMD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_CMD_SET_PROPERTY
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_CMD.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_INFOFRAME_CMD_SET_PROPERTY = 7
+    return:
+      type: NVAPIWrapper.NV_INFOFRAME_CMD
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_INFOFRAME_CMD
+  commentId: T:NVAPIWrapper.NV_INFOFRAME_CMD
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_INFOFRAME_CMD.html
+  name: NV_INFOFRAME_CMD
+  nameWithType: NV_INFOFRAME_CMD
+  fullName: NVAPIWrapper.NV_INFOFRAME_CMD

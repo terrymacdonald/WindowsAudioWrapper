@@ -1,0 +1,1602 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIDrsSettingDto
+  commentId: T:NVAPIWrapper.NVAPIDrsSettingDto
+  id: NVAPIDrsSettingDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIDrsSettingDto.#ctor(System.String,System.UInt32,NVAPIWrapper._NVDRS_SETTING_TYPE,NVAPIWrapper._NVDRS_SETTING_LOCATION,System.Boolean,System.Boolean,System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.String,System.String,System.Byte[],System.Byte[])
+  - NVAPIWrapper.NVAPIDrsSettingDto.CreateBinary(System.UInt32,System.Byte[],System.Byte[],System.String,NVAPIWrapper._NVDRS_SETTING_LOCATION,System.Boolean,System.Boolean)
+  - NVAPIWrapper.NVAPIDrsSettingDto.CreateDword(System.UInt32,System.UInt32,System.Nullable{System.UInt32},System.String,NVAPIWrapper._NVDRS_SETTING_LOCATION,System.Boolean,System.Boolean)
+  - NVAPIWrapper.NVAPIDrsSettingDto.CreateString(System.UInt32,System.String,System.String,System.String,NVAPIWrapper._NVDRS_SETTING_LOCATION,System.Boolean,System.Boolean)
+  - NVAPIWrapper.NVAPIDrsSettingDto.CreateWString(System.UInt32,System.String,System.String,System.String,NVAPIWrapper._NVDRS_SETTING_LOCATION,System.Boolean,System.Boolean)
+  - NVAPIWrapper.NVAPIDrsSettingDto.CurrentBinaryValue
+  - NVAPIWrapper.NVAPIDrsSettingDto.CurrentDwordValue
+  - NVAPIWrapper.NVAPIDrsSettingDto.CurrentStringValue
+  - NVAPIWrapper.NVAPIDrsSettingDto.Equals(NVAPIWrapper.NVAPIDrsSettingDto)
+  - NVAPIWrapper.NVAPIDrsSettingDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIDrsSettingDto.FromNative(NVAPIWrapper._NVDRS_SETTING_V1)
+  - NVAPIWrapper.NVAPIDrsSettingDto.GetHashCode
+  - NVAPIWrapper.NVAPIDrsSettingDto.IsCurrentPredefined
+  - NVAPIWrapper.NVAPIDrsSettingDto.IsPredefinedValid
+  - NVAPIWrapper.NVAPIDrsSettingDto.PredefinedBinaryValue
+  - NVAPIWrapper.NVAPIDrsSettingDto.PredefinedDwordValue
+  - NVAPIWrapper.NVAPIDrsSettingDto.PredefinedStringValue
+  - NVAPIWrapper.NVAPIDrsSettingDto.SettingId
+  - NVAPIWrapper.NVAPIDrsSettingDto.SettingLocation
+  - NVAPIWrapper.NVAPIDrsSettingDto.SettingName
+  - NVAPIWrapper.NVAPIDrsSettingDto.SettingType
+  - NVAPIWrapper.NVAPIDrsSettingDto.ToNative
+  - NVAPIWrapper.NVAPIDrsSettingDto.op_Equality(NVAPIWrapper.NVAPIDrsSettingDto,NVAPIWrapper.NVAPIDrsSettingDto)
+  - NVAPIWrapper.NVAPIDrsSettingDto.op_Inequality(NVAPIWrapper.NVAPIDrsSettingDto,NVAPIWrapper.NVAPIDrsSettingDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIDrsSettingDto
+  nameWithType: NVAPIDrsSettingDto
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIDrsSettingDto
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 1672
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: DRS setting DTO.
+  example: []
+  syntax:
+    content: 'public struct NVAPIDrsSettingDto : IEquatable<NVAPIDrsSettingDto>'
+    content.vb: Public Structure NVAPIDrsSettingDto Implements IEquatable(Of NVAPIDrsSettingDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIDrsSettingDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.SettingName
+  commentId: P:NVAPIWrapper.NVAPIDrsSettingDto.SettingName
+  id: SettingName
+  parent: NVAPIWrapper.NVAPIDrsSettingDto
+  langs:
+  - csharp
+  - vb
+  name: SettingName
+  nameWithType: NVAPIDrsSettingDto.SettingName
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.SettingName
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SettingName
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 1674
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public string SettingName { readonly get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SettingName As String
+  overload: NVAPIWrapper.NVAPIDrsSettingDto.SettingName*
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.SettingId
+  commentId: P:NVAPIWrapper.NVAPIDrsSettingDto.SettingId
+  id: SettingId
+  parent: NVAPIWrapper.NVAPIDrsSettingDto
+  langs:
+  - csharp
+  - vb
+  name: SettingId
+  nameWithType: NVAPIDrsSettingDto.SettingId
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.SettingId
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SettingId
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 1675
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint SettingId { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property SettingId As UInteger
+  overload: NVAPIWrapper.NVAPIDrsSettingDto.SettingId*
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.SettingType
+  commentId: P:NVAPIWrapper.NVAPIDrsSettingDto.SettingType
+  id: SettingType
+  parent: NVAPIWrapper.NVAPIDrsSettingDto
+  langs:
+  - csharp
+  - vb
+  name: SettingType
+  nameWithType: NVAPIDrsSettingDto.SettingType
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.SettingType
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SettingType
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 1676
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public _NVDRS_SETTING_TYPE SettingType { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper._NVDRS_SETTING_TYPE
+    content.vb: Public Property SettingType As _NVDRS_SETTING_TYPE
+  overload: NVAPIWrapper.NVAPIDrsSettingDto.SettingType*
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.SettingLocation
+  commentId: P:NVAPIWrapper.NVAPIDrsSettingDto.SettingLocation
+  id: SettingLocation
+  parent: NVAPIWrapper.NVAPIDrsSettingDto
+  langs:
+  - csharp
+  - vb
+  name: SettingLocation
+  nameWithType: NVAPIDrsSettingDto.SettingLocation
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.SettingLocation
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SettingLocation
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 1677
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public _NVDRS_SETTING_LOCATION SettingLocation { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper._NVDRS_SETTING_LOCATION
+    content.vb: Public Property SettingLocation As _NVDRS_SETTING_LOCATION
+  overload: NVAPIWrapper.NVAPIDrsSettingDto.SettingLocation*
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.IsCurrentPredefined
+  commentId: P:NVAPIWrapper.NVAPIDrsSettingDto.IsCurrentPredefined
+  id: IsCurrentPredefined
+  parent: NVAPIWrapper.NVAPIDrsSettingDto
+  langs:
+  - csharp
+  - vb
+  name: IsCurrentPredefined
+  nameWithType: NVAPIDrsSettingDto.IsCurrentPredefined
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.IsCurrentPredefined
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: IsCurrentPredefined
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 1678
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public bool IsCurrentPredefined { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsCurrentPredefined As Boolean
+  overload: NVAPIWrapper.NVAPIDrsSettingDto.IsCurrentPredefined*
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.IsPredefinedValid
+  commentId: P:NVAPIWrapper.NVAPIDrsSettingDto.IsPredefinedValid
+  id: IsPredefinedValid
+  parent: NVAPIWrapper.NVAPIDrsSettingDto
+  langs:
+  - csharp
+  - vb
+  name: IsPredefinedValid
+  nameWithType: NVAPIDrsSettingDto.IsPredefinedValid
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.IsPredefinedValid
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: IsPredefinedValid
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 1679
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public bool IsPredefinedValid { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsPredefinedValid As Boolean
+  overload: NVAPIWrapper.NVAPIDrsSettingDto.IsPredefinedValid*
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.PredefinedDwordValue
+  commentId: P:NVAPIWrapper.NVAPIDrsSettingDto.PredefinedDwordValue
+  id: PredefinedDwordValue
+  parent: NVAPIWrapper.NVAPIDrsSettingDto
+  langs:
+  - csharp
+  - vb
+  name: PredefinedDwordValue
+  nameWithType: NVAPIDrsSettingDto.PredefinedDwordValue
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.PredefinedDwordValue
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PredefinedDwordValue
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 1681
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint? PredefinedDwordValue { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.UInt32}
+    content.vb: Public Property PredefinedDwordValue As UInteger?
+  overload: NVAPIWrapper.NVAPIDrsSettingDto.PredefinedDwordValue*
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.CurrentDwordValue
+  commentId: P:NVAPIWrapper.NVAPIDrsSettingDto.CurrentDwordValue
+  id: CurrentDwordValue
+  parent: NVAPIWrapper.NVAPIDrsSettingDto
+  langs:
+  - csharp
+  - vb
+  name: CurrentDwordValue
+  nameWithType: NVAPIDrsSettingDto.CurrentDwordValue
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.CurrentDwordValue
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CurrentDwordValue
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 1682
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint? CurrentDwordValue { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.UInt32}
+    content.vb: Public Property CurrentDwordValue As UInteger?
+  overload: NVAPIWrapper.NVAPIDrsSettingDto.CurrentDwordValue*
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.PredefinedStringValue
+  commentId: P:NVAPIWrapper.NVAPIDrsSettingDto.PredefinedStringValue
+  id: PredefinedStringValue
+  parent: NVAPIWrapper.NVAPIDrsSettingDto
+  langs:
+  - csharp
+  - vb
+  name: PredefinedStringValue
+  nameWithType: NVAPIDrsSettingDto.PredefinedStringValue
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.PredefinedStringValue
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PredefinedStringValue
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 1683
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public string PredefinedStringValue { readonly get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PredefinedStringValue As String
+  overload: NVAPIWrapper.NVAPIDrsSettingDto.PredefinedStringValue*
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.CurrentStringValue
+  commentId: P:NVAPIWrapper.NVAPIDrsSettingDto.CurrentStringValue
+  id: CurrentStringValue
+  parent: NVAPIWrapper.NVAPIDrsSettingDto
+  langs:
+  - csharp
+  - vb
+  name: CurrentStringValue
+  nameWithType: NVAPIDrsSettingDto.CurrentStringValue
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.CurrentStringValue
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CurrentStringValue
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 1684
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public string CurrentStringValue { readonly get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CurrentStringValue As String
+  overload: NVAPIWrapper.NVAPIDrsSettingDto.CurrentStringValue*
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.PredefinedBinaryValue
+  commentId: P:NVAPIWrapper.NVAPIDrsSettingDto.PredefinedBinaryValue
+  id: PredefinedBinaryValue
+  parent: NVAPIWrapper.NVAPIDrsSettingDto
+  langs:
+  - csharp
+  - vb
+  name: PredefinedBinaryValue
+  nameWithType: NVAPIDrsSettingDto.PredefinedBinaryValue
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.PredefinedBinaryValue
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PredefinedBinaryValue
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 1685
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte[] PredefinedBinaryValue { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PredefinedBinaryValue As Byte()
+  overload: NVAPIWrapper.NVAPIDrsSettingDto.PredefinedBinaryValue*
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.CurrentBinaryValue
+  commentId: P:NVAPIWrapper.NVAPIDrsSettingDto.CurrentBinaryValue
+  id: CurrentBinaryValue
+  parent: NVAPIWrapper.NVAPIDrsSettingDto
+  langs:
+  - csharp
+  - vb
+  name: CurrentBinaryValue
+  nameWithType: NVAPIDrsSettingDto.CurrentBinaryValue
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.CurrentBinaryValue
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CurrentBinaryValue
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 1686
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte[] CurrentBinaryValue { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property CurrentBinaryValue As Byte()
+  overload: NVAPIWrapper.NVAPIDrsSettingDto.CurrentBinaryValue*
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.#ctor(System.String,System.UInt32,NVAPIWrapper._NVDRS_SETTING_TYPE,NVAPIWrapper._NVDRS_SETTING_LOCATION,System.Boolean,System.Boolean,System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.String,System.String,System.Byte[],System.Byte[])
+  commentId: M:NVAPIWrapper.NVAPIDrsSettingDto.#ctor(System.String,System.UInt32,NVAPIWrapper._NVDRS_SETTING_TYPE,NVAPIWrapper._NVDRS_SETTING_LOCATION,System.Boolean,System.Boolean,System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.String,System.String,System.Byte[],System.Byte[])
+  id: '#ctor(System.String,System.UInt32,NVAPIWrapper._NVDRS_SETTING_TYPE,NVAPIWrapper._NVDRS_SETTING_LOCATION,System.Boolean,System.Boolean,System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.String,System.String,System.Byte[],System.Byte[])'
+  parent: NVAPIWrapper.NVAPIDrsSettingDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIDrsSettingDto(string, uint, _NVDRS_SETTING_TYPE, _NVDRS_SETTING_LOCATION, bool, bool, uint?, uint?, string?, string?, byte[]?, byte[]?)
+  nameWithType: NVAPIDrsSettingDto.NVAPIDrsSettingDto(string, uint, _NVDRS_SETTING_TYPE, _NVDRS_SETTING_LOCATION, bool, bool, uint?, uint?, string?, string?, byte[]?, byte[]?)
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.NVAPIDrsSettingDto(string, uint, NVAPIWrapper._NVDRS_SETTING_TYPE, NVAPIWrapper._NVDRS_SETTING_LOCATION, bool, bool, uint?, uint?, string?, string?, byte[]?, byte[]?)
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 1703
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a DRS setting DTO.
+  example: []
+  syntax:
+    content: public NVAPIDrsSettingDto(string settingName, uint settingId, _NVDRS_SETTING_TYPE settingType, _NVDRS_SETTING_LOCATION settingLocation, bool isCurrentPredefined, bool isPredefinedValid, uint? predefinedDwordValue, uint? currentDwordValue, string? predefinedStringValue, string? currentStringValue, byte[]? predefinedBinaryValue, byte[]? currentBinaryValue)
+    parameters:
+    - id: settingName
+      type: System.String
+      description: Setting name.
+    - id: settingId
+      type: System.UInt32
+      description: Setting identifier.
+    - id: settingType
+      type: NVAPIWrapper._NVDRS_SETTING_TYPE
+      description: Setting type.
+    - id: settingLocation
+      type: NVAPIWrapper._NVDRS_SETTING_LOCATION
+      description: Setting location.
+    - id: isCurrentPredefined
+      type: System.Boolean
+      description: Whether the current value is predefined.
+    - id: isPredefinedValid
+      type: System.Boolean
+      description: Whether the predefined value is valid.
+    - id: predefinedDwordValue
+      type: System.Nullable{System.UInt32}
+      description: Predefined DWORD value.
+    - id: currentDwordValue
+      type: System.Nullable{System.UInt32}
+      description: Current DWORD value.
+    - id: predefinedStringValue
+      type: System.String
+      description: Predefined string value. Null is treated as empty string.
+    - id: currentStringValue
+      type: System.String
+      description: Current string value. Null is treated as empty string.
+    - id: predefinedBinaryValue
+      type: System.Byte[]
+      description: Predefined binary value. Null is treated as an empty array.
+    - id: currentBinaryValue
+      type: System.Byte[]
+      description: Current binary value. Null is treated as an empty array.
+    content.vb: Public Sub New(settingName As String, settingId As UInteger, settingType As _NVDRS_SETTING_TYPE, settingLocation As _NVDRS_SETTING_LOCATION, isCurrentPredefined As Boolean, isPredefinedValid As Boolean, predefinedDwordValue As UInteger?, currentDwordValue As UInteger?, predefinedStringValue As String, currentStringValue As String, predefinedBinaryValue As Byte(), currentBinaryValue As Byte())
+  overload: NVAPIWrapper.NVAPIDrsSettingDto.#ctor*
+  nameWithType.vb: NVAPIDrsSettingDto.New(String, UInteger, _NVDRS_SETTING_TYPE, _NVDRS_SETTING_LOCATION, Boolean, Boolean, UInteger?, UInteger?, String, String, Byte(), Byte())
+  fullName.vb: NVAPIWrapper.NVAPIDrsSettingDto.New(String, UInteger, NVAPIWrapper._NVDRS_SETTING_TYPE, NVAPIWrapper._NVDRS_SETTING_LOCATION, Boolean, Boolean, UInteger?, UInteger?, String, String, Byte(), Byte())
+  name.vb: New(String, UInteger, _NVDRS_SETTING_TYPE, _NVDRS_SETTING_LOCATION, Boolean, Boolean, UInteger?, UInteger?, String, String, Byte(), Byte())
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.CreateDword(System.UInt32,System.UInt32,System.Nullable{System.UInt32},System.String,NVAPIWrapper._NVDRS_SETTING_LOCATION,System.Boolean,System.Boolean)
+  commentId: M:NVAPIWrapper.NVAPIDrsSettingDto.CreateDword(System.UInt32,System.UInt32,System.Nullable{System.UInt32},System.String,NVAPIWrapper._NVDRS_SETTING_LOCATION,System.Boolean,System.Boolean)
+  id: CreateDword(System.UInt32,System.UInt32,System.Nullable{System.UInt32},System.String,NVAPIWrapper._NVDRS_SETTING_LOCATION,System.Boolean,System.Boolean)
+  parent: NVAPIWrapper.NVAPIDrsSettingDto
+  langs:
+  - csharp
+  - vb
+  name: CreateDword(uint, uint, uint?, string?, _NVDRS_SETTING_LOCATION, bool, bool)
+  nameWithType: NVAPIDrsSettingDto.CreateDword(uint, uint, uint?, string?, _NVDRS_SETTING_LOCATION, bool, bool)
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.CreateDword(uint, uint, uint?, string?, NVAPIWrapper._NVDRS_SETTING_LOCATION, bool, bool)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CreateDword
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 1742
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a DWORD DRS setting DTO.
+  example: []
+  syntax:
+    content: public static NVAPIDrsSettingDto CreateDword(uint settingId, uint currentValue, uint? predefinedValue = null, string? settingName = null, _NVDRS_SETTING_LOCATION location = _NVDRS_SETTING_LOCATION.NVDRS_CURRENT_PROFILE_LOCATION, bool isCurrentPredefined = false, bool isPredefinedValid = false)
+    parameters:
+    - id: settingId
+      type: System.UInt32
+      description: Setting identifier.
+    - id: currentValue
+      type: System.UInt32
+      description: Current DWORD value.
+    - id: predefinedValue
+      type: System.Nullable{System.UInt32}
+      description: Predefined DWORD value.
+    - id: settingName
+      type: System.String
+      description: Setting name.
+    - id: location
+      type: NVAPIWrapper._NVDRS_SETTING_LOCATION
+      description: Setting location.
+    - id: isCurrentPredefined
+      type: System.Boolean
+      description: Whether the current value is predefined.
+    - id: isPredefinedValid
+      type: System.Boolean
+      description: Whether the predefined value is valid.
+    return:
+      type: NVAPIWrapper.NVAPIDrsSettingDto
+      description: DRS setting DTO.
+    content.vb: Public Shared Function CreateDword(settingId As UInteger, currentValue As UInteger, predefinedValue As UInteger? = Nothing, settingName As String = Nothing, location As _NVDRS_SETTING_LOCATION = _NVDRS_SETTING_LOCATION.NVDRS_CURRENT_PROFILE_LOCATION, isCurrentPredefined As Boolean = False, isPredefinedValid As Boolean = False) As NVAPIDrsSettingDto
+  overload: NVAPIWrapper.NVAPIDrsSettingDto.CreateDword*
+  nameWithType.vb: NVAPIDrsSettingDto.CreateDword(UInteger, UInteger, UInteger?, String, _NVDRS_SETTING_LOCATION, Boolean, Boolean)
+  fullName.vb: NVAPIWrapper.NVAPIDrsSettingDto.CreateDword(UInteger, UInteger, UInteger?, String, NVAPIWrapper._NVDRS_SETTING_LOCATION, Boolean, Boolean)
+  name.vb: CreateDword(UInteger, UInteger, UInteger?, String, _NVDRS_SETTING_LOCATION, Boolean, Boolean)
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.CreateString(System.UInt32,System.String,System.String,System.String,NVAPIWrapper._NVDRS_SETTING_LOCATION,System.Boolean,System.Boolean)
+  commentId: M:NVAPIWrapper.NVAPIDrsSettingDto.CreateString(System.UInt32,System.String,System.String,System.String,NVAPIWrapper._NVDRS_SETTING_LOCATION,System.Boolean,System.Boolean)
+  id: CreateString(System.UInt32,System.String,System.String,System.String,NVAPIWrapper._NVDRS_SETTING_LOCATION,System.Boolean,System.Boolean)
+  parent: NVAPIWrapper.NVAPIDrsSettingDto
+  langs:
+  - csharp
+  - vb
+  name: CreateString(uint, string, string?, string?, _NVDRS_SETTING_LOCATION, bool, bool)
+  nameWithType: NVAPIDrsSettingDto.CreateString(uint, string, string?, string?, _NVDRS_SETTING_LOCATION, bool, bool)
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.CreateString(uint, string, string?, string?, NVAPIWrapper._NVDRS_SETTING_LOCATION, bool, bool)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CreateString
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 1777
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a string DRS setting DTO.
+  example: []
+  syntax:
+    content: public static NVAPIDrsSettingDto CreateString(uint settingId, string currentValue, string? predefinedValue = null, string? settingName = null, _NVDRS_SETTING_LOCATION location = _NVDRS_SETTING_LOCATION.NVDRS_CURRENT_PROFILE_LOCATION, bool isCurrentPredefined = false, bool isPredefinedValid = false)
+    parameters:
+    - id: settingId
+      type: System.UInt32
+      description: Setting identifier.
+    - id: currentValue
+      type: System.String
+      description: Current string value.
+    - id: predefinedValue
+      type: System.String
+      description: Predefined string value.
+    - id: settingName
+      type: System.String
+      description: Setting name.
+    - id: location
+      type: NVAPIWrapper._NVDRS_SETTING_LOCATION
+      description: Setting location.
+    - id: isCurrentPredefined
+      type: System.Boolean
+      description: Whether the current value is predefined.
+    - id: isPredefinedValid
+      type: System.Boolean
+      description: Whether the predefined value is valid.
+    return:
+      type: NVAPIWrapper.NVAPIDrsSettingDto
+      description: DRS setting DTO.
+    content.vb: Public Shared Function CreateString(settingId As UInteger, currentValue As String, predefinedValue As String = Nothing, settingName As String = Nothing, location As _NVDRS_SETTING_LOCATION = _NVDRS_SETTING_LOCATION.NVDRS_CURRENT_PROFILE_LOCATION, isCurrentPredefined As Boolean = False, isPredefinedValid As Boolean = False) As NVAPIDrsSettingDto
+  overload: NVAPIWrapper.NVAPIDrsSettingDto.CreateString*
+  nameWithType.vb: NVAPIDrsSettingDto.CreateString(UInteger, String, String, String, _NVDRS_SETTING_LOCATION, Boolean, Boolean)
+  fullName.vb: NVAPIWrapper.NVAPIDrsSettingDto.CreateString(UInteger, String, String, String, NVAPIWrapper._NVDRS_SETTING_LOCATION, Boolean, Boolean)
+  name.vb: CreateString(UInteger, String, String, String, _NVDRS_SETTING_LOCATION, Boolean, Boolean)
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.CreateWString(System.UInt32,System.String,System.String,System.String,NVAPIWrapper._NVDRS_SETTING_LOCATION,System.Boolean,System.Boolean)
+  commentId: M:NVAPIWrapper.NVAPIDrsSettingDto.CreateWString(System.UInt32,System.String,System.String,System.String,NVAPIWrapper._NVDRS_SETTING_LOCATION,System.Boolean,System.Boolean)
+  id: CreateWString(System.UInt32,System.String,System.String,System.String,NVAPIWrapper._NVDRS_SETTING_LOCATION,System.Boolean,System.Boolean)
+  parent: NVAPIWrapper.NVAPIDrsSettingDto
+  langs:
+  - csharp
+  - vb
+  name: CreateWString(uint, string, string?, string?, _NVDRS_SETTING_LOCATION, bool, bool)
+  nameWithType: NVAPIDrsSettingDto.CreateWString(uint, string, string?, string?, _NVDRS_SETTING_LOCATION, bool, bool)
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.CreateWString(uint, string, string?, string?, NVAPIWrapper._NVDRS_SETTING_LOCATION, bool, bool)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CreateWString
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 1812
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a wide-string DRS setting DTO.
+  example: []
+  syntax:
+    content: public static NVAPIDrsSettingDto CreateWString(uint settingId, string currentValue, string? predefinedValue = null, string? settingName = null, _NVDRS_SETTING_LOCATION location = _NVDRS_SETTING_LOCATION.NVDRS_CURRENT_PROFILE_LOCATION, bool isCurrentPredefined = false, bool isPredefinedValid = false)
+    parameters:
+    - id: settingId
+      type: System.UInt32
+      description: Setting identifier.
+    - id: currentValue
+      type: System.String
+      description: Current string value.
+    - id: predefinedValue
+      type: System.String
+      description: Predefined string value.
+    - id: settingName
+      type: System.String
+      description: Setting name.
+    - id: location
+      type: NVAPIWrapper._NVDRS_SETTING_LOCATION
+      description: Setting location.
+    - id: isCurrentPredefined
+      type: System.Boolean
+      description: Whether the current value is predefined.
+    - id: isPredefinedValid
+      type: System.Boolean
+      description: Whether the predefined value is valid.
+    return:
+      type: NVAPIWrapper.NVAPIDrsSettingDto
+      description: DRS setting DTO.
+    content.vb: Public Shared Function CreateWString(settingId As UInteger, currentValue As String, predefinedValue As String = Nothing, settingName As String = Nothing, location As _NVDRS_SETTING_LOCATION = _NVDRS_SETTING_LOCATION.NVDRS_CURRENT_PROFILE_LOCATION, isCurrentPredefined As Boolean = False, isPredefinedValid As Boolean = False) As NVAPIDrsSettingDto
+  overload: NVAPIWrapper.NVAPIDrsSettingDto.CreateWString*
+  nameWithType.vb: NVAPIDrsSettingDto.CreateWString(UInteger, String, String, String, _NVDRS_SETTING_LOCATION, Boolean, Boolean)
+  fullName.vb: NVAPIWrapper.NVAPIDrsSettingDto.CreateWString(UInteger, String, String, String, NVAPIWrapper._NVDRS_SETTING_LOCATION, Boolean, Boolean)
+  name.vb: CreateWString(UInteger, String, String, String, _NVDRS_SETTING_LOCATION, Boolean, Boolean)
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.CreateBinary(System.UInt32,System.Byte[],System.Byte[],System.String,NVAPIWrapper._NVDRS_SETTING_LOCATION,System.Boolean,System.Boolean)
+  commentId: M:NVAPIWrapper.NVAPIDrsSettingDto.CreateBinary(System.UInt32,System.Byte[],System.Byte[],System.String,NVAPIWrapper._NVDRS_SETTING_LOCATION,System.Boolean,System.Boolean)
+  id: CreateBinary(System.UInt32,System.Byte[],System.Byte[],System.String,NVAPIWrapper._NVDRS_SETTING_LOCATION,System.Boolean,System.Boolean)
+  parent: NVAPIWrapper.NVAPIDrsSettingDto
+  langs:
+  - csharp
+  - vb
+  name: CreateBinary(uint, byte[], byte[]?, string?, _NVDRS_SETTING_LOCATION, bool, bool)
+  nameWithType: NVAPIDrsSettingDto.CreateBinary(uint, byte[], byte[]?, string?, _NVDRS_SETTING_LOCATION, bool, bool)
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.CreateBinary(uint, byte[], byte[]?, string?, NVAPIWrapper._NVDRS_SETTING_LOCATION, bool, bool)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CreateBinary
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 1847
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a binary DRS setting DTO.
+  example: []
+  syntax:
+    content: public static NVAPIDrsSettingDto CreateBinary(uint settingId, byte[] currentValue, byte[]? predefinedValue = null, string? settingName = null, _NVDRS_SETTING_LOCATION location = _NVDRS_SETTING_LOCATION.NVDRS_CURRENT_PROFILE_LOCATION, bool isCurrentPredefined = false, bool isPredefinedValid = false)
+    parameters:
+    - id: settingId
+      type: System.UInt32
+      description: Setting identifier.
+    - id: currentValue
+      type: System.Byte[]
+      description: Current binary value.
+    - id: predefinedValue
+      type: System.Byte[]
+      description: Predefined binary value.
+    - id: settingName
+      type: System.String
+      description: Setting name.
+    - id: location
+      type: NVAPIWrapper._NVDRS_SETTING_LOCATION
+      description: Setting location.
+    - id: isCurrentPredefined
+      type: System.Boolean
+      description: Whether the current value is predefined.
+    - id: isPredefinedValid
+      type: System.Boolean
+      description: Whether the predefined value is valid.
+    return:
+      type: NVAPIWrapper.NVAPIDrsSettingDto
+      description: DRS setting DTO.
+    content.vb: Public Shared Function CreateBinary(settingId As UInteger, currentValue As Byte(), predefinedValue As Byte() = Nothing, settingName As String = Nothing, location As _NVDRS_SETTING_LOCATION = _NVDRS_SETTING_LOCATION.NVDRS_CURRENT_PROFILE_LOCATION, isCurrentPredefined As Boolean = False, isPredefinedValid As Boolean = False) As NVAPIDrsSettingDto
+  overload: NVAPIWrapper.NVAPIDrsSettingDto.CreateBinary*
+  nameWithType.vb: NVAPIDrsSettingDto.CreateBinary(UInteger, Byte(), Byte(), String, _NVDRS_SETTING_LOCATION, Boolean, Boolean)
+  fullName.vb: NVAPIWrapper.NVAPIDrsSettingDto.CreateBinary(UInteger, Byte(), Byte(), String, NVAPIWrapper._NVDRS_SETTING_LOCATION, Boolean, Boolean)
+  name.vb: CreateBinary(UInteger, Byte(), Byte(), String, _NVDRS_SETTING_LOCATION, Boolean, Boolean)
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.FromNative(NVAPIWrapper._NVDRS_SETTING_V1)
+  commentId: M:NVAPIWrapper.NVAPIDrsSettingDto.FromNative(NVAPIWrapper._NVDRS_SETTING_V1)
+  id: FromNative(NVAPIWrapper._NVDRS_SETTING_V1)
+  parent: NVAPIWrapper.NVAPIDrsSettingDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(_NVDRS_SETTING_V1)
+  nameWithType: NVAPIDrsSettingDto.FromNative(_NVDRS_SETTING_V1)
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.FromNative(NVAPIWrapper._NVDRS_SETTING_V1)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 1876
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a DRS setting DTO from native setting data.
+  example: []
+  syntax:
+    content: public static NVAPIDrsSettingDto FromNative(_NVDRS_SETTING_V1 native)
+    parameters:
+    - id: native
+      type: NVAPIWrapper._NVDRS_SETTING_V1
+      description: Native setting data.
+    return:
+      type: NVAPIWrapper.NVAPIDrsSettingDto
+      description: DRS setting DTO.
+    content.vb: Public Shared Function FromNative(native As _NVDRS_SETTING_V1) As NVAPIDrsSettingDto
+  overload: NVAPIWrapper.NVAPIDrsSettingDto.FromNative*
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.ToNative
+  commentId: M:NVAPIWrapper.NVAPIDrsSettingDto.ToNative
+  id: ToNative
+  parent: NVAPIWrapper.NVAPIDrsSettingDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: NVAPIDrsSettingDto.ToNative()
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 1924
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Convert this DTO to native setting data.
+  example: []
+  syntax:
+    content: public _NVDRS_SETTING_V1 ToNative()
+    return:
+      type: NVAPIWrapper._NVDRS_SETTING_V1
+      description: Native setting data.
+    content.vb: Public Function ToNative() As _NVDRS_SETTING_V1
+  overload: NVAPIWrapper.NVAPIDrsSettingDto.ToNative*
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.Equals(NVAPIWrapper.NVAPIDrsSettingDto)
+  commentId: M:NVAPIWrapper.NVAPIDrsSettingDto.Equals(NVAPIWrapper.NVAPIDrsSettingDto)
+  id: Equals(NVAPIWrapper.NVAPIDrsSettingDto)
+  parent: NVAPIWrapper.NVAPIDrsSettingDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIDrsSettingDto)
+  nameWithType: NVAPIDrsSettingDto.Equals(NVAPIDrsSettingDto)
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.Equals(NVAPIWrapper.NVAPIDrsSettingDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 1961
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether this instance equals another DRS setting DTO.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIDrsSettingDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIDrsSettingDto
+      description: The other DTO to compare.
+    return:
+      type: System.Boolean
+      description: True if the DTOs are equal; otherwise false.
+    content.vb: Public Function Equals(other As NVAPIDrsSettingDto) As Boolean
+  overload: NVAPIWrapper.NVAPIDrsSettingDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIDrsSettingDto}.Equals(NVAPIWrapper.NVAPIDrsSettingDto)
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIDrsSettingDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIDrsSettingDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIDrsSettingDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 1982
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether this instance equals another object.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare.
+    return:
+      type: System.Boolean
+      description: True if the object is an equivalent DTO; otherwise false.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIDrsSettingDto.Equals*
+  nameWithType.vb: NVAPIDrsSettingDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIDrsSettingDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIDrsSettingDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIDrsSettingDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIDrsSettingDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 1988
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Get a hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: Hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIDrsSettingDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.op_Equality(NVAPIWrapper.NVAPIDrsSettingDto,NVAPIWrapper.NVAPIDrsSettingDto)
+  commentId: M:NVAPIWrapper.NVAPIDrsSettingDto.op_Equality(NVAPIWrapper.NVAPIDrsSettingDto,NVAPIWrapper.NVAPIDrsSettingDto)
+  id: op_Equality(NVAPIWrapper.NVAPIDrsSettingDto,NVAPIWrapper.NVAPIDrsSettingDto)
+  parent: NVAPIWrapper.NVAPIDrsSettingDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIDrsSettingDto, NVAPIDrsSettingDto)
+  nameWithType: NVAPIDrsSettingDto.operator ==(NVAPIDrsSettingDto, NVAPIDrsSettingDto)
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.operator ==(NVAPIWrapper.NVAPIDrsSettingDto, NVAPIWrapper.NVAPIDrsSettingDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 2014
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether two DRS setting DTOs are equal.
+  example: []
+  syntax:
+    content: public static bool operator ==(NVAPIDrsSettingDto left, NVAPIDrsSettingDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIDrsSettingDto
+      description: Left DTO.
+    - id: right
+      type: NVAPIWrapper.NVAPIDrsSettingDto
+      description: Right DTO.
+    return:
+      type: System.Boolean
+      description: True if the DTOs are equal; otherwise false.
+    content.vb: Public Shared Operator =(left As NVAPIDrsSettingDto, right As NVAPIDrsSettingDto) As Boolean
+  overload: NVAPIWrapper.NVAPIDrsSettingDto.op_Equality*
+  nameWithType.vb: NVAPIDrsSettingDto.=(NVAPIDrsSettingDto, NVAPIDrsSettingDto)
+  fullName.vb: NVAPIWrapper.NVAPIDrsSettingDto.=(NVAPIWrapper.NVAPIDrsSettingDto, NVAPIWrapper.NVAPIDrsSettingDto)
+  name.vb: =(NVAPIDrsSettingDto, NVAPIDrsSettingDto)
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.op_Inequality(NVAPIWrapper.NVAPIDrsSettingDto,NVAPIWrapper.NVAPIDrsSettingDto)
+  commentId: M:NVAPIWrapper.NVAPIDrsSettingDto.op_Inequality(NVAPIWrapper.NVAPIDrsSettingDto,NVAPIWrapper.NVAPIDrsSettingDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIDrsSettingDto,NVAPIWrapper.NVAPIDrsSettingDto)
+  parent: NVAPIWrapper.NVAPIDrsSettingDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIDrsSettingDto, NVAPIDrsSettingDto)
+  nameWithType: NVAPIDrsSettingDto.operator !=(NVAPIDrsSettingDto, NVAPIDrsSettingDto)
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.operator !=(NVAPIWrapper.NVAPIDrsSettingDto, NVAPIWrapper.NVAPIDrsSettingDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDrsHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIDrsHelper.cs
+    startLine: 2022
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Determine whether two DRS setting DTOs are not equal.
+  example: []
+  syntax:
+    content: public static bool operator !=(NVAPIDrsSettingDto left, NVAPIDrsSettingDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIDrsSettingDto
+      description: Left DTO.
+    - id: right
+      type: NVAPIWrapper.NVAPIDrsSettingDto
+      description: Right DTO.
+    return:
+      type: System.Boolean
+      description: True if the DTOs are not equal; otherwise false.
+    content.vb: Public Shared Operator <>(left As NVAPIDrsSettingDto, right As NVAPIDrsSettingDto) As Boolean
+  overload: NVAPIWrapper.NVAPIDrsSettingDto.op_Inequality*
+  nameWithType.vb: NVAPIDrsSettingDto.<>(NVAPIDrsSettingDto, NVAPIDrsSettingDto)
+  fullName.vb: NVAPIWrapper.NVAPIDrsSettingDto.<>(NVAPIWrapper.NVAPIDrsSettingDto, NVAPIWrapper.NVAPIDrsSettingDto)
+  name.vb: <>(NVAPIDrsSettingDto, NVAPIDrsSettingDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIDrsSettingDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIDrsSettingDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIDrsSettingDto>
+  nameWithType: IEquatable<NVAPIDrsSettingDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIDrsSettingDto>
+  nameWithType.vb: IEquatable(Of NVAPIDrsSettingDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIDrsSettingDto)
+  name.vb: IEquatable(Of NVAPIDrsSettingDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIDrsSettingDto
+    name: NVAPIDrsSettingDto
+    href: NVAPIWrapper.NVAPIDrsSettingDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIDrsSettingDto
+    name: NVAPIDrsSettingDto
+    href: NVAPIWrapper.NVAPIDrsSettingDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.SettingName*
+  commentId: Overload:NVAPIWrapper.NVAPIDrsSettingDto.SettingName
+  href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto_SettingName
+  name: SettingName
+  nameWithType: NVAPIDrsSettingDto.SettingName
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.SettingName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.SettingId*
+  commentId: Overload:NVAPIWrapper.NVAPIDrsSettingDto.SettingId
+  href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto_SettingId
+  name: SettingId
+  nameWithType: NVAPIDrsSettingDto.SettingId
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.SettingId
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.SettingType*
+  commentId: Overload:NVAPIWrapper.NVAPIDrsSettingDto.SettingType
+  href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto_SettingType
+  name: SettingType
+  nameWithType: NVAPIDrsSettingDto.SettingType
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.SettingType
+- uid: NVAPIWrapper._NVDRS_SETTING_TYPE
+  commentId: T:NVAPIWrapper._NVDRS_SETTING_TYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVDRS_SETTING_TYPE.html
+  name: _NVDRS_SETTING_TYPE
+  nameWithType: _NVDRS_SETTING_TYPE
+  fullName: NVAPIWrapper._NVDRS_SETTING_TYPE
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.SettingLocation*
+  commentId: Overload:NVAPIWrapper.NVAPIDrsSettingDto.SettingLocation
+  href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto_SettingLocation
+  name: SettingLocation
+  nameWithType: NVAPIDrsSettingDto.SettingLocation
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.SettingLocation
+- uid: NVAPIWrapper._NVDRS_SETTING_LOCATION
+  commentId: T:NVAPIWrapper._NVDRS_SETTING_LOCATION
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVDRS_SETTING_LOCATION.html
+  name: _NVDRS_SETTING_LOCATION
+  nameWithType: _NVDRS_SETTING_LOCATION
+  fullName: NVAPIWrapper._NVDRS_SETTING_LOCATION
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.IsCurrentPredefined*
+  commentId: Overload:NVAPIWrapper.NVAPIDrsSettingDto.IsCurrentPredefined
+  href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto_IsCurrentPredefined
+  name: IsCurrentPredefined
+  nameWithType: NVAPIDrsSettingDto.IsCurrentPredefined
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.IsCurrentPredefined
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.IsPredefinedValid*
+  commentId: Overload:NVAPIWrapper.NVAPIDrsSettingDto.IsPredefinedValid
+  href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto_IsPredefinedValid
+  name: IsPredefinedValid
+  nameWithType: NVAPIDrsSettingDto.IsPredefinedValid
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.IsPredefinedValid
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.PredefinedDwordValue*
+  commentId: Overload:NVAPIWrapper.NVAPIDrsSettingDto.PredefinedDwordValue
+  href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto_PredefinedDwordValue
+  name: PredefinedDwordValue
+  nameWithType: NVAPIDrsSettingDto.PredefinedDwordValue
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.PredefinedDwordValue
+- uid: System.Nullable{System.UInt32}
+  commentId: T:System.Nullable{System.UInt32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint?
+  nameWithType: uint?
+  fullName: uint?
+  nameWithType.vb: UInteger?
+  fullName.vb: UInteger?
+  name.vb: UInteger?
+  spec.csharp:
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: '?'
+  spec.vb:
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.CurrentDwordValue*
+  commentId: Overload:NVAPIWrapper.NVAPIDrsSettingDto.CurrentDwordValue
+  href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto_CurrentDwordValue
+  name: CurrentDwordValue
+  nameWithType: NVAPIDrsSettingDto.CurrentDwordValue
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.CurrentDwordValue
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.PredefinedStringValue*
+  commentId: Overload:NVAPIWrapper.NVAPIDrsSettingDto.PredefinedStringValue
+  href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto_PredefinedStringValue
+  name: PredefinedStringValue
+  nameWithType: NVAPIDrsSettingDto.PredefinedStringValue
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.PredefinedStringValue
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.CurrentStringValue*
+  commentId: Overload:NVAPIWrapper.NVAPIDrsSettingDto.CurrentStringValue
+  href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto_CurrentStringValue
+  name: CurrentStringValue
+  nameWithType: NVAPIDrsSettingDto.CurrentStringValue
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.CurrentStringValue
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.PredefinedBinaryValue*
+  commentId: Overload:NVAPIWrapper.NVAPIDrsSettingDto.PredefinedBinaryValue
+  href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto_PredefinedBinaryValue
+  name: PredefinedBinaryValue
+  nameWithType: NVAPIDrsSettingDto.PredefinedBinaryValue
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.PredefinedBinaryValue
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.CurrentBinaryValue*
+  commentId: Overload:NVAPIWrapper.NVAPIDrsSettingDto.CurrentBinaryValue
+  href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto_CurrentBinaryValue
+  name: CurrentBinaryValue
+  nameWithType: NVAPIDrsSettingDto.CurrentBinaryValue
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.CurrentBinaryValue
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIDrsSettingDto.#ctor
+  href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto__ctor_System_String_System_UInt32_NVAPIWrapper__NVDRS_SETTING_TYPE_NVAPIWrapper__NVDRS_SETTING_LOCATION_System_Boolean_System_Boolean_System_Nullable_System_UInt32__System_Nullable_System_UInt32__System_String_System_String_System_Byte___System_Byte___
+  name: NVAPIDrsSettingDto
+  nameWithType: NVAPIDrsSettingDto.NVAPIDrsSettingDto
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.NVAPIDrsSettingDto
+  nameWithType.vb: NVAPIDrsSettingDto.New
+  fullName.vb: NVAPIWrapper.NVAPIDrsSettingDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.CreateDword*
+  commentId: Overload:NVAPIWrapper.NVAPIDrsSettingDto.CreateDword
+  href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto_CreateDword_System_UInt32_System_UInt32_System_Nullable_System_UInt32__System_String_NVAPIWrapper__NVDRS_SETTING_LOCATION_System_Boolean_System_Boolean_
+  name: CreateDword
+  nameWithType: NVAPIDrsSettingDto.CreateDword
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.CreateDword
+- uid: NVAPIWrapper.NVAPIDrsSettingDto
+  commentId: T:NVAPIWrapper.NVAPIDrsSettingDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIDrsSettingDto.html
+  name: NVAPIDrsSettingDto
+  nameWithType: NVAPIDrsSettingDto
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.CreateString*
+  commentId: Overload:NVAPIWrapper.NVAPIDrsSettingDto.CreateString
+  href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto_CreateString_System_UInt32_System_String_System_String_System_String_NVAPIWrapper__NVDRS_SETTING_LOCATION_System_Boolean_System_Boolean_
+  name: CreateString
+  nameWithType: NVAPIDrsSettingDto.CreateString
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.CreateString
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.CreateWString*
+  commentId: Overload:NVAPIWrapper.NVAPIDrsSettingDto.CreateWString
+  href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto_CreateWString_System_UInt32_System_String_System_String_System_String_NVAPIWrapper__NVDRS_SETTING_LOCATION_System_Boolean_System_Boolean_
+  name: CreateWString
+  nameWithType: NVAPIDrsSettingDto.CreateWString
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.CreateWString
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.CreateBinary*
+  commentId: Overload:NVAPIWrapper.NVAPIDrsSettingDto.CreateBinary
+  href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto_CreateBinary_System_UInt32_System_Byte___System_Byte___System_String_NVAPIWrapper__NVDRS_SETTING_LOCATION_System_Boolean_System_Boolean_
+  name: CreateBinary
+  nameWithType: NVAPIDrsSettingDto.CreateBinary
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.CreateBinary
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPIDrsSettingDto.FromNative
+  href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto_FromNative_NVAPIWrapper__NVDRS_SETTING_V1_
+  name: FromNative
+  nameWithType: NVAPIDrsSettingDto.FromNative
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.FromNative
+- uid: NVAPIWrapper._NVDRS_SETTING_V1
+  commentId: T:NVAPIWrapper._NVDRS_SETTING_V1
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVDRS_SETTING_V1.html
+  name: _NVDRS_SETTING_V1
+  nameWithType: _NVDRS_SETTING_V1
+  fullName: NVAPIWrapper._NVDRS_SETTING_V1
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPIDrsSettingDto.ToNative
+  href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto_ToNative
+  name: ToNative
+  nameWithType: NVAPIDrsSettingDto.ToNative
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.ToNative
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIDrsSettingDto.Equals
+  href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto_Equals_NVAPIWrapper_NVAPIDrsSettingDto_
+  name: Equals
+  nameWithType: NVAPIDrsSettingDto.Equals
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIDrsSettingDto}.Equals(NVAPIWrapper.NVAPIDrsSettingDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIDrsSettingDto}.Equals(NVAPIWrapper.NVAPIDrsSettingDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIDrsSettingDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIDrsSettingDto)
+  nameWithType: IEquatable<NVAPIDrsSettingDto>.Equals(NVAPIDrsSettingDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIDrsSettingDto>.Equals(NVAPIWrapper.NVAPIDrsSettingDto)
+  nameWithType.vb: IEquatable(Of NVAPIDrsSettingDto).Equals(NVAPIDrsSettingDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIDrsSettingDto).Equals(NVAPIWrapper.NVAPIDrsSettingDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIDrsSettingDto}.Equals(NVAPIWrapper.NVAPIDrsSettingDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIDrsSettingDto
+    name: NVAPIDrsSettingDto
+    href: NVAPIWrapper.NVAPIDrsSettingDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIDrsSettingDto}.Equals(NVAPIWrapper.NVAPIDrsSettingDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIDrsSettingDto
+    name: NVAPIDrsSettingDto
+    href: NVAPIWrapper.NVAPIDrsSettingDto.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIDrsSettingDto.GetHashCode
+  href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIDrsSettingDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIDrsSettingDto.op_Equality
+  href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto_op_Equality_NVAPIWrapper_NVAPIDrsSettingDto_NVAPIWrapper_NVAPIDrsSettingDto_
+  name: operator ==
+  nameWithType: NVAPIDrsSettingDto.operator ==
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.operator ==
+  nameWithType.vb: NVAPIDrsSettingDto.=
+  fullName.vb: NVAPIWrapper.NVAPIDrsSettingDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIDrsSettingDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto_op_Equality_NVAPIWrapper_NVAPIDrsSettingDto_NVAPIWrapper_NVAPIDrsSettingDto_
+- uid: NVAPIWrapper.NVAPIDrsSettingDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIDrsSettingDto.op_Inequality
+  href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto_op_Inequality_NVAPIWrapper_NVAPIDrsSettingDto_NVAPIWrapper_NVAPIDrsSettingDto_
+  name: operator !=
+  nameWithType: NVAPIDrsSettingDto.operator !=
+  fullName: NVAPIWrapper.NVAPIDrsSettingDto.operator !=
+  nameWithType.vb: NVAPIDrsSettingDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIDrsSettingDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIDrsSettingDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIDrsSettingDto.html#NVAPIWrapper_NVAPIDrsSettingDto_op_Inequality_NVAPIWrapper_NVAPIDrsSettingDto_NVAPIWrapper_NVAPIDrsSettingDto_

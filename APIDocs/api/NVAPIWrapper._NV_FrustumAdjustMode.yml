@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_FrustumAdjustMode
+  commentId: T:NVAPIWrapper._NV_FrustumAdjustMode
+  id: _NV_FrustumAdjustMode
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_FrustumAdjustMode.NVAPI_FRUSTUM_CLEAR_EDGES
+  - NVAPIWrapper._NV_FrustumAdjustMode.NVAPI_FRUSTUM_STRETCH
+  - NVAPIWrapper._NV_FrustumAdjustMode.NVAPI_NO_FRUSTUM_ADJUST
+  langs:
+  - csharp
+  - vb
+  name: _NV_FrustumAdjustMode
+  nameWithType: _NV_FrustumAdjustMode
+  fullName: NVAPIWrapper._NV_FrustumAdjustMode
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_FrustumAdjustMode.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_FrustumAdjustMode
+    path: ../NVAPIWrapper/cs_generated/_NV_FrustumAdjustMode.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_FrustumAdjustMode
+    content.vb: Public Enum _NV_FrustumAdjustMode
+- uid: NVAPIWrapper._NV_FrustumAdjustMode.NVAPI_NO_FRUSTUM_ADJUST
+  commentId: F:NVAPIWrapper._NV_FrustumAdjustMode.NVAPI_NO_FRUSTUM_ADJUST
+  id: NVAPI_NO_FRUSTUM_ADJUST
+  parent: NVAPIWrapper._NV_FrustumAdjustMode
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_NO_FRUSTUM_ADJUST
+  nameWithType: _NV_FrustumAdjustMode.NVAPI_NO_FRUSTUM_ADJUST
+  fullName: NVAPIWrapper._NV_FrustumAdjustMode.NVAPI_NO_FRUSTUM_ADJUST
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_FrustumAdjustMode.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_NO_FRUSTUM_ADJUST
+    path: ../NVAPIWrapper/cs_generated/_NV_FrustumAdjustMode.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_NO_FRUSTUM_ADJUST = 0
+    return:
+      type: NVAPIWrapper._NV_FrustumAdjustMode
+- uid: NVAPIWrapper._NV_FrustumAdjustMode.NVAPI_FRUSTUM_STRETCH
+  commentId: F:NVAPIWrapper._NV_FrustumAdjustMode.NVAPI_FRUSTUM_STRETCH
+  id: NVAPI_FRUSTUM_STRETCH
+  parent: NVAPIWrapper._NV_FrustumAdjustMode
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_FRUSTUM_STRETCH
+  nameWithType: _NV_FrustumAdjustMode.NVAPI_FRUSTUM_STRETCH
+  fullName: NVAPIWrapper._NV_FrustumAdjustMode.NVAPI_FRUSTUM_STRETCH
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_FrustumAdjustMode.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_FRUSTUM_STRETCH
+    path: ../NVAPIWrapper/cs_generated/_NV_FrustumAdjustMode.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_FRUSTUM_STRETCH = 1
+    return:
+      type: NVAPIWrapper._NV_FrustumAdjustMode
+- uid: NVAPIWrapper._NV_FrustumAdjustMode.NVAPI_FRUSTUM_CLEAR_EDGES
+  commentId: F:NVAPIWrapper._NV_FrustumAdjustMode.NVAPI_FRUSTUM_CLEAR_EDGES
+  id: NVAPI_FRUSTUM_CLEAR_EDGES
+  parent: NVAPIWrapper._NV_FrustumAdjustMode
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_FRUSTUM_CLEAR_EDGES
+  nameWithType: _NV_FrustumAdjustMode.NVAPI_FRUSTUM_CLEAR_EDGES
+  fullName: NVAPIWrapper._NV_FrustumAdjustMode.NVAPI_FRUSTUM_CLEAR_EDGES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_FrustumAdjustMode.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_FRUSTUM_CLEAR_EDGES
+    path: ../NVAPIWrapper/cs_generated/_NV_FrustumAdjustMode.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_FRUSTUM_CLEAR_EDGES = 2
+    return:
+      type: NVAPIWrapper._NV_FrustumAdjustMode
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_FrustumAdjustMode
+  commentId: T:NVAPIWrapper._NV_FrustumAdjustMode
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_FrustumAdjustMode.html
+  name: _NV_FrustumAdjustMode
+  nameWithType: _NV_FrustumAdjustMode
+  fullName: NVAPIWrapper._NV_FrustumAdjustMode

@@ -1,0 +1,988 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+  commentId: T:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+  id: NVAPIGpuUtilizationSampleCallbackSettingsDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.#ctor(System.IntPtr,System.UInt32,System.IntPtr,System.Byte[],System.Byte[],System.Byte[])
+  - NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Callback
+  - NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.CallbackParam
+  - NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.CallbackPeriodMs
+  - NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Equals(NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  - NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.GetHashCode
+  - NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.PeriodicReserved
+  - NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Reserved
+  - NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.SuperReserved
+  - NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.ToNative
+  - NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.op_Equality(NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto,NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  - NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.op_Inequality(NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto,NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGpuUtilizationSampleCallbackSettingsDto
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIGpuUtilizationSampleCallbackSettingsDto
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5920
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Utilization sample callback settings DTO.
+  example: []
+  syntax:
+    content: 'public struct NVAPIGpuUtilizationSampleCallbackSettingsDto : IEquatable<NVAPIGpuUtilizationSampleCallbackSettingsDto>'
+    content.vb: Public Structure NVAPIGpuUtilizationSampleCallbackSettingsDto Implements IEquatable(Of NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.CallbackParam
+  commentId: P:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.CallbackParam
+  id: CallbackParam
+  parent: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: CallbackParam
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.CallbackParam
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.CallbackParam
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CallbackParam
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5922
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public nint CallbackParam { readonly get; set; }
+    parameters: []
+    return:
+      type: System.IntPtr
+    content.vb: Public Property CallbackParam As IntPtr
+  overload: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.CallbackParam*
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.CallbackPeriodMs
+  commentId: P:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.CallbackPeriodMs
+  id: CallbackPeriodMs
+  parent: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: CallbackPeriodMs
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.CallbackPeriodMs
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.CallbackPeriodMs
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CallbackPeriodMs
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5923
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint CallbackPeriodMs { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property CallbackPeriodMs As UInteger
+  overload: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.CallbackPeriodMs*
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Callback
+  commentId: P:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Callback
+  id: Callback
+  parent: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: Callback
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.Callback
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Callback
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Callback
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5924
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public nint Callback { readonly get; set; }
+    parameters: []
+    return:
+      type: System.IntPtr
+    content.vb: Public Property Callback As IntPtr
+  overload: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Callback*
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.SuperReserved
+  commentId: P:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.SuperReserved
+  id: SuperReserved
+  parent: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: SuperReserved
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.SuperReserved
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.SuperReserved
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SuperReserved
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5925
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte[] SuperReserved { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property SuperReserved As Byte()
+  overload: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.SuperReserved*
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.PeriodicReserved
+  commentId: P:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.PeriodicReserved
+  id: PeriodicReserved
+  parent: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: PeriodicReserved
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.PeriodicReserved
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.PeriodicReserved
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PeriodicReserved
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5926
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte[] PeriodicReserved { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PeriodicReserved As Byte()
+  overload: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.PeriodicReserved*
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Reserved
+  commentId: P:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Reserved
+  id: Reserved
+  parent: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: Reserved
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.Reserved
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Reserved
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Reserved
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5927
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public byte[] Reserved { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Reserved As Byte()
+  overload: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Reserved*
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.#ctor(System.IntPtr,System.UInt32,System.IntPtr,System.Byte[],System.Byte[],System.Byte[])
+  commentId: M:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.#ctor(System.IntPtr,System.UInt32,System.IntPtr,System.Byte[],System.Byte[],System.Byte[])
+  id: '#ctor(System.IntPtr,System.UInt32,System.IntPtr,System.Byte[],System.Byte[],System.Byte[])'
+  parent: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGpuUtilizationSampleCallbackSettingsDto(nint, uint, nint, byte[], byte[], byte[])
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.NVAPIGpuUtilizationSampleCallbackSettingsDto(nint, uint, nint, byte[], byte[], byte[])
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.NVAPIGpuUtilizationSampleCallbackSettingsDto(nint, uint, nint, byte[], byte[], byte[])
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5929
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NVAPIGpuUtilizationSampleCallbackSettingsDto(nint callbackParam, uint callbackPeriodMs, nint callback, byte[] superReserved, byte[] periodicReserved, byte[] reserved)
+    parameters:
+    - id: callbackParam
+      type: System.IntPtr
+    - id: callbackPeriodMs
+      type: System.UInt32
+    - id: callback
+      type: System.IntPtr
+    - id: superReserved
+      type: System.Byte[]
+    - id: periodicReserved
+      type: System.Byte[]
+    - id: reserved
+      type: System.Byte[]
+    content.vb: Public Sub New(callbackParam As IntPtr, callbackPeriodMs As UInteger, callback As IntPtr, superReserved As Byte(), periodicReserved As Byte(), reserved As Byte())
+  overload: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.#ctor*
+  nameWithType.vb: NVAPIGpuUtilizationSampleCallbackSettingsDto.New(IntPtr, UInteger, IntPtr, Byte(), Byte(), Byte())
+  fullName.vb: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.New(System.IntPtr, UInteger, System.IntPtr, Byte(), Byte(), Byte())
+  name.vb: New(IntPtr, UInteger, IntPtr, Byte(), Byte(), Byte())
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.ToNative
+  commentId: M:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.ToNative
+  id: ToNative
+  parent: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.ToNative()
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5945
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public _NV_GPU_CLIENT_UTILIZATION_PERIODIC_CALLBACK_SETTINGS_V1 ToNative()
+    return:
+      type: NVAPIWrapper._NV_GPU_CLIENT_UTILIZATION_PERIODIC_CALLBACK_SETTINGS_V1
+    content.vb: Public Function ToNative() As _NV_GPU_CLIENT_UTILIZATION_PERIODIC_CALLBACK_SETTINGS_V1
+  overload: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.ToNative*
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Equals(NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Equals(NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  id: Equals(NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  parent: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.Equals(NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Equals(NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5979
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIGpuUtilizationSampleCallbackSettingsDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As NVAPIGpuUtilizationSampleCallbackSettingsDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto}.Equals(NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5989
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Equals*
+  nameWithType.vb: NVAPIGpuUtilizationSampleCallbackSettingsDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 5991
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.op_Equality(NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto,NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.op_Equality(NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto,NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  id: op_Equality(NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto,NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  parent: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIGpuUtilizationSampleCallbackSettingsDto, NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.operator ==(NVAPIGpuUtilizationSampleCallbackSettingsDto, NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.operator ==(NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto, NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 6005
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static bool operator ==(NVAPIGpuUtilizationSampleCallbackSettingsDto left, NVAPIGpuUtilizationSampleCallbackSettingsDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+    - id: right
+      type: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As NVAPIGpuUtilizationSampleCallbackSettingsDto, right As NVAPIGpuUtilizationSampleCallbackSettingsDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.op_Equality*
+  nameWithType.vb: NVAPIGpuUtilizationSampleCallbackSettingsDto.=(NVAPIGpuUtilizationSampleCallbackSettingsDto, NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  fullName.vb: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.=(NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto, NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  name.vb: =(NVAPIGpuUtilizationSampleCallbackSettingsDto, NVAPIGpuUtilizationSampleCallbackSettingsDto)
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.op_Inequality(NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto,NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.op_Inequality(NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto,NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto,NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  parent: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIGpuUtilizationSampleCallbackSettingsDto, NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.operator !=(NVAPIGpuUtilizationSampleCallbackSettingsDto, NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.operator !=(NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto, NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 6006
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static bool operator !=(NVAPIGpuUtilizationSampleCallbackSettingsDto left, NVAPIGpuUtilizationSampleCallbackSettingsDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+    - id: right
+      type: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As NVAPIGpuUtilizationSampleCallbackSettingsDto, right As NVAPIGpuUtilizationSampleCallbackSettingsDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.op_Inequality*
+  nameWithType.vb: NVAPIGpuUtilizationSampleCallbackSettingsDto.<>(NVAPIGpuUtilizationSampleCallbackSettingsDto, NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  fullName.vb: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.<>(NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto, NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  name.vb: <>(NVAPIGpuUtilizationSampleCallbackSettingsDto, NVAPIGpuUtilizationSampleCallbackSettingsDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIGpuUtilizationSampleCallbackSettingsDto>
+  nameWithType: IEquatable<NVAPIGpuUtilizationSampleCallbackSettingsDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto>
+  nameWithType.vb: IEquatable(Of NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  name.vb: IEquatable(Of NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+    name: NVAPIGpuUtilizationSampleCallbackSettingsDto
+    href: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+    name: NVAPIGpuUtilizationSampleCallbackSettingsDto
+    href: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.CallbackParam*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.CallbackParam
+  href: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.html#NVAPIWrapper_NVAPIGpuUtilizationSampleCallbackSettingsDto_CallbackParam
+  name: CallbackParam
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.CallbackParam
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.CallbackParam
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.CallbackPeriodMs*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.CallbackPeriodMs
+  href: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.html#NVAPIWrapper_NVAPIGpuUtilizationSampleCallbackSettingsDto_CallbackPeriodMs
+  name: CallbackPeriodMs
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.CallbackPeriodMs
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.CallbackPeriodMs
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Callback*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Callback
+  href: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.html#NVAPIWrapper_NVAPIGpuUtilizationSampleCallbackSettingsDto_Callback
+  name: Callback
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.Callback
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Callback
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.SuperReserved*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.SuperReserved
+  href: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.html#NVAPIWrapper_NVAPIGpuUtilizationSampleCallbackSettingsDto_SuperReserved
+  name: SuperReserved
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.SuperReserved
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.SuperReserved
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.PeriodicReserved*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.PeriodicReserved
+  href: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.html#NVAPIWrapper_NVAPIGpuUtilizationSampleCallbackSettingsDto_PeriodicReserved
+  name: PeriodicReserved
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.PeriodicReserved
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.PeriodicReserved
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Reserved*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Reserved
+  href: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.html#NVAPIWrapper_NVAPIGpuUtilizationSampleCallbackSettingsDto_Reserved
+  name: Reserved
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.Reserved
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Reserved
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.#ctor
+  href: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.html#NVAPIWrapper_NVAPIGpuUtilizationSampleCallbackSettingsDto__ctor_System_IntPtr_System_UInt32_System_IntPtr_System_Byte___System_Byte___System_Byte___
+  name: NVAPIGpuUtilizationSampleCallbackSettingsDto
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.NVAPIGpuUtilizationSampleCallbackSettingsDto
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.NVAPIGpuUtilizationSampleCallbackSettingsDto
+  nameWithType.vb: NVAPIGpuUtilizationSampleCallbackSettingsDto.New
+  fullName.vb: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.ToNative
+  href: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.html#NVAPIWrapper_NVAPIGpuUtilizationSampleCallbackSettingsDto_ToNative
+  name: ToNative
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.ToNative
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.ToNative
+- uid: NVAPIWrapper._NV_GPU_CLIENT_UTILIZATION_PERIODIC_CALLBACK_SETTINGS_V1
+  commentId: T:NVAPIWrapper._NV_GPU_CLIENT_UTILIZATION_PERIODIC_CALLBACK_SETTINGS_V1
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_CLIENT_UTILIZATION_PERIODIC_CALLBACK_SETTINGS_V1.html
+  name: _NV_GPU_CLIENT_UTILIZATION_PERIODIC_CALLBACK_SETTINGS_V1
+  nameWithType: _NV_GPU_CLIENT_UTILIZATION_PERIODIC_CALLBACK_SETTINGS_V1
+  fullName: NVAPIWrapper._NV_GPU_CLIENT_UTILIZATION_PERIODIC_CALLBACK_SETTINGS_V1
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Equals
+  href: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.html#NVAPIWrapper_NVAPIGpuUtilizationSampleCallbackSettingsDto_Equals_NVAPIWrapper_NVAPIGpuUtilizationSampleCallbackSettingsDto_
+  name: Equals
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.Equals
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto}.Equals(NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto}.Equals(NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  nameWithType: IEquatable<NVAPIGpuUtilizationSampleCallbackSettingsDto>.Equals(NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto>.Equals(NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  nameWithType.vb: IEquatable(Of NVAPIGpuUtilizationSampleCallbackSettingsDto).Equals(NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto).Equals(NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto}.Equals(NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+    name: NVAPIGpuUtilizationSampleCallbackSettingsDto
+    href: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto}.Equals(NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+    name: NVAPIGpuUtilizationSampleCallbackSettingsDto
+    href: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.html
+  - name: )
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+  commentId: T:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.html
+  name: NVAPIGpuUtilizationSampleCallbackSettingsDto
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.GetHashCode
+  href: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.html#NVAPIWrapper_NVAPIGpuUtilizationSampleCallbackSettingsDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.op_Equality
+  href: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.html#NVAPIWrapper_NVAPIGpuUtilizationSampleCallbackSettingsDto_op_Equality_NVAPIWrapper_NVAPIGpuUtilizationSampleCallbackSettingsDto_NVAPIWrapper_NVAPIGpuUtilizationSampleCallbackSettingsDto_
+  name: operator ==
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.operator ==
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.operator ==
+  nameWithType.vb: NVAPIGpuUtilizationSampleCallbackSettingsDto.=
+  fullName.vb: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.html#NVAPIWrapper_NVAPIGpuUtilizationSampleCallbackSettingsDto_op_Equality_NVAPIWrapper_NVAPIGpuUtilizationSampleCallbackSettingsDto_NVAPIWrapper_NVAPIGpuUtilizationSampleCallbackSettingsDto_
+- uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.op_Inequality
+  href: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.html#NVAPIWrapper_NVAPIGpuUtilizationSampleCallbackSettingsDto_op_Inequality_NVAPIWrapper_NVAPIGpuUtilizationSampleCallbackSettingsDto_NVAPIWrapper_NVAPIGpuUtilizationSampleCallbackSettingsDto_
+  name: operator !=
+  nameWithType: NVAPIGpuUtilizationSampleCallbackSettingsDto.operator !=
+  fullName: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.operator !=
+  nameWithType.vb: NVAPIGpuUtilizationSampleCallbackSettingsDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIGpuUtilizationSampleCallbackSettingsDto.html#NVAPIWrapper_NVAPIGpuUtilizationSampleCallbackSettingsDto_op_Inequality_NVAPIWrapper_NVAPIGpuUtilizationSampleCallbackSettingsDto_NVAPIWrapper_NVAPIGpuUtilizationSampleCallbackSettingsDto_

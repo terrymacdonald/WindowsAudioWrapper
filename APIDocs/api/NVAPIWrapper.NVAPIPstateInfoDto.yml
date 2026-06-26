@@ -1,0 +1,995 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIPstateInfoDto
+  commentId: T:NVAPIWrapper.NVAPIPstateInfoDto
+  id: NVAPIPstateInfoDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIPstateInfoDto.#ctor(NVAPIWrapper._NV_GPU_PERF_PSTATE_ID,System.Boolean,NVAPIWrapper.NVAPIPstateClockEntryDto[],NVAPIWrapper.NVAPIPstateBaseVoltageEntryDto[])
+  - NVAPIWrapper.NVAPIPstateInfoDto.BaseVoltages
+  - NVAPIWrapper.NVAPIPstateInfoDto.Clocks
+  - NVAPIWrapper.NVAPIPstateInfoDto.Equals(NVAPIWrapper.NVAPIPstateInfoDto)
+  - NVAPIWrapper.NVAPIPstateInfoDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIPstateInfoDto.FromNative(NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct)
+  - NVAPIWrapper.NVAPIPstateInfoDto.GetHashCode
+  - NVAPIWrapper.NVAPIPstateInfoDto.IsEditable
+  - NVAPIWrapper.NVAPIPstateInfoDto.PstateId
+  - NVAPIWrapper.NVAPIPstateInfoDto.ToNative
+  - NVAPIWrapper.NVAPIPstateInfoDto.op_Equality(NVAPIWrapper.NVAPIPstateInfoDto,NVAPIWrapper.NVAPIPstateInfoDto)
+  - NVAPIWrapper.NVAPIPstateInfoDto.op_Inequality(NVAPIWrapper.NVAPIPstateInfoDto,NVAPIWrapper.NVAPIPstateInfoDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIPstateInfoDto
+  nameWithType: NVAPIPstateInfoDto
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIPstateInfoDto
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4029
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Per-pstate info DTO, wrapping the anonymous pstate struct within <xref href="NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public struct NVAPIPstateInfoDto : IEquatable<NVAPIPstateInfoDto>'
+    content.vb: Public Structure NVAPIPstateInfoDto Implements IEquatable(Of NVAPIPstateInfoDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIPstateInfoDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIPstateInfoDto.PstateId
+  commentId: P:NVAPIWrapper.NVAPIPstateInfoDto.PstateId
+  id: PstateId
+  parent: NVAPIWrapper.NVAPIPstateInfoDto
+  langs:
+  - csharp
+  - vb
+  name: PstateId
+  nameWithType: NVAPIPstateInfoDto.PstateId
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto.PstateId
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PstateId
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4032
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: P-state identifier.
+  example: []
+  syntax:
+    content: public _NV_GPU_PERF_PSTATE_ID PstateId { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+    content.vb: Public Property PstateId As _NV_GPU_PERF_PSTATE_ID
+  overload: NVAPIWrapper.NVAPIPstateInfoDto.PstateId*
+- uid: NVAPIWrapper.NVAPIPstateInfoDto.IsEditable
+  commentId: P:NVAPIWrapper.NVAPIPstateInfoDto.IsEditable
+  id: IsEditable
+  parent: NVAPIWrapper.NVAPIPstateInfoDto
+  langs:
+  - csharp
+  - vb
+  name: IsEditable
+  nameWithType: NVAPIPstateInfoDto.IsEditable
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto.IsEditable
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: IsEditable
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4034
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: True if this P-state is editable.
+  example: []
+  syntax:
+    content: public bool IsEditable { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsEditable As Boolean
+  overload: NVAPIWrapper.NVAPIPstateInfoDto.IsEditable*
+- uid: NVAPIWrapper.NVAPIPstateInfoDto.Clocks
+  commentId: P:NVAPIWrapper.NVAPIPstateInfoDto.Clocks
+  id: Clocks
+  parent: NVAPIWrapper.NVAPIPstateInfoDto
+  langs:
+  - csharp
+  - vb
+  name: Clocks
+  nameWithType: NVAPIPstateInfoDto.Clocks
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto.Clocks
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Clocks
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4036
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Clock entries for this P-state (up to 8).
+  example: []
+  syntax:
+    content: public NVAPIPstateClockEntryDto[] Clocks { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper.NVAPIPstateClockEntryDto[]
+    content.vb: Public Property Clocks As NVAPIPstateClockEntryDto()
+  overload: NVAPIWrapper.NVAPIPstateInfoDto.Clocks*
+- uid: NVAPIWrapper.NVAPIPstateInfoDto.BaseVoltages
+  commentId: P:NVAPIWrapper.NVAPIPstateInfoDto.BaseVoltages
+  id: BaseVoltages
+  parent: NVAPIWrapper.NVAPIPstateInfoDto
+  langs:
+  - csharp
+  - vb
+  name: BaseVoltages
+  nameWithType: NVAPIPstateInfoDto.BaseVoltages
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto.BaseVoltages
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: BaseVoltages
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4038
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Base voltage entries for this P-state (up to 4).
+  example: []
+  syntax:
+    content: public NVAPIPstateBaseVoltageEntryDto[] BaseVoltages { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper.NVAPIPstateBaseVoltageEntryDto[]
+    content.vb: Public Property BaseVoltages As NVAPIPstateBaseVoltageEntryDto()
+  overload: NVAPIWrapper.NVAPIPstateInfoDto.BaseVoltages*
+- uid: NVAPIWrapper.NVAPIPstateInfoDto.#ctor(NVAPIWrapper._NV_GPU_PERF_PSTATE_ID,System.Boolean,NVAPIWrapper.NVAPIPstateClockEntryDto[],NVAPIWrapper.NVAPIPstateBaseVoltageEntryDto[])
+  commentId: M:NVAPIWrapper.NVAPIPstateInfoDto.#ctor(NVAPIWrapper._NV_GPU_PERF_PSTATE_ID,System.Boolean,NVAPIWrapper.NVAPIPstateClockEntryDto[],NVAPIWrapper.NVAPIPstateBaseVoltageEntryDto[])
+  id: '#ctor(NVAPIWrapper._NV_GPU_PERF_PSTATE_ID,System.Boolean,NVAPIWrapper.NVAPIPstateClockEntryDto[],NVAPIWrapper.NVAPIPstateBaseVoltageEntryDto[])'
+  parent: NVAPIWrapper.NVAPIPstateInfoDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIPstateInfoDto(_NV_GPU_PERF_PSTATE_ID, bool, NVAPIPstateClockEntryDto[], NVAPIPstateBaseVoltageEntryDto[])
+  nameWithType: NVAPIPstateInfoDto.NVAPIPstateInfoDto(_NV_GPU_PERF_PSTATE_ID, bool, NVAPIPstateClockEntryDto[], NVAPIPstateBaseVoltageEntryDto[])
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto.NVAPIPstateInfoDto(NVAPIWrapper._NV_GPU_PERF_PSTATE_ID, bool, NVAPIWrapper.NVAPIPstateClockEntryDto[], NVAPIWrapper.NVAPIPstateBaseVoltageEntryDto[])
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4041
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Initializes a new instance of <xref href="NVAPIWrapper.NVAPIPstateInfoDto" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public NVAPIPstateInfoDto(_NV_GPU_PERF_PSTATE_ID pstateId, bool isEditable, NVAPIPstateClockEntryDto[] clocks, NVAPIPstateBaseVoltageEntryDto[] baseVoltages)
+    parameters:
+    - id: pstateId
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+    - id: isEditable
+      type: System.Boolean
+    - id: clocks
+      type: NVAPIWrapper.NVAPIPstateClockEntryDto[]
+    - id: baseVoltages
+      type: NVAPIWrapper.NVAPIPstateBaseVoltageEntryDto[]
+    content.vb: Public Sub New(pstateId As _NV_GPU_PERF_PSTATE_ID, isEditable As Boolean, clocks As NVAPIPstateClockEntryDto(), baseVoltages As NVAPIPstateBaseVoltageEntryDto())
+  overload: NVAPIWrapper.NVAPIPstateInfoDto.#ctor*
+  nameWithType.vb: NVAPIPstateInfoDto.New(_NV_GPU_PERF_PSTATE_ID, Boolean, NVAPIPstateClockEntryDto(), NVAPIPstateBaseVoltageEntryDto())
+  fullName.vb: NVAPIWrapper.NVAPIPstateInfoDto.New(NVAPIWrapper._NV_GPU_PERF_PSTATE_ID, Boolean, NVAPIWrapper.NVAPIPstateClockEntryDto(), NVAPIWrapper.NVAPIPstateBaseVoltageEntryDto())
+  name.vb: New(_NV_GPU_PERF_PSTATE_ID, Boolean, NVAPIPstateClockEntryDto(), NVAPIPstateBaseVoltageEntryDto())
+- uid: NVAPIWrapper.NVAPIPstateInfoDto.FromNative(NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct)
+  commentId: M:NVAPIWrapper.NVAPIPstateInfoDto.FromNative(NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct)
+  id: FromNative(NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct)
+  parent: NVAPIWrapper.NVAPIPstateInfoDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(_pstates_e__Struct)
+  nameWithType: NVAPIPstateInfoDto.FromNative(_NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct)
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto.FromNative(NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4050
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Creates a DTO from the anonymous native pstate struct within <xref href="NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static NVAPIPstateInfoDto FromNative(_NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct native)
+    parameters:
+    - id: native
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+    return:
+      type: NVAPIWrapper.NVAPIPstateInfoDto
+    content.vb: Public Shared Function FromNative(native As _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct) As NVAPIPstateInfoDto
+  overload: NVAPIWrapper.NVAPIPstateInfoDto.FromNative*
+- uid: NVAPIWrapper.NVAPIPstateInfoDto.ToNative
+  commentId: M:NVAPIWrapper.NVAPIPstateInfoDto.ToNative
+  id: ToNative
+  parent: NVAPIWrapper.NVAPIPstateInfoDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: NVAPIPstateInfoDto.ToNative()
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4062
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Converts this DTO back to the anonymous native pstate struct.
+  example: []
+  syntax:
+    content: public _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct ToNative()
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+    content.vb: Public Function ToNative() As _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+  overload: NVAPIWrapper.NVAPIPstateInfoDto.ToNative*
+- uid: NVAPIWrapper.NVAPIPstateInfoDto.Equals(NVAPIWrapper.NVAPIPstateInfoDto)
+  commentId: M:NVAPIWrapper.NVAPIPstateInfoDto.Equals(NVAPIWrapper.NVAPIPstateInfoDto)
+  id: Equals(NVAPIWrapper.NVAPIPstateInfoDto)
+  parent: NVAPIWrapper.NVAPIPstateInfoDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIPstateInfoDto)
+  nameWithType: NVAPIPstateInfoDto.Equals(NVAPIPstateInfoDto)
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto.Equals(NVAPIWrapper.NVAPIPstateInfoDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4076
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIPstateInfoDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIPstateInfoDto
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As NVAPIPstateInfoDto) As Boolean
+  overload: NVAPIWrapper.NVAPIPstateInfoDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIPstateInfoDto}.Equals(NVAPIWrapper.NVAPIPstateInfoDto)
+- uid: NVAPIWrapper.NVAPIPstateInfoDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIPstateInfoDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIPstateInfoDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIPstateInfoDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4096
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIPstateInfoDto.Equals*
+  nameWithType.vb: NVAPIPstateInfoDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIPstateInfoDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIPstateInfoDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIPstateInfoDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIPstateInfoDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIPstateInfoDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4098
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIPstateInfoDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIPstateInfoDto.op_Equality(NVAPIWrapper.NVAPIPstateInfoDto,NVAPIWrapper.NVAPIPstateInfoDto)
+  commentId: M:NVAPIWrapper.NVAPIPstateInfoDto.op_Equality(NVAPIWrapper.NVAPIPstateInfoDto,NVAPIWrapper.NVAPIPstateInfoDto)
+  id: op_Equality(NVAPIWrapper.NVAPIPstateInfoDto,NVAPIWrapper.NVAPIPstateInfoDto)
+  parent: NVAPIWrapper.NVAPIPstateInfoDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIPstateInfoDto, NVAPIPstateInfoDto)
+  nameWithType: NVAPIPstateInfoDto.operator ==(NVAPIPstateInfoDto, NVAPIPstateInfoDto)
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto.operator ==(NVAPIWrapper.NVAPIPstateInfoDto, NVAPIWrapper.NVAPIPstateInfoDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4110
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Equality operator.
+  example: []
+  syntax:
+    content: public static bool operator ==(NVAPIPstateInfoDto left, NVAPIPstateInfoDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIPstateInfoDto
+    - id: right
+      type: NVAPIWrapper.NVAPIPstateInfoDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As NVAPIPstateInfoDto, right As NVAPIPstateInfoDto) As Boolean
+  overload: NVAPIWrapper.NVAPIPstateInfoDto.op_Equality*
+  nameWithType.vb: NVAPIPstateInfoDto.=(NVAPIPstateInfoDto, NVAPIPstateInfoDto)
+  fullName.vb: NVAPIWrapper.NVAPIPstateInfoDto.=(NVAPIWrapper.NVAPIPstateInfoDto, NVAPIWrapper.NVAPIPstateInfoDto)
+  name.vb: =(NVAPIPstateInfoDto, NVAPIPstateInfoDto)
+- uid: NVAPIWrapper.NVAPIPstateInfoDto.op_Inequality(NVAPIWrapper.NVAPIPstateInfoDto,NVAPIWrapper.NVAPIPstateInfoDto)
+  commentId: M:NVAPIWrapper.NVAPIPstateInfoDto.op_Inequality(NVAPIWrapper.NVAPIPstateInfoDto,NVAPIWrapper.NVAPIPstateInfoDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIPstateInfoDto,NVAPIWrapper.NVAPIPstateInfoDto)
+  parent: NVAPIWrapper.NVAPIPstateInfoDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIPstateInfoDto, NVAPIPstateInfoDto)
+  nameWithType: NVAPIPstateInfoDto.operator !=(NVAPIPstateInfoDto, NVAPIPstateInfoDto)
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto.operator !=(NVAPIWrapper.NVAPIPstateInfoDto, NVAPIWrapper.NVAPIPstateInfoDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 4112
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Inequality operator.
+  example: []
+  syntax:
+    content: public static bool operator !=(NVAPIPstateInfoDto left, NVAPIPstateInfoDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIPstateInfoDto
+    - id: right
+      type: NVAPIWrapper.NVAPIPstateInfoDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As NVAPIPstateInfoDto, right As NVAPIPstateInfoDto) As Boolean
+  overload: NVAPIWrapper.NVAPIPstateInfoDto.op_Inequality*
+  nameWithType.vb: NVAPIPstateInfoDto.<>(NVAPIPstateInfoDto, NVAPIPstateInfoDto)
+  fullName.vb: NVAPIWrapper.NVAPIPstateInfoDto.<>(NVAPIWrapper.NVAPIPstateInfoDto, NVAPIWrapper.NVAPIPstateInfoDto)
+  name.vb: <>(NVAPIPstateInfoDto, NVAPIPstateInfoDto)
+references:
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2
+  commentId: T:NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2.html
+  name: _NV_GPU_PERF_PSTATES20_INFO_V2
+  nameWithType: _NV_GPU_PERF_PSTATES20_INFO_V2
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIPstateInfoDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIPstateInfoDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIPstateInfoDto>
+  nameWithType: IEquatable<NVAPIPstateInfoDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIPstateInfoDto>
+  nameWithType.vb: IEquatable(Of NVAPIPstateInfoDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIPstateInfoDto)
+  name.vb: IEquatable(Of NVAPIPstateInfoDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIPstateInfoDto
+    name: NVAPIPstateInfoDto
+    href: NVAPIWrapper.NVAPIPstateInfoDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIPstateInfoDto
+    name: NVAPIPstateInfoDto
+    href: NVAPIWrapper.NVAPIPstateInfoDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIPstateInfoDto.PstateId*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateInfoDto.PstateId
+  href: NVAPIWrapper.NVAPIPstateInfoDto.html#NVAPIWrapper_NVAPIPstateInfoDto_PstateId
+  name: PstateId
+  nameWithType: NVAPIPstateInfoDto.PstateId
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto.PstateId
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  commentId: T:NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.html
+  name: _NV_GPU_PERF_PSTATE_ID
+  nameWithType: _NV_GPU_PERF_PSTATE_ID
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+- uid: NVAPIWrapper.NVAPIPstateInfoDto.IsEditable*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateInfoDto.IsEditable
+  href: NVAPIWrapper.NVAPIPstateInfoDto.html#NVAPIWrapper_NVAPIPstateInfoDto_IsEditable
+  name: IsEditable
+  nameWithType: NVAPIPstateInfoDto.IsEditable
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto.IsEditable
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NVAPIWrapper.NVAPIPstateInfoDto.Clocks*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateInfoDto.Clocks
+  href: NVAPIWrapper.NVAPIPstateInfoDto.html#NVAPIWrapper_NVAPIPstateInfoDto_Clocks
+  name: Clocks
+  nameWithType: NVAPIPstateInfoDto.Clocks
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto.Clocks
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto[]
+  isExternal: true
+  href: NVAPIWrapper.NVAPIPstateClockEntryDto.html
+  name: NVAPIPstateClockEntryDto[]
+  nameWithType: NVAPIPstateClockEntryDto[]
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto[]
+  nameWithType.vb: NVAPIPstateClockEntryDto()
+  fullName.vb: NVAPIWrapper.NVAPIPstateClockEntryDto()
+  name.vb: NVAPIPstateClockEntryDto()
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIPstateClockEntryDto
+    name: NVAPIPstateClockEntryDto
+    href: NVAPIWrapper.NVAPIPstateClockEntryDto.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIPstateClockEntryDto
+    name: NVAPIPstateClockEntryDto
+    href: NVAPIWrapper.NVAPIPstateClockEntryDto.html
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIPstateInfoDto.BaseVoltages*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateInfoDto.BaseVoltages
+  href: NVAPIWrapper.NVAPIPstateInfoDto.html#NVAPIWrapper_NVAPIPstateInfoDto_BaseVoltages
+  name: BaseVoltages
+  nameWithType: NVAPIPstateInfoDto.BaseVoltages
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto.BaseVoltages
+- uid: NVAPIWrapper.NVAPIPstateBaseVoltageEntryDto[]
+  isExternal: true
+  href: NVAPIWrapper.NVAPIPstateBaseVoltageEntryDto.html
+  name: NVAPIPstateBaseVoltageEntryDto[]
+  nameWithType: NVAPIPstateBaseVoltageEntryDto[]
+  fullName: NVAPIWrapper.NVAPIPstateBaseVoltageEntryDto[]
+  nameWithType.vb: NVAPIPstateBaseVoltageEntryDto()
+  fullName.vb: NVAPIWrapper.NVAPIPstateBaseVoltageEntryDto()
+  name.vb: NVAPIPstateBaseVoltageEntryDto()
+  spec.csharp:
+  - uid: NVAPIWrapper.NVAPIPstateBaseVoltageEntryDto
+    name: NVAPIPstateBaseVoltageEntryDto
+    href: NVAPIWrapper.NVAPIPstateBaseVoltageEntryDto.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: NVAPIWrapper.NVAPIPstateBaseVoltageEntryDto
+    name: NVAPIPstateBaseVoltageEntryDto
+    href: NVAPIWrapper.NVAPIPstateBaseVoltageEntryDto.html
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIPstateInfoDto
+  commentId: T:NVAPIWrapper.NVAPIPstateInfoDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIPstateInfoDto.html
+  name: NVAPIPstateInfoDto
+  nameWithType: NVAPIPstateInfoDto
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto
+- uid: NVAPIWrapper.NVAPIPstateInfoDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateInfoDto.#ctor
+  href: NVAPIWrapper.NVAPIPstateInfoDto.html#NVAPIWrapper_NVAPIPstateInfoDto__ctor_NVAPIWrapper__NV_GPU_PERF_PSTATE_ID_System_Boolean_NVAPIWrapper_NVAPIPstateClockEntryDto___NVAPIWrapper_NVAPIPstateBaseVoltageEntryDto___
+  name: NVAPIPstateInfoDto
+  nameWithType: NVAPIPstateInfoDto.NVAPIPstateInfoDto
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto.NVAPIPstateInfoDto
+  nameWithType.vb: NVAPIPstateInfoDto.New
+  fullName.vb: NVAPIWrapper.NVAPIPstateInfoDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPIPstateInfoDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateInfoDto.FromNative
+  href: NVAPIWrapper.NVAPIPstateInfoDto.html#NVAPIWrapper_NVAPIPstateInfoDto_FromNative_NVAPIWrapper__NV_GPU_PERF_PSTATES20_INFO_V2__pstates_e__Struct_
+  name: FromNative
+  nameWithType: NVAPIPstateInfoDto.FromNative
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto.FromNative
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+  commentId: T:NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2.html
+  name: _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+  nameWithType: _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+  spec.csharp:
+  - uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2
+    name: _NV_GPU_PERF_PSTATES20_INFO_V2
+    href: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2.html
+  - name: .
+  - uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+    name: _pstates_e__Struct
+    href: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.html
+  spec.vb:
+  - uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2
+    name: _NV_GPU_PERF_PSTATES20_INFO_V2
+    href: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2.html
+  - name: .
+  - uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+    name: _pstates_e__Struct
+    href: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.html
+- uid: NVAPIWrapper.NVAPIPstateInfoDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateInfoDto.ToNative
+  href: NVAPIWrapper.NVAPIPstateInfoDto.html#NVAPIWrapper_NVAPIPstateInfoDto_ToNative
+  name: ToNative
+  nameWithType: NVAPIPstateInfoDto.ToNative
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto.ToNative
+- uid: NVAPIWrapper.NVAPIPstateInfoDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateInfoDto.Equals
+  href: NVAPIWrapper.NVAPIPstateInfoDto.html#NVAPIWrapper_NVAPIPstateInfoDto_Equals_NVAPIWrapper_NVAPIPstateInfoDto_
+  name: Equals
+  nameWithType: NVAPIPstateInfoDto.Equals
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIPstateInfoDto}.Equals(NVAPIWrapper.NVAPIPstateInfoDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIPstateInfoDto}.Equals(NVAPIWrapper.NVAPIPstateInfoDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIPstateInfoDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIPstateInfoDto)
+  nameWithType: IEquatable<NVAPIPstateInfoDto>.Equals(NVAPIPstateInfoDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIPstateInfoDto>.Equals(NVAPIWrapper.NVAPIPstateInfoDto)
+  nameWithType.vb: IEquatable(Of NVAPIPstateInfoDto).Equals(NVAPIPstateInfoDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIPstateInfoDto).Equals(NVAPIWrapper.NVAPIPstateInfoDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIPstateInfoDto}.Equals(NVAPIWrapper.NVAPIPstateInfoDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIPstateInfoDto
+    name: NVAPIPstateInfoDto
+    href: NVAPIWrapper.NVAPIPstateInfoDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIPstateInfoDto}.Equals(NVAPIWrapper.NVAPIPstateInfoDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIPstateInfoDto
+    name: NVAPIPstateInfoDto
+    href: NVAPIWrapper.NVAPIPstateInfoDto.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIPstateInfoDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateInfoDto.GetHashCode
+  href: NVAPIWrapper.NVAPIPstateInfoDto.html#NVAPIWrapper_NVAPIPstateInfoDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIPstateInfoDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIPstateInfoDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateInfoDto.op_Equality
+  href: NVAPIWrapper.NVAPIPstateInfoDto.html#NVAPIWrapper_NVAPIPstateInfoDto_op_Equality_NVAPIWrapper_NVAPIPstateInfoDto_NVAPIWrapper_NVAPIPstateInfoDto_
+  name: operator ==
+  nameWithType: NVAPIPstateInfoDto.operator ==
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto.operator ==
+  nameWithType.vb: NVAPIPstateInfoDto.=
+  fullName.vb: NVAPIWrapper.NVAPIPstateInfoDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIPstateInfoDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIPstateInfoDto.html#NVAPIWrapper_NVAPIPstateInfoDto_op_Equality_NVAPIWrapper_NVAPIPstateInfoDto_NVAPIWrapper_NVAPIPstateInfoDto_
+- uid: NVAPIWrapper.NVAPIPstateInfoDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateInfoDto.op_Inequality
+  href: NVAPIWrapper.NVAPIPstateInfoDto.html#NVAPIWrapper_NVAPIPstateInfoDto_op_Inequality_NVAPIWrapper_NVAPIPstateInfoDto_NVAPIWrapper_NVAPIPstateInfoDto_
+  name: operator !=
+  nameWithType: NVAPIPstateInfoDto.operator !=
+  fullName: NVAPIWrapper.NVAPIPstateInfoDto.operator !=
+  nameWithType.vb: NVAPIPstateInfoDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIPstateInfoDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIPstateInfoDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIPstateInfoDto.html#NVAPIWrapper_NVAPIPstateInfoDto_op_Inequality_NVAPIWrapper_NVAPIPstateInfoDto_NVAPIWrapper_NVAPIPstateInfoDto_

@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_DP_COLOR_FORMAT
+  commentId: T:NVAPIWrapper._NV_DP_COLOR_FORMAT
+  id: _NV_DP_COLOR_FORMAT
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_DP_COLOR_FORMAT.NV_DP_COLOR_FORMAT_RGB
+  - NVAPIWrapper._NV_DP_COLOR_FORMAT.NV_DP_COLOR_FORMAT_YCbCr422
+  - NVAPIWrapper._NV_DP_COLOR_FORMAT.NV_DP_COLOR_FORMAT_YCbCr444
+  langs:
+  - csharp
+  - vb
+  name: _NV_DP_COLOR_FORMAT
+  nameWithType: _NV_DP_COLOR_FORMAT
+  fullName: NVAPIWrapper._NV_DP_COLOR_FORMAT
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP_COLOR_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_DP_COLOR_FORMAT
+    path: ../NVAPIWrapper/cs_generated/_NV_DP_COLOR_FORMAT.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_DP_COLOR_FORMAT
+    content.vb: Public Enum _NV_DP_COLOR_FORMAT
+- uid: NVAPIWrapper._NV_DP_COLOR_FORMAT.NV_DP_COLOR_FORMAT_RGB
+  commentId: F:NVAPIWrapper._NV_DP_COLOR_FORMAT.NV_DP_COLOR_FORMAT_RGB
+  id: NV_DP_COLOR_FORMAT_RGB
+  parent: NVAPIWrapper._NV_DP_COLOR_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DP_COLOR_FORMAT_RGB
+  nameWithType: _NV_DP_COLOR_FORMAT.NV_DP_COLOR_FORMAT_RGB
+  fullName: NVAPIWrapper._NV_DP_COLOR_FORMAT.NV_DP_COLOR_FORMAT_RGB
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP_COLOR_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DP_COLOR_FORMAT_RGB
+    path: ../NVAPIWrapper/cs_generated/_NV_DP_COLOR_FORMAT.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DP_COLOR_FORMAT_RGB = 0
+    return:
+      type: NVAPIWrapper._NV_DP_COLOR_FORMAT
+- uid: NVAPIWrapper._NV_DP_COLOR_FORMAT.NV_DP_COLOR_FORMAT_YCbCr422
+  commentId: F:NVAPIWrapper._NV_DP_COLOR_FORMAT.NV_DP_COLOR_FORMAT_YCbCr422
+  id: NV_DP_COLOR_FORMAT_YCbCr422
+  parent: NVAPIWrapper._NV_DP_COLOR_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DP_COLOR_FORMAT_YCbCr422
+  nameWithType: _NV_DP_COLOR_FORMAT.NV_DP_COLOR_FORMAT_YCbCr422
+  fullName: NVAPIWrapper._NV_DP_COLOR_FORMAT.NV_DP_COLOR_FORMAT_YCbCr422
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP_COLOR_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DP_COLOR_FORMAT_YCbCr422
+    path: ../NVAPIWrapper/cs_generated/_NV_DP_COLOR_FORMAT.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DP_COLOR_FORMAT_YCbCr422 = 1
+    return:
+      type: NVAPIWrapper._NV_DP_COLOR_FORMAT
+- uid: NVAPIWrapper._NV_DP_COLOR_FORMAT.NV_DP_COLOR_FORMAT_YCbCr444
+  commentId: F:NVAPIWrapper._NV_DP_COLOR_FORMAT.NV_DP_COLOR_FORMAT_YCbCr444
+  id: NV_DP_COLOR_FORMAT_YCbCr444
+  parent: NVAPIWrapper._NV_DP_COLOR_FORMAT
+  langs:
+  - csharp
+  - vb
+  name: NV_DP_COLOR_FORMAT_YCbCr444
+  nameWithType: _NV_DP_COLOR_FORMAT.NV_DP_COLOR_FORMAT_YCbCr444
+  fullName: NVAPIWrapper._NV_DP_COLOR_FORMAT.NV_DP_COLOR_FORMAT_YCbCr444
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP_COLOR_FORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DP_COLOR_FORMAT_YCbCr444
+    path: ../NVAPIWrapper/cs_generated/_NV_DP_COLOR_FORMAT.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DP_COLOR_FORMAT_YCbCr444 = 2
+    return:
+      type: NVAPIWrapper._NV_DP_COLOR_FORMAT
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_DP_COLOR_FORMAT
+  commentId: T:NVAPIWrapper._NV_DP_COLOR_FORMAT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DP_COLOR_FORMAT.html
+  name: _NV_DP_COLOR_FORMAT
+  nameWithType: _NV_DP_COLOR_FORMAT
+  fullName: NVAPIWrapper._NV_DP_COLOR_FORMAT

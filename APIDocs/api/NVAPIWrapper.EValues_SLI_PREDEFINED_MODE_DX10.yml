@@ -1,0 +1,267 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10
+  commentId: T:NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10
+  id: EValues_SLI_PREDEFINED_MODE_DX10
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_AUTOSELECT
+  - NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_DEFAULT
+  - NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_AFR
+  - NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_AFR2
+  - NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_AFR_OF_SFR__FALLBACK_3AFR
+  - NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_SFR
+  - NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_SINGLE
+  - NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_SLI_PREDEFINED_MODE_DX10
+  nameWithType: EValues_SLI_PREDEFINED_MODE_DX10
+  fullName: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_MODE_DX10.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_SLI_PREDEFINED_MODE_DX10
+    path: ../NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_MODE_DX10.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_SLI_PREDEFINED_MODE_DX10
+    content.vb: Public Enum EValues_SLI_PREDEFINED_MODE_DX10
+- uid: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_AUTOSELECT
+  commentId: F:NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_AUTOSELECT
+  id: SLI_PREDEFINED_MODE_DX10_AUTOSELECT
+  parent: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10
+  langs:
+  - csharp
+  - vb
+  name: SLI_PREDEFINED_MODE_DX10_AUTOSELECT
+  nameWithType: EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_AUTOSELECT
+  fullName: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_AUTOSELECT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_MODE_DX10.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SLI_PREDEFINED_MODE_DX10_AUTOSELECT
+    path: ../NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_MODE_DX10.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SLI_PREDEFINED_MODE_DX10_AUTOSELECT = 0
+    return:
+      type: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10
+- uid: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_SINGLE
+  commentId: F:NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_SINGLE
+  id: SLI_PREDEFINED_MODE_DX10_FORCE_SINGLE
+  parent: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10
+  langs:
+  - csharp
+  - vb
+  name: SLI_PREDEFINED_MODE_DX10_FORCE_SINGLE
+  nameWithType: EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_SINGLE
+  fullName: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_SINGLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_MODE_DX10.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SLI_PREDEFINED_MODE_DX10_FORCE_SINGLE
+    path: ../NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_MODE_DX10.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SLI_PREDEFINED_MODE_DX10_FORCE_SINGLE = 1
+    return:
+      type: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10
+- uid: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_AFR
+  commentId: F:NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_AFR
+  id: SLI_PREDEFINED_MODE_DX10_FORCE_AFR
+  parent: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10
+  langs:
+  - csharp
+  - vb
+  name: SLI_PREDEFINED_MODE_DX10_FORCE_AFR
+  nameWithType: EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_AFR
+  fullName: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_AFR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_MODE_DX10.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SLI_PREDEFINED_MODE_DX10_FORCE_AFR
+    path: ../NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_MODE_DX10.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SLI_PREDEFINED_MODE_DX10_FORCE_AFR = 2
+    return:
+      type: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10
+- uid: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_AFR2
+  commentId: F:NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_AFR2
+  id: SLI_PREDEFINED_MODE_DX10_FORCE_AFR2
+  parent: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10
+  langs:
+  - csharp
+  - vb
+  name: SLI_PREDEFINED_MODE_DX10_FORCE_AFR2
+  nameWithType: EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_AFR2
+  fullName: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_AFR2
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_MODE_DX10.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SLI_PREDEFINED_MODE_DX10_FORCE_AFR2
+    path: ../NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_MODE_DX10.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SLI_PREDEFINED_MODE_DX10_FORCE_AFR2 = 3
+    return:
+      type: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10
+- uid: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_SFR
+  commentId: F:NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_SFR
+  id: SLI_PREDEFINED_MODE_DX10_FORCE_SFR
+  parent: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10
+  langs:
+  - csharp
+  - vb
+  name: SLI_PREDEFINED_MODE_DX10_FORCE_SFR
+  nameWithType: EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_SFR
+  fullName: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_SFR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_MODE_DX10.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SLI_PREDEFINED_MODE_DX10_FORCE_SFR
+    path: ../NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_MODE_DX10.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SLI_PREDEFINED_MODE_DX10_FORCE_SFR = 4
+    return:
+      type: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10
+- uid: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_AFR_OF_SFR__FALLBACK_3AFR
+  commentId: F:NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_AFR_OF_SFR__FALLBACK_3AFR
+  id: SLI_PREDEFINED_MODE_DX10_FORCE_AFR_OF_SFR__FALLBACK_3AFR
+  parent: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10
+  langs:
+  - csharp
+  - vb
+  name: SLI_PREDEFINED_MODE_DX10_FORCE_AFR_OF_SFR__FALLBACK_3AFR
+  nameWithType: EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_AFR_OF_SFR__FALLBACK_3AFR
+  fullName: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_FORCE_AFR_OF_SFR__FALLBACK_3AFR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_MODE_DX10.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SLI_PREDEFINED_MODE_DX10_FORCE_AFR_OF_SFR__FALLBACK_3AFR
+    path: ../NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_MODE_DX10.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SLI_PREDEFINED_MODE_DX10_FORCE_AFR_OF_SFR__FALLBACK_3AFR = 5
+    return:
+      type: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10
+- uid: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_NUM_VALUES
+  id: SLI_PREDEFINED_MODE_DX10_NUM_VALUES
+  parent: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10
+  langs:
+  - csharp
+  - vb
+  name: SLI_PREDEFINED_MODE_DX10_NUM_VALUES
+  nameWithType: EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_MODE_DX10.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SLI_PREDEFINED_MODE_DX10_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_MODE_DX10.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SLI_PREDEFINED_MODE_DX10_NUM_VALUES = 6
+    return:
+      type: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10
+- uid: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_DEFAULT
+  id: SLI_PREDEFINED_MODE_DX10_DEFAULT
+  parent: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10
+  langs:
+  - csharp
+  - vb
+  name: SLI_PREDEFINED_MODE_DX10_DEFAULT
+  nameWithType: EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_DEFAULT
+  fullName: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.SLI_PREDEFINED_MODE_DX10_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_MODE_DX10.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SLI_PREDEFINED_MODE_DX10_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_SLI_PREDEFINED_MODE_DX10.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SLI_PREDEFINED_MODE_DX10_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10
+  commentId: T:NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10.html
+  name: EValues_SLI_PREDEFINED_MODE_DX10
+  nameWithType: EValues_SLI_PREDEFINED_MODE_DX10
+  fullName: NVAPIWrapper.EValues_SLI_PREDEFINED_MODE_DX10

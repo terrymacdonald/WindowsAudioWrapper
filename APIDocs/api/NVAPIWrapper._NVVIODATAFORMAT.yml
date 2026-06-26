@@ -1,0 +1,771 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVVIODATAFORMAT
+  commentId: T:NVAPIWrapper._NVVIODATAFORMAT
+  id: _NVVIODATAFORMAT
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_DUAL_R8G8B8_TO_DUAL_YCRCB422
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_DUAL_X8X8X8_TO_DUAL_422_PASSTHRU
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R10G10B10_TO_RGB444
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R10G10B10_TO_YCRCB422
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R10G10B10_TO_YCRCB444
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R12G12B12_TO_YCRCB422
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R12G12B12_TO_YCRCB444
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8A8_TO_YCRCBA4224
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8A8_TO_YCRCBA4444
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8Z10_TO_YCRCBZ4224
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8Z10_TO_YCRCBZ4444
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8_TO_YCRCB422
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8_TO_YCRCB444
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_UNKNOWN
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X10X10X10_444_PASSTHRU
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X10X8X8A10_4444_PASSTHRU
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X10X8X8Z10_4444_PASSTHRU
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X10X8X8_444_PASSTHRU
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X12X12X12_422_PASSTHRU
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X12X12X12_444_PASSTHRU
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X8X8X8A8_4444_PASSTHRU
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X8X8X8Z10_4444_PASSTHRU
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X8X8X8_444_PASSTHRU
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_Y10CR10CB10_TO_YCRCB422
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_Y10CR8CB8A10_TO_YCRCBA4224
+  - NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_Y8CR8CB8_TO_YCRCB422
+  langs:
+  - csharp
+  - vb
+  name: _NVVIODATAFORMAT
+  nameWithType: _NVVIODATAFORMAT
+  fullName: NVAPIWrapper._NVVIODATAFORMAT
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVVIODATAFORMAT
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVVIODATAFORMAT
+    content.vb: Public Enum _NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_UNKNOWN
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_UNKNOWN
+  id: NVVIODATAFORMAT_UNKNOWN
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_UNKNOWN
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_UNKNOWN
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_UNKNOWN
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_UNKNOWN = -1
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8_TO_YCRCB444
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8_TO_YCRCB444
+  id: NVVIODATAFORMAT_R8G8B8_TO_YCRCB444
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_R8G8B8_TO_YCRCB444
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8_TO_YCRCB444
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8_TO_YCRCB444
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_R8G8B8_TO_YCRCB444
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_R8G8B8_TO_YCRCB444 = 0
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8A8_TO_YCRCBA4444
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8A8_TO_YCRCBA4444
+  id: NVVIODATAFORMAT_R8G8B8A8_TO_YCRCBA4444
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_R8G8B8A8_TO_YCRCBA4444
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8A8_TO_YCRCBA4444
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8A8_TO_YCRCBA4444
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_R8G8B8A8_TO_YCRCBA4444
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_R8G8B8A8_TO_YCRCBA4444 = 1
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8Z10_TO_YCRCBZ4444
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8Z10_TO_YCRCBZ4444
+  id: NVVIODATAFORMAT_R8G8B8Z10_TO_YCRCBZ4444
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_R8G8B8Z10_TO_YCRCBZ4444
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8Z10_TO_YCRCBZ4444
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8Z10_TO_YCRCBZ4444
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_R8G8B8Z10_TO_YCRCBZ4444
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_R8G8B8Z10_TO_YCRCBZ4444 = 2
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8_TO_YCRCB422
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8_TO_YCRCB422
+  id: NVVIODATAFORMAT_R8G8B8_TO_YCRCB422
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_R8G8B8_TO_YCRCB422
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8_TO_YCRCB422
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8_TO_YCRCB422
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_R8G8B8_TO_YCRCB422
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_R8G8B8_TO_YCRCB422 = 3
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8A8_TO_YCRCBA4224
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8A8_TO_YCRCBA4224
+  id: NVVIODATAFORMAT_R8G8B8A8_TO_YCRCBA4224
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_R8G8B8A8_TO_YCRCBA4224
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8A8_TO_YCRCBA4224
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8A8_TO_YCRCBA4224
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_R8G8B8A8_TO_YCRCBA4224
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_R8G8B8A8_TO_YCRCBA4224 = 4
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8Z10_TO_YCRCBZ4224
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8Z10_TO_YCRCBZ4224
+  id: NVVIODATAFORMAT_R8G8B8Z10_TO_YCRCBZ4224
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_R8G8B8Z10_TO_YCRCBZ4224
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8Z10_TO_YCRCBZ4224
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R8G8B8Z10_TO_YCRCBZ4224
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_R8G8B8Z10_TO_YCRCBZ4224
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_R8G8B8Z10_TO_YCRCBZ4224 = 5
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X8X8X8_444_PASSTHRU
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X8X8X8_444_PASSTHRU
+  id: NVVIODATAFORMAT_X8X8X8_444_PASSTHRU
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_X8X8X8_444_PASSTHRU
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_X8X8X8_444_PASSTHRU
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X8X8X8_444_PASSTHRU
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_X8X8X8_444_PASSTHRU
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_X8X8X8_444_PASSTHRU = 6
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X8X8X8A8_4444_PASSTHRU
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X8X8X8A8_4444_PASSTHRU
+  id: NVVIODATAFORMAT_X8X8X8A8_4444_PASSTHRU
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_X8X8X8A8_4444_PASSTHRU
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_X8X8X8A8_4444_PASSTHRU
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X8X8X8A8_4444_PASSTHRU
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_X8X8X8A8_4444_PASSTHRU
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_X8X8X8A8_4444_PASSTHRU = 7
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X8X8X8Z10_4444_PASSTHRU
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X8X8X8Z10_4444_PASSTHRU
+  id: NVVIODATAFORMAT_X8X8X8Z10_4444_PASSTHRU
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_X8X8X8Z10_4444_PASSTHRU
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_X8X8X8Z10_4444_PASSTHRU
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X8X8X8Z10_4444_PASSTHRU
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_X8X8X8Z10_4444_PASSTHRU
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_X8X8X8Z10_4444_PASSTHRU = 8
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X10X10X10_444_PASSTHRU
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X10X10X10_444_PASSTHRU
+  id: NVVIODATAFORMAT_X10X10X10_444_PASSTHRU
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_X10X10X10_444_PASSTHRU
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_X10X10X10_444_PASSTHRU
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X10X10X10_444_PASSTHRU
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_X10X10X10_444_PASSTHRU
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_X10X10X10_444_PASSTHRU = 9
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X10X8X8_444_PASSTHRU
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X10X8X8_444_PASSTHRU
+  id: NVVIODATAFORMAT_X10X8X8_444_PASSTHRU
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_X10X8X8_444_PASSTHRU
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_X10X8X8_444_PASSTHRU
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X10X8X8_444_PASSTHRU
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_X10X8X8_444_PASSTHRU
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 39
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_X10X8X8_444_PASSTHRU = 10
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X10X8X8A10_4444_PASSTHRU
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X10X8X8A10_4444_PASSTHRU
+  id: NVVIODATAFORMAT_X10X8X8A10_4444_PASSTHRU
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_X10X8X8A10_4444_PASSTHRU
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_X10X8X8A10_4444_PASSTHRU
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X10X8X8A10_4444_PASSTHRU
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_X10X8X8A10_4444_PASSTHRU
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 42
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_X10X8X8A10_4444_PASSTHRU = 11
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X10X8X8Z10_4444_PASSTHRU
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X10X8X8Z10_4444_PASSTHRU
+  id: NVVIODATAFORMAT_X10X8X8Z10_4444_PASSTHRU
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_X10X8X8Z10_4444_PASSTHRU
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_X10X8X8Z10_4444_PASSTHRU
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X10X8X8Z10_4444_PASSTHRU
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_X10X8X8Z10_4444_PASSTHRU
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 45
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_X10X8X8Z10_4444_PASSTHRU = 12
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_DUAL_R8G8B8_TO_DUAL_YCRCB422
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_DUAL_R8G8B8_TO_DUAL_YCRCB422
+  id: NVVIODATAFORMAT_DUAL_R8G8B8_TO_DUAL_YCRCB422
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_DUAL_R8G8B8_TO_DUAL_YCRCB422
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_DUAL_R8G8B8_TO_DUAL_YCRCB422
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_DUAL_R8G8B8_TO_DUAL_YCRCB422
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_DUAL_R8G8B8_TO_DUAL_YCRCB422
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 48
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_DUAL_R8G8B8_TO_DUAL_YCRCB422 = 13
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_DUAL_X8X8X8_TO_DUAL_422_PASSTHRU
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_DUAL_X8X8X8_TO_DUAL_422_PASSTHRU
+  id: NVVIODATAFORMAT_DUAL_X8X8X8_TO_DUAL_422_PASSTHRU
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_DUAL_X8X8X8_TO_DUAL_422_PASSTHRU
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_DUAL_X8X8X8_TO_DUAL_422_PASSTHRU
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_DUAL_X8X8X8_TO_DUAL_422_PASSTHRU
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_DUAL_X8X8X8_TO_DUAL_422_PASSTHRU
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 51
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_DUAL_X8X8X8_TO_DUAL_422_PASSTHRU = 14
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R10G10B10_TO_YCRCB422
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R10G10B10_TO_YCRCB422
+  id: NVVIODATAFORMAT_R10G10B10_TO_YCRCB422
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_R10G10B10_TO_YCRCB422
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_R10G10B10_TO_YCRCB422
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R10G10B10_TO_YCRCB422
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_R10G10B10_TO_YCRCB422
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 54
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_R10G10B10_TO_YCRCB422 = 15
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R10G10B10_TO_YCRCB444
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R10G10B10_TO_YCRCB444
+  id: NVVIODATAFORMAT_R10G10B10_TO_YCRCB444
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_R10G10B10_TO_YCRCB444
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_R10G10B10_TO_YCRCB444
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R10G10B10_TO_YCRCB444
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_R10G10B10_TO_YCRCB444
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 57
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_R10G10B10_TO_YCRCB444 = 16
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X12X12X12_444_PASSTHRU
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X12X12X12_444_PASSTHRU
+  id: NVVIODATAFORMAT_X12X12X12_444_PASSTHRU
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_X12X12X12_444_PASSTHRU
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_X12X12X12_444_PASSTHRU
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X12X12X12_444_PASSTHRU
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_X12X12X12_444_PASSTHRU
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 60
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_X12X12X12_444_PASSTHRU = 17
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X12X12X12_422_PASSTHRU
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X12X12X12_422_PASSTHRU
+  id: NVVIODATAFORMAT_X12X12X12_422_PASSTHRU
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_X12X12X12_422_PASSTHRU
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_X12X12X12_422_PASSTHRU
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_X12X12X12_422_PASSTHRU
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_X12X12X12_422_PASSTHRU
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 63
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_X12X12X12_422_PASSTHRU = 18
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_Y10CR10CB10_TO_YCRCB422
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_Y10CR10CB10_TO_YCRCB422
+  id: NVVIODATAFORMAT_Y10CR10CB10_TO_YCRCB422
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_Y10CR10CB10_TO_YCRCB422
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_Y10CR10CB10_TO_YCRCB422
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_Y10CR10CB10_TO_YCRCB422
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_Y10CR10CB10_TO_YCRCB422
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 66
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_Y10CR10CB10_TO_YCRCB422 = 19
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_Y8CR8CB8_TO_YCRCB422
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_Y8CR8CB8_TO_YCRCB422
+  id: NVVIODATAFORMAT_Y8CR8CB8_TO_YCRCB422
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_Y8CR8CB8_TO_YCRCB422
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_Y8CR8CB8_TO_YCRCB422
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_Y8CR8CB8_TO_YCRCB422
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_Y8CR8CB8_TO_YCRCB422
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 69
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_Y8CR8CB8_TO_YCRCB422 = 20
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_Y10CR8CB8A10_TO_YCRCBA4224
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_Y10CR8CB8A10_TO_YCRCBA4224
+  id: NVVIODATAFORMAT_Y10CR8CB8A10_TO_YCRCBA4224
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_Y10CR8CB8A10_TO_YCRCBA4224
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_Y10CR8CB8A10_TO_YCRCBA4224
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_Y10CR8CB8A10_TO_YCRCBA4224
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_Y10CR8CB8A10_TO_YCRCBA4224
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 72
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_Y10CR8CB8A10_TO_YCRCBA4224 = 21
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R10G10B10_TO_RGB444
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R10G10B10_TO_RGB444
+  id: NVVIODATAFORMAT_R10G10B10_TO_RGB444
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_R10G10B10_TO_RGB444
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_R10G10B10_TO_RGB444
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R10G10B10_TO_RGB444
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_R10G10B10_TO_RGB444
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 75
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_R10G10B10_TO_RGB444 = 22
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R12G12B12_TO_YCRCB444
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R12G12B12_TO_YCRCB444
+  id: NVVIODATAFORMAT_R12G12B12_TO_YCRCB444
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_R12G12B12_TO_YCRCB444
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_R12G12B12_TO_YCRCB444
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R12G12B12_TO_YCRCB444
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_R12G12B12_TO_YCRCB444
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 78
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_R12G12B12_TO_YCRCB444 = 23
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R12G12B12_TO_YCRCB422
+  commentId: F:NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R12G12B12_TO_YCRCB422
+  id: NVVIODATAFORMAT_R12G12B12_TO_YCRCB422
+  parent: NVAPIWrapper._NVVIODATAFORMAT
+  langs:
+  - csharp
+  - vb
+  name: NVVIODATAFORMAT_R12G12B12_TO_YCRCB422
+  nameWithType: _NVVIODATAFORMAT.NVVIODATAFORMAT_R12G12B12_TO_YCRCB422
+  fullName: NVAPIWrapper._NVVIODATAFORMAT.NVVIODATAFORMAT_R12G12B12_TO_YCRCB422
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIODATAFORMAT_R12G12B12_TO_YCRCB422
+    path: ../NVAPIWrapper/cs_generated/_NVVIODATAFORMAT.cs
+    startLine: 81
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIODATAFORMAT_R12G12B12_TO_YCRCB422 = 24
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVVIODATAFORMAT
+  commentId: T:NVAPIWrapper._NVVIODATAFORMAT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIODATAFORMAT.html
+  name: _NVVIODATAFORMAT
+  nameWithType: _NVVIODATAFORMAT
+  fullName: NVAPIWrapper._NVVIODATAFORMAT

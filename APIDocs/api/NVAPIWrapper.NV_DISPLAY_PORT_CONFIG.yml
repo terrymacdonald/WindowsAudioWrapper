@@ -1,0 +1,766 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG
+  commentId: T:NVAPIWrapper.NV_DISPLAY_PORT_CONFIG
+  id: NV_DISPLAY_PORT_CONFIG
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_DISPLAY_PORT_CONFIG._bitfield
+  - NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.bpc
+  - NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.colorFormat
+  - NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.colorimetry
+  - NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.dynamicRange
+  - NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isChromaLpfOff
+  - NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isDitherOff
+  - NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isHPD
+  - NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isSetDeferred
+  - NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.laneCount
+  - NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.linkRate
+  - NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.testColorChange
+  - NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.testLinkTrain
+  - NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.version
+  langs:
+  - csharp
+  - vb
+  name: NV_DISPLAY_PORT_CONFIG
+  nameWithType: NV_DISPLAY_PORT_CONFIG
+  fullName: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DISPLAY_PORT_CONFIG
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct NV_DISPLAY_PORT_CONFIG
+    content.vb: Public Structure NV_DISPLAY_PORT_CONFIG
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.version
+  commentId: F:NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.version
+  id: version
+  parent: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: NV_DISPLAY_PORT_CONFIG.version
+  fullName: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.version
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: version
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+    startLine: 7
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint version
+    return:
+      type: System.UInt32
+    content.vb: Public version As UInteger
+- uid: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.linkRate
+  commentId: F:NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.linkRate
+  id: linkRate
+  parent: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG
+  langs:
+  - csharp
+  - vb
+  name: linkRate
+  nameWithType: NV_DISPLAY_PORT_CONFIG.linkRate
+  fullName: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.linkRate
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: linkRate
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+    startLine: 11
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_DP_LINK_RATE linkRate
+    return:
+      type: NVAPIWrapper._NV_DP_LINK_RATE
+    content.vb: Public linkRate As _NV_DP_LINK_RATE
+- uid: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.laneCount
+  commentId: F:NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.laneCount
+  id: laneCount
+  parent: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG
+  langs:
+  - csharp
+  - vb
+  name: laneCount
+  nameWithType: NV_DISPLAY_PORT_CONFIG.laneCount
+  fullName: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.laneCount
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: laneCount
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_DP_LANE_COUNT laneCount
+    return:
+      type: NVAPIWrapper._NV_DP_LANE_COUNT
+    content.vb: Public laneCount As _NV_DP_LANE_COUNT
+- uid: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.colorFormat
+  commentId: F:NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.colorFormat
+  id: colorFormat
+  parent: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG
+  langs:
+  - csharp
+  - vb
+  name: colorFormat
+  nameWithType: NV_DISPLAY_PORT_CONFIG.colorFormat
+  fullName: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.colorFormat
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: colorFormat
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+    startLine: 19
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_DP_COLOR_FORMAT colorFormat
+    return:
+      type: NVAPIWrapper._NV_DP_COLOR_FORMAT
+    content.vb: Public colorFormat As _NV_DP_COLOR_FORMAT
+- uid: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.dynamicRange
+  commentId: F:NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.dynamicRange
+  id: dynamicRange
+  parent: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG
+  langs:
+  - csharp
+  - vb
+  name: dynamicRange
+  nameWithType: NV_DISPLAY_PORT_CONFIG.dynamicRange
+  fullName: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.dynamicRange
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: dynamicRange
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+    startLine: 23
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_DP_DYNAMIC_RANGE dynamicRange
+    return:
+      type: NVAPIWrapper._NV_DP_DYNAMIC_RANGE
+    content.vb: Public dynamicRange As _NV_DP_DYNAMIC_RANGE
+- uid: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.colorimetry
+  commentId: F:NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.colorimetry
+  id: colorimetry
+  parent: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG
+  langs:
+  - csharp
+  - vb
+  name: colorimetry
+  nameWithType: NV_DISPLAY_PORT_CONFIG.colorimetry
+  fullName: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.colorimetry
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: colorimetry
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_DP_COLORIMETRY colorimetry
+    return:
+      type: NVAPIWrapper._NV_DP_COLORIMETRY
+    content.vb: Public colorimetry As _NV_DP_COLORIMETRY
+- uid: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.bpc
+  commentId: F:NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.bpc
+  id: bpc
+  parent: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG
+  langs:
+  - csharp
+  - vb
+  name: bpc
+  nameWithType: NV_DISPLAY_PORT_CONFIG.bpc
+  fullName: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.bpc
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bpc
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+    startLine: 31
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_DP_BPC bpc
+    return:
+      type: NVAPIWrapper._NV_DP_BPC
+    content.vb: Public bpc As _NV_DP_BPC
+- uid: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG._bitfield
+  commentId: F:NVAPIWrapper.NV_DISPLAY_PORT_CONFIG._bitfield
+  id: _bitfield
+  parent: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG
+  langs:
+  - csharp
+  - vb
+  name: _bitfield
+  nameWithType: NV_DISPLAY_PORT_CONFIG._bitfield
+  fullName: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG._bitfield
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield As UInteger
+- uid: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isHPD
+  commentId: P:NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isHPD
+  id: isHPD
+  parent: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG
+  langs:
+  - csharp
+  - vb
+  name: isHPD
+  nameWithType: NV_DISPLAY_PORT_CONFIG.isHPD
+  fullName: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isHPD
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isHPD
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isHPD { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isHPD As UInteger
+  overload: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isHPD*
+- uid: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isSetDeferred
+  commentId: P:NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isSetDeferred
+  id: isSetDeferred
+  parent: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG
+  langs:
+  - csharp
+  - vb
+  name: isSetDeferred
+  nameWithType: NV_DISPLAY_PORT_CONFIG.isSetDeferred
+  fullName: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isSetDeferred
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isSetDeferred
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+    startLine: 51
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isSetDeferred { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isSetDeferred As UInteger
+  overload: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isSetDeferred*
+- uid: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isChromaLpfOff
+  commentId: P:NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isChromaLpfOff
+  id: isChromaLpfOff
+  parent: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG
+  langs:
+  - csharp
+  - vb
+  name: isChromaLpfOff
+  nameWithType: NV_DISPLAY_PORT_CONFIG.isChromaLpfOff
+  fullName: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isChromaLpfOff
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isChromaLpfOff
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+    startLine: 66
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isChromaLpfOff { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isChromaLpfOff As UInteger
+  overload: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isChromaLpfOff*
+- uid: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isDitherOff
+  commentId: P:NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isDitherOff
+  id: isDitherOff
+  parent: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG
+  langs:
+  - csharp
+  - vb
+  name: isDitherOff
+  nameWithType: NV_DISPLAY_PORT_CONFIG.isDitherOff
+  fullName: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isDitherOff
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isDitherOff
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+    startLine: 81
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isDitherOff { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isDitherOff As UInteger
+  overload: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isDitherOff*
+- uid: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.testLinkTrain
+  commentId: P:NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.testLinkTrain
+  id: testLinkTrain
+  parent: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG
+  langs:
+  - csharp
+  - vb
+  name: testLinkTrain
+  nameWithType: NV_DISPLAY_PORT_CONFIG.testLinkTrain
+  fullName: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.testLinkTrain
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: testLinkTrain
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+    startLine: 96
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint testLinkTrain { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property testLinkTrain As UInteger
+  overload: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.testLinkTrain*
+- uid: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.testColorChange
+  commentId: P:NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.testColorChange
+  id: testColorChange
+  parent: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG
+  langs:
+  - csharp
+  - vb
+  name: testColorChange
+  nameWithType: NV_DISPLAY_PORT_CONFIG.testColorChange
+  fullName: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.testColorChange
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: testColorChange
+    path: ../NVAPIWrapper/cs_generated/NV_DISPLAY_PORT_CONFIG.cs
+    startLine: 111
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint testColorChange { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property testColorChange As UInteger
+  overload: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.testColorChange*
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper._NV_DP_LINK_RATE
+  commentId: T:NVAPIWrapper._NV_DP_LINK_RATE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DP_LINK_RATE.html
+  name: _NV_DP_LINK_RATE
+  nameWithType: _NV_DP_LINK_RATE
+  fullName: NVAPIWrapper._NV_DP_LINK_RATE
+- uid: NVAPIWrapper._NV_DP_LANE_COUNT
+  commentId: T:NVAPIWrapper._NV_DP_LANE_COUNT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DP_LANE_COUNT.html
+  name: _NV_DP_LANE_COUNT
+  nameWithType: _NV_DP_LANE_COUNT
+  fullName: NVAPIWrapper._NV_DP_LANE_COUNT
+- uid: NVAPIWrapper._NV_DP_COLOR_FORMAT
+  commentId: T:NVAPIWrapper._NV_DP_COLOR_FORMAT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DP_COLOR_FORMAT.html
+  name: _NV_DP_COLOR_FORMAT
+  nameWithType: _NV_DP_COLOR_FORMAT
+  fullName: NVAPIWrapper._NV_DP_COLOR_FORMAT
+- uid: NVAPIWrapper._NV_DP_DYNAMIC_RANGE
+  commentId: T:NVAPIWrapper._NV_DP_DYNAMIC_RANGE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DP_DYNAMIC_RANGE.html
+  name: _NV_DP_DYNAMIC_RANGE
+  nameWithType: _NV_DP_DYNAMIC_RANGE
+  fullName: NVAPIWrapper._NV_DP_DYNAMIC_RANGE
+- uid: NVAPIWrapper._NV_DP_COLORIMETRY
+  commentId: T:NVAPIWrapper._NV_DP_COLORIMETRY
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DP_COLORIMETRY.html
+  name: _NV_DP_COLORIMETRY
+  nameWithType: _NV_DP_COLORIMETRY
+  fullName: NVAPIWrapper._NV_DP_COLORIMETRY
+- uid: NVAPIWrapper._NV_DP_BPC
+  commentId: T:NVAPIWrapper._NV_DP_BPC
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DP_BPC.html
+  name: _NV_DP_BPC
+  nameWithType: _NV_DP_BPC
+  fullName: NVAPIWrapper._NV_DP_BPC
+- uid: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isHPD*
+  commentId: Overload:NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isHPD
+  href: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.html#NVAPIWrapper_NV_DISPLAY_PORT_CONFIG_isHPD
+  name: isHPD
+  nameWithType: NV_DISPLAY_PORT_CONFIG.isHPD
+  fullName: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isHPD
+- uid: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isSetDeferred*
+  commentId: Overload:NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isSetDeferred
+  href: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.html#NVAPIWrapper_NV_DISPLAY_PORT_CONFIG_isSetDeferred
+  name: isSetDeferred
+  nameWithType: NV_DISPLAY_PORT_CONFIG.isSetDeferred
+  fullName: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isSetDeferred
+- uid: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isChromaLpfOff*
+  commentId: Overload:NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isChromaLpfOff
+  href: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.html#NVAPIWrapper_NV_DISPLAY_PORT_CONFIG_isChromaLpfOff
+  name: isChromaLpfOff
+  nameWithType: NV_DISPLAY_PORT_CONFIG.isChromaLpfOff
+  fullName: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isChromaLpfOff
+- uid: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isDitherOff*
+  commentId: Overload:NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isDitherOff
+  href: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.html#NVAPIWrapper_NV_DISPLAY_PORT_CONFIG_isDitherOff
+  name: isDitherOff
+  nameWithType: NV_DISPLAY_PORT_CONFIG.isDitherOff
+  fullName: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.isDitherOff
+- uid: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.testLinkTrain*
+  commentId: Overload:NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.testLinkTrain
+  href: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.html#NVAPIWrapper_NV_DISPLAY_PORT_CONFIG_testLinkTrain
+  name: testLinkTrain
+  nameWithType: NV_DISPLAY_PORT_CONFIG.testLinkTrain
+  fullName: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.testLinkTrain
+- uid: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.testColorChange*
+  commentId: Overload:NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.testColorChange
+  href: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.html#NVAPIWrapper_NV_DISPLAY_PORT_CONFIG_testColorChange
+  name: testColorChange
+  nameWithType: NV_DISPLAY_PORT_CONFIG.testColorChange
+  fullName: NVAPIWrapper.NV_DISPLAY_PORT_CONFIG.testColorChange

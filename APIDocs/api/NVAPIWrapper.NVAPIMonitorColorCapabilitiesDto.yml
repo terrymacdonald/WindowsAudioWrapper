@@ -1,0 +1,823 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+  commentId: T:NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+  id: NVAPIMonitorColorCapabilitiesDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.#ctor(NVAPIWrapper._NV_MONITOR_COLOR_DATA[])
+  - NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.Capabilities
+  - NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.Equals(NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+  - NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.FromNative(NVAPIWrapper._NV_MONITOR_COLOR_DATA[])
+  - NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.GetHashCode
+  - NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.ToNative
+  - NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.op_Equality(NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto,NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+  - NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.op_Inequality(NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto,NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIMonitorColorCapabilitiesDto
+  nameWithType: NVAPIMonitorColorCapabilitiesDto
+  fullName: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIMonitorColorCapabilitiesDto
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 4320
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: DTO for monitor color capabilities collection.
+  example: []
+  syntax:
+    content: 'public struct NVAPIMonitorColorCapabilitiesDto : IEquatable<NVAPIMonitorColorCapabilitiesDto>'
+    content.vb: Public Structure NVAPIMonitorColorCapabilitiesDto Implements IEquatable(Of NVAPIMonitorColorCapabilitiesDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.Capabilities
+  commentId: P:NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.Capabilities
+  id: Capabilities
+  parent: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+  langs:
+  - csharp
+  - vb
+  name: Capabilities
+  nameWithType: NVAPIMonitorColorCapabilitiesDto.Capabilities
+  fullName: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.Capabilities
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Capabilities
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 4324
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Color capability entries. Empty array when no capabilities are present.
+  example: []
+  syntax:
+    content: public _NV_MONITOR_COLOR_DATA[] Capabilities { get; }
+    parameters: []
+    return:
+      type: NVAPIWrapper._NV_MONITOR_COLOR_DATA[]
+    content.vb: Public ReadOnly Property Capabilities As _NV_MONITOR_COLOR_DATA()
+  overload: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.Capabilities*
+- uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.#ctor(NVAPIWrapper._NV_MONITOR_COLOR_DATA[])
+  commentId: M:NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.#ctor(NVAPIWrapper._NV_MONITOR_COLOR_DATA[])
+  id: '#ctor(NVAPIWrapper._NV_MONITOR_COLOR_DATA[])'
+  parent: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIMonitorColorCapabilitiesDto(_NV_MONITOR_COLOR_DATA[])
+  nameWithType: NVAPIMonitorColorCapabilitiesDto.NVAPIMonitorColorCapabilitiesDto(_NV_MONITOR_COLOR_DATA[])
+  fullName: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.NVAPIMonitorColorCapabilitiesDto(NVAPIWrapper._NV_MONITOR_COLOR_DATA[])
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 4327
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a monitor color capabilities DTO.
+  example: []
+  syntax:
+    content: public NVAPIMonitorColorCapabilitiesDto(_NV_MONITOR_COLOR_DATA[] capabilities)
+    parameters:
+    - id: capabilities
+      type: NVAPIWrapper._NV_MONITOR_COLOR_DATA[]
+    content.vb: Public Sub New(capabilities As _NV_MONITOR_COLOR_DATA())
+  overload: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.#ctor*
+  nameWithType.vb: NVAPIMonitorColorCapabilitiesDto.New(_NV_MONITOR_COLOR_DATA())
+  fullName.vb: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.New(NVAPIWrapper._NV_MONITOR_COLOR_DATA())
+  name.vb: New(_NV_MONITOR_COLOR_DATA())
+- uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.FromNative(NVAPIWrapper._NV_MONITOR_COLOR_DATA[])
+  commentId: M:NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.FromNative(NVAPIWrapper._NV_MONITOR_COLOR_DATA[])
+  id: FromNative(NVAPIWrapper._NV_MONITOR_COLOR_DATA[])
+  parent: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(_NV_MONITOR_COLOR_DATA[])
+  nameWithType: NVAPIMonitorColorCapabilitiesDto.FromNative(_NV_MONITOR_COLOR_DATA[])
+  fullName: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.FromNative(NVAPIWrapper._NV_MONITOR_COLOR_DATA[])
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 4337
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Create a DTO from native monitor color capabilities.
+  example: []
+  syntax:
+    content: public static NVAPIMonitorColorCapabilitiesDto FromNative(_NV_MONITOR_COLOR_DATA[] native)
+    parameters:
+    - id: native
+      type: NVAPIWrapper._NV_MONITOR_COLOR_DATA[]
+      description: Native color capabilities array.
+    return:
+      type: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+      description: Monitor color capabilities DTO.
+    content.vb: Public Shared Function FromNative(native As _NV_MONITOR_COLOR_DATA()) As NVAPIMonitorColorCapabilitiesDto
+  overload: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.FromNative*
+  nameWithType.vb: NVAPIMonitorColorCapabilitiesDto.FromNative(_NV_MONITOR_COLOR_DATA())
+  fullName.vb: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.FromNative(NVAPIWrapper._NV_MONITOR_COLOR_DATA())
+  name.vb: FromNative(_NV_MONITOR_COLOR_DATA())
+- uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.ToNative
+  commentId: M:NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.ToNative
+  id: ToNative
+  parent: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: NVAPIMonitorColorCapabilitiesDto.ToNative()
+  fullName: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 4346
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Convert this DTO to a native color capabilities array.
+  example: []
+  syntax:
+    content: public _NV_MONITOR_COLOR_DATA[] ToNative()
+    return:
+      type: NVAPIWrapper._NV_MONITOR_COLOR_DATA[]
+      description: Native color capabilities array.
+    content.vb: Public Function ToNative() As _NV_MONITOR_COLOR_DATA()
+  overload: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.ToNative*
+- uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.Equals(NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+  commentId: M:NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.Equals(NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+  id: Equals(NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+  parent: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIMonitorColorCapabilitiesDto)
+  nameWithType: NVAPIMonitorColorCapabilitiesDto.Equals(NVAPIMonitorColorCapabilitiesDto)
+  fullName: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.Equals(NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 4352
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIMonitorColorCapabilitiesDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As NVAPIMonitorColorCapabilitiesDto) As Boolean
+  overload: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto}.Equals(NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+- uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIMonitorColorCapabilitiesDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 4358
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.Equals*
+  nameWithType.vb: NVAPIMonitorColorCapabilitiesDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIMonitorColorCapabilitiesDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 4364
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.op_Equality(NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto,NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+  commentId: M:NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.op_Equality(NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto,NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+  id: op_Equality(NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto,NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+  parent: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIMonitorColorCapabilitiesDto, NVAPIMonitorColorCapabilitiesDto)
+  nameWithType: NVAPIMonitorColorCapabilitiesDto.operator ==(NVAPIMonitorColorCapabilitiesDto, NVAPIMonitorColorCapabilitiesDto)
+  fullName: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.operator ==(NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto, NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 4370
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Compare monitor color capabilities DTOs.
+  example: []
+  syntax:
+    content: public static bool operator ==(NVAPIMonitorColorCapabilitiesDto left, NVAPIMonitorColorCapabilitiesDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+    - id: right
+      type: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As NVAPIMonitorColorCapabilitiesDto, right As NVAPIMonitorColorCapabilitiesDto) As Boolean
+  overload: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.op_Equality*
+  nameWithType.vb: NVAPIMonitorColorCapabilitiesDto.=(NVAPIMonitorColorCapabilitiesDto, NVAPIMonitorColorCapabilitiesDto)
+  fullName.vb: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.=(NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto, NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+  name.vb: =(NVAPIMonitorColorCapabilitiesDto, NVAPIMonitorColorCapabilitiesDto)
+- uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.op_Inequality(NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto,NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+  commentId: M:NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.op_Inequality(NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto,NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto,NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+  parent: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIMonitorColorCapabilitiesDto, NVAPIMonitorColorCapabilitiesDto)
+  nameWithType: NVAPIMonitorColorCapabilitiesDto.operator !=(NVAPIMonitorColorCapabilitiesDto, NVAPIMonitorColorCapabilitiesDto)
+  fullName: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.operator !=(NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto, NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 4373
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Compare monitor color capabilities DTOs.
+  example: []
+  syntax:
+    content: public static bool operator !=(NVAPIMonitorColorCapabilitiesDto left, NVAPIMonitorColorCapabilitiesDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+    - id: right
+      type: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As NVAPIMonitorColorCapabilitiesDto, right As NVAPIMonitorColorCapabilitiesDto) As Boolean
+  overload: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.op_Inequality*
+  nameWithType.vb: NVAPIMonitorColorCapabilitiesDto.<>(NVAPIMonitorColorCapabilitiesDto, NVAPIMonitorColorCapabilitiesDto)
+  fullName.vb: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.<>(NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto, NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+  name.vb: <>(NVAPIMonitorColorCapabilitiesDto, NVAPIMonitorColorCapabilitiesDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIMonitorColorCapabilitiesDto>
+  nameWithType: IEquatable<NVAPIMonitorColorCapabilitiesDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto>
+  nameWithType.vb: IEquatable(Of NVAPIMonitorColorCapabilitiesDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+  name.vb: IEquatable(Of NVAPIMonitorColorCapabilitiesDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+    name: NVAPIMonitorColorCapabilitiesDto
+    href: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+    name: NVAPIMonitorColorCapabilitiesDto
+    href: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.Capabilities*
+  commentId: Overload:NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.Capabilities
+  href: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.html#NVAPIWrapper_NVAPIMonitorColorCapabilitiesDto_Capabilities
+  name: Capabilities
+  nameWithType: NVAPIMonitorColorCapabilitiesDto.Capabilities
+  fullName: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.Capabilities
+- uid: NVAPIWrapper._NV_MONITOR_COLOR_DATA[]
+  isExternal: true
+  href: NVAPIWrapper._NV_MONITOR_COLOR_DATA.html
+  name: _NV_MONITOR_COLOR_DATA[]
+  nameWithType: _NV_MONITOR_COLOR_DATA[]
+  fullName: NVAPIWrapper._NV_MONITOR_COLOR_DATA[]
+  nameWithType.vb: _NV_MONITOR_COLOR_DATA()
+  fullName.vb: NVAPIWrapper._NV_MONITOR_COLOR_DATA()
+  name.vb: _NV_MONITOR_COLOR_DATA()
+  spec.csharp:
+  - uid: NVAPIWrapper._NV_MONITOR_COLOR_DATA
+    name: _NV_MONITOR_COLOR_DATA
+    href: NVAPIWrapper._NV_MONITOR_COLOR_DATA.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: NVAPIWrapper._NV_MONITOR_COLOR_DATA
+    name: _NV_MONITOR_COLOR_DATA
+    href: NVAPIWrapper._NV_MONITOR_COLOR_DATA.html
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.#ctor
+  href: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.html#NVAPIWrapper_NVAPIMonitorColorCapabilitiesDto__ctor_NVAPIWrapper__NV_MONITOR_COLOR_DATA___
+  name: NVAPIMonitorColorCapabilitiesDto
+  nameWithType: NVAPIMonitorColorCapabilitiesDto.NVAPIMonitorColorCapabilitiesDto
+  fullName: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.NVAPIMonitorColorCapabilitiesDto
+  nameWithType.vb: NVAPIMonitorColorCapabilitiesDto.New
+  fullName.vb: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.FromNative
+  href: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.html#NVAPIWrapper_NVAPIMonitorColorCapabilitiesDto_FromNative_NVAPIWrapper__NV_MONITOR_COLOR_DATA___
+  name: FromNative
+  nameWithType: NVAPIMonitorColorCapabilitiesDto.FromNative
+  fullName: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.FromNative
+- uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+  commentId: T:NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.html
+  name: NVAPIMonitorColorCapabilitiesDto
+  nameWithType: NVAPIMonitorColorCapabilitiesDto
+  fullName: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+- uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.ToNative
+  href: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.html#NVAPIWrapper_NVAPIMonitorColorCapabilitiesDto_ToNative
+  name: ToNative
+  nameWithType: NVAPIMonitorColorCapabilitiesDto.ToNative
+  fullName: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.ToNative
+- uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.Equals
+  href: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.html#NVAPIWrapper_NVAPIMonitorColorCapabilitiesDto_Equals_NVAPIWrapper_NVAPIMonitorColorCapabilitiesDto_
+  name: Equals
+  nameWithType: NVAPIMonitorColorCapabilitiesDto.Equals
+  fullName: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto}.Equals(NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto}.Equals(NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIMonitorColorCapabilitiesDto)
+  nameWithType: IEquatable<NVAPIMonitorColorCapabilitiesDto>.Equals(NVAPIMonitorColorCapabilitiesDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto>.Equals(NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+  nameWithType.vb: IEquatable(Of NVAPIMonitorColorCapabilitiesDto).Equals(NVAPIMonitorColorCapabilitiesDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto).Equals(NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto}.Equals(NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+    name: NVAPIMonitorColorCapabilitiesDto
+    href: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto}.Equals(NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto
+    name: NVAPIMonitorColorCapabilitiesDto
+    href: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.html
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.GetHashCode
+  href: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.html#NVAPIWrapper_NVAPIMonitorColorCapabilitiesDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIMonitorColorCapabilitiesDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.op_Equality
+  href: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.html#NVAPIWrapper_NVAPIMonitorColorCapabilitiesDto_op_Equality_NVAPIWrapper_NVAPIMonitorColorCapabilitiesDto_NVAPIWrapper_NVAPIMonitorColorCapabilitiesDto_
+  name: operator ==
+  nameWithType: NVAPIMonitorColorCapabilitiesDto.operator ==
+  fullName: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.operator ==
+  nameWithType.vb: NVAPIMonitorColorCapabilitiesDto.=
+  fullName.vb: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.html#NVAPIWrapper_NVAPIMonitorColorCapabilitiesDto_op_Equality_NVAPIWrapper_NVAPIMonitorColorCapabilitiesDto_NVAPIWrapper_NVAPIMonitorColorCapabilitiesDto_
+- uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.op_Inequality
+  href: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.html#NVAPIWrapper_NVAPIMonitorColorCapabilitiesDto_op_Inequality_NVAPIWrapper_NVAPIMonitorColorCapabilitiesDto_NVAPIWrapper_NVAPIMonitorColorCapabilitiesDto_
+  name: operator !=
+  nameWithType: NVAPIMonitorColorCapabilitiesDto.operator !=
+  fullName: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.operator !=
+  nameWithType.vb: NVAPIMonitorColorCapabilitiesDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIMonitorColorCapabilitiesDto.html#NVAPIWrapper_NVAPIMonitorColorCapabilitiesDto_op_Inequality_NVAPIWrapper_NVAPIMonitorColorCapabilitiesDto_NVAPIWrapper_NVAPIMonitorColorCapabilitiesDto_

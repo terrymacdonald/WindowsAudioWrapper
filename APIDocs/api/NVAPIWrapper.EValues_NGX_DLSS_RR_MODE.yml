@@ -1,0 +1,295 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE
+  commentId: T:NVAPIWrapper.EValues_NGX_DLSS_RR_MODE
+  id: EValues_NGX_DLSS_RR_MODE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_DEFAULT
+  - NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_BALANCED
+  - NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_CUSTOM
+  - NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_DLAA
+  - NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_PERFORMANCE
+  - NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_QUALITY
+  - NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_SNIPPET_CONTROLLED
+  - NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_ULTRA_PERFORMANCE
+  - NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_NGX_DLSS_RR_MODE
+  nameWithType: EValues_NGX_DLSS_RR_MODE
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_NGX_DLSS_RR_MODE
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_MODE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_NGX_DLSS_RR_MODE
+    content.vb: Public Enum EValues_NGX_DLSS_RR_MODE
+- uid: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_PERFORMANCE
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_PERFORMANCE
+  id: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_PERFORMANCE
+  parent: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_PERFORMANCE
+  nameWithType: EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_PERFORMANCE
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_PERFORMANCE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_PERFORMANCE
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_MODE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_PERFORMANCE = 0
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE
+- uid: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_BALANCED
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_BALANCED
+  id: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_BALANCED
+  parent: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_BALANCED
+  nameWithType: EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_BALANCED
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_BALANCED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_BALANCED
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_MODE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_BALANCED = 1
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE
+- uid: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_QUALITY
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_QUALITY
+  id: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_QUALITY
+  parent: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_QUALITY
+  nameWithType: EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_QUALITY
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_QUALITY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_QUALITY
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_MODE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_QUALITY = 2
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE
+- uid: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_SNIPPET_CONTROLLED
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_SNIPPET_CONTROLLED
+  id: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_SNIPPET_CONTROLLED
+  parent: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_SNIPPET_CONTROLLED
+  nameWithType: EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_SNIPPET_CONTROLLED
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_SNIPPET_CONTROLLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_SNIPPET_CONTROLLED
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_MODE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_SNIPPET_CONTROLLED = 3
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE
+- uid: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_DLAA
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_DLAA
+  id: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_DLAA
+  parent: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_DLAA
+  nameWithType: EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_DLAA
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_DLAA
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_DLAA
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_MODE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_DLAA = 4
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE
+- uid: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_ULTRA_PERFORMANCE
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_ULTRA_PERFORMANCE
+  id: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_ULTRA_PERFORMANCE
+  parent: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_ULTRA_PERFORMANCE
+  nameWithType: EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_ULTRA_PERFORMANCE
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_ULTRA_PERFORMANCE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_ULTRA_PERFORMANCE
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_MODE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_ULTRA_PERFORMANCE = 5
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE
+- uid: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_CUSTOM
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_CUSTOM
+  id: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_CUSTOM
+  parent: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_CUSTOM
+  nameWithType: EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_CUSTOM
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_CUSTOM
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_CUSTOM
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_MODE.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_RR_MODE_NGX_DLSS_RR_MODE_CUSTOM = 6
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE
+- uid: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NUM_VALUES
+  id: NGX_DLSS_RR_MODE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_RR_MODE_NUM_VALUES
+  nameWithType: EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_RR_MODE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_MODE.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_RR_MODE_NUM_VALUES = 7
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE
+- uid: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_DEFAULT
+  id: NGX_DLSS_RR_MODE_DEFAULT
+  parent: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_RR_MODE_DEFAULT
+  nameWithType: EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_DEFAULT
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.NGX_DLSS_RR_MODE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_RR_MODE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_NGX_DLSS_RR_MODE.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_RR_MODE_DEFAULT = 3
+    return:
+      type: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE
+  commentId: T:NVAPIWrapper.EValues_NGX_DLSS_RR_MODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE.html
+  name: EValues_NGX_DLSS_RR_MODE
+  nameWithType: EValues_NGX_DLSS_RR_MODE
+  fullName: NVAPIWrapper.EValues_NGX_DLSS_RR_MODE

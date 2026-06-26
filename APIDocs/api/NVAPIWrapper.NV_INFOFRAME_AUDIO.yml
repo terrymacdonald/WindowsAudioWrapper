@@ -1,0 +1,1049 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO
+  commentId: T:NVAPIWrapper.NV_INFOFRAME_AUDIO
+  id: NV_INFOFRAME_AUDIO
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_INFOFRAME_AUDIO.Future10
+  - NVAPIWrapper.NV_INFOFRAME_AUDIO.Future12
+  - NVAPIWrapper.NV_INFOFRAME_AUDIO.Future2x
+  - NVAPIWrapper.NV_INFOFRAME_AUDIO.Future3x
+  - NVAPIWrapper.NV_INFOFRAME_AUDIO.Future52
+  - NVAPIWrapper.NV_INFOFRAME_AUDIO.Future6
+  - NVAPIWrapper.NV_INFOFRAME_AUDIO.Future7
+  - NVAPIWrapper.NV_INFOFRAME_AUDIO.Future8
+  - NVAPIWrapper.NV_INFOFRAME_AUDIO.Future9
+  - NVAPIWrapper.NV_INFOFRAME_AUDIO._bitfield1
+  - NVAPIWrapper.NV_INFOFRAME_AUDIO._bitfield2
+  - NVAPIWrapper.NV_INFOFRAME_AUDIO._bitfield3
+  - NVAPIWrapper.NV_INFOFRAME_AUDIO._bitfield4
+  - NVAPIWrapper.NV_INFOFRAME_AUDIO.channelCount
+  - NVAPIWrapper.NV_INFOFRAME_AUDIO.codingExtensionType
+  - NVAPIWrapper.NV_INFOFRAME_AUDIO.codingType
+  - NVAPIWrapper.NV_INFOFRAME_AUDIO.downmixInhibit
+  - NVAPIWrapper.NV_INFOFRAME_AUDIO.levelShift
+  - NVAPIWrapper.NV_INFOFRAME_AUDIO.lfePlaybackLevel
+  - NVAPIWrapper.NV_INFOFRAME_AUDIO.sampleRate
+  - NVAPIWrapper.NV_INFOFRAME_AUDIO.sampleSize
+  - NVAPIWrapper.NV_INFOFRAME_AUDIO.speakerPlacement
+  langs:
+  - csharp
+  - vb
+  name: NV_INFOFRAME_AUDIO
+  nameWithType: NV_INFOFRAME_AUDIO
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_INFOFRAME_AUDIO
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct NV_INFOFRAME_AUDIO
+    content.vb: Public Structure NV_INFOFRAME_AUDIO
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO._bitfield1
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_AUDIO._bitfield1
+  id: _bitfield1
+  parent: NVAPIWrapper.NV_INFOFRAME_AUDIO
+  langs:
+  - csharp
+  - vb
+  name: _bitfield1
+  nameWithType: NV_INFOFRAME_AUDIO._bitfield1
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO._bitfield1
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield1
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+    startLine: 5
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield1
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield1 As UInteger
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.codingType
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_AUDIO.codingType
+  id: codingType
+  parent: NVAPIWrapper.NV_INFOFRAME_AUDIO
+  langs:
+  - csharp
+  - vb
+  name: codingType
+  nameWithType: NV_INFOFRAME_AUDIO.codingType
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.codingType
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: codingType
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+    startLine: 8
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint codingType { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property codingType As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_AUDIO.codingType*
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.codingExtensionType
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_AUDIO.codingExtensionType
+  id: codingExtensionType
+  parent: NVAPIWrapper.NV_INFOFRAME_AUDIO
+  langs:
+  - csharp
+  - vb
+  name: codingExtensionType
+  nameWithType: NV_INFOFRAME_AUDIO.codingExtensionType
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.codingExtensionType
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: codingExtensionType
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+    startLine: 23
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint codingExtensionType { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property codingExtensionType As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_AUDIO.codingExtensionType*
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.sampleSize
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_AUDIO.sampleSize
+  id: sampleSize
+  parent: NVAPIWrapper.NV_INFOFRAME_AUDIO
+  langs:
+  - csharp
+  - vb
+  name: sampleSize
+  nameWithType: NV_INFOFRAME_AUDIO.sampleSize
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.sampleSize
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: sampleSize
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+    startLine: 38
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint sampleSize { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property sampleSize As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_AUDIO.sampleSize*
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.sampleRate
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_AUDIO.sampleRate
+  id: sampleRate
+  parent: NVAPIWrapper.NV_INFOFRAME_AUDIO
+  langs:
+  - csharp
+  - vb
+  name: sampleRate
+  nameWithType: NV_INFOFRAME_AUDIO.sampleRate
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.sampleRate
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: sampleRate
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+    startLine: 53
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint sampleRate { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property sampleRate As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_AUDIO.sampleRate*
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.channelCount
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_AUDIO.channelCount
+  id: channelCount
+  parent: NVAPIWrapper.NV_INFOFRAME_AUDIO
+  langs:
+  - csharp
+  - vb
+  name: channelCount
+  nameWithType: NV_INFOFRAME_AUDIO.channelCount
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.channelCount
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: channelCount
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+    startLine: 68
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint channelCount { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property channelCount As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_AUDIO.channelCount*
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.speakerPlacement
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_AUDIO.speakerPlacement
+  id: speakerPlacement
+  parent: NVAPIWrapper.NV_INFOFRAME_AUDIO
+  langs:
+  - csharp
+  - vb
+  name: speakerPlacement
+  nameWithType: NV_INFOFRAME_AUDIO.speakerPlacement
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.speakerPlacement
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: speakerPlacement
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+    startLine: 83
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint speakerPlacement { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property speakerPlacement As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_AUDIO.speakerPlacement*
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO._bitfield2
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_AUDIO._bitfield2
+  id: _bitfield2
+  parent: NVAPIWrapper.NV_INFOFRAME_AUDIO
+  langs:
+  - csharp
+  - vb
+  name: _bitfield2
+  nameWithType: NV_INFOFRAME_AUDIO._bitfield2
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO._bitfield2
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield2
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+    startLine: 97
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield2
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield2 As UInteger
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.downmixInhibit
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_AUDIO.downmixInhibit
+  id: downmixInhibit
+  parent: NVAPIWrapper.NV_INFOFRAME_AUDIO
+  langs:
+  - csharp
+  - vb
+  name: downmixInhibit
+  nameWithType: NV_INFOFRAME_AUDIO.downmixInhibit
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.downmixInhibit
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: downmixInhibit
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+    startLine: 100
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint downmixInhibit { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property downmixInhibit As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_AUDIO.downmixInhibit*
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.lfePlaybackLevel
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_AUDIO.lfePlaybackLevel
+  id: lfePlaybackLevel
+  parent: NVAPIWrapper.NV_INFOFRAME_AUDIO
+  langs:
+  - csharp
+  - vb
+  name: lfePlaybackLevel
+  nameWithType: NV_INFOFRAME_AUDIO.lfePlaybackLevel
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.lfePlaybackLevel
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: lfePlaybackLevel
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+    startLine: 115
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint lfePlaybackLevel { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property lfePlaybackLevel As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_AUDIO.lfePlaybackLevel*
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.levelShift
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_AUDIO.levelShift
+  id: levelShift
+  parent: NVAPIWrapper.NV_INFOFRAME_AUDIO
+  langs:
+  - csharp
+  - vb
+  name: levelShift
+  nameWithType: NV_INFOFRAME_AUDIO.levelShift
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.levelShift
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: levelShift
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+    startLine: 130
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint levelShift { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property levelShift As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_AUDIO.levelShift*
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future12
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_AUDIO.Future12
+  id: Future12
+  parent: NVAPIWrapper.NV_INFOFRAME_AUDIO
+  langs:
+  - csharp
+  - vb
+  name: Future12
+  nameWithType: NV_INFOFRAME_AUDIO.Future12
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future12
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Future12
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+    startLine: 145
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint Future12 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Future12 As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future12*
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future2x
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_AUDIO.Future2x
+  id: Future2x
+  parent: NVAPIWrapper.NV_INFOFRAME_AUDIO
+  langs:
+  - csharp
+  - vb
+  name: Future2x
+  nameWithType: NV_INFOFRAME_AUDIO.Future2x
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future2x
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Future2x
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+    startLine: 160
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint Future2x { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Future2x As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future2x*
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future3x
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_AUDIO.Future3x
+  id: Future3x
+  parent: NVAPIWrapper.NV_INFOFRAME_AUDIO
+  langs:
+  - csharp
+  - vb
+  name: Future3x
+  nameWithType: NV_INFOFRAME_AUDIO.Future3x
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future3x
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Future3x
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+    startLine: 175
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint Future3x { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Future3x As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future3x*
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future52
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_AUDIO.Future52
+  id: Future52
+  parent: NVAPIWrapper.NV_INFOFRAME_AUDIO
+  langs:
+  - csharp
+  - vb
+  name: Future52
+  nameWithType: NV_INFOFRAME_AUDIO.Future52
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future52
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Future52
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+    startLine: 190
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint Future52 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Future52 As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future52*
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future6
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_AUDIO.Future6
+  id: Future6
+  parent: NVAPIWrapper.NV_INFOFRAME_AUDIO
+  langs:
+  - csharp
+  - vb
+  name: Future6
+  nameWithType: NV_INFOFRAME_AUDIO.Future6
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future6
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Future6
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+    startLine: 205
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint Future6 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Future6 As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future6*
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO._bitfield3
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_AUDIO._bitfield3
+  id: _bitfield3
+  parent: NVAPIWrapper.NV_INFOFRAME_AUDIO
+  langs:
+  - csharp
+  - vb
+  name: _bitfield3
+  nameWithType: NV_INFOFRAME_AUDIO._bitfield3
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO._bitfield3
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield3
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+    startLine: 219
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield3
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield3 As UInteger
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future7
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_AUDIO.Future7
+  id: Future7
+  parent: NVAPIWrapper.NV_INFOFRAME_AUDIO
+  langs:
+  - csharp
+  - vb
+  name: Future7
+  nameWithType: NV_INFOFRAME_AUDIO.Future7
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future7
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Future7
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+    startLine: 222
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint Future7 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Future7 As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future7*
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future8
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_AUDIO.Future8
+  id: Future8
+  parent: NVAPIWrapper.NV_INFOFRAME_AUDIO
+  langs:
+  - csharp
+  - vb
+  name: Future8
+  nameWithType: NV_INFOFRAME_AUDIO.Future8
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future8
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Future8
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+    startLine: 237
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint Future8 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Future8 As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future8*
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future9
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_AUDIO.Future9
+  id: Future9
+  parent: NVAPIWrapper.NV_INFOFRAME_AUDIO
+  langs:
+  - csharp
+  - vb
+  name: Future9
+  nameWithType: NV_INFOFRAME_AUDIO.Future9
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future9
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Future9
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+    startLine: 252
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint Future9 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Future9 As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future9*
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO._bitfield4
+  commentId: F:NVAPIWrapper.NV_INFOFRAME_AUDIO._bitfield4
+  id: _bitfield4
+  parent: NVAPIWrapper.NV_INFOFRAME_AUDIO
+  langs:
+  - csharp
+  - vb
+  name: _bitfield4
+  nameWithType: NV_INFOFRAME_AUDIO._bitfield4
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO._bitfield4
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield4
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+    startLine: 266
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield4
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield4 As UInteger
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future10
+  commentId: P:NVAPIWrapper.NV_INFOFRAME_AUDIO.Future10
+  id: Future10
+  parent: NVAPIWrapper.NV_INFOFRAME_AUDIO
+  langs:
+  - csharp
+  - vb
+  name: Future10
+  nameWithType: NV_INFOFRAME_AUDIO.Future10
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future10
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Future10
+    path: ../NVAPIWrapper/cs_generated/NV_INFOFRAME_AUDIO.cs
+    startLine: 269
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint Future10 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Future10 As UInteger
+  overload: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future10*
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.codingType*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_AUDIO.codingType
+  href: NVAPIWrapper.NV_INFOFRAME_AUDIO.html#NVAPIWrapper_NV_INFOFRAME_AUDIO_codingType
+  name: codingType
+  nameWithType: NV_INFOFRAME_AUDIO.codingType
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.codingType
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.codingExtensionType*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_AUDIO.codingExtensionType
+  href: NVAPIWrapper.NV_INFOFRAME_AUDIO.html#NVAPIWrapper_NV_INFOFRAME_AUDIO_codingExtensionType
+  name: codingExtensionType
+  nameWithType: NV_INFOFRAME_AUDIO.codingExtensionType
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.codingExtensionType
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.sampleSize*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_AUDIO.sampleSize
+  href: NVAPIWrapper.NV_INFOFRAME_AUDIO.html#NVAPIWrapper_NV_INFOFRAME_AUDIO_sampleSize
+  name: sampleSize
+  nameWithType: NV_INFOFRAME_AUDIO.sampleSize
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.sampleSize
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.sampleRate*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_AUDIO.sampleRate
+  href: NVAPIWrapper.NV_INFOFRAME_AUDIO.html#NVAPIWrapper_NV_INFOFRAME_AUDIO_sampleRate
+  name: sampleRate
+  nameWithType: NV_INFOFRAME_AUDIO.sampleRate
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.sampleRate
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.channelCount*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_AUDIO.channelCount
+  href: NVAPIWrapper.NV_INFOFRAME_AUDIO.html#NVAPIWrapper_NV_INFOFRAME_AUDIO_channelCount
+  name: channelCount
+  nameWithType: NV_INFOFRAME_AUDIO.channelCount
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.channelCount
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.speakerPlacement*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_AUDIO.speakerPlacement
+  href: NVAPIWrapper.NV_INFOFRAME_AUDIO.html#NVAPIWrapper_NV_INFOFRAME_AUDIO_speakerPlacement
+  name: speakerPlacement
+  nameWithType: NV_INFOFRAME_AUDIO.speakerPlacement
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.speakerPlacement
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.downmixInhibit*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_AUDIO.downmixInhibit
+  href: NVAPIWrapper.NV_INFOFRAME_AUDIO.html#NVAPIWrapper_NV_INFOFRAME_AUDIO_downmixInhibit
+  name: downmixInhibit
+  nameWithType: NV_INFOFRAME_AUDIO.downmixInhibit
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.downmixInhibit
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.lfePlaybackLevel*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_AUDIO.lfePlaybackLevel
+  href: NVAPIWrapper.NV_INFOFRAME_AUDIO.html#NVAPIWrapper_NV_INFOFRAME_AUDIO_lfePlaybackLevel
+  name: lfePlaybackLevel
+  nameWithType: NV_INFOFRAME_AUDIO.lfePlaybackLevel
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.lfePlaybackLevel
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.levelShift*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_AUDIO.levelShift
+  href: NVAPIWrapper.NV_INFOFRAME_AUDIO.html#NVAPIWrapper_NV_INFOFRAME_AUDIO_levelShift
+  name: levelShift
+  nameWithType: NV_INFOFRAME_AUDIO.levelShift
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.levelShift
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future12*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_AUDIO.Future12
+  href: NVAPIWrapper.NV_INFOFRAME_AUDIO.html#NVAPIWrapper_NV_INFOFRAME_AUDIO_Future12
+  name: Future12
+  nameWithType: NV_INFOFRAME_AUDIO.Future12
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future12
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future2x*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_AUDIO.Future2x
+  href: NVAPIWrapper.NV_INFOFRAME_AUDIO.html#NVAPIWrapper_NV_INFOFRAME_AUDIO_Future2x
+  name: Future2x
+  nameWithType: NV_INFOFRAME_AUDIO.Future2x
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future2x
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future3x*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_AUDIO.Future3x
+  href: NVAPIWrapper.NV_INFOFRAME_AUDIO.html#NVAPIWrapper_NV_INFOFRAME_AUDIO_Future3x
+  name: Future3x
+  nameWithType: NV_INFOFRAME_AUDIO.Future3x
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future3x
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future52*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_AUDIO.Future52
+  href: NVAPIWrapper.NV_INFOFRAME_AUDIO.html#NVAPIWrapper_NV_INFOFRAME_AUDIO_Future52
+  name: Future52
+  nameWithType: NV_INFOFRAME_AUDIO.Future52
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future52
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future6*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_AUDIO.Future6
+  href: NVAPIWrapper.NV_INFOFRAME_AUDIO.html#NVAPIWrapper_NV_INFOFRAME_AUDIO_Future6
+  name: Future6
+  nameWithType: NV_INFOFRAME_AUDIO.Future6
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future6
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future7*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_AUDIO.Future7
+  href: NVAPIWrapper.NV_INFOFRAME_AUDIO.html#NVAPIWrapper_NV_INFOFRAME_AUDIO_Future7
+  name: Future7
+  nameWithType: NV_INFOFRAME_AUDIO.Future7
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future7
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future8*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_AUDIO.Future8
+  href: NVAPIWrapper.NV_INFOFRAME_AUDIO.html#NVAPIWrapper_NV_INFOFRAME_AUDIO_Future8
+  name: Future8
+  nameWithType: NV_INFOFRAME_AUDIO.Future8
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future8
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future9*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_AUDIO.Future9
+  href: NVAPIWrapper.NV_INFOFRAME_AUDIO.html#NVAPIWrapper_NV_INFOFRAME_AUDIO_Future9
+  name: Future9
+  nameWithType: NV_INFOFRAME_AUDIO.Future9
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future9
+- uid: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future10*
+  commentId: Overload:NVAPIWrapper.NV_INFOFRAME_AUDIO.Future10
+  href: NVAPIWrapper.NV_INFOFRAME_AUDIO.html#NVAPIWrapper_NV_INFOFRAME_AUDIO_Future10
+  name: Future10
+  nameWithType: NV_INFOFRAME_AUDIO.Future10
+  fullName: NVAPIWrapper.NV_INFOFRAME_AUDIO.Future10

@@ -1,0 +1,1096 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  commentId: T:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  id: _NVVIOOUTPUTCONFIG_V2
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.ancParityComputation
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.colorConversion
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.compRange
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.compositeSyncType
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.compositeTerminate
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.cscOverride
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.dataFormat
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enable422Filter
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enableANCTimeCodeGeneration
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enableAlphaKeyComposite
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enableComposite
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enableDataIntegrityCheck
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enableFullColorRange
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enableRGBData
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.flipQueueLength
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.frameLockEnable
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.gammaCorrection
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.outputArea
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.outputRegion
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.psfSignalFormat
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.reservedData
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.signalFormat
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.syncDelay
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.syncEnable
+  - NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.syncSource
+  langs:
+  - csharp
+  - vb
+  name: _NVVIOOUTPUTCONFIG_V2
+  nameWithType: _NVVIOOUTPUTCONFIG_V2
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVVIOOUTPUTCONFIG_V2
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 5
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NVVIOOUTPUTCONFIG_V2
+    content.vb: Public Structure _NVVIOOUTPUTCONFIG_V2
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.signalFormat
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.signalFormat
+  id: signalFormat
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: signalFormat
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.signalFormat
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.signalFormat
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: signalFormat
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVVIOSIGNALFORMAT signalFormat
+    return:
+      type: NVAPIWrapper._NVVIOSIGNALFORMAT
+    content.vb: Public signalFormat As _NVVIOSIGNALFORMAT
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.dataFormat
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.dataFormat
+  id: dataFormat
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: dataFormat
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.dataFormat
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.dataFormat
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: dataFormat
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 13
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVVIODATAFORMAT dataFormat
+    return:
+      type: NVAPIWrapper._NVVIODATAFORMAT
+    content.vb: Public dataFormat As _NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.outputRegion
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.outputRegion
+  id: outputRegion
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: outputRegion
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.outputRegion
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.outputRegion
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: outputRegion
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 17
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVVIOOUTPUTREGION outputRegion
+    return:
+      type: NVAPIWrapper._NVVIOOUTPUTREGION
+    content.vb: Public outputRegion As _NVVIOOUTPUTREGION
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.outputArea
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.outputArea
+  id: outputArea
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: outputArea
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.outputArea
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.outputArea
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: outputArea
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVVIOOUTPUTAREA outputArea
+    return:
+      type: NVAPIWrapper._NVVIOOUTPUTAREA
+    content.vb: Public outputArea As _NVVIOOUTPUTAREA
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.colorConversion
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.colorConversion
+  id: colorConversion
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: colorConversion
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.colorConversion
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.colorConversion
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: colorConversion
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 25
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVVIOCOLORCONVERSION colorConversion
+    return:
+      type: NVAPIWrapper._NVVIOCOLORCONVERSION
+    content.vb: Public colorConversion As _NVVIOCOLORCONVERSION
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.gammaCorrection
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.gammaCorrection
+  id: gammaCorrection
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: gammaCorrection
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.gammaCorrection
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.gammaCorrection
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: gammaCorrection
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 29
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVVIOGAMMACORRECTION gammaCorrection
+    return:
+      type: NVAPIWrapper._NVVIOGAMMACORRECTION
+    content.vb: Public gammaCorrection As _NVVIOGAMMACORRECTION
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.syncEnable
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.syncEnable
+  id: syncEnable
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: syncEnable
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.syncEnable
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.syncEnable
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: syncEnable
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint syncEnable
+    return:
+      type: System.UInt32
+    content.vb: Public syncEnable As UInteger
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.syncSource
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.syncSource
+  id: syncSource
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: syncSource
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.syncSource
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.syncSource
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: syncSource
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 37
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVVIOSYNCSOURCE syncSource
+    return:
+      type: NVAPIWrapper._NVVIOSYNCSOURCE
+    content.vb: Public syncSource As _NVVIOSYNCSOURCE
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.syncDelay
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.syncDelay
+  id: syncDelay
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: syncDelay
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.syncDelay
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.syncDelay
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: syncDelay
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 41
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVVIOSYNCDELAY syncDelay
+    return:
+      type: NVAPIWrapper._NVVIOSYNCDELAY
+    content.vb: Public syncDelay As _NVVIOSYNCDELAY
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.compositeSyncType
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.compositeSyncType
+  id: compositeSyncType
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: compositeSyncType
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.compositeSyncType
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.compositeSyncType
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: compositeSyncType
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 45
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVVIOCOMPSYNCTYPE compositeSyncType
+    return:
+      type: NVAPIWrapper._NVVIOCOMPSYNCTYPE
+    content.vb: Public compositeSyncType As _NVVIOCOMPSYNCTYPE
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.frameLockEnable
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.frameLockEnable
+  id: frameLockEnable
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: frameLockEnable
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.frameLockEnable
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.frameLockEnable
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: frameLockEnable
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 49
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint frameLockEnable
+    return:
+      type: System.UInt32
+    content.vb: Public frameLockEnable As UInteger
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.psfSignalFormat
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.psfSignalFormat
+  id: psfSignalFormat
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: psfSignalFormat
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.psfSignalFormat
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.psfSignalFormat
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: psfSignalFormat
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 53
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint psfSignalFormat
+    return:
+      type: System.UInt32
+    content.vb: Public psfSignalFormat As UInteger
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enable422Filter
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enable422Filter
+  id: enable422Filter
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: enable422Filter
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.enable422Filter
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enable422Filter
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: enable422Filter
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 57
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint enable422Filter
+    return:
+      type: System.UInt32
+    content.vb: Public enable422Filter As UInteger
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.compositeTerminate
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.compositeTerminate
+  id: compositeTerminate
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: compositeTerminate
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.compositeTerminate
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.compositeTerminate
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: compositeTerminate
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 61
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint compositeTerminate
+    return:
+      type: System.UInt32
+    content.vb: Public compositeTerminate As UInteger
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enableDataIntegrityCheck
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enableDataIntegrityCheck
+  id: enableDataIntegrityCheck
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: enableDataIntegrityCheck
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.enableDataIntegrityCheck
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enableDataIntegrityCheck
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: enableDataIntegrityCheck
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 65
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint enableDataIntegrityCheck
+    return:
+      type: System.UInt32
+    content.vb: Public enableDataIntegrityCheck As UInteger
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.cscOverride
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.cscOverride
+  id: cscOverride
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: cscOverride
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.cscOverride
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.cscOverride
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: cscOverride
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 69
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint cscOverride
+    return:
+      type: System.UInt32
+    content.vb: Public cscOverride As UInteger
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.flipQueueLength
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.flipQueueLength
+  id: flipQueueLength
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: flipQueueLength
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.flipQueueLength
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.flipQueueLength
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: flipQueueLength
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 73
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint flipQueueLength
+    return:
+      type: System.UInt32
+    content.vb: Public flipQueueLength As UInteger
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enableANCTimeCodeGeneration
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enableANCTimeCodeGeneration
+  id: enableANCTimeCodeGeneration
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: enableANCTimeCodeGeneration
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.enableANCTimeCodeGeneration
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enableANCTimeCodeGeneration
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: enableANCTimeCodeGeneration
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 77
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint enableANCTimeCodeGeneration
+    return:
+      type: System.UInt32
+    content.vb: Public enableANCTimeCodeGeneration As UInteger
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enableComposite
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enableComposite
+  id: enableComposite
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: enableComposite
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.enableComposite
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enableComposite
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: enableComposite
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 81
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint enableComposite
+    return:
+      type: System.UInt32
+    content.vb: Public enableComposite As UInteger
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enableAlphaKeyComposite
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enableAlphaKeyComposite
+  id: enableAlphaKeyComposite
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: enableAlphaKeyComposite
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.enableAlphaKeyComposite
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enableAlphaKeyComposite
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: enableAlphaKeyComposite
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 85
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint enableAlphaKeyComposite
+    return:
+      type: System.UInt32
+    content.vb: Public enableAlphaKeyComposite As UInteger
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.compRange
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.compRange
+  id: compRange
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: compRange
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.compRange
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.compRange
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: compRange
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 89
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVVIOCOMPOSITERANGE compRange
+    return:
+      type: NVAPIWrapper._NVVIOCOMPOSITERANGE
+    content.vb: Public compRange As _NVVIOCOMPOSITERANGE
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.reservedData
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.reservedData
+  id: reservedData
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: reservedData
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.reservedData
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.reservedData
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reservedData
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 93
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVVIOOUTPUTCONFIG_V2._reservedData_e__FixedBuffer reservedData
+    return:
+      type: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2._reservedData_e__FixedBuffer
+    content.vb: Public reservedData As _NVVIOOUTPUTCONFIG_V2._reservedData_e__FixedBuffer
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enableFullColorRange
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enableFullColorRange
+  id: enableFullColorRange
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: enableFullColorRange
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.enableFullColorRange
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enableFullColorRange
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: enableFullColorRange
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 97
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint enableFullColorRange
+    return:
+      type: System.UInt32
+    content.vb: Public enableFullColorRange As UInteger
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enableRGBData
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enableRGBData
+  id: enableRGBData
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: enableRGBData
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.enableRGBData
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.enableRGBData
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: enableRGBData
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 101
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint enableRGBData
+    return:
+      type: System.UInt32
+    content.vb: Public enableRGBData As UInteger
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.ancParityComputation
+  commentId: F:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.ancParityComputation
+  id: ancParityComputation
+  parent: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+  langs:
+  - csharp
+  - vb
+  name: ancParityComputation
+  nameWithType: _NVVIOOUTPUTCONFIG_V2.ancParityComputation
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.ancParityComputation
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ancParityComputation
+    path: ../NVAPIWrapper/cs_generated/_NVVIOOUTPUTCONFIG_V2.cs
+    startLine: 105
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVVIOANCPARITYCOMPUTATION ancParityComputation
+    return:
+      type: NVAPIWrapper._NVVIOANCPARITYCOMPUTATION
+    content.vb: Public ancParityComputation As _NVVIOANCPARITYCOMPUTATION
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NVAPIWrapper._NVVIOSIGNALFORMAT
+  commentId: T:NVAPIWrapper._NVVIOSIGNALFORMAT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOSIGNALFORMAT.html
+  name: _NVVIOSIGNALFORMAT
+  nameWithType: _NVVIOSIGNALFORMAT
+  fullName: NVAPIWrapper._NVVIOSIGNALFORMAT
+- uid: NVAPIWrapper._NVVIODATAFORMAT
+  commentId: T:NVAPIWrapper._NVVIODATAFORMAT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIODATAFORMAT.html
+  name: _NVVIODATAFORMAT
+  nameWithType: _NVVIODATAFORMAT
+  fullName: NVAPIWrapper._NVVIODATAFORMAT
+- uid: NVAPIWrapper._NVVIOOUTPUTREGION
+  commentId: T:NVAPIWrapper._NVVIOOUTPUTREGION
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOOUTPUTREGION.html
+  name: _NVVIOOUTPUTREGION
+  nameWithType: _NVVIOOUTPUTREGION
+  fullName: NVAPIWrapper._NVVIOOUTPUTREGION
+- uid: NVAPIWrapper._NVVIOOUTPUTAREA
+  commentId: T:NVAPIWrapper._NVVIOOUTPUTAREA
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOOUTPUTAREA.html
+  name: _NVVIOOUTPUTAREA
+  nameWithType: _NVVIOOUTPUTAREA
+  fullName: NVAPIWrapper._NVVIOOUTPUTAREA
+- uid: NVAPIWrapper._NVVIOCOLORCONVERSION
+  commentId: T:NVAPIWrapper._NVVIOCOLORCONVERSION
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOCOLORCONVERSION.html
+  name: _NVVIOCOLORCONVERSION
+  nameWithType: _NVVIOCOLORCONVERSION
+  fullName: NVAPIWrapper._NVVIOCOLORCONVERSION
+- uid: NVAPIWrapper._NVVIOGAMMACORRECTION
+  commentId: T:NVAPIWrapper._NVVIOGAMMACORRECTION
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOGAMMACORRECTION.html
+  name: _NVVIOGAMMACORRECTION
+  nameWithType: _NVVIOGAMMACORRECTION
+  fullName: NVAPIWrapper._NVVIOGAMMACORRECTION
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper._NVVIOSYNCSOURCE
+  commentId: T:NVAPIWrapper._NVVIOSYNCSOURCE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOSYNCSOURCE.html
+  name: _NVVIOSYNCSOURCE
+  nameWithType: _NVVIOSYNCSOURCE
+  fullName: NVAPIWrapper._NVVIOSYNCSOURCE
+- uid: NVAPIWrapper._NVVIOSYNCDELAY
+  commentId: T:NVAPIWrapper._NVVIOSYNCDELAY
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOSYNCDELAY.html
+  name: _NVVIOSYNCDELAY
+  nameWithType: _NVVIOSYNCDELAY
+  fullName: NVAPIWrapper._NVVIOSYNCDELAY
+- uid: NVAPIWrapper._NVVIOCOMPSYNCTYPE
+  commentId: T:NVAPIWrapper._NVVIOCOMPSYNCTYPE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOCOMPSYNCTYPE.html
+  name: _NVVIOCOMPSYNCTYPE
+  nameWithType: _NVVIOCOMPSYNCTYPE
+  fullName: NVAPIWrapper._NVVIOCOMPSYNCTYPE
+- uid: NVAPIWrapper._NVVIOCOMPOSITERANGE
+  commentId: T:NVAPIWrapper._NVVIOCOMPOSITERANGE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOCOMPOSITERANGE.html
+  name: _NVVIOCOMPOSITERANGE
+  nameWithType: _NVVIOCOMPOSITERANGE
+  fullName: NVAPIWrapper._NVVIOCOMPOSITERANGE
+- uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2._reservedData_e__FixedBuffer
+  commentId: T:NVAPIWrapper._NVVIOOUTPUTCONFIG_V2._reservedData_e__FixedBuffer
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.html
+  name: _NVVIOOUTPUTCONFIG_V2._reservedData_e__FixedBuffer
+  nameWithType: _NVVIOOUTPUTCONFIG_V2._reservedData_e__FixedBuffer
+  fullName: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2._reservedData_e__FixedBuffer
+  spec.csharp:
+  - uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+    name: _NVVIOOUTPUTCONFIG_V2
+    href: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.html
+  - name: .
+  - uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2._reservedData_e__FixedBuffer
+    name: _reservedData_e__FixedBuffer
+    href: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2._reservedData_e__FixedBuffer.html
+  spec.vb:
+  - uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2
+    name: _NVVIOOUTPUTCONFIG_V2
+    href: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2.html
+  - name: .
+  - uid: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2._reservedData_e__FixedBuffer
+    name: _reservedData_e__FixedBuffer
+    href: NVAPIWrapper._NVVIOOUTPUTCONFIG_V2._reservedData_e__FixedBuffer.html
+- uid: NVAPIWrapper._NVVIOANCPARITYCOMPUTATION
+  commentId: T:NVAPIWrapper._NVVIOANCPARITYCOMPUTATION
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOANCPARITYCOMPUTATION.html
+  name: _NVVIOANCPARITYCOMPUTATION
+  nameWithType: _NVVIOANCPARITYCOMPUTATION
+  fullName: NVAPIWrapper._NVVIOANCPARITYCOMPUTATION

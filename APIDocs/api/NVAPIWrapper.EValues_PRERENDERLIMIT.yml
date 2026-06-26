@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_PRERENDERLIMIT
+  commentId: T:NVAPIWrapper.EValues_PRERENDERLIMIT
+  id: EValues_PRERENDERLIMIT
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_PRERENDERLIMIT.PRERENDERLIMIT_APP_CONTROLLED
+  - NVAPIWrapper.EValues_PRERENDERLIMIT.PRERENDERLIMIT_DEFAULT
+  - NVAPIWrapper.EValues_PRERENDERLIMIT.PRERENDERLIMIT_MAX
+  - NVAPIWrapper.EValues_PRERENDERLIMIT.PRERENDERLIMIT_MIN
+  - NVAPIWrapper.EValues_PRERENDERLIMIT.PRERENDERLIMIT_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_PRERENDERLIMIT
+  nameWithType: EValues_PRERENDERLIMIT
+  fullName: NVAPIWrapper.EValues_PRERENDERLIMIT
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PRERENDERLIMIT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_PRERENDERLIMIT
+    path: ../NVAPIWrapper/cs_generated/EValues_PRERENDERLIMIT.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_PRERENDERLIMIT
+    content.vb: Public Enum EValues_PRERENDERLIMIT
+- uid: NVAPIWrapper.EValues_PRERENDERLIMIT.PRERENDERLIMIT_MIN
+  commentId: F:NVAPIWrapper.EValues_PRERENDERLIMIT.PRERENDERLIMIT_MIN
+  id: PRERENDERLIMIT_MIN
+  parent: NVAPIWrapper.EValues_PRERENDERLIMIT
+  langs:
+  - csharp
+  - vb
+  name: PRERENDERLIMIT_MIN
+  nameWithType: EValues_PRERENDERLIMIT.PRERENDERLIMIT_MIN
+  fullName: NVAPIWrapper.EValues_PRERENDERLIMIT.PRERENDERLIMIT_MIN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PRERENDERLIMIT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PRERENDERLIMIT_MIN
+    path: ../NVAPIWrapper/cs_generated/EValues_PRERENDERLIMIT.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PRERENDERLIMIT_MIN = 0
+    return:
+      type: NVAPIWrapper.EValues_PRERENDERLIMIT
+- uid: NVAPIWrapper.EValues_PRERENDERLIMIT.PRERENDERLIMIT_MAX
+  commentId: F:NVAPIWrapper.EValues_PRERENDERLIMIT.PRERENDERLIMIT_MAX
+  id: PRERENDERLIMIT_MAX
+  parent: NVAPIWrapper.EValues_PRERENDERLIMIT
+  langs:
+  - csharp
+  - vb
+  name: PRERENDERLIMIT_MAX
+  nameWithType: EValues_PRERENDERLIMIT.PRERENDERLIMIT_MAX
+  fullName: NVAPIWrapper.EValues_PRERENDERLIMIT.PRERENDERLIMIT_MAX
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PRERENDERLIMIT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PRERENDERLIMIT_MAX
+    path: ../NVAPIWrapper/cs_generated/EValues_PRERENDERLIMIT.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PRERENDERLIMIT_MAX = 255
+    return:
+      type: NVAPIWrapper.EValues_PRERENDERLIMIT
+- uid: NVAPIWrapper.EValues_PRERENDERLIMIT.PRERENDERLIMIT_APP_CONTROLLED
+  commentId: F:NVAPIWrapper.EValues_PRERENDERLIMIT.PRERENDERLIMIT_APP_CONTROLLED
+  id: PRERENDERLIMIT_APP_CONTROLLED
+  parent: NVAPIWrapper.EValues_PRERENDERLIMIT
+  langs:
+  - csharp
+  - vb
+  name: PRERENDERLIMIT_APP_CONTROLLED
+  nameWithType: EValues_PRERENDERLIMIT.PRERENDERLIMIT_APP_CONTROLLED
+  fullName: NVAPIWrapper.EValues_PRERENDERLIMIT.PRERENDERLIMIT_APP_CONTROLLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PRERENDERLIMIT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PRERENDERLIMIT_APP_CONTROLLED
+    path: ../NVAPIWrapper/cs_generated/EValues_PRERENDERLIMIT.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PRERENDERLIMIT_APP_CONTROLLED = 0
+    return:
+      type: NVAPIWrapper.EValues_PRERENDERLIMIT
+- uid: NVAPIWrapper.EValues_PRERENDERLIMIT.PRERENDERLIMIT_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_PRERENDERLIMIT.PRERENDERLIMIT_NUM_VALUES
+  id: PRERENDERLIMIT_NUM_VALUES
+  parent: NVAPIWrapper.EValues_PRERENDERLIMIT
+  langs:
+  - csharp
+  - vb
+  name: PRERENDERLIMIT_NUM_VALUES
+  nameWithType: EValues_PRERENDERLIMIT.PRERENDERLIMIT_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_PRERENDERLIMIT.PRERENDERLIMIT_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PRERENDERLIMIT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PRERENDERLIMIT_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_PRERENDERLIMIT.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PRERENDERLIMIT_NUM_VALUES = 3
+    return:
+      type: NVAPIWrapper.EValues_PRERENDERLIMIT
+- uid: NVAPIWrapper.EValues_PRERENDERLIMIT.PRERENDERLIMIT_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_PRERENDERLIMIT.PRERENDERLIMIT_DEFAULT
+  id: PRERENDERLIMIT_DEFAULT
+  parent: NVAPIWrapper.EValues_PRERENDERLIMIT
+  langs:
+  - csharp
+  - vb
+  name: PRERENDERLIMIT_DEFAULT
+  nameWithType: EValues_PRERENDERLIMIT.PRERENDERLIMIT_DEFAULT
+  fullName: NVAPIWrapper.EValues_PRERENDERLIMIT.PRERENDERLIMIT_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_PRERENDERLIMIT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PRERENDERLIMIT_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_PRERENDERLIMIT.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PRERENDERLIMIT_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_PRERENDERLIMIT
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_PRERENDERLIMIT
+  commentId: T:NVAPIWrapper.EValues_PRERENDERLIMIT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_PRERENDERLIMIT.html
+  name: EValues_PRERENDERLIMIT
+  nameWithType: EValues_PRERENDERLIMIT
+  fullName: NVAPIWrapper.EValues_PRERENDERLIMIT

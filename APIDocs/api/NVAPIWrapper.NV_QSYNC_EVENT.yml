@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_QSYNC_EVENT
+  commentId: T:NVAPIWrapper.NV_QSYNC_EVENT
+  id: NV_QSYNC_EVENT
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_HOUSESYNC_GAIN
+  - NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_HOUSESYNC_LOSS
+  - NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_NONE
+  - NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_RJ45_GAIN
+  - NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_RJ45_LOSS
+  - NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_SYNC_GAIN
+  - NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_SYNC_LOSS
+  langs:
+  - csharp
+  - vb
+  name: NV_QSYNC_EVENT
+  nameWithType: NV_QSYNC_EVENT
+  fullName: NVAPIWrapper.NV_QSYNC_EVENT
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_QSYNC_EVENT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_QSYNC_EVENT
+    path: ../NVAPIWrapper/cs_generated/NV_QSYNC_EVENT.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_QSYNC_EVENT
+    content.vb: Public Enum NV_QSYNC_EVENT
+- uid: NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_NONE
+  commentId: F:NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_NONE
+  id: NV_QSYNC_EVENT_NONE
+  parent: NVAPIWrapper.NV_QSYNC_EVENT
+  langs:
+  - csharp
+  - vb
+  name: NV_QSYNC_EVENT_NONE
+  nameWithType: NV_QSYNC_EVENT.NV_QSYNC_EVENT_NONE
+  fullName: NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_NONE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_QSYNC_EVENT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_QSYNC_EVENT_NONE
+    path: ../NVAPIWrapper/cs_generated/NV_QSYNC_EVENT.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_QSYNC_EVENT_NONE = 0
+    return:
+      type: NVAPIWrapper.NV_QSYNC_EVENT
+- uid: NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_SYNC_LOSS
+  commentId: F:NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_SYNC_LOSS
+  id: NV_QSYNC_EVENT_SYNC_LOSS
+  parent: NVAPIWrapper.NV_QSYNC_EVENT
+  langs:
+  - csharp
+  - vb
+  name: NV_QSYNC_EVENT_SYNC_LOSS
+  nameWithType: NV_QSYNC_EVENT.NV_QSYNC_EVENT_SYNC_LOSS
+  fullName: NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_SYNC_LOSS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_QSYNC_EVENT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_QSYNC_EVENT_SYNC_LOSS
+    path: ../NVAPIWrapper/cs_generated/NV_QSYNC_EVENT.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_QSYNC_EVENT_SYNC_LOSS = 1
+    return:
+      type: NVAPIWrapper.NV_QSYNC_EVENT
+- uid: NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_SYNC_GAIN
+  commentId: F:NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_SYNC_GAIN
+  id: NV_QSYNC_EVENT_SYNC_GAIN
+  parent: NVAPIWrapper.NV_QSYNC_EVENT
+  langs:
+  - csharp
+  - vb
+  name: NV_QSYNC_EVENT_SYNC_GAIN
+  nameWithType: NV_QSYNC_EVENT.NV_QSYNC_EVENT_SYNC_GAIN
+  fullName: NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_SYNC_GAIN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_QSYNC_EVENT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_QSYNC_EVENT_SYNC_GAIN
+    path: ../NVAPIWrapper/cs_generated/NV_QSYNC_EVENT.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_QSYNC_EVENT_SYNC_GAIN = 2
+    return:
+      type: NVAPIWrapper.NV_QSYNC_EVENT
+- uid: NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_HOUSESYNC_GAIN
+  commentId: F:NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_HOUSESYNC_GAIN
+  id: NV_QSYNC_EVENT_HOUSESYNC_GAIN
+  parent: NVAPIWrapper.NV_QSYNC_EVENT
+  langs:
+  - csharp
+  - vb
+  name: NV_QSYNC_EVENT_HOUSESYNC_GAIN
+  nameWithType: NV_QSYNC_EVENT.NV_QSYNC_EVENT_HOUSESYNC_GAIN
+  fullName: NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_HOUSESYNC_GAIN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_QSYNC_EVENT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_QSYNC_EVENT_HOUSESYNC_GAIN
+    path: ../NVAPIWrapper/cs_generated/NV_QSYNC_EVENT.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_QSYNC_EVENT_HOUSESYNC_GAIN = 3
+    return:
+      type: NVAPIWrapper.NV_QSYNC_EVENT
+- uid: NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_HOUSESYNC_LOSS
+  commentId: F:NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_HOUSESYNC_LOSS
+  id: NV_QSYNC_EVENT_HOUSESYNC_LOSS
+  parent: NVAPIWrapper.NV_QSYNC_EVENT
+  langs:
+  - csharp
+  - vb
+  name: NV_QSYNC_EVENT_HOUSESYNC_LOSS
+  nameWithType: NV_QSYNC_EVENT.NV_QSYNC_EVENT_HOUSESYNC_LOSS
+  fullName: NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_HOUSESYNC_LOSS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_QSYNC_EVENT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_QSYNC_EVENT_HOUSESYNC_LOSS
+    path: ../NVAPIWrapper/cs_generated/NV_QSYNC_EVENT.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_QSYNC_EVENT_HOUSESYNC_LOSS = 4
+    return:
+      type: NVAPIWrapper.NV_QSYNC_EVENT
+- uid: NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_RJ45_GAIN
+  commentId: F:NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_RJ45_GAIN
+  id: NV_QSYNC_EVENT_RJ45_GAIN
+  parent: NVAPIWrapper.NV_QSYNC_EVENT
+  langs:
+  - csharp
+  - vb
+  name: NV_QSYNC_EVENT_RJ45_GAIN
+  nameWithType: NV_QSYNC_EVENT.NV_QSYNC_EVENT_RJ45_GAIN
+  fullName: NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_RJ45_GAIN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_QSYNC_EVENT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_QSYNC_EVENT_RJ45_GAIN
+    path: ../NVAPIWrapper/cs_generated/NV_QSYNC_EVENT.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_QSYNC_EVENT_RJ45_GAIN = 5
+    return:
+      type: NVAPIWrapper.NV_QSYNC_EVENT
+- uid: NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_RJ45_LOSS
+  commentId: F:NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_RJ45_LOSS
+  id: NV_QSYNC_EVENT_RJ45_LOSS
+  parent: NVAPIWrapper.NV_QSYNC_EVENT
+  langs:
+  - csharp
+  - vb
+  name: NV_QSYNC_EVENT_RJ45_LOSS
+  nameWithType: NV_QSYNC_EVENT.NV_QSYNC_EVENT_RJ45_LOSS
+  fullName: NVAPIWrapper.NV_QSYNC_EVENT.NV_QSYNC_EVENT_RJ45_LOSS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_QSYNC_EVENT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_QSYNC_EVENT_RJ45_LOSS
+    path: ../NVAPIWrapper/cs_generated/NV_QSYNC_EVENT.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_QSYNC_EVENT_RJ45_LOSS = 6
+    return:
+      type: NVAPIWrapper.NV_QSYNC_EVENT
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_QSYNC_EVENT
+  commentId: T:NVAPIWrapper.NV_QSYNC_EVENT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_QSYNC_EVENT.html
+  name: NV_QSYNC_EVENT
+  nameWithType: NV_QSYNC_EVENT
+  fullName: NVAPIWrapper.NV_QSYNC_EVENT

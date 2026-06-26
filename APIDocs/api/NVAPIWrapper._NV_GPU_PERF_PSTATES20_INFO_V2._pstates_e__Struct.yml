@@ -1,0 +1,529 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+  commentId: T:NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+  id: _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._bitfield
+  - NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.bIsEditable
+  - NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.baseVoltages
+  - NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.clocks
+  - NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.pstateId
+  - NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.reserved
+  langs:
+  - csharp
+  - vb
+  name: _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+  nameWithType: _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATES20_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _pstates_e__Struct
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATES20_INFO_V2.cs
+    startLine: 64
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+    content.vb: Public Structure _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.pstateId
+  commentId: F:NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.pstateId
+  id: pstateId
+  parent: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: pstateId
+  nameWithType: _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.pstateId
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.pstateId
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATES20_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: pstateId
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATES20_INFO_V2.cs
+    startLine: 68
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_GPU_PERF_PSTATE_ID pstateId
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+    content.vb: Public pstateId As _NV_GPU_PERF_PSTATE_ID
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._bitfield
+  commentId: F:NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._bitfield
+  id: _bitfield
+  parent: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: _bitfield
+  nameWithType: _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._bitfield
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._bitfield
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATES20_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATES20_INFO_V2.cs
+    startLine: 70
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield As UInteger
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.bIsEditable
+  commentId: P:NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.bIsEditable
+  id: bIsEditable
+  parent: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: bIsEditable
+  nameWithType: _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.bIsEditable
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.bIsEditable
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATES20_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bIsEditable
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATES20_INFO_V2.cs
+    startLine: 73
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint bIsEditable { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property bIsEditable As UInteger
+  overload: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.bIsEditable*
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.reserved
+  commentId: P:NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.reserved
+  id: reserved
+  parent: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: reserved
+  nameWithType: _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.reserved
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.reserved
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATES20_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATES20_INFO_V2.cs
+    startLine: 88
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved As UInteger
+  overload: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.reserved*
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.clocks
+  commentId: F:NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.clocks
+  id: clocks
+  parent: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: clocks
+  nameWithType: _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.clocks
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.clocks
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATES20_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: clocks
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATES20_INFO_V2.cs
+    startLine: 104
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._clocks_e__FixedBuffer clocks
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._clocks_e__FixedBuffer
+    content.vb: Public clocks As _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._clocks_e__FixedBuffer
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.baseVoltages
+  commentId: F:NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.baseVoltages
+  id: baseVoltages
+  parent: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+  langs:
+  - csharp
+  - vb
+  name: baseVoltages
+  nameWithType: _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.baseVoltages
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.baseVoltages
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATES20_INFO_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: baseVoltages
+    path: ../NVAPIWrapper/cs_generated/_NV_GPU_PERF_PSTATES20_INFO_V2.cs
+    startLine: 108
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._baseVoltages_e__FixedBuffer baseVoltages
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._baseVoltages_e__FixedBuffer
+    content.vb: Public baseVoltages As _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._baseVoltages_e__FixedBuffer
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  commentId: T:NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID.html
+  name: _NV_GPU_PERF_PSTATE_ID
+  nameWithType: _NV_GPU_PERF_PSTATE_ID
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATE_ID
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.bIsEditable*
+  commentId: Overload:NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.bIsEditable
+  href: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.html#NVAPIWrapper__NV_GPU_PERF_PSTATES20_INFO_V2__pstates_e__Struct_bIsEditable
+  name: bIsEditable
+  nameWithType: _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.bIsEditable
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.bIsEditable
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.reserved*
+  commentId: Overload:NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.reserved
+  href: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.html#NVAPIWrapper__NV_GPU_PERF_PSTATES20_INFO_V2__pstates_e__Struct_reserved
+  name: reserved
+  nameWithType: _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.reserved
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.reserved
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._clocks_e__FixedBuffer
+  commentId: T:NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._clocks_e__FixedBuffer
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2.html
+  name: _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._clocks_e__FixedBuffer
+  nameWithType: _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._clocks_e__FixedBuffer
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._clocks_e__FixedBuffer
+  spec.csharp:
+  - uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2
+    name: _NV_GPU_PERF_PSTATES20_INFO_V2
+    href: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2.html
+  - name: .
+  - uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+    name: _pstates_e__Struct
+    href: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.html
+  - name: .
+  - uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._clocks_e__FixedBuffer
+    name: _clocks_e__FixedBuffer
+    href: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._clocks_e__FixedBuffer.html
+  spec.vb:
+  - uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2
+    name: _NV_GPU_PERF_PSTATES20_INFO_V2
+    href: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2.html
+  - name: .
+  - uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+    name: _pstates_e__Struct
+    href: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.html
+  - name: .
+  - uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._clocks_e__FixedBuffer
+    name: _clocks_e__FixedBuffer
+    href: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._clocks_e__FixedBuffer.html
+- uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._baseVoltages_e__FixedBuffer
+  commentId: T:NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._baseVoltages_e__FixedBuffer
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2.html
+  name: _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._baseVoltages_e__FixedBuffer
+  nameWithType: _NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._baseVoltages_e__FixedBuffer
+  fullName: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._baseVoltages_e__FixedBuffer
+  spec.csharp:
+  - uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2
+    name: _NV_GPU_PERF_PSTATES20_INFO_V2
+    href: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2.html
+  - name: .
+  - uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+    name: _pstates_e__Struct
+    href: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.html
+  - name: .
+  - uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._baseVoltages_e__FixedBuffer
+    name: _baseVoltages_e__FixedBuffer
+    href: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._baseVoltages_e__FixedBuffer.html
+  spec.vb:
+  - uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2
+    name: _NV_GPU_PERF_PSTATES20_INFO_V2
+    href: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2.html
+  - name: .
+  - uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct
+    name: _pstates_e__Struct
+    href: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct.html
+  - name: .
+  - uid: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._baseVoltages_e__FixedBuffer
+    name: _baseVoltages_e__FixedBuffer
+    href: NVAPIWrapper._NV_GPU_PERF_PSTATES20_INFO_V2._pstates_e__Struct._baseVoltages_e__FixedBuffer.html

@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO
+  commentId: T:NVAPIWrapper._NVAPI_GSYNC_RJ45_IO
+  id: _NVAPI_GSYNC_RJ45_IO
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVAPI_GSYNC_RJ45_IO.NVAPI_GSYNC_RJ45_INPUT
+  - NVAPIWrapper._NVAPI_GSYNC_RJ45_IO.NVAPI_GSYNC_RJ45_OUTPUT
+  - NVAPIWrapper._NVAPI_GSYNC_RJ45_IO.NVAPI_GSYNC_RJ45_UNUSED
+  langs:
+  - csharp
+  - vb
+  name: _NVAPI_GSYNC_RJ45_IO
+  nameWithType: _NVAPI_GSYNC_RJ45_IO
+  fullName: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_RJ45_IO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVAPI_GSYNC_RJ45_IO
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_RJ45_IO.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVAPI_GSYNC_RJ45_IO
+    content.vb: Public Enum _NVAPI_GSYNC_RJ45_IO
+- uid: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO.NVAPI_GSYNC_RJ45_OUTPUT
+  commentId: F:NVAPIWrapper._NVAPI_GSYNC_RJ45_IO.NVAPI_GSYNC_RJ45_OUTPUT
+  id: NVAPI_GSYNC_RJ45_OUTPUT
+  parent: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GSYNC_RJ45_OUTPUT
+  nameWithType: _NVAPI_GSYNC_RJ45_IO.NVAPI_GSYNC_RJ45_OUTPUT
+  fullName: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO.NVAPI_GSYNC_RJ45_OUTPUT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_RJ45_IO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GSYNC_RJ45_OUTPUT
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_RJ45_IO.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GSYNC_RJ45_OUTPUT = 0
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO
+- uid: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO.NVAPI_GSYNC_RJ45_INPUT
+  commentId: F:NVAPIWrapper._NVAPI_GSYNC_RJ45_IO.NVAPI_GSYNC_RJ45_INPUT
+  id: NVAPI_GSYNC_RJ45_INPUT
+  parent: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GSYNC_RJ45_INPUT
+  nameWithType: _NVAPI_GSYNC_RJ45_IO.NVAPI_GSYNC_RJ45_INPUT
+  fullName: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO.NVAPI_GSYNC_RJ45_INPUT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_RJ45_IO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GSYNC_RJ45_INPUT
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_RJ45_IO.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GSYNC_RJ45_INPUT = 1
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO
+- uid: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO.NVAPI_GSYNC_RJ45_UNUSED
+  commentId: F:NVAPIWrapper._NVAPI_GSYNC_RJ45_IO.NVAPI_GSYNC_RJ45_UNUSED
+  id: NVAPI_GSYNC_RJ45_UNUSED
+  parent: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GSYNC_RJ45_UNUSED
+  nameWithType: _NVAPI_GSYNC_RJ45_IO.NVAPI_GSYNC_RJ45_UNUSED
+  fullName: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO.NVAPI_GSYNC_RJ45_UNUSED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_GSYNC_RJ45_IO.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GSYNC_RJ45_UNUSED
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_GSYNC_RJ45_IO.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GSYNC_RJ45_UNUSED = 2
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO
+  commentId: T:NVAPIWrapper._NVAPI_GSYNC_RJ45_IO
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO.html
+  name: _NVAPI_GSYNC_RJ45_IO
+  nameWithType: _NVAPI_GSYNC_RJ45_IO
+  fullName: NVAPIWrapper._NVAPI_GSYNC_RJ45_IO

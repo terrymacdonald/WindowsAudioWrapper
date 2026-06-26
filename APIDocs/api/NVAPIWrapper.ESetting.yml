@@ -1,0 +1,3627 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.ESetting
+  commentId: T:NVAPIWrapper.ESetting
+  id: ESetting
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.ESetting.AA_BEHAVIOR_FLAGS_ID
+  - NVAPIWrapper.ESetting.AA_MODE_ALPHATOCOVERAGE_ID
+  - NVAPIWrapper.ESetting.AA_MODE_GAMMACORRECTION_ID
+  - NVAPIWrapper.ESetting.AA_MODE_METHOD_ID
+  - NVAPIWrapper.ESetting.AA_MODE_REPLAY_ID
+  - NVAPIWrapper.ESetting.AA_MODE_SELECTOR_ID
+  - NVAPIWrapper.ESetting.AA_MODE_SELECTOR_SLIAA_ID
+  - NVAPIWrapper.ESetting.ANISO_MODE_LEVEL_ID
+  - NVAPIWrapper.ESetting.ANISO_MODE_SELECTOR_ID
+  - NVAPIWrapper.ESetting.ANSEL_ALLOWLISTED_ID
+  - NVAPIWrapper.ESetting.ANSEL_ALLOW_ID
+  - NVAPIWrapper.ESetting.ANSEL_ENABLE_ID
+  - NVAPIWrapper.ESetting.AO_MODE_ACTIVE_ID
+  - NVAPIWrapper.ESetting.AO_MODE_ID
+  - NVAPIWrapper.ESetting.APPIDLE_DYNAMIC_FRL_FPS_ID
+  - NVAPIWrapper.ESetting.APPIDLE_DYNAMIC_FRL_THRESHOLD_TIME_ID
+  - NVAPIWrapper.ESetting.APPLICATION_PROFILE_NOTIFICATION_TIMEOUT_ID
+  - NVAPIWrapper.ESetting.APPLICATION_STEAM_ID_ID
+  - NVAPIWrapper.ESetting.AUTO_LODBIASADJUST_ID
+  - NVAPIWrapper.ESetting.BATTERY_BOOST_APP_FPS_ID
+  - NVAPIWrapper.ESetting.CPL_HIDDEN_PROFILE_ID
+  - NVAPIWrapper.ESetting.CUDA_EXCLUDED_GPUS_ID
+  - NVAPIWrapper.ESetting.D3DOGL_GPU_MAX_POWER_ID
+  - NVAPIWrapper.ESetting.EXPORT_PERF_COUNTERS_DX9_ONLY_ID
+  - NVAPIWrapper.ESetting.EXPORT_PERF_COUNTERS_ID
+  - NVAPIWrapper.ESetting.EXTERNAL_QUIET_MODE_ID
+  - NVAPIWrapper.ESetting.FRL_FPS_ID
+  - NVAPIWrapper.ESetting.FXAA_ALLOW_ID
+  - NVAPIWrapper.ESetting.FXAA_ENABLE_ID
+  - NVAPIWrapper.ESetting.FXAA_INDICATOR_ENABLE_ID
+  - NVAPIWrapper.ESetting.ICAFE_LOGO_CONFIG_ID
+  - NVAPIWrapper.ESetting.INVALID_SETTING_ID
+  - NVAPIWrapper.ESetting.LATENCY_INDICATOR_AUTOALIGN_ID
+  - NVAPIWrapper.ESetting.LODBIASADJUST_ID
+  - NVAPIWrapper.ESetting.MAXWELL_B_SAMPLE_INTERLEAVE_ID
+  - NVAPIWrapper.ESetting.MCSFRSHOWSPLIT_ID
+  - NVAPIWrapper.ESetting.NGX_DLAA_OVERRIDE_ID
+  - NVAPIWrapper.ESetting.NGX_DLSSG_DYNAMIC_MULTI_FRAME_COUNT_MAX_ID
+  - NVAPIWrapper.ESetting.NGX_DLSSG_DYNAMIC_TARGET_FRAME_RATE_ID
+  - NVAPIWrapper.ESetting.NGX_DLSSG_MODE_ID
+  - NVAPIWrapper.ESetting.NGX_DLSSG_MULTI_FRAME_COUNT_ID
+  - NVAPIWrapper.ESetting.NGX_DLSS_FG_OVERRIDE_ID
+  - NVAPIWrapper.ESetting.NGX_DLSS_FG_OVERRIDE_RENDER_PRESET_SELECTION_ID
+  - NVAPIWrapper.ESetting.NGX_DLSS_FG_OVERRIDE_RESERVED_KEY1_ID
+  - NVAPIWrapper.ESetting.NGX_DLSS_FG_OVERRIDE_RESERVED_KEY2_ID
+  - NVAPIWrapper.ESetting.NGX_DLSS_OVERRIDE_OPTIMAL_SETTINGS_ID
+  - NVAPIWrapper.ESetting.NGX_DLSS_RR_MODE_ID
+  - NVAPIWrapper.ESetting.NGX_DLSS_RR_OVERRIDE_ID
+  - NVAPIWrapper.ESetting.NGX_DLSS_RR_OVERRIDE_RENDER_PRESET_SELECTION_ID
+  - NVAPIWrapper.ESetting.NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_ID
+  - NVAPIWrapper.ESetting.NGX_DLSS_RR_OVERRIDE_RESERVED_KEY2_ID
+  - NVAPIWrapper.ESetting.NGX_DLSS_RR_OVERRIDE_SCALING_RATIO_ID
+  - NVAPIWrapper.ESetting.NGX_DLSS_SR_MODE_ID
+  - NVAPIWrapper.ESetting.NGX_DLSS_SR_OVERRIDE_ID
+  - NVAPIWrapper.ESetting.NGX_DLSS_SR_OVERRIDE_RENDER_PRESET_SELECTION_ID
+  - NVAPIWrapper.ESetting.NGX_DLSS_SR_OVERRIDE_RESERVED_KEY1_ID
+  - NVAPIWrapper.ESetting.NGX_DLSS_SR_OVERRIDE_RESERVED_KEY2_ID
+  - NVAPIWrapper.ESetting.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_ID
+  - NVAPIWrapper.ESetting.NV_QUALITY_UPSCALING_ID
+  - NVAPIWrapper.ESetting.OGL_AA_LINE_GAMMA_ID
+  - NVAPIWrapper.ESetting.OGL_CPL_GDI_COMPATIBILITY_ID
+  - NVAPIWrapper.ESetting.OGL_CPL_PREFER_DXPRESENT_ID
+  - NVAPIWrapper.ESetting.OGL_DEEP_COLOR_SCANOUT_ID
+  - NVAPIWrapper.ESetting.OGL_DEFAULT_SWAP_INTERVAL_FRACTIONAL_ID
+  - NVAPIWrapper.ESetting.OGL_DEFAULT_SWAP_INTERVAL_ID
+  - NVAPIWrapper.ESetting.OGL_DEFAULT_SWAP_INTERVAL_SIGN_ID
+  - NVAPIWrapper.ESetting.OGL_EVENT_LOG_SEVERITY_THRESHOLD_ID
+  - NVAPIWrapper.ESetting.OGL_EXTENSION_STRING_VERSION_ID
+  - NVAPIWrapper.ESetting.OGL_FORCE_BLIT_ID
+  - NVAPIWrapper.ESetting.OGL_FORCE_STEREO_ID
+  - NVAPIWrapper.ESetting.OGL_IMPLICIT_GPU_AFFINITY_ID
+  - NVAPIWrapper.ESetting.OGL_MAX_FRAMES_ALLOWED_ID
+  - NVAPIWrapper.ESetting.OGL_OVERLAY_PIXEL_TYPE_ID
+  - NVAPIWrapper.ESetting.OGL_OVERLAY_SUPPORT_ID
+  - NVAPIWrapper.ESetting.OGL_QUALITY_ENHANCEMENTS_ID
+  - NVAPIWrapper.ESetting.OGL_SINGLE_BACKDEPTH_BUFFER_ID
+  - NVAPIWrapper.ESetting.OGL_SLI_MULTICAST_ID
+  - NVAPIWrapper.ESetting.OGL_THREAD_CONTROL_ID
+  - NVAPIWrapper.ESetting.OGL_TMON_LEVEL_ID
+  - NVAPIWrapper.ESetting.OGL_TRIPLE_BUFFER_ID
+  - NVAPIWrapper.ESetting.OPTIMUS_MAXAA_ID
+  - NVAPIWrapper.ESetting.PHYSXINDICATOR_ID
+  - NVAPIWrapper.ESetting.PREFERRED_PSTATE_ID
+  - NVAPIWrapper.ESetting.PRERENDERLIMIT_ID
+  - NVAPIWrapper.ESetting.PREVENT_UI_AF_OVERRIDE_ID
+  - NVAPIWrapper.ESetting.PS_OFFLINE_SHADER_COMPILER_ID
+  - NVAPIWrapper.ESetting.PS_SHADERDISKCACHE_DLL_PATH_WCHAR_ID
+  - NVAPIWrapper.ESetting.PS_SHADERDISKCACHE_ID
+  - NVAPIWrapper.ESetting.PS_SHADERDISKCACHE_MAX_SIZE_ID
+  - NVAPIWrapper.ESetting.PS_TEXFILTER_ANISO_OPTS2_ID
+  - NVAPIWrapper.ESetting.PS_TEXFILTER_BILINEAR_IN_ANISO_ID
+  - NVAPIWrapper.ESetting.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_ID
+  - NVAPIWrapper.ESetting.PS_TEXFILTER_NO_NEG_LODBIAS_ID
+  - NVAPIWrapper.ESetting.QUALITY_ENHANCEMENTS_ID
+  - NVAPIWrapper.ESetting.QUALITY_ENHANCEMENT_SUBSTITUTION_ID
+  - NVAPIWrapper.ESetting.REFRESH_RATE_OVERRIDE_ID
+  - NVAPIWrapper.ESetting.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_ID
+  - NVAPIWrapper.ESetting.SET_VAB_DATA_ID
+  - NVAPIWrapper.ESetting.SHIM_MAXRES_ID
+  - NVAPIWrapper.ESetting.SHIM_MCCOMPAT_ID
+  - NVAPIWrapper.ESetting.SHIM_RENDERING_MODE_ID
+  - NVAPIWrapper.ESetting.SHIM_RENDERING_OPTIONS_ID
+  - NVAPIWrapper.ESetting.SLI_GPU_COUNT_ID
+  - NVAPIWrapper.ESetting.SLI_PREDEFINED_GPU_COUNT_DX10_ID
+  - NVAPIWrapper.ESetting.SLI_PREDEFINED_GPU_COUNT_ID
+  - NVAPIWrapper.ESetting.SLI_PREDEFINED_MODE_DX10_ID
+  - NVAPIWrapper.ESetting.SLI_PREDEFINED_MODE_ID
+  - NVAPIWrapper.ESetting.SLI_RENDERING_MODE_ID
+  - NVAPIWrapper.ESetting.TOTAL_DWORD_SETTING_NUM
+  - NVAPIWrapper.ESetting.TOTAL_SETTING_NUM
+  - NVAPIWrapper.ESetting.TOTAL_WSTRING_SETTING_NUM
+  - NVAPIWrapper.ESetting.VRPRERENDERLIMIT_ID
+  - NVAPIWrapper.ESetting.VRRFEATUREINDICATOR_ID
+  - NVAPIWrapper.ESetting.VRROVERLAYINDICATOR_ID
+  - NVAPIWrapper.ESetting.VRRREQUESTSTATE_ID
+  - NVAPIWrapper.ESetting.VRR_APP_OVERRIDE_ID
+  - NVAPIWrapper.ESetting.VRR_APP_OVERRIDE_REQUEST_STATE_ID
+  - NVAPIWrapper.ESetting.VRR_MODE_ID
+  - NVAPIWrapper.ESetting.VSYNCMODE_ID
+  - NVAPIWrapper.ESetting.VSYNCSMOOTHAFR_ID
+  - NVAPIWrapper.ESetting.VSYNCTEARCONTROL_ID
+  - NVAPIWrapper.ESetting.VSYNCVRRCONTROL_ID
+  - NVAPIWrapper.ESetting.VSYNC_BEHAVIOR_FLAGS_ID
+  - NVAPIWrapper.ESetting.WKS_API_STEREO_EYES_EXCHANGE_ID
+  - NVAPIWrapper.ESetting.WKS_API_STEREO_MODE_ID
+  - NVAPIWrapper.ESetting.WKS_STEREO_DONGLE_SUPPORT_ID
+  - NVAPIWrapper.ESetting.WKS_STEREO_SUPPORT_ID
+  - NVAPIWrapper.ESetting.WKS_STEREO_SWAP_MODE_ID
+  langs:
+  - csharp
+  - vb
+  name: ESetting
+  nameWithType: ESetting
+  fullName: NVAPIWrapper.ESetting
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ESetting
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum ESetting
+    content.vb: Public Enum ESetting
+- uid: NVAPIWrapper.ESetting.OGL_AA_LINE_GAMMA_ID
+  commentId: F:NVAPIWrapper.ESetting.OGL_AA_LINE_GAMMA_ID
+  id: OGL_AA_LINE_GAMMA_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: OGL_AA_LINE_GAMMA_ID
+  nameWithType: ESetting.OGL_AA_LINE_GAMMA_ID
+  fullName: NVAPIWrapper.ESetting.OGL_AA_LINE_GAMMA_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_AA_LINE_GAMMA_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_AA_LINE_GAMMA_ID = 545898348
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.OGL_CPL_GDI_COMPATIBILITY_ID
+  commentId: F:NVAPIWrapper.ESetting.OGL_CPL_GDI_COMPATIBILITY_ID
+  id: OGL_CPL_GDI_COMPATIBILITY_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: OGL_CPL_GDI_COMPATIBILITY_ID
+  nameWithType: ESetting.OGL_CPL_GDI_COMPATIBILITY_ID
+  fullName: NVAPIWrapper.ESetting.OGL_CPL_GDI_COMPATIBILITY_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_CPL_GDI_COMPATIBILITY_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_CPL_GDI_COMPATIBILITY_ID = 544392611
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.OGL_CPL_PREFER_DXPRESENT_ID
+  commentId: F:NVAPIWrapper.ESetting.OGL_CPL_PREFER_DXPRESENT_ID
+  id: OGL_CPL_PREFER_DXPRESENT_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: OGL_CPL_PREFER_DXPRESENT_ID
+  nameWithType: ESetting.OGL_CPL_PREFER_DXPRESENT_ID
+  fullName: NVAPIWrapper.ESetting.OGL_CPL_PREFER_DXPRESENT_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_CPL_PREFER_DXPRESENT_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_CPL_PREFER_DXPRESENT_ID = 550932728
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.OGL_DEEP_COLOR_SCANOUT_ID
+  commentId: F:NVAPIWrapper.ESetting.OGL_DEEP_COLOR_SCANOUT_ID
+  id: OGL_DEEP_COLOR_SCANOUT_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: OGL_DEEP_COLOR_SCANOUT_ID
+  nameWithType: ESetting.OGL_DEEP_COLOR_SCANOUT_ID
+  fullName: NVAPIWrapper.ESetting.OGL_DEEP_COLOR_SCANOUT_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_DEEP_COLOR_SCANOUT_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_DEEP_COLOR_SCANOUT_ID = 546816758
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.OGL_DEFAULT_SWAP_INTERVAL_ID
+  commentId: F:NVAPIWrapper.ESetting.OGL_DEFAULT_SWAP_INTERVAL_ID
+  id: OGL_DEFAULT_SWAP_INTERVAL_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: OGL_DEFAULT_SWAP_INTERVAL_ID
+  nameWithType: ESetting.OGL_DEFAULT_SWAP_INTERVAL_ID
+  fullName: NVAPIWrapper.ESetting.OGL_DEFAULT_SWAP_INTERVAL_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_DEFAULT_SWAP_INTERVAL_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_DEFAULT_SWAP_INTERVAL_ID = 543843714
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.OGL_DEFAULT_SWAP_INTERVAL_FRACTIONAL_ID
+  commentId: F:NVAPIWrapper.ESetting.OGL_DEFAULT_SWAP_INTERVAL_FRACTIONAL_ID
+  id: OGL_DEFAULT_SWAP_INTERVAL_FRACTIONAL_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: OGL_DEFAULT_SWAP_INTERVAL_FRACTIONAL_ID
+  nameWithType: ESetting.OGL_DEFAULT_SWAP_INTERVAL_FRACTIONAL_ID
+  fullName: NVAPIWrapper.ESetting.OGL_DEFAULT_SWAP_INTERVAL_FRACTIONAL_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_DEFAULT_SWAP_INTERVAL_FRACTIONAL_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_DEFAULT_SWAP_INTERVAL_FRACTIONAL_ID = 543966593
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.OGL_DEFAULT_SWAP_INTERVAL_SIGN_ID
+  commentId: F:NVAPIWrapper.ESetting.OGL_DEFAULT_SWAP_INTERVAL_SIGN_ID
+  id: OGL_DEFAULT_SWAP_INTERVAL_SIGN_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: OGL_DEFAULT_SWAP_INTERVAL_SIGN_ID
+  nameWithType: ESetting.OGL_DEFAULT_SWAP_INTERVAL_SIGN_ID
+  fullName: NVAPIWrapper.ESetting.OGL_DEFAULT_SWAP_INTERVAL_SIGN_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_DEFAULT_SWAP_INTERVAL_SIGN_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_DEFAULT_SWAP_INTERVAL_SIGN_ID = 543513850
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.OGL_EVENT_LOG_SEVERITY_THRESHOLD_ID
+  commentId: F:NVAPIWrapper.ESetting.OGL_EVENT_LOG_SEVERITY_THRESHOLD_ID
+  id: OGL_EVENT_LOG_SEVERITY_THRESHOLD_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: OGL_EVENT_LOG_SEVERITY_THRESHOLD_ID
+  nameWithType: ESetting.OGL_EVENT_LOG_SEVERITY_THRESHOLD_ID
+  fullName: NVAPIWrapper.ESetting.OGL_EVENT_LOG_SEVERITY_THRESHOLD_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_EVENT_LOG_SEVERITY_THRESHOLD_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_EVENT_LOG_SEVERITY_THRESHOLD_ID = 547222078
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.OGL_EXTENSION_STRING_VERSION_ID
+  commentId: F:NVAPIWrapper.ESetting.OGL_EXTENSION_STRING_VERSION_ID
+  id: OGL_EXTENSION_STRING_VERSION_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: OGL_EXTENSION_STRING_VERSION_ID
+  nameWithType: ESetting.OGL_EXTENSION_STRING_VERSION_ID
+  fullName: NVAPIWrapper.ESetting.OGL_EXTENSION_STRING_VERSION_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_EXTENSION_STRING_VERSION_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_EXTENSION_STRING_VERSION_ID = 553612435
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.OGL_FORCE_BLIT_ID
+  commentId: F:NVAPIWrapper.ESetting.OGL_FORCE_BLIT_ID
+  id: OGL_FORCE_BLIT_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: OGL_FORCE_BLIT_ID
+  nameWithType: ESetting.OGL_FORCE_BLIT_ID
+  fullName: NVAPIWrapper.ESetting.OGL_FORCE_BLIT_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_FORCE_BLIT_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_FORCE_BLIT_ID = 538927519
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.OGL_FORCE_STEREO_ID
+  commentId: F:NVAPIWrapper.ESetting.OGL_FORCE_STEREO_ID
+  id: OGL_FORCE_STEREO_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: OGL_FORCE_STEREO_ID
+  nameWithType: ESetting.OGL_FORCE_STEREO_ID
+  fullName: NVAPIWrapper.ESetting.OGL_FORCE_STEREO_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_FORCE_STEREO_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_FORCE_STEREO_ID = 541956620
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.OGL_IMPLICIT_GPU_AFFINITY_ID
+  commentId: F:NVAPIWrapper.ESetting.OGL_IMPLICIT_GPU_AFFINITY_ID
+  id: OGL_IMPLICIT_GPU_AFFINITY_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: OGL_IMPLICIT_GPU_AFFINITY_ID
+  nameWithType: ESetting.OGL_IMPLICIT_GPU_AFFINITY_ID
+  fullName: NVAPIWrapper.ESetting.OGL_IMPLICIT_GPU_AFFINITY_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_IMPLICIT_GPU_AFFINITY_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 39
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_IMPLICIT_GPU_AFFINITY_ID = 550564838
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.OGL_MAX_FRAMES_ALLOWED_ID
+  commentId: F:NVAPIWrapper.ESetting.OGL_MAX_FRAMES_ALLOWED_ID
+  id: OGL_MAX_FRAMES_ALLOWED_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: OGL_MAX_FRAMES_ALLOWED_ID
+  nameWithType: ESetting.OGL_MAX_FRAMES_ALLOWED_ID
+  fullName: NVAPIWrapper.ESetting.OGL_MAX_FRAMES_ALLOWED_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_MAX_FRAMES_ALLOWED_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 42
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_MAX_FRAMES_ALLOWED_ID = 546199011
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.OGL_OVERLAY_PIXEL_TYPE_ID
+  commentId: F:NVAPIWrapper.ESetting.OGL_OVERLAY_PIXEL_TYPE_ID
+  id: OGL_OVERLAY_PIXEL_TYPE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: OGL_OVERLAY_PIXEL_TYPE_ID
+  nameWithType: ESetting.OGL_OVERLAY_PIXEL_TYPE_ID
+  fullName: NVAPIWrapper.ESetting.OGL_OVERLAY_PIXEL_TYPE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_OVERLAY_PIXEL_TYPE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 45
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_OVERLAY_PIXEL_TYPE_ID = 547022447
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.OGL_OVERLAY_SUPPORT_ID
+  commentId: F:NVAPIWrapper.ESetting.OGL_OVERLAY_SUPPORT_ID
+  id: OGL_OVERLAY_SUPPORT_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: OGL_OVERLAY_SUPPORT_ID
+  nameWithType: ESetting.OGL_OVERLAY_SUPPORT_ID
+  fullName: NVAPIWrapper.ESetting.OGL_OVERLAY_SUPPORT_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_OVERLAY_SUPPORT_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 48
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_OVERLAY_SUPPORT_ID = 543959236
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.OGL_QUALITY_ENHANCEMENTS_ID
+  commentId: F:NVAPIWrapper.ESetting.OGL_QUALITY_ENHANCEMENTS_ID
+  id: OGL_QUALITY_ENHANCEMENTS_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: OGL_QUALITY_ENHANCEMENTS_ID
+  nameWithType: ESetting.OGL_QUALITY_ENHANCEMENTS_ID
+  fullName: NVAPIWrapper.ESetting.OGL_QUALITY_ENHANCEMENTS_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_QUALITY_ENHANCEMENTS_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 51
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_QUALITY_ENHANCEMENTS_ID = 544832876
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.OGL_SINGLE_BACKDEPTH_BUFFER_ID
+  commentId: F:NVAPIWrapper.ESetting.OGL_SINGLE_BACKDEPTH_BUFFER_ID
+  id: OGL_SINGLE_BACKDEPTH_BUFFER_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: OGL_SINGLE_BACKDEPTH_BUFFER_ID
+  nameWithType: ESetting.OGL_SINGLE_BACKDEPTH_BUFFER_ID
+  fullName: NVAPIWrapper.ESetting.OGL_SINGLE_BACKDEPTH_BUFFER_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_SINGLE_BACKDEPTH_BUFFER_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 54
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_SINGLE_BACKDEPTH_BUFFER_ID = 547524693
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.OGL_SLI_MULTICAST_ID
+  commentId: F:NVAPIWrapper.ESetting.OGL_SLI_MULTICAST_ID
+  id: OGL_SLI_MULTICAST_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: OGL_SLI_MULTICAST_ID
+  nameWithType: ESetting.OGL_SLI_MULTICAST_ID
+  fullName: NVAPIWrapper.ESetting.OGL_SLI_MULTICAST_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_SLI_MULTICAST_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 57
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_SLI_MULTICAST_ID = 546493374
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.OGL_THREAD_CONTROL_ID
+  commentId: F:NVAPIWrapper.ESetting.OGL_THREAD_CONTROL_ID
+  id: OGL_THREAD_CONTROL_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: OGL_THREAD_CONTROL_ID
+  nameWithType: ESetting.OGL_THREAD_CONTROL_ID
+  fullName: NVAPIWrapper.ESetting.OGL_THREAD_CONTROL_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_THREAD_CONTROL_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 60
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_THREAD_CONTROL_ID = 549528094
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.OGL_TMON_LEVEL_ID
+  commentId: F:NVAPIWrapper.ESetting.OGL_TMON_LEVEL_ID
+  id: OGL_TMON_LEVEL_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: OGL_TMON_LEVEL_ID
+  nameWithType: ESetting.OGL_TMON_LEVEL_ID
+  fullName: NVAPIWrapper.ESetting.OGL_TMON_LEVEL_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_TMON_LEVEL_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 63
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_TMON_LEVEL_ID = 539527361
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.OGL_TRIPLE_BUFFER_ID
+  commentId: F:NVAPIWrapper.ESetting.OGL_TRIPLE_BUFFER_ID
+  id: OGL_TRIPLE_BUFFER_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: OGL_TRIPLE_BUFFER_ID
+  nameWithType: ESetting.OGL_TRIPLE_BUFFER_ID
+  fullName: NVAPIWrapper.ESetting.OGL_TRIPLE_BUFFER_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_TRIPLE_BUFFER_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 66
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_TRIPLE_BUFFER_ID = 553505273
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.AA_BEHAVIOR_FLAGS_ID
+  commentId: F:NVAPIWrapper.ESetting.AA_BEHAVIOR_FLAGS_ID
+  id: AA_BEHAVIOR_FLAGS_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: AA_BEHAVIOR_FLAGS_ID
+  nameWithType: ESetting.AA_BEHAVIOR_FLAGS_ID
+  fullName: NVAPIWrapper.ESetting.AA_BEHAVIOR_FLAGS_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_BEHAVIOR_FLAGS_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 69
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_BEHAVIOR_FLAGS_ID = 283958146
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.AA_MODE_ALPHATOCOVERAGE_ID
+  commentId: F:NVAPIWrapper.ESetting.AA_MODE_ALPHATOCOVERAGE_ID
+  id: AA_MODE_ALPHATOCOVERAGE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_ALPHATOCOVERAGE_ID
+  nameWithType: ESetting.AA_MODE_ALPHATOCOVERAGE_ID
+  fullName: NVAPIWrapper.ESetting.AA_MODE_ALPHATOCOVERAGE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_ALPHATOCOVERAGE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 72
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_ALPHATOCOVERAGE_ID = 284962204
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.AA_MODE_GAMMACORRECTION_ID
+  commentId: F:NVAPIWrapper.ESetting.AA_MODE_GAMMACORRECTION_ID
+  id: AA_MODE_GAMMACORRECTION_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_GAMMACORRECTION_ID
+  nameWithType: ESetting.AA_MODE_GAMMACORRECTION_ID
+  fullName: NVAPIWrapper.ESetting.AA_MODE_GAMMACORRECTION_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_GAMMACORRECTION_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 75
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_GAMMACORRECTION_ID = 276652957
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.AA_MODE_METHOD_ID
+  commentId: F:NVAPIWrapper.ESetting.AA_MODE_METHOD_ID
+  id: AA_MODE_METHOD_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_METHOD_ID
+  nameWithType: ESetting.AA_MODE_METHOD_ID
+  fullName: NVAPIWrapper.ESetting.AA_MODE_METHOD_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_METHOD_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 78
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_METHOD_ID = 282555346
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.AA_MODE_REPLAY_ID
+  commentId: F:NVAPIWrapper.ESetting.AA_MODE_REPLAY_ID
+  id: AA_MODE_REPLAY_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_REPLAY_ID
+  nameWithType: ESetting.AA_MODE_REPLAY_ID
+  fullName: NVAPIWrapper.ESetting.AA_MODE_REPLAY_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_REPLAY_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 81
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_REPLAY_ID = 282364549
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.AA_MODE_SELECTOR_ID
+  commentId: F:NVAPIWrapper.ESetting.AA_MODE_SELECTOR_ID
+  id: AA_MODE_SELECTOR_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_SELECTOR_ID
+  nameWithType: ESetting.AA_MODE_SELECTOR_ID
+  fullName: NVAPIWrapper.ESetting.AA_MODE_SELECTOR_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_SELECTOR_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 84
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_SELECTOR_ID = 276757595
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.AA_MODE_SELECTOR_SLIAA_ID
+  commentId: F:NVAPIWrapper.ESetting.AA_MODE_SELECTOR_SLIAA_ID
+  id: AA_MODE_SELECTOR_SLIAA_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: AA_MODE_SELECTOR_SLIAA_ID
+  nameWithType: ESetting.AA_MODE_SELECTOR_SLIAA_ID
+  fullName: NVAPIWrapper.ESetting.AA_MODE_SELECTOR_SLIAA_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AA_MODE_SELECTOR_SLIAA_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 87
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AA_MODE_SELECTOR_SLIAA_ID = 276495451
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.ANISO_MODE_LEVEL_ID
+  commentId: F:NVAPIWrapper.ESetting.ANISO_MODE_LEVEL_ID
+  id: ANISO_MODE_LEVEL_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: ANISO_MODE_LEVEL_ID
+  nameWithType: ESetting.ANISO_MODE_LEVEL_ID
+  fullName: NVAPIWrapper.ESetting.ANISO_MODE_LEVEL_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ANISO_MODE_LEVEL_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 90
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: ANISO_MODE_LEVEL_ID = 270426537
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.ANISO_MODE_SELECTOR_ID
+  commentId: F:NVAPIWrapper.ESetting.ANISO_MODE_SELECTOR_ID
+  id: ANISO_MODE_SELECTOR_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: ANISO_MODE_SELECTOR_ID
+  nameWithType: ESetting.ANISO_MODE_SELECTOR_ID
+  fullName: NVAPIWrapper.ESetting.ANISO_MODE_SELECTOR_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ANISO_MODE_SELECTOR_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 93
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: ANISO_MODE_SELECTOR_ID = 282245910
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.ANSEL_ALLOW_ID
+  commentId: F:NVAPIWrapper.ESetting.ANSEL_ALLOW_ID
+  id: ANSEL_ALLOW_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: ANSEL_ALLOW_ID
+  nameWithType: ESetting.ANSEL_ALLOW_ID
+  fullName: NVAPIWrapper.ESetting.ANSEL_ALLOW_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ANSEL_ALLOW_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 96
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: ANSEL_ALLOW_ID = 271965065
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.ANSEL_ALLOWLISTED_ID
+  commentId: F:NVAPIWrapper.ESetting.ANSEL_ALLOWLISTED_ID
+  id: ANSEL_ALLOWLISTED_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: ANSEL_ALLOWLISTED_ID
+  nameWithType: ESetting.ANSEL_ALLOWLISTED_ID
+  fullName: NVAPIWrapper.ESetting.ANSEL_ALLOWLISTED_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ANSEL_ALLOWLISTED_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 99
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: ANSEL_ALLOWLISTED_ID = 277207690
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.ANSEL_ENABLE_ID
+  commentId: F:NVAPIWrapper.ESetting.ANSEL_ENABLE_ID
+  id: ANSEL_ENABLE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: ANSEL_ENABLE_ID
+  nameWithType: ESetting.ANSEL_ENABLE_ID
+  fullName: NVAPIWrapper.ESetting.ANSEL_ENABLE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ANSEL_ENABLE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 102
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: ANSEL_ENABLE_ID = 276158834
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.APPIDLE_DYNAMIC_FRL_FPS_ID
+  commentId: F:NVAPIWrapper.ESetting.APPIDLE_DYNAMIC_FRL_FPS_ID
+  id: APPIDLE_DYNAMIC_FRL_FPS_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: APPIDLE_DYNAMIC_FRL_FPS_ID
+  nameWithType: ESetting.APPIDLE_DYNAMIC_FRL_FPS_ID
+  fullName: NVAPIWrapper.ESetting.APPIDLE_DYNAMIC_FRL_FPS_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: APPIDLE_DYNAMIC_FRL_FPS_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 105
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: APPIDLE_DYNAMIC_FRL_FPS_ID = 277041174
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.APPIDLE_DYNAMIC_FRL_THRESHOLD_TIME_ID
+  commentId: F:NVAPIWrapper.ESetting.APPIDLE_DYNAMIC_FRL_THRESHOLD_TIME_ID
+  id: APPIDLE_DYNAMIC_FRL_THRESHOLD_TIME_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: APPIDLE_DYNAMIC_FRL_THRESHOLD_TIME_ID
+  nameWithType: ESetting.APPIDLE_DYNAMIC_FRL_THRESHOLD_TIME_ID
+  fullName: NVAPIWrapper.ESetting.APPIDLE_DYNAMIC_FRL_THRESHOLD_TIME_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: APPIDLE_DYNAMIC_FRL_THRESHOLD_TIME_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 108
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: APPIDLE_DYNAMIC_FRL_THRESHOLD_TIME_ID = 277041175
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.APPLICATION_PROFILE_NOTIFICATION_TIMEOUT_ID
+  commentId: F:NVAPIWrapper.ESetting.APPLICATION_PROFILE_NOTIFICATION_TIMEOUT_ID
+  id: APPLICATION_PROFILE_NOTIFICATION_TIMEOUT_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: APPLICATION_PROFILE_NOTIFICATION_TIMEOUT_ID
+  nameWithType: ESetting.APPLICATION_PROFILE_NOTIFICATION_TIMEOUT_ID
+  fullName: NVAPIWrapper.ESetting.APPLICATION_PROFILE_NOTIFICATION_TIMEOUT_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: APPLICATION_PROFILE_NOTIFICATION_TIMEOUT_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 111
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: APPLICATION_PROFILE_NOTIFICATION_TIMEOUT_ID = 272979126
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.APPLICATION_STEAM_ID_ID
+  commentId: F:NVAPIWrapper.ESetting.APPLICATION_STEAM_ID_ID
+  id: APPLICATION_STEAM_ID_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: APPLICATION_STEAM_ID_ID
+  nameWithType: ESetting.APPLICATION_STEAM_ID_ID
+  fullName: NVAPIWrapper.ESetting.APPLICATION_STEAM_ID_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: APPLICATION_STEAM_ID_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 114
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: APPLICATION_STEAM_ID_ID = 276618684
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.BATTERY_BOOST_APP_FPS_ID
+  commentId: F:NVAPIWrapper.ESetting.BATTERY_BOOST_APP_FPS_ID
+  id: BATTERY_BOOST_APP_FPS_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: BATTERY_BOOST_APP_FPS_ID
+  nameWithType: ESetting.BATTERY_BOOST_APP_FPS_ID
+  fullName: NVAPIWrapper.ESetting.BATTERY_BOOST_APP_FPS_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: BATTERY_BOOST_APP_FPS_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 117
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: BATTERY_BOOST_APP_FPS_ID = 269573260
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.CPL_HIDDEN_PROFILE_ID
+  commentId: F:NVAPIWrapper.ESetting.CPL_HIDDEN_PROFILE_ID
+  id: CPL_HIDDEN_PROFILE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: CPL_HIDDEN_PROFILE_ID
+  nameWithType: ESetting.CPL_HIDDEN_PROFILE_ID
+  fullName: NVAPIWrapper.ESetting.CPL_HIDDEN_PROFILE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CPL_HIDDEN_PROFILE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 120
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: CPL_HIDDEN_PROFILE_ID = 275602687
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.CUDA_EXCLUDED_GPUS_ID
+  commentId: F:NVAPIWrapper.ESetting.CUDA_EXCLUDED_GPUS_ID
+  id: CUDA_EXCLUDED_GPUS_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: CUDA_EXCLUDED_GPUS_ID
+  nameWithType: ESetting.CUDA_EXCLUDED_GPUS_ID
+  fullName: NVAPIWrapper.ESetting.CUDA_EXCLUDED_GPUS_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: CUDA_EXCLUDED_GPUS_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 123
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: CUDA_EXCLUDED_GPUS_ID = 271929336
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.D3DOGL_GPU_MAX_POWER_ID
+  commentId: F:NVAPIWrapper.ESetting.D3DOGL_GPU_MAX_POWER_ID
+  id: D3DOGL_GPU_MAX_POWER_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: D3DOGL_GPU_MAX_POWER_ID
+  nameWithType: ESetting.D3DOGL_GPU_MAX_POWER_ID
+  fullName: NVAPIWrapper.ESetting.D3DOGL_GPU_MAX_POWER_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: D3DOGL_GPU_MAX_POWER_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 126
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: D3DOGL_GPU_MAX_POWER_ID = 282193705
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.EXPORT_PERF_COUNTERS_ID
+  commentId: F:NVAPIWrapper.ESetting.EXPORT_PERF_COUNTERS_ID
+  id: EXPORT_PERF_COUNTERS_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: EXPORT_PERF_COUNTERS_ID
+  nameWithType: ESetting.EXPORT_PERF_COUNTERS_ID
+  fullName: NVAPIWrapper.ESetting.EXPORT_PERF_COUNTERS_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EXPORT_PERF_COUNTERS_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 129
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: EXPORT_PERF_COUNTERS_ID = 277809217
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.EXTERNAL_QUIET_MODE_ID
+  commentId: F:NVAPIWrapper.ESetting.EXTERNAL_QUIET_MODE_ID
+  id: EXTERNAL_QUIET_MODE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: EXTERNAL_QUIET_MODE_ID
+  nameWithType: ESetting.EXTERNAL_QUIET_MODE_ID
+  fullName: NVAPIWrapper.ESetting.EXTERNAL_QUIET_MODE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EXTERNAL_QUIET_MODE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 132
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: EXTERNAL_QUIET_MODE_ID = 269573261
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.FRL_FPS_ID
+  commentId: F:NVAPIWrapper.ESetting.FRL_FPS_ID
+  id: FRL_FPS_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: FRL_FPS_ID
+  nameWithType: ESetting.FRL_FPS_ID
+  fullName: NVAPIWrapper.ESetting.FRL_FPS_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FRL_FPS_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 135
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: FRL_FPS_ID = 277041154
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.FXAA_ALLOW_ID
+  commentId: F:NVAPIWrapper.ESetting.FXAA_ALLOW_ID
+  id: FXAA_ALLOW_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: FXAA_ALLOW_ID
+  nameWithType: ESetting.FXAA_ALLOW_ID
+  fullName: NVAPIWrapper.ESetting.FXAA_ALLOW_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FXAA_ALLOW_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 138
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: FXAA_ALLOW_ID = 271895433
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.FXAA_ENABLE_ID
+  commentId: F:NVAPIWrapper.ESetting.FXAA_ENABLE_ID
+  id: FXAA_ENABLE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: FXAA_ENABLE_ID
+  nameWithType: ESetting.FXAA_ENABLE_ID
+  fullName: NVAPIWrapper.ESetting.FXAA_ENABLE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FXAA_ENABLE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 141
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: FXAA_ENABLE_ID = 276089202
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.FXAA_INDICATOR_ENABLE_ID
+  commentId: F:NVAPIWrapper.ESetting.FXAA_INDICATOR_ENABLE_ID
+  id: FXAA_INDICATOR_ENABLE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: FXAA_INDICATOR_ENABLE_ID
+  nameWithType: ESetting.FXAA_INDICATOR_ENABLE_ID
+  fullName: NVAPIWrapper.ESetting.FXAA_INDICATOR_ENABLE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FXAA_INDICATOR_ENABLE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 144
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: FXAA_INDICATOR_ENABLE_ID = 275315612
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.LATENCY_INDICATOR_AUTOALIGN_ID
+  commentId: F:NVAPIWrapper.ESetting.LATENCY_INDICATOR_AUTOALIGN_ID
+  id: LATENCY_INDICATOR_AUTOALIGN_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: LATENCY_INDICATOR_AUTOALIGN_ID
+  nameWithType: ESetting.LATENCY_INDICATOR_AUTOALIGN_ID
+  fullName: NVAPIWrapper.ESetting.LATENCY_INDICATOR_AUTOALIGN_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: LATENCY_INDICATOR_AUTOALIGN_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 147
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: LATENCY_INDICATOR_AUTOALIGN_ID = 278262128
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.MCSFRSHOWSPLIT_ID
+  commentId: F:NVAPIWrapper.ESetting.MCSFRSHOWSPLIT_ID
+  id: MCSFRSHOWSPLIT_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: MCSFRSHOWSPLIT_ID
+  nameWithType: ESetting.MCSFRSHOWSPLIT_ID
+  fullName: NVAPIWrapper.ESetting.MCSFRSHOWSPLIT_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: MCSFRSHOWSPLIT_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 150
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: MCSFRSHOWSPLIT_ID = 271085649
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.NGX_DLAA_OVERRIDE_ID
+  commentId: F:NVAPIWrapper.ESetting.NGX_DLAA_OVERRIDE_ID
+  id: NGX_DLAA_OVERRIDE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLAA_OVERRIDE_ID
+  nameWithType: ESetting.NGX_DLAA_OVERRIDE_ID
+  fullName: NVAPIWrapper.ESetting.NGX_DLAA_OVERRIDE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLAA_OVERRIDE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 153
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLAA_OVERRIDE_ID = 283385332
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.NGX_DLSSG_DYNAMIC_MULTI_FRAME_COUNT_MAX_ID
+  commentId: F:NVAPIWrapper.ESetting.NGX_DLSSG_DYNAMIC_MULTI_FRAME_COUNT_MAX_ID
+  id: NGX_DLSSG_DYNAMIC_MULTI_FRAME_COUNT_MAX_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSSG_DYNAMIC_MULTI_FRAME_COUNT_MAX_ID
+  nameWithType: ESetting.NGX_DLSSG_DYNAMIC_MULTI_FRAME_COUNT_MAX_ID
+  fullName: NVAPIWrapper.ESetting.NGX_DLSSG_DYNAMIC_MULTI_FRAME_COUNT_MAX_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSSG_DYNAMIC_MULTI_FRAME_COUNT_MAX_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 156
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSSG_DYNAMIC_MULTI_FRAME_COUNT_MAX_ID = 274083087
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.NGX_DLSSG_DYNAMIC_TARGET_FRAME_RATE_ID
+  commentId: F:NVAPIWrapper.ESetting.NGX_DLSSG_DYNAMIC_TARGET_FRAME_RATE_ID
+  id: NGX_DLSSG_DYNAMIC_TARGET_FRAME_RATE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSSG_DYNAMIC_TARGET_FRAME_RATE_ID
+  nameWithType: ESetting.NGX_DLSSG_DYNAMIC_TARGET_FRAME_RATE_ID
+  fullName: NVAPIWrapper.ESetting.NGX_DLSSG_DYNAMIC_TARGET_FRAME_RATE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSSG_DYNAMIC_TARGET_FRAME_RATE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 159
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSSG_DYNAMIC_TARGET_FRAME_RATE_ID = 282018085
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.NGX_DLSSG_MODE_ID
+  commentId: F:NVAPIWrapper.ESetting.NGX_DLSSG_MODE_ID
+  id: NGX_DLSSG_MODE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSSG_MODE_ID
+  nameWithType: ESetting.NGX_DLSSG_MODE_ID
+  fullName: NVAPIWrapper.ESetting.NGX_DLSSG_MODE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSSG_MODE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 162
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSSG_MODE_ID = 271614616
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.NGX_DLSSG_MULTI_FRAME_COUNT_ID
+  commentId: F:NVAPIWrapper.ESetting.NGX_DLSSG_MULTI_FRAME_COUNT_ID
+  id: NGX_DLSSG_MULTI_FRAME_COUNT_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSSG_MULTI_FRAME_COUNT_ID
+  nameWithType: ESetting.NGX_DLSSG_MULTI_FRAME_COUNT_ID
+  fullName: NVAPIWrapper.ESetting.NGX_DLSSG_MULTI_FRAME_COUNT_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSSG_MULTI_FRAME_COUNT_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 165
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSSG_MULTI_FRAME_COUNT_ID = 273507943
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.NGX_DLSS_FG_OVERRIDE_ID
+  commentId: F:NVAPIWrapper.ESetting.NGX_DLSS_FG_OVERRIDE_ID
+  id: NGX_DLSS_FG_OVERRIDE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_FG_OVERRIDE_ID
+  nameWithType: ESetting.NGX_DLSS_FG_OVERRIDE_ID
+  fullName: NVAPIWrapper.ESetting.NGX_DLSS_FG_OVERRIDE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_FG_OVERRIDE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 168
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_FG_OVERRIDE_ID = 283385347
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.NGX_DLSS_FG_OVERRIDE_RENDER_PRESET_SELECTION_ID
+  commentId: F:NVAPIWrapper.ESetting.NGX_DLSS_FG_OVERRIDE_RENDER_PRESET_SELECTION_ID
+  id: NGX_DLSS_FG_OVERRIDE_RENDER_PRESET_SELECTION_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_FG_OVERRIDE_RENDER_PRESET_SELECTION_ID
+  nameWithType: ESetting.NGX_DLSS_FG_OVERRIDE_RENDER_PRESET_SELECTION_ID
+  fullName: NVAPIWrapper.ESetting.NGX_DLSS_FG_OVERRIDE_RENDER_PRESET_SELECTION_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_FG_OVERRIDE_RENDER_PRESET_SELECTION_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 171
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_FG_OVERRIDE_RENDER_PRESET_SELECTION_ID = 283385329
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.NGX_DLSS_FG_OVERRIDE_RESERVED_KEY1_ID
+  commentId: F:NVAPIWrapper.ESetting.NGX_DLSS_FG_OVERRIDE_RESERVED_KEY1_ID
+  id: NGX_DLSS_FG_OVERRIDE_RESERVED_KEY1_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_FG_OVERRIDE_RESERVED_KEY1_ID
+  nameWithType: ESetting.NGX_DLSS_FG_OVERRIDE_RESERVED_KEY1_ID
+  fullName: NVAPIWrapper.ESetting.NGX_DLSS_FG_OVERRIDE_RESERVED_KEY1_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_FG_OVERRIDE_RESERVED_KEY1_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 174
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_FG_OVERRIDE_RESERVED_KEY1_ID = 281531774
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.NGX_DLSS_FG_OVERRIDE_RESERVED_KEY2_ID
+  commentId: F:NVAPIWrapper.ESetting.NGX_DLSS_FG_OVERRIDE_RESERVED_KEY2_ID
+  id: NGX_DLSS_FG_OVERRIDE_RESERVED_KEY2_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_FG_OVERRIDE_RESERVED_KEY2_ID
+  nameWithType: ESetting.NGX_DLSS_FG_OVERRIDE_RESERVED_KEY2_ID
+  fullName: NVAPIWrapper.ESetting.NGX_DLSS_FG_OVERRIDE_RESERVED_KEY2_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_FG_OVERRIDE_RESERVED_KEY2_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 177
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_FG_OVERRIDE_RESERVED_KEY2_ID = 281531673
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.NGX_DLSS_OVERRIDE_OPTIMAL_SETTINGS_ID
+  commentId: F:NVAPIWrapper.ESetting.NGX_DLSS_OVERRIDE_OPTIMAL_SETTINGS_ID
+  id: NGX_DLSS_OVERRIDE_OPTIMAL_SETTINGS_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_OVERRIDE_OPTIMAL_SETTINGS_ID
+  nameWithType: ESetting.NGX_DLSS_OVERRIDE_OPTIMAL_SETTINGS_ID
+  fullName: NVAPIWrapper.ESetting.NGX_DLSS_OVERRIDE_OPTIMAL_SETTINGS_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_OVERRIDE_OPTIMAL_SETTINGS_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 180
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_OVERRIDE_OPTIMAL_SETTINGS_ID = 279951212
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.NGX_DLSS_RR_MODE_ID
+  commentId: F:NVAPIWrapper.ESetting.NGX_DLSS_RR_MODE_ID
+  id: NGX_DLSS_RR_MODE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_RR_MODE_ID
+  nameWithType: ESetting.NGX_DLSS_RR_MODE_ID
+  fullName: NVAPIWrapper.ESetting.NGX_DLSS_RR_MODE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_RR_MODE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 183
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_RR_MODE_ID = 280859683
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.NGX_DLSS_RR_OVERRIDE_ID
+  commentId: F:NVAPIWrapper.ESetting.NGX_DLSS_RR_OVERRIDE_ID
+  id: NGX_DLSS_RR_OVERRIDE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_RR_OVERRIDE_ID
+  nameWithType: ESetting.NGX_DLSS_RR_OVERRIDE_ID
+  fullName: NVAPIWrapper.ESetting.NGX_DLSS_RR_OVERRIDE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_RR_OVERRIDE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 186
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_RR_OVERRIDE_ID = 283385346
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.NGX_DLSS_RR_OVERRIDE_RENDER_PRESET_SELECTION_ID
+  commentId: F:NVAPIWrapper.ESetting.NGX_DLSS_RR_OVERRIDE_RENDER_PRESET_SELECTION_ID
+  id: NGX_DLSS_RR_OVERRIDE_RENDER_PRESET_SELECTION_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_RR_OVERRIDE_RENDER_PRESET_SELECTION_ID
+  nameWithType: ESetting.NGX_DLSS_RR_OVERRIDE_RENDER_PRESET_SELECTION_ID
+  fullName: NVAPIWrapper.ESetting.NGX_DLSS_RR_OVERRIDE_RENDER_PRESET_SELECTION_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_RR_OVERRIDE_RENDER_PRESET_SELECTION_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 189
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_RR_OVERRIDE_RENDER_PRESET_SELECTION_ID = 283385335
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_ID
+  commentId: F:NVAPIWrapper.ESetting.NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_ID
+  id: NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_ID
+  nameWithType: ESetting.NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_ID
+  fullName: NVAPIWrapper.ESetting.NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 192
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_RR_OVERRIDE_RESERVED_KEY1_ID = 281532524
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.NGX_DLSS_RR_OVERRIDE_RESERVED_KEY2_ID
+  commentId: F:NVAPIWrapper.ESetting.NGX_DLSS_RR_OVERRIDE_RESERVED_KEY2_ID
+  id: NGX_DLSS_RR_OVERRIDE_RESERVED_KEY2_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_RR_OVERRIDE_RESERVED_KEY2_ID
+  nameWithType: ESetting.NGX_DLSS_RR_OVERRIDE_RESERVED_KEY2_ID
+  fullName: NVAPIWrapper.ESetting.NGX_DLSS_RR_OVERRIDE_RESERVED_KEY2_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_RR_OVERRIDE_RESERVED_KEY2_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 195
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_RR_OVERRIDE_RESERVED_KEY2_ID = 281531799
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.NGX_DLSS_RR_OVERRIDE_SCALING_RATIO_ID
+  commentId: F:NVAPIWrapper.ESetting.NGX_DLSS_RR_OVERRIDE_SCALING_RATIO_ID
+  id: NGX_DLSS_RR_OVERRIDE_SCALING_RATIO_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_RR_OVERRIDE_SCALING_RATIO_ID
+  nameWithType: ESetting.NGX_DLSS_RR_OVERRIDE_SCALING_RATIO_ID
+  fullName: NVAPIWrapper.ESetting.NGX_DLSS_RR_OVERRIDE_SCALING_RATIO_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_RR_OVERRIDE_SCALING_RATIO_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 198
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_RR_OVERRIDE_SCALING_RATIO_ID = 281531554
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.NGX_DLSS_SR_MODE_ID
+  commentId: F:NVAPIWrapper.ESetting.NGX_DLSS_SR_MODE_ID
+  id: NGX_DLSS_SR_MODE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_SR_MODE_ID
+  nameWithType: ESetting.NGX_DLSS_SR_MODE_ID
+  fullName: NVAPIWrapper.ESetting.NGX_DLSS_SR_MODE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_SR_MODE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 201
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_SR_MODE_ID = 279951208
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.NGX_DLSS_SR_OVERRIDE_ID
+  commentId: F:NVAPIWrapper.ESetting.NGX_DLSS_SR_OVERRIDE_ID
+  id: NGX_DLSS_SR_OVERRIDE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_SR_OVERRIDE_ID
+  nameWithType: ESetting.NGX_DLSS_SR_OVERRIDE_ID
+  fullName: NVAPIWrapper.ESetting.NGX_DLSS_SR_OVERRIDE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_SR_OVERRIDE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 204
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_SR_OVERRIDE_ID = 283385345
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.NGX_DLSS_SR_OVERRIDE_RENDER_PRESET_SELECTION_ID
+  commentId: F:NVAPIWrapper.ESetting.NGX_DLSS_SR_OVERRIDE_RENDER_PRESET_SELECTION_ID
+  id: NGX_DLSS_SR_OVERRIDE_RENDER_PRESET_SELECTION_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_SR_OVERRIDE_RENDER_PRESET_SELECTION_ID
+  nameWithType: ESetting.NGX_DLSS_SR_OVERRIDE_RENDER_PRESET_SELECTION_ID
+  fullName: NVAPIWrapper.ESetting.NGX_DLSS_SR_OVERRIDE_RENDER_PRESET_SELECTION_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_SR_OVERRIDE_RENDER_PRESET_SELECTION_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 207
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_SR_OVERRIDE_RENDER_PRESET_SELECTION_ID = 283385331
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.NGX_DLSS_SR_OVERRIDE_RESERVED_KEY1_ID
+  commentId: F:NVAPIWrapper.ESetting.NGX_DLSS_SR_OVERRIDE_RESERVED_KEY1_ID
+  id: NGX_DLSS_SR_OVERRIDE_RESERVED_KEY1_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_SR_OVERRIDE_RESERVED_KEY1_ID
+  nameWithType: ESetting.NGX_DLSS_SR_OVERRIDE_RESERVED_KEY1_ID
+  fullName: NVAPIWrapper.ESetting.NGX_DLSS_SR_OVERRIDE_RESERVED_KEY1_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_SR_OVERRIDE_RESERVED_KEY1_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 210
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_SR_OVERRIDE_RESERVED_KEY1_ID = 281532036
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.NGX_DLSS_SR_OVERRIDE_RESERVED_KEY2_ID
+  commentId: F:NVAPIWrapper.ESetting.NGX_DLSS_SR_OVERRIDE_RESERVED_KEY2_ID
+  id: NGX_DLSS_SR_OVERRIDE_RESERVED_KEY2_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_SR_OVERRIDE_RESERVED_KEY2_ID
+  nameWithType: ESetting.NGX_DLSS_SR_OVERRIDE_RESERVED_KEY2_ID
+  fullName: NVAPIWrapper.ESetting.NGX_DLSS_SR_OVERRIDE_RESERVED_KEY2_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_SR_OVERRIDE_RESERVED_KEY2_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 213
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_SR_OVERRIDE_RESERVED_KEY2_ID = 281532460
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_ID
+  commentId: F:NVAPIWrapper.ESetting.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_ID
+  id: NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_ID
+  nameWithType: ESetting.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_ID
+  fullName: NVAPIWrapper.ESetting.NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 216
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NGX_DLSS_SR_OVERRIDE_SCALING_RATIO_ID = 283385333
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.NV_QUALITY_UPSCALING_ID
+  commentId: F:NVAPIWrapper.ESetting.NV_QUALITY_UPSCALING_ID
+  id: NV_QUALITY_UPSCALING_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: NV_QUALITY_UPSCALING_ID
+  nameWithType: ESetting.NV_QUALITY_UPSCALING_ID
+  fullName: NVAPIWrapper.ESetting.NV_QUALITY_UPSCALING_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_QUALITY_UPSCALING_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 219
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_QUALITY_UPSCALING_ID = 272909380
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.OPTIMUS_MAXAA_ID
+  commentId: F:NVAPIWrapper.ESetting.OPTIMUS_MAXAA_ID
+  id: OPTIMUS_MAXAA_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: OPTIMUS_MAXAA_ID
+  nameWithType: ESetting.OPTIMUS_MAXAA_ID
+  fullName: NVAPIWrapper.ESetting.OPTIMUS_MAXAA_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OPTIMUS_MAXAA_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 222
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OPTIMUS_MAXAA_ID = 284810371
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.PHYSXINDICATOR_ID
+  commentId: F:NVAPIWrapper.ESetting.PHYSXINDICATOR_ID
+  id: PHYSXINDICATOR_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: PHYSXINDICATOR_ID
+  nameWithType: ESetting.PHYSXINDICATOR_ID
+  fullName: NVAPIWrapper.ESetting.PHYSXINDICATOR_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PHYSXINDICATOR_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 225
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PHYSXINDICATOR_ID = 278196591
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.PREFERRED_PSTATE_ID
+  commentId: F:NVAPIWrapper.ESetting.PREFERRED_PSTATE_ID
+  id: PREFERRED_PSTATE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: PREFERRED_PSTATE_ID
+  nameWithType: ESetting.PREFERRED_PSTATE_ID
+  fullName: NVAPIWrapper.ESetting.PREFERRED_PSTATE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PREFERRED_PSTATE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 228
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PREFERRED_PSTATE_ID = 274197361
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.PREVENT_UI_AF_OVERRIDE_ID
+  commentId: F:NVAPIWrapper.ESetting.PREVENT_UI_AF_OVERRIDE_ID
+  id: PREVENT_UI_AF_OVERRIDE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: PREVENT_UI_AF_OVERRIDE_ID
+  nameWithType: ESetting.PREVENT_UI_AF_OVERRIDE_ID
+  fullName: NVAPIWrapper.ESetting.PREVENT_UI_AF_OVERRIDE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PREVENT_UI_AF_OVERRIDE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 231
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PREVENT_UI_AF_OVERRIDE_ID = 272354485
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.SHIM_MAXRES_ID
+  commentId: F:NVAPIWrapper.ESetting.SHIM_MAXRES_ID
+  id: SHIM_MAXRES_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: SHIM_MAXRES_ID
+  nameWithType: ESetting.SHIM_MAXRES_ID
+  fullName: NVAPIWrapper.ESetting.SHIM_MAXRES_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SHIM_MAXRES_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 234
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SHIM_MAXRES_ID = 284810370
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.SHIM_MCCOMPAT_ID
+  commentId: F:NVAPIWrapper.ESetting.SHIM_MCCOMPAT_ID
+  id: SHIM_MCCOMPAT_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: SHIM_MCCOMPAT_ID
+  nameWithType: ESetting.SHIM_MCCOMPAT_ID
+  fullName: NVAPIWrapper.ESetting.SHIM_MCCOMPAT_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SHIM_MCCOMPAT_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 237
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SHIM_MCCOMPAT_ID = 284810368
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.SHIM_RENDERING_MODE_ID
+  commentId: F:NVAPIWrapper.ESetting.SHIM_RENDERING_MODE_ID
+  id: SHIM_RENDERING_MODE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: SHIM_RENDERING_MODE_ID
+  nameWithType: ESetting.SHIM_RENDERING_MODE_ID
+  fullName: NVAPIWrapper.ESetting.SHIM_RENDERING_MODE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SHIM_RENDERING_MODE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 240
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SHIM_RENDERING_MODE_ID = 284810369
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.SHIM_RENDERING_OPTIONS_ID
+  commentId: F:NVAPIWrapper.ESetting.SHIM_RENDERING_OPTIONS_ID
+  id: SHIM_RENDERING_OPTIONS_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: SHIM_RENDERING_OPTIONS_ID
+  nameWithType: ESetting.SHIM_RENDERING_OPTIONS_ID
+  fullName: NVAPIWrapper.ESetting.SHIM_RENDERING_OPTIONS_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SHIM_RENDERING_OPTIONS_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 243
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SHIM_RENDERING_OPTIONS_ID = 284810372
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.SLI_GPU_COUNT_ID
+  commentId: F:NVAPIWrapper.ESetting.SLI_GPU_COUNT_ID
+  id: SLI_GPU_COUNT_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: SLI_GPU_COUNT_ID
+  nameWithType: ESetting.SLI_GPU_COUNT_ID
+  fullName: NVAPIWrapper.ESetting.SLI_GPU_COUNT_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SLI_GPU_COUNT_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 246
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SLI_GPU_COUNT_ID = 271834321
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.SLI_PREDEFINED_GPU_COUNT_ID
+  commentId: F:NVAPIWrapper.ESetting.SLI_PREDEFINED_GPU_COUNT_ID
+  id: SLI_PREDEFINED_GPU_COUNT_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: SLI_PREDEFINED_GPU_COUNT_ID
+  nameWithType: ESetting.SLI_PREDEFINED_GPU_COUNT_ID
+  fullName: NVAPIWrapper.ESetting.SLI_PREDEFINED_GPU_COUNT_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SLI_PREDEFINED_GPU_COUNT_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 249
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SLI_PREDEFINED_GPU_COUNT_ID = 271834322
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.SLI_PREDEFINED_GPU_COUNT_DX10_ID
+  commentId: F:NVAPIWrapper.ESetting.SLI_PREDEFINED_GPU_COUNT_DX10_ID
+  id: SLI_PREDEFINED_GPU_COUNT_DX10_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: SLI_PREDEFINED_GPU_COUNT_DX10_ID
+  nameWithType: ESetting.SLI_PREDEFINED_GPU_COUNT_DX10_ID
+  fullName: NVAPIWrapper.ESetting.SLI_PREDEFINED_GPU_COUNT_DX10_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SLI_PREDEFINED_GPU_COUNT_DX10_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 252
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SLI_PREDEFINED_GPU_COUNT_DX10_ID = 271834323
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.SLI_PREDEFINED_MODE_ID
+  commentId: F:NVAPIWrapper.ESetting.SLI_PREDEFINED_MODE_ID
+  id: SLI_PREDEFINED_MODE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: SLI_PREDEFINED_MODE_ID
+  nameWithType: ESetting.SLI_PREDEFINED_MODE_ID
+  fullName: NVAPIWrapper.ESetting.SLI_PREDEFINED_MODE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SLI_PREDEFINED_MODE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 255
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SLI_PREDEFINED_MODE_ID = 271830721
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.SLI_PREDEFINED_MODE_DX10_ID
+  commentId: F:NVAPIWrapper.ESetting.SLI_PREDEFINED_MODE_DX10_ID
+  id: SLI_PREDEFINED_MODE_DX10_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: SLI_PREDEFINED_MODE_DX10_ID
+  nameWithType: ESetting.SLI_PREDEFINED_MODE_DX10_ID
+  fullName: NVAPIWrapper.ESetting.SLI_PREDEFINED_MODE_DX10_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SLI_PREDEFINED_MODE_DX10_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 258
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SLI_PREDEFINED_MODE_DX10_ID = 271830722
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.SLI_RENDERING_MODE_ID
+  commentId: F:NVAPIWrapper.ESetting.SLI_RENDERING_MODE_ID
+  id: SLI_RENDERING_MODE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: SLI_RENDERING_MODE_ID
+  nameWithType: ESetting.SLI_RENDERING_MODE_ID
+  fullName: NVAPIWrapper.ESetting.SLI_RENDERING_MODE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SLI_RENDERING_MODE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 261
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SLI_RENDERING_MODE_ID = 271830737
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.VRPRERENDERLIMIT_ID
+  commentId: F:NVAPIWrapper.ESetting.VRPRERENDERLIMIT_ID
+  id: VRPRERENDERLIMIT_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: VRPRERENDERLIMIT_ID
+  nameWithType: ESetting.VRPRERENDERLIMIT_ID
+  fullName: NVAPIWrapper.ESetting.VRPRERENDERLIMIT_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRPRERENDERLIMIT_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 264
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRPRERENDERLIMIT_ID = 269553971
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.VRRFEATUREINDICATOR_ID
+  commentId: F:NVAPIWrapper.ESetting.VRRFEATUREINDICATOR_ID
+  id: VRRFEATUREINDICATOR_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: VRRFEATUREINDICATOR_ID
+  nameWithType: ESetting.VRRFEATUREINDICATOR_ID
+  fullName: NVAPIWrapper.ESetting.VRRFEATUREINDICATOR_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRRFEATUREINDICATOR_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 267
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRRFEATUREINDICATOR_ID = 278196567
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.VRROVERLAYINDICATOR_ID
+  commentId: F:NVAPIWrapper.ESetting.VRROVERLAYINDICATOR_ID
+  id: VRROVERLAYINDICATOR_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: VRROVERLAYINDICATOR_ID
+  nameWithType: ESetting.VRROVERLAYINDICATOR_ID
+  fullName: NVAPIWrapper.ESetting.VRROVERLAYINDICATOR_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRROVERLAYINDICATOR_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 270
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRROVERLAYINDICATOR_ID = 278262127
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.VRRREQUESTSTATE_ID
+  commentId: F:NVAPIWrapper.ESetting.VRRREQUESTSTATE_ID
+  id: VRRREQUESTSTATE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: VRRREQUESTSTATE_ID
+  nameWithType: ESetting.VRRREQUESTSTATE_ID
+  fullName: NVAPIWrapper.ESetting.VRRREQUESTSTATE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRRREQUESTSTATE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 273
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRRREQUESTSTATE_ID = 278196727
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.VRR_APP_OVERRIDE_ID
+  commentId: F:NVAPIWrapper.ESetting.VRR_APP_OVERRIDE_ID
+  id: VRR_APP_OVERRIDE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: VRR_APP_OVERRIDE_ID
+  nameWithType: ESetting.VRR_APP_OVERRIDE_ID
+  fullName: NVAPIWrapper.ESetting.VRR_APP_OVERRIDE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRR_APP_OVERRIDE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 276
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRR_APP_OVERRIDE_ID = 279476687
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.VRR_APP_OVERRIDE_REQUEST_STATE_ID
+  commentId: F:NVAPIWrapper.ESetting.VRR_APP_OVERRIDE_REQUEST_STATE_ID
+  id: VRR_APP_OVERRIDE_REQUEST_STATE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: VRR_APP_OVERRIDE_REQUEST_STATE_ID
+  nameWithType: ESetting.VRR_APP_OVERRIDE_REQUEST_STATE_ID
+  fullName: NVAPIWrapper.ESetting.VRR_APP_OVERRIDE_REQUEST_STATE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRR_APP_OVERRIDE_REQUEST_STATE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 279
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRR_APP_OVERRIDE_REQUEST_STATE_ID = 279476652
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.VRR_MODE_ID
+  commentId: F:NVAPIWrapper.ESetting.VRR_MODE_ID
+  id: VRR_MODE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: VRR_MODE_ID
+  nameWithType: ESetting.VRR_MODE_ID
+  fullName: NVAPIWrapper.ESetting.VRR_MODE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRR_MODE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 282
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRR_MODE_ID = 294973784
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.VSYNCSMOOTHAFR_ID
+  commentId: F:NVAPIWrapper.ESetting.VSYNCSMOOTHAFR_ID
+  id: VSYNCSMOOTHAFR_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: VSYNCSMOOTHAFR_ID
+  nameWithType: ESetting.VSYNCSMOOTHAFR_ID
+  fullName: NVAPIWrapper.ESetting.VSYNCSMOOTHAFR_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCSMOOTHAFR_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 285
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCSMOOTHAFR_ID = 270198627
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.VSYNCVRRCONTROL_ID
+  commentId: F:NVAPIWrapper.ESetting.VSYNCVRRCONTROL_ID
+  id: VSYNCVRRCONTROL_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: VSYNCVRRCONTROL_ID
+  nameWithType: ESetting.VSYNCVRRCONTROL_ID
+  fullName: NVAPIWrapper.ESetting.VSYNCVRRCONTROL_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCVRRCONTROL_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 288
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCVRRCONTROL_ID = 279476686
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.VSYNC_BEHAVIOR_FLAGS_ID
+  commentId: F:NVAPIWrapper.ESetting.VSYNC_BEHAVIOR_FLAGS_ID
+  id: VSYNC_BEHAVIOR_FLAGS_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: VSYNC_BEHAVIOR_FLAGS_ID
+  nameWithType: ESetting.VSYNC_BEHAVIOR_FLAGS_ID
+  fullName: NVAPIWrapper.ESetting.VSYNC_BEHAVIOR_FLAGS_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNC_BEHAVIOR_FLAGS_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 291
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNC_BEHAVIOR_FLAGS_ID = 285076515
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.WKS_API_STEREO_EYES_EXCHANGE_ID
+  commentId: F:NVAPIWrapper.ESetting.WKS_API_STEREO_EYES_EXCHANGE_ID
+  id: WKS_API_STEREO_EYES_EXCHANGE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_EYES_EXCHANGE_ID
+  nameWithType: ESetting.WKS_API_STEREO_EYES_EXCHANGE_ID
+  fullName: NVAPIWrapper.ESetting.WKS_API_STEREO_EYES_EXCHANGE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_EYES_EXCHANGE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 294
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_EYES_EXCHANGE_ID = 296633180
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.WKS_API_STEREO_MODE_ID
+  commentId: F:NVAPIWrapper.ESetting.WKS_API_STEREO_MODE_ID
+  id: WKS_API_STEREO_MODE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: WKS_API_STEREO_MODE_ID
+  nameWithType: ESetting.WKS_API_STEREO_MODE_ID
+  fullName: NVAPIWrapper.ESetting.WKS_API_STEREO_MODE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_API_STEREO_MODE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 297
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_API_STEREO_MODE_ID = 300489313
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.WKS_STEREO_DONGLE_SUPPORT_ID
+  commentId: F:NVAPIWrapper.ESetting.WKS_STEREO_DONGLE_SUPPORT_ID
+  id: WKS_STEREO_DONGLE_SUPPORT_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: WKS_STEREO_DONGLE_SUPPORT_ID
+  nameWithType: ESetting.WKS_STEREO_DONGLE_SUPPORT_ID
+  fullName: NVAPIWrapper.ESetting.WKS_STEREO_DONGLE_SUPPORT_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_STEREO_DONGLE_SUPPORT_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 300
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_STEREO_DONGLE_SUPPORT_ID = 287609789
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.WKS_STEREO_SUPPORT_ID
+  commentId: F:NVAPIWrapper.ESetting.WKS_STEREO_SUPPORT_ID
+  id: WKS_STEREO_SUPPORT_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: WKS_STEREO_SUPPORT_ID
+  nameWithType: ESetting.WKS_STEREO_SUPPORT_ID
+  fullName: NVAPIWrapper.ESetting.WKS_STEREO_SUPPORT_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_STEREO_SUPPORT_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 303
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_STEREO_SUPPORT_ID = 296394393
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.WKS_STEREO_SWAP_MODE_ID
+  commentId: F:NVAPIWrapper.ESetting.WKS_STEREO_SWAP_MODE_ID
+  id: WKS_STEREO_SWAP_MODE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: WKS_STEREO_SWAP_MODE_ID
+  nameWithType: ESetting.WKS_STEREO_SWAP_MODE_ID
+  fullName: NVAPIWrapper.ESetting.WKS_STEREO_SWAP_MODE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_STEREO_SWAP_MODE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 306
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_STEREO_SWAP_MODE_ID = 288568115
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.AO_MODE_ID
+  commentId: F:NVAPIWrapper.ESetting.AO_MODE_ID
+  id: AO_MODE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: AO_MODE_ID
+  nameWithType: ESetting.AO_MODE_ID
+  fullName: NVAPIWrapper.ESetting.AO_MODE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AO_MODE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 309
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AO_MODE_ID = 6714153
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.AO_MODE_ACTIVE_ID
+  commentId: F:NVAPIWrapper.ESetting.AO_MODE_ACTIVE_ID
+  id: AO_MODE_ACTIVE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: AO_MODE_ACTIVE_ID
+  nameWithType: ESetting.AO_MODE_ACTIVE_ID
+  fullName: NVAPIWrapper.ESetting.AO_MODE_ACTIVE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AO_MODE_ACTIVE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 312
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AO_MODE_ACTIVE_ID = 6701881
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.AUTO_LODBIASADJUST_ID
+  commentId: F:NVAPIWrapper.ESetting.AUTO_LODBIASADJUST_ID
+  id: AUTO_LODBIASADJUST_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: AUTO_LODBIASADJUST_ID
+  nameWithType: ESetting.AUTO_LODBIASADJUST_ID
+  fullName: NVAPIWrapper.ESetting.AUTO_LODBIASADJUST_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: AUTO_LODBIASADJUST_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 315
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: AUTO_LODBIASADJUST_ID = 6524559
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.EXPORT_PERF_COUNTERS_DX9_ONLY_ID
+  commentId: F:NVAPIWrapper.ESetting.EXPORT_PERF_COUNTERS_DX9_ONLY_ID
+  id: EXPORT_PERF_COUNTERS_DX9_ONLY_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: EXPORT_PERF_COUNTERS_DX9_ONLY_ID
+  nameWithType: ESetting.EXPORT_PERF_COUNTERS_DX9_ONLY_ID
+  fullName: NVAPIWrapper.ESetting.EXPORT_PERF_COUNTERS_DX9_ONLY_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EXPORT_PERF_COUNTERS_DX9_ONLY_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 318
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: EXPORT_PERF_COUNTERS_DX9_ONLY_ID = 11951730
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.ICAFE_LOGO_CONFIG_ID
+  commentId: F:NVAPIWrapper.ESetting.ICAFE_LOGO_CONFIG_ID
+  id: ICAFE_LOGO_CONFIG_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: ICAFE_LOGO_CONFIG_ID
+  nameWithType: ESetting.ICAFE_LOGO_CONFIG_ID
+  fullName: NVAPIWrapper.ESetting.ICAFE_LOGO_CONFIG_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ICAFE_LOGO_CONFIG_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 321
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: ICAFE_LOGO_CONFIG_ID = 14357303
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.LODBIASADJUST_ID
+  commentId: F:NVAPIWrapper.ESetting.LODBIASADJUST_ID
+  id: LODBIASADJUST_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: LODBIASADJUST_ID
+  nameWithType: ESetting.LODBIASADJUST_ID
+  fullName: NVAPIWrapper.ESetting.LODBIASADJUST_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: LODBIASADJUST_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 324
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: LODBIASADJUST_ID = 7573135
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.MAXWELL_B_SAMPLE_INTERLEAVE_ID
+  commentId: F:NVAPIWrapper.ESetting.MAXWELL_B_SAMPLE_INTERLEAVE_ID
+  id: MAXWELL_B_SAMPLE_INTERLEAVE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: MAXWELL_B_SAMPLE_INTERLEAVE_ID
+  nameWithType: ESetting.MAXWELL_B_SAMPLE_INTERLEAVE_ID
+  fullName: NVAPIWrapper.ESetting.MAXWELL_B_SAMPLE_INTERLEAVE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: MAXWELL_B_SAMPLE_INTERLEAVE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 327
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: MAXWELL_B_SAMPLE_INTERLEAVE_ID = 10011052
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.PRERENDERLIMIT_ID
+  commentId: F:NVAPIWrapper.ESetting.PRERENDERLIMIT_ID
+  id: PRERENDERLIMIT_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: PRERENDERLIMIT_ID
+  nameWithType: ESetting.PRERENDERLIMIT_ID
+  fullName: NVAPIWrapper.ESetting.PRERENDERLIMIT_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PRERENDERLIMIT_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 330
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PRERENDERLIMIT_ID = 8102046
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.PS_OFFLINE_SHADER_COMPILER_ID
+  commentId: F:NVAPIWrapper.ESetting.PS_OFFLINE_SHADER_COMPILER_ID
+  id: PS_OFFLINE_SHADER_COMPILER_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: PS_OFFLINE_SHADER_COMPILER_ID
+  nameWithType: ESetting.PS_OFFLINE_SHADER_COMPILER_ID
+  fullName: NVAPIWrapper.ESetting.PS_OFFLINE_SHADER_COMPILER_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PS_OFFLINE_SHADER_COMPILER_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 333
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PS_OFFLINE_SHADER_COMPILER_ID = 14110454
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.PS_SHADERDISKCACHE_ID
+  commentId: F:NVAPIWrapper.ESetting.PS_SHADERDISKCACHE_ID
+  id: PS_SHADERDISKCACHE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: PS_SHADERDISKCACHE_ID
+  nameWithType: ESetting.PS_SHADERDISKCACHE_ID
+  fullName: NVAPIWrapper.ESetting.PS_SHADERDISKCACHE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PS_SHADERDISKCACHE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 336
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PS_SHADERDISKCACHE_ID = 1675263
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.PS_SHADERDISKCACHE_DLL_PATH_WCHAR_ID
+  commentId: F:NVAPIWrapper.ESetting.PS_SHADERDISKCACHE_DLL_PATH_WCHAR_ID
+  id: PS_SHADERDISKCACHE_DLL_PATH_WCHAR_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: PS_SHADERDISKCACHE_DLL_PATH_WCHAR_ID
+  nameWithType: ESetting.PS_SHADERDISKCACHE_DLL_PATH_WCHAR_ID
+  fullName: NVAPIWrapper.ESetting.PS_SHADERDISKCACHE_DLL_PATH_WCHAR_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PS_SHADERDISKCACHE_DLL_PATH_WCHAR_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 339
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PS_SHADERDISKCACHE_DLL_PATH_WCHAR_ID = 1679362
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.PS_SHADERDISKCACHE_MAX_SIZE_ID
+  commentId: F:NVAPIWrapper.ESetting.PS_SHADERDISKCACHE_MAX_SIZE_ID
+  id: PS_SHADERDISKCACHE_MAX_SIZE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: PS_SHADERDISKCACHE_MAX_SIZE_ID
+  nameWithType: ESetting.PS_SHADERDISKCACHE_MAX_SIZE_ID
+  fullName: NVAPIWrapper.ESetting.PS_SHADERDISKCACHE_MAX_SIZE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PS_SHADERDISKCACHE_MAX_SIZE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 342
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PS_SHADERDISKCACHE_MAX_SIZE_ID = 11306135
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.PS_TEXFILTER_ANISO_OPTS2_ID
+  commentId: F:NVAPIWrapper.ESetting.PS_TEXFILTER_ANISO_OPTS2_ID
+  id: PS_TEXFILTER_ANISO_OPTS2_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: PS_TEXFILTER_ANISO_OPTS2_ID
+  nameWithType: ESetting.PS_TEXFILTER_ANISO_OPTS2_ID
+  fullName: NVAPIWrapper.ESetting.PS_TEXFILTER_ANISO_OPTS2_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PS_TEXFILTER_ANISO_OPTS2_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 345
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PS_TEXFILTER_ANISO_OPTS2_ID = 15151633
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.PS_TEXFILTER_BILINEAR_IN_ANISO_ID
+  commentId: F:NVAPIWrapper.ESetting.PS_TEXFILTER_BILINEAR_IN_ANISO_ID
+  id: PS_TEXFILTER_BILINEAR_IN_ANISO_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: PS_TEXFILTER_BILINEAR_IN_ANISO_ID
+  nameWithType: ESetting.PS_TEXFILTER_BILINEAR_IN_ANISO_ID
+  fullName: NVAPIWrapper.ESetting.PS_TEXFILTER_BILINEAR_IN_ANISO_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PS_TEXFILTER_BILINEAR_IN_ANISO_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 348
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PS_TEXFILTER_BILINEAR_IN_ANISO_ID = 8703344
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_ID
+  commentId: F:NVAPIWrapper.ESetting.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_ID
+  id: PS_TEXFILTER_DISABLE_TRILIN_SLOPE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: PS_TEXFILTER_DISABLE_TRILIN_SLOPE_ID
+  nameWithType: ESetting.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_ID
+  fullName: NVAPIWrapper.ESetting.PS_TEXFILTER_DISABLE_TRILIN_SLOPE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PS_TEXFILTER_DISABLE_TRILIN_SLOPE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 351
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PS_TEXFILTER_DISABLE_TRILIN_SLOPE_ID = 3066610
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.PS_TEXFILTER_NO_NEG_LODBIAS_ID
+  commentId: F:NVAPIWrapper.ESetting.PS_TEXFILTER_NO_NEG_LODBIAS_ID
+  id: PS_TEXFILTER_NO_NEG_LODBIAS_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: PS_TEXFILTER_NO_NEG_LODBIAS_ID
+  nameWithType: ESetting.PS_TEXFILTER_NO_NEG_LODBIAS_ID
+  fullName: NVAPIWrapper.ESetting.PS_TEXFILTER_NO_NEG_LODBIAS_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: PS_TEXFILTER_NO_NEG_LODBIAS_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 354
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: PS_TEXFILTER_NO_NEG_LODBIAS_ID = 1686376
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.QUALITY_ENHANCEMENTS_ID
+  commentId: F:NVAPIWrapper.ESetting.QUALITY_ENHANCEMENTS_ID
+  id: QUALITY_ENHANCEMENTS_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: QUALITY_ENHANCEMENTS_ID
+  nameWithType: ESetting.QUALITY_ENHANCEMENTS_ID
+  fullName: NVAPIWrapper.ESetting.QUALITY_ENHANCEMENTS_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: QUALITY_ENHANCEMENTS_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 357
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: QUALITY_ENHANCEMENTS_ID = 13510289
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.QUALITY_ENHANCEMENT_SUBSTITUTION_ID
+  commentId: F:NVAPIWrapper.ESetting.QUALITY_ENHANCEMENT_SUBSTITUTION_ID
+  id: QUALITY_ENHANCEMENT_SUBSTITUTION_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: QUALITY_ENHANCEMENT_SUBSTITUTION_ID
+  nameWithType: ESetting.QUALITY_ENHANCEMENT_SUBSTITUTION_ID
+  fullName: NVAPIWrapper.ESetting.QUALITY_ENHANCEMENT_SUBSTITUTION_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: QUALITY_ENHANCEMENT_SUBSTITUTION_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 360
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: QUALITY_ENHANCEMENT_SUBSTITUTION_ID = 13510290
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.REFRESH_RATE_OVERRIDE_ID
+  commentId: F:NVAPIWrapper.ESetting.REFRESH_RATE_OVERRIDE_ID
+  id: REFRESH_RATE_OVERRIDE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: REFRESH_RATE_OVERRIDE_ID
+  nameWithType: ESetting.REFRESH_RATE_OVERRIDE_ID
+  fullName: NVAPIWrapper.ESetting.REFRESH_RATE_OVERRIDE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: REFRESH_RATE_OVERRIDE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 363
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: REFRESH_RATE_OVERRIDE_ID = 6600001
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_ID
+  commentId: F:NVAPIWrapper.ESetting.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_ID
+  id: SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_ID
+  nameWithType: ESetting.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_ID
+  fullName: NVAPIWrapper.ESetting.SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 366
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SET_POWER_THROTTLE_FOR_PCIe_COMPLIANCE_ID = 11434076
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.SET_VAB_DATA_ID
+  commentId: F:NVAPIWrapper.ESetting.SET_VAB_DATA_ID
+  id: SET_VAB_DATA_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: SET_VAB_DATA_ID
+  nameWithType: ESetting.SET_VAB_DATA_ID
+  fullName: NVAPIWrapper.ESetting.SET_VAB_DATA_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SET_VAB_DATA_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 369
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SET_VAB_DATA_ID = 11241095
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.VSYNCMODE_ID
+  commentId: F:NVAPIWrapper.ESetting.VSYNCMODE_ID
+  id: VSYNCMODE_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: VSYNCMODE_ID
+  nameWithType: ESetting.VSYNCMODE_ID
+  fullName: NVAPIWrapper.ESetting.VSYNCMODE_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCMODE_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 372
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCMODE_ID = 11041231
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.VSYNCTEARCONTROL_ID
+  commentId: F:NVAPIWrapper.ESetting.VSYNCTEARCONTROL_ID
+  id: VSYNCTEARCONTROL_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: VSYNCTEARCONTROL_ID
+  nameWithType: ESetting.VSYNCTEARCONTROL_ID
+  fullName: NVAPIWrapper.ESetting.VSYNCTEARCONTROL_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCTEARCONTROL_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 375
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCTEARCONTROL_ID = 5912412
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.TOTAL_DWORD_SETTING_NUM
+  commentId: F:NVAPIWrapper.ESetting.TOTAL_DWORD_SETTING_NUM
+  id: TOTAL_DWORD_SETTING_NUM
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: TOTAL_DWORD_SETTING_NUM
+  nameWithType: ESetting.TOTAL_DWORD_SETTING_NUM
+  fullName: NVAPIWrapper.ESetting.TOTAL_DWORD_SETTING_NUM
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: TOTAL_DWORD_SETTING_NUM
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 378
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: TOTAL_DWORD_SETTING_NUM = 119
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.TOTAL_WSTRING_SETTING_NUM
+  commentId: F:NVAPIWrapper.ESetting.TOTAL_WSTRING_SETTING_NUM
+  id: TOTAL_WSTRING_SETTING_NUM
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: TOTAL_WSTRING_SETTING_NUM
+  nameWithType: ESetting.TOTAL_WSTRING_SETTING_NUM
+  fullName: NVAPIWrapper.ESetting.TOTAL_WSTRING_SETTING_NUM
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: TOTAL_WSTRING_SETTING_NUM
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 381
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: TOTAL_WSTRING_SETTING_NUM = 5
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.TOTAL_SETTING_NUM
+  commentId: F:NVAPIWrapper.ESetting.TOTAL_SETTING_NUM
+  id: TOTAL_SETTING_NUM
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: TOTAL_SETTING_NUM
+  nameWithType: ESetting.TOTAL_SETTING_NUM
+  fullName: NVAPIWrapper.ESetting.TOTAL_SETTING_NUM
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: TOTAL_SETTING_NUM
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 384
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: TOTAL_SETTING_NUM = 124
+    return:
+      type: NVAPIWrapper.ESetting
+- uid: NVAPIWrapper.ESetting.INVALID_SETTING_ID
+  commentId: F:NVAPIWrapper.ESetting.INVALID_SETTING_ID
+  id: INVALID_SETTING_ID
+  parent: NVAPIWrapper.ESetting
+  langs:
+  - csharp
+  - vb
+  name: INVALID_SETTING_ID
+  nameWithType: ESetting.INVALID_SETTING_ID
+  fullName: NVAPIWrapper.ESetting.INVALID_SETTING_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/ESetting.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: INVALID_SETTING_ID
+    path: ../NVAPIWrapper/cs_generated/ESetting.cs
+    startLine: 387
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: INVALID_SETTING_ID = -1
+    return:
+      type: NVAPIWrapper.ESetting
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.ESetting
+  commentId: T:NVAPIWrapper.ESetting
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.ESetting.html
+  name: ESetting
+  nameWithType: ESetting
+  fullName: NVAPIWrapper.ESetting

@@ -1,0 +1,474 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_LID_DOCK_PARAMS
+  commentId: T:NVAPIWrapper.NV_LID_DOCK_PARAMS
+  id: NV_LID_DOCK_PARAMS
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_LID_DOCK_PARAMS.currentDockPolicy
+  - NVAPIWrapper.NV_LID_DOCK_PARAMS.currentDockState
+  - NVAPIWrapper.NV_LID_DOCK_PARAMS.currentLidPolicy
+  - NVAPIWrapper.NV_LID_DOCK_PARAMS.currentLidState
+  - NVAPIWrapper.NV_LID_DOCK_PARAMS.forcedDockMechanismPresent
+  - NVAPIWrapper.NV_LID_DOCK_PARAMS.forcedLidMechanismPresent
+  - NVAPIWrapper.NV_LID_DOCK_PARAMS.version
+  langs:
+  - csharp
+  - vb
+  name: NV_LID_DOCK_PARAMS
+  nameWithType: NV_LID_DOCK_PARAMS
+  fullName: NVAPIWrapper.NV_LID_DOCK_PARAMS
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_LID_DOCK_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_LID_DOCK_PARAMS
+    path: ../NVAPIWrapper/cs_generated/NV_LID_DOCK_PARAMS.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct NV_LID_DOCK_PARAMS
+    content.vb: Public Structure NV_LID_DOCK_PARAMS
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NV_LID_DOCK_PARAMS.version
+  commentId: F:NVAPIWrapper.NV_LID_DOCK_PARAMS.version
+  id: version
+  parent: NVAPIWrapper.NV_LID_DOCK_PARAMS
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: NV_LID_DOCK_PARAMS.version
+  fullName: NVAPIWrapper.NV_LID_DOCK_PARAMS.version
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_LID_DOCK_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: version
+    path: ../NVAPIWrapper/cs_generated/NV_LID_DOCK_PARAMS.cs
+    startLine: 7
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint version
+    return:
+      type: System.UInt32
+    content.vb: Public version As UInteger
+- uid: NVAPIWrapper.NV_LID_DOCK_PARAMS.currentLidState
+  commentId: F:NVAPIWrapper.NV_LID_DOCK_PARAMS.currentLidState
+  id: currentLidState
+  parent: NVAPIWrapper.NV_LID_DOCK_PARAMS
+  langs:
+  - csharp
+  - vb
+  name: currentLidState
+  nameWithType: NV_LID_DOCK_PARAMS.currentLidState
+  fullName: NVAPIWrapper.NV_LID_DOCK_PARAMS.currentLidState
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_LID_DOCK_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: currentLidState
+    path: ../NVAPIWrapper/cs_generated/NV_LID_DOCK_PARAMS.cs
+    startLine: 11
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint currentLidState
+    return:
+      type: System.UInt32
+    content.vb: Public currentLidState As UInteger
+- uid: NVAPIWrapper.NV_LID_DOCK_PARAMS.currentDockState
+  commentId: F:NVAPIWrapper.NV_LID_DOCK_PARAMS.currentDockState
+  id: currentDockState
+  parent: NVAPIWrapper.NV_LID_DOCK_PARAMS
+  langs:
+  - csharp
+  - vb
+  name: currentDockState
+  nameWithType: NV_LID_DOCK_PARAMS.currentDockState
+  fullName: NVAPIWrapper.NV_LID_DOCK_PARAMS.currentDockState
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_LID_DOCK_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: currentDockState
+    path: ../NVAPIWrapper/cs_generated/NV_LID_DOCK_PARAMS.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint currentDockState
+    return:
+      type: System.UInt32
+    content.vb: Public currentDockState As UInteger
+- uid: NVAPIWrapper.NV_LID_DOCK_PARAMS.currentLidPolicy
+  commentId: F:NVAPIWrapper.NV_LID_DOCK_PARAMS.currentLidPolicy
+  id: currentLidPolicy
+  parent: NVAPIWrapper.NV_LID_DOCK_PARAMS
+  langs:
+  - csharp
+  - vb
+  name: currentLidPolicy
+  nameWithType: NV_LID_DOCK_PARAMS.currentLidPolicy
+  fullName: NVAPIWrapper.NV_LID_DOCK_PARAMS.currentLidPolicy
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_LID_DOCK_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: currentLidPolicy
+    path: ../NVAPIWrapper/cs_generated/NV_LID_DOCK_PARAMS.cs
+    startLine: 19
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint currentLidPolicy
+    return:
+      type: System.UInt32
+    content.vb: Public currentLidPolicy As UInteger
+- uid: NVAPIWrapper.NV_LID_DOCK_PARAMS.currentDockPolicy
+  commentId: F:NVAPIWrapper.NV_LID_DOCK_PARAMS.currentDockPolicy
+  id: currentDockPolicy
+  parent: NVAPIWrapper.NV_LID_DOCK_PARAMS
+  langs:
+  - csharp
+  - vb
+  name: currentDockPolicy
+  nameWithType: NV_LID_DOCK_PARAMS.currentDockPolicy
+  fullName: NVAPIWrapper.NV_LID_DOCK_PARAMS.currentDockPolicy
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_LID_DOCK_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: currentDockPolicy
+    path: ../NVAPIWrapper/cs_generated/NV_LID_DOCK_PARAMS.cs
+    startLine: 23
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint currentDockPolicy
+    return:
+      type: System.UInt32
+    content.vb: Public currentDockPolicy As UInteger
+- uid: NVAPIWrapper.NV_LID_DOCK_PARAMS.forcedLidMechanismPresent
+  commentId: F:NVAPIWrapper.NV_LID_DOCK_PARAMS.forcedLidMechanismPresent
+  id: forcedLidMechanismPresent
+  parent: NVAPIWrapper.NV_LID_DOCK_PARAMS
+  langs:
+  - csharp
+  - vb
+  name: forcedLidMechanismPresent
+  nameWithType: NV_LID_DOCK_PARAMS.forcedLidMechanismPresent
+  fullName: NVAPIWrapper.NV_LID_DOCK_PARAMS.forcedLidMechanismPresent
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_LID_DOCK_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: forcedLidMechanismPresent
+    path: ../NVAPIWrapper/cs_generated/NV_LID_DOCK_PARAMS.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint forcedLidMechanismPresent
+    return:
+      type: System.UInt32
+    content.vb: Public forcedLidMechanismPresent As UInteger
+- uid: NVAPIWrapper.NV_LID_DOCK_PARAMS.forcedDockMechanismPresent
+  commentId: F:NVAPIWrapper.NV_LID_DOCK_PARAMS.forcedDockMechanismPresent
+  id: forcedDockMechanismPresent
+  parent: NVAPIWrapper.NV_LID_DOCK_PARAMS
+  langs:
+  - csharp
+  - vb
+  name: forcedDockMechanismPresent
+  nameWithType: NV_LID_DOCK_PARAMS.forcedDockMechanismPresent
+  fullName: NVAPIWrapper.NV_LID_DOCK_PARAMS.forcedDockMechanismPresent
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_LID_DOCK_PARAMS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: forcedDockMechanismPresent
+    path: ../NVAPIWrapper/cs_generated/NV_LID_DOCK_PARAMS.cs
+    startLine: 31
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint forcedDockMechanismPresent
+    return:
+      type: System.UInt32
+    content.vb: Public forcedDockMechanismPresent As UInteger
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger

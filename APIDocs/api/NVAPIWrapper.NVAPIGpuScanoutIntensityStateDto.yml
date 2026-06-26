@@ -1,0 +1,791 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+  commentId: T:NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+  id: NVAPIGpuScanoutIntensityStateDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.#ctor(System.Boolean)
+  - NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.Equals(NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+  - NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.FromNative(NVAPIWrapper._NV_SCANOUT_INTENSITY_STATE_DATA)
+  - NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.GetHashCode
+  - NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.IsEnabled
+  - NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.ToNative
+  - NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.op_Equality(NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto,NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+  - NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.op_Inequality(NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto,NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGpuScanoutIntensityStateDto
+  nameWithType: NVAPIGpuScanoutIntensityStateDto
+  fullName: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIGpuScanoutIntensityStateDto
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 6154
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Scanout intensity state DTO.
+  example: []
+  syntax:
+    content: 'public struct NVAPIGpuScanoutIntensityStateDto : IEquatable<NVAPIGpuScanoutIntensityStateDto>'
+    content.vb: Public Structure NVAPIGpuScanoutIntensityStateDto Implements IEquatable(Of NVAPIGpuScanoutIntensityStateDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.IsEnabled
+  commentId: P:NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.IsEnabled
+  id: IsEnabled
+  parent: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+  langs:
+  - csharp
+  - vb
+  name: IsEnabled
+  nameWithType: NVAPIGpuScanoutIntensityStateDto.IsEnabled
+  fullName: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.IsEnabled
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: IsEnabled
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 6156
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public bool IsEnabled { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsEnabled As Boolean
+  overload: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.IsEnabled*
+- uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.#ctor(System.Boolean)
+  commentId: M:NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.#ctor(System.Boolean)
+  id: '#ctor(System.Boolean)'
+  parent: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIGpuScanoutIntensityStateDto(bool)
+  nameWithType: NVAPIGpuScanoutIntensityStateDto.NVAPIGpuScanoutIntensityStateDto(bool)
+  fullName: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.NVAPIGpuScanoutIntensityStateDto(bool)
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 6158
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public NVAPIGpuScanoutIntensityStateDto(bool isEnabled)
+    parameters:
+    - id: isEnabled
+      type: System.Boolean
+    content.vb: Public Sub New(isEnabled As Boolean)
+  overload: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.#ctor*
+  nameWithType.vb: NVAPIGpuScanoutIntensityStateDto.New(Boolean)
+  fullName.vb: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.New(Boolean)
+  name.vb: New(Boolean)
+- uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.FromNative(NVAPIWrapper._NV_SCANOUT_INTENSITY_STATE_DATA)
+  commentId: M:NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.FromNative(NVAPIWrapper._NV_SCANOUT_INTENSITY_STATE_DATA)
+  id: FromNative(NVAPIWrapper._NV_SCANOUT_INTENSITY_STATE_DATA)
+  parent: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(_NV_SCANOUT_INTENSITY_STATE_DATA)
+  nameWithType: NVAPIGpuScanoutIntensityStateDto.FromNative(_NV_SCANOUT_INTENSITY_STATE_DATA)
+  fullName: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.FromNative(NVAPIWrapper._NV_SCANOUT_INTENSITY_STATE_DATA)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 6163
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static NVAPIGpuScanoutIntensityStateDto FromNative(_NV_SCANOUT_INTENSITY_STATE_DATA native)
+    parameters:
+    - id: native
+      type: NVAPIWrapper._NV_SCANOUT_INTENSITY_STATE_DATA
+    return:
+      type: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+    content.vb: Public Shared Function FromNative(native As _NV_SCANOUT_INTENSITY_STATE_DATA) As NVAPIGpuScanoutIntensityStateDto
+  overload: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.FromNative*
+- uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.ToNative
+  commentId: M:NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.ToNative
+  id: ToNative
+  parent: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: NVAPIGpuScanoutIntensityStateDto.ToNative()
+  fullName: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 6168
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public _NV_SCANOUT_INTENSITY_STATE_DATA ToNative()
+    return:
+      type: NVAPIWrapper._NV_SCANOUT_INTENSITY_STATE_DATA
+    content.vb: Public Function ToNative() As _NV_SCANOUT_INTENSITY_STATE_DATA
+  overload: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.ToNative*
+- uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.Equals(NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.Equals(NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+  id: Equals(NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+  parent: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIGpuScanoutIntensityStateDto)
+  nameWithType: NVAPIGpuScanoutIntensityStateDto.Equals(NVAPIGpuScanoutIntensityStateDto)
+  fullName: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.Equals(NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 6177
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIGpuScanoutIntensityStateDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As NVAPIGpuScanoutIntensityStateDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto}.Equals(NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+- uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIGpuScanoutIntensityStateDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 6182
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.Equals*
+  nameWithType.vb: NVAPIGpuScanoutIntensityStateDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIGpuScanoutIntensityStateDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 6183
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.op_Equality(NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto,NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.op_Equality(NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto,NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+  id: op_Equality(NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto,NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+  parent: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIGpuScanoutIntensityStateDto, NVAPIGpuScanoutIntensityStateDto)
+  nameWithType: NVAPIGpuScanoutIntensityStateDto.operator ==(NVAPIGpuScanoutIntensityStateDto, NVAPIGpuScanoutIntensityStateDto)
+  fullName: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.operator ==(NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto, NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 6184
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static bool operator ==(NVAPIGpuScanoutIntensityStateDto left, NVAPIGpuScanoutIntensityStateDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+    - id: right
+      type: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As NVAPIGpuScanoutIntensityStateDto, right As NVAPIGpuScanoutIntensityStateDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.op_Equality*
+  nameWithType.vb: NVAPIGpuScanoutIntensityStateDto.=(NVAPIGpuScanoutIntensityStateDto, NVAPIGpuScanoutIntensityStateDto)
+  fullName.vb: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.=(NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto, NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+  name.vb: =(NVAPIGpuScanoutIntensityStateDto, NVAPIGpuScanoutIntensityStateDto)
+- uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.op_Inequality(NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto,NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+  commentId: M:NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.op_Inequality(NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto,NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto,NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+  parent: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIGpuScanoutIntensityStateDto, NVAPIGpuScanoutIntensityStateDto)
+  nameWithType: NVAPIGpuScanoutIntensityStateDto.operator !=(NVAPIGpuScanoutIntensityStateDto, NVAPIGpuScanoutIntensityStateDto)
+  fullName: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.operator !=(NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto, NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIDisplayHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIDisplayHelper.cs
+    startLine: 6185
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public static bool operator !=(NVAPIGpuScanoutIntensityStateDto left, NVAPIGpuScanoutIntensityStateDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+    - id: right
+      type: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As NVAPIGpuScanoutIntensityStateDto, right As NVAPIGpuScanoutIntensityStateDto) As Boolean
+  overload: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.op_Inequality*
+  nameWithType.vb: NVAPIGpuScanoutIntensityStateDto.<>(NVAPIGpuScanoutIntensityStateDto, NVAPIGpuScanoutIntensityStateDto)
+  fullName.vb: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.<>(NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto, NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+  name.vb: <>(NVAPIGpuScanoutIntensityStateDto, NVAPIGpuScanoutIntensityStateDto)
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIGpuScanoutIntensityStateDto>
+  nameWithType: IEquatable<NVAPIGpuScanoutIntensityStateDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto>
+  nameWithType.vb: IEquatable(Of NVAPIGpuScanoutIntensityStateDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+  name.vb: IEquatable(Of NVAPIGpuScanoutIntensityStateDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+    name: NVAPIGpuScanoutIntensityStateDto
+    href: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+    name: NVAPIGpuScanoutIntensityStateDto
+    href: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.IsEnabled*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.IsEnabled
+  href: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.html#NVAPIWrapper_NVAPIGpuScanoutIntensityStateDto_IsEnabled
+  name: IsEnabled
+  nameWithType: NVAPIGpuScanoutIntensityStateDto.IsEnabled
+  fullName: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.IsEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.#ctor
+  href: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.html#NVAPIWrapper_NVAPIGpuScanoutIntensityStateDto__ctor_System_Boolean_
+  name: NVAPIGpuScanoutIntensityStateDto
+  nameWithType: NVAPIGpuScanoutIntensityStateDto.NVAPIGpuScanoutIntensityStateDto
+  fullName: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.NVAPIGpuScanoutIntensityStateDto
+  nameWithType.vb: NVAPIGpuScanoutIntensityStateDto.New
+  fullName.vb: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.FromNative
+  href: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.html#NVAPIWrapper_NVAPIGpuScanoutIntensityStateDto_FromNative_NVAPIWrapper__NV_SCANOUT_INTENSITY_STATE_DATA_
+  name: FromNative
+  nameWithType: NVAPIGpuScanoutIntensityStateDto.FromNative
+  fullName: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.FromNative
+- uid: NVAPIWrapper._NV_SCANOUT_INTENSITY_STATE_DATA
+  commentId: T:NVAPIWrapper._NV_SCANOUT_INTENSITY_STATE_DATA
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_SCANOUT_INTENSITY_STATE_DATA.html
+  name: _NV_SCANOUT_INTENSITY_STATE_DATA
+  nameWithType: _NV_SCANOUT_INTENSITY_STATE_DATA
+  fullName: NVAPIWrapper._NV_SCANOUT_INTENSITY_STATE_DATA
+- uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+  commentId: T:NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.html
+  name: NVAPIGpuScanoutIntensityStateDto
+  nameWithType: NVAPIGpuScanoutIntensityStateDto
+  fullName: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+- uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.ToNative
+  href: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.html#NVAPIWrapper_NVAPIGpuScanoutIntensityStateDto_ToNative
+  name: ToNative
+  nameWithType: NVAPIGpuScanoutIntensityStateDto.ToNative
+  fullName: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.ToNative
+- uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.Equals
+  href: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.html#NVAPIWrapper_NVAPIGpuScanoutIntensityStateDto_Equals_NVAPIWrapper_NVAPIGpuScanoutIntensityStateDto_
+  name: Equals
+  nameWithType: NVAPIGpuScanoutIntensityStateDto.Equals
+  fullName: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto}.Equals(NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto}.Equals(NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIGpuScanoutIntensityStateDto)
+  nameWithType: IEquatable<NVAPIGpuScanoutIntensityStateDto>.Equals(NVAPIGpuScanoutIntensityStateDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto>.Equals(NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+  nameWithType.vb: IEquatable(Of NVAPIGpuScanoutIntensityStateDto).Equals(NVAPIGpuScanoutIntensityStateDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto).Equals(NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto}.Equals(NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+    name: NVAPIGpuScanoutIntensityStateDto
+    href: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto}.Equals(NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto
+    name: NVAPIGpuScanoutIntensityStateDto
+    href: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.GetHashCode
+  href: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.html#NVAPIWrapper_NVAPIGpuScanoutIntensityStateDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIGpuScanoutIntensityStateDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.op_Equality
+  href: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.html#NVAPIWrapper_NVAPIGpuScanoutIntensityStateDto_op_Equality_NVAPIWrapper_NVAPIGpuScanoutIntensityStateDto_NVAPIWrapper_NVAPIGpuScanoutIntensityStateDto_
+  name: operator ==
+  nameWithType: NVAPIGpuScanoutIntensityStateDto.operator ==
+  fullName: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.operator ==
+  nameWithType.vb: NVAPIGpuScanoutIntensityStateDto.=
+  fullName.vb: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.html#NVAPIWrapper_NVAPIGpuScanoutIntensityStateDto_op_Equality_NVAPIWrapper_NVAPIGpuScanoutIntensityStateDto_NVAPIWrapper_NVAPIGpuScanoutIntensityStateDto_
+- uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.op_Inequality
+  href: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.html#NVAPIWrapper_NVAPIGpuScanoutIntensityStateDto_op_Inequality_NVAPIWrapper_NVAPIGpuScanoutIntensityStateDto_NVAPIWrapper_NVAPIGpuScanoutIntensityStateDto_
+  name: operator !=
+  nameWithType: NVAPIGpuScanoutIntensityStateDto.operator !=
+  fullName: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.operator !=
+  nameWithType.vb: NVAPIGpuScanoutIntensityStateDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIGpuScanoutIntensityStateDto.html#NVAPIWrapper_NVAPIGpuScanoutIntensityStateDto_op_Inequality_NVAPIWrapper_NVAPIGpuScanoutIntensityStateDto_NVAPIWrapper_NVAPIGpuScanoutIntensityStateDto_

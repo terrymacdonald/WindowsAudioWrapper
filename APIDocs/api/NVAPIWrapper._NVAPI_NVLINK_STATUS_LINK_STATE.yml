@@ -1,0 +1,323 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+  commentId: T:NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+  id: _NVAPI_NVLINK_STATUS_LINK_STATE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_ACTIVE
+  - NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_FAULT
+  - NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_HWCFG
+  - NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_INIT
+  - NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_INVALID
+  - NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY
+  - NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY_AC
+  - NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY_AX
+  - NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_SWCFG
+  - NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_UNKNOWN
+  langs:
+  - csharp
+  - vb
+  name: _NVAPI_NVLINK_STATUS_LINK_STATE
+  nameWithType: _NVAPI_NVLINK_STATUS_LINK_STATE
+  fullName: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_NVLINK_STATUS_LINK_STATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVAPI_NVLINK_STATUS_LINK_STATE
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_NVLINK_STATUS_LINK_STATE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVAPI_NVLINK_STATUS_LINK_STATE
+    content.vb: Public Enum _NVAPI_NVLINK_STATUS_LINK_STATE
+- uid: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_UNKNOWN
+  commentId: F:NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_UNKNOWN
+  id: NVAPI_NVLINK_STATUS_LINK_STATE_UNKNOWN
+  parent: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_NVLINK_STATUS_LINK_STATE_UNKNOWN
+  nameWithType: _NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_UNKNOWN
+  fullName: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_NVLINK_STATUS_LINK_STATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_NVLINK_STATUS_LINK_STATE_UNKNOWN
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_NVLINK_STATUS_LINK_STATE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_NVLINK_STATUS_LINK_STATE_UNKNOWN = 0
+    return:
+      type: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+- uid: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_INIT
+  commentId: F:NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_INIT
+  id: NVAPI_NVLINK_STATUS_LINK_STATE_INIT
+  parent: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_NVLINK_STATUS_LINK_STATE_INIT
+  nameWithType: _NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_INIT
+  fullName: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_INIT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_NVLINK_STATUS_LINK_STATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_NVLINK_STATUS_LINK_STATE_INIT
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_NVLINK_STATUS_LINK_STATE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_NVLINK_STATUS_LINK_STATE_INIT = 1
+    return:
+      type: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+- uid: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_HWCFG
+  commentId: F:NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_HWCFG
+  id: NVAPI_NVLINK_STATUS_LINK_STATE_HWCFG
+  parent: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_NVLINK_STATUS_LINK_STATE_HWCFG
+  nameWithType: _NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_HWCFG
+  fullName: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_HWCFG
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_NVLINK_STATUS_LINK_STATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_NVLINK_STATUS_LINK_STATE_HWCFG
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_NVLINK_STATUS_LINK_STATE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_NVLINK_STATUS_LINK_STATE_HWCFG = 2
+    return:
+      type: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+- uid: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_SWCFG
+  commentId: F:NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_SWCFG
+  id: NVAPI_NVLINK_STATUS_LINK_STATE_SWCFG
+  parent: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_NVLINK_STATUS_LINK_STATE_SWCFG
+  nameWithType: _NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_SWCFG
+  fullName: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_SWCFG
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_NVLINK_STATUS_LINK_STATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_NVLINK_STATUS_LINK_STATE_SWCFG
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_NVLINK_STATUS_LINK_STATE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_NVLINK_STATUS_LINK_STATE_SWCFG = 3
+    return:
+      type: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+- uid: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_ACTIVE
+  commentId: F:NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_ACTIVE
+  id: NVAPI_NVLINK_STATUS_LINK_STATE_ACTIVE
+  parent: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_NVLINK_STATUS_LINK_STATE_ACTIVE
+  nameWithType: _NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_ACTIVE
+  fullName: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_ACTIVE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_NVLINK_STATUS_LINK_STATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_NVLINK_STATUS_LINK_STATE_ACTIVE
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_NVLINK_STATUS_LINK_STATE.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_NVLINK_STATUS_LINK_STATE_ACTIVE = 4
+    return:
+      type: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+- uid: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_FAULT
+  commentId: F:NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_FAULT
+  id: NVAPI_NVLINK_STATUS_LINK_STATE_FAULT
+  parent: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_NVLINK_STATUS_LINK_STATE_FAULT
+  nameWithType: _NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_FAULT
+  fullName: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_FAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_NVLINK_STATUS_LINK_STATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_NVLINK_STATUS_LINK_STATE_FAULT
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_NVLINK_STATUS_LINK_STATE.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_NVLINK_STATUS_LINK_STATE_FAULT = 5
+    return:
+      type: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+- uid: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY
+  commentId: F:NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY
+  id: NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY
+  parent: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY
+  nameWithType: _NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY
+  fullName: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_NVLINK_STATUS_LINK_STATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_NVLINK_STATUS_LINK_STATE.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY = 6
+    return:
+      type: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+- uid: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY_AC
+  commentId: F:NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY_AC
+  id: NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY_AC
+  parent: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY_AC
+  nameWithType: _NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY_AC
+  fullName: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY_AC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_NVLINK_STATUS_LINK_STATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY_AC
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_NVLINK_STATUS_LINK_STATE.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY_AC = 7
+    return:
+      type: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+- uid: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY_AX
+  commentId: F:NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY_AX
+  id: NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY_AX
+  parent: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY_AX
+  nameWithType: _NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY_AX
+  fullName: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY_AX
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_NVLINK_STATUS_LINK_STATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY_AX
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_NVLINK_STATUS_LINK_STATE.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_NVLINK_STATUS_LINK_STATE_RECOVERY_AX = 8
+    return:
+      type: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+- uid: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_INVALID
+  commentId: F:NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_INVALID
+  id: NVAPI_NVLINK_STATUS_LINK_STATE_INVALID
+  parent: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_NVLINK_STATUS_LINK_STATE_INVALID
+  nameWithType: _NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_INVALID
+  fullName: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.NVAPI_NVLINK_STATUS_LINK_STATE_INVALID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVAPI_NVLINK_STATUS_LINK_STATE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_NVLINK_STATUS_LINK_STATE_INVALID
+    path: ../NVAPIWrapper/cs_generated/_NVAPI_NVLINK_STATUS_LINK_STATE.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_NVLINK_STATUS_LINK_STATE_INVALID = -1
+    return:
+      type: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+  commentId: T:NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE.html
+  name: _NVAPI_NVLINK_STATUS_LINK_STATE
+  nameWithType: _NVAPI_NVLINK_STATUS_LINK_STATE
+  fullName: NVAPIWrapper._NVAPI_NVLINK_STATUS_LINK_STATE

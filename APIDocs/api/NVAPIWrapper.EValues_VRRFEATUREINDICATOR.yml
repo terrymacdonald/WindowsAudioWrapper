@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_VRRFEATUREINDICATOR
+  commentId: T:NVAPIWrapper.EValues_VRRFEATUREINDICATOR
+  id: EValues_VRRFEATUREINDICATOR
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_VRRFEATUREINDICATOR.VRRFEATUREINDICATOR_DEFAULT
+  - NVAPIWrapper.EValues_VRRFEATUREINDICATOR.VRRFEATUREINDICATOR_DISABLED
+  - NVAPIWrapper.EValues_VRRFEATUREINDICATOR.VRRFEATUREINDICATOR_ENABLED
+  - NVAPIWrapper.EValues_VRRFEATUREINDICATOR.VRRFEATUREINDICATOR_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_VRRFEATUREINDICATOR
+  nameWithType: EValues_VRRFEATUREINDICATOR
+  fullName: NVAPIWrapper.EValues_VRRFEATUREINDICATOR
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRRFEATUREINDICATOR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_VRRFEATUREINDICATOR
+    path: ../NVAPIWrapper/cs_generated/EValues_VRRFEATUREINDICATOR.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_VRRFEATUREINDICATOR
+    content.vb: Public Enum EValues_VRRFEATUREINDICATOR
+- uid: NVAPIWrapper.EValues_VRRFEATUREINDICATOR.VRRFEATUREINDICATOR_DISABLED
+  commentId: F:NVAPIWrapper.EValues_VRRFEATUREINDICATOR.VRRFEATUREINDICATOR_DISABLED
+  id: VRRFEATUREINDICATOR_DISABLED
+  parent: NVAPIWrapper.EValues_VRRFEATUREINDICATOR
+  langs:
+  - csharp
+  - vb
+  name: VRRFEATUREINDICATOR_DISABLED
+  nameWithType: EValues_VRRFEATUREINDICATOR.VRRFEATUREINDICATOR_DISABLED
+  fullName: NVAPIWrapper.EValues_VRRFEATUREINDICATOR.VRRFEATUREINDICATOR_DISABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRRFEATUREINDICATOR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRRFEATUREINDICATOR_DISABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_VRRFEATUREINDICATOR.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRRFEATUREINDICATOR_DISABLED = 0
+    return:
+      type: NVAPIWrapper.EValues_VRRFEATUREINDICATOR
+- uid: NVAPIWrapper.EValues_VRRFEATUREINDICATOR.VRRFEATUREINDICATOR_ENABLED
+  commentId: F:NVAPIWrapper.EValues_VRRFEATUREINDICATOR.VRRFEATUREINDICATOR_ENABLED
+  id: VRRFEATUREINDICATOR_ENABLED
+  parent: NVAPIWrapper.EValues_VRRFEATUREINDICATOR
+  langs:
+  - csharp
+  - vb
+  name: VRRFEATUREINDICATOR_ENABLED
+  nameWithType: EValues_VRRFEATUREINDICATOR.VRRFEATUREINDICATOR_ENABLED
+  fullName: NVAPIWrapper.EValues_VRRFEATUREINDICATOR.VRRFEATUREINDICATOR_ENABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRRFEATUREINDICATOR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRRFEATUREINDICATOR_ENABLED
+    path: ../NVAPIWrapper/cs_generated/EValues_VRRFEATUREINDICATOR.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRRFEATUREINDICATOR_ENABLED = 1
+    return:
+      type: NVAPIWrapper.EValues_VRRFEATUREINDICATOR
+- uid: NVAPIWrapper.EValues_VRRFEATUREINDICATOR.VRRFEATUREINDICATOR_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_VRRFEATUREINDICATOR.VRRFEATUREINDICATOR_NUM_VALUES
+  id: VRRFEATUREINDICATOR_NUM_VALUES
+  parent: NVAPIWrapper.EValues_VRRFEATUREINDICATOR
+  langs:
+  - csharp
+  - vb
+  name: VRRFEATUREINDICATOR_NUM_VALUES
+  nameWithType: EValues_VRRFEATUREINDICATOR.VRRFEATUREINDICATOR_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_VRRFEATUREINDICATOR.VRRFEATUREINDICATOR_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRRFEATUREINDICATOR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRRFEATUREINDICATOR_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_VRRFEATUREINDICATOR.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRRFEATUREINDICATOR_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_VRRFEATUREINDICATOR
+- uid: NVAPIWrapper.EValues_VRRFEATUREINDICATOR.VRRFEATUREINDICATOR_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_VRRFEATUREINDICATOR.VRRFEATUREINDICATOR_DEFAULT
+  id: VRRFEATUREINDICATOR_DEFAULT
+  parent: NVAPIWrapper.EValues_VRRFEATUREINDICATOR
+  langs:
+  - csharp
+  - vb
+  name: VRRFEATUREINDICATOR_DEFAULT
+  nameWithType: EValues_VRRFEATUREINDICATOR.VRRFEATUREINDICATOR_DEFAULT
+  fullName: NVAPIWrapper.EValues_VRRFEATUREINDICATOR.VRRFEATUREINDICATOR_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VRRFEATUREINDICATOR.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VRRFEATUREINDICATOR_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_VRRFEATUREINDICATOR.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VRRFEATUREINDICATOR_DEFAULT = 1
+    return:
+      type: NVAPIWrapper.EValues_VRRFEATUREINDICATOR
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_VRRFEATUREINDICATOR
+  commentId: T:NVAPIWrapper.EValues_VRRFEATUREINDICATOR
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_VRRFEATUREINDICATOR.html
+  name: EValues_VRRFEATUREINDICATOR
+  nameWithType: EValues_VRRFEATUREINDICATOR
+  fullName: NVAPIWrapper.EValues_VRRFEATUREINDICATOR

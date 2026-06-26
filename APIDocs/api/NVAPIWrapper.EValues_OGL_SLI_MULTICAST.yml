@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_OGL_SLI_MULTICAST
+  commentId: T:NVAPIWrapper.EValues_OGL_SLI_MULTICAST
+  id: EValues_OGL_SLI_MULTICAST
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_ALLOW_MOSAIC
+  - NVAPIWrapper.EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_DEFAULT
+  - NVAPIWrapper.EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_DISABLE
+  - NVAPIWrapper.EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_ENABLE
+  - NVAPIWrapper.EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_FORCE_DISABLE
+  - NVAPIWrapper.EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_OGL_SLI_MULTICAST
+  nameWithType: EValues_OGL_SLI_MULTICAST
+  fullName: NVAPIWrapper.EValues_OGL_SLI_MULTICAST
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_SLI_MULTICAST.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_OGL_SLI_MULTICAST
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_SLI_MULTICAST.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_OGL_SLI_MULTICAST
+    content.vb: Public Enum EValues_OGL_SLI_MULTICAST
+- uid: NVAPIWrapper.EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_DISABLE
+  commentId: F:NVAPIWrapper.EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_DISABLE
+  id: OGL_SLI_MULTICAST_DISABLE
+  parent: NVAPIWrapper.EValues_OGL_SLI_MULTICAST
+  langs:
+  - csharp
+  - vb
+  name: OGL_SLI_MULTICAST_DISABLE
+  nameWithType: EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_DISABLE
+  fullName: NVAPIWrapper.EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_DISABLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_SLI_MULTICAST.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_SLI_MULTICAST_DISABLE
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_SLI_MULTICAST.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_SLI_MULTICAST_DISABLE = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_SLI_MULTICAST
+- uid: NVAPIWrapper.EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_ENABLE
+  commentId: F:NVAPIWrapper.EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_ENABLE
+  id: OGL_SLI_MULTICAST_ENABLE
+  parent: NVAPIWrapper.EValues_OGL_SLI_MULTICAST
+  langs:
+  - csharp
+  - vb
+  name: OGL_SLI_MULTICAST_ENABLE
+  nameWithType: EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_ENABLE
+  fullName: NVAPIWrapper.EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_ENABLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_SLI_MULTICAST.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_SLI_MULTICAST_ENABLE
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_SLI_MULTICAST.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_SLI_MULTICAST_ENABLE = 1
+    return:
+      type: NVAPIWrapper.EValues_OGL_SLI_MULTICAST
+- uid: NVAPIWrapper.EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_FORCE_DISABLE
+  commentId: F:NVAPIWrapper.EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_FORCE_DISABLE
+  id: OGL_SLI_MULTICAST_FORCE_DISABLE
+  parent: NVAPIWrapper.EValues_OGL_SLI_MULTICAST
+  langs:
+  - csharp
+  - vb
+  name: OGL_SLI_MULTICAST_FORCE_DISABLE
+  nameWithType: EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_FORCE_DISABLE
+  fullName: NVAPIWrapper.EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_FORCE_DISABLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_SLI_MULTICAST.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_SLI_MULTICAST_FORCE_DISABLE
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_SLI_MULTICAST.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_SLI_MULTICAST_FORCE_DISABLE = 2
+    return:
+      type: NVAPIWrapper.EValues_OGL_SLI_MULTICAST
+- uid: NVAPIWrapper.EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_ALLOW_MOSAIC
+  commentId: F:NVAPIWrapper.EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_ALLOW_MOSAIC
+  id: OGL_SLI_MULTICAST_ALLOW_MOSAIC
+  parent: NVAPIWrapper.EValues_OGL_SLI_MULTICAST
+  langs:
+  - csharp
+  - vb
+  name: OGL_SLI_MULTICAST_ALLOW_MOSAIC
+  nameWithType: EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_ALLOW_MOSAIC
+  fullName: NVAPIWrapper.EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_ALLOW_MOSAIC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_SLI_MULTICAST.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_SLI_MULTICAST_ALLOW_MOSAIC
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_SLI_MULTICAST.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_SLI_MULTICAST_ALLOW_MOSAIC = 4
+    return:
+      type: NVAPIWrapper.EValues_OGL_SLI_MULTICAST
+- uid: NVAPIWrapper.EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_NUM_VALUES
+  id: OGL_SLI_MULTICAST_NUM_VALUES
+  parent: NVAPIWrapper.EValues_OGL_SLI_MULTICAST
+  langs:
+  - csharp
+  - vb
+  name: OGL_SLI_MULTICAST_NUM_VALUES
+  nameWithType: EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_SLI_MULTICAST.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_SLI_MULTICAST_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_SLI_MULTICAST.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_SLI_MULTICAST_NUM_VALUES = 4
+    return:
+      type: NVAPIWrapper.EValues_OGL_SLI_MULTICAST
+- uid: NVAPIWrapper.EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_DEFAULT
+  id: OGL_SLI_MULTICAST_DEFAULT
+  parent: NVAPIWrapper.EValues_OGL_SLI_MULTICAST
+  langs:
+  - csharp
+  - vb
+  name: OGL_SLI_MULTICAST_DEFAULT
+  nameWithType: EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_DEFAULT
+  fullName: NVAPIWrapper.EValues_OGL_SLI_MULTICAST.OGL_SLI_MULTICAST_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_OGL_SLI_MULTICAST.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: OGL_SLI_MULTICAST_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_OGL_SLI_MULTICAST.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: OGL_SLI_MULTICAST_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_OGL_SLI_MULTICAST
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_OGL_SLI_MULTICAST
+  commentId: T:NVAPIWrapper.EValues_OGL_SLI_MULTICAST
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_OGL_SLI_MULTICAST.html
+  name: EValues_OGL_SLI_MULTICAST
+  nameWithType: EValues_OGL_SLI_MULTICAST
+  fullName: NVAPIWrapper.EValues_OGL_SLI_MULTICAST

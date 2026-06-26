@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT
+  commentId: T:NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT
+  id: EValues_WKS_STEREO_DONGLE_SUPPORT
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_DAC
+  - NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_DEFAULT
+  - NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_DLP
+  - NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_NUM_VALUES
+  - NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_OFF
+  langs:
+  - csharp
+  - vb
+  name: EValues_WKS_STEREO_DONGLE_SUPPORT
+  nameWithType: EValues_WKS_STEREO_DONGLE_SUPPORT
+  fullName: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_STEREO_DONGLE_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_WKS_STEREO_DONGLE_SUPPORT
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_STEREO_DONGLE_SUPPORT.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_WKS_STEREO_DONGLE_SUPPORT
+    content.vb: Public Enum EValues_WKS_STEREO_DONGLE_SUPPORT
+- uid: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_OFF
+  commentId: F:NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_OFF
+  id: WKS_STEREO_DONGLE_SUPPORT_OFF
+  parent: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: WKS_STEREO_DONGLE_SUPPORT_OFF
+  nameWithType: EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_OFF
+  fullName: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_STEREO_DONGLE_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_STEREO_DONGLE_SUPPORT_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_STEREO_DONGLE_SUPPORT.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_STEREO_DONGLE_SUPPORT_OFF = 0
+    return:
+      type: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT
+- uid: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_DAC
+  commentId: F:NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_DAC
+  id: WKS_STEREO_DONGLE_SUPPORT_DAC
+  parent: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: WKS_STEREO_DONGLE_SUPPORT_DAC
+  nameWithType: EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_DAC
+  fullName: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_DAC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_STEREO_DONGLE_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_STEREO_DONGLE_SUPPORT_DAC
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_STEREO_DONGLE_SUPPORT.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_STEREO_DONGLE_SUPPORT_DAC = 1
+    return:
+      type: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT
+- uid: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_DLP
+  commentId: F:NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_DLP
+  id: WKS_STEREO_DONGLE_SUPPORT_DLP
+  parent: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: WKS_STEREO_DONGLE_SUPPORT_DLP
+  nameWithType: EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_DLP
+  fullName: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_DLP
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_STEREO_DONGLE_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_STEREO_DONGLE_SUPPORT_DLP
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_STEREO_DONGLE_SUPPORT.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_STEREO_DONGLE_SUPPORT_DLP = 2
+    return:
+      type: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT
+- uid: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_NUM_VALUES
+  id: WKS_STEREO_DONGLE_SUPPORT_NUM_VALUES
+  parent: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: WKS_STEREO_DONGLE_SUPPORT_NUM_VALUES
+  nameWithType: EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_STEREO_DONGLE_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_STEREO_DONGLE_SUPPORT_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_STEREO_DONGLE_SUPPORT.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_STEREO_DONGLE_SUPPORT_NUM_VALUES = 3
+    return:
+      type: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT
+- uid: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_DEFAULT
+  id: WKS_STEREO_DONGLE_SUPPORT_DEFAULT
+  parent: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT
+  langs:
+  - csharp
+  - vb
+  name: WKS_STEREO_DONGLE_SUPPORT_DEFAULT
+  nameWithType: EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_DEFAULT
+  fullName: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT.WKS_STEREO_DONGLE_SUPPORT_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_WKS_STEREO_DONGLE_SUPPORT.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: WKS_STEREO_DONGLE_SUPPORT_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_WKS_STEREO_DONGLE_SUPPORT.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: WKS_STEREO_DONGLE_SUPPORT_DEFAULT = 1
+    return:
+      type: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT
+  commentId: T:NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT.html
+  name: EValues_WKS_STEREO_DONGLE_SUPPORT
+  nameWithType: EValues_WKS_STEREO_DONGLE_SUPPORT
+  fullName: NVAPIWrapper.EValues_WKS_STEREO_DONGLE_SUPPORT

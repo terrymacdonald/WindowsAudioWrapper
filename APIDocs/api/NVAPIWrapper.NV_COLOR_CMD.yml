@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_COLOR_CMD
+  commentId: T:NVAPIWrapper.NV_COLOR_CMD
+  id: NV_COLOR_CMD
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_COLOR_CMD.NV_COLOR_CMD_GET
+  - NVAPIWrapper.NV_COLOR_CMD.NV_COLOR_CMD_GET_DEFAULT
+  - NVAPIWrapper.NV_COLOR_CMD.NV_COLOR_CMD_IS_SUPPORTED_COLOR
+  - NVAPIWrapper.NV_COLOR_CMD.NV_COLOR_CMD_SET
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_CMD
+  nameWithType: NV_COLOR_CMD
+  fullName: NVAPIWrapper.NV_COLOR_CMD
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_CMD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_CMD
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_CMD.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_COLOR_CMD
+    content.vb: Public Enum NV_COLOR_CMD
+- uid: NVAPIWrapper.NV_COLOR_CMD.NV_COLOR_CMD_GET
+  commentId: F:NVAPIWrapper.NV_COLOR_CMD.NV_COLOR_CMD_GET
+  id: NV_COLOR_CMD_GET
+  parent: NVAPIWrapper.NV_COLOR_CMD
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_CMD_GET
+  nameWithType: NV_COLOR_CMD.NV_COLOR_CMD_GET
+  fullName: NVAPIWrapper.NV_COLOR_CMD.NV_COLOR_CMD_GET
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_CMD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_CMD_GET
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_CMD.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_CMD_GET = 1
+    return:
+      type: NVAPIWrapper.NV_COLOR_CMD
+- uid: NVAPIWrapper.NV_COLOR_CMD.NV_COLOR_CMD_SET
+  commentId: F:NVAPIWrapper.NV_COLOR_CMD.NV_COLOR_CMD_SET
+  id: NV_COLOR_CMD_SET
+  parent: NVAPIWrapper.NV_COLOR_CMD
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_CMD_SET
+  nameWithType: NV_COLOR_CMD.NV_COLOR_CMD_SET
+  fullName: NVAPIWrapper.NV_COLOR_CMD.NV_COLOR_CMD_SET
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_CMD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_CMD_SET
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_CMD.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_CMD_SET = 2
+    return:
+      type: NVAPIWrapper.NV_COLOR_CMD
+- uid: NVAPIWrapper.NV_COLOR_CMD.NV_COLOR_CMD_IS_SUPPORTED_COLOR
+  commentId: F:NVAPIWrapper.NV_COLOR_CMD.NV_COLOR_CMD_IS_SUPPORTED_COLOR
+  id: NV_COLOR_CMD_IS_SUPPORTED_COLOR
+  parent: NVAPIWrapper.NV_COLOR_CMD
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_CMD_IS_SUPPORTED_COLOR
+  nameWithType: NV_COLOR_CMD.NV_COLOR_CMD_IS_SUPPORTED_COLOR
+  fullName: NVAPIWrapper.NV_COLOR_CMD.NV_COLOR_CMD_IS_SUPPORTED_COLOR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_CMD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_CMD_IS_SUPPORTED_COLOR
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_CMD.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_CMD_IS_SUPPORTED_COLOR = 3
+    return:
+      type: NVAPIWrapper.NV_COLOR_CMD
+- uid: NVAPIWrapper.NV_COLOR_CMD.NV_COLOR_CMD_GET_DEFAULT
+  commentId: F:NVAPIWrapper.NV_COLOR_CMD.NV_COLOR_CMD_GET_DEFAULT
+  id: NV_COLOR_CMD_GET_DEFAULT
+  parent: NVAPIWrapper.NV_COLOR_CMD
+  langs:
+  - csharp
+  - vb
+  name: NV_COLOR_CMD_GET_DEFAULT
+  nameWithType: NV_COLOR_CMD.NV_COLOR_CMD_GET_DEFAULT
+  fullName: NVAPIWrapper.NV_COLOR_CMD.NV_COLOR_CMD_GET_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_COLOR_CMD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_COLOR_CMD_GET_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/NV_COLOR_CMD.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_COLOR_CMD_GET_DEFAULT = 4
+    return:
+      type: NVAPIWrapper.NV_COLOR_CMD
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_COLOR_CMD
+  commentId: T:NVAPIWrapper.NV_COLOR_CMD
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_COLOR_CMD.html
+  name: NV_COLOR_CMD
+  nameWithType: NV_COLOR_CMD
+  fullName: NVAPIWrapper.NV_COLOR_CMD

@@ -1,0 +1,71 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_RESOLVE_MODE
+  commentId: T:NVAPIWrapper._NV_RESOLVE_MODE
+  id: _NV_RESOLVE_MODE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_RESOLVE_MODE.NV_RESOLVE_MODE_SAMPLE_0
+  langs:
+  - csharp
+  - vb
+  name: _NV_RESOLVE_MODE
+  nameWithType: _NV_RESOLVE_MODE
+  fullName: NVAPIWrapper._NV_RESOLVE_MODE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_RESOLVE_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_RESOLVE_MODE
+    path: ../NVAPIWrapper/cs_generated/_NV_RESOLVE_MODE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_RESOLVE_MODE
+    content.vb: Public Enum _NV_RESOLVE_MODE
+- uid: NVAPIWrapper._NV_RESOLVE_MODE.NV_RESOLVE_MODE_SAMPLE_0
+  commentId: F:NVAPIWrapper._NV_RESOLVE_MODE.NV_RESOLVE_MODE_SAMPLE_0
+  id: NV_RESOLVE_MODE_SAMPLE_0
+  parent: NVAPIWrapper._NV_RESOLVE_MODE
+  langs:
+  - csharp
+  - vb
+  name: NV_RESOLVE_MODE_SAMPLE_0
+  nameWithType: _NV_RESOLVE_MODE.NV_RESOLVE_MODE_SAMPLE_0
+  fullName: NVAPIWrapper._NV_RESOLVE_MODE.NV_RESOLVE_MODE_SAMPLE_0
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_RESOLVE_MODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_RESOLVE_MODE_SAMPLE_0
+    path: ../NVAPIWrapper/cs_generated/_NV_RESOLVE_MODE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_RESOLVE_MODE_SAMPLE_0 = 0
+    return:
+      type: NVAPIWrapper._NV_RESOLVE_MODE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_RESOLVE_MODE
+  commentId: T:NVAPIWrapper._NV_RESOLVE_MODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_RESOLVE_MODE.html
+  name: _NV_RESOLVE_MODE
+  nameWithType: _NV_RESOLVE_MODE
+  fullName: NVAPIWrapper._NV_RESOLVE_MODE

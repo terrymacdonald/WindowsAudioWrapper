@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVVIOVIDEOSTANDARD
+  commentId: T:NVAPIWrapper._NVVIOVIDEOSTANDARD
+  id: _NVVIOVIDEOSTANDARD
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE259
+  - NVAPIWrapper._NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE260
+  - NVAPIWrapper._NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE274
+  - NVAPIWrapper._NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE295
+  - NVAPIWrapper._NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE296
+  - NVAPIWrapper._NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE372
+  langs:
+  - csharp
+  - vb
+  name: _NVVIOVIDEOSTANDARD
+  nameWithType: _NVVIOVIDEOSTANDARD
+  fullName: NVAPIWrapper._NVVIOVIDEOSTANDARD
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOVIDEOSTANDARD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVVIOVIDEOSTANDARD
+    path: ../NVAPIWrapper/cs_generated/_NVVIOVIDEOSTANDARD.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVVIOVIDEOSTANDARD
+    content.vb: Public Enum _NVVIOVIDEOSTANDARD
+- uid: NVAPIWrapper._NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE259
+  commentId: F:NVAPIWrapper._NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE259
+  id: NVVIOVIDEOSTANDARD_SMPTE259
+  parent: NVAPIWrapper._NVVIOVIDEOSTANDARD
+  langs:
+  - csharp
+  - vb
+  name: NVVIOVIDEOSTANDARD_SMPTE259
+  nameWithType: _NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE259
+  fullName: NVAPIWrapper._NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE259
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOVIDEOSTANDARD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOVIDEOSTANDARD_SMPTE259
+    path: ../NVAPIWrapper/cs_generated/_NVVIOVIDEOSTANDARD.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOVIDEOSTANDARD_SMPTE259 = 0
+    return:
+      type: NVAPIWrapper._NVVIOVIDEOSTANDARD
+- uid: NVAPIWrapper._NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE260
+  commentId: F:NVAPIWrapper._NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE260
+  id: NVVIOVIDEOSTANDARD_SMPTE260
+  parent: NVAPIWrapper._NVVIOVIDEOSTANDARD
+  langs:
+  - csharp
+  - vb
+  name: NVVIOVIDEOSTANDARD_SMPTE260
+  nameWithType: _NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE260
+  fullName: NVAPIWrapper._NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE260
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOVIDEOSTANDARD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOVIDEOSTANDARD_SMPTE260
+    path: ../NVAPIWrapper/cs_generated/_NVVIOVIDEOSTANDARD.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOVIDEOSTANDARD_SMPTE260 = 1
+    return:
+      type: NVAPIWrapper._NVVIOVIDEOSTANDARD
+- uid: NVAPIWrapper._NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE274
+  commentId: F:NVAPIWrapper._NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE274
+  id: NVVIOVIDEOSTANDARD_SMPTE274
+  parent: NVAPIWrapper._NVVIOVIDEOSTANDARD
+  langs:
+  - csharp
+  - vb
+  name: NVVIOVIDEOSTANDARD_SMPTE274
+  nameWithType: _NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE274
+  fullName: NVAPIWrapper._NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE274
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOVIDEOSTANDARD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOVIDEOSTANDARD_SMPTE274
+    path: ../NVAPIWrapper/cs_generated/_NVVIOVIDEOSTANDARD.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOVIDEOSTANDARD_SMPTE274 = 2
+    return:
+      type: NVAPIWrapper._NVVIOVIDEOSTANDARD
+- uid: NVAPIWrapper._NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE295
+  commentId: F:NVAPIWrapper._NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE295
+  id: NVVIOVIDEOSTANDARD_SMPTE295
+  parent: NVAPIWrapper._NVVIOVIDEOSTANDARD
+  langs:
+  - csharp
+  - vb
+  name: NVVIOVIDEOSTANDARD_SMPTE295
+  nameWithType: _NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE295
+  fullName: NVAPIWrapper._NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE295
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOVIDEOSTANDARD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOVIDEOSTANDARD_SMPTE295
+    path: ../NVAPIWrapper/cs_generated/_NVVIOVIDEOSTANDARD.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOVIDEOSTANDARD_SMPTE295 = 3
+    return:
+      type: NVAPIWrapper._NVVIOVIDEOSTANDARD
+- uid: NVAPIWrapper._NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE296
+  commentId: F:NVAPIWrapper._NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE296
+  id: NVVIOVIDEOSTANDARD_SMPTE296
+  parent: NVAPIWrapper._NVVIOVIDEOSTANDARD
+  langs:
+  - csharp
+  - vb
+  name: NVVIOVIDEOSTANDARD_SMPTE296
+  nameWithType: _NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE296
+  fullName: NVAPIWrapper._NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE296
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOVIDEOSTANDARD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOVIDEOSTANDARD_SMPTE296
+    path: ../NVAPIWrapper/cs_generated/_NVVIOVIDEOSTANDARD.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOVIDEOSTANDARD_SMPTE296 = 4
+    return:
+      type: NVAPIWrapper._NVVIOVIDEOSTANDARD
+- uid: NVAPIWrapper._NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE372
+  commentId: F:NVAPIWrapper._NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE372
+  id: NVVIOVIDEOSTANDARD_SMPTE372
+  parent: NVAPIWrapper._NVVIOVIDEOSTANDARD
+  langs:
+  - csharp
+  - vb
+  name: NVVIOVIDEOSTANDARD_SMPTE372
+  nameWithType: _NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE372
+  fullName: NVAPIWrapper._NVVIOVIDEOSTANDARD.NVVIOVIDEOSTANDARD_SMPTE372
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOVIDEOSTANDARD.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOVIDEOSTANDARD_SMPTE372
+    path: ../NVAPIWrapper/cs_generated/_NVVIOVIDEOSTANDARD.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOVIDEOSTANDARD_SMPTE372 = 5
+    return:
+      type: NVAPIWrapper._NVVIOVIDEOSTANDARD
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVVIOVIDEOSTANDARD
+  commentId: T:NVAPIWrapper._NVVIOVIDEOSTANDARD
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOVIDEOSTANDARD.html
+  name: _NVVIOVIDEOSTANDARD
+  nameWithType: _NVVIOVIDEOSTANDARD
+  fullName: NVAPIWrapper._NVVIOVIDEOSTANDARD

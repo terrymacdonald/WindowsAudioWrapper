@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NVVIOINTERLACEMODE
+  commentId: T:NVAPIWrapper._NVVIOINTERLACEMODE
+  id: _NVVIOINTERLACEMODE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NVVIOINTERLACEMODE.NVVIOINTERLACEMODE_INTERLACE
+  - NVAPIWrapper._NVVIOINTERLACEMODE.NVVIOINTERLACEMODE_PROGRESSIVE
+  - NVAPIWrapper._NVVIOINTERLACEMODE.NVVIOINTERLACEMODE_PSF
+  langs:
+  - csharp
+  - vb
+  name: _NVVIOINTERLACEMODE
+  nameWithType: _NVVIOINTERLACEMODE
+  fullName: NVAPIWrapper._NVVIOINTERLACEMODE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOINTERLACEMODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NVVIOINTERLACEMODE
+    path: ../NVAPIWrapper/cs_generated/_NVVIOINTERLACEMODE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NVVIOINTERLACEMODE
+    content.vb: Public Enum _NVVIOINTERLACEMODE
+- uid: NVAPIWrapper._NVVIOINTERLACEMODE.NVVIOINTERLACEMODE_PROGRESSIVE
+  commentId: F:NVAPIWrapper._NVVIOINTERLACEMODE.NVVIOINTERLACEMODE_PROGRESSIVE
+  id: NVVIOINTERLACEMODE_PROGRESSIVE
+  parent: NVAPIWrapper._NVVIOINTERLACEMODE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOINTERLACEMODE_PROGRESSIVE
+  nameWithType: _NVVIOINTERLACEMODE.NVVIOINTERLACEMODE_PROGRESSIVE
+  fullName: NVAPIWrapper._NVVIOINTERLACEMODE.NVVIOINTERLACEMODE_PROGRESSIVE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOINTERLACEMODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOINTERLACEMODE_PROGRESSIVE
+    path: ../NVAPIWrapper/cs_generated/_NVVIOINTERLACEMODE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOINTERLACEMODE_PROGRESSIVE = 0
+    return:
+      type: NVAPIWrapper._NVVIOINTERLACEMODE
+- uid: NVAPIWrapper._NVVIOINTERLACEMODE.NVVIOINTERLACEMODE_INTERLACE
+  commentId: F:NVAPIWrapper._NVVIOINTERLACEMODE.NVVIOINTERLACEMODE_INTERLACE
+  id: NVVIOINTERLACEMODE_INTERLACE
+  parent: NVAPIWrapper._NVVIOINTERLACEMODE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOINTERLACEMODE_INTERLACE
+  nameWithType: _NVVIOINTERLACEMODE.NVVIOINTERLACEMODE_INTERLACE
+  fullName: NVAPIWrapper._NVVIOINTERLACEMODE.NVVIOINTERLACEMODE_INTERLACE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOINTERLACEMODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOINTERLACEMODE_INTERLACE
+    path: ../NVAPIWrapper/cs_generated/_NVVIOINTERLACEMODE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOINTERLACEMODE_INTERLACE = 1
+    return:
+      type: NVAPIWrapper._NVVIOINTERLACEMODE
+- uid: NVAPIWrapper._NVVIOINTERLACEMODE.NVVIOINTERLACEMODE_PSF
+  commentId: F:NVAPIWrapper._NVVIOINTERLACEMODE.NVVIOINTERLACEMODE_PSF
+  id: NVVIOINTERLACEMODE_PSF
+  parent: NVAPIWrapper._NVVIOINTERLACEMODE
+  langs:
+  - csharp
+  - vb
+  name: NVVIOINTERLACEMODE_PSF
+  nameWithType: _NVVIOINTERLACEMODE.NVVIOINTERLACEMODE_PSF
+  fullName: NVAPIWrapper._NVVIOINTERLACEMODE.NVVIOINTERLACEMODE_PSF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NVVIOINTERLACEMODE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVVIOINTERLACEMODE_PSF
+    path: ../NVAPIWrapper/cs_generated/_NVVIOINTERLACEMODE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVVIOINTERLACEMODE_PSF = 2
+    return:
+      type: NVAPIWrapper._NVVIOINTERLACEMODE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NVVIOINTERLACEMODE
+  commentId: T:NVAPIWrapper._NVVIOINTERLACEMODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVVIOINTERLACEMODE.html
+  name: _NVVIOINTERLACEMODE
+  nameWithType: _NVVIOINTERLACEMODE
+  fullName: NVAPIWrapper._NVVIOINTERLACEMODE

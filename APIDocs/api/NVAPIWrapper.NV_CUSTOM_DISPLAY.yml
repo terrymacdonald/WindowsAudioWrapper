@@ -1,0 +1,629 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_CUSTOM_DISPLAY
+  commentId: T:NVAPIWrapper.NV_CUSTOM_DISPLAY
+  id: NV_CUSTOM_DISPLAY
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_CUSTOM_DISPLAY._bitfield
+  - NVAPIWrapper.NV_CUSTOM_DISPLAY.colorFormat
+  - NVAPIWrapper.NV_CUSTOM_DISPLAY.depth
+  - NVAPIWrapper.NV_CUSTOM_DISPLAY.height
+  - NVAPIWrapper.NV_CUSTOM_DISPLAY.hwModeSetOnly
+  - NVAPIWrapper.NV_CUSTOM_DISPLAY.srcPartition
+  - NVAPIWrapper.NV_CUSTOM_DISPLAY.timing
+  - NVAPIWrapper.NV_CUSTOM_DISPLAY.version
+  - NVAPIWrapper.NV_CUSTOM_DISPLAY.width
+  - NVAPIWrapper.NV_CUSTOM_DISPLAY.xRatio
+  - NVAPIWrapper.NV_CUSTOM_DISPLAY.yRatio
+  langs:
+  - csharp
+  - vb
+  name: NV_CUSTOM_DISPLAY
+  nameWithType: NV_CUSTOM_DISPLAY
+  fullName: NVAPIWrapper.NV_CUSTOM_DISPLAY
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_CUSTOM_DISPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_CUSTOM_DISPLAY
+    path: ../NVAPIWrapper/cs_generated/NV_CUSTOM_DISPLAY.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct NV_CUSTOM_DISPLAY
+    content.vb: Public Structure NV_CUSTOM_DISPLAY
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NV_CUSTOM_DISPLAY.version
+  commentId: F:NVAPIWrapper.NV_CUSTOM_DISPLAY.version
+  id: version
+  parent: NVAPIWrapper.NV_CUSTOM_DISPLAY
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: NV_CUSTOM_DISPLAY.version
+  fullName: NVAPIWrapper.NV_CUSTOM_DISPLAY.version
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_CUSTOM_DISPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: version
+    path: ../NVAPIWrapper/cs_generated/NV_CUSTOM_DISPLAY.cs
+    startLine: 7
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint version
+    return:
+      type: System.UInt32
+    content.vb: Public version As UInteger
+- uid: NVAPIWrapper.NV_CUSTOM_DISPLAY.width
+  commentId: F:NVAPIWrapper.NV_CUSTOM_DISPLAY.width
+  id: width
+  parent: NVAPIWrapper.NV_CUSTOM_DISPLAY
+  langs:
+  - csharp
+  - vb
+  name: width
+  nameWithType: NV_CUSTOM_DISPLAY.width
+  fullName: NVAPIWrapper.NV_CUSTOM_DISPLAY.width
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_CUSTOM_DISPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: width
+    path: ../NVAPIWrapper/cs_generated/NV_CUSTOM_DISPLAY.cs
+    startLine: 11
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint width
+    return:
+      type: System.UInt32
+    content.vb: Public width As UInteger
+- uid: NVAPIWrapper.NV_CUSTOM_DISPLAY.height
+  commentId: F:NVAPIWrapper.NV_CUSTOM_DISPLAY.height
+  id: height
+  parent: NVAPIWrapper.NV_CUSTOM_DISPLAY
+  langs:
+  - csharp
+  - vb
+  name: height
+  nameWithType: NV_CUSTOM_DISPLAY.height
+  fullName: NVAPIWrapper.NV_CUSTOM_DISPLAY.height
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_CUSTOM_DISPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: height
+    path: ../NVAPIWrapper/cs_generated/NV_CUSTOM_DISPLAY.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint height
+    return:
+      type: System.UInt32
+    content.vb: Public height As UInteger
+- uid: NVAPIWrapper.NV_CUSTOM_DISPLAY.depth
+  commentId: F:NVAPIWrapper.NV_CUSTOM_DISPLAY.depth
+  id: depth
+  parent: NVAPIWrapper.NV_CUSTOM_DISPLAY
+  langs:
+  - csharp
+  - vb
+  name: depth
+  nameWithType: NV_CUSTOM_DISPLAY.depth
+  fullName: NVAPIWrapper.NV_CUSTOM_DISPLAY.depth
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_CUSTOM_DISPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: depth
+    path: ../NVAPIWrapper/cs_generated/NV_CUSTOM_DISPLAY.cs
+    startLine: 19
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint depth
+    return:
+      type: System.UInt32
+    content.vb: Public depth As UInteger
+- uid: NVAPIWrapper.NV_CUSTOM_DISPLAY.colorFormat
+  commentId: F:NVAPIWrapper.NV_CUSTOM_DISPLAY.colorFormat
+  id: colorFormat
+  parent: NVAPIWrapper.NV_CUSTOM_DISPLAY
+  langs:
+  - csharp
+  - vb
+  name: colorFormat
+  nameWithType: NV_CUSTOM_DISPLAY.colorFormat
+  fullName: NVAPIWrapper.NV_CUSTOM_DISPLAY.colorFormat
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_CUSTOM_DISPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: colorFormat
+    path: ../NVAPIWrapper/cs_generated/NV_CUSTOM_DISPLAY.cs
+    startLine: 23
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_FORMAT colorFormat
+    return:
+      type: NVAPIWrapper._NV_FORMAT
+    content.vb: Public colorFormat As _NV_FORMAT
+- uid: NVAPIWrapper.NV_CUSTOM_DISPLAY.srcPartition
+  commentId: F:NVAPIWrapper.NV_CUSTOM_DISPLAY.srcPartition
+  id: srcPartition
+  parent: NVAPIWrapper.NV_CUSTOM_DISPLAY
+  langs:
+  - csharp
+  - vb
+  name: srcPartition
+  nameWithType: NV_CUSTOM_DISPLAY.srcPartition
+  fullName: NVAPIWrapper.NV_CUSTOM_DISPLAY.srcPartition
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_CUSTOM_DISPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: srcPartition
+    path: ../NVAPIWrapper/cs_generated/NV_CUSTOM_DISPLAY.cs
+    startLine: 26
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public NV_VIEWPORTF srcPartition
+    return:
+      type: NVAPIWrapper.NV_VIEWPORTF
+    content.vb: Public srcPartition As NV_VIEWPORTF
+- uid: NVAPIWrapper.NV_CUSTOM_DISPLAY.xRatio
+  commentId: F:NVAPIWrapper.NV_CUSTOM_DISPLAY.xRatio
+  id: xRatio
+  parent: NVAPIWrapper.NV_CUSTOM_DISPLAY
+  langs:
+  - csharp
+  - vb
+  name: xRatio
+  nameWithType: NV_CUSTOM_DISPLAY.xRatio
+  fullName: NVAPIWrapper.NV_CUSTOM_DISPLAY.xRatio
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_CUSTOM_DISPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: xRatio
+    path: ../NVAPIWrapper/cs_generated/NV_CUSTOM_DISPLAY.cs
+    startLine: 29
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public float xRatio
+    return:
+      type: System.Single
+    content.vb: Public xRatio As Single
+- uid: NVAPIWrapper.NV_CUSTOM_DISPLAY.yRatio
+  commentId: F:NVAPIWrapper.NV_CUSTOM_DISPLAY.yRatio
+  id: yRatio
+  parent: NVAPIWrapper.NV_CUSTOM_DISPLAY
+  langs:
+  - csharp
+  - vb
+  name: yRatio
+  nameWithType: NV_CUSTOM_DISPLAY.yRatio
+  fullName: NVAPIWrapper.NV_CUSTOM_DISPLAY.yRatio
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_CUSTOM_DISPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: yRatio
+    path: ../NVAPIWrapper/cs_generated/NV_CUSTOM_DISPLAY.cs
+    startLine: 32
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public float yRatio
+    return:
+      type: System.Single
+    content.vb: Public yRatio As Single
+- uid: NVAPIWrapper.NV_CUSTOM_DISPLAY.timing
+  commentId: F:NVAPIWrapper.NV_CUSTOM_DISPLAY.timing
+  id: timing
+  parent: NVAPIWrapper.NV_CUSTOM_DISPLAY
+  langs:
+  - csharp
+  - vb
+  name: timing
+  nameWithType: NV_CUSTOM_DISPLAY.timing
+  fullName: NVAPIWrapper.NV_CUSTOM_DISPLAY.timing
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_CUSTOM_DISPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: timing
+    path: ../NVAPIWrapper/cs_generated/NV_CUSTOM_DISPLAY.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_TIMING timing
+    return:
+      type: NVAPIWrapper._NV_TIMING
+    content.vb: Public timing As _NV_TIMING
+- uid: NVAPIWrapper.NV_CUSTOM_DISPLAY._bitfield
+  commentId: F:NVAPIWrapper.NV_CUSTOM_DISPLAY._bitfield
+  id: _bitfield
+  parent: NVAPIWrapper.NV_CUSTOM_DISPLAY
+  langs:
+  - csharp
+  - vb
+  name: _bitfield
+  nameWithType: NV_CUSTOM_DISPLAY._bitfield
+  fullName: NVAPIWrapper.NV_CUSTOM_DISPLAY._bitfield
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_CUSTOM_DISPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield
+    path: ../NVAPIWrapper/cs_generated/NV_CUSTOM_DISPLAY.cs
+    startLine: 38
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield As UInteger
+- uid: NVAPIWrapper.NV_CUSTOM_DISPLAY.hwModeSetOnly
+  commentId: P:NVAPIWrapper.NV_CUSTOM_DISPLAY.hwModeSetOnly
+  id: hwModeSetOnly
+  parent: NVAPIWrapper.NV_CUSTOM_DISPLAY
+  langs:
+  - csharp
+  - vb
+  name: hwModeSetOnly
+  nameWithType: NV_CUSTOM_DISPLAY.hwModeSetOnly
+  fullName: NVAPIWrapper.NV_CUSTOM_DISPLAY.hwModeSetOnly
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_CUSTOM_DISPLAY.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: hwModeSetOnly
+    path: ../NVAPIWrapper/cs_generated/NV_CUSTOM_DISPLAY.cs
+    startLine: 41
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint hwModeSetOnly { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property hwModeSetOnly As UInteger
+  overload: NVAPIWrapper.NV_CUSTOM_DISPLAY.hwModeSetOnly*
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper._NV_FORMAT
+  commentId: T:NVAPIWrapper._NV_FORMAT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_FORMAT.html
+  name: _NV_FORMAT
+  nameWithType: _NV_FORMAT
+  fullName: NVAPIWrapper._NV_FORMAT
+- uid: NVAPIWrapper.NV_VIEWPORTF
+  commentId: T:NVAPIWrapper.NV_VIEWPORTF
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_VIEWPORTF.html
+  name: NV_VIEWPORTF
+  nameWithType: NV_VIEWPORTF
+  fullName: NVAPIWrapper.NV_VIEWPORTF
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: NVAPIWrapper._NV_TIMING
+  commentId: T:NVAPIWrapper._NV_TIMING
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_TIMING.html
+  name: _NV_TIMING
+  nameWithType: _NV_TIMING
+  fullName: NVAPIWrapper._NV_TIMING
+- uid: NVAPIWrapper.NV_CUSTOM_DISPLAY.hwModeSetOnly*
+  commentId: Overload:NVAPIWrapper.NV_CUSTOM_DISPLAY.hwModeSetOnly
+  href: NVAPIWrapper.NV_CUSTOM_DISPLAY.html#NVAPIWrapper_NV_CUSTOM_DISPLAY_hwModeSetOnly
+  name: hwModeSetOnly
+  nameWithType: NV_CUSTOM_DISPLAY.hwModeSetOnly
+  fullName: NVAPIWrapper.NV_CUSTOM_DISPLAY.hwModeSetOnly

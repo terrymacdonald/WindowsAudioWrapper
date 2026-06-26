@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE
+  commentId: T:NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE
+  id: EValues_FXAA_INDICATOR_ENABLE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE.FXAA_INDICATOR_ENABLE_DEFAULT
+  - NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE.FXAA_INDICATOR_ENABLE_NUM_VALUES
+  - NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE.FXAA_INDICATOR_ENABLE_OFF
+  - NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE.FXAA_INDICATOR_ENABLE_ON
+  langs:
+  - csharp
+  - vb
+  name: EValues_FXAA_INDICATOR_ENABLE
+  nameWithType: EValues_FXAA_INDICATOR_ENABLE
+  fullName: NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_FXAA_INDICATOR_ENABLE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_FXAA_INDICATOR_ENABLE
+    path: ../NVAPIWrapper/cs_generated/EValues_FXAA_INDICATOR_ENABLE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_FXAA_INDICATOR_ENABLE
+    content.vb: Public Enum EValues_FXAA_INDICATOR_ENABLE
+- uid: NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE.FXAA_INDICATOR_ENABLE_OFF
+  commentId: F:NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE.FXAA_INDICATOR_ENABLE_OFF
+  id: FXAA_INDICATOR_ENABLE_OFF
+  parent: NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE
+  langs:
+  - csharp
+  - vb
+  name: FXAA_INDICATOR_ENABLE_OFF
+  nameWithType: EValues_FXAA_INDICATOR_ENABLE.FXAA_INDICATOR_ENABLE_OFF
+  fullName: NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE.FXAA_INDICATOR_ENABLE_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_FXAA_INDICATOR_ENABLE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FXAA_INDICATOR_ENABLE_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_FXAA_INDICATOR_ENABLE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: FXAA_INDICATOR_ENABLE_OFF = 0
+    return:
+      type: NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE
+- uid: NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE.FXAA_INDICATOR_ENABLE_ON
+  commentId: F:NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE.FXAA_INDICATOR_ENABLE_ON
+  id: FXAA_INDICATOR_ENABLE_ON
+  parent: NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE
+  langs:
+  - csharp
+  - vb
+  name: FXAA_INDICATOR_ENABLE_ON
+  nameWithType: EValues_FXAA_INDICATOR_ENABLE.FXAA_INDICATOR_ENABLE_ON
+  fullName: NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE.FXAA_INDICATOR_ENABLE_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_FXAA_INDICATOR_ENABLE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FXAA_INDICATOR_ENABLE_ON
+    path: ../NVAPIWrapper/cs_generated/EValues_FXAA_INDICATOR_ENABLE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: FXAA_INDICATOR_ENABLE_ON = 1
+    return:
+      type: NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE
+- uid: NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE.FXAA_INDICATOR_ENABLE_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE.FXAA_INDICATOR_ENABLE_NUM_VALUES
+  id: FXAA_INDICATOR_ENABLE_NUM_VALUES
+  parent: NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE
+  langs:
+  - csharp
+  - vb
+  name: FXAA_INDICATOR_ENABLE_NUM_VALUES
+  nameWithType: EValues_FXAA_INDICATOR_ENABLE.FXAA_INDICATOR_ENABLE_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE.FXAA_INDICATOR_ENABLE_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_FXAA_INDICATOR_ENABLE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FXAA_INDICATOR_ENABLE_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_FXAA_INDICATOR_ENABLE.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: FXAA_INDICATOR_ENABLE_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE
+- uid: NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE.FXAA_INDICATOR_ENABLE_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE.FXAA_INDICATOR_ENABLE_DEFAULT
+  id: FXAA_INDICATOR_ENABLE_DEFAULT
+  parent: NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE
+  langs:
+  - csharp
+  - vb
+  name: FXAA_INDICATOR_ENABLE_DEFAULT
+  nameWithType: EValues_FXAA_INDICATOR_ENABLE.FXAA_INDICATOR_ENABLE_DEFAULT
+  fullName: NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE.FXAA_INDICATOR_ENABLE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_FXAA_INDICATOR_ENABLE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FXAA_INDICATOR_ENABLE_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_FXAA_INDICATOR_ENABLE.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: FXAA_INDICATOR_ENABLE_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE
+  commentId: T:NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE.html
+  name: EValues_FXAA_INDICATOR_ENABLE
+  nameWithType: EValues_FXAA_INDICATOR_ENABLE
+  fullName: NVAPIWrapper.EValues_FXAA_INDICATOR_ENABLE

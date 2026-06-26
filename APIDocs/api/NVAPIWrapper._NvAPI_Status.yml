@@ -1,0 +1,4523 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NvAPI_Status
+  commentId: T:NVAPIWrapper._NvAPI_Status
+  id: _NvAPI_Status
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NvAPI_Status.NVAPI_ACCESS_DENIED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_ADVANCED_DISPLAY_TOPOLOGY_REQUIRED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_API_IN_USE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_API_NOT_INITIALIZED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_ARGUMENT_EXCEED_MAX_SIZE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_CALLBACK_ALREADY_REGISTERED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_CALLBACK_NOT_FOUND
+  - NVAPIWrapper._NvAPI_Status.NVAPI_CLUSTER_ALREADY_EXISTS
+  - NVAPIWrapper._NvAPI_Status.NVAPI_D3D10_1_LIBRARY_NOT_FOUND
+  - NVAPIWrapper._NvAPI_Status.NVAPI_D3D11_LIBRARY_NOT_FOUND
+  - NVAPIWrapper._NvAPI_Status.NVAPI_D3D_CONTEXT_NOT_FOUND
+  - NVAPIWrapper._NvAPI_Status.NVAPI_D3D_DEVICE_LOST
+  - NVAPIWrapper._NvAPI_Status.NVAPI_D3D_DEVICE_NOT_REGISTERED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_DATATYPE_MISMATCH
+  - NVAPIWrapper._NvAPI_Status.NVAPI_DATA_NOT_FOUND
+  - NVAPIWrapper._NvAPI_Status.NVAPI_DEFAULT_STEREO_PROFILE_DOES_NOT_EXIST
+  - NVAPIWrapper._NvAPI_Status.NVAPI_DEFAULT_STEREO_PROFILE_IS_NOT_DEFINED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_DEVICE_BUSY
+  - NVAPIWrapper._NvAPI_Status.NVAPI_DEVICE_SWITCHING_NOT_ALLOWED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_DISPLAYCONFIG_VALIDATION_FAILED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_DISPLAY_IN_USE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_DISPLAY_MUX_TRANSITION_FAILED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_DPMST_CHANGED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_DPMST_DISPLAY_ID_EXPECTED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_DRIVER_NOTRUNNING
+  - NVAPIWrapper._NvAPI_Status.NVAPI_DRIVER_RUNNING
+  - NVAPIWrapper._NvAPI_Status.NVAPI_ECID_KEY_VERIFICATION_FAILED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_ECID_SIGN_ALGO_UNSUPPORTED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_END_ENUMERATION
+  - NVAPIWrapper._NvAPI_Status.NVAPI_ERROR
+  - NVAPIWrapper._NvAPI_Status.NVAPI_ERROR_DRIVER_RELOAD_IN_PROGRESS
+  - NVAPIWrapper._NvAPI_Status.NVAPI_ERROR_DRIVER_RELOAD_REQUIRED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_EXECUTABLE_ALREADY_IN_USE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_EXECUTABLE_NOT_FOUND
+  - NVAPIWrapper._NvAPI_Status.NVAPI_EXECUTABLE_PATH_IS_AMBIGUOUS
+  - NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_ANALOG_DISPLAY
+  - NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_COMPUTE_GPU_HANDLE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_DIGITAL_FLAT_PANEL
+  - NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_DISPLAY_HANDLE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_LOGICAL_GPU_HANDLE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_NON_PRIMARY_DISPLAY_HANDLE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_PHYSICAL_GPU_HANDLE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_TV_DISPLAY
+  - NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_TV_DISPLAY_ON_DCONNECTOR
+  - NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_UNATTACHED_DISPLAY_HANDLE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_FAILED_TO_LOAD_FROM_DRIVER_STORE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_FILE_NOT_FOUND
+  - NVAPIWrapper._NvAPI_Status.NVAPI_FIRMWARE_OUT_OF_DATE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_FIRMWARE_REVISION_NOT_SUPPORTED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_FUNCTION_NOT_FOUND
+  - NVAPIWrapper._NvAPI_Status.NVAPI_GPU_IN_DEBUG_MODE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_GPU_NOT_POWERED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_GPU_WORKSTATION_FEATURE_INCOMPLETE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_HANDLE_INVALIDATED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_HDCP_DISABLED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_HDCP_ENCRYPTION_FAILED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_ID_OUT_OF_RANGE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_ILLEGAL_INSTRUCTION
+  - NVAPIWrapper._NvAPI_Status.NVAPI_IMPLICIT_SET_GPU_TOPOLOGY_CHANGE_NOT_ALLOWED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INCOMPATIBLE_AUDIO_DRIVER
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INCOMPATIBLE_STRUCT_VERSION
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INCORRECT_VENDOR
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INSTRUMENTATION_DISABLED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INSUFFICIENT_BUFFER
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_ADDRESS
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_ARGUMENT
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_CALL
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_COMBINATION
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_CONFIGURATION
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_DIRECT_MODE_DISPLAY
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_DISPLAY_ID
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_DSC_OUTPUT_BPP
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_DSC_SLICECOUNT
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_DSC_VERSION
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_HANDLE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_HYBRID_MODE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_IMAGE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_OUTPUT_WIRE_FORMAT
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_PC
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_PERF_LEVEL
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_POINTER
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_PTX
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_SOURCE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_SYNC_TOPOLOGY
+  - NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_USER_PRIVILEGE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_JIT_COMPILER_NOT_FOUND
+  - NVAPIWrapper._NvAPI_Status.NVAPI_LAUNCH_FAILED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_LIBRARY_NOT_FOUND
+  - NVAPIWrapper._NvAPI_Status.NVAPI_LICENSE_CALLER_AUTHENTICATION_FAILED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_MATCHING_DEVICE_NOT_FOUND
+  - NVAPIWrapper._NvAPI_Status.NVAPI_MAX_DISPLAY_LIMIT_REACHED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_MIXED_TARGET_TYPES
+  - NVAPIWrapper._NvAPI_Status.NVAPI_MODE_CHANGE_FAILED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_MOSAIC_NOT_ACTIVE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_NOT_PERMITTED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_NOT_SUPPORTED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_NO_ACTIVE_SLI_TOPOLOGY
+  - NVAPIWrapper._NvAPI_Status.NVAPI_NO_CONNECTOR_FOUND
+  - NVAPIWrapper._NvAPI_Status.NVAPI_NO_GL_EXPERT
+  - NVAPIWrapper._NvAPI_Status.NVAPI_NO_GL_NSIGHT
+  - NVAPIWrapper._NvAPI_Status.NVAPI_NO_IMPLEMENTATION
+  - NVAPIWrapper._NvAPI_Status.NVAPI_NO_VIDLINK
+  - NVAPIWrapper._NvAPI_Status.NVAPI_NO_VULKAN
+  - NVAPIWrapper._NvAPI_Status.NVAPI_NVIDIA_DEVICE_NOT_FOUND
+  - NVAPIWrapper._NvAPI_Status.NVAPI_NVIDIA_DISPLAY_NOT_FOUND
+  - NVAPIWrapper._NvAPI_Status.NVAPI_NVLINK_UNCORRECTABLE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_NV_PERSIST_FILE_NOT_FOUND
+  - NVAPIWrapper._NvAPI_Status.NVAPI_OK
+  - NVAPIWrapper._NvAPI_Status.NVAPI_OPENGL_CONTEXT_NOT_CURRENT
+  - NVAPIWrapper._NvAPI_Status.NVAPI_OUT_OF_MEMORY
+  - NVAPIWrapper._NvAPI_Status.NVAPI_PCLK_LIMITATION_FAILED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_PERSIST_DATA_NOT_FOUND
+  - NVAPIWrapper._NvAPI_Status.NVAPI_PORTID_NOT_FOUND
+  - NVAPIWrapper._NvAPI_Status.NVAPI_PRIV_SEC_VIOLATION
+  - NVAPIWrapper._NvAPI_Status.NVAPI_PROFILE_NAME_EMPTY
+  - NVAPIWrapper._NvAPI_Status.NVAPI_PROFILE_NAME_IN_USE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_PROFILE_NOT_FOUND
+  - NVAPIWrapper._NvAPI_Status.NVAPI_PROFILE_REMOVED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_REQUEST_PENDING
+  - NVAPIWrapper._NvAPI_Status.NVAPI_REQUEST_USER_TO_CLOSE_NON_MIGRATABLE_APPS
+  - NVAPIWrapper._NvAPI_Status.NVAPI_REQUEST_USER_TO_DISABLE_DWM
+  - NVAPIWrapper._NvAPI_Status.NVAPI_REQUIRES_REBOOT
+  - NVAPIWrapper._NvAPI_Status.NVAPI_REQUIRE_FURTHER_HDCP_ACTION
+  - NVAPIWrapper._NvAPI_Status.NVAPI_RESOURCE_IN_USE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_RESOURCE_NOT_ACQUIRED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_SETTING_NOT_FOUND
+  - NVAPIWrapper._NvAPI_Status.NVAPI_SETTING_SIZE_TOO_LARGE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_SET_NOT_ALLOWED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_SHARE_RESOURCE_RELOCATED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_SLI_RENDERING_MODE_NOTALLOWED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_FRUSTUM_ADJUST_MODE_NOT_SUPPORTED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_HANDSHAKE_NOT_DONE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_INIT_ACTIVATION_NOT_DONE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_INVALID_DEVICE_INTERFACE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_NOT_ENABLED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_NOT_INITIALIZED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_NOT_TURNED_ON
+  - NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_PARAMETER_OUT_OF_RANGE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_REGISTRY_ACCESS_FAILED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_REGISTRY_PROFILE_TYPE_NOT_SUPPORTED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_REGISTRY_VALUE_NOT_SUPPORTED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_VERSION_MISMATCH
+  - NVAPIWrapper._NvAPI_Status.NVAPI_STREAM_IS_OUT_OF_SYNC
+  - NVAPIWrapper._NvAPI_Status.NVAPI_STRING_TOO_SMALL
+  - NVAPIWrapper._NvAPI_Status.NVAPI_SYNC_MASTER_NOT_FOUND
+  - NVAPIWrapper._NvAPI_Status.NVAPI_SYNC_NOT_ACTIVE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_SYSWOW64_NOT_SUPPORTED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_TESTING_CLOCKS_NOT_SUPPORTED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_TIMEOUT
+  - NVAPIWrapper._NvAPI_Status.NVAPI_TIMEOUT_RECONFIGURING_GPU_TOPO
+  - NVAPIWrapper._NvAPI_Status.NVAPI_TIMING_NOT_SUPPORTED
+  - NVAPIWrapper._NvAPI_Status.NVAPI_TOO_MANY_SETTINGS_IN_PROFILE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_TOO_MANY_UNIQUE_STATE_OBJECTS
+  - NVAPIWrapper._NvAPI_Status.NVAPI_TOPO_NOT_POSSIBLE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_UNKNOWN_UNDERSCAN_CONFIG
+  - NVAPIWrapper._NvAPI_Status.NVAPI_UNREGISTERED_RESOURCE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_UNSUPPORTED_CONFIG_NON_HDCP_HMD
+  - NVAPIWrapper._NvAPI_Status.NVAPI_VALUE_ALREADY_SET
+  - NVAPIWrapper._NvAPI_Status.NVAPI_WAIT_FOR_HW_RESOURCE
+  - NVAPIWrapper._NvAPI_Status.NVAPI_WAS_STILL_DRAWING
+  langs:
+  - csharp
+  - vb
+  name: _NvAPI_Status
+  nameWithType: _NvAPI_Status
+  fullName: NVAPIWrapper._NvAPI_Status
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NvAPI_Status
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NvAPI_Status
+    content.vb: Public Enum _NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_OK
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_OK
+  id: NVAPI_OK
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_OK
+  nameWithType: _NvAPI_Status.NVAPI_OK
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_OK
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_OK
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_OK = 0
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_ERROR
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_ERROR
+  id: NVAPI_ERROR
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_ERROR
+  nameWithType: _NvAPI_Status.NVAPI_ERROR
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_ERROR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_ERROR
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_ERROR = -1
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_LIBRARY_NOT_FOUND
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_LIBRARY_NOT_FOUND
+  id: NVAPI_LIBRARY_NOT_FOUND
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_LIBRARY_NOT_FOUND
+  nameWithType: _NvAPI_Status.NVAPI_LIBRARY_NOT_FOUND
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_LIBRARY_NOT_FOUND
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_LIBRARY_NOT_FOUND
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_LIBRARY_NOT_FOUND = -2
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_NO_IMPLEMENTATION
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_NO_IMPLEMENTATION
+  id: NVAPI_NO_IMPLEMENTATION
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_NO_IMPLEMENTATION
+  nameWithType: _NvAPI_Status.NVAPI_NO_IMPLEMENTATION
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_NO_IMPLEMENTATION
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_NO_IMPLEMENTATION
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_NO_IMPLEMENTATION = -3
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_API_NOT_INITIALIZED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_API_NOT_INITIALIZED
+  id: NVAPI_API_NOT_INITIALIZED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_API_NOT_INITIALIZED
+  nameWithType: _NvAPI_Status.NVAPI_API_NOT_INITIALIZED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_API_NOT_INITIALIZED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_API_NOT_INITIALIZED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_API_NOT_INITIALIZED = -4
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_ARGUMENT
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_ARGUMENT
+  id: NVAPI_INVALID_ARGUMENT
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INVALID_ARGUMENT
+  nameWithType: _NvAPI_Status.NVAPI_INVALID_ARGUMENT
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_ARGUMENT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INVALID_ARGUMENT
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INVALID_ARGUMENT = -5
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_NVIDIA_DEVICE_NOT_FOUND
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_NVIDIA_DEVICE_NOT_FOUND
+  id: NVAPI_NVIDIA_DEVICE_NOT_FOUND
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_NVIDIA_DEVICE_NOT_FOUND
+  nameWithType: _NvAPI_Status.NVAPI_NVIDIA_DEVICE_NOT_FOUND
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_NVIDIA_DEVICE_NOT_FOUND
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_NVIDIA_DEVICE_NOT_FOUND
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_NVIDIA_DEVICE_NOT_FOUND = -6
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_END_ENUMERATION
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_END_ENUMERATION
+  id: NVAPI_END_ENUMERATION
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_END_ENUMERATION
+  nameWithType: _NvAPI_Status.NVAPI_END_ENUMERATION
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_END_ENUMERATION
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_END_ENUMERATION
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_END_ENUMERATION = -7
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_HANDLE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_HANDLE
+  id: NVAPI_INVALID_HANDLE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INVALID_HANDLE
+  nameWithType: _NvAPI_Status.NVAPI_INVALID_HANDLE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_HANDLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INVALID_HANDLE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 30
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INVALID_HANDLE = -8
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INCOMPATIBLE_STRUCT_VERSION
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INCOMPATIBLE_STRUCT_VERSION
+  id: NVAPI_INCOMPATIBLE_STRUCT_VERSION
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INCOMPATIBLE_STRUCT_VERSION
+  nameWithType: _NvAPI_Status.NVAPI_INCOMPATIBLE_STRUCT_VERSION
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INCOMPATIBLE_STRUCT_VERSION
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INCOMPATIBLE_STRUCT_VERSION
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 33
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INCOMPATIBLE_STRUCT_VERSION = -9
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_HANDLE_INVALIDATED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_HANDLE_INVALIDATED
+  id: NVAPI_HANDLE_INVALIDATED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_HANDLE_INVALIDATED
+  nameWithType: _NvAPI_Status.NVAPI_HANDLE_INVALIDATED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_HANDLE_INVALIDATED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_HANDLE_INVALIDATED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 36
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_HANDLE_INVALIDATED = -10
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_OPENGL_CONTEXT_NOT_CURRENT
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_OPENGL_CONTEXT_NOT_CURRENT
+  id: NVAPI_OPENGL_CONTEXT_NOT_CURRENT
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_OPENGL_CONTEXT_NOT_CURRENT
+  nameWithType: _NvAPI_Status.NVAPI_OPENGL_CONTEXT_NOT_CURRENT
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_OPENGL_CONTEXT_NOT_CURRENT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_OPENGL_CONTEXT_NOT_CURRENT
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 39
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_OPENGL_CONTEXT_NOT_CURRENT = -11
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_POINTER
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_POINTER
+  id: NVAPI_INVALID_POINTER
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INVALID_POINTER
+  nameWithType: _NvAPI_Status.NVAPI_INVALID_POINTER
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_POINTER
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INVALID_POINTER
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 42
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INVALID_POINTER = -14
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_NO_GL_EXPERT
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_NO_GL_EXPERT
+  id: NVAPI_NO_GL_EXPERT
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_NO_GL_EXPERT
+  nameWithType: _NvAPI_Status.NVAPI_NO_GL_EXPERT
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_NO_GL_EXPERT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_NO_GL_EXPERT
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 45
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_NO_GL_EXPERT = -12
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INSTRUMENTATION_DISABLED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INSTRUMENTATION_DISABLED
+  id: NVAPI_INSTRUMENTATION_DISABLED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INSTRUMENTATION_DISABLED
+  nameWithType: _NvAPI_Status.NVAPI_INSTRUMENTATION_DISABLED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INSTRUMENTATION_DISABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INSTRUMENTATION_DISABLED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 48
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INSTRUMENTATION_DISABLED = -13
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_NO_GL_NSIGHT
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_NO_GL_NSIGHT
+  id: NVAPI_NO_GL_NSIGHT
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_NO_GL_NSIGHT
+  nameWithType: _NvAPI_Status.NVAPI_NO_GL_NSIGHT
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_NO_GL_NSIGHT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_NO_GL_NSIGHT
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 51
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_NO_GL_NSIGHT = -15
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_LOGICAL_GPU_HANDLE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_LOGICAL_GPU_HANDLE
+  id: NVAPI_EXPECTED_LOGICAL_GPU_HANDLE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_EXPECTED_LOGICAL_GPU_HANDLE
+  nameWithType: _NvAPI_Status.NVAPI_EXPECTED_LOGICAL_GPU_HANDLE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_LOGICAL_GPU_HANDLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_EXPECTED_LOGICAL_GPU_HANDLE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 54
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_EXPECTED_LOGICAL_GPU_HANDLE = -100
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_PHYSICAL_GPU_HANDLE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_PHYSICAL_GPU_HANDLE
+  id: NVAPI_EXPECTED_PHYSICAL_GPU_HANDLE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_EXPECTED_PHYSICAL_GPU_HANDLE
+  nameWithType: _NvAPI_Status.NVAPI_EXPECTED_PHYSICAL_GPU_HANDLE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_PHYSICAL_GPU_HANDLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_EXPECTED_PHYSICAL_GPU_HANDLE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 57
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_EXPECTED_PHYSICAL_GPU_HANDLE = -101
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_DISPLAY_HANDLE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_DISPLAY_HANDLE
+  id: NVAPI_EXPECTED_DISPLAY_HANDLE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_EXPECTED_DISPLAY_HANDLE
+  nameWithType: _NvAPI_Status.NVAPI_EXPECTED_DISPLAY_HANDLE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_DISPLAY_HANDLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_EXPECTED_DISPLAY_HANDLE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 60
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_EXPECTED_DISPLAY_HANDLE = -102
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_COMBINATION
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_COMBINATION
+  id: NVAPI_INVALID_COMBINATION
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INVALID_COMBINATION
+  nameWithType: _NvAPI_Status.NVAPI_INVALID_COMBINATION
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_COMBINATION
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INVALID_COMBINATION
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 63
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INVALID_COMBINATION = -103
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_NOT_SUPPORTED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_NOT_SUPPORTED
+  id: NVAPI_NOT_SUPPORTED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_NOT_SUPPORTED
+  nameWithType: _NvAPI_Status.NVAPI_NOT_SUPPORTED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_NOT_SUPPORTED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_NOT_SUPPORTED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 66
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_NOT_SUPPORTED = -104
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_PORTID_NOT_FOUND
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_PORTID_NOT_FOUND
+  id: NVAPI_PORTID_NOT_FOUND
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_PORTID_NOT_FOUND
+  nameWithType: _NvAPI_Status.NVAPI_PORTID_NOT_FOUND
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_PORTID_NOT_FOUND
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_PORTID_NOT_FOUND
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 69
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_PORTID_NOT_FOUND = -105
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_UNATTACHED_DISPLAY_HANDLE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_UNATTACHED_DISPLAY_HANDLE
+  id: NVAPI_EXPECTED_UNATTACHED_DISPLAY_HANDLE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_EXPECTED_UNATTACHED_DISPLAY_HANDLE
+  nameWithType: _NvAPI_Status.NVAPI_EXPECTED_UNATTACHED_DISPLAY_HANDLE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_UNATTACHED_DISPLAY_HANDLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_EXPECTED_UNATTACHED_DISPLAY_HANDLE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 72
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_EXPECTED_UNATTACHED_DISPLAY_HANDLE = -106
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_PERF_LEVEL
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_PERF_LEVEL
+  id: NVAPI_INVALID_PERF_LEVEL
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INVALID_PERF_LEVEL
+  nameWithType: _NvAPI_Status.NVAPI_INVALID_PERF_LEVEL
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_PERF_LEVEL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INVALID_PERF_LEVEL
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 75
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INVALID_PERF_LEVEL = -107
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_DEVICE_BUSY
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_DEVICE_BUSY
+  id: NVAPI_DEVICE_BUSY
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_DEVICE_BUSY
+  nameWithType: _NvAPI_Status.NVAPI_DEVICE_BUSY
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_DEVICE_BUSY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_DEVICE_BUSY
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 78
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_DEVICE_BUSY = -108
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_NV_PERSIST_FILE_NOT_FOUND
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_NV_PERSIST_FILE_NOT_FOUND
+  id: NVAPI_NV_PERSIST_FILE_NOT_FOUND
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_NV_PERSIST_FILE_NOT_FOUND
+  nameWithType: _NvAPI_Status.NVAPI_NV_PERSIST_FILE_NOT_FOUND
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_NV_PERSIST_FILE_NOT_FOUND
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_NV_PERSIST_FILE_NOT_FOUND
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 81
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_NV_PERSIST_FILE_NOT_FOUND = -109
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_PERSIST_DATA_NOT_FOUND
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_PERSIST_DATA_NOT_FOUND
+  id: NVAPI_PERSIST_DATA_NOT_FOUND
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_PERSIST_DATA_NOT_FOUND
+  nameWithType: _NvAPI_Status.NVAPI_PERSIST_DATA_NOT_FOUND
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_PERSIST_DATA_NOT_FOUND
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_PERSIST_DATA_NOT_FOUND
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 84
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_PERSIST_DATA_NOT_FOUND = -110
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_TV_DISPLAY
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_TV_DISPLAY
+  id: NVAPI_EXPECTED_TV_DISPLAY
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_EXPECTED_TV_DISPLAY
+  nameWithType: _NvAPI_Status.NVAPI_EXPECTED_TV_DISPLAY
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_TV_DISPLAY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_EXPECTED_TV_DISPLAY
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 87
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_EXPECTED_TV_DISPLAY = -111
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_TV_DISPLAY_ON_DCONNECTOR
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_TV_DISPLAY_ON_DCONNECTOR
+  id: NVAPI_EXPECTED_TV_DISPLAY_ON_DCONNECTOR
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_EXPECTED_TV_DISPLAY_ON_DCONNECTOR
+  nameWithType: _NvAPI_Status.NVAPI_EXPECTED_TV_DISPLAY_ON_DCONNECTOR
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_TV_DISPLAY_ON_DCONNECTOR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_EXPECTED_TV_DISPLAY_ON_DCONNECTOR
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 90
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_EXPECTED_TV_DISPLAY_ON_DCONNECTOR = -112
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_NO_ACTIVE_SLI_TOPOLOGY
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_NO_ACTIVE_SLI_TOPOLOGY
+  id: NVAPI_NO_ACTIVE_SLI_TOPOLOGY
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_NO_ACTIVE_SLI_TOPOLOGY
+  nameWithType: _NvAPI_Status.NVAPI_NO_ACTIVE_SLI_TOPOLOGY
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_NO_ACTIVE_SLI_TOPOLOGY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_NO_ACTIVE_SLI_TOPOLOGY
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 93
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_NO_ACTIVE_SLI_TOPOLOGY = -113
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_SLI_RENDERING_MODE_NOTALLOWED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_SLI_RENDERING_MODE_NOTALLOWED
+  id: NVAPI_SLI_RENDERING_MODE_NOTALLOWED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_SLI_RENDERING_MODE_NOTALLOWED
+  nameWithType: _NvAPI_Status.NVAPI_SLI_RENDERING_MODE_NOTALLOWED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_SLI_RENDERING_MODE_NOTALLOWED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_SLI_RENDERING_MODE_NOTALLOWED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 96
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_SLI_RENDERING_MODE_NOTALLOWED = -114
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_DIGITAL_FLAT_PANEL
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_DIGITAL_FLAT_PANEL
+  id: NVAPI_EXPECTED_DIGITAL_FLAT_PANEL
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_EXPECTED_DIGITAL_FLAT_PANEL
+  nameWithType: _NvAPI_Status.NVAPI_EXPECTED_DIGITAL_FLAT_PANEL
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_DIGITAL_FLAT_PANEL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_EXPECTED_DIGITAL_FLAT_PANEL
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 99
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_EXPECTED_DIGITAL_FLAT_PANEL = -115
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_ARGUMENT_EXCEED_MAX_SIZE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_ARGUMENT_EXCEED_MAX_SIZE
+  id: NVAPI_ARGUMENT_EXCEED_MAX_SIZE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_ARGUMENT_EXCEED_MAX_SIZE
+  nameWithType: _NvAPI_Status.NVAPI_ARGUMENT_EXCEED_MAX_SIZE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_ARGUMENT_EXCEED_MAX_SIZE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_ARGUMENT_EXCEED_MAX_SIZE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 102
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_ARGUMENT_EXCEED_MAX_SIZE = -116
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_DEVICE_SWITCHING_NOT_ALLOWED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_DEVICE_SWITCHING_NOT_ALLOWED
+  id: NVAPI_DEVICE_SWITCHING_NOT_ALLOWED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_DEVICE_SWITCHING_NOT_ALLOWED
+  nameWithType: _NvAPI_Status.NVAPI_DEVICE_SWITCHING_NOT_ALLOWED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_DEVICE_SWITCHING_NOT_ALLOWED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_DEVICE_SWITCHING_NOT_ALLOWED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 105
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_DEVICE_SWITCHING_NOT_ALLOWED = -117
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_TESTING_CLOCKS_NOT_SUPPORTED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_TESTING_CLOCKS_NOT_SUPPORTED
+  id: NVAPI_TESTING_CLOCKS_NOT_SUPPORTED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_TESTING_CLOCKS_NOT_SUPPORTED
+  nameWithType: _NvAPI_Status.NVAPI_TESTING_CLOCKS_NOT_SUPPORTED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_TESTING_CLOCKS_NOT_SUPPORTED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_TESTING_CLOCKS_NOT_SUPPORTED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 108
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_TESTING_CLOCKS_NOT_SUPPORTED = -118
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_UNKNOWN_UNDERSCAN_CONFIG
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_UNKNOWN_UNDERSCAN_CONFIG
+  id: NVAPI_UNKNOWN_UNDERSCAN_CONFIG
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_UNKNOWN_UNDERSCAN_CONFIG
+  nameWithType: _NvAPI_Status.NVAPI_UNKNOWN_UNDERSCAN_CONFIG
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_UNKNOWN_UNDERSCAN_CONFIG
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_UNKNOWN_UNDERSCAN_CONFIG
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 111
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_UNKNOWN_UNDERSCAN_CONFIG = -119
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_TIMEOUT_RECONFIGURING_GPU_TOPO
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_TIMEOUT_RECONFIGURING_GPU_TOPO
+  id: NVAPI_TIMEOUT_RECONFIGURING_GPU_TOPO
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_TIMEOUT_RECONFIGURING_GPU_TOPO
+  nameWithType: _NvAPI_Status.NVAPI_TIMEOUT_RECONFIGURING_GPU_TOPO
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_TIMEOUT_RECONFIGURING_GPU_TOPO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_TIMEOUT_RECONFIGURING_GPU_TOPO
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 114
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_TIMEOUT_RECONFIGURING_GPU_TOPO = -120
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_DATA_NOT_FOUND
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_DATA_NOT_FOUND
+  id: NVAPI_DATA_NOT_FOUND
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_DATA_NOT_FOUND
+  nameWithType: _NvAPI_Status.NVAPI_DATA_NOT_FOUND
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_DATA_NOT_FOUND
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_DATA_NOT_FOUND
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 117
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_DATA_NOT_FOUND = -121
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_ANALOG_DISPLAY
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_ANALOG_DISPLAY
+  id: NVAPI_EXPECTED_ANALOG_DISPLAY
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_EXPECTED_ANALOG_DISPLAY
+  nameWithType: _NvAPI_Status.NVAPI_EXPECTED_ANALOG_DISPLAY
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_ANALOG_DISPLAY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_EXPECTED_ANALOG_DISPLAY
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 120
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_EXPECTED_ANALOG_DISPLAY = -122
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_NO_VIDLINK
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_NO_VIDLINK
+  id: NVAPI_NO_VIDLINK
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_NO_VIDLINK
+  nameWithType: _NvAPI_Status.NVAPI_NO_VIDLINK
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_NO_VIDLINK
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_NO_VIDLINK
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 123
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_NO_VIDLINK = -123
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_REQUIRES_REBOOT
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_REQUIRES_REBOOT
+  id: NVAPI_REQUIRES_REBOOT
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_REQUIRES_REBOOT
+  nameWithType: _NvAPI_Status.NVAPI_REQUIRES_REBOOT
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_REQUIRES_REBOOT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_REQUIRES_REBOOT
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 126
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_REQUIRES_REBOOT = -124
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_HYBRID_MODE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_HYBRID_MODE
+  id: NVAPI_INVALID_HYBRID_MODE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INVALID_HYBRID_MODE
+  nameWithType: _NvAPI_Status.NVAPI_INVALID_HYBRID_MODE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_HYBRID_MODE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INVALID_HYBRID_MODE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 129
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INVALID_HYBRID_MODE = -125
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_MIXED_TARGET_TYPES
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_MIXED_TARGET_TYPES
+  id: NVAPI_MIXED_TARGET_TYPES
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_MIXED_TARGET_TYPES
+  nameWithType: _NvAPI_Status.NVAPI_MIXED_TARGET_TYPES
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_MIXED_TARGET_TYPES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_MIXED_TARGET_TYPES
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 132
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_MIXED_TARGET_TYPES = -126
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_SYSWOW64_NOT_SUPPORTED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_SYSWOW64_NOT_SUPPORTED
+  id: NVAPI_SYSWOW64_NOT_SUPPORTED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_SYSWOW64_NOT_SUPPORTED
+  nameWithType: _NvAPI_Status.NVAPI_SYSWOW64_NOT_SUPPORTED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_SYSWOW64_NOT_SUPPORTED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_SYSWOW64_NOT_SUPPORTED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 135
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_SYSWOW64_NOT_SUPPORTED = -127
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_IMPLICIT_SET_GPU_TOPOLOGY_CHANGE_NOT_ALLOWED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_IMPLICIT_SET_GPU_TOPOLOGY_CHANGE_NOT_ALLOWED
+  id: NVAPI_IMPLICIT_SET_GPU_TOPOLOGY_CHANGE_NOT_ALLOWED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_IMPLICIT_SET_GPU_TOPOLOGY_CHANGE_NOT_ALLOWED
+  nameWithType: _NvAPI_Status.NVAPI_IMPLICIT_SET_GPU_TOPOLOGY_CHANGE_NOT_ALLOWED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_IMPLICIT_SET_GPU_TOPOLOGY_CHANGE_NOT_ALLOWED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_IMPLICIT_SET_GPU_TOPOLOGY_CHANGE_NOT_ALLOWED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 138
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_IMPLICIT_SET_GPU_TOPOLOGY_CHANGE_NOT_ALLOWED = -128
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_REQUEST_USER_TO_CLOSE_NON_MIGRATABLE_APPS
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_REQUEST_USER_TO_CLOSE_NON_MIGRATABLE_APPS
+  id: NVAPI_REQUEST_USER_TO_CLOSE_NON_MIGRATABLE_APPS
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_REQUEST_USER_TO_CLOSE_NON_MIGRATABLE_APPS
+  nameWithType: _NvAPI_Status.NVAPI_REQUEST_USER_TO_CLOSE_NON_MIGRATABLE_APPS
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_REQUEST_USER_TO_CLOSE_NON_MIGRATABLE_APPS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_REQUEST_USER_TO_CLOSE_NON_MIGRATABLE_APPS
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 141
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_REQUEST_USER_TO_CLOSE_NON_MIGRATABLE_APPS = -129
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_OUT_OF_MEMORY
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_OUT_OF_MEMORY
+  id: NVAPI_OUT_OF_MEMORY
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_OUT_OF_MEMORY
+  nameWithType: _NvAPI_Status.NVAPI_OUT_OF_MEMORY
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_OUT_OF_MEMORY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_OUT_OF_MEMORY
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 144
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_OUT_OF_MEMORY = -130
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_WAS_STILL_DRAWING
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_WAS_STILL_DRAWING
+  id: NVAPI_WAS_STILL_DRAWING
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_WAS_STILL_DRAWING
+  nameWithType: _NvAPI_Status.NVAPI_WAS_STILL_DRAWING
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_WAS_STILL_DRAWING
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_WAS_STILL_DRAWING
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 147
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_WAS_STILL_DRAWING = -131
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_FILE_NOT_FOUND
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_FILE_NOT_FOUND
+  id: NVAPI_FILE_NOT_FOUND
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_FILE_NOT_FOUND
+  nameWithType: _NvAPI_Status.NVAPI_FILE_NOT_FOUND
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_FILE_NOT_FOUND
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_FILE_NOT_FOUND
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 150
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_FILE_NOT_FOUND = -132
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_TOO_MANY_UNIQUE_STATE_OBJECTS
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_TOO_MANY_UNIQUE_STATE_OBJECTS
+  id: NVAPI_TOO_MANY_UNIQUE_STATE_OBJECTS
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_TOO_MANY_UNIQUE_STATE_OBJECTS
+  nameWithType: _NvAPI_Status.NVAPI_TOO_MANY_UNIQUE_STATE_OBJECTS
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_TOO_MANY_UNIQUE_STATE_OBJECTS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_TOO_MANY_UNIQUE_STATE_OBJECTS
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 153
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_TOO_MANY_UNIQUE_STATE_OBJECTS = -133
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_CALL
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_CALL
+  id: NVAPI_INVALID_CALL
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INVALID_CALL
+  nameWithType: _NvAPI_Status.NVAPI_INVALID_CALL
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_CALL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INVALID_CALL
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 156
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INVALID_CALL = -134
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_D3D10_1_LIBRARY_NOT_FOUND
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_D3D10_1_LIBRARY_NOT_FOUND
+  id: NVAPI_D3D10_1_LIBRARY_NOT_FOUND
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_D3D10_1_LIBRARY_NOT_FOUND
+  nameWithType: _NvAPI_Status.NVAPI_D3D10_1_LIBRARY_NOT_FOUND
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_D3D10_1_LIBRARY_NOT_FOUND
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_D3D10_1_LIBRARY_NOT_FOUND
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 159
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_D3D10_1_LIBRARY_NOT_FOUND = -135
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_FUNCTION_NOT_FOUND
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_FUNCTION_NOT_FOUND
+  id: NVAPI_FUNCTION_NOT_FOUND
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_FUNCTION_NOT_FOUND
+  nameWithType: _NvAPI_Status.NVAPI_FUNCTION_NOT_FOUND
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_FUNCTION_NOT_FOUND
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_FUNCTION_NOT_FOUND
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 162
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_FUNCTION_NOT_FOUND = -136
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_USER_PRIVILEGE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_USER_PRIVILEGE
+  id: NVAPI_INVALID_USER_PRIVILEGE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INVALID_USER_PRIVILEGE
+  nameWithType: _NvAPI_Status.NVAPI_INVALID_USER_PRIVILEGE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_USER_PRIVILEGE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INVALID_USER_PRIVILEGE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 165
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INVALID_USER_PRIVILEGE = -137
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_NON_PRIMARY_DISPLAY_HANDLE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_NON_PRIMARY_DISPLAY_HANDLE
+  id: NVAPI_EXPECTED_NON_PRIMARY_DISPLAY_HANDLE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_EXPECTED_NON_PRIMARY_DISPLAY_HANDLE
+  nameWithType: _NvAPI_Status.NVAPI_EXPECTED_NON_PRIMARY_DISPLAY_HANDLE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_NON_PRIMARY_DISPLAY_HANDLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_EXPECTED_NON_PRIMARY_DISPLAY_HANDLE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 168
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_EXPECTED_NON_PRIMARY_DISPLAY_HANDLE = -138
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_COMPUTE_GPU_HANDLE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_COMPUTE_GPU_HANDLE
+  id: NVAPI_EXPECTED_COMPUTE_GPU_HANDLE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_EXPECTED_COMPUTE_GPU_HANDLE
+  nameWithType: _NvAPI_Status.NVAPI_EXPECTED_COMPUTE_GPU_HANDLE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_EXPECTED_COMPUTE_GPU_HANDLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_EXPECTED_COMPUTE_GPU_HANDLE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 171
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_EXPECTED_COMPUTE_GPU_HANDLE = -139
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_NOT_INITIALIZED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_NOT_INITIALIZED
+  id: NVAPI_STEREO_NOT_INITIALIZED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_NOT_INITIALIZED
+  nameWithType: _NvAPI_Status.NVAPI_STEREO_NOT_INITIALIZED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_NOT_INITIALIZED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_NOT_INITIALIZED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 174
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_NOT_INITIALIZED = -140
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_REGISTRY_ACCESS_FAILED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_REGISTRY_ACCESS_FAILED
+  id: NVAPI_STEREO_REGISTRY_ACCESS_FAILED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_REGISTRY_ACCESS_FAILED
+  nameWithType: _NvAPI_Status.NVAPI_STEREO_REGISTRY_ACCESS_FAILED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_REGISTRY_ACCESS_FAILED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_REGISTRY_ACCESS_FAILED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 177
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_REGISTRY_ACCESS_FAILED = -141
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_REGISTRY_PROFILE_TYPE_NOT_SUPPORTED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_REGISTRY_PROFILE_TYPE_NOT_SUPPORTED
+  id: NVAPI_STEREO_REGISTRY_PROFILE_TYPE_NOT_SUPPORTED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_REGISTRY_PROFILE_TYPE_NOT_SUPPORTED
+  nameWithType: _NvAPI_Status.NVAPI_STEREO_REGISTRY_PROFILE_TYPE_NOT_SUPPORTED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_REGISTRY_PROFILE_TYPE_NOT_SUPPORTED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_REGISTRY_PROFILE_TYPE_NOT_SUPPORTED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 180
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_REGISTRY_PROFILE_TYPE_NOT_SUPPORTED = -142
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_REGISTRY_VALUE_NOT_SUPPORTED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_REGISTRY_VALUE_NOT_SUPPORTED
+  id: NVAPI_STEREO_REGISTRY_VALUE_NOT_SUPPORTED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_REGISTRY_VALUE_NOT_SUPPORTED
+  nameWithType: _NvAPI_Status.NVAPI_STEREO_REGISTRY_VALUE_NOT_SUPPORTED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_REGISTRY_VALUE_NOT_SUPPORTED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_REGISTRY_VALUE_NOT_SUPPORTED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 183
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_REGISTRY_VALUE_NOT_SUPPORTED = -143
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_NOT_ENABLED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_NOT_ENABLED
+  id: NVAPI_STEREO_NOT_ENABLED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_NOT_ENABLED
+  nameWithType: _NvAPI_Status.NVAPI_STEREO_NOT_ENABLED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_NOT_ENABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_NOT_ENABLED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 186
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_NOT_ENABLED = -144
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_NOT_TURNED_ON
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_NOT_TURNED_ON
+  id: NVAPI_STEREO_NOT_TURNED_ON
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_NOT_TURNED_ON
+  nameWithType: _NvAPI_Status.NVAPI_STEREO_NOT_TURNED_ON
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_NOT_TURNED_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_NOT_TURNED_ON
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 189
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_NOT_TURNED_ON = -145
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_INVALID_DEVICE_INTERFACE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_INVALID_DEVICE_INTERFACE
+  id: NVAPI_STEREO_INVALID_DEVICE_INTERFACE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_INVALID_DEVICE_INTERFACE
+  nameWithType: _NvAPI_Status.NVAPI_STEREO_INVALID_DEVICE_INTERFACE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_INVALID_DEVICE_INTERFACE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_INVALID_DEVICE_INTERFACE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 192
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_INVALID_DEVICE_INTERFACE = -146
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_PARAMETER_OUT_OF_RANGE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_PARAMETER_OUT_OF_RANGE
+  id: NVAPI_STEREO_PARAMETER_OUT_OF_RANGE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_PARAMETER_OUT_OF_RANGE
+  nameWithType: _NvAPI_Status.NVAPI_STEREO_PARAMETER_OUT_OF_RANGE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_PARAMETER_OUT_OF_RANGE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_PARAMETER_OUT_OF_RANGE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 195
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_PARAMETER_OUT_OF_RANGE = -147
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_FRUSTUM_ADJUST_MODE_NOT_SUPPORTED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_FRUSTUM_ADJUST_MODE_NOT_SUPPORTED
+  id: NVAPI_STEREO_FRUSTUM_ADJUST_MODE_NOT_SUPPORTED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_FRUSTUM_ADJUST_MODE_NOT_SUPPORTED
+  nameWithType: _NvAPI_Status.NVAPI_STEREO_FRUSTUM_ADJUST_MODE_NOT_SUPPORTED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_FRUSTUM_ADJUST_MODE_NOT_SUPPORTED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_FRUSTUM_ADJUST_MODE_NOT_SUPPORTED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 198
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_FRUSTUM_ADJUST_MODE_NOT_SUPPORTED = -148
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_TOPO_NOT_POSSIBLE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_TOPO_NOT_POSSIBLE
+  id: NVAPI_TOPO_NOT_POSSIBLE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_TOPO_NOT_POSSIBLE
+  nameWithType: _NvAPI_Status.NVAPI_TOPO_NOT_POSSIBLE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_TOPO_NOT_POSSIBLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_TOPO_NOT_POSSIBLE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 201
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_TOPO_NOT_POSSIBLE = -149
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_MODE_CHANGE_FAILED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_MODE_CHANGE_FAILED
+  id: NVAPI_MODE_CHANGE_FAILED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_MODE_CHANGE_FAILED
+  nameWithType: _NvAPI_Status.NVAPI_MODE_CHANGE_FAILED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_MODE_CHANGE_FAILED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_MODE_CHANGE_FAILED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 204
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_MODE_CHANGE_FAILED = -150
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_D3D11_LIBRARY_NOT_FOUND
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_D3D11_LIBRARY_NOT_FOUND
+  id: NVAPI_D3D11_LIBRARY_NOT_FOUND
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_D3D11_LIBRARY_NOT_FOUND
+  nameWithType: _NvAPI_Status.NVAPI_D3D11_LIBRARY_NOT_FOUND
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_D3D11_LIBRARY_NOT_FOUND
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_D3D11_LIBRARY_NOT_FOUND
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 207
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_D3D11_LIBRARY_NOT_FOUND = -151
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_ADDRESS
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_ADDRESS
+  id: NVAPI_INVALID_ADDRESS
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INVALID_ADDRESS
+  nameWithType: _NvAPI_Status.NVAPI_INVALID_ADDRESS
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_ADDRESS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INVALID_ADDRESS
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 210
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INVALID_ADDRESS = -152
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_STRING_TOO_SMALL
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_STRING_TOO_SMALL
+  id: NVAPI_STRING_TOO_SMALL
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STRING_TOO_SMALL
+  nameWithType: _NvAPI_Status.NVAPI_STRING_TOO_SMALL
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_STRING_TOO_SMALL
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STRING_TOO_SMALL
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 213
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STRING_TOO_SMALL = -153
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_MATCHING_DEVICE_NOT_FOUND
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_MATCHING_DEVICE_NOT_FOUND
+  id: NVAPI_MATCHING_DEVICE_NOT_FOUND
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_MATCHING_DEVICE_NOT_FOUND
+  nameWithType: _NvAPI_Status.NVAPI_MATCHING_DEVICE_NOT_FOUND
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_MATCHING_DEVICE_NOT_FOUND
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_MATCHING_DEVICE_NOT_FOUND
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 216
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_MATCHING_DEVICE_NOT_FOUND = -154
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_DRIVER_RUNNING
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_DRIVER_RUNNING
+  id: NVAPI_DRIVER_RUNNING
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_DRIVER_RUNNING
+  nameWithType: _NvAPI_Status.NVAPI_DRIVER_RUNNING
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_DRIVER_RUNNING
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_DRIVER_RUNNING
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 219
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_DRIVER_RUNNING = -155
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_DRIVER_NOTRUNNING
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_DRIVER_NOTRUNNING
+  id: NVAPI_DRIVER_NOTRUNNING
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_DRIVER_NOTRUNNING
+  nameWithType: _NvAPI_Status.NVAPI_DRIVER_NOTRUNNING
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_DRIVER_NOTRUNNING
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_DRIVER_NOTRUNNING
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 222
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_DRIVER_NOTRUNNING = -156
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_ERROR_DRIVER_RELOAD_REQUIRED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_ERROR_DRIVER_RELOAD_REQUIRED
+  id: NVAPI_ERROR_DRIVER_RELOAD_REQUIRED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_ERROR_DRIVER_RELOAD_REQUIRED
+  nameWithType: _NvAPI_Status.NVAPI_ERROR_DRIVER_RELOAD_REQUIRED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_ERROR_DRIVER_RELOAD_REQUIRED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_ERROR_DRIVER_RELOAD_REQUIRED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 225
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_ERROR_DRIVER_RELOAD_REQUIRED = -157
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_SET_NOT_ALLOWED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_SET_NOT_ALLOWED
+  id: NVAPI_SET_NOT_ALLOWED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_SET_NOT_ALLOWED
+  nameWithType: _NvAPI_Status.NVAPI_SET_NOT_ALLOWED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_SET_NOT_ALLOWED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_SET_NOT_ALLOWED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 228
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_SET_NOT_ALLOWED = -158
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_ADVANCED_DISPLAY_TOPOLOGY_REQUIRED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_ADVANCED_DISPLAY_TOPOLOGY_REQUIRED
+  id: NVAPI_ADVANCED_DISPLAY_TOPOLOGY_REQUIRED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_ADVANCED_DISPLAY_TOPOLOGY_REQUIRED
+  nameWithType: _NvAPI_Status.NVAPI_ADVANCED_DISPLAY_TOPOLOGY_REQUIRED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_ADVANCED_DISPLAY_TOPOLOGY_REQUIRED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_ADVANCED_DISPLAY_TOPOLOGY_REQUIRED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 231
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_ADVANCED_DISPLAY_TOPOLOGY_REQUIRED = -159
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_SETTING_NOT_FOUND
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_SETTING_NOT_FOUND
+  id: NVAPI_SETTING_NOT_FOUND
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_SETTING_NOT_FOUND
+  nameWithType: _NvAPI_Status.NVAPI_SETTING_NOT_FOUND
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_SETTING_NOT_FOUND
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_SETTING_NOT_FOUND
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 234
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_SETTING_NOT_FOUND = -160
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_SETTING_SIZE_TOO_LARGE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_SETTING_SIZE_TOO_LARGE
+  id: NVAPI_SETTING_SIZE_TOO_LARGE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_SETTING_SIZE_TOO_LARGE
+  nameWithType: _NvAPI_Status.NVAPI_SETTING_SIZE_TOO_LARGE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_SETTING_SIZE_TOO_LARGE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_SETTING_SIZE_TOO_LARGE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 237
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_SETTING_SIZE_TOO_LARGE = -161
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_TOO_MANY_SETTINGS_IN_PROFILE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_TOO_MANY_SETTINGS_IN_PROFILE
+  id: NVAPI_TOO_MANY_SETTINGS_IN_PROFILE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_TOO_MANY_SETTINGS_IN_PROFILE
+  nameWithType: _NvAPI_Status.NVAPI_TOO_MANY_SETTINGS_IN_PROFILE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_TOO_MANY_SETTINGS_IN_PROFILE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_TOO_MANY_SETTINGS_IN_PROFILE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 240
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_TOO_MANY_SETTINGS_IN_PROFILE = -162
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_PROFILE_NOT_FOUND
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_PROFILE_NOT_FOUND
+  id: NVAPI_PROFILE_NOT_FOUND
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_PROFILE_NOT_FOUND
+  nameWithType: _NvAPI_Status.NVAPI_PROFILE_NOT_FOUND
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_PROFILE_NOT_FOUND
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_PROFILE_NOT_FOUND
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 243
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_PROFILE_NOT_FOUND = -163
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_PROFILE_NAME_IN_USE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_PROFILE_NAME_IN_USE
+  id: NVAPI_PROFILE_NAME_IN_USE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_PROFILE_NAME_IN_USE
+  nameWithType: _NvAPI_Status.NVAPI_PROFILE_NAME_IN_USE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_PROFILE_NAME_IN_USE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_PROFILE_NAME_IN_USE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 246
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_PROFILE_NAME_IN_USE = -164
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_PROFILE_NAME_EMPTY
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_PROFILE_NAME_EMPTY
+  id: NVAPI_PROFILE_NAME_EMPTY
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_PROFILE_NAME_EMPTY
+  nameWithType: _NvAPI_Status.NVAPI_PROFILE_NAME_EMPTY
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_PROFILE_NAME_EMPTY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_PROFILE_NAME_EMPTY
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 249
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_PROFILE_NAME_EMPTY = -165
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_EXECUTABLE_NOT_FOUND
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_EXECUTABLE_NOT_FOUND
+  id: NVAPI_EXECUTABLE_NOT_FOUND
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_EXECUTABLE_NOT_FOUND
+  nameWithType: _NvAPI_Status.NVAPI_EXECUTABLE_NOT_FOUND
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_EXECUTABLE_NOT_FOUND
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_EXECUTABLE_NOT_FOUND
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 252
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_EXECUTABLE_NOT_FOUND = -166
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_EXECUTABLE_ALREADY_IN_USE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_EXECUTABLE_ALREADY_IN_USE
+  id: NVAPI_EXECUTABLE_ALREADY_IN_USE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_EXECUTABLE_ALREADY_IN_USE
+  nameWithType: _NvAPI_Status.NVAPI_EXECUTABLE_ALREADY_IN_USE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_EXECUTABLE_ALREADY_IN_USE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_EXECUTABLE_ALREADY_IN_USE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 255
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_EXECUTABLE_ALREADY_IN_USE = -167
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_DATATYPE_MISMATCH
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_DATATYPE_MISMATCH
+  id: NVAPI_DATATYPE_MISMATCH
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_DATATYPE_MISMATCH
+  nameWithType: _NvAPI_Status.NVAPI_DATATYPE_MISMATCH
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_DATATYPE_MISMATCH
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_DATATYPE_MISMATCH
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 258
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_DATATYPE_MISMATCH = -168
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_PROFILE_REMOVED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_PROFILE_REMOVED
+  id: NVAPI_PROFILE_REMOVED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_PROFILE_REMOVED
+  nameWithType: _NvAPI_Status.NVAPI_PROFILE_REMOVED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_PROFILE_REMOVED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_PROFILE_REMOVED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 261
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_PROFILE_REMOVED = -169
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_UNREGISTERED_RESOURCE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_UNREGISTERED_RESOURCE
+  id: NVAPI_UNREGISTERED_RESOURCE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_UNREGISTERED_RESOURCE
+  nameWithType: _NvAPI_Status.NVAPI_UNREGISTERED_RESOURCE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_UNREGISTERED_RESOURCE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_UNREGISTERED_RESOURCE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 264
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_UNREGISTERED_RESOURCE = -170
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_ID_OUT_OF_RANGE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_ID_OUT_OF_RANGE
+  id: NVAPI_ID_OUT_OF_RANGE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_ID_OUT_OF_RANGE
+  nameWithType: _NvAPI_Status.NVAPI_ID_OUT_OF_RANGE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_ID_OUT_OF_RANGE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_ID_OUT_OF_RANGE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 267
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_ID_OUT_OF_RANGE = -171
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_DISPLAYCONFIG_VALIDATION_FAILED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_DISPLAYCONFIG_VALIDATION_FAILED
+  id: NVAPI_DISPLAYCONFIG_VALIDATION_FAILED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_DISPLAYCONFIG_VALIDATION_FAILED
+  nameWithType: _NvAPI_Status.NVAPI_DISPLAYCONFIG_VALIDATION_FAILED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_DISPLAYCONFIG_VALIDATION_FAILED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_DISPLAYCONFIG_VALIDATION_FAILED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 270
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_DISPLAYCONFIG_VALIDATION_FAILED = -172
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_DPMST_CHANGED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_DPMST_CHANGED
+  id: NVAPI_DPMST_CHANGED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_DPMST_CHANGED
+  nameWithType: _NvAPI_Status.NVAPI_DPMST_CHANGED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_DPMST_CHANGED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_DPMST_CHANGED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 273
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_DPMST_CHANGED = -173
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INSUFFICIENT_BUFFER
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INSUFFICIENT_BUFFER
+  id: NVAPI_INSUFFICIENT_BUFFER
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INSUFFICIENT_BUFFER
+  nameWithType: _NvAPI_Status.NVAPI_INSUFFICIENT_BUFFER
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INSUFFICIENT_BUFFER
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INSUFFICIENT_BUFFER
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 276
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INSUFFICIENT_BUFFER = -174
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_ACCESS_DENIED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_ACCESS_DENIED
+  id: NVAPI_ACCESS_DENIED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_ACCESS_DENIED
+  nameWithType: _NvAPI_Status.NVAPI_ACCESS_DENIED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_ACCESS_DENIED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_ACCESS_DENIED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 279
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_ACCESS_DENIED = -175
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_MOSAIC_NOT_ACTIVE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_MOSAIC_NOT_ACTIVE
+  id: NVAPI_MOSAIC_NOT_ACTIVE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_MOSAIC_NOT_ACTIVE
+  nameWithType: _NvAPI_Status.NVAPI_MOSAIC_NOT_ACTIVE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_MOSAIC_NOT_ACTIVE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_MOSAIC_NOT_ACTIVE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 282
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_MOSAIC_NOT_ACTIVE = -176
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_SHARE_RESOURCE_RELOCATED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_SHARE_RESOURCE_RELOCATED
+  id: NVAPI_SHARE_RESOURCE_RELOCATED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_SHARE_RESOURCE_RELOCATED
+  nameWithType: _NvAPI_Status.NVAPI_SHARE_RESOURCE_RELOCATED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_SHARE_RESOURCE_RELOCATED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_SHARE_RESOURCE_RELOCATED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 285
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_SHARE_RESOURCE_RELOCATED = -177
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_REQUEST_USER_TO_DISABLE_DWM
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_REQUEST_USER_TO_DISABLE_DWM
+  id: NVAPI_REQUEST_USER_TO_DISABLE_DWM
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_REQUEST_USER_TO_DISABLE_DWM
+  nameWithType: _NvAPI_Status.NVAPI_REQUEST_USER_TO_DISABLE_DWM
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_REQUEST_USER_TO_DISABLE_DWM
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_REQUEST_USER_TO_DISABLE_DWM
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 288
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_REQUEST_USER_TO_DISABLE_DWM = -178
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_D3D_DEVICE_LOST
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_D3D_DEVICE_LOST
+  id: NVAPI_D3D_DEVICE_LOST
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_D3D_DEVICE_LOST
+  nameWithType: _NvAPI_Status.NVAPI_D3D_DEVICE_LOST
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_D3D_DEVICE_LOST
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_D3D_DEVICE_LOST
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 291
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_D3D_DEVICE_LOST = -179
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_CONFIGURATION
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_CONFIGURATION
+  id: NVAPI_INVALID_CONFIGURATION
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INVALID_CONFIGURATION
+  nameWithType: _NvAPI_Status.NVAPI_INVALID_CONFIGURATION
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_CONFIGURATION
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INVALID_CONFIGURATION
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 294
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INVALID_CONFIGURATION = -180
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_HANDSHAKE_NOT_DONE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_HANDSHAKE_NOT_DONE
+  id: NVAPI_STEREO_HANDSHAKE_NOT_DONE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_HANDSHAKE_NOT_DONE
+  nameWithType: _NvAPI_Status.NVAPI_STEREO_HANDSHAKE_NOT_DONE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_HANDSHAKE_NOT_DONE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_HANDSHAKE_NOT_DONE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 297
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_HANDSHAKE_NOT_DONE = -181
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_EXECUTABLE_PATH_IS_AMBIGUOUS
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_EXECUTABLE_PATH_IS_AMBIGUOUS
+  id: NVAPI_EXECUTABLE_PATH_IS_AMBIGUOUS
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_EXECUTABLE_PATH_IS_AMBIGUOUS
+  nameWithType: _NvAPI_Status.NVAPI_EXECUTABLE_PATH_IS_AMBIGUOUS
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_EXECUTABLE_PATH_IS_AMBIGUOUS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_EXECUTABLE_PATH_IS_AMBIGUOUS
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 300
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_EXECUTABLE_PATH_IS_AMBIGUOUS = -182
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_DEFAULT_STEREO_PROFILE_IS_NOT_DEFINED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_DEFAULT_STEREO_PROFILE_IS_NOT_DEFINED
+  id: NVAPI_DEFAULT_STEREO_PROFILE_IS_NOT_DEFINED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_DEFAULT_STEREO_PROFILE_IS_NOT_DEFINED
+  nameWithType: _NvAPI_Status.NVAPI_DEFAULT_STEREO_PROFILE_IS_NOT_DEFINED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_DEFAULT_STEREO_PROFILE_IS_NOT_DEFINED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_DEFAULT_STEREO_PROFILE_IS_NOT_DEFINED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 303
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_DEFAULT_STEREO_PROFILE_IS_NOT_DEFINED = -183
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_DEFAULT_STEREO_PROFILE_DOES_NOT_EXIST
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_DEFAULT_STEREO_PROFILE_DOES_NOT_EXIST
+  id: NVAPI_DEFAULT_STEREO_PROFILE_DOES_NOT_EXIST
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_DEFAULT_STEREO_PROFILE_DOES_NOT_EXIST
+  nameWithType: _NvAPI_Status.NVAPI_DEFAULT_STEREO_PROFILE_DOES_NOT_EXIST
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_DEFAULT_STEREO_PROFILE_DOES_NOT_EXIST
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_DEFAULT_STEREO_PROFILE_DOES_NOT_EXIST
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 306
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_DEFAULT_STEREO_PROFILE_DOES_NOT_EXIST = -184
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_CLUSTER_ALREADY_EXISTS
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_CLUSTER_ALREADY_EXISTS
+  id: NVAPI_CLUSTER_ALREADY_EXISTS
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_CLUSTER_ALREADY_EXISTS
+  nameWithType: _NvAPI_Status.NVAPI_CLUSTER_ALREADY_EXISTS
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_CLUSTER_ALREADY_EXISTS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_CLUSTER_ALREADY_EXISTS
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 309
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_CLUSTER_ALREADY_EXISTS = -185
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_DPMST_DISPLAY_ID_EXPECTED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_DPMST_DISPLAY_ID_EXPECTED
+  id: NVAPI_DPMST_DISPLAY_ID_EXPECTED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_DPMST_DISPLAY_ID_EXPECTED
+  nameWithType: _NvAPI_Status.NVAPI_DPMST_DISPLAY_ID_EXPECTED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_DPMST_DISPLAY_ID_EXPECTED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_DPMST_DISPLAY_ID_EXPECTED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 312
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_DPMST_DISPLAY_ID_EXPECTED = -186
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_DISPLAY_ID
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_DISPLAY_ID
+  id: NVAPI_INVALID_DISPLAY_ID
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INVALID_DISPLAY_ID
+  nameWithType: _NvAPI_Status.NVAPI_INVALID_DISPLAY_ID
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_DISPLAY_ID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INVALID_DISPLAY_ID
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 315
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INVALID_DISPLAY_ID = -187
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_STREAM_IS_OUT_OF_SYNC
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_STREAM_IS_OUT_OF_SYNC
+  id: NVAPI_STREAM_IS_OUT_OF_SYNC
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STREAM_IS_OUT_OF_SYNC
+  nameWithType: _NvAPI_Status.NVAPI_STREAM_IS_OUT_OF_SYNC
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_STREAM_IS_OUT_OF_SYNC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STREAM_IS_OUT_OF_SYNC
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 318
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STREAM_IS_OUT_OF_SYNC = -188
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INCOMPATIBLE_AUDIO_DRIVER
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INCOMPATIBLE_AUDIO_DRIVER
+  id: NVAPI_INCOMPATIBLE_AUDIO_DRIVER
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INCOMPATIBLE_AUDIO_DRIVER
+  nameWithType: _NvAPI_Status.NVAPI_INCOMPATIBLE_AUDIO_DRIVER
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INCOMPATIBLE_AUDIO_DRIVER
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INCOMPATIBLE_AUDIO_DRIVER
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 321
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INCOMPATIBLE_AUDIO_DRIVER = -189
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_VALUE_ALREADY_SET
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_VALUE_ALREADY_SET
+  id: NVAPI_VALUE_ALREADY_SET
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_VALUE_ALREADY_SET
+  nameWithType: _NvAPI_Status.NVAPI_VALUE_ALREADY_SET
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_VALUE_ALREADY_SET
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_VALUE_ALREADY_SET
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 324
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_VALUE_ALREADY_SET = -190
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_TIMEOUT
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_TIMEOUT
+  id: NVAPI_TIMEOUT
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_TIMEOUT
+  nameWithType: _NvAPI_Status.NVAPI_TIMEOUT
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_TIMEOUT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_TIMEOUT
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 327
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_TIMEOUT = -191
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_GPU_WORKSTATION_FEATURE_INCOMPLETE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_GPU_WORKSTATION_FEATURE_INCOMPLETE
+  id: NVAPI_GPU_WORKSTATION_FEATURE_INCOMPLETE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_WORKSTATION_FEATURE_INCOMPLETE
+  nameWithType: _NvAPI_Status.NVAPI_GPU_WORKSTATION_FEATURE_INCOMPLETE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_GPU_WORKSTATION_FEATURE_INCOMPLETE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_WORKSTATION_FEATURE_INCOMPLETE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 330
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_WORKSTATION_FEATURE_INCOMPLETE = -192
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_INIT_ACTIVATION_NOT_DONE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_INIT_ACTIVATION_NOT_DONE
+  id: NVAPI_STEREO_INIT_ACTIVATION_NOT_DONE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_INIT_ACTIVATION_NOT_DONE
+  nameWithType: _NvAPI_Status.NVAPI_STEREO_INIT_ACTIVATION_NOT_DONE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_INIT_ACTIVATION_NOT_DONE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_INIT_ACTIVATION_NOT_DONE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 333
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_INIT_ACTIVATION_NOT_DONE = -193
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_SYNC_NOT_ACTIVE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_SYNC_NOT_ACTIVE
+  id: NVAPI_SYNC_NOT_ACTIVE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_SYNC_NOT_ACTIVE
+  nameWithType: _NvAPI_Status.NVAPI_SYNC_NOT_ACTIVE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_SYNC_NOT_ACTIVE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_SYNC_NOT_ACTIVE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 336
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_SYNC_NOT_ACTIVE = -194
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_SYNC_MASTER_NOT_FOUND
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_SYNC_MASTER_NOT_FOUND
+  id: NVAPI_SYNC_MASTER_NOT_FOUND
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_SYNC_MASTER_NOT_FOUND
+  nameWithType: _NvAPI_Status.NVAPI_SYNC_MASTER_NOT_FOUND
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_SYNC_MASTER_NOT_FOUND
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_SYNC_MASTER_NOT_FOUND
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 339
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_SYNC_MASTER_NOT_FOUND = -195
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_SYNC_TOPOLOGY
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_SYNC_TOPOLOGY
+  id: NVAPI_INVALID_SYNC_TOPOLOGY
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INVALID_SYNC_TOPOLOGY
+  nameWithType: _NvAPI_Status.NVAPI_INVALID_SYNC_TOPOLOGY
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_SYNC_TOPOLOGY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INVALID_SYNC_TOPOLOGY
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 342
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INVALID_SYNC_TOPOLOGY = -196
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_ECID_SIGN_ALGO_UNSUPPORTED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_ECID_SIGN_ALGO_UNSUPPORTED
+  id: NVAPI_ECID_SIGN_ALGO_UNSUPPORTED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_ECID_SIGN_ALGO_UNSUPPORTED
+  nameWithType: _NvAPI_Status.NVAPI_ECID_SIGN_ALGO_UNSUPPORTED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_ECID_SIGN_ALGO_UNSUPPORTED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_ECID_SIGN_ALGO_UNSUPPORTED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 345
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_ECID_SIGN_ALGO_UNSUPPORTED = -197
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_ECID_KEY_VERIFICATION_FAILED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_ECID_KEY_VERIFICATION_FAILED
+  id: NVAPI_ECID_KEY_VERIFICATION_FAILED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_ECID_KEY_VERIFICATION_FAILED
+  nameWithType: _NvAPI_Status.NVAPI_ECID_KEY_VERIFICATION_FAILED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_ECID_KEY_VERIFICATION_FAILED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_ECID_KEY_VERIFICATION_FAILED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 348
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_ECID_KEY_VERIFICATION_FAILED = -198
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_FIRMWARE_OUT_OF_DATE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_FIRMWARE_OUT_OF_DATE
+  id: NVAPI_FIRMWARE_OUT_OF_DATE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_FIRMWARE_OUT_OF_DATE
+  nameWithType: _NvAPI_Status.NVAPI_FIRMWARE_OUT_OF_DATE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_FIRMWARE_OUT_OF_DATE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_FIRMWARE_OUT_OF_DATE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 351
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_FIRMWARE_OUT_OF_DATE = -199
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_FIRMWARE_REVISION_NOT_SUPPORTED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_FIRMWARE_REVISION_NOT_SUPPORTED
+  id: NVAPI_FIRMWARE_REVISION_NOT_SUPPORTED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_FIRMWARE_REVISION_NOT_SUPPORTED
+  nameWithType: _NvAPI_Status.NVAPI_FIRMWARE_REVISION_NOT_SUPPORTED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_FIRMWARE_REVISION_NOT_SUPPORTED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_FIRMWARE_REVISION_NOT_SUPPORTED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 354
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_FIRMWARE_REVISION_NOT_SUPPORTED = -200
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_LICENSE_CALLER_AUTHENTICATION_FAILED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_LICENSE_CALLER_AUTHENTICATION_FAILED
+  id: NVAPI_LICENSE_CALLER_AUTHENTICATION_FAILED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_LICENSE_CALLER_AUTHENTICATION_FAILED
+  nameWithType: _NvAPI_Status.NVAPI_LICENSE_CALLER_AUTHENTICATION_FAILED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_LICENSE_CALLER_AUTHENTICATION_FAILED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_LICENSE_CALLER_AUTHENTICATION_FAILED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 357
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_LICENSE_CALLER_AUTHENTICATION_FAILED = -201
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_D3D_DEVICE_NOT_REGISTERED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_D3D_DEVICE_NOT_REGISTERED
+  id: NVAPI_D3D_DEVICE_NOT_REGISTERED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_D3D_DEVICE_NOT_REGISTERED
+  nameWithType: _NvAPI_Status.NVAPI_D3D_DEVICE_NOT_REGISTERED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_D3D_DEVICE_NOT_REGISTERED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_D3D_DEVICE_NOT_REGISTERED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 360
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_D3D_DEVICE_NOT_REGISTERED = -202
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_RESOURCE_NOT_ACQUIRED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_RESOURCE_NOT_ACQUIRED
+  id: NVAPI_RESOURCE_NOT_ACQUIRED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_RESOURCE_NOT_ACQUIRED
+  nameWithType: _NvAPI_Status.NVAPI_RESOURCE_NOT_ACQUIRED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_RESOURCE_NOT_ACQUIRED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_RESOURCE_NOT_ACQUIRED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 363
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_RESOURCE_NOT_ACQUIRED = -203
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_TIMING_NOT_SUPPORTED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_TIMING_NOT_SUPPORTED
+  id: NVAPI_TIMING_NOT_SUPPORTED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_TIMING_NOT_SUPPORTED
+  nameWithType: _NvAPI_Status.NVAPI_TIMING_NOT_SUPPORTED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_TIMING_NOT_SUPPORTED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_TIMING_NOT_SUPPORTED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 366
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_TIMING_NOT_SUPPORTED = -204
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_HDCP_ENCRYPTION_FAILED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_HDCP_ENCRYPTION_FAILED
+  id: NVAPI_HDCP_ENCRYPTION_FAILED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_HDCP_ENCRYPTION_FAILED
+  nameWithType: _NvAPI_Status.NVAPI_HDCP_ENCRYPTION_FAILED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_HDCP_ENCRYPTION_FAILED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_HDCP_ENCRYPTION_FAILED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 369
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_HDCP_ENCRYPTION_FAILED = -205
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_PCLK_LIMITATION_FAILED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_PCLK_LIMITATION_FAILED
+  id: NVAPI_PCLK_LIMITATION_FAILED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_PCLK_LIMITATION_FAILED
+  nameWithType: _NvAPI_Status.NVAPI_PCLK_LIMITATION_FAILED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_PCLK_LIMITATION_FAILED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_PCLK_LIMITATION_FAILED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 372
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_PCLK_LIMITATION_FAILED = -206
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_NO_CONNECTOR_FOUND
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_NO_CONNECTOR_FOUND
+  id: NVAPI_NO_CONNECTOR_FOUND
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_NO_CONNECTOR_FOUND
+  nameWithType: _NvAPI_Status.NVAPI_NO_CONNECTOR_FOUND
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_NO_CONNECTOR_FOUND
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_NO_CONNECTOR_FOUND
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 375
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_NO_CONNECTOR_FOUND = -207
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_HDCP_DISABLED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_HDCP_DISABLED
+  id: NVAPI_HDCP_DISABLED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_HDCP_DISABLED
+  nameWithType: _NvAPI_Status.NVAPI_HDCP_DISABLED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_HDCP_DISABLED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_HDCP_DISABLED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 378
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_HDCP_DISABLED = -208
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_API_IN_USE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_API_IN_USE
+  id: NVAPI_API_IN_USE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_API_IN_USE
+  nameWithType: _NvAPI_Status.NVAPI_API_IN_USE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_API_IN_USE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_API_IN_USE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 381
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_API_IN_USE = -209
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_NVIDIA_DISPLAY_NOT_FOUND
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_NVIDIA_DISPLAY_NOT_FOUND
+  id: NVAPI_NVIDIA_DISPLAY_NOT_FOUND
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_NVIDIA_DISPLAY_NOT_FOUND
+  nameWithType: _NvAPI_Status.NVAPI_NVIDIA_DISPLAY_NOT_FOUND
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_NVIDIA_DISPLAY_NOT_FOUND
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_NVIDIA_DISPLAY_NOT_FOUND
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 384
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_NVIDIA_DISPLAY_NOT_FOUND = -210
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_PRIV_SEC_VIOLATION
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_PRIV_SEC_VIOLATION
+  id: NVAPI_PRIV_SEC_VIOLATION
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_PRIV_SEC_VIOLATION
+  nameWithType: _NvAPI_Status.NVAPI_PRIV_SEC_VIOLATION
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_PRIV_SEC_VIOLATION
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_PRIV_SEC_VIOLATION
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 387
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_PRIV_SEC_VIOLATION = -211
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INCORRECT_VENDOR
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INCORRECT_VENDOR
+  id: NVAPI_INCORRECT_VENDOR
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INCORRECT_VENDOR
+  nameWithType: _NvAPI_Status.NVAPI_INCORRECT_VENDOR
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INCORRECT_VENDOR
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INCORRECT_VENDOR
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 390
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INCORRECT_VENDOR = -212
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_DISPLAY_IN_USE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_DISPLAY_IN_USE
+  id: NVAPI_DISPLAY_IN_USE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_DISPLAY_IN_USE
+  nameWithType: _NvAPI_Status.NVAPI_DISPLAY_IN_USE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_DISPLAY_IN_USE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_DISPLAY_IN_USE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 393
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_DISPLAY_IN_USE = -213
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_UNSUPPORTED_CONFIG_NON_HDCP_HMD
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_UNSUPPORTED_CONFIG_NON_HDCP_HMD
+  id: NVAPI_UNSUPPORTED_CONFIG_NON_HDCP_HMD
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_UNSUPPORTED_CONFIG_NON_HDCP_HMD
+  nameWithType: _NvAPI_Status.NVAPI_UNSUPPORTED_CONFIG_NON_HDCP_HMD
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_UNSUPPORTED_CONFIG_NON_HDCP_HMD
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_UNSUPPORTED_CONFIG_NON_HDCP_HMD
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 396
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_UNSUPPORTED_CONFIG_NON_HDCP_HMD = -214
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_MAX_DISPLAY_LIMIT_REACHED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_MAX_DISPLAY_LIMIT_REACHED
+  id: NVAPI_MAX_DISPLAY_LIMIT_REACHED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_MAX_DISPLAY_LIMIT_REACHED
+  nameWithType: _NvAPI_Status.NVAPI_MAX_DISPLAY_LIMIT_REACHED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_MAX_DISPLAY_LIMIT_REACHED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_MAX_DISPLAY_LIMIT_REACHED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 399
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_MAX_DISPLAY_LIMIT_REACHED = -215
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_DIRECT_MODE_DISPLAY
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_DIRECT_MODE_DISPLAY
+  id: NVAPI_INVALID_DIRECT_MODE_DISPLAY
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INVALID_DIRECT_MODE_DISPLAY
+  nameWithType: _NvAPI_Status.NVAPI_INVALID_DIRECT_MODE_DISPLAY
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_DIRECT_MODE_DISPLAY
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INVALID_DIRECT_MODE_DISPLAY
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 402
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INVALID_DIRECT_MODE_DISPLAY = -216
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_GPU_IN_DEBUG_MODE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_GPU_IN_DEBUG_MODE
+  id: NVAPI_GPU_IN_DEBUG_MODE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_IN_DEBUG_MODE
+  nameWithType: _NvAPI_Status.NVAPI_GPU_IN_DEBUG_MODE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_GPU_IN_DEBUG_MODE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_IN_DEBUG_MODE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 405
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_IN_DEBUG_MODE = -217
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_D3D_CONTEXT_NOT_FOUND
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_D3D_CONTEXT_NOT_FOUND
+  id: NVAPI_D3D_CONTEXT_NOT_FOUND
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_D3D_CONTEXT_NOT_FOUND
+  nameWithType: _NvAPI_Status.NVAPI_D3D_CONTEXT_NOT_FOUND
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_D3D_CONTEXT_NOT_FOUND
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_D3D_CONTEXT_NOT_FOUND
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 408
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_D3D_CONTEXT_NOT_FOUND = -218
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_VERSION_MISMATCH
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_VERSION_MISMATCH
+  id: NVAPI_STEREO_VERSION_MISMATCH
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_STEREO_VERSION_MISMATCH
+  nameWithType: _NvAPI_Status.NVAPI_STEREO_VERSION_MISMATCH
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_STEREO_VERSION_MISMATCH
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_STEREO_VERSION_MISMATCH
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 411
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_STEREO_VERSION_MISMATCH = -219
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_GPU_NOT_POWERED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_GPU_NOT_POWERED
+  id: NVAPI_GPU_NOT_POWERED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_GPU_NOT_POWERED
+  nameWithType: _NvAPI_Status.NVAPI_GPU_NOT_POWERED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_GPU_NOT_POWERED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_GPU_NOT_POWERED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 414
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_GPU_NOT_POWERED = -220
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_ERROR_DRIVER_RELOAD_IN_PROGRESS
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_ERROR_DRIVER_RELOAD_IN_PROGRESS
+  id: NVAPI_ERROR_DRIVER_RELOAD_IN_PROGRESS
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_ERROR_DRIVER_RELOAD_IN_PROGRESS
+  nameWithType: _NvAPI_Status.NVAPI_ERROR_DRIVER_RELOAD_IN_PROGRESS
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_ERROR_DRIVER_RELOAD_IN_PROGRESS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_ERROR_DRIVER_RELOAD_IN_PROGRESS
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 417
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_ERROR_DRIVER_RELOAD_IN_PROGRESS = -221
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_WAIT_FOR_HW_RESOURCE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_WAIT_FOR_HW_RESOURCE
+  id: NVAPI_WAIT_FOR_HW_RESOURCE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_WAIT_FOR_HW_RESOURCE
+  nameWithType: _NvAPI_Status.NVAPI_WAIT_FOR_HW_RESOURCE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_WAIT_FOR_HW_RESOURCE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_WAIT_FOR_HW_RESOURCE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 420
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_WAIT_FOR_HW_RESOURCE = -222
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_REQUIRE_FURTHER_HDCP_ACTION
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_REQUIRE_FURTHER_HDCP_ACTION
+  id: NVAPI_REQUIRE_FURTHER_HDCP_ACTION
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_REQUIRE_FURTHER_HDCP_ACTION
+  nameWithType: _NvAPI_Status.NVAPI_REQUIRE_FURTHER_HDCP_ACTION
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_REQUIRE_FURTHER_HDCP_ACTION
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_REQUIRE_FURTHER_HDCP_ACTION
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 423
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_REQUIRE_FURTHER_HDCP_ACTION = -223
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_DISPLAY_MUX_TRANSITION_FAILED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_DISPLAY_MUX_TRANSITION_FAILED
+  id: NVAPI_DISPLAY_MUX_TRANSITION_FAILED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_DISPLAY_MUX_TRANSITION_FAILED
+  nameWithType: _NvAPI_Status.NVAPI_DISPLAY_MUX_TRANSITION_FAILED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_DISPLAY_MUX_TRANSITION_FAILED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_DISPLAY_MUX_TRANSITION_FAILED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 426
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_DISPLAY_MUX_TRANSITION_FAILED = -224
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_DSC_VERSION
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_DSC_VERSION
+  id: NVAPI_INVALID_DSC_VERSION
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INVALID_DSC_VERSION
+  nameWithType: _NvAPI_Status.NVAPI_INVALID_DSC_VERSION
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_DSC_VERSION
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INVALID_DSC_VERSION
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 429
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INVALID_DSC_VERSION = -225
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_DSC_SLICECOUNT
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_DSC_SLICECOUNT
+  id: NVAPI_INVALID_DSC_SLICECOUNT
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INVALID_DSC_SLICECOUNT
+  nameWithType: _NvAPI_Status.NVAPI_INVALID_DSC_SLICECOUNT
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_DSC_SLICECOUNT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INVALID_DSC_SLICECOUNT
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 432
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INVALID_DSC_SLICECOUNT = -226
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_DSC_OUTPUT_BPP
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_DSC_OUTPUT_BPP
+  id: NVAPI_INVALID_DSC_OUTPUT_BPP
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INVALID_DSC_OUTPUT_BPP
+  nameWithType: _NvAPI_Status.NVAPI_INVALID_DSC_OUTPUT_BPP
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_DSC_OUTPUT_BPP
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INVALID_DSC_OUTPUT_BPP
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 435
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INVALID_DSC_OUTPUT_BPP = -227
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_FAILED_TO_LOAD_FROM_DRIVER_STORE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_FAILED_TO_LOAD_FROM_DRIVER_STORE
+  id: NVAPI_FAILED_TO_LOAD_FROM_DRIVER_STORE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_FAILED_TO_LOAD_FROM_DRIVER_STORE
+  nameWithType: _NvAPI_Status.NVAPI_FAILED_TO_LOAD_FROM_DRIVER_STORE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_FAILED_TO_LOAD_FROM_DRIVER_STORE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_FAILED_TO_LOAD_FROM_DRIVER_STORE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 438
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_FAILED_TO_LOAD_FROM_DRIVER_STORE = -228
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_NO_VULKAN
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_NO_VULKAN
+  id: NVAPI_NO_VULKAN
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_NO_VULKAN
+  nameWithType: _NvAPI_Status.NVAPI_NO_VULKAN
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_NO_VULKAN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_NO_VULKAN
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 441
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_NO_VULKAN = -229
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_REQUEST_PENDING
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_REQUEST_PENDING
+  id: NVAPI_REQUEST_PENDING
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_REQUEST_PENDING
+  nameWithType: _NvAPI_Status.NVAPI_REQUEST_PENDING
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_REQUEST_PENDING
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_REQUEST_PENDING
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 444
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_REQUEST_PENDING = -230
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_RESOURCE_IN_USE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_RESOURCE_IN_USE
+  id: NVAPI_RESOURCE_IN_USE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_RESOURCE_IN_USE
+  nameWithType: _NvAPI_Status.NVAPI_RESOURCE_IN_USE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_RESOURCE_IN_USE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_RESOURCE_IN_USE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 447
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_RESOURCE_IN_USE = -231
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_IMAGE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_IMAGE
+  id: NVAPI_INVALID_IMAGE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INVALID_IMAGE
+  nameWithType: _NvAPI_Status.NVAPI_INVALID_IMAGE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_IMAGE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INVALID_IMAGE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 450
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INVALID_IMAGE = -232
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_PTX
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_PTX
+  id: NVAPI_INVALID_PTX
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INVALID_PTX
+  nameWithType: _NvAPI_Status.NVAPI_INVALID_PTX
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_PTX
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INVALID_PTX
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 453
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INVALID_PTX = -233
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_NVLINK_UNCORRECTABLE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_NVLINK_UNCORRECTABLE
+  id: NVAPI_NVLINK_UNCORRECTABLE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_NVLINK_UNCORRECTABLE
+  nameWithType: _NvAPI_Status.NVAPI_NVLINK_UNCORRECTABLE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_NVLINK_UNCORRECTABLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_NVLINK_UNCORRECTABLE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 456
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_NVLINK_UNCORRECTABLE = -234
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_JIT_COMPILER_NOT_FOUND
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_JIT_COMPILER_NOT_FOUND
+  id: NVAPI_JIT_COMPILER_NOT_FOUND
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_JIT_COMPILER_NOT_FOUND
+  nameWithType: _NvAPI_Status.NVAPI_JIT_COMPILER_NOT_FOUND
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_JIT_COMPILER_NOT_FOUND
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_JIT_COMPILER_NOT_FOUND
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 459
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_JIT_COMPILER_NOT_FOUND = -235
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_SOURCE
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_SOURCE
+  id: NVAPI_INVALID_SOURCE
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INVALID_SOURCE
+  nameWithType: _NvAPI_Status.NVAPI_INVALID_SOURCE
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_SOURCE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INVALID_SOURCE
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 462
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INVALID_SOURCE = -236
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_ILLEGAL_INSTRUCTION
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_ILLEGAL_INSTRUCTION
+  id: NVAPI_ILLEGAL_INSTRUCTION
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_ILLEGAL_INSTRUCTION
+  nameWithType: _NvAPI_Status.NVAPI_ILLEGAL_INSTRUCTION
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_ILLEGAL_INSTRUCTION
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_ILLEGAL_INSTRUCTION
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 465
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_ILLEGAL_INSTRUCTION = -237
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_PC
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_PC
+  id: NVAPI_INVALID_PC
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INVALID_PC
+  nameWithType: _NvAPI_Status.NVAPI_INVALID_PC
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_PC
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INVALID_PC
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 468
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INVALID_PC = -238
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_LAUNCH_FAILED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_LAUNCH_FAILED
+  id: NVAPI_LAUNCH_FAILED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_LAUNCH_FAILED
+  nameWithType: _NvAPI_Status.NVAPI_LAUNCH_FAILED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_LAUNCH_FAILED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_LAUNCH_FAILED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 471
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_LAUNCH_FAILED = -239
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_NOT_PERMITTED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_NOT_PERMITTED
+  id: NVAPI_NOT_PERMITTED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_NOT_PERMITTED
+  nameWithType: _NvAPI_Status.NVAPI_NOT_PERMITTED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_NOT_PERMITTED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_NOT_PERMITTED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 474
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_NOT_PERMITTED = -240
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_CALLBACK_ALREADY_REGISTERED
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_CALLBACK_ALREADY_REGISTERED
+  id: NVAPI_CALLBACK_ALREADY_REGISTERED
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_CALLBACK_ALREADY_REGISTERED
+  nameWithType: _NvAPI_Status.NVAPI_CALLBACK_ALREADY_REGISTERED
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_CALLBACK_ALREADY_REGISTERED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_CALLBACK_ALREADY_REGISTERED
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 477
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_CALLBACK_ALREADY_REGISTERED = -241
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_CALLBACK_NOT_FOUND
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_CALLBACK_NOT_FOUND
+  id: NVAPI_CALLBACK_NOT_FOUND
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_CALLBACK_NOT_FOUND
+  nameWithType: _NvAPI_Status.NVAPI_CALLBACK_NOT_FOUND
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_CALLBACK_NOT_FOUND
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_CALLBACK_NOT_FOUND
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 480
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_CALLBACK_NOT_FOUND = -242
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+- uid: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_OUTPUT_WIRE_FORMAT
+  commentId: F:NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_OUTPUT_WIRE_FORMAT
+  id: NVAPI_INVALID_OUTPUT_WIRE_FORMAT
+  parent: NVAPIWrapper._NvAPI_Status
+  langs:
+  - csharp
+  - vb
+  name: NVAPI_INVALID_OUTPUT_WIRE_FORMAT
+  nameWithType: _NvAPI_Status.NVAPI_INVALID_OUTPUT_WIRE_FORMAT
+  fullName: NVAPIWrapper._NvAPI_Status.NVAPI_INVALID_OUTPUT_WIRE_FORMAT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPI_INVALID_OUTPUT_WIRE_FORMAT
+    path: ../NVAPIWrapper/cs_generated/_NvAPI_Status.cs
+    startLine: 483
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NVAPI_INVALID_OUTPUT_WIRE_FORMAT = -243
+    return:
+      type: NVAPIWrapper._NvAPI_Status
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NvAPI_Status
+  commentId: T:NVAPIWrapper._NvAPI_Status
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NvAPI_Status.html
+  name: _NvAPI_Status
+  nameWithType: _NvAPI_Status
+  fullName: NVAPIWrapper._NvAPI_Status

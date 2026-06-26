@@ -1,0 +1,717 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2
+  commentId: T:NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2
+  id: _NV_GSYNC_CONTROL_PARAMS_V2
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2._bitfield
+  - NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.interlaceMode
+  - NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.interval
+  - NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.multiplyDivideMode
+  - NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.multiplyDivideValue
+  - NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.polarity
+  - NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.reserved
+  - NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.source
+  - NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.startupDelay
+  - NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.syncSkew
+  - NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.syncSourceIsOutput
+  - NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.version
+  - NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.vmode
+  langs:
+  - csharp
+  - vb
+  name: _NV_GSYNC_CONTROL_PARAMS_V2
+  nameWithType: _NV_GSYNC_CONTROL_PARAMS_V2
+  fullName: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_GSYNC_CONTROL_PARAMS_V2
+    path: ../NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NV_GSYNC_CONTROL_PARAMS_V2
+    content.vb: Public Structure _NV_GSYNC_CONTROL_PARAMS_V2
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.version
+  commentId: F:NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.version
+  id: version
+  parent: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: _NV_GSYNC_CONTROL_PARAMS_V2.version
+  fullName: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.version
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: version
+    path: ../NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+    startLine: 7
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint version
+    return:
+      type: System.UInt32
+    content.vb: Public version As UInteger
+- uid: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.polarity
+  commentId: F:NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.polarity
+  id: polarity
+  parent: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2
+  langs:
+  - csharp
+  - vb
+  name: polarity
+  nameWithType: _NV_GSYNC_CONTROL_PARAMS_V2.polarity
+  fullName: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.polarity
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: polarity
+    path: ../NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+    startLine: 11
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVAPI_GSYNC_POLARITY polarity
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_POLARITY
+    content.vb: Public polarity As _NVAPI_GSYNC_POLARITY
+- uid: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.vmode
+  commentId: F:NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.vmode
+  id: vmode
+  parent: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2
+  langs:
+  - csharp
+  - vb
+  name: vmode
+  nameWithType: _NV_GSYNC_CONTROL_PARAMS_V2.vmode
+  fullName: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.vmode
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: vmode
+    path: ../NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVAPI_GSYNC_VIDEO_MODE vmode
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE
+    content.vb: Public vmode As _NVAPI_GSYNC_VIDEO_MODE
+- uid: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.interval
+  commentId: F:NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.interval
+  id: interval
+  parent: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2
+  langs:
+  - csharp
+  - vb
+  name: interval
+  nameWithType: _NV_GSYNC_CONTROL_PARAMS_V2.interval
+  fullName: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.interval
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: interval
+    path: ../NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+    startLine: 19
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint interval
+    return:
+      type: System.UInt32
+    content.vb: Public interval As UInteger
+- uid: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.source
+  commentId: F:NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.source
+  id: source
+  parent: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2
+  langs:
+  - csharp
+  - vb
+  name: source
+  nameWithType: _NV_GSYNC_CONTROL_PARAMS_V2.source
+  fullName: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.source
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: source
+    path: ../NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+    startLine: 23
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVAPI_GSYNC_SYNC_SOURCE source
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_SYNC_SOURCE
+    content.vb: Public source As _NVAPI_GSYNC_SYNC_SOURCE
+- uid: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2._bitfield
+  commentId: F:NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2._bitfield
+  id: _bitfield
+  parent: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2
+  langs:
+  - csharp
+  - vb
+  name: _bitfield
+  nameWithType: _NV_GSYNC_CONTROL_PARAMS_V2._bitfield
+  fullName: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2._bitfield
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield
+    path: ../NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+    startLine: 25
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield As UInteger
+- uid: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.interlaceMode
+  commentId: P:NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.interlaceMode
+  id: interlaceMode
+  parent: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2
+  langs:
+  - csharp
+  - vb
+  name: interlaceMode
+  nameWithType: _NV_GSYNC_CONTROL_PARAMS_V2.interlaceMode
+  fullName: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.interlaceMode
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: interlaceMode
+    path: ../NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+    startLine: 28
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint interlaceMode { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property interlaceMode As UInteger
+  overload: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.interlaceMode*
+- uid: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.syncSourceIsOutput
+  commentId: P:NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.syncSourceIsOutput
+  id: syncSourceIsOutput
+  parent: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2
+  langs:
+  - csharp
+  - vb
+  name: syncSourceIsOutput
+  nameWithType: _NV_GSYNC_CONTROL_PARAMS_V2.syncSourceIsOutput
+  fullName: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.syncSourceIsOutput
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: syncSourceIsOutput
+    path: ../NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+    startLine: 43
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint syncSourceIsOutput { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property syncSourceIsOutput As UInteger
+  overload: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.syncSourceIsOutput*
+- uid: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.reserved
+  commentId: P:NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.reserved
+  id: reserved
+  parent: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2
+  langs:
+  - csharp
+  - vb
+  name: reserved
+  nameWithType: _NV_GSYNC_CONTROL_PARAMS_V2.reserved
+  fullName: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.reserved
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved
+    path: ../NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+    startLine: 58
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved As UInteger
+  overload: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.reserved*
+- uid: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.syncSkew
+  commentId: F:NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.syncSkew
+  id: syncSkew
+  parent: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2
+  langs:
+  - csharp
+  - vb
+  name: syncSkew
+  nameWithType: _NV_GSYNC_CONTROL_PARAMS_V2.syncSkew
+  fullName: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.syncSkew
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: syncSkew
+    path: ../NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+    startLine: 74
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_GSYNC_DELAY syncSkew
+    return:
+      type: NVAPIWrapper._NV_GSYNC_DELAY
+    content.vb: Public syncSkew As _NV_GSYNC_DELAY
+- uid: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.startupDelay
+  commentId: F:NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.startupDelay
+  id: startupDelay
+  parent: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2
+  langs:
+  - csharp
+  - vb
+  name: startupDelay
+  nameWithType: _NV_GSYNC_CONTROL_PARAMS_V2.startupDelay
+  fullName: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.startupDelay
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: startupDelay
+    path: ../NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+    startLine: 78
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_GSYNC_DELAY startupDelay
+    return:
+      type: NVAPIWrapper._NV_GSYNC_DELAY
+    content.vb: Public startupDelay As _NV_GSYNC_DELAY
+- uid: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.multiplyDivideMode
+  commentId: F:NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.multiplyDivideMode
+  id: multiplyDivideMode
+  parent: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2
+  langs:
+  - csharp
+  - vb
+  name: multiplyDivideMode
+  nameWithType: _NV_GSYNC_CONTROL_PARAMS_V2.multiplyDivideMode
+  fullName: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.multiplyDivideMode
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: multiplyDivideMode
+    path: ../NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+    startLine: 82
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE multiplyDivideMode
+    return:
+      type: NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+    content.vb: Public multiplyDivideMode As _NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+- uid: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.multiplyDivideValue
+  commentId: F:NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.multiplyDivideValue
+  id: multiplyDivideValue
+  parent: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2
+  langs:
+  - csharp
+  - vb
+  name: multiplyDivideValue
+  nameWithType: _NV_GSYNC_CONTROL_PARAMS_V2.multiplyDivideValue
+  fullName: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.multiplyDivideValue
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: multiplyDivideValue
+    path: ../NVAPIWrapper/cs_generated/_NV_GSYNC_CONTROL_PARAMS_V2.cs
+    startLine: 86
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public byte multiplyDivideValue
+    return:
+      type: System.Byte
+    content.vb: Public multiplyDivideValue As Byte
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper._NVAPI_GSYNC_POLARITY
+  commentId: T:NVAPIWrapper._NVAPI_GSYNC_POLARITY
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVAPI_GSYNC_POLARITY.html
+  name: _NVAPI_GSYNC_POLARITY
+  nameWithType: _NVAPI_GSYNC_POLARITY
+  fullName: NVAPIWrapper._NVAPI_GSYNC_POLARITY
+- uid: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE
+  commentId: T:NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE.html
+  name: _NVAPI_GSYNC_VIDEO_MODE
+  nameWithType: _NVAPI_GSYNC_VIDEO_MODE
+  fullName: NVAPIWrapper._NVAPI_GSYNC_VIDEO_MODE
+- uid: NVAPIWrapper._NVAPI_GSYNC_SYNC_SOURCE
+  commentId: T:NVAPIWrapper._NVAPI_GSYNC_SYNC_SOURCE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVAPI_GSYNC_SYNC_SOURCE.html
+  name: _NVAPI_GSYNC_SYNC_SOURCE
+  nameWithType: _NVAPI_GSYNC_SYNC_SOURCE
+  fullName: NVAPIWrapper._NVAPI_GSYNC_SYNC_SOURCE
+- uid: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.interlaceMode*
+  commentId: Overload:NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.interlaceMode
+  href: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.html#NVAPIWrapper__NV_GSYNC_CONTROL_PARAMS_V2_interlaceMode
+  name: interlaceMode
+  nameWithType: _NV_GSYNC_CONTROL_PARAMS_V2.interlaceMode
+  fullName: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.interlaceMode
+- uid: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.syncSourceIsOutput*
+  commentId: Overload:NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.syncSourceIsOutput
+  href: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.html#NVAPIWrapper__NV_GSYNC_CONTROL_PARAMS_V2_syncSourceIsOutput
+  name: syncSourceIsOutput
+  nameWithType: _NV_GSYNC_CONTROL_PARAMS_V2.syncSourceIsOutput
+  fullName: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.syncSourceIsOutput
+- uid: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.reserved*
+  commentId: Overload:NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.reserved
+  href: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.html#NVAPIWrapper__NV_GSYNC_CONTROL_PARAMS_V2_reserved
+  name: reserved
+  nameWithType: _NV_GSYNC_CONTROL_PARAMS_V2.reserved
+  fullName: NVAPIWrapper._NV_GSYNC_CONTROL_PARAMS_V2.reserved
+- uid: NVAPIWrapper._NV_GSYNC_DELAY
+  commentId: T:NVAPIWrapper._NV_GSYNC_DELAY
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GSYNC_DELAY.html
+  name: _NV_GSYNC_DELAY
+  nameWithType: _NV_GSYNC_DELAY
+  fullName: NVAPIWrapper._NV_GSYNC_DELAY
+- uid: NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+  commentId: T:NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE.html
+  name: _NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+  nameWithType: _NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+  fullName: NVAPIWrapper._NVAPI_GSYNC_MULTIPLY_DIVIDE_MODE
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte

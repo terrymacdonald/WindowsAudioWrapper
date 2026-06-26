@@ -1,0 +1,1238 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto
+  commentId: T:NVAPIWrapper.NVAPIPstateClockEntryDto
+  id: NVAPIPstateClockEntryDto
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NVAPIPstateClockEntryDto.#ctor(NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID,NVAPIWrapper.NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID,System.Boolean,System.Int32,System.Int32,System.Int32,System.UInt32,System.UInt32,NVAPIWrapper._NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID,System.UInt32,System.UInt32)
+  - NVAPIWrapper.NVAPIPstateClockEntryDto.DomainId
+  - NVAPIWrapper.NVAPIPstateClockEntryDto.Equals(NVAPIWrapper.NVAPIPstateClockEntryDto)
+  - NVAPIWrapper.NVAPIPstateClockEntryDto.Equals(System.Object)
+  - NVAPIWrapper.NVAPIPstateClockEntryDto.FreqDeltaMax
+  - NVAPIWrapper.NVAPIPstateClockEntryDto.FreqDeltaMin
+  - NVAPIWrapper.NVAPIPstateClockEntryDto.FreqDeltaValue
+  - NVAPIWrapper.NVAPIPstateClockEntryDto.FromNative(NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1)
+  - NVAPIWrapper.NVAPIPstateClockEntryDto.GetHashCode
+  - NVAPIWrapper.NVAPIPstateClockEntryDto.IsEditable
+  - NVAPIWrapper.NVAPIPstateClockEntryDto.MaxFreqKHz
+  - NVAPIWrapper.NVAPIPstateClockEntryDto.MinFreqKHz
+  - NVAPIWrapper.NVAPIPstateClockEntryDto.RangeMaxVoltageUv
+  - NVAPIWrapper.NVAPIPstateClockEntryDto.RangeMinVoltageUv
+  - NVAPIWrapper.NVAPIPstateClockEntryDto.RangeVoltageDomainId
+  - NVAPIWrapper.NVAPIPstateClockEntryDto.ToNative
+  - NVAPIWrapper.NVAPIPstateClockEntryDto.TypeId
+  - NVAPIWrapper.NVAPIPstateClockEntryDto.op_Equality(NVAPIWrapper.NVAPIPstateClockEntryDto,NVAPIWrapper.NVAPIPstateClockEntryDto)
+  - NVAPIWrapper.NVAPIPstateClockEntryDto.op_Inequality(NVAPIWrapper.NVAPIPstateClockEntryDto,NVAPIWrapper.NVAPIPstateClockEntryDto)
+  langs:
+  - csharp
+  - vb
+  name: NVAPIPstateClockEntryDto
+  nameWithType: NVAPIPstateClockEntryDto
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NVAPIPstateClockEntryDto
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3863
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Per-clock entry DTO for a P-state, wrapping <xref href="NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public struct NVAPIPstateClockEntryDto : IEquatable<NVAPIPstateClockEntryDto>'
+    content.vb: Public Structure NVAPIPstateClockEntryDto Implements IEquatable(Of NVAPIPstateClockEntryDto)
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIPstateClockEntryDto}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.DomainId
+  commentId: P:NVAPIWrapper.NVAPIPstateClockEntryDto.DomainId
+  id: DomainId
+  parent: NVAPIWrapper.NVAPIPstateClockEntryDto
+  langs:
+  - csharp
+  - vb
+  name: DomainId
+  nameWithType: NVAPIPstateClockEntryDto.DomainId
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.DomainId
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: DomainId
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3866
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Clock domain identifier.
+  example: []
+  syntax:
+    content: public _NV_GPU_PUBLIC_CLOCK_ID DomainId { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID
+    content.vb: Public Property DomainId As _NV_GPU_PUBLIC_CLOCK_ID
+  overload: NVAPIWrapper.NVAPIPstateClockEntryDto.DomainId*
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.TypeId
+  commentId: P:NVAPIWrapper.NVAPIPstateClockEntryDto.TypeId
+  id: TypeId
+  parent: NVAPIWrapper.NVAPIPstateClockEntryDto
+  langs:
+  - csharp
+  - vb
+  name: TypeId
+  nameWithType: NVAPIPstateClockEntryDto.TypeId
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.TypeId
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: TypeId
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3868
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Clock type (single frequency or frequency range).
+  example: []
+  syntax:
+    content: public NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID TypeId { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper.NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID
+    content.vb: Public Property TypeId As NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID
+  overload: NVAPIWrapper.NVAPIPstateClockEntryDto.TypeId*
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.IsEditable
+  commentId: P:NVAPIWrapper.NVAPIPstateClockEntryDto.IsEditable
+  id: IsEditable
+  parent: NVAPIWrapper.NVAPIPstateClockEntryDto
+  langs:
+  - csharp
+  - vb
+  name: IsEditable
+  nameWithType: NVAPIPstateClockEntryDto.IsEditable
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.IsEditable
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: IsEditable
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3870
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: True if this clock entry is editable.
+  example: []
+  syntax:
+    content: public bool IsEditable { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsEditable As Boolean
+  overload: NVAPIWrapper.NVAPIPstateClockEntryDto.IsEditable*
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.FreqDeltaValue
+  commentId: P:NVAPIWrapper.NVAPIPstateClockEntryDto.FreqDeltaValue
+  id: FreqDeltaValue
+  parent: NVAPIWrapper.NVAPIPstateClockEntryDto
+  langs:
+  - csharp
+  - vb
+  name: FreqDeltaValue
+  nameWithType: NVAPIPstateClockEntryDto.FreqDeltaValue
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.FreqDeltaValue
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FreqDeltaValue
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3872
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Current frequency delta adjustment in kHz.
+  example: []
+  syntax:
+    content: public int FreqDeltaValue { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FreqDeltaValue As Integer
+  overload: NVAPIWrapper.NVAPIPstateClockEntryDto.FreqDeltaValue*
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.FreqDeltaMin
+  commentId: P:NVAPIWrapper.NVAPIPstateClockEntryDto.FreqDeltaMin
+  id: FreqDeltaMin
+  parent: NVAPIWrapper.NVAPIPstateClockEntryDto
+  langs:
+  - csharp
+  - vb
+  name: FreqDeltaMin
+  nameWithType: NVAPIPstateClockEntryDto.FreqDeltaMin
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.FreqDeltaMin
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FreqDeltaMin
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3874
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Minimum allowed frequency delta in kHz.
+  example: []
+  syntax:
+    content: public int FreqDeltaMin { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FreqDeltaMin As Integer
+  overload: NVAPIWrapper.NVAPIPstateClockEntryDto.FreqDeltaMin*
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.FreqDeltaMax
+  commentId: P:NVAPIWrapper.NVAPIPstateClockEntryDto.FreqDeltaMax
+  id: FreqDeltaMax
+  parent: NVAPIWrapper.NVAPIPstateClockEntryDto
+  langs:
+  - csharp
+  - vb
+  name: FreqDeltaMax
+  nameWithType: NVAPIPstateClockEntryDto.FreqDeltaMax
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.FreqDeltaMax
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FreqDeltaMax
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3876
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Maximum allowed frequency delta in kHz.
+  example: []
+  syntax:
+    content: public int FreqDeltaMax { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FreqDeltaMax As Integer
+  overload: NVAPIWrapper.NVAPIPstateClockEntryDto.FreqDeltaMax*
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.MinFreqKHz
+  commentId: P:NVAPIWrapper.NVAPIPstateClockEntryDto.MinFreqKHz
+  id: MinFreqKHz
+  parent: NVAPIWrapper.NVAPIPstateClockEntryDto
+  langs:
+  - csharp
+  - vb
+  name: MinFreqKHz
+  nameWithType: NVAPIPstateClockEntryDto.MinFreqKHz
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.MinFreqKHz
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: MinFreqKHz
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3881
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: >-
+    Minimum frequency in kHz. For <code>SINGLE</code> type, this is the single frequency value
+
+    (overlaps <code>data.single.freq_kHz</code>). For <code>RANGE</code> type, this is the minimum.
+  example: []
+  syntax:
+    content: public uint MinFreqKHz { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property MinFreqKHz As UInteger
+  overload: NVAPIWrapper.NVAPIPstateClockEntryDto.MinFreqKHz*
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.MaxFreqKHz
+  commentId: P:NVAPIWrapper.NVAPIPstateClockEntryDto.MaxFreqKHz
+  id: MaxFreqKHz
+  parent: NVAPIWrapper.NVAPIPstateClockEntryDto
+  langs:
+  - csharp
+  - vb
+  name: MaxFreqKHz
+  nameWithType: NVAPIPstateClockEntryDto.MaxFreqKHz
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.MaxFreqKHz
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: MaxFreqKHz
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3883
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Maximum frequency in kHz; valid only for <code>RANGE</code> type.
+  example: []
+  syntax:
+    content: public uint MaxFreqKHz { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property MaxFreqKHz As UInteger
+  overload: NVAPIWrapper.NVAPIPstateClockEntryDto.MaxFreqKHz*
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.RangeVoltageDomainId
+  commentId: P:NVAPIWrapper.NVAPIPstateClockEntryDto.RangeVoltageDomainId
+  id: RangeVoltageDomainId
+  parent: NVAPIWrapper.NVAPIPstateClockEntryDto
+  langs:
+  - csharp
+  - vb
+  name: RangeVoltageDomainId
+  nameWithType: NVAPIPstateClockEntryDto.RangeVoltageDomainId
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.RangeVoltageDomainId
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: RangeVoltageDomainId
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3885
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Voltage domain identifier; valid only for <code>RANGE</code> type.
+  example: []
+  syntax:
+    content: public _NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID RangeVoltageDomainId { readonly get; set; }
+    parameters: []
+    return:
+      type: NVAPIWrapper._NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID
+    content.vb: Public Property RangeVoltageDomainId As _NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID
+  overload: NVAPIWrapper.NVAPIPstateClockEntryDto.RangeVoltageDomainId*
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.RangeMinVoltageUv
+  commentId: P:NVAPIWrapper.NVAPIPstateClockEntryDto.RangeMinVoltageUv
+  id: RangeMinVoltageUv
+  parent: NVAPIWrapper.NVAPIPstateClockEntryDto
+  langs:
+  - csharp
+  - vb
+  name: RangeMinVoltageUv
+  nameWithType: NVAPIPstateClockEntryDto.RangeMinVoltageUv
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.RangeMinVoltageUv
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: RangeMinVoltageUv
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3887
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Minimum voltage in microvolts; valid only for <code>RANGE</code> type.
+  example: []
+  syntax:
+    content: public uint RangeMinVoltageUv { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property RangeMinVoltageUv As UInteger
+  overload: NVAPIWrapper.NVAPIPstateClockEntryDto.RangeMinVoltageUv*
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.RangeMaxVoltageUv
+  commentId: P:NVAPIWrapper.NVAPIPstateClockEntryDto.RangeMaxVoltageUv
+  id: RangeMaxVoltageUv
+  parent: NVAPIWrapper.NVAPIPstateClockEntryDto
+  langs:
+  - csharp
+  - vb
+  name: RangeMaxVoltageUv
+  nameWithType: NVAPIPstateClockEntryDto.RangeMaxVoltageUv
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.RangeMaxVoltageUv
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: RangeMaxVoltageUv
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3889
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Maximum voltage in microvolts; valid only for <code>RANGE</code> type.
+  example: []
+  syntax:
+    content: public uint RangeMaxVoltageUv { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property RangeMaxVoltageUv As UInteger
+  overload: NVAPIWrapper.NVAPIPstateClockEntryDto.RangeMaxVoltageUv*
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.#ctor(NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID,NVAPIWrapper.NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID,System.Boolean,System.Int32,System.Int32,System.Int32,System.UInt32,System.UInt32,NVAPIWrapper._NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID,System.UInt32,System.UInt32)
+  commentId: M:NVAPIWrapper.NVAPIPstateClockEntryDto.#ctor(NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID,NVAPIWrapper.NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID,System.Boolean,System.Int32,System.Int32,System.Int32,System.UInt32,System.UInt32,NVAPIWrapper._NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID,System.UInt32,System.UInt32)
+  id: '#ctor(NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID,NVAPIWrapper.NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID,System.Boolean,System.Int32,System.Int32,System.Int32,System.UInt32,System.UInt32,NVAPIWrapper._NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID,System.UInt32,System.UInt32)'
+  parent: NVAPIWrapper.NVAPIPstateClockEntryDto
+  langs:
+  - csharp
+  - vb
+  name: NVAPIPstateClockEntryDto(_NV_GPU_PUBLIC_CLOCK_ID, NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID, bool, int, int, int, uint, uint, _NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID, uint, uint)
+  nameWithType: NVAPIPstateClockEntryDto.NVAPIPstateClockEntryDto(_NV_GPU_PUBLIC_CLOCK_ID, NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID, bool, int, int, int, uint, uint, _NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID, uint, uint)
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.NVAPIPstateClockEntryDto(NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID, NVAPIWrapper.NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID, bool, int, int, int, uint, uint, NVAPIWrapper._NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID, uint, uint)
+  type: Constructor
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: .ctor
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3892
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Initializes a new instance of <xref href="NVAPIWrapper.NVAPIPstateClockEntryDto" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public NVAPIPstateClockEntryDto(_NV_GPU_PUBLIC_CLOCK_ID domainId, NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID typeId, bool isEditable, int freqDeltaValue, int freqDeltaMin, int freqDeltaMax, uint minFreqKHz, uint maxFreqKHz, _NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID rangeVoltageDomainId, uint rangeMinVoltageUv, uint rangeMaxVoltageUv)
+    parameters:
+    - id: domainId
+      type: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID
+    - id: typeId
+      type: NVAPIWrapper.NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID
+    - id: isEditable
+      type: System.Boolean
+    - id: freqDeltaValue
+      type: System.Int32
+    - id: freqDeltaMin
+      type: System.Int32
+    - id: freqDeltaMax
+      type: System.Int32
+    - id: minFreqKHz
+      type: System.UInt32
+    - id: maxFreqKHz
+      type: System.UInt32
+    - id: rangeVoltageDomainId
+      type: NVAPIWrapper._NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID
+    - id: rangeMinVoltageUv
+      type: System.UInt32
+    - id: rangeMaxVoltageUv
+      type: System.UInt32
+    content.vb: Public Sub New(domainId As _NV_GPU_PUBLIC_CLOCK_ID, typeId As NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID, isEditable As Boolean, freqDeltaValue As Integer, freqDeltaMin As Integer, freqDeltaMax As Integer, minFreqKHz As UInteger, maxFreqKHz As UInteger, rangeVoltageDomainId As _NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID, rangeMinVoltageUv As UInteger, rangeMaxVoltageUv As UInteger)
+  overload: NVAPIWrapper.NVAPIPstateClockEntryDto.#ctor*
+  nameWithType.vb: NVAPIPstateClockEntryDto.New(_NV_GPU_PUBLIC_CLOCK_ID, NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID, Boolean, Integer, Integer, Integer, UInteger, UInteger, _NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID, UInteger, UInteger)
+  fullName.vb: NVAPIWrapper.NVAPIPstateClockEntryDto.New(NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID, NVAPIWrapper.NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID, Boolean, Integer, Integer, Integer, UInteger, UInteger, NVAPIWrapper._NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID, UInteger, UInteger)
+  name.vb: New(_NV_GPU_PUBLIC_CLOCK_ID, NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID, Boolean, Integer, Integer, Integer, UInteger, UInteger, _NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID, UInteger, UInteger)
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.FromNative(NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1)
+  commentId: M:NVAPIWrapper.NVAPIPstateClockEntryDto.FromNative(NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1)
+  id: FromNative(NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1)
+  parent: NVAPIWrapper.NVAPIPstateClockEntryDto
+  langs:
+  - csharp
+  - vb
+  name: FromNative(NV_GPU_PSTATE20_CLOCK_ENTRY_V1)
+  nameWithType: NVAPIPstateClockEntryDto.FromNative(NV_GPU_PSTATE20_CLOCK_ENTRY_V1)
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.FromNative(NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: FromNative
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3908
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Creates a DTO from the native <xref href="NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1" data-throw-if-not-resolved="false"></xref> struct.
+  example: []
+  syntax:
+    content: public static NVAPIPstateClockEntryDto FromNative(NV_GPU_PSTATE20_CLOCK_ENTRY_V1 native)
+    parameters:
+    - id: native
+      type: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+    return:
+      type: NVAPIWrapper.NVAPIPstateClockEntryDto
+    content.vb: Public Shared Function FromNative(native As NV_GPU_PSTATE20_CLOCK_ENTRY_V1) As NVAPIPstateClockEntryDto
+  overload: NVAPIWrapper.NVAPIPstateClockEntryDto.FromNative*
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.ToNative
+  commentId: M:NVAPIWrapper.NVAPIPstateClockEntryDto.ToNative
+  id: ToNative
+  parent: NVAPIWrapper.NVAPIPstateClockEntryDto
+  langs:
+  - csharp
+  - vb
+  name: ToNative()
+  nameWithType: NVAPIPstateClockEntryDto.ToNative()
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.ToNative()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: ToNative
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3925
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Converts this DTO back to the native <xref href="NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1" data-throw-if-not-resolved="false"></xref> struct.
+  example: []
+  syntax:
+    content: public NV_GPU_PSTATE20_CLOCK_ENTRY_V1 ToNative()
+    return:
+      type: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+    content.vb: Public Function ToNative() As NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+  overload: NVAPIWrapper.NVAPIPstateClockEntryDto.ToNative*
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.Equals(NVAPIWrapper.NVAPIPstateClockEntryDto)
+  commentId: M:NVAPIWrapper.NVAPIPstateClockEntryDto.Equals(NVAPIWrapper.NVAPIPstateClockEntryDto)
+  id: Equals(NVAPIWrapper.NVAPIPstateClockEntryDto)
+  parent: NVAPIWrapper.NVAPIPstateClockEntryDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(NVAPIPstateClockEntryDto)
+  nameWithType: NVAPIPstateClockEntryDto.Equals(NVAPIPstateClockEntryDto)
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.Equals(NVAPIWrapper.NVAPIPstateClockEntryDto)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3941
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(NVAPIPstateClockEntryDto other)
+    parameters:
+    - id: other
+      type: NVAPIWrapper.NVAPIPstateClockEntryDto
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As NVAPIPstateClockEntryDto) As Boolean
+  overload: NVAPIWrapper.NVAPIPstateClockEntryDto.Equals*
+  implements:
+  - System.IEquatable{NVAPIWrapper.NVAPIPstateClockEntryDto}.Equals(NVAPIWrapper.NVAPIPstateClockEntryDto)
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.Equals(System.Object)
+  commentId: M:NVAPIWrapper.NVAPIPstateClockEntryDto.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NVAPIWrapper.NVAPIPstateClockEntryDto
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NVAPIPstateClockEntryDto.Equals(object?)
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: Equals
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3949
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: NVAPIWrapper.NVAPIPstateClockEntryDto.Equals*
+  nameWithType.vb: NVAPIPstateClockEntryDto.Equals(Object)
+  fullName.vb: NVAPIWrapper.NVAPIPstateClockEntryDto.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.GetHashCode
+  commentId: M:NVAPIWrapper.NVAPIPstateClockEntryDto.GetHashCode
+  id: GetHashCode
+  parent: NVAPIWrapper.NVAPIPstateClockEntryDto
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NVAPIPstateClockEntryDto.GetHashCode()
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: GetHashCode
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3951
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: NVAPIWrapper.NVAPIPstateClockEntryDto.GetHashCode*
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.op_Equality(NVAPIWrapper.NVAPIPstateClockEntryDto,NVAPIWrapper.NVAPIPstateClockEntryDto)
+  commentId: M:NVAPIWrapper.NVAPIPstateClockEntryDto.op_Equality(NVAPIWrapper.NVAPIPstateClockEntryDto,NVAPIWrapper.NVAPIPstateClockEntryDto)
+  id: op_Equality(NVAPIWrapper.NVAPIPstateClockEntryDto,NVAPIWrapper.NVAPIPstateClockEntryDto)
+  parent: NVAPIWrapper.NVAPIPstateClockEntryDto
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NVAPIPstateClockEntryDto, NVAPIPstateClockEntryDto)
+  nameWithType: NVAPIPstateClockEntryDto.operator ==(NVAPIPstateClockEntryDto, NVAPIPstateClockEntryDto)
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.operator ==(NVAPIWrapper.NVAPIPstateClockEntryDto, NVAPIWrapper.NVAPIPstateClockEntryDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Equality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3953
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Equality operator.
+  example: []
+  syntax:
+    content: public static bool operator ==(NVAPIPstateClockEntryDto left, NVAPIPstateClockEntryDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIPstateClockEntryDto
+    - id: right
+      type: NVAPIWrapper.NVAPIPstateClockEntryDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As NVAPIPstateClockEntryDto, right As NVAPIPstateClockEntryDto) As Boolean
+  overload: NVAPIWrapper.NVAPIPstateClockEntryDto.op_Equality*
+  nameWithType.vb: NVAPIPstateClockEntryDto.=(NVAPIPstateClockEntryDto, NVAPIPstateClockEntryDto)
+  fullName.vb: NVAPIWrapper.NVAPIPstateClockEntryDto.=(NVAPIWrapper.NVAPIPstateClockEntryDto, NVAPIWrapper.NVAPIPstateClockEntryDto)
+  name.vb: =(NVAPIPstateClockEntryDto, NVAPIPstateClockEntryDto)
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.op_Inequality(NVAPIWrapper.NVAPIPstateClockEntryDto,NVAPIWrapper.NVAPIPstateClockEntryDto)
+  commentId: M:NVAPIWrapper.NVAPIPstateClockEntryDto.op_Inequality(NVAPIWrapper.NVAPIPstateClockEntryDto,NVAPIWrapper.NVAPIPstateClockEntryDto)
+  id: op_Inequality(NVAPIWrapper.NVAPIPstateClockEntryDto,NVAPIWrapper.NVAPIPstateClockEntryDto)
+  parent: NVAPIWrapper.NVAPIPstateClockEntryDto
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NVAPIPstateClockEntryDto, NVAPIPstateClockEntryDto)
+  nameWithType: NVAPIPstateClockEntryDto.operator !=(NVAPIPstateClockEntryDto, NVAPIPstateClockEntryDto)
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.operator !=(NVAPIWrapper.NVAPIPstateClockEntryDto, NVAPIWrapper.NVAPIPstateClockEntryDto)
+  type: Operator
+  source:
+    remote:
+      path: NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: op_Inequality
+    path: ../NVAPIWrapper/NVAPIPhysicalGpuHelper.cs
+    startLine: 3955
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  summary: Inequality operator.
+  example: []
+  syntax:
+    content: public static bool operator !=(NVAPIPstateClockEntryDto left, NVAPIPstateClockEntryDto right)
+    parameters:
+    - id: left
+      type: NVAPIWrapper.NVAPIPstateClockEntryDto
+    - id: right
+      type: NVAPIWrapper.NVAPIPstateClockEntryDto
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As NVAPIPstateClockEntryDto, right As NVAPIPstateClockEntryDto) As Boolean
+  overload: NVAPIWrapper.NVAPIPstateClockEntryDto.op_Inequality*
+  nameWithType.vb: NVAPIPstateClockEntryDto.<>(NVAPIPstateClockEntryDto, NVAPIPstateClockEntryDto)
+  fullName.vb: NVAPIWrapper.NVAPIPstateClockEntryDto.<>(NVAPIWrapper.NVAPIPstateClockEntryDto, NVAPIWrapper.NVAPIPstateClockEntryDto)
+  name.vb: <>(NVAPIPstateClockEntryDto, NVAPIPstateClockEntryDto)
+references:
+- uid: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+  commentId: T:NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1.html
+  name: NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+  nameWithType: NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+  fullName: NVAPIWrapper.NV_GPU_PSTATE20_CLOCK_ENTRY_V1
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.IEquatable{NVAPIWrapper.NVAPIPstateClockEntryDto}
+  commentId: T:System.IEquatable{NVAPIWrapper.NVAPIPstateClockEntryDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NVAPIPstateClockEntryDto>
+  nameWithType: IEquatable<NVAPIPstateClockEntryDto>
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIPstateClockEntryDto>
+  nameWithType.vb: IEquatable(Of NVAPIPstateClockEntryDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIPstateClockEntryDto)
+  name.vb: IEquatable(Of NVAPIPstateClockEntryDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NVAPIWrapper.NVAPIPstateClockEntryDto
+    name: NVAPIPstateClockEntryDto
+    href: NVAPIWrapper.NVAPIPstateClockEntryDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIPstateClockEntryDto
+    name: NVAPIPstateClockEntryDto
+    href: NVAPIWrapper.NVAPIPstateClockEntryDto.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.DomainId*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateClockEntryDto.DomainId
+  href: NVAPIWrapper.NVAPIPstateClockEntryDto.html#NVAPIWrapper_NVAPIPstateClockEntryDto_DomainId
+  name: DomainId
+  nameWithType: NVAPIPstateClockEntryDto.DomainId
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.DomainId
+- uid: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID
+  commentId: T:NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID.html
+  name: _NV_GPU_PUBLIC_CLOCK_ID
+  nameWithType: _NV_GPU_PUBLIC_CLOCK_ID
+  fullName: NVAPIWrapper._NV_GPU_PUBLIC_CLOCK_ID
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.TypeId*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateClockEntryDto.TypeId
+  href: NVAPIWrapper.NVAPIPstateClockEntryDto.html#NVAPIWrapper_NVAPIPstateClockEntryDto_TypeId
+  name: TypeId
+  nameWithType: NVAPIPstateClockEntryDto.TypeId
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.TypeId
+- uid: NVAPIWrapper.NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID
+  commentId: T:NVAPIWrapper.NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID.html
+  name: NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID
+  nameWithType: NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID
+  fullName: NVAPIWrapper.NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.IsEditable*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateClockEntryDto.IsEditable
+  href: NVAPIWrapper.NVAPIPstateClockEntryDto.html#NVAPIWrapper_NVAPIPstateClockEntryDto_IsEditable
+  name: IsEditable
+  nameWithType: NVAPIPstateClockEntryDto.IsEditable
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.IsEditable
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.FreqDeltaValue*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateClockEntryDto.FreqDeltaValue
+  href: NVAPIWrapper.NVAPIPstateClockEntryDto.html#NVAPIWrapper_NVAPIPstateClockEntryDto_FreqDeltaValue
+  name: FreqDeltaValue
+  nameWithType: NVAPIPstateClockEntryDto.FreqDeltaValue
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.FreqDeltaValue
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.FreqDeltaMin*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateClockEntryDto.FreqDeltaMin
+  href: NVAPIWrapper.NVAPIPstateClockEntryDto.html#NVAPIWrapper_NVAPIPstateClockEntryDto_FreqDeltaMin
+  name: FreqDeltaMin
+  nameWithType: NVAPIPstateClockEntryDto.FreqDeltaMin
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.FreqDeltaMin
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.FreqDeltaMax*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateClockEntryDto.FreqDeltaMax
+  href: NVAPIWrapper.NVAPIPstateClockEntryDto.html#NVAPIWrapper_NVAPIPstateClockEntryDto_FreqDeltaMax
+  name: FreqDeltaMax
+  nameWithType: NVAPIPstateClockEntryDto.FreqDeltaMax
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.FreqDeltaMax
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.MinFreqKHz*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateClockEntryDto.MinFreqKHz
+  href: NVAPIWrapper.NVAPIPstateClockEntryDto.html#NVAPIWrapper_NVAPIPstateClockEntryDto_MinFreqKHz
+  name: MinFreqKHz
+  nameWithType: NVAPIPstateClockEntryDto.MinFreqKHz
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.MinFreqKHz
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.MaxFreqKHz*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateClockEntryDto.MaxFreqKHz
+  href: NVAPIWrapper.NVAPIPstateClockEntryDto.html#NVAPIWrapper_NVAPIPstateClockEntryDto_MaxFreqKHz
+  name: MaxFreqKHz
+  nameWithType: NVAPIPstateClockEntryDto.MaxFreqKHz
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.MaxFreqKHz
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.RangeVoltageDomainId*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateClockEntryDto.RangeVoltageDomainId
+  href: NVAPIWrapper.NVAPIPstateClockEntryDto.html#NVAPIWrapper_NVAPIPstateClockEntryDto_RangeVoltageDomainId
+  name: RangeVoltageDomainId
+  nameWithType: NVAPIPstateClockEntryDto.RangeVoltageDomainId
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.RangeVoltageDomainId
+- uid: NVAPIWrapper._NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID
+  commentId: T:NVAPIWrapper._NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID.html
+  name: _NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID
+  nameWithType: _NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID
+  fullName: NVAPIWrapper._NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.RangeMinVoltageUv*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateClockEntryDto.RangeMinVoltageUv
+  href: NVAPIWrapper.NVAPIPstateClockEntryDto.html#NVAPIWrapper_NVAPIPstateClockEntryDto_RangeMinVoltageUv
+  name: RangeMinVoltageUv
+  nameWithType: NVAPIPstateClockEntryDto.RangeMinVoltageUv
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.RangeMinVoltageUv
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.RangeMaxVoltageUv*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateClockEntryDto.RangeMaxVoltageUv
+  href: NVAPIWrapper.NVAPIPstateClockEntryDto.html#NVAPIWrapper_NVAPIPstateClockEntryDto_RangeMaxVoltageUv
+  name: RangeMaxVoltageUv
+  nameWithType: NVAPIPstateClockEntryDto.RangeMaxVoltageUv
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.RangeMaxVoltageUv
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto
+  commentId: T:NVAPIWrapper.NVAPIPstateClockEntryDto
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NVAPIPstateClockEntryDto.html
+  name: NVAPIPstateClockEntryDto
+  nameWithType: NVAPIPstateClockEntryDto
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.#ctor*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateClockEntryDto.#ctor
+  href: NVAPIWrapper.NVAPIPstateClockEntryDto.html#NVAPIWrapper_NVAPIPstateClockEntryDto__ctor_NVAPIWrapper__NV_GPU_PUBLIC_CLOCK_ID_NVAPIWrapper_NV_GPU_PERF_PSTATE20_CLOCK_TYPE_ID_System_Boolean_System_Int32_System_Int32_System_Int32_System_UInt32_System_UInt32_NVAPIWrapper__NV_GPU_PERF_VOLTAGE_INFO_DOMAIN_ID_System_UInt32_System_UInt32_
+  name: NVAPIPstateClockEntryDto
+  nameWithType: NVAPIPstateClockEntryDto.NVAPIPstateClockEntryDto
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.NVAPIPstateClockEntryDto
+  nameWithType.vb: NVAPIPstateClockEntryDto.New
+  fullName.vb: NVAPIWrapper.NVAPIPstateClockEntryDto.New
+  name.vb: New
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.FromNative*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateClockEntryDto.FromNative
+  href: NVAPIWrapper.NVAPIPstateClockEntryDto.html#NVAPIWrapper_NVAPIPstateClockEntryDto_FromNative_NVAPIWrapper_NV_GPU_PSTATE20_CLOCK_ENTRY_V1_
+  name: FromNative
+  nameWithType: NVAPIPstateClockEntryDto.FromNative
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.FromNative
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.ToNative*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateClockEntryDto.ToNative
+  href: NVAPIWrapper.NVAPIPstateClockEntryDto.html#NVAPIWrapper_NVAPIPstateClockEntryDto_ToNative
+  name: ToNative
+  nameWithType: NVAPIPstateClockEntryDto.ToNative
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.ToNative
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.Equals*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateClockEntryDto.Equals
+  href: NVAPIWrapper.NVAPIPstateClockEntryDto.html#NVAPIWrapper_NVAPIPstateClockEntryDto_Equals_NVAPIWrapper_NVAPIPstateClockEntryDto_
+  name: Equals
+  nameWithType: NVAPIPstateClockEntryDto.Equals
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.Equals
+- uid: System.IEquatable{NVAPIWrapper.NVAPIPstateClockEntryDto}.Equals(NVAPIWrapper.NVAPIPstateClockEntryDto)
+  commentId: M:System.IEquatable{NVAPIWrapper.NVAPIPstateClockEntryDto}.Equals(NVAPIWrapper.NVAPIPstateClockEntryDto)
+  parent: System.IEquatable{NVAPIWrapper.NVAPIPstateClockEntryDto}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NVAPIPstateClockEntryDto)
+  nameWithType: IEquatable<NVAPIPstateClockEntryDto>.Equals(NVAPIPstateClockEntryDto)
+  fullName: System.IEquatable<NVAPIWrapper.NVAPIPstateClockEntryDto>.Equals(NVAPIWrapper.NVAPIPstateClockEntryDto)
+  nameWithType.vb: IEquatable(Of NVAPIPstateClockEntryDto).Equals(NVAPIPstateClockEntryDto)
+  fullName.vb: System.IEquatable(Of NVAPIWrapper.NVAPIPstateClockEntryDto).Equals(NVAPIWrapper.NVAPIPstateClockEntryDto)
+  spec.csharp:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIPstateClockEntryDto}.Equals(NVAPIWrapper.NVAPIPstateClockEntryDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIPstateClockEntryDto
+    name: NVAPIPstateClockEntryDto
+    href: NVAPIWrapper.NVAPIPstateClockEntryDto.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NVAPIWrapper.NVAPIPstateClockEntryDto}.Equals(NVAPIWrapper.NVAPIPstateClockEntryDto)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NVAPIWrapper.NVAPIPstateClockEntryDto
+    name: NVAPIPstateClockEntryDto
+    href: NVAPIWrapper.NVAPIPstateClockEntryDto.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.GetHashCode*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateClockEntryDto.GetHashCode
+  href: NVAPIWrapper.NVAPIPstateClockEntryDto.html#NVAPIWrapper_NVAPIPstateClockEntryDto_GetHashCode
+  name: GetHashCode
+  nameWithType: NVAPIPstateClockEntryDto.GetHashCode
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.GetHashCode
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.op_Equality*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateClockEntryDto.op_Equality
+  href: NVAPIWrapper.NVAPIPstateClockEntryDto.html#NVAPIWrapper_NVAPIPstateClockEntryDto_op_Equality_NVAPIWrapper_NVAPIPstateClockEntryDto_NVAPIWrapper_NVAPIPstateClockEntryDto_
+  name: operator ==
+  nameWithType: NVAPIPstateClockEntryDto.operator ==
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.operator ==
+  nameWithType.vb: NVAPIPstateClockEntryDto.=
+  fullName.vb: NVAPIWrapper.NVAPIPstateClockEntryDto.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIPstateClockEntryDto.op_Equality*
+    name: ==
+    href: NVAPIWrapper.NVAPIPstateClockEntryDto.html#NVAPIWrapper_NVAPIPstateClockEntryDto_op_Equality_NVAPIWrapper_NVAPIPstateClockEntryDto_NVAPIWrapper_NVAPIPstateClockEntryDto_
+- uid: NVAPIWrapper.NVAPIPstateClockEntryDto.op_Inequality*
+  commentId: Overload:NVAPIWrapper.NVAPIPstateClockEntryDto.op_Inequality
+  href: NVAPIWrapper.NVAPIPstateClockEntryDto.html#NVAPIWrapper_NVAPIPstateClockEntryDto_op_Inequality_NVAPIWrapper_NVAPIPstateClockEntryDto_NVAPIWrapper_NVAPIPstateClockEntryDto_
+  name: operator !=
+  nameWithType: NVAPIPstateClockEntryDto.operator !=
+  fullName: NVAPIWrapper.NVAPIPstateClockEntryDto.operator !=
+  nameWithType.vb: NVAPIPstateClockEntryDto.<>
+  fullName.vb: NVAPIWrapper.NVAPIPstateClockEntryDto.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: NVAPIWrapper.NVAPIPstateClockEntryDto.op_Inequality*
+    name: '!='
+    href: NVAPIWrapper.NVAPIPstateClockEntryDto.html#NVAPIWrapper_NVAPIPstateClockEntryDto_op_Inequality_NVAPIWrapper_NVAPIPstateClockEntryDto_NVAPIWrapper_NVAPIPstateClockEntryDto_

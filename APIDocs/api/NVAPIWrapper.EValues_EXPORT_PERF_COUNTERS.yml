@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS
+  commentId: T:NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS
+  id: EValues_EXPORT_PERF_COUNTERS
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS.EXPORT_PERF_COUNTERS_DEFAULT
+  - NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS.EXPORT_PERF_COUNTERS_NUM_VALUES
+  - NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS.EXPORT_PERF_COUNTERS_OFF
+  - NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS.EXPORT_PERF_COUNTERS_ON
+  langs:
+  - csharp
+  - vb
+  name: EValues_EXPORT_PERF_COUNTERS
+  nameWithType: EValues_EXPORT_PERF_COUNTERS
+  fullName: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_EXPORT_PERF_COUNTERS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_EXPORT_PERF_COUNTERS
+    path: ../NVAPIWrapper/cs_generated/EValues_EXPORT_PERF_COUNTERS.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_EXPORT_PERF_COUNTERS
+    content.vb: Public Enum EValues_EXPORT_PERF_COUNTERS
+- uid: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS.EXPORT_PERF_COUNTERS_OFF
+  commentId: F:NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS.EXPORT_PERF_COUNTERS_OFF
+  id: EXPORT_PERF_COUNTERS_OFF
+  parent: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS
+  langs:
+  - csharp
+  - vb
+  name: EXPORT_PERF_COUNTERS_OFF
+  nameWithType: EValues_EXPORT_PERF_COUNTERS.EXPORT_PERF_COUNTERS_OFF
+  fullName: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS.EXPORT_PERF_COUNTERS_OFF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_EXPORT_PERF_COUNTERS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EXPORT_PERF_COUNTERS_OFF
+    path: ../NVAPIWrapper/cs_generated/EValues_EXPORT_PERF_COUNTERS.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: EXPORT_PERF_COUNTERS_OFF = 0
+    return:
+      type: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS
+- uid: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS.EXPORT_PERF_COUNTERS_ON
+  commentId: F:NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS.EXPORT_PERF_COUNTERS_ON
+  id: EXPORT_PERF_COUNTERS_ON
+  parent: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS
+  langs:
+  - csharp
+  - vb
+  name: EXPORT_PERF_COUNTERS_ON
+  nameWithType: EValues_EXPORT_PERF_COUNTERS.EXPORT_PERF_COUNTERS_ON
+  fullName: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS.EXPORT_PERF_COUNTERS_ON
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_EXPORT_PERF_COUNTERS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EXPORT_PERF_COUNTERS_ON
+    path: ../NVAPIWrapper/cs_generated/EValues_EXPORT_PERF_COUNTERS.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: EXPORT_PERF_COUNTERS_ON = 1
+    return:
+      type: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS
+- uid: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS.EXPORT_PERF_COUNTERS_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS.EXPORT_PERF_COUNTERS_NUM_VALUES
+  id: EXPORT_PERF_COUNTERS_NUM_VALUES
+  parent: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS
+  langs:
+  - csharp
+  - vb
+  name: EXPORT_PERF_COUNTERS_NUM_VALUES
+  nameWithType: EValues_EXPORT_PERF_COUNTERS.EXPORT_PERF_COUNTERS_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS.EXPORT_PERF_COUNTERS_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_EXPORT_PERF_COUNTERS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EXPORT_PERF_COUNTERS_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_EXPORT_PERF_COUNTERS.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: EXPORT_PERF_COUNTERS_NUM_VALUES = 2
+    return:
+      type: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS
+- uid: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS.EXPORT_PERF_COUNTERS_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS.EXPORT_PERF_COUNTERS_DEFAULT
+  id: EXPORT_PERF_COUNTERS_DEFAULT
+  parent: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS
+  langs:
+  - csharp
+  - vb
+  name: EXPORT_PERF_COUNTERS_DEFAULT
+  nameWithType: EValues_EXPORT_PERF_COUNTERS.EXPORT_PERF_COUNTERS_DEFAULT
+  fullName: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS.EXPORT_PERF_COUNTERS_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_EXPORT_PERF_COUNTERS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EXPORT_PERF_COUNTERS_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_EXPORT_PERF_COUNTERS.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: EXPORT_PERF_COUNTERS_DEFAULT = 0
+    return:
+      type: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS
+  commentId: T:NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS.html
+  name: EValues_EXPORT_PERF_COUNTERS
+  nameWithType: EValues_EXPORT_PERF_COUNTERS
+  fullName: NVAPIWrapper.EValues_EXPORT_PERF_COUNTERS

@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_DP_DYNAMIC_RANGE
+  commentId: T:NVAPIWrapper._NV_DP_DYNAMIC_RANGE
+  id: _NV_DP_DYNAMIC_RANGE
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_DP_DYNAMIC_RANGE.NV_DP_DYNAMIC_RANGE_CEA
+  - NVAPIWrapper._NV_DP_DYNAMIC_RANGE.NV_DP_DYNAMIC_RANGE_VESA
+  langs:
+  - csharp
+  - vb
+  name: _NV_DP_DYNAMIC_RANGE
+  nameWithType: _NV_DP_DYNAMIC_RANGE
+  fullName: NVAPIWrapper._NV_DP_DYNAMIC_RANGE
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP_DYNAMIC_RANGE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_DP_DYNAMIC_RANGE
+    path: ../NVAPIWrapper/cs_generated/_NV_DP_DYNAMIC_RANGE.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum _NV_DP_DYNAMIC_RANGE
+    content.vb: Public Enum _NV_DP_DYNAMIC_RANGE
+- uid: NVAPIWrapper._NV_DP_DYNAMIC_RANGE.NV_DP_DYNAMIC_RANGE_VESA
+  commentId: F:NVAPIWrapper._NV_DP_DYNAMIC_RANGE.NV_DP_DYNAMIC_RANGE_VESA
+  id: NV_DP_DYNAMIC_RANGE_VESA
+  parent: NVAPIWrapper._NV_DP_DYNAMIC_RANGE
+  langs:
+  - csharp
+  - vb
+  name: NV_DP_DYNAMIC_RANGE_VESA
+  nameWithType: _NV_DP_DYNAMIC_RANGE.NV_DP_DYNAMIC_RANGE_VESA
+  fullName: NVAPIWrapper._NV_DP_DYNAMIC_RANGE.NV_DP_DYNAMIC_RANGE_VESA
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP_DYNAMIC_RANGE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DP_DYNAMIC_RANGE_VESA
+    path: ../NVAPIWrapper/cs_generated/_NV_DP_DYNAMIC_RANGE.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DP_DYNAMIC_RANGE_VESA = 0
+    return:
+      type: NVAPIWrapper._NV_DP_DYNAMIC_RANGE
+- uid: NVAPIWrapper._NV_DP_DYNAMIC_RANGE.NV_DP_DYNAMIC_RANGE_CEA
+  commentId: F:NVAPIWrapper._NV_DP_DYNAMIC_RANGE.NV_DP_DYNAMIC_RANGE_CEA
+  id: NV_DP_DYNAMIC_RANGE_CEA
+  parent: NVAPIWrapper._NV_DP_DYNAMIC_RANGE
+  langs:
+  - csharp
+  - vb
+  name: NV_DP_DYNAMIC_RANGE_CEA
+  nameWithType: _NV_DP_DYNAMIC_RANGE.NV_DP_DYNAMIC_RANGE_CEA
+  fullName: NVAPIWrapper._NV_DP_DYNAMIC_RANGE.NV_DP_DYNAMIC_RANGE_CEA
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DP_DYNAMIC_RANGE.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_DP_DYNAMIC_RANGE_CEA
+    path: ../NVAPIWrapper/cs_generated/_NV_DP_DYNAMIC_RANGE.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_DP_DYNAMIC_RANGE_CEA = 1
+    return:
+      type: NVAPIWrapper._NV_DP_DYNAMIC_RANGE
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_DP_DYNAMIC_RANGE
+  commentId: T:NVAPIWrapper._NV_DP_DYNAMIC_RANGE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DP_DYNAMIC_RANGE.html
+  name: _NV_DP_DYNAMIC_RANGE
+  nameWithType: _NV_DP_DYNAMIC_RANGE
+  fullName: NVAPIWrapper._NV_DP_DYNAMIC_RANGE

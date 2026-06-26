@@ -1,0 +1,407 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_SCALING
+  commentId: T:NVAPIWrapper._NV_SCALING
+  id: _NV_SCALING
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_SCALING.NV_SCALING_ADAPTER_SCALING
+  - NVAPIWrapper._NV_SCALING.NV_SCALING_ASPECT_SCALING
+  - NVAPIWrapper._NV_SCALING.NV_SCALING_CENTERED
+  - NVAPIWrapper._NV_SCALING.NV_SCALING_CUSTOMIZED
+  - NVAPIWrapper._NV_SCALING.NV_SCALING_DEFAULT
+  - NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_INTEGER_ASPECT_SCALING
+  - NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_SCALING_TO_ASPECT_SCANOUT_TO_CLOSEST
+  - NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_SCALING_TO_ASPECT_SCANOUT_TO_NATIVE
+  - NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_SCALING_TO_CLOSEST
+  - NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_SCALING_TO_NATIVE
+  - NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_SCANOUT_TO_CLOSEST
+  - NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_SCANOUT_TO_NATIVE
+  - NVAPIWrapper._NV_SCALING.NV_SCALING_MONITOR_SCALING
+  langs:
+  - csharp
+  - vb
+  name: _NV_SCALING
+  nameWithType: _NV_SCALING
+  fullName: NVAPIWrapper._NV_SCALING
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_SCALING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_SCALING
+    path: ../NVAPIWrapper/cs_generated/_NV_SCALING.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: 'public enum _NV_SCALING : byte'
+    content.vb: Public Enum _NV_SCALING As Byte
+- uid: NVAPIWrapper._NV_SCALING.NV_SCALING_DEFAULT
+  commentId: F:NVAPIWrapper._NV_SCALING.NV_SCALING_DEFAULT
+  id: NV_SCALING_DEFAULT
+  parent: NVAPIWrapper._NV_SCALING
+  langs:
+  - csharp
+  - vb
+  name: NV_SCALING_DEFAULT
+  nameWithType: _NV_SCALING.NV_SCALING_DEFAULT
+  fullName: NVAPIWrapper._NV_SCALING.NV_SCALING_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_SCALING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_SCALING_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/_NV_SCALING.cs
+    startLine: 7
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_SCALING_DEFAULT = 0
+    return:
+      type: NVAPIWrapper._NV_SCALING
+- uid: NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_SCALING_TO_CLOSEST
+  commentId: F:NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_SCALING_TO_CLOSEST
+  id: NV_SCALING_GPU_SCALING_TO_CLOSEST
+  parent: NVAPIWrapper._NV_SCALING
+  langs:
+  - csharp
+  - vb
+  name: NV_SCALING_GPU_SCALING_TO_CLOSEST
+  nameWithType: _NV_SCALING.NV_SCALING_GPU_SCALING_TO_CLOSEST
+  fullName: NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_SCALING_TO_CLOSEST
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_SCALING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_SCALING_GPU_SCALING_TO_CLOSEST
+    path: ../NVAPIWrapper/cs_generated/_NV_SCALING.cs
+    startLine: 10
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_SCALING_GPU_SCALING_TO_CLOSEST = 1
+    return:
+      type: NVAPIWrapper._NV_SCALING
+- uid: NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_SCALING_TO_NATIVE
+  commentId: F:NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_SCALING_TO_NATIVE
+  id: NV_SCALING_GPU_SCALING_TO_NATIVE
+  parent: NVAPIWrapper._NV_SCALING
+  langs:
+  - csharp
+  - vb
+  name: NV_SCALING_GPU_SCALING_TO_NATIVE
+  nameWithType: _NV_SCALING.NV_SCALING_GPU_SCALING_TO_NATIVE
+  fullName: NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_SCALING_TO_NATIVE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_SCALING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_SCALING_GPU_SCALING_TO_NATIVE
+    path: ../NVAPIWrapper/cs_generated/_NV_SCALING.cs
+    startLine: 13
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_SCALING_GPU_SCALING_TO_NATIVE = 2
+    return:
+      type: NVAPIWrapper._NV_SCALING
+- uid: NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_SCANOUT_TO_NATIVE
+  commentId: F:NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_SCANOUT_TO_NATIVE
+  id: NV_SCALING_GPU_SCANOUT_TO_NATIVE
+  parent: NVAPIWrapper._NV_SCALING
+  langs:
+  - csharp
+  - vb
+  name: NV_SCALING_GPU_SCANOUT_TO_NATIVE
+  nameWithType: _NV_SCALING.NV_SCALING_GPU_SCANOUT_TO_NATIVE
+  fullName: NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_SCANOUT_TO_NATIVE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_SCALING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_SCALING_GPU_SCANOUT_TO_NATIVE
+    path: ../NVAPIWrapper/cs_generated/_NV_SCALING.cs
+    startLine: 16
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_SCALING_GPU_SCANOUT_TO_NATIVE = 3
+    return:
+      type: NVAPIWrapper._NV_SCALING
+- uid: NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_SCALING_TO_ASPECT_SCANOUT_TO_NATIVE
+  commentId: F:NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_SCALING_TO_ASPECT_SCANOUT_TO_NATIVE
+  id: NV_SCALING_GPU_SCALING_TO_ASPECT_SCANOUT_TO_NATIVE
+  parent: NVAPIWrapper._NV_SCALING
+  langs:
+  - csharp
+  - vb
+  name: NV_SCALING_GPU_SCALING_TO_ASPECT_SCANOUT_TO_NATIVE
+  nameWithType: _NV_SCALING.NV_SCALING_GPU_SCALING_TO_ASPECT_SCANOUT_TO_NATIVE
+  fullName: NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_SCALING_TO_ASPECT_SCANOUT_TO_NATIVE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_SCALING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_SCALING_GPU_SCALING_TO_ASPECT_SCANOUT_TO_NATIVE
+    path: ../NVAPIWrapper/cs_generated/_NV_SCALING.cs
+    startLine: 19
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_SCALING_GPU_SCALING_TO_ASPECT_SCANOUT_TO_NATIVE = 5
+    return:
+      type: NVAPIWrapper._NV_SCALING
+- uid: NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_SCALING_TO_ASPECT_SCANOUT_TO_CLOSEST
+  commentId: F:NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_SCALING_TO_ASPECT_SCANOUT_TO_CLOSEST
+  id: NV_SCALING_GPU_SCALING_TO_ASPECT_SCANOUT_TO_CLOSEST
+  parent: NVAPIWrapper._NV_SCALING
+  langs:
+  - csharp
+  - vb
+  name: NV_SCALING_GPU_SCALING_TO_ASPECT_SCANOUT_TO_CLOSEST
+  nameWithType: _NV_SCALING.NV_SCALING_GPU_SCALING_TO_ASPECT_SCANOUT_TO_CLOSEST
+  fullName: NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_SCALING_TO_ASPECT_SCANOUT_TO_CLOSEST
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_SCALING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_SCALING_GPU_SCALING_TO_ASPECT_SCANOUT_TO_CLOSEST
+    path: ../NVAPIWrapper/cs_generated/_NV_SCALING.cs
+    startLine: 22
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_SCALING_GPU_SCALING_TO_ASPECT_SCANOUT_TO_CLOSEST = 6
+    return:
+      type: NVAPIWrapper._NV_SCALING
+- uid: NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_SCANOUT_TO_CLOSEST
+  commentId: F:NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_SCANOUT_TO_CLOSEST
+  id: NV_SCALING_GPU_SCANOUT_TO_CLOSEST
+  parent: NVAPIWrapper._NV_SCALING
+  langs:
+  - csharp
+  - vb
+  name: NV_SCALING_GPU_SCANOUT_TO_CLOSEST
+  nameWithType: _NV_SCALING.NV_SCALING_GPU_SCANOUT_TO_CLOSEST
+  fullName: NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_SCANOUT_TO_CLOSEST
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_SCALING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_SCALING_GPU_SCANOUT_TO_CLOSEST
+    path: ../NVAPIWrapper/cs_generated/_NV_SCALING.cs
+    startLine: 25
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_SCALING_GPU_SCANOUT_TO_CLOSEST = 7
+    return:
+      type: NVAPIWrapper._NV_SCALING
+- uid: NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_INTEGER_ASPECT_SCALING
+  commentId: F:NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_INTEGER_ASPECT_SCALING
+  id: NV_SCALING_GPU_INTEGER_ASPECT_SCALING
+  parent: NVAPIWrapper._NV_SCALING
+  langs:
+  - csharp
+  - vb
+  name: NV_SCALING_GPU_INTEGER_ASPECT_SCALING
+  nameWithType: _NV_SCALING.NV_SCALING_GPU_INTEGER_ASPECT_SCALING
+  fullName: NVAPIWrapper._NV_SCALING.NV_SCALING_GPU_INTEGER_ASPECT_SCALING
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_SCALING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_SCALING_GPU_INTEGER_ASPECT_SCALING
+    path: ../NVAPIWrapper/cs_generated/_NV_SCALING.cs
+    startLine: 28
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_SCALING_GPU_INTEGER_ASPECT_SCALING = 8
+    return:
+      type: NVAPIWrapper._NV_SCALING
+- uid: NVAPIWrapper._NV_SCALING.NV_SCALING_MONITOR_SCALING
+  commentId: F:NVAPIWrapper._NV_SCALING.NV_SCALING_MONITOR_SCALING
+  id: NV_SCALING_MONITOR_SCALING
+  parent: NVAPIWrapper._NV_SCALING
+  langs:
+  - csharp
+  - vb
+  name: NV_SCALING_MONITOR_SCALING
+  nameWithType: _NV_SCALING.NV_SCALING_MONITOR_SCALING
+  fullName: NVAPIWrapper._NV_SCALING.NV_SCALING_MONITOR_SCALING
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_SCALING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_SCALING_MONITOR_SCALING
+    path: ../NVAPIWrapper/cs_generated/_NV_SCALING.cs
+    startLine: 31
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_SCALING_MONITOR_SCALING = 1
+    return:
+      type: NVAPIWrapper._NV_SCALING
+- uid: NVAPIWrapper._NV_SCALING.NV_SCALING_ADAPTER_SCALING
+  commentId: F:NVAPIWrapper._NV_SCALING.NV_SCALING_ADAPTER_SCALING
+  id: NV_SCALING_ADAPTER_SCALING
+  parent: NVAPIWrapper._NV_SCALING
+  langs:
+  - csharp
+  - vb
+  name: NV_SCALING_ADAPTER_SCALING
+  nameWithType: _NV_SCALING.NV_SCALING_ADAPTER_SCALING
+  fullName: NVAPIWrapper._NV_SCALING.NV_SCALING_ADAPTER_SCALING
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_SCALING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_SCALING_ADAPTER_SCALING
+    path: ../NVAPIWrapper/cs_generated/_NV_SCALING.cs
+    startLine: 34
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_SCALING_ADAPTER_SCALING = 2
+    return:
+      type: NVAPIWrapper._NV_SCALING
+- uid: NVAPIWrapper._NV_SCALING.NV_SCALING_CENTERED
+  commentId: F:NVAPIWrapper._NV_SCALING.NV_SCALING_CENTERED
+  id: NV_SCALING_CENTERED
+  parent: NVAPIWrapper._NV_SCALING
+  langs:
+  - csharp
+  - vb
+  name: NV_SCALING_CENTERED
+  nameWithType: _NV_SCALING.NV_SCALING_CENTERED
+  fullName: NVAPIWrapper._NV_SCALING.NV_SCALING_CENTERED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_SCALING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_SCALING_CENTERED
+    path: ../NVAPIWrapper/cs_generated/_NV_SCALING.cs
+    startLine: 37
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_SCALING_CENTERED = 3
+    return:
+      type: NVAPIWrapper._NV_SCALING
+- uid: NVAPIWrapper._NV_SCALING.NV_SCALING_ASPECT_SCALING
+  commentId: F:NVAPIWrapper._NV_SCALING.NV_SCALING_ASPECT_SCALING
+  id: NV_SCALING_ASPECT_SCALING
+  parent: NVAPIWrapper._NV_SCALING
+  langs:
+  - csharp
+  - vb
+  name: NV_SCALING_ASPECT_SCALING
+  nameWithType: _NV_SCALING.NV_SCALING_ASPECT_SCALING
+  fullName: NVAPIWrapper._NV_SCALING.NV_SCALING_ASPECT_SCALING
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_SCALING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_SCALING_ASPECT_SCALING
+    path: ../NVAPIWrapper/cs_generated/_NV_SCALING.cs
+    startLine: 40
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_SCALING_ASPECT_SCALING = 5
+    return:
+      type: NVAPIWrapper._NV_SCALING
+- uid: NVAPIWrapper._NV_SCALING.NV_SCALING_CUSTOMIZED
+  commentId: F:NVAPIWrapper._NV_SCALING.NV_SCALING_CUSTOMIZED
+  id: NV_SCALING_CUSTOMIZED
+  parent: NVAPIWrapper._NV_SCALING
+  langs:
+  - csharp
+  - vb
+  name: NV_SCALING_CUSTOMIZED
+  nameWithType: _NV_SCALING.NV_SCALING_CUSTOMIZED
+  fullName: NVAPIWrapper._NV_SCALING.NV_SCALING_CUSTOMIZED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_SCALING.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_SCALING_CUSTOMIZED
+    path: ../NVAPIWrapper/cs_generated/_NV_SCALING.cs
+    startLine: 43
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_SCALING_CUSTOMIZED = 255
+    return:
+      type: NVAPIWrapper._NV_SCALING
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper._NV_SCALING
+  commentId: T:NVAPIWrapper._NV_SCALING
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_SCALING.html
+  name: _NV_SCALING
+  nameWithType: _NV_SCALING
+  fullName: NVAPIWrapper._NV_SCALING

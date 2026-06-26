@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_VSYNCVRRCONTROL
+  commentId: T:NVAPIWrapper.EValues_VSYNCVRRCONTROL
+  id: EValues_VSYNCVRRCONTROL
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_DEFAULT
+  - NVAPIWrapper.EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_DISABLE
+  - NVAPIWrapper.EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_ENABLE
+  - NVAPIWrapper.EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_NOTSUPPORTED
+  - NVAPIWrapper.EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_NUM_VALUES
+  langs:
+  - csharp
+  - vb
+  name: EValues_VSYNCVRRCONTROL
+  nameWithType: EValues_VSYNCVRRCONTROL
+  fullName: NVAPIWrapper.EValues_VSYNCVRRCONTROL
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCVRRCONTROL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_VSYNCVRRCONTROL
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCVRRCONTROL.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_VSYNCVRRCONTROL
+    content.vb: Public Enum EValues_VSYNCVRRCONTROL
+- uid: NVAPIWrapper.EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_DISABLE
+  commentId: F:NVAPIWrapper.EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_DISABLE
+  id: VSYNCVRRCONTROL_DISABLE
+  parent: NVAPIWrapper.EValues_VSYNCVRRCONTROL
+  langs:
+  - csharp
+  - vb
+  name: VSYNCVRRCONTROL_DISABLE
+  nameWithType: EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_DISABLE
+  fullName: NVAPIWrapper.EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_DISABLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCVRRCONTROL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCVRRCONTROL_DISABLE
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCVRRCONTROL.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCVRRCONTROL_DISABLE = 0
+    return:
+      type: NVAPIWrapper.EValues_VSYNCVRRCONTROL
+- uid: NVAPIWrapper.EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_ENABLE
+  commentId: F:NVAPIWrapper.EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_ENABLE
+  id: VSYNCVRRCONTROL_ENABLE
+  parent: NVAPIWrapper.EValues_VSYNCVRRCONTROL
+  langs:
+  - csharp
+  - vb
+  name: VSYNCVRRCONTROL_ENABLE
+  nameWithType: EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_ENABLE
+  fullName: NVAPIWrapper.EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_ENABLE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCVRRCONTROL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCVRRCONTROL_ENABLE
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCVRRCONTROL.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCVRRCONTROL_ENABLE = 1
+    return:
+      type: NVAPIWrapper.EValues_VSYNCVRRCONTROL
+- uid: NVAPIWrapper.EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_NOTSUPPORTED
+  commentId: F:NVAPIWrapper.EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_NOTSUPPORTED
+  id: VSYNCVRRCONTROL_NOTSUPPORTED
+  parent: NVAPIWrapper.EValues_VSYNCVRRCONTROL
+  langs:
+  - csharp
+  - vb
+  name: VSYNCVRRCONTROL_NOTSUPPORTED
+  nameWithType: EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_NOTSUPPORTED
+  fullName: NVAPIWrapper.EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_NOTSUPPORTED
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCVRRCONTROL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCVRRCONTROL_NOTSUPPORTED
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCVRRCONTROL.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCVRRCONTROL_NOTSUPPORTED = -1617620338
+    return:
+      type: NVAPIWrapper.EValues_VSYNCVRRCONTROL
+- uid: NVAPIWrapper.EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_NUM_VALUES
+  id: VSYNCVRRCONTROL_NUM_VALUES
+  parent: NVAPIWrapper.EValues_VSYNCVRRCONTROL
+  langs:
+  - csharp
+  - vb
+  name: VSYNCVRRCONTROL_NUM_VALUES
+  nameWithType: EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCVRRCONTROL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCVRRCONTROL_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCVRRCONTROL.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCVRRCONTROL_NUM_VALUES = 3
+    return:
+      type: NVAPIWrapper.EValues_VSYNCVRRCONTROL
+- uid: NVAPIWrapper.EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_DEFAULT
+  id: VSYNCVRRCONTROL_DEFAULT
+  parent: NVAPIWrapper.EValues_VSYNCVRRCONTROL
+  langs:
+  - csharp
+  - vb
+  name: VSYNCVRRCONTROL_DEFAULT
+  nameWithType: EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_DEFAULT
+  fullName: NVAPIWrapper.EValues_VSYNCVRRCONTROL.VSYNCVRRCONTROL_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_VSYNCVRRCONTROL.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: VSYNCVRRCONTROL_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_VSYNCVRRCONTROL.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: VSYNCVRRCONTROL_DEFAULT = 1
+    return:
+      type: NVAPIWrapper.EValues_VSYNCVRRCONTROL
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_VSYNCVRRCONTROL
+  commentId: T:NVAPIWrapper.EValues_VSYNCVRRCONTROL
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_VSYNCVRRCONTROL.html
+  name: EValues_VSYNCVRRCONTROL
+  nameWithType: EValues_VSYNCVRRCONTROL
+  fullName: NVAPIWrapper.EValues_VSYNCVRRCONTROL

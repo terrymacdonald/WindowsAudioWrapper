@@ -1,0 +1,267 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.EValues_SET_VAB_DATA
+  commentId: T:NVAPIWrapper.EValues_SET_VAB_DATA
+  id: EValues_SET_VAB_DATA
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_DEFAULT
+  - NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_FLOAT_NAN
+  - NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_FLOAT_ONE
+  - NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_FLOAT_POS_INF
+  - NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_NUM_VALUES
+  - NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_UINT_ONE
+  - NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_USE_API_DEFAULTS
+  - NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_ZERO
+  langs:
+  - csharp
+  - vb
+  name: EValues_SET_VAB_DATA
+  nameWithType: EValues_SET_VAB_DATA
+  fullName: NVAPIWrapper.EValues_SET_VAB_DATA
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SET_VAB_DATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: EValues_SET_VAB_DATA
+    path: ../NVAPIWrapper/cs_generated/EValues_SET_VAB_DATA.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum EValues_SET_VAB_DATA
+    content.vb: Public Enum EValues_SET_VAB_DATA
+- uid: NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_ZERO
+  commentId: F:NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_ZERO
+  id: SET_VAB_DATA_ZERO
+  parent: NVAPIWrapper.EValues_SET_VAB_DATA
+  langs:
+  - csharp
+  - vb
+  name: SET_VAB_DATA_ZERO
+  nameWithType: EValues_SET_VAB_DATA.SET_VAB_DATA_ZERO
+  fullName: NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_ZERO
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SET_VAB_DATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SET_VAB_DATA_ZERO
+    path: ../NVAPIWrapper/cs_generated/EValues_SET_VAB_DATA.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SET_VAB_DATA_ZERO = 0
+    return:
+      type: NVAPIWrapper.EValues_SET_VAB_DATA
+- uid: NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_UINT_ONE
+  commentId: F:NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_UINT_ONE
+  id: SET_VAB_DATA_UINT_ONE
+  parent: NVAPIWrapper.EValues_SET_VAB_DATA
+  langs:
+  - csharp
+  - vb
+  name: SET_VAB_DATA_UINT_ONE
+  nameWithType: EValues_SET_VAB_DATA.SET_VAB_DATA_UINT_ONE
+  fullName: NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_UINT_ONE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SET_VAB_DATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SET_VAB_DATA_UINT_ONE
+    path: ../NVAPIWrapper/cs_generated/EValues_SET_VAB_DATA.cs
+    startLine: 9
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SET_VAB_DATA_UINT_ONE = 1
+    return:
+      type: NVAPIWrapper.EValues_SET_VAB_DATA
+- uid: NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_FLOAT_ONE
+  commentId: F:NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_FLOAT_ONE
+  id: SET_VAB_DATA_FLOAT_ONE
+  parent: NVAPIWrapper.EValues_SET_VAB_DATA
+  langs:
+  - csharp
+  - vb
+  name: SET_VAB_DATA_FLOAT_ONE
+  nameWithType: EValues_SET_VAB_DATA.SET_VAB_DATA_FLOAT_ONE
+  fullName: NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_FLOAT_ONE
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SET_VAB_DATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SET_VAB_DATA_FLOAT_ONE
+    path: ../NVAPIWrapper/cs_generated/EValues_SET_VAB_DATA.cs
+    startLine: 12
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SET_VAB_DATA_FLOAT_ONE = 1065353216
+    return:
+      type: NVAPIWrapper.EValues_SET_VAB_DATA
+- uid: NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_FLOAT_POS_INF
+  commentId: F:NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_FLOAT_POS_INF
+  id: SET_VAB_DATA_FLOAT_POS_INF
+  parent: NVAPIWrapper.EValues_SET_VAB_DATA
+  langs:
+  - csharp
+  - vb
+  name: SET_VAB_DATA_FLOAT_POS_INF
+  nameWithType: EValues_SET_VAB_DATA.SET_VAB_DATA_FLOAT_POS_INF
+  fullName: NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_FLOAT_POS_INF
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SET_VAB_DATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SET_VAB_DATA_FLOAT_POS_INF
+    path: ../NVAPIWrapper/cs_generated/EValues_SET_VAB_DATA.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SET_VAB_DATA_FLOAT_POS_INF = 2139095040
+    return:
+      type: NVAPIWrapper.EValues_SET_VAB_DATA
+- uid: NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_FLOAT_NAN
+  commentId: F:NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_FLOAT_NAN
+  id: SET_VAB_DATA_FLOAT_NAN
+  parent: NVAPIWrapper.EValues_SET_VAB_DATA
+  langs:
+  - csharp
+  - vb
+  name: SET_VAB_DATA_FLOAT_NAN
+  nameWithType: EValues_SET_VAB_DATA.SET_VAB_DATA_FLOAT_NAN
+  fullName: NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_FLOAT_NAN
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SET_VAB_DATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SET_VAB_DATA_FLOAT_NAN
+    path: ../NVAPIWrapper/cs_generated/EValues_SET_VAB_DATA.cs
+    startLine: 18
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SET_VAB_DATA_FLOAT_NAN = 2143289344
+    return:
+      type: NVAPIWrapper.EValues_SET_VAB_DATA
+- uid: NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_USE_API_DEFAULTS
+  commentId: F:NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_USE_API_DEFAULTS
+  id: SET_VAB_DATA_USE_API_DEFAULTS
+  parent: NVAPIWrapper.EValues_SET_VAB_DATA
+  langs:
+  - csharp
+  - vb
+  name: SET_VAB_DATA_USE_API_DEFAULTS
+  nameWithType: EValues_SET_VAB_DATA.SET_VAB_DATA_USE_API_DEFAULTS
+  fullName: NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_USE_API_DEFAULTS
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SET_VAB_DATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SET_VAB_DATA_USE_API_DEFAULTS
+    path: ../NVAPIWrapper/cs_generated/EValues_SET_VAB_DATA.cs
+    startLine: 21
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SET_VAB_DATA_USE_API_DEFAULTS = -1
+    return:
+      type: NVAPIWrapper.EValues_SET_VAB_DATA
+- uid: NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_NUM_VALUES
+  commentId: F:NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_NUM_VALUES
+  id: SET_VAB_DATA_NUM_VALUES
+  parent: NVAPIWrapper.EValues_SET_VAB_DATA
+  langs:
+  - csharp
+  - vb
+  name: SET_VAB_DATA_NUM_VALUES
+  nameWithType: EValues_SET_VAB_DATA.SET_VAB_DATA_NUM_VALUES
+  fullName: NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_NUM_VALUES
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SET_VAB_DATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SET_VAB_DATA_NUM_VALUES
+    path: ../NVAPIWrapper/cs_generated/EValues_SET_VAB_DATA.cs
+    startLine: 24
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SET_VAB_DATA_NUM_VALUES = 6
+    return:
+      type: NVAPIWrapper.EValues_SET_VAB_DATA
+- uid: NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_DEFAULT
+  commentId: F:NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_DEFAULT
+  id: SET_VAB_DATA_DEFAULT
+  parent: NVAPIWrapper.EValues_SET_VAB_DATA
+  langs:
+  - csharp
+  - vb
+  name: SET_VAB_DATA_DEFAULT
+  nameWithType: EValues_SET_VAB_DATA.SET_VAB_DATA_DEFAULT
+  fullName: NVAPIWrapper.EValues_SET_VAB_DATA.SET_VAB_DATA_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/EValues_SET_VAB_DATA.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: SET_VAB_DATA_DEFAULT
+    path: ../NVAPIWrapper/cs_generated/EValues_SET_VAB_DATA.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: SET_VAB_DATA_DEFAULT = -1
+    return:
+      type: NVAPIWrapper.EValues_SET_VAB_DATA
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.EValues_SET_VAB_DATA
+  commentId: T:NVAPIWrapper.EValues_SET_VAB_DATA
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.EValues_SET_VAB_DATA.html
+  name: EValues_SET_VAB_DATA
+  nameWithType: EValues_SET_VAB_DATA
+  fullName: NVAPIWrapper.EValues_SET_VAB_DATA

@@ -1,0 +1,71 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper.NV_CHIPSET_INFO_FLAGS
+  commentId: T:NVAPIWrapper.NV_CHIPSET_INFO_FLAGS
+  id: NV_CHIPSET_INFO_FLAGS
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper.NV_CHIPSET_INFO_FLAGS.NV_CHIPSET_INFO_HYBRID
+  langs:
+  - csharp
+  - vb
+  name: NV_CHIPSET_INFO_FLAGS
+  nameWithType: NV_CHIPSET_INFO_FLAGS
+  fullName: NVAPIWrapper.NV_CHIPSET_INFO_FLAGS
+  type: Enum
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_CHIPSET_INFO_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_CHIPSET_INFO_FLAGS
+    path: ../NVAPIWrapper/cs_generated/NV_CHIPSET_INFO_FLAGS.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public enum NV_CHIPSET_INFO_FLAGS
+    content.vb: Public Enum NV_CHIPSET_INFO_FLAGS
+- uid: NVAPIWrapper.NV_CHIPSET_INFO_FLAGS.NV_CHIPSET_INFO_HYBRID
+  commentId: F:NVAPIWrapper.NV_CHIPSET_INFO_FLAGS.NV_CHIPSET_INFO_HYBRID
+  id: NV_CHIPSET_INFO_HYBRID
+  parent: NVAPIWrapper.NV_CHIPSET_INFO_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: NV_CHIPSET_INFO_HYBRID
+  nameWithType: NV_CHIPSET_INFO_FLAGS.NV_CHIPSET_INFO_HYBRID
+  fullName: NVAPIWrapper.NV_CHIPSET_INFO_FLAGS.NV_CHIPSET_INFO_HYBRID
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/NV_CHIPSET_INFO_FLAGS.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: NV_CHIPSET_INFO_HYBRID
+    path: ../NVAPIWrapper/cs_generated/NV_CHIPSET_INFO_FLAGS.cs
+    startLine: 6
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: NV_CHIPSET_INFO_HYBRID = 1
+    return:
+      type: NVAPIWrapper.NV_CHIPSET_INFO_FLAGS
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: NVAPIWrapper.NV_CHIPSET_INFO_FLAGS
+  commentId: T:NVAPIWrapper.NV_CHIPSET_INFO_FLAGS
+  parent: NVAPIWrapper
+  href: NVAPIWrapper.NV_CHIPSET_INFO_FLAGS.html
+  name: NV_CHIPSET_INFO_FLAGS
+  nameWithType: NV_CHIPSET_INFO_FLAGS
+  fullName: NVAPIWrapper.NV_CHIPSET_INFO_FLAGS

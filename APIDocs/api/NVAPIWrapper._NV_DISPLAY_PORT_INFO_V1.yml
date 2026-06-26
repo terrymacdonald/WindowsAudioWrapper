@@ -1,0 +1,1704 @@
+### YamlMime:ManagedReference
+items:
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  commentId: T:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  id: _NV_DISPLAY_PORT_INFO_V1
+  parent: NVAPIWrapper
+  children:
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1._bitfield
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.bpc
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.colorFormat
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.colorimetry
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.curLaneCount
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.curLinkRate
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.dpcd_ver
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.dynamicRange
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is10BPCSupported
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is10BPCSupportedOnCurrentMode
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is12BPCSupported
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is12BPCSupportedOnCurrentMode
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is16BPCSupported
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is16BPCSupportedOnCurrentMode
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is6BPCSupported
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is6BPCSupportedOnCurrentMode
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is8BPCSupported
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is8BPCSupportedOnCurrentMode
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isColorCtrlSupported
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isDp
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isInternalDp
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonAdobeRGBCapable
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonAdobeYCC601Capable
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonBT2020RGBCapable
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonBT2020YCCCapable
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonBT2020cYCCCapable
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonsYCC601Capable
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonxvYCC601Capable
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonxvYCC709Capable
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isRgb444SupportedOnCurrentMode
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCbCr420SupportedOnCurrentMode
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCbCr422SupportedOnCurrentMode
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCbCr444SupportedOnCurrentMode
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCrCb420Supported
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCrCb422Supported
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCrCb444Supported
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.maxLaneCount
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.maxLinkRate
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.reserved
+  - NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.version
+  langs:
+  - csharp
+  - vb
+  name: _NV_DISPLAY_PORT_INFO_V1
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  type: Struct
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _NV_DISPLAY_PORT_INFO_V1
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 3
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public struct _NV_DISPLAY_PORT_INFO_V1
+    content.vb: Public Structure _NV_DISPLAY_PORT_INFO_V1
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.version
+  commentId: F:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.version
+  id: version
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.version
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.version
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: version
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 7
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint version
+    return:
+      type: System.UInt32
+    content.vb: Public version As UInteger
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.dpcd_ver
+  commentId: F:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.dpcd_ver
+  id: dpcd_ver
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: dpcd_ver
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.dpcd_ver
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.dpcd_ver
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: dpcd_ver
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 11
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint dpcd_ver
+    return:
+      type: System.UInt32
+    content.vb: Public dpcd_ver As UInteger
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.maxLinkRate
+  commentId: F:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.maxLinkRate
+  id: maxLinkRate
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: maxLinkRate
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.maxLinkRate
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.maxLinkRate
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: maxLinkRate
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 15
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_DP_LINK_RATE maxLinkRate
+    return:
+      type: NVAPIWrapper._NV_DP_LINK_RATE
+    content.vb: Public maxLinkRate As _NV_DP_LINK_RATE
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.maxLaneCount
+  commentId: F:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.maxLaneCount
+  id: maxLaneCount
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: maxLaneCount
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.maxLaneCount
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.maxLaneCount
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: maxLaneCount
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 19
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_DP_LANE_COUNT maxLaneCount
+    return:
+      type: NVAPIWrapper._NV_DP_LANE_COUNT
+    content.vb: Public maxLaneCount As _NV_DP_LANE_COUNT
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.curLinkRate
+  commentId: F:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.curLinkRate
+  id: curLinkRate
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: curLinkRate
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.curLinkRate
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.curLinkRate
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: curLinkRate
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 23
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_DP_LINK_RATE curLinkRate
+    return:
+      type: NVAPIWrapper._NV_DP_LINK_RATE
+    content.vb: Public curLinkRate As _NV_DP_LINK_RATE
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.curLaneCount
+  commentId: F:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.curLaneCount
+  id: curLaneCount
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: curLaneCount
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.curLaneCount
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.curLaneCount
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: curLaneCount
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 27
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_DP_LANE_COUNT curLaneCount
+    return:
+      type: NVAPIWrapper._NV_DP_LANE_COUNT
+    content.vb: Public curLaneCount As _NV_DP_LANE_COUNT
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.colorFormat
+  commentId: F:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.colorFormat
+  id: colorFormat
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: colorFormat
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.colorFormat
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.colorFormat
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: colorFormat
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 31
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_DP_COLOR_FORMAT colorFormat
+    return:
+      type: NVAPIWrapper._NV_DP_COLOR_FORMAT
+    content.vb: Public colorFormat As _NV_DP_COLOR_FORMAT
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.dynamicRange
+  commentId: F:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.dynamicRange
+  id: dynamicRange
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: dynamicRange
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.dynamicRange
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.dynamicRange
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: dynamicRange
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 35
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_DP_DYNAMIC_RANGE dynamicRange
+    return:
+      type: NVAPIWrapper._NV_DP_DYNAMIC_RANGE
+    content.vb: Public dynamicRange As _NV_DP_DYNAMIC_RANGE
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.colorimetry
+  commentId: F:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.colorimetry
+  id: colorimetry
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: colorimetry
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.colorimetry
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.colorimetry
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: colorimetry
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 39
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_DP_COLORIMETRY colorimetry
+    return:
+      type: NVAPIWrapper._NV_DP_COLORIMETRY
+    content.vb: Public colorimetry As _NV_DP_COLORIMETRY
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.bpc
+  commentId: F:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.bpc
+  id: bpc
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: bpc
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.bpc
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.bpc
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: bpc
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 43
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public _NV_DP_BPC bpc
+    return:
+      type: NVAPIWrapper._NV_DP_BPC
+    content.vb: Public bpc As _NV_DP_BPC
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1._bitfield
+  commentId: F:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1._bitfield
+  id: _bitfield
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: _bitfield
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1._bitfield
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1._bitfield
+  type: Field
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: _bitfield
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 45
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  syntax:
+    content: public uint _bitfield
+    return:
+      type: System.UInt32
+    content.vb: Public _bitfield As UInteger
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isDp
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isDp
+  id: isDp
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isDp
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isDp
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isDp
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isDp
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 48
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isDp { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isDp As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isDp*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isInternalDp
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isInternalDp
+  id: isInternalDp
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isInternalDp
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isInternalDp
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isInternalDp
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isInternalDp
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 63
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isInternalDp { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isInternalDp As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isInternalDp*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isColorCtrlSupported
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isColorCtrlSupported
+  id: isColorCtrlSupported
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isColorCtrlSupported
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isColorCtrlSupported
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isColorCtrlSupported
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isColorCtrlSupported
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 78
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isColorCtrlSupported { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isColorCtrlSupported As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isColorCtrlSupported*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is6BPCSupported
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is6BPCSupported
+  id: is6BPCSupported
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: is6BPCSupported
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.is6BPCSupported
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is6BPCSupported
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: is6BPCSupported
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 93
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint is6BPCSupported { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property is6BPCSupported As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is6BPCSupported*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is8BPCSupported
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is8BPCSupported
+  id: is8BPCSupported
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: is8BPCSupported
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.is8BPCSupported
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is8BPCSupported
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: is8BPCSupported
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 108
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint is8BPCSupported { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property is8BPCSupported As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is8BPCSupported*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is10BPCSupported
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is10BPCSupported
+  id: is10BPCSupported
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: is10BPCSupported
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.is10BPCSupported
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is10BPCSupported
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: is10BPCSupported
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 123
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint is10BPCSupported { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property is10BPCSupported As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is10BPCSupported*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is12BPCSupported
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is12BPCSupported
+  id: is12BPCSupported
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: is12BPCSupported
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.is12BPCSupported
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is12BPCSupported
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: is12BPCSupported
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 138
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint is12BPCSupported { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property is12BPCSupported As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is12BPCSupported*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is16BPCSupported
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is16BPCSupported
+  id: is16BPCSupported
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: is16BPCSupported
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.is16BPCSupported
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is16BPCSupported
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: is16BPCSupported
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 153
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint is16BPCSupported { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property is16BPCSupported As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is16BPCSupported*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCrCb420Supported
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCrCb420Supported
+  id: isYCrCb420Supported
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isYCrCb420Supported
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isYCrCb420Supported
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCrCb420Supported
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isYCrCb420Supported
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 168
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isYCrCb420Supported { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isYCrCb420Supported As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCrCb420Supported*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCrCb422Supported
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCrCb422Supported
+  id: isYCrCb422Supported
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isYCrCb422Supported
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isYCrCb422Supported
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCrCb422Supported
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isYCrCb422Supported
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 183
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isYCrCb422Supported { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isYCrCb422Supported As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCrCb422Supported*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCrCb444Supported
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCrCb444Supported
+  id: isYCrCb444Supported
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isYCrCb444Supported
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isYCrCb444Supported
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCrCb444Supported
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isYCrCb444Supported
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 198
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isYCrCb444Supported { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isYCrCb444Supported As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCrCb444Supported*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isRgb444SupportedOnCurrentMode
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isRgb444SupportedOnCurrentMode
+  id: isRgb444SupportedOnCurrentMode
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isRgb444SupportedOnCurrentMode
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isRgb444SupportedOnCurrentMode
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isRgb444SupportedOnCurrentMode
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isRgb444SupportedOnCurrentMode
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 213
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isRgb444SupportedOnCurrentMode { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isRgb444SupportedOnCurrentMode As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isRgb444SupportedOnCurrentMode*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCbCr444SupportedOnCurrentMode
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCbCr444SupportedOnCurrentMode
+  id: isYCbCr444SupportedOnCurrentMode
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isYCbCr444SupportedOnCurrentMode
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isYCbCr444SupportedOnCurrentMode
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCbCr444SupportedOnCurrentMode
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isYCbCr444SupportedOnCurrentMode
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 228
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isYCbCr444SupportedOnCurrentMode { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isYCbCr444SupportedOnCurrentMode As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCbCr444SupportedOnCurrentMode*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCbCr422SupportedOnCurrentMode
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCbCr422SupportedOnCurrentMode
+  id: isYCbCr422SupportedOnCurrentMode
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isYCbCr422SupportedOnCurrentMode
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isYCbCr422SupportedOnCurrentMode
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCbCr422SupportedOnCurrentMode
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isYCbCr422SupportedOnCurrentMode
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 243
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isYCbCr422SupportedOnCurrentMode { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isYCbCr422SupportedOnCurrentMode As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCbCr422SupportedOnCurrentMode*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCbCr420SupportedOnCurrentMode
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCbCr420SupportedOnCurrentMode
+  id: isYCbCr420SupportedOnCurrentMode
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isYCbCr420SupportedOnCurrentMode
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isYCbCr420SupportedOnCurrentMode
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCbCr420SupportedOnCurrentMode
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isYCbCr420SupportedOnCurrentMode
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 258
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isYCbCr420SupportedOnCurrentMode { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isYCbCr420SupportedOnCurrentMode As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCbCr420SupportedOnCurrentMode*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is6BPCSupportedOnCurrentMode
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is6BPCSupportedOnCurrentMode
+  id: is6BPCSupportedOnCurrentMode
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: is6BPCSupportedOnCurrentMode
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.is6BPCSupportedOnCurrentMode
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is6BPCSupportedOnCurrentMode
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: is6BPCSupportedOnCurrentMode
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 273
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint is6BPCSupportedOnCurrentMode { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property is6BPCSupportedOnCurrentMode As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is6BPCSupportedOnCurrentMode*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is8BPCSupportedOnCurrentMode
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is8BPCSupportedOnCurrentMode
+  id: is8BPCSupportedOnCurrentMode
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: is8BPCSupportedOnCurrentMode
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.is8BPCSupportedOnCurrentMode
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is8BPCSupportedOnCurrentMode
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: is8BPCSupportedOnCurrentMode
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 288
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint is8BPCSupportedOnCurrentMode { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property is8BPCSupportedOnCurrentMode As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is8BPCSupportedOnCurrentMode*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is10BPCSupportedOnCurrentMode
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is10BPCSupportedOnCurrentMode
+  id: is10BPCSupportedOnCurrentMode
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: is10BPCSupportedOnCurrentMode
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.is10BPCSupportedOnCurrentMode
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is10BPCSupportedOnCurrentMode
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: is10BPCSupportedOnCurrentMode
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 303
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint is10BPCSupportedOnCurrentMode { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property is10BPCSupportedOnCurrentMode As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is10BPCSupportedOnCurrentMode*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is12BPCSupportedOnCurrentMode
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is12BPCSupportedOnCurrentMode
+  id: is12BPCSupportedOnCurrentMode
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: is12BPCSupportedOnCurrentMode
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.is12BPCSupportedOnCurrentMode
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is12BPCSupportedOnCurrentMode
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: is12BPCSupportedOnCurrentMode
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 318
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint is12BPCSupportedOnCurrentMode { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property is12BPCSupportedOnCurrentMode As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is12BPCSupportedOnCurrentMode*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is16BPCSupportedOnCurrentMode
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is16BPCSupportedOnCurrentMode
+  id: is16BPCSupportedOnCurrentMode
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: is16BPCSupportedOnCurrentMode
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.is16BPCSupportedOnCurrentMode
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is16BPCSupportedOnCurrentMode
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: is16BPCSupportedOnCurrentMode
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 333
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint is16BPCSupportedOnCurrentMode { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property is16BPCSupportedOnCurrentMode As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is16BPCSupportedOnCurrentMode*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonxvYCC601Capable
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonxvYCC601Capable
+  id: isMonxvYCC601Capable
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isMonxvYCC601Capable
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isMonxvYCC601Capable
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonxvYCC601Capable
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isMonxvYCC601Capable
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 348
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isMonxvYCC601Capable { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isMonxvYCC601Capable As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonxvYCC601Capable*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonxvYCC709Capable
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonxvYCC709Capable
+  id: isMonxvYCC709Capable
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isMonxvYCC709Capable
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isMonxvYCC709Capable
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonxvYCC709Capable
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isMonxvYCC709Capable
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 363
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isMonxvYCC709Capable { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isMonxvYCC709Capable As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonxvYCC709Capable*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonsYCC601Capable
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonsYCC601Capable
+  id: isMonsYCC601Capable
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isMonsYCC601Capable
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isMonsYCC601Capable
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonsYCC601Capable
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isMonsYCC601Capable
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 378
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isMonsYCC601Capable { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isMonsYCC601Capable As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonsYCC601Capable*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonAdobeYCC601Capable
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonAdobeYCC601Capable
+  id: isMonAdobeYCC601Capable
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isMonAdobeYCC601Capable
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isMonAdobeYCC601Capable
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonAdobeYCC601Capable
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isMonAdobeYCC601Capable
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 393
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isMonAdobeYCC601Capable { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isMonAdobeYCC601Capable As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonAdobeYCC601Capable*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonAdobeRGBCapable
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonAdobeRGBCapable
+  id: isMonAdobeRGBCapable
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isMonAdobeRGBCapable
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isMonAdobeRGBCapable
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonAdobeRGBCapable
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isMonAdobeRGBCapable
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 408
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isMonAdobeRGBCapable { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isMonAdobeRGBCapable As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonAdobeRGBCapable*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonBT2020RGBCapable
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonBT2020RGBCapable
+  id: isMonBT2020RGBCapable
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isMonBT2020RGBCapable
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isMonBT2020RGBCapable
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonBT2020RGBCapable
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isMonBT2020RGBCapable
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 423
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isMonBT2020RGBCapable { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isMonBT2020RGBCapable As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonBT2020RGBCapable*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonBT2020YCCCapable
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonBT2020YCCCapable
+  id: isMonBT2020YCCCapable
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isMonBT2020YCCCapable
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isMonBT2020YCCCapable
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonBT2020YCCCapable
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isMonBT2020YCCCapable
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 438
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isMonBT2020YCCCapable { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isMonBT2020YCCCapable As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonBT2020YCCCapable*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonBT2020cYCCCapable
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonBT2020cYCCCapable
+  id: isMonBT2020cYCCCapable
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: isMonBT2020cYCCCapable
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isMonBT2020cYCCCapable
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonBT2020cYCCCapable
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: isMonBT2020cYCCCapable
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 453
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint isMonBT2020cYCCCapable { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property isMonBT2020cYCCCapable As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonBT2020cYCCCapable*
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.reserved
+  commentId: P:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.reserved
+  id: reserved
+  parent: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1
+  langs:
+  - csharp
+  - vb
+  name: reserved
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.reserved
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.reserved
+  type: Property
+  source:
+    remote:
+      path: NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+      branch: main
+      repo: https://github.com/terrymacdonald/NVAPIWrapper.git
+    id: reserved
+    path: ../NVAPIWrapper/cs_generated/_NV_DISPLAY_PORT_INFO_V1.cs
+    startLine: 468
+  assemblies:
+  - NVAPIWrapper
+  namespace: NVAPIWrapper
+  example: []
+  syntax:
+    content: public uint reserved { readonly get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property reserved As UInteger
+  overload: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.reserved*
+references:
+- uid: NVAPIWrapper
+  commentId: N:NVAPIWrapper
+  href: NVAPIWrapper.html
+  name: NVAPIWrapper
+  nameWithType: NVAPIWrapper
+  fullName: NVAPIWrapper
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NVAPIWrapper._NV_DP_LINK_RATE
+  commentId: T:NVAPIWrapper._NV_DP_LINK_RATE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DP_LINK_RATE.html
+  name: _NV_DP_LINK_RATE
+  nameWithType: _NV_DP_LINK_RATE
+  fullName: NVAPIWrapper._NV_DP_LINK_RATE
+- uid: NVAPIWrapper._NV_DP_LANE_COUNT
+  commentId: T:NVAPIWrapper._NV_DP_LANE_COUNT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DP_LANE_COUNT.html
+  name: _NV_DP_LANE_COUNT
+  nameWithType: _NV_DP_LANE_COUNT
+  fullName: NVAPIWrapper._NV_DP_LANE_COUNT
+- uid: NVAPIWrapper._NV_DP_COLOR_FORMAT
+  commentId: T:NVAPIWrapper._NV_DP_COLOR_FORMAT
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DP_COLOR_FORMAT.html
+  name: _NV_DP_COLOR_FORMAT
+  nameWithType: _NV_DP_COLOR_FORMAT
+  fullName: NVAPIWrapper._NV_DP_COLOR_FORMAT
+- uid: NVAPIWrapper._NV_DP_DYNAMIC_RANGE
+  commentId: T:NVAPIWrapper._NV_DP_DYNAMIC_RANGE
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DP_DYNAMIC_RANGE.html
+  name: _NV_DP_DYNAMIC_RANGE
+  nameWithType: _NV_DP_DYNAMIC_RANGE
+  fullName: NVAPIWrapper._NV_DP_DYNAMIC_RANGE
+- uid: NVAPIWrapper._NV_DP_COLORIMETRY
+  commentId: T:NVAPIWrapper._NV_DP_COLORIMETRY
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DP_COLORIMETRY.html
+  name: _NV_DP_COLORIMETRY
+  nameWithType: _NV_DP_COLORIMETRY
+  fullName: NVAPIWrapper._NV_DP_COLORIMETRY
+- uid: NVAPIWrapper._NV_DP_BPC
+  commentId: T:NVAPIWrapper._NV_DP_BPC
+  parent: NVAPIWrapper
+  href: NVAPIWrapper._NV_DP_BPC.html
+  name: _NV_DP_BPC
+  nameWithType: _NV_DP_BPC
+  fullName: NVAPIWrapper._NV_DP_BPC
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isDp*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isDp
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_isDp
+  name: isDp
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isDp
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isDp
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isInternalDp*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isInternalDp
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_isInternalDp
+  name: isInternalDp
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isInternalDp
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isInternalDp
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isColorCtrlSupported*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isColorCtrlSupported
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_isColorCtrlSupported
+  name: isColorCtrlSupported
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isColorCtrlSupported
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isColorCtrlSupported
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is6BPCSupported*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is6BPCSupported
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_is6BPCSupported
+  name: is6BPCSupported
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.is6BPCSupported
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is6BPCSupported
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is8BPCSupported*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is8BPCSupported
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_is8BPCSupported
+  name: is8BPCSupported
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.is8BPCSupported
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is8BPCSupported
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is10BPCSupported*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is10BPCSupported
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_is10BPCSupported
+  name: is10BPCSupported
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.is10BPCSupported
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is10BPCSupported
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is12BPCSupported*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is12BPCSupported
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_is12BPCSupported
+  name: is12BPCSupported
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.is12BPCSupported
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is12BPCSupported
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is16BPCSupported*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is16BPCSupported
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_is16BPCSupported
+  name: is16BPCSupported
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.is16BPCSupported
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is16BPCSupported
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCrCb420Supported*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCrCb420Supported
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_isYCrCb420Supported
+  name: isYCrCb420Supported
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isYCrCb420Supported
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCrCb420Supported
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCrCb422Supported*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCrCb422Supported
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_isYCrCb422Supported
+  name: isYCrCb422Supported
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isYCrCb422Supported
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCrCb422Supported
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCrCb444Supported*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCrCb444Supported
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_isYCrCb444Supported
+  name: isYCrCb444Supported
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isYCrCb444Supported
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCrCb444Supported
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isRgb444SupportedOnCurrentMode*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isRgb444SupportedOnCurrentMode
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_isRgb444SupportedOnCurrentMode
+  name: isRgb444SupportedOnCurrentMode
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isRgb444SupportedOnCurrentMode
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isRgb444SupportedOnCurrentMode
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCbCr444SupportedOnCurrentMode*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCbCr444SupportedOnCurrentMode
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_isYCbCr444SupportedOnCurrentMode
+  name: isYCbCr444SupportedOnCurrentMode
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isYCbCr444SupportedOnCurrentMode
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCbCr444SupportedOnCurrentMode
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCbCr422SupportedOnCurrentMode*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCbCr422SupportedOnCurrentMode
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_isYCbCr422SupportedOnCurrentMode
+  name: isYCbCr422SupportedOnCurrentMode
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isYCbCr422SupportedOnCurrentMode
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCbCr422SupportedOnCurrentMode
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCbCr420SupportedOnCurrentMode*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCbCr420SupportedOnCurrentMode
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_isYCbCr420SupportedOnCurrentMode
+  name: isYCbCr420SupportedOnCurrentMode
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isYCbCr420SupportedOnCurrentMode
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isYCbCr420SupportedOnCurrentMode
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is6BPCSupportedOnCurrentMode*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is6BPCSupportedOnCurrentMode
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_is6BPCSupportedOnCurrentMode
+  name: is6BPCSupportedOnCurrentMode
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.is6BPCSupportedOnCurrentMode
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is6BPCSupportedOnCurrentMode
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is8BPCSupportedOnCurrentMode*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is8BPCSupportedOnCurrentMode
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_is8BPCSupportedOnCurrentMode
+  name: is8BPCSupportedOnCurrentMode
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.is8BPCSupportedOnCurrentMode
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is8BPCSupportedOnCurrentMode
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is10BPCSupportedOnCurrentMode*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is10BPCSupportedOnCurrentMode
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_is10BPCSupportedOnCurrentMode
+  name: is10BPCSupportedOnCurrentMode
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.is10BPCSupportedOnCurrentMode
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is10BPCSupportedOnCurrentMode
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is12BPCSupportedOnCurrentMode*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is12BPCSupportedOnCurrentMode
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_is12BPCSupportedOnCurrentMode
+  name: is12BPCSupportedOnCurrentMode
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.is12BPCSupportedOnCurrentMode
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is12BPCSupportedOnCurrentMode
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is16BPCSupportedOnCurrentMode*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is16BPCSupportedOnCurrentMode
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_is16BPCSupportedOnCurrentMode
+  name: is16BPCSupportedOnCurrentMode
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.is16BPCSupportedOnCurrentMode
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.is16BPCSupportedOnCurrentMode
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonxvYCC601Capable*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonxvYCC601Capable
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_isMonxvYCC601Capable
+  name: isMonxvYCC601Capable
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isMonxvYCC601Capable
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonxvYCC601Capable
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonxvYCC709Capable*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonxvYCC709Capable
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_isMonxvYCC709Capable
+  name: isMonxvYCC709Capable
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isMonxvYCC709Capable
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonxvYCC709Capable
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonsYCC601Capable*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonsYCC601Capable
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_isMonsYCC601Capable
+  name: isMonsYCC601Capable
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isMonsYCC601Capable
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonsYCC601Capable
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonAdobeYCC601Capable*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonAdobeYCC601Capable
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_isMonAdobeYCC601Capable
+  name: isMonAdobeYCC601Capable
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isMonAdobeYCC601Capable
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonAdobeYCC601Capable
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonAdobeRGBCapable*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonAdobeRGBCapable
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_isMonAdobeRGBCapable
+  name: isMonAdobeRGBCapable
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isMonAdobeRGBCapable
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonAdobeRGBCapable
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonBT2020RGBCapable*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonBT2020RGBCapable
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_isMonBT2020RGBCapable
+  name: isMonBT2020RGBCapable
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isMonBT2020RGBCapable
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonBT2020RGBCapable
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonBT2020YCCCapable*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonBT2020YCCCapable
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_isMonBT2020YCCCapable
+  name: isMonBT2020YCCCapable
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isMonBT2020YCCCapable
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonBT2020YCCCapable
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonBT2020cYCCCapable*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonBT2020cYCCCapable
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_isMonBT2020cYCCCapable
+  name: isMonBT2020cYCCCapable
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.isMonBT2020cYCCCapable
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.isMonBT2020cYCCCapable
+- uid: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.reserved*
+  commentId: Overload:NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.reserved
+  href: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.html#NVAPIWrapper__NV_DISPLAY_PORT_INFO_V1_reserved
+  name: reserved
+  nameWithType: _NV_DISPLAY_PORT_INFO_V1.reserved
+  fullName: NVAPIWrapper._NV_DISPLAY_PORT_INFO_V1.reserved
