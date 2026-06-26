@@ -20,8 +20,7 @@ public sealed class AudioFormatProfile
     /// <summary>Gets or sets the physical speaker destination matrix bitmask layout (e.g., 0x3F for standard 5.1 surround routing).</summary>
     public uint ChannelMask { get; set; } = 0;
 
-    /// <summary>Gets or sets the underlying data format (e.g., PCM, IEEE Float). Safely ignored in JSON layout.</summary>
-    [JsonIgnore]
+    /// <summary>Gets or sets the underlying data format (e.g., PCM, IEEE Float).</summary>
     public AudioSampleFormat SampleFormat { get; set; } = AudioSampleFormat.Pcm;
 
     /// <summary>Gets or sets the mode of the format (Shared or Exclusive). Safely ignored in JSON layout.</summary>
