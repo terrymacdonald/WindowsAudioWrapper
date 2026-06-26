@@ -35,58 +35,297 @@ When profiles are captured or serialized, the schema output is perfectly clean a
 
 ```json
 {
-  "ProfileName": "Ultra-Fidelity Studio Monitor",
-  "IsActive": true,
   "Playback": {
-    "TargetDevice": {
-      "DeviceId": "{0.0.0.00000000}.{a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d}",
-      "ContainerId": "b4c5d6e7-f8a9-0b1c-2d3e-4f5a6b7c8d9e",
-      "FriendlyName": "Scarlett 2i2 Out",
+    "MultimediaDevice": {
+      "DeviceId": "{0.0.0.00000000}.{718f6171-d4b3-4f54-a8a9-fc7b94010da3}",
+      "ContainerId": "83b8f97a-ed0e-589e-8f04-b0ed57d314f5",
+      "FriendlyName": "BenQ SW2700 (NVIDIA High Definition Audio)",
       "HardwareDetails": {
-        "DeviceDescription": "Focusrite USB Audio",
-        "HardwareId": "USB\\VID_1235&PID_8212",
-        "DriverVersion": "4.119.13.0",
-        "EndpointAssociationGuid": "38be3000-76f5-11d0-a292-00a0c9223196"
-      }
+        "DeviceDescription": "BenQ SW2700",
+        "FormFactorCode": 9,
+        "PhysicalSpeakersMask": 0,
+        "FullRangeSpeakersMask": 0,
+        "EndpointGuid": "{718F6171-D4B3-4F54-A8A9-FC7B94010DA3}",
+        "DeviceFormatSummary": "FormatTag=1;Channels=2;SampleRate=48000;BitsPerSample=16;BlockAlign=4;AvgBytesPerSec=192000",
+        "SupportsEventDrivenMode": true,
+        "JackSubType": "{D1B9CC2A-F519-417F-91C9-55FA65481001}"
+      },
+      "ApoFxProperties": {}
     },
-    "VolumePercent": 70.00,
-    "IsMuted": false,
-    "StreamFormat": {
-      "SampleRate": 192000,
-      "BitDepth": 24,
-      "Channels": 2
-    },
-    "AudioEnhancements": {
-      "AreEnhancementsSupported": true,
-      "DisableAllEnhancements": false,
-      "ActiveEffectsGuidsList": []
-    }
-  },
-  "Recording": {
-    "TargetDevice": {
-      "DeviceId": "{0.0.10000000}.{capture-guid-here}",
-      "ContainerId": "container-guid-here",
-      "FriendlyName": "Scarlett 2i2 In",
+    "ConsoleDevice": {
+      "DeviceId": "{0.0.0.00000000}.{718f6171-d4b3-4f54-a8a9-fc7b94010da3}",
+      "ContainerId": "83b8f97a-ed0e-589e-8f04-b0ed57d314f5",
+      "FriendlyName": "BenQ SW2700 (NVIDIA High Definition Audio)",
       "HardwareDetails": {
-        "DeviceDescription": "Focusrite USB Audio",
-        "HardwareId": "USB\\VID_1235&PID_8212",
-        "DriverVersion": "4.119.13.0",
-        "EndpointAssociationGuid": "20889842-76f5-11d0-a292-00a0c9223196"
-      }
+        "DeviceDescription": "BenQ SW2700",
+        "FormFactorCode": 9,
+        "PhysicalSpeakersMask": 0,
+        "FullRangeSpeakersMask": 0,
+        "EndpointGuid": "{718F6171-D4B3-4F54-A8A9-FC7B94010DA3}",
+        "DeviceFormatSummary": "FormatTag=1;Channels=2;SampleRate=48000;BitsPerSample=16;BlockAlign=4;AvgBytesPerSec=192000",
+        "SupportsEventDrivenMode": true,
+        "JackSubType": "{D1B9CC2A-F519-417F-91C9-55FA65481001}"
+      },
+      "ApoFxProperties": {}
     },
-    "VolumePercent": 50.00,
+    "CommunicationsDevice": {
+      "DeviceId": "{0.0.0.00000000}.{881233af-9d4c-4b90-bbcc-7da40ffa45ac}",
+      "ContainerId": "9839ceec-ca2e-5d56-bfde-10a8561d91af",
+      "FriendlyName": "Speakers (Yeti Stereo Microphone)",
+      "HardwareDetails": {
+        "DeviceDescription": "Speakers",
+        "FormFactorCode": 1,
+        "PhysicalSpeakersMask": 0,
+        "FullRangeSpeakersMask": 0,
+        "EndpointGuid": "{881233AF-9D4C-4B90-BBCC-7DA40FFA45AC}",
+        "DeviceFormatSummary": "FormatTag=65534;Channels=2;SampleRate=48000;BitsPerSample=16;BlockAlign=4;AvgBytesPerSec=192000",
+        "SupportsEventDrivenMode": true,
+        "JackSubType": "{DFF21CE1-F70F-11D0-B917-00A0C9223196}"
+      },
+      "ApoFxProperties": {}
+    },
+    "VolumePercent": 16.00,
     "IsMuted": false,
     "StreamFormat": {
       "SampleRate": 48000,
-      "BitDepth": 24,
-      "Channels": 2
+      "BitDepth": 16,
+      "Channels": 2,
+      "ChannelMask": 0,
+      "SampleFormat": 1
     },
     "AudioEnhancements": {
       "AreEnhancementsSupported": false,
       "DisableAllEnhancements": false,
       "ActiveEffectsGuidsList": []
+    },
+    "VolumeLeft": 16.0,
+    "VolumeRight": 16.0
+  },
+  "Recording": {
+    "MultimediaDevice": {
+      "DeviceId": "{0.0.1.00000000}.{7a7ef8ed-54e6-465a-9873-cbdfb07811db}",
+      "ContainerId": "00000000-0000-0000-ffff-ffffffffffff",
+      "FriendlyName": "Microphone Array (Realtek(R) Audio)",
+      "HardwareDetails": {
+        "DeviceDescription": "Microphone Array",
+        "FormFactorCode": 4,
+        "PhysicalSpeakersMask": 0,
+        "FullRangeSpeakersMask": 0,
+        "EndpointGuid": "{7A7EF8ED-54E6-465A-9873-CBDFB07811DB}",
+        "DeviceFormatSummary": "FormatTag=1;Channels=2;SampleRate=48000;BitsPerSample=16;BlockAlign=4;AvgBytesPerSec=192000",
+        "SupportsEventDrivenMode": true,
+        "JackSubType": "{DFF21BE5-F70F-11D0-B917-00A0C9223196}"
+      },
+      "ApoFxProperties": {}
+    },
+    "ConsoleDevice": {
+      "DeviceId": "{0.0.1.00000000}.{7a7ef8ed-54e6-465a-9873-cbdfb07811db}",
+      "ContainerId": "00000000-0000-0000-ffff-ffffffffffff",
+      "FriendlyName": "Microphone Array (Realtek(R) Audio)",
+      "HardwareDetails": {
+        "DeviceDescription": "Microphone Array",
+        "FormFactorCode": 4,
+        "PhysicalSpeakersMask": 0,
+        "FullRangeSpeakersMask": 0,
+        "EndpointGuid": "{7A7EF8ED-54E6-465A-9873-CBDFB07811DB}",
+        "DeviceFormatSummary": "FormatTag=1;Channels=2;SampleRate=48000;BitsPerSample=16;BlockAlign=4;AvgBytesPerSec=192000",
+        "SupportsEventDrivenMode": true,
+        "JackSubType": "{DFF21BE5-F70F-11D0-B917-00A0C9223196}"
+      },
+      "ApoFxProperties": {}
+    },
+    "CommunicationsDevice": {
+      "DeviceId": "{0.0.1.00000000}.{26355e0c-f824-4ce3-8f89-2a1997aee290}",
+      "ContainerId": "f402a1c6-4dc2-5e35-b4e5-a347980e34ff",
+      "FriendlyName": "Speakerphone (Brio 500)",
+      "HardwareDetails": {
+        "DeviceDescription": "Speakerphone",
+        "FormFactorCode": 6,
+        "PhysicalSpeakersMask": 0,
+        "FullRangeSpeakersMask": 0,
+        "EndpointGuid": "{26355E0C-F824-4CE3-8F89-2A1997AEE290}",
+        "DeviceFormatSummary": "FormatTag=65534;Channels=2;SampleRate=48000;BitsPerSample=16;BlockAlign=4;AvgBytesPerSec=192000",
+        "SupportsEventDrivenMode": true,
+        "JackSubType": "{DFF21DE3-F70F-11D0-B917-00A0C9223196}"
+      },
+      "ApoFxProperties": {}
+    },
+    "VolumePercent": 0.0,
+    "IsMuted": false,
+    "StreamFormat": {
+      "SampleRate": 48000,
+      "BitDepth": 16,
+      "Channels": 2,
+      "ChannelMask": 0,
+      "SampleFormat": 1
+    },
+    "AudioEnhancements": {
+      "AreEnhancementsSupported": true,
+      "DisableAllEnhancements": false,
+      "ActiveEffectsGuidsList": [
+        "6f64adbe-8211-11e2-8c70-2c27d7f001fa",
+        "6f64adbf-8211-11e2-8c70-2c27d7f001fa"
+      ]
+    },
+    "VolumeLeft": 0.0,
+    "VolumeRight": 0.0
+  },
+  "EndpointVisibilities": [
+    {
+      "DeviceId": "{0.0.0.00000000}.{0e9cacd7-7aff-464b-a999-52daed4cf806}",
+      "ContainerId": "e0b7cd08-48c7-41e4-b7ce-3030f0b735f4",
+      "FriendlyName": "Headset (ThinkPad Thunderbolt 4 Dock USB Audio)",
+      "Flow": 1,
+      "IsDisabled": false
+    },
+    {
+      "DeviceId": "{0.0.0.00000000}.{13a6a074-cd60-4509-89f8-e470cf6cc45c}",
+      "ContainerId": "00000000-0000-0000-ffff-ffffffffffff",
+      "FriendlyName": "Speakers (Realtek(R) Audio)",
+      "Flow": 1,
+      "IsDisabled": false
+    },
+    {
+      "DeviceId": "{0.0.0.00000000}.{1696cebf-2bf6-44a3-8d7a-c0085f3e5bb6}",
+      "ContainerId": "cd74a660-a135-5ea7-9942-511460c75bff",
+      "FriendlyName": "DELL U2715H (NVIDIA High Definition Audio)",
+      "Flow": 1,
+      "IsDisabled": false
+    },
+    {
+      "DeviceId": "{0.0.0.00000000}.{3973d7c5-caa9-444b-8ea6-4a2c86bde7ca}",
+      "ContainerId": "2e0d9a1c-119d-11ee-82f2-806e6f6e6963",
+      "FriendlyName": "",
+      "Flow": 1,
+      "IsDisabled": false
+    },
+    {
+      "DeviceId": "{0.0.0.00000000}.{497d2f43-65fe-49d7-8604-a03618c4173e}",
+      "ContainerId": "00000000-0000-0000-ffff-ffffffffffff",
+      "FriendlyName": "Speakers (Realtek(R) Audio)",
+      "Flow": 1,
+      "IsDisabled": false
+    },
+    {
+      "DeviceId": "{0.0.0.00000000}.{66427899-03d2-4c39-9efe-4e71f0b5c9d5}",
+      "ContainerId": "0a1577b5-d46e-5ca2-943c-4adb4ccf3040",
+      "FriendlyName": "NVIDIA Output (NVIDIA High Definition Audio)",
+      "Flow": 1,
+      "IsDisabled": false
+    },
+    {
+      "DeviceId": "{0.0.0.00000000}.{718f6171-d4b3-4f54-a8a9-fc7b94010da3}",
+      "ContainerId": "83b8f97a-ed0e-589e-8f04-b0ed57d314f5",
+      "FriendlyName": "BenQ SW2700 (NVIDIA High Definition Audio)",
+      "Flow": 1,
+      "IsDisabled": false
+    },
+    {
+      "DeviceId": "{0.0.0.00000000}.{755dcacf-a37d-4b0e-968a-b0d23e506d89}",
+      "ContainerId": "b8ba6990-b753-5407-9b2b-af416b7daa57",
+      "FriendlyName": "PHL 223V5 (NVIDIA High Definition Audio)",
+      "Flow": 1,
+      "IsDisabled": false
+    },
+    {
+      "DeviceId": "{0.0.0.00000000}.{7c267ae3-e7ea-4571-9519-596eefacbfb8}",
+      "ContainerId": "ed447683-cd62-5335-bd4b-bbb06171b217",
+      "FriendlyName": "Headphones (Realtek(R) Audio)",
+      "Flow": 1,
+      "IsDisabled": false
+    },
+    {
+      "DeviceId": "{0.0.0.00000000}.{7f67c397-608a-4434-ae41-5d8464fb1327}",
+      "ContainerId": "52f3a6fe-b113-54ff-8b2d-cc927c71c0f6",
+      "FriendlyName": "Headphones (Realtek(R) Audio)",
+      "Flow": 1,
+      "IsDisabled": false
+    },
+    {
+      "DeviceId": "{0.0.0.00000000}.{881233af-9d4c-4b90-bbcc-7da40ffa45ac}",
+      "ContainerId": "9839ceec-ca2e-5d56-bfde-10a8561d91af",
+      "FriendlyName": "Speakers (Yeti Stereo Microphone)",
+      "Flow": 1,
+      "IsDisabled": false
+    },
+    {
+      "DeviceId": "{0.0.0.00000000}.{8b450b4e-bbc7-4392-bd92-72d81408cfe7}",
+      "ContainerId": "2e0d9a1c-119d-11ee-82f2-806e6f6e6963",
+      "FriendlyName": "",
+      "Flow": 1,
+      "IsDisabled": false
+    },
+    {
+      "DeviceId": "{0.0.0.00000000}.{9a4db43f-5c85-4ff8-b79e-b6899a61fcc2}",
+      "ContainerId": "f48ea52f-fe7f-5a87-afbc-5a1a87ba7745",
+      "FriendlyName": "NVIDIA Output (NVIDIA High Definition Audio)",
+      "Flow": 1,
+      "IsDisabled": false
+    },
+    {
+      "DeviceId": "{0.0.0.00000000}.{e163f34a-aac6-4492-a54c-42f8347ccc66}",
+      "ContainerId": "c09bc615-f4ad-5541-a187-9a27d8bac7e6",
+      "FriendlyName": "34GLR-H (NVIDIA High Definition Audio)",
+      "Flow": 1,
+      "IsDisabled": false
+    },
+    {
+      "DeviceId": "{0.0.1.00000000}.{26355e0c-f824-4ce3-8f89-2a1997aee290}",
+      "ContainerId": "f402a1c6-4dc2-5e35-b4e5-a347980e34ff",
+      "FriendlyName": "Speakerphone (Brio 500)",
+      "Flow": 2,
+      "IsDisabled": false
+    },
+    {
+      "DeviceId": "{0.0.1.00000000}.{7a7ef8ed-54e6-465a-9873-cbdfb07811db}",
+      "ContainerId": "00000000-0000-0000-ffff-ffffffffffff",
+      "FriendlyName": "Microphone Array (Realtek(R) Audio)",
+      "Flow": 2,
+      "IsDisabled": false
+    },
+    {
+      "DeviceId": "{0.0.1.00000000}.{9687b016-2bf1-46ec-aeaa-f986d8cfa2ec}",
+      "ContainerId": "e0b7cd08-48c7-41e4-b7ce-3030f0b735f4",
+      "FriendlyName": "Microphone (ThinkPad Thunderbolt 4 Dock USB Audio)",
+      "Flow": 2,
+      "IsDisabled": false
+    },
+    {
+      "DeviceId": "{0.0.1.00000000}.{9762d5d1-6dbe-4ee2-86ff-616bfe12f3b3}",
+      "ContainerId": "9839ceec-ca2e-5d56-bfde-10a8561d91af",
+      "FriendlyName": "Microphone (Yeti Stereo Microphone)",
+      "Flow": 2,
+      "IsDisabled": false
+    },
+    {
+      "DeviceId": "{0.0.1.00000000}.{b13e5a11-f748-4cba-8f33-37275c69d9ab}",
+      "ContainerId": "00000000-0000-0000-ffff-ffffffffffff",
+      "FriendlyName": "Internal AUX Jack (NVIDIA High Definition Audio)",
+      "Flow": 2,
+      "IsDisabled": false
+    },
+    {
+      "DeviceId": "{0.0.1.00000000}.{d60338b7-db6f-414a-ba6d-a415a022b426}",
+      "ContainerId": "2e0d9a1c-119d-11ee-82f2-806e6f6e6963",
+      "FriendlyName": "",
+      "Flow": 2,
+      "IsDisabled": false
+    },
+    {
+      "DeviceId": "{0.0.1.00000000}.{e9f4d810-ff84-4076-8e79-02dc431acb98}",
+      "ContainerId": "00000000-0000-0000-ffff-ffffffffffff",
+      "FriendlyName": "Stereo Mix (Realtek(R) Audio)",
+      "Flow": 2,
+      "IsDisabled": true
+    },
+    {
+      "DeviceId": "{0.0.1.00000000}.{ee2d80f0-218d-4c7c-b0da-c224ec3b2b07}",
+      "ContainerId": "9839ceec-ca2e-5d56-bfde-10a8561d91af",
+      "FriendlyName": "Microphone (Yeti Stereo Microphone)",
+      "Flow": 2,
+      "IsDisabled": false
     }
-  }
+  ]
 }
 ```
 
@@ -210,6 +449,14 @@ The workspace includes automation scripts to coordinate restorations, cleans, st
 * **Execute the Hardware Integration Test Suite:**
   ```powershell
   .\\test_windowsaudio.ps1
+  ```
+  **Update the docfx documentation site, and run it for easy API review using a web browser:**
+  ```powershell
+  .\\refresh_windowsaudio_api_docs.ps1
+  ```
+  **Package up a new release zip file:**
+  ```powershell
+  .\\create_windowsaudio_release_zip.ps1
   ```
 
 *Note: Real hardware integration tests modify system configurations sequentially and are explicitly configured with `DisableTestParallelization = true` across the test collection boundary to guarantee state-isolation and prevent race conditions.*
