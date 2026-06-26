@@ -31,6 +31,9 @@ public class AudioEndpointReference
     /// <summary>Gets or sets the multi-tier driver descriptor block entries.</summary>
     public HardwareDetails HardwareDetails { get; set; } = new();
 
+    /// <summary>Gets or sets opaque APO/driver effect properties captured for this endpoint.</summary>
+    public Dictionary<string, string> ApoFxProperties { get; set; } = new();
+
     /// <summary>
     /// Translates unmanaged live endpoint structures cleanly down to serializable contract configurations.
     /// </summary>
@@ -59,7 +62,8 @@ public class AudioEndpointReference
                 DeviceFormatSummary = info.HardwareDetails?.DeviceFormatSummary ?? string.Empty,
                 SupportsEventDrivenMode = info.HardwareDetails?.SupportsEventDrivenMode ?? false,
                 JackSubType = info.HardwareDetails?.JackSubType ?? string.Empty
-            }
+            },
+            ApoFxProperties = new Dictionary<string, string>()
         };
     }
 }

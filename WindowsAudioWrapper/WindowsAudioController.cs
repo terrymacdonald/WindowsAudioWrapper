@@ -685,10 +685,6 @@ public sealed class WindowsAudioController : IWindowsAudioController
             playback.VolumeLeft = (decimal)(l * 100f);
             playback.VolumeRight = (decimal)(r * 100f);
             playback.IsChannelVolumeEnabled = true;
-
-            // Capture Fine-Grained Slider Percentages from FxProperties
-            CaptureRegistrySliders(defaultDevice.DeviceId, true, playback.ApoSliders);
-            playback.IsApoSlidersEnabled = playback.ApoSliders.Count > 0;
         }
 
         if (consoleDevice.IsAvailable)
@@ -702,6 +698,10 @@ public sealed class WindowsAudioController : IWindowsAudioController
             playback.IsDefaultCommunicationsPlaybackDeviceEnabled = true;
             playback.CommunicationsDevice = AudioEndpointReference.FromEndpointInfo(communicationsDevice);
         }
+
+        CaptureRoleEndpointFxProperties(playback.MultimediaDevice, true);
+        CaptureRoleEndpointFxProperties(playback.ConsoleDevice, true);
+        CaptureRoleEndpointFxProperties(playback.CommunicationsDevice, true);
     }
 
     private void CaptureRecordingProfile(RecordingAudioProfile recording)
@@ -736,10 +736,6 @@ public sealed class WindowsAudioController : IWindowsAudioController
             recording.VolumeLeft = (decimal)(l * 100f);
             recording.VolumeRight = (decimal)(r * 100f);
             recording.IsChannelVolumeEnabled = true;
-
-            // Capture Fine-Grained Slider Percentages from FxProperties
-            CaptureRegistrySliders(defaultDevice.DeviceId, false, recording.ApoSliders);
-            recording.IsApoSlidersEnabled = recording.ApoSliders.Count > 0;
         }
 
         if (consoleDevice.IsAvailable)
@@ -753,6 +749,10 @@ public sealed class WindowsAudioController : IWindowsAudioController
             recording.IsDefaultCommunicationsRecordingDeviceEnabled = true;
             recording.CommunicationsDevice = AudioEndpointReference.FromEndpointInfo(communicationsDevice);
         }
+
+        CaptureRoleEndpointFxProperties(recording.MultimediaDevice, false);
+        CaptureRoleEndpointFxProperties(recording.ConsoleDevice, false);
+        CaptureRoleEndpointFxProperties(recording.CommunicationsDevice, false);
     }
 
     private void CaptureChannelVolumes(string id, out float left, out float right)
@@ -821,16 +821,15 @@ public sealed class WindowsAudioController : IWindowsAudioController
             TryApplySetting(result, "playback channel volumes", () => SetChannelVolumes(playback.MultimediaDevice.DeviceId, playback.VolumeLeft, playback.VolumeRight));
         }
         
-        // Restore Channel Layout Configuration Masks and Driver Slider Percentages securely via Property Store
+        // Restore Channel Layout Configuration Masks securely via Property Store
         if (playback.IsFormatEnabled && canApplyMultimediaDevice && playback.StreamFormat.ChannelMask > 0)
         {
             var maskDict = new Dictionary<string, string> { { "{14242002-0320-4de4-9555-a7d82b73c286},3", $"int:{playback.StreamFormat.ChannelMask}" } };
             TryApplySetting(result, "playback channel mask property", () => ApplyPropertiesViaPropertyStore(playback.MultimediaDevice.DeviceId, maskDict));
         }
-        if (playback.IsApoSlidersEnabled && canApplyMultimediaDevice)
-        {
-            TryApplySetting(result, "playback APO properties", () => ApplyPropertiesViaPropertyStore(playback.MultimediaDevice.DeviceId, playback.ApoSliders));
-        }
+        ApplyRoleEndpointFxProperties(playback.MultimediaDevice, AudioFlow.Render, "playback multimedia APO properties", result);
+        ApplyRoleEndpointFxProperties(playback.ConsoleDevice, AudioFlow.Render, "playback console APO properties", result);
+        ApplyRoleEndpointFxProperties(playback.CommunicationsDevice, AudioFlow.Render, "playback communications APO properties", result);
 
         result.Messages.Add(AudioOperationMessage.Info(AudioMessageCode.ProfileApplied, "Playback audio profile applied."));
     }
@@ -864,16 +863,15 @@ public sealed class WindowsAudioController : IWindowsAudioController
             TryApplySetting(result, "recording channel volumes", () => SetChannelVolumes(recording.MultimediaDevice.DeviceId, recording.VolumeLeft, recording.VolumeRight));
         }
 
-        // Restore Channel Layout Configuration Masks and Driver Slider Percentages securely via Property Store
+        // Restore Channel Layout Configuration Masks securely via Property Store
         if (recording.IsFormatEnabled && canApplyMultimediaDevice && recording.StreamFormat.ChannelMask > 0)
         {
             var maskDict = new Dictionary<string, string> { { "{14242002-0320-4de4-9555-a7d82b73c286},3", $"int:{recording.StreamFormat.ChannelMask}" } };
             TryApplySetting(result, "recording channel mask property", () => ApplyPropertiesViaPropertyStore(recording.MultimediaDevice.DeviceId, maskDict));
         }
-        if (recording.IsApoSlidersEnabled && canApplyMultimediaDevice)
-        {
-            TryApplySetting(result, "recording APO properties", () => ApplyPropertiesViaPropertyStore(recording.MultimediaDevice.DeviceId, recording.ApoSliders));
-        }
+        ApplyRoleEndpointFxProperties(recording.MultimediaDevice, AudioFlow.Capture, "recording multimedia APO properties", result);
+        ApplyRoleEndpointFxProperties(recording.ConsoleDevice, AudioFlow.Capture, "recording console APO properties", result);
+        ApplyRoleEndpointFxProperties(recording.CommunicationsDevice, AudioFlow.Capture, "recording communications APO properties", result);
 
         result.Messages.Add(AudioOperationMessage.Info(AudioMessageCode.ProfileApplied, "Recording audio profile applied."));
     }
@@ -882,6 +880,35 @@ public sealed class WindowsAudioController : IWindowsAudioController
     {
         if (system.IsMonoAudioEnabled) TryApplySetting(result, "mono audio", () => _systemAudioProvider.SetMonoAudio(system.MonoAudio));
         result.Messages.Add(AudioOperationMessage.Info(AudioMessageCode.ProfileApplied, "System audio profile applied."));
+    }
+
+    private static void CaptureRoleEndpointFxProperties(AudioEndpointReference endpoint, bool isRender)
+    {
+        endpoint.ApoFxProperties ??= new Dictionary<string, string>();
+        endpoint.ApoFxProperties.Clear();
+
+        if (string.IsNullOrWhiteSpace(endpoint.DeviceId))
+        {
+            return;
+        }
+
+        CaptureApoFxProperties(endpoint.DeviceId, isRender, endpoint.ApoFxProperties);
+    }
+
+    private void ApplyRoleEndpointFxProperties(AudioEndpointReference endpoint, AudioFlow expectedFlow, string settingName, AudioProfileApplyResult result)
+    {
+        endpoint.ApoFxProperties ??= new Dictionary<string, string>();
+        if (endpoint.ApoFxProperties.Count == 0)
+        {
+            return;
+        }
+
+        if (!CanApplyEndpointSetting(endpoint, expectedFlow, settingName, result))
+        {
+            return;
+        }
+
+        TryApplySetting(result, settingName, () => ApplyPropertiesViaPropertyStore(endpoint.DeviceId, endpoint.ApoFxProperties));
     }
 
     private bool CanApplyEndpointSetting(AudioEndpointReference endpoint, AudioFlow expectedFlow, string settingName, AudioProfileApplyResult result)
@@ -1105,7 +1132,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
         return 0;
     }
 
-    private static void CaptureRegistrySliders(string deviceId, bool isRender, Dictionary<string, string> targetDict)
+    private static void CaptureApoFxProperties(string deviceId, bool isRender, Dictionary<string, string> targetDict)
     {
         try
         {
@@ -1130,15 +1157,15 @@ public sealed class WindowsAudioController : IWindowsAudioController
         catch {}
     }
 
-    private void ApplyPropertiesViaPropertyStore(string deviceId, Dictionary<string, string> sliderDict)
+    private void ApplyPropertiesViaPropertyStore(string deviceId, Dictionary<string, string> properties)
     {
-        if (sliderDict == null || sliderDict.Count == 0) return;
+        if (properties == null || properties.Count == 0) return;
         try
         {
             var device = CoreAudioUtilities.GetDeviceById(deviceId);
             if (device.OpenPropertyStore(2, out IPropertyStore store) >= 0) // STGM_READWRITE (2)
             {
-                foreach (var kvp in sliderDict)
+                foreach (var kvp in properties)
                 {
                     try
                     {

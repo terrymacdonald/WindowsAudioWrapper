@@ -34,9 +34,6 @@ public sealed class PlaybackAudioProfile
     /// <summary>Gets or sets the discrete Right channel volume level percentage (0-100).</summary>
     public decimal VolumeRight { get; set; } = 0.0m;
 
-    /// <summary>Gets or sets the fine-grained custom effect slider configuration key-value mappings.</summary>
-    public Dictionary<string, string> ApoSliders { get; set; } = new();
-
     /// <summary>Gets or sets a telemetry flag stating if playback features are active. Ignored in JSON.</summary>
     [JsonIgnore]
     public bool IsPlaybackEnabled { get; set; }
@@ -73,19 +70,17 @@ public sealed class PlaybackAudioProfile
     [JsonIgnore]
     public bool IsChannelVolumeEnabled { get; set; }
 
-    /// <summary>Gets or sets a tracking switch stating if custom slider configurations should be applied. Ignored in JSON.</summary>
-    [JsonIgnore] public bool IsApoSlidersEnabled { get; set; }
-
     /// <summary>Ensures sub-elements avoid object ref fault allocations post serialization.</summary>
     public void EnsureDefaults()
     {
         MultimediaDevice ??= new AudioEndpointReference();
         ConsoleDevice ??= new AudioEndpointReference();
         CommunicationsDevice ??= new AudioEndpointReference();
+        MultimediaDevice.ApoFxProperties ??= new Dictionary<string, string>();
+        ConsoleDevice.ApoFxProperties ??= new Dictionary<string, string>();
+        CommunicationsDevice.ApoFxProperties ??= new Dictionary<string, string>();
         StreamFormat ??= new AudioFormatProfile();
         AudioEnhancements ??= new AudioEnhancementProfile();
-        ApoSliders ??= new Dictionary<string, string>();
-
         if (MultimediaDevice.HardwareDetails == null)
         {
             MultimediaDevice.HardwareDetails = new HardwareDetails();
@@ -111,9 +106,6 @@ public sealed class PlaybackAudioProfile
             MultimediaDevice.IsEndpointEnabled = true;
             
             IsChannelVolumeEnabled = VolumeLeft > 0.0m || VolumeRight > 0.0m;
-
-            // Activate custom sliders track if configuration records exist
-            IsApoSlidersEnabled = ApoSliders.Count > 0;
         }
 
         // Auto-hydrate console routing flag

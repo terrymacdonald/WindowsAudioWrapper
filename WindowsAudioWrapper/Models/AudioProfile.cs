@@ -68,7 +68,6 @@ public sealed class AudioProfile
         Playback.IsFormatEnabled = Playback.StreamFormat.SampleRate > 0;
         Playback.IsAudioEnhancementsEnabled = true;
         Playback.IsChannelVolumeEnabled = true;
-        Playback.IsApoSlidersEnabled = true;
 
         Recording.IsRecordingEnabled = true;
         Recording.IsDefaultRecordingDeviceEnabled = !string.IsNullOrWhiteSpace(Recording.MultimediaDevice.DeviceId);
@@ -79,7 +78,6 @@ public sealed class AudioProfile
         Recording.IsFormatEnabled = Recording.StreamFormat.SampleRate > 0;
         Recording.IsAudioEnhancementsEnabled = true;
         Recording.IsChannelVolumeEnabled = true;
-        Recording.IsApoSlidersEnabled = true;
 
         IsEndpointVisibilityTrackingEnabled = EndpointVisibilities.Count > 0;
 

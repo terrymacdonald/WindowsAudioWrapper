@@ -210,7 +210,9 @@ internal static class HardwareTestHelpers
             FriendlyName = endpoint.FriendlyName,
             FullName = endpoint.FullName,
             Flow = endpoint.Flow,
-            IsEndpointEnabled = endpoint.IsEndpointEnabled
+            IsEndpointEnabled = endpoint.IsEndpointEnabled,
+            HardwareDetails = endpoint.HardwareDetails,
+            ApoFxProperties = new Dictionary<string, string>(endpoint.ApoFxProperties ?? new Dictionary<string, string>())
         };
     }
 
