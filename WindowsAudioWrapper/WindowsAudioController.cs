@@ -414,27 +414,11 @@ public sealed class WindowsAudioController : IWindowsAudioController
         profile.EnsureDefaults();
 
         AudioProfileApplyResult result = new();
-        AudioProfileValidationResult validationResult = ValidateProfile(profile);
-        foreach (var message in validationResult.Messages) result.Messages.Add(message);
 
-        if (!validationResult.Successful)
-        {
-            result.Successful = false;
-            return result;
-        }
-
-        try
-        {
-            if (profile.IsEndpointVisibilityTrackingEnabled) ApplyEndpointVisibilities(profile.EndpointVisibilities);
-            if (profile.Playback.IsPlaybackEnabled) ApplyPlaybackProfile(profile.Playback, result);
-            if (profile.Recording.IsRecordingEnabled) ApplyRecordingProfile(profile.Recording, result);
-            if (profile.System.IsSystemAudioEnabled) ApplySystemAudioProfile(profile.System, result);
-        }
-        catch (Exception ex)
-        {
-            result.Successful = false;
-            result.Messages.Add(AudioOperationMessage.Error(AudioMessageCode.UnexpectedError, $"Unexpected error applying audio profile: {ex.Message}"));
-        }
+        if (profile.IsEndpointVisibilityTrackingEnabled) ApplyEndpointVisibilities(profile.EndpointVisibilities, result);
+        if (profile.Playback.IsPlaybackEnabled) ApplyPlaybackProfile(profile.Playback, result);
+        if (profile.Recording.IsRecordingEnabled) ApplyRecordingProfile(profile.Recording, result);
+        if (profile.System.IsSystemAudioEnabled) ApplySystemAudioProfile(profile.System, result);
 
         result.RecalculateSuccess();
         return result;
@@ -631,7 +615,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
         profile.IsEndpointVisibilityTrackingEnabled = profile.EndpointVisibilities.Count > 0;
     }
 
-    private void ApplyEndpointVisibilities(IReadOnlyCollection<AudioEndpointVisibility> endpointVisibilities)
+    private void ApplyEndpointVisibilities(IReadOnlyCollection<AudioEndpointVisibility> endpointVisibilities, AudioProfileApplyResult result)
     {
         if (endpointVisibilities.Count == 0)
         {
@@ -645,7 +629,27 @@ public sealed class WindowsAudioController : IWindowsAudioController
                 continue;
             }
 
-            SetDeviceDisabled(endpointVisibility.DeviceId, endpointVisibility.IsDisabled);
+            AudioEndpointReference endpointReference = new()
+            {
+                DeviceId = endpointVisibility.DeviceId ?? string.Empty,
+                ContainerId = endpointVisibility.ContainerId ?? string.Empty,
+                FriendlyName = endpointVisibility.FriendlyName ?? string.Empty,
+                Flow = endpointVisibility.Flow
+            };
+
+            AudioEndpointInfo resolvedEndpoint = ResolveEndpointForApply(endpointReference, endpointVisibility.Flow);
+            if (resolvedEndpoint.State.HasFlag(AudioDeviceState.NotPresent))
+            {
+                result.Messages.Add(AudioOperationMessage.Info(
+                    AudioMessageCode.DeviceUnavailable,
+                    $"Endpoint visibility skipped because the captured {endpointVisibility.Flow} endpoint is not present: {endpointVisibility.FriendlyName ?? string.Empty}"));
+                continue;
+            }
+
+            TryApplySetting(
+                result,
+                $"endpoint visibility for {endpointVisibility.FriendlyName ?? string.Empty}",
+                () => SetDeviceDisabled(endpointReference.DeviceId, endpointVisibility.IsDisabled));
         }
     }
 
@@ -798,28 +802,49 @@ public sealed class WindowsAudioController : IWindowsAudioController
     {
         if (playback.IsDeviceDisabledTrackingEnabled)
         {
-            SetDeviceDisabled(playback.MultimediaDevice.DeviceId, playback.IsDeviceDisabled);
+            TryApplySetting(
+                result,
+                "playback multimedia device visibility",
+                () => SetDeviceDisabled(playback.MultimediaDevice.DeviceId, playback.IsDeviceDisabled));
         }
         if (playback.IsDeviceDisabledTrackingEnabled && playback.IsDeviceDisabled) return;
 
-        if (playback.IsDefaultConsolePlaybackDeviceEnabled && !IsCurrentDefaultConsolePlaybackDevice(playback.ConsoleDevice)) _defaultDeviceProvider.SetDefaultConsolePlaybackDevice(playback.ConsoleDevice);
-        if (playback.IsDefaultPlaybackDeviceEnabled && !IsCurrentDefaultPlaybackDevice(playback.MultimediaDevice)) _defaultDeviceProvider.SetDefaultPlaybackDevice(playback.MultimediaDevice);
-        if (playback.IsDefaultCommunicationsPlaybackDeviceEnabled && !IsCurrentDefaultCommunicationsPlaybackDevice(playback.CommunicationsDevice)) _defaultDeviceProvider.SetDefaultCommunicationsPlaybackDevice(playback.CommunicationsDevice);
-        if (playback.IsVolumeEnabled) _volumeProvider.SetVolumePercent(playback.MultimediaDevice, playback.VolumePercent);
-        if (playback.IsMuteEnabled) _volumeProvider.SetMute(playback.MultimediaDevice, playback.IsMuted);
-        if (playback.IsFormatEnabled) _formatProvider.SetFormat(playback.MultimediaDevice, playback.StreamFormat);
-        if (playback.IsAudioEnhancementsEnabled) _audioEnhancementProvider.SetAudioEnhancements(playback.MultimediaDevice, playback.AudioEnhancements);
-        if (playback.IsChannelVolumeEnabled) SetChannelVolumes(playback.MultimediaDevice.DeviceId, playback.VolumeLeft, playback.VolumeRight);
+        if (playback.IsDefaultConsolePlaybackDeviceEnabled && CanApplyEndpointSetting(playback.ConsoleDevice, AudioFlow.Render, "playback console device", result) && !IsCurrentDefaultConsolePlaybackDevice(playback.ConsoleDevice))
+        {
+            TryApplySetting(result, "playback console default device", () => _defaultDeviceProvider.SetDefaultConsolePlaybackDevice(playback.ConsoleDevice));
+        }
+
+        bool canApplyMultimediaDevice = CanApplyEndpointSetting(playback.MultimediaDevice, AudioFlow.Render, "playback multimedia device", result);
+        if (playback.IsDefaultPlaybackDeviceEnabled && canApplyMultimediaDevice && !IsCurrentDefaultPlaybackDevice(playback.MultimediaDevice))
+        {
+            TryApplySetting(result, "playback multimedia default device", () => _defaultDeviceProvider.SetDefaultPlaybackDevice(playback.MultimediaDevice));
+        }
+
+        if (playback.IsDefaultCommunicationsPlaybackDeviceEnabled && CanApplyEndpointSetting(playback.CommunicationsDevice, AudioFlow.Render, "playback communications device", result) && !IsCurrentDefaultCommunicationsPlaybackDevice(playback.CommunicationsDevice))
+        {
+            TryApplySetting(result, "playback communications default device", () => _defaultDeviceProvider.SetDefaultCommunicationsPlaybackDevice(playback.CommunicationsDevice));
+        }
+
+        if (playback.IsVolumeEnabled && canApplyMultimediaDevice && IsValidVolume(playback.VolumePercent, "playback volume", result)) TryApplySetting(result, "playback volume", () => _volumeProvider.SetVolumePercent(playback.MultimediaDevice, playback.VolumePercent));
+        if (playback.IsMuteEnabled && canApplyMultimediaDevice) TryApplySetting(result, "playback mute", () => _volumeProvider.SetMute(playback.MultimediaDevice, playback.IsMuted));
+        if (playback.IsFormatEnabled && canApplyMultimediaDevice) TryApplySetting(result, "playback format", () => _formatProvider.SetFormat(playback.MultimediaDevice, playback.StreamFormat));
+        if (playback.IsAudioEnhancementsEnabled && canApplyMultimediaDevice) TryApplySetting(result, "playback audio enhancements", () => _audioEnhancementProvider.SetAudioEnhancements(playback.MultimediaDevice, playback.AudioEnhancements));
+        if (playback.IsChannelVolumeEnabled && canApplyMultimediaDevice &&
+            IsValidVolume(playback.VolumeLeft, "playback left channel volume", result) &&
+            IsValidVolume(playback.VolumeRight, "playback right channel volume", result))
+        {
+            TryApplySetting(result, "playback channel volumes", () => SetChannelVolumes(playback.MultimediaDevice.DeviceId, playback.VolumeLeft, playback.VolumeRight));
+        }
         
         // Restore Channel Layout Configuration Masks and Driver Slider Percentages securely via Property Store
-        if (playback.IsFormatEnabled && playback.StreamFormat.ChannelMask > 0)
+        if (playback.IsFormatEnabled && canApplyMultimediaDevice && playback.StreamFormat.ChannelMask > 0)
         {
             var maskDict = new Dictionary<string, string> { { "{14242002-0320-4de4-9555-a7d82b73c286},3", $"int:{playback.StreamFormat.ChannelMask}" } };
-            ApplyPropertiesViaPropertyStore(playback.MultimediaDevice.DeviceId, maskDict);
+            TryApplySetting(result, "playback channel mask property", () => ApplyPropertiesViaPropertyStore(playback.MultimediaDevice.DeviceId, maskDict));
         }
-        if (playback.IsApoSlidersEnabled)
+        if (playback.IsApoSlidersEnabled && canApplyMultimediaDevice)
         {
-            ApplyPropertiesViaPropertyStore(playback.MultimediaDevice.DeviceId, playback.ApoSliders);
+            TryApplySetting(result, "playback APO properties", () => ApplyPropertiesViaPropertyStore(playback.MultimediaDevice.DeviceId, playback.ApoSliders));
         }
 
         result.Messages.Add(AudioOperationMessage.Info(AudioMessageCode.ProfileApplied, "Playback audio profile applied."));
@@ -829,28 +854,49 @@ public sealed class WindowsAudioController : IWindowsAudioController
     {
         if (recording.IsDeviceDisabledTrackingEnabled)
         {
-            SetDeviceDisabled(recording.MultimediaDevice.DeviceId, recording.IsDeviceDisabled);
+            TryApplySetting(
+                result,
+                "recording multimedia device visibility",
+                () => SetDeviceDisabled(recording.MultimediaDevice.DeviceId, recording.IsDeviceDisabled));
         }
         if (recording.IsDeviceDisabledTrackingEnabled && recording.IsDeviceDisabled) return;
 
-        if (recording.IsDefaultConsoleRecordingDeviceEnabled && !IsCurrentDefaultConsoleRecordingDevice(recording.ConsoleDevice)) _defaultDeviceProvider.SetDefaultConsoleRecordingDevice(recording.ConsoleDevice);
-        if (recording.IsDefaultRecordingDeviceEnabled && !IsCurrentDefaultRecordingDevice(recording.MultimediaDevice)) _defaultDeviceProvider.SetDefaultRecordingDevice(recording.MultimediaDevice);
-        if (recording.IsDefaultCommunicationsRecordingDeviceEnabled && !IsCurrentDefaultCommunicationsRecordingDevice(recording.CommunicationsDevice)) _defaultDeviceProvider.SetDefaultCommunicationsRecordingDevice(recording.CommunicationsDevice);
-        if (recording.IsVolumeEnabled) _volumeProvider.SetVolumePercent(recording.MultimediaDevice, recording.VolumePercent);
-        if (recording.IsMuteEnabled) _volumeProvider.SetMute(recording.MultimediaDevice, recording.IsMuted);
-        if (recording.IsFormatEnabled) _formatProvider.SetFormat(recording.MultimediaDevice, recording.StreamFormat);
-        if (recording.IsAudioEnhancementsEnabled) _audioEnhancementProvider.SetAudioEnhancements(recording.MultimediaDevice, recording.AudioEnhancements);
-        if (recording.IsChannelVolumeEnabled) SetChannelVolumes(recording.MultimediaDevice.DeviceId, recording.VolumeLeft, recording.VolumeRight);
+        if (recording.IsDefaultConsoleRecordingDeviceEnabled && CanApplyEndpointSetting(recording.ConsoleDevice, AudioFlow.Capture, "recording console device", result) && !IsCurrentDefaultConsoleRecordingDevice(recording.ConsoleDevice))
+        {
+            TryApplySetting(result, "recording console default device", () => _defaultDeviceProvider.SetDefaultConsoleRecordingDevice(recording.ConsoleDevice));
+        }
+
+        bool canApplyMultimediaDevice = CanApplyEndpointSetting(recording.MultimediaDevice, AudioFlow.Capture, "recording multimedia device", result);
+        if (recording.IsDefaultRecordingDeviceEnabled && canApplyMultimediaDevice && !IsCurrentDefaultRecordingDevice(recording.MultimediaDevice))
+        {
+            TryApplySetting(result, "recording multimedia default device", () => _defaultDeviceProvider.SetDefaultRecordingDevice(recording.MultimediaDevice));
+        }
+
+        if (recording.IsDefaultCommunicationsRecordingDeviceEnabled && CanApplyEndpointSetting(recording.CommunicationsDevice, AudioFlow.Capture, "recording communications device", result) && !IsCurrentDefaultCommunicationsRecordingDevice(recording.CommunicationsDevice))
+        {
+            TryApplySetting(result, "recording communications default device", () => _defaultDeviceProvider.SetDefaultCommunicationsRecordingDevice(recording.CommunicationsDevice));
+        }
+
+        if (recording.IsVolumeEnabled && canApplyMultimediaDevice && IsValidVolume(recording.VolumePercent, "recording volume", result)) TryApplySetting(result, "recording volume", () => _volumeProvider.SetVolumePercent(recording.MultimediaDevice, recording.VolumePercent));
+        if (recording.IsMuteEnabled && canApplyMultimediaDevice) TryApplySetting(result, "recording mute", () => _volumeProvider.SetMute(recording.MultimediaDevice, recording.IsMuted));
+        if (recording.IsFormatEnabled && canApplyMultimediaDevice) TryApplySetting(result, "recording format", () => _formatProvider.SetFormat(recording.MultimediaDevice, recording.StreamFormat));
+        if (recording.IsAudioEnhancementsEnabled && canApplyMultimediaDevice) TryApplySetting(result, "recording audio enhancements", () => _audioEnhancementProvider.SetAudioEnhancements(recording.MultimediaDevice, recording.AudioEnhancements));
+        if (recording.IsChannelVolumeEnabled && canApplyMultimediaDevice &&
+            IsValidVolume(recording.VolumeLeft, "recording left channel volume", result) &&
+            IsValidVolume(recording.VolumeRight, "recording right channel volume", result))
+        {
+            TryApplySetting(result, "recording channel volumes", () => SetChannelVolumes(recording.MultimediaDevice.DeviceId, recording.VolumeLeft, recording.VolumeRight));
+        }
 
         // Restore Channel Layout Configuration Masks and Driver Slider Percentages securely via Property Store
-        if (recording.IsFormatEnabled && recording.StreamFormat.ChannelMask > 0)
+        if (recording.IsFormatEnabled && canApplyMultimediaDevice && recording.StreamFormat.ChannelMask > 0)
         {
             var maskDict = new Dictionary<string, string> { { "{14242002-0320-4de4-9555-a7d82b73c286},3", $"int:{recording.StreamFormat.ChannelMask}" } };
-            ApplyPropertiesViaPropertyStore(recording.MultimediaDevice.DeviceId, maskDict);
+            TryApplySetting(result, "recording channel mask property", () => ApplyPropertiesViaPropertyStore(recording.MultimediaDevice.DeviceId, maskDict));
         }
-        if (recording.IsApoSlidersEnabled)
+        if (recording.IsApoSlidersEnabled && canApplyMultimediaDevice)
         {
-            ApplyPropertiesViaPropertyStore(recording.MultimediaDevice.DeviceId, recording.ApoSliders);
+            TryApplySetting(result, "recording APO properties", () => ApplyPropertiesViaPropertyStore(recording.MultimediaDevice.DeviceId, recording.ApoSliders));
         }
 
         result.Messages.Add(AudioOperationMessage.Info(AudioMessageCode.ProfileApplied, "Recording audio profile applied."));
@@ -858,8 +904,74 @@ public sealed class WindowsAudioController : IWindowsAudioController
 
     private void ApplySystemAudioProfile(SystemAudioProfile system, AudioProfileApplyResult result)
     {
-        if (system.IsMonoAudioEnabled) _systemAudioProvider.SetMonoAudio(system.MonoAudio);
+        if (system.IsMonoAudioEnabled) TryApplySetting(result, "mono audio", () => _systemAudioProvider.SetMonoAudio(system.MonoAudio));
         result.Messages.Add(AudioOperationMessage.Info(AudioMessageCode.ProfileApplied, "System audio profile applied."));
+    }
+
+    private bool CanApplyEndpointSetting(AudioEndpointReference endpoint, AudioFlow expectedFlow, string settingName, AudioProfileApplyResult result)
+    {
+        if (!endpoint.IsEndpointEnabled && string.IsNullOrWhiteSpace(endpoint.DeviceId) && string.IsNullOrWhiteSpace(endpoint.ContainerId) && string.IsNullOrWhiteSpace(endpoint.FriendlyName))
+        {
+            result.Messages.Add(AudioOperationMessage.Error(AudioMessageCode.DeviceMissing, $"{settingName} could not be applied because no endpoint reference was provided."));
+            return false;
+        }
+
+        AudioEndpointInfo resolvedEndpoint = ResolveEndpointForApply(endpoint, expectedFlow);
+        if (string.IsNullOrWhiteSpace(resolvedEndpoint.DeviceId) || resolvedEndpoint.State.HasFlag(AudioDeviceState.NotPresent))
+        {
+            result.Messages.Add(AudioOperationMessage.Error(AudioMessageCode.DeviceUnavailable, $"{settingName} could not be applied because the endpoint is not present."));
+            return false;
+        }
+
+        if (resolvedEndpoint.State.HasFlag(AudioDeviceState.Disabled))
+        {
+            result.Messages.Add(AudioOperationMessage.Error(AudioMessageCode.DeviceUnavailable, $"{settingName} could not be applied because the endpoint is disabled."));
+            return false;
+        }
+
+        return true;
+    }
+
+    private AudioEndpointInfo ResolveEndpointForApply(AudioEndpointReference endpoint, AudioFlow expectedFlow)
+    {
+        try
+        {
+            return _deviceProvider.ResolveEndpoint(endpoint, expectedFlow);
+        }
+        catch
+        {
+            return new AudioEndpointInfo
+            {
+                DeviceId = endpoint.DeviceId,
+                ContainerId = endpoint.ContainerId,
+                FriendlyName = endpoint.FriendlyName,
+                Flow = expectedFlow,
+                State = AudioDeviceState.NotPresent
+            };
+        }
+    }
+
+    private static void TryApplySetting(AudioProfileApplyResult result, string settingName, Action action)
+    {
+        try
+        {
+            action();
+        }
+        catch (Exception ex)
+        {
+            result.Messages.Add(AudioOperationMessage.Error(AudioMessageCode.UnexpectedError, $"{settingName} could not be applied: {ex.Message}"));
+        }
+    }
+
+    private static bool IsValidVolume(decimal volumePercent, string settingName, AudioProfileApplyResult result)
+    {
+        if (volumePercent >= 0 && volumePercent <= 100)
+        {
+            return true;
+        }
+
+        result.Messages.Add(AudioOperationMessage.Error(AudioMessageCode.InvalidVolume, $"{settingName} must be between 0 and 100."));
+        return false;
     }
 
     private bool IsCurrentDefaultPlaybackDevice(AudioEndpointReference endpoint)
