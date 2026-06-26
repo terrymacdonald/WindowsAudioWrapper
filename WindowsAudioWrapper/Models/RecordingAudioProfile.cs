@@ -28,9 +28,6 @@ public sealed class RecordingAudioProfile
     /// <summary>Gets or sets APO system enhancement profiles.</summary>
     public AudioEnhancementProfile AudioEnhancements { get; set; } = new();
 
-    /// <summary>Gets or sets a value indicating whether the target device should be completely disabled/hidden in the OS.</summary>
-    public bool IsDeviceDisabled { get; set; } = false;
-
     /// <summary>Gets or sets the discrete Left channel volume level percentage (0-100).</summary>
     public decimal VolumeLeft { get; set; } = 0.0m;
 
@@ -71,10 +68,6 @@ public sealed class RecordingAudioProfile
     /// <summary>Gets or sets a telemetry flag stating if device APO switches are active. Ignored in JSON.</summary>
     [JsonIgnore]
     public bool IsAudioEnhancementsEnabled { get; set; }
-
-    /// <summary>Gets or sets a telemetry flag stating if endpoint visibility management is enabled. Ignored in JSON.</summary>
-    [JsonIgnore]
-    public bool IsDeviceDisabledTrackingEnabled { get; set; }
 
     /// <summary>Gets or sets a telemetry flag stating if multi-channel balance changes are active. Ignored in JSON.</summary>
     [JsonIgnore]
@@ -117,7 +110,6 @@ public sealed class RecordingAudioProfile
             IsAudioEnhancementsEnabled = AudioEnhancements.AreEnhancementsSupported;
             MultimediaDevice.IsEndpointEnabled = true;
 
-            IsDeviceDisabledTrackingEnabled = false;
             IsChannelVolumeEnabled = VolumeLeft > 0.0m || VolumeRight > 0.0m;
             IsApoSlidersEnabled = ApoSliders.Count > 0;
         }
