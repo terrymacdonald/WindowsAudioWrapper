@@ -620,7 +620,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
         if (defaultDevice.IsAvailable)
         {
             playback.IsDefaultPlaybackDeviceEnabled = true;
-            playback.TargetDevice = AudioEndpointReference.FromEndpointInfo(defaultDevice);
+            playback.MultimediaDevice = AudioEndpointReference.FromEndpointInfo(defaultDevice);
 
             playback.IsVolumeEnabled = defaultDevice.Capabilities.IsVolumeSupported;
             if (playback.IsVolumeEnabled) playback.VolumePercent = defaultDevice.VolumePercent;
@@ -674,7 +674,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
         if (defaultDevice.IsAvailable)
         {
             recording.IsDefaultRecordingDeviceEnabled = true;
-            recording.TargetDevice = AudioEndpointReference.FromEndpointInfo(defaultDevice);
+            recording.MultimediaDevice = AudioEndpointReference.FromEndpointInfo(defaultDevice);
 
             recording.IsVolumeEnabled = defaultDevice.Capabilities.IsVolumeSupported;
             if (recording.IsVolumeEnabled) recording.VolumePercent = defaultDevice.VolumePercent;
@@ -758,28 +758,28 @@ public sealed class WindowsAudioController : IWindowsAudioController
     {
         if (playback.IsDeviceDisabledTrackingEnabled)
         {
-            SetDeviceDisabled(playback.TargetDevice.DeviceId, playback.IsDeviceDisabled);
+            SetDeviceDisabled(playback.MultimediaDevice.DeviceId, playback.IsDeviceDisabled);
         }
         if (playback.IsDeviceDisabledTrackingEnabled && playback.IsDeviceDisabled) return;
 
         if (playback.IsDefaultConsolePlaybackDeviceEnabled && !IsCurrentDefaultConsolePlaybackDevice(playback.ConsoleDevice)) _defaultDeviceProvider.SetDefaultConsolePlaybackDevice(playback.ConsoleDevice);
-        if (playback.IsDefaultPlaybackDeviceEnabled && !IsCurrentDefaultPlaybackDevice(playback.TargetDevice)) _defaultDeviceProvider.SetDefaultPlaybackDevice(playback.TargetDevice);
+        if (playback.IsDefaultPlaybackDeviceEnabled && !IsCurrentDefaultPlaybackDevice(playback.MultimediaDevice)) _defaultDeviceProvider.SetDefaultPlaybackDevice(playback.MultimediaDevice);
         if (playback.IsDefaultCommunicationsPlaybackDeviceEnabled && !IsCurrentDefaultCommunicationsPlaybackDevice(playback.CommunicationsDevice)) _defaultDeviceProvider.SetDefaultCommunicationsPlaybackDevice(playback.CommunicationsDevice);
-        if (playback.IsVolumeEnabled) _volumeProvider.SetVolumePercent(playback.TargetDevice, playback.VolumePercent);
-        if (playback.IsMuteEnabled) _volumeProvider.SetMute(playback.TargetDevice, playback.IsMuted);
-        if (playback.IsFormatEnabled) _formatProvider.SetFormat(playback.TargetDevice, playback.StreamFormat);
-        if (playback.IsAudioEnhancementsEnabled) _audioEnhancementProvider.SetAudioEnhancements(playback.TargetDevice, playback.AudioEnhancements);
-        if (playback.IsChannelVolumeEnabled) SetChannelVolumes(playback.TargetDevice.DeviceId, playback.VolumeLeft, playback.VolumeRight);
+        if (playback.IsVolumeEnabled) _volumeProvider.SetVolumePercent(playback.MultimediaDevice, playback.VolumePercent);
+        if (playback.IsMuteEnabled) _volumeProvider.SetMute(playback.MultimediaDevice, playback.IsMuted);
+        if (playback.IsFormatEnabled) _formatProvider.SetFormat(playback.MultimediaDevice, playback.StreamFormat);
+        if (playback.IsAudioEnhancementsEnabled) _audioEnhancementProvider.SetAudioEnhancements(playback.MultimediaDevice, playback.AudioEnhancements);
+        if (playback.IsChannelVolumeEnabled) SetChannelVolumes(playback.MultimediaDevice.DeviceId, playback.VolumeLeft, playback.VolumeRight);
         
         // Restore Channel Layout Configuration Masks and Driver Slider Percentages securely via Property Store
         if (playback.IsFormatEnabled && playback.StreamFormat.ChannelMask > 0)
         {
             var maskDict = new Dictionary<string, string> { { "{14242002-0320-4de4-9555-a7d82b73c286},3", $"int:{playback.StreamFormat.ChannelMask}" } };
-            ApplyPropertiesViaPropertyStore(playback.TargetDevice.DeviceId, maskDict);
+            ApplyPropertiesViaPropertyStore(playback.MultimediaDevice.DeviceId, maskDict);
         }
         if (playback.IsApoSlidersEnabled)
         {
-            ApplyPropertiesViaPropertyStore(playback.TargetDevice.DeviceId, playback.ApoSliders);
+            ApplyPropertiesViaPropertyStore(playback.MultimediaDevice.DeviceId, playback.ApoSliders);
         }
 
         result.Messages.Add(AudioOperationMessage.Info(AudioMessageCode.ProfileApplied, "Playback audio profile applied."));
@@ -789,28 +789,28 @@ public sealed class WindowsAudioController : IWindowsAudioController
     {
         if (recording.IsDeviceDisabledTrackingEnabled)
         {
-            SetDeviceDisabled(recording.TargetDevice.DeviceId, recording.IsDeviceDisabled);
+            SetDeviceDisabled(recording.MultimediaDevice.DeviceId, recording.IsDeviceDisabled);
         }
         if (recording.IsDeviceDisabledTrackingEnabled && recording.IsDeviceDisabled) return;
 
         if (recording.IsDefaultConsoleRecordingDeviceEnabled && !IsCurrentDefaultConsoleRecordingDevice(recording.ConsoleDevice)) _defaultDeviceProvider.SetDefaultConsoleRecordingDevice(recording.ConsoleDevice);
-        if (recording.IsDefaultRecordingDeviceEnabled && !IsCurrentDefaultRecordingDevice(recording.TargetDevice)) _defaultDeviceProvider.SetDefaultRecordingDevice(recording.TargetDevice);
+        if (recording.IsDefaultRecordingDeviceEnabled && !IsCurrentDefaultRecordingDevice(recording.MultimediaDevice)) _defaultDeviceProvider.SetDefaultRecordingDevice(recording.MultimediaDevice);
         if (recording.IsDefaultCommunicationsRecordingDeviceEnabled && !IsCurrentDefaultCommunicationsRecordingDevice(recording.CommunicationsDevice)) _defaultDeviceProvider.SetDefaultCommunicationsRecordingDevice(recording.CommunicationsDevice);
-        if (recording.IsVolumeEnabled) _volumeProvider.SetVolumePercent(recording.TargetDevice, recording.VolumePercent);
-        if (recording.IsMuteEnabled) _volumeProvider.SetMute(recording.TargetDevice, recording.IsMuted);
-        if (recording.IsFormatEnabled) _formatProvider.SetFormat(recording.TargetDevice, recording.StreamFormat);
-        if (recording.IsAudioEnhancementsEnabled) _audioEnhancementProvider.SetAudioEnhancements(recording.TargetDevice, recording.AudioEnhancements);
-        if (recording.IsChannelVolumeEnabled) SetChannelVolumes(recording.TargetDevice.DeviceId, recording.VolumeLeft, recording.VolumeRight);
+        if (recording.IsVolumeEnabled) _volumeProvider.SetVolumePercent(recording.MultimediaDevice, recording.VolumePercent);
+        if (recording.IsMuteEnabled) _volumeProvider.SetMute(recording.MultimediaDevice, recording.IsMuted);
+        if (recording.IsFormatEnabled) _formatProvider.SetFormat(recording.MultimediaDevice, recording.StreamFormat);
+        if (recording.IsAudioEnhancementsEnabled) _audioEnhancementProvider.SetAudioEnhancements(recording.MultimediaDevice, recording.AudioEnhancements);
+        if (recording.IsChannelVolumeEnabled) SetChannelVolumes(recording.MultimediaDevice.DeviceId, recording.VolumeLeft, recording.VolumeRight);
 
         // Restore Channel Layout Configuration Masks and Driver Slider Percentages securely via Property Store
         if (recording.IsFormatEnabled && recording.StreamFormat.ChannelMask > 0)
         {
             var maskDict = new Dictionary<string, string> { { "{14242002-0320-4de4-9555-a7d82b73c286},3", $"int:{recording.StreamFormat.ChannelMask}" } };
-            ApplyPropertiesViaPropertyStore(recording.TargetDevice.DeviceId, maskDict);
+            ApplyPropertiesViaPropertyStore(recording.MultimediaDevice.DeviceId, maskDict);
         }
         if (recording.IsApoSlidersEnabled)
         {
-            ApplyPropertiesViaPropertyStore(recording.TargetDevice.DeviceId, recording.ApoSliders);
+            ApplyPropertiesViaPropertyStore(recording.MultimediaDevice.DeviceId, recording.ApoSliders);
         }
 
         result.Messages.Add(AudioOperationMessage.Info(AudioMessageCode.ProfileApplied, "Recording audio profile applied."));
@@ -865,7 +865,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
         WindowsAudioWrapper.Models.AudioEndpointInfo? device = null;
         if (playback.IsDefaultPlaybackDeviceEnabled || playback.IsVolumeEnabled || playback.IsMuteEnabled || playback.IsFormatEnabled || playback.IsAudioEnhancementsEnabled || playback.IsChannelVolumeEnabled || playback.IsDeviceDisabledTrackingEnabled)
         {
-            device = ValidateEndpoint(playback.TargetDevice, AudioFlow.Render, nameof(playback.TargetDevice), result, playback.IsDeviceDisabledTrackingEnabled);
+            device = ValidateEndpoint(playback.MultimediaDevice, AudioFlow.Render, nameof(playback.MultimediaDevice), result, playback.IsDeviceDisabledTrackingEnabled);
         }
 
         if (playback.IsDefaultConsolePlaybackDeviceEnabled) ValidateEndpoint(playback.ConsoleDevice, AudioFlow.Render, nameof(playback.ConsoleDevice), result, playback.IsDeviceDisabledTrackingEnabled);
@@ -892,7 +892,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
         WindowsAudioWrapper.Models.AudioEndpointInfo? device = null;
         if (recording.IsDefaultRecordingDeviceEnabled || recording.IsVolumeEnabled || recording.IsMuteEnabled || recording.IsFormatEnabled || recording.IsAudioEnhancementsEnabled || recording.IsChannelVolumeEnabled || recording.IsDeviceDisabledTrackingEnabled)
         {
-            device = ValidateEndpoint(recording.TargetDevice, AudioFlow.Capture, nameof(recording.TargetDevice), result, recording.IsDeviceDisabledTrackingEnabled);
+            device = ValidateEndpoint(recording.MultimediaDevice, AudioFlow.Capture, nameof(recording.MultimediaDevice), result, recording.IsDeviceDisabledTrackingEnabled);
         }
 
         if (recording.IsDefaultConsoleRecordingDeviceEnabled) ValidateEndpoint(recording.ConsoleDevice, AudioFlow.Capture, nameof(recording.ConsoleDevice), result, recording.IsDeviceDisabledTrackingEnabled);

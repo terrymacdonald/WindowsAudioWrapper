@@ -45,7 +45,7 @@ public sealed class DefaultDeviceRoleTests
     }
 
     [SkippableFact]
-    public void GetCurrentProfile_ShouldCaptureDefaultTargetDeviceDisabledState()
+    public void GetCurrentProfile_ShouldCaptureDefaultMultimediaDeviceDisabledState()
     {
         using WindowsAudioController controller = new();
 
@@ -55,13 +55,13 @@ public sealed class DefaultDeviceRoleTests
 
         profile.EnsureDefaults();
 
-        if (profile.Playback.TargetDevice.IsEndpointEnabled)
+        if (profile.Playback.MultimediaDevice.IsEndpointEnabled)
         {
             Assert.True(profile.Playback.IsDeviceDisabledTrackingEnabled);
             Assert.False(profile.Playback.IsDeviceDisabled);
         }
 
-        if (profile.Recording.TargetDevice.IsEndpointEnabled)
+        if (profile.Recording.MultimediaDevice.IsEndpointEnabled)
         {
             Assert.True(profile.Recording.IsDeviceDisabledTrackingEnabled);
             Assert.False(profile.Recording.IsDeviceDisabled);

@@ -35,8 +35,8 @@ public sealed class ProfileValidationUnitTests
         AudioProfile profile = new();
         profile.Playback.IsPlaybackEnabled = true;
         profile.Playback.IsVolumeEnabled = true;
-        profile.Playback.TargetDevice.IsEndpointEnabled = true;
-        profile.Playback.TargetDevice.DeviceId = "{mock-playback-device}";
+        profile.Playback.MultimediaDevice.IsEndpointEnabled = true;
+        profile.Playback.MultimediaDevice.DeviceId = "{mock-playback-device}";
         profile.Playback.VolumePercent = invalidVolume;
 
         AudioProfileValidationResult result = controller.ValidateProfile(profile);
@@ -55,8 +55,8 @@ public sealed class ProfileValidationUnitTests
         AudioProfile profile = new();
         profile.Recording.IsRecordingEnabled = true;
         profile.Recording.IsVolumeEnabled = true;
-        profile.Recording.TargetDevice.IsEndpointEnabled = true;
-        profile.Recording.TargetDevice.DeviceId = "{mock-recording-device}";
+        profile.Recording.MultimediaDevice.IsEndpointEnabled = true;
+        profile.Recording.MultimediaDevice.DeviceId = "{mock-recording-device}";
         profile.Recording.VolumePercent = invalidVolume;
 
         AudioProfileValidationResult result = controller.ValidateProfile(profile);
@@ -73,7 +73,7 @@ public sealed class ProfileValidationUnitTests
         AudioProfile profile = new();
         profile.Playback.IsPlaybackEnabled = true;
         profile.Playback.IsVolumeEnabled = true;
-        profile.Playback.TargetDevice.IsEndpointEnabled = false;
+        profile.Playback.MultimediaDevice.IsEndpointEnabled = false;
 
         AudioProfileValidationResult result = controller.ValidateProfile(profile);
 
@@ -88,9 +88,9 @@ public sealed class ProfileValidationUnitTests
         using WindowsAudioController controller = new();
         AudioProfile profile = new();
         profile.Playback.IsPlaybackEnabled = true;
-        profile.Playback.TargetDevice.IsEndpointEnabled = true;
-        profile.Playback.TargetDevice.DeviceId = "{mock-playback-device}";
-        profile.Playback.TargetDevice.Flow = AudioFlow.Capture;
+        profile.Playback.MultimediaDevice.IsEndpointEnabled = true;
+        profile.Playback.MultimediaDevice.DeviceId = "{mock-playback-device}";
+        profile.Playback.MultimediaDevice.Flow = AudioFlow.Capture;
 
         AudioProfileValidationResult result = controller.ValidateProfile(profile);
 

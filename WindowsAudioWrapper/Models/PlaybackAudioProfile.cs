@@ -8,7 +8,7 @@ namespace WindowsAudioWrapper.Models;
 public sealed class PlaybackAudioProfile
 {
     /// <summary>Gets or sets the target default multimedia playback device reference block.</summary>
-    public AudioEndpointReference TargetDevice { get; set; } = new();
+    public AudioEndpointReference MultimediaDevice { get; set; } = new();
 
     /// <summary>Gets or sets the target default console playback device reference block.</summary>
     public AudioEndpointReference ConsoleDevice { get; set; } = new();
@@ -86,16 +86,16 @@ public sealed class PlaybackAudioProfile
     /// <summary>Ensures sub-elements avoid object ref fault allocations post serialization.</summary>
     public void EnsureDefaults()
     {
-        TargetDevice ??= new AudioEndpointReference();
+        MultimediaDevice ??= new AudioEndpointReference();
         ConsoleDevice ??= new AudioEndpointReference();
         CommunicationsDevice ??= new AudioEndpointReference();
         StreamFormat ??= new AudioFormatProfile();
         AudioEnhancements ??= new AudioEnhancementProfile();
         ApoSliders ??= new Dictionary<string, string>();
 
-        if (TargetDevice.HardwareDetails == null)
+        if (MultimediaDevice.HardwareDetails == null)
         {
-            TargetDevice.HardwareDetails = new HardwareDetails();
+            MultimediaDevice.HardwareDetails = new HardwareDetails();
         }
         if (CommunicationsDevice.HardwareDetails == null)
         {
@@ -107,7 +107,7 @@ public sealed class PlaybackAudioProfile
         }
 
         // Auto-hydrate default multimedia flags
-        if (!string.IsNullOrWhiteSpace(TargetDevice.DeviceId))
+        if (!string.IsNullOrWhiteSpace(MultimediaDevice.DeviceId))
         {
             IsPlaybackEnabled = true;
             IsDefaultPlaybackDeviceEnabled = true;
@@ -115,7 +115,7 @@ public sealed class PlaybackAudioProfile
             IsMuteEnabled = true;
             IsFormatEnabled = StreamFormat.SampleRate > 0;
             IsAudioEnhancementsEnabled = AudioEnhancements.AreEnhancementsSupported;
-            TargetDevice.IsEndpointEnabled = true;
+            MultimediaDevice.IsEndpointEnabled = true;
             
             IsDeviceDisabledTrackingEnabled = true;
             IsChannelVolumeEnabled = VolumeLeft > 0.0m || VolumeRight > 0.0m;

@@ -17,9 +17,9 @@ public sealed class AudioEnhancementEffectsTests
             "current audio profile capture");
 
         profile.EnsureDefaults();
-        Skip.If(!profile.Playback.TargetDevice.IsEndpointEnabled, "Skipping because the playback target device was not captured.");
+        Skip.If(!profile.Playback.MultimediaDevice.IsEndpointEnabled, "Skipping because the playback multimedia device was not captured.");
 
-        IReadOnlyList<AUDIO_EFFECT> effects = CoreAudioUtilities.GetAudioEffects(profile.Playback.TargetDevice.DeviceId);
+        IReadOnlyList<AUDIO_EFFECT> effects = CoreAudioUtilities.GetAudioEffects(profile.Playback.MultimediaDevice.DeviceId);
         Skip.If(effects.Count == 0, "Skipping because this endpoint does not report Windows audio effects.");
 
         string[] expectedActiveEffectIds = effects
@@ -46,9 +46,9 @@ public sealed class AudioEnhancementEffectsTests
             "current audio profile capture");
 
         originalProfile.EnsureDefaults();
-        Skip.If(!originalProfile.Playback.TargetDevice.IsEndpointEnabled, "Skipping because the playback target device was not captured.");
+        Skip.If(!originalProfile.Playback.MultimediaDevice.IsEndpointEnabled, "Skipping because the playback multimedia device was not captured.");
 
-        string deviceId = originalProfile.Playback.TargetDevice.DeviceId;
+        string deviceId = originalProfile.Playback.MultimediaDevice.DeviceId;
         AudioEnhancementProfile originalEnhancements = originalProfile.Playback.AudioEnhancements;
         IReadOnlyList<AUDIO_EFFECT> originalEffects = CoreAudioUtilities.GetAudioEffects(deviceId);
         Skip.If(originalEffects.Count == 0, "Skipping because this endpoint does not report Windows audio effects.");

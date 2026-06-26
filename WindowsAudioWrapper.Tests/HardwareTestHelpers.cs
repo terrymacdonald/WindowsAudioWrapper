@@ -61,7 +61,7 @@ internal static class HardwareTestHelpers
         profile.EnsureDefaults();
         Skip.If(!profile.Playback.IsPlaybackEnabled, "Skipping because playback capture is not enabled in the current profile.");
         Skip.If(!profile.Playback.IsVolumeEnabled, "Skipping because playback volume is not readable or not supported on this machine.");
-        Skip.If(!profile.Playback.TargetDevice.IsEndpointEnabled, "Skipping because the current playback target device could not be captured.");
+        Skip.If(!profile.Playback.MultimediaDevice.IsEndpointEnabled, "Skipping because the current playback multimedia device could not be captured.");
     }
 
     public static void SkipIfPlaybackMuteUnsupported(AudioProfile profile)
@@ -69,7 +69,7 @@ internal static class HardwareTestHelpers
         profile.EnsureDefaults();
         Skip.If(!profile.Playback.IsPlaybackEnabled, "Skipping because playback capture is not enabled in the current profile.");
         Skip.If(!profile.Playback.IsMuteEnabled, "Skipping because playback mute is not readable or not supported on this machine.");
-        Skip.If(!profile.Playback.TargetDevice.IsEndpointEnabled, "Skipping because the current playback target device could not be captured.");
+        Skip.If(!profile.Playback.MultimediaDevice.IsEndpointEnabled, "Skipping because the current playback multimedia device could not be captured.");
     }
 
     public static void SkipIfRecordingVolumeUnsupported(AudioProfile profile)
@@ -77,7 +77,7 @@ internal static class HardwareTestHelpers
         profile.EnsureDefaults();
         Skip.If(!profile.Recording.IsRecordingEnabled, "Skipping because recording capture is not enabled in the current profile.");
         Skip.If(!profile.Recording.IsVolumeEnabled, "Skipping because recording volume is not readable or not supported on this machine.");
-        Skip.If(!profile.Recording.TargetDevice.IsEndpointEnabled, "Skipping because the current recording target device could not be captured.");
+        Skip.If(!profile.Recording.MultimediaDevice.IsEndpointEnabled, "Skipping because the current recording multimedia device could not be captured.");
     }
 
     public static AudioProfile CloneProfile(AudioProfile profile)
@@ -99,7 +99,7 @@ internal static class HardwareTestHelpers
             Playback = new PlaybackAudioProfile
             {
                 IsPlaybackEnabled = true,
-                TargetDevice = CloneEndpoint(source.Playback.TargetDevice),
+                MultimediaDevice = CloneEndpoint(source.Playback.MultimediaDevice),
                 IsVolumeEnabled = true,
                 VolumePercent = ClampVolume(volumePercent),
                 IsMuteEnabled = source.Playback.IsMuteEnabled,
@@ -121,7 +121,7 @@ internal static class HardwareTestHelpers
             Playback = new PlaybackAudioProfile
             {
                 IsPlaybackEnabled = true,
-                TargetDevice = CloneEndpoint(source.Playback.TargetDevice),
+                MultimediaDevice = CloneEndpoint(source.Playback.MultimediaDevice),
                 IsVolumeEnabled = source.Playback.IsVolumeEnabled,
                 VolumePercent = source.Playback.VolumePercent,
                 IsMuteEnabled = true,
@@ -143,7 +143,7 @@ internal static class HardwareTestHelpers
             Recording = new RecordingAudioProfile
             {
                 IsRecordingEnabled = true,
-                TargetDevice = CloneEndpoint(source.Recording.TargetDevice),
+                MultimediaDevice = CloneEndpoint(source.Recording.MultimediaDevice),
                 IsVolumeEnabled = true,
                 VolumePercent = ClampVolume(volumePercent),
                 IsMuteEnabled = source.Recording.IsMuteEnabled,
@@ -163,7 +163,7 @@ internal static class HardwareTestHelpers
             Playback = new PlaybackAudioProfile
             {
                 IsPlaybackEnabled = true,
-                TargetDevice = AudioEndpointReference.FromEndpointInfo(endpoint),
+                MultimediaDevice = AudioEndpointReference.FromEndpointInfo(endpoint),
                 IsDefaultPlaybackDeviceEnabled = true
             }
         };
@@ -176,7 +176,7 @@ internal static class HardwareTestHelpers
             Recording = new RecordingAudioProfile
             {
                 IsRecordingEnabled = true,
-                TargetDevice = AudioEndpointReference.FromEndpointInfo(endpoint),
+                MultimediaDevice = AudioEndpointReference.FromEndpointInfo(endpoint),
                 IsDefaultRecordingDeviceEnabled = true
             }
         };

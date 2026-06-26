@@ -145,7 +145,7 @@ public sealed class HardwareDetailsTests
     }
 
     [SkippableFact]
-    public void GetCurrentProfile_ShouldCarryPlaybackHardwareDetailsIntoTargetDevice()
+    public void GetCurrentProfile_ShouldCarryPlaybackHardwareDetailsIntoMultimediaDevice()
     {
         using WindowsAudioController controller = new();
 
@@ -155,14 +155,14 @@ public sealed class HardwareDetailsTests
             "current audio profile capture");
 
         HardwareTestHelpers.SkipIfNoActiveDevice(defaultPlayback, "playback");
-        Skip.If(!profile.Playback.TargetDevice.IsEndpointEnabled, "Skipping because the playback target device was not captured.");
+        Skip.If(!profile.Playback.MultimediaDevice.IsEndpointEnabled, "Skipping because the playback multimedia device was not captured.");
 
-        Assert.Equal(defaultPlayback.HardwareDetails.FormFactorCode, profile.Playback.TargetDevice.HardwareDetails.FormFactorCode);
-        Assert.Equal(defaultPlayback.HardwareDetails.PhysicalSpeakersMask, profile.Playback.TargetDevice.HardwareDetails.PhysicalSpeakersMask);
-        Assert.Equal(defaultPlayback.HardwareDetails.FullRangeSpeakersMask, profile.Playback.TargetDevice.HardwareDetails.FullRangeSpeakersMask);
-        Assert.Equal(defaultPlayback.HardwareDetails.EndpointGuid, profile.Playback.TargetDevice.HardwareDetails.EndpointGuid);
-        Assert.Equal(defaultPlayback.HardwareDetails.DeviceFormatSummary, profile.Playback.TargetDevice.HardwareDetails.DeviceFormatSummary);
-        Assert.Equal(defaultPlayback.HardwareDetails.JackSubType, profile.Playback.TargetDevice.HardwareDetails.JackSubType);
+        Assert.Equal(defaultPlayback.HardwareDetails.FormFactorCode, profile.Playback.MultimediaDevice.HardwareDetails.FormFactorCode);
+        Assert.Equal(defaultPlayback.HardwareDetails.PhysicalSpeakersMask, profile.Playback.MultimediaDevice.HardwareDetails.PhysicalSpeakersMask);
+        Assert.Equal(defaultPlayback.HardwareDetails.FullRangeSpeakersMask, profile.Playback.MultimediaDevice.HardwareDetails.FullRangeSpeakersMask);
+        Assert.Equal(defaultPlayback.HardwareDetails.EndpointGuid, profile.Playback.MultimediaDevice.HardwareDetails.EndpointGuid);
+        Assert.Equal(defaultPlayback.HardwareDetails.DeviceFormatSummary, profile.Playback.MultimediaDevice.HardwareDetails.DeviceFormatSummary);
+        Assert.Equal(defaultPlayback.HardwareDetails.JackSubType, profile.Playback.MultimediaDevice.HardwareDetails.JackSubType);
     }
 
     private static AudioEndpointInfo GetActiveDefaultPlaybackDevice(WindowsAudioController controller)
