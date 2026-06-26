@@ -71,8 +71,13 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
         if (hr < 0 || collection == null) return devices;
 
         string defaultDeviceId = string.Empty;
+        string defaultConsoleId = string.Empty;
         string defaultCommsId = string.Empty;
         
+        if (enumerator.GetDefaultAudioEndpoint(nativeFlow, ERole.eConsole, out IMMDevice defaultConsoleDevice) >= 0 && defaultConsoleDevice != null)
+        {
+            defaultConsoleDevice.GetId(out defaultConsoleId);
+        }
         if (enumerator.GetDefaultAudioEndpoint(nativeFlow, ERole.eMultimedia, out IMMDevice defaultDevice) >= 0 && defaultDevice != null)
         {
             defaultDevice.GetId(out defaultDeviceId);
@@ -87,13 +92,13 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
         {
             if (collection.Item(i, out IMMDevice device) >= 0 && device != null)
             {
-                devices.Add(CreateEndpointInfo(device, flow, defaultDeviceId, defaultCommsId));
+                devices.Add(CreateEndpointInfo(device, flow, defaultConsoleId, defaultDeviceId, defaultCommsId));
             }
         }
         return devices;
     }
 
-    internal static AudioEndpointInfo CreateEndpointInfo(IMMDevice device, AudioFlow flow, string defaultDeviceId = "", string defaultCommunicationsDeviceId = "")
+    internal static AudioEndpointInfo CreateEndpointInfo(IMMDevice device, AudioFlow flow, string defaultConsoleDeviceId = "", string defaultDeviceId = "", string defaultCommunicationsDeviceId = "")
     {
         device.GetId(out string deviceId);
         device.GetState(out int nativeState);
@@ -103,6 +108,7 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
             DeviceId = deviceId,
             Flow = flow,
             State = CoreAudioUtilities.FromNativeDeviceState(nativeState),
+            IsDefaultConsoleDevice = deviceId.Equals(defaultConsoleDeviceId, StringComparison.OrdinalIgnoreCase),
             IsDefaultDevice = deviceId.Equals(defaultDeviceId, StringComparison.OrdinalIgnoreCase),
             IsDefaultCommunicationsDevice = deviceId.Equals(defaultCommunicationsDeviceId, StringComparison.OrdinalIgnoreCase)
         };

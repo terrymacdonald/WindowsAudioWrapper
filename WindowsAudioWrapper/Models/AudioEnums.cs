@@ -28,18 +28,7 @@ public enum AudioSampleFormat
 public enum AudioFormatMode
 {
     Unknown = 0,
-    Shared = 1,
-    Exclusive = 2
-}
-
-public enum SpatialSoundMode
-{
-    Unknown = 0,
-    Off = 1,
-    WindowsSonic = 2,
-    DolbyAtmos = 3,
-    Dts = 4,
-    Other = 99
+    Shared = 1
 }
 
 public enum AudioMessageSeverity

@@ -6,7 +6,11 @@ internal interface IDefaultAudioDeviceProvider
 {
     AudioEndpointInfo GetDefaultPlaybackDevice();
 
+    AudioEndpointInfo GetDefaultConsolePlaybackDevice();
+
     AudioEndpointInfo GetDefaultRecordingDevice();
+
+    AudioEndpointInfo GetDefaultConsoleRecordingDevice();
 
     AudioEndpointInfo GetDefaultCommunicationsPlaybackDevice();
 
@@ -14,7 +18,11 @@ internal interface IDefaultAudioDeviceProvider
 
     void SetDefaultPlaybackDevice(AudioEndpointReference endpoint);
 
+    void SetDefaultConsolePlaybackDevice(AudioEndpointReference endpoint);
+
     void SetDefaultRecordingDevice(AudioEndpointReference endpoint);
+
+    void SetDefaultConsoleRecordingDevice(AudioEndpointReference endpoint);
 
     void SetDefaultCommunicationsPlaybackDevice(AudioEndpointReference endpoint);
 

@@ -10,6 +10,9 @@ public sealed class RecordingAudioProfile
     /// <summary>Gets or sets the target default multimedia recording device reference block.</summary>
     public AudioEndpointReference TargetDevice { get; set; } = new();
 
+    /// <summary>Gets or sets the target default console recording device reference block.</summary>
+    public AudioEndpointReference ConsoleDevice { get; set; } = new();
+
     /// <summary>Gets or sets the target default communications recording voice reference block.</summary>
     public AudioEndpointReference CommunicationsDevice { get; set; } = new();
 
@@ -44,6 +47,10 @@ public sealed class RecordingAudioProfile
     /// <summary>Gets or sets a telemetry flag stating if default multimedia routing switches are active. Ignored in JSON.</summary>
     [JsonIgnore]
     public bool IsDefaultRecordingDeviceEnabled { get; set; }
+
+    /// <summary>Gets or sets a telemetry flag stating if default console routing switches are active. Ignored in JSON.</summary>
+    [JsonIgnore]
+    public bool IsDefaultConsoleRecordingDeviceEnabled { get; set; }
 
     /// <summary>Gets or sets a telemetry flag stating if voice communications routing switches are active. Ignored in JSON.</summary>
     [JsonIgnore]
@@ -80,6 +87,7 @@ public sealed class RecordingAudioProfile
     public void EnsureDefaults()
     {
         TargetDevice ??= new AudioEndpointReference();
+        ConsoleDevice ??= new AudioEndpointReference();
         CommunicationsDevice ??= new AudioEndpointReference();
         StreamFormat ??= new AudioFormatProfile();
         AudioEnhancements ??= new AudioEnhancementProfile();
@@ -92,6 +100,10 @@ public sealed class RecordingAudioProfile
         if (CommunicationsDevice.HardwareDetails == null)
         {
             CommunicationsDevice.HardwareDetails = new HardwareDetails();
+        }
+        if (ConsoleDevice.HardwareDetails == null)
+        {
+            ConsoleDevice.HardwareDetails = new HardwareDetails();
         }
 
         // Auto-hydrate default recording flags
@@ -108,6 +120,14 @@ public sealed class RecordingAudioProfile
             IsDeviceDisabledTrackingEnabled = true;
             IsChannelVolumeEnabled = VolumeLeft > 0.0m || VolumeRight > 0.0m;
             IsApoSlidersEnabled = ApoSliders.Count > 0;
+        }
+
+        // Auto-hydrate console routing flag
+        if (!string.IsNullOrWhiteSpace(ConsoleDevice.DeviceId))
+        {
+            IsRecordingEnabled = true;
+            IsDefaultConsoleRecordingDeviceEnabled = true;
+            ConsoleDevice.IsEndpointEnabled = true;
         }
 
         // Auto-hydrate communications recording flags

@@ -12,9 +12,19 @@ internal sealed class DefaultAudioDeviceProvider : IDefaultAudioDeviceProvider
         return GetDefaultDevice(AudioFlow.Render, ERole.eMultimedia);
     }
 
+    public AudioEndpointInfo GetDefaultConsolePlaybackDevice()
+    {
+        return GetDefaultDevice(AudioFlow.Render, ERole.eConsole);
+    }
+
     public AudioEndpointInfo GetDefaultRecordingDevice()
     {
         return GetDefaultDevice(AudioFlow.Capture, ERole.eMultimedia);
+    }
+
+    public AudioEndpointInfo GetDefaultConsoleRecordingDevice()
+    {
+        return GetDefaultDevice(AudioFlow.Capture, ERole.eConsole);
     }
 
     public AudioEndpointInfo GetDefaultCommunicationsPlaybackDevice()
@@ -29,12 +39,22 @@ internal sealed class DefaultAudioDeviceProvider : IDefaultAudioDeviceProvider
 
     public void SetDefaultPlaybackDevice(AudioEndpointReference endpoint)
     {
-        SetDefaultDevice(endpoint, ERole.eConsole, ERole.eMultimedia);
+        SetDefaultDevice(endpoint, ERole.eMultimedia);
+    }
+
+    public void SetDefaultConsolePlaybackDevice(AudioEndpointReference endpoint)
+    {
+        SetDefaultDevice(endpoint, ERole.eConsole);
     }
 
     public void SetDefaultRecordingDevice(AudioEndpointReference endpoint)
     {
-        SetDefaultDevice(endpoint, ERole.eConsole, ERole.eMultimedia);
+        SetDefaultDevice(endpoint, ERole.eMultimedia);
+    }
+
+    public void SetDefaultConsoleRecordingDevice(AudioEndpointReference endpoint)
+    {
+        SetDefaultDevice(endpoint, ERole.eConsole);
     }
 
     public void SetDefaultCommunicationsPlaybackDevice(AudioEndpointReference endpoint)
@@ -65,11 +85,20 @@ internal sealed class DefaultAudioDeviceProvider : IDefaultAudioDeviceProvider
             }
 
             device.GetId(out string defaultId);
-            AudioEndpointInfo endpoint = AudioDeviceProvider.CreateEndpointInfo(device, flow, defaultId, role == ERole.eCommunications ? defaultId : string.Empty);
+            AudioEndpointInfo endpoint = AudioDeviceProvider.CreateEndpointInfo(
+                device,
+                flow,
+                role == ERole.eConsole ? defaultId : string.Empty,
+                role == ERole.eMultimedia ? defaultId : string.Empty,
+                role == ERole.eCommunications ? defaultId : string.Empty);
             
             if (role == ERole.eCommunications)
             {
                 endpoint.IsDefaultCommunicationsDevice = true;
+            }
+            else if (role == ERole.eConsole)
+            {
+                endpoint.IsDefaultConsoleDevice = true;
             }
             else
             {

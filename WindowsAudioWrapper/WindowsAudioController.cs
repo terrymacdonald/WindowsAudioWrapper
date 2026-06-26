@@ -121,7 +121,11 @@ public sealed class WindowsAudioController : IWindowsAudioController
     /// <inheritdoc/>
     public AudioEndpointInfo GetDefaultPlaybackDevice() { ThrowIfDisposed(); return _defaultDeviceProvider.GetDefaultPlaybackDevice(); }
     /// <inheritdoc/>
+    public AudioEndpointInfo GetDefaultConsolePlaybackDevice() { ThrowIfDisposed(); return _defaultDeviceProvider.GetDefaultConsolePlaybackDevice(); }
+    /// <inheritdoc/>
     public AudioEndpointInfo GetDefaultRecordingDevice() { ThrowIfDisposed(); return _defaultDeviceProvider.GetDefaultRecordingDevice(); }
+    /// <inheritdoc/>
+    public AudioEndpointInfo GetDefaultConsoleRecordingDevice() { ThrowIfDisposed(); return _defaultDeviceProvider.GetDefaultConsoleRecordingDevice(); }
     /// <inheritdoc/>
     public AudioEndpointInfo GetDefaultCommunicationsPlaybackDevice() { ThrowIfDisposed(); return _defaultDeviceProvider.GetDefaultCommunicationsPlaybackDevice(); }
     /// <inheritdoc/>
@@ -171,12 +175,32 @@ public sealed class WindowsAudioController : IWindowsAudioController
         _defaultDeviceProvider.SetDefaultPlaybackDevice(reference);
     }
 
+    /// <summary>
+    /// Sets the default console playback device.
+    /// </summary>
+    public void SetDefaultConsolePlaybackDevice(string deviceId)
+    {
+        ThrowIfDisposed();
+        var reference = new AudioEndpointReference { DeviceId = deviceId ?? string.Empty };
+        _defaultDeviceProvider.SetDefaultConsolePlaybackDevice(reference);
+    }
+
     /// <inheritdoc/>
     public void SetDefaultRecordingDevice(string deviceId)
     {
         ThrowIfDisposed();
         var reference = new AudioEndpointReference { DeviceId = deviceId ?? string.Empty };
         _defaultDeviceProvider.SetDefaultRecordingDevice(reference);
+    }
+
+    /// <summary>
+    /// Sets the default console recording device.
+    /// </summary>
+    public void SetDefaultConsoleRecordingDevice(string deviceId)
+    {
+        ThrowIfDisposed();
+        var reference = new AudioEndpointReference { DeviceId = deviceId ?? string.Empty };
+        _defaultDeviceProvider.SetDefaultConsoleRecordingDevice(reference);
     }
 
     /// <inheritdoc/>
@@ -588,6 +612,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
     private void CapturePlaybackProfile(PlaybackAudioProfile playback)
     {
         AudioEndpointInfo defaultDevice = GetDefaultPlaybackDevice();
+        AudioEndpointInfo consoleDevice = GetDefaultConsolePlaybackDevice();
         AudioEndpointInfo communicationsDevice = GetDefaultCommunicationsPlaybackDevice();
 
         playback.IsPlaybackEnabled = true;
@@ -612,7 +637,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
             playback.IsAudioEnhancementsEnabled = true;
             playback.AudioEnhancements = _audioEnhancementProvider.GetAudioEnhancements(defaultDevice.DeviceId);
             
-            playback.IsDeviceDisabled = false;
+            playback.IsDeviceDisabled = defaultDevice.State.HasFlag(AudioDeviceState.Disabled);
             playback.IsDeviceDisabledTrackingEnabled = true;
             
             CaptureChannelVolumes(defaultDevice.DeviceId, out float l, out float r);
@@ -625,6 +650,12 @@ public sealed class WindowsAudioController : IWindowsAudioController
             playback.IsApoSlidersEnabled = playback.ApoSliders.Count > 0;
         }
 
+        if (consoleDevice.IsAvailable)
+        {
+            playback.IsDefaultConsolePlaybackDeviceEnabled = true;
+            playback.ConsoleDevice = AudioEndpointReference.FromEndpointInfo(consoleDevice);
+        }
+
         if (communicationsDevice.IsAvailable)
         {
             playback.IsDefaultCommunicationsPlaybackDeviceEnabled = true;
@@ -635,6 +666,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
     private void CaptureRecordingProfile(RecordingAudioProfile recording)
     {
         AudioEndpointInfo defaultDevice = GetDefaultRecordingDevice();
+        AudioEndpointInfo consoleDevice = GetDefaultConsoleRecordingDevice();
         AudioEndpointInfo communicationsDevice = GetDefaultCommunicationsRecordingDevice();
 
         recording.IsRecordingEnabled = true;
@@ -659,7 +691,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
             recording.IsAudioEnhancementsEnabled = true;
             recording.AudioEnhancements = _audioEnhancementProvider.GetAudioEnhancements(defaultDevice.DeviceId);
 
-            recording.IsDeviceDisabled = false;
+            recording.IsDeviceDisabled = defaultDevice.State.HasFlag(AudioDeviceState.Disabled);
             recording.IsDeviceDisabledTrackingEnabled = true;
             
             CaptureChannelVolumes(defaultDevice.DeviceId, out float l, out float r);
@@ -670,6 +702,12 @@ public sealed class WindowsAudioController : IWindowsAudioController
             // Capture Fine-Grained Slider Percentages from FxProperties
             CaptureRegistrySliders(defaultDevice.DeviceId, false, recording.ApoSliders);
             recording.IsApoSlidersEnabled = recording.ApoSliders.Count > 0;
+        }
+
+        if (consoleDevice.IsAvailable)
+        {
+            recording.IsDefaultConsoleRecordingDeviceEnabled = true;
+            recording.ConsoleDevice = AudioEndpointReference.FromEndpointInfo(consoleDevice);
         }
 
         if (communicationsDevice.IsAvailable)
@@ -718,9 +756,13 @@ public sealed class WindowsAudioController : IWindowsAudioController
 
     private void ApplyPlaybackProfile(PlaybackAudioProfile playback, AudioProfileApplyResult result)
     {
-        if (playback.IsDeviceDisabledTrackingEnabled && playback.IsDeviceDisabled) SetDeviceDisabled(playback.TargetDevice.DeviceId, true);
-        if (playback.IsDeviceDisabled) return;
+        if (playback.IsDeviceDisabledTrackingEnabled)
+        {
+            SetDeviceDisabled(playback.TargetDevice.DeviceId, playback.IsDeviceDisabled);
+        }
+        if (playback.IsDeviceDisabledTrackingEnabled && playback.IsDeviceDisabled) return;
 
+        if (playback.IsDefaultConsolePlaybackDeviceEnabled && !IsCurrentDefaultConsolePlaybackDevice(playback.ConsoleDevice)) _defaultDeviceProvider.SetDefaultConsolePlaybackDevice(playback.ConsoleDevice);
         if (playback.IsDefaultPlaybackDeviceEnabled && !IsCurrentDefaultPlaybackDevice(playback.TargetDevice)) _defaultDeviceProvider.SetDefaultPlaybackDevice(playback.TargetDevice);
         if (playback.IsDefaultCommunicationsPlaybackDeviceEnabled && !IsCurrentDefaultCommunicationsPlaybackDevice(playback.CommunicationsDevice)) _defaultDeviceProvider.SetDefaultCommunicationsPlaybackDevice(playback.CommunicationsDevice);
         if (playback.IsVolumeEnabled) _volumeProvider.SetVolumePercent(playback.TargetDevice, playback.VolumePercent);
@@ -745,9 +787,13 @@ public sealed class WindowsAudioController : IWindowsAudioController
 
     private void ApplyRecordingProfile(RecordingAudioProfile recording, AudioProfileApplyResult result)
     {
-        if (recording.IsDeviceDisabledTrackingEnabled && recording.IsDeviceDisabled) SetDeviceDisabled(recording.TargetDevice.DeviceId, true);
-        if (recording.IsDeviceDisabled) return;
+        if (recording.IsDeviceDisabledTrackingEnabled)
+        {
+            SetDeviceDisabled(recording.TargetDevice.DeviceId, recording.IsDeviceDisabled);
+        }
+        if (recording.IsDeviceDisabledTrackingEnabled && recording.IsDeviceDisabled) return;
 
+        if (recording.IsDefaultConsoleRecordingDeviceEnabled && !IsCurrentDefaultConsoleRecordingDevice(recording.ConsoleDevice)) _defaultDeviceProvider.SetDefaultConsoleRecordingDevice(recording.ConsoleDevice);
         if (recording.IsDefaultRecordingDeviceEnabled && !IsCurrentDefaultRecordingDevice(recording.TargetDevice)) _defaultDeviceProvider.SetDefaultRecordingDevice(recording.TargetDevice);
         if (recording.IsDefaultCommunicationsRecordingDeviceEnabled && !IsCurrentDefaultCommunicationsRecordingDevice(recording.CommunicationsDevice)) _defaultDeviceProvider.SetDefaultCommunicationsRecordingDevice(recording.CommunicationsDevice);
         if (recording.IsVolumeEnabled) _volumeProvider.SetVolumePercent(recording.TargetDevice, recording.VolumePercent);
@@ -781,9 +827,19 @@ public sealed class WindowsAudioController : IWindowsAudioController
         return IsSameDevice(endpoint, _defaultDeviceProvider.GetDefaultPlaybackDevice());
     }
 
+    private bool IsCurrentDefaultConsolePlaybackDevice(AudioEndpointReference endpoint)
+    {
+        return IsSameDevice(endpoint, _defaultDeviceProvider.GetDefaultConsolePlaybackDevice());
+    }
+
     private bool IsCurrentDefaultRecordingDevice(AudioEndpointReference endpoint)
     {
         return IsSameDevice(endpoint, _defaultDeviceProvider.GetDefaultRecordingDevice());
+    }
+
+    private bool IsCurrentDefaultConsoleRecordingDevice(AudioEndpointReference endpoint)
+    {
+        return IsSameDevice(endpoint, _defaultDeviceProvider.GetDefaultConsoleRecordingDevice());
     }
 
     private bool IsCurrentDefaultCommunicationsPlaybackDevice(AudioEndpointReference endpoint)
@@ -807,11 +863,12 @@ public sealed class WindowsAudioController : IWindowsAudioController
         if (!playback.IsPlaybackEnabled) return;
 
         WindowsAudioWrapper.Models.AudioEndpointInfo? device = null;
-        if (playback.IsDefaultPlaybackDeviceEnabled || playback.IsVolumeEnabled || playback.IsMuteEnabled || playback.IsFormatEnabled || playback.IsAudioEnhancementsEnabled || playback.IsChannelVolumeEnabled)
+        if (playback.IsDefaultPlaybackDeviceEnabled || playback.IsVolumeEnabled || playback.IsMuteEnabled || playback.IsFormatEnabled || playback.IsAudioEnhancementsEnabled || playback.IsChannelVolumeEnabled || playback.IsDeviceDisabledTrackingEnabled)
         {
-            device = ValidateEndpoint(playback.TargetDevice, AudioFlow.Render, nameof(playback.TargetDevice), result);
+            device = ValidateEndpoint(playback.TargetDevice, AudioFlow.Render, nameof(playback.TargetDevice), result, playback.IsDeviceDisabledTrackingEnabled);
         }
 
+        if (playback.IsDefaultConsolePlaybackDeviceEnabled) ValidateEndpoint(playback.ConsoleDevice, AudioFlow.Render, nameof(playback.ConsoleDevice), result, playback.IsDeviceDisabledTrackingEnabled);
         if (playback.IsDefaultCommunicationsPlaybackDeviceEnabled) ValidateEndpoint(playback.CommunicationsDevice, AudioFlow.Render, nameof(playback.CommunicationsDevice), result);
         ValidateVolume(playback.IsVolumeEnabled, playback.VolumePercent, result);
         
@@ -833,11 +890,12 @@ public sealed class WindowsAudioController : IWindowsAudioController
         if (!recording.IsRecordingEnabled) return;
 
         WindowsAudioWrapper.Models.AudioEndpointInfo? device = null;
-        if (recording.IsDefaultRecordingDeviceEnabled || recording.IsVolumeEnabled || recording.IsMuteEnabled || recording.IsFormatEnabled || recording.IsAudioEnhancementsEnabled || recording.IsChannelVolumeEnabled)
+        if (recording.IsDefaultRecordingDeviceEnabled || recording.IsVolumeEnabled || recording.IsMuteEnabled || recording.IsFormatEnabled || recording.IsAudioEnhancementsEnabled || recording.IsChannelVolumeEnabled || recording.IsDeviceDisabledTrackingEnabled)
         {
-            device = ValidateEndpoint(recording.TargetDevice, AudioFlow.Capture, nameof(recording.TargetDevice), result);
+            device = ValidateEndpoint(recording.TargetDevice, AudioFlow.Capture, nameof(recording.TargetDevice), result, recording.IsDeviceDisabledTrackingEnabled);
         }
 
+        if (recording.IsDefaultConsoleRecordingDeviceEnabled) ValidateEndpoint(recording.ConsoleDevice, AudioFlow.Capture, nameof(recording.ConsoleDevice), result, recording.IsDeviceDisabledTrackingEnabled);
         if (recording.IsDefaultCommunicationsRecordingDeviceEnabled) ValidateEndpoint(recording.CommunicationsDevice, AudioFlow.Capture, nameof(recording.CommunicationsDevice), result);
         ValidateVolume(recording.IsVolumeEnabled, recording.VolumePercent, result);
         
@@ -860,7 +918,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
         if (!system.IsMonoAudioEnabled) result.Messages.Add(AudioOperationMessage.Warning(AudioMessageCode.NoEnabledSettings, "System audio profile is enabled, but no settings are enabled."));
     }
 
-    private Models.AudioEndpointInfo? ValidateEndpoint(AudioEndpointReference endpoint, AudioFlow expectedFlow, string propertyName, AudioProfileValidationResult result)
+    private Models.AudioEndpointInfo? ValidateEndpoint(AudioEndpointReference endpoint, AudioFlow expectedFlow, string propertyName, AudioProfileValidationResult result, bool allowDisabled = false)
     {
         if (!endpoint.IsEndpointEnabled)
         {
@@ -881,9 +939,13 @@ public sealed class WindowsAudioController : IWindowsAudioController
             return null;
         }
 
-        if (resolved.State.HasFlag(AudioDeviceState.Disabled) || resolved.State.HasFlag(AudioDeviceState.NotPresent))
+        if (resolved.State.HasFlag(AudioDeviceState.NotPresent))
         {
             result.Messages.Add(AudioOperationMessage.Error(AudioMessageCode.DeviceUnavailable, $"{propertyName} is not currently available. State: {resolved.State}."));
+        }
+        else if (resolved.State.HasFlag(AudioDeviceState.Disabled) && !allowDisabled)
+        {
+            result.Messages.Add(AudioOperationMessage.Error(AudioMessageCode.DeviceUnavailable, $"{propertyName} is disabled. State: {resolved.State}."));
         }
 
         return resolved;

@@ -19,7 +19,11 @@ public interface IWindowsAudioController : IDisposable
 
     AudioEndpointInfo GetDefaultPlaybackDevice();
 
+    AudioEndpointInfo GetDefaultConsolePlaybackDevice();
+
     AudioEndpointInfo GetDefaultRecordingDevice();
+
+    AudioEndpointInfo GetDefaultConsoleRecordingDevice();
 
     AudioEndpointInfo GetDefaultCommunicationsPlaybackDevice();
 

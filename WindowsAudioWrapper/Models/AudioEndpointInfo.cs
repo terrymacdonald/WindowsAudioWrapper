@@ -26,6 +26,9 @@ public sealed class AudioEndpointInfo
     /// <summary>Gets or sets a value indicating whether this is the default multimedia device.</summary>
     public bool IsDefaultDevice { get; set; } = false;
 
+    /// <summary>Gets or sets a value indicating whether this is the default console device.</summary>
+    public bool IsDefaultConsoleDevice { get; set; } = false;
+
     /// <summary>Gets or sets a value indicating whether this is the default communications device.</summary>
     public bool IsDefaultCommunicationsDevice { get; set; } = false;
 

@@ -47,6 +47,7 @@ public sealed class AudioProfile
 
         Playback.IsPlaybackEnabled = true;
         Playback.IsDefaultPlaybackDeviceEnabled = !string.IsNullOrWhiteSpace(Playback.TargetDevice.DeviceId);
+        Playback.IsDefaultConsolePlaybackDeviceEnabled = !string.IsNullOrWhiteSpace(Playback.ConsoleDevice.DeviceId);
         Playback.IsDefaultCommunicationsPlaybackDeviceEnabled = !string.IsNullOrWhiteSpace(Playback.CommunicationsDevice.DeviceId);
         Playback.IsVolumeEnabled = true;
         Playback.IsMuteEnabled = true;
@@ -58,6 +59,7 @@ public sealed class AudioProfile
 
         Recording.IsRecordingEnabled = true;
         Recording.IsDefaultRecordingDeviceEnabled = !string.IsNullOrWhiteSpace(Recording.TargetDevice.DeviceId);
+        Recording.IsDefaultConsoleRecordingDeviceEnabled = !string.IsNullOrWhiteSpace(Recording.ConsoleDevice.DeviceId);
         Recording.IsDefaultCommunicationsRecordingDeviceEnabled = !string.IsNullOrWhiteSpace(Recording.CommunicationsDevice.DeviceId);
         Recording.IsVolumeEnabled = true;
         Recording.IsMuteEnabled = true;

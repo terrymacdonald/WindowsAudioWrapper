@@ -10,6 +10,9 @@ public sealed class PlaybackAudioProfile
     /// <summary>Gets or sets the target default multimedia playback device reference block.</summary>
     public AudioEndpointReference TargetDevice { get; set; } = new();
 
+    /// <summary>Gets or sets the target default console playback device reference block.</summary>
+    public AudioEndpointReference ConsoleDevice { get; set; } = new();
+
     /// <summary>Gets or sets the target default communications voice routing reference block.</summary>
     public AudioEndpointReference CommunicationsDevice { get; set; } = new();
 
@@ -44,6 +47,10 @@ public sealed class PlaybackAudioProfile
     /// <summary>Gets or sets a telemetry flag stating if default multimedia routing switches are active. Ignored in JSON.</summary>
     [JsonIgnore]
     public bool IsDefaultPlaybackDeviceEnabled { get; set; }
+
+    /// <summary>Gets or sets a telemetry flag stating if default console routing switches are active. Ignored in JSON.</summary>
+    [JsonIgnore]
+    public bool IsDefaultConsolePlaybackDeviceEnabled { get; set; }
 
     /// <summary>Gets or sets a telemetry flag stating if voice communications routing switches are active. Ignored in JSON.</summary>
     [JsonIgnore]
@@ -80,6 +87,7 @@ public sealed class PlaybackAudioProfile
     public void EnsureDefaults()
     {
         TargetDevice ??= new AudioEndpointReference();
+        ConsoleDevice ??= new AudioEndpointReference();
         CommunicationsDevice ??= new AudioEndpointReference();
         StreamFormat ??= new AudioFormatProfile();
         AudioEnhancements ??= new AudioEnhancementProfile();
@@ -92,6 +100,10 @@ public sealed class PlaybackAudioProfile
         if (CommunicationsDevice.HardwareDetails == null)
         {
             CommunicationsDevice.HardwareDetails = new HardwareDetails();
+        }
+        if (ConsoleDevice.HardwareDetails == null)
+        {
+            ConsoleDevice.HardwareDetails = new HardwareDetails();
         }
 
         // Auto-hydrate default multimedia flags
@@ -110,6 +122,14 @@ public sealed class PlaybackAudioProfile
 
             // Activate custom sliders track if configuration records exist
             IsApoSlidersEnabled = ApoSliders.Count > 0;
+        }
+
+        // Auto-hydrate console routing flag
+        if (!string.IsNullOrWhiteSpace(ConsoleDevice.DeviceId))
+        {
+            IsPlaybackEnabled = true;
+            IsDefaultConsolePlaybackDeviceEnabled = true;
+            ConsoleDevice.IsEndpointEnabled = true;
         }
 
         // Auto-hydrate communications routing flags
