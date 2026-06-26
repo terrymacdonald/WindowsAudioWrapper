@@ -45,7 +45,7 @@ public sealed class DefaultDeviceRoleTests
     }
 
     [SkippableFact]
-    public void GetCurrentProfile_ShouldCaptureDefaultMultimediaDeviceDisabledState()
+    public void GetCurrentProfile_ShouldCaptureEndpointVisibilities()
     {
         using WindowsAudioController controller = new();
 
@@ -55,16 +55,21 @@ public sealed class DefaultDeviceRoleTests
 
         profile.EnsureDefaults();
 
+        Assert.True(profile.IsEndpointVisibilityTrackingEnabled);
+        Assert.NotEmpty(profile.EndpointVisibilities);
+
+        Assert.All(profile.EndpointVisibilities, endpoint =>
+        {
+            Assert.False(string.IsNullOrWhiteSpace(endpoint.DeviceId));
+            Assert.True(endpoint.Flow is AudioFlow.Render or AudioFlow.Capture);
+        });
+
         if (profile.Playback.MultimediaDevice.IsEndpointEnabled)
         {
-            Assert.True(profile.Playback.IsDeviceDisabledTrackingEnabled);
-            Assert.False(profile.Playback.IsDeviceDisabled);
-        }
-
-        if (profile.Recording.MultimediaDevice.IsEndpointEnabled)
-        {
-            Assert.True(profile.Recording.IsDeviceDisabledTrackingEnabled);
-            Assert.False(profile.Recording.IsDeviceDisabled);
+            AudioEndpointVisibility playbackVisibility = Assert.Single(
+                profile.EndpointVisibilities,
+                endpoint => endpoint.DeviceId.Equals(profile.Playback.MultimediaDevice.DeviceId, StringComparison.OrdinalIgnoreCase));
+            Assert.False(playbackVisibility.IsDisabled);
         }
     }
 }

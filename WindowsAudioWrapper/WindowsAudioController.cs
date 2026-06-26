@@ -383,6 +383,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
     {
         ThrowIfDisposed();
         AudioProfile profile = new();
+        CaptureEndpointVisibilities(profile);
         CapturePlaybackProfile(profile.Playback);
         CaptureRecordingProfile(profile.Recording);
         CaptureSystemAudioProfile(profile.System);
@@ -424,6 +425,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
 
         try
         {
+            if (profile.IsEndpointVisibilityTrackingEnabled) ApplyEndpointVisibilities(profile.EndpointVisibilities);
             if (profile.Playback.IsPlaybackEnabled) ApplyPlaybackProfile(profile.Playback, result);
             if (profile.Recording.IsRecordingEnabled) ApplyRecordingProfile(profile.Recording, result);
             if (profile.System.IsSystemAudioEnabled) ApplySystemAudioProfile(profile.System, result);
@@ -609,6 +611,44 @@ public sealed class WindowsAudioController : IWindowsAudioController
         return false;
     }
 
+    private void CaptureEndpointVisibilities(AudioProfile profile)
+    {
+        profile.EndpointVisibilities.Clear();
+
+        IReadOnlyList<AudioEndpointInfo> playbackDevices = _deviceProvider.GetPlaybackDevices(AudioDeviceState.All);
+        IReadOnlyList<AudioEndpointInfo> recordingDevices = _deviceProvider.GetRecordingDevices(AudioDeviceState.All);
+
+        foreach (AudioEndpointInfo endpoint in playbackDevices.Concat(recordingDevices))
+        {
+            if (string.IsNullOrWhiteSpace(endpoint.DeviceId))
+            {
+                continue;
+            }
+
+            profile.EndpointVisibilities.Add(AudioEndpointVisibility.FromEndpointInfo(endpoint));
+        }
+
+        profile.IsEndpointVisibilityTrackingEnabled = profile.EndpointVisibilities.Count > 0;
+    }
+
+    private void ApplyEndpointVisibilities(IReadOnlyCollection<AudioEndpointVisibility> endpointVisibilities)
+    {
+        if (endpointVisibilities.Count == 0)
+        {
+            return;
+        }
+
+        foreach (AudioEndpointVisibility endpointVisibility in endpointVisibilities)
+        {
+            if (string.IsNullOrWhiteSpace(endpointVisibility.DeviceId))
+            {
+                continue;
+            }
+
+            SetDeviceDisabled(endpointVisibility.DeviceId, endpointVisibility.IsDisabled);
+        }
+    }
+
     private void CapturePlaybackProfile(PlaybackAudioProfile playback)
     {
         AudioEndpointInfo defaultDevice = GetDefaultPlaybackDevice();
@@ -638,7 +678,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
             playback.AudioEnhancements = _audioEnhancementProvider.GetAudioEnhancements(defaultDevice.DeviceId);
             
             playback.IsDeviceDisabled = defaultDevice.State.HasFlag(AudioDeviceState.Disabled);
-            playback.IsDeviceDisabledTrackingEnabled = true;
+            playback.IsDeviceDisabledTrackingEnabled = false;
             
             CaptureChannelVolumes(defaultDevice.DeviceId, out float l, out float r);
             playback.VolumeLeft = (decimal)(l * 100f);
@@ -692,7 +732,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
             recording.AudioEnhancements = _audioEnhancementProvider.GetAudioEnhancements(defaultDevice.DeviceId);
 
             recording.IsDeviceDisabled = defaultDevice.State.HasFlag(AudioDeviceState.Disabled);
-            recording.IsDeviceDisabledTrackingEnabled = true;
+            recording.IsDeviceDisabledTrackingEnabled = false;
             
             CaptureChannelVolumes(defaultDevice.DeviceId, out float l, out float r);
             recording.VolumeLeft = (decimal)(l * 100f);

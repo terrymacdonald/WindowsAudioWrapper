@@ -117,7 +117,7 @@ public sealed class PlaybackAudioProfile
             IsAudioEnhancementsEnabled = AudioEnhancements.AreEnhancementsSupported;
             MultimediaDevice.IsEndpointEnabled = true;
             
-            IsDeviceDisabledTrackingEnabled = true;
+            IsDeviceDisabledTrackingEnabled = false;
             IsChannelVolumeEnabled = VolumeLeft > 0.0m || VolumeRight > 0.0m;
 
             // Activate custom sliders track if configuration records exist

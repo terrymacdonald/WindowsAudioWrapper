@@ -42,7 +42,7 @@ public sealed class DirectApiHardwareTests
         Assert.True(profile.Playback.IsMuteEnabled);
         Assert.True(profile.Playback.IsFormatEnabled);
         Assert.True(profile.Playback.IsAudioEnhancementsEnabled);
-        Assert.True(profile.Playback.IsDeviceDisabledTrackingEnabled);
+        Assert.True(profile.IsEndpointVisibilityTrackingEnabled);
         Assert.True(profile.Playback.IsChannelVolumeEnabled);
 
         // Assert Recording Flags
@@ -53,7 +53,7 @@ public sealed class DirectApiHardwareTests
         Assert.True(profile.Recording.IsMuteEnabled);
         Assert.True(profile.Recording.IsFormatEnabled);
         Assert.True(profile.Recording.IsAudioEnhancementsEnabled);
-        Assert.True(profile.Recording.IsDeviceDisabledTrackingEnabled);
+        Assert.True(profile.IsEndpointVisibilityTrackingEnabled);
         Assert.True(profile.Recording.IsChannelVolumeEnabled);
 
         // Assert System Flags
