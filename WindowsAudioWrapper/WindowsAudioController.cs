@@ -386,7 +386,6 @@ public sealed class WindowsAudioController : IWindowsAudioController
         CaptureEndpointVisibilities(profile);
         CapturePlaybackProfile(profile.Playback);
         CaptureRecordingProfile(profile.Recording);
-        CaptureSystemAudioProfile(profile.System);
         return profile;
     }
 
@@ -400,8 +399,6 @@ public sealed class WindowsAudioController : IWindowsAudioController
         AudioProfileValidationResult result = new();
         ValidatePlaybackProfile(profile.Playback, result);
         ValidateRecordingProfile(profile.Recording, result);
-        ValidateSystemAudioProfile(profile.System, result);
-
         result.RecalculateSeverity();
         return result;
     }
@@ -418,7 +415,8 @@ public sealed class WindowsAudioController : IWindowsAudioController
         if (profile.IsEndpointVisibilityTrackingEnabled) ApplyEndpointVisibilities(profile.EndpointVisibilities, result);
         if (profile.Playback.IsPlaybackEnabled) ApplyPlaybackProfile(profile.Playback, result);
         if (profile.Recording.IsRecordingEnabled) ApplyRecordingProfile(profile.Recording, result);
-        if (profile.System.IsSystemAudioEnabled) ApplySystemAudioProfile(profile.System, result);
+        // Mono audio is intentionally not applied as part of an audio profile.
+        // Windows does not provide a non-disruptive, non-elevated way to apply it live.
 
         result.RecalculateSuccess();
         return result;
@@ -785,13 +783,6 @@ public sealed class WindowsAudioController : IWindowsAudioController
         catch {}
     }
 
-    private void CaptureSystemAudioProfile(SystemAudioProfile system)
-    {
-        system.IsSystemAudioEnabled = true;
-        system.IsMonoAudioEnabled = true;
-        system.MonoAudio = _systemAudioProvider.GetMonoAudio();
-    }
-
     private void ApplyPlaybackProfile(PlaybackAudioProfile playback, AudioProfileApplyResult result)
     {
         if (playback.IsDefaultConsolePlaybackDeviceEnabled && CanApplyEndpointSetting(playback.ConsoleDevice, AudioFlow.Render, "playback console device", result) && !IsCurrentDefaultConsolePlaybackDevice(playback.ConsoleDevice))
@@ -874,12 +865,6 @@ public sealed class WindowsAudioController : IWindowsAudioController
         ApplyRoleEndpointFxProperties(recording.CommunicationsDevice, AudioFlow.Capture, "recording communications APO properties", result);
 
         result.Messages.Add(AudioOperationMessage.Info(AudioMessageCode.ProfileApplied, "Recording audio profile applied."));
-    }
-
-    private void ApplySystemAudioProfile(SystemAudioProfile system, AudioProfileApplyResult result)
-    {
-        if (system.IsMonoAudioEnabled) TryApplySetting(result, "mono audio", () => _systemAudioProvider.SetMonoAudio(system.MonoAudio));
-        result.Messages.Add(AudioOperationMessage.Info(AudioMessageCode.ProfileApplied, "System audio profile applied."));
     }
 
     private static void CaptureRoleEndpointFxProperties(AudioEndpointReference endpoint, bool isRender)
@@ -1065,12 +1050,6 @@ public sealed class WindowsAudioController : IWindowsAudioController
             if (recording.IsVolumeEnabled && !device.Capabilities.IsVolumeSupported) AddUnsupported(result, "Recording volume is not supported.");
             if (recording.IsMuteEnabled && !device.Capabilities.IsMuteSupported) AddUnsupported(result, "Recording mute is not supported.");
         }
-    }
-
-    private void ValidateSystemAudioProfile(SystemAudioProfile system, AudioProfileValidationResult result)
-    {
-        if (!system.IsSystemAudioEnabled) return;
-        if (!system.IsMonoAudioEnabled) result.Messages.Add(AudioOperationMessage.Warning(AudioMessageCode.NoEnabledSettings, "System audio profile is enabled, but no settings are enabled."));
     }
 
     private Models.AudioEndpointInfo? ValidateEndpoint(AudioEndpointReference endpoint, AudioFlow expectedFlow, string propertyName, AudioProfileValidationResult result, bool allowDisabled = false)

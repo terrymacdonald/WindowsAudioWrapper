@@ -18,7 +18,6 @@ public sealed class CurrentProfileTests
         Assert.NotNull(profile);
         Assert.NotNull(profile.Playback);
         Assert.NotNull(profile.Recording);
-        Assert.NotNull(profile.System);
 
         Skip.If(!profile.IsAnyAudioSettingEnabled, "Skipping because no readable Windows audio settings were captured on this machine.");
 

@@ -14,10 +14,6 @@ public sealed class AudioProfile
     /// <summary>Gets or sets the settings associated with recording (Capture) devices.</summary>
     public RecordingAudioProfile Recording { get; set; } = new();
 
-    /// <summary>Gets or sets the system-wide audio settings.</summary>
-    [JsonIgnore]
-    public SystemAudioProfile System { get; set; } = new();
-
     /// <summary>Gets or sets the captured visibility state for all known audio endpoints.</summary>
     public List<AudioEndpointVisibility> EndpointVisibilities { get; set; } = new();
 
@@ -26,8 +22,7 @@ public sealed class AudioProfile
     public bool IsAnyAudioSettingEnabled =>
         Playback.IsPlaybackEnabled ||
         Recording.IsRecordingEnabled ||
-        IsEndpointVisibilityTrackingEnabled ||
-        System.IsSystemAudioEnabled;
+        IsEndpointVisibilityTrackingEnabled;
 
     /// <summary>Gets or sets whether endpoint visibility states should be applied. Ignored in JSON.</summary>
     [JsonIgnore]
@@ -38,13 +33,10 @@ public sealed class AudioProfile
     {
         Playback ??= new PlaybackAudioProfile();
         Recording ??= new RecordingAudioProfile();
-        System ??= new SystemAudioProfile();
         EndpointVisibilities ??= new List<AudioEndpointVisibility>();
 
         Playback.EnsureDefaults();
         Recording.EnsureDefaults();
-        System.EnsureDefaults();
-
         if (EndpointVisibilities.Count > 0)
         {
             IsEndpointVisibilityTrackingEnabled = true;
@@ -81,8 +73,6 @@ public sealed class AudioProfile
 
         IsEndpointVisibilityTrackingEnabled = EndpointVisibilities.Count > 0;
 
-        System.IsSystemAudioEnabled = true;
-        System.IsMonoAudioEnabled = true;
     }
 
     

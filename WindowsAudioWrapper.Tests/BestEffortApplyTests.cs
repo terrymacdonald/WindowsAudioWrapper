@@ -14,8 +14,7 @@ public sealed class BestEffortApplyTests
         var volumeProvider = new RecordingVolumeProvider();
         var formatProvider = new NoOpFormatProvider();
         var enhancementProvider = new NoOpAudioEnhancementProvider();
-        var systemProvider = new RecordingSystemAudioProvider();
-
+        var systemProvider = new NoOpSystemAudioProvider();
         using var controller = new WindowsAudioController(
             deviceProvider,
             defaultDeviceProvider,
@@ -49,12 +48,6 @@ public sealed class BestEffortApplyTests
                     IsEndpointEnabled = true
                 },
                 VolumePercent = 65
-            },
-            System = new SystemAudioProfile
-            {
-                IsSystemAudioEnabled = true,
-                IsMonoAudioEnabled = true,
-                MonoAudio = true
             }
         };
 
@@ -64,8 +57,6 @@ public sealed class BestEffortApplyTests
         Assert.Contains(result.Messages, message => message.Severity == AudioMessageSeverity.Error && message.Code == AudioMessageCode.DeviceUnavailable);
         Assert.DoesNotContain(volumeProvider.SetVolumeCalls, call => call.DeviceId == "missing-playback-device");
         Assert.Contains(volumeProvider.SetVolumeCalls, call => call.DeviceId == FakeDeviceProvider.PresentRecordingDeviceId && call.VolumePercent == 65);
-        Assert.True(systemProvider.SetMonoAudioCalled);
-        Assert.True(systemProvider.LastMonoAudioValue);
     }
 
     private sealed class FakeDeviceProvider : IAudioDeviceProvider
@@ -168,19 +159,15 @@ public sealed class BestEffortApplyTests
         public void SetAudioEnhancements(AudioEndpointReference endpoint, AudioEnhancementProfile audioEnhancements) { }
     }
 
-    private sealed class RecordingSystemAudioProvider : ISystemAudioProvider
+    private sealed class NoOpSystemAudioProvider : ISystemAudioProvider
     {
-        public bool IsMonoAudioReadSupported => true;
-        public bool IsMonoAudioSetSupported => true;
-        public bool SetMonoAudioCalled { get; private set; }
-        public bool LastMonoAudioValue { get; private set; }
+        public bool IsMonoAudioReadSupported => false;
+
+        public bool IsMonoAudioSetSupported => false;
 
         public bool GetMonoAudio() => false;
 
-        public void SetMonoAudio(bool enabled)
-        {
-            SetMonoAudioCalled = true;
-            LastMonoAudioValue = enabled;
-        }
+        public void SetMonoAudio(bool enabled) { }
     }
+
 }
