@@ -25,6 +25,9 @@ public sealed class PlaybackAudioProfile
     /// <summary>Gets or sets the stream layout sample frequencies and layouts.</summary>
     public AudioFormatProfile StreamFormat { get; set; } = new();
 
+    /// <summary>Gets or sets the Windows speaker configuration for the playback endpoint.</summary>
+    public SpeakerConfigurationProfile SpeakerConfiguration { get; set; } = new();
+
     /// <summary>Gets or sets APO system enhancement profiles.</summary>
     public AudioEnhancementProfile AudioEnhancements { get; set; } = new();
 
@@ -62,6 +65,10 @@ public sealed class PlaybackAudioProfile
     [JsonIgnore]
     public bool IsFormatEnabled { get; set; }
 
+    /// <summary>Gets or sets a telemetry flag stating if speaker configuration changes are active. Ignored in JSON.</summary>
+    [JsonIgnore]
+    public bool IsSpeakerConfigurationEnabled { get; set; }
+
     /// <summary>Gets or sets a telemetry flag stating if device APO switches are active. Ignored in JSON.</summary>
     [JsonIgnore]
     public bool IsAudioEnhancementsEnabled { get; set; }
@@ -80,6 +87,7 @@ public sealed class PlaybackAudioProfile
         ConsoleDevice.ApoFxProperties ??= new Dictionary<string, string>();
         CommunicationsDevice.ApoFxProperties ??= new Dictionary<string, string>();
         StreamFormat ??= new AudioFormatProfile();
+        SpeakerConfiguration ??= new SpeakerConfigurationProfile();
         AudioEnhancements ??= new AudioEnhancementProfile();
         if (MultimediaDevice.HardwareDetails == null)
         {
@@ -102,6 +110,7 @@ public sealed class PlaybackAudioProfile
             IsVolumeEnabled = true;
             IsMuteEnabled = true;
             IsFormatEnabled = StreamFormat.SampleRate > 0;
+            IsSpeakerConfigurationEnabled = SpeakerConfiguration.IsConfigured;
             IsAudioEnhancementsEnabled = AudioEnhancements.AreEnhancementsSupported;
             MultimediaDevice.IsEndpointEnabled = true;
             

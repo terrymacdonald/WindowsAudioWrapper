@@ -672,9 +672,14 @@ public sealed class WindowsAudioController : IWindowsAudioController
 
             playback.IsFormatEnabled = true;
             playback.StreamFormat = _formatProvider.GetFormat(defaultDevice.DeviceId);
-
-            // Capture Speaker Layout Configuration Mask via registry extraction
-            playback.StreamFormat.ChannelMask = ReadRegistryPropertyUint(defaultDevice.DeviceId, true, "{14242002-0320-4de4-9555-a7d82b73c286},3");
+            uint channelMask = defaultDevice.HardwareDetails?.PhysicalSpeakersMask ?? 0;
+            SpeakerConfigurationProfile speakerConfiguration = new()
+            {
+                ChannelMask = channelMask != 0 ? channelMask : playback.StreamFormat.ChannelMask,
+                FullRangeSpeakersMask = defaultDevice.HardwareDetails?.FullRangeSpeakersMask ?? 0
+            };
+            playback.SpeakerConfiguration = speakerConfiguration;
+            playback.IsSpeakerConfigurationEnabled = speakerConfiguration.IsConfigured;
 
             playback.IsAudioEnhancementsEnabled = true;
             playback.AudioEnhancements = _audioEnhancementProvider.GetAudioEnhancements(defaultDevice.DeviceId);
@@ -801,9 +806,33 @@ public sealed class WindowsAudioController : IWindowsAudioController
             TryApplySetting(result, "playback communications default device", () => _defaultDeviceProvider.SetDefaultCommunicationsPlaybackDevice(playback.CommunicationsDevice));
         }
 
+        if (playback.IsSpeakerConfigurationEnabled && canApplyMultimediaDevice && playback.SpeakerConfiguration.IsConfigured)
+        {
+            Dictionary<string, string> speakerProperties = new()
+            {
+                { "{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},3", $"int:{playback.SpeakerConfiguration.ChannelMask}" },
+                { "{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},6", $"int:{playback.SpeakerConfiguration.FullRangeSpeakersMask}" }
+            };
+            TryApplySetting(result, "playback speaker configuration", () => ApplyPropertiesViaPropertyStore(playback.MultimediaDevice.DeviceId, speakerProperties));
+        }
+
         if (playback.IsVolumeEnabled && canApplyMultimediaDevice && IsValidVolume(playback.VolumePercent, "playback volume", result)) TryApplySetting(result, "playback volume", () => _volumeProvider.SetVolumePercent(playback.MultimediaDevice, playback.VolumePercent));
         if (playback.IsMuteEnabled && canApplyMultimediaDevice) TryApplySetting(result, "playback mute", () => _volumeProvider.SetMute(playback.MultimediaDevice, playback.IsMuted));
-        if (playback.IsFormatEnabled && canApplyMultimediaDevice) TryApplySetting(result, "playback format", () => _formatProvider.SetFormat(playback.MultimediaDevice, playback.StreamFormat));
+        if (playback.IsFormatEnabled && canApplyMultimediaDevice)
+        {
+            AudioFormatProfile formatToApply = new()
+            {
+                SampleRate = playback.StreamFormat.SampleRate,
+                BitsPerSample = playback.StreamFormat.BitsPerSample,
+                Channels = playback.StreamFormat.Channels,
+                ChannelMask = playback.IsSpeakerConfigurationEnabled && playback.SpeakerConfiguration.IsConfigured
+                    ? playback.SpeakerConfiguration.ChannelMask
+                    : playback.StreamFormat.ChannelMask,
+                SampleFormat = playback.StreamFormat.SampleFormat,
+                Mode = playback.StreamFormat.Mode
+            };
+            TryApplySetting(result, "playback format", () => _formatProvider.SetFormat(playback.MultimediaDevice, formatToApply));
+        }
         if (playback.IsAudioEnhancementsEnabled && canApplyMultimediaDevice) TryApplySetting(result, "playback audio enhancements", () => _audioEnhancementProvider.SetAudioEnhancements(playback.MultimediaDevice, playback.AudioEnhancements));
         if (playback.IsChannelVolumeEnabled && canApplyMultimediaDevice &&
             IsValidVolume(playback.VolumeLeft, "playback left channel volume", result) &&
@@ -812,12 +841,6 @@ public sealed class WindowsAudioController : IWindowsAudioController
             TryApplySetting(result, "playback channel volumes", () => SetChannelVolumes(playback.MultimediaDevice.DeviceId, playback.VolumeLeft, playback.VolumeRight));
         }
         
-        // Restore Channel Layout Configuration Masks securely via Property Store
-        if (playback.IsFormatEnabled && canApplyMultimediaDevice && playback.StreamFormat.ChannelMask > 0)
-        {
-            var maskDict = new Dictionary<string, string> { { "{14242002-0320-4de4-9555-a7d82b73c286},3", $"int:{playback.StreamFormat.ChannelMask}" } };
-            TryApplySetting(result, "playback channel mask property", () => ApplyPropertiesViaPropertyStore(playback.MultimediaDevice.DeviceId, maskDict));
-        }
         ApplyRoleEndpointFxProperties(playback.MultimediaDevice, AudioFlow.Render, "playback multimedia APO properties", result);
         ApplyRoleEndpointFxProperties(playback.ConsoleDevice, AudioFlow.Render, "playback console APO properties", result);
         ApplyRoleEndpointFxProperties(playback.CommunicationsDevice, AudioFlow.Render, "playback communications APO properties", result);
@@ -1003,7 +1026,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
         if (!playback.IsPlaybackEnabled) return;
 
         WindowsAudioWrapper.Models.AudioEndpointInfo? device = null;
-        if (playback.IsDefaultPlaybackDeviceEnabled || playback.IsVolumeEnabled || playback.IsMuteEnabled || playback.IsFormatEnabled || playback.IsAudioEnhancementsEnabled || playback.IsChannelVolumeEnabled)
+        if (playback.IsDefaultPlaybackDeviceEnabled || playback.IsVolumeEnabled || playback.IsMuteEnabled || playback.IsFormatEnabled || playback.IsSpeakerConfigurationEnabled || playback.IsAudioEnhancementsEnabled || playback.IsChannelVolumeEnabled)
         {
             device = ValidateEndpoint(playback.MultimediaDevice, AudioFlow.Render, nameof(playback.MultimediaDevice), result);
         }

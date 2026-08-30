@@ -58,6 +58,7 @@ public sealed class AudioProfile
         Playback.IsVolumeEnabled = true;
         Playback.IsMuteEnabled = true;
         Playback.IsFormatEnabled = Playback.StreamFormat.SampleRate > 0;
+        Playback.IsSpeakerConfigurationEnabled = Playback.SpeakerConfiguration.IsConfigured;
         Playback.IsAudioEnhancementsEnabled = true;
         Playback.IsChannelVolumeEnabled = true;
 
