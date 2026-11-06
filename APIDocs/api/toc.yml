@@ -129,7 +129,7 @@ items:
   - uid: WindowsAudioWrapper.Models.RecordingAudioProfile
     name: RecordingAudioProfile
     type: Class
-  - uid: WindowsAudioWrapper.Models.SystemAudioProfile
-    name: SystemAudioProfile
+  - uid: WindowsAudioWrapper.Models.SpeakerConfigurationProfile
+    name: SpeakerConfigurationProfile
     type: Class
 memberLayout: SamePage

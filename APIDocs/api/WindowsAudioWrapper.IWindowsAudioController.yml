@@ -32,7 +32,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/IWindowsAudioController.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IWindowsAudioController
     path: ../WindowsAudioWrapper/IWindowsAudioController.cs
@@ -63,21 +63,25 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/IWindowsAudioController.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: GetPlaybackDevices
     path: ../WindowsAudioWrapper/IWindowsAudioController.cs
-    startLine: 13
+    startLine: 16
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper
+  summary: Gets playback endpoints in the requested device states.
+  example: []
   syntax:
     content: IReadOnlyList<AudioEndpointInfo> GetPlaybackDevices(AudioDeviceState states = AudioDeviceState.Active | AudioDeviceState.Unplugged)
     parameters:
     - id: states
       type: WindowsAudioWrapper.Models.AudioDeviceState
+      description: The device states to include.
     return:
       type: System.Collections.Generic.IReadOnlyList{WindowsAudioWrapper.Models.AudioEndpointInfo}
+      description: The matching playback endpoints.
     content.vb: Function GetPlaybackDevices(states As AudioDeviceState = AudioDeviceState.Active Or AudioDeviceState.Unplugged) As IReadOnlyList(Of AudioEndpointInfo)
   overload: WindowsAudioWrapper.IWindowsAudioController.GetPlaybackDevices*
 - uid: WindowsAudioWrapper.IWindowsAudioController.GetRecordingDevices(WindowsAudioWrapper.Models.AudioDeviceState)
@@ -94,21 +98,25 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/IWindowsAudioController.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: GetRecordingDevices
     path: ../WindowsAudioWrapper/IWindowsAudioController.cs
-    startLine: 16
+    startLine: 22
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper
+  summary: Gets recording endpoints in the requested device states.
+  example: []
   syntax:
     content: IReadOnlyList<AudioEndpointInfo> GetRecordingDevices(AudioDeviceState states = AudioDeviceState.Active | AudioDeviceState.Unplugged)
     parameters:
     - id: states
       type: WindowsAudioWrapper.Models.AudioDeviceState
+      description: The device states to include.
     return:
       type: System.Collections.Generic.IReadOnlyList{WindowsAudioWrapper.Models.AudioEndpointInfo}
+      description: The matching recording endpoints.
     content.vb: Function GetRecordingDevices(states As AudioDeviceState = AudioDeviceState.Active Or AudioDeviceState.Unplugged) As IReadOnlyList(Of AudioEndpointInfo)
   overload: WindowsAudioWrapper.IWindowsAudioController.GetRecordingDevices*
 - uid: WindowsAudioWrapper.IWindowsAudioController.GetDefaultPlaybackDevice
@@ -125,14 +133,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/IWindowsAudioController.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: GetDefaultPlaybackDevice
     path: ../WindowsAudioWrapper/IWindowsAudioController.cs
-    startLine: 19
+    startLine: 26
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper
+  summary: Gets the default multimedia playback endpoint.
+  example: []
   syntax:
     content: AudioEndpointInfo GetDefaultPlaybackDevice()
     return:
@@ -153,14 +163,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/IWindowsAudioController.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: GetDefaultConsolePlaybackDevice
     path: ../WindowsAudioWrapper/IWindowsAudioController.cs
-    startLine: 21
+    startLine: 29
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper
+  summary: Gets the default console playback endpoint.
+  example: []
   syntax:
     content: AudioEndpointInfo GetDefaultConsolePlaybackDevice()
     return:
@@ -181,14 +193,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/IWindowsAudioController.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: GetDefaultRecordingDevice
     path: ../WindowsAudioWrapper/IWindowsAudioController.cs
-    startLine: 23
+    startLine: 32
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper
+  summary: Gets the default multimedia recording endpoint.
+  example: []
   syntax:
     content: AudioEndpointInfo GetDefaultRecordingDevice()
     return:
@@ -209,14 +223,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/IWindowsAudioController.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: GetDefaultConsoleRecordingDevice
     path: ../WindowsAudioWrapper/IWindowsAudioController.cs
-    startLine: 25
+    startLine: 35
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper
+  summary: Gets the default console recording endpoint.
+  example: []
   syntax:
     content: AudioEndpointInfo GetDefaultConsoleRecordingDevice()
     return:
@@ -237,14 +253,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/IWindowsAudioController.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: GetDefaultCommunicationsPlaybackDevice
     path: ../WindowsAudioWrapper/IWindowsAudioController.cs
-    startLine: 27
+    startLine: 38
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper
+  summary: Gets the default communications playback endpoint.
+  example: []
   syntax:
     content: AudioEndpointInfo GetDefaultCommunicationsPlaybackDevice()
     return:
@@ -265,14 +283,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/IWindowsAudioController.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: GetDefaultCommunicationsRecordingDevice
     path: ../WindowsAudioWrapper/IWindowsAudioController.cs
-    startLine: 29
+    startLine: 41
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper
+  summary: Gets the default communications recording endpoint.
+  example: []
   syntax:
     content: AudioEndpointInfo GetDefaultCommunicationsRecordingDevice()
     return:
@@ -293,11 +313,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/IWindowsAudioController.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: GetCurrentProfile
     path: ../WindowsAudioWrapper/IWindowsAudioController.cs
-    startLine: 35
+    startLine: 47
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper
@@ -326,21 +346,25 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/IWindowsAudioController.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: ValidateProfile
     path: ../WindowsAudioWrapper/IWindowsAudioController.cs
-    startLine: 37
+    startLine: 52
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper
+  summary: Checks whether the settings in a profile can be applied.
+  example: []
   syntax:
     content: AudioProfileValidationResult ValidateProfile(AudioProfile profile)
     parameters:
     - id: profile
       type: WindowsAudioWrapper.Models.AudioProfile
+      description: The profile to validate.
     return:
       type: WindowsAudioWrapper.Models.AudioProfileValidationResult
+      description: Validation results for the profile.
     content.vb: Function ValidateProfile(profile As AudioProfile) As AudioProfileValidationResult
   overload: WindowsAudioWrapper.IWindowsAudioController.ValidateProfile*
 - uid: WindowsAudioWrapper.IWindowsAudioController.ApplyProfile(WindowsAudioWrapper.Models.AudioProfile)
@@ -357,21 +381,25 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/IWindowsAudioController.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: ApplyProfile
     path: ../WindowsAudioWrapper/IWindowsAudioController.cs
-    startLine: 39
+    startLine: 57
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper
+  summary: Applies the enabled settings in an audio profile.
+  example: []
   syntax:
     content: AudioProfileApplyResult ApplyProfile(AudioProfile profile)
     parameters:
     - id: profile
       type: WindowsAudioWrapper.Models.AudioProfile
+      description: The profile to apply.
     return:
       type: WindowsAudioWrapper.Models.AudioProfileApplyResult
+      description: The result of applying the profile.
     content.vb: Function ApplyProfile(profile As AudioProfile) As AudioProfileApplyResult
   overload: WindowsAudioWrapper.IWindowsAudioController.ApplyProfile*
 - uid: WindowsAudioWrapper.IWindowsAudioController.WaitForAudioDeviceToAppear(WindowsAudioWrapper.Models.AudioEndpointReference,System.Int32)
@@ -388,11 +416,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/IWindowsAudioController.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: WaitForAudioDeviceToAppear
     path: ../WindowsAudioWrapper/IWindowsAudioController.cs
-    startLine: 48
+    startLine: 66
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper
@@ -412,7 +440,7 @@ items:
       description: The maximum block window length in milliseconds.
     return:
       type: System.Boolean
-      description: True if the matching hardware device arrives before the timeout expires; otherwise, false.
+      description: True when a uniquely resolved endpoint in the requested direction is active. Nonpositive timeouts perform an immediate availability check.
     content.vb: Function WaitForAudioDeviceToAppear(device As AudioEndpointReference, timeoutMilliseconds As Integer) As Boolean
   overload: WindowsAudioWrapper.IWindowsAudioController.WaitForAudioDeviceToAppear*
   nameWithType.vb: IWindowsAudioController.WaitForAudioDeviceToAppear(AudioEndpointReference, Integer)
@@ -432,11 +460,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/IWindowsAudioController.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: WaitForAudioDeviceToAppearAsync
     path: ../WindowsAudioWrapper/IWindowsAudioController.cs
-    startLine: 57
+    startLine: 75
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper
@@ -456,7 +484,7 @@ items:
       description: An optional token to cooperatively cancel the asynchronous monitoring task.
     return:
       type: System.Threading.Tasks.Task{System.Boolean}
-      description: A task containing true if the hardware becomes active before the timeout; otherwise, false.
+      description: A task containing true when a uniquely resolved endpoint is active before the timeout; false on timeout, cancellation or controller disposal. Nonpositive timeouts perform an immediate availability check.
     content.vb: Function WaitForAudioDeviceToAppearAsync(device As AudioEndpointReference, timeoutMilliseconds As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
   overload: WindowsAudioWrapper.IWindowsAudioController.WaitForAudioDeviceToAppearAsync*
   nameWithType.vb: IWindowsAudioController.WaitForAudioDeviceToAppearAsync(AudioEndpointReference, Integer, CancellationToken)
@@ -476,11 +504,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/IWindowsAudioController.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: RegisterTargetDevice
     path: ../WindowsAudioWrapper/IWindowsAudioController.cs
-    startLine: 64
+    startLine: 82
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper
@@ -511,11 +539,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/IWindowsAudioController.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: UnregisterTargetDevice
     path: ../WindowsAudioWrapper/IWindowsAudioController.cs
-    startLine: 70
+    startLine: 88
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper
@@ -543,11 +571,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/IWindowsAudioController.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: AudioDeviceConnected
     path: ../WindowsAudioWrapper/IWindowsAudioController.cs
-    startLine: 75
+    startLine: 93
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper
@@ -572,11 +600,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/IWindowsAudioController.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: AnyAudioDeviceConnected
     path: ../WindowsAudioWrapper/IWindowsAudioController.cs
-    startLine: 80
+    startLine: 98
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper

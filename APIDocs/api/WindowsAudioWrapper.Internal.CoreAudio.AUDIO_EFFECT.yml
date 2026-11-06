@@ -18,11 +18,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: AUDIO_EFFECT
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 204
+    startLine: 240
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
@@ -52,14 +52,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: id
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 207
+    startLine: 244
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: The effect identifier.
+  example: []
   syntax:
     content: public Guid id
     return:
@@ -79,14 +81,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: canSetState
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 209
+    startLine: 247
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: Whether the effect state can be changed.
+  example: []
   syntax:
     content: public bool canSetState
     return:
@@ -106,14 +110,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: state
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 210
+    startLine: 249
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: The current effect state.
+  example: []
   syntax:
     content: public AudioEffectState state
     return:

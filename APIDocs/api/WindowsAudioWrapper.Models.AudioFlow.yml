@@ -18,14 +18,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: AudioFlow
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 13
+    startLine: 21
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Identifies whether an audio endpoint renders or captures audio.
+  example: []
   syntax:
     content: public enum AudioFlow
     content.vb: Public Enum AudioFlow
@@ -43,14 +45,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Unknown
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 15
+    startLine: 24
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The endpoint direction is unknown.
+  example: []
   syntax:
     content: Unknown = 0
     return:
@@ -69,14 +73,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Render
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 16
+    startLine: 26
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The endpoint renders playback audio.
+  example: []
   syntax:
     content: Render = 1
     return:
@@ -95,14 +101,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Capture
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 17
+    startLine: 28
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The endpoint captures recording audio.
+  example: []
   syntax:
     content: Capture = 2
     return:

@@ -25,7 +25,7 @@ items:
   - WindowsAudioWrapper.Models.HardwareDetails
   - WindowsAudioWrapper.Models.PlaybackAudioProfile
   - WindowsAudioWrapper.Models.RecordingAudioProfile
-  - WindowsAudioWrapper.Models.SystemAudioProfile
+  - WindowsAudioWrapper.Models.SpeakerConfigurationProfile
   langs:
   - csharp
   - vb
@@ -182,13 +182,13 @@ references:
   name: RecordingAudioProfile
   nameWithType: RecordingAudioProfile
   fullName: WindowsAudioWrapper.Models.RecordingAudioProfile
-- uid: WindowsAudioWrapper.Models.SystemAudioProfile
-  commentId: T:WindowsAudioWrapper.Models.SystemAudioProfile
+- uid: WindowsAudioWrapper.Models.SpeakerConfigurationProfile
+  commentId: T:WindowsAudioWrapper.Models.SpeakerConfigurationProfile
   parent: WindowsAudioWrapper.Models
-  href: WindowsAudioWrapper.Models.SystemAudioProfile.html
-  name: SystemAudioProfile
-  nameWithType: SystemAudioProfile
-  fullName: WindowsAudioWrapper.Models.SystemAudioProfile
+  href: WindowsAudioWrapper.Models.SpeakerConfigurationProfile.html
+  name: SpeakerConfigurationProfile
+  nameWithType: SpeakerConfigurationProfile
+  fullName: WindowsAudioWrapper.Models.SpeakerConfigurationProfile
 - uid: WindowsAudioWrapper.Models
   commentId: N:WindowsAudioWrapper.Models
   href: WindowsAudioWrapper.html

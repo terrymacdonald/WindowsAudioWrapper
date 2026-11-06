@@ -27,14 +27,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IAudioClient
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 345
+    startLine: 424
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: Initializes and manages an audio stream for an endpoint.
+  example: []
   syntax:
     content: >-
       [Guid("1CB9AD4C-DBFA-4c32-B178-C2F568A703B2")]
@@ -73,14 +75,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Initialize
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 350
+    startLine: 430
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: Initializes an audio stream with the requested format and buffering settings.
+  example: []
   syntax:
     content: int Initialize(int shareMode, uint streamFlags, long hnsBufferDuration, long hnsPeriodicity, nint pFormat, in Guid audioSessionGuid)
     parameters:
@@ -117,14 +121,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: GetBufferSize
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 353
+    startLine: 434
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: Gets the stream buffer size in frames.
+  example: []
   syntax:
     content: int GetBufferSize(out uint pNumBufferFrames)
     parameters:
@@ -151,14 +157,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: GetStreamLatency
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 356
+    startLine: 438
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: Gets the stream latency in 100-nanosecond units.
+  example: []
   syntax:
     content: int GetStreamLatency(out long phnsLatency)
     parameters:
@@ -185,14 +193,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: GetCurrentPadding
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 359
+    startLine: 442
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: Gets the number of frames currently queued in the buffer.
+  example: []
   syntax:
     content: int GetCurrentPadding(out uint pNumPaddingFrames)
     parameters:
@@ -219,14 +229,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsFormatSupported
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 362
+    startLine: 446
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: Checks whether the endpoint supports an audio format.
+  example: []
   syntax:
     content: int IsFormatSupported(int shareMode, nint pFormat, out nint ppClosestMatch)
     parameters:
@@ -257,14 +269,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: GetMixFormat
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 365
+    startLine: 450
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: Gets the endpoint's shared-mode mix format.
+  example: []
   syntax:
     content: int GetMixFormat(out nint ppDeviceFormat)
     parameters:
@@ -291,14 +305,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: GetDevicePeriod
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 368
+    startLine: 454
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: Gets the default and minimum endpoint device periods.
+  example: []
   syntax:
     content: int GetDevicePeriod(out long phnsDefaultDevicePeriod, out long phnsMinimumDevicePeriod)
     parameters:
@@ -327,14 +343,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Start
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 371
+    startLine: 458
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: Starts the audio stream.
+  example: []
   syntax:
     content: int Start()
     return:
@@ -355,14 +373,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Stop
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 374
+    startLine: 462
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: Stops the audio stream.
+  example: []
   syntax:
     content: int Stop()
     return:
@@ -383,14 +403,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Reset
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 377
+    startLine: 466
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: Resets the audio stream.
+  example: []
   syntax:
     content: int Reset()
     return:
@@ -411,14 +433,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: SetEventHandle
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 380
+    startLine: 470
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: Sets the event handle used for event-driven buffering.
+  example: []
   syntax:
     content: int SetEventHandle(nint eventHandle)
     parameters:
@@ -445,14 +469,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: GetService
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 383
+    startLine: 474
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: Gets a service interface for the audio stream.
+  example: []
   syntax:
     content: int GetService(in Guid riid, out object ppv)
     parameters:

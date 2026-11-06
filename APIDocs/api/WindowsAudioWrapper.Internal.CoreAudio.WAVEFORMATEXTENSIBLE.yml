@@ -19,14 +19,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: WAVEFORMATEXTENSIBLE
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 192
+    startLine: 224
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: Describes a multichannel audio format with extended format fields.
+  example: []
   syntax:
     content: public struct WAVEFORMATEXTENSIBLE
     content.vb: Public Structure WAVEFORMATEXTENSIBLE
@@ -51,14 +53,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Format
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 195
+    startLine: 228
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: The basic audio format information.
+  example: []
   syntax:
     content: public WAVEFORMATEX Format
     return:
@@ -78,14 +82,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: wValidBitsPerSample
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 196
+    startLine: 230
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: The number of valid bits in each sample.
+  example: []
   syntax:
     content: public ushort wValidBitsPerSample
     return:
@@ -105,14 +111,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: dwChannelMask
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 197
+    startLine: 232
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: The channel positions present in the stream.
+  example: []
   syntax:
     content: public uint dwChannelMask
     return:
@@ -132,14 +140,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: SubFormat
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 198
+    startLine: 234
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: The format subtype identifier.
+  example: []
   syntax:
     content: public Guid SubFormat
     return:

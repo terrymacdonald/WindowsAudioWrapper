@@ -18,14 +18,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: PROPERTYKEY
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 74
+    startLine: 85
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: Identifies a property in a Windows property store.
+  example: []
   syntax:
     content: public struct PROPERTYKEY
     content.vb: Public Structure PROPERTYKEY
@@ -50,14 +52,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: fmtid
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 77
+    startLine: 89
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: The property set identifier.
+  example: []
   syntax:
     content: public Guid fmtid
     return:
@@ -77,14 +81,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: pid
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 78
+    startLine: 91
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: The property identifier within the set.
+  example: []
   syntax:
     content: public uint pid
     return:
@@ -104,21 +110,25 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: .ctor
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 80
+    startLine: 96
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: Initializes a property key from its set and property identifiers.
+  example: []
   syntax:
     content: public PROPERTYKEY(Guid fmtid, uint pid)
     parameters:
     - id: fmtid
       type: System.Guid
+      description: The property set identifier.
     - id: pid
       type: System.UInt32
+      description: The property identifier within the set.
     content.vb: Public Sub New(fmtid As Guid, pid As UInteger)
   overload: WindowsAudioWrapper.Internal.CoreAudio.PROPERTYKEY.#ctor*
   nameWithType.vb: PROPERTYKEY.New(Guid, UInteger)

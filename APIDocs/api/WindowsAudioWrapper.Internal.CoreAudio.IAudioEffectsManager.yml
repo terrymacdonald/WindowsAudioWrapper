@@ -19,14 +19,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IAudioEffectsManager
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 387
+    startLine: 479
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
+  summary: Enumerates and controls effects attached to an audio stream.
+  example: []
   syntax:
     content: >-
       [Guid("4460B3AE-4B44-4527-8676-7548A8ACD260")]
@@ -65,11 +67,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: RegisterAudioEffectsChangedNotificationCallback
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 393
+    startLine: 485
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
@@ -101,11 +103,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: UnregisterAudioEffectsChangedNotificationCallback
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 397
+    startLine: 489
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
@@ -137,11 +139,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: GetAudioEffects
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 401
+    startLine: 493
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio
@@ -175,11 +177,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: SetAudioEffectState
     path: ../WindowsAudioWrapper/Internal/CoreAudio/CoreAudioComInterfaces.cs
-    startLine: 405
+    startLine: 497
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Internal.CoreAudio

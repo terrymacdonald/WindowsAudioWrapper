@@ -5,6 +5,7 @@ items:
   id: AudioMessageCode
   parent: WindowsAudioWrapper.Models
   children:
+  - WindowsAudioWrapper.Models.AudioMessageCode.AmbiguousEndpoint
   - WindowsAudioWrapper.Models.AudioMessageCode.DeviceMissing
   - WindowsAudioWrapper.Models.AudioMessageCode.DeviceNotFound
   - WindowsAudioWrapper.Models.AudioMessageCode.DeviceUnavailable
@@ -25,14 +26,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: AudioMessageCode
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 47
+    startLine: 74
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Identifies the reason for a profile operation message.
+  example: []
   syntax:
     content: public enum AudioMessageCode
     content.vb: Public Enum AudioMessageCode
@@ -50,14 +53,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: None
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 49
+    startLine: 77
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: No specific message code applies.
+  example: []
   syntax:
     content: None = 0
     return:
@@ -76,14 +81,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: ProfileApplied
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 50
+    startLine: 79
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The profile was applied.
+  example: []
   syntax:
     content: ProfileApplied = 1
     return:
@@ -102,14 +109,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: DeviceMissing
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 51
+    startLine: 81
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The profile does not specify a required device.
+  example: []
   syntax:
     content: DeviceMissing = 2
     return:
@@ -128,14 +137,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: DeviceNotFound
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 52
+    startLine: 83
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The requested device was not found.
+  example: []
   syntax:
     content: DeviceNotFound = 3
     return:
@@ -154,14 +165,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: DeviceUnavailable
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 53
+    startLine: 85
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The requested device is unavailable.
+  example: []
   syntax:
     content: DeviceUnavailable = 4
     return:
@@ -180,14 +193,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: InvalidAudioFlow
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 54
+    startLine: 87
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The requested audio direction is invalid.
+  example: []
   syntax:
     content: InvalidAudioFlow = 5
     return:
@@ -206,14 +221,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: InvalidVolume
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 55
+    startLine: 89
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The requested volume is invalid.
+  example: []
   syntax:
     content: InvalidVolume = 6
     return:
@@ -232,14 +249,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: UnsupportedSetting
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 56
+    startLine: 91
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The requested setting is unsupported.
+  example: []
   syntax:
     content: UnsupportedSetting = 7
     return:
@@ -258,16 +277,46 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: NoEnabledSettings
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 57
+    startLine: 93
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The profile has no enabled settings to apply.
+  example: []
   syntax:
     content: NoEnabledSettings = 8
+    return:
+      type: WindowsAudioWrapper.Models.AudioMessageCode
+- uid: WindowsAudioWrapper.Models.AudioMessageCode.AmbiguousEndpoint
+  commentId: F:WindowsAudioWrapper.Models.AudioMessageCode.AmbiguousEndpoint
+  id: AmbiguousEndpoint
+  parent: WindowsAudioWrapper.Models.AudioMessageCode
+  langs:
+  - csharp
+  - vb
+  name: AmbiguousEndpoint
+  nameWithType: AudioMessageCode.AmbiguousEndpoint
+  fullName: WindowsAudioWrapper.Models.AudioMessageCode.AmbiguousEndpoint
+  type: Field
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioEnums.cs
+      branch: 2026-08-30-adding-spatial-audio
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: AmbiguousEndpoint
+    path: ../WindowsAudioWrapper/Models/AudioEnums.cs
+    startLine: 95
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Multiple endpoints match fallback criteria; no endpoint was selected.
+  example: []
+  syntax:
+    content: AmbiguousEndpoint = 9
     return:
       type: WindowsAudioWrapper.Models.AudioMessageCode
 - uid: WindowsAudioWrapper.Models.AudioMessageCode.UnexpectedError
@@ -284,14 +333,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: UnexpectedError
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 58
+    startLine: 97
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: An unexpected error occurred.
+  example: []
   syntax:
     content: UnexpectedError = 99
     return:

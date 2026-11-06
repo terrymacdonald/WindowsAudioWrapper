@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioFormatProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: AudioFormatProfile
     path: ../WindowsAudioWrapper/Models/AudioFormatProfile.cs
@@ -57,7 +57,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioFormatProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: SampleRate
     path: ../WindowsAudioWrapper/Models/AudioFormatProfile.cs
@@ -88,7 +88,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioFormatProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: BitsPerSample
     path: ../WindowsAudioWrapper/Models/AudioFormatProfile.cs
@@ -131,7 +131,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioFormatProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Channels
     path: ../WindowsAudioWrapper/Models/AudioFormatProfile.cs
@@ -162,7 +162,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioFormatProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: ChannelMask
     path: ../WindowsAudioWrapper/Models/AudioFormatProfile.cs
@@ -193,7 +193,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioFormatProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: SampleFormat
     path: ../WindowsAudioWrapper/Models/AudioFormatProfile.cs
@@ -224,7 +224,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioFormatProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Mode
     path: ../WindowsAudioWrapper/Models/AudioFormatProfile.cs

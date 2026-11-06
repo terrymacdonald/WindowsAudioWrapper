@@ -23,14 +23,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: AudioEndpointCapabilities
     path: ../WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
-    startLine: 2
+    startLine: 3
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Indicates which settings can be read or changed for an audio endpoint.
+  example: []
   syntax:
     content: public sealed class AudioEndpointCapabilities
     content.vb: Public NotInheritable Class AudioEndpointCapabilities
@@ -57,14 +59,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsDefaultDeviceSupported
     path: ../WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
-    startLine: 4
+    startLine: 6
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets whether the default multimedia device can be changed.
+  example: []
   syntax:
     content: public bool IsDefaultDeviceSupported { get; set; }
     parameters: []
@@ -86,14 +90,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsDefaultCommunicationsDeviceSupported
     path: ../WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
-    startLine: 5
+    startLine: 8
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets whether the default communications device can be changed.
+  example: []
   syntax:
     content: public bool IsDefaultCommunicationsDeviceSupported { get; set; }
     parameters: []
@@ -115,14 +121,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsVolumeSupported
     path: ../WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
-    startLine: 6
+    startLine: 10
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets whether endpoint volume can be changed.
+  example: []
   syntax:
     content: public bool IsVolumeSupported { get; set; }
     parameters: []
@@ -144,14 +152,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsMuteSupported
     path: ../WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
-    startLine: 7
+    startLine: 12
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets whether endpoint mute can be changed.
+  example: []
   syntax:
     content: public bool IsMuteSupported { get; set; }
     parameters: []
@@ -173,14 +183,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsFormatReadSupported
     path: ../WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
-    startLine: 8
+    startLine: 14
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets whether the endpoint format can be read.
+  example: []
   syntax:
     content: public bool IsFormatReadSupported { get; set; }
     parameters: []
@@ -202,14 +214,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsFormatSetSupported
     path: ../WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
-    startLine: 9
+    startLine: 16
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets whether the endpoint format can be changed.
+  example: []
   syntax:
     content: public bool IsFormatSetSupported { get; set; }
     parameters: []
@@ -231,14 +245,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsAudioEnhancementsReadSupported
     path: ../WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
-    startLine: 10
+    startLine: 18
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets whether audio enhancement settings can be read.
+  example: []
   syntax:
     content: public bool IsAudioEnhancementsReadSupported { get; set; }
     parameters: []
@@ -260,14 +276,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsAudioEnhancementsSetSupported
     path: ../WindowsAudioWrapper/Models/AudioEndpointCapabilities.cs
-    startLine: 11
+    startLine: 20
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets whether audio enhancement settings can be changed.
+  example: []
   syntax:
     content: public bool IsAudioEnhancementsSetSupported { get; set; }
     parameters: []

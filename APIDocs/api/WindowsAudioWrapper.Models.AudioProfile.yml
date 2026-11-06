@@ -12,7 +12,6 @@ items:
   - WindowsAudioWrapper.Models.AudioProfile.IsEndpointVisibilityTrackingEnabled
   - WindowsAudioWrapper.Models.AudioProfile.Playback
   - WindowsAudioWrapper.Models.AudioProfile.Recording
-  - WindowsAudioWrapper.Models.AudioProfile.System
   langs:
   - csharp
   - vb
@@ -23,7 +22,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: AudioProfile
     path: ../WindowsAudioWrapper/Models/AudioProfile.cs
@@ -62,7 +61,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Playback
     path: ../WindowsAudioWrapper/Models/AudioProfile.cs
@@ -93,7 +92,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Recording
     path: ../WindowsAudioWrapper/Models/AudioProfile.cs
@@ -110,47 +109,6 @@ items:
       type: WindowsAudioWrapper.Models.RecordingAudioProfile
     content.vb: Public Property Recording As RecordingAudioProfile
   overload: WindowsAudioWrapper.Models.AudioProfile.Recording*
-- uid: WindowsAudioWrapper.Models.AudioProfile.System
-  commentId: P:WindowsAudioWrapper.Models.AudioProfile.System
-  id: System
-  parent: WindowsAudioWrapper.Models.AudioProfile
-  langs:
-  - csharp
-  - vb
-  name: System
-  nameWithType: AudioProfile.System
-  fullName: WindowsAudioWrapper.Models.AudioProfile.System
-  type: Property
-  source:
-    remote:
-      path: WindowsAudioWrapper/Models/AudioProfile.cs
-      branch: develop
-      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
-    id: System
-    path: ../WindowsAudioWrapper/Models/AudioProfile.cs
-    startLine: 17
-  assemblies:
-  - WindowsAudioWrapper
-  namespace: WindowsAudioWrapper.Models
-  summary: Gets or sets the system-wide audio settings.
-  example: []
-  syntax:
-    content: >-
-      [JsonIgnore]
-
-      public SystemAudioProfile System { get; set; }
-    parameters: []
-    return:
-      type: WindowsAudioWrapper.Models.SystemAudioProfile
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property System As SystemAudioProfile
-  overload: WindowsAudioWrapper.Models.AudioProfile.System*
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
 - uid: WindowsAudioWrapper.Models.AudioProfile.EndpointVisibilities
   commentId: P:WindowsAudioWrapper.Models.AudioProfile.EndpointVisibilities
   id: EndpointVisibilities
@@ -165,11 +123,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: EndpointVisibilities
     path: ../WindowsAudioWrapper/Models/AudioProfile.cs
-    startLine: 21
+    startLine: 17
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
@@ -196,11 +154,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsAnyAudioSettingEnabled
     path: ../WindowsAudioWrapper/Models/AudioProfile.cs
-    startLine: 24
+    startLine: 20
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
@@ -237,11 +195,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsEndpointVisibilityTrackingEnabled
     path: ../WindowsAudioWrapper/Models/AudioProfile.cs
-    startLine: 32
+    startLine: 27
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
@@ -278,11 +236,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: EnsureDefaults
     path: ../WindowsAudioWrapper/Models/AudioProfile.cs
-    startLine: 36
+    startLine: 31
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
@@ -306,11 +264,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: EnableAllFeatures
     path: ../WindowsAudioWrapper/Models/AudioProfile.cs
-    startLine: 57
+    startLine: 49
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
@@ -585,19 +543,6 @@ references:
   name: RecordingAudioProfile
   nameWithType: RecordingAudioProfile
   fullName: WindowsAudioWrapper.Models.RecordingAudioProfile
-- uid: WindowsAudioWrapper.Models.AudioProfile.System*
-  commentId: Overload:WindowsAudioWrapper.Models.AudioProfile.System
-  href: WindowsAudioWrapper.Models.AudioProfile.html#WindowsAudioWrapper_Models_AudioProfile_System
-  name: System
-  nameWithType: AudioProfile.System
-  fullName: WindowsAudioWrapper.Models.AudioProfile.System
-- uid: WindowsAudioWrapper.Models.SystemAudioProfile
-  commentId: T:WindowsAudioWrapper.Models.SystemAudioProfile
-  parent: WindowsAudioWrapper.Models
-  href: WindowsAudioWrapper.Models.SystemAudioProfile.html
-  name: SystemAudioProfile
-  nameWithType: SystemAudioProfile
-  fullName: WindowsAudioWrapper.Models.SystemAudioProfile
 - uid: WindowsAudioWrapper.Models.AudioProfile.EndpointVisibilities*
   commentId: Overload:WindowsAudioWrapper.Models.AudioProfile.EndpointVisibilities
   href: WindowsAudioWrapper.Models.AudioProfile.html#WindowsAudioWrapper_Models_AudioProfile_EndpointVisibilities

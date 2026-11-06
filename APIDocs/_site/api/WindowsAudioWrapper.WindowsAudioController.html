@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/terrymacdonald/WindowsAudioWrapper/new/develop/apiSpec/new?filename=WindowsAudioWrapper_WindowsAudioController.md&amp;value=---%0Auid%3A%20WindowsAudioWrapper.WindowsAudioController%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/terrymacdonald/WindowsAudioWrapper/new/2026-08-30-adding-spatial-audio/apiSpec/new?filename=WindowsAudioWrapper_WindowsAudioController.md&amp;value=---%0Auid%3A%20WindowsAudioWrapper.WindowsAudioController%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="WindowsAudioWrapper_WindowsAudioController" data-uid="WindowsAudioWrapper.WindowsAudioController" class="text-break">
-Class WindowsAudioController  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L18"><i class="bi bi-code-slash"></i></a>
+Class WindowsAudioController  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -161,7 +161,7 @@ Class WindowsAudioController  <a class="header-action link-secondary" title="Vie
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController__ctor" data-uid="WindowsAudioWrapper.WindowsAudioController.#ctor">
   WindowsAudioController()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L86"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="WindowsAudioWrapper.WindowsAudioController.html">WindowsAudioController</a> class using target concrete engines.</p>
@@ -192,10 +192,11 @@ Class WindowsAudioController  <a class="header-action link-secondary" title="Vie
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_ApplyProfile_WindowsAudioWrapper_Models_AudioProfile_" data-uid="WindowsAudioWrapper.WindowsAudioController.ApplyProfile(WindowsAudioWrapper.Models.AudioProfile)">
   ApplyProfile(AudioProfile)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L410"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L388"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Applies the enabled settings in an audio profile.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -205,13 +206,15 @@ Class WindowsAudioController  <a class="header-action link-secondary" title="Vie
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>profile</code> <a class="xref" href="WindowsAudioWrapper.Models.AudioProfile.html">AudioProfile</a></dt>
-    <dd></dd>
+    <dd><p>The profile to apply.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="WindowsAudioWrapper.Models.AudioProfileApplyResult.html">AudioProfileApplyResult</a></dt>
-    <dd></dd>
+    <dd><p>The result of applying the profile.</p>
+</dd>
   </dl>
 
 
@@ -228,7 +231,7 @@ Class WindowsAudioController  <a class="header-action link-secondary" title="Vie
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_Dispose" data-uid="WindowsAudioWrapper.WindowsAudioController.Dispose">
   Dispose()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L428"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L407"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
@@ -255,7 +258,7 @@ Class WindowsAudioController  <a class="header-action link-secondary" title="Vie
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_GetCurrentProfile" data-uid="WindowsAudioWrapper.WindowsAudioController.GetCurrentProfile">
   GetCurrentProfile()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L382"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L363"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Captures every setting WindowsAudioWrapper can currently read into a normal AudioProfile.
@@ -288,10 +291,11 @@ The returned profile can be saved, edited, or applied later.</p>
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_GetDefaultCommunicationsPlaybackDevice" data-uid="WindowsAudioWrapper.WindowsAudioController.GetDefaultCommunicationsPlaybackDevice">
   GetDefaultCommunicationsPlaybackDevice()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L150"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the default communications playback endpoint.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -319,10 +323,11 @@ The returned profile can be saved, edited, or applied later.</p>
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_GetDefaultCommunicationsRecordingDevice" data-uid="WindowsAudioWrapper.WindowsAudioController.GetDefaultCommunicationsRecordingDevice">
   GetDefaultCommunicationsRecordingDevice()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L152"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the default communications recording endpoint.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -350,10 +355,11 @@ The returned profile can be saved, edited, or applied later.</p>
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_GetDefaultConsolePlaybackDevice" data-uid="WindowsAudioWrapper.WindowsAudioController.GetDefaultConsolePlaybackDevice">
   GetDefaultConsolePlaybackDevice()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L144"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the default console playback endpoint.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -381,10 +387,11 @@ The returned profile can be saved, edited, or applied later.</p>
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_GetDefaultConsoleRecordingDevice" data-uid="WindowsAudioWrapper.WindowsAudioController.GetDefaultConsoleRecordingDevice">
   GetDefaultConsoleRecordingDevice()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L148"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the default console recording endpoint.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -412,10 +419,11 @@ The returned profile can be saved, edited, or applied later.</p>
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_GetDefaultPlaybackDevice" data-uid="WindowsAudioWrapper.WindowsAudioController.GetDefaultPlaybackDevice">
   GetDefaultPlaybackDevice()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L142"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the default multimedia playback endpoint.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -443,10 +451,11 @@ The returned profile can be saved, edited, or applied later.</p>
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_GetDefaultRecordingDevice" data-uid="WindowsAudioWrapper.WindowsAudioController.GetDefaultRecordingDevice">
   GetDefaultRecordingDevice()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L146"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the default multimedia recording endpoint.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -474,10 +483,11 @@ The returned profile can be saved, edited, or applied later.</p>
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_GetPlaybackDevices_WindowsAudioWrapper_Models_AudioDeviceState_" data-uid="WindowsAudioWrapper.WindowsAudioController.GetPlaybackDevices(WindowsAudioWrapper.Models.AudioDeviceState)">
   GetPlaybackDevices(AudioDeviceState)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L128"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets playback endpoints in the requested device states.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -487,13 +497,15 @@ The returned profile can be saved, edited, or applied later.</p>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>states</code> <a class="xref" href="WindowsAudioWrapper.Models.AudioDeviceState.html">AudioDeviceState</a></dt>
-    <dd></dd>
+    <dd><p>The device states to include.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="WindowsAudioWrapper.Models.AudioEndpointInfo.html">AudioEndpointInfo</a>&gt;</dt>
-    <dd></dd>
+    <dd><p>The matching playback endpoints.</p>
+</dd>
   </dl>
 
 
@@ -510,10 +522,11 @@ The returned profile can be saved, edited, or applied later.</p>
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_GetRecordingDevices_WindowsAudioWrapper_Models_AudioDeviceState_" data-uid="WindowsAudioWrapper.WindowsAudioController.GetRecordingDevices(WindowsAudioWrapper.Models.AudioDeviceState)">
   GetRecordingDevices(AudioDeviceState)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L135"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets recording endpoints in the requested device states.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -523,13 +536,15 @@ The returned profile can be saved, edited, or applied later.</p>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>states</code> <a class="xref" href="WindowsAudioWrapper.Models.AudioDeviceState.html">AudioDeviceState</a></dt>
-    <dd></dd>
+    <dd><p>The device states to include.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="WindowsAudioWrapper.Models.AudioEndpointInfo.html">AudioEndpointInfo</a>&gt;</dt>
-    <dd></dd>
+    <dd><p>The matching recording endpoints.</p>
+</dd>
   </dl>
 
 
@@ -546,7 +561,7 @@ The returned profile can be saved, edited, or applied later.</p>
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_RegisterTargetDevice_WindowsAudioWrapper_Models_AudioEndpointReference_" data-uid="WindowsAudioWrapper.WindowsAudioController.RegisterTargetDevice(WindowsAudioWrapper.Models.AudioEndpointReference)">
   RegisterTargetDevice(AudioEndpointReference)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L349"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L323"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Registers a targeted device reference to explicitly monitor for custom connection arrivals.
@@ -580,7 +595,7 @@ When matched, the <a class="xref" href="WindowsAudioWrapper.IWindowsAudioControl
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_SetAudioEnhancements_System_String_WindowsAudioWrapper_Models_AudioEnhancementProfile_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetAudioEnhancements(System.String,WindowsAudioWrapper.Models.AudioEnhancementProfile)">
   SetAudioEnhancements(string, AudioEnhancementProfile)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L182"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -613,7 +628,7 @@ When matched, the <a class="xref" href="WindowsAudioWrapper.IWindowsAudioControl
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_SetChannelVolumes_System_String_System_Decimal_System_Decimal_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetChannelVolumes(System.String,System.Decimal,System.Decimal)">
   SetChannelVolumes(string, decimal, decimal)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L224"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L244"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -648,7 +663,7 @@ When matched, the <a class="xref" href="WindowsAudioWrapper.IWindowsAudioControl
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_SetDefaultConsolePlaybackDevice_System_String_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetDefaultConsolePlaybackDevice(System.String)">
   SetDefaultConsolePlaybackDevice(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L201"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sets the default console playback device.</p>
@@ -680,7 +695,7 @@ When matched, the <a class="xref" href="WindowsAudioWrapper.IWindowsAudioControl
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_SetDefaultConsoleRecordingDevice_System_String_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetDefaultConsoleRecordingDevice(System.String)">
   SetDefaultConsoleRecordingDevice(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L199"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L219"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sets the default console recording device.</p>
@@ -712,7 +727,7 @@ When matched, the <a class="xref" href="WindowsAudioWrapper.IWindowsAudioControl
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_SetDefaultPlaybackDevice_System_String_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetDefaultPlaybackDevice(System.String)">
   SetDefaultPlaybackDevice(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L191"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -743,7 +758,7 @@ When matched, the <a class="xref" href="WindowsAudioWrapper.IWindowsAudioControl
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_SetDefaultRecordingDevice_System_String_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetDefaultRecordingDevice(System.String)">
   SetDefaultRecordingDevice(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L189"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L209"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -774,7 +789,7 @@ When matched, the <a class="xref" href="WindowsAudioWrapper.IWindowsAudioControl
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_SetDeviceDisabled_System_String_System_Boolean_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetDeviceDisabled(System.String,System.Boolean)">
   SetDeviceDisabled(string, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L227"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -807,7 +822,7 @@ When matched, the <a class="xref" href="WindowsAudioWrapper.IWindowsAudioControl
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_SetFormat_System_String_WindowsAudioWrapper_Models_AudioFormatProfile_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetFormat(System.String,WindowsAudioWrapper.Models.AudioFormatProfile)">
   SetFormat(string, AudioFormatProfile)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L173"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -840,7 +855,7 @@ When matched, the <a class="xref" href="WindowsAudioWrapper.IWindowsAudioControl
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_SetMute_System_String_System_Boolean_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetMute(System.String,System.Boolean)">
   SetMute(string, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L165"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -873,7 +888,7 @@ When matched, the <a class="xref" href="WindowsAudioWrapper.IWindowsAudioControl
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_SetVolumePercent_System_String_System_Decimal_" data-uid="WindowsAudioWrapper.WindowsAudioController.SetVolumePercent(System.String,System.Decimal)">
   SetVolumePercent(string, decimal)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L157"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -906,7 +921,7 @@ When matched, the <a class="xref" href="WindowsAudioWrapper.IWindowsAudioControl
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_UnregisterTargetDevice_WindowsAudioWrapper_Models_AudioEndpointReference_" data-uid="WindowsAudioWrapper.WindowsAudioController.UnregisterTargetDevice(WindowsAudioWrapper.Models.AudioEndpointReference)">
   UnregisterTargetDevice(AudioEndpointReference)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L365"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L342"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Unregisters a previously tracked device reference from arrival notification callback monitoring.</p>
@@ -939,10 +954,11 @@ When matched, the <a class="xref" href="WindowsAudioWrapper.IWindowsAudioControl
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_ValidateProfile_WindowsAudioWrapper_Models_AudioProfile_" data-uid="WindowsAudioWrapper.WindowsAudioController.ValidateProfile(WindowsAudioWrapper.Models.AudioProfile)">
   ValidateProfile(AudioProfile)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L394"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L374"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks whether the settings in a profile can be applied.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -952,13 +968,15 @@ When matched, the <a class="xref" href="WindowsAudioWrapper.IWindowsAudioControl
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>profile</code> <a class="xref" href="WindowsAudioWrapper.Models.AudioProfile.html">AudioProfile</a></dt>
-    <dd></dd>
+    <dd><p>The profile to validate.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="WindowsAudioWrapper.Models.AudioProfileValidationResult.html">AudioProfileValidationResult</a></dt>
-    <dd></dd>
+    <dd><p>Validation results for the profile.</p>
+</dd>
   </dl>
 
 
@@ -975,7 +993,7 @@ When matched, the <a class="xref" href="WindowsAudioWrapper.IWindowsAudioControl
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_WaitForAudioDeviceToAppear_WindowsAudioWrapper_Models_AudioEndpointReference_System_Int32_" data-uid="WindowsAudioWrapper.WindowsAudioController.WaitForAudioDeviceToAppear(WindowsAudioWrapper.Models.AudioEndpointReference,System.Int32)">
   WaitForAudioDeviceToAppear(AudioEndpointReference, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L252"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L272"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Synchronously blocks execution until a matching audio endpoint becomes visible and active to the OS,
@@ -1000,7 +1018,7 @@ or the specified timeout duration is reached.</p>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>True if the matching hardware device arrives before the timeout expires; otherwise, false.</p>
+    <dd><p>True when a uniquely resolved endpoint in the requested direction is active. Nonpositive timeouts perform an immediate availability check.</p>
 </dd>
   </dl>
 
@@ -1018,7 +1036,7 @@ or the specified timeout duration is reached.</p>
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_WaitForAudioDeviceToAppearAsync_WindowsAudioWrapper_Models_AudioEndpointReference_System_Int32_System_Threading_CancellationToken_" data-uid="WindowsAudioWrapper.WindowsAudioController.WaitForAudioDeviceToAppearAsync(WindowsAudioWrapper.Models.AudioEndpointReference,System.Int32,System.Threading.CancellationToken)">
   WaitForAudioDeviceToAppearAsync(AudioEndpointReference, int, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L298"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L276"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Asynchronously monitors system hardware notifications until a matching audio endpoint becomes visible and active.</p>
@@ -1045,7 +1063,7 @@ or the specified timeout duration is reached.</p>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
-    <dd><p>A task containing true if the hardware becomes active before the timeout; otherwise, false.</p>
+    <dd><p>A task containing true when a uniquely resolved endpoint is active before the timeout; false on timeout, cancellation or controller disposal. Nonpositive timeouts perform an immediate availability check.</p>
 </dd>
   </dl>
 
@@ -1066,7 +1084,7 @@ or the specified timeout duration is reached.</p>
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_AnyAudioDeviceConnected" data-uid="WindowsAudioWrapper.WindowsAudioController.AnyAudioDeviceConnected">
   AnyAudioDeviceConnected
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L67"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Fires globally whenever any audio endpoint is plugged in, discovered, or becomes active in the system.</p>
@@ -1097,7 +1115,7 @@ or the specified timeout duration is reached.</p>
 
   <h3 id="WindowsAudioWrapper_WindowsAudioController_AudioDeviceConnected" data-uid="WindowsAudioWrapper.WindowsAudioController.AudioDeviceConnected">
   AudioDeviceConnected
-  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L48"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Fires when a specifically registered or targeted audio device connects and becomes active.</p>
@@ -1129,7 +1147,7 @@ or the specified timeout duration is reached.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/WindowsAudioController.cs/#L18" class="edit-link">Edit this page</a>
+          <a href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/WindowsAudioController.cs/#L18" class="edit-link">Edit this page</a>
         </div>
 
 

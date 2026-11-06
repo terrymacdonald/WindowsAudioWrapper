@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioProfileValidationResult.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: AudioProfileValidationResult
     path: ../WindowsAudioWrapper/Models/AudioProfileValidationResult.cs
@@ -55,7 +55,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioProfileValidationResult.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Severity
     path: ../WindowsAudioWrapper/Models/AudioProfileValidationResult.cs
@@ -86,7 +86,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioProfileValidationResult.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Successful
     path: ../WindowsAudioWrapper/Models/AudioProfileValidationResult.cs
@@ -117,7 +117,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioProfileValidationResult.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Messages
     path: ../WindowsAudioWrapper/Models/AudioProfileValidationResult.cs
@@ -148,7 +148,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioProfileValidationResult.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: RecalculateSeverity
     path: ../WindowsAudioWrapper/Models/AudioProfileValidationResult.cs

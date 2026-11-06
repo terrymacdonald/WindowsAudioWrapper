@@ -18,14 +18,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: AudioMessageSeverity
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 33
+    startLine: 52
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Identifies the severity of a profile operation message.
+  example: []
   syntax:
     content: public enum AudioMessageSeverity
     content.vb: Public Enum AudioMessageSeverity
@@ -43,14 +45,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Info
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 35
+    startLine: 55
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The message is informational.
+  example: []
   syntax:
     content: Info = 0
     return:
@@ -69,14 +73,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Warning
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 36
+    startLine: 57
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The message reports a warning.
+  example: []
   syntax:
     content: Warning = 1
     return:
@@ -95,14 +101,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Error
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 37
+    startLine: 59
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The message reports an error.
+  example: []
   syntax:
     content: Error = 2
     return:

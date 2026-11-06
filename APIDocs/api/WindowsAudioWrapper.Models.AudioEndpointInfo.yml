@@ -31,7 +31,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointInfo.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: AudioEndpointInfo
     path: ../WindowsAudioWrapper/Models/AudioEndpointInfo.cs
@@ -67,7 +67,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointInfo.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: DeviceId
     path: ../WindowsAudioWrapper/Models/AudioEndpointInfo.cs
@@ -98,7 +98,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointInfo.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: ContainerId
     path: ../WindowsAudioWrapper/Models/AudioEndpointInfo.cs
@@ -129,7 +129,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointInfo.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: FriendlyName
     path: ../WindowsAudioWrapper/Models/AudioEndpointInfo.cs
@@ -160,7 +160,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointInfo.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: FullName
     path: ../WindowsAudioWrapper/Models/AudioEndpointInfo.cs
@@ -191,7 +191,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointInfo.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Flow
     path: ../WindowsAudioWrapper/Models/AudioEndpointInfo.cs
@@ -222,7 +222,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointInfo.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: State
     path: ../WindowsAudioWrapper/Models/AudioEndpointInfo.cs
@@ -253,7 +253,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointInfo.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsDefaultDevice
     path: ../WindowsAudioWrapper/Models/AudioEndpointInfo.cs
@@ -284,7 +284,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointInfo.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsDefaultConsoleDevice
     path: ../WindowsAudioWrapper/Models/AudioEndpointInfo.cs
@@ -315,7 +315,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointInfo.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsDefaultCommunicationsDevice
     path: ../WindowsAudioWrapper/Models/AudioEndpointInfo.cs
@@ -346,7 +346,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointInfo.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: VolumePercent
     path: ../WindowsAudioWrapper/Models/AudioEndpointInfo.cs
@@ -377,7 +377,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointInfo.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsMuted
     path: ../WindowsAudioWrapper/Models/AudioEndpointInfo.cs
@@ -408,7 +408,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointInfo.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Capabilities
     path: ../WindowsAudioWrapper/Models/AudioEndpointInfo.cs
@@ -439,14 +439,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointInfo.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: HardwareDetails
     path: ../WindowsAudioWrapper/Models/AudioEndpointInfo.cs
-    startLine: 43
+    startLine: 44
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the endpoint's hardware details.
+  example: []
   syntax:
     content: public HardwareDetails HardwareDetails { get; set; }
     parameters: []
@@ -468,14 +470,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointInfo.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: AudioEnhancements
     path: ../WindowsAudioWrapper/Models/AudioEndpointInfo.cs
-    startLine: 44
+    startLine: 47
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the endpoint's audio enhancement settings.
+  example: []
   syntax:
     content: public AudioEnhancementProfile AudioEnhancements { get; set; }
     parameters: []
@@ -497,11 +501,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointInfo.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsAvailable
     path: ../WindowsAudioWrapper/Models/AudioEndpointInfo.cs
-    startLine: 47
+    startLine: 50
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
@@ -528,11 +532,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointInfo.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: EnsureDefaults
     path: ../WindowsAudioWrapper/Models/AudioEndpointInfo.cs
-    startLine: 52
+    startLine: 55
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models

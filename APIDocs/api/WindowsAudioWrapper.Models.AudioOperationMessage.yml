@@ -23,7 +23,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioOperationMessage.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: AudioOperationMessage
     path: ../WindowsAudioWrapper/Models/AudioOperationMessage.cs
@@ -59,7 +59,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioOperationMessage.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Severity
     path: ../WindowsAudioWrapper/Models/AudioOperationMessage.cs
@@ -90,7 +90,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioOperationMessage.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Code
     path: ../WindowsAudioWrapper/Models/AudioOperationMessage.cs
@@ -121,7 +121,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioOperationMessage.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Message
     path: ../WindowsAudioWrapper/Models/AudioOperationMessage.cs
@@ -152,7 +152,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioOperationMessage.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: DeviceId
     path: ../WindowsAudioWrapper/Models/AudioOperationMessage.cs
@@ -183,7 +183,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioOperationMessage.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: DeviceName
     path: ../WindowsAudioWrapper/Models/AudioOperationMessage.cs
@@ -214,23 +214,28 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioOperationMessage.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Info
     path: ../WindowsAudioWrapper/Models/AudioOperationMessage.cs
-    startLine: 22
+    startLine: 26
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Creates an informational operation message.
+  example: []
   syntax:
     content: public static AudioOperationMessage Info(AudioMessageCode code, string message)
     parameters:
     - id: code
       type: WindowsAudioWrapper.Models.AudioMessageCode
+      description: The message code.
     - id: message
       type: System.String
+      description: The message text.
     return:
       type: WindowsAudioWrapper.Models.AudioOperationMessage
+      description: An informational operation message.
     content.vb: Public Shared Function Info(code As AudioMessageCode, message As String) As AudioOperationMessage
   overload: WindowsAudioWrapper.Models.AudioOperationMessage.Info*
   nameWithType.vb: AudioOperationMessage.Info(AudioMessageCode, String)
@@ -250,23 +255,28 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioOperationMessage.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Warning
     path: ../WindowsAudioWrapper/Models/AudioOperationMessage.cs
-    startLine: 29
+    startLine: 37
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Creates a warning operation message.
+  example: []
   syntax:
     content: public static AudioOperationMessage Warning(AudioMessageCode code, string message)
     parameters:
     - id: code
       type: WindowsAudioWrapper.Models.AudioMessageCode
+      description: The message code.
     - id: message
       type: System.String
+      description: The message text.
     return:
       type: WindowsAudioWrapper.Models.AudioOperationMessage
+      description: A warning operation message.
     content.vb: Public Shared Function Warning(code As AudioMessageCode, message As String) As AudioOperationMessage
   overload: WindowsAudioWrapper.Models.AudioOperationMessage.Warning*
   nameWithType.vb: AudioOperationMessage.Warning(AudioMessageCode, String)
@@ -286,23 +296,28 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioOperationMessage.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Error
     path: ../WindowsAudioWrapper/Models/AudioOperationMessage.cs
-    startLine: 36
+    startLine: 48
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Creates an error operation message.
+  example: []
   syntax:
     content: public static AudioOperationMessage Error(AudioMessageCode code, string message)
     parameters:
     - id: code
       type: WindowsAudioWrapper.Models.AudioMessageCode
+      description: The message code.
     - id: message
       type: System.String
+      description: The message text.
     return:
       type: WindowsAudioWrapper.Models.AudioOperationMessage
+      description: An error operation message.
     content.vb: Public Shared Function [Error](code As AudioMessageCode, message As String) As AudioOperationMessage
   overload: WindowsAudioWrapper.Models.AudioOperationMessage.Error*
   nameWithType.vb: AudioOperationMessage.Error(AudioMessageCode, String)

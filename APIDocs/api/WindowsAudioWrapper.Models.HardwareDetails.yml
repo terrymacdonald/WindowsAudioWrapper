@@ -23,7 +23,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/HardwareDetails.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: HardwareDetails
     path: ../WindowsAudioWrapper/Models/HardwareDetails.cs
@@ -63,14 +63,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/HardwareDetails.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: DeviceDescription
     path: ../WindowsAudioWrapper/Models/HardwareDetails.cs
-    startLine: 8
+    startLine: 9
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the device description reported by Windows.
+  example: []
   syntax:
     content: public string DeviceDescription { get; set; }
     parameters: []
@@ -92,14 +94,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/HardwareDetails.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: FormFactorCode
     path: ../WindowsAudioWrapper/Models/HardwareDetails.cs
-    startLine: 9
+    startLine: 11
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the numeric endpoint form factor.
+  example: []
   syntax:
     content: public int FormFactorCode { get; set; }
     parameters: []
@@ -121,14 +125,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/HardwareDetails.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: PhysicalSpeakersMask
     path: ../WindowsAudioWrapper/Models/HardwareDetails.cs
-    startLine: 10
+    startLine: 13
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the speaker positions reported by the endpoint.
+  example: []
   syntax:
     content: public uint PhysicalSpeakersMask { get; set; }
     parameters: []
@@ -150,14 +156,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/HardwareDetails.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: FullRangeSpeakersMask
     path: ../WindowsAudioWrapper/Models/HardwareDetails.cs
-    startLine: 11
+    startLine: 15
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the speaker positions supporting full range audio.
+  example: []
   syntax:
     content: public uint FullRangeSpeakersMask { get; set; }
     parameters: []
@@ -179,14 +187,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/HardwareDetails.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: EndpointGuid
     path: ../WindowsAudioWrapper/Models/HardwareDetails.cs
-    startLine: 12
+    startLine: 17
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the endpoint GUID as a string.
+  example: []
   syntax:
     content: public string EndpointGuid { get; set; }
     parameters: []
@@ -208,14 +218,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/HardwareDetails.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: DeviceFormatSummary
     path: ../WindowsAudioWrapper/Models/HardwareDetails.cs
-    startLine: 13
+    startLine: 19
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets a summary of the endpoint's device format.
+  example: []
   syntax:
     content: public string DeviceFormatSummary { get; set; }
     parameters: []
@@ -237,11 +249,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/HardwareDetails.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: SupportsEventDrivenMode
     path: ../WindowsAudioWrapper/Models/HardwareDetails.cs
-    startLine: 16
+    startLine: 22
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
@@ -268,11 +280,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/HardwareDetails.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: JackSubType
     path: ../WindowsAudioWrapper/Models/HardwareDetails.cs
-    startLine: 19
+    startLine: 25
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models

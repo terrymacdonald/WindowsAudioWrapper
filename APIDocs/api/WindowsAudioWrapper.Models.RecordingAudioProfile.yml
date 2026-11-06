@@ -34,7 +34,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: RecordingAudioProfile
     path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
@@ -70,7 +70,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: MultimediaDevice
     path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
@@ -101,7 +101,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: ConsoleDevice
     path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
@@ -132,7 +132,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: CommunicationsDevice
     path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
@@ -163,7 +163,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: VolumePercent
     path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
@@ -194,7 +194,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsMuted
     path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
@@ -225,7 +225,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: StreamFormat
     path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
@@ -256,7 +256,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: AudioEnhancements
     path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
@@ -287,7 +287,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: VolumeLeft
     path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
@@ -318,7 +318,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: VolumeRight
     path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
@@ -349,7 +349,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsRecordingEnabled
     path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
@@ -390,7 +390,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsDefaultRecordingDeviceEnabled
     path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
@@ -431,7 +431,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsDefaultConsoleRecordingDeviceEnabled
     path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
@@ -472,7 +472,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsDefaultCommunicationsRecordingDeviceEnabled
     path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
@@ -513,7 +513,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsVolumeEnabled
     path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
@@ -554,7 +554,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsMuteEnabled
     path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
@@ -595,7 +595,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsFormatEnabled
     path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
@@ -636,7 +636,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsAudioEnhancementsEnabled
     path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
@@ -677,7 +677,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsChannelVolumeEnabled
     path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs
@@ -718,7 +718,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/RecordingAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: EnsureDefaults
     path: ../WindowsAudioWrapper/Models/RecordingAudioProfile.cs

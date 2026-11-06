@@ -18,8 +18,10 @@ items:
   - WindowsAudioWrapper.Models.PlaybackAudioProfile.IsMuteEnabled
   - WindowsAudioWrapper.Models.PlaybackAudioProfile.IsMuted
   - WindowsAudioWrapper.Models.PlaybackAudioProfile.IsPlaybackEnabled
+  - WindowsAudioWrapper.Models.PlaybackAudioProfile.IsSpeakerConfigurationEnabled
   - WindowsAudioWrapper.Models.PlaybackAudioProfile.IsVolumeEnabled
   - WindowsAudioWrapper.Models.PlaybackAudioProfile.MultimediaDevice
+  - WindowsAudioWrapper.Models.PlaybackAudioProfile.SpeakerConfiguration
   - WindowsAudioWrapper.Models.PlaybackAudioProfile.StreamFormat
   - WindowsAudioWrapper.Models.PlaybackAudioProfile.VolumeLeft
   - WindowsAudioWrapper.Models.PlaybackAudioProfile.VolumePercent
@@ -34,7 +36,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: PlaybackAudioProfile
     path: ../WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
@@ -70,7 +72,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: MultimediaDevice
     path: ../WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
@@ -101,7 +103,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: ConsoleDevice
     path: ../WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
@@ -132,7 +134,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: CommunicationsDevice
     path: ../WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
@@ -163,7 +165,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: VolumePercent
     path: ../WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
@@ -194,7 +196,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsMuted
     path: ../WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
@@ -225,7 +227,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: StreamFormat
     path: ../WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
@@ -242,6 +244,37 @@ items:
       type: WindowsAudioWrapper.Models.AudioFormatProfile
     content.vb: Public Property StreamFormat As AudioFormatProfile
   overload: WindowsAudioWrapper.Models.PlaybackAudioProfile.StreamFormat*
+- uid: WindowsAudioWrapper.Models.PlaybackAudioProfile.SpeakerConfiguration
+  commentId: P:WindowsAudioWrapper.Models.PlaybackAudioProfile.SpeakerConfiguration
+  id: SpeakerConfiguration
+  parent: WindowsAudioWrapper.Models.PlaybackAudioProfile
+  langs:
+  - csharp
+  - vb
+  name: SpeakerConfiguration
+  nameWithType: PlaybackAudioProfile.SpeakerConfiguration
+  fullName: WindowsAudioWrapper.Models.PlaybackAudioProfile.SpeakerConfiguration
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
+      branch: 2026-08-30-adding-spatial-audio
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: SpeakerConfiguration
+    path: ../WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
+    startLine: 28
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the Windows speaker configuration for the playback endpoint.
+  example: []
+  syntax:
+    content: public SpeakerConfigurationProfile SpeakerConfiguration { get; set; }
+    parameters: []
+    return:
+      type: WindowsAudioWrapper.Models.SpeakerConfigurationProfile
+    content.vb: Public Property SpeakerConfiguration As SpeakerConfigurationProfile
+  overload: WindowsAudioWrapper.Models.PlaybackAudioProfile.SpeakerConfiguration*
 - uid: WindowsAudioWrapper.Models.PlaybackAudioProfile.AudioEnhancements
   commentId: P:WindowsAudioWrapper.Models.PlaybackAudioProfile.AudioEnhancements
   id: AudioEnhancements
@@ -256,11 +289,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: AudioEnhancements
     path: ../WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-    startLine: 28
+    startLine: 31
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
@@ -287,11 +320,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: VolumeLeft
     path: ../WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-    startLine: 31
+    startLine: 34
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
@@ -318,11 +351,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: VolumeRight
     path: ../WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-    startLine: 34
+    startLine: 37
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
@@ -349,11 +382,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsPlaybackEnabled
     path: ../WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-    startLine: 37
+    startLine: 40
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
@@ -390,11 +423,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsDefaultPlaybackDeviceEnabled
     path: ../WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-    startLine: 41
+    startLine: 44
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
@@ -431,11 +464,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsDefaultConsolePlaybackDeviceEnabled
     path: ../WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-    startLine: 45
+    startLine: 48
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
@@ -472,11 +505,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsDefaultCommunicationsPlaybackDeviceEnabled
     path: ../WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-    startLine: 49
+    startLine: 52
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
@@ -513,11 +546,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsVolumeEnabled
     path: ../WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-    startLine: 53
+    startLine: 56
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
@@ -554,11 +587,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsMuteEnabled
     path: ../WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-    startLine: 57
+    startLine: 60
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
@@ -595,11 +628,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsFormatEnabled
     path: ../WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-    startLine: 61
+    startLine: 64
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
@@ -622,6 +655,47 @@ items:
   - type: Newtonsoft.Json.JsonIgnoreAttribute
     ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
     arguments: []
+- uid: WindowsAudioWrapper.Models.PlaybackAudioProfile.IsSpeakerConfigurationEnabled
+  commentId: P:WindowsAudioWrapper.Models.PlaybackAudioProfile.IsSpeakerConfigurationEnabled
+  id: IsSpeakerConfigurationEnabled
+  parent: WindowsAudioWrapper.Models.PlaybackAudioProfile
+  langs:
+  - csharp
+  - vb
+  name: IsSpeakerConfigurationEnabled
+  nameWithType: PlaybackAudioProfile.IsSpeakerConfigurationEnabled
+  fullName: WindowsAudioWrapper.Models.PlaybackAudioProfile.IsSpeakerConfigurationEnabled
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
+      branch: 2026-08-30-adding-spatial-audio
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: IsSpeakerConfigurationEnabled
+    path: ../WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
+    startLine: 68
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets a telemetry flag stating if speaker configuration changes are active. Ignored in JSON.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public bool IsSpeakerConfigurationEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property IsSpeakerConfigurationEnabled As Boolean
+  overload: WindowsAudioWrapper.Models.PlaybackAudioProfile.IsSpeakerConfigurationEnabled*
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 - uid: WindowsAudioWrapper.Models.PlaybackAudioProfile.IsAudioEnhancementsEnabled
   commentId: P:WindowsAudioWrapper.Models.PlaybackAudioProfile.IsAudioEnhancementsEnabled
   id: IsAudioEnhancementsEnabled
@@ -636,11 +710,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsAudioEnhancementsEnabled
     path: ../WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-    startLine: 65
+    startLine: 72
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
@@ -677,11 +751,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsChannelVolumeEnabled
     path: ../WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-    startLine: 69
+    startLine: 76
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
@@ -718,11 +792,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: EnsureDefaults
     path: ../WindowsAudioWrapper/Models/PlaybackAudioProfile.cs
-    startLine: 73
+    startLine: 80
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
@@ -1040,6 +1114,19 @@ references:
   name: AudioFormatProfile
   nameWithType: AudioFormatProfile
   fullName: WindowsAudioWrapper.Models.AudioFormatProfile
+- uid: WindowsAudioWrapper.Models.PlaybackAudioProfile.SpeakerConfiguration*
+  commentId: Overload:WindowsAudioWrapper.Models.PlaybackAudioProfile.SpeakerConfiguration
+  href: WindowsAudioWrapper.Models.PlaybackAudioProfile.html#WindowsAudioWrapper_Models_PlaybackAudioProfile_SpeakerConfiguration
+  name: SpeakerConfiguration
+  nameWithType: PlaybackAudioProfile.SpeakerConfiguration
+  fullName: WindowsAudioWrapper.Models.PlaybackAudioProfile.SpeakerConfiguration
+- uid: WindowsAudioWrapper.Models.SpeakerConfigurationProfile
+  commentId: T:WindowsAudioWrapper.Models.SpeakerConfigurationProfile
+  parent: WindowsAudioWrapper.Models
+  href: WindowsAudioWrapper.Models.SpeakerConfigurationProfile.html
+  name: SpeakerConfigurationProfile
+  nameWithType: SpeakerConfigurationProfile
+  fullName: WindowsAudioWrapper.Models.SpeakerConfigurationProfile
 - uid: WindowsAudioWrapper.Models.PlaybackAudioProfile.AudioEnhancements*
   commentId: Overload:WindowsAudioWrapper.Models.PlaybackAudioProfile.AudioEnhancements
   href: WindowsAudioWrapper.Models.PlaybackAudioProfile.html#WindowsAudioWrapper_Models_PlaybackAudioProfile_AudioEnhancements
@@ -1107,6 +1194,12 @@ references:
   name: IsFormatEnabled
   nameWithType: PlaybackAudioProfile.IsFormatEnabled
   fullName: WindowsAudioWrapper.Models.PlaybackAudioProfile.IsFormatEnabled
+- uid: WindowsAudioWrapper.Models.PlaybackAudioProfile.IsSpeakerConfigurationEnabled*
+  commentId: Overload:WindowsAudioWrapper.Models.PlaybackAudioProfile.IsSpeakerConfigurationEnabled
+  href: WindowsAudioWrapper.Models.PlaybackAudioProfile.html#WindowsAudioWrapper_Models_PlaybackAudioProfile_IsSpeakerConfigurationEnabled
+  name: IsSpeakerConfigurationEnabled
+  nameWithType: PlaybackAudioProfile.IsSpeakerConfigurationEnabled
+  fullName: WindowsAudioWrapper.Models.PlaybackAudioProfile.IsSpeakerConfigurationEnabled
 - uid: WindowsAudioWrapper.Models.PlaybackAudioProfile.IsAudioEnhancementsEnabled*
   commentId: Overload:WindowsAudioWrapper.Models.PlaybackAudioProfile.IsAudioEnhancementsEnabled
   href: WindowsAudioWrapper.Models.PlaybackAudioProfile.html#WindowsAudioWrapper_Models_PlaybackAudioProfile_IsAudioEnhancementsEnabled

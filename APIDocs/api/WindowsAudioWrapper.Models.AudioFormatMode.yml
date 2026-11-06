@@ -17,14 +17,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: AudioFormatMode
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 27
+    startLine: 43
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Identifies the audio stream mode represented by a format.
+  example: []
   syntax:
     content: public enum AudioFormatMode
     content.vb: Public Enum AudioFormatMode
@@ -42,14 +44,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Unknown
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 29
+    startLine: 46
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The format mode is unknown.
+  example: []
   syntax:
     content: Unknown = 0
     return:
@@ -68,14 +72,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Shared
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 30
+    startLine: 48
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The format uses shared mode.
+  example: []
   syntax:
     content: Shared = 1
     return:

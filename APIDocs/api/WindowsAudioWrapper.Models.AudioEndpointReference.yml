@@ -24,7 +24,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointReference.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: AudioEndpointReference
     path: ../WindowsAudioWrapper/Models/AudioEndpointReference.cs
@@ -61,7 +61,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointReference.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: DeviceId
     path: ../WindowsAudioWrapper/Models/AudioEndpointReference.cs
@@ -92,7 +92,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointReference.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: ContainerId
     path: ../WindowsAudioWrapper/Models/AudioEndpointReference.cs
@@ -123,7 +123,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointReference.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: FriendlyName
     path: ../WindowsAudioWrapper/Models/AudioEndpointReference.cs
@@ -154,7 +154,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointReference.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: FullName
     path: ../WindowsAudioWrapper/Models/AudioEndpointReference.cs
@@ -195,7 +195,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointReference.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Flow
     path: ../WindowsAudioWrapper/Models/AudioEndpointReference.cs
@@ -236,7 +236,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointReference.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IsEndpointEnabled
     path: ../WindowsAudioWrapper/Models/AudioEndpointReference.cs
@@ -277,7 +277,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointReference.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: HardwareDetails
     path: ../WindowsAudioWrapper/Models/AudioEndpointReference.cs
@@ -308,7 +308,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointReference.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: ApoFxProperties
     path: ../WindowsAudioWrapper/Models/AudioEndpointReference.cs
@@ -339,7 +339,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEndpointReference.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: FromEndpointInfo
     path: ../WindowsAudioWrapper/Models/AudioEndpointReference.cs

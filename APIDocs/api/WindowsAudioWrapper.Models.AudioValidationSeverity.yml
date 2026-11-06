@@ -18,14 +18,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: AudioValidationSeverity
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 40
+    startLine: 63
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Identifies the severity of a profile validation result.
+  example: []
   syntax:
     content: public enum AudioValidationSeverity
     content.vb: Public Enum AudioValidationSeverity
@@ -43,14 +45,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Valid
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 42
+    startLine: 66
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The profile setting is valid.
+  example: []
   syntax:
     content: Valid = 0
     return:
@@ -69,14 +73,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Warning
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 43
+    startLine: 68
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The profile setting has a warning.
+  example: []
   syntax:
     content: Warning = 1
     return:
@@ -95,14 +101,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Error
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 44
+    startLine: 70
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The profile setting has an error.
+  example: []
   syntax:
     content: Error = 2
     return:

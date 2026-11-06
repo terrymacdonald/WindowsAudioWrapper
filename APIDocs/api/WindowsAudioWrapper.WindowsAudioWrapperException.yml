@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/WindowsAudioWrapperException.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: WindowsAudioWrapperException
     path: ../WindowsAudioWrapper/WindowsAudioWrapperException.cs
@@ -71,14 +71,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/WindowsAudioWrapperException.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: .ctor
     path: ../WindowsAudioWrapper/WindowsAudioWrapperException.cs
-    startLine: 8
+    startLine: 9
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper
+  summary: Initializes a new exception without a message.
+  example: []
   syntax:
     content: public WindowsAudioWrapperException()
     content.vb: Public Sub New()
@@ -100,19 +102,22 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/WindowsAudioWrapperException.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: .ctor
     path: ../WindowsAudioWrapper/WindowsAudioWrapperException.cs
-    startLine: 12
+    startLine: 15
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper
+  summary: Initializes a new exception with an error message.
+  example: []
   syntax:
     content: public WindowsAudioWrapperException(string message)
     parameters:
     - id: message
       type: System.String
+      description: The error message.
     content.vb: Public Sub New(message As String)
   overload: WindowsAudioWrapper.WindowsAudioWrapperException.#ctor*
   nameWithType.vb: WindowsAudioWrapperException.New(String)
@@ -132,21 +137,25 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/WindowsAudioWrapperException.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: .ctor
     path: ../WindowsAudioWrapper/WindowsAudioWrapperException.cs
-    startLine: 17
+    startLine: 23
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper
+  summary: Initializes a new exception with an error message and an underlying exception.
+  example: []
   syntax:
     content: public WindowsAudioWrapperException(string message, Exception innerException)
     parameters:
     - id: message
       type: System.String
+      description: The error message.
     - id: innerException
       type: System.Exception
+      description: The exception that caused this error.
     content.vb: Public Sub New(message As String, innerException As Exception)
   overload: WindowsAudioWrapper.WindowsAudioWrapperException.#ctor*
   nameWithType.vb: WindowsAudioWrapperException.New(String, Exception)

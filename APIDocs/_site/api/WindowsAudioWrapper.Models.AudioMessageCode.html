@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Enum AudioMessageCode | WindowsAudioWrapper ">
       
-      
+      <meta name="description" content="Identifies the reason for a profile operation message.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/terrymacdonald/WindowsAudioWrapper/new/develop/apiSpec/new?filename=WindowsAudioWrapper_Models_AudioMessageCode.md&amp;value=---%0Auid%3A%20WindowsAudioWrapper.Models.AudioMessageCode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/terrymacdonald/WindowsAudioWrapper/new/2026-08-30-adding-spatial-audio/apiSpec/new?filename=WindowsAudioWrapper_Models_AudioMessageCode.md&amp;value=---%0Auid%3A%20WindowsAudioWrapper.Models.AudioMessageCode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -90,7 +90,7 @@
 
 
   <h1 id="WindowsAudioWrapper_Models_AudioMessageCode" data-uid="WindowsAudioWrapper.Models.AudioMessageCode" class="text-break">
-Enum AudioMessageCode  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/Models/AudioEnums.cs/#L48"><i class="bi bi-code-slash"></i></a>
+Enum AudioMessageCode  <a class="header-action link-secondary" title="View source" href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/Models/AudioEnums.cs/#L75"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -98,7 +98,8 @@ Enum AudioMessageCode  <a class="header-action link-secondary" title="View sourc
   <dl><dt>Assembly</dt><dd>WindowsAudioWrapper.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Identifies the reason for a profile operation message.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -116,36 +117,50 @@ Enum AudioMessageCode  <a class="header-action link-secondary" title="View sourc
   <h2 id="fields">Fields
 </h2>
   <dl class="parameters">
+    <dt id="WindowsAudioWrapper_Models_AudioMessageCode_AmbiguousEndpoint"><code>AmbiguousEndpoint = 9</code></dt>
+  
+  <dd><p>Multiple endpoints match fallback criteria; no endpoint was selected.</p>
+</dd>
     <dt id="WindowsAudioWrapper_Models_AudioMessageCode_DeviceMissing"><code>DeviceMissing = 2</code></dt>
   
-  <dd></dd>
+  <dd><p>The profile does not specify a required device.</p>
+</dd>
     <dt id="WindowsAudioWrapper_Models_AudioMessageCode_DeviceNotFound"><code>DeviceNotFound = 3</code></dt>
   
-  <dd></dd>
+  <dd><p>The requested device was not found.</p>
+</dd>
     <dt id="WindowsAudioWrapper_Models_AudioMessageCode_DeviceUnavailable"><code>DeviceUnavailable = 4</code></dt>
   
-  <dd></dd>
+  <dd><p>The requested device is unavailable.</p>
+</dd>
     <dt id="WindowsAudioWrapper_Models_AudioMessageCode_InvalidAudioFlow"><code>InvalidAudioFlow = 5</code></dt>
   
-  <dd></dd>
+  <dd><p>The requested audio direction is invalid.</p>
+</dd>
     <dt id="WindowsAudioWrapper_Models_AudioMessageCode_InvalidVolume"><code>InvalidVolume = 6</code></dt>
   
-  <dd></dd>
+  <dd><p>The requested volume is invalid.</p>
+</dd>
     <dt id="WindowsAudioWrapper_Models_AudioMessageCode_NoEnabledSettings"><code>NoEnabledSettings = 8</code></dt>
   
-  <dd></dd>
+  <dd><p>The profile has no enabled settings to apply.</p>
+</dd>
     <dt id="WindowsAudioWrapper_Models_AudioMessageCode_None"><code>None = 0</code></dt>
   
-  <dd></dd>
+  <dd><p>No specific message code applies.</p>
+</dd>
     <dt id="WindowsAudioWrapper_Models_AudioMessageCode_ProfileApplied"><code>ProfileApplied = 1</code></dt>
   
-  <dd></dd>
+  <dd><p>The profile was applied.</p>
+</dd>
     <dt id="WindowsAudioWrapper_Models_AudioMessageCode_UnexpectedError"><code>UnexpectedError = 99</code></dt>
   
-  <dd></dd>
+  <dd><p>An unexpected error occurred.</p>
+</dd>
     <dt id="WindowsAudioWrapper_Models_AudioMessageCode_UnsupportedSetting"><code>UnsupportedSetting = 7</code></dt>
   
-  <dd></dd>
+  <dd><p>The requested setting is unsupported.</p>
+</dd>
   </dl>
 
 
@@ -153,7 +168,7 @@ Enum AudioMessageCode  <a class="header-action link-secondary" title="View sourc
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/develop/WindowsAudioWrapper/Models/AudioEnums.cs/#L48" class="edit-link">Edit this page</a>
+          <a href="https://github.com/terrymacdonald/WindowsAudioWrapper/blob/2026-08-30-adding-spatial-audio/WindowsAudioWrapper/Models/AudioEnums.cs/#L75" class="edit-link">Edit this page</a>
         </div>
 
 

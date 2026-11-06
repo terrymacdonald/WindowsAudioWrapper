@@ -18,14 +18,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnhancementProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: AudioEnhancementProfile
     path: ../WindowsAudioWrapper/Models/AudioEnhancementProfile.cs
-    startLine: 2
+    startLine: 3
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Contains the audio enhancement settings for an endpoint.
+  example: []
   syntax:
     content: public class AudioEnhancementProfile
     content.vb: Public Class AudioEnhancementProfile
@@ -53,14 +55,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnhancementProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: AreEnhancementsSupported
     path: ../WindowsAudioWrapper/Models/AudioEnhancementProfile.cs
-    startLine: 4
+    startLine: 6
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets whether the endpoint supports audio enhancements.
+  example: []
   syntax:
     content: public bool AreEnhancementsSupported { get; set; }
     parameters: []
@@ -82,14 +86,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnhancementProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: DisableAllEnhancements
     path: ../WindowsAudioWrapper/Models/AudioEnhancementProfile.cs
-    startLine: 5
+    startLine: 8
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets whether all audio enhancements should be disabled.
+  example: []
   syntax:
     content: public bool DisableAllEnhancements { get; set; }
     parameters: []
@@ -111,14 +117,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnhancementProfile.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: ActiveEffectsGuidsList
     path: ../WindowsAudioWrapper/Models/AudioEnhancementProfile.cs
-    startLine: 6
+    startLine: 10
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Gets or sets the identifiers of active audio effects.
+  example: []
   syntax:
     content: public List<string> ActiveEffectsGuidsList { get; set; }
     parameters: []

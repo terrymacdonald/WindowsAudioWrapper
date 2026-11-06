@@ -21,14 +21,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: AudioDeviceState
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 2
+    startLine: 3
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Identifies the connection and enablement state of an audio endpoint.
+  example: []
   syntax:
     content: >-
       [Flags]
@@ -56,14 +58,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Unknown
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 5
+    startLine: 7
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The endpoint state is unknown.
+  example: []
   syntax:
     content: Unknown = 0
     return:
@@ -82,14 +86,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Active
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 6
+    startLine: 9
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The endpoint is active.
+  example: []
   syntax:
     content: Active = 1
     return:
@@ -108,14 +114,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Disabled
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 7
+    startLine: 11
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The endpoint is disabled.
+  example: []
   syntax:
     content: Disabled = 2
     return:
@@ -134,14 +142,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: NotPresent
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 8
+    startLine: 13
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The endpoint is not present.
+  example: []
   syntax:
     content: NotPresent = 4
     return:
@@ -160,14 +170,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Unplugged
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 9
+    startLine: 15
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The endpoint is unplugged.
+  example: []
   syntax:
     content: Unplugged = 8
     return:
@@ -186,14 +198,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: All
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 10
+    startLine: 17
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Includes every defined endpoint state except unknown.
+  example: []
   syntax:
     content: All = Active | Disabled | NotPresent | Unplugged
     return:

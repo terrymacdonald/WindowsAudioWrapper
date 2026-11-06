@@ -8,6 +8,7 @@ items:
   - WindowsAudioWrapper.Models.AudioProfileApplyResult.Error(WindowsAudioWrapper.Models.AudioMessageCode,System.String)
   - WindowsAudioWrapper.Models.AudioProfileApplyResult.Messages
   - WindowsAudioWrapper.Models.AudioProfileApplyResult.RecalculateSuccess
+  - WindowsAudioWrapper.Models.AudioProfileApplyResult.ResolvedDeviceIds
   - WindowsAudioWrapper.Models.AudioProfileApplyResult.Success
   - WindowsAudioWrapper.Models.AudioProfileApplyResult.Successful
   langs:
@@ -20,7 +21,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioProfileApplyResult.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: AudioProfileApplyResult
     path: ../WindowsAudioWrapper/Models/AudioProfileApplyResult.cs
@@ -56,7 +57,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioProfileApplyResult.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Successful
     path: ../WindowsAudioWrapper/Models/AudioProfileApplyResult.cs
@@ -87,7 +88,7 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioProfileApplyResult.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Messages
     path: ../WindowsAudioWrapper/Models/AudioProfileApplyResult.cs
@@ -104,6 +105,37 @@ items:
       type: System.Collections.Generic.List{WindowsAudioWrapper.Models.AudioOperationMessage}
     content.vb: Public Property Messages As List(Of AudioOperationMessage)
   overload: WindowsAudioWrapper.Models.AudioProfileApplyResult.Messages*
+- uid: WindowsAudioWrapper.Models.AudioProfileApplyResult.ResolvedDeviceIds
+  commentId: P:WindowsAudioWrapper.Models.AudioProfileApplyResult.ResolvedDeviceIds
+  id: ResolvedDeviceIds
+  parent: WindowsAudioWrapper.Models.AudioProfileApplyResult
+  langs:
+  - csharp
+  - vb
+  name: ResolvedDeviceIds
+  nameWithType: AudioProfileApplyResult.ResolvedDeviceIds
+  fullName: WindowsAudioWrapper.Models.AudioProfileApplyResult.ResolvedDeviceIds
+  type: Property
+  source:
+    remote:
+      path: WindowsAudioWrapper/Models/AudioProfileApplyResult.cs
+      branch: 2026-08-30-adding-spatial-audio
+      repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
+    id: ResolvedDeviceIds
+    path: ../WindowsAudioWrapper/Models/AudioProfileApplyResult.cs
+    startLine: 14
+  assemblies:
+  - WindowsAudioWrapper
+  namespace: WindowsAudioWrapper.Models
+  summary: Maps requested nonempty endpoint IDs to the actual IDs resolved for this apply; it contains no native handles.
+  example: []
+  syntax:
+    content: public Dictionary<string, string> ResolvedDeviceIds { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public Property ResolvedDeviceIds As Dictionary(Of String, String)
+  overload: WindowsAudioWrapper.Models.AudioProfileApplyResult.ResolvedDeviceIds*
 - uid: WindowsAudioWrapper.Models.AudioProfileApplyResult.RecalculateSuccess
   commentId: M:WindowsAudioWrapper.Models.AudioProfileApplyResult.RecalculateSuccess
   id: RecalculateSuccess
@@ -118,11 +150,11 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioProfileApplyResult.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: RecalculateSuccess
     path: ../WindowsAudioWrapper/Models/AudioProfileApplyResult.cs
-    startLine: 14
+    startLine: 17
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
@@ -146,14 +178,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioProfileApplyResult.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Success
     path: ../WindowsAudioWrapper/Models/AudioProfileApplyResult.cs
-    startLine: 20
+    startLine: 24
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Creates an empty successful apply result.
+  example: []
   syntax:
     content: public static AudioProfileApplyResult Success()
     return:
@@ -174,14 +208,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioProfileApplyResult.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Error
     path: ../WindowsAudioWrapper/Models/AudioProfileApplyResult.cs
-    startLine: 22
+    startLine: 27
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Creates a failed apply result with one diagnostic error.
+  example: []
   syntax:
     content: public static AudioProfileApplyResult Error(AudioMessageCode code, string message)
     parameters:
@@ -553,6 +589,93 @@ references:
     name: Generic
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: WindowsAudioWrapper.Models.AudioProfileApplyResult.ResolvedDeviceIds*
+  commentId: Overload:WindowsAudioWrapper.Models.AudioProfileApplyResult.ResolvedDeviceIds
+  href: WindowsAudioWrapper.Models.AudioProfileApplyResult.html#WindowsAudioWrapper_Models_AudioProfileApplyResult_ResolvedDeviceIds
+  name: ResolvedDeviceIds
+  nameWithType: AudioProfileApplyResult.ResolvedDeviceIds
+  fullName: WindowsAudioWrapper.Models.AudioProfileApplyResult.ResolvedDeviceIds
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, string>
+  nameWithType: Dictionary<string, string>
+  fullName: System.Collections.Generic.Dictionary<string, string>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
 - uid: WindowsAudioWrapper.Models.AudioProfileApplyResult.Successful
   commentId: P:WindowsAudioWrapper.Models.AudioProfileApplyResult.Successful
   href: WindowsAudioWrapper.Models.AudioProfileApplyResult.html#WindowsAudioWrapper_Models_AudioProfileApplyResult_Successful

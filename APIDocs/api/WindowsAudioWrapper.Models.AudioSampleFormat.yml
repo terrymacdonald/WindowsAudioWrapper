@@ -18,14 +18,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: AudioSampleFormat
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 20
+    startLine: 32
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Identifies the encoding used for audio samples.
+  example: []
   syntax:
     content: public enum AudioSampleFormat
     content.vb: Public Enum AudioSampleFormat
@@ -43,14 +45,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Unknown
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 22
+    startLine: 35
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: The sample format is unknown.
+  example: []
   syntax:
     content: Unknown = 0
     return:
@@ -69,14 +73,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: Pcm
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 23
+    startLine: 37
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Samples use pulse-code modulation.
+  example: []
   syntax:
     content: Pcm = 1
     return:
@@ -95,14 +101,16 @@ items:
   source:
     remote:
       path: WindowsAudioWrapper/Models/AudioEnums.cs
-      branch: develop
+      branch: 2026-08-30-adding-spatial-audio
       repo: https://github.com/terrymacdonald/WindowsAudioWrapper.git
     id: IeeeFloat
     path: ../WindowsAudioWrapper/Models/AudioEnums.cs
-    startLine: 24
+    startLine: 39
   assemblies:
   - WindowsAudioWrapper
   namespace: WindowsAudioWrapper.Models
+  summary: Samples use IEEE floating-point encoding.
+  example: []
   syntax:
     content: IeeeFloat = 2
     return:
