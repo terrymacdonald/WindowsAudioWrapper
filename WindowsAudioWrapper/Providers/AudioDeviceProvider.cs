@@ -20,44 +20,7 @@ internal sealed class AudioDeviceProvider : IAudioDeviceProvider
             _ => throw new ArgumentOutOfRangeException(nameof(expectedFlow), expectedFlow, null)
         };
 
-        AudioEndpointInfo? match = null;
-
-        // Tier 1: Exact DeviceId Match
-        if (!string.IsNullOrWhiteSpace(endpoint.DeviceId))
-        {
-            match = devices.FirstOrDefault(d => d.DeviceId.Equals(endpoint.DeviceId, StringComparison.OrdinalIgnoreCase));
-        }
-
-        // Tier 2: Physical ContainerId Match
-        if (match is null && !string.IsNullOrWhiteSpace(endpoint.ContainerId))
-        {
-            match = devices.FirstOrDefault(d => d.ContainerId.Equals(endpoint.ContainerId, StringComparison.OrdinalIgnoreCase) && d.Flow == expectedFlow);
-        }
-
-        // Tier 3: Text-based Friendly Name
-        if (match is null && !string.IsNullOrWhiteSpace(endpoint.FriendlyName))
-        {
-            match = devices.FirstOrDefault(d => d.FriendlyName.Equals(endpoint.FriendlyName, StringComparison.OrdinalIgnoreCase));
-        }
-
-        return match ?? new AudioEndpointInfo 
-        { 
-            DeviceId = endpoint.DeviceId ?? string.Empty,
-            ContainerId = endpoint.ContainerId ?? string.Empty,
-            FriendlyName = endpoint.FriendlyName ?? string.Empty,
-            FullName = endpoint.FullName ?? string.Empty,
-            Flow = expectedFlow,
-            State = AudioDeviceState.NotPresent,
-            Capabilities = new AudioEndpointCapabilities
-            {
-                IsDefaultDeviceSupported = false,
-                IsDefaultCommunicationsDeviceSupported = false,
-                IsVolumeSupported = false,
-                IsMuteSupported = false,
-                IsAudioEnhancementsReadSupported = false,
-                IsAudioEnhancementsSetSupported = false
-            }
-        };
+        return AudioEndpointResolver.Resolve(endpoint, expectedFlow, devices);
     }
 
     private static IReadOnlyList<AudioEndpointInfo> EnumerateDevices(AudioFlow flow, AudioDeviceState states)

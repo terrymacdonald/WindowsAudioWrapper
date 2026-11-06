@@ -11,22 +11,34 @@ using WindowsAudioWrapper.Models;
 /// </summary>
 public interface IWindowsAudioController : IDisposable
 {
+    /// <summary>Gets playback endpoints in the requested device states.</summary>
+    /// <param name="states">The device states to include.</param>
+    /// <returns>The matching playback endpoints.</returns>
     IReadOnlyList<AudioEndpointInfo> GetPlaybackDevices(
         AudioDeviceState states = AudioDeviceState.Active | AudioDeviceState.Unplugged);
 
+    /// <summary>Gets recording endpoints in the requested device states.</summary>
+    /// <param name="states">The device states to include.</param>
+    /// <returns>The matching recording endpoints.</returns>
     IReadOnlyList<AudioEndpointInfo> GetRecordingDevices(
         AudioDeviceState states = AudioDeviceState.Active | AudioDeviceState.Unplugged);
 
+    /// <summary>Gets the default multimedia playback endpoint.</summary>
     AudioEndpointInfo GetDefaultPlaybackDevice();
 
+    /// <summary>Gets the default console playback endpoint.</summary>
     AudioEndpointInfo GetDefaultConsolePlaybackDevice();
 
+    /// <summary>Gets the default multimedia recording endpoint.</summary>
     AudioEndpointInfo GetDefaultRecordingDevice();
 
+    /// <summary>Gets the default console recording endpoint.</summary>
     AudioEndpointInfo GetDefaultConsoleRecordingDevice();
 
+    /// <summary>Gets the default communications playback endpoint.</summary>
     AudioEndpointInfo GetDefaultCommunicationsPlaybackDevice();
 
+    /// <summary>Gets the default communications recording endpoint.</summary>
     AudioEndpointInfo GetDefaultCommunicationsRecordingDevice();
 
     /// <summary>
@@ -35,8 +47,14 @@ public interface IWindowsAudioController : IDisposable
     /// </summary>
     AudioProfile GetCurrentProfile();
 
+    /// <summary>Checks whether the settings in a profile can be applied.</summary>
+    /// <param name="profile">The profile to validate.</param>
+    /// <returns>Validation results for the profile.</returns>
     AudioProfileValidationResult ValidateProfile(AudioProfile profile);
 
+    /// <summary>Applies the enabled settings in an audio profile.</summary>
+    /// <param name="profile">The profile to apply.</param>
+    /// <returns>The result of applying the profile.</returns>
     AudioProfileApplyResult ApplyProfile(AudioProfile profile);
 
     /// <summary>
@@ -45,7 +63,7 @@ public interface IWindowsAudioController : IDisposable
     /// </summary>
     /// <param name="device">The search criteria target containing target identifiers (DeviceId, ContainerId, etc.).</param>
     /// <param name="timeoutMilliseconds">The maximum block window length in milliseconds.</param>
-    /// <returns>True if the matching hardware device arrives before the timeout expires; otherwise, false.</returns>
+    /// <returns>True when a uniquely resolved endpoint in the requested direction is active. Nonpositive timeouts perform an immediate availability check.</returns>
     bool WaitForAudioDeviceToAppear(AudioEndpointReference device, int timeoutMilliseconds);
 
     /// <summary>
@@ -54,7 +72,7 @@ public interface IWindowsAudioController : IDisposable
     /// <param name="device">The search criteria target containing target identifiers (DeviceId, ContainerId, etc.).</param>
     /// <param name="timeoutMilliseconds">The maximum wait duration length in milliseconds.</param>
     /// <param name="cancellationToken">An optional token to cooperatively cancel the asynchronous monitoring task.</param>
-    /// <returns>A task containing true if the hardware becomes active before the timeout; otherwise, false.</returns>
+    /// <returns>A task containing true when a uniquely resolved endpoint is active before the timeout; false on timeout, cancellation or controller disposal. Nonpositive timeouts perform an immediate availability check.</returns>
     Task<bool> WaitForAudioDeviceToAppearAsync(AudioEndpointReference device, int timeoutMilliseconds, CancellationToken cancellationToken = default);
 
     /// <summary>

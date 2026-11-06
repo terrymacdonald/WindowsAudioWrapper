@@ -20,6 +20,10 @@ public sealed class AudioOperationMessage
     /// <summary>Gets or sets the name of the device associated with this message, if applicable.</summary>
     public string DeviceName { get; set; } = string.Empty;
 
+    /// <summary>Creates an informational operation message.</summary>
+    /// <param name="code">The message code.</param>
+    /// <param name="message">The message text.</param>
+    /// <returns>An informational operation message.</returns>
     public static AudioOperationMessage Info(AudioMessageCode code, string message) => new()
     {
         Severity = AudioMessageSeverity.Info,
@@ -27,6 +31,10 @@ public sealed class AudioOperationMessage
         Message = message
     };
 
+    /// <summary>Creates a warning operation message.</summary>
+    /// <param name="code">The message code.</param>
+    /// <param name="message">The message text.</param>
+    /// <returns>A warning operation message.</returns>
     public static AudioOperationMessage Warning(AudioMessageCode code, string message) => new()
     {
         Severity = AudioMessageSeverity.Warning,
@@ -34,6 +42,10 @@ public sealed class AudioOperationMessage
         Message = message
     };
 
+    /// <summary>Creates an error operation message.</summary>
+    /// <param name="code">The message code.</param>
+    /// <param name="message">The message text.</param>
+    /// <returns>An error operation message.</returns>
     public static AudioOperationMessage Error(AudioMessageCode code, string message) => new()
     {
         Severity = AudioMessageSeverity.Error,

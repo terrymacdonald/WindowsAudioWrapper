@@ -41,7 +41,10 @@ public sealed class AudioEndpointInfo
     /// <summary>Gets or sets the capabilities supported by this specific endpoint.</summary>
     public AudioEndpointCapabilities Capabilities { get; set; } = new();
 
+    /// <summary>Gets or sets the endpoint's hardware details.</summary>
     public HardwareDetails HardwareDetails { get; set; } = new();
+
+    /// <summary>Gets or sets the endpoint's audio enhancement settings.</summary>
     public AudioEnhancementProfile AudioEnhancements { get; set; } = new();
 
     /// <summary>Gets a value indicating whether the device is present and active.</summary>

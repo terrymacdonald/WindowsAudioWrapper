@@ -460,3 +460,13 @@ The workspace includes automation scripts to coordinate restorations, cleans, st
   ```
 
 *Note: Real hardware integration tests modify system configurations sequentially and are explicitly configured with `DisableTestParallelization = true` across the test collection boundary to guarantee state-isolation and prevent race conditions.*
+
+## Endpoint resolution and device waiting
+
+Device waits, targeted arrival events, validation and profile application share one endpoint selection rule: the requested playback/recording direction, then exact device ID, then a unique container ID, full name or friendly name. An ambiguous tier is rejected rather than choosing the first endpoint. Unknown-flow legacy references may resolve only when identity is unique across the available directions. An existing exact endpoint retains priority even if disabled or not active.
+
+Profile application uses temporary resolved references for default roles, volume/mute, formats, channel volumes, enhancements/APO properties and endpoint visibility. Saved reference IDs are retained. AudioProfileApplyResult.ResolvedDeviceIds maps nonempty requested IDs to actual resolved IDs; it reports identity resolution, not success of every setting. Independent settings still run after a failure. AmbiguousEndpoint is an additive diagnostic code.
+
+Both device wait methods recheck live inventory on notifications and at bounded intervals within the original timeout. Notification registration failures remain retryable and do not prevent polling. Asynchronous cancellation and controller disposal complete an active wait with false. Notifications copied before unsubscription can finish; they cannot touch a disposed wait signal or read providers after teardown. Subscriber callbacks run outside internal locks, and one subscriber exception does not prevent others running.
+
+Native-free verification uses EndpointResolutionTests, ResolvedEndpointApplyTests, DeviceWaitTests, NotificationLifecycleTests, BestEffortApplyTests and ProfileValidationUnitTests. Hardware suites remain separate: validate actual USB/HDMI reconnection, duplicate devices, default roles, endpoint visibility and COM notification lifetime on Windows before release.

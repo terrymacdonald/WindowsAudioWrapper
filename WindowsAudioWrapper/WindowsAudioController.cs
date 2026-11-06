@@ -23,7 +23,13 @@ public sealed class WindowsAudioController : IWindowsAudioController
     private readonly IAudioFormatProvider _formatProvider;
     private readonly IAudioEnhancementProvider _audioEnhancementProvider;
     private readonly ISystemAudioProvider _systemAudioProvider;
-    private bool _disposed;
+    private volatile bool _disposed;
+    private bool _notificationsRegistered;
+    private readonly Func<bool>? _tryRegisterNotifications;
+    private readonly CancellationTokenSource _lifetimeCancellation = new();
+    private readonly Action<string, bool> _setEndpointDisabled;
+    private readonly Action<string, decimal, decimal> _setEndpointChannelVolumes;
+    private readonly Action<string, Dictionary<string, string>> _applyEndpointProperties;
 
     private readonly AudioNotificationRouter _notificationRouter;
     private IMMDeviceEnumerator? _comEnumerator;
@@ -43,12 +49,15 @@ public sealed class WindowsAudioController : IWindowsAudioController
     {
         add
         {
-            EnsureNotificationRegistration();
-            _audioDeviceConnected += value;
+            lock (_notificationRegistrationLock)
+            {
+                EnsureNotificationRegistration();
+                _audioDeviceConnected += value;
+            }
         }
         remove
         {
-            _audioDeviceConnected -= value;
+            lock (_notificationRegistrationLock) _audioDeviceConnected -= value;
         }
     }
 
@@ -59,12 +68,15 @@ public sealed class WindowsAudioController : IWindowsAudioController
     {
         add
         {
-            EnsureNotificationRegistration();
-            _anyAudioDeviceConnected += value;
+            lock (_notificationRegistrationLock)
+            {
+                EnsureNotificationRegistration();
+                _anyAudioDeviceConnected += value;
+            }
         }
         remove
         {
-            _anyAudioDeviceConnected -= value;
+            lock (_notificationRegistrationLock) _anyAudioDeviceConnected -= value;
         }
     }
 
@@ -88,8 +100,16 @@ public sealed class WindowsAudioController : IWindowsAudioController
         IAudioVolumeProvider volumeProvider,
         IAudioFormatProvider formatProvider,
         IAudioEnhancementProvider audioEnhancementProvider,
-        ISystemAudioProvider systemAudioProvider)
+        ISystemAudioProvider systemAudioProvider,
+        Func<bool>? tryRegisterNotifications = null,
+        Action<string, bool>? setEndpointDisabled = null,
+        Action<string, decimal, decimal>? setEndpointChannelVolumes = null,
+        Action<string, Dictionary<string, string>>? applyEndpointProperties = null)
     {
+        _tryRegisterNotifications = tryRegisterNotifications;
+        _setEndpointDisabled = setEndpointDisabled ?? SetDeviceDisabled;
+        _setEndpointChannelVolumes = setEndpointChannelVolumes ?? SetChannelVolumes;
+        _applyEndpointProperties = applyEndpointProperties ?? ApplyPropertiesViaPropertyStore;
         _deviceProvider = deviceProvider ?? throw new ArgumentNullException(nameof(deviceProvider));
         _defaultDeviceProvider = defaultDeviceProvider ?? throw new ArgumentNullException(nameof(defaultDeviceProvider));
         _volumeProvider = volumeProvider ?? throw new ArgumentNullException(nameof(volumeProvider));
@@ -250,113 +270,70 @@ public sealed class WindowsAudioController : IWindowsAudioController
 
     /// <inheritdoc/>
     public bool WaitForAudioDeviceToAppear(AudioEndpointReference device, int timeoutMilliseconds)
-    {
-        ThrowIfDisposed();
-        ArgumentNullException.ThrowIfNull(device);
-
-        if (CheckIfDeviceAlreadyActive(device))
-        {
-            return true;
-        }
-
-        if (timeoutMilliseconds <= 0)
-        {
-            return false;
-        }
-
-        using var resetEvent = new ManualResetEventSlim(false);
-        bool matched = false;
-
-        EventHandler<AudioDeviceEventArgs> handler = (sender, args) =>
-        {
-            if (IsDeviceMatch(device, args))
-            {
-                matched = true;
-                resetEvent.Set();
-            }
-        };
-
-        AnyAudioDeviceConnected += handler;
-
-        try
-        {
-            if (CheckIfDeviceAlreadyActive(device))
-            {
-                return true;
-            }
-
-            resetEvent.Wait(timeoutMilliseconds);
-            return matched;
-        }
-        finally
-        {
-            AnyAudioDeviceConnected -= handler;
-        }
-    }
+        => WaitForAudioDeviceToAppearAsync(device, timeoutMilliseconds).GetAwaiter().GetResult();
 
     /// <inheritdoc/>
     public async Task<bool> WaitForAudioDeviceToAppearAsync(AudioEndpointReference device, int timeoutMilliseconds, CancellationToken cancellationToken = default)
     {
-        ThrowIfDisposed();
         ArgumentNullException.ThrowIfNull(device);
-
-        if (CheckIfDeviceAlreadyActive(device))
+        CancellationTokenSource linked;
+        lock (_notificationRegistrationLock)
         {
-            return true;
+            ThrowIfDisposed();
+            linked = CancellationTokenSource.CreateLinkedTokenSource(cancellationToken, _lifetimeCancellation.Token);
         }
-
-        if (timeoutMilliseconds <= 0 || cancellationToken.IsCancellationRequested)
+        using (linked)
+        using (SemaphoreSlim signal = new(0, 1))
         {
-            return false;
-        }
-
-        var tcs = new TaskCompletionSource<bool>(TaskCreationOptions.RunContinuationsAsynchronously);
-
-        EventHandler<AudioDeviceEventArgs> handler = (sender, args) =>
-        {
-            if (IsDeviceMatch(device, args))
+            object signalLock = new();
+            bool closed = false;
+            EventHandler<AudioDeviceEventArgs> handler = (_, _) =>
             {
-                tcs.TrySetResult(true);
-            }
-        };
-
-        AnyAudioDeviceConnected += handler;
-
-        using var cts = CancellationTokenSource.CreateLinkedTokenSource(cancellationToken);
-        if (timeoutMilliseconds > 0 && timeoutMilliseconds != Timeout.Infinite)
-        {
-            cts.CancelAfter(timeoutMilliseconds);
-        }
-
-        using var registration = cts.Token.Register(() => tcs.TrySetResult(false));
-
-        try
-        {
-            if (CheckIfDeviceAlreadyActive(device))
+                lock (signalLock) if (!closed && signal.CurrentCount == 0) signal.Release();
+            };
+            System.Diagnostics.Stopwatch elapsed = System.Diagnostics.Stopwatch.StartNew();
+            try
             {
-                return true;
+                if (linked.IsCancellationRequested) return false;
+                if (CheckIfDeviceAlreadyActive(device)) return true;
+                if (timeoutMilliseconds <= 0) return false;
+                AnyAudioDeviceConnected += handler;
+                while (!linked.IsCancellationRequested)
+                {
+                    if (CheckIfDeviceAlreadyActive(device)) return true;
+                    int remaining = (int)Math.Max(0L, (long)timeoutMilliseconds - elapsed.ElapsedMilliseconds);
+                    if (remaining == 0) return false;
+                    // Notifications are hints; bounded rechecks also work when native registration fails.
+                    await signal.WaitAsync(Math.Min(250, remaining), linked.Token).ConfigureAwait(false);
+                }
+                return false;
             }
-
-            return await tcs.Task.ConfigureAwait(false);
-        }
-        finally
-        {
-            AnyAudioDeviceConnected -= handler;
+            catch (OperationCanceledException) when (linked.IsCancellationRequested) { return false; }
+            catch (ObjectDisposedException) when (_disposed) { return false; }
+            finally
+            {
+                AnyAudioDeviceConnected -= handler;
+                // A callback already copied by the event dispatcher must not release a disposed semaphore.
+                lock (signalLock) closed = true;
+            }
         }
     }
 
     /// <inheritdoc/>
     public void RegisterTargetDevice(AudioEndpointReference device)
     {
-        ThrowIfDisposed();
         ArgumentNullException.ThrowIfNull(device);
-        EnsureNotificationRegistration();
-
-        lock (_targetedDevicesLock)
+        lock (_notificationRegistrationLock)
         {
-            if (!_targetedDevices.Any(d => d.DeviceId.Equals(device.DeviceId, StringComparison.OrdinalIgnoreCase) && !string.IsNullOrEmpty(device.DeviceId)))
+            EnsureNotificationRegistration();
+            lock (_targetedDevicesLock)
             {
-                _targetedDevices.Add(device);
+                if (!_targetedDevices.Any(target => target.Flow == device.Flow &&
+                    string.Equals(target.DeviceId, device.DeviceId, StringComparison.OrdinalIgnoreCase) &&
+                    string.Equals(target.ContainerId, device.ContainerId, StringComparison.OrdinalIgnoreCase) &&
+                    string.Equals(target.FullName, device.FullName, StringComparison.OrdinalIgnoreCase) &&
+                    string.Equals(target.FriendlyName, device.FriendlyName, StringComparison.OrdinalIgnoreCase)))
+                    _targetedDevices.Add(device);
             }
         }
     }
@@ -364,15 +341,19 @@ public sealed class WindowsAudioController : IWindowsAudioController
     /// <inheritdoc/>
     public void UnregisterTargetDevice(AudioEndpointReference device)
     {
-        ThrowIfDisposed();
         ArgumentNullException.ThrowIfNull(device);
-
-        lock (_targetedDevicesLock)
+        lock (_notificationRegistrationLock)
         {
-            _targetedDevices.RemoveAll(d => 
-                (string.IsNullOrEmpty(device.DeviceId) || d.DeviceId.Equals(device.DeviceId, StringComparison.OrdinalIgnoreCase)) &&
-                (string.IsNullOrEmpty(device.ContainerId) || d.ContainerId.Equals(device.ContainerId, StringComparison.OrdinalIgnoreCase)) &&
-                (string.IsNullOrEmpty(device.FriendlyName) || d.FriendlyName.Equals(device.FriendlyName, StringComparison.OrdinalIgnoreCase)));
+            ThrowIfDisposed();
+            lock (_targetedDevicesLock)
+            {
+                _targetedDevices.RemoveAll(target =>
+                    (device.Flow == AudioFlow.Unknown || target.Flow == device.Flow) &&
+                    (string.IsNullOrEmpty(device.DeviceId) || string.Equals(target.DeviceId, device.DeviceId, StringComparison.OrdinalIgnoreCase)) &&
+                    (string.IsNullOrEmpty(device.ContainerId) || string.Equals(target.ContainerId, device.ContainerId, StringComparison.OrdinalIgnoreCase)) &&
+                    (string.IsNullOrEmpty(device.FullName) || string.Equals(target.FullName, device.FullName, StringComparison.OrdinalIgnoreCase)) &&
+                    (string.IsNullOrEmpty(device.FriendlyName) || string.Equals(target.FriendlyName, device.FriendlyName, StringComparison.OrdinalIgnoreCase)));
+            }
         }
     }
 
@@ -425,172 +406,127 @@ public sealed class WindowsAudioController : IWindowsAudioController
     /// <inheritdoc/>
     public void Dispose()
     {
-        if (_disposed) return;
-
-        if (_comEnumerator is not null && _comCallbackPointer != IntPtr.Zero)
-        {
-            try
-            {
-                _comEnumerator.UnregisterEndpointNotificationCallback(_comCallbackPointer);
-            }
-            catch
-            {
-                // Robustness safety guard
-            }
-        }
-
-        if (_notificationRouter is not null)
-        {
-            _notificationRouter.DeviceNotificationReceived -= OnDeviceNotificationReceived;
-        }
-
-        (_deviceProvider as IDisposable)?.Dispose();
-        (_defaultDeviceProvider as IDisposable)?.Dispose();
-        (_volumeProvider as IDisposable)?.Dispose();
-        (_formatProvider as IDisposable)?.Dispose();
-        (_audioEnhancementProvider as IDisposable)?.Dispose();
-        (_systemAudioProvider as IDisposable)?.Dispose();
-        _disposed = true;
-    }
-
-    private void OnDeviceNotificationReceived(string deviceId)
-    {
-        // Safe asynchronous offload to prevent MMDevice API deadlock/re-entrancy process crashes
-        Task.Run(() =>
-        {
-            try
-            {
-                AudioEndpointInfo? found = GetPlaybackDevices(AudioDeviceState.All)
-                    .FirstOrDefault(d => d.DeviceId.Equals(deviceId, StringComparison.OrdinalIgnoreCase));
-
-                if (found is null)
-                {
-                    found = GetRecordingDevices(AudioDeviceState.All)
-                        .FirstOrDefault(d => d.DeviceId.Equals(deviceId, StringComparison.OrdinalIgnoreCase));
-                }
-
-                if (found is not null && found.IsAvailable)
-                {
-                    var args = new AudioDeviceEventArgs
-                    {
-                        DeviceId = found.DeviceId,
-                        ContainerId = found.ContainerId,
-                        FriendlyName = found.FriendlyName,
-                        FullName = found.FullName,
-                        Flow = found.Flow
-                    };
-
-                    _anyAudioDeviceConnected?.Invoke(this, args);
-
-                    lock (_targetedDevicesLock)
-                    {
-                        if (_targetedDevices.Any(target => IsDeviceMatch(target, args)))
-                        {
-                            _audioDeviceConnected?.Invoke(this, args);
-                        }
-                    }
-                }
-            }
-            catch
-            {
-                // Deaden background thread errors to honor stability guidelines
-            }
-        });
-    }
-
-    private void EnsureNotificationRegistration()
-    {
-        ThrowIfDisposed();
-
-        if (_comCallbackPointer != IntPtr.Zero)
-        {
-            return;
-        }
-
         lock (_notificationRegistrationLock)
         {
-            if (_comCallbackPointer != IntPtr.Zero)
-            {
-                return;
-            }
-
+            if (_disposed) return;
+            _disposed = true;
+            _lifetimeCancellation.Cancel();
+            _notificationRouter.DeviceNotificationReceived -= OnDeviceNotificationReceived;
+            _audioDeviceConnected = null;
+            _anyAudioDeviceConnected = null;
+            lock (_targetedDevicesLock) _targetedDevices.Clear();
             try
             {
+                if (_notificationsRegistered && _comEnumerator != null && _comCallbackPointer != IntPtr.Zero)
+                    Marshal.ThrowExceptionForHR(_comEnumerator.UnregisterEndpointNotificationCallback(_comCallbackPointer));
+            }
+            catch (Exception ex) { System.Diagnostics.Trace.TraceWarning("WindowsAudioController/Dispose: Notification unregister failed: {0}", ex.Message); }
+            finally
+            {
+                // GetOrCreateComInterfaceForObject returns an owned COM reference; release our reference after unregister.
+                if (_comCallbackPointer != IntPtr.Zero) Marshal.Release(_comCallbackPointer);
+                _comCallbackPointer = IntPtr.Zero;
+                _comEnumerator = null;
+                _notificationsRegistered = false;
+            }
+            foreach (object provider in new object[] { _deviceProvider, _defaultDeviceProvider, _volumeProvider, _formatProvider, _audioEnhancementProvider, _systemAudioProvider })
+            {
+                try { (provider as IDisposable)?.Dispose(); }
+                catch (Exception ex) { System.Diagnostics.Trace.TraceWarning("WindowsAudioController/Dispose: Provider cleanup failed: {0}", ex.Message); }
+            }
+            _lifetimeCancellation.Dispose();
+        }
+    }
+
+    /// <summary>Offloads native notification processing so the COM callback returns promptly.</summary>
+    private void OnDeviceNotificationReceived(string deviceId) => _ = Task.Run(() => ProcessDeviceNotification(deviceId));
+
+    /// <summary>Processes a notification using live inventory; invokes subscribers outside all internal locks.</summary>
+    internal void ProcessDeviceNotification(string deviceId)
+    {
+        AudioDeviceEventArgs? args = null;
+        EventHandler<AudioDeviceEventArgs>? any = null;
+        EventHandler<AudioDeviceEventArgs>? targeted = null;
+        try
+        {
+            lock (_notificationRegistrationLock)
+            {
+                if (_disposed) return;
+                AudioEndpointInfo[] inventory = _deviceProvider.GetPlaybackDevices(AudioDeviceState.All)
+                    .Concat(_deviceProvider.GetRecordingDevices(AudioDeviceState.All)).ToArray();
+                AudioEndpointInfo? found = inventory.FirstOrDefault(device => string.Equals(device.DeviceId, deviceId, StringComparison.OrdinalIgnoreCase));
+                if (found == null || !found.State.HasFlag(AudioDeviceState.Active)) return;
+                args = new() { DeviceId = found.DeviceId, ContainerId = found.ContainerId, FriendlyName = found.FriendlyName, FullName = found.FullName, Flow = found.Flow };
+                any = _anyAudioDeviceConnected;
+                AudioEndpointReference[] targets;
+                lock (_targetedDevicesLock) targets = _targetedDevices.ToArray();
+                foreach (AudioEndpointReference target in targets)
+                {
+                    try
+                    {
+                        AudioEndpointInfo match = AudioEndpointResolver.Resolve(target, target.Flow, inventory);
+                        if (match.Flow == found.Flow && string.Equals(match.DeviceId, found.DeviceId, StringComparison.OrdinalIgnoreCase) && match.State.HasFlag(AudioDeviceState.Active))
+                        { targeted = _audioDeviceConnected; break; }
+                    }
+                    catch (AmbiguousAudioEndpointException) { /* An ambiguous target must not produce an arrival notification. */ }
+                }
+            }
+        }
+        catch (Exception ex) { System.Diagnostics.Trace.TraceWarning("WindowsAudioController/ProcessDeviceNotification: Could not refresh endpoints: {0}", ex.Message); return; }
+        foreach (EventHandler<AudioDeviceEventArgs>? subscribers in new[] { any, targeted })
+        {
+            if (subscribers == null) continue;
+            foreach (EventHandler<AudioDeviceEventArgs> subscriber in subscribers.GetInvocationList())
+            {
+                if (_disposed) return;
+                try { subscriber(this, args!); }
+                catch (Exception ex) { System.Diagnostics.Trace.TraceWarning("WindowsAudioController/ProcessDeviceNotification: Subscriber failed: {0}", ex.Message); }
+            }
+        }
+    }
+
+    /// <summary>Attempts notification registration; failed attempts remain retryable and waits retain polling.</summary>
+    private void EnsureNotificationRegistration()
+    {
+        lock (_notificationRegistrationLock)
+        {
+            ThrowIfDisposed();
+            if (_notificationsRegistered) return;
+            try
+            {
+                if (_tryRegisterNotifications != null)
+                { _notificationsRegistered = _tryRegisterNotifications(); return; }
                 _comEnumerator = CoreAudioUtilities.CreateEnumerator();
                 _comCallbackPointer = ComWrappers.GetOrCreateComInterfaceForObject(_notificationRouter, CreateComInterfaceFlags.None);
-                _comEnumerator.RegisterEndpointNotificationCallback(_comCallbackPointer);
+                Marshal.ThrowExceptionForHR(_comEnumerator.RegisterEndpointNotificationCallback(_comCallbackPointer));
+                _notificationsRegistered = true;
             }
-            catch
+            catch (Exception ex)
             {
-                _comEnumerator = null;
+                if (_comCallbackPointer != IntPtr.Zero) Marshal.Release(_comCallbackPointer);
                 _comCallbackPointer = IntPtr.Zero;
+                _comEnumerator = null;
+                _notificationsRegistered = false;
+                System.Diagnostics.Trace.TraceWarning("WindowsAudioController/EnsureNotificationRegistration: Using availability rechecks after registration failure: {0}", ex.Message);
             }
         }
     }
 
+    /// <summary>Checks unique live identity and active state while protecting provider lifetime.</summary>
     private bool CheckIfDeviceAlreadyActive(AudioEndpointReference target)
     {
-        IEnumerable<AudioEndpointInfo> currentDevices;
-        if (target.Flow == AudioFlow.Capture)
+        lock (_notificationRegistrationLock)
         {
-            currentDevices = GetRecordingDevices(AudioDeviceState.Active);
-        }
-        else if (target.Flow == AudioFlow.Render)
-        {
-            currentDevices = GetPlaybackDevices(AudioDeviceState.Active);
-        }
-        else
-        {
-            currentDevices = GetPlaybackDevices(AudioDeviceState.Active).Concat(GetRecordingDevices(AudioDeviceState.Active));
-        }
-
-        foreach (var existing in currentDevices)
-        {
-            var incomingDummy = new AudioDeviceEventArgs
+            ThrowIfDisposed();
+            IEnumerable<AudioEndpointInfo> inventory = target.Flow switch
             {
-                DeviceId = existing.DeviceId,
-                ContainerId = existing.ContainerId,
-                FriendlyName = existing.FriendlyName,
-                FullName = existing.FullName,
-                Flow = existing.Flow
+                AudioFlow.Render => _deviceProvider.GetPlaybackDevices(AudioDeviceState.All),
+                AudioFlow.Capture => _deviceProvider.GetRecordingDevices(AudioDeviceState.All),
+                _ => _deviceProvider.GetPlaybackDevices(AudioDeviceState.All).Concat(_deviceProvider.GetRecordingDevices(AudioDeviceState.All))
             };
-
-            if (IsDeviceMatch(target, incomingDummy))
-            {
-                return true;
-            }
+            try { return AudioEndpointResolver.Resolve(target, target.Flow, inventory).State.HasFlag(AudioDeviceState.Active); }
+            catch (AmbiguousAudioEndpointException) { return false; }
         }
-
-        return false;
-    }
-
-    private static bool IsDeviceMatch(AudioEndpointReference target, AudioDeviceEventArgs incoming)
-    {
-        if (!string.IsNullOrWhiteSpace(target.DeviceId) &&
-            target.DeviceId.Equals(incoming.DeviceId, StringComparison.OrdinalIgnoreCase))
-        {
-            return true;
-        }
-
-        if (!string.IsNullOrWhiteSpace(target.ContainerId) &&
-            target.ContainerId.Equals(incoming.ContainerId, StringComparison.OrdinalIgnoreCase))
-        {
-            return true;
-        }
-
-        if (!string.IsNullOrWhiteSpace(target.FullName) &&
-            target.FullName.Equals(incoming.FullName, StringComparison.OrdinalIgnoreCase))
-        {
-            return true;
-        }
-
-        if (!string.IsNullOrWhiteSpace(target.FriendlyName) &&
-            target.FriendlyName.Equals(incoming.FriendlyName, StringComparison.OrdinalIgnoreCase))
-        {
-            return true;
-        }
-
-        return false;
     }
 
     private void CaptureEndpointVisibilities(AudioProfile profile)
@@ -635,7 +571,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
                 Flow = endpointVisibility.Flow
             };
 
-            AudioEndpointInfo resolvedEndpoint = ResolveEndpointForApply(endpointReference, endpointVisibility.Flow);
+            AudioEndpointInfo resolvedEndpoint = ResolveEndpointForApply(endpointReference, endpointVisibility.Flow, result);
             if (resolvedEndpoint.State.HasFlag(AudioDeviceState.NotPresent))
             {
                 result.Messages.Add(AudioOperationMessage.Info(
@@ -647,7 +583,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
             TryApplySetting(
                 result,
                 $"endpoint visibility for {endpointVisibility.FriendlyName ?? string.Empty}",
-                () => SetDeviceDisabled(endpointReference.DeviceId, endpointVisibility.IsDisabled));
+                () => _setEndpointDisabled(resolvedEndpoint.DeviceId, endpointVisibility.IsDisabled));
         }
     }
 
@@ -790,20 +726,23 @@ public sealed class WindowsAudioController : IWindowsAudioController
 
     private void ApplyPlaybackProfile(PlaybackAudioProfile playback, AudioProfileApplyResult result)
     {
-        if (playback.IsDefaultConsolePlaybackDeviceEnabled && CanApplyEndpointSetting(playback.ConsoleDevice, AudioFlow.Render, "playback console device", result) && !IsCurrentDefaultConsolePlaybackDevice(playback.ConsoleDevice))
+        AudioEndpointReference multimedia = ResolveReferenceForApply(playback.MultimediaDevice, AudioFlow.Render, result);
+        AudioEndpointReference console = ResolveReferenceForApply(playback.ConsoleDevice, AudioFlow.Render, result);
+        AudioEndpointReference communications = ResolveReferenceForApply(playback.CommunicationsDevice, AudioFlow.Render, result);
+        if (playback.IsDefaultConsolePlaybackDeviceEnabled && CanApplyEndpointSetting(console, AudioFlow.Render, "playback console device", result) && !IsCurrentDefaultConsolePlaybackDevice(console))
         {
-            TryApplySetting(result, "playback console default device", () => _defaultDeviceProvider.SetDefaultConsolePlaybackDevice(playback.ConsoleDevice));
+            TryApplySetting(result, "playback console default device", () => _defaultDeviceProvider.SetDefaultConsolePlaybackDevice(console));
         }
 
-        bool canApplyMultimediaDevice = CanApplyEndpointSetting(playback.MultimediaDevice, AudioFlow.Render, "playback multimedia device", result);
-        if (playback.IsDefaultPlaybackDeviceEnabled && canApplyMultimediaDevice && !IsCurrentDefaultPlaybackDevice(playback.MultimediaDevice))
+        bool canApplyMultimediaDevice = CanApplyEndpointSetting(multimedia, AudioFlow.Render, "playback multimedia device", result);
+        if (playback.IsDefaultPlaybackDeviceEnabled && canApplyMultimediaDevice && !IsCurrentDefaultPlaybackDevice(multimedia))
         {
-            TryApplySetting(result, "playback multimedia default device", () => _defaultDeviceProvider.SetDefaultPlaybackDevice(playback.MultimediaDevice));
+            TryApplySetting(result, "playback multimedia default device", () => _defaultDeviceProvider.SetDefaultPlaybackDevice(multimedia));
         }
 
-        if (playback.IsDefaultCommunicationsPlaybackDeviceEnabled && CanApplyEndpointSetting(playback.CommunicationsDevice, AudioFlow.Render, "playback communications device", result) && !IsCurrentDefaultCommunicationsPlaybackDevice(playback.CommunicationsDevice))
+        if (playback.IsDefaultCommunicationsPlaybackDeviceEnabled && CanApplyEndpointSetting(communications, AudioFlow.Render, "playback communications device", result) && !IsCurrentDefaultCommunicationsPlaybackDevice(communications))
         {
-            TryApplySetting(result, "playback communications default device", () => _defaultDeviceProvider.SetDefaultCommunicationsPlaybackDevice(playback.CommunicationsDevice));
+            TryApplySetting(result, "playback communications default device", () => _defaultDeviceProvider.SetDefaultCommunicationsPlaybackDevice(communications));
         }
 
         if (playback.IsSpeakerConfigurationEnabled && canApplyMultimediaDevice && playback.SpeakerConfiguration.IsConfigured)
@@ -813,11 +752,11 @@ public sealed class WindowsAudioController : IWindowsAudioController
                 { "{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},3", $"int:{playback.SpeakerConfiguration.ChannelMask}" },
                 { "{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},6", $"int:{playback.SpeakerConfiguration.FullRangeSpeakersMask}" }
             };
-            TryApplySetting(result, "playback speaker configuration", () => ApplyPropertiesViaPropertyStore(playback.MultimediaDevice.DeviceId, speakerProperties));
+            TryApplySetting(result, "playback speaker configuration", () => _applyEndpointProperties(multimedia.DeviceId, speakerProperties));
         }
 
-        if (playback.IsVolumeEnabled && canApplyMultimediaDevice && IsValidVolume(playback.VolumePercent, "playback volume", result)) TryApplySetting(result, "playback volume", () => _volumeProvider.SetVolumePercent(playback.MultimediaDevice, playback.VolumePercent));
-        if (playback.IsMuteEnabled && canApplyMultimediaDevice) TryApplySetting(result, "playback mute", () => _volumeProvider.SetMute(playback.MultimediaDevice, playback.IsMuted));
+        if (playback.IsVolumeEnabled && canApplyMultimediaDevice && IsValidVolume(playback.VolumePercent, "playback volume", result)) TryApplySetting(result, "playback volume", () => _volumeProvider.SetVolumePercent(multimedia, playback.VolumePercent));
+        if (playback.IsMuteEnabled && canApplyMultimediaDevice) TryApplySetting(result, "playback mute", () => _volumeProvider.SetMute(multimedia, playback.IsMuted));
         if (playback.IsFormatEnabled && canApplyMultimediaDevice)
         {
             AudioFormatProfile formatToApply = new()
@@ -831,61 +770,64 @@ public sealed class WindowsAudioController : IWindowsAudioController
                 SampleFormat = playback.StreamFormat.SampleFormat,
                 Mode = playback.StreamFormat.Mode
             };
-            TryApplySetting(result, "playback format", () => _formatProvider.SetFormat(playback.MultimediaDevice, formatToApply));
+            TryApplySetting(result, "playback format", () => _formatProvider.SetFormat(multimedia, formatToApply));
         }
-        if (playback.IsAudioEnhancementsEnabled && canApplyMultimediaDevice) TryApplySetting(result, "playback audio enhancements", () => _audioEnhancementProvider.SetAudioEnhancements(playback.MultimediaDevice, playback.AudioEnhancements));
+        if (playback.IsAudioEnhancementsEnabled && canApplyMultimediaDevice) TryApplySetting(result, "playback audio enhancements", () => _audioEnhancementProvider.SetAudioEnhancements(multimedia, playback.AudioEnhancements));
         if (playback.IsChannelVolumeEnabled && canApplyMultimediaDevice &&
             IsValidVolume(playback.VolumeLeft, "playback left channel volume", result) &&
             IsValidVolume(playback.VolumeRight, "playback right channel volume", result))
         {
-            TryApplySetting(result, "playback channel volumes", () => SetChannelVolumes(playback.MultimediaDevice.DeviceId, playback.VolumeLeft, playback.VolumeRight));
+            TryApplySetting(result, "playback channel volumes", () => _setEndpointChannelVolumes(multimedia.DeviceId, playback.VolumeLeft, playback.VolumeRight));
         }
         
-        ApplyRoleEndpointFxProperties(playback.MultimediaDevice, AudioFlow.Render, "playback multimedia APO properties", result);
-        ApplyRoleEndpointFxProperties(playback.ConsoleDevice, AudioFlow.Render, "playback console APO properties", result);
-        ApplyRoleEndpointFxProperties(playback.CommunicationsDevice, AudioFlow.Render, "playback communications APO properties", result);
+        ApplyRoleEndpointFxProperties(multimedia, AudioFlow.Render, "playback multimedia APO properties", result);
+        ApplyRoleEndpointFxProperties(console, AudioFlow.Render, "playback console APO properties", result);
+        ApplyRoleEndpointFxProperties(communications, AudioFlow.Render, "playback communications APO properties", result);
 
         result.Messages.Add(AudioOperationMessage.Info(AudioMessageCode.ProfileApplied, "Playback audio profile applied."));
     }
 
     private void ApplyRecordingProfile(RecordingAudioProfile recording, AudioProfileApplyResult result)
     {
-        if (recording.IsDefaultConsoleRecordingDeviceEnabled && CanApplyEndpointSetting(recording.ConsoleDevice, AudioFlow.Capture, "recording console device", result) && !IsCurrentDefaultConsoleRecordingDevice(recording.ConsoleDevice))
+        AudioEndpointReference multimedia = ResolveReferenceForApply(recording.MultimediaDevice, AudioFlow.Capture, result);
+        AudioEndpointReference console = ResolveReferenceForApply(recording.ConsoleDevice, AudioFlow.Capture, result);
+        AudioEndpointReference communications = ResolveReferenceForApply(recording.CommunicationsDevice, AudioFlow.Capture, result);
+        if (recording.IsDefaultConsoleRecordingDeviceEnabled && CanApplyEndpointSetting(console, AudioFlow.Capture, "recording console device", result) && !IsCurrentDefaultConsoleRecordingDevice(console))
         {
-            TryApplySetting(result, "recording console default device", () => _defaultDeviceProvider.SetDefaultConsoleRecordingDevice(recording.ConsoleDevice));
+            TryApplySetting(result, "recording console default device", () => _defaultDeviceProvider.SetDefaultConsoleRecordingDevice(console));
         }
 
-        bool canApplyMultimediaDevice = CanApplyEndpointSetting(recording.MultimediaDevice, AudioFlow.Capture, "recording multimedia device", result);
-        if (recording.IsDefaultRecordingDeviceEnabled && canApplyMultimediaDevice && !IsCurrentDefaultRecordingDevice(recording.MultimediaDevice))
+        bool canApplyMultimediaDevice = CanApplyEndpointSetting(multimedia, AudioFlow.Capture, "recording multimedia device", result);
+        if (recording.IsDefaultRecordingDeviceEnabled && canApplyMultimediaDevice && !IsCurrentDefaultRecordingDevice(multimedia))
         {
-            TryApplySetting(result, "recording multimedia default device", () => _defaultDeviceProvider.SetDefaultRecordingDevice(recording.MultimediaDevice));
+            TryApplySetting(result, "recording multimedia default device", () => _defaultDeviceProvider.SetDefaultRecordingDevice(multimedia));
         }
 
-        if (recording.IsDefaultCommunicationsRecordingDeviceEnabled && CanApplyEndpointSetting(recording.CommunicationsDevice, AudioFlow.Capture, "recording communications device", result) && !IsCurrentDefaultCommunicationsRecordingDevice(recording.CommunicationsDevice))
+        if (recording.IsDefaultCommunicationsRecordingDeviceEnabled && CanApplyEndpointSetting(communications, AudioFlow.Capture, "recording communications device", result) && !IsCurrentDefaultCommunicationsRecordingDevice(communications))
         {
-            TryApplySetting(result, "recording communications default device", () => _defaultDeviceProvider.SetDefaultCommunicationsRecordingDevice(recording.CommunicationsDevice));
+            TryApplySetting(result, "recording communications default device", () => _defaultDeviceProvider.SetDefaultCommunicationsRecordingDevice(communications));
         }
 
-        if (recording.IsVolumeEnabled && canApplyMultimediaDevice && IsValidVolume(recording.VolumePercent, "recording volume", result)) TryApplySetting(result, "recording volume", () => _volumeProvider.SetVolumePercent(recording.MultimediaDevice, recording.VolumePercent));
-        if (recording.IsMuteEnabled && canApplyMultimediaDevice) TryApplySetting(result, "recording mute", () => _volumeProvider.SetMute(recording.MultimediaDevice, recording.IsMuted));
-        if (recording.IsFormatEnabled && canApplyMultimediaDevice) TryApplySetting(result, "recording format", () => _formatProvider.SetFormat(recording.MultimediaDevice, recording.StreamFormat));
-        if (recording.IsAudioEnhancementsEnabled && canApplyMultimediaDevice) TryApplySetting(result, "recording audio enhancements", () => _audioEnhancementProvider.SetAudioEnhancements(recording.MultimediaDevice, recording.AudioEnhancements));
+        if (recording.IsVolumeEnabled && canApplyMultimediaDevice && IsValidVolume(recording.VolumePercent, "recording volume", result)) TryApplySetting(result, "recording volume", () => _volumeProvider.SetVolumePercent(multimedia, recording.VolumePercent));
+        if (recording.IsMuteEnabled && canApplyMultimediaDevice) TryApplySetting(result, "recording mute", () => _volumeProvider.SetMute(multimedia, recording.IsMuted));
+        if (recording.IsFormatEnabled && canApplyMultimediaDevice) TryApplySetting(result, "recording format", () => _formatProvider.SetFormat(multimedia, recording.StreamFormat));
+        if (recording.IsAudioEnhancementsEnabled && canApplyMultimediaDevice) TryApplySetting(result, "recording audio enhancements", () => _audioEnhancementProvider.SetAudioEnhancements(multimedia, recording.AudioEnhancements));
         if (recording.IsChannelVolumeEnabled && canApplyMultimediaDevice &&
             IsValidVolume(recording.VolumeLeft, "recording left channel volume", result) &&
             IsValidVolume(recording.VolumeRight, "recording right channel volume", result))
         {
-            TryApplySetting(result, "recording channel volumes", () => SetChannelVolumes(recording.MultimediaDevice.DeviceId, recording.VolumeLeft, recording.VolumeRight));
+            TryApplySetting(result, "recording channel volumes", () => _setEndpointChannelVolumes(multimedia.DeviceId, recording.VolumeLeft, recording.VolumeRight));
         }
 
         // Restore Channel Layout Configuration Masks securely via Property Store
         if (recording.IsFormatEnabled && canApplyMultimediaDevice && recording.StreamFormat.ChannelMask > 0)
         {
             var maskDict = new Dictionary<string, string> { { "{14242002-0320-4de4-9555-a7d82b73c286},3", $"int:{recording.StreamFormat.ChannelMask}" } };
-            TryApplySetting(result, "recording channel mask property", () => ApplyPropertiesViaPropertyStore(recording.MultimediaDevice.DeviceId, maskDict));
+            TryApplySetting(result, "recording channel mask property", () => _applyEndpointProperties(multimedia.DeviceId, maskDict));
         }
-        ApplyRoleEndpointFxProperties(recording.MultimediaDevice, AudioFlow.Capture, "recording multimedia APO properties", result);
-        ApplyRoleEndpointFxProperties(recording.ConsoleDevice, AudioFlow.Capture, "recording console APO properties", result);
-        ApplyRoleEndpointFxProperties(recording.CommunicationsDevice, AudioFlow.Capture, "recording communications APO properties", result);
+        ApplyRoleEndpointFxProperties(multimedia, AudioFlow.Capture, "recording multimedia APO properties", result);
+        ApplyRoleEndpointFxProperties(console, AudioFlow.Capture, "recording console APO properties", result);
+        ApplyRoleEndpointFxProperties(communications, AudioFlow.Capture, "recording communications APO properties", result);
 
         result.Messages.Add(AudioOperationMessage.Info(AudioMessageCode.ProfileApplied, "Recording audio profile applied."));
     }
@@ -916,18 +858,36 @@ public sealed class WindowsAudioController : IWindowsAudioController
             return;
         }
 
-        TryApplySetting(result, settingName, () => ApplyPropertiesViaPropertyStore(endpoint.DeviceId, endpoint.ApoFxProperties));
+        TryApplySetting(result, settingName, () => _applyEndpointProperties(endpoint.DeviceId, endpoint.ApoFxProperties));
+    }
+
+    /// <summary>Copies saved per-role settings onto a resolved live identity without modifying the saved reference.</summary>
+    private AudioEndpointReference ResolveReferenceForApply(AudioEndpointReference endpoint, AudioFlow flow, AudioProfileApplyResult result)
+    {
+        AudioEndpointInfo resolved = ResolveEndpointForApply(endpoint, flow, result);
+        return new AudioEndpointReference
+        {
+            DeviceId = resolved.DeviceId, ContainerId = resolved.ContainerId, FriendlyName = resolved.FriendlyName,
+            FullName = resolved.FullName, Flow = endpoint.Flow == AudioFlow.Unknown ? flow : endpoint.Flow,
+            IsEndpointEnabled = endpoint.IsEndpointEnabled, HardwareDetails = endpoint.HardwareDetails,
+            ApoFxProperties = new Dictionary<string, string>(endpoint.ApoFxProperties ?? new())
+        };
     }
 
     private bool CanApplyEndpointSetting(AudioEndpointReference endpoint, AudioFlow expectedFlow, string settingName, AudioProfileApplyResult result)
     {
-        if (!endpoint.IsEndpointEnabled && string.IsNullOrWhiteSpace(endpoint.DeviceId) && string.IsNullOrWhiteSpace(endpoint.ContainerId) && string.IsNullOrWhiteSpace(endpoint.FriendlyName))
+        if (endpoint.Flow != AudioFlow.Unknown && endpoint.Flow != expectedFlow)
+        {
+            result.Messages.Add(AudioOperationMessage.Error(AudioMessageCode.InvalidAudioFlow, $"{settingName} has the wrong endpoint direction."));
+            return false;
+        }
+        if (string.IsNullOrWhiteSpace(endpoint.DeviceId) && string.IsNullOrWhiteSpace(endpoint.ContainerId) && string.IsNullOrWhiteSpace(endpoint.FullName) && string.IsNullOrWhiteSpace(endpoint.FriendlyName))
         {
             result.Messages.Add(AudioOperationMessage.Error(AudioMessageCode.DeviceMissing, $"{settingName} could not be applied because no endpoint reference was provided."));
             return false;
         }
 
-        AudioEndpointInfo resolvedEndpoint = ResolveEndpointForApply(endpoint, expectedFlow);
+        AudioEndpointInfo resolvedEndpoint = ResolveEndpointForApply(endpoint, expectedFlow, result, recordResolution: false);
         if (string.IsNullOrWhiteSpace(resolvedEndpoint.DeviceId) || resolvedEndpoint.State.HasFlag(AudioDeviceState.NotPresent))
         {
             result.Messages.Add(AudioOperationMessage.Error(AudioMessageCode.DeviceUnavailable, $"{settingName} could not be applied because the endpoint is not present."));
@@ -943,11 +903,21 @@ public sealed class WindowsAudioController : IWindowsAudioController
         return true;
     }
 
-    private AudioEndpointInfo ResolveEndpointForApply(AudioEndpointReference endpoint, AudioFlow expectedFlow)
+    private AudioEndpointInfo ResolveEndpointForApply(AudioEndpointReference endpoint, AudioFlow expectedFlow, AudioProfileApplyResult? result = null, bool recordResolution = true)
     {
         try
         {
-            return _deviceProvider.ResolveEndpoint(endpoint, expectedFlow);
+            if (endpoint.Flow != AudioFlow.Unknown && endpoint.Flow != expectedFlow)
+                return AudioEndpointResolver.Missing(endpoint, expectedFlow);
+            AudioEndpointInfo resolved = _deviceProvider.ResolveEndpoint(endpoint, expectedFlow);
+            if (recordResolution && result != null && !resolved.State.HasFlag(AudioDeviceState.NotPresent) && !string.IsNullOrWhiteSpace(endpoint.DeviceId) && !string.IsNullOrWhiteSpace(resolved.DeviceId))
+                result.ResolvedDeviceIds[endpoint.DeviceId] = resolved.DeviceId;
+            return resolved;
+        }
+        catch (AmbiguousAudioEndpointException ex)
+        {
+            result?.Messages.Add(AudioOperationMessage.Error(AudioMessageCode.AmbiguousEndpoint, ex.Message));
+            return AudioEndpointResolver.Missing(endpoint, expectedFlow);
         }
         catch
         {
@@ -1077,7 +1047,7 @@ public sealed class WindowsAudioController : IWindowsAudioController
 
     private Models.AudioEndpointInfo? ValidateEndpoint(AudioEndpointReference endpoint, AudioFlow expectedFlow, string propertyName, AudioProfileValidationResult result, bool allowDisabled = false)
     {
-        if (!endpoint.IsEndpointEnabled)
+        if (string.IsNullOrWhiteSpace(endpoint.DeviceId) && string.IsNullOrWhiteSpace(endpoint.ContainerId) && string.IsNullOrWhiteSpace(endpoint.FullName) && string.IsNullOrWhiteSpace(endpoint.FriendlyName))
         {
             result.Messages.Add(AudioOperationMessage.Error(AudioMessageCode.DeviceMissing, $"{propertyName} does not contain a device reference."));
             return null;
@@ -1089,7 +1059,13 @@ public sealed class WindowsAudioController : IWindowsAudioController
             return null;
         }
 
-        Models.AudioEndpointInfo resolved = _deviceProvider.ResolveEndpoint(endpoint, expectedFlow);
+        Models.AudioEndpointInfo resolved;
+        try { resolved = _deviceProvider.ResolveEndpoint(endpoint, expectedFlow); }
+        catch (AmbiguousAudioEndpointException ex)
+        {
+            result.Messages.Add(AudioOperationMessage.Error(AudioMessageCode.AmbiguousEndpoint, ex.Message));
+            return null;
+        }
         if (string.IsNullOrWhiteSpace(resolved.DeviceId))
         {
             result.Messages.Add(AudioOperationMessage.Error(AudioMessageCode.DeviceNotFound, $"{propertyName} could not be found."));
